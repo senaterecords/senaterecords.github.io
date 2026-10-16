@@ -275,13 +275,17 @@ test("a click fades the yellow wash out quickly instead of wiping it away", asyn
   await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22");
   await page.locator("[data-result] a.ctx").first().click();
   await expect(page.locator(".flash").first()).toBeVisible();
-  await page.waitForTimeout(500); // fully in
-  await page.locator("#r-25 p").first().click();
-  const right = await page.evaluate(() => {
-    const layer = document.querySelector(".flash-layer");
-    return layer ? Number(getComputedStyle(layer).opacity) : 0;
+  const strength = () => page.evaluate(() => { const layer = document.querySelector(".flash-layer"); return layer ? Number(getComputedStyle(layer).opacity) : 0; });
+  await expect.poll(strength).toBeGreaterThan(0.8); // fully in
+  // Click and look in the same moment, so a busy machine can't let the wash end on its own in between.
+  const [before, after] = await page.evaluate(() => {
+    const layer = document.querySelector(".flash-layer")!;
+    const was = Number(getComputedStyle(layer).opacity);
+    document.querySelector<HTMLElement>("#r-25 p")!.click();
+    return [was, document.querySelector(".flash-layer") ? Number(getComputedStyle(layer).opacity) : 0];
   });
-  expect(right).toBeGreaterThan(0.3); // still there just after the click, on its way out
+  expect(before).toBeGreaterThan(0.3);
+  expect(after).toBeGreaterThan(0.3); // still there just after the click, on its way out
   await expect(page.locator(".flash")).toHaveCount(0, { timeout: 1500 });
 });
 
@@ -602,4 +606,31 @@ test("filter counts stay right when the OR groups hold phrases", async ({ page }
   await page.goto(`search/?q=${encodeURIComponent('"senate will come to order" OR "executive budget"')}`);
   await expect.poll(async () => ((await row.count()) ? Number(await row.locator("b").textContent()) : 0)).toBeGreaterThanOrEqual(Math.max(a, b));
   expect(Number(await row.locator("b").textContent())).toBeLessThanOrEqual(a + b);
+});
+
+test("on a phone, the passage a result opens on lands clear of the reader's bars, on a small screen too", async ({ page }, info) => {
+  test.skip(info.project.name !== "phone");
+  for (const [width, height] of [[320, 568], [390, 664]]) {
+    await page.setViewportSize({ width, height });
+    for (const q of ['"Campaign for Fiscal Equity"', "budget"]) {
+      await page.goto(`search/?q=${encodeURIComponent(q)}`);
+      await page.locator("[data-result] a.ctx").first().click();
+      await expect(page.locator(".flash").first()).toBeAttached();
+      await page.waitForTimeout(800); // the reader's bars are in
+      const at = await page.evaluate(() => {
+        const bottomOf = (sel: string) => { const el = document.querySelector(sel); const r = el?.getBoundingClientRect(); return r && r.height ? r.bottom : 0; };
+        const bar = document.querySelector(".remarkbar")?.getBoundingClientRect();
+        const marks = [...document.querySelectorAll(".flash")].map((m) => m.getBoundingClientRect());
+        return {
+          clearTop: Math.max(bottomOf(".bar"), bottomOf("#reader-notices"), bottomOf(".rd-who")),
+          clearBottom: bar && bar.height ? bar.top : innerHeight,
+          top: Math.min(...marks.map((r) => r.top)), bottom: Math.max(...marks.map((r) => r.bottom)),
+        };
+      });
+      const label = `${q} at ${width}x${height}: ${JSON.stringify(at)}`;
+      expect(at.top, label).toBeGreaterThanOrEqual(at.clearTop);
+      // All of it shows when it fits between the bars.
+      if (at.bottom - at.top <= at.clearBottom - at.clearTop) expect(at.bottom, label).toBeLessThanOrEqual(at.clearBottom);
+    }
+  }
 });

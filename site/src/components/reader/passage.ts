@@ -21,8 +21,9 @@ function textOf(section: HTMLElement) {
   return { nodes, starts, text };
 }
 
-/** The named passage in a turn as one rectangle per text run, or null when it can't be found. */
-export function passageIn(section: HTMLElement, param: string): { box: () => DOMRect; rects: () => DOMRect[] } | null {
+/** The named passage in a turn as one rectangle per text run, and the top and bottom of all of it; null when it can't
+ * be found. */
+export function passageIn(section: HTMLElement, param: string): { span: () => { top: number; bottom: number }; rects: () => DOMRect[] } | null {
   const { nodes, starts, text } = textOf(section);
   const at = locatePassage(text, param);
   if (!at) return null;
@@ -39,7 +40,12 @@ export function passageIn(section: HTMLElement, param: string): { box: () => DOM
   });
   if (!pieces.length) return null;
   const rects = () => pieces.flatMap((r) => [...r.getClientRects()]).filter((r) => r.width > 1 && r.height > 1);
-  return { box: () => pieces[0].getBoundingClientRect(), rects };
+  const span = () => {
+    const first = pieces[0].getBoundingClientRect();
+    const last = pieces[pieces.length - 1].getBoundingClientRect();
+    return { top: first.top, bottom: Math.max(first.bottom, last.bottom) };
+  };
+  return { span, rects };
 }
 
 /** Washes the passage yellow: it fades in, holds a moment and fades out over about three seconds, staying on the words
