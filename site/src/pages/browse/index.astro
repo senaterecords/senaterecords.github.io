@@ -1,0 +1,28 @@
+---
+// Transcripts by year. Opens the latest year; the list of years stays for anything that doesn't follow refreshes.
+import Base from "../../layouts/Base.astro";
+import { years } from "../../lib/data";
+import { plural } from "../../lib/format";
+import { url } from "../../lib/url";
+
+const all = years();
+---
+<Base title="Transcripts" description="Every New York State Senate floor transcript since 1993 and public hearing since 2011, by year.">
+  <meta slot="head" http-equiv="refresh" content={`0; url=${url(`/browse/${all[0]?.year}/`)}`} />
+  <section class="yi">
+    <h1 class="page-h1">Transcripts</h1>
+    <p class="page-sub">Choose a year.</p>
+    <ul>
+      {all.map(({ year, count }) => <li><a href={url(`/browse/${year}/`)}>{year}</a><span class="num">{plural(count, "transcript")}</span></li>)}
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .yi { padding: 40px 0 0; max-width: 640px; }
+  .yi ul { margin-top: 18px; border-top: 1.5px solid var(--color-ink); }
+  .yi li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-rule); font-size: 14.5px; }
+  .yi li a { font-weight: 600; color: var(--color-act); }
+  .yi li a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .yi li span { color: var(--color-ink3); font-size: 13px; }
+</style>

@@ -1,0 +1,115 @@
+---
+// One year of transcripts by month, as in "Browse transcripts by year" and the phone browse page.
+import Base from "../../layouts/Base.astro";
+import { transcriptIndex, years } from "../../lib/data";
+import { dayDate, hearingTitle, plainPages, plural, transcriptTitle } from "../../lib/format";
+import type { TranscriptSummary } from "../../lib/types";
+import { url } from "../../lib/url";
+
+export function getStaticPaths() {
+  return years().map(({ year }) => ({ params: { year: String(year) } }));
+}
+
+const year = Number(Astro.params.year);
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const list = transcriptIndex().filter((t) => t.date.startsWith(`${year}-`));
+const legislative = (t: TranscriptSummary) => t.dayType === "LEGISLATIVE";
+const floor = list.filter((t) => t.kind === "floor" && !legislative(t)).length;
+const hearings = list.filter((t) => t.kind === "hearing").length;
+const legislativeDays = list.filter(legislative).length;
+
+const months = new Map<number, TranscriptSummary[]>();
+for (const t of list) {
+  const m = Number(t.date.slice(5, 7));
+  months.set(m, [...(months.get(m) ?? []), t]);
+}
+
+const title = (t: TranscriptSummary) => (legislative(t) && t.kind === "floor" ? "Legislative day" : transcriptTitle(t));
+const detail = (t: TranscriptSummary) => {
+  if (t.kind === "hearing") return t.committees.map(hearingTitle).join(" · ") || "Public hearing";
+  if (legislative(t) && !t.speakers) return "No business conducted";
+  if (t.plainText) return "Speaker details aren't available";
+  return `${plural(t.speakers, "senator")} spoke · ${plural(t.billsDebated, "bill")} debated`;
+};
+const pages = (t: TranscriptSummary) =>
+  !t.pages ? "" : t.kind === "hearing" ? `${t.pages[1] - t.pages[0] + 1} pp.` : plainPages(t.pages[0], t.pages[1]);
+---
+<Base title={`${year} transcripts`} description={`New York State Senate floor sessions and public hearings in ${year}.`} wide>
+  <header class="pg-head">
+    <div class="pg-in">
+      <div class="pg-title">
+        <div>
+          <h1>{year} transcripts</h1>
+          <p class="pg-meta num">{[plural(floor, "floor session"), plural(hearings, "public hearing"), legislativeDays ? plural(legislativeDays, "legislative day") : ""].filter(Boolean).join(" · ")}</p>
+        </div>
+        <div class="acts">
+          <div class="seg" role="group" aria-label="Show">
+            <button type="button" data-kind="all" aria-pressed="true">All</button>
+            <button type="button" data-kind="floor" aria-pressed="false">Floor sessions</button>
+            <button type="button" data-kind="hearing" aria-pressed="false">Public hearings</button>
+          </div>
+        </div>
+      </div>
+      <nav class="yrs" aria-label="Years">
+        {years().map(({ year: y }) => <a class="num" href={url(`/browse/${y}/`)} aria-current={y === year ? "page" : undefined}>{y}</a>)}
+      </nav>
+    </div>
+  </header>
+
+  <div class="mon">
+    {[...months].map(([m, rows]) => (
+      <section class="mg">
+        <h2 class="sec-h2">{MONTHS[m - 1]} {year} <span class="num">{plural(rows.length, "transcript")}</span></h2>
+        <ul class="tr">
+          {rows.map((t) => (
+            <li class:list={{ ld: legislative(t) && !t.speakers }} data-kind={t.kind}>
+              <span class="d num">{dayDate(t.date)}</span>
+              <span class="t"><a href={url(`/transcripts/${t.slug}/`)}>{title(t)}</a><small>{detail(t)}</small></span>
+              <span class="p num">{pages(t)}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<script>
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>(".acts [data-kind]")];
+  for (const button of buttons) {
+    button.addEventListener("click", () => {
+      const kind = button.dataset.kind;
+      for (const b of buttons) b.setAttribute("aria-pressed", String(b === button));
+      for (const row of document.querySelectorAll<HTMLElement>(".tr li")) row.hidden = kind !== "all" && row.dataset.kind !== kind;
+      for (const group of document.querySelectorAll<HTMLElement>(".mg")) group.hidden = !group.querySelector(".tr li:not([hidden])");
+    });
+  }
+</script>
+
+<style>
+  .yrs { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 16px; padding-bottom: 16px; }
+  .yrs a { font-size: 13px; font-weight: 600; padding: 4px 10px; border: 1px solid var(--color-rule); border-radius: 5px; background: #fff; color: var(--color-ink2); }
+  .yrs a:hover { border-color: var(--color-ink); color: var(--color-ink); }
+  .yrs a[aria-current] { background: var(--color-ink); color: #fff; border-color: var(--color-ink); }
+  .mon { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+  .mg { padding-top: 18px; }
+  .mg[hidden], .tr li[hidden] { display: none; }
+  .sec-h2 span { font-weight: 500; color: var(--color-ink3); font-size: 13px; }
+  .tr li { display: grid; grid-template-columns: 120px minmax(0, 1fr) 140px; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--color-rule); font-size: 14px; align-items: baseline; }
+  .tr .d { font-weight: 650; }
+  .tr .t a { font-weight: 550; }
+  .tr .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
+  .tr .t small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; }
+  .tr .p { color: var(--color-ink3); font-size: 12.5px; text-align: right; }
+  .tr .ld { color: var(--color-ink3); }
+  .tr .ld .t a { font-weight: 450; color: var(--color-ink3); }
+  @media (max-width: 719.98px) {
+    .yrs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: -16px; padding-right: 16px; }
+    .mon { padding: 0 16px; }
+    .tr li { grid-template-columns: 1fr auto; gap: 2px 10px; border-bottom-color: var(--color-rule2); }
+    .tr .d { font-weight: 450; font-size: 12.5px; color: var(--color-ink3); }
+    .tr .p { grid-row: 1; grid-column: 2; }
+    .tr .t { grid-column: 1 / -1; }
+    .tr .t a { font-weight: 600; font-size: 14.5px; }
+  }
+</style>

@@ -1,6 +1,50 @@
 ---
+// The plain About page, as approved: what the site does, where the data comes from, citing. No quality numbers or gaps.
 import Base from "../layouts/Base.astro";
+import { SITE_NAME } from "../config";
+import { meta } from "../lib/data";
+import { count, longDate } from "../lib/format";
+
+const { counts, updatedAt } = meta();
 ---
-<Base title="About">
-  <h1 class="page-h1" style="padding-top: 40px">About</h1>
+<Base title="About" description={`${SITE_NAME} makes New York State Senate transcripts easy to search, read and cite.`}>
+  <div class="ab">
+    <div>
+      <h1 class="page-h1">About</h1>
+      <p class="lead">{SITE_NAME} makes New York State Senate transcripts easy to search, read and cite. Find what any senator said on the floor or in a public hearing, follow a bill's debate, and quote it with the official page number.</p>
+      <h2>Where the data comes from</h2>
+      <p>Transcripts, bills and member details come from the New York State Senate's Open Legislation API. The site checks for new transcripts every hour.</p>
+      <h2>Citing a transcript</h2>
+      <p>Page numbers match the official stenographic record, so every quote can be checked against the original.</p>
+    </div>
+    <aside class="qual">
+      <h2 class="qh">The archive</h2>
+      <dl>
+        <dt>Floor sessions, since 1993</dt><dd class="num">{count(counts.floorTranscripts)}</dd>
+        <dt>Public hearings, since 2011</dt><dd class="num">{count(counts.hearings)}</dd>
+        <dt>Senators</dt><dd class="num">{count(counts.senators)}</dd>
+        <dt>Bills</dt><dd class="num">{count(counts.bills)}</dd>
+      </dl>
+      <div class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt}>Updated {longDate(updatedAt)}</time></div>
+    </aside>
+  </div>
 </Base>
+
+<style>
+  .ab { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 48px; padding: 32px 0 0; }
+  .ab .page-h1 { margin-bottom: 14px; font-size: 30px; }
+  .ab p { font-family: var(--font-read); font-size: 17px; line-height: 1.6; color: #1D232B; max-width: 64ch; margin-bottom: 14px; }
+  .ab h2 { font-size: 15px; font-weight: 700; margin: 22px 0 8px; }
+  .qual { align-self: start; background: var(--color-pane); border: 1px solid var(--color-rule); border-radius: 8px; padding: 18px 20px; }
+  .qual .qh { font-size: 13px; font-weight: 700; margin: 0 0 10px; }
+  .qual dl { display: grid; grid-template-columns: 1fr auto; row-gap: 9px; font-size: 13.5px; }
+  .qual dt { color: var(--color-ink2); }
+  .qual dd { font-weight: 700; text-align: right; }
+  .qual .upd { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--color-rule); }
+  @media (max-width: 719.98px) {
+    .ab { grid-template-columns: 1fr; gap: 20px; padding-top: 20px; }
+    .ab .page-h1 { font-size: 28px; }
+    .ab p { font-size: 16.5px; margin-bottom: 12px; }
+    .ab h2 { margin: 18px 0 6px; }
+  }
+</style>
