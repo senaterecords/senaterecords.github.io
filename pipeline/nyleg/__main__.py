@@ -20,6 +20,20 @@ NEW_YORK = ZoneInfo("America/New_York")
 EXIT_AUTH = 3
 EXIT_API = 4
 EXIT_GATE = 5
+MAX_RATE = 10.0  # requests per second; a free public service, so never flood it
+
+
+def rate(value: str) -> float:
+    number = float(value)
+    if not 0 < number <= MAX_RATE:
+        raise argparse.ArgumentTypeError(f"must be more than 0 and at most {MAX_RATE:g} requests per second")
+    return number
+
+
+def api_client(requests_per_second: float | None) -> Client:
+    """One request per second by default; a faster rate is meant for the one-time backfill."""
+    interval = 1.0 / requests_per_second if requests_per_second else 1.0
+    return Client(os.environ.get("NYSENATE_API_KEY", ""), min_interval=interval)
 
 
 def years(spec: str) -> list[int]:
@@ -42,7 +56,7 @@ def new_york_now() -> datetime:
 
 def cmd_sync(args: argparse.Namespace) -> int:
     store = Store(Path(args.data))
-    client = Client(os.environ.get("NYSENATE_API_KEY", ""))
+    client = api_client(args.rate)
     now = new_york_now()
     result = sync.SyncResult()
     if args.backfill:
@@ -113,6 +127,7 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--hearings", action="store_true", help="re-list this year's public hearings")
     s.add_argument("--rescan-bills", action="store_true", help="look for bill mentions in every stored transcript")
     s.add_argument("--bill-budget", type=int, default=3000, help="max bill requests this run")
+    s.add_argument("--rate", type=rate, help="requests per second (default 1; at most 10, for the one-time backfill)")
     p = commands.add_parser("process", help="build data/site from the raw store")
     p.add_argument("--out", default="data/site")
     p.add_argument("--gate-against", help="previous quality.json; exit 5 if quality dropped")

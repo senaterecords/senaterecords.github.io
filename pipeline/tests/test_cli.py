@@ -1,4 +1,6 @@
-from nyleg.__main__ import EXIT_AUTH, EXIT_GATE, emit, main, years
+import pytest
+
+from nyleg.__main__ import EXIT_AUTH, EXIT_GATE, api_client, emit, main, years
 from nyleg.store import Store, read_json, write_json
 
 
@@ -45,6 +47,19 @@ def test_process_fails_the_gate_when_quality_drops(tmp_path, capsys):
     code = main(["--data", str(store.root), "process", "--out", str(tmp_path / "site"), "--gate-against", str(previous)])
     assert code == EXIT_GATE
     assert "Text matched to speakers dropped" in capsys.readouterr().err
+
+
+def test_rate_sets_the_pause_between_requests(monkeypatch):
+    monkeypatch.setenv("NYSENATE_API_KEY", "k")
+    assert api_client(None).min_interval == 1.0
+    assert api_client(5).min_interval == 0.2
+
+
+def test_rates_above_the_cap_are_refused(tmp_path, capsys):
+    with pytest.raises(SystemExit) as exit_info:
+        main(["--data", str(tmp_path), "sync", "--rate", "50"])
+    assert exit_info.value.code == 2
+    assert "at most 10" in capsys.readouterr().err
 
 
 def test_process_refuses_to_build_from_a_missing_data_folder(tmp_path, capsys):

@@ -47,7 +47,7 @@ class Client:
             raise AuthError("NY Senate API key is missing: set NYSENATE_API_KEY")
         self._key = key
         self._http = httpx.Client(base_url=base_url, transport=transport, timeout=60.0)
-        self._min_interval = min_interval
+        self.min_interval = min_interval  # seconds between requests
         self._max_retries = max_retries
         self._sleep = sleep
         self._clock = clock
@@ -94,7 +94,7 @@ class Client:
 
     def _throttle(self) -> None:
         if self._last is not None:
-            wait = self._min_interval - (self._clock() - self._last)
+            wait = self.min_interval - (self._clock() - self._last)
             if wait > 0:
                 self._sleep(wait)
         self._last = self._clock()
