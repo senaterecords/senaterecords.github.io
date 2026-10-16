@@ -209,3 +209,14 @@ test("on a phone, Find in transcript opens from the toolbar", async ({ page }, i
   await expect(find).toBeHidden();
 });
 
+test("on a phone the find bar closes even before anything is typed, and the toolbar has one magnifier", async ({ page }, info) => {
+  test.skip(info.project.name !== "phone");
+  await page.goto(SESSION);
+  // Only Find in transcript: the site-wide Search link would be a second, identical magnifier beside it.
+  await expect(page.locator(".bar").getByRole("link", { name: "Search", exact: true })).toBeHidden();
+  await page.getByRole("button", { name: "Find in transcript" }).tap();
+  await expect(page.getByRole("searchbox", { name: "Find in transcript" })).toBeVisible();
+  await page.getByRole("button", { name: "Close find" }).tap();
+  await expect(page.getByRole("searchbox", { name: "Find in transcript" })).toBeHidden();
+});
+

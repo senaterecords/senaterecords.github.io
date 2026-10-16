@@ -36,7 +36,7 @@ const current = (prefixes: string[]) => (prefixes.some((p) => path.startsWith(ur
     <Updated />
   </>}
   <div class="bar-tools">
-    <a class="ib" href={url("/search/")} aria-label="Search"><Icon name="search" size={20} /></a>
+    <a class="ib ib-search" href={url("/search/")} aria-label="Search"><Icon name="search" size={20} /></a>
     {!minimal && (
       <details class="menu">
         <summary aria-label="Menu"><Icon name="menu" size={22} /></summary>

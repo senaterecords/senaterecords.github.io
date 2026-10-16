@@ -229,7 +229,7 @@ a.hn-bill:hover { text-decoration: underline; text-underline-offset: 2px; }
 .fd-step, .fd-close { display: grid; place-items: center; width: 26px; height: 26px; border: 0; border-radius: 4px; background: none; color: var(--color-ink2); }
 .fd-step:hover:not(:disabled), .fd-close:hover { background: #F1F3F4; }
 .fd-step:disabled { color: #C2C7CC; }
-.fd-bar:has(.fd-count:empty) .fd-close { display: none; } /* a clear button once there is a search */
+@media (min-width: 720px) { .fd-bar:has(.fd-count:empty) .fd-close { display: none; } } /* desktop: a clear button once there is a search; phones always have it, to close the bar */
 .fd-bar input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; display: none; }
 ::highlight(find) { background-color: #F7EBB0; color: inherit; }
 ::highlight(find-active) { background-color: #EDC75A; color: inherit; }
@@ -239,6 +239,7 @@ a.hn-bill:hover { text-decoration: underline; text-underline-offset: 2px; }
 
 @media (max-width: 719.98px) {
   .bar:has(.rd-ttl) .menu { display: none; }
+  .bar:has(.rd-ttl) .ib-search { display: none; } /* Find in transcript is the magnifier here; site search is a step back */
   .xm-btn { border: 0; background: none; padding: 0; width: 38px; height: 38px; color: var(--color-ink2); }
   .fd-open { display: grid; place-items: center; width: 38px; height: 38px; border: 0; background: none; color: var(--color-ink2); }
   .fd-bar { display: none; }
