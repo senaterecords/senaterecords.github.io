@@ -33,6 +33,30 @@ test("the plain citation is one click away", async ({ page }, info) => {
   await expect(page.getByText(/^NY Senate floor transcript, March 4, 2025, pp?\. /)).toBeVisible();
 });
 
+test("copying text across page breaks leaves the page numbers out", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // clipboard access is granted to the desktop project
+  await page.goto(SESSION);
+  // A whole remark with a page break inside a paragraph, then two paragraphs either side of a break between them.
+  for (const pick of ["inline", "between"] as const) {
+    const marks = await page.evaluate((pick) => {
+      const pb = document.querySelector<HTMLElement>(pick === "inline" ? "#transcript p > .pb" : "#transcript .turn > .pb")!;
+      const turn = pb.closest("section.turn")!;
+      const range = document.createRange();
+      if (pick === "inline") range.selectNodeContents(turn);
+      else { range.setStartBefore(pb.previousElementSibling!); range.setEndAfter(pb.nextElementSibling!); }
+      getSelection()!.removeAllRanges();
+      getSelection()!.addRange(range);
+      return [pb.querySelector("b")!.textContent!, ...(pick === "inline" ? [turn.querySelector(".g")?.textContent ?? ""] : [])].filter(Boolean);
+    }, pick);
+    await page.evaluate(() => navigator.clipboard.writeText(""));
+    await page.keyboard.press("Control+C");
+    const copied = await page.evaluate(() => navigator.clipboard.readText());
+    expect(copied.length).toBeGreaterThan(40);
+    expect(copied).not.toContain(marks[0]); // "p. N"
+    if (marks[1]) expect(copied).not.toMatch(new RegExp(`(^|\\s)${marks[1]}(\\s|$)`)); // the turn's page in the gutter
+  }
+});
+
 test("J and K move between remarks", async ({ page }, info) => {
   test.skip(info.project.name === "phone");
   await page.goto(SESSION);

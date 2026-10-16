@@ -87,6 +87,8 @@
 /* Page numbers sit in the gutter, never as a rule across the text, which read as a break in the speech. A page that
    begins with a new paragraph shows its number beside that paragraph's first line. */
 .pb b { font: 750 12.5px var(--font-ui); text-align: right; padding-right: 16px; font-variant-numeric: tabular-nums; color: var(--color-ink); white-space: nowrap; }
+/* Page numbers are for finding the place, not part of the words: selecting text passes over them and copying leaves them out. */
+.pb b, .turn .g { -webkit-user-select: none; user-select: none; }
 .turn > .pb { display: block; height: 0; margin: 0; }
 .turn > .pb b { position: absolute; left: 0; width: 96px; margin-top: 12px; line-height: calc(17px * 1.62); }
 .turn > .pb i { display: none; }
