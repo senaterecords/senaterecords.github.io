@@ -5,7 +5,11 @@ test.skip(!process.env.OTR_PERF, "run against a real-data build with OTR_PERF=1 
 test("the largest transcript opens fast and scrolls smoothly", async ({ page }) => {
   const slug = process.env.OTR_PERF_SLUG!;
   await page.goto(`transcripts/${slug}/`);
-  const fcp = await page.evaluate(() => performance.getEntriesByName("first-contentful-paint")[0]?.startTime ?? 0);
+  // First contentful paint can land after the load event, so wait for the entry instead of reading it once.
+  const fcp = await page.evaluate(() => new Promise<number>((resolve) => new PerformanceObserver((list) => {
+    const entry = list.getEntries().find((e) => e.name === "first-contentful-paint");
+    if (entry) resolve(entry.startTime);
+  }).observe({ type: "paint", buffered: true })));
   const longTasks = await page.evaluate(async () => {
     let total = 0;
     new PerformanceObserver((list) => { for (const e of list.getEntries()) total += e.duration; }).observe({ type: "longtask", buffered: false });
