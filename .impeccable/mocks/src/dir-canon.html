@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Civic portal mock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="board.css">
+<style>
+  .cv { --navy:#162E51; --navy2:#1A4480; --link:#005EA2; --ink:#1B1B1B; --ink2:#565C65; --base:#F0F0F0; --rule:#DFE1E2; --gold:#FFBE2E; --hit:#FFF1C2;
+        background: #fff; color: var(--ink); font-family: 'Public Sans', system-ui, sans-serif; font-size: 15px; line-height: 1.5; }
+  .cv *, .cv *::before, .cv *::after { box-sizing: border-box; }
+  .cv h1, .cv h2, .cv h3, .cv p, .cv ul { margin: 0; padding: 0; list-style: none; }
+  .cv svg { display: block; flex: none; }
+  .cv mark { background: var(--hit); color: inherit; font-weight: 600; }
+  .cv a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+  .cv-hdr { background: var(--navy); color: #fff; height: 64px; display: flex; align-items: center; padding: 0 32px; gap: 28px; }
+  .cv-hdr .t { font-weight: 800; font-size: 19px; }
+  .cv-hdr nav { margin-left: auto; display: flex; gap: 24px; font-weight: 600; font-size: 15px; }
+  .cv-hdr nav span.on { box-shadow: inset 0 -3px 0 var(--gold); padding-bottom: 19px; margin-bottom: -22px; }
+  .cv-hdr nav span.later { color: #A8BCDB; }
+  .cv-sbar { background: var(--navy2); padding: 14px 32px; display: flex; gap: 0; }
+  .cv-sbar .f { flex: 0 1 620px; height: 42px; background: #fff; color: var(--ink); display: flex; align-items: center; padding: 0 12px; font-size: 16px; border-radius: 4px 0 0 4px; }
+  .cv-sbar .b { height: 42px; padding: 0 18px; background: #00BDE3; color: var(--navy); font-weight: 800; display: flex; align-items: center; gap: 8px; border-radius: 0 4px 4px 0; }
+  .cv-body { display: grid; grid-template-columns: 250px 1fr; gap: 32px; padding: 24px 32px; }
+  .facet h3 { font-size: 15px; font-weight: 700; padding: 8px 0; border-bottom: 1px solid var(--rule); margin-bottom: 8px; }
+  .facet label { display: flex; align-items: center; gap: 10px; padding: 4px 0; font-size: 14.5px; }
+  .facet .bx { width: 18px; height: 18px; border: 2px solid var(--ink); border-radius: 2px; flex: none; display: grid; place-items: center; }
+  .facet .bx.on { background: var(--link); border-color: var(--link); }
+  .facet .grp { margin-bottom: 18px; }
+  .rs h1 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+  .rs .sub { color: var(--ink2); margin-bottom: 14px; font-size: 14.5px; }
+  .item { padding: 16px 0; border-top: 1px solid var(--rule); }
+  .item h2 { font-size: 17px; font-weight: 700; margin-bottom: 4px; }
+  .item .meta { font-size: 13.5px; color: var(--ink2); margin-bottom: 6px; }
+  .item p { font-size: 15px; max-width: 76ch; }
+  .tag { display: inline-block; font-size: 12.5px; font-weight: 700; padding: 1px 8px; border-radius: 2px; background: var(--base); margin-right: 6px; }
+  /* home */
+  .hero { background: var(--navy2); color: #fff; padding: 56px 64px 48px; }
+  .hero h1 { font-size: 40px; font-weight: 800; line-height: 1.15; margin-bottom: 10px; }
+  .hero p { font-size: 18px; color: #E1E7F1; margin-bottom: 24px; max-width: 680px; }
+  .hero .cv-sbar { padding: 0; background: none; }
+  .cards3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding: 36px 64px; }
+  .cards3 section { border-top: 6px solid var(--gold); padding-top: 14px; }
+  .cards3 h2 { font-size: 19px; font-weight: 700; margin-bottom: 8px; }
+  .cards3 li { padding: 6px 0; border-bottom: 1px solid var(--rule); font-size: 15px; }
+  /* reader */
+  .rd { display: grid; grid-template-columns: 1fr 280px; gap: 40px; padding: 28px 48px; }
+  .rd h1 { font-size: 26px; font-weight: 800; margin-bottom: 4px; }
+  .rd .meta { color: var(--ink2); font-size: 14px; margin-bottom: 18px; }
+  .rd p.t { font-size: 17px; line-height: 1.65; margin-bottom: 14px; max-width: 70ch; }
+  .rd p.t b { font-weight: 700; }
+  .rd .pgm { font-size: 13px; color: var(--ink2); border-top: 1px dashed var(--rule); padding-top: 6px; margin: 4px 0 14px; }
+  .toc { border-left: 4px solid var(--navy2); padding-left: 16px; }
+  .toc h2 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+  .toc li { padding: 5px 0; font-size: 14.5px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 18px; background: var(--link); color: #fff; font-weight: 700; border-radius: 4px; margin: 0 8px 8px 0; font-size: 15px; }
+  .btn.o { background: #fff; color: var(--link); box-shadow: inset 0 0 0 2px var(--link); }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div class="screen s-results cv">
+  <header class="cv-hdr"><span class="t">On the Record</span><nav><span class="on">Transcripts</span><span>Senators</span><span>Bills</span><span class="later">Laws</span></nav></header>
+  <div class="cv-sbar"><div class="f">congestion pricing</div><div class="b"><svg width="18" height="18"><use href="#i-search"/></svg>Search</div></div>
+  <div class="cv-body">
+    <aside class="facet">
+      <div class="grp"><h3>Transcript type</h3><label><span class="bx on"><svg width="12" height="12"><use href="#i-check"/></svg></span>Floor sessions (214)</label><label><span class="bx on"><svg width="12" height="12"><use href="#i-check"/></svg></span>Public hearings (37)</label></div>
+      <div class="grp"><h3>Senator</h3><label><span class="bx"></span>Ortega, Marisol (44)</label><label><span class="bx"></span>Kearney, Thomas (29)</label><label><span class="bx"></span>Okafor, Adaeze (18)</label></div>
+      <div class="grp"><h3>Session</h3><label><span class="bx"></span>2025–2026 (61)</label><label><span class="bx"></span>2023–2024 (103)</label></div>
+    </aside>
+    <section class="rs">
+      <h1>Search results</h1>
+      <p class="sub">251 results for “congestion pricing” in 64 transcripts</p>
+      <div class="item"><h2><a>Senate Floor Transcript, June 10, 2025</a></h2><div class="meta"><span class="tag">Floor session</span>Sen. Marisol Ortega · Page 5780 · Bill S4597-A</div><p>…This bill does one thing. It says the <mark>congestion pricing</mark> program has to answer to the riders in my district before it answers to anyone else…</p></div>
+      <div class="item"><h2><a>Senate Floor Transcript, June 10, 2025</a></h2><div class="meta"><span class="tag">Floor session</span>Sen. Thomas Kearney · Page 5781 · Bill S4597-A</div><p>…How much of the <mark>congestion pricing</mark> revenue is pledged to capital work outside Manhattan?…</p></div>
+      <div class="item"><h2><a>Public Hearing: MTA Capital Program, March 18, 2025</a></h2><div class="meta"><span class="tag">Public hearing</span>Sen. Adaeze Okafor · Page 112</div><p>…Before <mark>congestion pricing</mark> takes effect, I want the authority to show this committee where the first dollar goes…</p></div>
+    </section>
+  </div>
+</div>
+
+<div class="screen s-home cv">
+  <header class="cv-hdr"><span class="t">On the Record</span><nav><span class="on">Transcripts</span><span>Senators</span><span>Bills</span><span class="later">Laws</span></nav></header>
+  <div class="hero"><h1>New York State Senate transcripts</h1><p>Search floor sessions since 1993 and public hearings by keyword, senator, or bill.</p><div class="cv-sbar"><div class="f" style="color:#71767A">Search transcripts</div><div class="b"><svg width="18" height="18"><use href="#i-search"/></svg>Search</div></div></div>
+  <div class="cards3">
+    <section><h2>Latest transcripts</h2><ul><li><a>Regular Session, June 10, 2025</a></li><li><a>Public Hearing: Transit Safety, June 9</a></li><li><a>Regular Session, June 5, 2025</a></li></ul></section>
+    <section><h2>Most debated bills</h2><ul><li><a>S4597-A</a> Tolling program</li><li><a>S1210</a> Clean water fund</li><li><a>S3302</a> Rent stabilization</li></ul></section>
+    <section><h2>Browse</h2><ul><li><a>Senators</a></li><li><a>Committees</a></li><li><a>Sessions by year</a></li></ul></section>
+  </div>
+</div>
+
+<div class="screen s-reader cv">
+  <header class="cv-hdr"><span class="t">On the Record</span><nav><span class="on">Transcripts</span><span>Senators</span><span>Bills</span><span class="later">Laws</span></nav></header>
+  <div class="rd">
+    <article>
+      <h1>Regular Session, June 10, 2025</h1>
+      <p class="meta">Albany, New York · Pages 5775–5838</p>
+      <p class="t"><b>THE SECRETARY:</b> Calendar Number 412, by Senator Ortega, Senate Print 4597-A, an act to amend the vehicle and traffic law, in relation to the central business district tolling program.</p>
+      <p class="t"><b>ACTING PRESIDENT BRENNAN:</b> Senator Ortega on the bill.</p>
+      <p class="t"><b>SENATOR ORTEGA:</b> Thank you, Mr. President. This bill does one thing. It says the congestion pricing program has to answer to the riders in my district before it answers to anyone else in this building.</p>
+      <div class="pgm">Page 5781</div>
+      <p class="t"><b>SENATOR KEARNEY:</b> Will the sponsor yield?</p>
+    </article>
+    <aside><div style="margin-bottom:20px"><span class="btn">Download PDF</span><span class="btn o">Copy citation</span></div>
+      <div class="toc"><h2>Bills in this session</h2><ul><li><a>S2287</a></li><li><a>S0950</a></li><li><b>S4597-A</b></li><li><a>S1210</a></li><li><a>S3115</a></li></ul></div></aside>
+  </div>
+</div>
+
+<div class="legend"><b>Civic research portal</b>Search results (left), homepage (top right), transcript reader (bottom right). Sample data: every name, bill and quote is fictional.</div>
+<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);</script>
+</body>
+</html>

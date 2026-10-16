@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          ".superpowers/brainstorm/55746-1792114338/content/visual-direction.html"
+        ],
+        "createdAt": "2026-10-16T01:34:53.541Z",
+        "reason": "Claude: uppercase is used only for short kicker, nav and section labels in a throwaway brainstorming mockup, not body passages"
+      }
+    ]
+  }
+}

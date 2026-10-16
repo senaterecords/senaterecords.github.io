@@ -1,0 +1,22 @@
+# Brainstorming companion and local design tooling
+.superpowers/
+.impeccable/review/
+.impeccable/hook.cache.json
+.impeccable/config.local.json
+
+# Generated data and builds
+data/site/
+site/dist/
+site/.astro/
+site/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Misc
+debug.log
+.DS_Store
+Thumbs.db

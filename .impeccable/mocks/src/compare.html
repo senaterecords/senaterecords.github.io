@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compare looks</title>
+<style>
+  :root { --bg: #E4E4E0; --ink: #1C1C19; --ink2: #55554F; --line: #C9C9C3; --on: #1C1C19; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding: 14px 32px 0; }
+  header p { margin: 0 0 12px; color: var(--ink2); }
+  header p b { color: var(--ink); }
+  nav { display: flex; gap: 6px; flex-wrap: wrap; }
+  nav button { font: inherit; border: 1px solid var(--line); border-bottom: 0; background: #F2F2EE; color: var(--ink2); padding: 10px 16px 11px; border-radius: 8px 8px 0 0; cursor: pointer; text-align: left; }
+  nav button b { display: block; color: var(--ink); font-size: 16px; }
+  nav button[aria-selected="true"] { background: #fff; color: var(--ink); box-shadow: 0 -2px 0 var(--on) inset; }
+  nav button:focus-visible { outline: 2px solid var(--on); outline-offset: 2px; }
+  main { padding: 28px 32px 80px; }
+  section[hidden] { display: none; }
+  h2 { font-size: 20px; margin: 0 0 10px; }
+  .frame { width: 1280px; height: 800px; transform-origin: 0 0; margin-bottom: 40px; }
+  .frame iframe { width: 1280px; height: 800px; border: 0; display: block; background: #fff; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,.15), 0 20px 40px -18px rgba(0,0,0,.35); }
+  .wrap { overflow: hidden; }
+  .note { color: var(--ink2); margin: 0 0 24px; }
+</style>
+</head>
+<body>
+<header>
+  <p><b>Four looks for the same three screens.</b> Click a tab (or press 1–4). All names, bills and quotes are made up.</p>
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-k="citator"><b>1 · The Citator</b>Clean research tool, one-click citations</button>
+    <button role="tab" aria-selected="false" data-k="pleading"><b>2 · Pleading Paper</b>Looks like the official typed transcript</button>
+    <button role="tab" aria-selected="false" data-k="billline"><b>3 · The Bill Line</b>Subway-map style, follows each bill</button>
+    <button role="tab" aria-selected="false" data-k="canon"><b>4 · Standard portal</b>Familiar government-website style</button>
+  </nav>
+</header>
+<main id="main"></main>
+<script>
+  const looks = ['citator', 'pleading', 'billline', 'canon'];
+  const screens = [['home', 'Homepage'], ['results', 'Search results for “congestion pricing”'], ['reader', 'Reading a transcript']];
+  const main = document.getElementById('main');
+  for (const k of looks) {
+    const s = document.createElement('section');
+    s.id = 'look-' + k;
+    s.hidden = k !== 'citator';
+    for (const [id, label] of screens) {
+      s.insertAdjacentHTML('beforeend',
+        `<h2>${label}</h2><div class="wrap"><div class="frame"><iframe loading="lazy" title="${k} ${id}" src="dir-${k}.html?full&only=${id}"></iframe></div></div>`);
+    }
+    main.appendChild(s);
+  }
+  function fit() {
+    const scale = Math.min(1, (window.innerWidth - 64) / 1280);
+    document.querySelectorAll('.frame').forEach(f => { f.style.transform = `scale(${scale})`; f.parentElement.style.height = (800 * scale + 40) + 'px'; f.style.marginBottom = '0'; });
+  }
+  function show(k) {
+    document.querySelectorAll('nav button').forEach(b => b.setAttribute('aria-selected', b.dataset.k === k));
+    looks.forEach(x => document.getElementById('look-' + x).hidden = x !== k);
+    window.scrollTo({ top: 0 });
+  }
+  document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => show(b.dataset.k)));
+  addEventListener('keydown', e => { const i = '1234'.indexOf(e.key); if (i >= 0) show(looks[i]); });
+  addEventListener('resize', fit); fit();
+</script>
+</body>
+</html>

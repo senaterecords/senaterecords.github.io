@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Citator mock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Charis+SIL:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="board.css">
+<style>
+  .ct { --ground:#F3F4F1; --pane:#FFFFFF; --ink:#161B22; --ink2:#4B535E; --ink3:#666D77; --rule:#D7DBDF; --rule2:#E9EBED;
+        --act:#0B6B50; --act-deep:#08523D; --act-wash:#E2F0EA; --hit:#FFE36E; --red:#B42318; --amber:#9A6200;
+        background: var(--ground); color: var(--ink); font-family: 'Archivo', system-ui, sans-serif; font-size: 14px; line-height: 1.45; }
+  .ct *, .ct *::before, .ct *::after { box-sizing: border-box; }
+  .ct h1, .ct h2, .ct h3, .ct p, .ct dl, .ct dd, .ct ol, .ct ul { margin: 0; padding: 0; }
+  .ct ol, .ct ul { list-style: none; }
+  .ct .num { font-variant-numeric: tabular-nums; }
+  .ct ::selection { background: var(--act-wash); }
+  .ct mark { background: var(--hit); color: inherit; padding: 0 1px; border-radius: 2px; }
+  .ct svg { display: block; flex: none; }
+
+  /* bar */
+  .ct-bar { height: 58px; background: var(--pane); border-bottom: 1px solid var(--rule); display: flex; align-items: center; gap: 28px; padding: 0 24px; }
+  .ct-mark { font-weight: 800; font-stretch: 112%; font-size: 17px; letter-spacing: -0.01em; white-space: nowrap; display: flex; align-items: center; gap: 9px; }
+  .ct-mark .sig { width: 22px; height: 22px; border: 2px solid var(--ink); border-radius: 3px; display: grid; place-items: center; }
+  .ct-search { flex: 0 1 560px; height: 38px; display: flex; align-items: center; gap: 10px; border: 1px solid #B9BFC6; border-radius: 6px; padding: 0 8px 0 12px; background: #fff; font-size: 15px; }
+  .ct-search .q { color: var(--ink); }
+  .ct-tok { font-size: 12.5px; font-weight: 550; color: var(--ink2); background: #F0F1F2; border: 1px solid var(--rule); border-radius: 4px; padding: 1px 7px; white-space: nowrap; }
+  .ct-search kbd { margin-left: auto; font: 600 11.5px 'Archivo'; color: var(--ink3); border: 1px solid var(--rule); border-radius: 4px; padding: 1px 6px; }
+  .ct-nav { display: flex; gap: 20px; font-weight: 550; font-size: 14px; color: var(--ink2); margin-left: auto; }
+  .ct-nav a.on { color: var(--ink); box-shadow: inset 0 -2px 0 var(--ink); padding-bottom: 17px; margin-bottom: -19px; }
+  .ct-nav a.later { color: #6E757F; }
+  .ct-upd { font-size: 12.5px; color: var(--ink3); white-space: nowrap; display: flex; align-items: center; gap: 6px; }
+  .ct-upd i { width: 7px; height: 7px; border-radius: 50%; background: var(--act); }
+
+  /* buttons */
+  .ct-btn { font: 600 13px 'Archivo'; color: var(--act); background: #fff; border: 1px solid #B9CFC6; border-radius: 6px; height: 32px; padding: 0 12px; display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+  .ct-primary { font: 650 13.5px 'Archivo'; color: #fff; background: var(--act); border: 0; border-radius: 6px; height: 36px; padding: 0 16px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 1px 2px rgba(8,82,61,.3); }
+
+  /* status marks: state lives in a fixed cell */
+  .st { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--ink2); white-space: nowrap; }
+  .st.red { color: var(--red); } .st.amber { color: var(--amber); }
+
+  /* results */
+  .ct-head { height: 56px; display: flex; align-items: center; gap: 16px; padding: 0 24px; border-bottom: 1px solid var(--rule); }
+  .ct-head h1 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; }
+  .ct-head h1 span { font-weight: 450; color: var(--ink2); }
+  .ct-sort { margin-left: auto; display: flex; align-items: center; gap: 6px; font-weight: 550; color: var(--ink2); font-size: 13.5px; }
+  .ct-body { display: grid; grid-template-columns: 228px 1fr 300px; height: calc(800px - 58px - 56px); }
+  .ct-facets { padding: 18px 20px; border-right: 1px solid var(--rule); overflow: hidden; }
+  .fg { margin-bottom: 20px; }
+  .fg h3 { font-size: 13px; font-weight: 700; margin-bottom: 8px; }
+  .fg label { display: flex; align-items: center; gap: 9px; font-size: 13.5px; color: var(--ink); padding: 3.5px 0; }
+  .fg label b { margin-left: auto; font-weight: 500; color: var(--ink3); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .box { width: 15px; height: 15px; border: 1.5px solid #9AA1AA; border-radius: 3px; background: #fff; display: grid; place-items: center; flex: none; }
+  .on .box { background: var(--act); border-color: var(--act); }
+  .fg .more { font-size: 13px; color: var(--act); font-weight: 600; padding-top: 3px; }
+
+  .ct-list { background: var(--pane); overflow: hidden; }
+  .ct-row { display: grid; grid-template-columns: 112px 1fr 158px; gap: 18px; padding: 16px 22px 16px 20px; border-bottom: 1px solid var(--rule2); }
+  .ct-row.focus { background: #FAFBF9; box-shadow: inset 2px 0 0 var(--ink); }
+  .c-date b { display: block; font-weight: 650; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+  .c-date span { font-size: 12.5px; color: var(--ink3); }
+  .who { font-size: 13.5px; display: flex; gap: 8px; align-items: baseline; margin-bottom: 5px; }
+  .who b { font-weight: 700; }
+  .who .pt { color: var(--ink3); font-size: 12.5px; }
+  .who .ob { color: var(--ink2); font-size: 12.5px; }
+  .who .ob a { color: var(--ink); font-weight: 650; text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
+  .q { font-family: 'Charis SIL', Georgia, serif; font-size: 15.5px; line-height: 1.5; color: #1D232B; }
+  .c-cite { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; border-left: 1px solid var(--rule2); padding-left: 16px; }
+  .c-cite .pg { font-weight: 700; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .c-cite .copy { font: 650 12.5px 'Archivo'; color: var(--act); display: inline-flex; gap: 6px; align-items: center; }
+
+  .ct-note { padding: 18px 20px; border-left: 1px solid var(--rule); background: #FBFBFA; overflow: hidden; }
+  .hn-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+  .hn-top b { font-size: 15px; font-weight: 750; font-variant-numeric: tabular-nums; }
+  .ct-note h2 { font-family: 'Charis SIL', Georgia, serif; font-weight: 700; font-size: 17px; line-height: 1.3; margin-bottom: 14px; }
+  .ct-note dl { display: grid; grid-template-columns: 76px 1fr; row-gap: 6px; font-size: 13px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); margin-bottom: 14px; }
+  .ct-note dt { color: var(--ink3); }
+  .ct-note dd { font-weight: 550; font-variant-numeric: tabular-nums; }
+  .ct-note h3 { font-size: 13px; font-weight: 700; margin-bottom: 8px; }
+  .jr { margin-bottom: 16px; }
+  .jr li { display: grid; grid-template-columns: 16px 1fr auto; align-items: center; gap: 8px; font-size: 13px; padding: 3px 0; position: relative; }
+  .jr li span:last-child { color: var(--ink3); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .dot { width: 11px; height: 11px; border-radius: 50%; border: 1.5px solid var(--ink); background: var(--ink); justify-self: center; }
+  .dot.open { background: #fff; border-color: #9AA1AA; }
+  .jr li.pending { color: var(--ink3); }
+  .spk li { display: flex; justify-content: space-between; font-size: 13px; padding: 3px 0; border-bottom: 1px dotted var(--rule); }
+  .spk li b { font-weight: 500; color: var(--ink3); font-variant-numeric: tabular-nums; }
+  .ct-note .ct-primary { margin-top: 16px; width: 100%; justify-content: center; }
+
+  /* home */
+  .hm { padding: 64px 120px 0; }
+  .hm h1 { font-size: 36px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 10px; }
+  .hm .lede { font-family: 'Charis SIL', Georgia, serif; font-size: 18px; color: var(--ink2); margin-bottom: 26px; max-width: 640px; }
+  .hm-search { display: flex; gap: 10px; width: 820px; }
+  .hm-field { flex: 1; height: 52px; border: 1.5px solid #8F97A1; border-radius: 8px; background: #fff; display: flex; align-items: center; gap: 12px; padding: 0 16px; font-size: 17px; color: var(--ink3); box-shadow: 0 1px 2px rgba(22,27,34,.06); }
+  .hm-field code { font-family: inherit; color: var(--ink); font-weight: 600; }
+  .hm-search .ct-primary { height: 52px; padding: 0 24px; font-size: 15px; }
+  .hm-scope { display: flex; gap: 22px; align-items: center; margin: 14px 0 0; font-size: 13.5px; color: var(--ink2); }
+  .hm-scope .seg { display: flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; background: #fff; }
+  .hm-scope .seg span { padding: 6px 12px; border-right: 1px solid var(--rule); font-weight: 550; }
+  .hm-scope .seg span:last-child { border-right: 0; }
+  .hm-scope .seg .on { background: var(--ink); color: #fff; }
+  .hm-cols { display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; margin-top: 48px; width: 1040px; }
+  .hm-cols h2 { font-size: 15px; font-weight: 700; padding-bottom: 8px; border-bottom: 1.5px solid var(--ink); display: flex; justify-content: space-between; }
+  .hm-cols h2 a { font-size: 13px; font-weight: 600; color: var(--act); }
+  .dk li { display: grid; grid-template-columns: 96px 1fr auto; gap: 14px; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 14px; align-items: baseline; }
+  .dk li .d { font-weight: 650; font-variant-numeric: tabular-nums; }
+  .dk li .m { color: var(--ink3); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+  .dk li .t { font-weight: 550; }
+  .dk li .t small { display: block; font-weight: 400; color: var(--ink3); font-size: 12.5px; }
+  .md li { display: grid; grid-template-columns: 74px 1fr auto; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--rule); align-items: baseline; }
+  .md li .b { font-weight: 750; font-variant-numeric: tabular-nums; font-size: 13.5px; }
+  .md li .t { font-family: 'Charis SIL', Georgia, serif; font-size: 15px; line-height: 1.35; }
+  .md li .t small { display: block; font-family: 'Archivo'; color: var(--ink3); font-size: 12.5px; margin-top: 2px; }
+  .hm-foot { position: absolute; left: 120px; bottom: 22px; font-size: 12.5px; color: var(--ink3); }
+
+  /* reader */
+  .rd-bar .crumb { font-size: 14px; color: var(--ink2); display: flex; gap: 8px; align-items: center; white-space: nowrap; }
+  .rd-bar .crumb b { color: var(--ink); font-weight: 650; }
+  .rd-acts { margin-left: auto; display: flex; gap: 8px; }
+  .rd-body { display: grid; grid-template-columns: 236px 1fr 288px; height: calc(800px - 58px); }
+  .rd-cal { border-right: 1px solid var(--rule); padding: 18px 16px; overflow: hidden; }
+  .rd-cal h3 { font-size: 13px; font-weight: 700; margin: 0 0 8px 4px; }
+  .rd-cal li { display: grid; grid-template-columns: 34px 1fr auto; gap: 8px; padding: 7px 6px; border-radius: 5px; font-size: 13px; align-items: baseline; }
+  .rd-cal li.cur { background: #fff; box-shadow: 0 0 0 1px var(--rule), 0 1px 2px rgba(22,27,34,.06); }
+  .rd-cal li .n { color: var(--ink3); font-variant-numeric: tabular-nums; }
+  .rd-cal li .p { font-weight: 650; font-variant-numeric: tabular-nums; }
+  .rd-cal li .p small { display: block; font-weight: 400; color: var(--ink3); font-size: 12px; }
+  .rd-cal li .c { color: var(--ink3); font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .rd-text { background: var(--pane); padding: 26px 0 0; overflow: hidden; position: relative; }
+  .rd-meta { padding: 0 48px 0 96px; font-size: 12.5px; color: var(--ink3); margin-bottom: 14px; }
+  .rd-seg { margin: 0 48px 18px 96px; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 6px; background: #FBFBFA; display: flex; gap: 12px; align-items: baseline; }
+  .rd-seg b { font-variant-numeric: tabular-nums; font-weight: 750; font-size: 13.5px; white-space: nowrap; }
+  .rd-seg span { font-family: 'Charis SIL', Georgia, serif; font-size: 15px; }
+  .turn { display: grid; grid-template-columns: 96px 1fr 48px; }
+  .turn .g { font-size: 12px; color: var(--ink3); text-align: right; padding: 5px 16px 0 0; font-variant-numeric: tabular-nums; }
+  .turn .tx { font-family: 'Charis SIL', Georgia, serif; font-size: 17px; line-height: 1.62; color: #1D232B; max-width: 68ch; padding-bottom: 12px; }
+  .turn .sp { font-family: 'Archivo'; font-size: 12.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink2); margin-right: 14px; }
+  .turn .sp.sen { color: var(--ink); text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
+  .star { display: grid; grid-template-columns: 96px 1fr 48px; align-items: center; margin: 2px 0 10px; }
+  .star b { font-size: 12.5px; font-weight: 750; text-align: right; padding-right: 16px; font-variant-numeric: tabular-nums; }
+  .star i { height: 1px; background: repeating-linear-gradient(90deg, var(--rule) 0 6px, transparent 6px 10px); }
+  .sel { background: var(--act-wash); box-shadow: 0 0 0 2px var(--act-wash); border-radius: 2px; }
+  .pop { position: absolute; left: 96px; top: 344px; width: 440px; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); }
+  .pop .cite { font-family: 'Charis SIL', Georgia, serif; font-style: italic; font-size: 13.5px; color: var(--ink2); margin-bottom: 10px; }
+  .pop .row { display: flex; gap: 8px; }
+  .rd-side { border-left: 1px solid var(--rule); padding: 18px 20px; background: #FBFBFA; overflow: hidden; }
+  .keys { margin-top: 16px; font-size: 12.5px; color: var(--ink3); display: flex; gap: 12px; }
+  .keys kbd { font: 650 11.5px 'Archivo'; color: var(--ink2); border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: #fff; margin-right: 4px; }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M6 21V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M6 4h12l-3 4.5 3 4.5H6z" fill="currentColor"/></symbol>
+  <symbol id="i-flag-o" viewBox="0 0 24 24"><path d="M6 21V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M6 4h12l-3 4.5 3 4.5H6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-sig" viewBox="0 0 24 24"><path d="M7 6h10M7 10h10M7 14h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M15.5 14.5l3 3" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<!-- ============ SEARCH RESULTS ============ -->
+<div class="screen s-results ct">
+  <header class="ct-bar">
+    <div class="ct-mark"><span class="sig"><svg width="14" height="14"><use href="#i-sig"/></svg></span>On the Record</div>
+    <div class="ct-search"><svg width="17" height="17" style="color:#666D77"><use href="#i-search"/></svg><span class="q">congestion pricing</span><span class="ct-tok">Any senator</span><span class="ct-tok">1993–2025</span><kbd>/</kbd></div>
+    <nav class="ct-nav"><a class="on">Transcripts</a><a>Senators</a><a>Bills</a><a class="later">Laws</a></nav>
+    <div class="ct-upd"><i></i>Updated 40 min ago</div>
+  </header>
+  <div class="ct-head">
+    <h1>251 remarks <span>in 64 transcripts</span></h1>
+    <div class="ct-sort">Most relevant <svg width="15" height="15"><use href="#i-down"/></svg></div>
+    <button class="ct-btn"><svg width="15" height="15"><use href="#i-dl"/></svg>Export results</button>
+  </div>
+  <div class="ct-body">
+    <aside class="ct-facets">
+      <div class="fg"><h3>Record</h3>
+        <label class="on"><span class="box"><svg width="10" height="10" style="color:#fff"><use href="#i-check"/></svg></span><span>Floor sessions</span><b>214</b></label>
+        <label class="on"><span class="box"><svg width="10" height="10" style="color:#fff"><use href="#i-check"/></svg></span><span>Public hearings</span><b>37</b></label>
+      </div>
+      <div class="fg"><h3>Senator</h3>
+        <label><span class="box"></span><span>Marisol Ortega</span><b>44</b></label>
+        <label><span class="box"></span><span>Thomas Kearney</span><b>29</b></label>
+        <label><span class="box"></span><span>Adaeze Okafor</span><b>18</b></label>
+        <label><span class="box"></span><span>Paul Brennan</span><b>12</b></label>
+        <div class="more">31 more senators</div>
+      </div>
+      <div class="fg"><h3>Bill</h3>
+        <label><span class="box"></span><span>S4597-A</span><b>62</b></label>
+        <label><span class="box"></span><span>S7731</span><b>11</b></label>
+        <label><span class="box"></span><span>S1210</span><b>9</b></label>
+      </div>
+      <div class="fg"><h3>Session</h3>
+        <label><span class="box"></span><span>2025–26</span><b>61</b></label>
+        <label><span class="box"></span><span>2023–24</span><b>103</b></label>
+        <label><span class="box"></span><span>2021–22</span><b>49</b></label>
+      </div>
+    </aside>
+
+    <section class="ct-list">
+      <article class="ct-row focus">
+        <div class="c-date"><b>Jun 10, 2025</b><span>Floor · Regular</span></div>
+        <div><div class="who"><b>Sen. Marisol Ortega</b><span class="pt">D–27</span><span class="ob">on <a>S4597-A</a></span></div>
+          <p class="q">“This bill does one thing. It says the <mark>congestion pricing</mark> program has to answer to the riders in my district before it answers to anyone else in this building.”</p></div>
+        <div class="c-cite"><span class="pg">p. 5780</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed 41–20</span><span class="copy"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy cite</span></div>
+      </article>
+      <article class="ct-row">
+        <div class="c-date"><b>Jun 10, 2025</b><span>Floor · Regular</span></div>
+        <div><div class="who"><b>Sen. Thomas Kearney</b><span class="pt">R–4</span><span class="ob">on <a>S4597-A</a></span></div>
+          <p class="q">“Through you, Mr. President. How much of the <mark>congestion pricing</mark> revenue is pledged to capital work outside Manhattan?”</p></div>
+        <div class="c-cite"><span class="pg">p. 5781</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed 41–20</span><span class="copy"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy cite</span></div>
+      </article>
+      <article class="ct-row">
+        <div class="c-date"><b>Mar 18, 2025</b><span>Hearing · MTA Capital</span></div>
+        <div><div class="who"><b>Sen. Adaeze Okafor</b><span class="pt">D–19</span><span class="ob">Committee on Transportation</span></div>
+          <p class="q">“Before <mark>congestion pricing</mark> takes effect, I want the authority to show this committee where the first dollar goes, and the second.”</p></div>
+        <div class="c-cite"><span class="pg">p. 112</span><span class="st">Hearing</span><span class="copy"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy cite</span></div>
+      </article>
+      <article class="ct-row">
+        <div class="c-date"><b>Jan 27, 2025</b><span>Floor · Regular</span></div>
+        <div><div class="who"><b>Sen. Paul Brennan</b><span class="pt">R–52</span></div>
+          <p class="q">“We were promised that <mark>congestion pricing</mark> would be the last new charge on commuters for a decade. It has been eleven months.”</p></div>
+        <div class="c-cite"><span class="pg">p. 402</span><span class="st amber"><svg width="14" height="14"><use href="#i-flag"/></svg>Corrected</span><span class="copy"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy cite</span></div>
+      </article>
+      <article class="ct-row">
+        <div class="c-date"><b>May 6, 2024</b><span>Floor · Regular</span></div>
+        <div><div class="who"><b>Sen. Marisol Ortega</b><span class="pt">D–27</span><span class="ob">on <a>S7731</a></span></div>
+          <p class="q">“A <mark>congestion pricing</mark> exemption for hospital night shifts is not a loophole. It is triage, and the people who need it are on the floor of an emergency room right now.”</p></div>
+        <div class="c-cite"><span class="pg">p. 3310</span><span class="st red"><svg width="14" height="14"><use href="#i-flag"/></svg>Vetoed</span><span class="copy"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy cite</span></div>
+      </article>
+    </section>
+
+    <aside class="ct-note">
+      <div class="hn-top"><b>S4597-A</b><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span></div>
+      <h2>Relates to the central business district tolling program</h2>
+      <dl><dt>Sponsor</dt><dd>Sen. Marisol Ortega</dd><dt>Floor vote</dt><dd>41 aye · 20 nay</dd><dt>Debate</dt><dd>62 remarks · pp. 5780–5838</dd></dl>
+      <h3>Where it stands</h3>
+      <ol class="jr">
+        <li><span class="dot"></span><span>Introduced</span><span>Jan 8</span></li>
+        <li><span class="dot"></span><span>Transportation</span><span>Feb 4</span></li>
+        <li><span class="dot"></span><span>Passed Senate</span><span>Jun 10</span></li>
+        <li class="pending"><span class="dot open"></span><span>Assembly</span><span>—</span></li>
+        <li class="pending"><span class="dot open"></span><span>Governor</span><span>—</span></li>
+      </ol>
+      <h3>Who spoke</h3>
+      <ul class="spk"><li>Marisol Ortega<b>21</b></li><li>Thomas Kearney<b>14</b></li><li>Adaeze Okafor<b>9</b></li><li>5 more senators<b>18</b></li></ul>
+      <button class="ct-primary">Read the debate</button>
+    </aside>
+  </div>
+</div>
+
+<!-- ============ HOMEPAGE ============ -->
+<div class="screen s-home ct">
+  <header class="ct-bar">
+    <div class="ct-mark"><span class="sig"><svg width="14" height="14"><use href="#i-sig"/></svg></span>On the Record</div>
+    <nav class="ct-nav"><a class="on">Transcripts</a><a>Senators</a><a>Bills</a><a class="later">Laws</a></nav>
+    <div class="ct-upd"><i></i>Updated 40 min ago</div>
+  </header>
+  <main class="hm">
+    <h1>Search the Senate record</h1>
+    <p class="lede">Every floor session since 1993 and every public hearing, split by speaker and linked to the bills they debate.</p>
+    <div class="hm-search">
+      <div class="hm-field"><svg width="20" height="20"><use href="#i-search"/></svg>Try <code>speaker:ortega</code> <code>"congestion pricing"</code></div>
+      <button class="ct-primary">Search</button>
+    </div>
+    <div class="hm-scope"><div class="seg"><span class="on">All records</span><span>Floor sessions</span><span>Public hearings</span></div><span>Search by <b>speaker:</b> <b>bill:</b> <b>year:</b> or an <b>"exact phrase"</b></span></div>
+    <div class="hm-cols">
+      <section><h2>Latest transcripts <a>All transcripts</a></h2>
+        <ul class="dk">
+          <li><span class="d">Jun 10, 2025</span><span class="t">Regular Session<small>38 senators spoke · 14 bills debated</small></span><span class="m">pp. 5775–5838</span></li>
+          <li><span class="d">Jun 9, 2025</span><span class="t">Public hearing: Transit safety<small>Committee on Transportation · 11 witnesses</small></span><span class="m">142 pp.</span></li>
+          <li><span class="d">Jun 5, 2025</span><span class="t">Regular Session<small>41 senators spoke · 22 bills debated</small></span><span class="m">pp. 5602–5774</span></li>
+        </ul>
+      </section>
+      <section><h2>Most debated, 2025–26 <a>All bills</a></h2>
+        <ul class="md">
+          <li><span class="b">S4597-A</span><span class="t">Central business district tolling program<small>62 remarks · 9 senators</small></span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed</span></li>
+          <li><span class="b">S1210</span><span class="t">Clean water infrastructure fund<small>47 remarks · 7 senators</small></span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed</span></li>
+          <li><span class="b">S3302</span><span class="t">Rent stabilization in cities over one million<small>41 remarks · 11 senators</small></span><span class="st amber"><svg width="14" height="14"><use href="#i-flag"/></svg>Amended</span></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <div class="hm-foot">Data: NY Senate Open Legislation · Sample data in this mock</div>
+</div>
+
+<!-- ============ READER ============ -->
+<div class="screen s-reader ct">
+  <header class="ct-bar rd-bar">
+    <div class="ct-mark"><span class="sig"><svg width="14" height="14"><use href="#i-sig"/></svg></span>On the Record</div>
+    <div class="crumb">Transcripts <svg width="13" height="13"><use href="#i-chev"/></svg> 2025 <svg width="13" height="13"><use href="#i-chev"/></svg> <b>June 10 · Regular Session</b></div>
+    <div class="rd-acts"><button class="ct-btn" style="color:#4B535E;border-color:#D7DBDF"><svg width="15" height="15"><use href="#i-search"/></svg>Find in transcript</button><button class="ct-btn"><svg width="15" height="15"><use href="#i-dl"/></svg>Export<svg width="13" height="13"><use href="#i-down"/></svg></button></div>
+  </header>
+  <div class="rd-body">
+    <aside class="rd-cal">
+      <h3>On the calendar</h3>
+      <ul>
+        <li><span class="n">410</span><span class="p">S2287<small>No debate</small></span><span class="c">3</span></li>
+        <li><span class="n">411</span><span class="p">S0950<small>No debate</small></span><span class="c">4</span></li>
+        <li class="cur"><span class="n">412</span><span class="p">S4597-A<small>Debated</small></span><span class="c">62</span></li>
+        <li><span class="n">413</span><span class="p">S1210<small>Debated</small></span><span class="c">47</span></li>
+        <li><span class="n">414</span><span class="p">S3115<small>No debate</small></span><span class="c">3</span></li>
+        <li><span class="n">415</span><span class="p">S2840-B<small>Debated</small></span><span class="c">19</span></li>
+      </ul>
+    </aside>
+    <article class="rd-text">
+      <div class="rd-meta">Regular Session · Tuesday, June 10, 2025 · Albany, New York · pp. 5775–5838</div>
+      <div class="rd-seg"><b>No. 412 · S4597-A</b><span>Relates to the central business district tolling program</span></div>
+      <div class="turn"><div class="g">5780</div><p class="tx"><span class="sp">The Secretary</span>Calendar Number 412, by Senator Ortega, Senate Print 4597-A, an act to amend the vehicle and traffic law, in relation to the central business district tolling program.</p></div>
+      <div class="turn"><div class="g"></div><p class="tx"><span class="sp">Acting President Brennan</span>Senator Ortega on the bill.</p></div>
+      <div class="turn"><div class="g"></div><p class="tx"><span class="sp sen">Senator Ortega</span>Thank you, Mr. President. <span class="sel">This bill does one thing. It says the <mark>congestion pricing</mark> program has to answer to the riders in my district before it answers to anyone else in this building.</span></p></div>
+      <div class="star"><b>*5781</b><i></i></div>
+      <div class="turn"><div class="g"></div><p class="tx">It requires the authority to publish, every quarter, where each dollar collected in the zone is spent, and it gives this body the power to call them in when they don't.</p></div>
+      <div class="turn"><div class="g"></div><p class="tx"><span class="sp sen">Senator Kearney</span>Will the sponsor yield?</p></div>
+      <div class="turn"><div class="g"></div><p class="tx"><span class="sp">Acting President Brennan</span>Does the sponsor yield?</p></div>
+      <div class="turn"><div class="g"></div><p class="tx"><span class="sp sen">Senator Ortega</span>I do.</p></div>
+      <div class="pop">
+        <p class="cite">N.Y. Senate Tr., June 10, 2025, at 5780 (remarks of Sen. Ortega)</p>
+        <div class="row"><button class="ct-primary" style="height:32px"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy with cite</button><button class="ct-btn">Copy text only</button><button class="ct-btn" style="color:#4B535E;border-color:#D7DBDF">Link to this remark</button></div>
+      </div>
+    </article>
+    <aside class="rd-side">
+      <div class="hn-top"><b style="font-size:15px;font-weight:750">S4597-A</b><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span></div>
+      <h2 style="font-family:'Charis SIL',Georgia,serif;font-weight:700;font-size:17px;line-height:1.3;margin:0 0 14px">Relates to the central business district tolling program</h2>
+      <dl style="display:grid;grid-template-columns:76px 1fr;row-gap:6px;font-size:13px;margin:0 0 14px;padding-bottom:14px;border-bottom:1px solid #D7DBDF">
+        <dt style="color:#666D77">Sponsor</dt><dd style="margin:0;font-weight:550">Sen. Marisol Ortega</dd>
+        <dt style="color:#666D77">Vote</dt><dd style="margin:0;font-weight:550">41 aye · 20 nay</dd>
+        <dt style="color:#666D77">Debate</dt><dd style="margin:0;font-weight:550">62 remarks · 9 senators</dd>
+      </dl>
+      <h3 style="font-size:13px;font-weight:700;margin:0 0 8px">Remark 3 of 62</h3>
+      <div class="keys"><span><kbd>J</kbd>next remark</span><span><kbd>K</kbd>previous</span></div>
+    </aside>
+  </div>
+</div>
+
+<div class="legend"><b>The Citator</b>Search results (left), homepage (top right), transcript reader (bottom right). Sample data: every name, bill and quote is fictional.</div>
+<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);</script>
+</body>
+</html>

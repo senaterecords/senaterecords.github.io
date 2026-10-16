@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bill Line mock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&family=Overpass+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="board.css">
+<style>
+  .bl { --enamel:#0E1A3A; --enamel2:#16244D; --enamel3:#22336A; --porc:#F3F4F0; --porc2:#E4E7EC; --ink:#0E1A3A; --txt:#F3F4F0; --txt2:#BAC3D9;
+        --scarlet:#D42A1E; --cobalt:#2566DA; --amber:#F4B000; --green:#14834B;
+        background: var(--enamel); color: var(--txt); font-family: 'Overpass', system-ui, sans-serif; font-size: 14px; line-height: 1.45; }
+  .bl *, .bl *::before, .bl *::after { box-sizing: border-box; }
+  .bl h1, .bl h2, .bl h3, .bl p, .bl ul, .bl ol { margin: 0; padding: 0; list-style: none; }
+  .bl svg { display: block; flex: none; }
+  .bl mark { background: #FFE07A; color: var(--ink); border-radius: 2px; padding: 0 1px; }
+  .bul { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; font: 800 11px 'Overpass'; color: #fff; flex: none; letter-spacing: -0.02em; }
+  .bul.s { background: var(--scarlet); } .bul.c { background: var(--cobalt); } .bul.a { background: var(--amber); color: var(--ink); } .bul.g { background: var(--green); }
+
+  .bl-bar { height: 58px; display: flex; align-items: center; gap: 26px; padding: 0 26px; background: #0A142E; }
+  .bl-mark { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 17px; white-space: nowrap; }
+  .bl-mark .m { display: flex; gap: 3px; }
+  .bl-mark .m i { width: 9px; height: 9px; border-radius: 50%; }
+  .bl-search { flex: 0 1 520px; height: 38px; background: var(--enamel2); border: 1px solid var(--enamel3); border-radius: 19px; display: flex; align-items: center; gap: 10px; padding: 0 16px; font-size: 15px; }
+  .bl-nav { margin-left: auto; display: flex; gap: 20px; font-weight: 700; font-size: 14px; color: var(--txt2); }
+  .bl-nav .on { color: #fff; }
+  .bl-nav .later { color: #8691AE; }
+  .bl-btn { font: 700 13px 'Overpass'; height: 32px; padding: 0 14px; border-radius: 16px; border: 0; background: var(--porc); color: var(--ink); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+  .bl-btn.ghost { background: transparent; color: var(--txt); box-shadow: inset 0 0 0 1.5px var(--enamel3); }
+
+  /* route strip: the bill's journey as a line */
+  .route { padding: 18px 30px 22px; background: var(--enamel); border-bottom: 1px solid var(--enamel3); }
+  .route-h { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .route-h h2 { font-size: 18px; font-weight: 800; }
+  .route-h span { color: var(--txt2); font-size: 13.5px; }
+  .line { position: relative; height: 54px; }
+  .line .track { position: absolute; left: 10px; right: 10px; top: 10px; height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--scarlet) 0 64%, #4A5680 64% 100%); }
+  .stn { position: absolute; top: 0; transform: translateX(-50%); text-align: center; width: 150px; }
+  .stn i { display: block; margin: 0 auto 8px; width: 28px; height: 28px; border-radius: 50%; background: var(--porc); border: 6px solid var(--scarlet); }
+  .stn.big i { width: 34px; height: 34px; margin-top: -3px; border-width: 7px; box-shadow: 0 0 0 4px rgba(212,42,30,.3); }
+  .stn.pend i { border-color: #4A5680; background: var(--enamel); }
+  .stn b { display: block; font-size: 13px; font-weight: 700; }
+  .stn small { color: var(--txt2); font-size: 12px; font-family: 'Overpass Mono', monospace; }
+
+  .rs-body { display: grid; grid-template-columns: 1fr 290px; height: calc(800px - 58px - 128px); }
+  .rs-list { background: var(--porc); color: var(--ink); overflow: hidden; }
+  .rs-h { display: flex; align-items: center; gap: 12px; padding: 14px 26px; border-bottom: 1px solid var(--porc2); }
+  .rs-h h1 { font-size: 16px; font-weight: 800; }
+  .rs-h h1 span { font-weight: 500; color: #4A5470; }
+  .chip { font: 700 12.5px 'Overpass'; padding: 4px 11px; border-radius: 14px; background: #fff; box-shadow: inset 0 0 0 1px #CDD3DD; color: #2A3556; display: inline-flex; gap: 6px; align-items: center; }
+  .chip.on { background: var(--ink); color: #fff; box-shadow: none; }
+  .row { display: grid; grid-template-columns: 30px 104px 1fr 92px; gap: 16px; padding: 14px 26px; border-bottom: 1px solid var(--porc2); align-items: start; }
+  .row .d b { display: block; font-weight: 700; font-size: 13.5px; }
+  .row .d span { font-size: 12.5px; color: #4A5470; }
+  .row .who { font-weight: 800; font-size: 13.5px; margin-bottom: 3px; }
+  .row .who span { font-weight: 500; color: #4A5470; }
+  .row .q { font-size: 15px; line-height: 1.5; color: #142046; }
+  .row .pg { text-align: right; font-family: 'Overpass Mono', monospace; font-weight: 600; font-size: 13.5px; }
+  .row .pg small { display: block; font-family: 'Overpass'; font-weight: 700; color: #1F5FD0; font-size: 12.5px; margin-top: 4px; }
+  .rs-side { padding: 18px 22px; overflow: hidden; }
+  .rs-side h3 { font-size: 13px; font-weight: 800; color: var(--txt2); margin-bottom: 10px; }
+  .xfer li { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--enamel3); font-size: 13.5px; }
+  .xfer li b { margin-left: auto; font-family: 'Overpass Mono', monospace; color: var(--txt2); font-weight: 500; font-size: 12.5px; }
+  .xfer .bul { width: 24px; height: 24px; font-size: 9.5px; }
+
+  /* home: this session as a network */
+  .hm { position: relative; height: calc(800px - 58px); }
+  .hm-l { position: absolute; left: 70px; top: 64px; width: 480px; }
+  .hm-l h1 { font-size: 38px; font-weight: 800; line-height: 1.08; letter-spacing: -0.02em; margin-bottom: 14px; }
+  .hm-l p { color: var(--txt2); font-size: 16px; margin-bottom: 24px; }
+  .hm-l .bl-search { height: 50px; border-radius: 25px; font-size: 16px; }
+  .hm-l .legend2 { margin-top: 26px; }
+  .hm-l .legend2 li { display: flex; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--enamel3); font-size: 14px; }
+  .hm-l .legend2 li small { margin-left: auto; color: var(--txt2); font-family: 'Overpass Mono', monospace; }
+  .net { position: absolute; left: 600px; top: 40px; }
+
+  /* reader */
+  .rd-body { display: grid; grid-template-columns: 1fr 290px; height: calc(800px - 58px); }
+  .rd-text { background: var(--porc); color: var(--ink); padding: 26px 0 0 0; overflow: hidden; position: relative; }
+  .rd-meta { padding: 0 40px 12px 120px; font-size: 13px; color: #4A5470; }
+  .rd-seg { display: flex; align-items: center; gap: 12px; padding: 0 40px 14px 72px; }
+  .rd-seg b { font-size: 16px; font-weight: 800; }
+  .rd-line { position: absolute; left: 86px; top: 92px; bottom: 0; width: 8px; background: var(--scarlet); border-radius: 4px; }
+  .turn { display: grid; grid-template-columns: 120px 1fr 40px; position: relative; padding-bottom: 12px; }
+  .turn::before { content: ''; position: absolute; left: 80px; top: 6px; width: 20px; height: 20px; border-radius: 50%; background: var(--porc); border: 5px solid var(--scarlet); }
+  .turn.chair::before { width: 14px; height: 14px; left: 83px; top: 8px; border-width: 4px; }
+  .turn .tx { font-size: 16.5px; line-height: 1.62; max-width: 66ch; }
+  .turn .sp { display: block; font-weight: 800; font-size: 13px; letter-spacing: .02em; color: #2A3556; }
+  .turn .pg { position: absolute; left: 14px; top: 6px; font-family: 'Overpass Mono', monospace; font-size: 12px; color: #4A5470; }
+  .sel { background: #CFE0FF; border-radius: 2px; }
+  .rd-side { padding: 20px 22px; }
+  .rd-side h3 { font-size: 13px; font-weight: 800; color: var(--txt2); margin: 0 0 10px; }
+  .rd-side .bl-btn { margin-bottom: 8px; width: 100%; justify-content: center; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M5 15V6.5A2.5 2.5 0 0 1 7.5 4H15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+</svg>
+
+<!-- RESULTS -->
+<div class="screen s-results bl">
+  <header class="bl-bar">
+    <div class="bl-mark"><span class="m"><i style="background:#D42A1E"></i><i style="background:#2566DA"></i><i style="background:#F4B000"></i></span>On the Record</div>
+    <div class="bl-search"><svg width="17" height="17" style="color:#BAC3D9"><use href="#i-search"/></svg>congestion pricing</div>
+    <nav class="bl-nav"><span class="on">Transcripts</span><span>Senators</span><span>Bills</span><span class="later">Laws</span></nav>
+  </header>
+  <div class="route">
+    <div class="route-h"><span class="bul s">4597</span><h2>S4597-A · Central business district tolling</h2><span>62 remarks on this line</span></div>
+    <div class="line"><div class="track"></div>
+      <div class="stn" style="left:6%"><i></i><b>Introduced</b><small>JAN 08</small></div>
+      <div class="stn" style="left:24%"><i></i><b>Transportation</b><small>FEB 04</small></div>
+      <div class="stn" style="left:43%"><i></i><b>Third reading</b><small>JUN 03</small></div>
+      <div class="stn big" style="left:62%"><i></i><b>Debated · passed 41–20</b><small>JUN 10</small></div>
+      <div class="stn pend" style="left:79%"><i></i><b>Assembly</b><small>—</small></div>
+      <div class="stn pend" style="left:94%"><i></i><b>Governor</b><small>—</small></div>
+    </div>
+  </div>
+  <div class="rs-body">
+    <section class="rs-list">
+      <div class="rs-h"><h1>251 remarks <span>in 64 transcripts</span></h1><span class="chip on">All lines</span><span class="chip"><span class="bul s" style="width:14px;height:14px"></span>S4597-A</span><span class="chip"><span class="bul g" style="width:14px;height:14px"></span>S7731</span><span class="chip">Hearings</span></div>
+      <div class="row"><span class="bul s">4597</span><div class="d"><b>Jun 10, 2025</b><span>Floor</span></div><div><div class="who">Sen. Marisol Ortega <span>D–27</span></div><p class="q">“This bill does one thing. It says the <mark>congestion pricing</mark> program has to answer to the riders in my district before it answers to anyone else.”</p></div><div class="pg">p. 5780<small>Copy cite</small></div></div>
+      <div class="row"><span class="bul s">4597</span><div class="d"><b>Jun 10, 2025</b><span>Floor</span></div><div><div class="who">Sen. Thomas Kearney <span>R–4</span></div><p class="q">“How much of the <mark>congestion pricing</mark> revenue is pledged to capital work outside Manhattan?”</p></div><div class="pg">p. 5781<small>Copy cite</small></div></div>
+      <div class="row"><span class="bul c">HRG</span><div class="d"><b>Mar 18, 2025</b><span>Hearing</span></div><div><div class="who">Sen. Adaeze Okafor <span>D–19</span></div><p class="q">“Before <mark>congestion pricing</mark> takes effect, I want the authority to show this committee where the first dollar goes.”</p></div><div class="pg">p. 112<small>Copy cite</small></div></div>
+    </section>
+    <aside class="rs-side">
+      <h3>Transfers on this search</h3>
+      <ul class="xfer">
+        <li><span class="bul s">4597</span>Tolling program<b>62</b></li>
+        <li><span class="bul g">7731</span>Night-shift exemption<b>11</b></li>
+        <li><span class="bul a">1210</span>Clean water fund<b>9</b></li>
+        <li><span class="bul c">HRG</span>MTA Capital hearing<b>7</b></li>
+      </ul>
+    </aside>
+  </div>
+</div>
+
+<!-- HOME -->
+<div class="screen s-home bl">
+  <header class="bl-bar">
+    <div class="bl-mark"><span class="m"><i style="background:#D42A1E"></i><i style="background:#2566DA"></i><i style="background:#F4B000"></i></span>On the Record</div>
+    <nav class="bl-nav"><span class="on">Transcripts</span><span>Senators</span><span>Bills</span><span class="later">Laws</span></nav>
+  </header>
+  <div class="hm">
+    <div class="hm-l">
+      <h1>Ride any bill to the floor and hear every word.</h1>
+      <p>Floor sessions since 1993 and public hearings, split by speaker.</p>
+      <div class="bl-search"><svg width="18" height="18" style="color:#BAC3D9"><use href="#i-search"/></svg>Search what was said</div>
+      <ul class="legend2">
+        <li><span class="bul s">4597</span>Tolling program<small>62 remarks</small></li>
+        <li><span class="bul a">1210</span>Clean water fund<small>47 remarks</small></li>
+        <li><span class="bul g">3302</span>Rent stabilization<small>41 remarks</small></li>
+        <li><span class="bul c">2840</span>School bus cameras<small>19 remarks</small></li>
+      </ul>
+    </div>
+    <svg class="net" width="640" height="660" viewBox="0 0 640 660">
+      <g fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M40 90 H240 L330 180 V420 L420 510 H600" stroke="#D42A1E"/>
+        <path d="M60 300 H200 L330 300 L460 170 H600" stroke="#F4B000"/>
+        <path d="M120 600 L330 390 V260 L250 180 V60" stroke="#14834B"/>
+        <path d="M600 610 H480 L330 460 V420" stroke="#2566DA"/>
+      </g>
+      <g fill="#F3F4F0" stroke="#0E1A3A" stroke-width="5">
+        <rect x="300" y="280" width="60" height="180" rx="30"/>
+      </g>
+      <g fill="#F3F4F0" stroke-width="5">
+        <circle cx="40" cy="90" r="9" stroke="#D42A1E"/><circle cx="240" cy="90" r="9" stroke="#D42A1E"/><circle cx="600" cy="510" r="9" stroke="#D42A1E"/>
+        <circle cx="60" cy="300" r="9" stroke="#F4B000"/><circle cx="600" cy="170" r="9" stroke="#F4B000"/>
+        <circle cx="120" cy="600" r="9" stroke="#14834B"/><circle cx="250" cy="60" r="9" stroke="#14834B"/>
+        <circle cx="600" cy="610" r="9" stroke="#2566DA"/>
+      </g>
+      <g font-family="Overpass" font-weight="800" font-size="15" fill="#F3F4F0">
+        <text x="372" y="365">Floor · Jun 10</text>
+        <text x="28" y="72">Introduced</text>
+        <text x="520" y="540">Governor</text>
+        <text x="520" y="152">Signed</text>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<!-- READER -->
+<div class="screen s-reader bl">
+  <header class="bl-bar">
+    <div class="bl-mark"><span class="m"><i style="background:#D42A1E"></i><i style="background:#2566DA"></i><i style="background:#F4B000"></i></span>On the Record</div>
+    <div style="color:#BAC3D9;font-weight:700">June 10, 2025 · Regular Session</div>
+    <nav class="bl-nav"><button class="bl-btn ghost">Find</button><button class="bl-btn">Export</button></nav>
+  </header>
+  <div class="rd-body">
+    <article class="rd-text">
+      <div class="rd-meta">Albany, New York · pp. 5775–5838</div>
+      <div class="rd-seg"><span class="bul s">4597</span><b>Calendar 412 · S4597-A · tolling program</b></div>
+      <div class="rd-line"></div>
+      <div class="turn chair"><span class="pg">5780</span><div></div><p class="tx"><span class="sp">THE SECRETARY</span>Calendar Number 412, by Senator Ortega, Senate Print 4597-A, an act to amend the vehicle and traffic law.</p></div>
+      <div class="turn"><span class="pg"></span><div></div><p class="tx"><span class="sp">SENATOR ORTEGA</span>Thank you, Mr. President. <span class="sel">This bill does one thing. It says the <mark>congestion pricing</mark> program has to answer to the riders in my district before it answers to anyone else in this building.</span></p></div>
+      <div class="turn"><span class="pg">5781</span><div></div><p class="tx"><span class="sp">SENATOR KEARNEY</span>Will the sponsor yield?</p></div>
+      <div class="turn chair"><span class="pg"></span><div></div><p class="tx"><span class="sp">ACTING PRESIDENT BRENNAN</span>Does the sponsor yield?</p></div>
+      <div class="turn"><span class="pg"></span><div></div><p class="tx"><span class="sp">SENATOR ORTEGA</span>I do.</p></div>
+    </article>
+    <aside class="rd-side">
+      <h3>This stop</h3>
+      <button class="bl-btn"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy with cite</button>
+      <button class="bl-btn ghost">Link to remark</button>
+      <h3 style="margin-top:18px">Next on the line</h3>
+      <ul class="xfer"><li><span class="bul a">1210</span>Calendar 413<b>5839</b></li><li><span class="bul g">2840</span>Calendar 415<b>5861</b></li></ul>
+    </aside>
+  </div>
+</div>
+
+<div class="legend"><b>The Bill Line</b>Search results (left), homepage (top right), transcript reader (bottom right). Sample data: every name, bill and quote is fictional.</div>
+<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);</script>
+</body>
+</html>

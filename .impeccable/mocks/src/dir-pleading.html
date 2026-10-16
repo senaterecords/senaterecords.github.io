@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pleading Paper mock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="board.css">
+<style>
+  .pp { --desk:#E6E9EC; --paper:#FFFFFF; --ink:#141414; --ink2:#4A4F57; --num:#5F6978; --rule:#3E5C9A; --hair:#D3D8DE; --hit:#FFEE9C;
+        background: var(--desk); color: var(--ink); font-family: 'Libre Franklin', system-ui, sans-serif; font-size: 14px; line-height: 1.45; }
+  .pp *, .pp *::before, .pp *::after { box-sizing: border-box; }
+  .pp h1, .pp h2, .pp h3, .pp p, .pp ul, .pp ol { margin: 0; padding: 0; list-style: none; }
+  .pp mark { background: var(--hit); color: inherit; }
+  .pp svg { display: block; flex: none; }
+  .tt { font-family: 'Courier Prime', 'Courier New', monospace; }
+
+  .pp-bar { height: 54px; display: flex; align-items: center; gap: 26px; padding: 0 28px; background: var(--paper); border-bottom: 1px solid var(--hair); }
+  .pp-mark { font-weight: 800; font-size: 16px; letter-spacing: -0.01em; white-space: nowrap; }
+  .pp-mark span { font-weight: 500; color: var(--ink2); }
+  .pp-search { flex: 0 1 520px; height: 36px; border-bottom: 2px solid var(--ink); display: flex; align-items: center; gap: 10px; font-size: 16px; }
+  .pp-nav { margin-left: auto; display: flex; gap: 20px; font-weight: 600; font-size: 13.5px; color: var(--ink2); }
+  .pp-nav .on { color: var(--ink); }
+  .pp-nav .later { color: #6E757F; }
+  .pp-btn { font: 700 12.5px 'Libre Franklin'; letter-spacing: .02em; color: var(--ink); background: #fff; border: 1.5px solid var(--ink); border-radius: 2px; height: 30px; padding: 0 11px; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+  .pp-btn.solid { background: var(--ink); color: #fff; }
+
+  /* page slip: the numbered transcript page is the component */
+  .slip { background: var(--paper); position: relative; box-shadow: 0 1px 2px rgba(20,20,20,.12), 0 8px 20px -10px rgba(20,20,20,.25); }
+  .slip::before { content: ''; position: absolute; top: 0; bottom: 0; left: 52px; border-left: 3px double var(--rule); }
+  .slip::after { content: ''; position: absolute; top: 0; bottom: 0; right: 28px; border-left: 1px solid var(--rule); opacity: .5; }
+  .ln { display: grid; grid-template-columns: 52px 1fr; }
+  .ln .n { font-family: 'Courier Prime', monospace; font-size: 12.5px; color: var(--num); text-align: right; padding-right: 12px; }
+  .ln .x { font-family: 'Courier Prime', monospace; font-size: 15px; padding-left: 22px; padding-right: 40px; white-space: pre; }
+
+  .rs-body { display: grid; grid-template-columns: 220px 1fr; height: calc(800px - 54px); }
+  .rs-f { padding: 22px 24px; }
+  .rs-f h3 { font-size: 12.5px; font-weight: 700; letter-spacing: .04em; margin-bottom: 8px; }
+  .rs-f li { display: flex; justify-content: space-between; font-size: 13.5px; padding: 3px 0; color: var(--ink2); }
+  .rs-f li.on { color: var(--ink); font-weight: 600; }
+  .rs-f li b { font-weight: 500; color: var(--num); font-variant-numeric: tabular-nums; }
+  .rs-f .grp { margin-bottom: 22px; }
+  .rs-main { padding: 20px 36px 0 8px; overflow: hidden; }
+  .rs-main h1 { font-size: 15px; font-weight: 600; margin-bottom: 14px; color: var(--ink2); }
+  .rs-main h1 b { color: var(--ink); font-weight: 800; }
+  .res { margin-bottom: 18px; }
+  .res-h { display: flex; align-items: baseline; gap: 12px; padding: 10px 40px 6px 74px; font-size: 13px; color: var(--ink2); border-bottom: 1px solid var(--hair); }
+  .res-h b { color: var(--ink); font-weight: 700; }
+  .res-h .pg { margin-left: auto; font-family: 'Courier Prime', monospace; font-size: 15px; color: var(--ink); font-weight: 700; }
+  .res-lines { padding: 6px 0 8px; }
+  .res-f { display: flex; gap: 14px; padding: 6px 40px 10px 74px; font-size: 12.5px; font-weight: 600; color: var(--ink2); border-top: 1px solid var(--hair); }
+  .res-f a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
+
+  /* home: a cover page */
+  .hm { display: grid; place-items: start center; padding-top: 34px; height: calc(800px - 54px); }
+  .cover { width: 780px; height: 690px; padding: 28px 0; }
+  .cover .ln { height: 26px; align-items: center; }
+  .cover .x { font-size: 16px; }
+  .field { display: inline-flex; align-items: center; gap: 10px; border-bottom: 2px solid var(--ink); width: 520px; padding-bottom: 2px; color: var(--ink); white-space: normal; }
+  .field .cur { width: 9px; height: 18px; background: var(--ink); }
+  .idx { display: inline-flex; justify-content: space-between; width: 560px; vertical-align: top; }
+  .idx .d { color: var(--ink2); }
+
+  /* reader */
+  .rd-body { display: grid; grid-template-columns: 1fr 300px; height: calc(800px - 54px); }
+  .rd-desk { padding: 22px 0 0 64px; overflow: hidden; position: relative; }
+  .page { width: 820px; height: 800px; padding: 16px 0; }
+  .page .top { display: flex; justify-content: space-between; padding: 6px 48px 10px 74px; font-size: 12.5px; color: var(--ink2); }
+  .page .top .pg { font-family: 'Courier Prime', monospace; font-size: 15px; font-weight: 700; color: var(--ink); }
+  .page .ln { height: 27px; align-items: center; }
+  .sel { background: #DCE6F7; }
+  .rd-side { background: var(--paper); border-left: 1px solid var(--hair); padding: 22px 22px; }
+  .rd-side h2 { font-size: 13px; font-weight: 700; letter-spacing: .04em; margin-bottom: 10px; }
+  .citebox { border: 1.5px solid var(--ink); padding: 12px; margin-bottom: 18px; }
+  .citebox p { font-family: 'Courier Prime', monospace; font-size: 13.5px; margin-bottom: 10px; }
+  .kv { display: grid; grid-template-columns: 78px 1fr; row-gap: 6px; font-size: 13px; margin-bottom: 16px; }
+  .kv dt { color: var(--ink2); }
+  .kv dd { margin: 0; font-weight: 600; }
+  .seglist li { display: flex; justify-content: space-between; font-size: 13px; padding: 5px 0; border-bottom: 1px solid var(--hair); }
+  .seglist li.cur { font-weight: 700; }
+  .seglist li span:last-child { font-family: 'Courier Prime', monospace; color: var(--ink2); }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="12" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15V5h10" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+</svg>
+
+<!-- RESULTS -->
+<div class="screen s-results pp">
+  <header class="pp-bar">
+    <div class="pp-mark">On the Record <span>· Senate transcripts</span></div>
+    <div class="pp-search"><svg width="17" height="17"><use href="#i-search"/></svg><span class="tt">congestion pricing</span></div>
+    <nav class="pp-nav"><span class="on">Transcripts</span><span>Senators</span><span>Bills</span><span class="later">Laws</span></nav>
+  </header>
+  <div class="rs-body">
+    <aside class="rs-f">
+      <div class="grp"><h3>RECORD</h3><ul><li class="on">Floor sessions<b>214</b></li><li class="on">Public hearings<b>37</b></li></ul></div>
+      <div class="grp"><h3>SPEAKER</h3><ul><li>Sen. Ortega<b>44</b></li><li>Sen. Kearney<b>29</b></li><li>Sen. Okafor<b>18</b></li><li>Sen. Brennan<b>12</b></li></ul></div>
+      <div class="grp"><h3>SESSION</h3><ul><li>2025–26<b>61</b></li><li>2023–24<b>103</b></li><li>2021–22<b>49</b></li></ul></div>
+    </aside>
+    <section class="rs-main">
+      <h1><b>251 remarks</b> in 64 transcripts, shown as they appear on the page</h1>
+      <div class="slip res">
+        <div class="res-h"><b>June 10, 2025</b> Regular Session · on S4597-A <span class="pg">5780</span></div>
+        <div class="res-lines">
+          <div class="ln"><span class="n">14</span><span class="x">          SENATOR ORTEGA:  Thank you, Mr.</span></div>
+          <div class="ln"><span class="n">15</span><span class="x">     President.  This bill does one thing.  It</span></div>
+          <div class="ln"><span class="n">16</span><span class="x">     says the <mark>congestion pricing</mark> program has to</span></div>
+          <div class="ln"><span class="n">17</span><span class="x">     answer to the riders in my district before</span></div>
+        </div>
+        <div class="res-f"><a>Open page 5780</a><span>Copy cite: Tr. 6/10/25 at 5780:14–17</span></div>
+      </div>
+      <div class="slip res">
+        <div class="res-h"><b>June 10, 2025</b> Regular Session · on S4597-A <span class="pg">5781</span></div>
+        <div class="res-lines">
+          <div class="ln"><span class="n">9</span><span class="x">          SENATOR KEARNEY:  Through you, Mr.</span></div>
+          <div class="ln"><span class="n">10</span><span class="x">     President.  How much of the <mark>congestion</mark></span></div>
+          <div class="ln"><span class="n">11</span><span class="x">     <mark>pricing</mark> revenue is pledged to capital work</span></div>
+          <div class="ln"><span class="n">12</span><span class="x">     outside Manhattan?</span></div>
+        </div>
+        <div class="res-f"><a>Open page 5781</a><span>Copy cite: Tr. 6/10/25 at 5781:9–12</span></div>
+      </div>
+      <div class="slip res">
+        <div class="res-h"><b>March 18, 2025</b> Public hearing · MTA Capital Program <span class="pg">112</span></div>
+        <div class="res-lines">
+          <div class="ln"><span class="n">3</span><span class="x">          SENATOR OKAFOR:  Before <mark>congestion</mark></span></div>
+          <div class="ln"><span class="n">4</span><span class="x">     <mark>pricing</mark> takes effect, I want the authority</span></div>
+        </div>
+        <div class="res-f"><a>Open page 112</a><span>Copy cite: Hr'g Tr. 3/18/25 at 112:3–4</span></div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- HOME -->
+<div class="screen s-home pp">
+  <header class="pp-bar">
+    <div class="pp-mark">On the Record <span>· Senate transcripts</span></div>
+    <nav class="pp-nav"><span class="on">Transcripts</span><span>Senators</span><span>Bills</span><span class="later">Laws</span></nav>
+  </header>
+  <div class="hm">
+    <div class="slip cover">
+      <div class="ln"><span class="n">1</span><span class="x"></span></div>
+      <div class="ln"><span class="n">2</span><span class="x">                 NEW YORK STATE SENATE</span></div>
+      <div class="ln"><span class="n">3</span><span class="x">          EVERY FLOOR SESSION AND PUBLIC HEARING</span></div>
+      <div class="ln"><span class="n">4</span><span class="x">                   1993 TO TODAY</span></div>
+      <div class="ln"><span class="n">5</span><span class="x"></span></div>
+      <div class="ln"><span class="n">6</span><span class="x">     SEARCH THE RECORD:</span></div>
+      <div class="ln"><span class="n">7</span><span class="x">     <span class="field">"congestion pricing" speaker:ortega<span class="cur"></span></span></span></div>
+      <div class="ln"><span class="n">8</span><span class="x"></span></div>
+      <div class="ln"><span class="n">9</span><span class="x">     LATEST TRANSCRIPTS:</span></div>
+      <div class="ln"><span class="n">10</span><span class="x">     <span class="idx"><span>Regular Session</span><span class="d">June 10, 2025 ..... 5775</span></span></span></div>
+      <div class="ln"><span class="n">11</span><span class="x">     <span class="idx"><span>Hearing: Transit Safety</span><span class="d">June 9, 2025 ......... 1</span></span></span></div>
+      <div class="ln"><span class="n">12</span><span class="x">     <span class="idx"><span>Regular Session</span><span class="d">June 5, 2025 ...... 5602</span></span></span></div>
+      <div class="ln"><span class="n">13</span><span class="x">     <span class="idx"><span>Legislative Day</span><span class="d">June 4, 2025 ...... 5598</span></span></span></div>
+      <div class="ln"><span class="n">14</span><span class="x"></span></div>
+      <div class="ln"><span class="n">15</span><span class="x">     MOST DEBATED, 2025-26:</span></div>
+      <div class="ln"><span class="n">16</span><span class="x">     <span class="idx"><span>S4597-A  Tolling program</span><span class="d">62 remarks</span></span></span></div>
+      <div class="ln"><span class="n">17</span><span class="x">     <span class="idx"><span>S1210    Clean water fund</span><span class="d">47 remarks</span></span></span></div>
+      <div class="ln"><span class="n">18</span><span class="x">     <span class="idx"><span>S3302    Rent stabilization</span><span class="d">41 remarks</span></span></span></div>
+      <div class="ln"><span class="n">19</span><span class="x"></span></div>
+      <div class="ln"><span class="n">20</span><span class="x">     Updated 40 minutes ago.  Sample data.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- READER -->
+<div class="screen s-reader pp">
+  <header class="pp-bar">
+    <div class="pp-mark">On the Record <span>· June 10, 2025 · Regular Session</span></div>
+    <nav class="pp-nav" style="gap:8px"><button class="pp-btn">Find</button><button class="pp-btn">Export PDF</button><button class="pp-btn solid"><svg width="13" height="13"><use href="#i-copy"/></svg>Copy cite</button></nav>
+  </header>
+  <div class="rd-body">
+    <div class="rd-desk">
+      <div class="slip page">
+        <div class="top"><span>NYS SENATE · REGULAR SESSION · 6-10-25</span><span class="pg">5780</span></div>
+        <div class="ln"><span class="n">1</span><span class="x">          THE SECRETARY:  Calendar Number</span></div>
+        <div class="ln"><span class="n">2</span><span class="x">     412, by Senator Ortega, Senate Print</span></div>
+        <div class="ln"><span class="n">3</span><span class="x">     4597-A, an act to amend the vehicle and</span></div>
+        <div class="ln"><span class="n">4</span><span class="x">     traffic law, in relation to the central</span></div>
+        <div class="ln"><span class="n">5</span><span class="x">     business district tolling program.</span></div>
+        <div class="ln"><span class="n">6</span><span class="x">          ACTING PRESIDENT BRENNAN:  Senator</span></div>
+        <div class="ln"><span class="n">7</span><span class="x">     Ortega on the bill.</span></div>
+        <div class="ln"><span class="n">8</span><span class="x">          SENATOR ORTEGA:  Thank you, Mr.</span></div>
+        <div class="ln"><span class="n">9</span><span class="x">     President.  <span class="sel">This bill does one thing.  It</span></span></div>
+        <div class="ln"><span class="n">10</span><span class="x">     <span class="sel">says the <mark>congestion pricing</mark> program has to</span></span></div>
+        <div class="ln"><span class="n">11</span><span class="x">     <span class="sel">answer to the riders in my district before</span></span></div>
+        <div class="ln"><span class="n">12</span><span class="x">     <span class="sel">it answers to anyone else in this building.</span></span></div>
+        <div class="ln"><span class="n">13</span><span class="x">     It requires the authority to publish, every</span></div>
+        <div class="ln"><span class="n">14</span><span class="x">     quarter, where each dollar collected in the</span></div>
+        <div class="ln"><span class="n">15</span><span class="x">     zone is spent.</span></div>
+        <div class="ln"><span class="n">16</span><span class="x">          SENATOR KEARNEY:  Will the sponsor</span></div>
+        <div class="ln"><span class="n">17</span><span class="x">     yield?</span></div>
+        <div class="ln"><span class="n">18</span><span class="x">          ACTING PRESIDENT BRENNAN:  Does the</span></div>
+        <div class="ln"><span class="n">19</span><span class="x">     sponsor yield?</span></div>
+        <div class="ln"><span class="n">20</span><span class="x">          SENATOR ORTEGA:  I do.</span></div>
+      </div>
+    </div>
+    <aside class="rd-side">
+      <h2>SELECTED · LINES 9–12</h2>
+      <div class="citebox"><p>N.Y. Senate Tr. 5780:9-12 (June 10, 2025) (Sen. Ortega)</p><button class="pp-btn solid"><svg width="13" height="13"><use href="#i-copy"/></svg>Copy with cite</button></div>
+      <h2>S4597-A</h2>
+      <dl class="kv"><dt>Sponsor</dt><dd>Sen. Ortega</dd><dt>Vote</dt><dd>41–20, passed</dd><dt>Debate</dt><dd>pp. 5780–5838</dd></dl>
+      <h2>CALENDAR</h2>
+      <ul class="seglist"><li><span>411 · S0950</span><span>5779</span></li><li class="cur"><span>412 · S4597-A</span><span>5780</span></li><li><span>413 · S1210</span><span>5839</span></li><li><span>414 · S3115</span><span>5861</span></li></ul>
+    </aside>
+  </div>
+</div>
+
+<div class="legend"><b>Pleading Paper</b>Search results (left), homepage (top right), transcript reader (bottom right). Sample data: every name, bill and quote is fictional.</div>
+<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);</script>
+</body>
+</html>

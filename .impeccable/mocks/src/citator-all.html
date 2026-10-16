@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Citator screens</title>
+<style>
+  :root { --bg: #E4E4E0; --ink: #1C1C19; --ink2: #55554F; --line: #C9C9C3; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding: 14px 32px 12px; }
+  header p { margin: 0 0 10px; color: var(--ink2); }
+  header p b { color: var(--ink); }
+  nav { display: flex; gap: 8px; flex-wrap: wrap; }
+  nav a { color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 6px; background: #F2F2EE; }
+  nav a:hover { background: #fff; }
+  main { padding: 28px 32px 80px; }
+  h2 { font-size: 20px; margin: 0 0 10px; scroll-margin-top: 110px; }
+  .wrap { overflow: hidden; margin-bottom: 40px; }
+  .frame { width: 1280px; height: 800px; transform-origin: 0 0; }
+  .frame iframe { width: 1280px; height: 800px; border: 0; display: block; background: #fff; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,.15), 0 20px 40px -18px rgba(0,0,0,.35); }
+</style>
+</head>
+<body>
+<header>
+  <p><b>The Citator: every page.</b> All names, bills and quotes are made up.</p>
+  <nav id="nav"></nav>
+</header>
+<main id="main"></main>
+<script>
+  const screens = [
+    ['home', 'Homepage', 'dir-citator.html'],
+    ['results', 'Search results', 'dir-citator.html'],
+    ['reader', 'Reading a transcript', 'dir-citator.html'],
+    ['senator', 'Senator page', 'dir-citator-pages.html'],
+    ['bill', 'Bill page', 'dir-citator-pages.html'],
+    ['browse', 'Browse transcripts by year', 'dir-citator-pages.html'],
+    ['about', 'About the data', 'dir-citator-pages.html'],
+  ];
+  const main = document.getElementById('main'), nav = document.getElementById('nav');
+  for (const [id, label, file] of screens) {
+    nav.insertAdjacentHTML('beforeend', `<a href="#${id}">${label}</a>`);
+    main.insertAdjacentHTML('beforeend', `<h2 id="${id}">${label}</h2><div class="wrap"><div class="frame"><iframe loading="lazy" title="${label}" src="${file}?full&only=${id}"></iframe></div></div>`);
+  }
+  function fit() {
+    const scale = Math.min(1, (window.innerWidth - 64) / 1280);
+    document.querySelectorAll('.frame').forEach(f => { f.style.transform = `scale(${scale})`; f.parentElement.style.height = (800 * scale) + 'px'; });
+  }
+  addEventListener('resize', fit); fit();
+</script>
+</body>
+</html>
