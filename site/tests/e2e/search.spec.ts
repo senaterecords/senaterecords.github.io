@@ -170,10 +170,15 @@ test("exporting results lets go of the file afterwards", async ({ page }, info) 
   });
   await page.goto("search/?q=budget");
   await expect(page.locator("[data-result]").first()).toBeVisible();
-  const download = page.waitForEvent("download");
   await page.getByRole("button", { name: "Export results" }).click();
-  await download;
-  await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(0);
+  const [sheet] = await Promise.all([page.waitForEvent("download"), page.getByRole("menuitem", { name: /Spreadsheet/ }).click()]);
+  expect(sheet.suggestedFilename()).toBe("search-results.csv");
+  const csv = Buffer.concat(await (await sheet.createReadStream()).toArray()).toString("utf8");
+  expect(csv).toMatch(/^\uFEFFDate,Record,Transcript,Speaker,Page,Excerpt,Full remark,Citation,Link\r\n/);
+  await page.getByRole("button", { name: "Export results" }).click();
+  const [word] = await Promise.all([page.waitForEvent("download"), page.getByRole("menuitem", { name: /Word document/ }).click()]);
+  expect(word.suggestedFilename()).toBe("search-results.docx");
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(1);
 });
 
 test("the phone filters sheet takes the focus", async ({ page }, info) => {

@@ -74,16 +74,24 @@ test("a remark that no longer exists lands at the top with a notice", async ({ p
   await expect(page.getByText(/That remark is no longer in this transcript/)).toBeVisible();
 });
 
-test("Markdown export downloads the transcript", async ({ page }, info) => {
+test("a transcript exports as a Word document or as plain text", async ({ page }, info) => {
   test.skip(info.project.name === "phone");
   await page.goto(SESSION);
+  const save = async (choice: string) => {
+    await page.getByRole("button", { name: "Export" }).click();
+    const [file] = await Promise.all([page.waitForEvent("download"), page.getByRole("menuitem", { name: choice }).click()]);
+    return { name: file.suggestedFilename(), bytes: Buffer.concat(await (await file.createReadStream()).toArray()) };
+  };
+  const word = await save("Word document");
+  expect(word.name).toBe("2025-03-04-regular-session.docx");
+  expect(word.bytes.subarray(0, 2).toString()).toBe("PK"); // a zip, as every .docx is
+  expect(word.bytes.includes(Buffer.from("word/document.xml"))).toBe(true);
+  const text = await save("Plain text");
+  expect(text.name).toBe("2025-03-04-regular-session.txt");
+  expect(text.bytes.toString("utf8")).toMatch(/The Secretary: /i);
+  expect(text.bytes.toString("utf8")).toMatch(/\[p\. \d+\]/);
   await page.getByRole("button", { name: "Export" }).click();
-  const [download] = await Promise.all([page.waitForEvent("download"), page.getByRole("menuitem", { name: "Markdown" }).click()]);
-  expect(download.suggestedFilename()).toBe("2025-03-04-regular-session.md");
-  const text = await (await download.createReadStream()).toArray().then((c) => Buffer.concat(c).toString("utf8"));
-  expect(text).toMatch(/^# /);
-  expect(text).toMatch(/\*\*The Secretary:\*\*/i);
-  expect(text).toMatch(/\*p\. \d+\*/);
+  await expect(page.getByRole("menuitem", { name: /Markdown/ })).toHaveCount(0);
 });
 
 test("following an in-page link to a missing remark also shows the notice", async ({ page }) => {

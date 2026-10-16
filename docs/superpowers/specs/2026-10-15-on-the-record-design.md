@@ -25,7 +25,7 @@ The site is pre-built, with no server. A Python job runs hourly on GitHub Action
 - **Success:**
   - A phrase search shows who said it, when and the surrounding text within seconds.
   - One click opens a senator's remarks, and one click opens a bill's debate with its sponsor, status and vote.
-  - Any transcript can be saved as PDF, Markdown or text.
+  - Any transcript can be saved as a Word document, PDF or plain text; search results and a senator's record as a Word document or a spreadsheet.
   - The data stays current with no manual work.
   - The site costs $0 a month.
 
@@ -234,7 +234,7 @@ Slugs are:
 - floor: `N.Y. Senate Tr., June 10, 2025, at 5780 (remarks of Sen. Ortega)`, or `at 5780–81` when the quote spans two pages
 - hearings: `N.Y. Senate Pub. Hr'g Tr., {title}, Mar. 18, 2025, at 112 (remarks of Sen. Okafor)`
 
-A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 2025, p. 5780 (Sen. Marisol Ortega)`, or for hearings `NY Senate public hearing, {title}, March 18, 2025, p. 112 (Sen. Adaeze Okafor)` (decided 2026-10-16). **Export** is generated in the browser when clicked. Markdown and text are built from the page content; PDF uses a print stylesheet and the browser's "Save as PDF". No export files are stored, which protects the file budget.
+A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 2025, p. 5780 (Sen. Marisol Ortega)`, or for hearings `NY Senate public hearing, {title}, March 18, 2025, p. 112 (Sen. Adaeze Okafor)` (decided 2026-10-16). **Export** is generated in the browser when clicked. Word documents (.docx), spreadsheets (.csv, which Excel opens) and plain text are built from the page content, with no library; PDF uses a print stylesheet and the browser's "Save as PDF". No export files are stored, which protects the file budget.
 
 ## 9. Search
 
@@ -335,7 +335,7 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 - **Site:**
   - an Astro build check
   - a broken-link check over `dist/`
-  - Playwright tests for search (including `speaker:` filtering), opening a remark link, Copy with cite text, J/K navigation and Markdown export
+  - Playwright tests for search (including `speaker:` filtering), opening a remark link, Copy with cite text, J/K navigation and the exports
 - **Quality gate:** described in section 6.6.
 - **Design:** the Impeccable finish review against the mock, then DESIGN.md (section 8.1).
 
@@ -380,6 +380,7 @@ All of this was done on 2026-10-16; the site went live that day at https://senat
 | Astro (static generation) + React islands + Tailwind | React and Tailwind for design flexibility; plain HTML output for speed and for Pagefind |
 | Pagefind plus a query layer, with a SQLite-in-browser experiment | proven and free at launch; a measured path to more powerful search without a server |
 | Exports generated in the browser | keeps the site small (no stored copy of every transcript in two more formats) |
+| Word and spreadsheet exports, not Markdown (2026-10-16) | the people this is for open Word documents and Excel files; few know what to do with a .md file. A .docx is a small zip of XML written in the browser, checked by opening it in Word |
 | Phased scope | transcripts first; bills, laws and calendars later inside the same design |
 | The Citator visual direction | chosen by the user from full-size mocks; refinements kept subtle |
 | Our own 1993–2008 senator list, checked against the transcripts | the API starts in 2009; without it more than half of all floor remarks (356,000) link to nobody |

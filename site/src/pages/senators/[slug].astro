@@ -2,6 +2,7 @@
 // A senator's page, as in "Senator page" (desktop) and the phone senator page.
 import Icon from "../../components/Icon.astro";
 import Photo from "../../components/Photo.astro";
+import SenatorExport from "../../components/SenatorExport";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
 import { bill, hasBillPage, senatorPage, senatorPageSlugs, transcriptIndex } from "../../lib/data";
@@ -50,6 +51,11 @@ const exportData = JSON.stringify({
 }).replace(/</g, "\\u003c");
 ---
 <Base title={name} description={`${name}: ${service}. Remarks on the Senate floor and in public hearings, with citations to the official page.`} wide>
+  <script is:inline slot="head">
+    // Until the export button's script starts (slow connections), keep a click on it; the button replays it.
+    window.__otrEarlyClicks=[];
+    document.addEventListener("click",function(e){var i=e.target instanceof Element&&e.target.closest("astro-island[ssr]");var c=i&&e.target.closest("button");if(!c)return;window.__otrEarlyClicks.push(c);e.preventDefault()},true);
+  </script>
   <header class="pg-head">
     <div class="pg-in">
       <div class="pg-crumb"><a href={url("/senators/")}>Senators</a><Icon name="chev" size={12} /><a href={url(`/senators/#${surname.charAt(0).toUpperCase()}`)}>{surname.charAt(0).toUpperCase()}</a></div>
@@ -65,7 +71,7 @@ const exportData = JSON.stringify({
         </div>
         <div class="acts">
           {page.officialUrl && <a class="btn btn-quiet" href={page.officialUrl} target="_blank" rel="noopener"><Icon name="ext" size={14} />Official page</a>}
-          <button type="button" class="btn" id="export-remarks"><Icon name="dl" size={15} />Export remarks</button>
+          <SenatorExport client:load />
         </div>
       </div>
     </div>
@@ -173,7 +179,6 @@ const exportData = JSON.stringify({
 
 <script>
   import "../../scripts/copy";
-  import { download, markdownEscape } from "../../lib/download";
 
   // The tabs switch which list shows (remarks, transcripts, bills) instead of jumping down the page; the address
   // keeps the tab, so Back and shared links work. Without JavaScript every list shows and the tabs are anchors.
@@ -204,17 +209,6 @@ const exportData = JSON.stringify({
   if (location.hash && scrollY > top()) scrollTo(0, top());
   // The senator's name joins the pinned tabs once the page title has scrolled away.
   new IntersectionObserver(([entry]) => bar.classList.toggle("stuck", !entry.isIntersecting)).observe(document.querySelector(".pg-title h1")!);
-
-  // "Export remarks": Markdown of the recent remarks and transcripts, made in the browser.
-  document.getElementById("export-remarks")?.addEventListener("click", () => {
-    const data = JSON.parse(document.getElementById("senator-data")!.textContent!);
-    const abs = (href: string) => new URL(href, location.href).href;
-    const lines = [`# ${data.name}`, "", data.service, "", `Source: ${location.href.split("#")[0]}`, "", "## Recent remarks", ""];
-    for (const r of data.recent) lines.push(`- ${r.date}${r.page != null ? `, p. ${r.page}` : ""}: “${markdownEscape(r.text)}” (${abs(r.href)})`);
-    lines.push("", "## Transcripts", "");
-    for (const a of data.appearances) lines.push(`- ${a.date}, ${markdownEscape(a.title ?? (a.kind === "floor" ? "Floor session" : "Public hearing"))}: ${a.remarks} remarks${a.presiding ? `, presiding ${a.presiding} times` : ""} (${abs(a.href)})`);
-    download(`${data.slug}-remarks.md`, lines.join("\n") + "\n", "text/markdown");
-  });
 </script>
 
 <style is:global>

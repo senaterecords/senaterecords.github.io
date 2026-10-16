@@ -1,16 +1,9 @@
-// Files made in the browser for the reader to save: Markdown and plain-text exports. Nothing is stored.
+// Files made in the browser for the reader to save (Word documents, spreadsheets, plain text). Nothing is stored.
 
-/** Transcript text as literal Markdown: it never turns into headings, lists, quotes, emphasis or links. */
-export function markdownEscape(text: string): string {
-  return text
-    .replace(/[\\`*_[\]<]/g, "\\$&")
-    .replace(/^(\s*)([#>+-])(?=\s)/gm, "$1\\$2")
-    .replace(/^(\s*\d+)([.)])(?=\s)/gm, "$1\\$2");
-}
-
-/** Saves text as a file, then lets go of the in-memory copy. */
-export function download(name: string, text: string, type: string) {
-  const href = URL.createObjectURL(new Blob([text], { type: `${type};charset=utf-8` }));
+/** Saves a file, then lets go of the in-memory copy. Text is saved as UTF-8. */
+export function download(name: string, data: string | Uint8Array, type: string) {
+  const blob = typeof data === "string" ? new Blob([data], { type: `${type};charset=utf-8` }) : new Blob([data as BlobPart], { type });
+  const href = URL.createObjectURL(blob);
   const a = Object.assign(document.createElement("a"), { href, download: name });
   document.body.append(a);
   a.click();

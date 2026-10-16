@@ -32,10 +32,13 @@ test("exporting a senator's remarks lets go of the file afterwards", async ({ pa
     URL.revokeObjectURL = (u: string) => { w.__revoked += 1; revoke(u); };
   });
   await page.goto("senators/liz-krueger/");
-  const download = page.waitForEvent("download");
-  await page.getByRole("button", { name: /Export/ }).first().click();
-  await download;
-  await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(0);
+  await page.getByRole("button", { name: "Export remarks" }).click();
+  const [word] = await Promise.all([page.waitForEvent("download"), page.getByRole("menuitem", { name: /Word document/ }).click()]);
+  expect(word.suggestedFilename()).toBe("liz-krueger-remarks.docx");
+  await page.getByRole("button", { name: "Export remarks" }).click();
+  const [sheet] = await Promise.all([page.waitForEvent("download"), page.getByRole("menuitem", { name: /Spreadsheet/ }).click()]);
+  expect(sheet.suggestedFilename()).toBe("liz-krueger-transcripts.csv");
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(1);
 });
 
 test("the senator page tabs switch the list instead of jumping down the page", async ({ page }) => {

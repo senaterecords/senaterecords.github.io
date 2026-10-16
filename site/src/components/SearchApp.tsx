@@ -1,7 +1,9 @@
 // The search page (spec 9.1), as in "Search results" and the phone results: Pagefind finds transcripts, the query
 // layer keeps the remarks that really match, one row per remark.
 import { useCallback, useEffect, useRef, useState } from "react";
-import { download, markdownEscape } from "../lib/download";
+import { download } from "../lib/download";
+import { DOCX_TYPE, docx } from "../lib/docx";
+import { resultsBlocks, resultsCsv, type ResultItem } from "../lib/exports";
 import { jsonCache } from "../lib/fetch";
 import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { fold, resolveSpeaker, type Person } from "../lib/names";
@@ -13,6 +15,7 @@ import { passageParam } from "../lib/passage";
 import { closestWord } from "../lib/spelling";
 import { url } from "../lib/url";
 import { indexFailed, loadPagefind, readFragment, searchBranch, type PageData, type Pagefind, type PagefindResult, type PagefindSearch } from "./pagefind";
+import { ExportButton } from "./ExportButton";
 import SearchBox from "./SearchBox";
 import { clientOnly, Icon } from "./ui";
 
@@ -302,13 +305,19 @@ function SearchApp() {
     ? `Checking ${total > batchSize ? `${batchSize.toLocaleString("en-US")} of ${total.toLocaleString("en-US")}` : batchSize.toLocaleString("en-US")} ${total === 1 ? "transcript that uses" : "transcripts that use"} these words…`
     : "Searching the record…";
 
-  const exportResults = () => {
-    const lines = [`# Search: ${markdownEscape(q)}`, "", `${remarkCount} remarks in ${transcriptCount} transcripts`, ""];
-    for (const r of rows) {
-      lines.push(`## ${r.meta.date} · ${nameOf(r.remark)}${r.pages.hit != null ? ` · p. ${r.pages.hit}` : ""}`, "", markdownEscape(r.remark.text), "", new URL(r.remark.url, location.href).href, "");
-    }
-    download("search-results.md", lines.join("\n"), "text/markdown");
+  // Export: what the page has found so far, as a Word document or a spreadsheet.
+  const exportItems = (): ResultItem[] => rows.map((r) => ({
+    date: r.meta.date, record: kindLabel(r.meta), transcript: r.meta.title ?? kindLabel(r.meta), speaker: nameOf(r.remark),
+    page: r.pages.hit, excerpt: excerptText(r.remark, r.branch), text: r.remark.text, cite: citeOf(r), link: new URL(r.href, location.href).href,
+  }));
+  const exportSummary = () => {
+    const { main, sub } = resultCounts({ remarks: remarkCount, transcripts: transcriptCount, read: loaded, total });
+    return `${main} ${sub}`.replace(/ so far /, " so far · ");
   };
+  const exportChoices = [
+    { label: "Word document", hint: ".docx", pick: () => download("search-results.docx", docx(resultsBlocks(q, exportSummary(), exportItems())), DOCX_TYPE) },
+    { label: "Spreadsheet", hint: ".csv for Excel", pick: () => download("search-results.csv", resultsCsv(exportItems()), "text/csv") },
+  ];
 
   // Most facets list the values with the most results first (top 10); years read in time order, newest first, with the
   // rest of them a click away.
@@ -398,7 +407,7 @@ function SearchApp() {
                 <option value="oldest">Oldest</option>
               </select>
             </label>
-            <button type="button" className="btn sr-export" onClick={exportResults} disabled={!rows.length}><Icon name="dl" size={15} />Export results</button>
+            <ExportButton label="Export results" className="sr-export" disabled={!rows.length} choices={exportChoices} />
           </div>
           <div className="sr-body">
             <aside className="sr-facets" aria-label="Narrow the results">{facetPanel}</aside>

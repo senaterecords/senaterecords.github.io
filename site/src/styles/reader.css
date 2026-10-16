@@ -209,13 +209,8 @@ a.hn-bill:hover { text-decoration: underline; text-underline-offset: 2px; }
 /* phone: bill bar on top, remark bar at the bottom */
 .billbar, .remarkbar { display: none; }
 
-/* export menu (ExportMenu.tsx) */
-.xm { position: relative; }
+/* export button on a transcript: icon only on phones (the menu itself is in global.css) */
 .xm-more { display: none; }
-.xm-menu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 45; min-width: 210px; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; padding: 4px 0; box-shadow: 0 2px 4px rgba(22, 27, 34, .08), 0 16px 32px -12px rgba(22, 27, 34, .28); }
-.xm-menu button { display: flex; width: 100%; justify-content: space-between; align-items: baseline; gap: 12px; padding: 9px 14px; background: none; border: 0; font: 550 13.5px var(--font-ui); color: var(--color-ink); text-align: left; }
-.xm-menu button:hover, .xm-menu button:focus-visible { background: #F4F7F5; }
-.xm-menu small { font-weight: 450; font-size: 12px; color: var(--color-ink3); }
 
 @media (max-width: 719.98px) {
   .bar:has(.rd-ttl) .menu { display: none; }
