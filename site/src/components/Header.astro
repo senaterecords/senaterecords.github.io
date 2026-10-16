@@ -2,7 +2,7 @@
 // The bar from the mocks: mark, page-specific middle (crumbs, search), section links, last update.
 // Under 720 px the links fold into a <details> menu, which needs no JavaScript.
 import { SITE_NAME } from "../config";
-import { meta } from "../lib/data";
+import { billsHome, meta, transcriptsHome } from "../lib/data";
 import { longDate } from "../lib/format";
 import { url } from "../lib/url";
 import Icon from "./Icon.astro";
@@ -13,9 +13,9 @@ interface Props { search?: boolean; minimal?: boolean; }
 const { search = true, minimal = false } = Astro.props;
 const path = Astro.url.pathname;
 const LINKS: [string, string, string[]][] = [
-  ["Transcripts", "/browse/", ["/browse/", "/transcripts/"]],
+  ["Transcripts", transcriptsHome(), ["/browse/", "/transcripts/"]],
   ["Senators", "/senators/", ["/senators/"]],
-  ["Bills", "/bills/", ["/bills/"]],
+  ["Bills", billsHome(), ["/bills/"]],
   ["About", "/about/", ["/about/"]],
 ];
 const current = (prefixes: string[]) => (prefixes.some((p) => path.startsWith(url(p))) ? "page" : undefined);

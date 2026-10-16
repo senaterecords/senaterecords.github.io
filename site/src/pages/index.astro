@@ -3,7 +3,7 @@
 import SearchBox from "../components/SearchBox";
 import Status from "../components/Status.astro";
 import Base from "../layouts/Base.astro";
-import { billsFor, currentSession, transcriptIndex } from "../lib/data";
+import { billsFor, currentSession, transcriptIndex, transcriptsHome } from "../lib/data";
 import { billStatus, hearingTitle, plainPages, plural, shortDate, transcriptTitle } from "../lib/format";
 import { url } from "../lib/url";
 
@@ -38,7 +38,7 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
 
     <div class="hm-cols">
       <section>
-        <h2 class="sec-h2">Latest transcripts <a href={url("/browse/")}>All transcripts</a></h2>
+        <h2 class="sec-h2">Latest transcripts <a href={url(transcriptsHome())}>All transcripts</a></h2>
         <ul class="hm-list">
           {latest.map((t) => (
             <li class:list={["dk", { ld: t.dayType === "LEGISLATIVE" && !t.speakers }]}>

@@ -15,6 +15,10 @@ const label = (s: number) => `${s}–${String(s + 1).slice(2)}`;
 ---
 <Base title="Bills" description="Every bill read on the New York State Senate floor, session by session.">
   <meta slot="head" http-equiv="refresh" content={`0; url=${url(`/bills/${current}/`)}`} />
+  <script is:inline slot="head" define:vars={{ to: url(`/bills/${current}/`) }}>
+    // Leave before this page is painted (an old link or bookmark): its list never flashes by.
+    location.replace(to + location.hash);
+  </script>
   <section class="bi">
     <h1 class="page-h1">Bills on the Senate floor</h1>
     <p class="page-sub">Choose a session. Bill details are available from {BILL_DATA_START} on.</p>

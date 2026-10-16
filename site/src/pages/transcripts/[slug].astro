@@ -8,7 +8,7 @@ import HearingSpeakers from "../../components/reader/HearingSpeakers.astro";
 import Turns from "../../components/reader/Turns.astro";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
-import { assembly, bill, hasBillPage, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex } from "../../lib/data";
+import { assembly, bill, hasBillPage, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex, transcriptsHome } from "../../lib/data";
 import { billStatus, hearingTitle, longDate, placeText, plainPages, plural, transcriptTitle, weekdayDate } from "../../lib/format";
 import { packReader } from "../../lib/payload";
 import { EVERY_PAGE } from "../../lib/query";
@@ -65,7 +65,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
   <Fragment slot="bar">
     <a class="ib rd-back" href={url(`/browse/${year}/`)} aria-label={`Back to ${year} transcripts`}><Icon name="back" size={22} /></a>
     <nav class="rd-crumb" aria-label="Breadcrumb">
-      <a href={url("/browse/")}>Transcripts</a><Icon name="chev" size={13} />
+      <a href={url(transcriptsHome())}>Transcripts</a><Icon name="chev" size={13} />
       <a href={url(`/browse/${year}/`)}>{year}</a><Icon name="chev" size={13} />
       <b>{monthDay} · {name}</b>
     </nav>

@@ -56,3 +56,17 @@ test("the last update reads as time ago from the first paint, never as a date th
   await expect(page.locator("time[data-updated]").first()).toHaveText(/^Updated (just now|\d+ (min|hours?|days?) ago)$/, { timeout: 1500 });
 });
 
+test("Transcripts and Bills open the current year and session directly, without a stop on the way", async ({ page, request }, info) => {
+  test.skip(info.project.name === "phone"); // phones use the same links from the menu
+  await page.goto("about/");
+  await expect(page.locator(".bar .nav").getByRole("link", { name: "Transcripts" })).toHaveAttribute("href", /\/browse\/2025\/$/);
+  await expect(page.locator(".bar .nav").getByRole("link", { name: "Bills" })).toHaveAttribute("href", /\/bills\/2025\/$/);
+  await expect(page.getByRole("link", { name: "Transcripts" }).first()).toBeVisible();
+  // The old addresses still lead there, leaving before their page is painted (no list of years flashes by).
+  for (const old of ["browse/", "bills/"]) {
+    const html = await (await request.get(old)).text();
+    const head = html.slice(0, html.indexOf("<body"));
+    expect(head, old).toContain("location.replace(");
+  }
+});
+

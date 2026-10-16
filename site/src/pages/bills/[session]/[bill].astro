@@ -6,7 +6,7 @@ import Timeline from "../../../components/Timeline.astro";
 import Base from "../../../layouts/Base.astro";
 import { BILL_DATA_START } from "../../../config";
 import { floorAppearances } from "../../../lib/bills";
-import { bill, billPages, senatorPageSlugs, senatorsByMemberId, senatorsBySlug, transcriptIndex } from "../../../lib/data";
+import { bill, billPages, billsHome, senatorPageSlugs, senatorsByMemberId, senatorsBySlug, transcriptIndex } from "../../../lib/data";
 import { billStatus, committeeName, hearingTitle, outcomeText, plainPages, plural, shortDate, titleCase } from "../../../lib/format";
 import type { BillSegment } from "../../../lib/types";
 import { url } from "../../../lib/url";
@@ -63,7 +63,7 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
 <Base title={pageTitle} description={`New York State Senate bill ${printNo}, ${sessionLabel}: its floor debate and vote.`} wide>
   <header class="pg-head">
     <div class="pg-in">
-      <div class="pg-crumb"><a href={url("/bills/")}>Bills</a><Icon name="chev" size={12} /><a href={url(`/bills/${session}/`)}>{sessionLabel} session</a></div>
+      <div class="pg-crumb"><a href={url(billsHome())}>Bills</a><Icon name="chev" size={12} /><a href={url(`/bills/${session}/`)}>{sessionLabel} session</a></div>
       <div class="pg-title">
         <div>
           <div class="no"><span class="num">{printNo}</span><Status status={billStatus(card)} /></div>

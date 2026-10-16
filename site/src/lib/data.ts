@@ -68,6 +68,10 @@ export function years(): { year: number; count: number }[] {
   return [...counts].map(([year, count]) => ({ year, count })).sort((a, b) => b.year - a.year);
 }
 
+/** Where "Transcripts" and "Bills" lead: straight to the latest year and the current session, not through a redirect. */
+export const transcriptsHome = () => `/browse/${years()[0]?.year ?? ""}/`.replace("//", "/");
+export const billsHome = () => `/bills/${currentSession()}/`;
+
 export function words(prefix: string): Record<string, number> {
   const rel = `words/${prefix}.json`;
   return existsSync(join(DATA_DIR, rel)) ? cached(rel, () => readJson<Record<string, number>>(rel)) : {};
