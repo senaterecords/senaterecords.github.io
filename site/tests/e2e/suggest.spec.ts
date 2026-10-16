@@ -11,6 +11,22 @@ test("typing speaker: suggests people by any part of their name", async ({ page 
   await expect(page.getByRole("searchbox")).toHaveValue("speaker:liz-krueger ");
 });
 
+test("the suggestion list fits in the window instead of stretching the page", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.setViewportSize({ width: 1280, height: 560 });
+  await page.goto("./");
+  const pageHeight = () => page.evaluate(() => document.documentElement.scrollHeight);
+  const before = await pageHeight();
+  await page.getByRole("searchbox").pressSequentially("senator:d");
+  const list = page.getByRole("listbox");
+  await expect(list.getByRole("option").first()).toBeVisible();
+  const box = (await list.boundingBox())!;
+  expect(box.y + box.height).toBeLessThanOrEqual(560 - 8); // its bottom stays in the window, with a little room
+  expect(await pageHeight()).toBe(before); // and the page doesn't grow to make room for it
+  // What doesn't fit scrolls inside the list.
+  expect(await list.evaluate((el) => el.scrollHeight > el.clientHeight)).toBe(true);
+});
+
 test("a partial shortcut suggests the shortcut itself", async ({ page }) => {
   await page.goto("./");
   await page.getByRole("searchbox").pressSequentially("ye");

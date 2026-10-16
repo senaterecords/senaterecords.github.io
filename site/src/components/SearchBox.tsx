@@ -1,6 +1,6 @@
 // The search box: record filter, field, example searches and the Search tips panel (spec 9.1, "Homepage" mocks).
 // No motion anywhere: nothing animates, flips or slides.
-import { useEffect, useId, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
+import { useEffect, useId, useLayoutEffect, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
 import { replaceToken } from "../lib/suggest";
 import { url } from "../lib/url";
 import { useSuggestions, type Suggestion } from "./suggestions";
@@ -46,6 +46,7 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
   const [tipsOpen, setTipsOpen] = useState(false);
   const [placeholder, setPlaceholder] = useState(LONG_PLACEHOLDER);
   const input = useRef<HTMLInputElement>(null);
+  const list = useRef<HTMLDivElement>(null);
   const tipsButton = useRef<HTMLButtonElement>(null);
   const tipsPanel = useRef<HTMLDivElement>(null);
   const tipsId = useId();
@@ -60,6 +61,20 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
   const showList = acOpen && items.length > 0;
 
   useEffect(() => setActive(-1), [token?.start, token?.field, token?.text]);
+
+  // The list fits in the window below the box (what doesn't fit scrolls inside it), so it never stretches the page.
+  useLayoutEffect(() => {
+    const box = list.current;
+    if (!showList || !box) return;
+    const fit = () => {
+      const room = innerHeight - box.getBoundingClientRect().top - 12;
+      box.style.maxHeight = `${Math.floor(Math.max(160, Math.min(room, innerHeight * 0.7)))}px`;
+    };
+    fit();
+    addEventListener("resize", fit);
+    addEventListener("scroll", fit, { passive: true });
+    return () => { removeEventListener("resize", fit); removeEventListener("scroll", fit); };
+  }, [showList]);
 
   const pick = (s: Suggestion) => {
     if (!token) return;
@@ -152,7 +167,7 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
           <span className="sbx-go-text">Search</span><Icon name="arrow" size={18} className="sbx-go-icon" />
         </button>
         {showList && (
-          <div className="acbox" id={listId} role="listbox" aria-label="Suggestions">
+          <div ref={list} className="acbox" id={listId} role="listbox" aria-label="Suggestions">
             {(() => {
               let n = -1;
               return groups.map((g, gi) => (
