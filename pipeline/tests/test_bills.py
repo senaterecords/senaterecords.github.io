@@ -112,3 +112,39 @@ def test_bill_card_tolerates_missing_sections():
     card = bill_card({"basePrintNo": "S1", "session": 2009, "printNo": "S1"})
     assert card["sponsor"] is None
     assert card["floorVotes"] == [] and card["milestones"] == [] and card["sameAs"] == []
+
+
+def test_modern_readings_put_the_print_number_first():
+    turns = [
+        turn(0, "THE SECRETARY", "Calendar Number 1, Senate Print 88, by Senator Gianaris, an act to amend the Election Law."),
+        turn(1, "SENATOR LANZA", "Lay it aside."),
+        turn(2, "ACTING PRESIDENT BAILEY", "Lay it aside."),
+        turn(3, "THE SECRETARY", "Calendar Number 412, Assembly Bill Number 1234A, by Assemblymember Paulin, an act to amend the public health law."),
+        turn(4, "THE SECRETARY", "Calendar Number 9, Assembly Bill Number 4000, Budget Bill, an act making appropriations."),
+        turn(5, "THE SECRETARY", "Calendar Number 77, Print 2310B, by Senator May, an act to amend the Environmental Conservation Law."),
+    ]
+    got = [(s.cal_no, s.print_no, s.sponsor, s.outcome) for s in segment_calendar(turns)]
+    assert got == [
+        (1, "S88", "Gianaris", "laid_aside"),
+        (412, "A1234A", "Paulin", None),
+        (9, "A4000", None, None),
+        (77, "S2310B", "May", None),
+    ]
+
+
+def test_real_2025_calendar(fixture_text):
+    turns = split_turns(paragraphs(extract_lines(fixture_text("floor-2025-01-13.txt"))))
+    segments = segment_calendar(turns)
+    assert len(segments) == 15  # every Secretary reading in this real transcript
+    assert (segments[0].cal_no, segments[0].print_no, segments[0].sponsor, segments[0].outcome) == (1, "S88", "Gianaris", "laid_aside")
+
+
+def test_debate_window_ends_at_the_outcome():
+    turns = [
+        turn(0, "THE SECRETARY", "Calendar Number 5, by Senator Hannon, Senate Print 10, an act."),
+        turn(1, "SENATOR LEICHTER", "Explanation. " + "word " * 60),
+        turn(2, "ACTING PRESIDENT KUHL", "The bill is passed."),
+        turn(3, "SENATOR BRUNO", "I move we adjourn."),
+    ]
+    (segment,) = segment_calendar(turns)
+    assert (segment.start_turn, segment.debate_end, segment.end_turn) == (0, 3, 4)

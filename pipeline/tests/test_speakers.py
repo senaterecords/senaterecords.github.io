@@ -107,3 +107,27 @@ def test_vendor_hearing_with_running_headers_footers_and_long_titles(fixture_tex
     assert (turns[3].label, turns[3].page_start, turns[3].text) == ("SENATOR COMRIE", 14, "Yes.")
     assert not any("Geneva Worldwide" in t.text or "Joint Hearing Impact" in t.text for t in turns)
     assert coverage(turns) > 0.95
+
+
+def test_labels_with_name_particles_and_accents():
+    paras = [
+        Paragraph("SENATOR KRUEGER: Will the sponsor yield?", 1),
+        Paragraph("SENATOR DeFRANCISCO: I will not.", 1),
+        Paragraph("SENATOR SEPÚLVEDA: Thank you.", 1),
+        Paragraph("SENATOR SEP�LVEDA: Thank you again.", 1),
+        Paragraph("ASSEMBLYMEMBER McDONALD: Yes.", 1),
+    ]
+    assert [(t.label, t.role, t.name) for t in split_turns(paras)] == [
+        ("SENATOR KRUEGER", "senator", "KRUEGER"),
+        ("SENATOR DeFRANCISCO", "senator", "DeFRANCISCO"),
+        ("SENATOR SEPÚLVEDA", "senator", "SEPÚLVEDA"),
+        ("SENATOR SEP�LVEDA", "senator", "SEP�LVEDA"),
+        ("ASSEMBLYMEMBER McDONALD", "assembly", "McDONALD"),
+    ]
+
+
+def test_real_mixed_case_and_garbled_accent_labels(fixture_text):
+    assert any(t.label == "SENATOR DeFRANCISCO" for t in turns_for(fixture_text, "floor-2000-01-05.txt"))
+    sepulveda = [t for t in turns_for(fixture_text, "floor-2025-05-15.txt") if t.label == "SENATOR SEPÚLVEDA"]
+    assert sepulveda
+    assert sepulveda[0].text.startswith("Thank you, Madam President, for allowing me to make this introduction.")

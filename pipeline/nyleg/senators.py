@@ -1,7 +1,7 @@
 """Match transcript speaker labels to senators using the API's member lists."""
 from __future__ import annotations
 
-import re
+import unicodedata
 from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
@@ -11,7 +11,7 @@ import yaml
 
 from .store import slugify
 
-_NON_LETTERS = re.compile(r"[^A-Z ]+")
+GARBLED = "�"  # a decoding error's replacement character; matches any one letter
 
 
 def session_year(day: date) -> int:
@@ -20,7 +20,16 @@ def session_year(day: date) -> int:
 
 
 def norm(value: str | None) -> str:
-    return " ".join(_NON_LETTERS.sub(" ", (value or "").upper()).split())
+    """Upper-case, accents folded (Ú -> U), the API's garbled letter kept, everything else a space."""
+    text = unicodedata.normalize("NFKD", value or "")
+    text = "".join(c for c in text if not unicodedata.combining(c)).upper()
+    text = "".join(c if ("A" <= c <= "Z" or c == GARBLED) else " " for c in text)
+    return " ".join(text.split())
+
+
+def same(a: str, b: str) -> bool:
+    """Equal normalized names, where a garbled letter on either side stands for any one letter."""
+    return bool(a) and len(a) == len(b) and all(x == y or GARBLED in (x, y) for x, y in zip(a, b))
 
 
 @dataclass
@@ -74,11 +83,11 @@ class Roster:
         if not key:
             return None
         pool = self.in_session(session)
-        for same in (
-            lambda s: norm(s.short_names.get(session)) == key,
-            lambda s: norm(s.last_name) == key,
+        for matches in (
+            lambda s: same(norm(s.short_names.get(session)), key),
+            lambda s: same(norm(s.last_name), key),
         ):
-            found = [s for s in pool if same(s)]
+            found = [s for s in pool if matches(s)]
             if len(found) == 1:
                 return found[0].member_id
             if len(found) > 1:
@@ -86,7 +95,10 @@ class Roster:
         words = key.split()
         if len(words) > 1:
             first, last = words[0], " ".join(words[1:])
-            found = [s for s in pool if norm(s.last_name) == last and norm(s.first_name).startswith(first)]
+            found = [
+                s for s in pool
+                if same(norm(s.last_name), last) and same(norm(s.first_name)[:len(first)], first)
+            ]
             if len(found) == 1:
                 return found[0].member_id
         return None

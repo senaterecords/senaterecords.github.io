@@ -6,6 +6,11 @@ def test_slugify():
     assert slugify("10-29-13 NYsenate_Flanagan_Education_FINAL.txt") == "10-29-13-nysenate-flanagan-education-final-txt"
 
 
+def test_slugify_folds_accents():
+    assert slugify("Luis R. Sepúlveda") == "luis-r-sepulveda"
+    assert slugify("Jessica González-Rojas") == "jessica-gonzalez-rojas"
+
+
 def test_transcript_path_has_no_colons(tmp_path):
     store = Store(tmp_path)
     path = store.transcript_path("2014-09-03T09:00", "Regular Session")

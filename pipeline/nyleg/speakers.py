@@ -17,7 +17,20 @@ ROLE_GUEST = "guest"
 
 FRONT_MATTER_ALLOWANCE = 3000
 
-_LABEL = re.compile(r"^(?P<label>[A-Z][A-Z0-9.,&'’\- ]{1,90}?)\s*:\s*(?P<rest>.*)$", re.S)
+_LABEL = re.compile(r"^(?P<label>[^\s:][^:]{0,90}?)\s*:\s*(?P<rest>.*)$", re.S)
+_LABEL_CHARS = re.compile(r"^[\w.,&'’\- �]+$")  # �: a decoding error's replacement character
+_PARTICLE = re.compile(r"^(?:Mc|Mac|De|Di|Da|Du|La|Le|O')")  # DeFRANCISCO, McDONALD, LaVALLE
+
+
+def _upperish(word: str) -> bool:
+    """A label word: all capitals (accents and the API's garbled letter allowed), or a particle + capitals."""
+    core = word.strip(".,&'’-")
+    letters = [c for c in core if c.isalpha()]
+    if not letters or all(c.isupper() for c in letters):
+        return True
+    rest = _PARTICLE.sub("", core, count=1)
+    rest_letters = [c for c in rest if c.isalpha()]
+    return rest != core and bool(rest_letters) and all(c.isupper() for c in rest_letters)
 _STOP = {
     "PRESIDING", "PRESENT", "ALSO PRESENT", "ALSO IN ATTENDANCE", "APPEARANCES", "INDEX",
     "SPEAKERS", "LIST OF SPEAKERS", "WITNESSES", "SENATE MEMBERS PRESENT",
@@ -46,9 +59,17 @@ def parse_label(text: str) -> tuple[str, str] | None:
     m = _LABEL.match(text)
     if not m:
         return None
-    label = " ".join(m.group("label").split()).rstrip(".,")
+    raw = m.group("label")
+    if not _LABEL_CHARS.match(raw) or "_" in raw:
+        return None
+    label = " ".join(raw.split()).rstrip(".,")
     words = label.split()
-    if len(words) > 10 or label in _STOP:
+    if not words or len(words) > 10 or label.upper() in _STOP:
+        return None
+    first = words[0].strip(".,'’")
+    if not any(c.isalpha() for c in first) or not all(c.isupper() for c in first if c.isalpha()):
+        return None  # "Senator Smith:" and "11:00" are not labels
+    if not all(_upperish(w) for w in words):
         return None
     if not any(len(w.strip(".,'")) >= 2 for w in words):
         return None

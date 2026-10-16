@@ -76,3 +76,24 @@ def test_overrides(tmp_path):
     path.write_text("- session: 2009\n  label: senator smith\n  member_id: 2\n- session: 2009\n  label: SENATOR X\n  member_id: null\n")
     assert load_overrides(path) == {(2009, "SENATOR SMITH"): 2, (2009, "SENATOR X"): None}
     assert load_overrides(tmp_path / "missing.yaml") == {}
+
+
+def test_accents_particles_and_garbled_letters_match_without_guessing():
+    r = Roster.from_members({2025: [
+        member(10, "Luis R. Sepulveda", "Luis", "Sepulveda", "SEPULVEDA", 32, 2025),
+        member(11, "John DeFrancisco", "John", "DeFrancisco", "DEFRANCISCO", 50, 2025),
+        member(12, "Ann Smith", "Ann", "Smith", "SMITH", 1, 2025),
+        member(13, "Bob Smyth", "Bob", "Smyth", "SMYTH", 2, 2025),
+    ]})
+    assert r.match("SEPÚLVEDA", 2025) == 10
+    assert r.match("SEP�LVEDA", 2025) == 10
+    assert r.match("DeFRANCISCO", 2025) == 11
+    assert r.match("SM�TH", 2025) is None
+
+
+def test_accented_api_names_keep_their_accents_and_get_clean_slugs():
+    # The live API returns this senator as shortName "SEPULVEDA", lastName "Sepúlveda".
+    r = Roster.from_members({2025: [member(10, "Luis R. Sepúlveda", "Luis", "Sepúlveda", "SEPULVEDA", 32, 2025)]})
+    assert r.match("SEPÚLVEDA", 2025) == 10
+    senator = r.senators[10]
+    assert (senator.full_name, senator.slug) == ("Luis R. Sepúlveda", "luis-r-sepulveda")
