@@ -16,8 +16,10 @@ interface Props {
   wide?: boolean;
   /** The search field in the bar; the homepage and the search page have their own. */
   barSearch?: boolean;
+  /** The reader's bar: no section links, update stamp, bar search or menu, which it never shows. */
+  minimalBar?: boolean;
 }
-const { title, description, wide = false, barSearch = true } = Astro.props;
+const { title, description, wide = false, barSearch = true, minimalBar = false } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -30,7 +32,7 @@ const { title, description, wide = false, barSearch = true } = Astro.props;
     <slot name="head" />
   </head>
   <body>
-    <Header search={barSearch}><slot name="bar" /></Header>
+    <Header search={barSearch} minimal={minimalBar}><slot name="bar" /></Header>
     <main class={wide ? "wide" : "wrap"}><slot /></main>
     <Footer />
   </body>

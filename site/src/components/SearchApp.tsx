@@ -1,9 +1,14 @@
 // The search page (spec 9.1), as in "Search results" and the phone results: Pagefind finds transcripts, the query
 // layer keeps the remarks that really match, one row per remark.
 import { useCallback, useEffect, useRef, useState } from "react";
+import { download, markdownEscape } from "../lib/download";
+import { jsonCache } from "../lib/fetch";
 import { legalCite, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { fold, resolveSpeaker, type Person } from "../lib/names";
-import { excerpt, keepRemark, pagefindFilters, pagefindTerm, parseQuery, remarksOf, type Branch, type ParsedQuery, type Remark } from "../lib/query";
+import {
+  excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, pagefindTerm, parseQuery, remarksOf, spokenText, toggleShortcut,
+  type Branch, type ParsedQuery, type Remark,
+} from "../lib/query";
 import { closestWord } from "../lib/spelling";
 import { url } from "../lib/url";
 import SearchBox from "./SearchBox";
@@ -21,28 +26,43 @@ interface Pagefind {
   search: (term: string | null, o: Record<string, unknown>) => Promise<PagefindSearch>;
 }
 
+// Pagefind logs a failed index download and carries on with fewer results. It runs on the page rather than in its
+// worker so its downloads can be watched: a failure then says search couldn't load, not a false "No remarks match".
+let indexFailed = false;
+let watching = false;
+function watchIndexDownloads() {
+  if (watching) return;
+  watching = true;
+  const plain = window.fetch.bind(window);
+  window.fetch = async (input, init) => {
+    const href = typeof input === "string" ? input : input instanceof URL ? input.href : input.url;
+    const watched = /\/pagefind\/(index|filter)\//.test(href);
+    try {
+      const response = await plain(input, init);
+      if (watched && !response.ok) indexFailed = true;
+      return response;
+    } catch (error) {
+      if (watched) indexFailed = true;
+      throw error;
+    }
+  };
+}
+
 let pagefindPromise: Promise<Pagefind> | null = null;
 const loadPagefind = () => {
   pagefindPromise ??= import(/* @vite-ignore */ url("/pagefind/pagefind.js")).then(async (pf: Pagefind) => {
-    await pf.options({ baseUrl: url("/") });
+    watchIndexDownloads();
+    await pf.options({ baseUrl: url("/"), noWorker: true });
     await pf.filters(); // loads the filter index, without which searches return no facet counts
     return pf;
   });
   pagefindPromise.catch(() => (pagefindPromise = null));
   return pagefindPromise;
 };
-const json = new Map<string, Promise<unknown>>();
-const getJson = <T,>(path: string): Promise<T> => {
-  if (!json.has(path)) json.set(path, fetch(url(path)).then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status))))));
-  return json.get(path) as Promise<T>;
-};
+const getJson = jsonCache(url);
 
-/** A remark's words without the speaker's label that heads it, so a name matches what was said, not who said it. */
-function spokenText(r: Remark): Remark {
-  return r.label && r.text.startsWith(r.label) ? { ...r, text: r.text.slice(r.label.length).replace(/^[\s.:]+/, "") } : r;
-}
-
-interface Row { key: string; remark: Remark; branch: Branch; meta: Record<string, string>; transcript: string; }
+type Pages = ReturnType<typeof excerptPages>;
+interface Row { key: string; remark: Remark; branch: Branch; pages: Pages; meta: Record<string, string>; transcript: string; }
 type Status = "loading" | "failed" | "which" | "nomatch" | "ready";
 
 const readUrl = () => {
@@ -83,17 +103,24 @@ function SearchApp() {
     return () => removeEventListener("popstate", onPop);
   }, []);
 
-  const loadMore = useCallback(async (id: number) => {
+  /** Reads the next batch of pages; the number of remarks it kept, or null when part of the index failed to load. */
+  const loadMore = useCallback(async (id: number): Promise<number | null> => {
     const batch = queue.current.splice(0, PAGE);
     const p = plan.current!;
-    const pages = await Promise.all(batch.map((r) => r.data()));
-    if (id !== runId.current) return;
+    let pages: PageData[];
+    try {
+      pages = await Promise.all(batch.map((r) => r.data()));
+    } catch {
+      if (id === runId.current) setStatus("failed");
+      return null;
+    }
+    if (id !== runId.current) return 0;
     const found: Row[] = [];
     for (const page of pages) {
       const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
       for (const remark of remarksOf(page).map(spokenText)) {
         const branch = p.parsed.branches.find((b) => keepRemark(remark, b, p.parsed.not, p.speaker));
-        if (branch) found.push({ key: remark.url, remark, branch, meta: page.meta, transcript });
+        if (branch) found.push({ key: remark.url, remark, branch, pages: excerptPages(remark, branch), meta: page.meta, transcript });
       }
     }
     setRows((prev) => {
@@ -133,20 +160,33 @@ function SearchApp() {
       try { pf = await loadPagefind(); } catch { if (id === runId.current) setStatus("failed"); return; }
       const filters = pagefindFilters(parsed.filters, speaker);
       const sortBy = sort === "relevance" ? undefined : { date: sort === "newest" ? "desc" : "asc" };
-      const searches = await Promise.all(parsed.branches.map((b) => pf.search(pagefindTerm(b) || null, { filters, sort: sortBy })));
+      let searches: PagefindSearch[];
+      try {
+        searches = await Promise.all(parsed.branches.map((b) => pf.search(pagefindTerm(b) || null, { filters, sort: sortBy })));
+      } catch {
+        if (id === runId.current) setStatus("failed");
+        return;
+      }
       if (id !== runId.current) return;
+      if (indexFailed) { setStatus("failed"); return; }
       const seen = new Set<string>();
       queue.current = searches.flatMap((s) => s.results).filter((r) => (seen.has(r.id) ? false : (seen.add(r.id), true)));
       plan.current = { parsed, speaker };
       setTotal(queue.current.length);
       setFacets(searches[0]?.filters ?? {});
       let kept = 0;
-      // Fill the first screen even when the first pages hold no matching remark.
-      while (queue.current.length && kept < 5 && id === runId.current) kept += (await loadMore(id)) ?? 0;
+      let batches = 0;
+      // Fill the first screen even when the first pages hold no matching remark, but only for a few batches.
+      while (queue.current.length && fillMore(kept, batches) && id === runId.current) {
+        const n = await loadMore(id);
+        if (n == null) return;
+        kept += n;
+        batches += 1;
+      }
       if (id !== runId.current) return;
       setElapsed(performance.now() - started);
       setStatus("ready");
-      if (!kept) {
+      if (!kept && !queue.current.length) {
         const words = parsed.branches.flatMap((b) => b.words).filter((w) => /^[a-z]{3,}$/i.test(w));
         let changed = false;
         const fixed = await Promise.all(words.map(async (w) => {
@@ -170,22 +210,19 @@ function SearchApp() {
   const remarkCount = rows.length;
   const transcriptCount = new Set(rows.map((r) => r.transcript)).size;
   const activeFilters = Object.keys(parseQuery(q).filters).length;
-  const append = (shortcut: string) => go({ q: `${q.trim()} ${shortcut}`.trim() });
-  const inQuery = (shortcut: string) => q.toLowerCase().split(/\s+/).includes(shortcut.toLowerCase());
-  const toggle = (shortcut: string) => (inQuery(shortcut)
-    ? go({ q: q.split(/\s+/).filter((w) => w.toLowerCase() !== shortcut.toLowerCase()).join(" ") })
-    : append(shortcut));
+  const toggle = (shortcut: string) => go({ q: toggleShortcut(q, shortcut) });
 
   const nameOf = (r: Remark) => {
     const person = r.speaker ? personBySlug.get(r.speaker) : undefined;
-    return person ? `${person.chamber === "assembly" ? "Asm." : "Sen."} ${person.name}` : titleCase(r.label);
+    return person ? `${person.chamber === "assembly" ? "Asm." : "Sen."} ${person.name}` : r.label ? titleCase(r.label) : "Speaker not identified";
   };
   const citeOf = (row: Row) => {
     const person = row.remark.speaker ? personBySlug.get(row.remark.speaker) : undefined;
     const kind: SpeakerKind = person ? (person.chamber === "assembly" ? "assembly" : "senator")
       : row.remark.speaker === "president" ? "president" : row.remark.speaker === "secretary" ? "secretary" : "other";
     const title = row.meta.kind === "hearing" ? row.meta.title ?? null : null;
-    return legalCite({ kind: row.meta.kind === "hearing" ? "hearing" : "floor", date: row.meta.date, title, start: row.remark.page,
+    // The pages cited are the ones the excerpt shows, not where the remark began.
+    return legalCite({ kind: row.meta.kind === "hearing" ? "hearing" : "floor", date: row.meta.date, title, start: row.pages.start, end: row.pages.end,
       speaker: speakerForms(kind, row.remark.label, person?.name) }).replace(/ \((remarks of )?\)$/, "");
   };
   const kindLabel = (meta: Record<string, string>) => meta.kind === "hearing"
@@ -193,24 +230,21 @@ function SearchApp() {
     : `Floor · ${(meta.title ?? "Session").replace(/, [A-Z][a-z]+ \d+, \d{4}$/, "").replace(/ Session$/, "")}`;
 
   const exportResults = () => {
-    const lines = [`# Search: ${q}`, "", `${remarkCount} remarks in ${transcriptCount} transcripts`, ""];
+    const lines = [`# Search: ${markdownEscape(q)}`, "", `${remarkCount} remarks in ${transcriptCount} transcripts`, ""];
     for (const r of rows) {
-      lines.push(`## ${r.meta.date} · ${nameOf(r.remark)}${r.remark.page != null ? ` · p. ${r.remark.page}` : ""}`, "", r.remark.text, "", new URL(r.remark.url, location.href).href, "");
+      lines.push(`## ${r.meta.date} · ${nameOf(r.remark)}${r.pages.hit != null ? ` · p. ${r.pages.hit}` : ""}`, "", markdownEscape(r.remark.text), "", new URL(r.remark.url, location.href).href, "");
     }
-    const a = Object.assign(document.createElement("a"), {
-      href: URL.createObjectURL(new Blob([lines.join("\n")], { type: "text/markdown;charset=utf-8" })), download: "search-results.md",
-    });
-    document.body.append(a); a.click(); a.remove();
+    download("search-results.md", lines.join("\n"), "text/markdown");
   };
 
-  const facetList = (title: string, key: string, render: (value: string) => string, shortcut: (value: string) => string, limit = 10) => {
-    const entries = Object.entries(facets[key] ?? {}).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1]).slice(0, limit);
+  const facetList = (title: string, key: string, render: (value: string) => string, shortcut: (value: string) => string, keep = (_value: string) => true) => {
+    const entries = Object.entries(facets[key] ?? {}).filter(([value, n]) => n > 0 && keep(value)).sort((a, b) => b[1] - a[1]).slice(0, 10);
     if (!entries.length) return null;
     return (
       <div className="fg">
         <h3>{title}</h3>
         {entries.map(([value, n]) => {
-          const on = inQuery(shortcut(value));
+          const on = hasShortcut(q, shortcut(value));
           return (
             <button key={value} type="button" className="fg-row" aria-pressed={on} onClick={() => toggle(shortcut(value))}>
               <span className={on ? "box on" : "box"} aria-hidden="true">{on && <Icon name="check" size={10} />}</span>
@@ -227,13 +261,14 @@ function SearchApp() {
       {facetList("Record", "type", (v) => (v === "floor" ? "Floor sessions" : "Public hearings"), (v) => `type:${v}`)}
       {facetList("Year", "year", (v) => v, (v) => `year:${v}`)}
       {facetList("Speaker", "senator", (v) => personBySlug.get(v)?.name ?? v, (v) => `speaker:${v}`)}
+      {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, (v) => /^[SA]\d+$/.test(v))}
       {facetList("Committee", "committee", (v) => v, (v) => `committee:${quote(v)}`)}
     </>
   );
 
   return (
     <div className="sr">
-      <div className="pg-head"><div className="pg-in pb"><SearchBox variant="search" initial={q} /></div></div>
+      <div className="pg-head"><div className="pg-in pb"><SearchBox key={q} variant="search" initial={q} /></div></div>
 
       {status === "failed" && <p className="sr-msg" role="alert">{LOAD_FAILED}</p>}
       {status === "nomatch" && <p className="sr-msg">No senator or Assembly member matches “{parseQuery(q).filters.speaker}”.</p>}
@@ -281,13 +316,16 @@ function SearchApp() {
                     <p className="q" dangerouslySetInnerHTML={{ __html: excerpt(row.remark, row.branch) }} />
                   </div>
                   <div className="c-cite">
-                    {row.remark.page != null && <span className="pg">p. {row.remark.page}</span>}
+                    {row.pages.hit != null && <span className="pg">p. {row.pages.hit}</span>}
                     <button type="button" className="copy" data-copy={citeOf(row)}><Icon name="copy" size={14} /><span>Copy cite</span></button>
                     <a className="ctx" href={row.remark.url}>Read in context</a>
                   </div>
                 </article>
               ))}
-              {status === "ready" && !rows.length && (
+              {status === "ready" && !rows.length && queue.current.length > 0 && (
+                <div className="sr-none"><p>No matching remarks in the first {loaded.toLocaleString("en-US")} transcripts.</p></div>
+              )}
+              {status === "ready" && !rows.length && !queue.current.length && (
                 <div className="sr-none">
                   <p>No remarks match.</p>
                   {suggestion && <p><a className="link" href={`${location.pathname}?q=${encodeURIComponent(suggestion)}`}>Did you mean: {suggestion}?</a></p>}

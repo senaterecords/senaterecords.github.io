@@ -61,3 +61,14 @@ test("each calendar reading starts with its bill number and title", async ({ pag
   await expect(header).toContainText("Increases short-term disability benefits");
   await expect(page.locator(".rd-seg + .turn, .rd-seg ~ .turn").first()).toBeAttached();
 });
+
+test("reader pages leave out the header parts they never show", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  await expect(page.locator(".bar .nav, .bar .upd, .bar .bar-search, .bar details.menu")).toHaveCount(0);
+  await expect(page.locator(".bar .rd-crumb")).toHaveCount(1);
+});
+
+test("search only ships the files the site uses", async ({ request }) => {
+  expect((await request.get("pagefind/pagefind.js")).ok()).toBe(true);
+  expect((await request.get("pagefind/pagefind-ui.js")).status()).toBe(404);
+});

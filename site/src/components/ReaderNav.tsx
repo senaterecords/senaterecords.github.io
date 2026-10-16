@@ -31,7 +31,18 @@ function ReaderNav() {
   const [currentTurn, setCurrentTurn] = useState<number | null>(null);
   const [missing, setMissing] = useState(false);
   const [calendarOpen, setCalendarOpen] = useState(false);
+  const [, setShown] = useState(0);
   const last = useRef<{ index: number; scrollY: number } | null>(null);
+
+  // "Show only" hides turns (SpeakerCards marks the transcript .only); J/K and the remark bar then skip hidden ones.
+  useEffect(() => {
+    const article = document.getElementById("transcript");
+    if (!article) return;
+    const observer = new MutationObserver(() => { last.current = null; setShown((n) => n + 1); });
+    observer.observe(article, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
+  const visible = remarks.filter((r) => !r.heading.hidden);
 
   useEffect(() => {
     const found: Remark[] = [];
@@ -80,8 +91,8 @@ function ReaderNav() {
   }, [segment]);
 
   const scope = segment
-    ? remarks.filter((r) => r.i >= segment.startTurn && r.i <= Math.max(segment.endTurn, segment.debateEnd))
-    : remarks;
+    ? visible.filter((r) => r.i >= segment.startTurn && r.i <= Math.max(segment.endTurn, segment.debateEnd))
+    : visible;
   const position = currentTurn == null ? -1 : scope.reduce((at, r, idx) => (r.i <= currentTurn ? idx : at), -1);
 
   const go = useCallback((list: Remark[], index: number) => {
@@ -89,21 +100,22 @@ function ReaderNav() {
     if (!target) return;
     target.heading.scrollIntoView({ block: "start" });
     history.replaceState(null, "", `#r-${target.i}`);
-    last.current = { index: remarks.indexOf(target), scrollY: window.scrollY };
+    last.current = { index: list.indexOf(target), scrollY: window.scrollY };
     setCurrentTurn(target.i);
     setMissing(false);
-  }, [remarks]);
+  }, []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if ((e.key !== "j" && e.key !== "k") || e.metaKey || e.ctrlKey || e.altKey || typing(e.target) || !remarks.length) return;
+      const list = remarks.filter((r) => !r.heading.hidden);
+      if ((e.key !== "j" && e.key !== "k") || e.metaKey || e.ctrlKey || e.altKey || typing(e.target) || !list.length) return;
       let base: number;
       if (last.current && Math.abs(window.scrollY - last.current.scrollY) < 4) base = last.current.index;
       else {
         const turn = turnAt(120) ?? -1;
-        base = remarks.reduce((at, r, idx) => (r.i <= turn ? idx : at), -1);
+        base = list.reduce((at, r, idx) => (r.i <= turn ? idx : at), -1);
       }
-      go(remarks, e.key === "j" ? base + 1 : Math.max(0, base - 1));
+      go(list, e.key === "j" ? base + 1 : Math.max(0, base - 1));
     };
     document.addEventListener("keydown", onKey);
     // J/K pressed before this island started are replayed once the remarks are known.

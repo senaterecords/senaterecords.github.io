@@ -130,6 +130,7 @@
 .only-bar { margin: 0 48px 14px 96px; padding: 9px 14px; background: var(--color-act-wash); border-radius: 6px; font-size: 13.5px; color: var(--color-ink); max-width: 68ch; }
 .only-bar button { font: 650 13.5px var(--font-ui); color: var(--color-act); background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
 #transcript.only .chunk { content-visibility: visible; contain-intrinsic-size: none; }
+#transcript.only .rd-seg { display: none; }
 @media (max-width: 719.98px) { .only-bar { margin: 0 18px 12px; } }
 
 /* citation tools (CiteTools.tsx) */

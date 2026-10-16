@@ -47,3 +47,25 @@ test("a senator from before 2009 has a card without a photo", async ({ page }) =
   await expect(card).toBeVisible();
   await expect(card.locator("img")).toHaveCount(0);
 });
+
+test("J and K stay on the shown speaker while Show only is on", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const name = page.locator("h3.sp.sen").first();
+  const key = (await name.getAttribute("id"))!.split("-").slice(3).join("-");
+  await name.click();
+  await page.getByRole("button", { name: /^Show only / }).click();
+  await page.keyboard.press("Escape");
+  for (let n = 0; n < 3; n++) {
+    await page.keyboard.press("j");
+    const turn = (await page.evaluate(() => location.hash)).slice(3);
+    await expect(page.locator(`#r-${turn} > h3`)).toHaveId(new RegExp(`-${key}$`));
+  }
+});
+
+test("calendar reading headers hide with the other speakers' turns", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  await page.locator("h3.sp.sen").first().click();
+  await page.getByRole("button", { name: /^Show only / }).click();
+  await expect(page.locator(".rd-seg").first()).toBeHidden();
+});

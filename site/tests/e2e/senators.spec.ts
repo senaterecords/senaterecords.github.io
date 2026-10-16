@@ -22,3 +22,18 @@ test("senators from before 2009 have pages without a photo or official link", as
   await expect(page.locator("header img.photo")).toHaveCount(0);
   await expect(page.getByRole("link", { name: "Official page" })).toHaveCount(0);
 });
+
+test("exporting a senator's remarks lets go of the file afterwards", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.addInitScript(() => {
+    const w = window as unknown as { __revoked: number };
+    w.__revoked = 0;
+    const revoke = URL.revokeObjectURL.bind(URL);
+    URL.revokeObjectURL = (u: string) => { w.__revoked += 1; revoke(u); };
+  });
+  await page.goto("senators/liz-krueger/");
+  const download = page.waitForEvent("download");
+  await page.getByRole("button", { name: /Export/ }).first().click();
+  await download;
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(0);
+});

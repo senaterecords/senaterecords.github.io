@@ -60,7 +60,7 @@ if (!proForma) for (const s of segments) readings.set(s.startTurn, [...(readings
 const json = JSON.stringify(packReader(readerData)).replace(/</g, "\\u003c");
 const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).length;
 ---
-<Base title={displayTitle} description={`${displayTitle}. New York State Senate ${doc.kind === "floor" ? "floor transcript" : "public hearing transcript"}${pages ? `, ${pages}` : ""}.`} wide>
+<Base title={displayTitle} description={`${displayTitle}. New York State Senate ${doc.kind === "floor" ? "floor transcript" : "public hearing transcript"}${pages ? `, ${pages}` : ""}.`} wide minimalBar>
   <Fragment slot="bar">
     <a class="ib rd-back" href={url(`/browse/${year}/`)} aria-label={`Back to ${year} transcripts`}><Icon name="back" size={22} /></a>
     <nav class="rd-crumb" aria-label="Breadcrumb">

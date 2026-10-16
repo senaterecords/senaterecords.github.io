@@ -5,6 +5,7 @@ import Status from "../../../components/Status.astro";
 import Timeline from "../../../components/Timeline.astro";
 import Base from "../../../layouts/Base.astro";
 import { BILL_DATA_START } from "../../../config";
+import { floorAppearances } from "../../../lib/bills";
 import { bill, billPages, senatorPageSlugs, senatorsByMemberId, senatorsBySlug, transcriptIndex } from "../../../lib/data";
 import { billStatus, committeeName, hearingTitle, outcomeText, plainPages, plural, shortDate, titleCase } from "../../../lib/format";
 import type { BillSegment } from "../../../lib/types";
@@ -31,11 +32,7 @@ const sponsorEntry = card?.sponsor?.memberId != null ? byId.get(card.sponsor.mem
 const sponsorName = card?.sponsor?.name ?? entry.segments.find((s) => s.sponsor)?.sponsor ?? null;
 
 const segments = entry.segments.filter((s) => exists(s.transcript));
-const debated = segments.filter((s) => s.debated);
-const main = debated.length
-  ? [...debated].sort((a, b) => b.remarks - a.remarks || b.date.localeCompare(a.date) || b.startTurn - a.startTurn)[0]
-  : null;
-const others = segments.filter((s) => s !== main).sort((a, b) => b.date.localeCompare(a.date) || b.startTurn - a.startTurn);
+const { main, earlier, later } = floorAppearances(segments);
 const segSlugs = new Set(segments.map((s) => s.transcript));
 const hearings = entry.mentionedIn.filter((m) => m.kind === "hearing" && exists(m.transcript));
 const floorMentions = entry.mentionedIn.filter((m) => m.kind === "floor" && !segSlugs.has(m.transcript) && exists(m.transcript));
@@ -104,14 +101,14 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
           </div>
         </section>
       )}
-      {others.length > 0 && (
+      {([[main ? "Later on the floor" : null, later], [main ? "Earlier on the floor" : "On the floor", earlier]] as const).map(([heading, list]) => list.length > 0 && (
         <section class="earlier">
-          <h3>{main ? "Earlier on the floor" : "On the floor"}</h3>
-          {others.map((s) => (
+          <h3>{heading}</h3>
+          {list.map((s) => (
             <div class="er"><b class="num">{shortDate(s.date)}</b><span>{outcomeText(s)}</span><a href={readHref(s)}>Read{s.remarks ? ` (${plural(s.remarks, "remark")})` : ""}</a></div>
           ))}
         </section>
-      )}
+      ))}
       {hearings.length > 0 && (
         <section class="earlier">
           <h3>Discussed in public hearings</h3>

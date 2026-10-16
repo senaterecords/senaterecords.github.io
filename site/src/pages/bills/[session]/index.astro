@@ -6,7 +6,7 @@ import Status from "../../../components/Status.astro";
 import Base from "../../../layouts/Base.astro";
 import { BILL_DATA_START } from "../../../config";
 import { billSessions, billsFor } from "../../../lib/data";
-import { billStatus, committeeName, plural } from "../../../lib/format";
+import { billStatus, committeeName, plural, shortDate } from "../../../lib/format";
 import { url } from "../../../lib/url";
 
 export function getStaticPaths() {
@@ -15,8 +15,6 @@ export function getStaticPaths() {
 
 const session = Number(Astro.params.session);
 const label = (s: number) => `${s}–${String(s + 1).slice(2)}`;
-const SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-const monthDay = (iso: string) => `${SHORT[Number(iso.slice(5, 7)) - 1]} ${Number(iso.slice(8, 10))}`;
 
 const rows = billsFor(session)
   .filter((b) => b.segments.length > 0)
@@ -70,7 +68,7 @@ const sessions = [...billSessions()].reverse();
           <span class="t">{r.title ?? <span class="na">Details not available</span>}<small>{[r.sponsor, r.b.card?.committee && committeeName(r.b.card.committee)].filter(Boolean).join(" · ")}</small></span>
           <span class="dbt num">{r.remarks ? `${plural(r.remarks, "remark")} · ${plural(r.senators, "senator")}` : "No debate"}</span>
           <span class="st"><Status status={billStatus(r.b.card)} /></span>
-          <span class="dt num">{r.lastDate ? monthDay(r.lastDate) : ""}</span>
+          <span class="dt num">{r.lastDate ? shortDate(r.lastDate) : ""}</span>
         </li>
       ))}
     </ul>

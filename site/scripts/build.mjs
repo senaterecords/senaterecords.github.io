@@ -1,6 +1,6 @@
 // Build the site from ../data/site (or the committed fixture with --fixture), then index it with Pagefind.
 // One Node process, so it behaves the same on Windows and in CI.
-import { rmSync } from "node:fs";
+import { readdirSync, rmSync } from "node:fs";
 import { resolve } from "node:path";
 import { build } from "astro";
 import * as pagefind from "pagefind";
@@ -21,5 +21,7 @@ if (errors.length) throw new Error(errors.join("\n"));
 const added = await index.addDirectory({ path: "dist" });
 if (added.errors.length) throw new Error(added.errors.join("\n"));
 await index.writeFiles({ outputPath: "dist/pagefind" });
+// Pagefind also writes its ready-made search interfaces, which the site never loads.
+for (const file of readdirSync("dist/pagefind")) if (/^pagefind-(ui|modular-ui|component-ui|highlight)\./.test(file)) rmSync(`dist/pagefind/${file}`);
 await pagefind.close();
 console.log(`Built ${added.page_count} searchable pages from ${process.env.OTR_DATA} in ${Math.round((Date.now() - started) / 1000)} s`);

@@ -110,6 +110,10 @@ describe("citations", () => {
     expect(legalCite(floor)).toBe("N.Y. Senate Tr., June 10, 2025, at 5780 (remarks of Sen. Ortega)");
     expect(legalCite({ ...floor, end: 5781 })).toBe("N.Y. Senate Tr., June 10, 2025, at 5780–81 (remarks of Sen. Ortega)");
     expect(legalCite(hearing)).toBe("N.Y. Senate Pub. Hr'g Tr., MTA Capital Program, Mar. 18, 2025, at 112 (remarks of Sen. Okafor)");
+    // The reader and search name a hearing "Public hearing: …" in lists; a citation names it the same way everywhere.
+    expect(legalCite({ ...hearing, title: "Public hearing: MTA Capital Program" })).toBe(legalCite(hearing));
+    expect(plainCite({ ...hearing, title: "Public hearing: MTA Capital Program" })).toBe(plainCite(hearing));
+    expect(legalCite({ ...hearing, title: null })).toContain("Pub. Hr'g Tr., Public hearing, Mar. 18, 2025");
   });
 
   it("writes the plain citation on request", () => {

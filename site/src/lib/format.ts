@@ -138,19 +138,22 @@ export interface CiteInput {
   speaker: { short: string; full: string };
 }
 
+// A hearing is cited by its own title wherever the citation is made; lists may call it "Public hearing: …".
+const citedTitle = (title: string | null) => (title ?? "").replace(/^Public hearing: /, "") || "Public hearing";
+
 export function legalCite(c: CiteInput): string {
   const at = c.start == null ? "" : `, at ${legalPages(c.start, c.end)}`;
   const who = ` (remarks of ${c.speaker.short})`;
   return c.kind === "floor"
     ? `N.Y. Senate Tr., ${legalDate(c.date)}${at}${who}`
-    : `N.Y. Senate Pub. Hr'g Tr., ${c.title}, ${legalDate(c.date)}${at}${who}`;
+    : `N.Y. Senate Pub. Hr'g Tr., ${citedTitle(c.title)}, ${legalDate(c.date)}${at}${who}`;
 }
 
 export function plainCite(c: CiteInput): string {
   const p = c.start == null ? "" : `, ${plainPages(c.start, c.end)}`;
   return c.kind === "floor"
     ? `NY Senate floor transcript, ${longDate(c.date)}${p} (${c.speaker.full})`
-    : `NY Senate public hearing, ${c.title}, ${longDate(c.date)}${p} (${c.speaker.full})`;
+    : `NY Senate public hearing, ${citedTitle(c.title)}, ${longDate(c.date)}${p} (${c.speaker.full})`;
 }
 
 export function outcomeText(s: { debated: boolean; outcome: string | null; ayes: number | null; nays: number | null }): string {

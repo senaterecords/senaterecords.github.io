@@ -168,6 +168,7 @@ const exportData = JSON.stringify({
 
 <script>
   import "../../scripts/copy";
+  import { download, markdownEscape } from "../../lib/download";
 
   // Tabs mark the section you jumped to.
   const tabs = [...document.querySelectorAll<HTMLAnchorElement>(".tabs a")];
@@ -183,16 +184,10 @@ const exportData = JSON.stringify({
     const data = JSON.parse(document.getElementById("senator-data")!.textContent!);
     const abs = (href: string) => new URL(href, location.href).href;
     const lines = [`# ${data.name}`, "", data.service, "", `Source: ${location.href.split("#")[0]}`, "", "## Recent remarks", ""];
-    for (const r of data.recent) lines.push(`- ${r.date}${r.page != null ? `, p. ${r.page}` : ""}: “${r.text}” (${abs(r.href)})`);
+    for (const r of data.recent) lines.push(`- ${r.date}${r.page != null ? `, p. ${r.page}` : ""}: “${markdownEscape(r.text)}” (${abs(r.href)})`);
     lines.push("", "## Transcripts", "");
-    for (const a of data.appearances) lines.push(`- ${a.date}, ${a.title ?? (a.kind === "floor" ? "Floor session" : "Public hearing")}: ${a.remarks} remarks${a.presiding ? `, presiding ${a.presiding} times` : ""} (${abs(a.href)})`);
-    const link = Object.assign(document.createElement("a"), {
-      href: URL.createObjectURL(new Blob([lines.join("\n") + "\n"], { type: "text/markdown;charset=utf-8" })),
-      download: `${data.slug}-remarks.md`,
-    });
-    document.body.append(link);
-    link.click();
-    link.remove();
+    for (const a of data.appearances) lines.push(`- ${a.date}, ${markdownEscape(a.title ?? (a.kind === "floor" ? "Floor session" : "Public hearing"))}: ${a.remarks} remarks${a.presiding ? `, presiding ${a.presiding} times` : ""} (${abs(a.href)})`);
+    download(`${data.slug}-remarks.md`, lines.join("\n") + "\n", "text/markdown");
   });
 </script>
 

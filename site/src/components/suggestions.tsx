@@ -1,6 +1,7 @@
 // Suggestions for the shortcut being typed (spec 9.1, "Homepage: typing speaker:"). Data loads on first use and
 // stays cached in memory.
 import { useEffect, useState, type ReactNode } from "react";
+import { jsonCache } from "../lib/fetch";
 import { findPeople, fold, type Person } from "../lib/names";
 import { SHORTCUTS, tokenAt, type Token } from "../lib/suggest";
 import { url } from "../lib/url";
@@ -8,15 +9,7 @@ import { url } from "../lib/url";
 export interface Suggestion { id: string; label: ReactNode; detail?: string; count?: string; photo?: string | null; person?: boolean; value: string; trailingSpace: boolean; }
 export interface SuggestionGroup { heading?: string; items: Suggestion[]; }
 
-const cache = new Map<string, Promise<unknown>>();
-const load = <T,>(path: string): Promise<T> => {
-  if (!cache.has(path)) {
-    const request = fetch(url(path)).then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))));
-    request.catch(() => cache.delete(path));
-    cache.set(path, request);
-  }
-  return cache.get(path) as Promise<T>;
-};
+const load = jsonCache(url);
 
 const HINT: Record<string, string> = {
   speaker: "one senator's remarks", year: "one year or a range", bill: "transcripts that mention a bill",
@@ -60,7 +53,7 @@ async function suggest(token: Token): Promise<SuggestionGroup[]> {
     })) }];
   }
   if (token.field === "bill") {
-    const typed = text.toUpperCase().replace(/[^A-Z0-9]/g, "");
+    const typed = text.split("/")[0].toUpperCase().replace(/[^A-Z0-9]/g, "");
     const m = typed.match(/^([SA])(\d+)/);
     if (!m) return [];
     const prefix = m[1] + m[2].slice(0, 2);
@@ -72,7 +65,8 @@ async function suggest(token: Token): Promise<SuggestionGroup[]> {
       return seen.has(key) ? false : (seen.add(key), true);
     }).slice(0, 8).map((r) => ({
       id: `b-${r.session}-${r.printNo}`, label: r.printNo, detail: [`${r.session}–${String(r.session + 1).slice(2)}`, r.title].filter(Boolean).join(" · "),
-      value: `bill:${r.printNo.match(/^[SA]\d+/)?.[0] ?? r.printNo}`, trailingSpace: true,
+      // The row names a session, so picking it searches that session's bill, not every bill with the number.
+      value: `bill:${r.printNo.match(/^[SA]\d+/)?.[0] ?? r.printNo}/${r.session}`, trailingSpace: true,
     })) }];
   }
   if (token.field === "type") {

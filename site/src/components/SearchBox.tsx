@@ -50,13 +50,14 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
   const form = useRef<HTMLFormElement>(null);
   const [caret, setCaret] = useState<number | null>(null);
   const [acOpen, setAcOpen] = useState(false);
-  const [active, setActive] = useState(0);
+  // Nothing is chosen until an arrow key or the pointer picks a row, so Enter searches what was typed.
+  const [active, setActive] = useState(-1);
   const listId = useId();
   const { token, groups } = useSuggestions(value, caret, acOpen);
   const items = groups.flatMap((g) => g.items);
   const showList = acOpen && items.length > 0;
 
-  useEffect(() => setActive(0), [token?.start, token?.field, token?.text]);
+  useEffect(() => setActive(-1), [token?.start, token?.field, token?.text]);
 
   const pick = (s: Suggestion) => {
     if (!token) return;
@@ -68,8 +69,8 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
   const onKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (!showList) return;
     if (e.key === "ArrowDown") { e.preventDefault(); setActive((a) => (a + 1) % items.length); }
-    else if (e.key === "ArrowUp") { e.preventDefault(); setActive((a) => (a - 1 + items.length) % items.length); }
-    else if (e.key === "Enter") { e.preventDefault(); pick(items[Math.min(active, items.length - 1)]); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); setActive((a) => (a <= 0 ? items.length - 1 : a - 1)); }
+    else if (e.key === "Enter" && active >= 0) { e.preventDefault(); pick(items[Math.min(active, items.length - 1)]); }
     else if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); setAcOpen(false); }
   };
   const track = () => setCaret(input.current?.selectionStart ?? null);
@@ -96,7 +97,7 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
 
   useEffect(() => {
     if (!tipsOpen) return;
-    const onKey = (e: KeyboardEvent) => {
+    const onKey = (e: globalThis.KeyboardEvent) => {
       if (e.key === "Escape") { setTipsOpen(false); tipsButton.current?.focus(); }
     };
     const onPointer = (e: PointerEvent) => {
@@ -141,7 +142,7 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
           <span className="visually-hidden">Search the record</span>
           <input ref={input} type="search" name="q" value={value} placeholder={placeholder} autoComplete="off" spellCheck={false}
             aria-autocomplete="list" aria-controls={showList ? listId : undefined}
-            aria-activedescendant={showList ? `${listId}-${active}` : undefined}
+            aria-activedescendant={showList && active >= 0 ? `${listId}-${active}` : undefined}
             onChange={(e) => { setValue(e.target.value); setCaret(e.target.selectionStart); setAcOpen(true); }}
             onKeyDown={onKeyDown} onKeyUp={track} onClick={track} onBlur={() => setAcOpen(false)} onFocus={() => setAcOpen(true)} />
         </label>

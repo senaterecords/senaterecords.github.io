@@ -25,6 +25,8 @@ from .store import Store, is_real_photo, read_json, slugify, write_json
 FALLBACK_COVERAGE = 0.8
 RECENT_REMARKS = 20   # newest remarks kept on each senator page
 EXCERPT_TURNS = 3     # debate remarks quoted on a bill page
+MATCH_ROLES = (ROLE_SENATOR, ROLE_PRESIDING, ROLE_CHAIR)
+_WORD = re.compile(r"[^\W\d_]{4,}")  # letters only, accents included (sepúlveda)
 
 
 def _clip(text: str, limit: int) -> str:
@@ -34,8 +36,6 @@ def _clip(text: str, limit: int) -> str:
         return text
     cut = text.rfind(" ", 0, limit)
     return text[: cut if cut > limit // 2 else limit].rstrip(" ,;:") + "…"
-MATCH_ROLES = (ROLE_SENATOR, ROLE_PRESIDING, ROLE_CHAIR)
-_WORD = re.compile(r"[^\W\d_]{4,}")  # letters only, accents included (sepúlveda)
 
 
 def transcript_slug(kind: str, raw: dict[str, Any]) -> str:

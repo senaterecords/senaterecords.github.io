@@ -3,7 +3,7 @@
 import { fold } from "./names";
 
 export interface Branch { words: string[]; phrases: string[]; near: [string, string][]; }
-export interface Filters { speaker?: string; bill?: string; years?: number[]; type?: "floor" | "hearing"; committee?: string; }
+export interface Filters { speaker?: string; bill?: string; session?: number; years?: number[]; type?: "floor" | "hearing"; committee?: string; }
 export interface ParsedQuery { branches: Branch[]; not: string[]; filters: Filters; }
 
 const FIELDS = new Set(["speaker", "bill", "year", "type", "committee"]);
@@ -37,8 +37,13 @@ function applyFilter(filters: Filters, field: string, value: string) {
     const t = value.toLowerCase();
     if (t === "floor" || t === "hearing") filters.type = t;
   } else if (field === "bill") {
-    const m = value.toUpperCase().replace(/[^A-Z0-9]/g, "").match(/^([SA])(\d+)/);
-    if (m) filters.bill = `${m[1]}${m[2]}`;
+    // "S4597" is that number in any session; "S4597/2025" (either year of the session) is that session's bill.
+    const [number, year] = value.split("/");
+    const m = number.toUpperCase().replace(/[^A-Z0-9]/g, "").match(/^([SA])(\d+)/);
+    if (m) {
+      filters.bill = `${m[1]}${m[2]}`;
+      if (/^\d{4}$/.test(year ?? "")) filters.session = Number(year) % 2 ? Number(year) : Number(year) - 1;
+    }
   } else if (field === "year") {
     const m = value.match(/^(\d{4})(?:-(\d{4}))?$/);
     if (m) {
@@ -81,8 +86,13 @@ export function parseQuery(q: string): ParsedQuery {
   return { branches: kept.length ? kept : [{ words: [], phrases: [], near: [] }], not, filters };
 }
 
-export const pagefindTerm = (b: Branch) =>
-  [...b.words, ...b.phrases.map((p) => `"${p}"`), ...b.near.flat()].join(" ");
+/** What Pagefind is asked for. Pagefind runs an exact search only when the whole term is one quoted phrase, and a
+ * term with several quoted phrases finds nothing, so several phrases are searched as their words and each remark is
+ * checked for every phrase (spec 9.1). */
+export function pagefindTerm(b: Branch): string {
+  const phrases = b.phrases.length === 1 ? [`"${b.phrases[0]}"`] : b.phrases.flatMap((p) => p.split(" "));
+  return [...b.words, ...phrases, ...b.near.flat()].join(" ");
+}
 
 /** Pagefind filters for a query. A range of years needs "any"; a plain list would require every year at once. */
 export function pagefindFilters(f: Filters, speakerSlug: string | null): Record<string, string | string[] | { any: string[] }> {
@@ -90,35 +100,55 @@ export function pagefindFilters(f: Filters, speakerSlug: string | null): Record<
   if (f.years?.length) out.year = f.years.length === 1 ? [String(f.years[0])] : { any: f.years.map(String) };
   if (f.type) out.type = f.type;
   if (f.bill) out.bill = f.bill;
+  if (f.session) out.session = String(f.session);
   if (f.committee) out.committee = f.committee;
   if (speakerSlug) out.senator = speakerSlug;
   return out;
 }
 
-export interface Remark { url: string; turn: number; page: number | null; speaker: string | null; label: string; text: string; }
+/** One remark found on a page. breaks are [word index in text, page] for each page that begins inside it. */
+export interface Remark { url: string; turn: number; page: number | null; speaker: string | null; label: string; text: string; breaks: [number, number][]; }
 
 interface PageData { url: string; content: string; anchors: { element: string; id: string; text: string; location: number }[]; }
 
+/** A page's remarks: each labelled turn (r-) up to the next turn of either kind, so stage directions and roll calls
+ * (t-) are not glued onto the remark before them. A transcript without labels (the plain-text fallback) is searched
+ * as its unlabelled text. Page breaks (p{N}) give the page of every word. */
 export function remarksOf(data: PageData): Remark[] {
   const words = data.content.split(/\s+/).filter(Boolean);
-  const starts = data.anchors.filter((a) => /^r-\d+$/.test(a.id)).sort((a, b) => a.location - b.location);
+  const turns = data.anchors.filter((a) => /^[rt]-\d+$/.test(a.id)).sort((a, b) => a.location - b.location);
+  const pages = data.anchors.flatMap((a) => {
+    const m = a.id.match(/^p(\d+)$/);
+    return m ? [[a.location, Number(m[1])] as [number, number]] : [];
+  }).sort((a, b) => a[0] - b[0]);
   const who = new Map<number, { page: number | null; speaker: string | null; label: string }>();
   for (const a of data.anchors) {
     const m = a.id.match(/^w-(\d+)-(\d+)-(.+)$/);
     if (m) who.set(Number(m[1]), { page: Number(m[2]) || null, speaker: m[3] === "x" ? null : m[3], label: a.text });
   }
-  return starts.map((a, idx) => {
+  const labelled = turns.some((a) => a.id.startsWith("r-"));
+  return turns.flatMap((a, idx) => {
+    if (labelled && a.id.startsWith("t-")) return [];
     const turn = Number(a.id.slice(2));
-    const end = starts[idx + 1]?.location ?? words.length;
-    return {
-      url: `${data.url}#r-${turn}`,
-      turn,
-      page: who.get(turn)?.page ?? null,
-      speaker: who.get(turn)?.speaker ?? null,
-      label: who.get(turn)?.label ?? a.text,
-      text: words.slice(a.location, end).join(" "),
-    };
+    const start = a.location;
+    const end = turns[idx + 1]?.location ?? words.length;
+    const breaks = pages.filter(([at]) => at >= start && at < end).map(([at, page]) => [at - start, page] as [number, number]);
+    const w = who.get(turn);
+    // An unlabelled turn's first page is the one before its first break (pages run in order).
+    const page = w ? w.page : breaks.length ? breaks[0][1] - (breaks[0][0] === 0 ? 0 : 1) : null;
+    return [{
+      url: `${data.url}#${a.id}`, turn, page, speaker: w?.speaker ?? null,
+      label: w?.label ?? (a.id.startsWith("r-") ? a.text : ""), text: words.slice(start, end).join(" "), breaks,
+    }];
   });
+}
+
+/** A remark's words without the speaker's label that heads it, so a name matches what was said, not who said it. */
+export function spokenText(r: Remark): Remark {
+  if (!r.label || !r.text.startsWith(r.label)) return r;
+  const text = r.text.slice(r.label.length).replace(/^[\s.:]+/, "");
+  const dropped = r.text.split(" ").length - (text ? text.split(" ").length : 0);
+  return { ...r, text, breaks: r.breaks.map(([at, page]) => [Math.max(0, at - dropped), page] as [number, number]) };
 }
 
 const foldedWords = (text: string) => fold(text).split(" ").filter(Boolean);
@@ -137,8 +167,11 @@ function present(words: string[], term: string): boolean {
   return fold(term).includes(" ") ? hasPhrase(words, term) : positions(words, term).length > 0;
 }
 
+// A senator presiding speaks as "ACTING PRESIDENT X"; the site counts those turns apart from remarks.
+const PRESIDING = /^acting president\b/i;
+
 export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: string | null): boolean {
-  if (speakerSlug && r.speaker !== speakerSlug) return false;
+  if (speakerSlug && (r.speaker !== speakerSlug || PRESIDING.test(r.label))) return false;
   const words = foldedWords(r.text);
   if (!b.words.every((w) => present(words, w))) return false;
   if (!b.phrases.every((p) => hasPhrase(words, p))) return false;
@@ -155,9 +188,8 @@ const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const L = "\\p{L}\\p{N}";
 const EXCERPT = 360;
 
-/** The remark as safe HTML with hits in <mark>, trimmed around the first hit when it is long. */
-export function excerpt(r: Remark, b: Branch): string {
-  const text = r.text;
+/** The hits of a branch in a text, as merged [start, end) character ranges. */
+function hits(text: string, b: Branch): [number, number][] {
   const patterns = [
     ...b.phrases.map((p) => p.split(/\s+/).map(escapeRegex).join(`[^${L}]+`) + `(?![${L}])`),
     ...[...b.words, ...b.near.flat()].map((w) => `${escapeRegex(w)}[${L}]*`),
@@ -173,6 +205,11 @@ export function excerpt(r: Remark, b: Branch): string {
     if (last && range[0] <= last[1]) last[1] = Math.max(last[1], range[1]);
     else merged.push([...range]);
   }
+  return merged;
+}
+
+/** The [from, to) characters shown for a remark: all of it, or a window around the first hit when it is long. */
+function windowOf(text: string, merged: [number, number][]): [number, number] {
   let from = 0;
   let to = text.length;
   if (text.length > EXCERPT) {
@@ -182,6 +219,14 @@ export function excerpt(r: Remark, b: Branch): string {
     to = Math.min(text.length, from + EXCERPT);
     if (to < text.length) to = text.lastIndexOf(" ", to) > from ? text.lastIndexOf(" ", to) : to;
   }
+  return [from, to];
+}
+
+/** The remark as safe HTML with hits in <mark>, trimmed around the first hit when it is long. */
+export function excerpt(r: Remark, b: Branch): string {
+  const text = r.text;
+  const merged = hits(text, b);
+  const [from, to] = windowOf(text, merged);
   let html = from > 0 ? "… " : "";
   let at = from;
   for (const [start, end] of merged) {
@@ -194,3 +239,29 @@ export function excerpt(r: Remark, b: Branch): string {
   html += escapeHtml(text.slice(at, to)) + (to < text.length ? " …" : "");
   return html;
 }
+
+/** The page of a remark's first hit, and the pages its excerpt spans, for "p. N" and the citation. */
+export function excerptPages(r: Remark, b: Branch): { hit: number | null; start: number | null; end: number | null } {
+  const merged = hits(r.text, b);
+  const [from, to] = windowOf(r.text, merged);
+  const wordAt = (offset: number) => (r.text.slice(0, offset).match(/ /g) ?? []).length;
+  const pageAt = (word: number) => r.breaks.reduce<number | null>((page, [at, p]) => (at <= word ? p : page), r.page);
+  return { hit: pageAt(wordAt(merged[0]?.[0] ?? from)), start: pageAt(wordAt(from)), end: pageAt(wordAt(Math.max(from, to - 1))) };
+}
+
+// A query's tokens as typed: a shortcut with a quoted value ("committee:\"Ways and Means\""), a phrase, or a word.
+const TOKENS = /-?[A-Za-z]+:"[^"]*"?|"[^"]*"?|\S+/g;
+const sameToken = (a: string, b: string) => a.toLowerCase() === b.toLowerCase();
+
+/** Whether a shortcut such as type:hearing is already in the query. */
+export const hasShortcut = (q: string, shortcut: string) => (q.match(TOKENS) ?? []).some((t) => sameToken(t, shortcut));
+
+/** The query with a shortcut added, or taken out when it is there. */
+export function toggleShortcut(q: string, shortcut: string): string {
+  return hasShortcut(q, shortcut)
+    ? (q.match(TOKENS) ?? []).filter((t) => !sameToken(t, shortcut)).join(" ")
+    : `${q.trim()} ${shortcut}`.trim();
+}
+
+/** Whether to fetch another batch for the first screen: until five remarks show, and at most three batches. */
+export const fillMore = (kept: number, batches: number) => kept < 5 && batches < 3;

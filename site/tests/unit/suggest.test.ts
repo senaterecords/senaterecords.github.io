@@ -14,6 +14,13 @@ describe("the token at the caret", () => {
     expect(tokenAt("y", 1)).toBeNull();
   });
 
+  it("offers a shortcut only for part of its name, so whole words like bill or year stay words", () => {
+    expect(tokenAt("school bil", 10)).toEqual({ field: null, text: "bil", start: 7, end: 10 });
+    expect(tokenAt("school bill", 11)).toBeNull();
+    expect(tokenAt("budget year", 11)).toBeNull();
+    expect(tokenAt("rules committee", 15)).toBeNull();
+  });
+
   it("replaces the token and puts the caret after it", () => {
     expect(replaceToken("budget speaker:krue", { start: 7, end: 19 }, "speaker:liz-krueger", true)).toEqual({ value: "budget speaker:liz-krueger ", caret: 27 });
     expect(replaceToken("rent ye", { start: 5, end: 7 }, "year:", false)).toEqual({ value: "rent year:", caret: 10 });

@@ -90,3 +90,88 @@ test("a filter already in the search shows as ticked", async ({ page }, info) =>
   const facets = page.getByRole("complementary", { name: "Narrow the results" });
   await expect(facets.getByRole("button", { name: /Public hearings/ })).toHaveAttribute("aria-pressed", "true");
 });
+
+const LOAD_FAILED = "Search couldn't load. Check your connection and try again.";
+
+test("two phrases find the remarks that hold both", async ({ page }) => {
+  await page.goto("search/?q=%22executive%20budget%22%20%22steady%20job%20growth%22");
+  await expect(page.locator("[data-result] mark", { hasText: /steady job growth/i }).first()).toBeVisible();
+});
+
+test("a phrase with another word finds the remarks that hold both", async ({ page }) => {
+  await page.goto("search/?q=%22executive%20budget%22%20growth");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+});
+
+test("search says so when part of the index fails to load", async ({ page }) => {
+  await page.route("**/pagefind/fragment/**", (route) => route.abort());
+  await page.goto("search/?q=budget");
+  await expect(page.getByText(LOAD_FAILED)).toBeVisible();
+});
+
+test("search says so when the word index fails to load", async ({ page }) => {
+  await page.route("**/pagefind/index/**", (route) => route.abort());
+  await page.goto("search/?q=budget");
+  await expect(page.getByText(LOAD_FAILED)).toBeVisible();
+});
+
+test("the search box keeps up when a filter is clicked", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=budget");
+  await page.getByRole("complementary", { name: "Narrow the results" }).getByRole("button", { name: /Public hearings/ }).click();
+  await expect(page).toHaveURL(/type%3Ahearing/);
+  await expect(page.getByRole("searchbox")).toHaveValue("budget type:hearing");
+});
+
+test("a remark's page is the page the quote is on", async ({ page }) => {
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22");
+  const row = page.locator("[data-result]").first();
+  await expect(row.locator(".pg")).toHaveText("p. 851");
+  await expect(row.getByRole("button", { name: "Copy cite" })).toHaveAttribute("data-copy", /, at 850–51 \(remarks/);
+});
+
+test("bill: with a session searches only that session's bill", async ({ page }) => {
+  await page.goto("search/?q=bill%3AS50025%2F2009");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  await page.goto("search/?q=bill%3AS50025%2F2013");
+  await expect(page.getByText("No remarks match.")).toBeVisible();
+});
+
+test("a committee filter shows as ticked and a second click takes it out", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=budget%20committee%3A%22Ways%20and%20Means%22");
+  const button = page.getByRole("complementary", { name: "Narrow the results" }).getByRole("button", { name: /Ways and Means/ });
+  await expect(button).toHaveAttribute("aria-pressed", "true");
+  await button.click();
+  await expect(page).toHaveURL(/\?q=budget$/);
+});
+
+test("a transcript without speaker labels can be found", async ({ page }) => {
+  await page.goto("search/?q=%22Elmira%20Correctional%22");
+  await expect(page.locator("[data-result] a.ctx[href*='1995-05-09-test-plain-text']")).toBeVisible();
+});
+
+test("results can be narrowed to a bill", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=senate");
+  const facets = page.getByRole("complementary", { name: "Narrow the results" });
+  await expect(facets.getByRole("heading", { name: "Bill" })).toBeVisible();
+  await facets.locator(".fg", { has: page.getByRole("heading", { name: "Bill" }) }).getByRole("button").first().click();
+  await expect(page).toHaveURL(/bill%3A[SA]\d+/);
+});
+
+test("exporting results lets go of the file afterwards", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.addInitScript(() => {
+    const w = window as unknown as { __revoked: number };
+    w.__revoked = 0;
+    const revoke = URL.revokeObjectURL.bind(URL);
+    URL.revokeObjectURL = (u: string) => { w.__revoked += 1; revoke(u); };
+  });
+  await page.goto("search/?q=budget");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  const download = page.waitForEvent("download");
+  await page.getByRole("button", { name: "Export results" }).click();
+  await download;
+  await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(0);
+});

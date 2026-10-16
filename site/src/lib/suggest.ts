@@ -4,7 +4,8 @@ export const SHORTCUTS = ["speaker", "year", "bill", "type", "committee"] as con
 export type Field = (typeof SHORTCUTS)[number];
 export interface Token { field: Field | null; text: string; start: number; end: number; }
 
-/** The shortcut at the caret ("speaker:krue"), or the start of a shortcut's name ("ye"); null otherwise. */
+/** The shortcut at the caret ("speaker:krue"), or part of a shortcut's name ("ye"); null otherwise. A whole name
+ * ("bill", "year") is left alone: it is far more often a search word. */
 export function tokenAt(value: string, caret: number): Token | null {
   const before = value.slice(0, caret);
   const restWord = () => value.slice(caret).match(/^\S*/)![0].length;
@@ -14,7 +15,7 @@ export function tokenAt(value: string, caret: number): Token | null {
     return { field: m[2].toLowerCase() as Field, text: m[3].replace(/^"/, ""), start: m.index! + m[1].length, end: quoted ? caret : caret + restWord() };
   }
   const w = before.match(/(^|\s)([a-z]{2,})$/i);
-  if (w && SHORTCUTS.some((f) => f.startsWith(w[2].toLowerCase()))) {
+  if (w && SHORTCUTS.some((f) => f.length > w[2].length && f.startsWith(w[2].toLowerCase()))) {
     return { field: null, text: w[2], start: w.index! + w[1].length, end: caret + restWord() };
   }
   return null;

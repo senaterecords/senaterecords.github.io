@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { excerpt, keepRemark, pagefindFilters, pagefindTerm, parseQuery, remarksOf } from "../../src/lib/query";
+import { excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, pagefindTerm, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
 
 describe("parseQuery", () => {
   it("reads words, phrases and shortcuts", () => {
@@ -91,5 +91,85 @@ describe("remark-level filtering", () => {
     const [krueger] = remarksOf(DATA);
     expect(excerpt(krueger, parseQuery('"toll revenue"').branches[0])).toContain("<mark>toll revenue</mark>");
     expect(excerpt({ ...krueger, text: "a <b> toll" }, parseQuery("toll").branches[0])).toBe("a &lt;b&gt; <mark>toll</mark>");
+  });
+});
+
+describe("review fixes: query plan", () => {
+  it("searches every word of several phrases and leaves the phrases to the remark check", () => {
+    expect(pagefindTerm(parseQuery('"executive budget" "steady job growth"').branches[0])).toBe("executive budget steady job growth");
+    expect(pagefindTerm(parseQuery('"toll revenue"').branches[0])).toBe('"toll revenue"');
+  });
+
+  it("reads a bill's session when one is given, from either year of it", () => {
+    expect(parseQuery("bill:S4597/2025").filters).toEqual({ bill: "S4597", session: 2025 });
+    expect(parseQuery("bill:s4597a/2026").filters).toEqual({ bill: "S4597", session: 2025 });
+    expect(parseQuery("bill:S4597").filters).toEqual({ bill: "S4597" });
+    expect(pagefindFilters(parseQuery("bill:S4597/2025").filters, null)).toEqual({ bill: "S4597", session: "2025" });
+  });
+
+  it("finds, adds and removes a shortcut, quoted values included", () => {
+    expect(hasShortcut('budget committee:"Ways and Means"', 'committee:"Ways and Means"')).toBe(true);
+    expect(hasShortcut("budget TYPE:hearing", "type:hearing")).toBe(true);
+    expect(hasShortcut("budget type:hearings", "type:hearing")).toBe(false);
+    expect(toggleShortcut('budget committee:"Ways and Means"', 'committee:"Ways and Means"')).toBe("budget");
+    expect(toggleShortcut("budget", "type:hearing")).toBe("budget type:hearing");
+  });
+
+  it("stops filling the first screen after a few batches", () => {
+    expect(fillMore(0, 1)).toBe(true);
+    expect(fillMore(5, 1)).toBe(false);
+    expect(fillMore(0, 3)).toBe(false);
+  });
+});
+
+// Words: 0 Senator 1 Jackson. 2 The 3 children. 4 When 5 I 6 was 7 involved 8 with 9 the 10 Campaign 11 for 12 Fiscal
+// 13 Equity 14 she 15 was 16 there. 17 Roll 18 call. 19 Senator 20 Lanza. 21 No.
+const PAGED = {
+  url: "/t/",
+  content: "Senator Jackson. The children. When I was involved with the Campaign for Fiscal Equity she was there. Roll call. Senator Lanza. No.",
+  anchors: [
+    { element: "section", id: "r-25", text: "", location: 0 },
+    { element: "h3", id: "w-25-850-robert-jackson", text: "Senator Jackson", location: 0 },
+    { element: "span", id: "p851", text: "", location: 4 },
+    { element: "section", id: "t-26", text: "", location: 17 },
+    { element: "section", id: "r-27", text: "", location: 19 },
+    { element: "h3", id: "w-27-851-andrew-j-lanza", text: "Senator Lanza", location: 19 },
+  ],
+};
+
+describe("review fixes: remarks", () => {
+  it("ends a remark where a turn without a speaker begins", () => {
+    const [jackson, lanza] = remarksOf(PAGED);
+    expect(jackson.text).toBe("Senator Jackson. The children. When I was involved with the Campaign for Fiscal Equity she was there.");
+    expect(lanza.text).toBe("Senator Lanza. No.");
+  });
+
+  it("knows where each page begins inside a remark, also once the label is taken off", () => {
+    const [jackson] = remarksOf(PAGED);
+    expect(jackson.breaks).toEqual([[4, 851]]);
+    expect(spokenText(jackson).breaks).toEqual([[2, 851]]);
+  });
+
+  it("gives the page of the first hit and the pages the excerpt spans", () => {
+    const jackson = spokenText(remarksOf(PAGED)[0]);
+    expect(excerptPages(jackson, parseQuery('"Campaign for Fiscal Equity"').branches[0])).toEqual({ hit: 851, start: 850, end: 851 });
+    expect(excerptPages(jackson, parseQuery("children").branches[0])).toEqual({ hit: 850, start: 850, end: 851 });
+    const long = { ...jackson, text: `${"word ".repeat(200)}children ${"word ".repeat(200)}Campaign`, breaks: [[150, 851], [300, 852]] as [number, number][] };
+    expect(excerptPages(long, parseQuery("children").branches[0])).toEqual({ hit: 851, start: 851, end: 851 });
+  });
+
+  it("makes a transcript without speaker labels searchable as one text", () => {
+    const remarks = remarksOf({
+      url: "/p/", content: "ALBANY. The Senate will come to order. Elmira Correctional Facility.",
+      anchors: [{ element: "section", id: "t-0", text: "", location: 0 }, { element: "span", id: "p5472", text: "", location: 7 }],
+    });
+    expect(remarks.map((r) => [r.url, r.turn, r.speaker, r.label, r.page])).toEqual([["/p/#t-0", 0, null, "", 5471]]);
+  });
+
+  it("leaves a speaker's presiding turns out of speaker: results", () => {
+    const [krueger] = remarksOf(DATA);
+    const presiding = { ...krueger, label: "Acting President Krueger" };
+    expect(keepRemark(presiding, parseQuery("toll").branches[0], [], "liz-krueger")).toBe(false);
+    expect(keepRemark(presiding, parseQuery("toll").branches[0], [], null)).toBe(true);
   });
 });

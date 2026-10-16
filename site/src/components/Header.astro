@@ -7,8 +7,9 @@ import { longDate } from "../lib/format";
 import { url } from "../lib/url";
 import Icon from "./Icon.astro";
 
-interface Props { search?: boolean; }
-const { search = true } = Astro.props;
+// minimal: the reader's bar, which shows only the mark, its crumb and tools, so the rest is left out of the page.
+interface Props { search?: boolean; minimal?: boolean; }
+const { search = true, minimal = false } = Astro.props;
 const path = Astro.url.pathname;
 const LINKS: [string, string, string[]][] = [
   ["Transcripts", "/browse/", ["/browse/", "/transcripts/"]],
@@ -22,25 +23,29 @@ const updatedAt = meta().updatedAt;
 <header class="bar">
   <a class="mark" href={url("/")}><span class="sig"><Icon name="sig" size={14} /></span>{SITE_NAME}</a>
   <div class="bar-slot"><slot /></div>
-  {search && (
+  {search && !minimal && (
     <form class="bar-search" action={url("/search/")} role="search">
       <Icon name="search" size={17} />
       <input type="search" name="q" placeholder="Search transcripts" aria-label="Search transcripts" autocomplete="off" />
       <kbd aria-hidden="true">/</kbd>
     </form>
   )}
-  <nav class="nav" aria-label="Sections">
-    {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
-  </nav>
-  <span class="upd"><i></i><time data-updated={updatedAt}>Updated {longDate(updatedAt)}</time></span>
+  {!minimal && <>
+    <nav class="nav" aria-label="Sections">
+      {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
+    </nav>
+    <span class="upd"><i></i><time data-updated={updatedAt}>Updated {longDate(updatedAt)}</time></span>
+  </>}
   <div class="bar-tools">
     <a class="ib" href={url("/search/")} aria-label="Search"><Icon name="search" size={20} /></a>
-    <details class="menu">
-      <summary aria-label="Menu"><Icon name="menu" size={22} /></summary>
-      <nav class="menu-panel" aria-label="Sections">
-        {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
-      </nav>
-    </details>
+    {!minimal && (
+      <details class="menu">
+        <summary aria-label="Menu"><Icon name="menu" size={22} /></summary>
+        <nav class="menu-panel" aria-label="Sections">
+          {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
+        </nav>
+      </details>
+    )}
   </div>
 </header>
 

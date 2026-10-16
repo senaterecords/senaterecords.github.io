@@ -1,5 +1,6 @@
 // Export (spec 8.3): Markdown, plain text or print, made in the browser from the page itself. Nothing is stored.
 import { useEffect, useRef, useState } from "react";
+import { download, markdownEscape } from "../lib/download";
 import { longDate, weekdayDate } from "../lib/format";
 import { readerData } from "./readerData";
 import { clientOnly, Icon } from "./ui";
@@ -11,8 +12,9 @@ export function transcriptText(format: Format): string {
   const data = readerData();
   const title = data.kind === "floor" ? `${data.title ?? "Floor session"}, ${longDate(data.date)}` : data.title ?? "Public hearing";
   const meta = document.querySelector(".rd-meta")?.textContent?.replace(/\s+/g, " ").trim() ?? weekdayDate(data.date);
+  const md = (text: string) => (format === "md" ? markdownEscape(text) : text);
   const lines: string[] = format === "md"
-    ? [`# ${title}`, "", `*${meta}*`, "", `Source: New York State Senate, ${location.href.split("#")[0]}`, ""]
+    ? [`# ${md(title)}`, "", `*${md(meta)}*`, "", `Source: New York State Senate, ${location.href.split("#")[0]}`, ""]
     : [title, "", meta, "", `Source: New York State Senate, ${location.href.split("#")[0]}`, ""];
   for (const section of document.querySelectorAll<HTMLElement>("#transcript section.turn")) {
     const label = section.querySelector("h3.sp")?.textContent?.trim();
@@ -24,8 +26,8 @@ export function transcriptText(format: Format): string {
     const textLine = (raw: string) => {
       const text = raw.replace(/\s+/g, " ").trim();
       if (!text) return;
-      const lead = first && label ? (format === "md" ? `**${label}:** ` : `${label}: `) : "";
-      lines.push(lead + text, "");
+      const lead = first && label ? (format === "md" ? `**${md(label)}:** ` : `${label}: `) : "";
+      lines.push(lead + md(text), "");
       first = false;
     };
     for (const node of section.children) {
@@ -40,19 +42,9 @@ export function transcriptText(format: Format): string {
         textLine(text);
       }
     }
-    if (first && label) lines.push(format === "md" ? `**${label}:**` : `${label}:`, "");
+    if (first && label) lines.push(format === "md" ? `**${md(label)}:**` : `${label}:`, "");
   }
   return lines.join("\n");
-}
-
-function download(name: string, text: string, type: string) {
-  const blob = new Blob([text], { type: `${type};charset=utf-8` });
-  const href = URL.createObjectURL(blob);
-  const a = Object.assign(document.createElement("a"), { href, download: name });
-  document.body.append(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(href), 1000);
 }
 
 function ExportMenu() {

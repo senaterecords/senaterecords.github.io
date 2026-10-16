@@ -45,3 +45,8 @@ test("the floor vote shown first is the one from the debate on the page", async 
   await expect(side.getByRole("heading", { name: /^Floor vote · Mar 4, 2025$/ })).toBeVisible();
   await expect(side.getByText(/Later vote · Jun 4, 2026/)).toBeVisible();
 });
+
+test("the bills list dates carry the year", async ({ page }) => {
+  await page.goto("bills/2025/");
+  await expect(page.locator("[data-bill-row] .dt").first()).toHaveText(/\b2025\b/);
+});
