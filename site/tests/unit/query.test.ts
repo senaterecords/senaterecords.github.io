@@ -63,6 +63,17 @@ describe("remark-level filtering", () => {
     expect(remarks[0].text).toBe("Senator Krueger. The toll revenue goes to the bridge fund this year.");
   });
 
+  it("takes a remark's label from its speaker heading when the remark anchor is the whole turn", () => {
+    const [remark] = remarksOf({
+      url: "/t/", content: "Senator Krueger. The toll revenue.",
+      anchors: [
+        { element: "section", id: "r-5", text: "Senator Krueger. The toll revenue.", location: 0 },
+        { element: "h3", id: "w-5-1201-liz-krueger", text: "Senator Krueger", location: 0 },
+      ],
+    });
+    expect(remark.label).toBe("Senator Krueger");
+  });
+
   it("applies phrases, words, NOT, NEAR and speaker to each remark", () => {
     const [krueger, lanza] = remarksOf(DATA);
     const branch = (s: string) => parseQuery(s).branches[0];

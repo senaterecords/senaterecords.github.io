@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { SpeakerInfo } from "../lib/speakers";
-import { keyOfTurn, readerData, surname, turnSection } from "./readerData";
+import { indexOfTurn, keyOfLabel, keyOfTurn, readerData, surname, turnSection } from "./readerData";
 import { clientOnly, Icon } from "./ui";
 
 const OPEN_DELAY = 300;
@@ -13,7 +13,7 @@ const PHONE = "(max-width: 640px)";
 interface Open { key: string; turn: number; label: HTMLElement; pinned: boolean; }
 
 const labelFor = (target: EventTarget | null) =>
-  target instanceof Element ? target.closest<HTMLElement>("section.turn > h3.sp[data-key]") : null;
+  target instanceof Element ? target.closest<HTMLElement>("section.turn > h3.sp.k") : null;
 
 function Cards() {
   const [open, setOpen] = useState<Open | null>(null);
@@ -37,9 +37,9 @@ function Cards() {
   const show = useCallback((label: HTMLElement, pinned: boolean) => {
     window.clearTimeout(openTimer.current);
     window.clearTimeout(closeTimer.current);
-    const key = label.dataset.key!;
-    if (!speakers[key]) return;
-    const turn = Number(label.closest<HTMLElement>("section.turn")!.dataset.i);
+    const key = keyOfLabel(label);
+    if (!key || !speakers[key]) return;
+    const turn = indexOfTurn(label.closest("section.turn")!);
     place(label);
     setOpen({ key, turn, label, pinned });
   }, [place, speakers]);
@@ -56,7 +56,7 @@ function Cards() {
     update();
     query.addEventListener("change", update);
     // Names are focusable so the keyboard can open a card with Enter.
-    for (const h of document.querySelectorAll<HTMLElement>("section.turn > h3.sp[data-key]")) h.tabIndex = 0;
+    for (const h of document.querySelectorAll<HTMLElement>("section.turn > h3.sp.k")) h.tabIndex = 0;
     return () => query.removeEventListener("change", update);
   }, []);
 
@@ -94,7 +94,7 @@ function Cards() {
     const early = window.__otrEarly?.clicks.pop();
     if (early) show(early, true);
     // A name already under the pointer opens as if it had just been hovered.
-    const hovered = document.querySelector<HTMLElement>("section.turn > h3.sp[data-key]:hover");
+    const hovered = document.querySelector<HTMLElement>("section.turn > h3.sp.k:hover");
     if (!early && hovered && !window.matchMedia(PHONE).matches) openTimer.current = window.setTimeout(() => show(hovered, false), OPEN_DELAY);
     document.addEventListener("pointerover", over);
     document.addEventListener("pointerout", out);
@@ -147,7 +147,7 @@ function Cards() {
   const step = (delta: number) => {
     const target = list[at + delta];
     const section = target != null ? turnSection(target) : null;
-    const label = section?.querySelector<HTMLElement>("h3.sp[data-key]");
+    const label = section?.querySelector<HTMLElement>(":scope > h3.sp.k");
     if (!section || !label) return;
     section.scrollIntoView({ block: "center" });
     place(label);

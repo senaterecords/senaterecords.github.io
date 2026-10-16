@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { outcomeText } from "../lib/format";
-import { readerData, type ReaderSegment } from "./readerData";
+import { indexOfTurn, readerData, type ReaderSegment } from "./readerData";
 import { clientOnly, Icon } from "./ui";
 
 const SPOKEN = new Set(["senator", "chair", "assembly"]);
@@ -21,7 +21,7 @@ function turnAt(y: number): number | null {
   const box = article.getBoundingClientRect();
   const x = Math.min(box.left + 140, box.right - 10);
   const hit = document.elementFromPoint(x, y)?.closest<HTMLElement>("section.turn");
-  return hit ? Number(hit.dataset.i) : null;
+  return hit ? indexOfTurn(hit) : null;
 }
 
 function ReaderNav() {
@@ -35,17 +35,18 @@ function ReaderNav() {
 
   useEffect(() => {
     const found: Remark[] = [];
-    for (const section of document.querySelectorAll<HTMLElement>("#transcript section.turn")) {
-      const heading = section.querySelector<HTMLElement>("h3[id^='r-']");
-      if (heading && SPOKEN.has(section.dataset.role ?? "")) found.push({ i: Number(section.dataset.i), heading });
+    for (const section of document.querySelectorAll<HTMLElement>("#transcript section.turn[id^='r-']")) {
+      if (SPOKEN.has(section.dataset.role ?? "")) found.push({ i: indexOfTurn(section), heading: section });
     }
     setRemarks(found);
     const check = () => {
       const hash = decodeURIComponent(location.hash.slice(1));
-      if (/^r-\d+$/.test(hash) && !document.getElementById(hash)) {
-        window.scrollTo(0, 0);
-        setMissing(true);
-      }
+      if (!/^r-\d+$/.test(hash) || document.getElementById(hash)) return;
+      // A link to a turn without a speaker label (a calendar reading can start on one) goes to that turn.
+      const unlabelled = document.getElementById(`t-${hash.slice(2)}`);
+      if (unlabelled) { unlabelled.scrollIntoView({ block: "start" }); return; }
+      window.scrollTo(0, 0);
+      setMissing(true);
     };
     check();
     addEventListener("hashchange", check);

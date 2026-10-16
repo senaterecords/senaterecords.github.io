@@ -102,10 +102,10 @@ interface PageData { url: string; content: string; anchors: { element: string; i
 export function remarksOf(data: PageData): Remark[] {
   const words = data.content.split(/\s+/).filter(Boolean);
   const starts = data.anchors.filter((a) => /^r-\d+$/.test(a.id)).sort((a, b) => a.location - b.location);
-  const who = new Map<number, { page: number | null; speaker: string | null }>();
+  const who = new Map<number, { page: number | null; speaker: string | null; label: string }>();
   for (const a of data.anchors) {
     const m = a.id.match(/^w-(\d+)-(\d+)-(.+)$/);
-    if (m) who.set(Number(m[1]), { page: Number(m[2]) || null, speaker: m[3] === "x" ? null : m[3] });
+    if (m) who.set(Number(m[1]), { page: Number(m[2]) || null, speaker: m[3] === "x" ? null : m[3], label: a.text });
   }
   return starts.map((a, idx) => {
     const turn = Number(a.id.slice(2));
@@ -115,7 +115,7 @@ export function remarksOf(data: PageData): Remark[] {
       turn,
       page: who.get(turn)?.page ?? null,
       speaker: who.get(turn)?.speaker ?? null,
-      label: a.text,
+      label: who.get(turn)?.label ?? a.text,
       text: words.slice(a.location, end).join(" "),
     };
   });

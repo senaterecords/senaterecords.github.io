@@ -36,12 +36,11 @@ function speakerOf(turn: HTMLElement): CiteInput["speaker"] {
   return speakerForms(kind, label, fullName);
 }
 
-/** The remark a selection belongs to: its turn's heading, or the nearest heading before it. */
+/** The remark a selection belongs to: its turn if it has a speaker label, else the nearest labelled turn before it. */
 function remarkOf(turn: HTMLElement): number | null {
   let section: Element | null = turn;
   while (section) {
-    const h = section.querySelector("h3[id^='r-']");
-    if (h) return Number(h.id.slice(2));
+    if (section.matches("section.turn") && section.id.startsWith("r-")) return Number(section.id.slice(2));
     section = section.previousElementSibling ?? section.parentElement?.previousElementSibling?.lastElementChild ?? null;
   }
   return null;

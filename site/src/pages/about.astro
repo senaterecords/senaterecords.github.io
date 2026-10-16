@@ -25,7 +25,7 @@ const { counts, updatedAt } = meta();
         <dt>Senators</dt><dd class="num">{count(counts.senators)}</dd>
         <dt>Bills</dt><dd class="num">{count(counts.bills)}</dd>
       </dl>
-      <div class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt}>Updated {longDate(updatedAt)}</time></div>
+      <div class="upd"><i></i><time data-updated={updatedAt}>Updated {longDate(updatedAt)}</time></div>
     </aside>
   </div>
 </Base>

@@ -32,7 +32,7 @@ const updatedAt = meta().updatedAt;
   <nav class="nav" aria-label="Sections">
     {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
   </nav>
-  <span class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt}>Updated {longDate(updatedAt)}</time></span>
+  <span class="upd"><i></i><time data-updated={updatedAt}>Updated {longDate(updatedAt)}</time></span>
   <div class="bar-tools">
     <a class="ib" href={url("/search/")} aria-label="Search"><Icon name="search" size={20} /></a>
     <details class="menu">

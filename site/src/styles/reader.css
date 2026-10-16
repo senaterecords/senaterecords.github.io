@@ -50,8 +50,8 @@
 .turn > p:first-child, .turn > .g + p, .turn > .pb + p { margin-top: 0; }
 .turn > h3 { display: inline; font: 700 12.5px/1 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink2); margin-right: 14px; scroll-margin-top: 16px; }
 .turn > h3 + p { display: inline; margin: 0; }
-.turn > h3[data-key] { cursor: pointer; }
-.turn > h3[data-key]:hover { color: var(--color-ink); }
+.turn > h3.k { cursor: pointer; }
+.turn > h3.k:hover { color: var(--color-ink); }
 .turn > h3.sen { color: var(--color-ink); text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
 .turn > h3.sen:hover, .turn > h3.on { text-decoration-color: var(--color-ink); }
 .turn > h3.on { text-decoration-line: underline; text-decoration-thickness: 2px; }

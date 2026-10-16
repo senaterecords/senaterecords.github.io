@@ -1,8 +1,11 @@
 ---
 // The transcript text. Markup contract (search and the islands depend on it):
-//   <section class="turn" data-i data-role [data-page, only on turns without a label]>
-//     <h3 id="r-{i}" class="sp [sen]" data-key><span id="w-{i}-{page|0}-{key|x}">Label</span></h3><p>…</p>
+//   <section class="turn" id="r-{i}" data-role>                  a turn with a speaker label
+//     <h3 id="w-{i}-{page|0}-{key|x}" class="sp [k] [sen]">Label</h3><p>…</p>
 //   </section>
+//   <section class="turn" id="t-{i}" data-role data-page>       a turn without one (cover, stage directions)
+// k marks labels with a speaker card; sen marks the underlined speaking ones. The speaker key and page live once,
+// in the label's id, which Pagefind reports as an anchor; this keeps 1.25 million turns light.
 // Page breaks are <div class="pb" id="p{page}"><b>p. N</b><i></i></div> between paragraphs, or the same as a <span>
 // inside the paragraph a break interrupts (so the sentence stays one block); turns come 40 to a content-visibility chunk.
 import { titleCase } from "../../lib/format";
@@ -29,12 +32,10 @@ const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => 
 {chunks.map((chunk) => (
   <div class="chunk" style={`--h:${estimateHeight(chunk.map((row) => row.t))}`}>
     {chunk.map(({ t, key, gutter, blocks }) => (
-      <section class="turn" data-i={t.i} data-role={t.role} data-page={t.label ? undefined : t.page ?? undefined}>
+      <section class="turn" id={t.label ? `r-${t.i}` : `t-${t.i}`} data-role={t.role} data-page={t.label ? undefined : t.page ?? undefined}>
         {gutter != null && <span class="g" id={pageId(gutter)} data-pagefind-ignore>{gutter}</span>}
         {t.label && (
-          <h3 id={`r-${t.i}`} class:list={["sp", { sen: key && SPOKEN.has(t.role) }]} data-key={key ?? undefined}>
-            <span id={`w-${t.i}-${t.page ?? 0}-${key ?? "x"}`}>{titleCase(t.label)}</span>
-          </h3>
+          <h3 id={`w-${t.i}-${t.page ?? 0}-${key ?? "x"}`} class:list={["sp", { k: !!key, sen: !!key && SPOKEN.has(t.role) }]}>{titleCase(t.label)}</h3>
         )}
         {blocks.map((b) => (b.kind === "p"
           ? <p>{b.parts.map((part, j) => (typeof part === "string"

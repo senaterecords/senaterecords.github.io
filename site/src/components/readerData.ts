@@ -41,14 +41,24 @@ let cached: ReaderData | null = null;
 
 const SPOKEN = new Set(["senator", "chair", "assembly"]);
 
-/** The speaker key of a turn, from its label (turns without a label have none). */
-export const keyOfTurn = (section: Element) => section.querySelector<HTMLElement>(":scope > h3[data-key]")?.dataset.key ?? null;
+const LABEL = /^w-(\d+)-(\d+)-(.+)$/;
 
-/** The page a turn starts on: its remark anchor (w-{i}-{page}-{key}) says, or data-page on turns without a label. */
+/** A speaker label's key, from its id (w-{i}-{page}-{key}); "x" means the label names no one we know. */
+export function keyOfLabel(h3: Element | null): string | null {
+  const key = h3?.id.match(LABEL)?.[3];
+  return key && key !== "x" ? key : null;
+}
+
+/** The speaker key of a turn, from its label (turns without a label have none). */
+export const keyOfTurn = (section: Element) => keyOfLabel(section.querySelector(":scope > h3.sp"));
+
+/** A turn's index, from its id: r-{i} with a label, t-{i} without. */
+export const indexOfTurn = (section: Element) => Number(section.id.slice(2));
+
+/** The page a turn starts on: its label's id says, or data-page on turns without a label. */
 export function pageOfTurn(section: HTMLElement): number | null {
   if (section.dataset.page) return Number(section.dataset.page);
-  const page = Number(section.querySelector("h3 > span[id^='w-']")?.id.split("-")[2]);
-  return page || null;
+  return Number(section.querySelector(":scope > h3.sp")?.id.match(LABEL)?.[2]) || null;
 }
 
 export function readerData(): ReaderData {
@@ -58,12 +68,12 @@ export function readerData(): ReaderData {
   for (const s of Object.values(cached.speakers)) { s.remarks = []; s.presiding = []; }
   for (const section of document.querySelectorAll<HTMLElement>("#transcript section.turn")) {
     const speaker = cached.speakers[keyOfTurn(section) ?? ""];
-    if (speaker) (SPOKEN.has(section.dataset.role ?? "") ? speaker.remarks : speaker.presiding).push(Number(section.dataset.i));
+    if (speaker) (SPOKEN.has(section.dataset.role ?? "") ? speaker.remarks : speaker.presiding).push(indexOfTurn(section));
   }
   return cached;
 }
 
-export const turnSection = (i: number) => document.querySelector<HTMLElement>(`section.turn[data-i="${i}"]`);
+export const turnSection = (i: number) => document.getElementById(`r-${i}`) ?? document.getElementById(`t-${i}`);
 
 /** "Sen. Joseph P. Addabbo Jr." -> "Addabbo". */
 export function surname(name: string): string {

@@ -2,8 +2,9 @@ import { expect, test } from "@playwright/test";
 
 test("every remark has an anchor and page breaks read p. N", async ({ page }) => {
   await page.goto("transcripts/2025-03-04-regular-session/");
-  const first = page.locator("section.turn h3").first();
+  const first = page.locator("section.turn:has(> h3)").first();
   await expect(first).toHaveAttribute("id", /^r-\d+$/);
+  await expect(first.locator("> h3")).toHaveAttribute("id", /^w-\d+-\d+-.+$/);
   await expect(page.locator(".pb b").first()).toHaveText(/^p\. \d+$/);
 });
 

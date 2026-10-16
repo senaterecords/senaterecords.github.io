@@ -59,7 +59,7 @@ const voterSort = (a: number, b: number) => voterName(a).split(" ").at(-1)!.loca
 const officialUrl = card && session >= BILL_DATA_START ? `https://www.nysenate.gov/legislation/bills/${session}/${entry.basePrintNo}` : null;
 const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
 ---
-<Base title={pageTitle} description={`${printNo}${card?.title ? `, ${card.title}` : ""}. New York State Senate, ${sessionLabel} session: the floor debate, the vote and who spoke.`} wide>
+<Base title={pageTitle} description={`New York State Senate bill ${printNo}, ${sessionLabel}: its floor debate and vote.`} wide>
   <header class="pg-head">
     <div class="pg-in">
       <div class="pg-crumb"><a href={url("/bills/")}>Bills</a><Icon name="chev" size={12} /><a href={url(`/bills/${session}/`)}>{sessionLabel} session</a></div>
@@ -143,10 +143,8 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
               {VOTE_WORDS.filter(([code]) => vote.members[code]?.length).map(([code, word]) => (
                 <div class="how-group">
                   <h3>{word[0].toUpperCase() + word.slice(1)} <span class="num">{vote.members[code].length}</span></h3>
-                  <p>{[...vote.members[code]].sort(voterSort).map((id, i) => {
-                    const s = byId.get(id);
-                    return <>{i > 0 && ", "}{s && pages.has(s.slug) ? <a href={url(`/senators/${s.slug}/`)}>{s.name}</a> : voterName(id)}</>;
-                  })}</p>
+                  {/* Plain names: as links, the lists of ~60 voters weighed about 75 MB across 23,000 bill pages. */}
+                  <p>{[...vote.members[code]].sort(voterSort).map(voterName).join(", ")}</p>
                 </div>
               ))}
             </details>

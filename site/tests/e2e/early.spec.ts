@@ -12,7 +12,7 @@ const slowScripts = async (page: import("@playwright/test").Page) => {
 test("a name clicked before the scripts load still opens its card", async ({ page }) => {
   await slowScripts(page);
   await page.goto(SESSION, { waitUntil: "commit" });
-  await page.locator('h3.sp[data-key="secretary"]').first().click();
+  await page.locator('h3.sp[id$="-secretary"]').first().click();
   await expect(page.getByRole("dialog", { name: "The Secretary" })).toBeVisible({ timeout: 10_000 });
 });
 
@@ -20,7 +20,7 @@ test("a name hovered before the scripts load opens its card once they do", async
   test.skip(info.project.name === "phone");
   await slowScripts(page);
   await page.goto(SESSION, { waitUntil: "commit" });
-  await page.locator('h3.sp[data-key="secretary"]').first().hover();
+  await page.locator('h3.sp[id$="-secretary"]').first().hover();
   await expect(page.getByRole("dialog", { name: "The Secretary" })).toBeVisible({ timeout: 10_000 });
 });
 
