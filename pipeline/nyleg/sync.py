@@ -167,10 +167,15 @@ def sync_recent_hearings(client: ApiClient, store: Store, today: date) -> SyncRe
 
 
 def sync_members(client: ApiClient, store: Store, session: int) -> SyncResult:
-    # Sorted, so a different API ordering doesn't look like a change every hour.
-    items = sorted(client.iter_items(f"/members/{session}/senate", full=True), key=lambda m: m.get("memberId") or 0)
-    path = store.members_path(session)
-    return SyncResult([path] if write_json(path, items) else [])
+    """Both chambers: senators are matched to speakers, and the Assembly list keeps a joint-hearing
+    chair from being matched to a senator who merely shares an Assembly member's name."""
+    result = SyncResult()
+    for chamber, path in (("senate", store.members_path(session)), ("assembly", store.assembly_members_path(session))):
+        # Sorted, so a different API ordering doesn't look like a change every hour.
+        items = sorted(client.iter_items(f"/members/{session}/{chamber}", full=True), key=lambda m: m.get("memberId") or 0)
+        if write_json(path, items):
+            result.changed.append(path)
+    return result
 
 
 def wanted_bills(paths: Iterable[Path]) -> set[tuple[int, str]]:

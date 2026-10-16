@@ -1,9 +1,111 @@
 # Manual fixes for speaker labels the matcher gets wrong or can't decide.
 # Each entry maps a label in a given session to a senator's member id
-# (from data/raw/members/{session}.json). Use member_id: null for a label
+# (from data/raw/members/{session}.json, or data/rosters/ before 2009). Use member_id: null for a label
 # that is not a senator. Example:
 #
 # - session: 2009
 #   label: SENATOR SMITH
 #   member_id: 2
-[]
+
+# Stenographer typos: each has exactly one close match among that session's senators.
+- session: 1993
+  label: ACTING PRESIDENT VALELLA
+  member_id: 100060  # Guy J. Velella
+- session: 1993
+  label: SENATOR DE FRANCISCO
+  member_id: 376  # John A. DeFrancisco
+- session: 1993
+  label: SENATOR DECARLO
+  member_id: 100012  # Robert DiCarlo
+- session: 1993
+  label: SENATOR OPPENHEIMEER
+  member_id: 388  # Suzi Oppenheimer
+- session: 1993
+  label: SENATOR TREUNZO
+  member_id: 100058  # Caesar Trunzo
+- session: 1995
+  label: SENATOR DOLINGER
+  member_id: 100013  # Richard A. Dollinger
+- session: 1995
+  label: SENATOR DOLLINGR
+  member_id: 100013  # Richard A. Dollinger
+- session: 1995
+  label: SENATOR LEICHER
+  member_id: 100028  # Franz S. Leichter
+- session: 1995
+  label: SENATOR PATTERSON
+  member_id: 100044  # David Paterson
+- session: 1995
+  label: SENATOR STAFFFORD
+  member_id: 100056  # Ronald B. Stafford
+- session: 1997
+  label: ACTING PRESIDENT MEIEER
+  member_id: 100038  # Raymond A. Meier
+- session: 1997
+  label: ACTING PRESIDENT NOZZOLIIO
+  member_id: 394  # Michael F. Nozzolio
+- session: 1997
+  label: SENATOR LIBOUIS
+  member_id: 100030  # Thomas W. Libous
+- session: 1997
+  label: SENATOR LIEBELL
+  member_id: 449  # Vincent L. Leibell
+- session: 1997
+  label: SENATOR NOZZOLIIO
+  member_id: 394  # Michael F. Nozzolio
+- session: 1997
+  label: SENATOR PATRSON
+  member_id: 100044  # David Paterson
+- session: 1997
+  label: SENATOR SADLAND
+  member_id: 402  # Stephen M. Saland
+- session: 1997
+  label: SENATOR TAFFORD
+  member_id: 100056  # Ronald B. Stafford
+- session: 1999
+  label: SENATOR DEFRANCISO
+  member_id: 376  # John A. DeFrancisco
+- session: 1999
+  label: SENATOR GONZALES
+  member_id: 100017  # Efrain Gonzalez Jr.
+- session: 1999
+  label: SENATOR LACKMAN
+  member_id: 100026  # Seymour P. Lachman
+- session: 1999
+  label: SENATOR LARKING
+  member_id: 374  # William J. Larkin Jr.
+- session: 1999
+  label: SENATOR LIEBELL
+  member_id: 449  # Vincent L. Leibell
+- session: 1999
+  label: SENATOR NANULO
+  member_id: 100040  # Anthony Nanula
+- session: 1999
+  label: SENATOR ONARATO
+  member_id: 443  # George Onorato
+- session: 2009
+  label: ACTING PRESIDENT STEWART-C0USINS
+  member_id: 396  # Andrea Stewart-Cousins
+- session: 2011
+  label: SENATOR GRISTANTI
+  member_id: 398  # Mark Grisanti
+- session: 2019
+  label: SENATOR MAYOR
+  member_id: 1143  # Shelley Mayer
+- session: 2019
+  label: SENATOR RICHIE
+  member_id: 423  # Patty Ritchie
+- session: 2025
+  label: SENATOR KAVANAUGH
+  member_id: 1140  # Brian Kavanagh
+
+# Checked by reading the transcript.
+- session: 2007
+  label: SENATOR MARCHI
+  member_id: 100032  # John J. Marchi, a former senator invited to speak on March 13, 2007
+- session: 2009
+  label: SENATOR VELELLA
+  member_id: 395  # David J. Valesky: 'Senator Valesky, do you continue to yield?' / 'Certainly.' (2010)
+- session: 2023
+  label: SENATOR HOYLMAN
+  member_id: 438  # Brad Hoylman-Sigal, who took the name Hoylman-Sigal in 2023

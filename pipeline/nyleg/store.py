@@ -67,6 +67,9 @@ class Store:
     def members_path(self, session: int) -> Path:
         return self.raw / "members" / f"{session}.json"
 
+    def assembly_members_path(self, session: int) -> Path:
+        return self.raw / "members-assembly" / f"{session}.json"
+
     def bill_path(self, session: int, base_print_no: str) -> Path:
         return self.raw / "bills" / str(session) / f"{base_print_no}.json"
 

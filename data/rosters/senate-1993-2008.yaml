@@ -1,0 +1,624 @@
+# Senators of the 1993-2007 sessions, which the Open Legislation API does not list (it starts in 2009).
+# Source: the Senate tables of the 190th-197th New York State Legislature pages on Wikipedia,
+# checked against every speaker label in the 1993-2008 floor transcripts.
+# member_id: the API's id when the same person also served from 2009 on; otherwise 100001 and up.
+# These ids are permanent (data/overrides/speakers.yaml uses them): give a new person the next free
+# id and never renumber.
+# sessions: {session year: district}. short: how transcripts name them, when that isn't the last name.
+# from / until: exact dates a senator joined (special election) or left (died or resigned)
+# mid-session; they settle shared surnames such as Leonard and Toby Ann Stavisky in 1999.
+- member_id: 100001
+  name: "Catherine M. Abate"
+  first: "Catherine"
+  last: "Abate"
+  sessions: {1995: 27, 1997: 27}
+- member_id: 382
+  name: "Eric Adams"
+  first: "Eric"
+  last: "Adams"
+  sessions: {2007: 20}
+- member_id: 392
+  name: "James S. Alesi"
+  first: "James"
+  last: "Alesi"
+  sessions: {1995: 55, 1997: 55, 1999: 55, 2001: 55, 2003: 55, 2005: 55, 2007: 55}
+  from: 1996-02-15
+- member_id: 100002
+  name: "Carl Andrews"
+  first: "Carl"
+  last: "Andrews"
+  sessions: {2001: 20, 2003: 20, 2005: 20}
+  from: 2002-02-12
+- member_id: 451
+  name: "Darrel Aubertine"
+  first: "Darrel"
+  last: "Aubertine"
+  sessions: {2007: 48}
+  from: 2008-02-26
+- member_id: 100003
+  name: "Howard E. Babbush"
+  first: "Howard"
+  last: "Babbush"
+  sessions: {1993: 19, 1995: 19}
+- member_id: 100004
+  name: "Michael Balboni"
+  first: "Michael"
+  last: "Balboni"
+  sessions: {1997: 7, 1999: 7, 2001: 7, 2003: 7, 2005: 7, 2007: 7}
+  from: 1997-11-04
+- member_id: 413
+  name: "John Bonacic"
+  first: "John"
+  last: "Bonacic"
+  sessions: {1999: 40, 2001: 40, 2003: 42, 2005: 42, 2007: 42}
+- member_id: 372
+  name: "Neil Breslin"
+  first: "Neil"
+  last: "Breslin"
+  sessions: {1997: 42, 1999: 42, 2001: 42, 2003: 46, 2005: 46, 2007: 46}
+- member_id: 100005
+  name: "Byron Brown"
+  first: "Byron"
+  last: "Brown"
+  sessions: {2001: 57, 2003: 60, 2005: 60}
+- member_id: 100006
+  name: "Joseph Bruno"
+  first: "Joseph"
+  last: "Bruno"
+  sessions: {1993: 43, 1995: 43, 1997: 43, 1999: 43, 2001: 43, 2003: 43, 2005: 43, 2007: 43}
+- member_id: 100007
+  name: "Martin Connor"
+  first: "Martin"
+  last: "Connor"
+  sessions: {1993: 25, 1995: 25, 1997: 25, 1999: 25, 2001: 25, 2003: 25, 2005: 25, 2007: 25}
+- member_id: 100008
+  name: "Charles D. Cook"
+  first: "Charles"
+  last: "Cook"
+  sessions: {1993: 40, 1995: 40, 1997: 40}
+- member_id: 100009
+  name: "Alfred Coppola"
+  first: "Alfred"
+  last: "Coppola"
+  sessions: {1999: 57}
+- member_id: 100010
+  name: "Marc A. Coppola"
+  first: "Marc"
+  last: "Coppola"
+  sessions: {2005: 60}
+  from: 2006-02-28
+- member_id: 100011
+  name: "John B. Daly"
+  first: "John"
+  last: "Daly"
+  sessions: {1993: 61, 1995: 61}
+- member_id: 376
+  name: "John A. DeFrancisco"
+  first: "John"
+  last: "DeFrancisco"
+  sessions: {1993: 49, 1995: 49, 1997: 49, 1999: 49, 2001: 49, 2003: 50, 2005: 50, 2007: 50}
+- member_id: 421
+  name: "Rubén Díaz Sr."
+  first: "Rubén"
+  last: "Díaz"
+  sessions: {2003: 32, 2005: 32, 2007: 32}
+- member_id: 100012
+  name: "Robert DiCarlo"
+  first: "Robert"
+  last: "DiCarlo"
+  sessions: {1993: 23, 1995: 23}
+  from: 1993-11-02
+- member_id: 426
+  name: "Martin Malave Dilan"
+  first: "Martin"
+  last: "Dilan"
+  sessions: {2003: 17, 2005: 17, 2007: 17}
+- member_id: 100013
+  name: "Richard A. Dollinger"
+  first: "Richard"
+  last: "Dollinger"
+  sessions: {1993: 54, 1995: 54, 1997: 54, 1999: 54, 2001: 54}
+- member_id: 387
+  name: "Thomas Duane"
+  first: "Thomas"
+  last: "Duane"
+  sessions: {1999: 27, 2001: 27, 2003: 29, 2005: 29, 2007: 29}
+- member_id: 442
+  name: "Pedro Espada Jr."
+  first: "Pedro"
+  last: "Espada"
+  sessions: {1993: 32, 1995: 32, 2001: 32}
+- member_id: 418
+  name: "Hugh T. Farley"
+  first: "Hugh"
+  last: "Farley"
+  sessions: {1993: 44, 1995: 44, 1997: 44, 1999: 44, 2001: 44, 2003: 44, 2005: 44, 2007: 44}
+- member_id: 399
+  name: "John J. Flanagan"
+  first: "John"
+  last: "Flanagan"
+  sessions: {2003: 2, 2005: 2, 2007: 2}
+- member_id: 425
+  name: "Charles J. Fuschillo Jr."
+  first: "Charles"
+  last: "Fuschillo"
+  sessions: {1997: 8, 1999: 8, 2001: 8, 2003: 8, 2005: 8, 2007: 8}
+  from: 1998-03-24
+- member_id: 100014
+  name: "Joseph L. Galiber"
+  first: "Joseph"
+  last: "Galiber"
+  sessions: {1993: 33, 1995: 33}
+  until: 1995-11-21
+- member_id: 100015
+  name: "Vincent J. Gentile"
+  first: "Vincent"
+  last: "Gentile"
+  sessions: {1997: 23, 1999: 23, 2001: 23}
+- member_id: 100016
+  name: "Emanuel R. Gold"
+  first: "Emanuel"
+  last: "Gold"
+  sessions: {1993: 13, 1995: 13, 1997: 13}
+- member_id: 422
+  name: "Martin Golden"
+  first: "Martin"
+  last: "Golden"
+  sessions: {2003: 22, 2005: 22, 2007: 22}
+- member_id: 100017
+  name: "Efrain Gonzalez Jr."
+  first: "Efrain"
+  last: "Gonzalez"
+  sessions: {1993: 31, 1995: 31, 1997: 31, 1999: 31, 2001: 31, 2003: 33, 2005: 33, 2007: 33}
+- member_id: 100018
+  name: "Roy M. Goodman"
+  first: "Roy"
+  last: "Goodman"
+  sessions: {1993: 26, 1995: 26, 1997: 26, 1999: 26, 2001: 26}
+- member_id: 393
+  name: "Joseph Griffo"
+  first: "Joseph"
+  last: "Griffo"
+  sessions: {2007: 47}
+- member_id: 100019
+  name: "Donald Halperin"
+  first: "Donald"
+  last: "Halperin"
+  sessions: {1993: 21}
+- member_id: 424
+  name: "Kemp Hannon"
+  first: "Kemp"
+  last: "Hannon"
+  sessions: {1993: 6, 1995: 6, 1997: 6, 1999: 6, 2001: 6, 2003: 6, 2005: 6, 2007: 6}
+- member_id: 380
+  name: "Ruth Hassell-Thompson"
+  first: "Ruth"
+  last: "Hassell-Thompson"
+  sessions: {2001: 33, 2003: 36, 2005: 36, 2007: 36}
+- member_id: 100020
+  name: "Daniel Hevesi"
+  first: "Daniel"
+  last: "Hevesi"
+  sessions: {1999: 13, 2001: 13}
+- member_id: 100021
+  name: "Michael J. Hoblock Jr."
+  first: "Michael"
+  last: "Hoblock"
+  sessions: {1995: 42}
+- member_id: 100022
+  name: "Nancy Larraine Hoffmann"
+  first: "Nancy"
+  last: "Hoffmann"
+  sessions: {1993: 48, 1995: 48, 1997: 48, 1999: 48, 2001: 48, 2003: 49}
+- member_id: 100023
+  name: "Joseph R. Holland"
+  first: "Joseph"
+  last: "Holland"
+  sessions: {1993: 38, 1995: 38, 1997: 38, 1999: 38}
+- member_id: 378
+  name: "Shirley Huntley"
+  first: "Shirley"
+  last: "Huntley"
+  sessions: {2007: 10}
+- member_id: 446
+  name: "Craig M. Johnson"
+  first: "Craig"
+  last: "Johnson"
+  sessions: {2007: 7}
+  from: 2007-02-06
+- member_id: 386
+  name: "Owen H. Johnson"
+  first: "Owen"
+  last: "Johnson"
+  sessions: {1993: 4, 1995: 4, 1997: 4, 1999: 4, 2001: 4, 2003: 4, 2005: 4, 2007: 4}
+- member_id: 100024
+  name: "Mary Ellen Jones"
+  first: "Mary"
+  last: "Jones"
+  sessions: {1993: 55, 1995: 55}
+- member_id: 390
+  name: "Jeffrey D. Klein"
+  first: "Jeffrey"
+  last: "Klein"
+  sessions: {2005: 34, 2007: 34}
+- member_id: 401
+  name: "Liz Krueger"
+  first: "Liz"
+  last: "Krueger"
+  sessions: {2001: 26, 2003: 26, 2005: 26, 2007: 26}
+  from: 2002-02-12
+- member_id: 420
+  name: "Carl Kruger"
+  first: "Carl"
+  last: "Kruger"
+  sessions: {1993: 21, 1995: 21, 1997: 21, 1999: 21, 2001: 21, 2003: 27, 2005: 27, 2007: 27}
+  from: 1994-02-15
+- member_id: 100025
+  name: "Randy Kuhl"
+  first: "Randy"
+  last: "Kuhl"
+  sessions: {1993: 52, 1995: 52, 1997: 52, 1999: 52, 2001: 52, 2003: 53}
+- member_id: 100026
+  name: "Seymour P. Lachman"
+  first: "Seymour"
+  last: "Lachman"
+  sessions: {1995: 22, 1997: 22, 1999: 22, 2001: 22, 2003: 23}
+  from: 1996-02-15
+- member_id: 100027
+  name: "James J. Lack"
+  first: "James"
+  last: "Lack"
+  sessions: {1993: 2, 1995: 2, 1997: 2, 1999: 2, 2001: 2}
+- member_id: 409
+  name: "Andrew Lanza"
+  first: "Andrew"
+  last: "Lanza"
+  sessions: {2007: 24}
+- member_id: 374
+  name: "William J. Larkin Jr."
+  first: "William"
+  last: "Larkin"
+  sessions: {1993: 39, 1995: 39, 1997: 39, 1999: 39, 2001: 39, 2003: 39, 2005: 39, 2007: 39}
+- member_id: 419
+  name: "Kenneth LaValle"
+  first: "Kenneth"
+  last: "LaValle"
+  sessions: {1993: 1, 1995: 1, 1997: 1, 1999: 1, 2001: 1, 2003: 1, 2005: 1, 2007: 1}
+- member_id: 449
+  name: "Vincent Leibell"
+  first: "Vincent"
+  last: "Leibell"
+  sessions: {1995: 37, 1997: 37, 1999: 37, 2001: 37, 2003: 40, 2005: 40, 2007: 40}
+- member_id: 100028
+  name: "Franz S. Leichter"
+  first: "Franz"
+  last: "Leichter"
+  sessions: {1993: 30, 1995: 30, 1997: 30}
+- member_id: 100029
+  name: "Norman J. Levy"
+  first: "Norman"
+  last: "Levy"
+  sessions: {1993: 8, 1995: 8, 1997: 8}
+  until: 1998-02-07
+- member_id: 100030
+  name: "Thomas W. Libous"
+  first: "Thomas"
+  last: "Libous"
+  sessions: {1993: 51, 1995: 51, 1997: 51, 1999: 51, 2001: 51, 2003: 52, 2005: 52, 2007: 52}
+- member_id: 379
+  name: "Betty Little"
+  first: "Betty"
+  last: "Little"
+  sessions: {2003: 45, 2005: 45, 2007: 45}
+- member_id: 100031
+  name: "Serphin R. Maltese"
+  first: "Serphin"
+  last: "Maltese"
+  sessions: {1993: 15, 1995: 15, 1997: 15, 1999: 15, 2001: 15, 2003: 15, 2005: 15, 2007: 15}
+- member_id: 407
+  name: "Carl L. Marcellino"
+  first: "Carl"
+  last: "Marcellino"
+  sessions: {1995: 5, 1997: 5, 1999: 5, 2001: 5, 2003: 5, 2005: 5, 2007: 5}
+  from: 1995-03-14
+- member_id: 100032
+  name: "John J. Marchi"
+  first: "John"
+  last: "Marchi"
+  sessions: {1993: 24, 1995: 24, 1997: 24, 1999: 24, 2001: 24, 2003: 24, 2005: 24}
+- member_id: 100033
+  name: "Ralph J. Marino"
+  first: "Ralph"
+  last: "Marino"
+  sessions: {1993: 5, 1995: 5}
+  until: 1995-02-08
+- member_id: 100034
+  name: "Marty Markowitz"
+  first: "Marty"
+  last: "Markowitz"
+  sessions: {1993: 20, 1995: 20, 1997: 20, 1999: 20, 2001: 20}
+- member_id: 100035
+  name: "Anthony M. Masiello"
+  first: "Anthony"
+  last: "Masiello"
+  sessions: {1993: 57}
+- member_id: 411
+  name: "George D. Maziarz"
+  first: "George"
+  last: "Maziarz"
+  sessions: {1995: 61, 1997: 61, 1999: 61, 2001: 61, 2003: 62, 2005: 62, 2007: 62}
+  from: 1995-03-14
+- member_id: 100036
+  name: "Patricia McGee"
+  first: "Patricia"
+  last: "McGee"
+  sessions: {1999: 56, 2001: 56, 2003: 57, 2005: 57}
+  until: 2005-04-02
+- member_id: 100037
+  name: "Christopher J. Mega"
+  first: "Christopher"
+  last: "Mega"
+  sessions: {1993: 23}
+- member_id: 100038
+  name: "Raymond A. Meier"
+  first: "Raymond"
+  last: "Meier"
+  sessions: {1997: 47, 1999: 47, 2001: 47, 2003: 47, 2005: 47}
+- member_id: 100039
+  name: "Olga A. Méndez"
+  first: "Olga"
+  last: "Méndez"
+  sessions: {1993: 28, 1995: 28, 1997: 28, 1999: 28, 2001: 28, 2003: 28}
+- member_id: 381
+  name: "Velmanette Montgomery"
+  first: "Velmanette"
+  last: "Montgomery"
+  sessions: {1993: 18, 1995: 18, 1997: 18, 1999: 18, 2001: 18, 2003: 18, 2005: 18, 2007: 18}
+- member_id: 441
+  name: "Thomas P. Morahan"
+  first: "Thomas"
+  last: "Morahan"
+  sessions: {1999: 38, 2001: 38, 2003: 38, 2005: 38, 2007: 38}
+  from: 1999-05-25
+- member_id: 100040
+  name: "Anthony Nanula"
+  first: "Anthony"
+  last: "Nanula"
+  sessions: {1993: 57, 1995: 57, 1997: 57, 1999: 57}
+  from: 1994-02-15
+- member_id: 100041
+  name: "Howard C. Nolan Jr."
+  first: "Howard"
+  last: "Nolan"
+  sessions: {1993: 42}
+- member_id: 394
+  name: "Michael F. Nozzolio"
+  first: "Michael"
+  last: "Nozzolio"
+  sessions: {1993: 53, 1995: 53, 1997: 53, 1999: 53, 2001: 53, 2003: 54, 2005: 54, 2007: 54}
+- member_id: 100042
+  name: "Manfred Ohrenstein"
+  first: "Manfred"
+  last: "Ohrenstein"
+  sessions: {1993: 27}
+- member_id: 443
+  name: "George Onorato"
+  first: "George"
+  last: "Onorato"
+  sessions: {1993: 14, 1995: 14, 1997: 14, 1999: 14, 2001: 14, 2003: 12, 2005: 12, 2007: 12}
+- member_id: 388
+  name: "Suzi Oppenheimer"
+  first: "Suzi"
+  last: "Oppenheimer"
+  sessions: {1993: 36, 1995: 36, 1997: 36, 1999: 36, 2001: 36, 2003: 37, 2005: 37, 2007: 37}
+- member_id: 445
+  name: "Frank Padavan"
+  first: "Frank"
+  last: "Padavan"
+  sessions: {1993: 11, 1995: 11, 1997: 11, 1999: 11, 2001: 11, 2003: 11, 2005: 11, 2007: 11}
+- member_id: 416
+  name: "Kevin Parker"
+  first: "Kevin"
+  last: "Parker"
+  sessions: {2003: 21, 2005: 21, 2007: 21}
+- member_id: 100043
+  name: "George E. Pataki"
+  first: "George"
+  last: "Pataki"
+  sessions: {1993: 37}
+- member_id: 100044
+  name: "David Paterson"
+  first: "David"
+  last: "Paterson"
+  sessions: {1993: 29, 1995: 29, 1997: 29, 1999: 29, 2001: 29, 2003: 30, 2005: 30}
+- member_id: 375
+  name: "Bill Perkins"
+  first: "Bill"
+  last: "Perkins"
+  sessions: {2007: 30}
+- member_id: 100045
+  name: "Jess J. Present"
+  first: "Jess"
+  last: "Present"
+  sessions: {1993: 56, 1995: 56, 1997: 56}
+  until: 1998-08-08
+- member_id: 100046
+  name: "Mary Lou Rath"
+  first: "Mary"
+  last: "Rath"
+  sessions: {1993: 60, 1995: 60, 1997: 60, 1999: 60, 2001: 60, 2003: 61, 2005: 61, 2007: 61}
+  from: 1993-11-02
+- member_id: 417
+  name: "Joseph Robach"
+  first: "Joseph"
+  last: "Robach"
+  sessions: {2003: 56, 2005: 56, 2007: 56}
+- member_id: 100047
+  name: "David Rosado"
+  first: "David"
+  last: "Rosado"
+  sessions: {1997: 32, 1999: 32}
+- member_id: 100048
+  name: "John Sabini"
+  first: "John"
+  last: "Sabini"
+  sessions: {2003: 13, 2005: 13, 2007: 13}
+- member_id: 402
+  name: "Stephen M. Saland"
+  first: "Stephen"
+  last: "Saland"
+  sessions: {1993: 41, 1995: 41, 1997: 41, 1999: 41, 2001: 41, 2003: 41, 2005: 41, 2007: 41}
+- member_id: 369
+  name: "John L. Sampson"
+  first: "John"
+  last: "Sampson"
+  sessions: {1997: 19, 1999: 19, 2001: 19, 2003: 19, 2005: 19, 2007: 19}
+- member_id: 100049
+  name: "Nellie R. Santiago"
+  first: "Nellie"
+  last: "Santiago"
+  sessions: {1993: 17, 1995: 17, 1997: 17, 1999: 17, 2001: 17}
+- member_id: 403
+  name: "Diane Savino"
+  first: "Diane"
+  last: "Savino"
+  sessions: {2005: 23, 2007: 23}
+- member_id: 444
+  name: "Eric Schneiderman"
+  first: "Eric"
+  last: "Schneiderman"
+  sessions: {1999: 30, 2001: 30, 2003: 31, 2005: 31, 2007: 31}
+- member_id: 100050
+  name: "Larry Seabrook"
+  first: "Larry"
+  last: "Seabrook"
+  sessions: {1995: 33, 1997: 33, 1999: 33}
+  from: 1996-02-15
+- member_id: 100051
+  name: "William R. Sears"
+  first: "William"
+  last: "Sears"
+  sessions: {1993: 47, 1995: 47}
+- member_id: 373
+  name: "José M. Serrano"
+  first: "José"
+  last: "Serrano"
+  sessions: {2005: 28, 2007: 28}
+- member_id: 371
+  name: "James L. Seward"
+  first: "James"
+  last: "Seward"
+  sessions: {1993: 50, 1995: 50, 1997: 50, 1999: 50, 2001: 50, 2003: 51, 2005: 51, 2007: 51}
+- member_id: 100052
+  name: "John B. Sheffer II"
+  first: "John"
+  last: "Sheffer"
+  sessions: {1993: 60}
+  until: 1993-09-19
+- member_id: 430
+  name: "Dean Skelos"
+  first: "Dean"
+  last: "Skelos"
+  sessions: {1993: 9, 1995: 9, 1997: 9, 1999: 9, 2001: 9, 2003: 9, 2005: 9, 2007: 9}
+- member_id: 100053
+  name: "Ada L. Smith"
+  first: "Ada"
+  last: "Smith"
+  sessions: {1993: 12, 1995: 12, 1997: 12, 1999: 12, 2001: 12, 2003: 10, 2005: 10}
+- member_id: 405
+  name: "Malcolm Smith"
+  first: "Malcolm"
+  last: "Smith"
+  sessions: {1999: 10, 2001: 10, 2003: 14, 2005: 14, 2007: 14}
+  from: 2000-03-28
+- member_id: 100054
+  name: "Martin M. Solomon"
+  first: "Martin"
+  last: "Solomon"
+  sessions: {1993: 22, 1995: 22}
+- member_id: 100055
+  name: "Nicholas A. Spano"
+  first: "Nicholas"
+  last: "Spano"
+  sessions: {1993: 35, 1995: 35, 1997: 35, 1999: 35, 2001: 35, 2003: 35, 2005: 35}
+- member_id: 453
+  name: "William Stachowski"
+  first: "William"
+  last: "Stachowski"
+  sessions: {1993: 58, 1995: 58, 1997: 58, 1999: 58, 2001: 58, 2003: 58, 2005: 58, 2007: 58}
+- member_id: 100056
+  name: "Ronald B. Stafford"
+  first: "Ronald"
+  last: "Stafford"
+  sessions: {1993: 45, 1995: 45, 1997: 45, 1999: 45, 2001: 45}
+- member_id: 100057
+  name: "Leonard P. Stavisky"
+  first: "Leonard"
+  last: "Stavisky"
+  sessions: {1993: 16, 1995: 16, 1997: 16, 1999: 16}
+  until: 1999-06-19
+- member_id: 400
+  name: "Toby Ann Stavisky"
+  first: "Toby"
+  last: "Stavisky"
+  sessions: {1999: 16, 2001: 16, 2003: 16, 2005: 16, 2007: 16}
+  from: 1999-11-02
+- member_id: 396
+  name: "Andrea Stewart-Cousins"
+  first: "Andrea"
+  last: "Stewart-Cousins"
+  sessions: {2007: 35}
+- member_id: 447
+  name: "Antoine Thompson"
+  first: "Antoine"
+  last: "Thompson"
+  sessions: {2007: 60}
+- member_id: 100058
+  name: "Caesar Trunzo"
+  first: "Caesar"
+  last: "Trunzo"
+  sessions: {1993: 3, 1995: 3, 1997: 3, 1999: 3, 2001: 3, 2003: 3, 2005: 3, 2007: 3}
+- member_id: 100059
+  name: "Michael J. Tully Jr."
+  first: "Michael"
+  last: "Tully"
+  sessions: {1993: 7, 1995: 7, 1997: 7}
+  until: 1997-08-05
+- member_id: 395
+  name: "David J. Valesky"
+  first: "David"
+  last: "Valesky"
+  sessions: {2005: 49, 2007: 49}
+- member_id: 100060
+  name: "Guy J. Velella"
+  first: "Guy"
+  last: "Velella"
+  sessions: {1993: 34, 1995: 34, 1997: 34, 1999: 34, 2001: 34, 2003: 34}
+  until: 2004-05-14
+- member_id: 452
+  name: "Dale M. Volker"
+  first: "Dale"
+  last: "Volker"
+  sessions: {1993: 59, 1995: 59, 1997: 59, 1999: 59, 2001: 59, 2003: 59, 2005: 59, 2007: 59}
+- member_id: 100061
+  name: "Alton R. Waldon Jr."
+  first: "Alton"
+  last: "Waldon"
+  sessions: {1993: 10, 1995: 10, 1997: 10, 1999: 10}
+- member_id: 450
+  name: "George H. Winner Jr."
+  first: "George"
+  last: "Winner"
+  sessions: {2005: 53, 2007: 53}
+- member_id: 100062
+  name: "James W. Wright"
+  first: "James"
+  last: "Wright"
+  sessions: {1993: 46, 1995: 46, 1997: 46, 1999: 46, 2001: 46, 2003: 48, 2005: 48, 2007: 48}
+  until: 2007-12-31
+- member_id: 414
+  name: "Catharine Young"
+  first: "Catharine"
+  last: "Young"
+  sessions: {2005: 57, 2007: 57}
+  from: 2005-05-10

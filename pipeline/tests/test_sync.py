@@ -107,10 +107,13 @@ def test_updates_fetch_each_changed_transcript_and_move_the_window(tmp_path):
     assert later.calls == ["/transcripts/updates/2025-06-10T17:50:00/2025-06-10T19:00:00"]
 
 
-def test_members_are_saved_per_session(tmp_path):
+def test_members_of_both_chambers_are_saved_per_session(tmp_path):
+    # Assembly members are kept so a joint-hearing chair is only matched to a senator when no
+    # Assembly member shares the name.
     store = Store(tmp_path)
-    client = FakeClient({"/members/2025/senate": [{"memberId": 1}]})
-    assert sync_members(client, store, 2025).changed == [store.members_path(2025)]
+    client = FakeClient({"/members/2025/senate": [{"memberId": 1}], "/members/2025/assembly": [{"memberId": 900}]})
+    assert sync_members(client, store, 2025).changed == [store.members_path(2025), store.assembly_members_path(2025)]
+    assert read_json(store.assembly_members_path(2025)) == [{"memberId": 900}]
     assert sync_members(client, store, 2025).changed == []
 
 

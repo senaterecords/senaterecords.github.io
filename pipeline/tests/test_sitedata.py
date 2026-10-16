@@ -63,6 +63,37 @@ def test_build_transcript_links_senators_bills_and_the_debate():
     assert segment["speakers"] == {"marisol-ortega": 1}
 
 
+def test_senators_before_2009_link_through_the_history_list(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), MEMBERS[2025])
+    write_json(store.transcript_path("1995-03-01T11:00", "Regular Session"),
+               floor("1995-03-01T11:00", "         1             SENATOR GOLD:  I rise in support of this bill.\n"))
+    (store.root / "rosters").mkdir(parents=True)
+    (store.root / "rosters" / "senate-1993-2008.yaml").write_text(
+        "- member_id: 100001\n  name: Emanuel R. Gold\n  first: Emanuel\n  last: Gold\n  sessions: {1995: 16}\n",
+        encoding="utf-8")
+    build_all(store, tmp_path / "site", datetime(2025, 6, 11))
+    doc = read_json(tmp_path / "site" / "transcripts" / "1995-03-01-regular-session.json")
+    assert [t["senator"] for t in doc["turns"]] == ["emanuel-r-gold"]
+    assert read_json(tmp_path / "site" / "senators" / "emanuel-r-gold.json")["sessions"] == {"1995": 16}
+
+
+def test_the_transcript_date_settles_senators_who_never_served_together():
+    from datetime import date
+
+    roster = Roster.from_members({}, history=[
+        {"member_id": 100010, "name": "Leonard P. Stavisky", "first": "Leonard", "last": "Stavisky",
+         "sessions": {1999: 16}, "until": date(1999, 6, 19)},
+        {"member_id": 100011, "name": "Toby Ann Stavisky", "first": "Toby", "last": "Stavisky",
+         "sessions": {1999: 16}, "from": date(1999, 11, 2)},
+    ])
+    text = "         1             SENATOR STAVISKY:  I rise in support of this bill.\n"
+    spring = build_transcript("floor", floor("1999-03-01T11:00", text), roster, {}, "a")
+    winter = build_transcript("floor", floor("2000-02-01T11:00", text), roster, {}, "b")
+    assert spring["turns"][0]["senator"] == "leonard-p-stavisky"
+    assert winter["turns"][0]["senator"] == "toby-ann-stavisky"
+
+
 def test_overrides_win_over_the_matcher():
     roster = Roster.from_members(MEMBERS)
     doc = build_transcript("floor", floor("2025-06-10T11:00", TEXT_2025), roster, {(2025, "SENATOR ORTEGA"): 2}, "x")
@@ -262,6 +293,40 @@ def test_chairs_in_joint_hearings_are_not_matched_to_senators():
                                                              {"name": "Ways and Means", "chamber": "ASSEMBLY"}])
     assert build_transcript("hearing", senate_only, roster, {}, "x")["turns"][0]["senator"] == "liz-krueger"
     assert build_transcript("hearing", joint, roster, {}, "x")["turns"][0]["senator"] is None
+
+
+JOINT = [{"name": "Finance", "chamber": "SENATE"}, {"name": "Ways and Means", "chamber": "ASSEMBLY"}]
+
+
+def assembly_member(member_id, full, first, last, short, session):
+    return {**member(member_id, full, first, last, short, session), "chamber": "ASSEMBLY"}
+
+
+def test_joint_hearing_chairs_link_only_when_no_assembly_member_shares_the_name():
+    roster = Roster.from_members({2011: [member(5, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 2011),
+                                         member(6, "Ann Weinstein", "Ann", "Weinstein", "WEINSTEIN", 2011)]})
+    assembly = Roster.from_members(
+        {2011: [assembly_member(900, "Helene Weinstein", "Helene", "Weinstein", "WEINSTEIN", 2011)]}, chamber="ASSEMBLY")
+
+    def chair(name):
+        text = f"         1             CHAIRWOMAN {name}:  Welcome to the hearing.\n"
+        raw = hearing("b.txt", "Budget", text=text, committees=JOINT)
+        return build_transcript("hearing", raw, roster, {}, "x", assembly=assembly)["turns"][0]["senator"]
+
+    assert chair("KRUEGER") == "liz-krueger"
+    assert chair("WEINSTEIN") is None  # Helene Weinstein of the Assembly shares the name: never guess
+
+
+def test_build_all_reads_the_assembly_lists_for_joint_hearings(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2011), [member(5, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 2011)])
+    write_json(store.assembly_members_path(2011),
+               [assembly_member(900, "Herman D. Farrell", "Herman", "Farrell", "FARRELL", 2011)])
+    text = "         1             CHAIRWOMAN KRUEGER:  Welcome to the hearing.\n"
+    write_json(store.hearing_path(2011, "joint.txt"), hearing("joint.txt", "Budget", text=text, committees=JOINT))
+    build_all(store, tmp_path / "site", datetime(2025, 1, 1))
+    doc = read_json(tmp_path / "site" / "transcripts" / "2011-05-18-budget.json")
+    assert doc["turns"][0]["senator"] == "liz-krueger"
 
 
 TEXT_SPANS_PAGES = """                                                               5800

@@ -126,6 +126,7 @@ def smoke(client: Any, now: datetime) -> list[str]:
         "transcripts": ("/transcripts", {"limit": 1, "full": True, "sessionOnly": False}),
         "hearings": ("/hearings", {"limit": 1}),
         "members": (f"/members/{session}/senate", {"limit": 1, "full": True}),
+        "assembly": (f"/members/{session}/assembly", {"limit": 1, "full": True}),
         "bills": (f"/bills/{session}", {"limit": 1}),
         "updates": (f"/transcripts/updates/{week_ago}/{now.replace(microsecond=0).isoformat()}", {"limit": 1}),
     }

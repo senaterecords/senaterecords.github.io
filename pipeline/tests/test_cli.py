@@ -88,6 +88,7 @@ def test_smoke_checks_every_response_shape_the_pipeline_reads():
         "/transcripts": item(dateTime=1, sessionType=1, dayType=1, text=1),
         "/hearings": item(id=1, filename=1),
         "/members/2025/senate": item(memberId=1, person=1, sessionShortNameMap=1),
+        "/members/2025/assembly": item(memberId=900, person=1, chamber="ASSEMBLY"),
         "/bills/2025": item(printNo="S100", basePrintNo="S100"),
         "/transcripts/updates/2025-06-03T12:00:00/2025-06-10T12:00:00": item(transcriptId={"dateTime": 1, "sessionType": 1}),
         "/bills/2025/S100": {"success": True, "result": {"printNo": "S100", "votes": {"items": []}, "sponsor": {}}},
@@ -95,6 +96,7 @@ def test_smoke_checks_every_response_shape_the_pipeline_reads():
     lines = smoke(client, datetime(2025, 6, 10, 12, 0, 0))
     assert any(l.startswith("updates:") and "transcriptId=['dateTime', 'sessionType']" in l for l in lines)
     assert any(l.startswith("bill detail:") and "'votes'" in l for l in lines)
+    assert any(l.startswith("assembly:") and "'chamber'" in l for l in lines)
 
 
 def test_process_reports_a_refused_output_folder(tmp_path, capsys):

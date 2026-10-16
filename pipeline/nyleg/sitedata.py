@@ -11,7 +11,7 @@ from typing import Any
 from .bills import BILL_DATA_START, Segment, base_print_no, bill_card, find_bills, segment_calendar
 from .clean import PageBreak, Paragraph, extract_lines, paragraphs
 from .quality import Report
-from .senators import Roster, load_overrides, session_year
+from .senators import Roster, load_history, load_overrides, session_year
 from .speakers import ROLE_CHAIR, ROLE_PRESIDING, ROLE_RECORD, ROLE_SENATOR, Turn, coverage, split_turns
 from .store import Store, read_json, slugify, write_json
 
@@ -43,14 +43,18 @@ def _as_plain(paras: list[Paragraph]) -> Turn:
 
 
 def _senator_slug(
-    turn: Turn, session: int, roster: Roster, overrides: dict[tuple[int, str], int | None], match_chairs: bool = True
+    turn: Turn, session: int, roster: Roster, overrides: dict[tuple[int, str], int | None], match_chairs: bool = True,
+    day: date | None = None, assembly: Roster | None = None,
 ) -> str | None:
     if turn.role not in MATCH_ROLES or turn.label is None:
         return None
     key = (session, turn.label.upper())  # overrides are stored upper-case; labels may be "SENATOR DeFRANCISCO"
     if key not in overrides and turn.role == ROLE_CHAIR and not match_chairs:
-        return None  # in a joint hearing, "CHAIRWOMAN X" may be an Assembly member who shares a surname
-    member_id = overrides[key] if key in overrides else roster.match(turn.name or "", session)
+        # In a joint hearing "CHAIRWOMAN X" may be an Assembly member: match only when that session's
+        # Assembly list is known and nobody on it shares the name.
+        if assembly is None or not assembly.in_session(session) or assembly.shares_name(turn.name or "", session):
+            return None
+    member_id = overrides[key] if key in overrides else roster.match(turn.name or "", session, day)
     senator = roster.senators.get(member_id) if member_id is not None else None
     return senator.slug if senator else None
 
@@ -80,7 +84,8 @@ def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, An
     }
 
 
-def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: dict, slug: str) -> dict[str, Any]:
+def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: dict, slug: str,
+                     assembly: Roster | None = None) -> dict[str, Any]:
     when = date.fromisoformat(str(raw.get("dateTime") or raw.get("date"))[:10])
     session = session_year(when)
     text = raw.get("text") or ""
@@ -98,7 +103,7 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
             "i": t.index,
             "label": t.label,
             "role": t.role,
-            "senator": _senator_slug(t, session, roster, overrides, match_chairs=not joint),
+            "senator": _senator_slug(t, session, roster, overrides, match_chairs=not joint, day=when, assembly=assembly),
             "text": t.text,
             "page": t.page_start,
             "breaks": [[b.offset, b.page] for b in t.breaks],
@@ -151,7 +156,15 @@ def _bill_rows(spoke: Counter, sponsored: set[tuple[int, str, str]]) -> list[dic
 def load_roster(store: Store) -> Roster:
     folder = store.raw / "members"
     by_session = {int(p.stem): read_json(p) or [] for p in sorted(folder.glob("*.json"))} if folder.exists() else {}
-    return Roster.from_members(by_session)
+    # The API lists senators from 2009 only; data/rosters/ covers the sessions before that.
+    history = [row for path in sorted((store.root / "rosters").glob("*.yaml")) for row in load_history(path)]
+    return Roster.from_members(by_session, history)
+
+
+def load_assembly(store: Store) -> Roster:
+    folder = store.raw / "members-assembly"
+    by_session = {int(p.stem): read_json(p) or [] for p in sorted(folder.glob("*.json"))} if folder.exists() else {}
+    return Roster.from_members(by_session, chamber="ASSEMBLY")
 
 
 def _check_out(store: Store, out: Path) -> None:
@@ -196,6 +209,7 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
     if out.exists():
         shutil.rmtree(out)
     roster = load_roster(store)
+    assembly = load_assembly(store)
     overrides = load_overrides(overrides_path or store.root / "overrides" / "speakers.yaml")
     corrections = read_json(store.corrections_path, {}) or {}
     report = Report()
@@ -206,7 +220,7 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
 
     for kind, path, slug in plan_slugs(store, report):
         try:
-            doc = build_transcript(kind, read_json(path), roster, overrides, slug)
+            doc = build_transcript(kind, read_json(path), roster, overrides, slug, assembly)
         except Exception as exc:  # noqa: BLE001 - one bad record must not stop the build
             report.failed.append(store.raw_key(path))
             print(f"WARNING: skipped {store.raw_key(path)}: {exc}")
