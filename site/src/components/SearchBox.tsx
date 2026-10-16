@@ -26,7 +26,9 @@ const WORDS: [string, ReactNode][] = [
 ];
 
 const NARROW: [string, ReactNode][] = [
-  ["speaker:Krueger", "one senator's remarks"],
+  ["speaker:Krueger", "a senator's or Assembly member's remarks"],
+  ["senator:Krueger", "senators only"],
+  ["speaker:Krueger speaker:Lanza", "either one's remarks"],
   ["bill:A10000", "transcripts that mention it"],
   ["year:2019", "one year"],
   ["year:2015-2019", "a range of years"],

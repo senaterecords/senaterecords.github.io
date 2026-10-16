@@ -3,10 +3,19 @@
 import { fold } from "./names";
 
 export interface Branch { words: string[]; phrases: string[]; near: [string, string][]; }
-export interface Filters { speaker?: string; bill?: string; session?: number; years?: number[]; type?: "floor" | "hearing"; committee?: string; }
+/** A speaker: or senator: in the query, as typed (senator: looks among senators only). */
+export interface SpeakerFilter { text: string; senate: boolean; }
+/** The shortcuts in a query. Several values of one shortcut mean any of them; different shortcuts must all hold. */
+export interface Filters {
+  speakers?: SpeakerFilter[]; bills?: string[]; session?: number; years?: number[]; types?: ("floor" | "hearing")[]; committees?: string[];
+}
 export interface ParsedQuery { branches: Branch[]; not: string[]; filters: Filters; }
 
-const FIELDS = new Set(["speaker", "bill", "year", "type", "committee"]);
+const FIELDS = new Set(["speaker", "senator", "bill", "year", "type", "committee"]);
+
+/** A word every indexed transcript holds once (hidden in the page): a search with only filters looks it up, because
+ * Pagefind given no word at all loads its whole index (measured: 1,002 files, 73 MB, for speaker:luis-r-sepulveda). */
+export const EVERY_PAGE = "otrrecordpage";
 const NEAR_WORDS = 10;
 
 type Token = { kind: "word" | "phrase" | "op"; value: string; field?: string; negated?: boolean };
@@ -32,17 +41,18 @@ function tokenize(q: string): Token[] {
 
 function applyFilter(filters: Filters, field: string, value: string) {
   if (!value) return;
-  if (field === "speaker") filters.speaker = value;
-  else if (field === "committee") filters.committee = value;
+  // Several speaker: or senator: mean any of those people (a remark has one speaker).
+  if (field === "speaker" || field === "senator") filters.speakers = [...(filters.speakers ?? []), { text: value, senate: field === "senator" }];
+  else if (field === "committee") filters.committees = [...(filters.committees ?? []), value];
   else if (field === "type") {
     const t = value.toLowerCase();
-    if (t === "floor" || t === "hearing") filters.type = t;
+    if ((t === "floor" || t === "hearing") && !filters.types?.includes(t)) filters.types = [...(filters.types ?? []), t];
   } else if (field === "bill") {
     // "S4597" is that number in any session; "S4597/2025" (either year of the session) is that session's bill.
     const [number, year] = value.split("/");
     const m = number.toUpperCase().replace(/[^A-Z0-9]/g, "").match(/^([SA])(\d+)/);
     if (m) {
-      filters.bill = `${m[1]}${m[2]}`;
+      filters.bills = [...(filters.bills ?? []), `${m[1]}${m[2]}`];
       if (/^\d{4}$/.test(year ?? "")) filters.session = Number(year) % 2 ? Number(year) : Number(year) - 1;
     }
   } else if (field === "year") {
@@ -51,7 +61,8 @@ function applyFilter(filters: Filters, field: string, value: string) {
       const from = Number(m[1]);
       const to = Number(m[2] ?? m[1]);
       const [lo, hi] = from <= to ? [from, to] : [to, from];
-      filters.years = Array.from({ length: hi - lo + 1 }, (_, i) => lo + i);
+      const years = new Set([...(filters.years ?? []), ...Array.from({ length: hi - lo + 1 }, (_, i) => lo + i)]);
+      filters.years = [...years].sort((a, b) => a - b);
     }
   }
 }
@@ -93,18 +104,20 @@ export function parseQuery(q: string): ParsedQuery {
 export function pagefindTerms(b: Branch): string[] {
   const words = [...b.words, ...b.near.flat()].join(" ");
   const terms = [...b.phrases.map((p) => `"${p}"`), ...(words ? [words] : [])];
-  return terms.length ? terms : [""];
+  return terms.length ? terms : [EVERY_PAGE];
 }
 
 /** Pagefind filters for a query. A range of years needs "any"; a plain list would require every year at once. */
-export function pagefindFilters(f: Filters, speakerSlug: string | null): Record<string, string | string[] | { any: string[] }> {
+export function pagefindFilters(f: Filters, speakers: string | string[] | null): Record<string, string | string[] | { any: string[] }> {
+  const slugs = speakers == null ? [] : Array.isArray(speakers) ? speakers : [speakers];
   const out: Record<string, string | string[] | { any: string[] }> = {};
+  const oneOrAny = (values: string[]) => (values.length === 1 ? values[0] : { any: values });
   if (f.years?.length) out.year = f.years.length === 1 ? [String(f.years[0])] : { any: f.years.map(String) };
-  if (f.type) out.type = f.type;
-  if (f.bill) out.bill = f.bill;
-  if (f.session) out.session = String(f.session);
-  if (f.committee) out.committee = f.committee;
-  if (speakerSlug) out.senator = speakerSlug;
+  if (f.types?.length === 1) out.type = f.types[0]; // both record types is no filter
+  if (f.bills?.length) out.bill = oneOrAny(f.bills);
+  if (f.session && f.bills?.length === 1) out.session = String(f.session);
+  if (f.committees?.length) out.committee = oneOrAny(f.committees);
+  if (slugs.length) out.senator = oneOrAny(slugs);
   return out;
 }
 
@@ -172,8 +185,15 @@ function present(words: string[], term: string): boolean {
 // A senator presiding speaks as "ACTING PRESIDENT X"; the site counts those turns apart from remarks.
 const PRESIDING = /^acting president\b/i;
 
-export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: string | null): boolean {
-  if (speakerSlug && (r.speaker !== speakerSlug || PRESIDING.test(r.label))) return false;
+/** Whether a remark is by one of the asked-for speakers (any remark when none was asked for). */
+function bySpeaker(r: Remark, speakers: string | string[] | null): boolean {
+  if (speakers == null) return true;
+  const slugs = Array.isArray(speakers) ? speakers : [speakers];
+  return !!r.speaker && slugs.includes(r.speaker) && !PRESIDING.test(r.label);
+}
+
+export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: string | string[] | null): boolean {
+  if (!bySpeaker(r, speakerSlug)) return false;
   const words = foldedWords(r.text);
   if (!b.words.every((w) => present(words, w))) return false;
   if (!b.phrases.every((p) => hasPhrase(words, p))) return false;
@@ -187,10 +207,10 @@ export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: str
 
 /** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
  * NOT and speaker:. With no terms it is the same as keepRemark. */
-export function mentionsAny(r: Remark, b: Branch, not: string[], speakerSlug: string | null): boolean {
+export function mentionsAny(r: Remark, b: Branch, not: string[], speakerSlug: string | string[] | null): boolean {
   const terms = [...b.words, ...b.near.flat()];
   if (!b.phrases.length && !terms.length) return keepRemark(r, b, not, speakerSlug);
-  if (speakerSlug && (r.speaker !== speakerSlug || PRESIDING.test(r.label))) return false;
+  if (!bySpeaker(r, speakerSlug)) return false;
   const words = foldedWords(r.text);
   if (not.some((n) => present(words, n))) return false;
   return b.phrases.some((p) => hasPhrase(words, p)) || terms.some((t) => present(words, t));

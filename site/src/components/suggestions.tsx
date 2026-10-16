@@ -12,7 +12,7 @@ export interface SuggestionGroup { heading?: string; items: Suggestion[]; }
 const load = jsonCache(url);
 
 const HINT: Record<string, string> = {
-  speaker: "one senator's remarks", year: "one year or a range", bill: "transcripts that mention a bill",
+  speaker: "a senator's or Assembly member's remarks", senator: "a senator's remarks", year: "one year or a range", bill: "transcripts that mention a bill",
   type: "hearings or floor sessions", committee: "one committee's hearings",
 };
 const count = (n: number, noun: string) => `${n.toLocaleString("en-US")} ${noun}${n === 1 ? "" : "s"}`;
@@ -34,12 +34,14 @@ async function suggest(token: Token): Promise<SuggestionGroup[]> {
     })) }];
   }
   const text = token.text.trim();
-  if (token.field === "speaker") {
+  if (token.field === "speaker" || token.field === "senator") {
     if (!text) return [];
-    const matches = findPeople(text, await load<Person[]>("/data/people.json"), 8);
+    const field = token.field;
+    const people = (await load<Person[]>("/data/people.json")).filter((p) => field === "speaker" || p.chamber === "senate");
+    const matches = findPeople(text, people, 8);
     const row = ({ person, ranges }: (typeof matches)[number]): Suggestion => ({
       id: `p-${person.slug}`, label: highlight(person.name, ranges), detail: person.detail, photo: person.photo, person: true,
-      count: person.remarks ? count(person.remarks, "remark") : undefined, value: `speaker:${person.slug}`, trailingSpace: true,
+      count: person.remarks ? count(person.remarks, "remark") : undefined, value: `${field}:${person.slug}`, trailingSpace: true,
     });
     return [
       { heading: "Senators", items: matches.filter((m) => m.person.chamber === "senate").map(row) },

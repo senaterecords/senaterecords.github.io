@@ -3,11 +3,11 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { download, markdownEscape } from "../lib/download";
 import { jsonCache } from "../lib/fetch";
-import { legalCite, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
+import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { fold, resolveSpeaker, type Person } from "../lib/names";
 import {
   excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
-  type Branch, type ParsedQuery, type Remark,
+  type Branch, type ParsedQuery, type Remark, type SpeakerFilter,
 } from "../lib/query";
 import { passageParam } from "../lib/passage";
 import { closestWord } from "../lib/spelling";
@@ -28,7 +28,7 @@ type Status = "loading" | "failed" | "which" | "nomatch" | "ready";
 type Phase = "searching" | "reading" | null;
 
 /** The rows a page contributes: its remarks that match a branch (in one remark, or across the transcript), in order. */
-function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string | null; wide: boolean }): Row[] {
+function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string[] | null; wide: boolean }): Row[] {
   const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
   const rows: Row[] = [];
   for (const remark of remarksOf(page).map(spokenText)) {
@@ -40,6 +40,15 @@ function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string | n
     rows.push({ key: remark.url, remark, branch, pages: excerptPages(remark, branch), meta: page.meta, transcript, href });
   }
   return rows;
+}
+
+const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+/** The query with one speaker:/senator: replaced by the person picked under "Which …?". */
+function replaceSpeaker(q: string, asking: SpeakerFilter, slug: string): string {
+  const field = asking.senate ? "senator" : "speaker";
+  const typed = new RegExp(`${field}:("${escapeRegex(asking.text)}"?|${escapeRegex(asking.text)})(?=\\s|$)`, "i");
+  return q.replace(typed, `${field}:${slug}`);
 }
 
 /** Placeholder rows while the first remarks load: the shape of a result, shimmering. */
@@ -81,9 +90,10 @@ function SearchApp() {
   const [target, setTarget] = useState(0);
   const [shown, setShown] = useState(SHOW);
   const [more, setMore] = useState(false);
-  const [allYears, setAllYears] = useState(false);
+  const [opened, setOpened] = useState<Record<string, boolean>>({});
   const queue = useRef<PagefindResult[]>([]);
-  const plan = useRef<{ parsed: ParsedQuery; speaker: string | null; wide: boolean } | null>(null);
+  const plan = useRef<{ parsed: ParsedQuery; speaker: string[] | null; wide: boolean } | null>(null);
+  const [asked, setAsked] = useState<SpeakerFilter | null>(null);
   const runId = useRef(0);
   const sheet = useRef<HTMLDivElement>(null);
 
@@ -167,24 +177,27 @@ function SearchApp() {
       try { everyone = await getJson<Person[]>("/data/people.json"); } catch { /* names fall back to transcript labels */ }
       if (id !== runId.current) return;
       setPeople(everyone);
-      let speaker: string | null = null;
-      if (parsed.filters.speaker) {
-        const matches = resolveSpeaker(parsed.filters.speaker, everyone);
-        if (!matches.length) { setStatus("nomatch"); return; }
-        if (matches.length > 1) { setWhich(matches); setStatus("which"); return; }
-        speaker = matches[0].slug;
+      // Each speaker: (anyone with a card) or senator: (senators only) must name one person; several mean any of them.
+      const slugs: string[] = [];
+      for (const asking of parsed.filters.speakers ?? []) {
+        const matches = resolveSpeaker(asking.text, asking.senate ? everyone.filter((p) => p.chamber === "senate") : everyone);
+        if (!matches.length) { setAsked(asking); setStatus("nomatch"); return; }
+        if (matches.length > 1) { setAsked(asking); setWhich(matches); setStatus("which"); return; }
+        slugs.push(matches[0].slug);
       }
-      if (parsed.filters.committee) {
+      const speaker = slugs.length ? slugs : null;
+      if (parsed.filters.committees?.length) {
         try {
           const committees = await getJson<{ name: string }[]>("/data/committees.json");
-          const typed = fold(parsed.filters.committee);
-          parsed.filters.committee = committees.find((c) => fold(c.name) === typed)?.name ?? parsed.filters.committee;
+          parsed.filters.committees = parsed.filters.committees.map((typed) => committees.find((c) => fold(c.name) === fold(typed))?.name ?? typed);
         } catch { /* keep what was typed */ }
       }
       let pf: Pagefind;
       try { pf = await loadPagefind(); } catch { if (id === runId.current) setStatus("failed"); return; }
       const filters = pagefindFilters(parsed.filters, speaker);
-      const sortBy = sort === "relevance" ? undefined : { date: sort === "newest" ? "desc" : "asc" };
+      // A search with only filters (say, one senator's remarks) has nothing to rank by, so it reads newest first.
+      const termless = parsed.branches.every((b) => !b.words.length && !b.phrases.length && !b.near.length);
+      const sortBy = sort === "relevance" ? (termless ? { date: "desc" } : undefined) : { date: sort === "newest" ? "desc" : "asc" };
       let searches: PagefindSearch[];
       try {
         searches = await Promise.all(parsed.branches.map((b) => searchBranch(pf, b, { filters, sort: sortBy })));
@@ -201,6 +214,18 @@ function SearchApp() {
       const matched = queue.current.length;
       setTotal(matched);
       setFacets(searches[0]?.filters ?? {});
+      // A filter group in use is counted as if its own choice weren't made, so ticking 2019 still lists 2020 and 2021
+      // (with their counts) to add; the other groups' choices still apply. Runs beside the reading below.
+      const chosen = Object.keys(filters);
+      if (chosen.length) {
+        void Promise.all(chosen.map(async (key) => {
+          const { [key]: _mine, ...others } = filters;
+          return [key, (await searchBranch(pf, parsed.branches[0], { filters: others, sort: sortBy })).filters[key]] as const;
+        })).then((groups) => {
+          if (id !== runId.current) return;
+          setFacets((current) => ({ ...current, ...Object.fromEntries(groups.filter(([, counts]) => counts)) }));
+        }).catch(() => { /* the narrowed counts stay */ });
+      }
       let kept = 0;
       let batches = 0;
       // Fill the first screen even when the first pages hold no matching remark, but only for a few batches.
@@ -282,13 +307,15 @@ function SearchApp() {
 
   // Most facets list the values with the most results first (top 10); years read in time order, newest first, with the
   // rest of them a click away.
+  // Each group shows its top entries (10; 8 years), plus any already chosen, with "All N …" for the rest.
   const facetList = (title: string, key: string, render: (value: string) => string, shortcut: (value: string) => string,
-    { keep = (_value: string): boolean => true, byYear = false }: { keep?: (value: string) => boolean; byYear?: boolean } = {}) => {
+    { keep = (_value: string): boolean => true, byYear = false, noun = "" }: { keep?: (value: string) => boolean; byYear?: boolean; noun?: string } = {}) => {
     const all = Object.entries(facets[key] ?? {}).filter(([value, n]) => n > 0 && keep(value))
       .sort(byYear ? (a, b) => Number(b[0]) - Number(a[0]) : (a, b) => b[1] - a[1]);
     if (!all.length) return null;
-    const open = byYear && allYears;
-    const entries = byYear ? (open ? all : all.slice(0, 8)) : all.slice(0, 10);
+    const top = byYear ? 8 : 10;
+    const open = !!opened[key];
+    const entries = open ? all : all.filter(([value], i) => i < top || hasShortcut(q, shortcut(value)));
     return (
       <div className="fg">
         <h3>{title}</h3>
@@ -301,8 +328,10 @@ function SearchApp() {
             </button>
           );
         })}
-        {byYear && all.length > 8 && (
-          <button type="button" className="fg-all" onClick={() => setAllYears((v) => !v)}>{open ? "Fewer years" : `All ${all.length} years`}</button>
+        {all.length > top && noun && (
+          <button type="button" className="fg-all" aria-expanded={open} onClick={() => setOpened((o) => ({ ...o, [key]: !o[key] }))}>
+            {open ? "Fewer" : `All ${all.length.toLocaleString("en-US")} ${noun}`}
+          </button>
         )}
       </div>
     );
@@ -311,10 +340,10 @@ function SearchApp() {
   const facetPanel = (
     <>
       {facetList("Record", "type", (v) => (v === "floor" ? "Floor sessions" : "Public hearings"), (v) => `type:${v}`)}
-      {facetList("Year", "year", (v) => v, (v) => `year:${v}`, { byYear: true })}
-      {facetList("Speaker", "senator", (v) => personBySlug.get(v)?.name ?? v, (v) => `speaker:${v}`)}
-      {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, { keep: (v) => /^[SA]\d+$/.test(v) })}
-      {facetList("Committee", "committee", (v) => v, (v) => `committee:${quote(v)}`)}
+      {facetList("Year", "year", (v) => v, (v) => `year:${v}`, { byYear: true, noun: "years" })}
+      {facetList("Speaker", "senator", (v) => personBySlug.get(v)?.name ?? v, (v) => `speaker:${v}`, { noun: "speakers" })}
+      {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, { keep: (v) => /^[SA]\d+$/.test(v), noun: "bills" })}
+      {facetList("Committee", "committee", (v) => v, (v) => `committee:${quote(v)}`, { noun: "committees" })}
     </>
   );
 
@@ -323,13 +352,13 @@ function SearchApp() {
       <div className="pg-head"><div className="pg-in pb"><SearchBox key={q} variant="search" initial={q} /></div></div>
 
       {status === "failed" && <p className="sr-msg" role="alert">{LOAD_FAILED}</p>}
-      {status === "nomatch" && <p className="sr-msg">No senator or Assembly member matches “{parseQuery(q).filters.speaker}”.</p>}
+      {status === "nomatch" && asked && <p className="sr-msg">No {asked.senate ? "senator" : "senator or Assembly member"} matches “{asked.text}”.</p>}
       {status === "which" && (
         <div className="sr-which">
-          <h2>Which {parseQuery(q).filters.speaker}?</h2>
+          <h2>Which {asked?.text}?</h2>
           <div className="sr-which-list">
             {which.map((p) => (
-              <button key={p.slug} type="button" onClick={() => go({ q: q.replace(/speaker:("[^"]*"|\S+)/i, `speaker:${p.slug}`) })}>
+              <button key={p.slug} type="button" onClick={() => go({ q: replaceSpeaker(q, asked!, p.slug) })}>
                 {p.photo ? <img className="photo photo-sm" src={p.photo} alt="" width={28} height={36} /> : <span className="photo photo-sm empty" aria-hidden="true"><Icon name="person" size={24} /></span>}
                 <span><b>{p.name}</b><small>{p.detail}</small></span>
               </button>
@@ -346,11 +375,14 @@ function SearchApp() {
           <div className="sr-head">
             {status === "loading" && !rows.length
               ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
-              : <h1 className="num">{remarkCount.toLocaleString("en-US")} {remarkCount === 1 ? "remark" : "remarks"} <span>in {transcriptCount.toLocaleString("en-US")} {transcriptCount === 1 ? "transcript" : "transcripts"}</span></h1>}
+              : (() => {
+                const heading = resultCounts({ remarks: remarkCount, transcripts: transcriptCount, read: loaded, total });
+                return <h1 className="num">{heading.main} <span>{heading.sub}</span></h1>;
+              })()}
             {status === "loading" && rows.length > 0 && (
               <span className="sr-time num" role="status"><span className="sr-spin" aria-hidden="true" />reading {loaded.toLocaleString("en-US")} of {target.toLocaleString("en-US")} transcripts…</span>
             )}
-            {status === "ready" && <span className="sr-time num">{total > loaded ? `first ${loaded} of ${total} matching transcripts · ` : ""}{(elapsed / 1000).toFixed(2)} s</span>}
+            {status === "ready" && <span className="sr-time num">{(elapsed / 1000).toFixed(2)} s</span>}
             <button type="button" className="btn btn-quiet sr-filters" onClick={() => setFiltersOpen(true)}><Icon name="filter" size={15} />Filters{activeFilters ? ` · ${activeFilters}` : ""}</button>
             <label className="sr-sort">
               <span className="visually-hidden">Sort</span>

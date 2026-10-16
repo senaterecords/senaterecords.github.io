@@ -1,6 +1,6 @@
 // Which shortcut is being typed at the caret, and replacing it with the picked suggestion (spec 9.1).
 
-export const SHORTCUTS = ["speaker", "year", "bill", "type", "committee"] as const;
+export const SHORTCUTS = ["speaker", "senator", "year", "bill", "type", "committee"] as const;
 export type Field = (typeof SHORTCUTS)[number];
 export interface Token { field: Field | null; text: string; start: number; end: number; }
 
@@ -9,7 +9,7 @@ export interface Token { field: Field | null; text: string; start: number; end: 
 export function tokenAt(value: string, caret: number): Token | null {
   const before = value.slice(0, caret);
   const restWord = () => value.slice(caret).match(/^\S*/)![0].length;
-  const m = before.match(/(^|\s)(speaker|year|bill|type|committee):("[^"]*|\S*)$/i);
+  const m = before.match(/(^|\s)(speaker|senator|year|bill|type|committee):("[^"]*|\S*)$/i);
   if (m) {
     const quoted = m[3].startsWith('"');
     return { field: m[2].toLowerCase() as Field, text: m[3].replace(/^"/, ""), start: m.index! + m[1].length, end: quoted ? caret : caret + restWord() };

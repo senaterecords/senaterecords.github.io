@@ -114,6 +114,13 @@ export function transcriptTitle(t: { kind: "floor" | "hearing"; sessionType: str
 
 export const plural = (n: number, noun: string) => `${count(n)} ${noun}${n === 1 ? "" : "s"}`;
 
+/** The search results heading: final counts once every matching transcript is read, and "so far" until then. */
+export function resultCounts(n: { remarks: number; transcripts: number; read: number; total: number }): { main: string; sub: string } {
+  return n.read >= n.total
+    ? { main: plural(n.remarks, "remark"), sub: `in ${plural(n.transcripts, "transcript")}` }
+    : { main: `${plural(n.remarks, "remark")} so far`, sub: `in the first ${count(n.read)} of ${count(n.total)} matching transcripts` };
+}
+
 const PREFIX = /^(SENATOR|ACTING PRESIDENT|ASSEMBLYMAN|ASSEMBLYWOMAN|ASSEMBLYMEMBER|ASSEMBLY MEMBER|CHAIRMAN|CHAIRWOMAN|CHAIRPERSON|CHAIR)\s+/i;
 
 export type SpeakerKind = "senator" | "assembly" | "secretary" | "president" | "other";

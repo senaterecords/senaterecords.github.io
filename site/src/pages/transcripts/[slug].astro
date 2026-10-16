@@ -11,6 +11,7 @@ import Base from "../../layouts/Base.astro";
 import { assembly, bill, hasBillPage, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex } from "../../lib/data";
 import { billStatus, hearingTitle, longDate, placeText, plainPages, plural, transcriptTitle, weekdayDate } from "../../lib/format";
 import { packReader } from "../../lib/payload";
+import { EVERY_PAGE } from "../../lib/query";
 import { speakerData } from "../../lib/speakers";
 import { url } from "../../lib/url";
 
@@ -98,6 +99,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         <span hidden data-pagefind-meta={`date:${doc.date}`}></span>
         <span hidden data-pagefind-meta={`kind:${doc.kind}`}></span>
         <span hidden data-pagefind-sort={`date:${doc.date}`}></span>
+        <span class="visually-hidden" aria-hidden="true">{EVERY_PAGE}</span>
         </>}
         {noSpeakers && <p class="rd-note" data-pagefind-ignore>Speaker details aren't available for this transcript</p>}
         <Turns turns={doc.turns} keyOf={keyOf} readings={readings}

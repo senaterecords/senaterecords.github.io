@@ -1,12 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
+import { EVERY_PAGE, excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
 
 describe("parseQuery", () => {
   it("reads words, phrases and shortcuts", () => {
     expect(parseQuery('"congestion pricing" tolls speaker:krueger year:2015-2019 type:hearing committee:"Ways and Means" bill:s4597a')).toEqual({
       branches: [{ words: ["tolls"], phrases: ["congestion pricing"], near: [] }],
       not: [],
-      filters: { speaker: "krueger", years: [2015, 2016, 2017, 2018, 2019], type: "hearing", committee: "Ways and Means", bill: "S4597" },
+      filters: { speakers: [{ text: "krueger", senate: false }], years: [2015, 2016, 2017, 2018, 2019], types: ["hearing"], committees: ["Ways and Means"], bills: ["S4597"] },
     });
   });
 
@@ -99,13 +99,14 @@ describe("review fixes: query plan", () => {
     expect(pagefindTerms(parseQuery('"executive budget" "steady job growth"').branches[0])).toEqual(['"executive budget"', '"steady job growth"']);
     expect(pagefindTerms(parseQuery('"toll revenue"').branches[0])).toEqual(['"toll revenue"']);
     expect(pagefindTerms(parseQuery("rent stabilization").branches[0])).toEqual(["rent stabilization"]);
-    expect(pagefindTerms(parseQuery("speaker:liz-krueger").branches[0])).toEqual([""]);
+    // With no words at all, Pagefind would load its whole index; every indexed page holds one marker word instead.
+    expect(pagefindTerms(parseQuery("speaker:liz-krueger").branches[0])).toEqual([EVERY_PAGE]);
   });
 
   it("reads a bill's session when one is given, from either year of it", () => {
-    expect(parseQuery("bill:S4597/2025").filters).toEqual({ bill: "S4597", session: 2025 });
-    expect(parseQuery("bill:s4597a/2026").filters).toEqual({ bill: "S4597", session: 2025 });
-    expect(parseQuery("bill:S4597").filters).toEqual({ bill: "S4597" });
+    expect(parseQuery("bill:S4597/2025").filters).toEqual({ bills: ["S4597"], session: 2025 });
+    expect(parseQuery("bill:s4597a/2026").filters).toEqual({ bills: ["S4597"], session: 2025 });
+    expect(parseQuery("bill:S4597").filters).toEqual({ bills: ["S4597"] });
     expect(pagefindFilters(parseQuery("bill:S4597/2025").filters, null)).toEqual({ bill: "S4597", session: "2025" });
   });
 
@@ -189,5 +190,36 @@ describe("review fixes: how far a search reaches", () => {
     expect(mentionsAny(lanza, b, ["district"], null)).toBe(false);
     expect(mentionsAny(krueger, b, [], "andrew-j-lanza")).toBe(false);
     expect(mentionsAny(krueger, parseQuery("tunnels").branches[0], [], null)).toBe(false);
+  });
+});
+
+describe("several speakers, and senator:", () => {
+  it("reads every speaker: and senator: as one of the people to keep", () => {
+    expect(parseQuery("budget speaker:krueger senator:lanza").filters.speakers).toEqual([{ text: "krueger", senate: false }, { text: "lanza", senate: true }]);
+  });
+
+  it("asks Pagefind for any of several speakers", () => {
+    expect(pagefindFilters({}, ["liz-krueger", "andrew-j-lanza"])).toEqual({ senator: { any: ["liz-krueger", "andrew-j-lanza"] } });
+    expect(pagefindFilters({}, ["liz-krueger"])).toEqual({ senator: "liz-krueger" });
+  });
+
+  it("keeps a remark by any of the speakers", () => {
+    const [krueger, lanza] = remarksOf(DATA);
+    expect(keepRemark(lanza, parseQuery("tolls").branches[0], [], ["liz-krueger", "andrew-j-lanza"])).toBe(true);
+    expect(keepRemark(krueger, parseQuery("toll").branches[0], [], ["andrew-j-lanza"])).toBe(false);
+  });
+});
+
+describe("several values of one shortcut mean any of them", () => {
+  it("collects every year, type, committee and bill", () => {
+    expect(parseQuery('rent year:2019 year:2021-2022 type:floor type:hearing committee:Health committee:"Ways and Means" bill:S1 bill:A2').filters).toEqual({
+      years: [2019, 2021, 2022], types: ["floor", "hearing"], committees: ["Health", "Ways and Means"], bills: ["S1", "A2"],
+    });
+  });
+
+  it("asks Pagefind for any of them; both record types is no type filter at all", () => {
+    expect(pagefindFilters(parseQuery('year:2019 year:2021 type:floor type:hearing committee:Health committee:"Ways and Means" bill:S1 bill:A2').filters, null)).toEqual({
+      year: { any: ["2019", "2021"] }, committee: { any: ["Health", "Ways and Means"] }, bill: { any: ["S1", "A2"] },
+    });
   });
 });

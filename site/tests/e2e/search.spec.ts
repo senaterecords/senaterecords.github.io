@@ -250,3 +250,57 @@ test("when no single remark has every phrase, the page says so and offers the tr
   expect(speakers).toContain("andrea-stewart-cousins");
   await expect(page.getByText(/in any remark of the same transcript/)).toBeVisible();
 });
+
+test("speaker: twice finds either person's remarks", async ({ page }) => {
+  await page.goto("search/?q=speaker%3Aandrea-stewart-cousins%20speaker%3Arobert-jackson");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  const speakers = await page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
+  expect(new Set(speakers)).toEqual(new Set(["andrea-stewart-cousins", "robert-jackson"]));
+});
+
+test("senator: finds a senator's remarks", async ({ page }) => {
+  await page.goto("search/?q=budget%20senator%3Akrueger");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  const speakers = await page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
+  expect(new Set(speakers)).toEqual(new Set(["liz-krueger"]));
+});
+
+test("a search with only a speaker reads one small index file, not the whole index", async ({ page }) => {
+  const chunks: string[] = [];
+  page.on("request", (r) => { if (r.url().includes("/pagefind/index/")) chunks.push(r.url()); });
+  await page.goto("search/?q=speaker%3Aliz-krueger");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  expect(chunks.length).toBeLessThanOrEqual(1);
+});
+
+test("ticking a year keeps the other years listed, and a second year adds to the search", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=the");
+  const years = page.getByRole("complementary", { name: "Narrow the results" }).locator(".fg", { has: page.getByRole("heading", { name: "Year" }) });
+  await expect(years.locator(".fg-row").nth(1)).toBeVisible();
+  const before = await years.locator(".fg-name").allInnerTexts();
+  await years.getByRole("button", { name: new RegExp(before[0]) }).click();
+  await expect(page).toHaveURL(new RegExp(`year%3A${before[0]}`));
+  await expect(years.locator(".fg-row")).toHaveCount(before.length);
+  await years.getByRole("button", { name: new RegExp(before[1]) }).click();
+  await expect(page).toHaveURL(new RegExp(`year%3A${before[0]}.*year%3A${before[1]}`));
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+});
+
+test("committee: twice finds hearings of either committee", async ({ page }) => {
+  await page.goto("search/?q=committee%3ADisabilities%20committee%3A%22Ways%20and%20Means%22");
+  // Filter-only searches list newest first, so the 2025 hearing fills the first screen; the count covers both.
+  await expect(page.locator(".sr-head h1")).toContainText("in 2 transcripts");
+});
+
+test("each filter group shows its top entries, with the rest a click away", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=the");
+  const group = page.getByRole("complementary", { name: "Narrow the results" }).locator(".fg", { has: page.getByRole("heading", { name: "Speaker" }) });
+  await expect(group.locator(".fg-row")).toHaveCount(10);
+  await group.getByRole("button", { name: /^All \d+ speakers$/ }).click();
+  expect(await group.locator(".fg-row").count()).toBeGreaterThan(10);
+  await group.getByRole("button", { name: "Fewer" }).click();
+  await expect(group.locator(".fg-row")).toHaveCount(10);
+});
+

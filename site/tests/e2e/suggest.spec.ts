@@ -66,3 +66,11 @@ test("picking a bill keeps its session", async ({ page }) => {
   await page.getByRole("option", { name: /S50025/ }).click();
   await expect(page.getByRole("searchbox")).toHaveValue("bill:S50025/2009 ");
 });
+
+test("senator: suggests senators only", async ({ page }) => {
+  await page.goto("./");
+  await page.getByRole("searchbox").pressSequentially("senator:krue");
+  const list = page.getByRole("listbox");
+  await expect(list.getByRole("option", { name: /Liz Krueger/ })).toBeVisible();
+  await expect(list.getByRole("group", { name: /Assembly/ })).toHaveCount(0);
+});

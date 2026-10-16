@@ -27,3 +27,10 @@ describe("the token at the caret", () => {
     expect(replaceToken("year:19 rent", { start: 0, end: 7 }, "year:1995", true)).toEqual({ value: "year:1995 rent", caret: 10 });
   });
 });
+
+describe("senator:", () => {
+  it("is a shortcut like speaker:", () => {
+    expect(tokenAt("budget senator:krue", 19)).toEqual({ field: "senator", text: "krue", start: 7, end: 19 });
+    expect(tokenAt("budget sen", 10)).toEqual({ field: null, text: "sen", start: 7, end: 10 });
+  });
+});
