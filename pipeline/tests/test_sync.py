@@ -12,6 +12,7 @@ from nyleg.sync import (
     save_transcript,
     sync_hearings_year,
     sync_members,
+    sync_recent_hearings,
     sync_transcript_updates,
     wanted_bills,
 )
@@ -136,3 +137,42 @@ def test_fetch_bills_respects_the_budget_and_remembers_missing_bills(tmp_path):
     fetch_bills(client, store, set(), budget=5)
     assert client.calls == ["/bills/2025/S3"]
     assert store.load_state()["bills_pending"] == []
+
+
+def test_one_missing_transcript_does_not_stall_the_hourly_updates(tmp_path):
+    store = Store(tmp_path)
+    now = datetime(2025, 6, 10, 18, 0, 0)
+    updates = "/transcripts/updates/2025-06-03T18:00:00/2025-06-10T18:00:00"
+    gone = {"dateTime": "2025-06-09T11:00", "sessionType": "Regular Session"}
+    kept = {"dateTime": "2025-06-10T11:00", "sessionType": "Regular Session"}
+    single = f"/transcripts/{quote(kept['dateTime'])}/{quote(kept['sessionType'])}"
+    client = FakeClient({updates: [{"transcriptId": gone}, {"transcriptId": kept}]}, {single: transcript(kept["dateTime"])})
+    assert len(sync_transcript_updates(client, store, now).changed) == 1
+    state = store.load_state()
+    assert state["transcripts_synced_at"] == "2025-06-10T18:00:00"
+    assert state["transcripts_missing"] == [["2025-06-09T11:00", "Regular Session"]]
+
+
+def test_recent_hearings_include_last_year_so_late_postings_are_not_lost(tmp_path):
+    store = Store(tmp_path)
+    late = {"id": 7, "filename": "12-15-25 Budget.txt", "date": "2025-12-15", "text": "x"}
+    client = FakeClient({"/hearings/2025": [late], "/hearings/2026": []})
+    result = sync_recent_hearings(client, store, date(2026, 1, 10))
+    assert client.calls == ["/hearings/2026", "/hearings/2025"]
+    assert result.changed == [store.hearing_path(2025, "12-15-25 Budget.txt")]
+
+
+def test_current_session_bills_are_refreshed_weekly(tmp_path):
+    store = Store(tmp_path)
+    client = FakeClient(singles={"/bills/2025/S1": {"basePrintNo": "S1", "session": 2025, "signed": False}})
+    fetch_bills(client, store, {(2025, "S1")}, budget=5, today=date(2025, 6, 1), refresh_session=2025)
+    client.singles["/bills/2025/S1"] = {"basePrintNo": "S1", "session": 2025, "signed": True}
+    client.calls.clear()
+    fetch_bills(client, store, set(), budget=5, today=date(2025, 6, 5), refresh_session=2025)
+    assert client.calls == []  # checked 4 days ago: still fresh
+    fetch_bills(client, store, set(), budget=5, today=date(2025, 6, 9), refresh_session=2025)
+    assert client.calls == ["/bills/2025/S1"]
+    assert read_json(store.bill_path(2025, "S1"))["signed"] is True
+    client.calls.clear()
+    fetch_bills(client, store, set(), budget=5, today=date(2025, 7, 1), refresh_session=2027)
+    assert client.calls == []  # bills from past sessions are no longer refreshed

@@ -45,3 +45,10 @@ def test_process_fails_the_gate_when_quality_drops(tmp_path, capsys):
     code = main(["--data", str(store.root), "process", "--out", str(tmp_path / "site"), "--gate-against", str(previous)])
     assert code == EXIT_GATE
     assert "Text matched to speakers dropped" in capsys.readouterr().err
+
+
+def test_process_refuses_to_build_from_a_missing_data_folder(tmp_path, capsys):
+    out = tmp_path / "site"
+    assert main(["--data", str(tmp_path / "nope"), "process", "--out", str(out)]) == EXIT_GATE
+    assert "No raw transcripts" in capsys.readouterr().err
+    assert not out.exists()

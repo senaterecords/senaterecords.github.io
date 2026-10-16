@@ -16,6 +16,7 @@ from .store import Store, read_json, write_json
 
 UPDATE_OVERLAP = timedelta(minutes=10)
 FIRST_LOOKBACK = timedelta(days=7)
+REFRESH_DAYS = 7  # re-check current-session bills weekly
 
 
 class ApiClient(Protocol):
@@ -99,13 +100,23 @@ def sync_transcript_updates(client: ApiClient, store: Store, now: datetime) -> S
     last = state.get("transcripts_synced_at")
     since = datetime.fromisoformat(last) - UPDATE_OVERLAP if last else now - FIRST_LOOKBACK
     result = SyncResult()
+    missing = [list(x) for x in state.get("transcripts_missing", [])]
     for item in client.iter_items(f"/transcripts/updates/{_iso(since)}/{_iso(now)}"):
         tid = item["transcriptId"]
-        body = client.get(f"/transcripts/{quote(tid['dateTime'])}/{quote(tid['sessionType'])}")
+        try:
+            body = client.get(f"/transcripts/{quote(tid['dateTime'])}/{quote(tid['sessionType'])}")
+        except NotFound:
+            # Listed as updated but not fetchable: remember it rather than failing every hour.
+            if [tid["dateTime"], tid["sessionType"]] not in missing:
+                missing.append([tid["dateTime"], tid["sessionType"]])
+            continue
         path = save_transcript(store, body["result"])
         if path:
             result.changed.append(path)
+    state = store.load_state()
     state["transcripts_synced_at"] = _iso(now)
+    if missing:
+        state["transcripts_missing"] = sorted(missing)
     store.save_state(state)
     return result
 
@@ -117,6 +128,12 @@ def sync_hearings_year(client: ApiClient, store: Store, year: int) -> SyncResult
         if path:
             result.changed.append(path)
     return result
+
+
+def sync_recent_hearings(client: ApiClient, store: Store, today: date) -> SyncResult:
+    """Re-list this year's and last year's hearings: some are posted weeks after they happen."""
+    result = sync_hearings_year(client, store, today.year)
+    return result.merge(sync_hearings_year(client, store, today.year - 1))
 
 
 def sync_members(client: ApiClient, store: Store, session: int) -> SyncResult:
@@ -142,29 +159,56 @@ def wanted_bills(paths: Iterable[Path]) -> set[tuple[int, str]]:
     return wanted
 
 
-def fetch_bills(client: ApiClient, store: Store, wanted: Iterable[tuple[int, str]], budget: int) -> SyncResult:
-    """Fetch up to `budget` bills not stored yet; remember the rest and the ones the API lacks."""
+def fetch_bills(
+    client: ApiClient,
+    store: Store,
+    wanted: Iterable[tuple[int, str]],
+    budget: int,
+    today: date | None = None,
+    refresh_session: int | None = None,
+    refresh_days: int = REFRESH_DAYS,
+) -> SyncResult:
+    """Fetch up to `budget` bills: first ones not stored yet, then `refresh_session` bills not checked
+    for `refresh_days` (status, votes and the Governor's action change after the floor vote)."""
+    today = today or date.today()
     state = store.load_state()
     pending = {tuple(x) for x in state.get("bills_pending", [])} | set(wanted)
     missing = {tuple(x) for x in state.get("bills_missing", [])}
+    checked: dict[str, str] = dict(state.get("bills_checked", {}))
     result = SyncResult()
     used = 0
-    for session, base in sorted(pending):
-        if (session, base) in missing or store.bill_path(session, base).exists():
-            continue
-        if used >= budget:
-            break
+
+    def fetch(session: int, base: str) -> None:
+        nonlocal used
         used += 1
         try:
             body = client.get(f"/bills/{session}/{base}", view="no_fulltext")
         except NotFound:
             missing.add((session, base))
-            continue
+            return
+        checked[f"{session}/{base}"] = today.isoformat()
         path = store.bill_path(session, base)
         if write_json(path, body["result"]):
             result.changed.append(path)
+
+    for session, base in sorted(pending):
+        if (session, base) in missing or store.bill_path(session, base).exists():
+            continue
+        if used >= budget:
+            break
+        fetch(session, base)
+    if refresh_session is not None:
+        cutoff = (today - timedelta(days=refresh_days)).isoformat()
+        folder = store.raw / "bills" / str(refresh_session)
+        for base in sorted(p.stem for p in folder.glob("*.json")) if folder.exists() else []:
+            if used >= budget:
+                break
+            if checked.get(f"{refresh_session}/{base}", "") > cutoff:
+                continue
+            fetch(refresh_session, base)
     left = {p for p in pending if p not in missing and not store.bill_path(*p).exists()}
     state["bills_pending"] = [list(p) for p in sorted(left)]
     state["bills_missing"] = [list(p) for p in sorted(missing)]
+    state["bills_checked"] = dict(sorted(checked.items()))
     store.save_state(state)
     return result

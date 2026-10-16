@@ -31,3 +31,11 @@ def test_gate_allows_small_wobbles_and_first_runs():
 def test_gate_blocks_a_real_drop():
     problems = gate({"attribution": 0.99, "billLinkRate": 0.96}, report(attributed=950))
     assert problems == ["Text matched to speakers dropped 4.0 points (99.0% -> 95.0%)"]
+
+
+def test_gate_blocks_an_empty_or_shrunken_site():
+    previous = {"attribution": 0.99, "billLinkRate": 0.9, "floorTranscripts": 5000, "hearings": 250}
+    assert gate(previous, Report()) == [
+        "Floor transcripts fell from 5000 to 0",
+        "Hearings fell from 250 to 0",
+    ]

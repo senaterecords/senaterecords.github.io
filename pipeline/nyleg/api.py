@@ -78,14 +78,18 @@ class Client:
         raise AssertionError("unreachable")
 
     def iter_items(self, path: str, *, page_size: int = MAX_LIMIT, **params: Any) -> Iterator[dict[str, Any]]:
-        """Yield every item of a list endpoint. Offsets start at 1; stop at the first short page."""
+        """Yield every item of a list endpoint. Offsets start at 1; stop at the first empty page.
+
+        Stopping at a short page would be one request cheaper, but some listings report a wrong
+        `total` and a server may cap pages below `limit`, so only an empty page proves the end.
+        """
         offset = 1
         while True:
             body = self.get(path, limit=page_size, offset=offset, **params)
             items = (body.get("result") or {}).get("items") or []
-            yield from items
-            if len(items) < page_size:
+            if not items:
                 return
+            yield from items
             offset += len(items)
 
     def _throttle(self) -> None:

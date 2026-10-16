@@ -39,7 +39,8 @@ class Report:
 
 
 def gate(previous: dict[str, Any] | None, current: Report, max_drop_points: float = 2.0) -> list[str]:
-    """Problems that should block a deploy: a quality measure fell by more than `max_drop_points`."""
+    """Problems that should block a deploy: a quality measure fell by more than `max_drop_points`,
+    or the site would lose transcripts (an empty build scores perfectly on the rates)."""
     if not previous:
         return []
     problems: list[str] = []
@@ -53,4 +54,8 @@ def gate(previous: dict[str, Any] | None, current: Report, max_drop_points: floa
         drop = (float(before) - now) * 100
         if drop > max_drop_points:
             problems.append(f"{label} dropped {drop:.1f} points ({float(before) * 100:.1f}% -> {now * 100:.1f}%)")
+    for key, label, count in (("floorTranscripts", "Floor transcripts", current.floor), ("hearings", "Hearings", current.hearings)):
+        before = previous.get(key)
+        if before is not None and count < int(before):
+            problems.append(f"{label} fell from {int(before)} to {count}")
     return problems

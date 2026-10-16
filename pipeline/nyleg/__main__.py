@@ -53,13 +53,15 @@ def cmd_sync(args: argparse.Namespace) -> int:
             result.merge(sync.sync_members(client, store, session))
     result.merge(sync.sync_transcript_updates(client, store, now))
     if args.hearings:
-        result.merge(sync.sync_hearings_year(client, store, now.year))
-    result.merge(sync.sync_members(client, store, session_year(now.date())))
+        result.merge(sync.sync_recent_hearings(client, store, now.date()))
+    current = session_year(now.date())
+    result.merge(sync.sync_members(client, store, current))
     if args.rescan_bills:
         scan = list(store.iter_raw("transcripts"))
     else:
         scan = [p for p in result.changed if "transcripts" in p.parts]
-    result.merge(sync.fetch_bills(client, store, sync.wanted_bills(scan), budget=args.bill_budget))
+    result.merge(sync.fetch_bills(client, store, sync.wanted_bills(scan), budget=args.bill_budget,
+                                  today=now.date(), refresh_session=current))
     print(f"{len(result.changed)} raw files added or updated")
     emit("changed", "true" if result.changed else "false")
     return 0
@@ -68,6 +70,9 @@ def cmd_sync(args: argparse.Namespace) -> int:
 def cmd_process(args: argparse.Namespace) -> int:
     store = Store(Path(args.data))
     out = Path(args.out)
+    if not (store.raw / "transcripts").exists():
+        print(f"ERROR: No raw transcripts in {store.raw}; run sync first or check --data", file=sys.stderr)
+        return EXIT_GATE
     report = build_all(store, out, new_york_now())
     summary = report.to_dict()
     write_json(out / "quality.json", summary)

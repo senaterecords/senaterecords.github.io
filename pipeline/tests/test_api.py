@@ -87,9 +87,9 @@ def test_network_errors_are_retried():
     assert sleeps == [2.0]
 
 
-def test_iter_items_pages_with_one_based_offsets():
+def test_iter_items_pages_with_one_based_offsets_until_an_empty_page():
     offsets = []
-    pages = {1: [1, 2], 3: [3, 4], 5: [5]}
+    pages = {1: [1, 2], 3: [3, 4], 5: [5], 6: []}
 
     def handler(request):
         offset = int(request.url.params["offset"])
@@ -98,7 +98,18 @@ def test_iter_items_pages_with_one_based_offsets():
 
     client, _ = make_client(handler)
     assert list(client.iter_items("/hearings", page_size=2)) == [1, 2, 3, 4, 5]
-    assert offsets == [1, 3, 5]
+    assert offsets == [1, 3, 5, 6]
+
+
+def test_iter_items_survives_a_server_that_returns_short_pages():
+    data = list(range(250))
+
+    def handler(request):
+        offset = int(request.url.params["offset"])
+        return ok({"result": {"items": data[offset - 1:offset - 1 + 100]}})  # at most 100, whatever the limit
+
+    client, _ = make_client(handler)
+    assert list(client.iter_items("/hearings")) == data
 
 
 def test_throttle_spaces_out_requests():
