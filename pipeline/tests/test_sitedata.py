@@ -224,11 +224,43 @@ def test_presiding_turns_are_counted_apart_from_remarks(tmp_path):
     assert (index["paul-brennan"]["remarks"], index["thomas-kearney"]["remarks"]) == (0, 2)
 
 
+def test_transcript_index_lists_every_transcript_newest_first(tmp_path):
+    out, _ = build_two_bills(tmp_path)
+    assert read_json(out / "transcripts.json") == [{
+        "slug": "2025-06-10-regular-session", "kind": "floor", "date": "2025-06-10", "title": None,
+        "sessionType": "Regular Session", "dayType": "SESSION", "pages": [5800, 5800], "committees": [],
+        "speakers": 2, "billsDebated": 1, "plainText": False, "corrected": None,
+    }]
+
+
+def test_debated_segments_carry_a_short_excerpt_of_the_debate(tmp_path):
+    out, _ = build_two_bills(tmp_path)
+    laid_aside, passed = read_json(out / "transcripts" / "2025-06-10-regular-session.json")["segments"]
+    assert laid_aside["excerpt"] == []
+    assert len(passed["excerpt"]) == 1
+    first = passed["excerpt"][0]
+    assert (first["label"], first["senator"]) == ("SENATOR ORTEGA", "marisol-ortega")
+    assert first["text"].startswith("Thank you, Mr. President.") and len(first["text"]) <= 281
+
+
+def test_senator_pages_list_their_most_recent_remarks(tmp_path):
+    out, _ = build_two_bills(tmp_path)
+    kearney = read_json(out / "senators" / "thomas-kearney.json")
+    assert [r["text"] for r in kearney["recent"]] == [
+        "I move that the Senate stand adjourned until tomorrow at eleven.", "Lay it aside."]
+    first = kearney["recent"][0]
+    assert {k: first[k] for k in ("transcript", "date", "kind", "title", "turn", "page", "bills")} == {
+        "transcript": "2025-06-10-regular-session", "date": "2025-06-10", "kind": "floor",
+        "title": "Regular Session", "turn": 7, "page": 5800, "bills": []}
+
+
 def test_bills_file_lists_every_mentioned_bill_and_sponsors_get_their_bills(tmp_path):
     out, _ = build_two_bills(tmp_path)
     bills = {b["basePrintNo"]: b for b in read_json(out / "bills" / "2025.json")["bills"]}
     assert sorted(bills) == ["S100", "S200", "S999"]
-    assert bills["S999"]["segments"] == [] and bills["S999"]["mentionedIn"] == ["2025-06-10-regular-session"]
+    assert bills["S999"]["segments"] == []
+    assert bills["S999"]["mentionedIn"] == [{"transcript": "2025-06-10-regular-session", "kind": "floor",
+                                             "date": "2025-06-10", "title": "Regular Session", "page": 5800}]
     brennan_bills = read_json(out / "senators" / "paul-brennan.json")["bills"]
     assert {"session": 2025, "basePrintNo": "S100", "printNo": "S100", "remarks": 0, "sponsor": True} in brennan_bills
 

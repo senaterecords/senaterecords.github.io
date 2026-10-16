@@ -1,6 +1,7 @@
 """Build the site data contract (data/site/) from the raw store. See spec section 7."""
 from __future__ import annotations
 
+import heapq
 import re
 import shutil
 from collections import Counter, defaultdict
@@ -21,6 +22,17 @@ from .speakers import ROLE_ASSEMBLY, ROLE_CHAIR, ROLE_PRESIDING, ROLE_RECORD, RO
 from .store import Store, is_real_photo, read_json, slugify, write_json
 
 FALLBACK_COVERAGE = 0.8
+RECENT_REMARKS = 20   # newest remarks kept on each senator page
+EXCERPT_TURNS = 3     # debate remarks quoted on a bill page
+
+
+def _clip(text: str, limit: int) -> str:
+    """One line of at most limit characters, cut at a word, with an ellipsis when cut."""
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    cut = text.rfind(" ", 0, limit)
+    return text[: cut if cut > limit // 2 else limit].rstrip(" ,;:") + "…"
 MATCH_ROLES = (ROLE_SENATOR, ROLE_PRESIDING, ROLE_CHAIR)
 _WORD = re.compile(r"[^\W\d_]{4,}")  # letters only, accents included (sepúlveda)
 
@@ -102,6 +114,8 @@ def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, An
         "remarks": len(speaking),
         "speakers": dict(speakers.most_common()),
         "pages": [min(pages), max(pages)] if pages else None,
+        "excerpt": [{"label": t["label"], "senator": t["senator"], "text": _clip(t["text"], 280)}
+                    for t in speaking[:EXCERPT_TURNS]],
     }
 
 
@@ -296,6 +310,18 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
     report = Report()
     appearances: dict[str, list[dict[str, Any]]] = defaultdict(list)
     assembly_seen: set[str] = set()
+    summaries: list[dict[str, Any]] = []
+    recent: dict[str, list[tuple[tuple[str, str, int], dict[str, Any]]]] = defaultdict(list)
+    mention_seen: dict[tuple[int, str], set[str]] = defaultdict(set)
+
+    def mention(entry: dict[str, Any], doc: dict[str, Any], slug: str, kind: str, page: int | None) -> None:
+        seen = mention_seen[(entry["session"], entry["basePrintNo"])]
+        if slug in seen:
+            return
+        seen.add(slug)
+        entry["mentionedIn"].append({"transcript": slug, "kind": kind, "date": doc["date"],
+                                     "title": doc["title"] or doc["sessionType"], "page": page})
+
     debated_bills: dict[str, Counter] = defaultdict(Counter)
     bills: dict[int, dict[str, dict[str, Any]]] = defaultdict(dict)
     words: Counter = Counter()
@@ -320,6 +346,14 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         report.floor += kind == "floor"
         report.hearings += kind == "hearing"
         report.per_year[int(doc["date"][:4])] += 1
+        summaries.append({
+            "slug": slug, "kind": kind, "date": doc["date"], "title": doc["title"], "sessionType": doc["sessionType"],
+            "dayType": doc["dayType"], "pages": doc["pages"], "committees": doc["committees"],
+            "speakers": len({t["senator"] for t in doc["turns"]
+                             if t["senator"] and t["role"] in (ROLE_SENATOR, ROLE_CHAIR)}),
+            "billsDebated": sum(1 for s in doc["segments"] if s["debated"]),
+            "plainText": doc["plainText"], "corrected": doc["corrected"],
+        })
         report.chars_total += total
         # A plain-text fallback publishes no speaker attribution, so it adds nothing here.
         report.chars_attributed += 0 if doc["plainText"] else round(total * min(doc["coverage"], 1.0))
@@ -339,14 +373,22 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             if t["senator"]:
                 (presided if t["role"] == ROLE_PRESIDING else spoke)[t["senator"]] += 1
                 first.setdefault(t["senator"], t)
+                if t["role"] in (ROLE_SENATOR, ROLE_CHAIR):
+                    key = (doc["date"], slug, t["i"])
+                    item = {"transcript": slug, "date": doc["date"], "kind": kind,
+                            "title": doc["title"] or doc["sessionType"], "turn": t["i"], "page": t["page"],
+                            "text": _clip(t["text"], 400), "bills": t["bills"]}
+                    heap = recent[t["senator"]]
+                    if len(heap) < RECENT_REMARKS:
+                        heapq.heappush(heap, (key, item))
+                    elif key > heap[0][0]:
+                        heapq.heapreplace(heap, (key, item))
             for printed in t["bills"]:
                 base = base_print_no(printed)
                 if session >= BILL_DATA_START:
                     report.bill_mentions += 1
                     report.bill_mentions_linked += store.bill_path(session, base).exists()
-                entry = _bill_entry(bills, session, base)
-                if slug not in entry["mentionedIn"]:
-                    entry["mentionedIn"].append(slug)
+                mention(_bill_entry(bills, session, base), doc, slug, kind, t["page"])
             words.update(_WORD.findall(t["text"].lower()))
         for senator in first:
             appearances[senator].append({
@@ -365,11 +407,11 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             base = base_print_no(seg["printNo"])
             entry = _bill_entry(bills, session, base)
             entry["segments"].append({"transcript": slug, "date": doc["date"], **seg})
-            if slug not in entry["mentionedIn"]:
-                entry["mentionedIn"].append(slug)
+            mention(entry, doc, slug, kind, seg["pages"][0] if seg["pages"] else None)
             for senator, count in seg["speakers"].items():
                 debated_bills[senator][(session, base, seg["printNo"])] += count
 
+    write_json(out / "transcripts.json", sorted(summaries, key=lambda s: (s["date"], s["slug"]), reverse=True))
     sponsored: dict[str, set[tuple[int, str, str]]] = defaultdict(set)
     for session, entries in bills.items():
         for base, entry in entries.items():
@@ -399,6 +441,7 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             "service": service, "sessions": sessions,
             "totals": {"remarks": remarks, "presiding": presiding, "transcripts": len(apps)},
             "appearances": apps, "bills": _bill_rows(debated_bills[senator.slug], own),
+            "recent": [item for _, item in sorted(recent.get(senator.slug, []), key=lambda pair: pair[0], reverse=True)],
         })
     write_json(out / "senators.json", index)
 
