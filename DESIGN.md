@@ -317,17 +317,18 @@ Restrained and green-led.
 
 ### Tables and lists
 - Ruled rows on white panes with fixed leading columns (bills table 96 / fluid / 170 / 150 / 84; remark rows 112 / fluid / 158 with a ruled citation column). Under 720px every table restacks into two-line ruled rows: identifier and status on the first line, title spanning beneath, meta last. They stay ruled rows, not boxed cards.
-- Rows open their main link from anywhere in the row (not while text is being selected, not on a control in the row): a pointer cursor, the main link underlines on hover, and result rows tint `#FAFBFA`. The link stays the keyboard target.
+- Rows open their main link from anywhere in the row (not while text is being selected, not on a control in the row): a pointer cursor, a soft `rgba(22,27,34,.045)` tint with 6px corners reaching 10px past the text (devices that hover), and the main link underlines. Result rows tint `#FAFBFA`. Rules between list rows are `rule2`. The link stays the keyboard target.
+- Year lists hide pro forma legislative days behind the summary's own words: "343 legislative days hidden · Show" (green 600 action), "· Hide" once shown; month counts follow what is shown.
 - In narrow lists (the senator side panel, phones) a bill's status pennant sits under its title so the title keeps the width; the wide bills list keeps a status column on desktop.
 
 ### The reader (signature)
 - **Turns:** Charis 17px/1.62 in `#1D232B`, paragraphs 12px apart.
 - **Speaker labels:** inline before the first words, uppercase Archivo 700 12.5px with 0.06em tracking, then a 14px gap. Senators (and chairs and Assembly members with a card) are ink with a `#B4BAC1` underline at 3px offset; hover or the selected speaker turns the underline ink, 2px when selected. Procedural voices (Presiding Officer, Secretary) are `ink2` and not underlined; those with a card still open it on click.
 - **Gutter page number:** the turn's starting page, 12px `ink3` tabular, right-aligned in the 96px gutter. On phones it moves above the turn as "p. N" at 11.5px.
-- **Page breaks:** between paragraphs, "p. N" in 750 12.5px ink tabular, right-aligned in the gutter, followed by a 1px dashed `rule` line across the text column. A page that begins mid-sentence keeps the sentence one paragraph: the same "p. N" sits in the gutter beside that line and a 1.5px `#9AA1AA` mark shows the place in the text; on phones it is an inline 11.5px `ink3` "p. N" after a 1.5px rule.
-- **Speaker strip:** when a long remark's label has scrolled under the bar, a strip just under it names the speaker (uppercase Archivo 700 12px, then "continued" 12.5px `ink3`, a `rule2` line below). It floats over the text, so showing it never moves the transcript.
+- **Page breaks:** "p. N" in 750 12.5px ink tabular, right-aligned in the 96px gutter beside the first line of the new page, with nothing drawn across the text (a rule read as a break in the speech). A page that begins mid-sentence keeps the sentence one paragraph. On phones, with no gutter, "p. N" is 11.5px `ink3`: a small line above a paragraph, or inline where a page begins mid-sentence.
+- **Speaker strip:** when a long remark's label has scrolled under the bar, a strip just under it names the speaker (uppercase Archivo 700 12px, then "continued" 12.5px `ink3`, a `rule2` line below). It floats over the text, so showing it never moves the transcript. The name in it opens the speaker's card, as the label does.
 - **Bill headers:** at each calendar reading, a `#FBFBFA` note box (1px `rule`, 6px, 68ch) with "No. {cal} · {print no.}" in Archivo 750 13.5px and the bill title in Charis 15px.
-- **Calendar rail:** rows of calendar number (34px, `ink3`), bill number as a green 650 link with a 12px status line, and a remark count; the current reading is a white row with a 1px rule ring.
+- **Calendar rail:** each row is one link to its reading in the text: calendar number (34px, `ink3`), bill number in green 650 with a 12px status line, and a remark count; a 14px document icon at the row's end opens the bill page. Rows tint on hover; the current reading is a white row with a 1px rule ring.
 - **Headnote rail:** green bill-number link 750 15px, bill title 700 17px, an 82px-label definition list at 13px, remark position, and J/K key hints.
 
 ### Markup contract (search and islands depend on it)

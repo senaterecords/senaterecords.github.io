@@ -47,10 +47,14 @@ import Base from "../layouts/Base.astro";
   .fg-row:hover .fg-name { text-decoration: underline; text-underline-offset: 2px; }
   .fg-row .fg-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .fg-row .box { width: 15px; height: 15px; border: 1.5px solid #9AA1AA; border-radius: 3px; background: #fff; display: grid; place-items: center; flex: none; color: #fff; }
+  .fg-all { margin: 4px 0 0 25px; padding: 2px 0; border: 0; background: none; font: 600 13px var(--font-ui); color: var(--color-act); cursor: pointer; }
+  .fg-all:hover { text-decoration: underline; text-underline-offset: 2px; }
   .fg-row .box.on { background: var(--color-act); border-color: var(--color-act); }
   .fg-row b { margin-left: auto; font-weight: 500; color: var(--color-ink3); font-size: 12.5px; }
   .sr-list { background: var(--color-pane); min-width: 0; }
   .sr-none { padding: 24px 22px; font-size: 15px; color: var(--color-ink2); }
+  .sr-wide { max-width: 1280px; margin: 0 auto; padding: 10px 24px; font-size: 13.5px; color: var(--color-ink2); background: var(--color-act-wash); border-bottom: 1px solid var(--color-rule); }
+  .sr-wide .link { font: 600 13.5px var(--font-ui); color: var(--color-act); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
   .sr-none p + p { margin-top: 8px; }
   .sr-more { margin: 16px 22px 24px; }
   .hearing-t { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; }

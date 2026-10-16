@@ -6,7 +6,7 @@ import { jsonCache } from "../lib/fetch";
 import { legalCite, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { fold, resolveSpeaker, type Person } from "../lib/names";
 import {
-  excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
+  excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
   type Branch, type ParsedQuery, type Remark,
 } from "../lib/query";
 import { passageParam } from "../lib/passage";
@@ -27,12 +27,13 @@ interface Row { key: string; remark: Remark; branch: Branch; pages: Pages; meta:
 type Status = "loading" | "failed" | "which" | "nomatch" | "ready";
 type Phase = "searching" | "reading" | null;
 
-/** The rows a page contributes: its remarks that match a branch, in reading order. */
-function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string | null }): Row[] {
+/** The rows a page contributes: its remarks that match a branch (in one remark, or across the transcript), in order. */
+function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string | null; wide: boolean }): Row[] {
   const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
   const rows: Row[] = [];
   for (const remark of remarksOf(page).map(spokenText)) {
-    const branch = plan.parsed.branches.find((b) => keepRemark(remark, b, plan.parsed.not, plan.speaker));
+    const match = plan.wide ? mentionsAny : keepRemark;
+    const branch = plan.parsed.branches.find((b) => match(remark, b, plan.parsed.not, plan.speaker));
     if (!branch) continue;
     // The link also names the passage the row shows, so the transcript lands on it and highlights it for a moment.
     const href = remark.url.replace("#", `?hl=${encodeURIComponent(passageParam(excerptText(remark, branch)))}#`);
@@ -60,11 +61,11 @@ const SKELETON = (
 const readUrl = () => {
   const p = new URLSearchParams(location.search);
   const sort = p.get("sort");
-  return { q: p.get("q") ?? "", sort: sort === "newest" || sort === "oldest" ? sort : "relevance" } as const;
+  return { q: p.get("q") ?? "", sort: sort === "newest" || sort === "oldest" ? sort : "relevance", wide: p.get("in") === "transcript" } as const;
 };
 
 function SearchApp() {
-  const [{ q, sort }, setState] = useState(readUrl);
+  const [{ q, sort, wide }, setState] = useState(readUrl);
   const [status, setStatus] = useState<Status>("loading");
   const [which, setWhich] = useState<Person[]>([]);
   const [rows, setRows] = useState<Row[]>([]);
@@ -80,20 +81,24 @@ function SearchApp() {
   const [target, setTarget] = useState(0);
   const [shown, setShown] = useState(SHOW);
   const [more, setMore] = useState(false);
+  const [allYears, setAllYears] = useState(false);
   const queue = useRef<PagefindResult[]>([]);
-  const plan = useRef<{ parsed: ParsedQuery; speaker: string | null } | null>(null);
+  const plan = useRef<{ parsed: ParsedQuery; speaker: string | null; wide: boolean } | null>(null);
   const runId = useRef(0);
   const sheet = useRef<HTMLDivElement>(null);
 
-  const go = useCallback((next: { q?: string; sort?: string }) => {
+  const go = useCallback((next: { q?: string; sort?: string; wide?: boolean }) => {
     const params = new URLSearchParams();
     const nq = next.q ?? q;
     const ns = next.sort ?? sort;
+    // A new search goes back to matching within one remark unless it asks to reach across the transcript.
+    const nw = next.wide ?? (next.q === undefined ? wide : false);
     if (nq) params.set("q", nq);
     if (ns !== "relevance") params.set("sort", ns);
+    if (nw) params.set("in", "transcript");
     history.pushState(null, "", `${location.pathname}?${params}`);
     setState(readUrl());
-  }, [q, sort]);
+  }, [q, sort, wide]);
 
   // The phone filters sheet takes the focus when it opens, and Esc closes it.
   useEffect(() => {
@@ -192,8 +197,9 @@ function SearchApp() {
       setPhase("reading");
       const seen = new Set<string>();
       queue.current = searches.flatMap((s) => s.results).filter((r) => (seen.has(r.id) ? false : (seen.add(r.id), true)));
-      plan.current = { parsed, speaker };
-      setTotal(queue.current.length);
+      plan.current = { parsed, speaker, wide };
+      const matched = queue.current.length;
+      setTotal(matched);
       setFacets(searches[0]?.filters ?? {});
       let kept = 0;
       let batches = 0;
@@ -208,8 +214,11 @@ function SearchApp() {
       setElapsed(performance.now() - started);
       setPhase(null);
       setStatus("ready");
+      // No single remark has every term, but whole transcripts do: offer those instead of a spelling guess.
+      const terms = parsed.branches.some((b) => b.phrases.length + b.words.length + b.near.length > 1);
+      if (!kept && !queue.current.length && !wide && terms && matched > 0) return;
       if (!kept && !queue.current.length) {
-        const words = parsed.branches.flatMap((b) => b.words).filter((w) => /^[a-z]{3,}$/i.test(w));
+        const words = parsed.branches.flatMap((b) => b.words).filter((w) => /^[a-z]{4,}$/i.test(w));
         let changed = false;
         const fixed = await Promise.all(words.map(async (w) => {
           try {
@@ -226,7 +235,7 @@ function SearchApp() {
         }
       }
     })();
-  }, [q, sort, loadMore]);
+  }, [q, sort, wide, loadMore]);
 
   const personBySlug = new Map(people.map((p) => [p.slug, p]));
   const remarkCount = rows.length;
@@ -271,9 +280,15 @@ function SearchApp() {
     download("search-results.md", lines.join("\n"), "text/markdown");
   };
 
-  const facetList = (title: string, key: string, render: (value: string) => string, shortcut: (value: string) => string, keep = (_value: string) => true) => {
-    const entries = Object.entries(facets[key] ?? {}).filter(([value, n]) => n > 0 && keep(value)).sort((a, b) => b[1] - a[1]).slice(0, 10);
-    if (!entries.length) return null;
+  // Most facets list the values with the most results first (top 10); years read in time order, newest first, with the
+  // rest of them a click away.
+  const facetList = (title: string, key: string, render: (value: string) => string, shortcut: (value: string) => string,
+    { keep = (_value: string): boolean => true, byYear = false }: { keep?: (value: string) => boolean; byYear?: boolean } = {}) => {
+    const all = Object.entries(facets[key] ?? {}).filter(([value, n]) => n > 0 && keep(value))
+      .sort(byYear ? (a, b) => Number(b[0]) - Number(a[0]) : (a, b) => b[1] - a[1]);
+    if (!all.length) return null;
+    const open = byYear && allYears;
+    const entries = byYear ? (open ? all : all.slice(0, 8)) : all.slice(0, 10);
     return (
       <div className="fg">
         <h3>{title}</h3>
@@ -286,6 +301,9 @@ function SearchApp() {
             </button>
           );
         })}
+        {byYear && all.length > 8 && (
+          <button type="button" className="fg-all" onClick={() => setAllYears((v) => !v)}>{open ? "Fewer years" : `All ${all.length} years`}</button>
+        )}
       </div>
     );
   };
@@ -293,9 +311,9 @@ function SearchApp() {
   const facetPanel = (
     <>
       {facetList("Record", "type", (v) => (v === "floor" ? "Floor sessions" : "Public hearings"), (v) => `type:${v}`)}
-      {facetList("Year", "year", (v) => v, (v) => `year:${v}`)}
+      {facetList("Year", "year", (v) => v, (v) => `year:${v}`, { byYear: true })}
       {facetList("Speaker", "senator", (v) => personBySlug.get(v)?.name ?? v, (v) => `speaker:${v}`)}
-      {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, (v) => /^[SA]\d+$/.test(v))}
+      {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, { keep: (v) => /^[SA]\d+$/.test(v) })}
       {facetList("Committee", "committee", (v) => v, (v) => `committee:${quote(v)}`)}
     </>
   );
@@ -322,6 +340,9 @@ function SearchApp() {
 
       {(status === "ready" || status === "loading") && q.trim() !== "" && (
         <>
+          {wide && (
+            <p className="sr-wide">Showing remarks with any of these terms, from transcripts that have all of them in any remark of the same transcript · <button type="button" className="link" onClick={() => go({ wide: false })}>Match within one remark</button></p>
+          )}
           <div className="sr-head">
             {status === "loading" && !rows.length
               ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
@@ -365,7 +386,13 @@ function SearchApp() {
               {status === "ready" && !rows.length && queue.current.length > 0 && (
                 <div className="sr-none"><p>No matching remarks in the first {loaded.toLocaleString("en-US")} transcripts.</p></div>
               )}
-              {status === "ready" && !rows.length && !queue.current.length && (
+              {status === "ready" && !rows.length && !queue.current.length && !wide && total > 0
+                && parseQuery(q).branches.some((b) => b.phrases.length + b.words.length + b.near.length > 1) ? (
+                <div className="sr-none">
+                  <p>No single remark has all of these. {total.toLocaleString("en-US")} {total === 1 ? "transcript has" : "transcripts have"} them in different remarks.</p>
+                  <p><button type="button" className="btn" onClick={() => go({ wide: true })}>Show matches across a whole transcript</button></p>
+                </div>
+              ) : status === "ready" && !rows.length && !queue.current.length && (
                 <div className="sr-none">
                   <p>No remarks match.</p>
                   {suggestion && <p><a className="link" href={`${location.pathname}?q=${encodeURIComponent(suggestion)}`}>Did you mean: {suggestion}?</a></p>}

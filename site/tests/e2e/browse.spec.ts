@@ -19,9 +19,14 @@ test("legislative days stay out of a year's list until asked for, and the choice
   await page.goto("browse/2023/");
   const day = page.locator("ul.tr li.ld").first();
   await expect(day).toBeHidden();
-  await expect(page.locator(".pg-meta")).toContainText("1 legislative day");
-  await page.getByLabel("Show 1 legislative day").check();
+  // The switch sits in the year's summary, where the count already is.
+  const meta = page.locator(".pg-meta");
+  await expect(meta).toContainText("1 legislative day hidden · Show", { useInnerText: true });
+  await meta.getByText("Show", { exact: true }).click();
+  await expect(meta).toContainText("1 legislative day · Hide", { useInnerText: true });
   await expect(day).toBeVisible();
+  // A month's count is what it shows.
+  await expect(page.locator(".mg", { has: day }).locator(".sec-h2 span")).toHaveText("1 transcript");
   await page.reload();
   await expect(day).toBeVisible();
 });

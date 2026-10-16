@@ -25,13 +25,17 @@
 .rd-cal .rail-in { padding: 18px 16px 24px; }
 .rd-cal h2 { font-size: 13px; font-weight: 700; margin: 0 0 8px 4px; }
 .rd-cal .rail-h2b { margin-top: 18px; }
-.rd-cal li { display: grid; grid-template-columns: 34px 1fr auto; gap: 8px; padding: 7px 6px; border-radius: 5px; font-size: 13px; align-items: baseline; }
+.rd-cal li { display: grid; grid-template-columns: minmax(0, 1fr) 22px; align-items: center; border-radius: 5px; font-size: 13px; }
+.rd-cal .go { display: grid; grid-template-columns: 34px 1fr auto; gap: 8px; padding: 7px 0 7px 6px; align-items: baseline; border-radius: 5px; min-width: 0; }
+.rd-cal li:hover { background: rgba(22, 27, 34, .045); }
+.rd-cal .go:hover .p .num { text-decoration: underline; text-underline-offset: 2px; }
+.rd-cal .bp { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 4px; color: var(--color-ink3); }
+.rd-cal .bp:hover, .rd-cal .bp:focus-visible { color: var(--color-act); background: #fff; }
 .rd-cal li.cur { background: #fff; box-shadow: 0 0 0 1px var(--color-rule), 0 1px 2px rgba(22, 27, 34, .06); }
 .rd-cal .n { color: var(--color-ink3); }
-.rd-cal .n:hover { color: var(--color-act); text-decoration: underline; text-underline-offset: 2px; }
+
 .rd-cal .p { font-weight: 650; min-width: 0; }
-.rd-cal .p a { color: var(--color-act); }
-.rd-cal .p a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.rd-cal .p .num { color: var(--color-act); }
 .rd-cal .p small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12px; }
 .rd-cal .nobill { font-weight: 500; color: var(--color-ink2); }
 .rd-cal .c { color: var(--color-ink3); font-size: 12.5px; }
@@ -68,15 +72,18 @@
 .turn > h3.sen:hover, .turn > h3.on { text-decoration-color: var(--color-ink); }
 .turn > h3.on { text-decoration-line: underline; text-decoration-thickness: 2px; }
 .turn .g { position: absolute; left: 0; top: 5px; width: 96px; padding-right: 16px; text-align: right; font: 12px/1.4 var(--font-ui); color: var(--color-ink3); font-variant-numeric: tabular-nums; }
-.pb { display: grid; grid-template-columns: 96px 1fr; align-items: center; margin: 4px 0 12px -96px; }
+/* Page numbers sit in the gutter, never as a rule across the text, which read as a break in the speech. A page that
+   begins with a new paragraph shows its number beside that paragraph's first line. */
 .pb b { font: 750 12.5px var(--font-ui); text-align: right; padding-right: 16px; font-variant-numeric: tabular-nums; color: var(--color-ink); white-space: nowrap; }
-.pb i { height: 1px; background: repeating-linear-gradient(90deg, var(--color-rule) 0 6px, transparent 6px 10px); }
-.turn > h3 + p + .pb { margin-top: 12px; }
-/* A page that begins mid-sentence: the number sits in the margin beside that line and a short mark shows the place
-   in the text, so the sentence stays one paragraph. */
+.turn > .pb { display: block; height: 0; margin: 0; }
+.turn > .pb b { position: absolute; left: 0; width: 96px; margin-top: 12px; line-height: calc(17px * 1.62); }
+.turn > .pb i { display: none; }
+.turn > .pb + p { margin-top: 12px; }
+/* A page that begins mid-sentence: the number sits in the margin beside that line (inline on phones), so the sentence
+   stays one paragraph. */
 p > .pb { display: inline; margin: 0; }
 p > .pb b { position: absolute; left: 0; width: 96px; line-height: calc(17px * 1.62); }
-p > .pb i { display: inline-block; width: 0; height: 1.05em; margin: 0 6px 0 4px; vertical-align: -3px; background: none; border-left: 1.5px solid #9AA1AA; }
+p > .pb i { display: none; }
 .turn[hidden] { display: none; }
 :target { scroll-margin-top: 76px; }
 
@@ -106,11 +113,11 @@ p > .pb i { display: inline-block; width: 0; height: 1.05em; margin: 0 6px 0 4px
   .turn { padding: 0 18px 12px; }
   .turn .g { position: static; display: block; width: auto; padding: 0; text-align: left; font-size: 11.5px; margin-bottom: 4px; }
   .turn .g::before { content: "p. "; }
-  .pb { grid-template-columns: auto 1fr; gap: 10px; margin: 4px 0 12px; }
-  .pb b { padding: 0; font-size: 12px; }
+  .turn > .pb { height: auto; margin: 12px 0 2px; }
+  .turn > .pb b { position: static; display: block; width: auto; margin: 0; padding: 0; text-align: left; font-size: 11.5px; line-height: 1.4; color: var(--color-ink3); }
+  .turn > .pb + p { margin-top: 0; }
   p > .pb { margin: 0; }
-  p > .pb b { position: static; width: auto; margin: 0 2px 0 3px; padding-left: 6px; border-left: 1.5px solid #9AA1AA; font-size: 11.5px; color: var(--color-ink3); line-height: inherit; }
-  p > .pb i { display: none; }
+  p > .pb b { position: static; width: auto; margin: 0 2px; padding: 0; font-size: 11.5px; color: var(--color-ink3); line-height: inherit; }
 }
 
 @media print {
@@ -144,6 +151,8 @@ p > .pb i { display: inline-block; width: 0; height: 1.05em; margin: 0 6px 0 4px
 #reader-notices:has(> :not(.rd-who)) { background: var(--color-pane); padding-top: 10px; }
 /* The speaker strip floats just under the notices, over the text, so showing it never moves the transcript. */
 .rd-who { position: absolute; top: 100%; left: 0; right: 0; margin: 0 48px 0 96px; font: 17px var(--font-read); max-width: 68ch; padding: 7px 0 8px; background: var(--color-pane); border-bottom: 1px solid var(--color-rule2); display: flex; gap: 8px; align-items: baseline; }
+.rd-who-name { border: 0; background: none; padding: 0; cursor: pointer; text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
+.rd-who-name:hover { text-decoration-color: var(--color-ink); }
 .rd-who b { font: 700 12px/1.2 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink); }
 .rd-who span { font: 12.5px var(--font-ui); color: var(--color-ink3); }
 .only-bar { margin: 0 48px 14px 96px; padding: 9px 14px; background: var(--color-act-wash); border-radius: 6px; font-size: 13.5px; color: var(--color-ink); max-width: 68ch; }
@@ -215,5 +224,6 @@ a.hn-bill:hover { text-decoration: underline; text-underline-offset: 2px; }
   .sheet-cal .p { font-weight: 650; }
   .sheet-cal .p small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; font-family: var(--font-read); }
 }
-@media print { .remarkbar, .billbar, #reader-notices { display: none !important; } }
+/* Printing or saving as PDF keeps the transcript only: no bars, pop-ups, sheets or highlights. */
+@media print { .remarkbar, .billbar, #reader-notices, .cite-pop, .cite-sheet, .scard, .sheet, .sheet-dim, .flash-layer, .xm-menu { display: none !important; } }
 @media (max-width: 719.98px) { #reader-notices { top: 52px; } }

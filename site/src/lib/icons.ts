@@ -10,6 +10,7 @@ export const ICONS = {
   dl: ["0 0 24 24", '<path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'],
   chev: ["0 0 24 24", '<path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'],
   chevl: ["0 0 24 24", '<path d="m15 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'],
+  doc: ["0 0 24 24", '<path d="M7 3h7l4 4v14H7zM14 3v4h4M10 12h5M10 16h5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>'],
   ext: ["0 0 24 24", '<path d="M14 5h5v5M19 5l-8 8M17 14v5H5V7h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'],
   person: ["0 0 34 42", '<circle cx="17" cy="15" r="8" fill="currentColor"/><path d="M2 42c0-9 6.7-15 15-15s15 6 15 15z" fill="currentColor"/>'],
   menu: ["0 0 24 24", '<path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'],

@@ -19,7 +19,7 @@ const TRY: [string, string][] = [
 const WORDS: [string, ReactNode][] = [
   ["tolls fares", "both words"],
   ['"toll revenue"', "this exact phrase"],
-  ['"tolls" "fares"', "both phrases, one remark"],
+  ['"rent stabilization" "tenant protection"', "both exact phrases"],
   ["tolls OR fares", "either word"],
   ["tolls NOT bridge", <>leave out bridge (or <b>-bridge</b>)</>],
   ["tolls NEAR fares", "within a few words"],

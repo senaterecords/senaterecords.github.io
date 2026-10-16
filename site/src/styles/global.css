@@ -170,7 +170,7 @@
   .sec-hd h2 { font-size: 15px; font-weight: 700; }
   .sec-hd span { font-size: 13px; color: var(--color-ink3); }
   /* A bill's status sits under its title, so the title keeps the width; the wide list has room for a status column. */
-  .bl li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 2px 10px; padding: 9px 0; border-bottom: 1px solid var(--color-rule); align-items: baseline; }
+  .bl li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 2px 10px; padding: 9px 0; border-bottom: 1px solid var(--color-rule2); align-items: baseline; }
   .bl li > .status { grid-column: 2; margin-top: 3px; }
   @media (min-width: 720px) {
     .bl-wide li { grid-template-columns: 70px minmax(0, 1fr) auto; }
@@ -191,6 +191,13 @@
   :is(.hm-list > li, ul.tr > li, .yi li, .bi li, .ap > li, .bl > li, .sn-row, #bill-rows > li, .er, .rrow, .spk-row):has(a[href]) { cursor: pointer; }
   :is(.hm-list > li:hover .t a, ul.tr > li:hover .t a, .yi li:hover a, .bi li:hover a, .ap > li:hover a.t, .bl > li:hover a, .sn-row:hover a, #bill-rows > li:hover a.b, .er:hover a, .spk-row:hover a, .rrow:hover a.ctx) { text-decoration: underline; text-underline-offset: 2px; }
   .rrow:has(a.ctx):hover { background: #FAFBFA; }
+  @media (hover: hover) {
+    :is(.hm-list > li, ul.tr > li, .yi li, .bi li, .ap > li, .bl > li, .sn-row, #bill-rows > li, .er):has(a[href]) { position: relative; isolation: isolate; }
+    :is(.hm-list > li, ul.tr > li, .yi li, .bi li, .ap > li, .bl > li, .sn-row, #bill-rows > li, .er):has(a[href])::before {
+      content: ""; position: absolute; inset: 0 -10px; z-index: -1; border-radius: 6px; background: transparent; transition: background-color .12s;
+    }
+    :is(.hm-list > li, ul.tr > li, .yi li, .bi li, .ap > li, .bl > li, .sn-row, #bill-rows > li, .er):has(a[href]):hover::before { background: rgba(22, 27, 34, .045); }
+  }
   .rrow { display: grid; grid-template-columns: 112px minmax(0, 1fr) 158px; gap: 18px; padding: 16px 22px 16px 20px; border-bottom: 1px solid var(--color-rule2); }
   .rrow .c-date b { display: block; font-weight: 650; font-size: 13.5px; font-variant-numeric: tabular-nums; }
   .rrow .c-date a:hover b { text-decoration: underline; text-underline-offset: 2px; }

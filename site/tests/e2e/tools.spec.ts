@@ -85,3 +85,17 @@ test("the phone calendar sheet takes the focus", async ({ page }, info) => {
   await bar.tap();
   await expect(page.getByRole("dialog", { name: "On the calendar" })).toBeFocused();
 });
+
+test("printing or saving as PDF leaves out the reader's pop-ups", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto(SESSION);
+  await page.locator("h3.sp.sen").first().click();
+  await expect(page.locator(".scard")).toBeVisible();
+  await selectInFirstSenatorRemark(page);
+  const cite = page.getByRole("dialog", { name: "Cite this passage" });
+  await expect(cite).toBeVisible();
+  await page.emulateMedia({ media: "print" });
+  await expect(cite).toBeHidden();
+  await expect(page.locator(".scard")).toBeHidden();
+  await expect(page.locator("section.turn p").first()).toBeVisible();
+});

@@ -35,13 +35,13 @@ function Cards() {
     setPos({ top: r.bottom + window.scrollY + 8, left: Math.max(16, Math.min(r.left + window.scrollX - 8, window.scrollX + window.innerWidth - width - 16)) });
   }, []);
 
-  const show = useCallback((label: HTMLElement, pinned: boolean) => {
+  const show = useCallback((label: HTMLElement, pinned: boolean, anchor: HTMLElement = label) => {
     window.clearTimeout(openTimer.current);
     window.clearTimeout(closeTimer.current);
     const key = keyOfLabel(label);
     if (!key || !speakers[key]) return;
     const turn = indexOfTurn(label.closest("section.turn")!);
-    place(label);
+    place(anchor);
     setOpen({ key, turn, label, pinned });
   }, [place, speakers]);
 
@@ -88,6 +88,7 @@ function Cards() {
       }
     };
     const click = (e: MouseEvent) => {
+      if ((e.target as Element).closest?.(".rd-who-name")) return; // the speaker strip opens its card itself
       const label = labelFor(e.target);
       if (label) { show(label, true); return; }
       if (openRef.current && !card.current?.contains(e.target as Node)) close();
@@ -96,6 +97,13 @@ function Cards() {
       if (e.key === "Escape" && openRef.current) { const { label } = openRef.current; close(); label.focus({ preventScroll: true }); }
       if (e.key === "Enter" && labelFor(e.target) === e.target) { e.preventDefault(); focusCard.current = true; show(e.target as HTMLElement, true); }
     };
+    // The speaker strip asks for a card at its own place on the screen.
+    const fromStrip = (e: Event) => {
+      const { label, anchor, keyboard } = (e as CustomEvent<{ label: HTMLElement; anchor: HTMLElement; keyboard: boolean }>).detail;
+      focusCard.current = keyboard;
+      show(label, true, anchor);
+    };
+    addEventListener("otr:card", fromStrip);
     // A name clicked before this island started opens now.
     window.__otrCards = true;
     const early = window.__otrEarly?.clicks.pop();
@@ -112,6 +120,7 @@ function Cards() {
       document.removeEventListener("pointerout", out);
       document.removeEventListener("click", click);
       document.removeEventListener("keydown", key);
+      removeEventListener("otr:card", fromStrip);
     };
   }, [show, close]);
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
+import { excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
 
 describe("parseQuery", () => {
   it("reads words, phrases and shortcuts", () => {
@@ -173,5 +173,21 @@ describe("review fixes: remarks", () => {
     const presiding = { ...krueger, label: "Acting President Krueger" };
     expect(keepRemark(presiding, parseQuery("toll").branches[0], [], "liz-krueger")).toBe(false);
     expect(keepRemark(presiding, parseQuery("toll").branches[0], [], null)).toBe(true);
+  });
+});
+
+describe("review fixes: how far a search reaches", () => {
+  it("reads a lowercase and as AND, not as a word to find", () => {
+    expect(parseQuery('"work from home" and "state workers"').branches).toEqual([{ words: [], phrases: ["work from home", "state workers"], near: [] }]);
+  });
+
+  it("across a whole transcript, keeps a remark that holds any of the terms, still honouring NOT and speaker", () => {
+    const [krueger, lanza] = remarksOf(DATA);
+    const b = parseQuery('"toll revenue" fares').branches[0];
+    expect(mentionsAny(krueger, b, [], null)).toBe(true);
+    expect(mentionsAny(lanza, b, [], null)).toBe(true);
+    expect(mentionsAny(lanza, b, ["district"], null)).toBe(false);
+    expect(mentionsAny(krueger, b, [], "andrew-j-lanza")).toBe(false);
+    expect(mentionsAny(krueger, parseQuery("tunnels").branches[0], [], null)).toBe(false);
   });
 });

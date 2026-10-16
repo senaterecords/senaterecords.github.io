@@ -38,3 +38,14 @@ test("a search result opens from anywhere in the row, but selecting its words do
   // The link also names the passage to highlight; the page takes that off its address once it has landed.
   await expect(page).toHaveURL(new RegExp(`${escape(href.replace(/\?hl=[^#]*/, ""))}$`));
 });
+
+test("a list row shows a soft highlight while the pointer is over it, and the rules between rows are light", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("browse/2025/");
+  const row = page.locator("ul.tr li").first();
+  expect(await row.evaluate((el) => getComputedStyle(el).borderBottomColor)).toBe("rgb(233, 235, 237)");
+  const tint = () => row.evaluate((el) => getComputedStyle(el, "::before").backgroundColor);
+  expect(["rgba(0, 0, 0, 0)", "transparent"]).toContain(await tint());
+  await row.hover();
+  expect(["rgba(0, 0, 0, 0)", "transparent"]).not.toContain(await tint());
+});

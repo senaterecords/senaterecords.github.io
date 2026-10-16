@@ -14,7 +14,8 @@ export function editDistance(a: string, b: string): number {
 
 /** null when the word is already known, or nothing is close enough. */
 export function closestWord(word: string, counts: Record<string, number>): string | null {
-  if (counts[word]) return null;
+  // The word lists hold words of four letters or more, so a shorter word would always look misspelled.
+  if (word.length < 4 || counts[word]) return null;
   let best: string | null = null;
   let bestCount = 0;
   let bestDistance = 3;

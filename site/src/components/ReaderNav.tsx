@@ -41,7 +41,7 @@ function ReaderNav() {
   const [currentTurn, setCurrentTurn] = useState<number | null>(null);
   const [missing, setMissing] = useState(false);
   const [calendarOpen, setCalendarOpen] = useState(false);
-  const [who, setWho] = useState<string | null>(null);
+  const [who, setWho] = useState<HTMLElement | null>(null);
   const [, setShown] = useState(0);
   const last = useRef<{ index: number; scrollY: number } | null>(null);
   const sheet = useRef<HTMLDivElement>(null);
@@ -94,7 +94,7 @@ function ReaderNav() {
       const edge = document.getElementById("reader-notices")?.getBoundingClientRect().bottom ?? 58;
       const top = sectionAt(edge + 4);
       const label = top?.querySelector<HTMLElement>(":scope > h3.sp");
-      setWho(top && label && label.getBoundingClientRect().bottom < edge && top.getBoundingClientRect().bottom > edge + 60 ? label.textContent : null);
+      setWho(top && label && label.getBoundingClientRect().bottom < edge && top.getBoundingClientRect().bottom > edge + 60 ? label : null);
       const turn = turnAt(window.innerHeight / 2);
       if (turn == null) return;
       setCurrentTurn(turn);
@@ -182,7 +182,13 @@ function ReaderNav() {
           <div className="keys"><span><kbd>J</kbd>next remark</span><span><kbd>K</kbd>previous</span></div>
         </div>, headnote)}
 
-      {who && notices && createPortal(<p className="rd-who"><b>{who}</b><span>continued</span></p>, notices)}
+      {who && notices && createPortal(
+        <p className="rd-who">
+          {who.classList.contains("k")
+            ? <button type="button" className="rd-who-name" onClick={(e) => dispatchEvent(new CustomEvent("otr:card", { detail: { label: who, anchor: e.currentTarget, keyboard: e.detail === 0 } }))}><b>{who.textContent}</b></button>
+            : <b>{who.textContent}</b>}
+          <span>continued</span>
+        </p>, notices)}
 
       {segment && notices && createPortal(
         <button type="button" className="billbar" onClick={() => setCalendarOpen(true)} aria-label="Show the calendar">

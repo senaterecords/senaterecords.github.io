@@ -13,5 +13,8 @@ describe("did you mean", () => {
     expect(closestWord("budgett", counts)).toBe("budget");
     expect(closestWord("budget", counts)).toBeNull();
     expect(closestWord("zzzz", counts)).toBeNull();
+    // The word lists hold words of four letters or more; shorter words are never "corrected" (and is not andy).
+    expect(closestWord("and", { andy: 201 })).toBeNull();
+    expect(closestWord("the", { thee: 3 })).toBeNull();
   });
 });

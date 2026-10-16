@@ -228,3 +228,25 @@ test("a transcript opened from search offers the way back to the results", async
   await expect(page).toHaveURL(/search\/\?q=%22Campaign/);
   await expect(page.locator("[data-result]").first()).toBeVisible();
 });
+
+test("the year filter lists years newest first, whatever their counts", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=the");
+  const years = page.getByRole("complementary", { name: "Narrow the results" }).locator(".fg", { has: page.getByRole("heading", { name: "Year" }) }).locator(".fg-name");
+  await expect(years.first()).toBeVisible();
+  const list = (await years.allInnerTexts()).map(Number);
+  expect(list.length).toBeGreaterThan(2);
+  expect(list).toEqual([...list].sort((a, b) => b - a));
+});
+
+test("when no single remark has every phrase, the page says so and offers the transcripts that have them", async ({ page }) => {
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22%20and%20%22Head%20Start%22");
+  await expect(page.getByText(/No single remark has all of these/)).toBeVisible();
+  await expect(page.getByText(/Did you mean/)).toHaveCount(0);
+  await page.getByRole("button", { name: /Show matches across a whole transcript/ }).click();
+  await expect(page).toHaveURL(/in=transcript/);
+  const speakers = await page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
+  expect(speakers).toContain("robert-jackson");
+  expect(speakers).toContain("andrea-stewart-cousins");
+  await expect(page.getByText(/in any remark of the same transcript/)).toBeVisible();
+});

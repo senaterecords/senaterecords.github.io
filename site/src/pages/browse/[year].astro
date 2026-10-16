@@ -40,7 +40,9 @@ const pages = (t: TranscriptSummary) =>
       <div class="pg-title">
         <div>
           <h1>{year} transcripts</h1>
-          <p class="pg-meta num">{[plural(floor, "floor session"), plural(hearings, "public hearing"), legislativeDays ? plural(legislativeDays, "legislative day") : ""].filter(Boolean).join(" · ")}</p>
+          <p class="pg-meta num">
+            {plural(floor, "floor session")} · {plural(hearings, "public hearing")}{legislativeDays > 0 && <> · <label class="ld-toggle"><input type="checkbox" id="show-ld" class="visually-hidden" />{plural(legislativeDays, "legislative day")}<span class="ld-off"> hidden · <b>Show</b></span><span class="ld-on"> · <b>Hide</b></span></label></>}
+          </p>
         </div>
         <div class="acts">
           <div class="seg" role="group" aria-label="Show">
@@ -48,9 +50,7 @@ const pages = (t: TranscriptSummary) =>
             <button type="button" data-kind="floor" aria-pressed="false">Floor sessions</button>
             <button type="button" data-kind="hearing" aria-pressed="false">Public hearings</button>
           </div>
-          {legislativeDays > 0 && (
-            <label class="ld-switch"><input type="checkbox" id="show-ld" />Show {plural(legislativeDays, "legislative day")}</label>
-          )}
+
         </div>
       </div>
       <nav class="yrs" aria-label="Years">
@@ -62,7 +62,7 @@ const pages = (t: TranscriptSummary) =>
   <div class="mon">
     {[...months].map(([m, rows]) => (
       <section class="mg">
-        <h2 class="sec-h2">{MONTHS[m - 1]} {year} <span class="num">{plural(rows.length, "transcript")}</span></h2>
+        <h2 class="sec-h2">{MONTHS[m - 1]} {year} <span class="num">{plural(rows.filter((t) => !(legislative(t) && !t.speakers)).length, "transcript")}</span></h2>
         <ul class="tr">
           {rows.map((t) => (
             <li class:list={{ ld: legislative(t) && !t.speakers }} data-kind={t.kind}>
@@ -86,7 +86,10 @@ const pages = (t: TranscriptSummary) =>
   const apply = () => {
     for (const row of document.querySelectorAll<HTMLElement>(".tr li")) row.hidden = kind !== "all" && row.dataset.kind !== kind;
     for (const group of document.querySelectorAll<HTMLElement>(".mg")) {
-      group.hidden = ![...group.querySelectorAll<HTMLElement>(".tr li")].some((row) => !row.hidden && (showLd?.checked || !row.classList.contains("ld")));
+      const shown = [...group.querySelectorAll<HTMLElement>(".tr li")].filter((row) => !row.hidden && (showLd?.checked || !row.classList.contains("ld"))).length;
+      group.hidden = !shown;
+      const count = group.querySelector(".sec-h2 span");
+      if (count) count.textContent = `${shown.toLocaleString("en-US")} ${shown === 1 ? "transcript" : "transcripts"}`;
     }
   };
   for (const button of buttons) {
@@ -115,7 +118,7 @@ const pages = (t: TranscriptSummary) =>
   .mg { padding-top: 18px; }
   .mg[hidden], .tr li[hidden] { display: none; }
   .sec-h2 span { font-weight: 500; color: var(--color-ink3); font-size: 13px; }
-  .tr li { display: grid; grid-template-columns: 120px minmax(0, 1fr) 140px; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--color-rule); font-size: 14px; align-items: baseline; }
+  .tr li { display: grid; grid-template-columns: 120px minmax(0, 1fr) 140px; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--color-rule2); font-size: 14px; align-items: baseline; }
   .tr .d { font-weight: 650; }
   .tr .t a { font-weight: 550; }
   .tr .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
@@ -124,8 +127,16 @@ const pages = (t: TranscriptSummary) =>
   .tr .ld { color: var(--color-ink3); }
   .tr li.ld { display: none; }
   .pg-head:has(#show-ld:checked) ~ .mon .tr li.ld:not([hidden]) { display: grid; }
-  .ld-switch { display: inline-flex; align-items: center; gap: 7px; font-size: 13.5px; font-weight: 550; color: var(--color-ink2); cursor: pointer; white-space: nowrap; }
-  .ld-switch input { width: 15px; height: 15px; accent-color: var(--color-act); margin: 0; }
+  .pg-head:not(:has(#show-ld:checked)) ~ .mon .mg:not(:has(.tr li:not(.ld))) { display: none; }
+  /* "343 legislative days hidden · Show": the switch is the summary's own words; a hidden checkbox keeps it working
+     without JavaScript and from the keyboard. */
+  .ld-toggle { cursor: pointer; white-space: nowrap; border-radius: 3px; }
+  .ld-toggle b { font-weight: 600; color: var(--color-act); }
+  .ld-toggle:hover b { text-decoration: underline; text-underline-offset: 2px; }
+  .ld-toggle:has(input:focus-visible) { outline: 2px solid var(--color-act); outline-offset: 2px; }
+  .ld-on { display: none; }
+  .ld-toggle:has(input:checked) .ld-on { display: inline; }
+  .ld-toggle:has(input:checked) .ld-off { display: none; }
   .tr .ld .t a { font-weight: 450; color: var(--color-ink3); }
   @media (max-width: 719.98px) {
     .yrs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: -16px; padding-right: 16px; }

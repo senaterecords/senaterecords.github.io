@@ -20,9 +20,11 @@ test("Search tips lists every shortcut and closes with Esc", async ({ page }) =>
   await page.goto("./");
   await page.getByRole("button", { name: "Search tips" }).click();
   const tips = page.getByRole("dialog", { name: "Search tips" });
-  for (const example of ["tolls NOT bridge", "tolls NEAR fares", "year:2015-2019", "type:hearing", "committee:Health"]) {
+  for (const example of ["tolls NOT bridge", "tolls NEAR fares", '"rent stabilization" "tenant protection"', "year:2015-2019", "type:hearing", "committee:Health"]) {
     await expect(tips.getByText(example, { exact: true })).toBeVisible();
   }
+  await expect(tips.getByText("both exact phrases", { exact: true })).toBeVisible();
+  await expect(tips.getByText(/one remark/)).toHaveCount(0);
   await tips.getByText("speaker:Krueger", { exact: true }).click();
   await expect(page.getByRole("searchbox")).toHaveValue("speaker:Krueger");
   await page.getByRole("button", { name: "Search tips" }).click();

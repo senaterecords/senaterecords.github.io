@@ -22,7 +22,8 @@ function tokenize(q: string): Token[] {
       if (phrase.trim()) tokens.push({ kind: "phrase", value: phrase.trim().replace(/\s+/g, " "), negated: !!minus });
     } else {
       const text = field ? `${field}:${fieldQuoted ?? fieldBare ?? ""}` : bare!;
-      if (!minus && /^(AND|OR|NOT|NEAR)$/.test(text)) tokens.push({ kind: "op", value: text });
+      // A lowercase "and" means AND (already the default between terms), not a word to find.
+      if (!minus && (/^(AND|OR|NOT|NEAR)$/.test(text) || text === "and")) tokens.push({ kind: "op", value: text.toUpperCase() });
       else if (text) tokens.push({ kind: "word", value: text, negated: !!minus });
     }
   }
@@ -182,6 +183,17 @@ export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: str
     if (!pa.some((i) => pc.some((j) => i !== j && Math.abs(i - j) <= NEAR_WORDS))) return false;
   }
   return !not.some((n) => present(words, n));
+}
+
+/** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
+ * NOT and speaker:. With no terms it is the same as keepRemark. */
+export function mentionsAny(r: Remark, b: Branch, not: string[], speakerSlug: string | null): boolean {
+  const terms = [...b.words, ...b.near.flat()];
+  if (!b.phrases.length && !terms.length) return keepRemark(r, b, not, speakerSlug);
+  if (speakerSlug && (r.speaker !== speakerSlug || PRESIDING.test(r.label))) return false;
+  const words = foldedWords(r.text);
+  if (not.some((n) => present(words, n))) return false;
+  return b.phrases.some((p) => hasPhrase(words, p)) || terms.some((t) => present(words, t));
 }
 
 const escapeHtml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

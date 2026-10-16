@@ -18,13 +18,15 @@ test("a remark link opens at that remark", async ({ page }) => {
   await expect(page.locator("#r-40")).toBeInViewport();
 });
 
-test("the calendar jumps to a bill's reading and links its bill page", async ({ page }, info) => {
+test("a calendar row jumps to its reading, and a separate control opens the bill page", async ({ page }, info) => {
   test.skip(info.project.name === "phone");
   await page.goto("transcripts/2025-03-04-regular-session/");
   const calendar = page.getByRole("complementary", { name: "On the calendar" });
-  await expect(calendar.getByRole("link").first()).toBeVisible();
-  const billLink = calendar.locator('a[href*="/bills/2025/"]').first();
-  await billLink.click();
+  const row = calendar.locator("li", { has: page.getByRole("link", { name: /bill page/ }) }).first();
+  // Clicking the bill number stays in the transcript, at that reading.
+  await row.locator(".p .num").click();
+  await expect(page).toHaveURL(/\/transcripts\/2025-03-04-regular-session\/#[rt]-\d+$/);
+  await row.getByRole("link", { name: /bill page/ }).click();
   await expect(page).toHaveURL(/bills\/2025\/[SA]\d+\//);
 });
 
@@ -77,6 +79,8 @@ test("a page that begins mid-sentence keeps the sentence flowing, with the page 
   await page.goto("transcripts/2025-03-04-regular-session/");
   const marker = page.locator("section.turn p .pb").first();
   await expect(marker).toHaveCSS("display", "inline");
+  // No mark in the text: the number in the margin (inline "p. N" on phones) is the only sign.
+  await expect(marker.locator("i")).toBeHidden();
   if (info.project.name === "desktop") {
     const paragraph = await marker.locator("xpath=ancestor::p[1]").boundingBox();
     const number = await marker.locator("b").boundingBox();
@@ -114,4 +118,17 @@ test("the speaker strip stays steady while scrolling through a long remark", asy
     seen.push(await page.locator(".rd-who").isVisible());
   }
   expect(seen).toEqual(Array(8).fill(true));
+});
+
+test("a page that begins with a new paragraph shows its number in the margin, with no rule across the text", async ({ page }, info) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const marker = page.locator("section.turn > .pb").first();
+  await expect(marker.locator("b")).toBeVisible();
+  await expect(marker.locator("i")).toBeHidden();
+  if (info.project.name === "desktop") {
+    const next = await marker.locator("xpath=following-sibling::p[1]").boundingBox();
+    const number = await marker.locator("b").boundingBox();
+    expect(number!.x + number!.width).toBeLessThanOrEqual(next!.x);
+    expect(Math.abs(number!.y + number!.height / 2 - (next!.y + 14))).toBeLessThan(10);
+  }
 });

@@ -91,3 +91,13 @@ test("screen readers hear that a name opens a card", async ({ page }) => {
   await expect(name).toHaveAttribute("tabindex", "0");
   await expect(name).toHaveAccessibleDescription(/details about this speaker/i);
 });
+
+test("the name in the speaker strip opens the speaker's card, as the name in the text does", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/#r-15");
+  await page.mouse.move(400, 400);
+  await page.mouse.wheel(0, 500);
+  const strip = page.locator(".rd-who");
+  await expect(strip).toBeVisible();
+  await strip.getByRole("button", { name: /Stewart-Cousins/i }).click();
+  await expect(page.getByRole("dialog", { name: /Stewart-Cousins/ })).toBeInViewport();
+});
