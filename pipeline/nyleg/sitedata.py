@@ -45,7 +45,7 @@ def _as_plain(paras: list[Paragraph]) -> Turn:
 def _senator_slug(turn: Turn, session: int, roster: Roster, overrides: dict[tuple[int, str], int | None]) -> str | None:
     if turn.role not in MATCH_ROLES or turn.label is None:
         return None
-    key = (session, turn.label)
+    key = (session, turn.label.upper())  # overrides are stored upper-case; labels may be "SENATOR DeFRANCISCO"
     member_id = overrides[key] if key in overrides else roster.match(turn.name or "", session)
     senator = roster.senators.get(member_id) if member_id is not None else None
     return senator.slug if senator else None
@@ -53,7 +53,11 @@ def _senator_slug(turn: Turn, session: int, roster: Roster, overrides: dict[tupl
 
 def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, Any]:
     body = turns[segment.start_turn:segment.end_turn]
-    speakers = Counter(t["senator"] for t in body if t["senator"] and t["role"] != ROLE_PRESIDING)
+    # Who debated: senators speaking between the reading and the outcome, and only in a real debate
+    # ("Lay it aside" and a motion to adjourn after the vote are not debate).
+    debate = turns[segment.start_turn + 1:segment.debate_end] if segment.debated else []
+    speaking = [t for t in debate if t["role"] in (ROLE_SENATOR, ROLE_CHAIR)]
+    speakers = Counter(t["senator"] for t in speaking if t["senator"])
     pages = [t["page"] for t in body if t["page"] is not None]
     return {
         "calNo": segment.cal_no,
@@ -61,11 +65,12 @@ def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, An
         "sponsor": segment.sponsor,
         "startTurn": segment.start_turn,
         "endTurn": segment.end_turn,
+        "debateEnd": segment.debate_end,
         "debated": segment.debated,
         "outcome": segment.outcome,
         "ayes": segment.ayes,
         "nays": segment.nays,
-        "remarks": sum(1 for t in body[1:] if t["role"] in (ROLE_SENATOR, ROLE_CHAIR)),
+        "remarks": len(speaking),
         "speakers": dict(speakers.most_common()),
         "pages": [min(pages), max(pages)] if pages else None,
     }
@@ -114,6 +119,26 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
     }
 
 
+def _bill_entry(bills: dict[int, dict[str, dict[str, Any]]], session: int, base: str) -> dict[str, Any]:
+    return bills[session].setdefault(
+        base, {"basePrintNo": base, "session": session, "card": None, "segments": [], "mentionedIn": []}
+    )
+
+
+def _bill_rows(spoke: Counter, sponsored: set[tuple[int, str, str]]) -> list[dict[str, Any]]:
+    """One row per bill a senator debated or sponsored (spec 7: "sponsored or spoke")."""
+    rows: dict[tuple[int, str], dict[str, Any]] = {}
+    for (session, base, printed), count in spoke.items():
+        row = rows.setdefault((session, base), {"session": session, "basePrintNo": base, "printNo": printed,
+                                                "remarks": 0, "sponsor": False})
+        row["remarks"] += count
+    for session, base, printed in sponsored:
+        row = rows.setdefault((session, base), {"session": session, "basePrintNo": base, "printNo": printed,
+                                                "remarks": 0, "sponsor": False})
+        row["sponsor"] = True
+    return sorted(rows.values(), key=lambda r: (-r["remarks"], -r["session"], r["basePrintNo"]))
+
+
 def load_roster(store: Store) -> Roster:
     folder = store.raw / "members"
     by_session = {int(p.stem): read_json(p) or [] for p in sorted(folder.glob("*.json"))} if folder.exists() else {}
@@ -151,46 +176,57 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             report.hearings += kind == "hearing"
             report.per_year[int(doc["date"][:4])] += 1
             report.chars_total += total
-            report.chars_attributed += round(total * min(doc["coverage"], 1.0))
+            # A plain-text fallback publishes no speaker attribution, so it adds nothing here.
+            report.chars_attributed += 0 if doc["plainText"] else round(total * min(doc["coverage"], 1.0))
             if doc["plainText"]:
                 report.plain_text.append(slug)
 
-            per_senator = Counter()
+            spoke = Counter()
+            presided = Counter()
             first: dict[str, dict[str, Any]] = {}
             for t in doc["turns"]:
                 if t["role"] in (ROLE_SENATOR, ROLE_PRESIDING) and t["label"] and not t["senator"]:
                     report.unmatched[f"{session} {t['label']}"] += 1
                 if t["senator"]:
-                    per_senator[t["senator"]] += 1
+                    (presided if t["role"] == ROLE_PRESIDING else spoke)[t["senator"]] += 1
                     first.setdefault(t["senator"], t)
                 for printed in t["bills"]:
+                    base = base_print_no(printed)
                     if session >= BILL_DATA_START:
                         report.bill_mentions += 1
-                        report.bill_mentions_linked += store.bill_path(session, base_print_no(printed)).exists()
+                        report.bill_mentions_linked += store.bill_path(session, base).exists()
+                    entry = _bill_entry(bills, session, base)
+                    if slug not in entry["mentionedIn"]:
+                        entry["mentionedIn"].append(slug)
                 words.update(_WORD.findall(t["text"].lower()))
-            for senator, count in per_senator.items():
+            for senator in first:
                 appearances[senator].append({
                     "transcript": slug,
                     "date": doc["date"],
                     "kind": kind,
                     "title": doc["title"] or doc["sessionType"],
-                    "remarks": count,
+                    "remarks": spoke[senator],
+                    "presiding": presided[senator],
                     "firstTurn": first[senator]["i"],
                     "firstPage": first[senator]["page"],
                 })
             for seg in doc["segments"]:
                 base = base_print_no(seg["printNo"])
-                entry = bills[session].setdefault(base, {"basePrintNo": base, "session": session, "card": None, "segments": []})
+                entry = _bill_entry(bills, session, base)
                 entry["segments"].append({"transcript": slug, "date": doc["date"], **seg})
+                if slug not in entry["mentionedIn"]:
+                    entry["mentionedIn"].append(slug)
                 for senator, count in seg["speakers"].items():
                     debated_bills[senator][(session, base, seg["printNo"])] += count
 
-    sponsors: dict[tuple[int, str], int | None] = {}
+    sponsored: dict[str, set[tuple[int, str, str]]] = defaultdict(set)
     for session, entries in bills.items():
         for base, entry in entries.items():
             raw_bill = read_json(store.bill_path(session, base))
             entry["card"] = bill_card(raw_bill) if raw_bill else None
-            sponsors[(session, base)] = ((entry["card"] or {}).get("sponsor") or {}).get("memberId")
+            sponsor_id = ((entry["card"] or {}).get("sponsor") or {}).get("memberId")
+            if sponsor_id in roster.senators:
+                sponsored[roster.senators[sponsor_id].slug].add((session, base, entry["card"]["printNo"] or base))
         write_json(out / "bills" / f"{session}.json", {"session": session, "bills": [entries[k] for k in sorted(entries)]})
 
     index = []
@@ -198,17 +234,16 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         apps = sorted(appearances.get(senator.slug, []), key=lambda a: a["date"], reverse=True)
         sessions = {str(k): v for k, v in sorted(senator.districts.items())}
         remarks = sum(a["remarks"] for a in apps)
+        presiding = sum(a["presiding"] for a in apps)
         index.append({"slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name,
-                      "sessions": sessions, "remarks": remarks, "transcripts": len(apps)})
-        if not apps:
+                      "sessions": sessions, "remarks": remarks, "presiding": presiding, "transcripts": len(apps)})
+        own = sponsored.get(senator.slug, set())
+        if not apps and not own:
             continue
-        bill_rows = [
-            {"session": s, "basePrintNo": b, "printNo": p, "remarks": n, "sponsor": sponsors.get((s, b)) == senator.member_id}
-            for (s, b, p), n in debated_bills[senator.slug].most_common()
-        ]
         write_json(out / "senators" / f"{senator.slug}.json", {
             "slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name, "sessions": sessions,
-            "totals": {"remarks": remarks, "transcripts": len(apps)}, "appearances": apps, "bills": bill_rows,
+            "totals": {"remarks": remarks, "presiding": presiding, "transcripts": len(apps)},
+            "appearances": apps, "bills": _bill_rows(debated_bills[senator.slug], own),
         })
     write_json(out / "senators.json", index)
 
