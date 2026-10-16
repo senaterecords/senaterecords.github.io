@@ -339,3 +339,15 @@ test("NEAR takes a distance and a phrase", async ({ page }) => {
   await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22%20NEAR%2F3%20litigating");
   await expect(page.getByText("No remarks match.")).toBeVisible();
 });
+
+test("speaker: finds a hearing witness by the name the transcript prints", async ({ page }) => {
+  await page.goto("search/?q=speaker%3Ahiller");
+  const first = page.locator("[data-result]").first();
+  await expect(first).toBeVisible();
+  await expect(first).toContainText(/Hiller/i);
+  await expect(page.getByText(/named .Hiller. in the transcripts/i)).toBeVisible();
+  // senator: still means senators only.
+  await page.goto("search/?q=senator%3Ahiller");
+  await expect(page.locator("[data-result]")).toHaveCount(0);
+});
+

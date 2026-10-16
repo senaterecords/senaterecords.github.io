@@ -215,14 +215,26 @@ function near(words: string[], n: Near): boolean {
 // A senator presiding speaks as "ACTING PRESIDENT X"; the site counts those turns apart from remarks.
 const PRESIDING = /^acting president\b/i;
 
+/** Who speaker: asked for: people the site knows (by slug), and names as the transcripts print them (folded), for
+ * speakers the Senate's data doesn't know, such as hearing witnesses. A bare slug or list of slugs means people only. */
+export interface Speakers { slugs: string[]; labels: string[]; }
+export type SpeakerMatch = string | string[] | Speakers | null;
+
+const speakersOf = (s: SpeakerMatch): Speakers | null =>
+  s == null ? null : typeof s === "string" ? { slugs: [s], labels: [] } : Array.isArray(s) ? { slugs: s, labels: [] } : s;
+
 /** Whether a remark is by one of the asked-for speakers (any remark when none was asked for). */
-function bySpeaker(r: Remark, speakers: string | string[] | null): boolean {
-  if (speakers == null) return true;
-  const slugs = Array.isArray(speakers) ? speakers : [speakers];
-  return !!r.speaker && slugs.includes(r.speaker) && !PRESIDING.test(r.label);
+function bySpeaker(r: Remark, speakers: SpeakerMatch): boolean {
+  const asked = speakersOf(speakers);
+  if (!asked) return true;
+  if (r.speaker && asked.slugs.includes(r.speaker) && !PRESIDING.test(r.label)) return true;
+  const label = fold(r.label);
+  const words = label.split(" ");
+  // A printed name matches by the start of any of its words ("hil" finds HILLER), or as a whole phrase.
+  return asked.labels.some((name) => (name.includes(" ") ? label.includes(name) : words.some((w) => w.startsWith(name))));
 }
 
-export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: string | string[] | null): boolean {
+export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: SpeakerMatch): boolean {
   if (!bySpeaker(r, speakerSlug)) return false;
   const words = foldedWords(r.text);
   if (!b.words.every((w) => present(words, w))) return false;
@@ -233,7 +245,7 @@ export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: str
 
 /** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
  * NOT and speaker:. With no terms it is the same as keepRemark. */
-export function mentionsAny(r: Remark, b: Branch, not: string[], speakerSlug: string | string[] | null): boolean {
+export function mentionsAny(r: Remark, b: Branch, not: string[], speakerSlug: SpeakerMatch): boolean {
   const terms = [...b.words, ...b.near.flatMap((n) => [n.a, n.b])];
   if (!b.phrases.length && !terms.length) return keepRemark(r, b, not, speakerSlug);
   if (!bySpeaker(r, speakerSlug)) return false;

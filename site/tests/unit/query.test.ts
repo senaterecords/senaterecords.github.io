@@ -280,3 +280,23 @@ describe("a long remark's excerpt shows where the query matches", () => {
     expect(excerpt(remark(fares), parseQuery("fares").branches[0])).toContain("the <mark>fares</mark> it collects");
   });
 });
+
+describe("speaker: for people the Senate's data doesn't know", () => {
+  const remark = (label: string, speaker: string | null = null) => ({ url: "/t/#r-1", turn: 1, page: 4, speaker, label, text: "The tax base is shrinking.", breaks: [] as [number, number][] });
+  const any = parseQuery("speaker:hiller").branches[0];
+
+  it("matches the name printed on the remark, by any word of it", () => {
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], { slugs: [], labels: ["hiller"] })).toBe(true);
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], { slugs: [], labels: ["hil"] })).toBe(true);
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], { slugs: [], labels: ["commissioner hiller"] })).toBe(true);
+    expect(keepRemark(remark("SENATOR KRUEGER", "liz-krueger"), any, [], { slugs: [], labels: ["hiller"] })).toBe(false);
+  });
+
+  it("mixes with people it knows: either one's remarks", () => {
+    const both = { slugs: ["liz-krueger"], labels: ["hiller"] };
+    expect(keepRemark(remark("SENATOR KRUEGER", "liz-krueger"), any, [], both)).toBe(true);
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], both)).toBe(true);
+    expect(keepRemark(remark("SENATOR LANZA", "andrew-j-lanza"), any, [], both)).toBe(false);
+  });
+});
+

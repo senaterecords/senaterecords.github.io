@@ -9,7 +9,7 @@ import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type Speak
 import { fold, resolveSpeaker, type Person } from "../lib/names";
 import {
   excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
-  type Branch, type ParsedQuery, type Remark, type SpeakerFilter,
+  type Branch, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers,
 } from "../lib/query";
 import { passageParam } from "../lib/passage";
 import { closestWord } from "../lib/spelling";
@@ -32,7 +32,7 @@ type Status = "loading" | "failed" | "which" | "nomatch" | "ready";
 type Phase = "searching" | "reading" | null;
 
 /** The rows a page contributes: its remarks that match a branch (in one remark, or across the transcript), in order. */
-function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string[] | null; wide: boolean }): Row[] {
+function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: Speakers | null; wide: boolean }): Row[] {
   const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
   const rows: Row[] = [];
   for (const remark of remarksOf(page).map(spokenText)) {
@@ -96,7 +96,8 @@ function SearchApp() {
   const [more, setMore] = useState(false);
   const [opened, setOpened] = useState<Record<string, boolean>>({});
   const queue = useRef<PagefindResult[]>([]);
-  const plan = useRef<{ parsed: ParsedQuery; speaker: string[] | null; wide: boolean } | null>(null);
+  const plan = useRef<{ parsed: ParsedQuery; speaker: Speakers | null; wide: boolean } | null>(null);
+  const [printed, setPrinted] = useState<string[]>([]);
   const [asked, setAsked] = useState<SpeakerFilter | null>(null);
   const runId = useRef(0);
   const sheet = useRef<HTMLDivElement>(null);
@@ -172,7 +173,7 @@ function SearchApp() {
   useEffect(() => {
     const id = ++runId.current;
     (async () => {
-      setStatus("loading"); setRows([]); setLoaded(0); setTotal(0); setSuggestion(null); setWhich([]); setFiltersOpen(false);
+      setStatus("loading"); setRows([]); setLoaded(0); setTotal(0); setSuggestion(null); setWhich([]); setFiltersOpen(false); setPrinted([]);
       setPhase("searching"); setShown(SHOW); setTarget(0);
       if (!q.trim()) { setStatus("ready"); return; }
       const started = performance.now();
@@ -181,15 +182,20 @@ function SearchApp() {
       try { everyone = await getJson<Person[]>("/data/people.json"); } catch { /* names fall back to transcript labels */ }
       if (id !== runId.current) return;
       setPeople(everyone);
-      // Each speaker: (anyone with a card) or senator: (senators only) must name one person; several mean any of them.
+      // Each speaker: (anyone with a card) or senator: (senators only) names one person; several mean any of them. A
+      // speaker: the Senate's data doesn't know (a hearing witness, a guest) matches the name printed on their remarks.
       const slugs: string[] = [];
+      const labels: string[] = [];
       for (const asking of parsed.filters.speakers ?? []) {
         const matches = resolveSpeaker(asking.text, asking.senate ? everyone.filter((p) => p.chamber === "senate") : everyone);
+        const name = fold(asking.text.replace(/-/g, " ")).trim();
+        if (!matches.length && !asking.senate && name) { labels.push(name); continue; }
         if (!matches.length) { setAsked(asking); setStatus("nomatch"); return; }
         if (matches.length > 1) { setAsked(asking); setWhich(matches); setStatus("which"); return; }
         slugs.push(matches[0].slug);
       }
-      const speaker = slugs.length ? slugs : null;
+      const speaker: Speakers | null = slugs.length || labels.length ? { slugs, labels } : null;
+      setPrinted(labels);
       if (parsed.filters.committees?.length) {
         try {
           const committees = await getJson<{ name: string }[]>("/data/committees.json");
@@ -198,13 +204,19 @@ function SearchApp() {
       }
       let pf: Pagefind;
       try { pf = await loadPagefind(); } catch { if (id === runId.current) setStatus("failed"); return; }
-      const filters = pagefindFilters(parsed.filters, speaker);
+      const filters = pagefindFilters(parsed.filters, labels.length ? null : slugs.length ? slugs : null);
       // A search with only filters (say, one senator's remarks) has nothing to rank by, so it reads newest first.
       const termless = parsed.branches.every((b) => !b.words.length && !b.phrases.length && !b.near.length);
       const sortBy = sort === "relevance" ? (termless ? { date: "desc" } : undefined) : { date: sort === "newest" ? "desc" : "asc" };
       let searches: PagefindSearch[];
       try {
-        searches = await Promise.all(parsed.branches.map((b) => searchBranch(pf, b, { filters, sort: sortBy })));
+        // A printed name can't be a filter in the index: it is searched as a word the transcript must hold, beside a
+        // search filtered to any people speaker: also names; the results are merged.
+        const runs = (b: Branch) => (labels.length
+          ? [...(slugs.length ? [searchBranch(pf, b, { filters: pagefindFilters(parsed.filters, slugs), sort: sortBy })] : []),
+            ...labels.map((name) => searchBranch(pf, { ...b, words: [...b.words, ...name.split(" ")] }, { filters, sort: sortBy }))]
+          : [searchBranch(pf, b, { filters, sort: sortBy })]);
+        searches = (await Promise.all(parsed.branches.map((b) => Promise.all(runs(b))))).flat();
       } catch {
         if (id === runId.current) setStatus("failed");
         return;
@@ -385,6 +397,9 @@ function SearchApp() {
 
       {(status === "ready" || status === "loading") && q.trim() !== "" && (
         <>
+          {printed.length > 0 && (
+            <p className="sr-wide">Showing remarks by speakers named {printed.map((n) => `“${titleCase(n)}”`).join(" or ")} in the transcripts, such as hearing witnesses: no senator or Assembly member has that name.</p>
+          )}
           {wide && (
             <p className="sr-wide">Showing remarks with any of these terms, from transcripts that have all of them in any remark of the same transcript · <button type="button" className="link" onClick={() => go({ wide: false })}>Match within one remark</button></p>
           )}
