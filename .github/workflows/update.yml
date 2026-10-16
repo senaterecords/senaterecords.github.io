@@ -35,6 +35,7 @@ jobs:
     outputs:
       publish: ${{ steps.go.outputs.publish }}
       raw: ${{ steps.go.outputs.raw }}
+      code: ${{ steps.go.outputs.code }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -64,17 +65,9 @@ jobs:
           bash scripts/commit-data.sh "data: sync $(date -u +%Y-%m-%dT%H:%MZ)"
       - name: Decide whether to publish
         id: go
-        run: |
-          # Publish when the raw data differs from what was last deployed (so a publish that failed is tried again
-          # the next hour), after a change to the code, or when asked to rebuild.
-          raw="$(git rev-parse HEAD:data/raw)"
-          echo "raw=$raw" >> "$GITHUB_OUTPUT"
-          if [ "$raw" != "$(cat data/deployed-raw.txt 2>/dev/null)" ] || [ "${{ github.event_name }}" = "push" ] \
-            || [ "${{ inputs.rebuild == true }}" = "true" ]; then
-            echo "publish=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "publish=false" >> "$GITHUB_OUTPUT"
-          fi
+        # When the raw data or the code differs from what was last deployed, or when asked to rebuild; a publish that
+        # failed, or was cancelled by a newer run, happens on the next one.
+        run: bash scripts/decide-publish.sh "${{ inputs.rebuild == true }}" | tee -a "$GITHUB_OUTPUT"
       - name: Process (with the quality gate)
         if: steps.go.outputs.publish == 'true'
         run: python -m nyleg --data data process --out data/site --gate-against data/quality-deployed.json
@@ -160,4 +153,5 @@ jobs:
           # The quality baseline moves only after a deploy that answers live.
           cp data/site/quality.json data/quality-deployed.json
           echo "${{ needs.update.outputs.raw }}" > data/deployed-raw.txt
+          echo "${{ needs.update.outputs.code }}" > data/deployed-code.txt
           bash scripts/commit-data.sh "data: deployed $(date -u +%Y-%m-%dT%H:%MZ)"

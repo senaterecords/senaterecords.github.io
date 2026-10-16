@@ -12,11 +12,11 @@ It runs entirely on free GitHub services. There is no server, no database and no
 Every hour, at 17 minutes past, the **Update** workflow (`.github/workflows/update.yml`) does the following:
 
 1. **Sync.** It asks the Senate's Open Legislation API for transcripts added or corrected since the last run, plus current senators and pending bills. At the 7 a.m. run (New York time) it also re-lists this year's hearings. New data is committed to `data/raw/` straight away.
-2. **Decide.** If the raw data matches what was last published, the run ends here, usually in a few minutes. Otherwise it goes on. A publish that failed earlier is therefore tried again the next hour.
+2. **Decide.** If the raw data and the code that builds the site both match what was last published, the run ends here, usually in a few minutes. Otherwise it goes on. A publish that failed earlier, or was cancelled by a newer run, is therefore tried again the next hour, and a code change pushed to `main` is published even if no new data arrives.
 3. **Process.** It splits transcripts into speakers, matches senators and links bills (`pipeline/`). The **quality gate** stops the run if speaker attribution or bill links drop more than 2 points below the last published version, or if there are fewer transcripts.
 4. **Build and check.** It builds the site (`site/`), then refuses to publish if either site is over 950 MB or if any internal link is broken.
 5. **Publish.** The bill pages go first, as one fresh commit force-pushed to the `gh-pages` branch of the [`bills`](https://github.com/senaterecords/bills) repository. Then the main site goes out through GitHub Pages.
-6. **Check live.** It fetches the homepage, search, a transcript, the bills index, a bill page and that page's stylesheet from the live address. Only then does it record what was published (`data/quality-deployed.json`, `data/deployed-raw.txt`).
+6. **Check live.** It fetches the homepage, search, a transcript, the bills index, a bill page and that page's stylesheet from the live address. Only then does it record what was published (`data/quality-deployed.json`, `data/deployed-raw.txt`, `data/deployed-code.txt`).
 
 If any step fails, nothing more is published, and the live site keeps its last good version. GitHub emails the repository owner about failed runs.
 
