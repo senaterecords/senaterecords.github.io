@@ -12,6 +12,7 @@ from .bills import (
     BILL_DATA_START, BillResolver, Segment, base_print_no, bill_card, find_bills, load_bill_fixes, segment_calendar,
 )
 from .clean import PageBreak, Paragraph, extract_lines, paragraphs
+from .officers import Officers, load_officers
 from .quality import Report
 from .senators import Roster, Senator, load_history, load_overrides, session_year
 from .speakers import ROLE_CHAIR, ROLE_PRESIDING, ROLE_RECORD, ROLE_SENATOR, Turn, coverage, split_turns
@@ -86,8 +87,26 @@ def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, An
     }
 
 
+COVER_HEAD = 1000  # characters of a transcript's cover page, which names its officers
+
+
+def _officers(kind: str, when: date, text: str, officers: Officers | None) -> dict[str, Any]:
+    found: dict[str, Any] = {"president": None, "secretary": None}
+    if officers is None or kind != "floor":
+        return found
+    lg = officers.lieutenant_governor(when)
+    if lg:
+        found["president"] = {"name": lg["name"], "title": "Lieutenant Governor", "from": lg["from"].year,
+                              "until": lg["until"].year if lg["until"] else None}
+    secretary = officers.secretary(" ".join(text[:COVER_HEAD].split()))
+    if secretary:
+        found["secretary"] = {"name": secretary, "title": "Secretary of the Senate"}
+    return found
+
+
 def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: dict, slug: str,
-                     assembly: Roster | None = None, bills: BillResolver | None = None) -> dict[str, Any]:
+                     assembly: Roster | None = None, bills: BillResolver | None = None,
+                     officers: Officers | None = None) -> dict[str, Any]:
     when = date.fromisoformat(str(raw.get("dateTime") or raw.get("date"))[:10])
     session = session_year(when)
     extraordinary = "EXTRAORDINARY" in str(raw.get("sessionType") or "").upper()
@@ -150,6 +169,7 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
         "turns": out_turns,
         "segments": [_segment_dict(s, out_turns) for s in segments],
         "unresolvedBillMentions": unresolved,
+        "officers": _officers(kind, when, text, officers),
     }
 
 
@@ -250,9 +270,10 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
 
     resolver = BillResolver(load_bill_fixes(store.root / "overrides" / "bills.yaml"),
                             lambda session, base: read_json(store.bill_path(session, base)))
+    officers = load_officers(store.root / "rosters" / "officers.yaml")
     for kind, path, slug in plan_slugs(store, report):
         try:
-            doc = build_transcript(kind, read_json(path), roster, overrides, slug, assembly, resolver)
+            doc = build_transcript(kind, read_json(path), roster, overrides, slug, assembly, resolver, officers)
         except Exception as exc:  # noqa: BLE001 - one bad record must not stop the build
             report.failed.append(store.raw_key(path))
             print(f"WARNING: skipped {store.raw_key(path)}: {exc}")

@@ -371,6 +371,33 @@ def test_special_session_readings_link_the_special_session_bill_never_the_regula
     assert (report.bill_mentions, report.bill_mentions_linked) == (2, 1)
 
 
+COVERED = """ NEW YORK STATE SENATE  THE STENOGRAPHIC RECORD  ALBANY, NEW YORK  April 8, 2022
+ REGULAR SESSION
+ LIEUTENANT GOVERNOR BRIAN A. BENJAMIN, President
+ ALEJANDRA N. PAULINO, ESQ., Secretary
+ 1               THE PRESIDENT:   The Senate will come to order.
+"""
+
+
+def test_transcripts_name_their_officers():
+    from datetime import date
+
+    from nyleg.officers import Officers
+
+    officers = Officers(
+        lieutenant_governors=[{"name": "Brian A. Benjamin", "from": date(2021, 9, 9), "until": date(2022, 4, 12)}],
+        secretaries=[{"name": "Alejandra N. Paulino", "cover": ["PAULINO"]}],
+    )
+    doc = build_transcript("floor", floor("2022-04-08T09:36", COVERED), Roster({}), {}, "x", officers=officers)
+    assert doc["officers"] == {
+        "president": {"name": "Brian A. Benjamin", "title": "Lieutenant Governor", "from": 2021, "until": 2022},
+        "secretary": {"name": "Alejandra N. Paulino", "title": "Secretary of the Senate"},
+    }
+    plain = build_transcript("floor", floor("2022-05-01T11:00", "1 THE SECRETARY: Hello.\n"), Roster({}), {}, "y",
+                             officers=officers)
+    assert plain["officers"] == {"president": None, "secretary": None}
+
+
 def test_build_all_reads_the_assembly_lists_for_joint_hearings(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2011), [member(5, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 2011)])
