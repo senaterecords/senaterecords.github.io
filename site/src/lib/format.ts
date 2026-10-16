@@ -1,0 +1,142 @@
+// Display formatting shared by pages and islands: no Node or browser APIs beyond Intl.
+import { RECORDS_START } from "../config";
+import type { BillCard, ServicePeriod } from "./types";
+
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const LEGAL = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+function ymd(iso: string): [number, number, number] {
+  const [y, m, d] = iso.slice(0, 10).split("-").map(Number);
+  return [y, m, d];
+}
+
+export const longDate = (iso: string) => { const [y, m, d] = ymd(iso); return `${MONTHS[m - 1]} ${d}, ${y}`; };
+export const shortDate = (iso: string) => { const [y, m, d] = ymd(iso); return `${SHORT[m - 1]} ${d}, ${y}`; };
+export const legalDate = (iso: string) => { const [y, m, d] = ymd(iso); return `${LEGAL[m - 1]} ${d}, ${y}`; };
+export const dayDate = (iso: string) => {
+  const [y, m, d] = ymd(iso);
+  return `${DAYS[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}, ${SHORT[m - 1]} ${d}`;
+};
+
+export const pageLabel = (page: number) => `p. ${page}`;
+
+/** Legal page spans drop repeated leading digits but keep at least two: 5780–81, 5798–802. */
+export function legalPages(start: number, end?: number | null): string {
+  if (end == null || end === start) return String(start);
+  const a = String(start), b = String(end);
+  if (a.length !== b.length) return `${a}–${b}`;
+  let i = 0;
+  while (i < a.length - 2 && a[i] === b[i]) i++;
+  return `${a}–${b.slice(i)}`;
+}
+
+export const plainPages = (start: number, end?: number | null) =>
+  end != null && end !== start ? `pp. ${start}–${end}` : `p. ${start}`;
+
+export function serviceText(periods: ServicePeriod[]): string {
+  if (!periods.length) return "";
+  if (periods.length === 1) {
+    const [p] = periods;
+    if (p.beforeRecords) return p.to === null ? `In the Senate since before ${RECORDS_START}` : `In the Senate since before ${RECORDS_START}, until ${p.to}`;
+    return p.to === null ? `In the Senate since ${p.from}` : `In the Senate ${p.from}–${p.to}`;
+  }
+  const spans = periods.map((p, i) => `${i === 0 && p.beforeRecords ? `before ${RECORDS_START}` : p.from}–${p.to ?? "present"}`);
+  return `In the Senate ${spans.join(", ")}`;
+}
+
+const PARTICLE = /^(Mc|Mac|De|Di|Da|Du|La|Le)([A-Z].*)$/;
+
+function capital(word: string): string {
+  return word.split(/(['’-])/).map((part) => (/^['’-]$/.test(part) ? part : part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())).join("");
+}
+
+/** "ACTING PRESIDENT BRENNAN" -> "Acting President Brennan"; keeps "DeFRANCISCO" as "DeFrancisco". */
+export function titleCase(label: string): string {
+  return label.split(/\s+/).filter(Boolean).map((word) => {
+    const particle = word.match(PARTICLE);
+    return particle ? particle[1] + capital(particle[2]) : capital(word);
+  }).join(" ");
+}
+
+const SMALL = new Set(["a", "an", "and", "as", "at", "by", "for", "in", "of", "on", "or", "the", "to", "with"]);
+
+/** Hearing titles arrive in capitals; others are left as written. */
+export function hearingTitle(title: string): string {
+  if (title !== title.toUpperCase()) return title;
+  return titleCase(title).split(" ").map((w, i) => (i > 0 && SMALL.has(w.toLowerCase()) ? w.toLowerCase() : w)).join(" ");
+}
+
+const PREFIX = /^(SENATOR|ACTING PRESIDENT|ASSEMBLYMAN|ASSEMBLYWOMAN|ASSEMBLYMEMBER|ASSEMBLY MEMBER|CHAIRMAN|CHAIRWOMAN|CHAIRPERSON|CHAIR)\s+/i;
+
+export type SpeakerKind = "senator" | "assembly" | "secretary" | "president" | "other";
+
+/** Short form for legal citations ("Sen. Ortega"), full form for plain ones ("Sen. Marisol Ortega"). */
+export function speakerForms(kind: SpeakerKind, label: string | null, fullName?: string | null): { short: string; full: string } {
+  if (kind === "secretary") return { short: "the Secretary", full: "the Secretary" };
+  if (kind === "president") return { short: "the President", full: fullName ? `Lt. Gov. ${fullName}` : "the President" };
+  const surname = titleCase((label ?? "").replace(PREFIX, ""));
+  if (kind === "senator") return { short: `Sen. ${surname}`, full: `Sen. ${fullName ?? surname}` };
+  if (kind === "assembly") return { short: `Asm. ${surname}`, full: `Asm. ${fullName ?? surname}` };
+  const named = titleCase(label ?? "");
+  return { short: named, full: named };
+}
+
+export interface CiteInput {
+  kind: "floor" | "hearing";
+  date: string;
+  title: string | null;
+  start: number | null;
+  end?: number | null;
+  speaker: { short: string; full: string };
+}
+
+export function legalCite(c: CiteInput): string {
+  const at = c.start == null ? "" : `, at ${legalPages(c.start, c.end)}`;
+  const who = ` (remarks of ${c.speaker.short})`;
+  return c.kind === "floor"
+    ? `N.Y. Senate Tr., ${legalDate(c.date)}${at}${who}`
+    : `N.Y. Senate Pub. Hr'g Tr., ${c.title}, ${legalDate(c.date)}${at}${who}`;
+}
+
+export function plainCite(c: CiteInput): string {
+  const p = c.start == null ? "" : `, ${plainPages(c.start, c.end)}`;
+  return c.kind === "floor"
+    ? `NY Senate floor transcript, ${longDate(c.date)}${p} (${c.speaker.full})`
+    : `NY Senate public hearing, ${c.title}, ${longDate(c.date)}${p} (${c.speaker.full})`;
+}
+
+export function outcomeText(s: { debated: boolean; outcome: string | null; ayes: number | null; nays: number | null }): string {
+  const votes = s.ayes != null ? `, ${s.ayes}–${s.nays ?? 0}` : "";
+  switch (s.outcome) {
+    case "passed": return s.debated ? `Debated and passed${votes}` : `Passed${votes}`;
+    case "lost": return s.debated ? `Debated and lost${votes}` : `Lost${votes}`;
+    case "adopted": return "Adopted";
+    case "laid_aside": return s.debated ? "Debated, then laid aside. No vote." : "Brought up, then laid aside. No vote.";
+    default: return s.debated ? "Debated. No vote recorded." : "Read on the floor. No vote recorded.";
+  }
+}
+
+export function billStatus(card: Pick<BillCard, "vetoed" | "signed" | "status"> | null): { text: string; tone: "red" | "amber" | "ink" } | null {
+  if (!card) return null;
+  if (card.vetoed) return { text: "Vetoed", tone: "red" };
+  if (card.signed) return { text: "Signed by Governor", tone: "ink" };
+  const text = card.status?.text || "Introduced";
+  return { text, tone: /amend/i.test(text) ? "amber" : "ink" };
+}
+
+/** The pipeline writes New York wall-clock times without a zone; compare against New York's clock. */
+export const nyClock = (date: Date) => new Date(date.toLocaleString("en-US", { timeZone: "America/New_York" }));
+
+export function relativeTime(iso: string, now: Date): string {
+  const minutes = Math.max(0, Math.round((now.getTime() - new Date(iso).getTime()) / 60000));
+  if (minutes < 1) return "just now";
+  if (minutes < 60) return `${minutes} min ago`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours} hour${hours === 1 ? "" : "s"} ago`;
+  const days = Math.round(hours / 24);
+  return `${days} day${days === 1 ? "" : "s"} ago`;
+}
+
+export const count = (n: number) => n.toLocaleString("en-US");
