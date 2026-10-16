@@ -4,7 +4,8 @@ test("browse opens a year grouped by month", async ({ page }) => {
   await page.goto("browse/2025/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("2025 transcripts");
   await expect(page.getByRole("heading", { name: /^March 2025/ })).toBeVisible();
-  await page.getByRole("combobox", { name: "Year" }).selectOption({ label: "1995" });
+  await page.locator(".yr-menu summary").click();
+  await page.locator(".yr-grid").getByRole("link", { name: "1995", exact: true }).click();
   await expect(page).toHaveURL(/browse\/1995\//);
 });
 
@@ -43,17 +44,34 @@ test("a remembered choice to show legislative days applies before the first pain
   await expect(month.locator(".sec-h2 .c-off")).toBeHidden();
 });
 
-test("years are one dropdown with previous and next beside it, not a row of chips", async ({ page }) => {
+test("years are one menu with previous and next beside it, not a row of chips", async ({ page }) => {
   await page.goto("browse/2023/");
   await expect(page.locator(".yrs")).toHaveCount(0);
-  const pick = page.getByRole("combobox", { name: "Year" });
-  await expect(pick).toHaveValue(/\/browse\/2023\/$/);
+  const menu = page.locator(".yr-menu summary");
+  await expect(menu).toHaveText("2023");
   await page.getByRole("link", { name: /^Previous year/ }).click();
   await expect(page).toHaveURL(/browse\/2021\/$/);
   await page.getByRole("link", { name: /^Next year/ }).click();
   await expect(page).toHaveURL(/browse\/2023\/$/);
-  await page.getByRole("combobox", { name: "Year" }).selectOption({ label: "1995" });
+  // Every year in a neat grid: the current one marked, and no scrollbar.
+  await page.locator(".yr-menu summary").click();
+  const grid = page.locator(".yr-grid");
+  await expect(grid).toBeVisible();
+  await expect(grid.locator("[aria-current=page]")).toHaveText("2023");
+  expect(await grid.evaluate((el) => el.scrollHeight <= el.clientHeight + 1)).toBe(true);
+  // Esc closes it; choosing a year opens that year.
+  await page.keyboard.press("Escape");
+  await expect(grid).toBeHidden();
+  await page.locator(".yr-menu summary").click();
+  await grid.getByRole("link", { name: "1995", exact: true }).click();
   await expect(page).toHaveURL(/browse\/1995\/$/);
   await expect(page.getByRole("link", { name: /^Previous year/ })).toHaveCount(0); // nothing older
+});
+
+test("the year page leaves room between its summary line and the list", async ({ page }) => {
+  await page.goto("browse/2025/");
+  const line = (await page.locator(".pg-meta").boundingBox())!;
+  const head = (await page.locator(".pg-head").boundingBox())!;
+  expect(head.y + head.height - (line.y + line.height)).toBeGreaterThanOrEqual(16);
 });
 

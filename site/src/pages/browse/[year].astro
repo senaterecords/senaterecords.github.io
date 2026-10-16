@@ -42,7 +42,7 @@ const pages = (t: TranscriptSummary) =>
 ---
 <Base title={`${year} transcripts`} description={`New York State Senate floor sessions and public hearings in ${year}.`} wide>
   <header class="pg-head">
-    <div class="pg-in">
+    <div class="pg-in pb">
       <div class="pg-title">
         <div>
           <h1>{year} transcripts</h1>
@@ -58,9 +58,12 @@ const pages = (t: TranscriptSummary) =>
           <div class="yr" role="group" aria-label="Choose a year">
             {older ? <a class="yr-step" href={url(`/browse/${older}/`)} aria-label={`Previous year, ${older}`} title={String(older)}><Icon name="chevl" size={15} /></a>
               : <span class="yr-step" aria-hidden="true"><Icon name="chevl" size={15} /></span>}
-            <select id="yr-pick" class="yr-pick num" aria-label="Year" onchange="location.href = this.value">
-              {all.map(({ year: y }) => <option value={url(`/browse/${y}/`)} selected={y === year}>{y}</option>)}
-            </select>
+            <details class="yr-menu">
+              <summary class="num" aria-label={`Year: ${year}. Choose another year`}>{year}<Icon name="down" size={14} /></summary>
+              <div class="yr-grid">
+                {all.map(({ year: y }) => <a class="num" href={url(`/browse/${y}/`)} aria-current={y === year ? "page" : undefined}>{y}</a>)}
+              </div>
+            </details>
             {newer ? <a class="yr-step" href={url(`/browse/${newer}/`)} aria-label={`Next year, ${newer}`} title={String(newer)}><Icon name="chev" size={15} /></a>
               : <span class="yr-step" aria-hidden="true"><Icon name="chev" size={15} /></span>}
           </div>
@@ -96,7 +99,14 @@ const pages = (t: TranscriptSummary) =>
 <script>
   // Record type is a JavaScript filter; legislative days (pro forma, no business) are hidden by CSS until the switch is
   // on, which works without JavaScript and is remembered on this device. A month with nothing left to show folds away.
-  // (Choosing a year opens it through the dropdown's own onchange, so it works the moment the page is drawn.)
+  // The year menu (a <details>, so it opens without this script) closes on Esc or a click elsewhere.
+  const yearMenu = document.querySelector<HTMLDetailsElement>(".yr-menu");
+  if (yearMenu) {
+    document.addEventListener("click", (event) => { if (yearMenu.open && !yearMenu.contains(event.target as Node)) yearMenu.open = false; });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && yearMenu.open) { yearMenu.open = false; yearMenu.querySelector("summary")?.focus(); }
+    });
+  }
   const buttons = [...document.querySelectorAll<HTMLButtonElement>(".acts [data-kind]")];
   const showLd = document.getElementById("show-ld") as HTMLInputElement | null;
   let kind = "all";
@@ -141,14 +151,25 @@ const pages = (t: TranscriptSummary) =>
   .tr .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
   .tr .t small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; }
   .tr .p { color: var(--color-ink3); font-size: 12.5px; text-align: right; }
-  /* The year: one joined control, previous and next around a dropdown of every year (newest first). */
-  .yr { display: inline-flex; align-items: stretch; height: 34px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; overflow: hidden; }
+  /* The year: one joined control, previous and next around a menu of every year in a grid (newest first, no scrollbar). */
+  .yr { display: inline-flex; align-items: stretch; height: 34px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; }
   .yr-step { display: grid; place-items: center; width: 32px; color: var(--color-ink2); }
+  .yr-step:first-child { border-radius: 5px 0 0 5px; }
+  .yr-step:last-child { border-radius: 0 5px 5px 0; }
   a.yr-step:hover { background: #F4F5F6; color: var(--color-ink); }
-  a.yr-step:focus-visible, .yr-pick:focus-visible { outline: 2px solid var(--color-act); outline-offset: -2px; }
+  a.yr-step:focus-visible, .yr-menu summary:focus-visible { outline: 2px solid var(--color-act); outline-offset: -2px; }
   span.yr-step { color: #C9CDD2; }
-  .yr-pick { border: 0; border-left: 1px solid var(--color-rule); border-right: 1px solid var(--color-rule); border-radius: 0; padding: 0 6px 0 10px; font: 700 14px var(--font-ui); color: var(--color-ink); background: #fff; cursor: pointer; }
-  .yr-pick:hover { background: #F9FAFA; }
+  .yr-menu { position: relative; border-left: 1px solid var(--color-rule); border-right: 1px solid var(--color-rule); }
+  .yr-menu summary { list-style: none; display: flex; align-items: center; gap: 10px; height: 100%; padding: 0 10px 0 13px; font: 700 14px var(--font-ui); color: var(--color-ink); cursor: pointer; user-select: none; }
+  .yr-menu summary::-webkit-details-marker { display: none; }
+  .yr-menu summary .icon { color: var(--color-ink3); }
+  .yr-menu summary:hover { background: #F9FAFA; }
+  .yr-menu[open] summary { background: #F4F5F6; }
+  .yr-menu[open] summary .icon { transform: rotate(180deg); }
+  .yr-grid { position: absolute; top: calc(100% + 6px); left: -33px; z-index: 45; display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; width: 296px; padding: 8px; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; box-shadow: 0 2px 4px rgba(22, 27, 34, .08), 0 16px 32px -12px rgba(22, 27, 34, .28); }
+  .yr-grid a { padding: 7px 0; border-radius: 5px; text-align: center; font: 600 13.5px var(--font-ui); color: var(--color-ink2); }
+  .yr-grid a:hover { background: #F4F5F6; color: var(--color-ink); }
+  .yr-grid a[aria-current] { background: var(--color-ink); color: #fff; }
   .tr .ld { color: var(--color-ink3); }
   .tr li.ld { display: none; }
   .pg-head:has(#show-ld:checked) ~ .mon .tr li.ld:not([hidden]) { display: grid; }
