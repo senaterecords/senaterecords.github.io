@@ -206,7 +206,9 @@ Slugs are:
 - **Type:** Archivo for the interface, with tabular figures for dates, pages and counts. Charis SIL for every spoken word.
 - **Reader details:**
   - Speaker labels sit **inline** before the speech: uppercase Archivo 12.5px, then a **14px gap**. Senators are underlined as links; procedural voices are not.
-  - Official page breaks show inline (`*5781` with a dashed rule). The page where a turn starts appears in the gutter.
+  - Official page breaks show inline (`p. 5781` with a dashed rule; decided 2026-10-16). The page where a turn starts appears in the gutter.
+  - Speaker names open a card (hover on desktop, tap on phones, where it is a bottom sheet). Card kinds: senator (photo, district and service, career totals, remarks here with previous and next, open senator page, show only this speaker), senator presiding (times presiding), senator before 2009 (no photo), Assembly member in a joint hearing (official page link, no page here), the Lieutenant Governor for THE PRESIDENT (name and term), and THE SECRETARY (the role, and the Secretary of the Senate named on the cover).
+- **Mobile:** designed before building in `mocks/src/mobile.html` (390 px): a menu button, back arrows, bottom sheets for the speaker card and the citation tools, a bill bar on top of the reader and a previous and next remark bar at the bottom, a vertical bill timeline, cards in place of tables, and search filters behind one button.
 - **Constraints recorded from user feedback:**
   - no multicolor speaker identity system
   - no dark masthead
@@ -218,20 +220,20 @@ Slugs are:
 
 | Route | Content |
 |---|---|
-| `/` | search, latest transcripts, most-debated bills this session |
+| `/` | a plain lead, record filters above the search box, three clickable example searches and a Search tips panel below it, shortcut suggestions while typing, latest transcripts, most-debated bills this session |
 | `/search?q=…` | results in fixed columns (date · speaker and quote · page, status, cite); facets for record type, senator, bill, session/year, committee; sort by relevance, newest or oldest; export results |
 | `/transcripts/{slug}/` | the reader: calendar rail (floor) or speaker list (hearings); the text with remark anchors `#r-{index}` and page anchors `#p{page}`; the bill headnote; find in transcript; export; J/K to move between remarks |
 | `/senators/` and `/senators/{slug}/` | A–Z index; senator page with sessions, appearances, bills debated, and search limited to their remarks |
 | `/bills/` and `/bills/{session}/` | the Bills list: every bill read on the floor in a session (session picker, defaulting to the current one). It has a search box (number, title, sponsor), an All / Debated / No debate filter, and sorting by most debated, newest or number. Columns: bill · title and sponsor · floor debate (remarks, senators) · status · last floor date. |
-| `/bills/{session}/?id={printNo}` | the bill page: header (number, status, title, sponsor, committee, Assembly companion) and a milestone line from Introduced to Governor. **The floor debate** is the main block: date line, a plain outcome ("Debated and passed, 41–20"), an excerpt and Read the debate. **Earlier on the floor** lists other appearances in plain words (for example "Brought up, then held for another day at the sponsor's request. No vote."). A side panel shows the floor vote and who spoke. It is one page per session that loads `bills/{session}.json`, which keeps the file count down. |
+| `/bills/{session}/{printNo}/` | one page for **every** bill (decided 2026-10-16): header (number, status, title, sponsor, co-sponsors, committee, Assembly companion) and a milestone line from Introduced to Governor. **The floor debate** is the main block: date line, a plain outcome ("Debated and passed, 41–20"), an excerpt and Read the debate. **Earlier on the floor** lists other appearances in plain words (for example "Brought up, then held for another day at the sponsor's request. No vote."). **Discussed in public hearings** lists hearings that mention it, each linking to its page. A side panel shows the floor vote (with how each senator voted) and who spoke. Bills only mentioned in passing list where they were mentioned. Bills before 2009 show their number with "Full details not available for bills before 2009". |
 | `/browse/{year}/` | transcripts by year |
-| `/about/` | data source, last updated, quality summary, known gaps |
+| `/about/` | what the site does, the data source (the Senate's Open Legislation API), hourly updates, citing by official page, and the archive's size with the last update time. No quality numbers or gaps list (decided 2026-10-16) |
 
-**Copy with cite** produces:
+**Copy with cite** produces, by default (legal style):
 - floor: `N.Y. Senate Tr., June 10, 2025, at 5780 (remarks of Sen. Ortega)`, or `at 5780–81` when the quote spans two pages
 - hearings: `N.Y. Senate Pub. Hr'g Tr., {title}, Mar. 18, 2025, at 112 (remarks of Sen. Okafor)`
 
-The format is to be confirmed with users. **Export** is generated in the browser when clicked. Markdown and text are built from the page content; PDF uses a print stylesheet and the browser's "Save as PDF". No export files are stored, which protects the file budget.
+A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 2025, p. 5780 (Sen. Marisol Ortega)`, or for hearings `NY Senate public hearing, {title}, March 18, 2025, p. 112 (Sen. Adaeze Okafor)` (decided 2026-10-16). **Export** is generated in the browser when clicked. Markdown and text are built from the page content; PDF uses a print stylesheet and the browser's "Save as PDF". No export files are stored, which protects the file budget.
 
 ## 9. Search
 
@@ -284,7 +286,7 @@ The format is to be confirmed with users. **Export** is generated in the browser
 | Pro forma legislative days | 5,505 | mostly 1993–2023 (almost none listed after 2023) |
 | Public hearings | 261 | 2011–2026 (none in the API before 2011) |
 
-- **Size budget (estimated; measure with the first full build):** every transcript gets its own searchable page, legislative days included. Transcript text is about 200 MB; with page markup and the Pagefind index the site comes to roughly 400–500 MB, about half the 1 GB cap. Growth is roughly 85 transcripts and hearings a year, about 5–10 MB.
+- **Size budget (estimated; Plan 2 measures the first full build):** every transcript gets its own searchable page, legislative days included. The site data measured 558 MB on 2026-10-16 (466 MB of it transcripts). Bill pages add about 120 MB, and page markup plus the Pagefind index add more; the build must stay under the guardrails below. Growth is roughly 85 transcripts and hearings a year.
 - **Guardrails:**
   - A warning when the built site passes 800 MB.
   - The build refuses to publish above 950 MB.
