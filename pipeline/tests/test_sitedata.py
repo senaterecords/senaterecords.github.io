@@ -35,6 +35,16 @@ MEMBERS = {
 }
 
 
+def tiny_jpeg(width=55, height=71):
+    from io import BytesIO
+
+    from PIL import Image
+
+    buffer = BytesIO()
+    Image.new("RGB", (width, height), (120, 130, 140)).save(buffer, "JPEG")
+    return buffer.getvalue()
+
+
 def floor(date_time, text):
     return {"dateTime": date_time, "sessionType": "Regular Session", "location": "ALBANY, NEW YORK", "dayType": "SESSION", "text": text}
 
@@ -324,15 +334,41 @@ def test_senator_photos_are_copied_into_the_site_data(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2025), [{**MEMBERS[2025][0], "imgName": "1_marisol_ortega.jpg"}, MEMBERS[2025][1]])
     store.photo_path("1_marisol_ortega.jpg").parent.mkdir(parents=True)
-    store.photo_path("1_marisol_ortega.jpg").write_bytes(b"jpeg-bytes")
+    store.photo_path("1_marisol_ortega.jpg").write_bytes(tiny_jpeg())
     write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", TEXT_2025))
     site = tmp_path / "site"
     build_all(store, site, datetime(2025, 6, 11))
-    assert (site / "photos" / "marisol-ortega.jpg").read_bytes() == b"jpeg-bytes"
+    assert (site / "photos" / "marisol-ortega.jpg").read_bytes()[:2] == b"\xff\xd8"  # a JPEG
     index = {s["slug"]: s for s in read_json(site / "senators.json")}
     assert index["marisol-ortega"]["photo"] == "photos/marisol-ortega.jpg"
     assert index["paul-brennan"]["photo"] is None
     assert read_json(site / "senators" / "marisol-ortega.json")["photo"] == "photos/marisol-ortega.jpg"
+
+
+def test_large_photos_are_shrunk_for_the_site_and_small_ones_kept(tmp_path):
+    # Newer API photos are full-resolution originals (up to 3090x3862, 7 MB); older ones are 55x71.
+    from io import BytesIO
+
+    from PIL import Image
+
+    def jpeg(width, height):
+        buffer = BytesIO()
+        Image.new("RGB", (width, height), (120, 130, 140)).save(buffer, "JPEG")
+        return buffer.getvalue()
+
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), [{**MEMBERS[2025][0], "imgName": "big.jpg"},
+                                          {**MEMBERS[2025][1], "imgName": "small.jpg"}])
+    store.photo_path("big.jpg").parent.mkdir(parents=True)
+    store.photo_path("big.jpg").write_bytes(jpeg(2400, 2808))
+    store.photo_path("small.jpg").write_bytes(jpeg(55, 71))
+    write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", TEXT_2025))
+    site = tmp_path / "site"
+    build_all(store, site, datetime(2025, 6, 11))
+    with Image.open(site / "photos" / "marisol-ortega.jpg") as big:
+        assert big.width <= 120 and big.height <= 156 and big.format == "JPEG"
+    with Image.open(site / "photos" / "paul-brennan.jpg") as small:
+        assert small.size == (55, 71)  # never enlarged
 
 
 def test_the_api_placeholder_image_is_never_shown_as_a_photo(tmp_path):
@@ -433,7 +469,7 @@ def test_assembly_members_link_to_their_own_card_never_to_a_senator(tmp_path):
         assembly_member(901, "Helene E. Weinstein", "Helene", "Weinstein", "WEINSTEIN", 2011),
     ])
     store.photo_path("900_farrell.jpg").parent.mkdir(parents=True)
-    store.photo_path("900_farrell.jpg").write_bytes(b"jpeg-bytes")
+    store.photo_path("900_farrell.jpg").write_bytes(tiny_jpeg())
     write_json(store.hearing_path(2011, "joint.txt"), hearing("joint.txt", "Budget", text=JOINT_TEXT, committees=JOINT))
     site = tmp_path / "site"
     build_all(store, site, datetime(2025, 1, 1))
@@ -444,7 +480,7 @@ def test_assembly_members_link_to_their_own_card_never_to_a_senator(tmp_path):
     assert read_json(site / "assembly.json") == {"herman-d-farrell": {
         "memberId": 900, "name": "Herman D. Farrell", "sessions": {"2011": 910},
         "photo": "photos/assembly/herman-d-farrell.jpg"}}
-    assert (site / "photos" / "assembly" / "herman-d-farrell.jpg").read_bytes() == b"jpeg-bytes"
+    assert (site / "photos" / "assembly" / "herman-d-farrell.jpg").read_bytes()[:2] == b"\xff\xd8"  # a JPEG
 
 
 def test_build_all_reads_the_assembly_lists_for_joint_hearings(tmp_path):

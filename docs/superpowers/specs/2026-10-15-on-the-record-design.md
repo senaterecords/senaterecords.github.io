@@ -81,7 +81,8 @@ pipeline/                 Python package (nyleg) + tests
 site/                     Astro + React islands + Tailwind
 data/raw/                 committed: exactly what the API returned
 data/state.json           committed: last sync timestamps, backfill progress
-data/overrides/           committed: manual fixes (speakers.yaml)
+data/overrides/           committed: reviewed fixes (speakers.yaml, bills.yaml)
+data/rosters/             committed: reviewed lists the API lacks (senate-1993-2008.yaml, officers.yaml)
 data/corrections.json     committed: date each stored transcript's text last changed (drives "Corrected transcript")
 data/site/                generated in CI, not committed
 .github/workflows/update.yml
@@ -126,16 +127,19 @@ These facts about the API were verified against the official docs and the OpenLe
 - **Incremental:** each hourly run calls the floor transcript updates endpoint since the last sync and re-downloads anything changed. A transcript that is listed as updated but can't be fetched is recorded in `data/state.json` and doesn't stop the run.
 - **Hearings:** refreshed by re-listing this year's and last year's hearings once a day, because some are posted weeks after they happen and the hearing updates endpoint's item shape isn't verified.
 - **Corrections:** when an already-stored record's text changes, the date is written to `data/corrections.json`.
+- **Members:** both chambers' lists are kept for each session. Senators are matched to speakers; the Assembly list keeps joint-hearing chairs from being guessed and powers Assembly member cards.
+- **Photos:** each member's API photo (55×71, about 2 KB) is downloaded once, so the site never hotlinks the Senate's server. Older file names contain spaces and apostrophes; folders and `..` are refused; `no_image.jpg` is the API's placeholder and is treated as no photo.
 - **Raw storage:**
   - `data/raw/transcripts/{year}/{dateTime}__{sessionType-slug}.json`
   - `data/raw/hearings/{year}/{hearing-key}.json`, where the key is the id when it is under 1000 and the filename otherwise
-  - `data/raw/members/{session}.json`
+  - `data/raw/members/{session}.json` and `data/raw/members-assembly/{session}.json`
   - `data/raw/bills/{session}/{printNo}.json`
+  - `data/raw/photos/{imgName}`
 
 ### 6.2 Clean
 - **Layout detection:** detect each file's layout from its content (not its date), then strip page numbers (including vendor "Page N" headers), line numbers, spacer lines and form feeds.
 - **Running headers and vendor footers:** stripped when the same text appears in the first or last two lines of at least 30% of pages (and at least 3) **and almost never anywhere else**. A line that starts like a speaker label is never stripped, even when a presiding officer opens every page.
-- **Line joining:** rejoin wrapped lines into paragraphs.
+- **Line joining:** rejoin wrapped lines into paragraphs. A line indented well past the body indent starts a paragraph; the body indent is that of lines starting in lower case, or, in the six transcripts typed in capitals, the smallest indent a fifth of lines share.
 - **Page map:** build a map from character offsets to official page numbers, so every turn knows the page or pages it starts and ends on.
 
 ### 6.3 Speaker turns
@@ -146,12 +150,17 @@ These facts about the API were verified against the official docs and the OpenLe
 
 ### 6.4 Senator matching
 - **Session year:** the odd year on or before the transcript date.
-- **Matching:** `SENATOR X` is matched to that session's members by short name. Where two senators share a surname, the transcript uses the full label (e.g. "ADA SMITH"). `ACTING PRESIDENT X` maps to senator X in the presiding role. `THE PRESIDENT` (the Lieutenant Governor) and `THE SECRETARY` are not senators.
+- **Matching:** `SENATOR X` is matched to that session's members by short name, then surname, then first and last name (middle initials ignored; particles such as O' and De kept). Where two senators share a surname, the transcript uses the full label (e.g. "ADA SMITH"). `ACTING PRESIDENT X` maps to senator X in the presiding role. It never guesses: an ambiguous name stays unlinked.
+- **Before 2009:** the API lists senators from 2009 only. `data/rosters/senate-1993-2008.yaml` adds the 117 senators of 1993–2007 from the Senate tables of the 190th–197th Legislature pages, cross-checked against every 1993–2008 speaker label. 55 who served on are linked to their API record, so one page covers a whole career. Exact join and leave dates (special elections, deaths, resignations) settle surnames shared within a session, such as Leonard and Toby Ann Stavisky in 1999. Their ids are permanent.
+- **Joint hearings:** a chair links to a senator only when no Assembly member of that session shares the name, and to an Assembly member only when no senator does. `ASSEMBLYMAN X` links to the Assembly member.
+- **Officers:** `THE PRESIDENT` is the Lieutenant Governor in office that day (official terms in `data/rosters/officers.yaml`; nobody during vacancies). `THE SECRETARY` is the Secretary of the Senate named on that transcript's own cover page, matched by surname so cover typos still resolve. The card says who held the office, not who read: a deputy often reads.
 - **Stable identity:** `memberId` from the members endpoint, which stays the same across sessions (verified 2026-10-15).
-- **Fixes:** labels that can't be matched go into the quality report and can be fixed in `data/overrides/speakers.yaml` without changing code.
+- **Fixes:** labels that can't be matched go into the quality report and can be fixed in `data/overrides/speakers.yaml` without changing code. Stenographer typos with exactly one close senator in the session were added after review.
 
 ### 6.5 Bills and debates
-- **Mentions:** after cleaning, extract bill mentions and normalise them to `{session, printNo}` (e.g. `S4597A`).
+- **Mentions:** after cleaning, extract bill mentions from floor transcripts and hearings and normalise them to `{session, printNo}` (e.g. `S4597A`).
+- **Special sessions:** extraordinary sessions number their bills from 1, and the API files them as `S5000N` / `A4000N`. A small number read in an extraordinary session links that bill only when it was published within 45 days before the session; otherwise it stays unlinked, never linked to the regular bill of the same number. Several special sessions in one term reuse numbers and the API keeps one bill per number.
+- **Misread numbers:** `data/overrides/bills.yaml` holds reviewed fixes by date and printed number (for example "Senate Print 90004D" for S9004D), each checked against the API and the words read on the floor.
 - **Calendar segments:** in floor transcripts, a segment starts with each Secretary reading that begins `Calendar Number N,`, in either order (section 5), and ends at the next reading or at the end of the day.
 - **Debated or not:** a segment is **debated** when non-presiding senators or chairs speak at least 40 words before the outcome ("passed", "lost" or "laid aside"). "Lay it aside" alone is not a debate. The debate window ends at the outcome, so a motion to adjourn after the vote isn't counted.
 - **Bill details:** sponsor, title, status, milestones and floor votes, fetched one bill at a time with `view=no_fulltext`, using a resumable per-run budget. The bulk listing with `full=true` does include votes, but also each bill's full text (about 34 KB per bill), so it isn't used. Current-session bills are re-fetched weekly, so status, votes and the Governor's action stay current. Bill data starts in **2009** (verified); earlier bills show their print number without a detail card.
@@ -171,9 +180,11 @@ These facts about the API were verified against the official docs and the OpenLe
 | File | Contents |
 |---|---|
 | `meta.json` | last updated time, counts, quality summary |
-| `transcripts/{slug}.json` | metadata (type, date, session type, location, pages, committees) plus `turns[]`, `segments[]` (calendar no., bill, debated, outcome, votes, turn range), `plainText` (fallback flag) and `corrected` (date or null) |
-| `senators.json` | every senator: id, slug, name, district per session (the API has no party), remarks, presiding turns and transcripts |
-| `senators/{slug}.json` | appearances (transcript, remarks, presiding turns, first page), bills debated or sponsored, totals |
+| `transcripts/{slug}.json` | metadata (type, date, session type, location, pages, committees) plus `turns[]` (an `assembly` slug appears only on turns matched to an Assembly member), `segments[]` (calendar no., bill or null for an unresolvable special-session reading, debated, outcome, votes, turn range), `plainText` (fallback flag), `corrected` (date or null), `officers` (`president`: Lieutenant Governor name, title and term years, or null; `secretary`: the Secretary of the Senate named on the cover, or null) and `unresolvedBillMentions` |
+| `senators.json` | every senator: id, slug, name, `photo` (path or null), `service` (separate stretches in years, `to` null while serving, `beforeRecords` when already serving in 1993), district per session (the API has no party), remarks, presiding turns and transcripts |
+| `senators/{slug}.json` | the same identity fields, appearances (transcript, remarks, presiding turns, first page), bills debated or sponsored, totals |
+| `assembly.json` | Assembly members who speak (joint hearings): id, name, district per session, `photo`. They have cards, not pages |
+| `photos/{slug}.jpg`, `photos/assembly/{slug}.jpg` | member photos copied from the raw store |
 | `bills/{session}.json` | every bill mentioned that session: card fields, the debate segments that reference it (with `debateEnd`), and `mentionedIn` (every transcript that mentions it) |
 | `words/{prefix}.json` | vocabulary with frequencies for "did you mean" suggestions, split by two-letter prefix |
 
@@ -315,12 +326,16 @@ The format is to be confirmed with users. **Export** is generated in the browser
 4. **Bulk bill listing:** `/bills/{session}?full=true` includes votes, but also each bill's full text (about 34 KB per bill), so the pipeline fetches bills one at a time with `view=no_fulltext`.
 5. **Paging:** offsets start at 1 (`offsetStart=1`).
 6. **Still open:** Pagefind's exact-phrase behaviour on real transcripts (Plan 2), and whether GitHub Pages honours HTTP Range requests (Plan 4).
+7. **Full archive (2026-10-16):** downloaded with `--parallel 16` in 12 minutes: 7,802 transcripts, 261 hearings, 30,004 bills, both chambers' members and 313 photos, about 2 GB on disk. No rate limit was hit.
+8. **Members before 2009:** `/members/{session}/senate` returns 0 members for 1993–2007; senators come from `data/rosters/` for those sessions. `/members/{session}/assembly` works from 2009 (153–156 members).
+9. **Special sessions:** the API files extraordinary-session bills as `S5000N` / `A4000N` (June 23, 2009: "Extraordinary Session Senate Print Number 25" is S50025). The November 2009 and 2010 special sessions' Senate bills are not in the API.
+10. **Cover pages:** every floor transcript's cover names the presiding officer and the Secretary ("LT. GOVERNOR BETSY McCAUGHEY ROSS, President · STEPHEN F. SLOAN, Secretary"). `THE PRESIDENT` never appears while the Lieutenant Governor's office is vacant (one stenographer slip, June 18, 2008).
+11. **Photos:** `https://legislation.nysenate.gov/static/img/business_assets/members/mini/{imgName}`, 55×71 pixels; no larger size exists. `no_image.jpg` is a placeholder.
+12. **Transcript sizes:** median 2,655 characters, 99th percentile 650,000, largest 1.24 million (Environmental Conservation budget hearings). The reader must stay fast at that size (Plan 2 measures it).
 
 ## 14. Undecided (owner: user)
 
 - the final site name ("On the Record" is the working name)
-- whether and how to state that the site is unofficial and independent of the NY Senate
-- whether to adopt a formal accessibility target, such as WCAG 2.2 AA
 - the page-break label: keep the citator style `*5781`, or use the plainer "Page 5781"
 - the exact citation format
 - separate pages per bill, for Google indexing, link previews and lighter pages. The recommendation is a page for every bill read on the floor, with bills only mentioned in passing kept in the session file. Measure the size in Plan 2 before deciding; 2025 alone has 1,767 bills read on the floor and 2,217 mentioned.
@@ -345,3 +360,10 @@ The format is to be confirmed with users. **Export** is generated in the browser
 | Exports generated in the browser | keeps the site small (no stored copy of every transcript in two more formats) |
 | Phased scope | transcripts first; bills, laws and calendars later inside the same design |
 | The Citator visual direction | chosen by the user from full-size mocks; refinements kept subtle |
+| Our own 1993–2008 senator list, checked against the transcripts | the API starts in 2009; without it more than half of all floor remarks (356,000) link to nobody |
+| Speaker cards for every kind of speaker, saying only what the record supports | senators (with photo, service and remarks here), Assembly members (card only), the Lieutenant Governor (by term) and the Secretary (from the cover page); approved from the mocks |
+| No email on senator cards | only a third of senators have one in the API, often on the retired `senate.state.ny.us` domain; the official page link is reliable |
+| Special-session bills linked only when published for the session | a wrong link is worse than none: the regular bill of the same number was being linked |
+| No "unofficial" notice (2026-10-16) | the user's decision; the About page still names the source and its known gaps |
+| No formal accessibility target (2026-10-16) | the user's decision; the site keeps ordinary good practice (real text, headings, labelled buttons) without auditing against WCAG |
+| Static transcript pages with `content-visibility`, measured before considering React windowing | keeps browser find, copy, print, exact page links and indexing; Plan 2 measures the largest transcript first |

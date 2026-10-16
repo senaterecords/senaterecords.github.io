@@ -8,6 +8,8 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
+from PIL import Image
+
 from .bills import (
     BILL_DATA_START, BillResolver, Segment, base_print_no, bill_card, find_bills, load_bill_fixes, segment_calendar,
 )
@@ -212,13 +214,23 @@ def _bill_rows(spoke: Counter, sponsored: set[tuple[int, str, str]]) -> list[dic
     return sorted(rows.values(), key=lambda r: (-r["remarks"], -r["session"], r["basePrintNo"]))
 
 
+PHOTO_BOX = (120, 156)  # twice the largest card size, so photos stay sharp on high-density screens
+
+
 def _copy_photo(store: Store, senator: Senator, out: Path, folder: str = "photos") -> str | None:
-    """Copy a stored API photo to {folder}/{slug}.jpg; senators before 2009 have none."""
+    """Write a stored API photo to {folder}/{slug}.jpg, shrunk to fit PHOTO_BOX: newer API photos are
+    full-resolution originals of several MB. Small ones are never enlarged; senators before 2009 have none."""
     if not is_real_photo(senator.img_name) or not store.photo_path(senator.img_name).exists():
         return None
     target = out / folder / f"{senator.slug}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(store.photo_path(senator.img_name), target)
+    try:
+        with Image.open(store.photo_path(senator.img_name)) as image:
+            image = image.convert("RGB")
+            image.thumbnail(PHOTO_BOX, Image.Resampling.LANCZOS)
+            image.save(target, "JPEG", quality=85, optimize=True)
+    except OSError:
+        return None  # not a readable image: show no photo rather than a broken one
     return f"{folder}/{senator.slug}.jpg"
 
 
