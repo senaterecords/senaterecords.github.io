@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -197,46 +198,62 @@ def fetch_bills(
     today: date | None = None,
     refresh_session: int | None = None,
     refresh_days: int = REFRESH_DAYS,
+    workers: int = 1,
 ) -> SyncResult:
     """Fetch up to `budget` bills: first ones not stored yet, then `refresh_session` bills not checked
-    for `refresh_days` (status, votes and the Governor's action change after the floor vote)."""
+    for `refresh_days` (status, votes and the Governor's action change after the floor vote).
+    `workers` > 1 fetches in parallel (meant for the one-time backfill)."""
     today = today or date.today()
     state = store.load_state()
     pending = {tuple(x) for x in state.get("bills_pending", [])} | set(wanted)
     missing = {tuple(x) for x in state.get("bills_missing", [])}
     checked: dict[str, str] = dict(state.get("bills_checked", {}))
     result = SyncResult()
-    used = 0
 
-    def fetch(session: int, base: str) -> None:
-        nonlocal used
-        used += 1
-        try:
-            body = client.get(f"/bills/{session}/{base}", view="no_fulltext")
-        except NotFound:
-            missing.add((session, base))
-            return
-        checked[f"{session}/{base}"] = today.isoformat()
-        path = store.bill_path(session, base)
+    queue: list[tuple[int, str]] = []
+    for session, base in sorted(pending):
+        if len(queue) >= budget:
+            break
+        if (session, base) not in missing and not store.bill_path(session, base).exists():
+            queue.append((session, base))
+    if refresh_session is not None:
+        cutoff = (today - timedelta(days=refresh_days)).isoformat()
+        folder = store.raw / "bills" / str(refresh_session)
+        for base in sorted(p.stem for p in folder.glob("*.json")) if folder.exists() else []:
+            if len(queue) >= budget:
+                break
+            if checked.get(f"{refresh_session}/{base}", "") <= cutoff:
+                queue.append((refresh_session, base))
+
+    def request(item: tuple[int, str]) -> dict[str, Any]:
+        return client.get(f"/bills/{item[0]}/{item[1]}", view="no_fulltext")
+
+    def keep(item: tuple[int, str], body: dict[str, Any]) -> None:
+        checked[f"{item[0]}/{item[1]}"] = today.isoformat()
+        path = store.bill_path(*item)
         if write_json(path, body["result"]):
             result.changed.append(path)
 
     try:
-        for session, base in sorted(pending):
-            if (session, base) in missing or store.bill_path(session, base).exists():
-                continue
-            if used >= budget:
-                break
-            fetch(session, base)
-        if refresh_session is not None:
-            cutoff = (today - timedelta(days=refresh_days)).isoformat()
-            folder = store.raw / "bills" / str(refresh_session)
-            for base in sorted(p.stem for p in folder.glob("*.json")) if folder.exists() else []:
-                if used >= budget:
-                    break
-                if checked.get(f"{refresh_session}/{base}", "") > cutoff:
-                    continue
-                fetch(refresh_session, base)
+        if workers <= 1:
+            for item in queue:
+                try:
+                    keep(item, request(item))
+                except NotFound:
+                    missing.add(item)
+        else:
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = {pool.submit(request, item): item for item in queue}
+                try:
+                    for future in as_completed(futures):
+                        item = futures[future]
+                        try:
+                            keep(item, future.result())
+                        except NotFound:
+                            missing.add(item)
+                except ApiError:
+                    pool.shutdown(cancel_futures=True)
+                    raise
     except AuthError:
         raise
     except ApiError:

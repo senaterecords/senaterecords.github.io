@@ -53,6 +53,14 @@ def test_rate_sets_the_pause_between_requests(monkeypatch):
     monkeypatch.setenv("NYSENATE_API_KEY", "k")
     assert api_client(None).min_interval == 1.0
     assert api_client(5).min_interval == 0.2
+    assert api_client(None, parallel=8).min_interval == 0.0  # parallel workers don't pause
+
+
+def test_parallel_is_capped(tmp_path, capsys):
+    with pytest.raises(SystemExit) as exit_info:
+        main(["--data", str(tmp_path), "sync", "--parallel", "64"])
+    assert exit_info.value.code == 2
+    assert "at most 16" in capsys.readouterr().err
 
 
 def test_rates_above_the_cap_are_refused(tmp_path, capsys):

@@ -220,3 +220,26 @@ def test_hearings_without_a_date_are_skipped_not_fatal(tmp_path):
     result = sync_hearings_year(client, store, 2025)
     assert result.changed == [store.hearing_path(2025, "a.txt")]
     assert store.load_state()["hearings_skipped"] == ["b.txt"]
+
+
+def test_bills_can_be_fetched_in_parallel(tmp_path):
+    store = Store(tmp_path)
+    singles = {f"/bills/2025/S{i}": {"basePrintNo": f"S{i}", "session": 2025} for i in range(1, 41)}
+    client = FakeClient(singles=singles)
+    result = fetch_bills(client, store, {(2025, f"S{i}") for i in range(1, 41)}, budget=100, workers=8)
+    assert len(result.changed) == 40
+    assert sorted(client.calls) == sorted(singles)
+    assert store.load_state()["bills_pending"] == []
+
+
+def test_parallel_fetching_leaves_failed_bills_pending_and_still_stops_on_a_rejected_key(tmp_path):
+    store = Store(tmp_path)
+    singles = {f"/bills/2025/S{i}": {"basePrintNo": f"S{i}", "session": 2025} for i in range(1, 21)}
+    client = FakeClient(singles=singles)
+    client.errors = {"/bills/2025/S7": ApiError("HTTP 503")}
+    fetch_bills(client, store, {(2025, f"S{i}") for i in range(1, 21)}, budget=100, workers=4)
+    assert [2025, "S7"] in store.load_state()["bills_pending"]
+    assert not store.bill_path(2025, "S7").exists()
+    client.errors = {"/bills/2025/S7": AuthError("NY Senate API key rejected")}
+    with pytest.raises(AuthError):
+        fetch_bills(client, store, set(), budget=100, workers=4)

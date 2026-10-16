@@ -31,9 +31,22 @@ def rate(value: str) -> float:
     return number
 
 
-def api_client(requests_per_second: float | None) -> Client:
-    """One request per second by default; a faster rate is meant for the one-time backfill."""
-    interval = 1.0 / requests_per_second if requests_per_second else 1.0
+MAX_PARALLEL = 16  # bounded bursts of 16 parallel requests ran clean (2026-10-16); never more
+
+
+def parallel(value: str) -> int:
+    number = int(value)
+    if not 1 <= number <= MAX_PARALLEL:
+        raise argparse.ArgumentTypeError(f"must be between 1 and at most {MAX_PARALLEL}")
+    return number
+
+
+def api_client(requests_per_second: float | None, parallel: int = 1) -> Client:
+    """One request per second by default; a faster rate or parallel workers are for the one-time backfill."""
+    if parallel > 1:
+        interval = 0.0  # each worker waits for its own answer; no extra pause
+    else:
+        interval = 1.0 / requests_per_second if requests_per_second else 1.0
     return Client(os.environ.get("NYSENATE_API_KEY", ""), min_interval=interval)
 
 
@@ -57,7 +70,7 @@ def new_york_now() -> datetime:
 
 def cmd_sync(args: argparse.Namespace) -> int:
     store = Store(Path(args.data))
-    client = api_client(args.rate)
+    client = api_client(args.rate, args.parallel)
     now = new_york_now()
     result = sync.SyncResult()
     if args.backfill:
@@ -76,7 +89,7 @@ def cmd_sync(args: argparse.Namespace) -> int:
     else:
         scan = [p for p in result.changed if "transcripts" in p.parts]
     result.merge(sync.fetch_bills(client, store, sync.wanted_bills(scan), budget=args.bill_budget,
-                                  today=now.date(), refresh_session=current))
+                                  today=now.date(), refresh_session=current, workers=args.parallel))
     print(f"{len(result.changed)} raw files added or updated")
     emit("changed", "true" if result.changed else "false")
     return 0
@@ -150,6 +163,8 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--rescan-bills", action="store_true", help="look for bill mentions in every stored transcript")
     s.add_argument("--bill-budget", type=int, default=3000, help="max bill requests this run")
     s.add_argument("--rate", type=rate, help="requests per second (default 1; at most 10, for the one-time backfill)")
+    s.add_argument("--parallel", type=parallel, default=1,
+                   help="fetch bills with this many parallel workers, no pause (at most 16; for the one-time backfill)")
     p = commands.add_parser("process", help="build data/site from the raw store")
     p.add_argument("--out", default="data/site")
     p.add_argument("--gate-against", help="previous quality.json; exit 5 if quality dropped")
