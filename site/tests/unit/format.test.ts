@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   billStatus, count, dayDate, hearingTitle, legalCite, legalDate, legalPages, longDate, outcomeText, pageLabel,
-  plainCite, plainPages, relativeTime, serviceText, shortDate, speakerForms, titleCase,
+  plainCite, plainPages, plural, relativeTime, serviceText, shortDate, speakerForms, titleCase, transcriptTitle,
 } from "../../src/lib/format";
 
 describe("dates and pages", () => {
@@ -40,12 +40,35 @@ describe("service, names and titles", () => {
     expect(titleCase("SENATOR DeFRANCISCO")).toBe("Senator DeFrancisco");
     expect(titleCase("SENATOR O'MARA")).toBe("Senator O'Mara");
     expect(titleCase("SENATOR HASSELL-THOMPSON")).toBe("Senator Hassell-Thompson");
+    expect(titleCase("THE STATE'S RESPONSE TO COVID-19")).toBe("The State's Response To Covid-19");
   });
 
   it("makes all-capital hearing titles readable", () => {
     expect(hearingTitle("JOINT LEGISLATIVE HEARING ON THE EXECUTIVE BUDGET ON TAXES"))
       .toBe("Joint Legislative Hearing on the Executive Budget on Taxes");
     expect(hearingTitle("Roundtable on rent")).toBe("Roundtable on rent");
+  });
+
+  it("also fixes titles that are mostly capitals, as the API often sends them", () => {
+    expect(hearingTitle("JOINT LEGISLATIVE HEARING In the Matter of the 2025-2026 EXECUTIVE BUDGET ON TAXES"))
+      .toBe("Joint Legislative Hearing in the Matter of the 2025-2026 Executive Budget on Taxes");
+    expect(hearingTitle("WAYS AND MEANS")).toBe("Ways and Means");
+    expect(hearingTitle("Public hearing on the MTA capital plan")).toBe("Public hearing on the MTA capital plan");
+  });
+
+  it("names transcripts in lists", () => {
+    expect(transcriptTitle({ kind: "floor", sessionType: "Regular Session", title: null })).toBe("Regular Session");
+    expect(transcriptTitle({ kind: "floor", sessionType: null, title: null })).toBe("Floor session");
+    expect(transcriptTitle({ kind: "hearing", sessionType: null, title: "JOINT LEGISLATIVE HEARING ON TAXES" })).toBe("Joint Legislative Hearing on Taxes");
+    expect(transcriptTitle({ kind: "hearing", sessionType: null, title: "Transit safety" })).toBe("Public hearing: Transit safety");
+    expect(transcriptTitle({ kind: "hearing", sessionType: null, title: "NEW YORK STATE FORUM ON RENT" })).toBe("New York State Forum on Rent");
+    expect(transcriptTitle({ kind: "hearing", sessionType: null, title: null })).toBe("Public hearing");
+  });
+
+  it("counts with the right noun", () => {
+    expect(plural(1, "senator")).toBe("1 senator");
+    expect(plural(38, "senator")).toBe("38 senators");
+    expect(plural(1204, "remark")).toBe("1,204 remarks");
   });
 
   it("names speakers for citations", () => {

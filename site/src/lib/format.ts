@@ -48,8 +48,15 @@ export function serviceText(periods: ServicePeriod[]): string {
 
 const PARTICLE = /^(Mc|Mac|De|Di|Da|Du|La|Le)([A-Z].*)$/;
 
+/** After an apostrophe only a one-letter prefix keeps the next letter capital: O'Mara, but State's. */
 function capital(word: string): string {
-  return word.split(/(['’-])/).map((part) => (/^['’-]$/.test(part) ? part : part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())).join("");
+  const parts = word.split(/(['’-])/);
+  return parts.map((part, i) => {
+    if (/^['’-]$/.test(part)) return part;
+    const lower = part.toLowerCase();
+    const possessive = i >= 2 && /['’]/.test(parts[i - 1]) && parts[i - 2].length > 1;
+    return possessive ? lower : lower.charAt(0).toUpperCase() + lower.slice(1);
+  }).join("");
 }
 
 /** "ACTING PRESIDENT BRENNAN" -> "Acting President Brennan"; keeps "DeFRANCISCO" as "DeFrancisco". */
@@ -62,11 +69,23 @@ export function titleCase(label: string): string {
 
 const SMALL = new Set(["a", "an", "and", "as", "at", "by", "for", "in", "of", "on", "or", "the", "to", "with"]);
 
-/** Hearing titles arrive in capitals; others are left as written. */
+/** Hearing titles and committee names arrive in capitals, or mostly capitals; others are left as written. */
 export function hearingTitle(title: string): string {
-  if (title !== title.toUpperCase()) return title;
+  const letters = title.replace(/[^A-Za-z]/g, "");
+  const capitals = letters.replace(/[^A-Z]/g, "").length;
+  if (!letters.length || capitals / letters.length < 0.6) return title;
   return titleCase(title).split(" ").map((w, i) => (i > 0 && SMALL.has(w.toLowerCase()) ? w.toLowerCase() : w)).join(" ");
 }
+
+/** How a transcript is named in lists: the session type for floor days, the readable title for hearings. */
+export function transcriptTitle(t: { kind: "floor" | "hearing"; sessionType: string | null; title: string | null }): string {
+  if (t.kind === "floor") return t.sessionType || "Floor session";
+  if (!t.title) return "Public hearing";
+  const title = hearingTitle(t.title);
+  return /\b(hearing|forum|roundtable|meeting|summit)\b/i.test(title) ? title : `Public hearing: ${title}`;
+}
+
+export const plural = (n: number, noun: string) => `${count(n)} ${noun}${n === 1 ? "" : "s"}`;
 
 const PREFIX = /^(SENATOR|ACTING PRESIDENT|ASSEMBLYMAN|ASSEMBLYWOMAN|ASSEMBLYMEMBER|ASSEMBLY MEMBER|CHAIRMAN|CHAIRWOMAN|CHAIRPERSON|CHAIR)\s+/i;
 
