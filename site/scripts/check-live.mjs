@@ -1,6 +1,6 @@
 // After a deploy, check that the live sites answer: the main site (homepage, search, the search index, a transcript)
 // and the bills site (its index, the newest session, a bill page and that page's own stylesheet, which must come from
-// the bills site itself). A fresh Pages deploy can take a minute to appear, so the whole check is retried.
+// the bills site itself). A fresh Pages deploy can take up to 10 minutes to appear, so the whole check is retried.
 // usage: node scripts/check-live.mjs https://senaterecords.github.io/
 import { pathToFileURL } from "node:url";
 
@@ -27,7 +27,8 @@ async function checkOnce(base) {
 
   const home = await get("./");
   if (home !== null) {
-    if (!home.includes("On the Record")) problems.push(`${base} does not look like On the Record`);
+    // The title, not the site's name, which may still change.
+    if (!/<title>[^<]+<\/title>/.test(home)) problems.push(`${base} has no title`);
     const transcript = links(home).find((href) => /\/transcripts\/[^/#?]+\/$/.test(href));
     if (transcript) await get(transcript);
     else problems.push(`${base} links no transcript`);
@@ -53,7 +54,7 @@ async function checkOnce(base) {
 }
 
 /** Problems found on the live sites at base (empty when healthy), after up to `tries` attempts `wait` ms apart. */
-export async function checkLive(base, { tries = 10, wait = 30_000 } = {}) {
+export async function checkLive(base, { tries = 20, wait = 30_000 } = {}) {
   const root = base.replace(/\/?$/, "/");
   let problems = [];
   for (let attempt = 1; attempt <= tries; attempt++) {

@@ -23,6 +23,51 @@ def test_sync_without_a_key_exits_with_the_auth_code(tmp_path, monkeypatch, caps
     assert "NYSENATE_API_KEY" in capsys.readouterr().err
 
 
+def fake_sync(monkeypatch, checked=None):
+    """Replace every API step of `sync`: transcripts only move the "last synced" stamp; bills may record checks."""
+    import nyleg.__main__ as cli
+    from nyleg import sync
+
+    def transcripts(client, store, now):
+        state = store.load_state()
+        state["transcripts_synced_at"] = now.isoformat(timespec="seconds")
+        store.save_state(state)
+        return sync.SyncResult()
+
+    def bills(client, store, wanted, **options):
+        if checked:
+            state = store.load_state()
+            state["bills_checked"] = {**state.get("bills_checked", {}), **checked}
+            store.save_state(state)
+        return sync.SyncResult()
+
+    monkeypatch.setattr(cli, "api_client", lambda *args, **kwargs: None)
+    monkeypatch.setattr(sync, "sync_transcript_updates", transcripts)
+    monkeypatch.setattr(sync, "sync_members", lambda *args, **kwargs: sync.SyncResult())
+    monkeypatch.setattr(sync, "sync_photos", lambda *args, **kwargs: sync.SyncResult())
+    monkeypatch.setattr(sync, "fetch_bills", bills)
+
+
+def test_sync_reports_no_state_change_when_only_the_last_synced_time_moved(tmp_path, monkeypatch, capsys):
+    store = Store(tmp_path / "data")
+    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00", "bills_checked": {"2025/S1": "2026-10-10"}})
+    fake_sync(monkeypatch)
+    assert main(["--data", str(store.root), "sync"]) == 0
+    out = capsys.readouterr().out
+    assert "changed=false" in out
+    assert "state_changed=false" in out
+
+
+def test_sync_reports_a_state_change_when_bills_were_checked(tmp_path, monkeypatch, capsys):
+    store = Store(tmp_path / "data")
+    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00", "bills_checked": {"2025/S1": "2026-10-10"}})
+    fake_sync(monkeypatch, checked={"2025/S1": "2026-10-16"})
+    assert main(["--data", str(store.root), "sync"]) == 0
+    out = capsys.readouterr().out
+    assert "changed=false" in out  # no raw file differed...
+    assert "state_changed=true" in out  # ...but the checks must be kept, or the next run repeats them
+
+
 def make_store(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.transcript_path("1994-01-05T12:00", "Regular Session"), {

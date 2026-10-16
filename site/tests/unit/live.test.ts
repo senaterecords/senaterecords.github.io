@@ -33,6 +33,26 @@ describe("the live site check", () => {
     expect(await checkLive(base, { tries: 1, wait: 0 })).toEqual([]);
   });
 
+  it("doesn't depend on the site's name, which may still change", async () => {
+    const home = pages["/"];
+    pages["/"] = home.replace("On the Record", "Senate Records");
+    try {
+      expect(await checkLive(base, { tries: 1, wait: 0 })).toEqual([]);
+    } finally {
+      pages["/"] = home;
+    }
+  });
+
+  it("flags a homepage with no title", async () => {
+    const home = pages["/"];
+    pages["/"] = home.replace("<title>On the Record</title>", "");
+    try {
+      expect(await checkLive(base, { tries: 1, wait: 0 })).toEqual([expect.stringContaining("has no title")]);
+    } finally {
+      pages["/"] = home;
+    }
+  });
+
   it("names what is missing, like a bill page whose stylesheet is gone", async () => {
     const css = pages["/bills/_astro/a.css"];
     delete pages["/bills/_astro/a.css"];

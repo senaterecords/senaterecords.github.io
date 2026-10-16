@@ -66,6 +66,8 @@ export async function checkLinksParallel(root, siteBase, workers = Math.max(1, a
     const worker = new Worker(new URL(import.meta.url), { workerData: { root, siteBase, part } });
     worker.once("message", done);
     worker.once("error", fail);
+    // A worker killed without an error (out of memory) would otherwise leave the check waiting forever.
+    worker.once("exit", (code) => { if (code !== 0) fail(new Error(`a link check worker stopped (exit code ${code})`)); });
   })));
   return results.reduce((all, r) => ({ checked: all.checked + r.checked, pages: all.pages + r.pages, broken: [...all.broken, ...r.broken] }),
     { checked: 0, pages: 0, broken: [] });

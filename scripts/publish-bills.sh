@@ -4,6 +4,11 @@
 # Usage: publish-bills.sh out/bills
 set -euo pipefail
 dir="$1"
+# Never replace the live bills site with a partial one: it needs its index page and its own assets.
+if [ ! -f "$dir/index.html" ] || [ ! -d "$dir/_astro" ]; then
+  echo "Not publishing $dir: it has no index.html or _astro folder" >&2
+  exit 1
+fi
 repo="${BILLS_REPO:-git@github.com:senaterecords/bills.git}"
 key="$(mktemp)"
 trap 'rm -f "$key"' EXIT

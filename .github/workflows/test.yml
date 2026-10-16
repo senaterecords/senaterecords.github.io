@@ -2,7 +2,7 @@ name: Test
 on:
   push:
     branches: [main]
-    paths-ignore: ["data/**"]
+    paths-ignore: ["data/**", "docs/**", "*.md"]
   pull_request:
 permissions:
   contents: read

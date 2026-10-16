@@ -8,6 +8,17 @@ on:
         description: "Rebuild and publish even if nothing changed"
         type: boolean
         default: false
+  # A change to the code or the hand-kept data rebuilds the site. (The hourly run's own data commits don't trigger
+  # workflows: GitHub never starts one from a push made with the workflow's token.)
+  push:
+    branches: [main]
+    paths:
+      - "pipeline/**"
+      - "site/**"
+      - "scripts/**"
+      - "data/overrides/**"
+      - "data/rosters/**"
+      - ".github/workflows/update.yml"
 # One run at a time: a manual run during a scheduled one waits its turn.
 concurrency:
   group: update
@@ -16,6 +27,8 @@ permissions:
   contents: write
 jobs:
   update:
+    # Only main is published: a manual run started on another branch does nothing.
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 150
     outputs:
@@ -25,6 +38,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          # No token left in .git/config while the build runs third-party packages; commit-data.sh gets it alone.
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
@@ -36,21 +51,25 @@ jobs:
         env:
           NYSENATE_API_KEY: ${{ secrets.NYSENATE_API_KEY }}
         run: |
-          # Hearings are re-listed once a day, at the 7 a.m. run (New York time).
-          if [ "$(TZ=America/New_York date +%H)" = "07" ]; then extra="--hearings"; else extra=""; fi
+          # Hearings are re-listed in the morning (New York time); two hours, in case a scheduled run starts late.
+          case "$(TZ=America/New_York date +%H)" in 07|08) extra="--hearings" ;; *) extra="" ;; esac
           python -m nyleg --data data sync $extra
-      - name: Save the new raw data
-        if: steps.sync.outputs.changed == 'true'
+      - name: Save the new data
+        # New raw files, or bookkeeping (bills checked, missing or pending) that the next run must not repeat.
+        if: steps.sync.outputs.changed == 'true' || steps.sync.outputs.state_changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           bash scripts/commit-data.sh "data: sync $(date -u +%Y-%m-%dT%H:%MZ)"
       - name: Decide whether to publish
         id: go
         run: |
           # Publish when the raw data differs from what was last deployed (so a publish that failed is tried again
-          # the next hour), or when asked to rebuild.
+          # the next hour), after a change to the code, or when asked to rebuild.
           raw="$(git rev-parse HEAD:data/raw)"
           echo "raw=$raw" >> "$GITHUB_OUTPUT"
-          if [ "$raw" != "$(cat data/deployed-raw.txt 2>/dev/null)" ] || [ "${{ inputs.rebuild == true }}" = "true" ]; then
+          if [ "$raw" != "$(cat data/deployed-raw.txt 2>/dev/null)" ] || [ "${{ github.event_name }}" = "push" ] \
+            || [ "${{ inputs.rebuild == true }}" = "true" ]; then
             echo "publish=true" >> "$GITHUB_OUTPUT"
           else
             echo "publish=false" >> "$GITHUB_OUTPUT"
@@ -58,6 +77,13 @@ jobs:
       - name: Process (with the quality gate)
         if: steps.go.outputs.publish == 'true'
         run: python -m nyleg --data data process --out data/site --gate-against data/quality-deployed.json
+      # Kept even when the gate fails, which is when it is most worth reading (the run's Artifacts).
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.go.outputs.publish == 'true'
+        with:
+          name: quality
+          path: data/site/quality.json
+          retention-days: 7
       - uses: actions/setup-node@v4
         if: steps.go.outputs.publish == 'true'
         with:
@@ -77,12 +103,6 @@ jobs:
         if: steps.go.outputs.publish == 'true'
         with:
           path: out/main
-      - uses: actions/upload-artifact@v4
-        if: steps.go.outputs.publish == 'true'
-        with:
-          name: quality
-          path: data/site/quality.json
-          retention-days: 1
       # The bills site goes first: its pages carry their own assets, so it can't break, and if the main deploy then
       # fails, bills are already current and their links to main pages still work.
       - name: Publish the bills site
@@ -92,6 +112,8 @@ jobs:
         run: bash scripts/publish-bills.sh out/bills
       - name: Keep the schedule alive
         if: steps.go.outputs.publish != 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           # GitHub turns a schedule off after 60 days without activity; touch a file once a week.
           last=$(git log -1 --format=%ct)
@@ -120,6 +142,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 1
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -130,6 +153,8 @@ jobs:
           name: quality
           path: data/site
       - name: Record what is deployed
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           # The quality baseline moves only after a deploy that answers live.
           cp data/site/quality.json data/quality-deployed.json

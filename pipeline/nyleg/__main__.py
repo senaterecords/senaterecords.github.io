@@ -69,10 +69,16 @@ def new_york_now() -> datetime:
     return datetime.now(NEW_YORK).replace(tzinfo=None)
 
 
+def bookkeeping(state: dict) -> dict:
+    """The sync state worth keeping between runs: everything but the time of the last run."""
+    return {key: value for key, value in state.items() if key != "transcripts_synced_at"}
+
+
 def cmd_sync(args: argparse.Namespace) -> int:
     store = Store(Path(args.data))
     client = api_client(args.rate, args.parallel)
     now = new_york_now()
+    before = bookkeeping(store.load_state())
     result = sync.SyncResult()
     if args.backfill:
         span = years(args.backfill)
@@ -92,6 +98,8 @@ def cmd_sync(args: argparse.Namespace) -> int:
                                   today=now.date(), refresh_session=current, workers=args.parallel))
     print(f"{len(result.changed)} raw files added or updated")
     emit("changed", "true" if result.changed else "false")
+    # Bills checked, missing or pending must be kept even when no raw file changed, or the next run repeats the work.
+    emit("state_changed", "true" if bookkeeping(store.load_state()) != before else "false")
     return 0
 
 
