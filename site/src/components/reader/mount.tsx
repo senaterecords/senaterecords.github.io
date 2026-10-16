@@ -3,6 +3,7 @@
 import { createRoot } from "react-dom/client";
 import CiteTools from "../CiteTools";
 import ExportMenu from "../ExportMenu";
+import FindInTranscript from "../FindInTranscript";
 import ReaderNav from "../ReaderNav";
 import SpeakerCards from "../SpeakerCards";
 
@@ -12,4 +13,4 @@ document.body.append(host);
 createRoot(host).render(<><SpeakerCards /><CiteTools /><ReaderNav /></>);
 
 const actions = document.getElementById("rd-acts");
-if (actions) createRoot(actions).render(<ExportMenu />);
+if (actions) createRoot(actions).render(<><FindInTranscript /><ExportMenu /></>);

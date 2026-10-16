@@ -172,3 +172,40 @@ test("printing or saving as PDF leaves out the reader's pop-ups", async ({ page 
   await expect(page.locator(".scard")).toBeHidden();
   await expect(page.locator("section.turn p").first()).toBeVisible();
 });
+
+test("Find in transcript counts the matches and steps through them", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto(SESSION);
+  const find = page.getByRole("searchbox", { name: "Find in transcript" });
+  await find.fill("SENATE");
+  const count = page.locator(".fd-count");
+  await expect(count).toHaveText(/^1 of \d+$/);
+  const total = Number((await count.textContent())!.split(" of ")[1]);
+  expect(total).toBeGreaterThan(2);
+  expect(await page.evaluate(() => CSS.highlights.get("find")?.size)).toBe(total);
+  await find.press("Enter");
+  await expect(count).toHaveText(`2 of ${total}`);
+  await expect.poll(() => page.evaluate(() => {
+    const box = ([...CSS.highlights.get("find-active")!][0] as Range).getBoundingClientRect();
+    return box.height > 0 && box.top >= 0 && box.bottom <= innerHeight;
+  })).toBe(true);
+  await find.press("Shift+Enter");
+  await expect(count).toHaveText(`1 of ${total}`);
+  await find.press("Escape");
+  expect(await page.evaluate(() => CSS.highlights.get("find")?.size ?? 0)).toBe(0);
+  await page.locator("body").press("/");
+  await expect(find).toBeFocused();
+});
+
+test("on a phone, Find in transcript opens from the toolbar", async ({ page }, info) => {
+  test.skip(info.project.name !== "phone");
+  await page.goto(SESSION);
+  await page.getByRole("button", { name: "Find in transcript" }).tap();
+  const find = page.getByRole("searchbox", { name: "Find in transcript" });
+  await expect(find).toBeVisible();
+  await find.fill("senate");
+  await expect(page.locator(".fd-count")).toHaveText(/^1 of \d+$/);
+  await page.getByRole("button", { name: "Close find" }).tap();
+  await expect(find).toBeHidden();
+});
+
