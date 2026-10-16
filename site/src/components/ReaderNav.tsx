@@ -205,11 +205,11 @@ function ReaderNav() {
 
       {remarks.length > 0 && (
         <div className="remarkbar">
-          <button type="button" className="nav" aria-label="Previous remark" disabled={position <= 0} onClick={() => go(scope, position - 1)}>
+          <button type="button" className="rb-nav" aria-label="Previous remark" disabled={position <= 0} onClick={() => go(scope, position - 1)}>
             <Icon name="chevl" size={18} />
           </button>
           <span className="num">Remark {Math.max(k, 1)} of {scope.length}<small>{segment?.printNo ? `${segment.printNo} debate` : "this transcript"}</small></span>
-          <button type="button" className="nav" aria-label="Next remark" disabled={position >= scope.length - 1} onClick={() => go(scope, position + 1)}>
+          <button type="button" className="rb-nav" aria-label="Next remark" disabled={position >= scope.length - 1} onClick={() => go(scope, position + 1)}>
             <Icon name="chev" size={18} />
           </button>
         </div>

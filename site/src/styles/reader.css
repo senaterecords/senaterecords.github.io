@@ -228,8 +228,9 @@ a.hn-bill:hover { text-decoration: underline; text-underline-offset: 2px; }
   .billbar .t { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--color-ink2); font-family: var(--font-read); font-size: 14px; }
   .billbar .icon { color: var(--color-ink3); }
   .remarkbar { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; height: calc(64px + env(safe-area-inset-bottom)); background: #fff; border-top: 1px solid var(--color-rule); align-items: center; justify-content: space-between; padding: 0 12px calc(10px + env(safe-area-inset-bottom)); font-size: 13px; font-weight: 600; }
-  .remarkbar .nav { width: 44px; height: 40px; display: grid; place-items: center; border: 1px solid var(--color-rule); border-radius: 8px; color: var(--color-ink2); background: #fff; }
-  .remarkbar .nav:disabled { color: #C2C7CC; }
+  /* Its own class: the header's site navigation is .nav, whose auto margin pushed the left arrow to the middle. */
+  .remarkbar .rb-nav { width: 44px; height: 40px; display: grid; place-items: center; border: 1px solid var(--color-rule); border-radius: 8px; color: var(--color-ink2); background: #fff; }
+  .remarkbar .rb-nav:disabled { color: #C2C7CC; }
   .remarkbar small { display: block; font-weight: 450; color: var(--color-ink3); font-size: 12px; text-align: center; }
   .remarkbar > span { text-align: center; }
   .rd-notice { margin: 0 18px 12px; }

@@ -100,6 +100,18 @@ test("the phone remark bar steps through remarks", async ({ page }, info) => {
   await expect(page).toHaveURL(/#r-\d+$/);
 });
 
+test("the phone remark bar keeps its arrows at the two ends and the count in the middle", async ({ page }, info) => {
+  test.skip(info.project.name !== "phone");
+  await page.goto(SESSION);
+  const bar = (await page.locator(".remarkbar").boundingBox())!;
+  const prev = (await page.getByRole("button", { name: "Previous remark" }).boundingBox())!;
+  const next = (await page.getByRole("button", { name: "Next remark" }).boundingBox())!;
+  const label = (await page.locator(".remarkbar > span").boundingBox())!;
+  expect(prev.x - bar.x).toBeLessThanOrEqual(16);
+  expect(bar.x + bar.width - (next.x + next.width)).toBeLessThanOrEqual(16);
+  expect(Math.abs(label.x + label.width / 2 - (bar.x + bar.width / 2))).toBeLessThanOrEqual(4);
+});
+
 test("the phone calendar sheet takes the focus", async ({ page }, info) => {
   test.skip(info.project.name !== "phone");
   await page.goto("transcripts/2025-03-04-regular-session/");
