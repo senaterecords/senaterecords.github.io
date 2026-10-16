@@ -1,5 +1,6 @@
 ---
-// Every senator with a page here, A–Z by surname.
+// Every senator with a page here: A–Z by surname, narrowed by term, by current or former, or by name, and sortable by
+// remarks or length of service. Without JavaScript the full A–Z list shows.
 import Photo from "../../components/Photo.astro";
 import Base from "../../layouts/Base.astro";
 import { senatorPageSlugs, senators } from "../../lib/data";
@@ -11,7 +12,8 @@ const surname = (name: string) => {
   const words = name.split(/\s+/).filter((w) => !SUFFIX.test(w.replace(/,$/, "")));
   return words[words.length - 1] ?? name;
 };
-const sortKey = (name: string) => `${surname(name)} ${name}`.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/['’]/g, "").toLowerCase();
+const sortKey = (name: string) => fold(`${surname(name)} ${name}`);
 
 const pages = senatorPageSlugs();
 const listed = senators()
@@ -22,26 +24,55 @@ for (const s of listed) {
   const letter = sortKey(s.name).charAt(0).toUpperCase();
   groups.set(letter, [...(groups.get(letter) ?? []), s]);
 }
+// Terms are two-year sessions named by their first year; the latest one is the current term.
+const terms = [...new Set(listed.flatMap((s) => Object.keys(s.sessions).map(Number)))].sort((a, b) => b - a);
+const current = terms[0];
+const termLabel = (year: number) => `${year}–${String(year + 1).slice(2)}`;
+const thisYear = new Date().getFullYear();
+const yearsServed = (s: (typeof listed)[number]) => s.service.reduce((n, p) => n + ((p.to ?? thisYear) - p.from + 1), 0);
 ---
 <Base title="Senators" description="Every New York State senator on the record since 1993, with what each said on the floor and in hearings." wide>
   <header class="pg-head">
     <div class="pg-in pb">
       <div class="pg-title"><div>
         <h1>Senators</h1>
-        <p class="pg-meta">{plural(listed.length, "senator")} on the record since 1993</p>
+        <p class="pg-meta" id="sn-count" data-total={listed.length}>{plural(listed.length, "senator")} on the record since 1993</p>
       </div></div>
+      <div class="sn-filters">
+        <label class="sn-find"><span class="visually-hidden">Find a senator</span><input type="search" id="sn-q" placeholder="Find a senator" autocomplete="off" aria-label="Find a senator" /></label>
+        <label class="sn-select"><span>Term</span>
+          <select id="sn-term" aria-label="Term">
+            <option value="">All terms</option>
+            {terms.map((year) => <option value={year}>{termLabel(year)}</option>)}
+          </select>
+        </label>
+        <div class="seg" role="group" aria-label="Serving" id="sn-serving">
+          <button type="button" data-serving="" aria-pressed="true">All</button>
+          <button type="button" data-serving="current" aria-pressed="false">Current</button>
+          <button type="button" data-serving="former" aria-pressed="false">Former</button>
+        </div>
+        <label class="sn-select"><span>Sort</span>
+          <select id="sn-sort" aria-label="Sort">
+            <option value="">A–Z</option>
+            <option value="remarks">Most remarks</option>
+            <option value="service">Longest service</option>
+          </select>
+        </label>
+      </div>
       <nav class="az" aria-label="Jump to a letter">
         {[...groups.keys()].map((letter) => <a href={`#${letter}`}>{letter}</a>)}
       </nav>
     </div>
   </header>
-  <div class="sn">
+  <div class="sn" id="sn-list">
     {[...groups].map(([letter, rows]) => (
       <section class="sn-group" id={letter}>
         <h2 class="sec-h2">{letter}</h2>
         <ul>
           {rows.map((s) => (
-            <li class="sn-row" data-before-records={s.service[0]?.beforeRecords ? "" : undefined}>
+            <li class="sn-row" data-before-records={s.service[0]?.beforeRecords ? "" : undefined}
+              data-sessions={Object.keys(s.sessions).join(" ")} data-current={s.sessions[current] !== undefined ? "" : undefined}
+              data-remarks={s.remarks} data-years={yearsServed(s)} data-name={fold(s.name)}>
               <Photo photo={s.photo} size="sm" />
               <span class="sn-name"><a href={url(`/senators/${s.slug}/`)}>{s.name}</a><small>{serviceText(s.service)}</small></span>
               <span class="sn-count num">{plural(s.remarks, "remark")}<small>{plural(s.transcripts, "transcript")}</small></span>
@@ -50,21 +81,98 @@ for (const s of listed) {
         </ul>
       </section>
     ))}
+    <ul class="sn-flat" id="sn-flat" hidden></ul>
+    <p class="sn-none" id="sn-none" hidden>No senators match. <button type="button" id="sn-reset">Show everyone</button></p>
   </div>
 </Base>
 
+<script>
+  // Filters and sorting happen in place; the choices live in the address (?term=2025&serving=current&sort=remarks&q=…).
+  const list = document.getElementById("sn-list")!;
+  const rows = [...list.querySelectorAll<HTMLElement>(".sn-row")];
+  const groups = [...list.querySelectorAll<HTMLElement>(".sn-group")];
+  const q = document.getElementById("sn-q") as HTMLInputElement;
+  const term = document.getElementById("sn-term") as HTMLSelectElement;
+  const sort = document.getElementById("sn-sort") as HTMLSelectElement;
+  const serving = [...document.querySelectorAll<HTMLButtonElement>("#sn-serving button")];
+  const count = document.getElementById("sn-count")!;
+  const none = document.getElementById("sn-none")!;
+  const az = document.querySelector<HTMLElement>(".az")!;
+  const flatList = document.getElementById("sn-flat")!;
+  const home = new Map(rows.map((row) => [row, row.parentElement!]));
+  const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/['’]/g, "").toLowerCase().trim();
+
+  const params = new URLSearchParams(location.search);
+  q.value = params.get("q") ?? "";
+  if ([...term.options].some((o) => o.value === params.get("term"))) term.value = params.get("term")!;
+  if ([...sort.options].some((o) => o.value === params.get("sort"))) sort.value = params.get("sort")!;
+  let servingNow = ["current", "former"].includes(params.get("serving") ?? "") ? params.get("serving")! : "";
+
+  const apply = () => {
+    const words = fold(q.value).split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const row of rows) {
+      const ok = (!term.value || row.dataset.sessions!.split(" ").includes(term.value))
+        && (!servingNow || (servingNow === "current") === row.hasAttribute("data-current"))
+        && words.every((w) => row.dataset.name!.includes(w));
+      row.hidden = !ok;
+      if (ok) shown += 1;
+    }
+    // Sorted by remarks or service, the rows leave their letters for one list, in that order in the page itself (so
+    // the keyboard and screen readers follow it too); back on A–Z they return to their letters.
+    const flat = !!sort.value;
+    list.classList.toggle("flat", flat);
+    flatList.hidden = !flat;
+    if (flat) {
+      const key = sort.value === "remarks" ? "remarks" : "years";
+      for (const row of [...rows].sort((a, b) => Number(b.dataset[key]) - Number(a.dataset[key]))) flatList.append(row);
+    } else for (const row of rows) home.get(row)!.append(row);
+    for (const group of groups) group.hidden = !group.querySelector(".sn-row:not([hidden])");
+    az.hidden = flat || shown < rows.length;
+    none.hidden = shown > 0;
+    const total = Number(count.dataset.total);
+    count.textContent = shown === total ? `${total.toLocaleString("en-US")} senators on the record since 1993` : `${shown.toLocaleString("en-US")} of ${total.toLocaleString("en-US")} senators`;
+    for (const b of serving) b.setAttribute("aria-pressed", String(b.dataset.serving === servingNow));
+    const next = new URLSearchParams();
+    if (term.value) next.set("term", term.value);
+    if (servingNow) next.set("serving", servingNow);
+    if (sort.value) next.set("sort", sort.value);
+    if (q.value.trim()) next.set("q", q.value.trim());
+    history.replaceState(null, "", `${location.pathname}${next.size ? `?${next}` : ""}${location.hash}`);
+  };
+  q.addEventListener("input", apply);
+  term.addEventListener("change", apply);
+  sort.addEventListener("change", apply);
+  for (const b of serving) b.addEventListener("click", () => { servingNow = b.dataset.serving ?? ""; apply(); });
+  document.getElementById("sn-reset")!.addEventListener("click", () => { q.value = ""; term.value = ""; sort.value = ""; servingNow = ""; apply(); });
+  apply();
+</script>
+
 <style is:global>
   .az { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 14px; }
+  .az[hidden] { display: none; }
   .az a { font-size: 13px; font-weight: 650; min-width: 28px; text-align: center; padding: 3px 6px; border: 1px solid var(--color-rule); border-radius: 5px; background: #fff; color: var(--color-ink2); }
   .az a:hover { border-color: var(--color-ink); color: var(--color-ink); }
+  .sn-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 16px; }
+  .sn-find input { width: 230px; height: 34px; border: 1px solid #B9BFC6; border-radius: 6px; padding: 0 10px; font: 450 14px var(--font-ui); color: var(--color-ink); background: #fff; }
+  .sn-find input:focus { outline: 0; border-color: var(--color-ink); box-shadow: 0 0 0 3px var(--color-act-wash); }
+  .sn-select { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 600; color: var(--color-ink2); }
+  .sn-select select { height: 34px; border: 1px solid var(--color-rule); border-radius: 6px; padding: 0 8px; font: 550 13.5px var(--font-ui); color: var(--color-ink); background: #fff; }
   .sn { max-width: 1280px; margin: 0 auto; padding: 8px 32px 0; columns: 2 460px; column-gap: 48px; }
+  .sn.flat { columns: auto; max-width: 760px; margin: 0; padding-top: 18px; }
+  .sn-flat[hidden] { display: none; }
   .sn-group { break-inside: avoid; padding-top: 18px; scroll-margin-top: 12px; }
+  .sn-group[hidden], .sn-row[hidden] { display: none !important; }
   .sn-row { display: grid; grid-template-columns: 28px 1fr auto; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--color-rule2); }
   .sn-name { min-width: 0; font-weight: 600; font-size: 14.5px; }
   .sn-name a:hover { text-decoration: underline; text-underline-offset: 2px; }
   .sn-name small, .sn-count small { display: block; font-weight: 400; font-size: 12.5px; color: var(--color-ink3); }
   .sn-count { text-align: right; font-size: 13px; color: var(--color-ink2); }
+  .sn-none { padding: 24px 0; font-size: 15px; color: var(--color-ink2); }
+  .sn-none button { font: 600 15px var(--font-ui); color: var(--color-act); background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
   @media (max-width: 719.98px) {
     .sn { padding: 0 16px; columns: 1; }
+    .sn.flat { padding: 12px 16px 0; }
+    .sn-find, .sn-find input { width: 100%; }
   }
 </style>
