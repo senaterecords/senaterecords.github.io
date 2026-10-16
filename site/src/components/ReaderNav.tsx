@@ -105,7 +105,13 @@ function ReaderNav() {
     update();
     addEventListener("scroll", onScroll, { passive: true });
     addEventListener("resize", onScroll);
-    return () => { removeEventListener("scroll", onScroll); removeEventListener("resize", onScroll); };
+    // A jump can land in text the browser has not laid out yet (a content-visibility chunk); look again once it has.
+    document.addEventListener("contentvisibilityautostatechange", onScroll, true);
+    return () => {
+      removeEventListener("scroll", onScroll);
+      removeEventListener("resize", onScroll);
+      document.removeEventListener("contentvisibilityautostatechange", onScroll, true);
+    };
   }, [data.segments]);
 
   // The calendar row of the reading on screen is marked, as in the reader mock.
@@ -183,10 +189,10 @@ function ReaderNav() {
         </div>, headnote)}
 
       {who && notices && createPortal(
-        <p className="rd-who">
+        <p className="rd-who" data-role={who.closest<HTMLElement>("section.turn")?.dataset.role}>
           {who.classList.contains("k")
             ? <button type="button" className="rd-who-name" onClick={(e) => dispatchEvent(new CustomEvent("otr:card", { detail: { label: who, anchor: e.currentTarget, keyboard: e.detail === 0 } }))}><b>{who.textContent}</b></button>
-            : <b>{who.textContent}</b>}
+            : <b className="rd-who-name">{who.textContent}</b>}
           <span>continued</span>
         </p>, notices)}
 

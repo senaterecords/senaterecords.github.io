@@ -71,9 +71,18 @@
 .turn a.bref:hover { color: var(--color-act); text-decoration-color: currentColor; }
 .turn > h3.k { cursor: pointer; }
 .turn > h3.k:hover { color: var(--color-ink); }
-.turn > h3.sen { color: var(--color-ink); text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
-.turn > h3.sen:hover, .turn > h3.on { text-decoration-color: var(--color-ink); }
-.turn > h3.on { text-decoration-line: underline; text-decoration-thickness: 2px; }
+/* Speaker names sit on a quiet shade by kind of speaker: members (senators, chairs, Assembly members) cool slate, the
+   chair of the day (presiding officer, President) warm sand, the Secretary sage, witnesses lilac. All read as greys
+   and differ only in warmth. The shade reaches into the margin so the name lines up with the text. */
+/* One shade per kind of speaker, set on anything that carries the speaker's role (a turn, the speaker strip). */
+[data-role] { --tint: #EEF0F1; --tint-ink: var(--color-ink2); }
+[data-role=senator], [data-role=chair], [data-role=assembly] { --tint: #E6ECF2; --tint-ink: var(--color-ink); }
+[data-role=presiding], [data-role=president] { --tint: #F1ECE2; --tint-ink: #5C5446; }
+[data-role=secretary] { --tint: #E6EEE6; --tint-ink: #4C5B4F; }
+[data-role=guest] { --tint: #EDE9F2; --tint-ink: #4B4556; }
+.turn > h3 { background: var(--tint); color: var(--tint-ink); padding: 3px 7px 2px; margin-left: -7px; border-radius: 4px; }
+.turn > h3.k:hover { box-shadow: inset 0 0 0 1px rgba(22, 27, 34, .12); }
+.turn > h3.on { box-shadow: inset 0 0 0 1.5px rgba(22, 27, 34, .32); }
 .turn .g { position: absolute; left: 0; top: 5px; width: 96px; padding-right: 16px; text-align: right; font: 12px/1.4 var(--font-ui); color: var(--color-ink3); font-variant-numeric: tabular-nums; }
 /* Page numbers sit in the gutter, never as a rule across the text, which read as a break in the speech. A page that
    begins with a new paragraph shows its number beside that paragraph's first line. */
@@ -154,9 +163,12 @@ p > .pb i { display: none; }
 #reader-notices:has(> :not(.rd-who)) { background: var(--color-pane); padding-top: 10px; }
 /* The speaker strip floats just under the notices, over the text, so showing it never moves the transcript. */
 .rd-who { position: absolute; top: 100%; left: 0; right: 0; margin: 0 48px 0 96px; font: 17px var(--font-read); max-width: 68ch; padding: 7px 0 8px; background: var(--color-pane); border-bottom: 1px solid var(--color-rule2); display: flex; gap: 8px; align-items: baseline; }
-.rd-who-name { border: 0; background: none; padding: 0; cursor: pointer; text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
-.rd-who-name:hover { text-decoration-color: var(--color-ink); }
-.rd-who b { font: 700 12px/1.2 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink); }
+/* The name in the strip is the speaker's label again: same type, shade and size, whether or not it opens a card
+   (14px lines plus the padding give the 19px an inline label gets from the font itself). */
+.rd-who-name { border: 0; margin: 0 0 0 -7px; padding: 3px 7px 2px; border-radius: 4px; background: var(--tint); color: var(--tint-ink); font: 700 12.5px/14px var(--font-ui); letter-spacing: .06em; text-transform: uppercase; }
+.rd-who-name b { font: inherit; }
+button.rd-who-name { cursor: pointer; }
+button.rd-who-name:hover { box-shadow: inset 0 0 0 1px rgba(22, 27, 34, .12); }
 .rd-who span { font: 12.5px var(--font-ui); color: var(--color-ink3); }
 .only-bar { margin: 0 48px 14px 96px; padding: 9px 14px; background: var(--color-act-wash); border-radius: 6px; font-size: 13.5px; color: var(--color-ink); max-width: 68ch; }
 .only-bar button { font: 650 13.5px var(--font-ui); color: var(--color-act); background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 2px; }

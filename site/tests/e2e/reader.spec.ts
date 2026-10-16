@@ -101,9 +101,36 @@ test("in a long remark the speaker stays named at the top", async ({ page }) => 
   // It floats over the text: the notices strip it lives in takes no room, so nothing below it moves.
   expect(await page.locator("#reader-notices").evaluate((el) => (el as HTMLElement).offsetHeight)).toBe(0);
   await expect(strip).toContainText(/Stewart-Cousins/i);
+  // The name in the strip wears the same shade as the speaker's name in the text.
+  const shade = (sel: string) => page.locator(sel).first().evaluate((el) => getComputedStyle(el).backgroundColor);
+  expect(await shade(".rd-who .rd-who-name")).toBe(await shade("#r-15 > h3"));
+  // …and the same size: one pill, whether or not the name opens a card.
+  const size = (sel: string) => page.locator(sel).first().evaluate((el) => [Math.round(el.getBoundingClientRect().height), getComputedStyle(el).fontSize]);
+  expect(await size(".rd-who .rd-who-name")).toEqual(await size("#r-15 > h3"));
   // With her name back on screen the strip no longer names her (it may name a long turn above hers).
   await page.evaluate(() => document.querySelector("#r-15 > h3")!.scrollIntoView({ block: "center" }));
   await expect(page.locator(".rd-who", { hasText: /Stewart-Cousins/i })).toHaveCount(0);
+});
+
+test("a witness named in the speaker strip wears the witness shade, not a member's", async ({ page }) => {
+  await page.goto("transcripts/2025-02-27-joint-legislative-hearing-in-the-matter-of-the-2025-2026-executive-budget-on-taxes/");
+  await expect(page.locator("astro-island[ssr]")).toHaveCount(0); // the reader tools are running
+  await page.evaluate(() => document.fonts.ready.then(() => true)); // and the text has its final line breaks
+  // Scroll a long witness remark up until its name has just left the top of the window.
+  const id = await page.evaluate(() => {
+    const turn = [...document.querySelectorAll<HTMLElement>('section.turn[data-role="guest"]')].find((s) => s.offsetHeight > 900)!;
+    scrollTo(0, turn.querySelector("h3")!.getBoundingClientRect().bottom + scrollY + 200);
+    return turn.id;
+  });
+  const name = page.locator(".rd-who .rd-who-name");
+  await expect(name).toBeVisible();
+  const look = (sel: string) => page.locator(sel).first().evaluate((el) => {
+    const css = getComputedStyle(el.matches("button") ? el.querySelector("b")! : el);
+    return [getComputedStyle(el).backgroundColor, css.color];
+  });
+  expect(await look(".rd-who .rd-who-name")).toEqual(await look(`#${id} > h3`));
+  const size = (sel: string) => page.locator(sel).first().evaluate((el) => [Math.round(el.getBoundingClientRect().height), getComputedStyle(el).fontSize]);
+  expect(await size(".rd-who .rd-who-name")).toEqual(await size(`#${id} > h3`));
 });
 
 test("the speaker strip stays steady while scrolling through a long remark", async ({ page }) => {
@@ -138,4 +165,17 @@ test("bill numbers in the text link to the bill's page", async ({ page }) => {
   const ref = page.locator("section.turn a.bref").first();
   await expect(ref).toHaveAttribute("href", /\/bills\/2025\/[SA]\d+\/$/);
   await expect(ref).toHaveText(/^(Senate|Assembly) (Print|Bill)/);
+});
+
+test("each kind of speaker has its own quiet shade: members, the chair of the day, the Secretary, witnesses", async ({ page }) => {
+  const shade = async (url: string, role: string) => {
+    await page.goto(url);
+    return page.locator(`section[data-role="${role}"] > h3`).first().evaluate((el) => getComputedStyle(el).backgroundColor);
+  };
+  const floor = "transcripts/2025-03-04-regular-session/";
+  const hearing = "transcripts/2025-02-27-joint-legislative-hearing-in-the-matter-of-the-2025-2026-executive-budget-on-taxes/";
+  const shades = [await shade(floor, "senator"), await shade(floor, "presiding"), await shade(floor, "secretary"), await shade(hearing, "guest")];
+  for (const s of shades) expect(s).not.toBe("rgba(0, 0, 0, 0)");
+  expect(new Set(shades).size).toBe(4);
+  expect(await shade(hearing, "chair")).toBe(shades[0]); // chairs and Assembly members read as members
 });
