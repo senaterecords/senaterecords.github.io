@@ -32,6 +32,10 @@ const { title, description, wide = false, barSearch = true } = Astro.props;
       // Until an island's script starts, remember clicks on its controls so they still count (slow connections).
       // Submit buttons are left alone: their forms submit on their own.
       window.__otrEarlyClicks = [];
+      window.__otrEarlyTyped = new Map();
+      document.addEventListener("input", function (e) {
+        if (e.target instanceof HTMLInputElement && e.target.closest("astro-island[ssr]")) window.__otrEarlyTyped.set(e.target, e.target.value);
+      }, true);
       document.addEventListener("click", function (e) {
         var island = e.target instanceof Element && e.target.closest("astro-island[ssr]");
         var control = island && e.target.closest("button, [role=button], input[type=checkbox], input[type=radio]");

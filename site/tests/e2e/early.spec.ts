@@ -53,6 +53,14 @@ test("homepage controls clicked before the scripts load still take effect", asyn
   await expect(page).toHaveURL(/q=budget%20type%3Ahearing/);
 });
 
+test("text typed before the scripts load is kept and gets suggestions", async ({ page }) => {
+  await slowScripts(page);
+  await page.goto("./", { waitUntil: "commit" });
+  await page.getByRole("searchbox").pressSequentially("ye");
+  await expect(page.getByRole("option", { name: "year:" })).toBeVisible({ timeout: 10_000 });
+  await expect(page.getByRole("searchbox")).toHaveValue("ye");
+});
+
 test("searching from the homepage works even before the scripts load", async ({ page }) => {
   await page.route("**/_astro/*.js", (route) => route.abort());
   await page.goto("./");

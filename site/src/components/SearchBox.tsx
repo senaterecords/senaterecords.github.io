@@ -1,7 +1,9 @@
 // The search box: record filter, field, example searches and the Search tips panel (spec 9.1, "Homepage" mocks).
 // No motion anywhere: nothing animates, flips or slides.
-import { useEffect, useId, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { useEffect, useId, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
+import { replaceToken } from "../lib/suggest";
 import { url } from "../lib/url";
+import { useSuggestions, type Suggestion } from "./suggestions";
 import { Icon, replayEarlyClicks } from "./ui";
 
 type Scope = "all" | "floor" | "hearing";
@@ -46,8 +48,43 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
   const tipsPanel = useRef<HTMLDivElement>(null);
   const tipsId = useId();
   const form = useRef<HTMLFormElement>(null);
+  const [caret, setCaret] = useState<number | null>(null);
+  const [acOpen, setAcOpen] = useState(false);
+  const [active, setActive] = useState(0);
+  const listId = useId();
+  const { token, groups } = useSuggestions(value, caret, acOpen);
+  const items = groups.flatMap((g) => g.items);
+  const showList = acOpen && items.length > 0;
 
-  useEffect(() => replayEarlyClicks(form.current), []);
+  useEffect(() => setActive(0), [token?.start, token?.field, token?.text]);
+
+  const pick = (s: Suggestion) => {
+    if (!token) return;
+    const next = replaceToken(value, token, s.value, s.trailingSpace);
+    setValue(next.value);
+    setCaret(next.caret);
+    requestAnimationFrame(() => { input.current?.focus(); input.current?.setSelectionRange(next.caret, next.caret); });
+  };
+  const onKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    if (!showList) return;
+    if (e.key === "ArrowDown") { e.preventDefault(); setActive((a) => (a + 1) % items.length); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); setActive((a) => (a - 1 + items.length) % items.length); }
+    else if (e.key === "Enter") { e.preventDefault(); pick(items[Math.min(active, items.length - 1)]); }
+    else if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); setAcOpen(false); }
+  };
+  const track = () => setCaret(input.current?.selectionStart ?? null);
+
+  useEffect(() => {
+    // Text typed before this island started is kept, with its suggestions if the field still has focus.
+    const el = input.current;
+    const typed = el?.value || window.__otrEarlyTyped?.get(el!) || "";
+    if (el && typed && typed !== initial) {
+      setValue(typed);
+      setCaret(typed.length);
+      if (document.activeElement === el) setAcOpen(true);
+    }
+    replayEarlyClicks(form.current);
+  }, []);
 
   useEffect(() => {
     const narrow = window.matchMedia("(max-width: 719.98px)");
@@ -103,11 +140,42 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
           <Icon name="search" size={20} />
           <span className="visually-hidden">Search the record</span>
           <input ref={input} type="search" name="q" value={value} placeholder={placeholder} autoComplete="off" spellCheck={false}
-            onChange={(e) => setValue(e.target.value)} />
+            aria-autocomplete="list" aria-controls={showList ? listId : undefined}
+            aria-activedescendant={showList ? `${listId}-${active}` : undefined}
+            onChange={(e) => { setValue(e.target.value); setCaret(e.target.selectionStart); setAcOpen(true); }}
+            onKeyDown={onKeyDown} onKeyUp={track} onClick={track} onBlur={() => setAcOpen(false)} onFocus={() => setAcOpen(true)} />
         </label>
         <button type="submit" className="btn-primary sbx-go" aria-label="Search">
           <span className="sbx-go-text">Search</span><Icon name="arrow" size={18} className="sbx-go-icon" />
         </button>
+        {showList && (
+          <div className="acbox" id={listId} role="listbox" aria-label="Suggestions">
+            {(() => {
+              let n = -1;
+              return groups.map((g, gi) => (
+                <div key={gi} role="group" aria-label={g.heading}>
+                  {g.heading && <h4 aria-hidden="true">{g.heading}</h4>}
+                  {g.items.map((s) => {
+                    n += 1;
+                    const index = n;
+                    return (
+                      <div key={s.id} id={`${listId}-${index}`} role="option" aria-selected={index === active}
+                        className={`ac-row${index === active ? " on" : ""}`}
+                        onMouseDown={(e) => e.preventDefault()} onMouseEnter={() => setActive(index)} onClick={() => pick(s)}>
+                        {s.person && (s.photo
+                          ? <img className="photo photo-sm" src={s.photo} alt="" width={28} height={36} />
+                          : <span className="photo photo-sm empty" aria-hidden="true"><Icon name="person" size={24} /></span>)}
+                        <span className="ac-main"><span className="ac-nm">{s.label}</span>{s.detail && <span className="ac-mt">{s.detail}</span>}</span>
+                        {s.count && <span className="ac-cnt num">{s.count}</span>}
+                      </div>
+                    );
+                  })}
+                </div>
+              ));
+            })()}
+            <div className="ac-foot" aria-hidden="true"><span><kbd>↑</kbd><kbd>↓</kbd>choose</span><span><kbd>Enter</kbd>select</span><span><kbd>Esc</kbd>close</span></div>
+          </div>
+        )}
       </div>
       <div className="sbx-under">
         {variant === "home" && (

@@ -11,7 +11,7 @@ export function Icon({ name, size = 16, className }: { name: IconName; size?: nu
   );
 }
 
-declare global { interface Window { __otrEarlyClicks?: Element[] } }
+declare global { interface Window { __otrEarlyClicks?: Element[]; __otrEarlyTyped?: Map<Element, string> } }
 
 /** Clicks made inside this island before it started (queued by Base.astro), replayed now that it can answer them. */
 export function replayEarlyClicks(root: Element | null) {
