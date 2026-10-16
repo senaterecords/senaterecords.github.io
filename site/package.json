@@ -10,7 +10,8 @@
     "fixture": "node scripts/make-fixture.mjs",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "check": "node scripts/check-size.mjs && node scripts/check-links.mjs"
+    "check": "node scripts/check-size.mjs && node scripts/check-links.mjs",
+    "split": "node scripts/split-sites.mjs dist ../out"
   },
   "dependencies": {
     "@astrojs/react": "7.1.0",
