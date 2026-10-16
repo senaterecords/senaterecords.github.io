@@ -192,7 +192,7 @@ test("while results load, placeholder rows shimmer and the page says what it is 
   await page.route("**/pagefind/fragment/**", async (route) => { await new Promise((r) => setTimeout(r, 1500)); await route.continue(); });
   await page.goto("search/?q=budget");
   await expect(page.locator(".rrow.skel").first()).toBeVisible();
-  await expect(page.getByRole("status")).toContainText(/Checking .*\d+ transcripts? that use(s)? these words/);
+  await expect(page.getByRole("status")).toContainText(/Searching .*\d+ possible transcripts?/);
   await expect(page.locator("[data-result]").first()).toBeVisible({ timeout: 15000 });
   await expect(page.locator(".rrow.skel")).toHaveCount(0);
 });

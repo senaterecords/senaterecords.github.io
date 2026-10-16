@@ -90,3 +90,18 @@ test("senator: suggests senators only", async ({ page }) => {
   await expect(list.getByRole("option", { name: /Liz Krueger/ })).toBeVisible();
   await expect(list.getByRole("group", { name: /Assembly/ })).toHaveCount(0);
 });
+
+test("the search box in the header suggests too, on every page", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // phones reach search from the menu
+  await page.goto("browse/");
+  const box = page.getByRole("searchbox", { name: "Search transcripts" });
+  await box.pressSequentially("senator:kr");
+  await expect(page.getByRole("listbox").getByRole("option", { name: /Liz Krueger/ })).toBeVisible();
+  await page.keyboard.press("ArrowDown");
+  await page.keyboard.press("Enter");
+  await expect(box).toHaveValue("senator:liz-krueger ");
+  await box.pressSequentially("budget");
+  await page.keyboard.press("Enter");
+  await expect(page).toHaveURL(/search\/\?q=senator(%3A|:)liz-krueger(%20|\+)budget/);
+});
+

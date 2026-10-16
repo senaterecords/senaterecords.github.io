@@ -1,6 +1,6 @@
 // The search box: record filter, field, example searches and the Search tips panel (spec 9.1, "Homepage" mocks).
 // No motion anywhere: nothing animates, flips or slides.
-import { useEffect, useId, useLayoutEffect, useRef, useState, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
+import { useEffect, useId, useLayoutEffect, useRef, useState, type ChangeEvent, type FormEvent, type KeyboardEvent, type ReactNode } from "react";
 import { replaceToken } from "../lib/suggest";
 import { url } from "../lib/url";
 import { useSuggestions, type Suggestion } from "./suggestions";
@@ -40,7 +40,7 @@ const EITHER = "speaker:Krueger speaker:Lanza";
 const LONG_PLACEHOLDER = "Search for a senator, a bill, or what was said";
 const SHORT_PLACEHOLDER = "Search a senator, bill or words";
 
-export default function SearchBox({ variant = "home", initial = "" }: { variant?: "home" | "search"; initial?: string }) {
+export default function SearchBox({ variant = "home", initial = "" }: { variant?: "home" | "search" | "bar"; initial?: string }) {
   const [value, setValue] = useState(initial);
   const [scope, setScope] = useState<Scope>("all");
   const [tipsOpen, setTipsOpen] = useState(false);
@@ -144,6 +144,53 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
     <button type="button" className="chip" onClick={() => fill(text)}>{text}</button>
   );
 
+  const field = {
+    ref: input, type: "search", name: "q", value, autoComplete: "off", spellCheck: false,
+    "aria-autocomplete": "list" as const, "aria-controls": showList ? listId : undefined,
+    "aria-activedescendant": showList && active >= 0 ? `${listId}-${active}` : undefined,
+    onChange: (e: ChangeEvent<HTMLInputElement>) => { setValue(e.target.value); setCaret(e.target.selectionStart); setAcOpen(true); },
+    onKeyDown, onKeyUp: track, onClick: track, onBlur: () => setAcOpen(false), onFocus: () => setAcOpen(true),
+  };
+
+  const suggestionList = showList && (
+    <div ref={list} className="acbox" id={listId} role="listbox" aria-label="Suggestions">
+      {(() => {
+        let n = -1;
+        return groups.map((g, gi) => (
+          <div key={gi} role="group" aria-label={g.heading}>
+            {g.heading && <h4 aria-hidden="true">{g.heading}</h4>}
+            {g.items.map((s) => {
+              n += 1;
+              const index = n;
+              return (
+                <div key={s.id} id={`${listId}-${index}`} role="option" aria-selected={index === active}
+                  className={`ac-row${index === active ? " on" : ""}`}
+                  onMouseDown={(e) => e.preventDefault()} onMouseEnter={() => setActive(index)} onClick={() => pick(s)}>
+                  {s.person && (s.photo
+                    ? <img className="photo photo-sm" src={s.photo} alt="" width={28} height={36} />
+                    : <span className="photo photo-sm empty" aria-hidden="true"><Icon name="person" size={24} /></span>)}
+                  <span className="ac-main"><span className="ac-nm">{s.label}</span>{s.detail && <span className="ac-mt">{s.detail}</span>}</span>
+                  {s.count && <span className="ac-cnt num">{s.count}</span>}
+                </div>
+              );
+            })}
+          </div>
+        ));
+      })()}
+      <div className="ac-foot" aria-hidden="true"><span><kbd>↑</kbd><kbd>↓</kbd>choose</span><span><kbd>Enter</kbd>select</span><span><kbd>Esc</kbd>close</span></div>
+    </div>
+  );
+
+  // The header's box on every other page: the same suggestions, in the bar's compact look; Enter searches.
+  if (variant === "bar") return (
+    <form ref={form} className="bar-search sbx-bar" role="search" action={url("/search/")} method="get" onSubmit={submit}>
+      <Icon name="search" size={17} />
+      <input {...field} placeholder="Search transcripts" aria-label="Search transcripts" />
+      <kbd aria-hidden="true">/</kbd>
+      {suggestionList}
+    </form>
+  );
+
   return (
     <form ref={form} className={`sbx sbx-${variant}`} role="search" action={url("/search/")} method="get" onSubmit={submit}>
       {variant === "home" && (
@@ -157,11 +204,7 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
         <label className="sbx-field">
           <Icon name="search" size={20} />
           <span className="visually-hidden">Search the record</span>
-          <input ref={input} type="search" name="q" value={value} placeholder={placeholder} autoComplete="off" spellCheck={false}
-            aria-autocomplete="list" aria-controls={showList ? listId : undefined}
-            aria-activedescendant={showList && active >= 0 ? `${listId}-${active}` : undefined}
-            onChange={(e) => { setValue(e.target.value); setCaret(e.target.selectionStart); setAcOpen(true); }}
-            onKeyDown={onKeyDown} onKeyUp={track} onClick={track} onBlur={() => setAcOpen(false)} onFocus={() => setAcOpen(true)} />
+          <input {...field} placeholder={placeholder} />
         </label>
         <button type="submit" className="btn-primary sbx-go" aria-label="Search">
           <span className="sbx-go-text">Search</span><Icon name="arrow" size={18} className="sbx-go-icon" />

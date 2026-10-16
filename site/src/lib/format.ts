@@ -118,8 +118,9 @@ export const plural = (n: number, noun: string) => `${count(n)} ${noun}${n === 1
 export function resultCounts(n: { remarks: number; transcripts: number; read: number; total: number }): { main: string; sub: string } {
   return n.read >= n.total
     ? { main: plural(n.remarks, "remark"), sub: `in ${plural(n.transcripts, "transcript")}` }
-    // The index finds transcripts that use the words anywhere; the page checks each one for remarks that hold them.
-    : { main: `${plural(n.remarks, "remark")} so far`, sub: `checked ${count(n.read)} of ${count(n.total)} transcripts that use these words` };
+    // "Possible": the index knows which transcripts have all the words somewhere; the page searches each one for remarks
+    // where they come together (in one remark, or within NEAR's distance).
+    : { main: `${plural(n.remarks, "remark")} so far`, sub: `searched ${count(n.read)} of ${count(n.total)} possible transcripts` };
 }
 
 const PREFIX = /^(SENATOR|ACTING PRESIDENT|ASSEMBLYMAN|ASSEMBLYWOMAN|ASSEMBLYMEMBER|ASSEMBLY MEMBER|CHAIRMAN|CHAIRWOMAN|CHAIRPERSON|CHAIR)\s+/i;

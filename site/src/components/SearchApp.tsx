@@ -21,6 +21,7 @@ import { clientOnly, Icon } from "./ui";
 
 const PAGE = 20;      // transcripts read per batch
 const READERS = 6;    // fragments read at once
+const POSSIBLE = "Transcripts with all your words somewhere in them; each is searched for remarks where the words come together.";
 const SHOW = 25;      // remarks shown at a time
 const LOAD_FAILED = "Search couldn't load. Check your connection and try again.";
 const getJson = jsonCache(url);
@@ -302,7 +303,7 @@ function SearchApp() {
     setShown((n) => n + SHOW);
   };
   const reading = phase === "reading" && batchSize > 0
-    ? `Checking ${total > batchSize ? `${batchSize.toLocaleString("en-US")} of ${total.toLocaleString("en-US")}` : batchSize.toLocaleString("en-US")} ${total === 1 ? "transcript that uses" : "transcripts that use"} these words…`
+    ? `Searching ${total > batchSize ? `${batchSize.toLocaleString("en-US")} of ${total.toLocaleString("en-US")}` : batchSize.toLocaleString("en-US")} possible ${total === 1 ? "transcript" : "transcripts"}…`
     : "Searching the record…";
 
   // Export: what the page has found so far, as a Word document or a spreadsheet.
@@ -392,7 +393,7 @@ function SearchApp() {
               ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
               : (() => {
                 const heading = resultCounts({ remarks: remarkCount, transcripts: transcriptCount, read: loaded, total });
-                return <h1 className="num">{heading.main} <span>{heading.sub}</span></h1>;
+                return <h1 className="num">{heading.main} <span title={loaded < total ? POSSIBLE : undefined}>{heading.sub}</span></h1>;
               })()}
             {status === "loading" && rows.length > 0 && (
               <span className="sr-time num" role="status"><span className="sr-spin" aria-hidden="true" />reading {loaded.toLocaleString("en-US")} of {target.toLocaleString("en-US")} transcripts…</span>

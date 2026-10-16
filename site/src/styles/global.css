@@ -137,6 +137,9 @@
   .bar-search input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: 450 15px var(--font-ui); color: var(--color-ink); }
   .bar-search input::placeholder { color: var(--color-ink3); opacity: 1; }
   .bar-search kbd { color: var(--color-ink3); border-bottom-width: 1px; }
+  /* Its suggestions open under it, at least as wide as the homepage's list needs. */
+  .sbx-bar { position: relative; }
+  .sbx-bar .acbox { left: 0; right: auto; top: calc(100% + 6px); width: max(100%, 440px); }
 
   /* page header band and two columns (senator, bill, bills, browse pages) */
   .pg-head { background: var(--color-pane); border-bottom: 1px solid var(--color-rule); }
