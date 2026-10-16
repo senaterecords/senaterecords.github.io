@@ -450,12 +450,14 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
 
     # Assembly members who speak (joint hearings): card details only, they have no pages here.
     members = {}
+    latest_assembly = max((max(m.districts) for m in assembly.senators.values() if m.districts), default=0)
     for member in assembly.senators.values():
         if member.slug in assembly_seen:
             members[member.slug] = {"memberId": member.member_id, "name": member.full_name,
                                     "sessions": {str(k): v for k, v in sorted(member.districts.items())},
                                     "photo": _copy_photo(store, member, out, "photos/assembly"),
-                                    "officialUrl": official_url("assembly", member.member_id, member.full_name, official)}
+                                    "officialUrl": official_url("assembly", member.member_id, member.full_name, official,
+                                                                current=bool(member.districts) and max(member.districts) == latest_assembly)}
     write_json(out / "assembly.json", members)
 
     by_prefix: dict[str, dict[str, int]] = defaultdict(dict)

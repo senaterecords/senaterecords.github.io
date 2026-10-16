@@ -54,3 +54,93 @@
   url: https://www.nysenate.gov/senators/christopher-j-ryan  # Christopher Ryan
 - member: senate:1575
   url: https://www.nysenate.gov/senators/jeremy-j-zellner  # Jeremy Zellner
+
+# Assembly addresses that differ from the name pattern, matched by district to the member directory
+# (https://nyassembly.gov/mem/) in a browser on 2026-10-16. Former members get no address: the Assembly site
+# removes their pages. Members who left during the 2025-26 session are listed with null.
+- member: assembly:571
+  url: https://nyassembly.gov/mem/Al-Stirpe  # Albert A. Stirpe, district 127
+- member: assembly:1566
+  url: https://nyassembly.gov/mem/Andrea-K-Bailey  # Andrea Bailey, district 133
+- member: assembly:1570
+  url: https://nyassembly.gov/mem/Andrew-M-Molitor  # Andrew Molitor, district 150
+- member: assembly:1482
+  url: https://nyassembly.gov/mem/Anna-R-Kelles  # Anna Kelles, district 125
+- member: assembly:1120
+  url: null  # Billy Jones, district 115 (left during the session)
+- member: assembly:1244
+  url: https://nyassembly.gov/mem/Charles-D-Fall  # Charles Fall, district 61
+- member: assembly:474
+  url: https://nyassembly.gov/mem/Charles-D-Lavine  # Charles Lavine, district 13
+- member: assembly:1539
+  url: https://nyassembly.gov/mem/Chris-Eachus  # Christopher Eachus, district 99
+- member: assembly:636
+  url: https://nyassembly.gov/mem/Christopher-S-Friend  # Christopher Friend, district 124
+- member: assembly:591
+  url: https://nyassembly.gov/mem/Crystal-D-Peoples-Stokes  # Crystal Peoples-Stokes, district 141
+- member: assembly:1556
+  url: https://nyassembly.gov/mem/Daniel-J-Norber  # Daniel Norber, district 16
+- member: assembly:480
+  url: https://nyassembly.gov/mem/David-G-McDonough  # David McDonough, district 14
+- member: assembly:484
+  url: https://nyassembly.gov/mem/David-I-Weprin  # David Weprin, district 24
+- member: assembly:519
+  url: https://nyassembly.gov/mem/Deborah-J-Glick  # Deborah Glick, district 66
+- member: assembly:576
+  url: https://nyassembly.gov/mem/Donna-A-Lupardo  # Donna Lupardo, district 123
+- member: assembly:610
+  url: https://nyassembly.gov/mem/Edward-C-Braunstein  # Edward Braunstein, district 26
+- member: assembly:608
+  url: https://nyassembly.gov/mem/Edward-P-Ra  # Edward Ra, district 19
+- member: assembly:900
+  url: https://nyassembly.gov/mem/Erik-M-Dilan  # Erik Dilan, district 54
+- member: assembly:1565
+  url: https://nyassembly.gov/mem/Gabriella-A-Romero  # Gabriella Romero, district 109
+- member: assembly:1144
+  url: null  # Harvey Epstein, district 74 (left during the session)
+- member: assembly:1511
+  url: https://nyassembly.gov/mem/Jake-Blumencranz  # Jake Ryan Blumencranz, district 15
+- member: assembly:1465
+  url: https://nyassembly.gov/mem/Jarett-Gandolfo  # Jerett Gandolfo, district 7
+- member: assembly:1259
+  url: https://nyassembly.gov/mem/Jonathan-G-Jacobson  # Jonathan Jacobson, district 104
+- member: assembly:1569
+  url: https://nyassembly.gov/mem/Joe-Sempolinski  # Joseph Sempolinski, district 148
+- member: assembly:1461
+  url: https://nyassembly.gov/mem/Keith-P-Brown  # Keith Brown, district 12
+- member: assembly:631
+  url: https://nyassembly.gov/mem/Ken-Blankenbush  # Kenneth Blankenbush, district 117
+- member: assembly:1459
+  url: https://nyassembly.gov/mem/Khaleel-M-Anderson  # Khaleel Anderson, district 31
+- member: assembly:1558
+  url: https://nyassembly.gov/mem/Larinda-C-Hooks  # Larinda Hooks, district 35
+- member: assembly:896
+  url: https://nyassembly.gov/mem/Latrice-M-Walker  # Latrice Walker, district 55
+- member: assembly:520
+  url: https://nyassembly.gov/mem/Linda-B-Rosenthal  # Linda Rosenthal, district 67
+- member: assembly:1536
+  url: https://nyassembly.gov/mem/Matt-Slater  # Matthew Slater, district 94
+- member: assembly:1561
+  url: https://nyassembly.gov/mem/Micah-C-Lasher  # Micah Lasher, district 69
+- member: assembly:1245
+  url: https://nyassembly.gov/mem/Michael-Reilly  # Mike Reilly, district 62
+- member: assembly:1258
+  url: https://nyassembly.gov/mem/Nader-J-Sayegh  # Nader Sayegh, district 90
+- member: assembly:1567
+  url: https://nyassembly.gov/mem/Patrick-J-Chludzinski  # Patrick Chludzinski, district 143
+- member: assembly:1564
+  url: https://nyassembly.gov/mem/Paula-Elaine-Kay  # Paula Kay, district 100
+- member: assembly:635
+  url: https://nyassembly.gov/mem/Philip-A-Palmesano  # Philip Palmesano, district 132
+- member: assembly:906
+  url: https://nyassembly.gov/mem/Rebecca-A-Seawright  # Rebecca Seawright, district 76
+- member: assembly:1529
+  url: https://nyassembly.gov/mem/Sam-Pirozzolo  # Samuel Pirozzolo, district 63
+- member: assembly:1543
+  url: https://nyassembly.gov/mem/Scott-Bendett  # Scott H. Bendett, district 107
+- member: assembly:1553
+  url: https://nyassembly.gov/mem/Tommy-John-Schiavoni  # Tommy Schiavoni, district 1
+- member: assembly:570
+  url: https://nyassembly.gov/mem/William-B-Magnarelli  # William Magnarelli, district 129
+- member: assembly:1469
+  url: null  # Zohran Mamdani, district 36 (left during the session)

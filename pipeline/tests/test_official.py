@@ -33,3 +33,10 @@ def test_check_urls_reports_only_pages_that_do_not_answer_200():
     urls = [("Liz Krueger", "https://www.nysenate.gov/senators/liz-krueger"),
             ("Nobody", "https://www.nysenate.gov/senators/nobody")]
     assert check_urls(urls, client, sleep=lambda _: None) == [("Nobody", "https://www.nysenate.gov/senators/nobody", 404)]
+
+
+def test_former_assembly_members_have_no_official_page():
+    # nyassembly.gov keeps pages only for sitting members; a link to a former member's page is a 404.
+    assert official_url("assembly", 1500, "Edward P. Ra", {}, current=True) == "https://nyassembly.gov/mem/Edward-P-Ra"
+    assert official_url("assembly", 1501, "Zohran Kwame Mamdani", {}, current=False) is None
+    assert official_url("assembly", 1501, "Zohran Kwame Mamdani", {"assembly:1501": "https://example.org"}, current=False) == "https://example.org"
