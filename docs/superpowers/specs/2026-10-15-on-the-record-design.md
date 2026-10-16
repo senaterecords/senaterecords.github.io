@@ -247,7 +247,7 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 - **Instant suggestions:** as you type, small JSON lists (`senators.json` and a bill index) offer "Senator Marisol Ortega" or "S4597-A" directly.
 - **Shortcut suggestions:** typing a shortcut opens a suggestion list. `speaker:` lists senators (photo, district, years served, remarks), then Assembly members who speak in hearings. Any part of the name matches (first, middle, last, either half of a double-barrelled name), ignoring case, accents and apostrophes, with the matched letters in bold. A shared surname lists every holder with their years, so the user picks instead of the search guessing; a `speaker:` left ambiguous on Enter asks "Which Smith?". `year:` lists years with transcript counts, `bill:` lists bills from a bill index split by print-number prefix (a small new pipeline output), `type:` lists floor sessions and hearings, and a partial shortcut ("sp") suggests the shortcut itself. Arrow keys, Enter and Esc work. Nicknames outside the official name need an alias list if they come up.
 - **The query layer (our code in the browser):**
-  - parses `"exact phrase"`, `AND` (also the default between words), `OR`, `NOT` or `-term`, `NEAR` (within a few words, checked in the remark text), `speaker:`, `bill:`, `year:` (one year or a range such as `2015-2019`), `type:` (`floor` or `hearing`) and `committee:`; the Search tips panel lists them in two groups, "Words" and "Narrow it down". On the homepage, three example searches sit under the box (click to fill it in; hover shows what each finds) beside a "Search tips" link that opens a panel listing every option with an example and a plain description, ending with a mixed example. No motion
+  - parses `"exact phrase"`, `AND` (also the default between words), `OR`, `NOT` or `-term`, `NEAR` (within 10 words; `NEAR/n` within n; checked in the remark text), `speaker:`, `bill:`, `year:` (one year or a range such as `2015-2019`), `type:` (`floor` or `hearing`) and `committee:`; the Search tips panel lists them in two groups, "Words" and "Narrow it down". On the homepage, three example searches sit under the box (click to fill it in; hover shows what each finds) beside a "Search tips" link that opens a panel listing every option with an example and a plain description, ending with a mixed example. No motion
   - turns field prefixes into Pagefind filters
   - runs one Pagefind search per OR branch and merges the results
   - removes remarks that contain any `-term`
@@ -255,8 +255,12 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
   - reads each matching page's text straight from its Pagefind fragment (native gzip), not through Pagefind's `data()`, which builds excerpts the site never shows (measured: 6.6 s against 0.2 s for 20 long transcripts); pages are read a few at a time and their remarks appear in ranking order as they arrive, 25 at a time
   - `bill:S4597` is that number in any session; `bill:S4597/2025` (either year) is that session's bill, which picking a bill suggestion inserts
   - while results load, result-shaped placeholder rows shimmer (still when the reader prefers reduced motion) and a status line says what is happening
-  - **keeps only the named speaker's own remarks** when `speaker:` is used, by checking each sub-result's speaker heading
-  - supports "near" by checking remark text
+  - **keeps only the named speaker's own remarks** when `speaker:` is used, by checking each sub-result's speaker heading (presiding turns left out). `speaker:` covers senators and Assembly members; `senator:` is the same among senators only (2026-10-16)
+  - several values of one shortcut mean any of them (`speaker:Krueger speaker:Lanza`, `year:2019 year:2021`, two `committee:`); different shortcuts must all hold. A lowercase "and" means AND (2026-10-16)
+  - supports `NEAR` (within 10 words) and `NEAR/n` (within n words), either side a word or a phrase, by checking remark text (2026-10-16)
+  - matches within one remark by default; when no single remark has every term but transcripts do, it says so and offers the remarks of those transcripts ("Show matches across a whole transcript") (2026-10-16)
+  - a search with only filters looks up one hidden word every indexed transcript holds, because Pagefind with no word loads its whole index (measured 73 MB for `speaker:luis-r-sepulveda`); such searches read newest first (2026-10-16)
+  - facets: a group in use is counted without its own choice so other values stay listed to add; top 10 (8 years, newest first) with "All N …"; the heading says "so far" until every matching transcript is read (2026-10-16)
   - suggests "Did you mean…" from the `words/` vocabulary when a search returns nothing
 - **Known limits:**
   - no automatic typo correction (only the suggestion)
@@ -290,27 +294,20 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 | Pro forma legislative days | 5,505 | mostly 1993–2023 (almost none listed after 2023) |
 | Public hearings | 261 | 2011–2026 (none in the API before 2011) |
 
-- **Size, measured on the full build (2026-10-16):** 59,635 pages built from the full archive in 456 s on a 16-thread desktop.
-  - **Total: 935.5 MB**, which passes the 800 MB warning and stays under the 950 MB stop. The first build was 1,460.5 MB.
-  - **By folder:** transcripts 478.0 MB (8,063 pages), bills 244.4 MB (51,289 pages), Pagefind 163.3 MB, senators 39.5 MB, data 6.2 MB, browse 2.1 MB, scripts and styles 1.3 MB, photos 0.8 MB.
-  - **Pagefind** indexes 2,558 pages (floor sessions and hearings): 89 MB of fragments and 73 MB of index.
-  - **What got it under:**
-    - stylesheets linked, not inlined, and no scoped-style attributes;
-    - an icon sprite;
-    - the reader's tools mounted by one shared script rather than Astro islands;
-    - leaner turn markup (the speaker key and page once per turn, in the label's id);
-    - voters on bill pages listed as plain names;
-    - packed reader data;
-    - pro forma legislative days kept as pages but without the reader's tools and outside the search index;
-    - attribute quotes dropped after the build.
-  - **Headroom:** about 14 MB to the stop at the root address. Growth is roughly 85 transcripts and hearings a year, plus their bills, around 20 MB a year. Serving under a project path such as `/ontherecord/` adds about 21 MB (12 characters on each of 1.79 million internal links). Plan 3 decides the address and, before growth reaches the stop, where to put the overflow (see Fallbacks).
+- **Two GitHub Pages sites (decided 2026-10-16):** the main site at the root of the free organization `ontherecord-ny` (`ontherecord-ny.github.io`), and the bill pages as their own site, a second repository named `bills` served at `/bills/` on the same address, so every address stays as it is. Each site has its own 1 GB limit and bandwidth allowance.
+- **Size, measured on the final full build (2026-10-16):** 59,635 pages from the full archive in about 470 s on a 16-thread desktop when nothing else runs; the link check takes about 3.5 minutes more.
+  - **Main site: 709.6 MB.** Transcripts 495.1 MB (8,063 pages), Pagefind 164.6 MB (2,558 pages indexed: floor sessions and hearings), senators 39.5 MB, data 6.2 MB, browse 2.1 MB, scripts and styles 1.3 MB, photos 0.8 MB.
+  - **Bills site: 296.7 MB** (51,289 pages).
+  - **0 broken links** of 3,291,954 internal links.
+  - **How it got here:** the first build was 1,460.5 MB in one site. Cuts that change nothing a reader sees (linked stylesheets without scoped attributes, an icon sprite, one shared reader script, leaner turn markup, packed reader data, shorter attributes) brought it to 935.5 MB; splitting off the bills then made room to restore what had been cut for size (reader tools on pro forma days, voter links on bill pages) and to link bill numbers in the text (about 105,000 links).
+  - **Headroom:** about 240 MB on the main site and 650 MB on the bills site below the 950 MB stop. Growth is roughly 85 transcripts and hearings a year, plus their bills, around 20 MB a year across both.
 - **Speed, measured on the largest transcript** (2003-06-19, 1.25 MB of HTML): first contentful paint 608–1,136 ms on a cold browser and 56 ms warm; 0 ms of long tasks while scrolling 20 screens. React windowing is not needed.
 - **Guardrails:**
   - A warning when the built site passes 800 MB.
   - The build refuses to publish above 950 MB.
 - **Fallbacks:**
-  - Pro forma legislative days: done in part (no reader tools, out of the index). Grouping them by month would save about 25 MB more.
-  - Bill pages for bills before 2009 (21,289 pages, about 100 MB) could move to a second GitHub Pages site, which has its own 1 GB limit.
+  - Pro forma legislative days are out of the search index. Grouping them by month would save about 25 MB more if ever needed.
+  - The bill pages already live in their own site; pre-2009 bills (21,289 pages, about 100 MB) could move to a third if that site ever fills.
   - Put Cloudflare's free proxy in front of GitHub Pages if bandwidth becomes a problem.
 
 ## 11. Error handling
