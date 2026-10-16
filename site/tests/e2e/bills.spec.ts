@@ -38,3 +38,10 @@ test("the bill index serves bill suggestions", async ({ request, baseURL }) => {
   const rows = await response.json();
   expect(rows.some((r: { printNo: string }) => r.printNo.startsWith("S50025"))).toBe(true);
 });
+
+test("the floor vote shown first is the one from the debate on the page", async ({ page }) => {
+  await page.goto("bills/2025/S172/");
+  const side = page.getByRole("complementary");
+  await expect(side.getByRole("heading", { name: /^Floor vote · Mar 4, 2025$/ })).toBeVisible();
+  await expect(side.getByText(/Later vote · Jun 4, 2026/)).toBeVisible();
+});

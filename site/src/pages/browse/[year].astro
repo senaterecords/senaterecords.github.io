@@ -24,7 +24,7 @@ for (const t of list) {
   months.set(m, [...(months.get(m) ?? []), t]);
 }
 
-const title = (t: TranscriptSummary) => (legislative(t) && t.kind === "floor" ? "Legislative day" : transcriptTitle(t));
+const title = (t: TranscriptSummary) => transcriptTitle(t);
 const detail = (t: TranscriptSummary) => {
   if (t.kind === "hearing") return t.committees.map(hearingTitle).join(" · ") || "Public hearing";
   if (legislative(t) && !t.speakers) return "No business conducted";

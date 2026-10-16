@@ -30,8 +30,10 @@ import Base from "../layouts/Base.astro";
   .fg { margin-bottom: 20px; }
   .fg h3 { font-size: 13px; font-weight: 700; margin-bottom: 8px; }
   .fg-row { display: flex; width: 100%; align-items: center; gap: 9px; font: 13.5px var(--font-ui); color: var(--color-ink); padding: 3.5px 0; background: none; border: 0; text-align: left; }
-  .fg-row:hover span { text-decoration: underline; text-underline-offset: 2px; }
-  .fg-row span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .fg-row:hover .fg-name { text-decoration: underline; text-underline-offset: 2px; }
+  .fg-row .fg-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .fg-row .box { width: 15px; height: 15px; border: 1.5px solid #9AA1AA; border-radius: 3px; background: #fff; display: grid; place-items: center; flex: none; color: #fff; }
+  .fg-row .box.on { background: var(--color-act); border-color: var(--color-act); }
   .fg-row b { margin-left: auto; font-weight: 500; color: var(--color-ink3); font-size: 12.5px; }
   .sr-list { background: var(--color-pane); min-width: 0; }
   .sr-none { padding: 24px 22px; font-size: 15px; color: var(--color-ink2); }

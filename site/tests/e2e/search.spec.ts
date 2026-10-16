@@ -83,3 +83,10 @@ test("phone filters live behind one button", async ({ page }, info) => {
   await page.getByRole("button", { name: /^Filters/ }).tap();
   await expect(page.getByRole("dialog", { name: "Filters" })).toBeVisible();
 });
+
+test("a filter already in the search shows as ticked", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=budget%20type%3Ahearing");
+  const facets = page.getByRole("complementary", { name: "Narrow the results" });
+  await expect(facets.getByRole("button", { name: /Public hearings/ })).toHaveAttribute("aria-pressed", "true");
+});

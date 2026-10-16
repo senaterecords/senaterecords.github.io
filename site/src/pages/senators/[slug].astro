@@ -59,8 +59,8 @@ const exportData = JSON.stringify({
           <h1>{name}</h1>
           <p class="pg-meta">
             {latestDistrict && <><span>District {latestDistrict}</span><span>·</span></>}
-            <span>{service}</span><span>·</span>
-            <span><b class="num">{plural(page.totals.remarks, "remark")}</b> in {plural(page.totals.transcripts, "transcript")}</span>
+            <span>{service}</span><span class="sep-last">·</span>
+            <span class="pg-total"><b class="num">{plural(page.totals.remarks, "remark")}</b> in {plural(page.totals.transcripts, "transcript")}</span>
           </p>
         </div>
         <div class="acts">

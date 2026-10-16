@@ -55,6 +55,8 @@ const readerData = {
   slug: doc.slug, kind: doc.kind, date: doc.date, title: doc.kind === "hearing" ? name : doc.sessionType,
   session: doc.session, speakers: cardData, segments,
 };
+const readings = new Map<number, { calNo: number; printNo: string | null; title: string | null }[]>();
+if (!proForma) for (const s of segments) readings.set(s.startTurn, [...(readings.get(s.startTurn) ?? []), { calNo: s.calNo, printNo: s.printNo, title: s.title }]);
 const json = JSON.stringify(packReader(readerData)).replace(/</g, "\\u003c");
 const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).length;
 ---
@@ -98,7 +100,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         <span hidden data-pagefind-sort={`date:${doc.date}`}></span>
         </>}
         {noSpeakers && <p class="rd-note" data-pagefind-ignore>Speaker details aren't available for this transcript</p>}
-        <Turns turns={doc.turns} keyOf={keyOf} interactive={!proForma} />
+        <Turns turns={doc.turns} keyOf={keyOf} interactive={!proForma} readings={readings} />
       </article>
     </div>
 

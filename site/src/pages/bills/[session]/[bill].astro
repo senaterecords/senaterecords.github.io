@@ -52,7 +52,10 @@ const speakers = [...spoke].sort((a, b) => b[1] - a[1]).map(([key, n]) => ({
   href: pages.has(key) ? url(`/senators/${key}/`) : null, n,
 }));
 
-const vote = card?.floorVotes?.length ? [...card.floorVotes].sort((a, b) => a.date.localeCompare(b.date)).at(-1)! : null;
+// The vote taken at the debate shown leads; a later vote on another amendment follows as one line.
+const votes = card?.floorVotes?.length ? [...card.floorVotes].sort((a, b) => a.date.localeCompare(b.date)) : [];
+const vote = (main && votes.find((v) => v.date === main.date)) ?? votes.at(-1) ?? null;
+const laterVote = vote && votes.at(-1) !== vote && votes.at(-1)!.date > vote.date ? votes.at(-1)! : null;
 const VOTE_WORDS: [string, string][] = [["AYE", "aye"], ["AYEWR", "aye with reservations"], ["NAY", "nay"], ["EXC", "excused"], ["ABS", "absent"], ["ABD", "abstained"]];
 const voterName = (id: number) => byId.get(id)?.name ?? `Member ${id}`;
 const voterSort = (a: number, b: number) => voterName(a).split(" ").at(-1)!.localeCompare(voterName(b).split(" ").at(-1)!);
@@ -137,6 +140,9 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
           <div class="vote num">
             {VOTE_WORDS.filter(([code]) => vote.counts[code]).map(([code, word]) => <span><b>{vote.counts[code]}</b> {word}</span>)}
           </div>
+          {laterVote && (
+            <p class="later num">Later vote · {shortDate(laterVote.date)}: {VOTE_WORDS.filter(([code]) => laterVote.counts[code]).map(([code, word]) => `${laterVote.counts[code]} ${word}`).join(" · ")}</p>
+          )}
           {Object.keys(vote.members ?? {}).length > 0 && (
             <details class="how">
               <summary>How each senator voted</summary>
@@ -185,6 +191,7 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
   .vote { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; font-size: 14px; }
   .vote b { font-weight: 700; }
   .vote span { color: var(--color-ink3); }
+  .later { margin-top: 6px; font-size: 12.5px; color: var(--color-ink3); }
   .how { margin-top: 10px; font-size: 13px; }
   .how summary { font-weight: 650; color: var(--color-act); cursor: pointer; }
   .how-group { margin-top: 10px; }

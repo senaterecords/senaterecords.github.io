@@ -41,12 +41,12 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
         <h2 class="sec-h2">Latest transcripts <a href={url("/browse/")}>All transcripts</a></h2>
         <ul class="hm-list">
           {latest.map((t) => (
-            <li class="dk">
+            <li class:list={["dk", { ld: t.dayType === "LEGISLATIVE" && !t.speakers }]}>
               <span class="d num">{shortDate(t.date)}</span>
               <span class="t">
                 <a href={url(`/transcripts/${t.slug}/`)}>{transcriptTitle(t)}</a>
                 <small>{t.kind === "floor"
-                  ? `${plural(t.speakers, "senator")} spoke · ${plural(t.billsDebated, "bill")} debated`
+                  ? (t.dayType === "LEGISLATIVE" && !t.speakers ? "No business conducted" : `${plural(t.speakers, "senator")} spoke · ${plural(t.billsDebated, "bill")} debated`)
                   : t.committees.map(hearingTitle).join(" · ") || "Public hearing"}</small>
               </span>
               <span class="m num">{pagesText(t.pages, t.kind)}</span>
@@ -90,6 +90,7 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
   .hm .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
   .hm .t small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; margin-top: 2px; font-variant-numeric: tabular-nums; }
   .dk .t a { font-weight: 550; }
+  .dk.ld, .dk.ld .t a { color: var(--color-ink3); font-weight: 450; }
   .hm .b { font-weight: 750; font-size: 13.5px; }
   .md .t a { font-family: var(--font-read); font-size: 15px; line-height: 1.35; }
   .md .t small { font-family: var(--font-ui); }

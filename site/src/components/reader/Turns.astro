@@ -12,8 +12,9 @@ import { titleCase } from "../../lib/format";
 import { estimateHeight, lastPage, turnParagraphs } from "../../lib/reader";
 import type { Turn } from "../../lib/types";
 
-interface Props { turns: Turn[]; keyOf: (t: Turn) => string | null; interactive?: boolean; }
-const { turns, keyOf, interactive = true } = Astro.props;
+export interface Reading { calNo: number; printNo: string | null; title: string | null; }
+interface Props { turns: Turn[]; keyOf: (t: Turn) => string | null; interactive?: boolean; readings?: Map<number, Reading[]>; }
+const { turns, keyOf, interactive = true, readings } = Astro.props;
 
 const SPOKEN = new Set(["senator", "chair", "assembly"]);
 const CHUNK = 40;
@@ -31,7 +32,10 @@ const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => 
 ---
 {chunks.map((chunk) => (
   <div class="chunk" style={`--h:${estimateHeight(chunk.map((row) => row.t))}`}>
-    {chunk.map(({ t, key, gutter, blocks }) => (
+    {chunk.map(({ t, key, gutter, blocks }) => (<>
+      {readings?.get(t.i)?.map((r) => (
+        <div class="rd-seg" data-pagefind-ignore><b class="num">No. {r.calNo} · {r.printNo ?? "No bill number"}</b>{r.title && <span>{r.title}</span>}</div>
+      ))}
       <section class="turn" id={t.label ? `r-${t.i}` : `t-${t.i}`} data-role={t.role} data-page={t.label ? undefined : t.page ?? undefined}>
         {gutter != null && <span class="g" id={pageId(gutter)} data-pagefind-ignore>{gutter}</span>}
         {t.label && (
@@ -43,6 +47,6 @@ const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => 
               : <span class="pb" id={pageId(part.page)} data-pagefind-ignore><b>p. {part.page}</b><i></i></span>))}</p>
           : <div class="pb" id={pageId(b.page)} data-pagefind-ignore><b>p. {b.page}</b><i></i></div>))}
       </section>
-    ))}
+    </>))}
   </div>
 ))}

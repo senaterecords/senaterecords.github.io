@@ -35,3 +35,9 @@ test("latest transcripts link to the reader", async ({ page }) => {
   await page.getByRole("link", { name: /Joint legislative hearing|Regular Session/i }).first().click();
   await expect(page).toHaveURL(/transcripts\/.+\//);
 });
+
+test("pro forma days in the latest transcripts read as legislative days", async ({ page }) => {
+  await page.goto("./");
+  await expect(page.getByRole("link", { name: "Legislative day" })).toBeVisible();
+  await expect(page.getByText("No business conducted").first()).toBeVisible();
+});

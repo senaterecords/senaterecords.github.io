@@ -36,7 +36,7 @@ describe("service, names and titles", () => {
   it("describes service in plain words", () => {
     expect(serviceText([{ from: 2017, to: null }])).toBe("In the Senate since 2017");
     expect(serviceText([{ from: 2009, to: 2016 }])).toBe("In the Senate 2009–2016");
-    expect(serviceText([{ from: 1993, to: 2006, beforeRecords: true }])).toBe("In the Senate since before 1993, until 2006");
+    expect(serviceText([{ from: 1993, to: 2006, beforeRecords: true }])).toBe("In the Senate from before 1993 to 2006");
     expect(serviceText([{ from: 1993, to: 1996 }, { from: 2001, to: 2002 }, { from: 2009, to: 2010 }]))
       .toBe("In the Senate 1993–1996, 2001–2002, 2009–2010");
     expect(serviceText([])).toBe("");

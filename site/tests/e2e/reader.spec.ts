@@ -54,3 +54,10 @@ test("a pro forma legislative day shows its text without the reader's tools, and
   await expect(page.locator("h3.sp.k")).toHaveCount(0);
   await expect(page.getByRole("button", { name: "Export" })).toHaveCount(0);
 });
+
+test("each calendar reading starts with its bill number and title", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const header = page.locator(".rd-seg", { hasText: "No. 441 · S172" });
+  await expect(header).toContainText("Increases short-term disability benefits");
+  await expect(page.locator(".rd-seg + .turn, .rd-seg ~ .turn").first()).toBeAttached();
+});

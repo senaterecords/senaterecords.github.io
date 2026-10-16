@@ -51,7 +51,7 @@ export function serviceText(periods: ServicePeriod[]): string {
   if (!periods.length) return "";
   if (periods.length === 1) {
     const [p] = periods;
-    if (p.beforeRecords) return p.to === null ? `In the Senate since before ${RECORDS_START}` : `In the Senate since before ${RECORDS_START}, until ${p.to}`;
+    if (p.beforeRecords) return p.to === null ? `In the Senate since before ${RECORDS_START}` : `In the Senate from before ${RECORDS_START} to ${p.to}`;
     return p.to === null ? `In the Senate since ${p.from}` : `In the Senate ${p.from}–${p.to}`;
   }
   const spans = periods.map((p, i) => `${i === 0 && p.beforeRecords ? `before ${RECORDS_START}` : p.from}–${p.to ?? "present"}`);
@@ -105,8 +105,8 @@ export function committeeName(name: string): string {
 }
 
 /** How a transcript is named in lists: the session type for floor days, the readable title for hearings. */
-export function transcriptTitle(t: { kind: "floor" | "hearing"; sessionType: string | null; title: string | null }): string {
-  if (t.kind === "floor") return t.sessionType || "Floor session";
+export function transcriptTitle(t: { kind: "floor" | "hearing"; sessionType: string | null; title: string | null; dayType?: string | null }): string {
+  if (t.kind === "floor") return t.dayType === "LEGISLATIVE" ? "Legislative day" : t.sessionType || "Floor session";
   if (!t.title) return "Public hearing";
   const title = hearingTitle(t.title);
   return /\b(hearing|forum|roundtable|meeting|summit)\b/i.test(title) ? title : `Public hearing: ${title}`;

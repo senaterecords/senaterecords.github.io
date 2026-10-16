@@ -171,6 +171,10 @@ function SearchApp() {
   const transcriptCount = new Set(rows.map((r) => r.transcript)).size;
   const activeFilters = Object.keys(parseQuery(q).filters).length;
   const append = (shortcut: string) => go({ q: `${q.trim()} ${shortcut}`.trim() });
+  const inQuery = (shortcut: string) => q.toLowerCase().split(/\s+/).includes(shortcut.toLowerCase());
+  const toggle = (shortcut: string) => (inQuery(shortcut)
+    ? go({ q: q.split(/\s+/).filter((w) => w.toLowerCase() !== shortcut.toLowerCase()).join(" ") })
+    : append(shortcut));
 
   const nameOf = (r: Remark) => {
     const person = r.speaker ? personBySlug.get(r.speaker) : undefined;
@@ -205,11 +209,15 @@ function SearchApp() {
     return (
       <div className="fg">
         <h3>{title}</h3>
-        {entries.map(([value, n]) => (
-          <button key={value} type="button" className="fg-row" onClick={() => append(shortcut(value))}>
-            <span>{render(value)}</span><b className="num">{n}</b>
-          </button>
-        ))}
+        {entries.map(([value, n]) => {
+          const on = inQuery(shortcut(value));
+          return (
+            <button key={value} type="button" className="fg-row" aria-pressed={on} onClick={() => toggle(shortcut(value))}>
+              <span className={on ? "box on" : "box"} aria-hidden="true">{on && <Icon name="check" size={10} />}</span>
+              <span className="fg-name">{render(value)}</span><b className="num">{n}</b>
+            </button>
+          );
+        })}
       </div>
     );
   };

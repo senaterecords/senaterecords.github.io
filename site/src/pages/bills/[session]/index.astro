@@ -44,7 +44,7 @@ const sessions = [...billSessions()].reverse();
       <div class="pg-title">
         <div>
           <h1>Bills on the Senate floor</h1>
-          <p class="pg-meta">Every bill read on the floor in the <b>{label(session)} session</b> · {plural(rows.length, "bill")} · {debatedCount.toLocaleString("en-US")} debated</p>
+          <p class="pg-meta"><span>Every bill read on the floor in the <b>{label(session)} session</b> · {plural(rows.length, "bill")} · {debatedCount.toLocaleString("en-US")} debated</span></p>
         </div>
         <div class="acts">
           <label class="pick">
