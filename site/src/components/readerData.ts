@@ -1,4 +1,5 @@
 // The reader page embeds its speakers and calendar as JSON (#reader-data); the reader islands share one parsed copy.
+import { unpackReader, type PackedReader } from "../lib/payload";
 import type { SpeakerInfo } from "../lib/speakers";
 
 declare global {
@@ -63,9 +64,10 @@ export function pageOfTurn(section: HTMLElement): number | null {
 
 export function readerData(): ReaderData {
   if (cached) return cached;
-  cached = JSON.parse(document.getElementById("reader-data")?.textContent ?? "null") as ReaderData;
+  const payload = unpackReader(JSON.parse(document.getElementById("reader-data")?.textContent ?? "null") as PackedReader);
   // Each speaker's turns are read from the page rather than shipped twice.
-  for (const s of Object.values(cached.speakers)) { s.remarks = []; s.presiding = []; }
+  const speakers = Object.fromEntries(Object.entries(payload.speakers).map(([key, card]) => [key, { ...card, remarks: [], presiding: [] } as SpeakerInfo]));
+  cached = { ...payload, speakers };
   for (const section of document.querySelectorAll<HTMLElement>("#transcript section.turn")) {
     const speaker = cached.speakers[keyOfTurn(section) ?? ""];
     if (speaker) (SPOKEN.has(section.dataset.role ?? "") ? speaker.remarks : speaker.presiding).push(indexOfTurn(section));

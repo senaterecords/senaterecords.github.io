@@ -1,0 +1,26 @@
+---
+// The reader's scripts, rendered only on pages that have the tools (not on pro forma days).
+---
+<script is:inline>
+    // Until the reader's scripts start, remember name clicks and J/K presses so they still count (slow connections).
+    window.__otrEarly={clicks:[],keys:[]};document.addEventListener("click",function(e){var l=!window.__otrCards&&e.target instanceof Element&&e.target.closest("section.turn>h3.sp.k");if(l)window.__otrEarly.clicks.push(l)},true);document.addEventListener("keydown",function(e){if(window.__otrNav||(e.key!=="j"&&e.key!=="k")||e.metaKey||e.ctrlKey||e.altKey)return;if(!/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName))window.__otrEarly.keys.push(e.key)},true);
+</script>
+
+<script>
+  import "./mount";
+</script>
+<script>
+  // A remark link stays on its remark while the text above it takes its real size (skipped chunks only hold an
+  // estimate until they render), until the reader starts moving around the page.
+  const id = decodeURIComponent(location.hash.slice(1));
+  const target = id ? document.getElementById(id) ?? (/^r-\d+$/.test(id) ? document.getElementById(`t-${id.slice(2)}`) : null) : null;
+  const article = document.getElementById("transcript");
+  if (target && article) {
+    const pin = () => target.scrollIntoView({ block: "start" });
+    const observer = new ResizeObserver(pin);
+    observer.observe(article);
+    const release = () => observer.disconnect();
+    for (const type of ["wheel", "touchstart", "keydown", "pointerdown"]) addEventListener(type, release, { once: true, passive: true });
+    setTimeout(release, 10_000);
+  }
+</script>

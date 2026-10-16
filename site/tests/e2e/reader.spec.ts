@@ -45,3 +45,12 @@ test("filters are attributes, not page text", async ({ page }) => {
   const text = await page.locator("#transcript").innerText();
   expect(text).not.toContain("type:floor");
 });
+
+test("a pro forma legislative day shows its text without the reader's tools, and stays out of search", async ({ page }) => {
+  await page.goto("transcripts/2023-06-04-regular-session/");
+  await expect(page.locator("section.turn").first()).toBeVisible();
+  await expect(page.locator("#transcript")).not.toHaveAttribute("data-pagefind-body", /.*/);
+  await expect(page.locator("#reader-data")).toHaveCount(0);
+  await expect(page.locator("h3.sp.k")).toHaveCount(0);
+  await expect(page.getByRole("button", { name: "Export" })).toHaveCount(0);
+});

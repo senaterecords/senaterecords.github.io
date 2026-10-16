@@ -12,8 +12,8 @@ import { titleCase } from "../../lib/format";
 import { estimateHeight, lastPage, turnParagraphs } from "../../lib/reader";
 import type { Turn } from "../../lib/types";
 
-interface Props { turns: Turn[]; keyOf: (t: Turn) => string | null; }
-const { turns, keyOf } = Astro.props;
+interface Props { turns: Turn[]; keyOf: (t: Turn) => string | null; interactive?: boolean; }
+const { turns, keyOf, interactive = true } = Astro.props;
 
 const SPOKEN = new Set(["senator", "chair", "assembly"]);
 const CHUNK = 40;
@@ -35,7 +35,7 @@ const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => 
       <section class="turn" id={t.label ? `r-${t.i}` : `t-${t.i}`} data-role={t.role} data-page={t.label ? undefined : t.page ?? undefined}>
         {gutter != null && <span class="g" id={pageId(gutter)} data-pagefind-ignore>{gutter}</span>}
         {t.label && (
-          <h3 id={`w-${t.i}-${t.page ?? 0}-${key ?? "x"}`} class:list={["sp", { k: !!key, sen: !!key && SPOKEN.has(t.role) }]}>{titleCase(t.label)}</h3>
+          <h3 id={`w-${t.i}-${t.page ?? 0}-${key ?? "x"}`} class:list={["sp", { k: interactive && !!key, sen: interactive && !!key && SPOKEN.has(t.role) }]}>{titleCase(t.label)}</h3>
         )}
         {blocks.map((b) => (b.kind === "p"
           ? <p>{b.parts.map((part, j) => (typeof part === "string"

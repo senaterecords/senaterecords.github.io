@@ -17,7 +17,7 @@ describe("the fixture data", () => {
   });
 
   it("counts what the fixture holds", () => {
-    expect(data.meta().counts.floorTranscripts).toBe(5);
+    expect(data.meta().counts.floorTranscripts).toBe(6); // five sessions and one pro forma legislative day
     expect(data.meta().counts.hearings).toBe(2);
   });
 

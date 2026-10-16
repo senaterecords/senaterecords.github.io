@@ -5,7 +5,7 @@ import { join } from "node:path";
 
 const base = (process.env.SITE_BASE ?? "/").replace(/\/?$/, "/");
 const root = "dist";
-const ATTR = /\b(?:href|src)="([^"]+)"|http-equiv="refresh" content="\d+;\s*url=([^"]+)"/g;
+const ATTR = /\b(?:href|src)=(?:"([^"]+)"|([^\s>"']+))|http-equiv=(?:"refresh"|refresh) content="\d+;\s*url=([^"]+)"/g;
 
 function* htmlFiles(dir) {
   for (const name of readdirSync(dir)) {
@@ -25,7 +25,7 @@ const fileFor = (urlPath) => {
 
 const ids = new Map();
 const idsOf = (file) => {
-  if (!ids.has(file)) ids.set(file, new Set([...readFileSync(file, "utf8").matchAll(/\bid="([^"]+)"/g)].map((m) => m[1])));
+  if (!ids.has(file)) ids.set(file, new Set([...readFileSync(file, "utf8").matchAll(/\bid=(?:"([^"]+)"|([^\s>"']+))/g)].map((m) => m[1] ?? m[2])));
   return ids.get(file);
 };
 
@@ -36,7 +36,7 @@ for (const page of htmlFiles(root)) {
   pages += 1;
   const html = readFileSync(page, "utf8");
   for (const m of html.matchAll(ATTR)) {
-    const raw = (m[1] ?? m[2]).replace(/&amp;/g, "&");
+    const raw = (m[1] ?? m[2] ?? m[3]).replace(/&amp;/g, "&");
     if (!raw.startsWith(base) || raw.startsWith("//")) continue;
     checked += 1;
     const [pathAndQuery, fragment] = raw.split("#");

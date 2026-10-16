@@ -3,12 +3,14 @@
 import "../../styles/reader.css";
 import Icon from "../../components/Icon.astro";
 import Calendar from "../../components/reader/Calendar.astro";
+import ReaderScripts from "../../components/reader/ReaderScripts.astro";
 import HearingSpeakers from "../../components/reader/HearingSpeakers.astro";
 import Turns from "../../components/reader/Turns.astro";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
 import { assembly, bill, hasBillPage, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex } from "../../lib/data";
 import { billStatus, hearingTitle, longDate, placeText, plainPages, plural, transcriptTitle, weekdayDate } from "../../lib/format";
+import { packReader } from "../../lib/payload";
 import { speakerData } from "../../lib/speakers";
 import { url } from "../../lib/url";
 
@@ -25,6 +27,9 @@ const displayTitle = doc.kind === "floor" ? `${name}, ${longDate(doc.date)}` : n
 const monthDay = longDate(doc.date).replace(/, \d{4}$/, "");
 const pages = doc.pages ? plainPages(doc.pages[0], doc.pages[1]) : "";
 const noSpeakers = doc.plainText || doc.empty || !doc.turns.some((t) => t.label);
+// Pro forma legislative days hold no debate: they get the text without the reader's tools, rails or embedded data,
+// and stay out of the search index (5,505 such days; spec 10, fallbacks).
+const proForma = doc.dayType === "LEGISLATIVE" && !doc.turns.some((t) => ["senator", "chair", "assembly"].includes(t.role));
 const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
 
 // Pagefind filters, always in attribute form so they never become page text.
@@ -50,7 +55,7 @@ const readerData = {
   slug: doc.slug, kind: doc.kind, date: doc.date, title: doc.kind === "hearing" ? name : doc.sessionType,
   session: doc.session, speakers: cardData, segments,
 };
-const json = JSON.stringify(readerData).replace(/</g, "\\u003c");
+const json = JSON.stringify(packReader(readerData)).replace(/</g, "\\u003c");
 const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).length;
 ---
 <Base title={displayTitle} description={`${displayTitle}. New York State Senate ${doc.kind === "floor" ? "floor transcript" : "public hearing transcript"}${pages ? `, ${pages}` : ""}.`} wide>
@@ -62,16 +67,13 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
       <b>{monthDay} · {name}</b>
     </nav>
     <div class="rd-ttl"><span>{longDate(doc.date)}</span><small>{name}{pages && ` · ${pages}`}</small></div>
-    <div class="rd-acts" id="rd-acts"></div>
+    {!proForma && <div class="rd-acts" id="rd-acts"></div>}
   </Fragment>
 
-  <script is:inline>
-    // Until the reader's scripts start, remember name clicks and J/K presses so they still count (slow connections).
-    window.__otrEarly={clicks:[],keys:[]};document.addEventListener("click",function(e){var l=!window.__otrCards&&e.target instanceof Element&&e.target.closest("section.turn>h3.sp.k");if(l)window.__otrEarly.clicks.push(l)},true);document.addEventListener("keydown",function(e){if(window.__otrNav||(e.key!=="j"&&e.key!=="k")||e.metaKey||e.ctrlKey||e.altKey)return;if(!/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName))window.__otrEarly.keys.push(e.key)},true);
-  </script>
 
+  {!proForma && <ReaderScripts />}
   <div class="rd">
-    {doc.kind === "floor"
+    {proForma ? <div class="rd-rail"></div> : doc.kind === "floor"
       ? <Calendar segments={doc.segments} session={doc.session} />
       : <HearingSpeakers speakers={speakers} turns={doc.turns} keyOf={keyOf} />}
 
@@ -82,7 +84,8 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         {doc.corrected && <Status status={{ text: "Corrected transcript", tone: "amber" }} size={13} />}
       </p>
       <div id="reader-notices"></div>
-      <article id="transcript" data-pagefind-body data-slug={doc.slug} data-kind={doc.kind} data-date={doc.date} data-title={doc.title ?? doc.sessionType ?? ""}>
+      <article id="transcript" data-pagefind-body={proForma ? undefined : ""} data-slug={doc.slug} data-kind={doc.kind} data-date={doc.date} data-title={doc.title ?? doc.sessionType ?? ""}>
+        {!proForma && <>
         <span hidden data-pagefind-filter={`type:${doc.kind}`}></span>
         <span hidden data-pagefind-filter={`year:${year}`}></span>
         <span hidden data-pagefind-filter={`session:${doc.session}`}></span>
@@ -93,12 +96,13 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         <span hidden data-pagefind-meta={`date:${doc.date}`}></span>
         <span hidden data-pagefind-meta={`kind:${doc.kind}`}></span>
         <span hidden data-pagefind-sort={`date:${doc.date}`}></span>
+        </>}
         {noSpeakers && <p class="rd-note" data-pagefind-ignore>Speaker details aren't available for this transcript</p>}
-        <Turns turns={doc.turns} keyOf={keyOf} />
+        <Turns turns={doc.turns} keyOf={keyOf} interactive={!proForma} />
       </article>
     </div>
 
-    <aside class="rd-rail rd-side" aria-label="About this transcript">
+    {!proForma && <aside class="rd-rail rd-side" aria-label="About this transcript">
       <div class="rail-in" id="headnote">
         <div id="headnote-live"></div>
         <div id="headnote-default">
@@ -115,28 +119,9 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         </dl>
         </div>
       </div>
-    </aside>
+    </aside>}
   </div>
 
-  <script type="application/json" id="reader-data" set:html={json} />
+  {!proForma && <script type="application/json" id="reader-data" set:html={json} />}
 </Base>
 
-<script>
-  import "../../components/reader/mount";
-</script>
-
-<script>
-  // A remark link stays on its remark while the text above it takes its real size (skipped chunks only hold an
-  // estimate until they render), until the reader starts moving around the page.
-  const id = decodeURIComponent(location.hash.slice(1));
-  const target = id ? document.getElementById(id) ?? (/^r-\d+$/.test(id) ? document.getElementById(`t-${id.slice(2)}`) : null) : null;
-  const article = document.getElementById("transcript");
-  if (target && article) {
-    const pin = () => target.scrollIntoView({ block: "start" });
-    const observer = new ResizeObserver(pin);
-    observer.observe(article);
-    const release = () => observer.disconnect();
-    for (const type of ["wheel", "touchstart", "keydown", "pointerdown"]) addEventListener(type, release, { once: true, passive: true });
-    setTimeout(release, 10_000);
-  }
-</script>

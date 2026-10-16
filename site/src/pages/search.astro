@@ -5,6 +5,7 @@ import Base from "../layouts/Base.astro";
 ---
 <Base title="Search" description="Search what was said in the New York State Senate, by words, speaker, bill, year and more." wide barSearch={false}>
   <SearchApp client:load />
+  <script>import "../scripts/copy";</script>
   <noscript><p class="sr-msg">Search needs JavaScript. You can still browse transcripts by year, senator or bill.</p></noscript>
 </Base>
 

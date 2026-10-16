@@ -13,6 +13,7 @@ const SLUGS = [
   "2013-11-01-regular-session",
   "2025-02-27-joint-legislative-hearing-in-the-matter-of-the-2025-2026-executive-budget-on-taxes",
   "2021-06-03-new-york-state-forum-a-roundtable-discussion-to-evaluate-the-states-response-to-covid-19",
+  "2023-06-04-regular-session", // a pro forma legislative day
 ];
 const PLAIN = "1995-05-09-test-plain-text";
 
