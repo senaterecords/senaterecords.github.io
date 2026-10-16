@@ -16,7 +16,7 @@ from .officers import Officers, load_officers
 from .quality import Report
 from .senators import Roster, Senator, load_history, load_overrides, session_year
 from .speakers import ROLE_ASSEMBLY, ROLE_CHAIR, ROLE_PRESIDING, ROLE_RECORD, ROLE_SENATOR, Turn, coverage, split_turns
-from .store import Store, is_photo_name, read_json, slugify, write_json
+from .store import Store, is_real_photo, read_json, slugify, write_json
 
 FALLBACK_COVERAGE = 0.8
 MATCH_ROLES = (ROLE_SENATOR, ROLE_PRESIDING, ROLE_CHAIR)
@@ -214,7 +214,7 @@ def _bill_rows(spoke: Counter, sponsored: set[tuple[int, str, str]]) -> list[dic
 
 def _copy_photo(store: Store, senator: Senator, out: Path, folder: str = "photos") -> str | None:
     """Copy a stored API photo to {folder}/{slug}.jpg; senators before 2009 have none."""
-    if not is_photo_name(senator.img_name) or not store.photo_path(senator.img_name).exists():
+    if not is_real_photo(senator.img_name) or not store.photo_path(senator.img_name).exists():
         return None
     target = out / folder / f"{senator.slug}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)

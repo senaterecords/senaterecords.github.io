@@ -335,6 +335,16 @@ def test_senator_photos_are_copied_into_the_site_data(tmp_path):
     assert read_json(site / "senators" / "marisol-ortega.json")["photo"] == "photos/marisol-ortega.jpg"
 
 
+def test_the_api_placeholder_image_is_never_shown_as_a_photo(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), [{**MEMBERS[2025][0], "imgName": "no_image.jpg"}])
+    store.photo_path("no_image.jpg").parent.mkdir(parents=True)
+    store.photo_path("no_image.jpg").write_bytes(b"placeholder")
+    write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", TEXT_2025))
+    build_all(store, tmp_path / "site", datetime(2025, 6, 11))
+    assert read_json(tmp_path / "site" / "senators.json")[0]["photo"] is None
+
+
 def test_senator_data_lists_service_periods(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2025), [{**MEMBERS[2025][0], "incumbent": True}, MEMBERS[2025][1]])

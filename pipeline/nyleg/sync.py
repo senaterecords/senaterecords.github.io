@@ -15,7 +15,7 @@ from .api import ApiError, AuthError, NotFound
 from .bills import BILL_DATA_START, base_print_no, extraordinary_print, find_bills
 from .clean import extract_lines, paragraphs
 from .senators import session_year
-from .store import Store, is_photo_name, read_json, write_json
+from .store import Store, is_real_photo, read_json, write_json
 
 UPDATE_OVERLAP = timedelta(minutes=10)
 FIRST_LOOKBACK = timedelta(days=7)
@@ -201,7 +201,7 @@ def sync_photos(store: Store, fetch: Callable[[str], bytes | None] = fetch_photo
         for path in sorted(folder.glob("*.json")) if folder.exists() else []:
             for item in read_json(path) or []:
                 name = (item.get("person") or {}).get("imgName") or item.get("imgName")
-                if is_photo_name(name):
+                if is_real_photo(name):
                     names.add(name)
     result = SyncResult()
     for name in sorted(names):

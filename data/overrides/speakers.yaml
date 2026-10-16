@@ -109,3 +109,79 @@
 - session: 2023
   label: SENATOR HOYLMAN
   member_id: 438  # Brad Hoylman-Sigal, who took the name Hoylman-Sigal in 2023
+
+# Hearings: stenographer typos with exactly one close match among that session's senators.
+- session: 2011
+  label: SENATOR BONANCI
+  member_id: 413  # John J. Bonacic
+- session: 2013
+  label: SENATOR GRISTANTI
+  member_id: 398  # Mark Grisanti
+- session: 2013
+  label: SENATOR KRUGER
+  member_id: 401  # Liz Krueger
+- session: 2013
+  label: SENATOR MACHIONE
+  member_id: 435  # Kathleen A. Marchione
+- session: 2013
+  label: SENATOR MARCIONE
+  member_id: 435  # Kathleen A. Marchione
+- session: 2015
+  label: SENATOR ADDABO
+  member_id: 384  # Joseph P. Addabbo Jr.
+- session: 2015
+  label: SENATOR BONACI
+  member_id: 413  # John J. Bonacic
+- session: 2015
+  label: SENATOR MARCIONE
+  member_id: 435  # Kathleen A. Marchione
+- session: 2017
+  label: SENATOR ASHKAR
+  member_id: 913  # Fredrick J. Akshar II
+- session: 2019
+  label: SENATOR ANTONUCCI
+  member_id: 1236  # Bob Antonacci
+- session: 2019
+  label: SENATOR BORELLO
+  member_id: 1370  # George Borrello
+- session: 2019
+  label: SENATOR GEORGE BORELLO
+  member_id: 1370  # George Borrello
+- session: 2019
+  label: SENATOR HARKHAM
+  member_id: 1233  # Pete Harckham
+- session: 2019
+  label: SENATOR KENNEY
+  member_id: 429  # Timothy M. Kennedy
+- session: 2019
+  label: SENATOR KRUGER
+  member_id: 401  # Liz Krueger
+- session: 2019
+  label: SENATOR O'MAAR
+  member_id: 415  # Thomas F. O'Mara
+- session: 2019
+  label: SENATOR RANZENHODER
+  member_id: 406  # Michael H. Ranzenhofer
+- session: 2021
+  label: SENATOR BORELLO
+  member_id: 1370  # George Borrello
+
+# Hearings: checked by hand.
+- session: 2015
+  label: "SENATOR FREDRICK ASHKAR II"
+  member_id: 913  # Fredrick J. Akshar II (surname mistyped)
+- session: 2019
+  label: "SENATOR TOM O'MARA"
+  member_id: 415  # Thomas F. O'Mara
+- session: 2019
+  label: "SENATOR HARCKMAN"
+  member_id: 1233  # Pete Harckham
+- session: 2019
+  label: "SENATOR PETER B. HARCKHAM"
+  member_id: 1233  # Pete Harckham
+- session: 2019
+  label: "SENATOR TOOD KAMINSKY"
+  member_id: 918  # Todd Kaminsky
+- session: 2019
+  label: "SENATOR BRAD HOYLMAN"
+  member_id: 438  # Brad Hoylman-Sigal, whose API record carries his later name

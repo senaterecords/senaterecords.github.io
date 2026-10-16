@@ -148,6 +148,16 @@ def test_assembly_member_photos_are_downloaded_too(tmp_path):
     assert store.photo_path("900_farrell.jpg").exists()
 
 
+def test_older_photo_names_with_spaces_and_apostrophes_are_fetched_but_never_the_placeholder(tmp_path):
+    store = Store(tmp_path)
+    write_json(store.members_path(2009), [{"memberId": 420, "imgName": "Carl Kruger.jpg"},
+                                         {"memberId": 415, "imgName": "415_thomas_f._o'mara.jpg"},
+                                         {"memberId": 9, "imgName": "no_image.jpg"}])
+    asked = []
+    sync_photos(store, lambda url: asked.append(url) or b"jpeg-bytes")
+    assert asked == [f"{PHOTO_URL}415_thomas_f._o%27mara.jpg", f"{PHOTO_URL}Carl%20Kruger.jpg"]
+
+
 def test_a_photo_name_that_is_not_a_plain_file_name_is_never_fetched_or_written(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2025), [{"memberId": 3, "imgName": "../../escape.jpg"},

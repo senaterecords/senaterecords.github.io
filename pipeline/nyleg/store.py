@@ -11,12 +11,17 @@ from pathlib import Path
 from typing import Any
 
 _NON_SLUG = re.compile(r"[^a-z0-9]+")
-_PHOTO_NAME = re.compile(r"\w[\w.\-]*")
+_PHOTO_NAME = re.compile(r"\w[\w .'’\-]*")  # older names have spaces and apostrophes: "Carl Kruger.jpg"
+PLACEHOLDER_PHOTOS = {"no_image.jpg"}  # the API's stand-in when it has no photo: never shown as a face
 
 
 def is_photo_name(name: str | None) -> bool:
     """A plain file name like 373_jose_m._serrano.jpg: no folders, nothing that could escape data/raw/photos."""
     return bool(name) and bool(_PHOTO_NAME.fullmatch(name)) and ".." not in name
+
+
+def is_real_photo(name: str | None) -> bool:
+    return is_photo_name(name) and name.lower() not in PLACEHOLDER_PHOTOS
 
 
 def slugify(value: str) -> str:
