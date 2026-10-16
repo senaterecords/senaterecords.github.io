@@ -5,10 +5,6 @@ import Icon from "../../components/Icon.astro";
 import Calendar from "../../components/reader/Calendar.astro";
 import HearingSpeakers from "../../components/reader/HearingSpeakers.astro";
 import Turns from "../../components/reader/Turns.astro";
-import CiteTools from "../../components/CiteTools";
-import ExportMenu from "../../components/ExportMenu";
-import ReaderNav from "../../components/ReaderNav";
-import SpeakerCards from "../../components/SpeakerCards";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
 import { assembly, bill, hasBillPage, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex } from "../../lib/data";
@@ -66,7 +62,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
       <b>{monthDay} · {name}</b>
     </nav>
     <div class="rd-ttl"><span>{longDate(doc.date)}</span><small>{name}{pages && ` · ${pages}`}</small></div>
-    <div class="rd-acts" id="rd-acts"><ExportMenu client:load /></div>
+    <div class="rd-acts" id="rd-acts"></div>
   </Fragment>
 
   <script is:inline>
@@ -131,10 +127,11 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
   </div>
 
   <script type="application/json" id="reader-data" set:html={json} />
-  <SpeakerCards client:load />
-  <CiteTools client:load />
-  <ReaderNav client:load />
 </Base>
+
+<script>
+  import "../../components/reader/mount";
+</script>
 
 <script>
   // A remark link stays on its remark while the text above it takes its real size (skipped chunks only hold an
