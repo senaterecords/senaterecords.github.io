@@ -1,0 +1,9 @@
+# Manual fixes for speaker labels the matcher gets wrong or can't decide.
+# Each entry maps a label in a given session to a senator's member id
+# (from data/raw/members/{session}.json). Use member_id: null for a label
+# that is not a senator. Example:
+#
+# - session: 2009
+#   label: SENATOR SMITH
+#   member_id: 2
+[]
