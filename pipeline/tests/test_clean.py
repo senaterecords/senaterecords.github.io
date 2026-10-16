@@ -87,6 +87,23 @@ def test_empty_text_gives_no_paragraphs():
     assert paragraphs(extract_lines("")) == []
 
 
+def test_repeated_speaker_lines_at_page_edges_are_not_mistaken_for_headers(fixture_text):
+    # In this real 23-page session, "ACTING PRESIDENT BAILEY:   The" opens a page 22 times;
+    # the old filter deleted all 22 and glued the presiding officer's words onto other speakers.
+    lines = extract_lines(fixture_text("floor-2025-04-10.txt"))
+    assert sum(1 for l in lines if l.text == "ACTING PRESIDENT BAILEY:   The") == 22
+    assert sum(1 for l in lines if l.text.startswith("ACTING PRESIDENT BAILEY:")) == 53
+
+
+def test_common_speech_on_a_short_day_is_kept(fixture_text):
+    # Pages 1522-1527 of the 1998 transcript, as if they were a whole six-page day.
+    rows = fixture_text("floor-1998-03-10.txt").split("\n")
+    start = next(i for i, r in enumerate(rows) if r.strip() == "1522" and len(r) - len(r.lstrip()) >= 30)
+    end = next(i for i, r in enumerate(rows) if r.strip() == "1528" and len(r) - len(r.lstrip()) >= 30)
+    lines = extract_lines("\n".join(rows[start:end]))
+    assert sum(1 for l in lines if l.text == "is passed.") == 9
+
+
 @pytest.mark.parametrize(
     "name,first_page",
     [

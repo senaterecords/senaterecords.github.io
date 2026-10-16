@@ -9,6 +9,7 @@ _DIGITS = re.compile(r"^\d{1,5}$")
 _PAGE_WORD = re.compile(r"^Page (\d{1,5})$")
 _LINE_NO = re.compile(r"^\s{0,10}(\d{1,2})(?=\s|$)")
 _WS = re.compile(r"\s+")
+_LABELISH = re.compile(r"^[^\W\d_a-z][^:]{0,90}:")  # starts like "ACTING PRESIDENT BAILEY: ..."
 MAX_LINE_NO = 28
 PAGE_INDENT = 30
 PARA_STEP = 4
@@ -53,16 +54,25 @@ def _is_numbered(rows: list[str]) -> bool:
 
 
 def _drop_boilerplate(lines: list[Line]) -> list[Line]:
-    """Remove running headers and vendor footers: text repeated at the edges of many pages."""
+    """Remove running headers and vendor footers.
+
+    Boilerplate is text that sits at the edges of many pages and (almost) never anywhere else.
+    Speaker labels are never boilerplate, even when a presiding officer opens every page.
+    """
     pages: dict[int | None, list[Line]] = defaultdict(list)
     for line in lines:
         pages[line.page].append(line)
     edges: Counter = Counter()
     for page_lines in pages.values():
-        edge = {_WS.sub(" ", l.text) for l in page_lines[:EDGE_LINES] + page_lines[-EDGE_LINES:]}
-        edges.update(edge)
+        edges.update({_WS.sub(" ", l.text) for l in page_lines[:EDGE_LINES] + page_lines[-EDGE_LINES:]})
+    everywhere = Counter(_WS.sub(" ", l.text) for l in lines)
     floor = max(3, BOILERPLATE_SHARE * len(pages))
-    boilerplate = {text for text, count in edges.items() if count >= floor}
+    boilerplate = {
+        text for text, at_edges in edges.items()
+        if at_edges >= floor
+        and everywhere[text] <= at_edges + max(1, at_edges // 20)
+        and not _LABELISH.match(text)
+    }
     return [l for l in lines if _WS.sub(" ", l.text) not in boilerplate]
 
 
