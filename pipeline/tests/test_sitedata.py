@@ -398,6 +398,42 @@ def test_transcripts_name_their_officers():
     assert plain["officers"] == {"president": None, "secretary": None}
 
 
+JOINT_TEXT = """                                                               12
+
+ 1               CHAIRMAN FARRELL:   Welcome to the hearing.  We
+ 2   begin with the Commissioner.
+ 3               ASSEMBLYMAN FARRELL:   Again, welcome to all of
+ 4   you.
+ 5               CHAIRWOMAN KRUEGER:   Thank you, Chairman, for
+ 6   having us.
+ 7               CHAIRWOMAN WEINSTEIN:   Commissioner, please
+ 8   begin.
+"""
+
+
+def test_assembly_members_link_to_their_own_card_never_to_a_senator(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2011), [member(5, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 2011),
+                                          member(6, "Ann Weinstein", "Ann", "Weinstein", "WEINSTEIN", 2011)])
+    write_json(store.assembly_members_path(2011), [
+        {**assembly_member(900, "Herman D. Farrell", "Herman", "Farrell", "FARRELL", 2011), "imgName": "900_farrell.jpg"},
+        assembly_member(901, "Helene E. Weinstein", "Helene", "Weinstein", "WEINSTEIN", 2011),
+    ])
+    store.photo_path("900_farrell.jpg").parent.mkdir(parents=True)
+    store.photo_path("900_farrell.jpg").write_bytes(b"jpeg-bytes")
+    write_json(store.hearing_path(2011, "joint.txt"), hearing("joint.txt", "Budget", text=JOINT_TEXT, committees=JOINT))
+    site = tmp_path / "site"
+    build_all(store, site, datetime(2025, 1, 1))
+    turns = read_json(site / "transcripts" / "2011-05-18-budget.json")["turns"]
+    assert [t.get("assembly") for t in turns] == ["herman-d-farrell", "herman-d-farrell", None, None]
+    assert [t["senator"] for t in turns] == [None, None, "liz-krueger", None]  # Weinstein: both chambers, no guess
+    assert "assembly" not in turns[2]  # only matched turns carry the field, to keep the site small
+    assert read_json(site / "assembly.json") == {"herman-d-farrell": {
+        "memberId": 900, "name": "Herman D. Farrell", "sessions": {"2011": 910},
+        "photo": "photos/assembly/herman-d-farrell.jpg"}}
+    assert (site / "photos" / "assembly" / "herman-d-farrell.jpg").read_bytes() == b"jpeg-bytes"
+
+
 def test_build_all_reads_the_assembly_lists_for_joint_hearings(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2011), [member(5, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 2011)])

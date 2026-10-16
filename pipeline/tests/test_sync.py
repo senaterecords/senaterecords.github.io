@@ -139,6 +139,15 @@ def test_each_senator_photo_is_downloaded_once(tmp_path):
     assert asked == [f"{PHOTO_URL}gone.jpg"]  # a stored photo is never fetched again
 
 
+def test_assembly_member_photos_are_downloaded_too(tmp_path):
+    store = Store(tmp_path)
+    write_json(store.assembly_members_path(2011), [{"memberId": 900, "imgName": "900_farrell.jpg"}])
+    asked = []
+    sync_photos(store, lambda url: asked.append(url) or b"jpeg-bytes")
+    assert asked == [f"{PHOTO_URL}900_farrell.jpg"]
+    assert store.photo_path("900_farrell.jpg").exists()
+
+
 def test_a_photo_name_that_is_not_a_plain_file_name_is_never_fetched_or_written(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2025), [{"memberId": 3, "imgName": "../../escape.jpg"},

@@ -194,14 +194,15 @@ def fetch_photo(url: str) -> bytes | None:
 
 
 def sync_photos(store: Store, fetch: Callable[[str], bytes | None] = fetch_photo) -> SyncResult:
-    """Download each senator's API photo once (55x71, about 2 KB), so the site never hotlinks the Senate's server."""
+    """Download each member's API photo once (55x71, about 2 KB), senators and Assembly members alike,
+    so the site never hotlinks the Senate's server."""
     names: set[str] = set()
-    folder = store.raw / "members"
-    for path in sorted(folder.glob("*.json")) if folder.exists() else []:
-        for item in read_json(path) or []:
-            name = (item.get("person") or {}).get("imgName") or item.get("imgName")
-            if is_photo_name(name):
-                names.add(name)
+    for folder in (store.raw / "members", store.raw / "members-assembly"):
+        for path in sorted(folder.glob("*.json")) if folder.exists() else []:
+            for item in read_json(path) or []:
+                name = (item.get("person") or {}).get("imgName") or item.get("imgName")
+                if is_photo_name(name):
+                    names.add(name)
     result = SyncResult()
     for name in sorted(names):
         path = store.photo_path(name)

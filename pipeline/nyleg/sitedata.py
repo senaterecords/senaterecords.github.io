@@ -15,7 +15,7 @@ from .clean import PageBreak, Paragraph, extract_lines, paragraphs
 from .officers import Officers, load_officers
 from .quality import Report
 from .senators import Roster, Senator, load_history, load_overrides, session_year
-from .speakers import ROLE_CHAIR, ROLE_PRESIDING, ROLE_RECORD, ROLE_SENATOR, Turn, coverage, split_turns
+from .speakers import ROLE_ASSEMBLY, ROLE_CHAIR, ROLE_PRESIDING, ROLE_RECORD, ROLE_SENATOR, Turn, coverage, split_turns
 from .store import Store, is_photo_name, read_json, slugify, write_json
 
 FALLBACK_COVERAGE = 0.8
@@ -60,6 +60,22 @@ def _senator_slug(
     member_id = overrides[key] if key in overrides else roster.match(turn.name or "", session, day)
     senator = roster.senators.get(member_id) if member_id is not None else None
     return senator.slug if senator else None
+
+
+def _assembly_slug(turn: Turn, session: int, roster: Roster, assembly: Roster | None, joint: bool,
+                   overrides: dict[tuple[int, str], int | None]) -> str | None:
+    """An Assembly member's card: "ASSEMBLYMAN X", or a joint-hearing chair whom no senator shares a name with
+    (the mirror of the senator rule, so a chair is never given to both chambers)."""
+    if assembly is None or turn.label is None or (session, turn.label.upper()) in overrides:
+        return None
+    name = turn.name or ""
+    if turn.role == ROLE_CHAIR and joint and not roster.shares_name(name, session):
+        member_id = assembly.match(name, session)
+    elif turn.role == ROLE_ASSEMBLY:
+        member_id = assembly.match(name, session)
+    else:
+        return None
+    return assembly.senators[member_id].slug if member_id is not None else None
 
 
 def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, Any]:
@@ -134,8 +150,9 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
         turns = [_as_plain(paras)] if paras else []
     committees = [c for c in raw.get("committees") or [] if isinstance(c, (dict, str))]
     joint = any(isinstance(c, dict) and (c.get("chamber") or "").upper() == "ASSEMBLY" for c in committees)
-    out_turns = [
-        {
+    out_turns = []
+    for t in turns:
+        out = {
             "i": t.index,
             "label": t.label,
             "role": t.role,
@@ -145,8 +162,10 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
             "breaks": [[b.offset, b.page] for b in t.breaks],
             "bills": linked_bills(t.text),
         }
-        for t in turns
-    ]
+        member = _assembly_slug(t, session, roster, assembly, joint, overrides)
+        if member:
+            out["assembly"] = member  # only on matched turns: millions of turns, so no empty field elsewhere
+        out_turns.append(out)
     pages = [t.page_start for t in turns if t.page_start is not None] + [b.page for t in turns for b in t.breaks]
     segments = segment_calendar(turns) if kind == "floor" and not plain else []
     for segment in segments:
@@ -193,14 +212,14 @@ def _bill_rows(spoke: Counter, sponsored: set[tuple[int, str, str]]) -> list[dic
     return sorted(rows.values(), key=lambda r: (-r["remarks"], -r["session"], r["basePrintNo"]))
 
 
-def _copy_photo(store: Store, senator: Senator, out: Path) -> str | None:
-    """Copy a stored API photo to photos/{slug}.jpg; senators before 2009 have none."""
+def _copy_photo(store: Store, senator: Senator, out: Path, folder: str = "photos") -> str | None:
+    """Copy a stored API photo to {folder}/{slug}.jpg; senators before 2009 have none."""
     if not is_photo_name(senator.img_name) or not store.photo_path(senator.img_name).exists():
         return None
-    target = out / "photos" / f"{senator.slug}.jpg"
+    target = out / folder / f"{senator.slug}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(store.photo_path(senator.img_name), target)
-    return f"photos/{senator.slug}.jpg"
+    return f"{folder}/{senator.slug}.jpg"
 
 
 def load_roster(store: Store) -> Roster:
@@ -264,6 +283,7 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
     corrections = read_json(store.corrections_path, {}) or {}
     report = Report()
     appearances: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    assembly_seen: set[str] = set()
     debated_bills: dict[str, Counter] = defaultdict(Counter)
     bills: dict[int, dict[str, dict[str, Any]]] = defaultdict(dict)
     words: Counter = Counter()
@@ -300,6 +320,8 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         presided = Counter()
         first: dict[str, dict[str, Any]] = {}
         for t in doc["turns"]:
+            if t.get("assembly"):
+                assembly_seen.add(t["assembly"])
             if t["role"] in (ROLE_SENATOR, ROLE_PRESIDING) and t["label"] and not t["senator"]:
                 report.unmatched[f"{session} {t['label']}"] += 1
             if t["senator"]:
@@ -367,6 +389,15 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             "appearances": apps, "bills": _bill_rows(debated_bills[senator.slug], own),
         })
     write_json(out / "senators.json", index)
+
+    # Assembly members who speak (joint hearings): card details only, they have no pages here.
+    members = {}
+    for member in assembly.senators.values():
+        if member.slug in assembly_seen:
+            members[member.slug] = {"memberId": member.member_id, "name": member.full_name,
+                                    "sessions": {str(k): v for k, v in sorted(member.districts.items())},
+                                    "photo": _copy_photo(store, member, out, "photos/assembly")}
+    write_json(out / "assembly.json", members)
 
     by_prefix: dict[str, dict[str, int]] = defaultdict(dict)
     for word, count in words.items():
