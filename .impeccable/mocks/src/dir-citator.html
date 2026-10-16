@@ -101,6 +101,39 @@
   .hm-scope .seg span { padding: 6px 12px; border-right: 1px solid var(--rule); font-weight: 550; }
   .hm-scope .seg span:last-child { border-right: 0; }
   .hm-scope .seg .on { background: var(--ink); color: #fff; }
+  /* example searches to click, and the Search tips panel (?tips shows it open) */
+  .hm-scope { width: 820px; position: relative; }
+  .hm-scope.hm-top { margin: 0 0 10px; }
+  .hm-scope .seg span, .hm-scope .tips { white-space: nowrap; }
+  .hm-try { display: flex; gap: 8px; align-items: baseline; color: var(--ink3); }
+  .hm-try code, .tipbox code { font: 600 12.5px 'Archivo'; color: var(--ink); background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 2px 7px; white-space: nowrap; }
+  .hm-scope .tips { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--act); }
+  /* suggestions while typing a shortcut (?ac shows "speaker:ort" being typed) */
+  .hm-search { position: relative; }
+  .hm-field .typed { display: none; color: var(--ink); }
+  body.ac .hm-field .typed { display: inline; }
+  body.ac .hm-field .ph { display: none; }
+  body.ac .hm-field { border-color: var(--ink); box-shadow: 0 0 0 3px var(--act-wash); }
+  .caret { display: inline-block; width: 1.5px; height: 20px; background: var(--ink); vertical-align: -4px; margin-left: 1px; }
+  .acbox { display: none; position: absolute; left: 0; right: 108px; top: 58px; z-index: 3; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 6px 0 4px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); }
+  body.ac .acbox { display: block; }
+  .acbox h4 { margin: 0; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink3); padding: 8px 16px 4px; }
+  .acbox .row { display: flex; align-items: center; gap: 12px; padding: 7px 16px; }
+  .acbox .row.on { background: #F4F7F5; box-shadow: inset 2px 0 0 var(--act); }
+  .acbox .pic { flex: none; width: 28px; height: 36px; border-radius: 3px; background: #ECEEEF; border: 1px solid var(--rule2); color: #C6CBD0; display: grid; place-items: end center; overflow: hidden; }
+  .acbox .nm { font-size: 14.5px; font-weight: 500; }
+  .acbox .nm b { font-weight: 750; }
+  .acbox .mt { font-size: 12.5px; color: var(--ink3); }
+  .acbox .cnt { margin-left: auto; font-size: 12.5px; color: var(--ink3); font-variant-numeric: tabular-nums; }
+  .acbox .foot { display: flex; gap: 16px; margin-top: 4px; padding: 8px 16px 4px; border-top: 1px solid var(--rule2); font-size: 12px; color: var(--ink3); }
+  .acbox .foot kbd { font: 650 11px 'Archivo'; color: var(--ink2); border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: #fff; margin-right: 4px; }
+  .tipbox::before { content: ''; position: absolute; top: -7px; right: 28px; width: 12px; height: 12px; background: #fff; border-left: 1px solid var(--rule); border-top: 1px solid var(--rule); transform: rotate(45deg); }  /* points at Search tips */
+  .tipbox { display: none; position: absolute; right: 0; top: 31px; width: 470px; z-index: 2; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 14px 18px 16px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); }
+  body.tips .tipbox { display: block; }
+  .tipbox h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; }
+  .tipbox dl { display: grid; grid-template-columns: auto 1fr; gap: 9px 14px; align-items: baseline; font-size: 13px; color: var(--ink2); }
+  .tipbox dd { margin: 0; }
+  .tipbox p { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--rule2); font-size: 13px; color: var(--ink2); }
   .hm-cols { display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; margin-top: 48px; width: 1040px; }
   .hm-cols h2 { font-size: 15px; font-weight: 700; padding-bottom: 8px; border-bottom: 1.5px solid var(--ink); display: flex; justify-content: space-between; }
   .hm-cols h2 a { font-size: 13px; font-weight: 600; color: var(--act); }
@@ -296,12 +329,47 @@
   </header>
   <main class="hm">
     <h1>Search the Senate record</h1>
-    <p class="lede">Every floor session since 1993 and every public hearing, split by speaker and linked to the bills they debate.</p>
+    <p class="lede">Find what any senator said, follow a bill's debate, and cite the exact page. More than thirty years of New York State Senate transcripts, in one place.</p>
+    <div class="hm-scope hm-top"><div class="seg"><span class="on">All records</span><span>Floor sessions</span><span>Public hearings</span></div></div>
     <div class="hm-search">
-      <div class="hm-field"><svg width="20" height="20"><use href="#i-search"/></svg>Try <code>speaker:ortega</code> <code>"congestion pricing"</code></div>
+      <div class="hm-field"><svg width="20" height="20"><use href="#i-search"/></svg><span class="ph">Search for a senator, a bill, or what was said</span><span class="typed">speaker:ort<i class="caret"></i></span></div>
       <button class="ct-primary">Search</button>
+      <div class="acbox">
+        <h4>Senators</h4>
+        <div class="row on"><div class="pic"><svg width="24" height="30"><use href="#i-person"/></svg></div>
+          <div><div class="nm">Marisol <b>Ort</b>ega</div><div class="mt">District 27 · 2017–present</div></div><span class="cnt">1,284 remarks</span></div>
+        <div class="row"><div class="pic"><svg width="24" height="30"><use href="#i-person"/></svg></div>
+          <div><div class="nm">Rubén <b>Ort</b>iz</div><div class="mt">District 31 · 2009–2016</div></div><span class="cnt">612 remarks</span></div>
+        <div class="row"><div class="pic"></div>
+          <div><div class="nm">Harold <b>Ort</b>ner</div><div class="mt">District 12 · 1993–2004</div></div><span class="cnt">2,377 remarks</span></div>
+        <h4>Assembly · speaks in joint hearings</h4>
+        <div class="row"><div class="pic"><svg width="24" height="30"><use href="#i-person"/></svg></div>
+          <div><div class="nm">Daniel <b>Ort</b>olani</div><div class="mt">Member of the Assembly · District 64</div></div><span class="cnt">88 remarks</span></div>
+        <div class="foot"><span><kbd>↑</kbd><kbd>↓</kbd>choose</span><span><kbd>Enter</kbd>select</span><span><kbd>Esc</kbd>close</span></div>
+      </div>
     </div>
-    <div class="hm-scope"><div class="seg"><span class="on">All records</span><span>Floor sessions</span><span>Public hearings</span></div><span>Search by <b>speaker:</b> <b>bill:</b> <b>year:</b> or an <b>"exact phrase"</b></span></div>
+    <div class="hm-scope">
+      <div class="hm-try">Try
+        <code title="this exact phrase">"congestion pricing"</code>
+        <code title="either word">tolls OR fares</code>
+        <code title="what Ortega said about tolls">tolls speaker:Ortega</code>
+      </div>
+      <a class="tips">Search tips</a>
+      <div class="tipbox">
+        <h3>Search tips</h3>
+        <dl>
+          <dt><code>congestion pricing</code></dt><dd>remarks with both words</dd>
+          <dt><code>"congestion pricing"</code></dt><dd>this exact phrase</dd>
+          <dt><code>"tolls" "fares"</code></dt><dd>both phrases in one remark</dd>
+          <dt><code>tolls OR fares</code></dt><dd>either word</dd>
+          <dt><code>tolls NOT bridge</code></dt><dd>tolls, but not bridge</dd>
+          <dt><code>speaker:Ortega</code></dt><dd>only Senator Ortega's remarks</dd>
+          <dt><code>bill:S4597</code></dt><dd>every transcript that mentions S4597</dd>
+          <dt><code>year:2019</code></dt><dd>only 2019</dd>
+        </dl>
+        <p>Mix them freely: <code>rent speaker:Krueger year:2019</code></p>
+      </div>
+    </div>
     <div class="hm-cols">
       <section><h2>Latest transcripts <a>All transcripts</a></h2>
         <ul class="dk">
@@ -455,6 +523,6 @@
 </div>
 
 <div class="legend"><b>The Citator</b>Search results (left), homepage (top right), transcript reader (bottom right). Sample data: every name, bill and quote is fictional.</div>
-<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);if(u.has('card'))document.body.classList.add('card');</script>
+<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);if(u.has('card'))document.body.classList.add('card');if(u.has('tips'))document.body.classList.add('tips');if(u.has('ac'))document.body.classList.add('ac');</script>
 </body>
 </html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Search box options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Charis+SIL:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root { --ground:#F3F4F1; --pane:#FFFFFF; --ink:#161B22; --ink2:#4B535E; --ink3:#666D77; --rule:#D7DBDF; --act:#0B6B50; --ph:#8A9099; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font: 14px/1.45 'Archivo', system-ui, sans-serif; padding: 36px 120px 60px; }
+  h1 { font-size: 22px; font-weight: 750; margin: 0 0 4px; }
+  .intro { color: var(--ink2); margin: 0 0 28px; }
+  .opt { margin-bottom: 34px; }
+  .cap { font-size: 13px; font-weight: 700; color: var(--ink2); margin-bottom: 10px; }
+  .cap span { font-weight: 450; color: var(--ink3); margin-left: 8px; }
+  .search { display: flex; gap: 10px; width: 820px; }
+  .field { flex: 1; height: 52px; border: 1.5px solid #8F97A1; border-radius: 8px; background: #fff; display: flex; align-items: center; gap: 12px; padding: 0 16px; font-size: 17px; color: var(--ph); box-shadow: 0 1px 2px rgba(22,27,34,.06); }
+  .btn { font: 650 15px 'Archivo'; color: #fff; background: var(--act); border: 0; border-radius: 6px; height: 52px; padding: 0 24px; }
+  .below { display: flex; align-items: baseline; gap: 14px; width: 820px; margin-top: 12px; font-size: 13.5px; color: var(--ink3); }
+  .tips { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--act); }
+  svg { flex: none; }
+
+  /* rotating text: 7 examples, 5.5 s each */
+  .rot { position: relative; flex: 1; height: 26px; overflow: hidden; }
+  .rot span { position: absolute; left: 0; top: 2px; white-space: nowrap; opacity: 0; animation: slide 38.5s infinite; }
+  .rot span:nth-child(2) { animation-delay: 5.5s; } .rot span:nth-child(3) { animation-delay: 11s; }
+  .rot span:nth-child(4) { animation-delay: 16.5s; } .rot span:nth-child(5) { animation-delay: 22s; }
+  .rot span:nth-child(6) { animation-delay: 27.5s; } .rot span:nth-child(7) { animation-delay: 33s; }
+  .field:hover .rot span, .below:hover .rot span { animation-play-state: paused; }
+  @keyframes slide { 0% { opacity: 0; transform: translateY(9px); } 1.3% { opacity: 1; transform: none; }
+                     13% { opacity: 1; transform: none; } 14.29% { opacity: 0; transform: translateY(-9px); } 100% { opacity: 0; } }
+  @keyframes fade { 0% { opacity: 0; } 2% { opacity: 1; } 12.3% { opacity: 1; } 14.29% { opacity: 0; } 100% { opacity: 0; } }
+
+  /* 1. current */
+  .o1 .rot code { font: 600 16px 'Archivo'; color: var(--ink); margin: 0 4px; }
+  .o1 .rot em { font-style: normal; color: var(--ph); font-size: 14.5px; margin-left: 6px; }
+  /* 2. quieter inside: placeholder grey, fade only */
+  .o2 .rot span { animation-name: fade; color: var(--ph); }
+  .o2 .rot code { font: 500 17px 'Archivo'; color: #5F6670; }
+  .o2 .rot em { font-style: normal; color: #A3A9B0; margin-left: 4px; }
+  /* 3. examples on a line below */
+  .o3 .rot { height: 20px; }
+  .o3 .rot span { top: 0; animation-name: fade; }
+  .o3 .rot code { font: 600 13px 'Archivo'; color: var(--ink); background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 0 6px; margin-right: 6px; }
+  /* 4. static chips */
+  .o4 .chips { display: flex; gap: 8px; align-items: baseline; }
+  .o4 .chips code { font: 600 13px 'Archivo'; color: var(--ink); background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 2px 8px; cursor: pointer; }
+  .o4 .chips code:hover { border-color: #8F97A1; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+</svg>
+<h1>Search box: four options</h1>
+<p class="intro">Watch each for a few seconds. Hover pauses the moving ones. Same examples everywhere.</p>
+
+<div class="opt o1">
+  <div class="cap">1. Current<span>dark examples flip inside the box</span></div>
+  <div class="search"><div class="field"><svg width="20" height="20"><use href="#i-search"/></svg><div class="rot">
+    <span>Try<code>"congestion pricing"</code><em>this exact phrase</em></span>
+    <span>Try<code>tolls AND fares</code><em>both words</em></span>
+    <span>Try<code>tolls OR fares</code><em>either word</em></span>
+    <span>Try<code>tolls NOT bridge</code><em>tolls, but not bridge</em></span>
+    <span>Try<code>tolls speaker:Ortega</code><em>what Ortega said about tolls</em></span>
+    <span>Try<code>rent year:2019</code><em>rent, in 2019 only</em></span>
+    <span>Try<code>bill:S4597</code><em>every debate on S4597</em></span>
+  </div></div><button class="btn">Search</button></div>
+  <div class="below"><span></span><a class="tips">Search tips</a></div>
+</div>
+
+<div class="opt o2">
+  <div class="cap">2. Quieter inside<span>placeholder grey, a soft fade: reads as a hint, not as typed text</span></div>
+  <div class="search"><div class="field"><svg width="20" height="20"><use href="#i-search"/></svg><div class="rot">
+    <span><code>"congestion pricing"</code><em>· this exact phrase</em></span>
+    <span><code>tolls AND fares</code><em>· both words</em></span>
+    <span><code>tolls OR fares</code><em>· either word</em></span>
+    <span><code>tolls NOT bridge</code><em>· tolls, but not bridge</em></span>
+    <span><code>tolls speaker:Ortega</code><em>· what Ortega said about tolls</em></span>
+    <span><code>rent year:2019</code><em>· rent, in 2019 only</em></span>
+    <span><code>bill:S4597</code><em>· every debate on S4597</em></span>
+  </div></div><button class="btn">Search</button></div>
+  <div class="below"><span></span><a class="tips">Search tips</a></div>
+</div>
+
+<div class="opt o3">
+  <div class="cap">3. Clean box, examples underneath<span>the box stays still; one small line below fades through the examples</span></div>
+  <div class="search"><div class="field"><svg width="20" height="20"><use href="#i-search"/></svg>Search for a senator, a bill, or what was said</div><button class="btn">Search</button></div>
+  <div class="below">Example:<div class="rot">
+    <span><code>"congestion pricing"</code>this exact phrase</span>
+    <span><code>tolls AND fares</code>both words</span>
+    <span><code>tolls OR fares</code>either word</span>
+    <span><code>tolls NOT bridge</code>tolls, but not bridge</span>
+    <span><code>tolls speaker:Ortega</code>what Ortega said about tolls</span>
+    <span><code>rent year:2019</code>rent, in 2019 only</span>
+    <span><code>bill:S4597</code>every debate on S4597</span>
+  </div><a class="tips">Search tips</a></div>
+</div>
+
+<div class="opt o4">
+  <div class="cap">4. No motion<span>a plain box and a few examples to click; hover one for what it finds</span></div>
+  <div class="search"><div class="field"><svg width="20" height="20"><use href="#i-search"/></svg>Search for a senator, a bill, or what was said</div><button class="btn">Search</button></div>
+  <div class="below"><div class="chips">Try
+    <code title="this exact phrase">"congestion pricing"</code>
+    <code title="either word">tolls OR fares</code>
+    <code title="what Ortega said about tolls">tolls speaker:Ortega</code>
+    <code title="rent, in 2019 only">rent year:2019</code>
+  </div><a class="tips">Search tips</a></div>
+</div>
+</body>
+</html>

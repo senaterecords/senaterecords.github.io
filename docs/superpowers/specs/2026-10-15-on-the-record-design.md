@@ -172,7 +172,7 @@ These facts about the API were verified against the official docs and the OpenLe
   - unlinked bill mentions
   - transcripts that fell back to plain text
   - counts per year
-- **Where it goes:** it is written each run as a build artifact, and a summary is published on the About page.
+- **Where it goes:** it is written each run as a build artifact for the maintainers and the gate. It is not shown to visitors: the About page says plainly where the data comes from and shows the archive's size.
 - **The gate:** deployment is blocked if attribution or bill linking drops by more than 2 percentage points from the last deployed build, or if the number of floor transcripts or hearings falls. Plain-text fallbacks count as unattributed. The threshold can be tuned.
 
 ## 7. Site data contract (`data/site/`)
@@ -242,11 +242,13 @@ The format is to be confirmed with users. **Export** is generated in the browser
 - **Filters on each page:** `type`, `year`, `session`, `senator` (several values: everyone who spoke), `bill` (several values), `committee`.
 - **Sorting:** by `date`.
 - **Instant suggestions:** as you type, small JSON lists (`senators.json` and a bill index) offer "Senator Marisol Ortega" or "S4597-A" directly.
+- **Shortcut suggestions:** typing a shortcut opens a suggestion list. `speaker:` lists senators (photo, district, years served, remarks), then Assembly members who speak in hearings. Any part of the name matches (first, middle, last, either half of a double-barrelled name), ignoring case, accents and apostrophes, with the matched letters in bold. A shared surname lists every holder with their years, so the user picks instead of the search guessing; a `speaker:` left ambiguous on Enter asks "Which Smith?". `year:` lists years with transcript counts, `bill:` lists bills from a bill index split by print-number prefix (a small new pipeline output), `type:` lists floor sessions and hearings, and a partial shortcut ("sp") suggests the shortcut itself. Arrow keys, Enter and Esc work. Nicknames outside the official name need an alias list if they come up.
 - **The query layer (our code in the browser):**
-  - parses `"exact phrase"`, `OR`, `-term`, `speaker:`, `bill:`, `year:` and `type:`
+  - parses `"exact phrase"`, `AND` (also the default between words), `OR`, `NOT` or `-term`, `speaker:`, `bill:`, `year:` and `type:`. On the homepage, three example searches sit under the box (click to fill it in; hover shows what each finds) beside a "Search tips" link that opens a panel listing every option with an example and a plain description, ending with a mixed example. No motion
   - turns field prefixes into Pagefind filters
   - runs one Pagefind search per OR branch and merges the results
   - removes remarks that contain any `-term`
+  - supports several exact phrases in one search (`"congestion pricing" "toll revenue"`: remarks containing both; with `OR`, either) by searching for all their words, then checking each remark's text for every phrase; Plan 2 tests this on the real archive
   - **keeps only the named speaker's own remarks** when `speaker:` is used, by checking each sub-result's speaker heading
   - supports "near" by checking remark text
   - suggests "Did you mean…" from the `words/` vocabulary when a search returns nothing
@@ -366,4 +368,7 @@ The format is to be confirmed with users. **Export** is generated in the browser
 | Special-session bills linked only when published for the session | a wrong link is worse than none: the regular bill of the same number was being linked |
 | No "unofficial" notice (2026-10-16) | the user's decision; the About page still names the source and its known gaps |
 | No formal accessibility target (2026-10-16) | the user's decision; the site keeps ordinary good practice (real text, headings, labelled buttons) without auditing against WCAG |
+| A plain About page (2026-10-16) | what the site does, that the data comes from the Senate's Open Legislation API, hourly updates, citing by official page, and the archive's size; no list of gaps or quality percentages, which professional sites don't publish |
+| Homepage search without motion (2026-10-16) | flipping examples inside the box read as typed text; three clickable examples under the box and a Search tips panel (with a pointer to its link) were clearer. Shortcut suggestions (`speaker:`, `year:`, `bill:`) match any part of a name and resolve shared surnames by choice |
+| Mobile designed before building (2026-10-16) | all screens at 390 px (`mocks/src/mobile.html`): a menu button, back arrows, the senator card and citation tools as bottom sheets (phones can't hover), the reader's calendar and bill details as a bar on top with next and previous remark at the bottom, a vertical bill timeline, cards in place of tables, and filters behind one button |
 | Static transcript pages with `content-visibility`, measured before considering React windowing | keeps browser find, copy, print, exact page links and indexing; Plan 2 measures the largest transcript first |
