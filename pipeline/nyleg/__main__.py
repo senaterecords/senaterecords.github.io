@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 
 from . import sync
 from .api import ApiError, AuthError, Client
+from .bills import load_bill_fixes
 from .quality import gate
 from .senators import session_year
 from .sitedata import build_all
@@ -84,11 +85,10 @@ def cmd_sync(args: argparse.Namespace) -> int:
         result.merge(sync.sync_recent_hearings(client, store, now.date()))
     current = session_year(now.date())
     result.merge(sync.sync_members(client, store, current))
-    if args.rescan_bills:
-        scan = list(store.iter_raw("transcripts"))
-    else:
-        scan = [p for p in result.changed if "transcripts" in p.parts]
-    result.merge(sync.fetch_bills(client, store, sync.wanted_bills(scan), budget=args.bill_budget,
+    result.merge(sync.sync_photos(store))
+    scan = sync.bill_scan_paths(store, result.changed, args.rescan_bills)
+    fixes = load_bill_fixes(store.root / "overrides" / "bills.yaml")
+    result.merge(sync.fetch_bills(client, store, sync.wanted_bills(scan, fixes), budget=args.bill_budget,
                                   today=now.date(), refresh_session=current, workers=args.parallel))
     print(f"{len(result.changed)} raw files added or updated")
     emit("changed", "true" if result.changed else "false")
@@ -161,7 +161,7 @@ def main(argv: list[str] | None = None) -> int:
     s = commands.add_parser("sync", help="download new and changed records")
     s.add_argument("--backfill", metavar="YEAR[-YEAR]", help="also download whole years (resumable)")
     s.add_argument("--hearings", action="store_true", help="re-list this year's public hearings")
-    s.add_argument("--rescan-bills", action="store_true", help="look for bill mentions in every stored transcript")
+    s.add_argument("--rescan-bills", action="store_true", help="look for bill mentions in every stored transcript and hearing")
     s.add_argument("--bill-budget", type=int, default=3000, help="max bill requests this run")
     s.add_argument("--rate", type=rate, help="requests per second (default 1; at most 10, for the one-time backfill)")
     s.add_argument("--parallel", type=parallel, default=1,

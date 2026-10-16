@@ -8,12 +8,14 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from .bills import BILL_DATA_START, Segment, base_print_no, bill_card, find_bills, segment_calendar
+from .bills import (
+    BILL_DATA_START, BillResolver, Segment, base_print_no, bill_card, find_bills, load_bill_fixes, segment_calendar,
+)
 from .clean import PageBreak, Paragraph, extract_lines, paragraphs
 from .quality import Report
-from .senators import Roster, load_history, load_overrides, session_year
+from .senators import Roster, Senator, load_history, load_overrides, session_year
 from .speakers import ROLE_CHAIR, ROLE_PRESIDING, ROLE_RECORD, ROLE_SENATOR, Turn, coverage, split_turns
-from .store import Store, read_json, slugify, write_json
+from .store import Store, is_photo_name, read_json, slugify, write_json
 
 FALLBACK_COVERAGE = 0.8
 MATCH_ROLES = (ROLE_SENATOR, ROLE_PRESIDING, ROLE_CHAIR)
@@ -85,9 +87,24 @@ def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, An
 
 
 def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: dict, slug: str,
-                     assembly: Roster | None = None) -> dict[str, Any]:
+                     assembly: Roster | None = None, bills: BillResolver | None = None) -> dict[str, Any]:
     when = date.fromisoformat(str(raw.get("dateTime") or raw.get("date"))[:10])
     session = session_year(when)
+    extraordinary = "EXTRAORDINARY" in str(raw.get("sessionType") or "").upper()
+    resolver = bills or BillResolver({}, lambda _session, _base: None)
+    unresolved = 0
+
+    def linked_bills(text: str) -> list[str]:
+        nonlocal unresolved
+        found = []
+        for printed in find_bills(text):
+            bill = resolver.resolve(printed, session, when, extraordinary)
+            if bill is None:
+                unresolved += 1  # a special-session number the API has no bill for: shown, never linked
+            elif bill not in found:
+                found.append(bill)
+        return found
+
     text = raw.get("text") or ""
     empty = not text.strip()
     paras = paragraphs(extract_lines(text))
@@ -107,12 +124,14 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
             "text": t.text,
             "page": t.page_start,
             "breaks": [[b.offset, b.page] for b in t.breaks],
-            "bills": find_bills(t.text),
+            "bills": linked_bills(t.text),
         }
         for t in turns
     ]
     pages = [t.page_start for t in turns if t.page_start is not None] + [b.page for t in turns for b in t.breaks]
     segments = segment_calendar(turns) if kind == "floor" and not plain else []
+    for segment in segments:
+        segment.print_no = resolver.resolve(segment.print_no, session, when, extraordinary)
     return {
         "kind": kind,
         "slug": slug,
@@ -130,6 +149,7 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
         "corrected": None,
         "turns": out_turns,
         "segments": [_segment_dict(s, out_turns) for s in segments],
+        "unresolvedBillMentions": unresolved,
     }
 
 
@@ -151,6 +171,16 @@ def _bill_rows(spoke: Counter, sponsored: set[tuple[int, str, str]]) -> list[dic
                                                 "remarks": 0, "sponsor": False})
         row["sponsor"] = True
     return sorted(rows.values(), key=lambda r: (-r["remarks"], -r["session"], r["basePrintNo"]))
+
+
+def _copy_photo(store: Store, senator: Senator, out: Path) -> str | None:
+    """Copy a stored API photo to photos/{slug}.jpg; senators before 2009 have none."""
+    if not is_photo_name(senator.img_name) or not store.photo_path(senator.img_name).exists():
+        return None
+    target = out / "photos" / f"{senator.slug}.jpg"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(store.photo_path(senator.img_name), target)
+    return f"photos/{senator.slug}.jpg"
 
 
 def load_roster(store: Store) -> Roster:
@@ -218,9 +248,11 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
     bills: dict[int, dict[str, dict[str, Any]]] = defaultdict(dict)
     words: Counter = Counter()
 
+    resolver = BillResolver(load_bill_fixes(store.root / "overrides" / "bills.yaml"),
+                            lambda session, base: read_json(store.bill_path(session, base)))
     for kind, path, slug in plan_slugs(store, report):
         try:
-            doc = build_transcript(kind, read_json(path), roster, overrides, slug, assembly)
+            doc = build_transcript(kind, read_json(path), roster, overrides, slug, assembly, resolver)
         except Exception as exc:  # noqa: BLE001 - one bad record must not stop the build
             report.failed.append(store.raw_key(path))
             print(f"WARNING: skipped {store.raw_key(path)}: {exc}")
@@ -241,6 +273,8 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         if doc["plainText"]:
             report.plain_text.append(slug)
 
+        if session >= BILL_DATA_START:
+            report.bill_mentions += doc["unresolvedBillMentions"]  # counted, never linked
         spoke = Counter()
         presided = Counter()
         first: dict[str, dict[str, Any]] = {}
@@ -271,6 +305,8 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
                 "firstPage": first[senator]["page"],
             })
         for seg in doc["segments"]:
+            if not seg["printNo"]:
+                continue  # a special-session reading the API has no bill for
             base = base_print_no(seg["printNo"])
             entry = _bill_entry(bills, session, base)
             entry["segments"].append({"transcript": slug, "date": doc["date"], **seg})
@@ -295,13 +331,17 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         sessions = {str(k): v for k, v in sorted(senator.districts.items())}
         remarks = sum(a["remarks"] for a in apps)
         presiding = sum(a["presiding"] for a in apps)
-        index.append({"slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name,
-                      "sessions": sessions, "remarks": remarks, "presiding": presiding, "transcripts": len(apps)})
+        photo = _copy_photo(store, senator, out)
+        service = senator.service(current=session_year(now.date()))
+        index.append({"slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name, "photo": photo,
+                      "service": service, "sessions": sessions, "remarks": remarks, "presiding": presiding,
+                      "transcripts": len(apps)})
         own = sponsored.get(senator.slug, set())
         if not apps and not own:
             continue
         write_json(out / "senators" / f"{senator.slug}.json", {
-            "slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name, "sessions": sessions,
+            "slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name, "photo": photo,
+            "service": service, "sessions": sessions,
             "totals": {"remarks": remarks, "presiding": presiding, "transcripts": len(apps)},
             "appearances": apps, "bills": _bill_rows(debated_bills[senator.slug], own),
         })

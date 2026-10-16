@@ -1,0 +1,24 @@
+# Reviewed fixes for bill numbers misread or mistyped in the transcripts. Each entry gives the
+# transcript's date, the print number as the pipeline reads it, and the bill it really means.
+# Every target was checked against the API (title, sponsor or law) and the words read on the floor.
+- date: 2011-03-30
+  printed: A40004D
+  bill: A4004D   # "Assembly Budget Bill ... CAPITAL PROJECTS BUDGET": A4004 is that bill (extra zero)
+- date: 2017-04-09
+  printed: A30009
+  bill: A3009    # a budget bill (extra zero)
+- date: 2018-06-20
+  printed: S11099
+  bill: A11099   # "substituted earlier by the Assembly Committee on Rules ... Public Service Law"
+- date: 2021-09-01
+  printed: S5001
+  bill: S50001   # special session: Senator Kavanagh's eviction bill (a zero dropped)
+- date: 2021-09-01
+  printed: S5002
+  bill: S50002   # special session: the rental assistance budget bill (a zero dropped)
+- date: 2024-05-28
+  printed: S10207
+  bill: A10207   # "by Assemblymember Burdick": an Assembly bill
+- date: 2026-05-27
+  printed: S90004D
+  bill: S9004D   # the Capital Projects budget bill (extra zero)

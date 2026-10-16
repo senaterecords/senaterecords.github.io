@@ -1,6 +1,54 @@
-from nyleg.bills import base_print_no, bill_card, find_bills, segment_calendar
+from datetime import date
+
+from nyleg.bills import BillResolver, base_print_no, bill_card, extraordinary_print, find_bills, load_bill_fixes, segment_calendar
 from nyleg.clean import extract_lines, paragraphs
 from nyleg.speakers import Turn, classify, split_turns
+
+
+def test_extraordinary_session_numbers_map_to_the_api_series():
+    # Open Legislation files extraordinary-session bills as S5000N (Senate) and A4000N (Assembly).
+    assert extraordinary_print("S25") == "S50025"
+    assert extraordinary_print("A3") == "A40003"
+    assert extraordinary_print("S11A") == "S50011A"
+    assert extraordinary_print("S1145B") is None  # a regular bill mentioned during a special session
+
+
+def resolver(bills=None, fixes=None):
+    bills = bills or {}
+    return BillResolver(fixes or {}, lambda session, base: bills.get((session, base)))
+
+
+JUNE_23 = date(2009, 6, 23)
+
+
+def test_regular_sessions_keep_the_number_as_read():
+    assert resolver().resolve("S25", 2009, JUNE_23, extraordinary=False) == "S25"
+
+
+def test_a_special_session_reading_links_the_special_session_bill_published_for_it():
+    r = resolver({(2009, "S50025"): {"publishedDateTime": "2009-06-23T15:01:01"}})
+    assert r.resolve("S25", 2009, JUNE_23, extraordinary=True) == "S50025"
+
+
+def test_a_special_session_number_is_never_linked_to_the_regular_bill_or_a_stale_one():
+    # November 2009's "Senate Print 5" is not June's S50005, and never the regular S5.
+    r = resolver({(2009, "S50005"): {"publishedDateTime": "2009-06-23T15:01:01"}, (2009, "S5"): {}})
+    assert r.resolve("S5", 2009, date(2009, 11, 10), extraordinary=True) is None
+    assert r.resolve("S77", 2009, date(2009, 11, 10), extraordinary=True) is None  # not in the API at all
+
+
+def test_large_numbers_in_a_special_session_are_regular_bills():
+    assert resolver().resolve("S1145B", 2009, date(2010, 1, 19), extraordinary=True) == "S1145B"
+
+
+def test_reviewed_fixes_win(tmp_path):
+    path = tmp_path / "bills.yaml"
+    path.write_text("- date: 2021-09-01\n  printed: S5001\n  bill: S50001\n", encoding="utf-8")
+    fixes = load_bill_fixes(path)
+    assert fixes == {("2021-09-01", "S5001"): "S50001"}
+    assert resolver(fixes=fixes).resolve("S5001", 2021, date(2021, 9, 1), extraordinary=True) == "S50001"
+    assert resolver(fixes=fixes).resolve("S5001", 2021, date(2021, 3, 1), extraordinary=False) == "S5001"
+    assert load_bill_fixes(tmp_path / "missing.yaml") == {}
 
 
 def test_find_bills_handles_the_common_spellings():

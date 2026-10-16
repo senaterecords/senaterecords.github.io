@@ -120,6 +120,13 @@ def test_middle_initials_do_not_block_a_match():
     assert r.match("JOSEPH ADDABBO", 2025) == 20
 
 
+def test_the_latest_session_photo_is_kept():
+    old = {**member(3, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 26, 2009), "imgName": "old.jpg"}
+    new = {**member(3, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 26, 2011), "imgName": "401_liz_krueger.jpg"}
+    r = Roster.from_members({2011: [new], 2009: [old]})
+    assert r.senators[3].img_name == "401_liz_krueger.jpg"
+
+
 def test_first_and_last_names_with_an_apostrophe_particle_match():
     # "O" in O'Mara is part of the surname, not a middle initial.
     r = Roster.from_members({2025: [member(30, "Thomas F. O'Mara", "Thomas", "O'Mara", "O'MARA", 58, 2025)]})
@@ -181,6 +188,31 @@ def test_service_dates_settle_a_shared_surname_within_a_session():
     assert r.match("STAVISKY", 1999, date(2000, 2, 1)) == 100011
     assert r.match("STAVISKY", 1999) is None  # without a date it is still a guess
     assert r.match("STAVISKY", 1997, date(1997, 5, 1)) == 100010
+
+
+def test_service_lists_each_separate_stretch_with_known_dates():
+    r = Roster.from_members({2009: [member(442, "Pedro Espada Jr.", "Pedro", "Espada", "ESPADA", 33, 2009)]}, history=[
+        {"member_id": 442, "name": "Pedro Espada Jr.", "first": "Pedro", "last": "Espada", "sessions": {1993: 32, 1995: 32, 2001: 33}},
+        {"member_id": 100025, "name": "Carl Kruger", "first": "Carl", "last": "Kruger",
+         "sessions": {1993: 21, 1995: 21, 1997: 27}, "from": date(1994, 2, 15)},
+        {"member_id": 100032, "name": "John J. Marchi", "first": "John", "last": "Marchi",
+         "sessions": {1993: 24, 1995: 24}, "before_1993": True},
+        {"member_id": 100010, "name": "Leonard P. Stavisky", "first": "Leonard", "last": "Stavisky",
+         "sessions": {1997: 16, 1999: 16}, "until": date(1999, 6, 19)},
+    ])
+    assert r.senators[442].service(current=2025) == [{"from": 1993, "to": 1996}, {"from": 2001, "to": 2002},
+                                                     {"from": 2009, "to": 2010}]
+    assert r.senators[100025].service(current=2025) == [{"from": 1994, "to": 1998}]
+    assert r.senators[100032].service(current=2025) == [{"from": 1993, "to": 1996, "beforeRecords": True}]
+    assert r.senators[100010].service(current=2025) == [{"from": 1997, "to": 1999}]
+
+
+def test_service_runs_to_the_present_only_for_sitting_senators():
+    sitting = {**member(3, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 26, 2025), "incumbent": True}
+    retired = {**member(4, "Ann Gone", "Ann", "Gone", "GONE", 5, 2025), "incumbent": False}
+    r = Roster.from_members({2023: [{**sitting, "sessionShortNameMap": {}}], 2025: [sitting, retired]})
+    assert r.senators[3].service(current=2025) == [{"from": 2023, "to": None}]
+    assert r.senators[4].service(current=2025) == [{"from": 2025, "to": 2026}]
 
 
 def test_load_history_reads_the_yaml_list(tmp_path):

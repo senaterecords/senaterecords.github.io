@@ -1,7 +1,7 @@
 """Download new and changed records from the API into the raw store."""
 from __future__ import annotations
 
-from collections.abc import Iterable
+from collections.abc import Callable, Iterable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
@@ -9,11 +9,13 @@ from pathlib import Path
 from typing import Any, Protocol
 from urllib.parse import quote
 
+import httpx
+
 from .api import ApiError, AuthError, NotFound
-from .bills import BILL_DATA_START, base_print_no, find_bills
+from .bills import BILL_DATA_START, base_print_no, extraordinary_print, find_bills
 from .clean import extract_lines, paragraphs
 from .senators import session_year
-from .store import Store, read_json, write_json
+from .store import Store, is_photo_name, read_json, write_json
 
 UPDATE_OVERLAP = timedelta(minutes=10)
 FIRST_LOOKBACK = timedelta(days=7)
@@ -178,8 +180,52 @@ def sync_members(client: ApiClient, store: Store, session: int) -> SyncResult:
     return result
 
 
-def wanted_bills(paths: Iterable[Path]) -> set[tuple[int, str]]:
-    """(session, base print number) for every bill mentioned in these raw transcripts."""
+PHOTO_URL = "https://legislation.nysenate.gov/static/img/business_assets/members/mini/"
+
+
+def fetch_photo(url: str) -> bytes | None:
+    """A public image file: no API key is sent."""
+    try:
+        resp = httpx.get(url, timeout=30.0)
+    except httpx.HTTPError:
+        return None
+    ok = resp.status_code == 200 and resp.headers.get("content-type", "").startswith("image/")
+    return resp.content if ok else None
+
+
+def sync_photos(store: Store, fetch: Callable[[str], bytes | None] = fetch_photo) -> SyncResult:
+    """Download each senator's API photo once (55x71, about 2 KB), so the site never hotlinks the Senate's server."""
+    names: set[str] = set()
+    folder = store.raw / "members"
+    for path in sorted(folder.glob("*.json")) if folder.exists() else []:
+        for item in read_json(path) or []:
+            name = (item.get("person") or {}).get("imgName") or item.get("imgName")
+            if is_photo_name(name):
+                names.add(name)
+    result = SyncResult()
+    for name in sorted(names):
+        path = store.photo_path(name)
+        if path.exists():
+            continue
+        data = fetch(PHOTO_URL + quote(name))
+        if data:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(data)
+            result.changed.append(path)
+    return result
+
+
+def bill_scan_paths(store: Store, changed: list[Path], rescan: bool) -> list[Path]:
+    """Raw records to read for bill mentions: floor transcripts and hearings, all of them or the changed ones."""
+    if rescan:
+        return [*store.iter_raw("transcripts"), *store.iter_raw("hearings")]
+    return [p for p in changed if "transcripts" in p.parts or "hearings" in p.parts]
+
+
+def wanted_bills(paths: Iterable[Path], fixes: dict[tuple[str, str], str] | None = None) -> set[tuple[int, str]]:
+    """(session, base print number) for every bill mentioned in these raw records. In a special session a
+    small number means the API's 5000N / 4000N series; reviewed fixes replace numbers misread on the floor."""
+    fixes = fixes or {}
     wanted: set[tuple[int, str]] = set()
     for path in paths:
         raw = read_json(path) or {}
@@ -189,8 +235,10 @@ def wanted_bills(paths: Iterable[Path]) -> set[tuple[int, str]]:
         session = session_year(date.fromisoformat(when))
         if session < BILL_DATA_START:
             continue
+        extraordinary = "EXTRAORDINARY" in str(raw.get("sessionType") or "").upper()
         for para in paragraphs(extract_lines(raw.get("text") or "")):
             for p in find_bills(para.text):
+                p = fixes.get((when, p)) or (extraordinary and extraordinary_print(p)) or p
                 wanted.add((session, base_print_no(p)))
     return wanted
 

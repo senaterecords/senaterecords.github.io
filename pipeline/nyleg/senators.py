@@ -13,6 +13,7 @@ from .store import slugify
 
 GARBLED = "�"  # a decoding error's replacement character; matches any one letter
 HISTORY_ID_START = 100000  # ids for senators the API doesn't know: they left before 2009
+RECORDS_START = 1993  # the first year of floor transcripts
 
 
 def session_year(day: date) -> int:
@@ -44,6 +45,30 @@ class Senator:
     short_names: dict[int, str] = field(default_factory=dict)
     served_from: date | None = None   # joined mid-session (a special election), when known
     served_until: date | None = None  # left mid-session (died or resigned), when known
+    img_name: str | None = None       # the API's photo file name, from the latest session
+    before_records: bool = False      # already serving in 1993, where these records begin
+    incumbent: bool = False           # sitting now, according to the latest API list
+
+    def service(self, current: int) -> list[dict[str, Any]]:
+        """Each separate stretch in the Senate, in years: [{"from": 1993, "to": 1996}, {"from": 2001, ...}].
+        Known join and leave dates sharpen the ends; "to" is None while still serving."""
+        periods: list[dict[str, Any]] = []
+        for session in sorted(self.districts):
+            if periods and session == periods[-1]["to"] + 1:
+                periods[-1]["to"] = session + 1
+            else:
+                periods.append({"from": session, "to": session + 1})
+        if not periods:
+            return []
+        if self.served_from and periods[0]["from"] <= self.served_from.year <= periods[0]["to"]:
+            periods[0]["from"] = self.served_from.year
+        if self.served_until and periods[-1]["from"] <= self.served_until.year <= periods[-1]["to"]:
+            periods[-1]["to"] = self.served_until.year
+        if self.before_records and periods[0]["from"] == RECORDS_START:
+            periods[0]["beforeRecords"] = True
+        if self.incumbent and max(self.districts) == current and not self.served_until:
+            periods[-1]["to"] = None
+        return periods
 
 
 class Roster:
@@ -78,6 +103,8 @@ class Roster:
                 ]
                 senator.short_names[session] = entries[0].get("shortName") or item.get("shortName") or ""
                 senator.districts[session] = entries[0].get("districtCode")
+                senator.img_name = person.get("imgName") or item.get("imgName") or senator.img_name
+                senator.incumbent = bool(item.get("incumbent"))
         for row in history or []:
             member_id = int(row["member_id"])
             senator = senators.get(member_id)
@@ -92,6 +119,7 @@ class Roster:
                 senators[member_id] = senator
             senator.served_from = row.get("from") or senator.served_from
             senator.served_until = row.get("until") or senator.served_until
+            senator.before_records = bool(row.get("before_1993")) or senator.before_records
             for session, district in row["sessions"].items():
                 senator.short_names[int(session)] = row.get("short") or row.get("last") or senator.last_name
                 senator.districts[int(session)] = district

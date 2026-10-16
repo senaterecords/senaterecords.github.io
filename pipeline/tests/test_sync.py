@@ -6,6 +6,9 @@ import pytest
 from nyleg.api import ApiError, AuthError, NotFound
 from nyleg.store import Store, read_json, write_json
 from nyleg.sync import (
+    PHOTO_URL,
+    bill_scan_paths,
+    sync_photos,
     backfill_hearings,
     backfill_transcripts,
     fetch_bills,
@@ -115,6 +118,56 @@ def test_members_of_both_chambers_are_saved_per_session(tmp_path):
     assert sync_members(client, store, 2025).changed == [store.members_path(2025), store.assembly_members_path(2025)]
     assert read_json(store.assembly_members_path(2025)) == [{"memberId": 900}]
     assert sync_members(client, store, 2025).changed == []
+
+
+def test_each_senator_photo_is_downloaded_once(tmp_path):
+    store = Store(tmp_path)
+    write_json(store.members_path(2025), [{"memberId": 3, "imgName": "401_liz_krueger.jpg"},
+                                         {"memberId": 4, "imgName": "gone.jpg"}, {"memberId": 5}])
+    asked = []
+
+    def fetch(url):
+        asked.append(url)
+        return b"jpeg-bytes" if url.endswith("401_liz_krueger.jpg") else None
+
+    result = sync_photos(store, fetch)
+    assert asked == [f"{PHOTO_URL}401_liz_krueger.jpg", f"{PHOTO_URL}gone.jpg"]
+    assert store.photo_path("401_liz_krueger.jpg").read_bytes() == b"jpeg-bytes"
+    assert result.changed == [store.photo_path("401_liz_krueger.jpg")]
+    asked.clear()
+    sync_photos(store, fetch)
+    assert asked == [f"{PHOTO_URL}gone.jpg"]  # a stored photo is never fetched again
+
+
+def test_a_photo_name_that_is_not_a_plain_file_name_is_never_fetched_or_written(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), [{"memberId": 3, "imgName": "../../escape.jpg"},
+                                         {"memberId": 4, "person": {"imgName": "sub/dir.jpg"}}])
+    asked = []
+    sync_photos(store, lambda url: asked.append(url) or b"x")
+    assert asked == []
+    assert not (tmp_path / "escape.jpg").exists()
+
+
+def test_bill_scan_covers_hearings_as_well_as_floor_transcripts(tmp_path):
+    store = Store(tmp_path)
+    floor_path = store.transcript_path("2025-06-10T11:00", "Regular Session")
+    hearing_path = store.hearing_path(2025, "budget.txt")
+    write_json(floor_path, transcript("2025-06-10T11:00"))
+    write_json(hearing_path, {"filename": "budget.txt", "date": "2025-02-05", "text": "SENATOR KRUEGER: Senate Print 3005."})
+    assert sorted(bill_scan_paths(store, [], rescan=True)) == sorted([floor_path, hearing_path])
+    changed = [hearing_path, store.members_path(2025)]
+    assert bill_scan_paths(store, changed, rescan=False) == [hearing_path]
+
+
+def test_wanted_bills_asks_for_the_special_session_series_and_reviewed_fixes(tmp_path):
+    store = Store(tmp_path)
+    special = store.transcript_path("2009-06-23T15:00", "Extraordinary Session")
+    write_json(special, {"dateTime": "2009-06-23T15:00", "sessionType": "Extraordinary Session",
+                         "text": "THE SECRETARY: Extraordinary Session Senate Print Number 25, by the Senate Committee "
+                                 "on Rules. Senate Bill Number 1145B and Senate Print 5001."})
+    fixes = {("2009-06-23", "S5001"): "S50001"}
+    assert wanted_bills([special], fixes) == {(2009, "S50025"), (2009, "S1145"), (2009, "S50001")}
 
 
 def test_wanted_bills_reads_mentions_from_cleaned_text_and_skips_old_sessions(tmp_path):

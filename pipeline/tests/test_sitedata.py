@@ -317,6 +317,60 @@ def test_joint_hearing_chairs_link_only_when_no_assembly_member_shares_the_name(
     assert chair("WEINSTEIN") is None  # Helene Weinstein of the Assembly shares the name: never guess
 
 
+def test_senator_photos_are_copied_into_the_site_data(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), [{**MEMBERS[2025][0], "imgName": "1_marisol_ortega.jpg"}, MEMBERS[2025][1]])
+    store.photo_path("1_marisol_ortega.jpg").parent.mkdir(parents=True)
+    store.photo_path("1_marisol_ortega.jpg").write_bytes(b"jpeg-bytes")
+    write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", TEXT_2025))
+    site = tmp_path / "site"
+    build_all(store, site, datetime(2025, 6, 11))
+    assert (site / "photos" / "marisol-ortega.jpg").read_bytes() == b"jpeg-bytes"
+    index = {s["slug"]: s for s in read_json(site / "senators.json")}
+    assert index["marisol-ortega"]["photo"] == "photos/marisol-ortega.jpg"
+    assert index["paul-brennan"]["photo"] is None
+    assert read_json(site / "senators" / "marisol-ortega.json")["photo"] == "photos/marisol-ortega.jpg"
+
+
+def test_senator_data_lists_service_periods(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), [{**MEMBERS[2025][0], "incumbent": True}, MEMBERS[2025][1]])
+    write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", TEXT_2025))
+    build_all(store, tmp_path / "site", datetime(2025, 6, 11))
+    index = {s["slug"]: s for s in read_json(tmp_path / "site" / "senators.json")}
+    assert index["marisol-ortega"]["service"] == [{"from": 2025, "to": None}]
+    assert index["paul-brennan"]["service"] == [{"from": 2025, "to": 2026}]
+    assert read_json(tmp_path / "site" / "senators" / "marisol-ortega.json")["service"] == [{"from": 2025, "to": None}]
+
+
+SPECIAL = """                                                               2001
+
+ 1               THE SECRETARY:   Calendar Number 1, Extraordinary
+ 2   Session Senate Print Number 25, by the Senate Committee on Rules,
+ 3   an act to amend the Executive Law.
+ 4               THE SECRETARY:   Calendar Number 2, Extraordinary
+ 5   Session Senate Print Number 26, by the Senate Committee on Rules,
+ 6   an act to amend the Retirement and Social Security Law.
+"""
+
+
+def test_special_session_readings_link_the_special_session_bill_never_the_regular_one(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.transcript_path("2009-06-23T15:00", "Extraordinary Session"),
+               {**floor("2009-06-23T15:00", SPECIAL), "sessionType": "Extraordinary Session"})
+    write_json(store.bill_path(2009, "S50025"), {"basePrintNo": "S50025", "printNo": "S50025", "session": 2009,
+                                                 "publishedDateTime": "2009-06-23T15:01:01", "title": "Veterans"})
+    write_json(store.bill_path(2009, "S26"), {"basePrintNo": "S26", "printNo": "S26", "session": 2009,
+                                              "publishedDateTime": "2009-01-07T10:00:00", "title": "Something else"})
+    report = build_all(store, tmp_path / "site", datetime(2025, 1, 1))
+    doc = read_json(tmp_path / "site" / "transcripts" / "2009-06-23-extraordinary-session.json")
+    assert [s["printNo"] for s in doc["segments"]] == ["S50025", None]
+    assert [b for t in doc["turns"] for b in t["bills"]] == ["S50025"]
+    bills = {b["basePrintNo"] for b in read_json(tmp_path / "site" / "bills" / "2009.json")["bills"]}
+    assert bills == {"S50025"}
+    assert (report.bill_mentions, report.bill_mentions_linked) == (2, 1)
+
+
 def test_build_all_reads_the_assembly_lists_for_joint_hearings(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2011), [member(5, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 2011)])

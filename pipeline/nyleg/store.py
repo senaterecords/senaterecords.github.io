@@ -11,6 +11,12 @@ from pathlib import Path
 from typing import Any
 
 _NON_SLUG = re.compile(r"[^a-z0-9]+")
+_PHOTO_NAME = re.compile(r"\w[\w.\-]*")
+
+
+def is_photo_name(name: str | None) -> bool:
+    """A plain file name like 373_jose_m._serrano.jpg: no folders, nothing that could escape data/raw/photos."""
+    return bool(name) and bool(_PHOTO_NAME.fullmatch(name)) and ".." not in name
 
 
 def slugify(value: str) -> str:
@@ -69,6 +75,12 @@ class Store:
 
     def assembly_members_path(self, session: int) -> Path:
         return self.raw / "members-assembly" / f"{session}.json"
+
+    def photo_path(self, img_name: str) -> Path:
+        """Where a senator's photo is kept. Only a plain file name is accepted (see is_photo_name)."""
+        if not is_photo_name(img_name):
+            raise ValueError(f"Not a plain photo file name: {img_name!r}")
+        return self.raw / "photos" / img_name
 
     def bill_path(self, session: int, base_print_no: str) -> Path:
         return self.raw / "bills" / str(session) / f"{base_print_no}.json"

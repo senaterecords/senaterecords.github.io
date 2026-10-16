@@ -2,8 +2,13 @@
 from __future__ import annotations
 
 import re
+from collections.abc import Callable
 from dataclasses import dataclass
+from datetime import date, timedelta
+from pathlib import Path
 from typing import Any
+
+import yaml
 
 from .speakers import ROLE_CHAIR, ROLE_PRESIDENT, ROLE_PRESIDING, ROLE_SECRETARY, ROLE_SENATOR, Turn
 
@@ -34,6 +39,53 @@ def print_no(chamber: str, num: str, amd: str | None) -> str:
 def base_print_no(value: str) -> str:
     m = _BASE.match(value)
     return m.group(1) if m else value
+
+
+ES_OFFSET = {"S": 50000, "A": 40000}  # how Open Legislation files extraordinary-session bills
+ES_READ_MAX = 1000  # special sessions read small numbers ("Senate Print 25"); larger ones are regular bills
+ES_PUBLISHED_WITHIN = timedelta(days=45)  # a special session's bill is introduced shortly before it
+
+
+def extraordinary_print(printed: str) -> str | None:
+    """'S25' read in an extraordinary session -> 'S50025', the number the API files it under."""
+    m = re.fullmatch(r"([SA])(\d+)([A-Z]?)", printed)
+    if not m or int(m[2]) >= ES_READ_MAX:
+        return None
+    return f"{m[1]}{ES_OFFSET[m[1]] + int(m[2])}{m[3]}"
+
+
+def load_bill_fixes(path: Path) -> dict[tuple[str, str], str]:
+    """Reviewed fixes for print numbers misread on the floor: [{date, printed, bill}]."""
+    if not path.exists():
+        return {}
+    rows = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    return {(str(row["date"]), str(row["printed"]).upper()): str(row["bill"]).upper() for row in rows}
+
+
+class BillResolver:
+    """Which bill a print number read on the floor means, or None when that can't be told."""
+
+    def __init__(self, fixes: dict[tuple[str, str], str], lookup: Callable[[int, str], dict[str, Any] | None]) -> None:
+        self.fixes = fixes
+        self.lookup = lookup  # (session, base print number) -> stored bill record or None
+
+    def resolve(self, printed: str, session: int, day: date, extraordinary: bool) -> str | None:
+        fixed = self.fixes.get((day.isoformat(), printed))
+        if fixed:
+            return fixed
+        if not extraordinary:
+            return printed
+        candidate = extraordinary_print(printed)
+        if candidate is None:
+            return printed
+        # Several special sessions in one term reuse the same small numbers, and the API keeps only one
+        # bill per number: accept it only if it was published for this session, never the regular bill.
+        published = str((self.lookup(session, base_print_no(candidate)) or {}).get("publishedDateTime") or "")[:10]
+        try:
+            when = date.fromisoformat(published)
+        except ValueError:
+            return None
+        return candidate if day - ES_PUBLISHED_WITHIN <= when <= day + timedelta(days=1) else None
 
 
 def find_bills(text: str) -> list[str]:
