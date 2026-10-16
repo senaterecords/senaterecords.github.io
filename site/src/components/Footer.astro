@@ -1,0 +1,12 @@
+---
+import { meta } from "../lib/data";
+import { longDate } from "../lib/format";
+
+const updatedAt = meta().updatedAt;
+---
+<footer class="foot">
+  <div class="foot-in">
+    <span>Data: New York State Senate Open Legislation API</span>
+    <span class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt}>Updated {longDate(updatedAt)}</time></span>
+  </div>
+</footer>

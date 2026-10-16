@@ -1,0 +1,12 @@
+---
+// A bill's state as a pennant: hollow ink for ordinary progress, solid red for vetoed, solid amber for amended or corrected.
+import Icon from "./Icon.astro";
+
+interface Props { status: { text: string; tone: "red" | "amber" | "ink" } | null; size?: number; }
+const { status, size = 14 } = Astro.props;
+---
+{status && (
+  <span class:list={["status", status.tone !== "ink" && status.tone]}>
+    <Icon name={status.tone === "ink" ? "flag-o" : "flag"} size={size} />{status.text}
+  </span>
+)}

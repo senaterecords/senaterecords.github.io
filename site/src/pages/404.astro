@@ -1,0 +1,20 @@
+---
+import Base from "../layouts/Base.astro";
+import { url } from "../lib/url";
+---
+<Base title="Page not found">
+  <section class="nf">
+    <h1 class="page-h1">Page not found</h1>
+    <p class="serif">There is nothing at this address. If you followed a link to a transcript, it may have moved when the transcript was corrected.</p>
+    <p class="nf-links">
+      <a class="btn-primary" href={url("/search/")}>Search the record</a>
+      <a class="btn" href={url("/browse/")}>Browse transcripts</a>
+    </p>
+  </section>
+</Base>
+
+<style>
+  .nf { padding: 64px 0 24px; max-width: 640px; }
+  .nf p.serif { font-size: 17px; line-height: 1.6; color: var(--color-ink2); margin-top: 12px; }
+  .nf-links { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 22px; }
+</style>

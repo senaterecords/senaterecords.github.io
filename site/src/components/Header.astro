@@ -1,0 +1,49 @@
+---
+// The bar from the mocks: mark, page-specific middle (crumbs, search), section links, last update.
+// Under 720 px the links fold into a <details> menu, which needs no JavaScript.
+import { SITE_NAME } from "../config";
+import { meta } from "../lib/data";
+import { longDate } from "../lib/format";
+import { url } from "../lib/url";
+import Icon from "./Icon.astro";
+
+const path = Astro.url.pathname;
+const LINKS: [string, string, string[]][] = [
+  ["Transcripts", "/browse/", ["/browse/", "/transcripts/"]],
+  ["Senators", "/senators/", ["/senators/"]],
+  ["Bills", "/bills/", ["/bills/"]],
+  ["About", "/about/", ["/about/"]],
+];
+const current = (prefixes: string[]) => (prefixes.some((p) => path.startsWith(url(p))) ? "page" : undefined);
+const updatedAt = meta().updatedAt;
+---
+<header class="bar">
+  <a class="mark" href={url("/")}><span class="sig"><Icon name="sig" size={14} /></span>{SITE_NAME}</a>
+  <div class="bar-slot"><slot /></div>
+  <nav class="nav" aria-label="Sections">
+    {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
+  </nav>
+  <span class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt}>Updated {longDate(updatedAt)}</time></span>
+  <div class="bar-tools">
+    <a class="ib" href={url("/search/")} aria-label="Search"><Icon name="search" size={20} /></a>
+    <details class="menu">
+      <summary aria-label="Menu"><Icon name="menu" size={22} /></summary>
+      <nav class="menu-panel" aria-label="Sections">
+        {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
+      </nav>
+    </details>
+  </div>
+</header>
+
+<script>
+  import { nyClock, relativeTime } from "../lib/format";
+
+  for (const el of document.querySelectorAll<HTMLTimeElement>("time[data-updated]")) {
+    el.textContent = `Updated ${relativeTime(el.dataset.updated!, nyClock(new Date()))}`;
+  }
+  // Close the phone menu when the reader taps outside it.
+  document.addEventListener("click", (event) => {
+    const menu = document.querySelector<HTMLDetailsElement>("details.menu[open]");
+    if (menu && !menu.contains(event.target as Node)) menu.open = false;
+  });
+</script>
