@@ -112,10 +112,15 @@ def extract_lines(raw: str) -> list[Line]:
 
 
 def body_indent(lines: list[Line]) -> int:
-    """The indent of ordinary continuation lines, which usually start in lower case."""
+    """The indent of ordinary continuation lines, which usually start in lower case. A transcript typed in
+    capitals has none; there, wrapped body lines sit at the smallest indent that a fifth of lines share
+    (in a short one the centred cover lines can outnumber them, so the most common indent would be wrong)."""
     lower = Counter(l.indent for l in lines if l.text[:1].islower())
-    pool = lower if lower else Counter(l.indent for l in lines)
-    return pool.most_common(1)[0][0]
+    if lower:
+        return lower.most_common(1)[0][0]
+    every = Counter(l.indent for l in lines)
+    common = [indent for indent, n in every.items() if n * 5 >= len(lines)]
+    return min(common) if common else every.most_common(1)[0][0]
 
 
 def paragraphs(lines: list[Line]) -> list[Paragraph]:

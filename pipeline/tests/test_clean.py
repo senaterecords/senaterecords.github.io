@@ -129,3 +129,13 @@ def test_real_transcripts_from_each_era(fixture_text, name, first_page):
     paras = paragraphs(extract_lines(fixture_text(name)))
     assert len(paras) > 10
     assert paras[0].page_start == first_page
+
+
+def test_all_caps_transcripts_still_split_into_paragraphs(fixture_text):
+    # A short legislative day typed in capitals: no line starts in lower case, and the centred cover lines
+    # outnumber the wrapped body lines, so the body indent must come from the smallest common indent.
+    from nyleg.speakers import split_turns
+
+    paras = paragraphs(extract_lines(fixture_text("floor-2013-11-01-allcaps.txt")))
+    labels = [t.label for t in split_turns(paras) if t.label]
+    assert labels[:3] == ["ACTING PRESIDENT MARCHIONE", "THE SECRETARY", "ACTING PRESIDENT MARCHIONE"]
