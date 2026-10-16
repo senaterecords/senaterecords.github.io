@@ -35,7 +35,7 @@ Open the failed run under **Actions** and find the first red step.
 | Failed step | What it means | What to do |
 |---|---|---|
 | Sync, "NY Senate API key rejected" (exit 3) | The key expired or was revoked | Get a new key at legislation.nysenate.gov and update the `NYSENATE_API_KEY` secret (see below) |
-| Sync, API unavailable (exit 4) | The Senate's API is down or slow | Nothing. The next hourly run tries again. |
+| Sync, "NY Senate API did not answer" (a yellow warning, not a failure) | The Senate's API is down or slow | Nothing. The run still publishes any change to the code, with the records already kept, and leaves "Checked … ago" alone; the next hourly run tries the API again. |
 | Process, quality gate (exit 5) | A change to the pipeline made speaker attribution or bill links worse | Compare the run's `quality.json` (in the run's artifacts) with `data/quality-deployed.json`, then fix the pipeline. The site stays on the last good version until then, and the run fails each hour. |
 | Build, check and split: size | One of the two sites passed 950 MB | See the fallbacks in section 10 of the design spec |
 | Build, check and split: links | The check prints each broken link and the page it is on | Fix the page template or data that makes the link |

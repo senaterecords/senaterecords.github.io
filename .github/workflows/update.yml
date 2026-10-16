@@ -55,16 +55,29 @@ jobs:
         run: |
           # Hearings are re-listed in the morning (New York time); two hours, in case a scheduled run starts late.
           case "$(TZ=America/New_York date +%H)" in 07|08) extra="--hearings" ;; *) extra="" ;; esac
-          python -m nyleg --data data sync $extra
+          # When the API doesn't answer (exit 4), the run goes on with the records already kept, so a change to the
+          # code still publishes; anything half fetched is put back, for the next hour's run to fetch whole. A refused
+          # key (exit 3) or any other failure still stops the run.
+          status=0
+          python -m nyleg --data data sync $extra || status=$?
+          if [ "$status" = 4 ]; then
+            echo "::warning::The NY Senate API did not answer. This run publishes with the records already kept."
+            git checkout -q -- data && git clean -fdq -- data
+            echo "api_down=true" >> "$GITHUB_OUTPUT"
+          elif [ "$status" != 0 ]; then
+            exit "$status"
+          fi
       - name: Save the new data
         # New raw files, or bookkeeping (bills checked, missing or pending) that the next run must not repeat.
-        if: steps.sync.outputs.changed == 'true' || steps.sync.outputs.state_changed == 'true'
+        if: steps.sync.outputs.api_down != 'true' && (steps.sync.outputs.changed == 'true' || steps.sync.outputs.state_changed == 'true')
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           bash scripts/commit-data.sh "data: sync $(date -u +%Y-%m-%dT%H:%MZ)"
       - name: Record the check
-        # The site's "Checked 12 min ago": the time of this check on the status branch (scripts/record-check.sh).
+        # The site's "Checked 12 min ago": the time of this check on the status branch (scripts/record-check.sh). A
+        # check the API didn't answer isn't one.
+        if: steps.sync.outputs.api_down != 'true'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: bash scripts/record-check.sh
