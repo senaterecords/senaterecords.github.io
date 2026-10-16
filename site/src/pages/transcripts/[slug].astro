@@ -5,6 +5,7 @@ import Icon from "../../components/Icon.astro";
 import Calendar from "../../components/reader/Calendar.astro";
 import HearingSpeakers from "../../components/reader/HearingSpeakers.astro";
 import Turns from "../../components/reader/Turns.astro";
+import SpeakerCards from "../../components/SpeakerCards";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
 import { assembly, bill, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex } from "../../lib/data";
@@ -74,6 +75,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         {[doc.kind === "floor" ? name : "Public hearing", weekdayDate(doc.date), placeText(doc.location), pages].filter(Boolean).join(" · ")}
         {doc.corrected && <Status status={{ text: "Corrected transcript", tone: "amber" }} size={13} />}
       </p>
+      <div id="reader-notices"></div>
       <article id="transcript" data-pagefind-body data-slug={doc.slug} data-kind={doc.kind} data-date={doc.date} data-title={doc.title ?? doc.sessionType ?? ""}>
         <span hidden data-pagefind-filter={`type:${doc.kind}`}></span>
         <span hidden data-pagefind-filter={`year:${year}`}></span>
@@ -108,6 +110,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
   </div>
 
   <script type="application/json" id="reader-data" set:html={json} />
+  <SpeakerCards client:load />
 </Base>
 
 <script>
