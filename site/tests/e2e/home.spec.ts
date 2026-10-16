@@ -70,3 +70,12 @@ test("Transcripts and Bills open the current year and session directly, without 
   }
 });
 
+test("the header and the footer say the same thing about the last update", async ({ page }) => {
+  await page.goto("about/");
+  const header = page.locator(".bar time[data-updated]");
+  const footer = page.locator(".foot time[data-updated]");
+  await expect(footer).toHaveText(/^Updated (just now|\d+ (min|hours?|days?) ago)$/);
+  if (await header.isVisible()) await expect(footer).toHaveText((await header.textContent())!);
+  await expect(footer).toHaveAttribute("title", /^Updated [A-Z][a-z]+ \d+, \d{4}/); // the exact date on hover
+});
+

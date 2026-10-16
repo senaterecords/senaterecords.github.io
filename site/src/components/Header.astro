@@ -2,11 +2,11 @@
 // The bar from the mocks: mark, page-specific middle (crumbs, search), section links, last update.
 // Under 720 px the links fold into a <details> menu, which needs no JavaScript.
 import { SITE_NAME } from "../config";
-import { billsHome, meta, transcriptsHome } from "../lib/data";
-import { longDate } from "../lib/format";
+import { billsHome, transcriptsHome } from "../lib/data";
 import { url } from "../lib/url";
 import Icon from "./Icon.astro";
 import SearchBox from "./SearchBox";
+import Updated from "./Updated.astro";
 
 // minimal: the reader's bar, which shows only the mark, its crumb and tools, so the rest is left out of the page.
 interface Props { search?: boolean; minimal?: boolean; }
@@ -19,7 +19,6 @@ const LINKS: [string, string, string[]][] = [
   ["About", "/about/", ["/about/"]],
 ];
 const current = (prefixes: string[]) => (prefixes.some((p) => path.startsWith(url(p))) ? "page" : undefined);
-const updatedAt = meta().updatedAt;
 ---
 <header class="bar">
   <a class="mark" href={url("/")}><span class="sig"><Icon name="sig" size={14} /></span>{SITE_NAME}</a>
@@ -36,18 +35,7 @@ const updatedAt = meta().updatedAt;
     <nav class="nav" aria-label="Sections">
       {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
     </nav>
-    <span class="upd"><i></i><time data-updated={updatedAt}>Updated {longDate(updatedAt)}</time></span>
-    <script is:inline>
-      // "Updated 5 min ago" before the first paint, so the full date never shows and then changes. The same rule as
-      // relativeTime in lib/format.ts; the time is New York's, like the update stamp.
-      (function () {
-        var now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
-        document.querySelectorAll("time[data-updated]").forEach(function (el) {
-          var m = Math.max(0, Math.round((now - new Date(el.dataset.updated)) / 60000)), h = Math.round(m / 60), d = Math.round(h / 24);
-          el.textContent = "Updated " + (m < 1 ? "just now" : m < 60 ? m + " min ago" : h < 24 ? h + " hour" + (h === 1 ? "" : "s") + " ago" : d + " day" + (d === 1 ? "" : "s") + " ago");
-        });
-      })();
-    </script>
+    <Updated />
   </>}
   <div class="bar-tools">
     <a class="ib" href={url("/search/")} aria-label="Search"><Icon name="search" size={20} /></a>

@@ -1,0 +1,23 @@
+---
+// "Updated 5 min ago", the same in the header and the footer: worked out before the first paint, so the build's date
+// never shows and then changes, with the exact time on hover. The same rule as relativeTime in lib/format.ts; the
+// update stamp is New York time.
+import { meta } from "../lib/data";
+import { longDate } from "../lib/format";
+
+const updatedAt = meta().updatedAt;
+const [hours, minutes] = updatedAt.slice(11, 16).split(":").map(Number);
+const clock = Number.isFinite(hours) && Number.isFinite(minutes)
+  ? ` at ${hours % 12 || 12}:${String(minutes).padStart(2, "0")} ${hours < 12 ? "a.m." : "p.m."} New York time`
+  : "";
+---
+<span class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt} title={`Updated ${longDate(updatedAt)}${clock}`}>Updated {longDate(updatedAt)}</time></span>
+<script is:inline>
+  (function () {
+    var now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
+    document.querySelectorAll("time[data-updated]").forEach(function (el) {
+      var m = Math.max(0, Math.round((now - new Date(el.dataset.updated)) / 60000)), h = Math.round(m / 60), d = Math.round(h / 24);
+      el.textContent = "Updated " + (m < 1 ? "just now" : m < 60 ? m + " min ago" : h < 24 ? h + " hour" + (h === 1 ? "" : "s") + " ago" : d + " day" + (d === 1 ? "" : "s") + " ago");
+    });
+  })();
+</script>
