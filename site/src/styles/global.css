@@ -150,6 +150,12 @@
   .pg-meta { margin-top: 6px; font-size: 14px; color: var(--color-ink2); display: flex; gap: 6px; flex-wrap: wrap; }
   .pg-meta b { color: var(--color-ink); font-weight: 650; }
   .pg-meta a { color: var(--color-ink); font-weight: 650; text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
+  .pg-head:has(+ .tabbar) { border-bottom: 0; }
+  .tabbar { position: sticky; top: 0; z-index: 20; background: var(--color-pane); border-bottom: 1px solid var(--color-rule); }
+  .tabbar .pg-in { display: flex; align-items: flex-end; gap: 28px; padding-top: 0; }
+  .tabbar .tabs { margin-top: 18px; min-width: 0; }
+  .tb-name { display: none; font-weight: 700; font-size: 14px; padding-bottom: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; }
+  .tabbar.stuck .tb-name { display: block; }
   .tabs { display: flex; gap: 24px; margin-top: 18px; font-weight: 600; font-size: 14px; color: var(--color-ink2); white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
   .tabs a { padding-bottom: 12px; }
   .tabs a:hover { color: var(--color-ink); }
@@ -163,7 +169,13 @@
   .sec-hd { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 16px 22px 10px; border-bottom: 1px solid var(--color-rule2); scroll-margin-top: 12px; }
   .sec-hd h2 { font-size: 15px; font-weight: 700; }
   .sec-hd span { font-size: 13px; color: var(--color-ink3); }
-  .bl li { display: grid; grid-template-columns: 70px 1fr auto; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-rule); align-items: baseline; }
+  /* A bill's status sits under its title, so the title keeps the width; the wide list has room for a status column. */
+  .bl li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 2px 10px; padding: 9px 0; border-bottom: 1px solid var(--color-rule); align-items: baseline; }
+  .bl li > .status { grid-column: 2; margin-top: 3px; }
+  @media (min-width: 720px) {
+    .bl-wide li { grid-template-columns: 70px minmax(0, 1fr) auto; }
+    .bl-wide li > .status { grid-column: auto; margin-top: 0; }
+  }
   .bl .b { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 13px; }
   .bl .t { font-family: var(--font-read); font-size: 14.5px; line-height: 1.35; min-width: 0; }
   .bl .t a:hover { text-decoration: underline; text-underline-offset: 2px; }
@@ -175,6 +187,10 @@
   a.within:hover { border-color: var(--color-ink); color: var(--color-ink); }
 
   /* a remark row (senator pages, search results), as in the results mock */
+  /* Rows that open from anywhere in them (Header script): a pointer, and the main link underlines on hover. */
+  :is(.hm-list > li, ul.tr > li, .yi li, .bi li, .ap > li, .bl > li, .sn-row, #bill-rows > li, .er, .rrow, .spk-row):has(a[href]) { cursor: pointer; }
+  :is(.hm-list > li:hover .t a, ul.tr > li:hover .t a, .yi li:hover a, .bi li:hover a, .ap > li:hover a.t, .bl > li:hover a, .sn-row:hover a, #bill-rows > li:hover a.b, .er:hover a, .spk-row:hover a, .rrow:hover a.ctx) { text-decoration: underline; text-underline-offset: 2px; }
+  .rrow:has(a.ctx):hover { background: #FAFBFA; }
   .rrow { display: grid; grid-template-columns: 112px minmax(0, 1fr) 158px; gap: 18px; padding: 16px 22px 16px 20px; border-bottom: 1px solid var(--color-rule2); }
   .rrow .c-date b { display: block; font-weight: 650; font-size: 13.5px; font-variant-numeric: tabular-nums; }
   .rrow .c-date a:hover b { text-decoration: underline; text-underline-offset: 2px; }
@@ -253,6 +269,10 @@
     .pg-meta .sep-last { display: none; }
     .pg-meta .pg-total { flex-basis: 100%; }
     .tabs { gap: 22px; margin-top: 14px; }
+    .tabbar .pg-in { flex-direction: column; align-items: stretch; gap: 0; }
+    .tabbar .tabs { margin-top: 14px; }
+    .tabbar.stuck .tb-name { padding: 9px 0 0; font-size: 13px; }
+    .tabbar.stuck .tabs { margin-top: 6px; }
     .tabs a { padding-bottom: 11px; }
     .two { display: block; }
     .two-main { border: 0; }

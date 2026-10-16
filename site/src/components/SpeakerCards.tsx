@@ -21,6 +21,7 @@ function Cards() {
   const [only, setOnly] = useState<SpeakerInfo | null>(null);
   const [pos, setPos] = useState({ top: 0, left: 0 });
   const card = useRef<HTMLDivElement>(null);
+  const focusCard = useRef(false);
   const openTimer = useRef<number>(0);
   const closeTimer = useRef<number>(0);
   const openRef = useRef<Open | null>(null);
@@ -55,8 +56,14 @@ function Cards() {
     const update = () => setPhone(query.matches);
     update();
     query.addEventListener("change", update);
-    // Names are focusable so the keyboard can open a card with Enter.
-    for (const h of document.querySelectorAll<HTMLElement>("section.turn > h3.sp.k")) h.tabIndex = 0;
+    // Names are focusable so the keyboard can open a card with Enter, and screen readers are told so.
+    if (!document.getElementById("sp-hint")) {
+      document.body.append(Object.assign(document.createElement("span"), { id: "sp-hint", hidden: true, textContent: "Press Enter for details about this speaker" }));
+    }
+    for (const h of document.querySelectorAll<HTMLElement>("section.turn > h3.sp.k")) {
+      h.tabIndex = 0;
+      h.setAttribute("aria-describedby", "sp-hint");
+    }
     return () => query.removeEventListener("change", update);
   }, []);
 
@@ -87,7 +94,7 @@ function Cards() {
     };
     const key = (e: KeyboardEvent) => {
       if (e.key === "Escape" && openRef.current) { const { label } = openRef.current; close(); label.focus({ preventScroll: true }); }
-      if (e.key === "Enter" && labelFor(e.target) === e.target) { e.preventDefault(); show(e.target as HTMLElement, true); }
+      if (e.key === "Enter" && labelFor(e.target) === e.target) { e.preventDefault(); focusCard.current = true; show(e.target as HTMLElement, true); }
     };
     // A name clicked before this island started opens now.
     window.__otrCards = true;
@@ -117,6 +124,12 @@ function Cards() {
       setPos((p) => ({ ...p, top: r.top + window.scrollY - height - 8 }));
     }
   }, [open, phone]);
+
+  // A card opened from the keyboard takes the focus, so Tab reaches its buttons; Esc gives it back to the name.
+  useEffect(() => {
+    if (open && focusCard.current) card.current?.focus({ preventScroll: true });
+    focusCard.current = false;
+  }, [open]);
 
   // The open name gets the heavier underline.
   useEffect(() => {
@@ -204,7 +217,7 @@ function Cards() {
   return (
     <>
       {sp && !phone && createPortal(
-        <div ref={card} className="scard" role="dialog" aria-label={sp.name} style={{ top: pos.top, left: pos.left }}
+        <div ref={card} className="scard" role="dialog" aria-label={sp.name} tabIndex={-1} style={{ top: pos.top, left: pos.left }}
           onPointerEnter={() => window.clearTimeout(closeTimer.current)}
           onPointerLeave={(e) => { if (e.pointerType === "mouse" && !openRef.current?.pinned) closeTimer.current = window.setTimeout(close, CLOSE_DELAY); }}>
           {body}
@@ -212,7 +225,7 @@ function Cards() {
       {sp && phone && createPortal(
         <>
           <div className="sheet-dim" onClick={close} />
-          <div ref={card} className="sheet" role="dialog" aria-label={sp.name}><div className="sheet-grab" />{body}</div>
+          <div ref={card} className="sheet" role="dialog" aria-label={sp.name} tabIndex={-1}><div className="sheet-grab" />{body}</div>
         </>, document.body)}
       {only && onlyBarSlot && createPortal(
         <p className="only-bar">Showing only <b>{only.name}</b> · <button type="button" onClick={() => setOnly(null)}>Show all</button></p>,

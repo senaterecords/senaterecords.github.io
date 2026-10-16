@@ -86,6 +86,7 @@ function SearchApp() {
   const queue = useRef<PagefindResult[]>([]);
   const plan = useRef<{ parsed: ParsedQuery; speaker: string | null } | null>(null);
   const runId = useRef(0);
+  const sheet = useRef<HTMLDivElement>(null);
 
   const go = useCallback((next: { q?: string; sort?: string }) => {
     const params = new URLSearchParams();
@@ -96,6 +97,15 @@ function SearchApp() {
     history.pushState(null, "", `${location.pathname}?${params}`);
     setState(readUrl());
   }, [q, sort]);
+
+  // The phone filters sheet takes the focus when it opens, and Esc closes it.
+  useEffect(() => {
+    if (!filtersOpen) return;
+    sheet.current?.focus();
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setFiltersOpen(false); };
+    addEventListener("keydown", onKey);
+    return () => removeEventListener("keydown", onKey);
+  }, [filtersOpen]);
 
   useEffect(() => {
     const onPop = () => setState(readUrl());
@@ -342,7 +352,7 @@ function SearchApp() {
       {filtersOpen && (
         <>
           <div className="sheet-dim" onClick={() => setFiltersOpen(false)} />
-          <div className="sheet" role="dialog" aria-label="Filters">
+          <div ref={sheet} className="sheet" role="dialog" aria-label="Filters" tabIndex={-1}>
             <div className="sheet-grab" />
             {facetPanel}
           </div>

@@ -72,3 +72,31 @@ test("search only ships the files the site uses", async ({ request }) => {
   expect((await request.get("pagefind/pagefind.js")).ok()).toBe(true);
   expect((await request.get("pagefind/pagefind-ui.js")).status()).toBe(404);
 });
+
+test("a page that begins mid-sentence keeps the sentence flowing, with the page number in the margin", async ({ page }, info) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const marker = page.locator("section.turn p .pb").first();
+  await expect(marker).toHaveCSS("display", "inline");
+  if (info.project.name === "desktop") {
+    const paragraph = await marker.locator("xpath=ancestor::p[1]").boundingBox();
+    const number = await marker.locator("b").boundingBox();
+    expect(number!.x + number!.width).toBeLessThanOrEqual(paragraph!.x);
+  }
+});
+
+test("in a long remark the speaker stays named at the top", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/#r-15");
+  const strip = page.locator(".rd-who");
+  await expect(page.locator("#r-15")).toBeInViewport();
+  await expect(strip).toBeHidden();
+  await page.mouse.move(400, 400);
+  await page.mouse.wheel(0, 500);
+  await expect(strip).toBeVisible();
+  await page.waitForTimeout(500); // still there once the page settles
+  await expect(strip).toBeVisible();
+  // It floats over the text: the notices strip it lives in takes no room, so nothing below it moves.
+  expect(await page.locator("#reader-notices").evaluate((el) => (el as HTMLElement).offsetHeight)).toBe(0);
+  await expect(strip).toContainText(/Stewart-Cousins/i);
+  await page.evaluate(() => document.getElementById("r-15")!.scrollIntoView({ block: "center" }));
+  await expect(strip).toBeHidden();
+});

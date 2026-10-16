@@ -65,6 +65,11 @@
 .pb b { font: 750 12.5px var(--font-ui); text-align: right; padding-right: 16px; font-variant-numeric: tabular-nums; color: var(--color-ink); white-space: nowrap; }
 .pb i { height: 1px; background: repeating-linear-gradient(90deg, var(--color-rule) 0 6px, transparent 6px 10px); }
 .turn > h3 + p + .pb { margin-top: 12px; }
+/* A page that begins mid-sentence: the number sits in the margin beside that line and a short mark shows the place
+   in the text, so the sentence stays one paragraph. */
+p > .pb { display: inline; margin: 0; }
+p > .pb b { position: absolute; left: 0; width: 96px; line-height: calc(17px * 1.62); }
+p > .pb i { display: inline-block; width: 0; height: 1.05em; margin: 0 6px 0 4px; vertical-align: -3px; background: none; border-left: 1.5px solid #9AA1AA; }
 .turn[hidden] { display: none; }
 :target { scroll-margin-top: 76px; }
 
@@ -96,6 +101,9 @@
   .turn .g::before { content: "p. "; }
   .pb { grid-template-columns: auto 1fr; gap: 10px; margin: 4px 0 12px; }
   .pb b { padding: 0; font-size: 12px; }
+  p > .pb { margin: 0; }
+  p > .pb b { position: static; width: auto; margin: 0 2px 0 3px; padding-left: 6px; border-left: 1.5px solid #9AA1AA; font-size: 11.5px; color: var(--color-ink3); line-height: inherit; }
+  p > .pb i { display: none; }
 }
 
 @media print {
@@ -126,7 +134,11 @@
 
 /* "Show only" */
 #reader-notices { position: sticky; top: 58px; z-index: 5; }
-#reader-notices:not(:empty) { background: var(--color-pane); padding-top: 10px; }
+#reader-notices:has(> :not(.rd-who)) { background: var(--color-pane); padding-top: 10px; }
+/* The speaker strip floats just under the notices, over the text, so showing it never moves the transcript. */
+.rd-who { position: absolute; top: 100%; left: 0; right: 0; margin: 0 48px 0 96px; font: 17px var(--font-read); max-width: 68ch; padding: 7px 0 8px; background: var(--color-pane); border-bottom: 1px solid var(--color-rule2); display: flex; gap: 8px; align-items: baseline; }
+.rd-who b { font: 700 12px/1.2 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink); }
+.rd-who span { font: 12.5px var(--font-ui); color: var(--color-ink3); }
 .only-bar { margin: 0 48px 14px 96px; padding: 9px 14px; background: var(--color-act-wash); border-radius: 6px; font-size: 13.5px; color: var(--color-ink); max-width: 68ch; }
 .only-bar button { font: 650 13.5px var(--font-ui); color: var(--color-act); background: none; border: 0; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
 #transcript.only .chunk { content-visibility: visible; contain-intrinsic-size: none; }
@@ -188,6 +200,7 @@ a.hn-bill:hover { text-decoration: underline; text-underline-offset: 2px; }
   .remarkbar small { display: block; font-weight: 450; color: var(--color-ink3); font-size: 12px; text-align: center; }
   .remarkbar > span { text-align: center; }
   .rd-notice { margin: 0 18px 12px; }
+  .rd-who { margin: 0 18px; }
   .sheet-h3 { font-size: 13px; font-weight: 700; color: var(--color-ink2); margin-bottom: 8px; }
   .sheet-cal li a { display: grid; grid-template-columns: 40px 1fr; gap: 8px; padding: 9px 4px; border-bottom: 1px solid var(--color-rule2); }
   .sheet-cal li.cur a { background: #F4F7F5; }

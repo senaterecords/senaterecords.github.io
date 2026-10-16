@@ -175,3 +175,10 @@ test("exporting results lets go of the file afterwards", async ({ page }, info) 
   await download;
   await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(0);
 });
+
+test("the phone filters sheet takes the focus", async ({ page }, info) => {
+  test.skip(info.project.name !== "phone");
+  await page.goto("search/?q=budget");
+  await page.getByRole("button", { name: /^Filters/ }).tap();
+  await expect(page.getByRole("dialog", { name: "Filters" })).toBeFocused();
+});

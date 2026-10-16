@@ -75,3 +75,13 @@ test("the phone remark bar steps through remarks", async ({ page }, info) => {
   await page.getByRole("button", { name: "Next remark" }).tap();
   await expect(page).toHaveURL(/#r-\d+$/);
 });
+
+test("the phone calendar sheet takes the focus", async ({ page }, info) => {
+  test.skip(info.project.name !== "phone");
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const reading = await page.locator(".rd-seg + section.turn").first().getAttribute("id");
+  await page.goto(`transcripts/2025-03-04-regular-session/#${reading}`);
+  const bar = page.getByRole("button", { name: "Show the calendar" });
+  await bar.tap();
+  await expect(page.getByRole("dialog", { name: "On the calendar" })).toBeFocused();
+});

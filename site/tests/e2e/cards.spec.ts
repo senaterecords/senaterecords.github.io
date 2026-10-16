@@ -69,3 +69,25 @@ test("calendar reading headers hide with the other speakers' turns", async ({ pa
   await page.getByRole("button", { name: /^Show only / }).click();
   await expect(page.locator(".rd-seg").first()).toBeHidden();
 });
+
+test("a card opened from the keyboard takes the focus, and Esc gives it back", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto(HEARING);
+  const name = page.locator('h3.sp[id$="-liz-krueger"]').first();
+  await expect(name).toHaveAttribute("tabindex", "0");
+  await name.focus();
+  await page.keyboard.press("Enter");
+  const card = page.getByRole("dialog", { name: "Liz Krueger" });
+  await expect(card).toBeFocused();
+  await page.keyboard.press("Tab");
+  expect(await card.evaluate((el) => el.contains(document.activeElement))).toBe(true);
+  await page.keyboard.press("Escape");
+  await expect(name).toBeFocused();
+});
+
+test("screen readers hear that a name opens a card", async ({ page }) => {
+  await page.goto(HEARING);
+  const name = page.locator('h3.sp[id$="-liz-krueger"]').first();
+  await expect(name).toHaveAttribute("tabindex", "0");
+  await expect(name).toHaveAccessibleDescription(/details about this speaker/i);
+});

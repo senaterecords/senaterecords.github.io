@@ -68,13 +68,18 @@ const exportData = JSON.stringify({
           <button type="button" class="btn" id="export-remarks"><Icon name="dl" size={15} />Export remarks</button>
         </div>
       </div>
+    </div>
+  </header>
+  <div class="tabbar" id="tabbar">
+    <div class="pg-in">
+      <span class="tb-name" aria-hidden="true">{name}</span>
       <nav class="tabs" aria-label="On this page">
         <a href="#remarks" aria-current="true">Remarks<b>{page.totals.remarks.toLocaleString("en-US")}</b></a>
         <a href="#transcripts">Transcripts<b>{appearances.length.toLocaleString("en-US")}</b></a>
         <a href="#bills">Bills debated<b>{billRows.length.toLocaleString("en-US")}</b></a>
       </nav>
     </div>
-  </header>
+  </div>
 
   <div class="two">
     <div class="two-main">
@@ -170,14 +175,35 @@ const exportData = JSON.stringify({
   import "../../scripts/copy";
   import { download, markdownEscape } from "../../lib/download";
 
-  // Tabs mark the section you jumped to.
+  // The tabs switch which list shows (remarks, transcripts, bills) instead of jumping down the page; the address
+  // keeps the tab, so Back and shared links work. Without JavaScript every list shows and the tabs are anchors.
   const tabs = [...document.querySelectorAll<HTMLAnchorElement>(".tabs a")];
-  const mark = () => {
-    const hash = location.hash || "#remarks";
-    for (const tab of tabs) tab.toggleAttribute("aria-current", tab.getAttribute("href") === hash);
+  const bar = document.getElementById("tabbar")!;
+  const sections = tabs.map((tab) => document.querySelector<HTMLElement>(tab.getAttribute("href")!)!);
+  const top = () => bar.getBoundingClientRect().top + scrollY - (parseFloat(getComputedStyle(bar).top) || 0);
+  const show = () => {
+    const hash = tabs.some((tab) => tab.getAttribute("href") === location.hash) ? location.hash : "#remarks";
+    tabs.forEach((tab, i) => {
+      tab.toggleAttribute("aria-current", tab.getAttribute("href") === hash);
+      sections[i].hidden = tab.getAttribute("href") !== hash;
+    });
   };
-  addEventListener("hashchange", mark);
-  mark();
+  for (const tab of tabs) {
+    tab.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (location.hash !== tab.getAttribute("href")) history.pushState(null, "", tab.getAttribute("href"));
+      const was = top();
+      show();
+      // With the bar pinned, the new list starts just under it rather than somewhere down the page.
+      if (scrollY > was) scrollTo(0, was);
+    });
+  }
+  addEventListener("popstate", show);
+  addEventListener("hashchange", show);
+  show();
+  if (location.hash && scrollY > top()) scrollTo(0, top());
+  // The senator's name joins the pinned tabs once the page title has scrolled away.
+  new IntersectionObserver(([entry]) => bar.classList.toggle("stuck", !entry.isIntersecting)).observe(document.querySelector(".pg-title h1")!);
 
   // "Export remarks": Markdown of the recent remarks and transcripts, made in the browser.
   document.getElementById("export-remarks")?.addEventListener("click", () => {

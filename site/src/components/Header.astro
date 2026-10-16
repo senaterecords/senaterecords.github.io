@@ -63,6 +63,18 @@ const updatedAt = meta().updatedAt;
     event.preventDefault();
     field.focus();
   });
+  // Rows in lists open their main link from anywhere in the row, unless the reader is selecting text or using a
+  // control in the row. The link itself stays the keyboard and screen reader target.
+  const ROWS = ".hm-list > li, ul.tr > li, .yi li, .bi li, .ap > li, .bl > li, .sn-row, #bill-rows > li, .er, .rrow, .spk-row";
+  document.addEventListener("click", (event) => {
+    const target = event.target as HTMLElement;
+    const row = target.closest<HTMLElement>(ROWS);
+    if (!row || target.closest("a, button, input, select, textarea, summary, label") || getSelection()?.isCollapsed === false) return;
+    const link = row.querySelector<HTMLAnchorElement>("a.ctx[href]") ?? row.querySelector<HTMLAnchorElement>("a[href]");
+    if (!link) return;
+    if (event.ctrlKey || event.metaKey || event.shiftKey) window.open(link.href, "_blank", "noopener");
+    else link.click();
+  });
   // Close the phone menu when the reader taps outside it.
   document.addEventListener("click", (event) => {
     const menu = document.querySelector<HTMLDetailsElement>("details.menu[open]");

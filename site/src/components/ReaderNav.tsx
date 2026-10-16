@@ -14,13 +14,17 @@ interface Remark { i: number; heading: HTMLElement; }
 const typing = (target: EventTarget | null) =>
   target instanceof HTMLElement && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName));
 
-/** The turn index at a height in the window, read from the text column. */
-function turnAt(y: number): number | null {
+/** The turn at a height in the window, read from the text column. */
+function sectionAt(y: number): HTMLElement | null {
   const article = document.getElementById("transcript");
   if (!article) return null;
   const box = article.getBoundingClientRect();
   const x = Math.min(box.left + 140, box.right - 10);
-  const hit = document.elementFromPoint(x, y)?.closest<HTMLElement>("section.turn");
+  return document.elementFromPoint(x, y)?.closest<HTMLElement>("section.turn") ?? null;
+}
+
+function turnAt(y: number): number | null {
+  const hit = sectionAt(y);
   return hit ? indexOfTurn(hit) : null;
 }
 
@@ -31,8 +35,19 @@ function ReaderNav() {
   const [currentTurn, setCurrentTurn] = useState<number | null>(null);
   const [missing, setMissing] = useState(false);
   const [calendarOpen, setCalendarOpen] = useState(false);
+  const [who, setWho] = useState<string | null>(null);
   const [, setShown] = useState(0);
   const last = useRef<{ index: number; scrollY: number } | null>(null);
+  const sheet = useRef<HTMLDivElement>(null);
+
+  // The phone calendar sheet takes the focus when it opens, and Esc closes it.
+  useEffect(() => {
+    if (!calendarOpen) return;
+    sheet.current?.focus();
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setCalendarOpen(false); };
+    addEventListener("keydown", onKey);
+    return () => removeEventListener("keydown", onKey);
+  }, [calendarOpen]);
 
   // "Show only" hides turns (SpeakerCards marks the transcript .only); J/K and the remark bar then skip hidden ones.
   useEffect(() => {
@@ -69,6 +84,11 @@ function ReaderNav() {
     let frame = 0;
     const update = () => {
       frame = 0;
+      // A long remark whose label has scrolled under the bar keeps its speaker named at the top.
+      const edge = document.getElementById("reader-notices")?.getBoundingClientRect().bottom ?? 58;
+      const top = sectionAt(edge + 4);
+      const label = top?.querySelector<HTMLElement>(":scope > h3.sp");
+      setWho(top && label && label.getBoundingClientRect().bottom < edge && top.getBoundingClientRect().bottom > edge + 60 ? label.textContent : null);
       const turn = turnAt(window.innerHeight / 2);
       if (turn == null) return;
       setCurrentTurn(turn);
@@ -156,6 +176,8 @@ function ReaderNav() {
           <div className="keys"><span><kbd>J</kbd>next remark</span><span><kbd>K</kbd>previous</span></div>
         </div>, headnote)}
 
+      {who && notices && createPortal(<p className="rd-who"><b>{who}</b><span>continued</span></p>, notices)}
+
       {segment && notices && createPortal(
         <button type="button" className="billbar" onClick={() => setCalendarOpen(true)} aria-label="Show the calendar">
           <b className="num">No. {segment.calNo}{segment.printNo ? ` · ${segment.printNo}` : ""}</b>
@@ -178,7 +200,7 @@ function ReaderNav() {
       {calendarOpen && createPortal(
         <>
           <div className="sheet-dim" onClick={() => setCalendarOpen(false)} />
-          <div className="sheet" role="dialog" aria-label="On the calendar">
+          <div ref={sheet} className="sheet" role="dialog" aria-label="On the calendar" tabIndex={-1}>
             <div className="sheet-grab" />
             <h3 className="sheet-h3">On the calendar</h3>
             <ul className="sheet-cal">

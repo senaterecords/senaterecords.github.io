@@ -37,3 +37,34 @@ test("exporting a senator's remarks lets go of the file afterwards", async ({ pa
   await download;
   await expect.poll(() => page.evaluate(() => (window as unknown as { __revoked: number }).__revoked)).toBeGreaterThan(0);
 });
+
+test("the senator page tabs switch the list instead of jumping down the page", async ({ page }) => {
+  await page.goto("senators/liz-krueger/");
+  const tabs = page.getByRole("navigation", { name: "On this page" });
+  await expect(page.locator("#remarks")).toBeVisible();
+  await expect(page.locator("#transcripts")).toBeHidden();
+  await tabs.getByRole("link", { name: /Transcripts/ }).click();
+  await expect(page).toHaveURL(/#transcripts$/);
+  await expect(page.locator("#transcripts")).toBeVisible();
+  await expect(page.locator("#remarks")).toBeHidden();
+  await page.goBack();
+  await expect(page.locator("#remarks")).toBeVisible();
+});
+
+test("the senator page tabs and name stay at the top while scrolling", async ({ page }) => {
+  await page.goto("senators/liz-krueger/");
+  await page.evaluate(() => window.scrollBy(0, 1200));
+  await expect(page.getByRole("navigation", { name: "On this page" })).toBeInViewport();
+  await expect(page.locator(".tabbar .tb-name")).toBeVisible();
+  await expect(page.locator(".tabbar .tb-name")).toHaveText(/Liz Krueger$/);
+});
+
+test("in the side list a bill's status sits under its title, so the title keeps the width", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("senators/jessica-ramos/");
+  const row = page.locator(".two-side .bl li:has(.status)").first();
+  const title = (await row.locator(".t").boundingBox())!;
+  const status = (await row.locator(".status").boundingBox())!;
+  expect(Math.abs(status.x - title.x)).toBeLessThan(2);
+  expect(status.y).toBeGreaterThan(title.y + 10);
+});
