@@ -26,7 +26,20 @@ test("legislative days stay out of a year's list until asked for, and the choice
   await expect(meta).toContainText("1 legislative day · Hide", { useInnerText: true });
   await expect(day).toBeVisible();
   // A month's count is what it shows.
-  await expect(page.locator(".mg", { has: day }).locator(".sec-h2 span")).toHaveText("1 transcript");
+  await expect(page.locator(".mg", { has: day }).locator(".sec-h2 span:visible")).toHaveText("1 transcript");
   await page.reload();
   await expect(day).toBeVisible();
 });
+
+test("a remembered choice to show legislative days applies before the first paint, counts included", async ({ page }) => {
+  await page.addInitScript(() => { try { localStorage.setItem("otr:show-ld", "1"); } catch { /* storage blocked */ } });
+  // Hold the page's scripts back, as a slow connection would; watch from the first bytes.
+  await page.route("**/_astro/*.js", async (route) => { await new Promise((done) => setTimeout(done, 3000)); await route.continue(); });
+  await page.goto("browse/2023/", { waitUntil: "commit" });
+  const day = page.locator(".tr li.ld").first();
+  await expect(day).toBeVisible({ timeout: 2500 });
+  const month = page.locator(".mg", { has: day });
+  await expect(month.locator(".sec-h2 .c-on")).toBeVisible();
+  await expect(month.locator(".sec-h2 .c-off")).toBeHidden();
+});
+

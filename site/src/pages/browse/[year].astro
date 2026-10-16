@@ -43,6 +43,10 @@ const pages = (t: TranscriptSummary) =>
           <p class="pg-meta num">
             {plural(floor, "floor session")} · {plural(hearings, "public hearing")}{legislativeDays > 0 && <> · <label class="ld-toggle"><input type="checkbox" id="show-ld" class="visually-hidden" />{plural(legislativeDays, "legislative day")}<span class="ld-off"> hidden · <b>Show</b></span><span class="ld-on"> · <b>Hide</b></span></label></>}
           </p>
+          <script is:inline>
+            // The remembered choice to show legislative days applies before the first paint, so the list never jumps.
+            try { var ld = document.getElementById("show-ld"); if (ld) ld.checked = localStorage.getItem("otr:show-ld") === "1"; } catch (e) { /* storage blocked */ }
+          </script>
         </div>
         <div class="acts">
           <div class="seg" role="group" aria-label="Show">
@@ -62,7 +66,7 @@ const pages = (t: TranscriptSummary) =>
   <div class="mon">
     {[...months].map(([m, rows]) => (
       <section class="mg">
-        <h2 class="sec-h2">{MONTHS[m - 1]} {year} <span class="num">{plural(rows.filter((t) => !(legislative(t) && !t.speakers)).length, "transcript")}</span></h2>
+        <h2 class="sec-h2">{MONTHS[m - 1]} {year} <span class="num c-off">{plural(rows.filter((t) => !(legislative(t) && !t.speakers)).length, "transcript")}</span><span class="num c-on">{plural(rows.length, "transcript")}</span></h2>
         <ul class="tr">
           {rows.map((t) => (
             <li class:list={{ ld: legislative(t) && !t.speakers }} data-kind={t.kind}>
@@ -88,8 +92,13 @@ const pages = (t: TranscriptSummary) =>
     for (const group of document.querySelectorAll<HTMLElement>(".mg")) {
       const shown = [...group.querySelectorAll<HTMLElement>(".tr li")].filter((row) => !row.hidden && (showLd?.checked || !row.classList.contains("ld"))).length;
       group.hidden = !shown;
-      const count = group.querySelector(".sec-h2 span");
-      if (count) count.textContent = `${shown.toLocaleString("en-US")} ${shown === 1 ? "transcript" : "transcripts"}`;
+      // Both counts are kept right (CSS shows the one for the switch's state), so turning it on or off never waits on this.
+      const rows = [...group.querySelectorAll<HTMLElement>(".tr li")].filter((row) => !row.hidden);
+      const label = (n: number) => `${n.toLocaleString("en-US")} ${n === 1 ? "transcript" : "transcripts"}`;
+      const off = group.querySelector(".sec-h2 .c-off");
+      const on = group.querySelector(".sec-h2 .c-on");
+      if (off) off.textContent = label(rows.filter((row) => !row.classList.contains("ld")).length);
+      if (on) on.textContent = label(rows.length);
     }
   };
   for (const button of buttons) {
@@ -100,7 +109,6 @@ const pages = (t: TranscriptSummary) =>
     });
   }
   if (showLd) {
-    try { showLd.checked = localStorage.getItem("otr:show-ld") === "1"; } catch { /* storage blocked: keep the default */ }
     showLd.addEventListener("change", () => {
       try { localStorage.setItem("otr:show-ld", showLd.checked ? "1" : "0"); } catch { /* storage blocked */ }
       apply();
@@ -135,6 +143,8 @@ const pages = (t: TranscriptSummary) =>
   .ld-toggle:hover b { text-decoration: underline; text-underline-offset: 2px; }
   .ld-toggle:has(input:focus-visible) { outline: 2px solid var(--color-act); outline-offset: 2px; }
   .ld-on { display: none; }
+  .sec-h2 .c-on, .pg-head:has(#show-ld:checked) ~ .mon .sec-h2 .c-off { display: none; }
+  .pg-head:has(#show-ld:checked) ~ .mon .sec-h2 .c-on { display: inline; }
   .ld-toggle:has(input:checked) .ld-on { display: inline; }
   .ld-toggle:has(input:checked) .ld-off { display: none; }
   .tr .ld .t a { font-weight: 450; color: var(--color-ink3); }

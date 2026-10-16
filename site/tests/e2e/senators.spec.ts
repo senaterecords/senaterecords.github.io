@@ -115,3 +115,18 @@ test("a sorted senators list stays in the page's column, lined up with the title
   expect(Math.abs((await left("#sn-flat .sn-row")) - title)).toBeLessThanOrEqual(2);
 });
 
+test("a senators link with filters never shows the unfiltered list first", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  // The page's script is small enough to sit in the page itself: make it start 3 seconds late, as on a slow device.
+  await page.route("**/senators/?sort=remarks", async (route) => {
+    const response = await route.fetch();
+    const html = (await response.text()).replaceAll('<script type="module">', '<script type="module">await new Promise((done) => setTimeout(done, 3000));');
+    await route.fulfill({ response, body: html });
+  });
+  await page.goto("senators/?sort=remarks", { waitUntil: "commit" });
+  await expect(page.locator("#sn-list")).toBeAttached({ timeout: 2500 });
+  // Until the script sorts it, the list waits out of sight rather than showing A to Z and then jumping.
+  expect(await page.locator("#sn-list").evaluate((el) => getComputedStyle(el).visibility)).toBe("hidden");
+  await expect(page.locator("#sn-flat .sn-row").first()).toBeVisible({ timeout: 15000 });
+});
+

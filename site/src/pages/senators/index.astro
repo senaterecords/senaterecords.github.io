@@ -32,6 +32,11 @@ const thisYear = new Date().getFullYear();
 const yearsServed = (s: (typeof listed)[number]) => s.service.reduce((n, p) => n + ((p.to ?? thisYear) - p.from + 1), 0);
 ---
 <Base title="Senators" description="Every New York State senator on the record since 1993, with what each said on the floor and in hearings." wide>
+  <script is:inline slot="head">
+    // A link with filters (?sort=remarks…) keeps the list out of sight until the script applies them, rather than
+    // showing every senator A to Z and then jumping.
+    if (/[?&](q|term|serving|sort)=/.test(location.search)) document.documentElement.classList.add("sn-wait");
+  </script>
   <header class="pg-head">
     <div class="pg-in pb">
       <div class="pg-title"><div>
@@ -139,6 +144,7 @@ const yearsServed = (s: (typeof listed)[number]) => s.service.reduce((n, p) => n
     if (sort.value) next.set("sort", sort.value);
     if (q.value.trim()) next.set("q", q.value.trim());
     history.replaceState(null, "", `${location.pathname}${next.size ? `?${next}` : ""}${location.hash}`);
+    document.documentElement.classList.remove("sn-wait");
   };
   q.addEventListener("input", apply);
   term.addEventListener("change", apply);
@@ -163,6 +169,7 @@ const yearsServed = (s: (typeof listed)[number]) => s.service.reduce((n, p) => n
   .sn.flat { columns: auto; padding-top: 18px; }
   .sn.flat .sn-flat { max-width: 760px; }
   .sn-flat[hidden] { display: none; }
+  .sn-wait #sn-list { visibility: hidden; }
   .sn-group { break-inside: avoid; padding-top: 18px; scroll-margin-top: 12px; }
   .sn-group[hidden], .sn-row[hidden] { display: none !important; }
   .sn-row { display: grid; grid-template-columns: 28px 1fr auto; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--color-rule2); }
