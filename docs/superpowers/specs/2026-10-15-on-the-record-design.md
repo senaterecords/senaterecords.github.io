@@ -301,6 +301,7 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
   - **0 broken links** of 3,291,954 internal links.
   - **How it got here:** the first build was 1,460.5 MB in one site. Cuts that change nothing a reader sees (linked stylesheets without scoped attributes, an icon sprite, one shared reader script, leaner turn markup, packed reader data, shorter attributes) brought it to 935.5 MB; splitting off the bills then made room to restore what had been cut for size (reader tools on pro forma days, voter links on bill pages) and to link bill numbers in the text (about 105,000 links).
   - **Headroom:** about 240 MB on the main site and 650 MB on the bills site below the 950 MB stop. Growth is roughly 85 transcripts and hearings a year, plus their bills, around 20 MB a year across both.
+- **On GitHub's machines (first publish, 2026-10-16):** a run that publishes takes about 10 minutes: process 3 min 12 s, build with the size and link checks and the split 4 min 16 s, uploading and publishing both sites under a minute each. An hour with nothing new ends in a couple of minutes.
 - **Speed, measured on the largest transcript** (2003-06-19, 1.25 MB of HTML): first contentful paint 608–1,136 ms on a cold browser and 56 ms warm; 0 ms of long tasks while scrolling 20 screens. React windowing is not needed.
 - **Guardrails:**
   - A warning when the built site passes 800 MB.
@@ -358,6 +359,8 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 - the final site name, before launch. The build uses "On the Record" (decided 2026-10-16); changing it is one setting.
 
 ## 15. Setup needed from the user
+
+All of this was done on 2026-10-16; the site went live that day at https://senaterecords.github.io/. One more organization setting was needed: deploy keys are disabled by default in new organizations and had to be enabled (Organization settings → Deploy keys).
 
 - a GitHub account; the repo will be public. Optionally, a free GitHub organization for a clean `name.github.io` address
 - a NY Senate Open Legislation API key (free sign-up at legislation.nysenate.gov). For local runs it lives in a git-ignored `.env`
