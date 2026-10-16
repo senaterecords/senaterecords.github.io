@@ -20,11 +20,16 @@ test("Search tips lists every shortcut and closes with Esc", async ({ page }) =>
   await page.goto("./");
   await page.getByRole("button", { name: "Search tips" }).click();
   const tips = page.getByRole("dialog", { name: "Search tips" });
-  for (const example of ["tolls NOT bridge", "tolls NEAR fares", '"rent stabilization" "tenant protection"', "senator:Krueger", "speaker:Krueger speaker:Lanza", "year:2015-2019", "type:hearing", "committee:Health"]) {
+  for (const example of ["tolls NOT bridge", "tolls NEAR fares", "tolls NEAR/3 fares", '"school aid" "tax cap"', "senator:Krueger", "speaker:Krueger speaker:Lanza", "year:2015-2019", "type:hearing", "committee:Health"]) {
     await expect(tips.getByText(example, { exact: true })).toBeVisible();
   }
   await expect(tips.getByText("both exact phrases", { exact: true })).toBeVisible();
   await expect(tips.getByText(/one remark/)).toHaveCount(0);
+  // Every explanation has room to read on a line or two, not a crushed column.
+  if (test.info().project.name === "desktop") {
+    const widths = await tips.locator("dd").evaluateAll((els) => els.map((el) => el.getBoundingClientRect().width));
+    for (const w of widths) expect(w).toBeGreaterThanOrEqual(120);
+  }
   await tips.getByText("speaker:Krueger", { exact: true }).click();
   await expect(page.getByRole("searchbox")).toHaveValue("speaker:Krueger");
   await page.getByRole("button", { name: "Search tips" }).click();

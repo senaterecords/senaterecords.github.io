@@ -304,3 +304,33 @@ test("each filter group shows its top entries, with the rest a click away", asyn
   await expect(group.locator(".fg-row")).toHaveCount(10);
 });
 
+test("ticking a speaker leaves the speaker list where it was: nothing drops out or moves", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("search/?q=the");
+  const group = page.getByRole("complementary", { name: "Narrow the results" }).locator(".fg", { has: page.getByRole("heading", { name: "Speaker" }) });
+  await expect(group.locator(".fg-row")).toHaveCount(10);
+  const before = await group.locator(".fg-name").allInnerTexts();
+  // Watch every redraw of the facets while the click is handled.
+  await page.evaluate(() => {
+    const w = window as unknown as { __lists: string[][] };
+    w.__lists = [];
+    const read = () => {
+      const g = [...document.querySelectorAll(".sr-facets .fg")].find((el) => el.querySelector("h3")?.textContent === "Speaker");
+      w.__lists.push(g ? [...g.querySelectorAll(".fg-name")].map((n) => n.textContent ?? "") : []);
+    };
+    new MutationObserver(read).observe(document.querySelector(".sr-facets")!, { childList: true, subtree: true, characterData: true });
+  });
+  await group.getByRole("button", { name: new RegExp(before[2]) }).click();
+  await expect(page).toHaveURL(/speaker%3A/);
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  await page.waitForTimeout(800);
+  const lists = await page.evaluate(() => (window as unknown as { __lists: string[][] }).__lists);
+  for (const list of lists) expect(list).toEqual(before);
+});
+
+test("NEAR takes a distance and a phrase", async ({ page }) => {
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22%20NEAR%2F25%20litigating");
+  await expect(page.locator("[data-result] [data-speaker]").first()).toHaveAttribute("data-speaker", "robert-jackson");
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22%20NEAR%2F3%20litigating");
+  await expect(page.getByText("No remarks match.")).toBeVisible();
+});

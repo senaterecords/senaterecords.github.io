@@ -213,10 +213,15 @@ function SearchApp() {
       plan.current = { parsed, speaker, wide };
       const matched = queue.current.length;
       setTotal(matched);
-      setFacets(searches[0]?.filters ?? {});
       // A filter group in use is counted as if its own choice weren't made, so ticking 2019 still lists 2020 and 2021
-      // (with their counts) to add; the other groups' choices still apply. Runs beside the reading below.
+      // (with their counts) to add; the other groups' choices still apply. Until those counts arrive, a group in use
+      // keeps the list it had, so nothing drops out or moves under the pointer. Runs beside the reading below.
       const chosen = Object.keys(filters);
+      setFacets((previous) => {
+        const next = { ...(searches[0]?.filters ?? {}) };
+        for (const key of chosen) if (previous[key]) next[key] = previous[key];
+        return next;
+      });
       if (chosen.length) {
         void Promise.all(chosen.map(async (key) => {
           const { [key]: _mine, ...others } = filters;
@@ -310,8 +315,9 @@ function SearchApp() {
   // Each group shows its top entries (10; 8 years), plus any already chosen, with "All N …" for the rest.
   const facetList = (title: string, key: string, render: (value: string) => string, shortcut: (value: string) => string,
     { keep = (_value: string): boolean => true, byYear = false, noun = "" }: { keep?: (value: string) => boolean; byYear?: boolean; noun?: string } = {}) => {
+    // Most results first, ties by name, so the order never shuffles between searches; years newest first.
     const all = Object.entries(facets[key] ?? {}).filter(([value, n]) => n > 0 && keep(value))
-      .sort(byYear ? (a, b) => Number(b[0]) - Number(a[0]) : (a, b) => b[1] - a[1]);
+      .sort(byYear ? (a, b) => Number(b[0]) - Number(a[0]) : (a, b) => b[1] - a[1] || render(a[0]).localeCompare(render(b[0])));
     if (!all.length) return null;
     const top = byYear ? 8 : 10;
     const open = !!opened[key];

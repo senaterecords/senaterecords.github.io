@@ -2,7 +2,9 @@
 // remarks that really match. Pagefind finds pages; this decides which remarks on those pages count.
 import { fold } from "./names";
 
-export interface Branch { words: string[]; phrases: string[]; near: [string, string][]; }
+/** Two terms (each a word or a phrase) within so many words of each other in one remark. */
+export interface Near { a: string; b: string; within: number; }
+export interface Branch { words: string[]; phrases: string[]; near: Near[]; }
 /** A speaker: or senator: in the query, as typed (senator: looks among senators only). */
 export interface SpeakerFilter { text: string; senate: boolean; }
 /** The shortcuts in a query. Several values of one shortcut mean any of them; different shortcuts must all hold. */
@@ -32,7 +34,7 @@ function tokenize(q: string): Token[] {
     } else {
       const text = field ? `${field}:${fieldQuoted ?? fieldBare ?? ""}` : bare!;
       // A lowercase "and" means AND (already the default between terms), not a word to find.
-      if (!minus && (/^(AND|OR|NOT|NEAR)$/.test(text) || text === "and")) tokens.push({ kind: "op", value: text.toUpperCase() });
+      if (!minus && (/^(AND|OR|NOT|NEAR(\/\d{1,3})?)$/.test(text) || text === "and")) tokens.push({ kind: "op", value: text.toUpperCase() });
       else if (text) tokens.push({ kind: "word", value: text, negated: !!minus });
     }
   }
@@ -72,26 +74,32 @@ export function parseQuery(q: string): ParsedQuery {
   const not: string[] = [];
   const branches: Branch[] = [{ words: [], phrases: [], near: [] }];
   const tokens = tokenize(q);
+  let last: { list: string[]; value: string } | null = null; // the term just read, which a NEAR can take
   for (let i = 0; i < tokens.length; i++) {
     const t = tokens[i];
     const branch = branches[branches.length - 1];
     if (t.field) { applyFilter(filters, t.field, t.value); continue; }
     if (t.kind === "op") {
-      if (t.value === "OR") branches.push({ words: [], phrases: [], near: [] });
+      if (t.value === "OR") { branches.push({ words: [], phrases: [], near: [] }); last = null; }
       else if (t.value === "NOT") {
         const next = tokens[i + 1];
         if (next && next.kind !== "op" && !next.field) { not.push(next.value); i++; }
-      } else if (t.value === "NEAR") {
+      } else if (t.value.startsWith("NEAR")) {
+        // NEAR is within 10 words; NEAR/3 within 3. Either side may be a word or a phrase.
         const next = tokens[i + 1];
-        const previous = branch.words.pop();
-        if (previous && next?.kind === "word" && !next.field && !next.negated) { branch.near.push([previous, next.value]); i++; }
-        else if (previous) branch.words.push(previous);
+        if (last && next && next.kind !== "op" && !next.field && !next.negated) {
+          last.list.splice(last.list.lastIndexOf(last.value), 1);
+          branch.near.push({ a: last.value, b: next.value, within: Number(t.value.split("/")[1] ?? NEAR_WORDS) });
+          i++;
+        }
       }
+      last = null;
       continue;
     }
-    if (t.negated) { not.push(t.value); continue; }
-    if (t.kind === "phrase") branch.phrases.push(t.value);
-    else branch.words.push(t.value);
+    if (t.negated) { not.push(t.value); last = null; continue; }
+    const list = t.kind === "phrase" ? branch.phrases : branch.words;
+    list.push(t.value);
+    last = { list, value: t.value };
   }
   // "a OR" with nothing after it leaves an empty branch; keep it only when it is the only one.
   const kept = branches.filter((b) => b.words.length || b.phrases.length || b.near.length);
@@ -102,10 +110,13 @@ export function parseQuery(q: string): ParsedQuery {
  * the whole term, and finds nothing for a term with several), then the other words together. The page keeps the
  * transcripts every search found, and each remark is still checked for every phrase and word (spec 9.1). */
 export function pagefindTerms(b: Branch): string[] {
-  const words = [...b.words, ...b.near.flat()].join(" ");
-  const terms = [...b.phrases.map((p) => `"${p}"`), ...(words ? [words] : [])];
+  const nearTerms = b.near.flatMap((n) => [n.a, n.b]);
+  const words = [...b.words, ...nearTerms.filter((t) => !isPhrase(t))].join(" ");
+  const terms = [...[...b.phrases, ...nearTerms.filter(isPhrase)].map((p) => `"${p}"`), ...(words ? [words] : [])];
   return terms.length ? terms : [EVERY_PAGE];
 }
+
+const isPhrase = (term: string) => /\s/.test(term.trim());
 
 /** Pagefind filters for a query. A range of years needs "any"; a plain list would require every year at once. */
 export function pagefindFilters(f: Filters, speakers: string | string[] | null): Record<string, string | string[] | { any: string[] }> {
@@ -182,6 +193,24 @@ function present(words: string[], term: string): boolean {
   return fold(term).includes(" ") ? hasPhrase(words, term) : positions(words, term).length > 0;
 }
 
+/** Where a word (by its start) or a phrase (all its words) occurs, as [first, last] word indexes. */
+function spans(words: string[], term: string): [number, number][] {
+  const parts = fold(term).split(" ").filter(Boolean);
+  if (parts.length <= 1) return positions(words, term).map((i) => [i, i] as [number, number]);
+  const out: [number, number][] = [];
+  for (let i = 0; i + parts.length <= words.length; i++) {
+    if (parts.every((part, k) => words[i + k] === part)) out.push([i, i + parts.length - 1]);
+  }
+  return out;
+}
+
+/** Whether the two sides of a NEAR come within its distance: words between their closest ends. */
+function near(words: string[], n: Near): boolean {
+  const as = spans(words, n.a);
+  const bs = spans(words, n.b);
+  return as.some(([a0, a1]) => bs.some(([b0, b1]) => !(a0 === b0 && a1 === b1) && Math.max(0, b0 - a1, a0 - b1) <= n.within));
+}
+
 // A senator presiding speaks as "ACTING PRESIDENT X"; the site counts those turns apart from remarks.
 const PRESIDING = /^acting president\b/i;
 
@@ -197,18 +226,14 @@ export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: str
   const words = foldedWords(r.text);
   if (!b.words.every((w) => present(words, w))) return false;
   if (!b.phrases.every((p) => hasPhrase(words, p))) return false;
-  for (const [a, c] of b.near) {
-    const pa = positions(words, a);
-    const pc = positions(words, c);
-    if (!pa.some((i) => pc.some((j) => i !== j && Math.abs(i - j) <= NEAR_WORDS))) return false;
-  }
+  if (!b.near.every((n) => near(words, n))) return false;
   return !not.some((n) => present(words, n));
 }
 
 /** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
  * NOT and speaker:. With no terms it is the same as keepRemark. */
 export function mentionsAny(r: Remark, b: Branch, not: string[], speakerSlug: string | string[] | null): boolean {
-  const terms = [...b.words, ...b.near.flat()];
+  const terms = [...b.words, ...b.near.flatMap((n) => [n.a, n.b])];
   if (!b.phrases.length && !terms.length) return keepRemark(r, b, not, speakerSlug);
   if (!bySpeaker(r, speakerSlug)) return false;
   const words = foldedWords(r.text);
@@ -223,9 +248,10 @@ const EXCERPT = 360;
 
 /** The hits of a branch in a text, as merged [start, end) character ranges. */
 function hits(text: string, b: Branch): [number, number][] {
+  const nearTerms = b.near.flatMap((n) => [n.a, n.b]);
   const patterns = [
-    ...b.phrases.map((p) => p.split(/\s+/).map(escapeRegex).join(`[^${L}]+`) + `(?![${L}])`),
-    ...[...b.words, ...b.near.flat()].map((w) => `${escapeRegex(w)}[${L}]*`),
+    ...[...b.phrases, ...nearTerms.filter(isPhrase)].map((p) => p.split(/\s+/).map(escapeRegex).join(`[^${L}]+`) + `(?![${L}])`),
+    ...[...b.words, ...nearTerms.filter((t) => !isPhrase(t))].map((w) => `${escapeRegex(w)}[${L}]*`),
   ];
   const ranges: [number, number][] = [];
   for (const p of patterns) {

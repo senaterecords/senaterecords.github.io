@@ -22,7 +22,7 @@ describe("parseQuery", () => {
     const q = parseQuery("tolls AND fares NOT bridge -tunnel");
     expect(q.branches).toEqual([{ words: ["tolls", "fares"], phrases: [], near: [] }]);
     expect(q.not).toEqual(["bridge", "tunnel"]);
-    expect(parseQuery("tolls NEAR fares").branches).toEqual([{ words: [], phrases: [], near: [["tolls", "fares"]] }]);
+    expect(parseQuery("tolls NEAR fares").branches).toEqual([{ words: [], phrases: [], near: [{ a: "tolls", b: "fares", within: 10 }] }]);
   });
 
   it("accepts a query with only filters", () => {
@@ -221,5 +221,26 @@ describe("several values of one shortcut mean any of them", () => {
     expect(pagefindFilters(parseQuery('year:2019 year:2021 type:floor type:hearing committee:Health committee:"Ways and Means" bill:S1 bill:A2').filters, null)).toEqual({
       year: { any: ["2019", "2021"] }, committee: { any: ["Health", "Ways and Means"] }, bill: { any: ["S1", "A2"] },
     });
+  });
+});
+
+describe("NEAR with a distance, and with phrases", () => {
+  it("reads NEAR/n as within n words, and takes a phrase on either side", () => {
+    expect(parseQuery("tolls NEAR/3 fares").branches[0].near).toEqual([{ a: "tolls", b: "fares", within: 3 }]);
+    expect(parseQuery('"toll revenue" NEAR bridge').branches).toEqual([{ words: [], phrases: [], near: [{ a: "toll revenue", b: "bridge", within: 10 }] }]);
+    expect(parseQuery('budget NEAR "school aid"').branches[0].near).toEqual([{ a: "budget", b: "school aid", within: 10 }]);
+  });
+
+  it("checks the distance between the closest words of each side", () => {
+    // Senator0 Krueger1 The2 toll3 revenue4 goes5 to6 the7 bridge8 fund9 ...
+    const [krueger] = remarksOf(DATA);
+    expect(keepRemark(krueger, parseQuery('"toll revenue" NEAR/3 bridge').branches[0], [], null)).toBe(false);
+    expect(keepRemark(krueger, parseQuery('"toll revenue" NEAR/4 bridge').branches[0], [], null)).toBe(true);
+    expect(keepRemark(krueger, parseQuery("toll NEAR/5 fund").branches[0], [], null)).toBe(false);
+    expect(keepRemark(krueger, parseQuery("toll NEAR/6 fund").branches[0], [], null)).toBe(true);
+  });
+
+  it("asks Pagefind for a NEAR phrase exactly and its words together", () => {
+    expect(pagefindTerms(parseQuery('"toll revenue" NEAR bridge').branches[0])).toEqual(['"toll revenue"', "bridge"]);
   });
 });

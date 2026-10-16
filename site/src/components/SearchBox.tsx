@@ -19,24 +19,24 @@ const TRY: [string, string][] = [
 const WORDS: [string, ReactNode][] = [
   ["tolls fares", "both words"],
   ['"toll revenue"', "this exact phrase"],
-  ['"rent stabilization" "tenant protection"', "both exact phrases"],
+  ['"school aid" "tax cap"', "both exact phrases"],
   ["tolls OR fares", "either word"],
   ["tolls NOT bridge", <>leave out bridge (or <b>-bridge</b>)</>],
-  ["tolls NEAR fares", "within a few words"],
+  ["tolls NEAR fares", "within 10 words"],
+  ["tolls NEAR/3 fares", "within 3 words"],
 ];
 
 const NARROW: [string, ReactNode][] = [
-  ["speaker:Krueger", "a senator's or Assembly member's remarks"],
+  ["speaker:Krueger", "one speaker's remarks"],
   ["senator:Krueger", "senators only"],
-  ["speaker:Krueger speaker:Lanza", "either one's remarks"],
   ["bill:A10000", "transcripts that mention it"],
-  ["year:2019", "one year"],
-  ["year:2015-2019", "a range of years"],
+  ["year:2015-2019", "a year or a range"],
   ["type:hearing", <>hearings only (or <b>floor</b>)</>],
   ["committee:Health", "one committee's hearings"],
 ];
 
 const MIX = "rent speaker:Krueger year:2015-2019";
+const EITHER = "speaker:Krueger speaker:Lanza";
 const LONG_PLACEHOLDER = "Search for a senator, a bill, or what was said";
 const SHORT_PLACEHOLDER = "Search a senator, bill or words";
 
@@ -194,6 +194,7 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
             <div><h3>Narrow it down</h3><dl>{NARROW.map(([text, what]) => <div key={text}><dt>{example(text)}</dt><dd>{what}</dd></div>)}</dl></div>
           </div>
           <p>Mix them freely: {example(MIX)}</p>
+          <p>Either of two speakers: {example(EITHER)}</p>
         </div>
       </div>
     </form>
