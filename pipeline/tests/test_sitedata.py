@@ -254,6 +254,14 @@ def test_senator_pages_list_their_most_recent_remarks(tmp_path):
         "title": "Regular Session", "turn": 7, "page": 5800, "bills": []}
 
 
+def test_senator_data_carries_the_official_page(tmp_path):
+    out, _ = build_two_bills(tmp_path)
+    index = {s["slug"]: s for s in read_json(out / "senators.json")}
+    assert index["marisol-ortega"]["officialUrl"] == "https://www.nysenate.gov/senators/marisol-ortega"
+    page = read_json(out / "senators" / "marisol-ortega.json")
+    assert page["officialUrl"] == "https://www.nysenate.gov/senators/marisol-ortega"
+
+
 def test_bills_file_lists_every_mentioned_bill_and_sponsors_get_their_bills(tmp_path):
     out, _ = build_two_bills(tmp_path)
     bills = {b["basePrintNo"]: b for b in read_json(out / "bills" / "2025.json")["bills"]}
@@ -511,7 +519,7 @@ def test_assembly_members_link_to_their_own_card_never_to_a_senator(tmp_path):
     assert "assembly" not in turns[2]  # only matched turns carry the field, to keep the site small
     assert read_json(site / "assembly.json") == {"herman-d-farrell": {
         "memberId": 900, "name": "Herman D. Farrell", "sessions": {"2011": 910},
-        "photo": "photos/assembly/herman-d-farrell.jpg"}}
+        "photo": "photos/assembly/herman-d-farrell.jpg", "officialUrl": "https://nyassembly.gov/mem/Herman-D-Farrell"}}
     assert (site / "photos" / "assembly" / "herman-d-farrell.jpg").read_bytes()[:2] == b"\xff\xd8"  # a JPEG
 
 

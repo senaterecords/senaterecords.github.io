@@ -1,0 +1,7 @@
+# Reviewed fixes for official page addresses. Addresses normally come from the name:
+#   senators:          https://www.nysenate.gov/senators/{first-middle-last}
+#   Assembly members:  https://nyassembly.gov/mem/{First-Middle-Last}
+# Each entry: member is "senate:{memberId}" or "assembly:{memberId}"; url is the right address, or null for none.
+# Run `python -m nyleg check-official` to list addresses that don't answer, then review them by hand
+# (the Senate site answers some automated requests with 403 even for valid pages).
+[]

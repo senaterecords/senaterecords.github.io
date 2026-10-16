@@ -185,6 +185,17 @@ def bill_card(raw: dict[str, Any]) -> dict[str, Any]:
         groups = (vote.get("memberVotes") or {}).get("items") or {}
         return {code: len(group.get("items") or []) for code, group in groups.items()}
 
+    def members(vote: dict[str, Any]) -> dict[str, list[int]]:
+        groups = (vote.get("memberVotes") or {}).get("items") or {}
+        return {code: [m["memberId"] for m in group.get("items") or [] if m.get("memberId") is not None]
+                for code, group in groups.items()}
+
+    committee = status.get("committeeName")
+    if not committee:
+        past = [c for c in (raw.get("pastCommittees") or {}).get("items") or []
+                if (c.get("chamber") or "").upper() == "SENATE"]
+        committee = max(past, key=lambda c: c.get("referenceDate") or "").get("name") if past else None
+
     return {
         "printNo": raw.get("printNo") or raw.get("basePrintNo"),
         "basePrintNo": raw.get("basePrintNo"),
@@ -203,9 +214,11 @@ def bill_card(raw: dict[str, Any]) -> dict[str, Any]:
         "signed": bool(raw.get("signed")),
         "vetoed": bool(raw.get("vetoed")),
         "floorVotes": [
-            {"date": v.get("voteDate"), "version": v.get("version"), "counts": counts(v)}
+            {"date": v.get("voteDate"), "version": v.get("version"), "counts": counts(v), "members": members(v)}
             for v in (raw.get("votes") or {}).get("items") or []
             if v.get("voteType") == "FLOOR"
         ],
         "sameAs": [s.get("printNo") or s.get("basePrintNo") for s in (amendment.get("sameAs") or {}).get("items") or []],
+        "committee": committee,
+        "coSponsors": len((amendment.get("coSponsors") or {}).get("items") or []),
     }

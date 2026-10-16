@@ -152,7 +152,8 @@ def test_bill_card_extracts_what_the_site_shows():
     assert card["sponsor"] == {"memberId": 1, "name": "Marisol Ortega", "shortName": "ORTEGA"}
     assert card["status"] == {"type": "PASSED_SENATE", "text": "Passed Senate", "date": "2025-06-10"}
     assert [m["text"] for m in card["milestones"]] == ["Introduced", "Passed Senate"]
-    assert card["floorVotes"] == [{"date": "2025-06-10", "version": "A", "counts": {"AYE": 2, "NAY": 1}}]
+    assert card["floorVotes"] == [{"date": "2025-06-10", "version": "A", "counts": {"AYE": 2, "NAY": 1},
+                                   "members": {"AYE": [1, 2], "NAY": [3]}}]
     assert card["sameAs"] == ["A8812"]
 
 
@@ -160,6 +161,21 @@ def test_bill_card_tolerates_missing_sections():
     card = bill_card({"basePrintNo": "S1", "session": 2009, "printNo": "S1"})
     assert card["sponsor"] is None
     assert card["floorVotes"] == [] and card["milestones"] == [] and card["sameAs"] == []
+    assert (card["committee"], card["coSponsors"]) == (None, 0)
+
+
+def test_bill_card_has_the_committee_and_co_sponsor_count():
+    raw = {**RAW_BILL,
+           "status": {**RAW_BILL["status"], "committeeName": None},
+           "pastCommittees": {"items": [
+               {"chamber": "SENATE", "name": "Finance", "referenceDate": "2025-01-08T00:00"},
+               {"chamber": "SENATE", "name": "Transportation", "referenceDate": "2025-02-04T00:00"},
+               {"chamber": "ASSEMBLY", "name": "Ways and Means", "referenceDate": "2025-06-11T00:00"}]},
+           "amendments": {"items": {"A": {**RAW_BILL["amendments"]["items"]["A"],
+                                          "coSponsors": {"items": [{"memberId": 7}, {"memberId": 8}]}}}}}
+    card = bill_card(raw)
+    assert (card["committee"], card["coSponsors"]) == ("Transportation", 2)
+    assert bill_card({**raw, "status": {**raw["status"], "committeeName": "Rules"}})["committee"] == "Rules"
 
 
 def test_modern_readings_put_the_print_number_first():

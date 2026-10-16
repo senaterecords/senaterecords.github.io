@@ -147,6 +147,24 @@ def smoke(client: Any, now: datetime) -> list[str]:
     return lines
 
 
+def cmd_check_official(args: argparse.Namespace) -> int:
+    """List official page addresses in the built site data that don't answer 200, for review by hand."""
+    import httpx
+
+    from .official import check_urls
+
+    site = Path(args.site)
+    urls = [(s["name"], s["officialUrl"]) for s in read_json(site / "senators.json") or [] if s.get("officialUrl")]
+    urls += [(m["name"], m["officialUrl"]) for m in (read_json(site / "assembly.json") or {}).values() if m.get("officialUrl")]
+    with httpx.Client(timeout=20.0, headers={"User-Agent": "OnTheRecord-check/0.1"}) as client:
+        problems = check_urls(urls, client)
+    for name, url, status in problems:
+        note = "blocked by the site; check by hand" if status == 403 else "fix in data/overrides/official-urls.yaml"
+        print(f"{status}\t{name}\t{url}\t{note}")
+    print(f"{len(urls) - len(problems)} of {len(urls)} addresses answered 200")
+    return 0
+
+
 def cmd_smoke(args: argparse.Namespace) -> int:
     """Print the shape of each endpoint we depend on; used to verify assumptions with a real key."""
     for line in smoke(Client(os.environ.get("NYSENATE_API_KEY", "")), new_york_now()):
@@ -170,8 +188,10 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--out", default="data/site")
     p.add_argument("--gate-against", help="previous quality.json; exit 5 if quality dropped")
     commands.add_parser("smoke", help="check the live API responses we depend on")
+    c = commands.add_parser("check-official", help="list official page addresses that don't answer")
+    c.add_argument("--site", default="data/site")
     args = parser.parse_args(argv)
-    handlers = {"sync": cmd_sync, "process": cmd_process, "smoke": cmd_smoke}
+    handlers = {"sync": cmd_sync, "process": cmd_process, "smoke": cmd_smoke, "check-official": cmd_check_official}
     try:
         return handlers[args.command](args)
     except AuthError as exc:

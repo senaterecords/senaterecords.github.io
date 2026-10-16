@@ -15,6 +15,7 @@ from .bills import (
     BILL_DATA_START, BillResolver, Segment, base_print_no, bill_card, find_bills, load_bill_fixes, segment_calendar,
 )
 from .clean import PageBreak, Paragraph, extract_lines, paragraphs
+from .official import load_official_overrides, official_url
 from .officers import Officers, load_officers
 from .quality import Report
 from .senators import Roster, Senator, load_history, load_overrides, session_year
@@ -306,6 +307,7 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
     roster = load_roster(store)
     assembly = load_assembly(store)
     overrides = load_overrides(overrides_path or store.root / "overrides" / "speakers.yaml")
+    official = load_official_overrides(store.root / "overrides" / "official-urls.yaml")
     corrections = read_json(store.corrections_path, {}) or {}
     report = Report()
     appearances: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -429,16 +431,17 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         remarks = sum(a["remarks"] for a in apps)
         presiding = sum(a["presiding"] for a in apps)
         photo = _copy_photo(store, senator, out)
+        link = official_url("senate", senator.member_id, senator.full_name, official)
         service = senator.service(current=session_year(now.date()))
         index.append({"slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name, "photo": photo,
-                      "service": service, "sessions": sessions, "remarks": remarks, "presiding": presiding,
-                      "transcripts": len(apps)})
+                      "officialUrl": link, "service": service, "sessions": sessions, "remarks": remarks,
+                      "presiding": presiding, "transcripts": len(apps)})
         own = sponsored.get(senator.slug, set())
         if not apps and not own:
             continue
         write_json(out / "senators" / f"{senator.slug}.json", {
             "slug": senator.slug, "memberId": senator.member_id, "name": senator.full_name, "photo": photo,
-            "service": service, "sessions": sessions,
+            "officialUrl": link, "service": service, "sessions": sessions,
             "totals": {"remarks": remarks, "presiding": presiding, "transcripts": len(apps)},
             "appearances": apps, "bills": _bill_rows(debated_bills[senator.slug], own),
             "recent": [item for _, item in sorted(recent.get(senator.slug, []), key=lambda pair: pair[0], reverse=True)],
@@ -451,7 +454,8 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         if member.slug in assembly_seen:
             members[member.slug] = {"memberId": member.member_id, "name": member.full_name,
                                     "sessions": {str(k): v for k, v in sorted(member.districts.items())},
-                                    "photo": _copy_photo(store, member, out, "photos/assembly")}
+                                    "photo": _copy_photo(store, member, out, "photos/assembly"),
+                                    "officialUrl": official_url("assembly", member.member_id, member.full_name, official)}
     write_json(out / "assembly.json", members)
 
     by_prefix: dict[str, dict[str, int]] = defaultdict(dict)
