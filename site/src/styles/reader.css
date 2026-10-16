@@ -10,9 +10,7 @@
 .rd-crumb a.rd-results:hover { color: var(--color-act); }
 /* The passage a search result showed, washed yellow for a moment when the page opens on it. */
 .flash-layer { position: fixed; inset: 0; pointer-events: none; z-index: 4; mix-blend-mode: multiply; }
-.flash { position: absolute; border-radius: 2px; background: #FFE36E; animation: otr-flash 3s ease-out forwards; }
-@keyframes otr-flash { 0%, 45% { opacity: .9; } 100% { opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .flash { animation-timing-function: steps(1, end); } }
+.flash { position: absolute; border-radius: 2px; background: #FFE36E; } /* passage.ts fades the layer in and out */
 .rd-acts { margin-left: auto; display: flex; gap: 8px; }
 .bar:has(.rd-crumb) { position: sticky; top: 0; }
 .rd-back, .rd-ttl { display: none; }

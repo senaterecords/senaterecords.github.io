@@ -38,7 +38,7 @@
     const release = () => observer.disconnect();
     for (const type of ["wheel", "touchstart", "keydown", "pointerdown"]) addEventListener(type, release, { once: true, passive: true });
     setTimeout(release, 10_000);
-    if (passage) setTimeout(() => flash(passage.rects()), 300);
+    if (passage) setTimeout(() => flash(passage.rects), 300);
   }
 
   // Arriving from the search page, the bar offers the way back to the results (Back keeps them as they were).
