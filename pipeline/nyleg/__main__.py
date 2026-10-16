@@ -5,7 +5,8 @@ import argparse
 import json
 import os
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
+from typing import Any
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -87,7 +88,11 @@ def cmd_process(args: argparse.Namespace) -> int:
     if not (store.raw / "transcripts").exists():
         print(f"ERROR: No raw transcripts in {store.raw}; run sync first or check --data", file=sys.stderr)
         return EXIT_GATE
-    report = build_all(store, out, new_york_now())
+    try:
+        report = build_all(store, out, new_york_now())
+    except ValueError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return EXIT_GATE
     summary = report.to_dict()
     write_json(out / "quality.json", summary)
     print(json.dumps({k: summary[k] for k in ("floorTranscripts", "hearings", "attribution", "billLinkRate")}))
@@ -100,21 +105,38 @@ def cmd_process(args: argparse.Namespace) -> int:
     return 0
 
 
-def cmd_smoke(args: argparse.Namespace) -> int:
-    """Print the shape of each endpoint we depend on; used to verify assumptions with a real key."""
-    client = Client(os.environ.get("NYSENATE_API_KEY", ""))
-    session = session_year(new_york_now().date())
+def smoke(client: Any, now: datetime) -> list[str]:
+    """One line per API response shape the pipeline reads, so a changed field shows up immediately."""
+    session = session_year(now.date())
+    week_ago = (now - timedelta(days=7)).replace(microsecond=0).isoformat()
     checks = {
         "transcripts": ("/transcripts", {"limit": 1, "full": True, "sessionOnly": False}),
         "hearings": ("/hearings", {"limit": 1}),
         "members": (f"/members/{session}/senate", {"limit": 1, "full": True}),
         "bills": (f"/bills/{session}", {"limit": 1}),
+        "updates": (f"/transcripts/updates/{week_ago}/{now.replace(microsecond=0).isoformat()}", {"limit": 1}),
     }
+    lines = []
+    firsts: dict[str, dict[str, Any]] = {}
     for name, (path, params) in checks.items():
         body = client.get(path, **params)
         items = (body.get("result") or {}).get("items") or []
-        first = items[0] if items else {}
-        print(f"{name}: total={body.get('total')} offsetStart={body.get('offsetStart')} keys={sorted(first)}")
+        firsts[name] = items[0] if items else {}
+        line = f"{name}: total={body.get('total')} offsetStart={body.get('offsetStart')} keys={sorted(firsts[name])}"
+        if name == "updates" and isinstance(firsts[name].get("transcriptId"), dict):
+            line += f" transcriptId={sorted(firsts[name]['transcriptId'])}"
+        lines.append(line)
+    bill = firsts["bills"].get("basePrintNo") or firsts["bills"].get("printNo")
+    if bill:
+        detail = client.get(f"/bills/{session}/{bill}", view="no_fulltext").get("result") or {}
+        lines.append(f"bill detail: {bill} keys={sorted(detail)}")
+    return lines
+
+
+def cmd_smoke(args: argparse.Namespace) -> int:
+    """Print the shape of each endpoint we depend on; used to verify assumptions with a real key."""
+    for line in smoke(Client(os.environ.get("NYSENATE_API_KEY", "")), new_york_now()):
+        print(line)
     return 0
 
 

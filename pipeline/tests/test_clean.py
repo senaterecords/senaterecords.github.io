@@ -1,6 +1,17 @@
+import time
+
 import pytest
 
 from nyleg.clean import extract_lines, paragraphs
+
+
+def test_a_huge_single_paragraph_is_joined_in_linear_time():
+    rows = "".join(f"         2       word{i} continues the same paragraph\n" for i in range(50_000))
+    lines = extract_lines("         1                      THE SECRETARY:  Begin\n" + rows)
+    start = time.perf_counter()
+    paras = paragraphs(lines)
+    assert len(paras) == 1
+    assert time.perf_counter() - start < 2.0
 
 
 def test_strips_line_numbers_and_reads_right_aligned_page_numbers():

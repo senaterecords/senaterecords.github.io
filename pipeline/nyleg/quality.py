@@ -15,6 +15,8 @@ class Report:
     bill_mentions: int = 0
     bill_mentions_linked: int = 0
     plain_text: list[str] = field(default_factory=list)
+    empty: list[str] = field(default_factory=list)   # transcripts the API returned with no text
+    failed: list[str] = field(default_factory=list)  # raw records that could not be built at all
     unmatched: Counter = field(default_factory=Counter)
     per_year: Counter = field(default_factory=Counter)
 
@@ -33,6 +35,8 @@ class Report:
             "attribution": round(self.attribution, 4),
             "billLinkRate": round(self.bill_link_rate, 4),
             "plainText": sorted(self.plain_text),
+            "empty": sorted(self.empty),
+            "failed": sorted(self.failed),
             "unmatchedLabels": dict(self.unmatched.most_common(200)),
             "perYear": {str(year): count for year, count in sorted(self.per_year.items())},
         }

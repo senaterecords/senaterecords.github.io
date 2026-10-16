@@ -204,3 +204,98 @@ def test_overrides_match_labels_regardless_of_letter_case():
     roster = Roster.from_members(MEMBERS)
     doc = build_transcript("floor", floor("2025-06-10T11:00", text), roster, {(2025, "SENATOR DEORTEGA"): 2}, "x")
     assert doc["turns"][1]["senator"] == "paul-brennan"
+
+
+def hearing(key, title, date="2011-05-18", text="         1             SENATOR VALESKY:  Welcome.\n", committees=None):
+    return {"id": 1, "filename": key, "title": title, "date": date, "committees": committees or [], "text": text}
+
+
+def test_colliding_hearing_slugs_are_all_suffixed_and_unique(tmp_path):
+    store = Store(tmp_path / "data")
+    for key in ("b-second.txt", "a-first.txt"):
+        write_json(store.hearing_path(2011, key), hearing(key, "Budget hearing"))
+    write_json(store.hearing_path(2011, "c.txt"), hearing("c.txt", "x" * 300))
+    write_json(store.hearing_path(2011, "d.txt"), hearing("d.txt", "x" * 300 + "y"))
+    build_all(store, tmp_path / "site", datetime(2025, 1, 1))
+    names = sorted(p.stem for p in (tmp_path / "site" / "transcripts").iterdir())
+    assert "2011-05-18-budget-hearing-a-first-txt" in names and "2011-05-18-budget-hearing-b-second-txt" in names
+    assert len(names) == len(set(names)) == 4
+
+
+def test_build_all_refuses_to_wipe_a_folder_that_is_not_a_previous_build(tmp_path):
+    import pytest
+    store = Store(tmp_path / "data")
+    write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", TEXT_2025))
+    with pytest.raises(ValueError, match="not a previous build"):
+        build_all(store, store.root, datetime(2025, 1, 1))
+    assert store.transcript_path("2025-06-10T11:00", "Regular Session").exists()
+    other = tmp_path / "notes"
+    other.mkdir()
+    (other / "keep.txt").write_text("mine")
+    with pytest.raises(ValueError):
+        build_all(store, other, datetime(2025, 1, 1))
+    assert (other / "keep.txt").exists()
+    build_all(store, tmp_path / "site", datetime(2025, 1, 1))
+    build_all(store, tmp_path / "site", datetime(2025, 1, 2))  # a previous build may be replaced
+
+
+def test_one_bad_record_is_reported_and_the_rest_still_build(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", TEXT_2025))
+    write_json(store.transcript_path("2025-06-11T11:00", "Regular Session"), {"sessionType": "Regular Session", "text": "x"})
+    report = build_all(store, tmp_path / "site", datetime(2025, 1, 1))
+    assert report.floor == 1
+    assert report.failed == ["transcripts/2025/2025-06-11T1100__regular-session.json"]
+
+
+def test_committee_names_may_be_plain_strings():
+    raw = hearing("a.txt", "Roundtable", committees=["Aging", {"name": "Health", "chamber": "SENATE"}])
+    doc = build_transcript("hearing", raw, Roster({}), {}, "x")
+    assert doc["committees"] == ["Aging", "Health"]
+
+
+def test_chairs_in_joint_hearings_are_not_matched_to_senators():
+    roster = Roster.from_members({2011: [member(5, "Liz Krueger", "Liz", "Krueger", "KRUEGER", 2011)]})
+    text = "         1             CHAIRWOMAN KRUEGER:  Welcome to the hearing.\n"
+    senate_only = hearing("a.txt", "Budget", text=text, committees=[{"name": "Finance", "chamber": "SENATE"}])
+    joint = hearing("b.txt", "Budget", text=text, committees=[{"name": "Finance", "chamber": "SENATE"},
+                                                             {"name": "Ways and Means", "chamber": "ASSEMBLY"}])
+    assert build_transcript("hearing", senate_only, roster, {}, "x")["turns"][0]["senator"] == "liz-krueger"
+    assert build_transcript("hearing", joint, roster, {}, "x")["turns"][0]["senator"] is None
+
+
+TEXT_SPANS_PAGES = """                                                               5800
+
+ 1               THE SECRETARY:   Calendar Number 11, Senate Print 200, by
+ 2   Senator Ortega, an act to amend the vehicle and traffic law.
+ 3               SENATOR ORTEGA:   Thank you, Mr. President.  This
+ 4   bill does one thing.  It says the congestion pricing program
+ 5   has to answer to the riders in my district before it answers
+                                                               5801
+
+ 1   to anyone else in this building, and it requires the authority
+ 2   to publish where each dollar collected in the zone is spent.
+"""
+
+
+def test_segment_pages_include_pages_reached_inside_a_turn():
+    doc = build_transcript("floor", floor("2025-06-10T11:00", TEXT_SPANS_PAGES), Roster.from_members(MEMBERS), {}, "x")
+    (segment,) = doc["segments"]
+    assert segment["pages"] == [5800, 5801]
+
+
+def test_empty_transcripts_are_flagged_as_empty_not_plain_text(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.transcript_path("2025-06-12T11:00", "Regular Session"), floor("2025-06-12T11:00", ""))
+    report = build_all(store, tmp_path / "site", datetime(2025, 1, 1))
+    doc = read_json(tmp_path / "site" / "transcripts" / "2025-06-12-regular-session.json")
+    assert (doc["empty"], doc["plainText"], doc["turns"]) == (True, False, [])
+    assert report.empty == ["2025-06-12-regular-session"] and report.plain_text == []
+
+
+def test_vocabulary_keeps_accented_words(tmp_path):
+    store = Store(tmp_path / "data")
+    text = TEXT_2025.replace("Thank you, Mr. President.", "Thank you, Senator Sepúlveda and Senator Sepúlveda.")
+    write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", text))
+    build_all(store, tmp_path / "site", datetime(2025, 1, 1))
+    assert read_json(tmp_path / "site" / "words" / "se.json")["sepúlveda"] == 2

@@ -62,6 +62,39 @@ def test_rates_above_the_cap_are_refused(tmp_path, capsys):
     assert "at most 10" in capsys.readouterr().err
 
 
+class SmokeClient:
+    def __init__(self, bodies):
+        self.bodies = bodies
+
+    def get(self, path, **params):
+        return self.bodies[path]
+
+
+def test_smoke_checks_every_response_shape_the_pipeline_reads():
+    from datetime import datetime
+
+    from nyleg.__main__ import smoke
+
+    item = lambda **keys: {"success": True, "total": 1, "offsetStart": 1, "result": {"items": [keys]}}  # noqa: E731
+    client = SmokeClient({
+        "/transcripts": item(dateTime=1, sessionType=1, dayType=1, text=1),
+        "/hearings": item(id=1, filename=1),
+        "/members/2025/senate": item(memberId=1, person=1, sessionShortNameMap=1),
+        "/bills/2025": item(printNo="S100", basePrintNo="S100"),
+        "/transcripts/updates/2025-06-03T12:00:00/2025-06-10T12:00:00": item(transcriptId={"dateTime": 1, "sessionType": 1}),
+        "/bills/2025/S100": {"success": True, "result": {"printNo": "S100", "votes": {"items": []}, "sponsor": {}}},
+    })
+    lines = smoke(client, datetime(2025, 6, 10, 12, 0, 0))
+    assert any(l.startswith("updates:") and "transcriptId=['dateTime', 'sessionType']" in l for l in lines)
+    assert any(l.startswith("bill detail:") and "'votes'" in l for l in lines)
+
+
+def test_process_reports_a_refused_output_folder(tmp_path, capsys):
+    store = make_store(tmp_path)
+    assert main(["--data", str(store.root), "process", "--out", str(store.root)]) == EXIT_GATE
+    assert "Refusing to replace" in capsys.readouterr().err
+
+
 def test_process_refuses_to_build_from_a_missing_data_folder(tmp_path, capsys):
     out = tmp_path / "site"
     assert main(["--data", str(tmp_path / "nope"), "process", "--out", str(out)]) == EXIT_GATE

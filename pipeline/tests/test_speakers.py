@@ -1,7 +1,17 @@
+import time
+
 import pytest
 
 from nyleg.clean import PageBreak, Paragraph, extract_lines, paragraphs
 from nyleg.speakers import classify, coverage, parse_label, split_turns
+
+
+def test_a_turn_with_many_paragraphs_is_joined_in_linear_time():
+    paras = [Paragraph("THE SECRETARY: Begin.", 1)] + [Paragraph(f"paragraph number {i} of the same turn.", 1) for i in range(150_000)]
+    start = time.perf_counter()
+    (turn,) = split_turns(paras)
+    assert turn.text.endswith("paragraph number 149999 of the same turn.")
+    assert time.perf_counter() - start < 2.0
 
 
 def test_parse_label():

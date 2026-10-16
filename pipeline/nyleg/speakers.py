@@ -101,6 +101,8 @@ def classify(label: str) -> tuple[str, str | None]:
 
 def split_turns(paras: list[Paragraph]) -> list[Turn]:
     turns: list[Turn] = []
+    pieces: list[list[str]] = []  # each turn's paragraphs, joined once at the end
+    lengths: list[int] = []
     for para in paras:
         parsed = parse_label(para.text)
         if parsed is not None:
@@ -113,16 +115,23 @@ def split_turns(paras: list[Paragraph]) -> list[Turn]:
             if early:
                 page = early[-1].page
             turns.append(Turn(len(turns), label, role, name, rest, page, breaks))
+            pieces.append([rest])
+            lengths.append(len(rest))
             continue
         if not turns:
             turns.append(Turn(0, None, ROLE_RECORD, None, para.text, para.page_start, list(para.breaks)))
+            pieces.append([para.text])
+            lengths.append(len(para.text))
             continue
         cur = turns[-1]
-        base = len(cur.text) + 2
+        base = lengths[-1] + 2
         if para.page_start is not None and para.page_start != cur.page_end:
             cur.breaks.append(PageBreak(base, para.page_start))
         cur.breaks.extend(PageBreak(base + b.offset, b.page) for b in para.breaks)
-        cur.text = f"{cur.text}\n\n{para.text}"
+        pieces[-1].append(para.text)
+        lengths[-1] = base + len(para.text)
+    for turn, parts in zip(turns, pieces):
+        turn.text = "\n\n".join(parts)
     return turns
 
 

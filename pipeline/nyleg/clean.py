@@ -124,15 +124,20 @@ def paragraphs(lines: list[Line]) -> list[Paragraph]:
         return []
     threshold = body_indent(lines) + PARA_STEP
     out: list[Paragraph] = []
-    cur: Paragraph | None = None
+    pieces: list[list[str]] = []  # joined once at the end: repeated concatenation is quadratic
+    length = 0
     for line in lines:
         text = _WS.sub(" ", line.text).strip()
-        if cur is None or line.indent >= threshold:
-            cur = Paragraph(text=text, page_start=line.page)
-            out.append(cur)
+        if not out or line.indent >= threshold:
+            out.append(Paragraph(text="", page_start=line.page))
+            pieces.append([text])
+            length = len(text)
             continue
-        offset = len(cur.text) + 1
+        cur = out[-1]
         if line.page is not None and line.page != cur.page_end:
-            cur.breaks.append(PageBreak(offset=offset, page=line.page))
-        cur.text = f"{cur.text} {text}"
+            cur.breaks.append(PageBreak(offset=length + 1, page=line.page))
+        pieces[-1].append(text)
+        length += 1 + len(text)
+    for paragraph, parts in zip(out, pieces):
+        paragraph.text = " ".join(parts)
     return out
