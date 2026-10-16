@@ -287,8 +287,8 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 | Public hearings | 261 | 2011–2026 (none in the API before 2011) |
 
 - **Size, measured on the full build (2026-10-16):** 59,635 pages built from the full archive in 456 s on a 16-thread desktop.
-  - **Total: 927.4 MB**, which passes the 800 MB warning and stays under the 950 MB stop. The first build was 1,460.5 MB.
-  - **By folder:** transcripts 469.9 MB (8,063 pages), bills 244.4 MB (51,289 pages), Pagefind 163.3 MB, senators 39.5 MB, data 6.2 MB, browse 2.1 MB, scripts and styles 1.3 MB, photos 0.8 MB.
+  - **Total: 935.5 MB**, which passes the 800 MB warning and stays under the 950 MB stop. The first build was 1,460.5 MB.
+  - **By folder:** transcripts 478.0 MB (8,063 pages), bills 244.4 MB (51,289 pages), Pagefind 163.3 MB, senators 39.5 MB, data 6.2 MB, browse 2.1 MB, scripts and styles 1.3 MB, photos 0.8 MB.
   - **Pagefind** indexes 2,558 pages (floor sessions and hearings): 89 MB of fragments and 73 MB of index.
   - **What got it under:**
     - stylesheets linked, not inlined, and no scoped-style attributes;
@@ -299,7 +299,7 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
     - packed reader data;
     - pro forma legislative days kept as pages but without the reader's tools and outside the search index;
     - attribute quotes dropped after the build.
-  - **Headroom:** about 23 MB to the stop at the root address. Growth is roughly 85 transcripts and hearings a year, plus their bills, around 20 MB a year. Serving under a project path such as `/ontherecord/` adds about 21 MB (12 characters on each of 1.79 million internal links). Plan 3 decides the address and, before growth reaches the stop, where to put the overflow (see Fallbacks).
+  - **Headroom:** about 14 MB to the stop at the root address. Growth is roughly 85 transcripts and hearings a year, plus their bills, around 20 MB a year. Serving under a project path such as `/ontherecord/` adds about 21 MB (12 characters on each of 1.79 million internal links). Plan 3 decides the address and, before growth reaches the stop, where to put the overflow (see Fallbacks).
 - **Speed, measured on the largest transcript** (2003-06-19, 1.25 MB of HTML): first contentful paint 608–1,136 ms on a cold browser and 56 ms warm; 0 ms of long tasks while scrolling 20 screens. React windowing is not needed.
 - **Guardrails:**
   - A warning when the built site passes 800 MB.
@@ -389,5 +389,5 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 | Homepage search without motion (2026-10-16) | flipping examples inside the box read as typed text; three clickable examples under the box and a Search tips panel (with a pointer to its link) were clearer. Shortcut suggestions (`speaker:`, `year:`, `bill:`) match any part of a name and resolve shared surnames by choice |
 | Mobile designed before building (2026-10-16) | all screens at 390 px (`mocks/src/mobile.html`): a menu button, back arrows, the senator card and citation tools as bottom sheets (phones can't hover), the reader's calendar and bill details as a bar on top with next and previous remark at the bottom, a vertical bill timeline, cards in place of tables, and filters behind one button |
 | Static transcript pages with `content-visibility`, measured before considering React windowing | keeps browser find, copy, print, exact page links and indexing; measured on 2026-10-16 (largest transcript: first paint 608–1,136 ms cold, no long tasks while scrolling), so windowing was not built |
-| Size cuts to fit GitHub Pages (2026-10-16) | the first full build was 1,460 MB, over the 1 GB limit. Cuts that change nothing a reader sees came first; then three small visible ones: voters on bill pages as plain names, pro forma days out of search, and pages that never needed the reader's tools without them. The result is 927 MB |
+| Size cuts to fit GitHub Pages (2026-10-16) | the first full build was 1,460 MB, over the 1 GB limit. Cuts that change nothing a reader sees came first; then three small visible ones: voters on bill pages as plain names, pro forma days out of search, and pages that never needed the reader's tools without them. The result is 935.5 MB, including the bill headers added by the finish review |
 | Turn markup carries each speaker key once (2026-10-16) | `<section class="turn" id="r-{i}" data-role>` with `<h3 id="w-{i}-{page}-{key}">`. The key, page and remark links (`#r-N`) work as before, with about 75 MB less markup |
