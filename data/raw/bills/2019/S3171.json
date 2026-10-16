@@ -1,0 +1,970 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3171",
+     "basePrintNoStr": "S3171-2019",
+     "printNo": "S3171",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3171",
+     "basePrintNoStr": "S3171-2019",
+     "printNo": "S3171",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-14",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3171",
+     "basePrintNoStr": "S3171-2019",
+     "printNo": "S3171A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-14",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 3171A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3171",
+     "basePrintNoStr": "S3171-2019",
+     "printNo": "S3171A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-18",
+    "sequenceNo": 4,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3171",
+     "basePrintNoStr": "S3171-2019",
+     "printNo": "S3171A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-18",
+    "sequenceNo": 5,
+    "text": "ORDERED TO THIRD READING CAL.1598"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3171",
+     "basePrintNoStr": "S3171-2019",
+     "printNo": "S3171A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-18",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A264B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the financial services law, in relation to establishing\nprotections from excessive hospital emergency charges",
+    "basePrintNo": "S3171",
+    "basePrintNoStr": "S3171-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "James L. Seward",
+       "imgName": "371_james_l._seward.jpg",
+       "incumbent": false,
+       "memberId": 371,
+       "sessionMemberId": 1279,
+       "sessionYear": 2019,
+       "shortName": "SEWARD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "George Amedore",
+       "imgName": "892_george_amedore.jpg",
+       "incumbent": false,
+       "memberId": 892,
+       "sessionMemberId": 1369,
+       "sessionYear": 2019,
+       "shortName": "AMEDORE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1289,
+       "sessionYear": 2019,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§605, 608 & 604, Fin Serv L",
+    "lawSection": "Financial Services Law",
+    "memo": "\n \nBILL NUMBER: S3171\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the financial services law, in relation to establishing\nprotections from excessive hospital emergency charges\n\n \nPURPOSE:\n\nThis bill subjects hospital charges for emergency services to the inde-\npendent dispute resolution process established to protect against exces-\nsive emergency charges.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends section 605 of the financial services law by including\nhospital charges in the emergency charges that are subject to the inde-\npendent dispute resolution process. It also provides that if a health\ninsurer submits a dispute regarding the hospital's charge to dispute\nresolution, the health insurer shall pay a reasonable amount for the\nservices directly to the hospital or physician.\n\nSection 2 amends section 608 of the financial services law by including\nhospitals in the payment and settlement provisions with respect to the\ncost of the independent dispute resolution process.\n\nSection 3 amends section 604 of the financial services law by including\nhospitals in the standard of review with respect to the criteria for\ndetermining a reasonable fee.\n\nSection 4 sets the effective date.\n\n \nJUSTIFICATION:\n\nSection 3241 of the insurance law requires health insurers to ensure\nthat enrollees incur no greater out-of-pocket costs than they would have\nincurred with a participating provider when emergency services are\nreceived from a non-participating provider. Currently, section 605 of\nthe financial services law establishes an independent dispute resolution\nprocess for physician emergency charges.\n\nThe charges billed by hospitals for emergency services when they are\nout-of-network are often excessive. This is particularly true given\nsection 3241 of the insurance law cited above, which essentially\nrequires health insurers to pay charges to non-participating hospitals\nfor emergency services to ensure that members are not balance billed.\nHospitals are assured of receiving their billed charges, notwithstanding\nhow excessive the charges might be.\n\nHospital charges for emergency services must be subject to dispute\nresolution to ensure that hospitals are not able to take advantage of\nsection 3241 of the insurance law by charging exorbitant fees which\nultimately drive up the cost of health insurance.\n\n \nLEGISLATIVE HISTORY:\n\n2017-18: S4241c/A.7611c Passed Assembly - died in Senate Rules S.7868 of\n2016.\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3171",
+    "publishDate": "2019-02-04",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the financial services law, in relation to establishing\nprotections from excess hospital charges",
+    "basePrintNo": "S3171",
+    "basePrintNoStr": "S3171-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "James L. Seward",
+       "imgName": "371_james_l._seward.jpg",
+       "incumbent": false,
+       "memberId": 371,
+       "sessionMemberId": 1279,
+       "sessionYear": 2019,
+       "shortName": "SEWARD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1381,
+       "sessionYear": 2019,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "George Amedore",
+       "imgName": "892_george_amedore.jpg",
+       "incumbent": false,
+       "memberId": 892,
+       "sessionMemberId": 1369,
+       "sessionYear": 2019,
+       "shortName": "AMEDORE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1289,
+       "sessionYear": 2019,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1220,
+       "sessionYear": 2019,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Daphne Jordan",
+       "imgName": "1055_Daphne_Jordan.jpg",
+       "incumbent": false,
+       "memberId": 1235,
+       "sessionMemberId": 1233,
+       "sessionYear": 2019,
+       "shortName": "JORDAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 20
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§605, 608 & 604, Fin Serv L",
+    "lawSection": "Financial Services Law",
+    "memo": "\n \nBILL NUMBER: S3171A\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:  An act to amend the financial services law, in\nrelation to establishing protections from excess hospital charges\n\n \nPURPOSE:\n\nThis bill subjects hospital charges for emergency services to the inde-\npendent dispute resolution process established to protect against exces-\nsive emergency charges.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends section 605 of the financial services law by including\nhospital charges, including bills for inpatient services which follow an\nemergency room visit, in the emergency charges that are subject to the\nindependent dispute resolution process. It provides that if a health\ninsurer submits a dispute regarding the hospital's charge to dispute\nresolution, the health insurer shall pay a reasonable amount for the\nservices directly to the hospital. It also exempts hospitals that had at\nleast sixty percent of inpatient discharges annually which consisted of\nmedicaid, uninsured and dual eligible individuals as determined by the\ndepartment of health in its determination of safety net hospitals.\n\nSection 2 amends section 608 of the financial services law by including\nhospitals in the payment and settlement provisions with respect to the\ncost of the independent dispute resolution process.\n\nSection 3 amends section 604 of the financial services law by including\nhospitals in the standard of review with respect to the criteria for\ndetermining a reasonable fee.\n\nSection 4 sets the effective date.\n\n \nJUSTIFICATION:\n\nSection 3241 of the insurance law requires health insurers to ensure\nthat enrollees incur no greater out-of-pocket costs than they would have\nincurred with a participating provider when emergency services are\nreceived from a non-participating provider. Currently, section 605 of\nthe financial services law establishes an independent dispute resolution\nprocess for physician emergency charges.\n\nThe charges billed by hospitals for emergency services when they are\nout-of-network are often excessive. This is particularly true given\nsection 3241 of the insurance law cited above, which essentially\nrequires health insurers to pay charges to non-participating hospitals\nfor emergency services to ensure that members are not balance billed.\nHospitals are assured of receiving their billed charges, notwithstanding\nhow excessive the charges might be.\n\nHospital charges for emergency services must be subject to dispute\nresolution to ensure that hospitals are not able to take advantage of\nsection 3241 of the insurance law by charging exorbitant fees which\nultimately drive up the cost of health insurance.\n\n \nLEGISLATIVE HISTORY:\n\n2019-2020: S.3171A/A.264A Cahill\n2017-2018: S4241C Seward/ A7611 -Cahill - Passed Assembly 06/04/18\namended on third reading 7611c\n2015-2016: S.7868 Seward/A.10470 - Passed Assembly\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3171A",
+    "publishDate": "2019-05-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A264",
+       "basePrintNoStr": "A264-2019",
+       "printNo": "A264B",
+       "session": 2019,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3171",
+ "basePrintNoStr": "S3171-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 58,
+    "year": 2019
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 21,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-06-18",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-06-18",
+    "billCalNo": 1598,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2019-02-04T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2019-05-14T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-06-18T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4241",
+    "basePrintNoStr": "S4241-2017",
+    "printNo": "S4241",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S7868",
+    "basePrintNoStr": "S7868-2015",
+    "printNo": "S7868",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S3171A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-04T13:49:44.852715",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-05-14T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2019-02-04T13:49:44.852715",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 28,
+   "fullName": "Liz Krueger",
+   "imgName": "401_liz_krueger.jpg",
+   "incumbent": true,
+   "memberId": 401,
+   "sessionMemberId": 1206,
+   "sessionYear": 2019,
+   "shortName": "KRUEGER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-06-18",
+  "billCalNo": 1598,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A264",
+  "basePrintNoStr": "A264-2019",
+  "session": 2019
+ },
+ "summary": "Establishes patient protections from excessive hospital emergency charges; includes hospital charges, including hospital charges for inpatient services which follow an emergency room visit.",
+ "title": "Relates to establishing protections from excessive hospital emergency charges",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3171",
+     "basePrintNoStr": "S3171-2019",
+     "printNo": "S3171A",
+     "session": 2019,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 1283,
+         "sessionYear": 2019,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1203,
+         "sessionYear": 2019,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1281,
+         "sessionYear": 2019,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1206,
+         "sessionYear": 2019,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1288,
+         "sessionYear": 2019,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1223,
+         "sessionYear": 2019,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1219,
+         "sessionYear": 2019,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 1211,
+         "sessionYear": 2019,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1282,
+         "sessionYear": 2019,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 19
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2019-06-18",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

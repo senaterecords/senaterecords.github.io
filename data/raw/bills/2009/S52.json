@@ -1,0 +1,220 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S52",
+     "basePrintNoStr": "S52-2009",
+     "printNo": "S52",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S52",
+     "basePrintNoStr": "S52-2009",
+     "printNo": "S52",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-05",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S52",
+     "basePrintNoStr": "S52-2009",
+     "printNo": "S52",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-05",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.92"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S52",
+     "basePrintNoStr": "S52-2009",
+     "printNo": "S52",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-05",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A152"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S52",
+    "basePrintNoStr": "S52-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Budget Bills",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S52",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A152",
+       "basePrintNoStr": "A152-2009",
+       "printNo": "A152",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S52",
+ "basePrintNoStr": "S52-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-05",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-03-05",
+    "billCalNo": 92,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-01-07T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-03-05T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S52",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": true,
+  "member": null,
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-03-05",
+  "billCalNo": 92,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A152",
+  "basePrintNoStr": "A152-2009",
+  "session": 2009
+ },
+ "summary": "Makes appropriations for the legal requirements of state debt service and lease purchase payments and other special contractual obligations.",
+ "title": "Makes appropriations for the legal requirements of the state debt service and lease purchase payments and other special contractual obligations",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

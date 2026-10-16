@@ -1,0 +1,1742 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-18",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.575"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-24",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-25",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-03",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 7740A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-15",
+    "sequenceNo": 6,
+    "text": "PASSED SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-15",
+    "sequenceNo": 7,
+    "text": "DELIVERED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-06-15",
+    "sequenceNo": 8,
+    "text": "REFERRED TO JUDICIARY"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the domestic relations law, in relation to interim spousal support and post-marital income obligations; and to repeal certain provisions of such law relating thereto",
+    "basePrintNo": "S7740",
+    "basePrintNoStr": "S7740-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 4,
+       "sessionYear": 2009,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 1,
+       "sessionYear": 2009,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Eric T. Schneiderman",
+       "imgName": "Eric T. Schneiderman.jpg",
+       "incumbent": false,
+       "memberId": 444,
+       "sessionMemberId": 17,
+       "sessionYear": 2009,
+       "shortName": "SCHNEIDERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 42,
+       "sessionYear": 2009,
+       "shortName": "SQUADRON"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld & add Part B sub 6 §236, Dom Rel L",
+    "lawSection": "Domestic Relations Law",
+    "memo": " BILL NUMBER:  S7740\n\n TITLE OF BILL :\nAn act to amend the domestic relations law, in relation to interim\nspousal support and post-marital income obligations; and to repeal\ncertain provisions of such law relating thereto\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nTo provide predictability and consistency with regard to calculating\ninterim maintenance (spousal support) and post-marital income\nobligations.\n\n JUSTIFICATION :\nA wards of maintenance under existing law differ widely for couples\nthat appear remarkably similar with regard to income and length of the\nmarriage. This lack of consistency and predictability undermines\nconfidence in the judicial system and acts as an impediment to\nsettling cases and encourages costly litigation. By establishing\nguidelines for both the amount of maintenance to be awarded and the\nduration of the award, post-marital income guidelines provide the\nconsistency and predictability for spousal support that the Child\nSupport Standards Act has provided for child support.\n\nMost families do not have substantial assets to divide in equitable\ndistribution-the greatest asset of the marriage is often the income of\nthe more monied spouse. The less monied spouse often invests time and\nenergy supporting his or her spouse's career, raising the children,\nand taking care of the home. Current law fails to provide adequate\nguidance as to how to divide the asset of future earned income in an\nequitable manner.\n\nPost-marital income awards are limited to instances where the less\nmonied spouse's (the payee's) income is at most two thirds of the more\nmonied spouse's (the payor's) income.  For example, if the payor's\nannual income is $90,000 a year, in order for the guidelines to result\nin an award, the payee's annual income would need to be $60,000 or\nless.\n\nThe amount of post-marital income is the lesser figure determined by\ncomparing two equations of the payor and payee's income. For both of\nthese calculations, the payor's income is up to and including\n$500,000. Any income of the payor's that exceeds $500,000 is not a\npart of these calculations. The PMI award is determined as follows:\n\n1.30% of the payor's income minus 20% of the payee's income, or\n\n2.40% of the combined income of the two spouses (with the $500,000 cap\nas the maximum for the payor's income). The payee's income is then\nsubtracted from this figure.\n\nIf the payor has an income exceeding $500,000, the judge may choose to\nadjust the award but is not required to apply any formula to the\nincome above $500,000.\n\nTo determine the duration of the award, the court applies a percentage\nthat increases with the length of the marriage to the duration of the\nmarriage.\n\nAs with current law, the PMI guidelines permit either party to apply\nto the court to annul or modify any prior maintenance awards upon a\nshowing of the recipient's inability to be self-supporting or a\nsubstantial change in circumstance including financial hardship.\n\nThe new post-marital income guidelines present a clear formula for the\ncourt to use in making awards; while maintaining judicial discretion\nto deviate from the guidelines as long as the amount of the unadjusted\npost-marital income obligation, the factors considered; and the\nreasons that the court adjusted the post-marital income obligation are\nset forth in a written order.\n\nNew York needs a new approach consistent with Chief Judge Judith\nKaye's call in her 2006 State of the Judiciary address for a \"cultural\nrevolution\" to reduce drastically the time and the costs, both\nfinancial and emotional, of matrimonial cases. The post-marital income\nguidelines will provide more equitable outcomes in maintenance\nproceedings and streamline divorce proceedings by enabling spouses to\nsettle more easily and avoid debilitating litigation.\n\n FISCAL IMPLICATION :\nNone to the state.\n\n EFFECTIVE DATE :\nThis act shall take effect on the sixtieth day after it shall have\nbecome a law and shall apply to any action or proceeding commenced on\nor after such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7740",
+    "publishDate": "2010-05-05",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A10984",
+       "basePrintNoStr": "A10984-2009",
+       "printNo": "A10984",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the domestic relations law, in relation to interim spousal support and post-marital income obligations; and to repeal certain provisions of such law relating thereto",
+    "basePrintNo": "S7740",
+    "basePrintNoStr": "S7740-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 14,
+       "sessionYear": 2009,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 4,
+       "sessionYear": 2009,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 1,
+       "sessionYear": 2009,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Eric T. Schneiderman",
+       "imgName": "Eric T. Schneiderman.jpg",
+       "incumbent": false,
+       "memberId": 444,
+       "sessionMemberId": 17,
+       "sessionYear": 2009,
+       "shortName": "SCHNEIDERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Malcolm A. Smith",
+       "imgName": "Malcolm A. Smith.jpg",
+       "incumbent": false,
+       "memberId": 405,
+       "sessionMemberId": 35,
+       "sessionYear": 2009,
+       "shortName": "SMITH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 42,
+       "sessionYear": 2009,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 30,
+       "sessionYear": 2009,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 35,
+       "fullName": "Andrea Stewart-Cousins",
+       "imgName": "396_andrea_stewart-cousins.jpg",
+       "incumbent": true,
+       "memberId": 396,
+       "sessionMemberId": 27,
+       "sessionYear": 2009,
+       "shortName": "STEWART-COUSINS"
+      }
+     ],
+     "size": 14
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld & add Part B sub 6 §236, Dom Rel L",
+    "lawSection": "Domestic Relations Law",
+    "memo": "BILL NUMBER:S7740A              REVISED 06/04/10\n\nTITLE OF BILL:\nAn act\nto amend the domestic relations law, in relation to interim\nspousal support and post-marital income obligations; and to repeal\ncertain provisions of such law relating thereto\n\nPURPOSE OR GENERAL IDEA OF BILL:\nTo provide\npredictability and\nconsistency with regard to calculating interim spousal support\n(formerly \"temporary maintenance\") and post-marital income\nobligations (formerly \"maintenance\").\n\nJUSTIFICATION:\nUnder existing law, awards of maintenance differ widely for couples\nwith similar incomes and similar length of marriage. This lack of\nconsistency and predictability in maintenance awards undermines\nconfidence in the judicial system and encourages costly litigation by\nimpeding the settling of cases. By establishing guidelines for the\namount and duration of the award, post-marital income guidelines\nprovide the consistency and predictability for spousal support that\nthe Child Support Standards Act has provided for child support.\n\nMost families do not have substantial assets to divide upon the\ndissolution of a marriage-the greatest asset of the marriage is\nfrequently the income of the more-monied spouse. The less-monied\nspouse often invests time and energy supporting his or her spouse's\ncareer, raising the children, and taking care of the home. Current\nlaw fails to provide adequate guidance as to how to divide the asset\nof future earned income in an equitable manner.\n\nPost-marital income guidelines only result in an award when there is\nan income gap between the two parties such that the less-monied\nspouse's income is less than two thirds of the more-monied spouse's\nincome. For instance, if the payor's annual income is $90,000 a year,\nthe guidelines will only result in an award if the payee's annual\nincome is less than $60,000.\n\nThe guidelines provide protections for payors at both ends of the\nincome spectrum. The formula is only applied to the payor's income up\nto $500,000. The guidelines also\ninclude a rebuttable presumption that individuals whose annual income\nis less than the self-support reserve (135% of the Federal poverty\nGuidelines) do not have the financial means to make a maintenance\npayment.\n\nGuideline Duration:\nTo determine the guideline amount, the court must compare 2\ncalculations of the spouses' annual incomes. For both of these\n\ncalculations, any income of the payor's that exceeds $500,000 is not\nincluded.\n\no 30% of the payor's income minus 20% of the payee's income, OR\n\no 40% of the combined income of the two spouses. The payee's income is\nthen subtracted from this figure.\n\nThe court must select the lesser of these two figures as the guideline\namount. If the payor has an annual income exceeding $500,000, the\njudge may adjust the amount.\n\nGuideline Duration:\nTo determine the guideline duration, the court applies a percentage to\nthe length of the marriage. For every additional 3 - 5 years of the\nmarriage, the duration of the award increases by 10%.\n\no If the marriage lasts 0 to 5 years, the length of award is 30% of\nthe marriage.\no If the marriage lasts 20 to 25 years, the length of award is 100% of\nthe marriage.\no If the marriage lasts more than 25 years, the length of award is\npermanent. Under current law, the court has discretion to award\nmaintenance for life.\n\nThe guidelines maintain judicial discretion. If the court finds the\npresumptive award (the guideline amount or guideline duration) to be\n\"unjust or improper,\" the court has discretion to apply the deviation\nfactors listed and \"any other factor\" the court chooses to adjust the\npresumed award.\n\nAs with current law, the guidelines permit either party to apply to\nthe court to annul or modify any prior maintenance awards upon a\nshowing of a substantial change in circumstances, including financial\nhardship for the payor or payee.\n\nNew York needs a new approach consistent with Chief Judge Judith\nKaye's call in her 2006 State of the Judiciary address for a\n\"cultural revolution\" to reduce the time and the costs, both financial\nand emotional, of matrimonial cases. More information regarding the\nprobable amount and duration of post-marital income awards will\nencourage spouses to settle alleviating some of the burden on\noverworked courts and helping couples avoid any litigation.\n\nFISCAL IMPLICATION:\nNone to the state.\n\nEFFECTIVE DATE:\nThis act shall take effect on the sixtieth day after\nit shall have become a law and shall apply to matrimonial actions\ncommenced on or after such effective date.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7740A",
+    "publishDate": "2010-06-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7740",
+ "basePrintNoStr": "S7740-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 50,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2010
+   }
+  ],
+  "size": 14
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-05-05",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-03",
+    "billCalNo": 575,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   },
+   {
+    "actionDate": "2010-06-15",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Passed Senate",
+    "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2010-06-15",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 4
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Judiciary",
+    "referenceDate": "2010-06-15T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2010-05-05T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7740A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-05-05T16:06:15",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2010-06-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2010-05-05T16:06:15",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 36,
+   "fullName": "Ruth Hassell-Thompson",
+   "imgName": "380_ruth_hassell-thompson.jpg",
+   "incumbent": false,
+   "memberId": 380,
+   "sessionMemberId": 12,
+   "sessionYear": 2009,
+   "shortName": "HASSELL-THOMPSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-15",
+  "billCalNo": null,
+  "committeeName": "Judiciary",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to interim spousal support and post-marital income obligations.",
+ "title": "Relates to interim spousal support and post-marital income obligations; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Eric Adams",
+         "imgName": "Eric Adams.jpg",
+         "incumbent": false,
+         "memberId": 382,
+         "sessionMemberId": 14,
+         "sessionYear": 2009,
+         "shortName": "ADAMS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 4,
+         "sessionYear": 2009,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 51,
+         "sessionYear": 2009,
+         "shortName": "DIAZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 56,
+         "sessionYear": 2009,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Pedro Espada Jr.",
+         "imgName": "Pedro Espada Jr.jpg",
+         "incumbent": false,
+         "memberId": 442,
+         "sessionMemberId": 9,
+         "sessionYear": 2009,
+         "shortName": "ESPADA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 12,
+         "sessionYear": 2009,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 21,
+         "sessionYear": 2009,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "George Onorato",
+         "imgName": "George Onorato.jpg",
+         "incumbent": false,
+         "memberId": 443,
+         "sessionMemberId": 15,
+         "sessionYear": 2009,
+         "shortName": "ONORATO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 7,
+         "sessionYear": 2009,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "John L. Sampson",
+         "imgName": "369_john_l._sampson.jpg",
+         "incumbent": false,
+         "memberId": 369,
+         "sessionMemberId": 1,
+         "sessionYear": 2009,
+         "shortName": "SAMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 33,
+         "sessionYear": 2009,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Eric T. Schneiderman",
+         "imgName": "Eric T. Schneiderman.jpg",
+         "incumbent": false,
+         "memberId": 444,
+         "sessionMemberId": 17,
+         "sessionYear": 2009,
+         "shortName": "SCHNEIDERMAN"
+        }
+       ],
+       "size": 12
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 39,
+         "sessionYear": 2009,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 49,
+         "sessionYear": 2009,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Vincent L. Leibell",
+         "imgName": "Vincent L. Leibell.jpg",
+         "incumbent": false,
+         "memberId": 449,
+         "sessionMemberId": 38,
+         "sessionYear": 2009,
+         "shortName": "LEIBELL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 32,
+         "sessionYear": 2009,
+         "shortName": "SALAND"
+        }
+       ],
+       "size": 5
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 8,
+         "sessionYear": 2009,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 41,
+         "sessionYear": 2009,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 25,
+         "sessionYear": 2009,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 36,
+         "sessionYear": 2009,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Dale M. Volker",
+         "imgName": "Dale M. Volker.jpg",
+         "incumbent": false,
+         "memberId": 452,
+         "sessionMemberId": 57,
+         "sessionYear": 2009,
+         "shortName": "VOLKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "George Winner",
+         "imgName": "George Winner.jpg",
+         "incumbent": false,
+         "memberId": 450,
+         "sessionMemberId": 45,
+         "sessionYear": 2009,
+         "shortName": "WINNER"
+        }
+       ],
+       "size": 6
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-05-18",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7740",
+     "basePrintNoStr": "S7740-2009",
+     "printNo": "S7740A",
+     "session": 2009,
+     "version": "A"
+    },
+    "committee": null,
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Eric Adams",
+         "imgName": "Eric Adams.jpg",
+         "incumbent": false,
+         "memberId": 382,
+         "sessionMemberId": 14,
+         "sessionYear": 2009,
+         "shortName": "ADAMS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 16,
+         "sessionYear": 2009,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "James S. Alesi",
+         "imgName": "James S. Alesi.jpg",
+         "incumbent": false,
+         "memberId": 392,
+         "sessionMemberId": 23,
+         "sessionYear": 2009,
+         "shortName": "ALESI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Darrel J. Aubertine",
+         "imgName": "Darrel J. Aubertine.jpg",
+         "incumbent": false,
+         "memberId": 451,
+         "sessionMemberId": 53,
+         "sessionYear": 2009,
+         "shortName": "AUBERTINE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 4,
+         "sessionYear": 2009,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 8,
+         "sessionYear": 2009,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 51,
+         "sessionYear": 2009,
+         "shortName": "DIAZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 56,
+         "sessionYear": 2009,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 18,
+         "sessionYear": 2009,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Pedro Espada Jr.",
+         "imgName": "Pedro Espada Jr.jpg",
+         "incumbent": false,
+         "memberId": 442,
+         "sessionMemberId": 9,
+         "sessionYear": 2009,
+         "shortName": "ESPADA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 48,
+         "sessionYear": 2009,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 29,
+         "sessionYear": 2009,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Brian X. Foley",
+         "imgName": "Brian X. Foley.jpg",
+         "incumbent": false,
+         "memberId": 448,
+         "sessionMemberId": 34,
+         "sessionYear": 2009,
+         "shortName": "FOLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 55,
+         "sessionYear": 2009,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 52,
+         "sessionYear": 2009,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 24,
+         "sessionYear": 2009,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 54,
+         "sessionYear": 2009,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 12,
+         "sessionYear": 2009,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "Shirley L. Huntley",
+         "imgName": "Shirley L. Huntley.jpg",
+         "incumbent": false,
+         "memberId": 378,
+         "sessionMemberId": 10,
+         "sessionYear": 2009,
+         "shortName": "HUNTLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Craig M. Johnson",
+         "imgName": "Craig M. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 446,
+         "sessionMemberId": 62,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 61,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON O"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 21,
+         "sessionYear": 2009,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 31,
+         "sessionYear": 2009,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Carl Kruger",
+         "imgName": "Carl Kruger.jpg",
+         "incumbent": false,
+         "memberId": 420,
+         "sessionMemberId": 50,
+         "sessionYear": 2009,
+         "shortName": "KRUGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 39,
+         "sessionYear": 2009,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 6,
+         "sessionYear": 2009,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 49,
+         "sessionYear": 2009,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Vincent L. Leibell",
+         "imgName": "Vincent L. Leibell.jpg",
+         "incumbent": false,
+         "memberId": 449,
+         "sessionMemberId": 38,
+         "sessionYear": 2009,
+         "shortName": "LEIBELL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 40,
+         "sessionYear": 2009,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 11,
+         "sessionYear": 2009,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 37,
+         "sessionYear": 2009,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 41,
+         "sessionYear": 2009,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Roy J. McDonald",
+         "imgName": "Roy J. McDonald.jpg",
+         "incumbent": false,
+         "memberId": 389,
+         "sessionMemberId": 20,
+         "sessionYear": 2009,
+         "shortName": "MCDONALD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 13,
+         "sessionYear": 2009,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 25,
+         "sessionYear": 2009,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "George Onorato",
+         "imgName": "George Onorato.jpg",
+         "incumbent": false,
+         "memberId": 443,
+         "sessionMemberId": 15,
+         "sessionYear": 2009,
+         "shortName": "ONORATO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 19,
+         "sessionYear": 2009,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Frank Padavan",
+         "imgName": "Frank Padavan.jpg",
+         "incumbent": false,
+         "memberId": 445,
+         "sessionMemberId": 22,
+         "sessionYear": 2009,
+         "shortName": "PADAVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 46,
+         "sessionYear": 2009,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 58,
+         "sessionYear": 2009,
+         "shortName": "PERALTA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 7,
+         "sessionYear": 2009,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 36,
+         "sessionYear": 2009,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 47,
+         "sessionYear": 2009,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 32,
+         "sessionYear": 2009,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "John L. Sampson",
+         "imgName": "369_john_l._sampson.jpg",
+         "incumbent": false,
+         "memberId": 369,
+         "sessionMemberId": 1,
+         "sessionYear": 2009,
+         "shortName": "SAMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 33,
+         "sessionYear": 2009,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Eric T. Schneiderman",
+         "imgName": "Eric T. Schneiderman.jpg",
+         "incumbent": false,
+         "memberId": 444,
+         "sessionMemberId": 17,
+         "sessionYear": 2009,
+         "shortName": "SCHNEIDERMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 5,
+         "sessionYear": 2009,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 3,
+         "sessionYear": 2009,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 60,
+         "sessionYear": 2009,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 35,
+         "sessionYear": 2009,
+         "shortName": "SMITH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Daniel L. Squadron",
+         "imgName": "412_daniel_l._squadron.jpg",
+         "incumbent": false,
+         "memberId": 412,
+         "sessionMemberId": 42,
+         "sessionYear": 2009,
+         "shortName": "SQUADRON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "William T. Stachowski",
+         "imgName": "William T. Stachowski.jpg",
+         "incumbent": false,
+         "memberId": 453,
+         "sessionMemberId": 59,
+         "sessionYear": 2009,
+         "shortName": "STACHOWSKI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 30,
+         "sessionYear": 2009,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Antoine M. Thompson",
+         "imgName": "Antoine M. Thompson.jpg",
+         "incumbent": false,
+         "memberId": 447,
+         "sessionMemberId": 28,
+         "sessionYear": 2009,
+         "shortName": "THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Dale M. Volker",
+         "imgName": "Dale M. Volker.jpg",
+         "incumbent": false,
+         "memberId": 452,
+         "sessionMemberId": 57,
+         "sessionYear": 2009,
+         "shortName": "VOLKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "George Winner",
+         "imgName": "George Winner.jpg",
+         "incumbent": false,
+         "memberId": 450,
+         "sessionMemberId": 45,
+         "sessionYear": 2009,
+         "shortName": "WINNER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 44,
+         "sessionYear": 2009,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 61
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Thomas P. Morahan",
+         "imgName": "Thomas P. Morahan.jpg",
+         "incumbent": false,
+         "memberId": 441,
+         "sessionMemberId": 2,
+         "sessionYear": 2009,
+         "shortName": "MORAHAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2010-06-15",
+    "voteType": "FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "year": 0
+}

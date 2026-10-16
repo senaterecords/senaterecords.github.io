@@ -1,0 +1,217 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5304",
+     "basePrintNoStr": "S5304-2019",
+     "printNo": "S5304",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-24",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5304",
+     "basePrintNoStr": "S5304-2019",
+     "printNo": "S5304",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-29",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the state law, in relation to naming the wood frog the\nofficial amphibian of the state of New York",
+    "basePrintNo": "S5304",
+    "basePrintNoStr": "S5304-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §92, State L",
+    "lawSection": "State Law",
+    "memo": "\n \nBILL NUMBER: S5304\n\nSPONSOR: ANTONACCI\n \nTITLE OF BILL:  An act to amend the state law, in relation to naming\nthe wood frog the official amphibian of the state of New York\n\n \nPURPOSE:\n\nThis will name the wood frog as the official state amphibian.\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill will amend the state law by adding a new section 92 to name\nthe wood frog (lithobates sylvaticus) the official amphibian of the\nstate of New York.\n\n \nJUSTIFICATION:\n\nNew York identifies several species as symbols of the state, but it does\nnot yet have a state amphibian. A fun fact from the National Wildlife\nFederation states that the wood frog is the species that best identifies\nits family, and when tadpoles are born the siblings seek each other out\nand stay together.\n\n \nLEGISLATIVE HISTORY:\n\n2015-16 A.10299 referred to governmental operations\n2017-18 A.3405 referred to governmental operations\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5304",
+    "publishDate": "2019-04-24",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S5399",
+       "basePrintNoStr": "S5399-2019",
+       "printNo": "S5399",
+       "session": 2019,
+       "version": ""
+      },
+      {
+       "basePrintNo": "A7303",
+       "basePrintNoStr": "A7303-2019",
+       "printNo": "A7303",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 2
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5304",
+ "basePrintNoStr": "S5304-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-04-24",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2019-04-24T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S3502",
+    "basePrintNoStr": "S3502-2017",
+    "printNo": "S3502",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S4103",
+    "basePrintNoStr": "S4103-2015",
+    "printNo": "S4103A",
+    "session": 2015,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S6206",
+    "basePrintNoStr": "S6206-2013",
+    "printNo": "S6206",
+    "session": 2013,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S5304",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-04-24T11:41:14.455759",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-04-24T11:41:14.455759",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 50,
+   "fullName": "Bob Antonacci",
+   "imgName": "no_image.jpg",
+   "incumbent": false,
+   "memberId": 1236,
+   "sessionMemberId": 1234,
+   "sessionYear": 2019,
+   "shortName": "ANTONACCI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-04-29",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Names the wood frog the official amphibian of the state of New York.",
+ "title": "Names the wood frog the official amphibian of the state of New York",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

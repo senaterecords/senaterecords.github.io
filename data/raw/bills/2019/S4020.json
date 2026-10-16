@@ -1,0 +1,538 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4020",
+     "basePrintNoStr": "S4020-2019",
+     "printNo": "S4020",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CONSUMER PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4020",
+     "basePrintNoStr": "S4020-2019",
+     "printNo": "S4020",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-30",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.549"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4020",
+     "basePrintNoStr": "S4020-2019",
+     "printNo": "S4020",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-01",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4020",
+     "basePrintNoStr": "S4020-2019",
+     "printNo": "S4020",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-06",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4020",
+     "basePrintNoStr": "S4020-2019",
+     "printNo": "S4020A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-14",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING (T) 4020A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4020",
+     "basePrintNoStr": "S4020-2019",
+     "printNo": "S4020A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-20",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A117A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law, in relation to prohibiting\ntelemarketers from placing unsolicited telemarketing sales calls during a\nstate of emergency or disaster emergency",
+    "basePrintNo": "S4020",
+    "basePrintNoStr": "S4020-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§399-z & 399-pp, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": "\n \nBILL NUMBER: S4020\n\nSPONSOR: THOMAS\n \nTITLE OF BILL:\n\nAn act to amend the general business law, in relation to prohibiting\ntelemarketers from placing unsolicited telemarketing sales calls during\na state of emergency or disaster emergency\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo make unlawful for any telemarketer to knowingly make an unsolicited\ntelemarketing sales call during a declared state of emergency\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends section 399-z of the General Business Law by adding a\nnew subdivision 5-a that makes it unlawful for a telemarketer to make an\nunsolicited sales call during a declared state of emergency.\n\nSection 2 amends subdivision 7 of section 399-p of the General Business\nLaw to reiterate the prohibition in section one.\n\nSection 3 sets the effective date.\n\n \nJUSTIFICATION:\n\nDuring periods of states of emergency caused by natural or other disas-\nters, it is important for residents to have open lines of communication\nto the outside world. Especially in situations where a resident has no\npower, these lines of communication should remain open so that the resi-\ndent can receive emergency notifications as well as calls from family.\nRestricting telemarketing sales calls during these times will ensure\nthat someone is not bothered by such calls thereby keeping them alert\nand focused on the immediate situation and keeping the lines of communi-\ncation open. It should be noted that this legislation only affects tele-\nmarketing sales calls, not automated calls from utility companies\nproviding information rather than sales pitches.\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nIMPACT ON REGULATION OF BUSINESSES AND INDIVIDUALS:\n\nMinimal impact on businesses engaged in telemarketing.\n\n \nIMPACT ON FINES, TERMS OF IMPRISONMENT AND OTHER PENAL SANCTIONS:\n\nNone.\n\n \nLEGISLATIVE HISTORY:\n\n2018: A.11087 (Buchwald) - Referred to Consumer Affairs and Protection\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4020",
+    "publishDate": "2019-02-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the general business law, in relation to prohibiting\ntelemarketers from knowingly placing unsolicited telemarketing sales calls\nduring a state of emergency or disaster emergency",
+    "basePrintNo": "S4020",
+    "basePrintNoStr": "S4020-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§399-z & 399-pp, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": "\n \nBILL NUMBER: S4020A\n\nSPONSOR: THOMAS\n \nTITLE OF BILL:\n\nAn act to amend the general business law, in relation to prohibiting\ntelemarketers from knowingly placing unsolicited telemarketing sales\ncalls during a state of emergency or disaster emergency\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo make unlawful for any telemarketer to knowingly make an unsolicited\ntelemarketing sales call during a declared state of emergency\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends section 399-z of the General Business Law by adding a\nnew subdivision 5-a that makes it unlawful for a telemarketer to know-\ningly make an unsolicited sales call during a declared state of emergen-\ncy.\n\nSection 2 amends subdivision 7 of section 399-p of the General Business\nLaw to reiterate the prohibition in section one.\n\nSection 3 provides the effective date.\n\n \nJUSTIFICATION:\n\nDuring periods of states of emergency caused by natural or other disas-\nters, it is important for residents to have open lines of communication\nto the outside world. Especially in situations where a resident has no\npower, these lines of communication should remain open so that the resi-\ndent can receive emergency notifications as well as calls from family.\nRestricting telemarketing sales calls during these times will ensure\nthat someone is not bothered by such calls thereby keeping them alert\nand focused on the immediate situation and keeping the lines of communi-\ncation open. It should be noted that this legislation only affects tele-\nmarketing sales calls, not automated calls from utility companies\nproviding information rather than sales pitches.\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nIMPACT ON REGULATION OF BUSINESSES AND INDIVIDUALS:\n\nMinimal impact on businesses engaged in telemarketing.\n\n \nIMPACT ON FINES, TERMS OF IMPRISONMENT AND OTHER PENAL SANCTIONS:\n\nNone.\n\n \nLEGISLATIVE HISTORY:\n\n2018: A.11087 (Buchwald) - Referred to Consumer Affairs and Protection\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4020A",
+    "publishDate": "2019-06-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A117",
+       "basePrintNoStr": "A117-2019",
+       "printNo": "A117A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4020",
+ "basePrintNoStr": "S4020-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 37,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2019
+   }
+  ],
+  "size": 24
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Consumer Protection"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-02-25",
+    "billCalNo": null,
+    "committeeName": "Consumer Protection",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-06-14",
+    "billCalNo": 549,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2019-02-25T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A11087",
+    "basePrintNoStr": "A11087-2017",
+    "printNo": "A11087",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S4020A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-25T14:07:45.894110",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-06-14T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2019-02-25T14:07:45.89411",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 6,
+   "fullName": "Kevin Thomas",
+   "imgName": "1043_Kevin_Thomas.jpg",
+   "incumbent": false,
+   "memberId": 1223,
+   "sessionMemberId": 1221,
+   "sessionYear": 2019,
+   "shortName": "THOMAS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-06-14",
+  "billCalNo": 549,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A117",
+  "basePrintNoStr": "A117-2019",
+  "session": 2019
+ },
+ "summary": "Prohibits telemarketers from knowingly placing unsolicited telemarketing sales calls during a state of emergency or disaster emergency.",
+ "title": "Prohibits telemarketers from knowingly placing unsolicited telemarketing sales calls during a state of emergency or disaster emergency",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4020",
+     "basePrintNoStr": "S4020-2019",
+     "printNo": "S4020",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Consumer Protection"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Chris Jacobs",
+         "imgName": "921_Chris_Jacobs.jpg",
+         "incumbent": false,
+         "memberId": 1099,
+         "sessionMemberId": 1385,
+         "sessionYear": 2019,
+         "shortName": "JACOBS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1407,
+         "sessionYear": 2019,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1226,
+         "sessionYear": 2019,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "Jessica Ramos",
+         "imgName": "1046_Jessica_Ramos.jpg",
+         "incumbent": true,
+         "memberId": 1226,
+         "sessionMemberId": 1224,
+         "sessionYear": 2019,
+         "shortName": "RAMOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 1386,
+         "sessionYear": 2019,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1221,
+         "sessionYear": 2019,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-04-30",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

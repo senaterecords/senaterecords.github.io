@@ -1,0 +1,772 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1314",
+     "basePrintNoStr": "S1314-2017",
+     "printNo": "S1314",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1314",
+     "basePrintNoStr": "S1314-2017",
+     "printNo": "S1314",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-03-20",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.430"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1314",
+     "basePrintNoStr": "S1314-2017",
+     "printNo": "S1314",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-03-21",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1314",
+     "basePrintNoStr": "S1314-2017",
+     "printNo": "S1314",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-03-22",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1314",
+     "basePrintNoStr": "S1314-2017",
+     "printNo": "S1314A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-17",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING (T) 1314A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1314",
+     "basePrintNoStr": "S1314-2017",
+     "printNo": "S1314A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-19",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A117A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law, in relation to continuing education for agents, brokers, adjusters, consultants and intermediaries",
+    "basePrintNo": "S1314",
+    "basePrintNoStr": "S1314-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2132, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": " BILL NUMBER:  S1314\n\n TITLE OF BILL :\n\nAn act to amend the insurance law, in relation to continuing education\nfor agents, brokers, adjusters, consultants and intermediaries\n\n PURPOSE :\n\nTo eliminate the need for insurance agents and brokers to take\nduplicate continuing education courses for both their individual and\nagency insurance licenses.\n\n SUMMARY OF PROVISIONS :\n\nSection 1 of the bill amends § 2132(b) of the Insurance Law to add a\nnew section 3 that allows for renewal of the business-entity license\nwithout evidence of continuing-education credits if all entity\nsublicensees have a valid and appropriate insurance license as of the\nentity license renewal date.\n\n JUSTIFICATION :\n\nSection 2132 of the New York State Insurance Law provides that a\nlicensee must complete 15 credit hours of continuing education during\neach two-year licensing period. This applies to agent and broker\nindividual licenses and to their business-entity licenses. The\ntwo-year period preceding the renewal of a business-entity license may\nnot be the same (and generally is not the same) as the period\npreceding the renewal of the individual licenses of the sublicensees.\nAs a result, the education period to comply with both the individual\nand entity licenses can become substantially compressed to fit in a\nperiod that is within two years of the later-dated license renewal.\nFor some insurance agents and brokers this can mean as little as three\nmonths to complete their CE courses that apply to their multiple\nlicenses.\n\nThe move from set expiration dates to birthdate license renewals for\nindividual licenses dramatically increased the difficulty of\nnegotiating and identifying appropriate bridge courses that would\nsatisfy the 15-hour CE requirements for insurance agents who hold\nmultiple individual and business-entity sublicenses.\n\nThis proposal would amend the continuing-education requirements to\nallow for renewal of the business-entity license without evidence of\ncontinuing-education credits if all entity sublicensees have a valid\nand appropriate insurance license as of the entity license renewal\ndate. In return, it would be incumbent upon the business entity to\nassure that all sublicensees maintain valid licenses and are up to\ndate with their CE.\n\n LEGISLATIVE HISTORY :\n\nS.7940 of 2016.\n\n FISCAL IMPLICATIONS :\n\nThis proposal could result in increased revenue for the state through\nlicensing fees by removing the financial incentive for those with\nmultiple licenses to forego their individual insurance agent and\nbroker licenses.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1314",
+    "publishDate": "2017-01-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A117",
+       "basePrintNoStr": "A117-2017",
+       "printNo": "A117",
+       "session": 2017,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the insurance law, in relation to continuing education for agents, brokers, and adjusters",
+    "basePrintNo": "S1314",
+    "basePrintNoStr": "S1314-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 956,
+       "sessionYear": 2017,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Kathleen A. Marchione",
+       "imgName": "435_kathleen_a._marchione.jpg",
+       "incumbent": false,
+       "memberId": 435,
+       "sessionMemberId": 940,
+       "sessionYear": 2017,
+       "shortName": "MARCHIONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 1099,
+       "sessionYear": 2017,
+       "shortName": "TEDISCO"
+      }
+     ],
+     "size": 3
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2132, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": " BILL NUMBER:  S1314A\n\n TITLE OF BILL :  An act to amend the insurance law, in relation to\ncontinuing education for agents, brokers, and adjusters\n\n PURPOSE :\n\nTo eliminate the need for insurance agents  and brokers to take\nduplicate continuing education courses for both their individual and\nagency insurance licenses.\n\n SUMMARY OF PROVISIONS :\n\nSection 1 of the bill amends § 2132 of the Insurance Law to add a new\nsubsection (k) that allows for renewal of the business-entity license\nif each sublicensee either satisfies the continuing education\nrequirements of the business entity license or has an individual\nlicense with the same lines of authority for which the individual is a\nsublicensee of the business entity licensee.\n\nSection 2 is the effective date.\n\n JUSTIFICATION :\n\nSection 2132 of the New York State Insurance Law provides that a\nlicensee must complete 15 credit hours of continuing education during\neach two-year licensing period. This applies to agent and broker\nindividual licenses and to their business-entity licenses. The\ntwo-year period preceding the renewal of a business-entity license may\nnot be the same (and generally is not the same) as the period\npreceding the renewal of the individual licenses of the sublicensees.\nAs a result, the education period to comply with both the individual\nand entity licenses can become substantially compressed to fit in a\nperiod that is within two years of the later-dated license renewal.\nFor some insurance agents and brokers this can mean as little as three\nmonths to complete their CE courses that apply to their multiple\nlicenses.\n\nThe move from set expiration dates to birthdate license renewals for\nindividual licenses dramatically increased the difficulty of\nnegotiating and identifying appropriate bridge courses that would\nsatisfy the 15-hour CE requirements for insurance agents who hold\nmultiple individual and business-entity sublicenses.\n\nThis proposal would amend the continuing-education requirements to\nallow for renewal of the business-entity license if all entity\nsublicensees either satisfy the continuing education requirements of\nthe business entity license or have an individual license with the\nsame lines of authority.\n\n LEGISLATIVE HISTORY :\n\nS.7940 of 2016.\n\n FISCAL IMPLICATIONS :\n\nThis proposal could result in increased revenue for the state through\nlicensing fees by removing the financial incentive for those with\nmultiple licenses to forego their individual insurance agent and\nbroker licenses.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1314A",
+    "publishDate": "2017-05-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A117",
+       "basePrintNoStr": "A117-2017",
+       "printNo": "A117A",
+       "session": 2017,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1314",
+ "basePrintNoStr": "S1314-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 22,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 23,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 24,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 25,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 26,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 27,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 28,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 29,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 30,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 31,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 32,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 33,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2017
+   }
+  ],
+  "size": 36
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 10,
+     "year": 2017
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Insurance"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2017-01-09",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2017-05-17",
+    "billCalNo": 430,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2017-01-09T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S7940",
+    "basePrintNoStr": "S7940-2015",
+    "printNo": "S7940",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1314A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-01-09T10:20",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2017-05-17T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2017-01-09T10:20:00",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 51,
+   "fullName": "James L. Seward",
+   "imgName": "371_james_l._seward.jpg",
+   "incumbent": false,
+   "memberId": 371,
+   "sessionMemberId": 950,
+   "sessionYear": 2017,
+   "shortName": "SEWARD"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2017-05-17",
+  "billCalNo": 430,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A117",
+  "basePrintNoStr": "A117-2017",
+  "session": 2017
+ },
+ "summary": "Exempts from certain provisions certain business entity licenses where it can be demonstrated that all sub-licensees have adequate continuing education credits to support their individual licenses in effect at the date of renewal.",
+ "title": "Relates to continuing education for agents, brokers, and adjusters",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1314",
+     "basePrintNoStr": "S1314-2017",
+     "printNo": "S1314",
+     "session": 2017,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Insurance"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Fredrick J. Akshar II",
+         "imgName": "735_Fredrick_Akshar.jpg",
+         "incumbent": false,
+         "memberId": 913,
+         "sessionMemberId": 952,
+         "sessionYear": 2017,
+         "shortName": "AKSHAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 946,
+         "sessionYear": 2017,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "John E. Brooks",
+         "imgName": "923_John_Brooks.jpg",
+         "incumbent": false,
+         "memberId": 1101,
+         "sessionMemberId": 1097,
+         "sessionYear": 2017,
+         "shortName": "BROOKS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 938,
+         "sessionYear": 2017,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Jesse Hamilton",
+         "imgName": "889_jesse_hamilton.jpg",
+         "incumbent": false,
+         "memberId": 889,
+         "sessionMemberId": 937,
+         "sessionYear": 2017,
+         "shortName": "HAMILTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Chris Jacobs",
+         "imgName": "921_Chris_Jacobs.jpg",
+         "incumbent": false,
+         "memberId": 1099,
+         "sessionMemberId": 1095,
+         "sessionYear": 2017,
+         "shortName": "JACOBS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 929,
+         "sessionYear": 2017,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1084,
+         "sessionYear": 2017,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 1012,
+         "sessionYear": 2017,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "George Latimer",
+         "imgName": "434_george_latimer.jpg",
+         "incumbent": false,
+         "memberId": 434,
+         "sessionMemberId": 922,
+         "sessionYear": 2017,
+         "shortName": "LATIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1010,
+         "sessionYear": 2017,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 941,
+         "sessionYear": 2017,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Elaine Phillips",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1100,
+         "sessionMemberId": 1096,
+         "sessionYear": 2017,
+         "shortName": "PHILLIPS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 926,
+         "sessionYear": 2017,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 933,
+         "sessionYear": 2017,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Susan Serino",
+         "imgName": "890_susan_serino.jpg",
+         "incumbent": false,
+         "memberId": 890,
+         "sessionMemberId": 1018,
+         "sessionYear": 2017,
+         "shortName": "SERINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 950,
+         "sessionYear": 2017,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 17
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Terrence P. Murphy",
+         "imgName": "891_terrence_p._murphy.jpg",
+         "incumbent": false,
+         "memberId": 891,
+         "sessionMemberId": 1014,
+         "sessionYear": 2017,
+         "shortName": "MURPHY"
+        }
+       ],
+       "size": 1
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 925,
+         "sessionYear": 2017,
+         "shortName": "PARKER"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2017-03-20",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2017
+}

@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8988",
+     "basePrintNoStr": "S8988-2017",
+     "printNo": "S8988",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-06-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8988",
+     "basePrintNoStr": "S8988-2017",
+     "printNo": "S8988",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-06-13",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to increasing\ncertain penalties relating to endangered and special species, species of\nspecial concern and illegal ivory articles and rhinoceros horns",
+    "basePrintNo": "S8988",
+    "basePrintNoStr": "S8988-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §71-0925, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "\n \nBILL NUMBER: S8988\n\nSPONSOR: AVELLA\n \nTITLE OF BILL:  An act to amend the environmental conservation law, in\nrelation to increasing certain penalties relating to endangered and\nspecial species, species of special concern and illegal ivory articles\nand rhinoceros horns\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to increase the penalties for violations\ninvolving endangered and threatened species.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis bill would:\n\n*increase the endangered or threatened species civil penalty,\n\n*require the Department of Environmental Conservation to:\n\n-increase public awareness regarding the importance of protecting endan-\ngered and threatened species,\n\n-publicize laws protecting such species.\n\n \nJUSTIFICATION:\n\nNot only do endangered and threatened species add beauty and wonder to\nthe natural world, but they provide diversity necessary for the mainte-\nnance for our ecosystems. This bill would help increase awareness of the\nneed for protections of such species and provide additional deterrents\nto their harm by increasing civil penalties.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNone\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone to the State.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8988",
+    "publishDate": "2018-06-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8988",
+ "basePrintNoStr": "S8988-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2018-06-11",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2018-06-11T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8988",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2018-06-11T16:21:04.953875",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2018-06-11T16:21:04.953875",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 11,
+   "fullName": "Tony Avella",
+   "imgName": "391_tony_avella.jpg",
+   "incumbent": false,
+   "memberId": 391,
+   "sessionMemberId": 920,
+   "sessionYear": 2017,
+   "shortName": "AVELLA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2018-06-13",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Increases certain penalties relating to endangered and special species, species of special concern and illegal ivory articles and rhinoceros horns.",
+ "title": "Increases certain penalties related to endangered and threatened species",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2018
+}

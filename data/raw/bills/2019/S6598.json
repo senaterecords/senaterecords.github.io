@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6598",
+     "basePrintNoStr": "S6598-2019",
+     "printNo": "S6598",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6598",
+     "basePrintNoStr": "S6598-2019",
+     "printNo": "S6598",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-20",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the penal law, in relation to the transport of pistols or\nrevolvers by licensees",
+    "basePrintNo": "S6598",
+    "basePrintNoStr": "S6598-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §400.00, Pen L (as proposed in S.6151 & A.7752)",
+    "lawSection": "Penal Law",
+    "memo": "\n \nBILL NUMBER: S6598\n\nSPONSOR: KAVANAGH\n \nTITLE OF BILL:  An act to amend the penal law, in relation to the\ntransport of pistols or revolvers by licensees\n\n \nPURPOSE:\n\nThis bill amends certain provisions of S6151 to clarify when a pistol or\nrevolver may be legally transported by a license holder.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of the bill clarifies the purpose of the provisions proposed\nin legislative bill numbers S6151 and A7752.\n\nSection 2 of the bill sets forth the effective date.\n\n \nPURPOSE AND JUSTIFICATION:\n\nThis bill amends S6151 to clarify its intent that individuals who are\ntransporting a pistol or revolver through the City of New York in a\ncontinuous and uninterrupted manner would not be required to obtain\nspecific written authorization to do so.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone to the state.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the same date and in the same manner as a\nchapter of the laws of 2019, amending the penal law relating to the\ntransport of pistols or revolvers by licensees, as proposed in legisla-\ntive bills S6151 and A7752, takes effect.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6598",
+    "publishDate": "2019-06-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6598",
+ "basePrintNoStr": "S6598-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-06-17",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-06-17T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6598",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-06-17T22:45:04.887183",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-06-17T22:45:04.887183",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 26,
+   "fullName": "Brian Kavanagh",
+   "imgName": "526_brian_kavanagh.jpg",
+   "incumbent": true,
+   "memberId": 1140,
+   "sessionMemberId": 1407,
+   "sessionYear": 2019,
+   "shortName": "KAVANAGH"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-06-20",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the transport of pistols.",
+ "title": "Relates to the transport of pistols",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

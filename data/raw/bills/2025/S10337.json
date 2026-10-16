@@ -1,0 +1,254 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10337",
+     "basePrintNoStr": "S10337-2025",
+     "printNo": "S10337",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10337",
+     "basePrintNoStr": "S10337-2025",
+     "printNo": "S10337",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10337",
+     "basePrintNoStr": "S10337-2025",
+     "printNo": "S10337",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1682"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10337",
+     "basePrintNoStr": "S10337-2025",
+     "printNo": "S10337",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A11297"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the not-for-profit corporation law, in relation to exempting\nthe Liverpool Fire Department from the requirement that the percentage of\nnon-resident fire department members not exceed 45 percent of the membership",
+    "basePrintNo": "S10337",
+    "basePrintNoStr": "S10337-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1402, N-PC L",
+    "lawSection": "Not-for-Profit Corporation Law",
+    "memo": " \nBILL NUMBER: S10337\n\nSPONSOR: RYAN C\n \nTITLE OF BILL:\n\nAn act to amend the not-for-profit corporation law, in relation to\nexempting the Liverpool Fire Department from the requirement that the\npercentage of non-resident fire department members not exceed 45 percent\nof the membership\n\n \nPURPOSE:\n\nTo authorize non-resident volunteer membership within the Liverpool Fire\nDepartment.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subparagraph 3 of paragraph (c) of section 1402 of the\nnot-for-profit corporation law.\n\nSection 2 establishes the effective date.\n\n \nJUSTIFICATION:\n\nThe Liverpool Fire Department has had difficulty recruiting members from\ntheir district and are close to exceeding the forty-five percent cap.\nThis bill would allow them to hire non-resident members to address a\nstaffing shortage.\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nLEGISLATIVE HISTORY:\n\n2026: Introduced.\n\n \nEFFECTIVE DATE:\nEffective immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10337",
+    "publishDate": "2026-05-14",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "NPC1402"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11297",
+       "basePrintNoStr": "A11297-2025",
+       "printNo": "A11297",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10337",
+ "basePrintNoStr": "S10337-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 62,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": 1682,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Corporations, Authorities And Commissions",
+    "referenceDate": "2026-05-14T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-03T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S10337",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-05-14T11:00:22.003307",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-05-14T11:00:21.935914",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 50,
+   "fullName": "Christopher Ryan",
+   "imgName": "no_image.jpg",
+   "incumbent": true,
+   "memberId": 1551,
+   "sessionMemberId": 2367,
+   "sessionYear": 2025,
+   "shortName": "RYAN C"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-03",
+  "billCalNo": 1682,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11297",
+  "basePrintNoStr": "A11297-2025",
+  "session": 2025
+ },
+ "summary": "Exempts the Liverpool Fire Department within the town of Salina, Onondaga county, from the requirement that the percentage of non-resident fire department members not exceed forty-five percent of the membership.",
+ "title": "Exempts the Liverpool Fire Department from the requirement that the percentage of non-resident fire department members not exceed forty-five percent of the membership",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

@@ -1,0 +1,222 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2736",
+     "basePrintNoStr": "S2736-2023",
+     "printNo": "S2736",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-24",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2736",
+     "basePrintNoStr": "S2736-2023",
+     "printNo": "S2736",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general municipal law, in relation to request for\nproposals and the addition of qualifications by municipalities",
+    "basePrintNo": "S2736",
+    "basePrintNoStr": "S2736-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §103, Gen Muni L",
+    "lawSection": "General Municipal Law",
+    "memo": " \nBILL NUMBER: S2736\n\nSPONSOR: COMRIE\n \nTITLE OF BILL:\n\nAn act to amend the general municipal law, in relation to request for\nproposals and the addition of qualifications by municipalities\n\n \nPURPOSE:\n\nTo provide municipalities with the ability to require contract terms on\nmunicipal contracts.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends section 103 of the general municipal law to add a new\nparagraph 17 to allow municipalities to adopt a local law so that\nrequests for proposals contain qualifications for bidders.\n\n \nJUSTIFICATION:\n\nCurrently, § 103 of the NY State General Municipal Law prevents munici-\npalities across the state from including qualifications in municipal\ncontracts that must ultimately serve these areas. This keeps a munici-\npality from meeting its sustainability, social responsibility or other\npreferences as reflected in local laws or ordinances when using their\nfunds to retain a contractor.\n\nMunicipalities should be able to consider local community issues, local\npreference, worker rights, and simply responsible budgeting, in quali-\nfications on RFPs for their own municipal contracts. This legislation\ngrants localities across the State the ability to include qualifications\nin RFPs for contract bids.\n\n \nLEGISLATIVE HISTORY:\n\nS5797 2022\n\nS4357 COMRIE No Same as\n\n \nFISCAL IMPLICATIONS:\n\nNone to the State.\n\n \nEFFECTIVE DATE:\nThis act would take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2736",
+    "publishDate": "2023-01-24",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "GMU103"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2736",
+ "basePrintNoStr": "S2736-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2023-01-24T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S5797",
+    "basePrintNoStr": "S5797-2021",
+    "printNo": "S5797",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S2803",
+    "basePrintNoStr": "S2803-2019",
+    "printNo": "S2803",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S4357",
+    "basePrintNoStr": "S4357-2017",
+    "printNo": "S4357",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S5496",
+    "basePrintNoStr": "S5496-2015",
+    "printNo": "S5496",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 4
+ },
+ "printNo": "S2736",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-24T12:17:19.922522",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-01-24T12:17:19.922522",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 14,
+   "fullName": "Leroy Comrie",
+   "imgName": "888_leroy_comrie.jpg",
+   "incumbent": true,
+   "memberId": 888,
+   "sessionMemberId": 2008,
+   "sessionYear": 2023,
+   "shortName": "COMRIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Local Government",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to request for proposals and the addition of qualifications by municipalities.",
+ "title": "Relates to request for proposals and the addition of qualifications by municipalities",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

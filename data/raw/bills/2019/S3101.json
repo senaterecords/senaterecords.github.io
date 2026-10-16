@@ -1,0 +1,646 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3101",
+     "basePrintNoStr": "S3101-2019",
+     "printNo": "S3101",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3101",
+     "basePrintNoStr": "S3101-2019",
+     "printNo": "S3101",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-29",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.463"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3101",
+     "basePrintNoStr": "S3101-2019",
+     "printNo": "S3101",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-30",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3101",
+     "basePrintNoStr": "S3101-2019",
+     "printNo": "S3101",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-01",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3101",
+     "basePrintNoStr": "S3101-2019",
+     "printNo": "S3101",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-06",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A1619"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law, in relation to coverage for eating\ndisorders",
+    "basePrintNo": "S3101",
+    "basePrintNoStr": "S3101-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1198,
+       "sessionYear": 2019,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 1285,
+       "sessionYear": 2019,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 17
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3221 & 4303, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "\n \nBILL NUMBER: S3101\n\nSPONSOR: BIAGGI\n \nTITLE OF BILL:\n\nAn act to amend the insurance law, in relation to coverage for eating\ndisorders\n\n \nPURPOSE:\n\nThis legislation closes a gap in coverage by requiring insurance compa-\nnies to provide full coverage for all the aspects of eating disorders\ntreatment.\n\n \nSUMMARY OF PROVISIONS:\n\nSections I amends subparagraph (b) of paragraph 5 of subsection (1) of\nsection 3221 of the insurance law to require insurers in the state to\nprovide coverage for inpatient hospital care and physician services for\neating disorders. The term \"eating disorder\" is defined.\n\nSection II amends paragraph 2 of subsection (g) of section 4303 of the\ninsurance law to require hospital service and health service corpo-\nrations to provide coverage for eating disorders. The term \"eating\ndisorder\" is defined.\n\nSection III amends paragraph 2 of subsection (h) of section 4303 to\nrequire medical expense indemnity corporations and health service corpo-\nrations which provide group, group remittance, or school blanket cover-\nage for physician services to provide coverage for eating disorders. The\nterm \"eating disorder\" is defined.\n\nSection IV sets forth the effective date.\n\n \nJUSTIFICATION:\n\nIn the United States, 30 million women and men will suffer from a clin-\nically significant eating disorder at some time in their life, including\nanorexia nervosa, bulimia nervosa, binge eating disorder, or other spec-\nified feeding or eating disorder (OSFED). Eating disorders are real,\ncomplex, and devastating conditions that can have serious consequences\nfor health, productivity, and relationships, and can impact every organ\nsystem in the body. Eating disorders are serious, potentially life-\nthreatening conditions that affect a person's emotional and physical\nhealth. They are not a fad, phase or lifestyle choice.\n\nPeople struggling with an eating disorder need to seek professional\nhelp. Eating Disorders have the highest mortality rate of any mental\nillness. For females between fifteen to twenty-four years old who suffer\nfrom anorexia nervosa, the mortality rate associated with the illness is\ntwelve times higher than the death rate of all other causes of death.\nHowever, with proper medical care, eating disorders are highly treata-\nble. The earlier a person with an eating disorder receives treatment,\nthe greater the likelihood of physical and emotional recovery.\n\nTreatment for an eating disorder can cost up to $30,000 per month.\nDespite the severity of these conditions, insurance coverage can be\ndifficult to obtain, and many families are often forced to choose\nbetween bankruptcy and saving a loved one's life. Despite mental health\nparity laws, many insurance companies continue to deny coverage for an\neating disorder, often times because they do not have a solid under-\nstanding of what kind of care a patient requires in order to reach full\nrecovery. The proposed legislation would help ensure New York residents\nhave access to adequate healthcare coverage for eating disorders,\ndecreasing the chance of chronic illness and death.\n\n \nLEGISLATIVE HISTORY:\n\n2017-18: A06396C/S6045C - Passed Assembly\n\n \nFISCAL IMPACT TO THE STATE:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome a law; provided, however, that the provisions of this act shall\napply to policies and contracts issued, renewed, modified, altered, or\namended on or after such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3101",
+    "publishDate": "2019-02-04",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1619",
+       "basePrintNoStr": "A1619-2019",
+       "printNo": "A1619",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3101",
+ "basePrintNoStr": "S3101-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 36,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2019
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Insurance"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-02-04",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-05-01",
+    "billCalNo": 463,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2019-02-04T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6045",
+    "basePrintNoStr": "S6045-2017",
+    "printNo": "S6045C",
+    "session": 2017,
+    "version": "C"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3101",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-04T10:04:37.633014",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-02-04T10:04:37.633014",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 34,
+   "fullName": "Alessandra Biaggi",
+   "imgName": "1051_Alessandra_Biaggi.jpg",
+   "incumbent": false,
+   "memberId": 1231,
+   "sessionMemberId": 1229,
+   "sessionYear": 2019,
+   "shortName": "BIAGGI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-05-01",
+  "billCalNo": 463,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A1619",
+  "basePrintNoStr": "A1619-2019",
+  "session": 2019
+ },
+ "summary": "Relates to coverage for eating disorders; requires comparable coverage for adults and children with eating disorders; defines eating disorder.",
+ "title": "Relates to coverage for eating disorders",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3101",
+     "basePrintNoStr": "S3101-2019",
+     "printNo": "S3101",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Insurance"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "John E. Brooks",
+         "imgName": "923_John_Brooks.jpg",
+         "incumbent": false,
+         "memberId": 1101,
+         "sessionMemberId": 1198,
+         "sessionYear": 2019,
+         "shortName": "BROOKS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 1191,
+         "sessionYear": 2019,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1219,
+         "sessionYear": 2019,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 1285,
+         "sessionYear": 2019,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 1208,
+         "sessionYear": 2019,
+         "shortName": "SANDERS"
+        }
+       ],
+       "size": 8
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 1365,
+         "sessionYear": 2019,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Susan Serino",
+         "imgName": "890_susan_serino.jpg",
+         "incumbent": false,
+         "memberId": 890,
+         "sessionMemberId": 1368,
+         "sessionYear": 2019,
+         "shortName": "SERINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 3
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-04-29",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

@@ -1,0 +1,209 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3482",
+     "basePrintNoStr": "S3482-2019",
+     "printNo": "S3482",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3482",
+     "basePrintNoStr": "S3482-2019",
+     "printNo": "S3482",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 2,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public officers law, in relation to the removal of\nresidency penalties related to employment by any political subdivision or\nmunicipal corporation of the state",
+    "basePrintNo": "S3482",
+    "basePrintNoStr": "S3482-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3, Pub Off L",
+    "lawSection": "Public Officers Law",
+    "memo": "\n \nBILL NUMBER: S3482\n\nSPONSOR: CARLUCCI\n \nTITLE OF BILL:  An act to amend the public officers law, in relation\nto the removal of residency penalties related to employment by any poli-\ntical subdivision or municipal corporation of the state\n\n \nPURPOSE:\n\nThe purpose of this bill is to remove the income tax penalty to employ-\nees of New York City or any of its agencies who seek to live outside New\nYork City.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Provides the legislative intent.\n\nSection 2. Amends section 3 of the public officers law by adding\nsubsection 66 that removes the obligation of an employee to make any\npayment or satisfy any levy pursuant to a condition of employment, or\nagreement that such employee may have signed, that such employee shall\npay any amount if such employee becomes a nonresident of the political\nsubdivision or municipal corporation of the state.\n\nSection 3. Effective date.\n\n \nJUSTIFICATION:\n\nCurrently, employees of New York City or any of its agencies who choose\nto live outside of New York City are deemed City Nonresident Individ-\nuals. These individuals must pay to the City the equivalent amount of\ncity personal income tax as if they were residents of New York City.\n\nThis legislation would remove the requirement on nonresident employees\nof New York City to pay a city personal income tax fee. It is no longer\nacceptable to require these public employees to pay taxes in a munici-\npality that they do not reside in.\n\n \nLEGISLATIVE HISTORY:\n\n2017-18: S391-a/A7101 - PASSED SENATE/gov't ops\n2015-16: S8164 - Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3482",
+    "publishDate": "2019-02-07",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5215",
+       "basePrintNoStr": "A5215-2019",
+       "printNo": "A5215",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3482",
+ "basePrintNoStr": "S3482-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-01-08",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2019-02-07T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S391",
+    "basePrintNoStr": "S391-2017",
+    "printNo": "S391A",
+    "session": 2017,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S8164",
+    "basePrintNoStr": "S8164-2015",
+    "printNo": "S8164",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S3482",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-07T16:08:07.387718",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-02-07T16:08:07.387718",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 38,
+   "fullName": "David Carlucci",
+   "imgName": "370_david_carlucci.jpg",
+   "incumbent": false,
+   "memberId": 370,
+   "sessionMemberId": 1191,
+   "sessionYear": 2019,
+   "shortName": "CARLUCCI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-01-08",
+  "billCalNo": null,
+  "committeeName": "Investigations And Government Operations",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the residency requirements of certain public officers of political subdivisions or municipal corporations of the state; prohibits certain officers from being required to forego or make a payment or satisfy a levy due to him or her becoming a nonresident of the political subdivision or municipal corporation of the state.",
+ "title": "Relates to the residency requirements of certain public officers of political subdivisions or municipal corporations of the state",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

@@ -1,0 +1,238 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4030",
+     "basePrintNoStr": "S4030-2009",
+     "printNo": "S4030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4030",
+     "basePrintNoStr": "S4030-2009",
+     "printNo": "S4030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-19",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.359"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4030",
+     "basePrintNoStr": "S4030-2009",
+     "printNo": "S4030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-20",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4030",
+     "basePrintNoStr": "S4030-2009",
+     "printNo": "S4030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-26",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4030",
+     "basePrintNoStr": "S4030-2009",
+     "printNo": "S4030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-26",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A2762A"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S4030",
+    "basePrintNoStr": "S4030-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld & add §2-1.6, EPT L",
+    "lawSection": "Estates, Powers and Trusts Law",
+    "memo": " BILL NUMBER:  S4030\n\n TITLE OF BILL :\nAn act to amend the estates, powers and trusts law, in relation to the\ndisposition of property when persons die simultaneously and to repeal\nsection 2-1.6 of such law relating thereto\n\n\n PURPOSE OF BILL :\nThis bill repeals the Estates Powers and Trusts Law (the \"EPTL\")\nsection 2-1.6, which is presently based upon actual simultaneous\ndeath, and replaces it with language which treats the death of a\nrelevant person within 120 hours of the decedent as predeceasing the\ndecedent.\n\n JUSTIFICATION :\nPresently, EPTL Section 2-1.6 sets forth certain rules for the\ndisposition of property when there is no evidence that persons died\notherwise than simultaneously. If it appears that persons have died\nsimultaneously, then the property of each person is disposed of as if\nhe had survived, with certain exceptions. For instance, when a\nprovision in a will depends on the time of death of two or more\nbeneficiaries, and there is no evidence that they died otherwise than\nsimultaneously, the property is divided into equal portions for each\nof them. When two joint tenants or tenants by the entirety die\nsimultaneously, the property is divided into two parts, to be shared\nequally by each of the decedent's heirs.\n\nThis bill enacts the 1993 version of the Uniform Simultaneous Death\nAct. Unless it is established by clear and convincing evidence that an\nindividual survived the death of another by 120 hours, that individual\nis determined to have predeceased the other decedent.\n\n LEGISLATIVE HISTORY :\n2008: A.11503/S.788 - PA/S. Rules\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect on the tenth day after it shall have become\na law with certain enumerated exceptions relating to actions and\nproceedings which have already commenced at the time of the effective\ndate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4030",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2762",
+       "basePrintNoStr": "A2762-2009",
+       "printNo": "A2762A",
+       "session": 2009,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4030",
+ "basePrintNoStr": "S4030-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-04-07",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-05-26",
+    "billCalNo": 359,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-04-07T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4030",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 19,
+   "fullName": "John L. Sampson",
+   "imgName": "369_john_l._sampson.jpg",
+   "incumbent": false,
+   "memberId": 369,
+   "sessionMemberId": 1,
+   "sessionYear": 2009,
+   "shortName": "SAMPSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-26",
+  "billCalNo": 359,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2762",
+  "basePrintNoStr": "A2762-2009",
+  "session": 2009
+ },
+ "summary": "Treats the death of a relevant person, for the purposes of the devolution of property, within 120 hours of the decedent or other event as predeceasing the decedent or other event.",
+ "title": "Relates to the disposition of property when persons die simultaneously; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

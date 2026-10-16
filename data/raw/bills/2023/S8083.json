@@ -1,0 +1,550 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8083",
+     "basePrintNoStr": "S8083-2023",
+     "printNo": "S8083",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8083",
+     "basePrintNoStr": "S8083-2023",
+     "printNo": "S8083",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-23",
+    "sequenceNo": 2,
+    "text": "ORDERED TO THIRD READING CAL.199"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8083",
+     "basePrintNoStr": "S8083-2023",
+     "printNo": "S8083",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-07",
+    "sequenceNo": 3,
+    "text": "SUBSTITUTED BY A8491"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the railroad law, in relation to requiring certain trains and\nlocomotives to have a crew size of not less than two persons",
+    "basePrintNo": "S8083",
+    "basePrintNoStr": "S8083-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §63-a, Rail L (as proposed in S.5775 & A.5639)",
+    "lawSection": "Railroad Law",
+    "memo": " \nBILL NUMBER: S8083\n\nSPONSOR: KENNEDY\n \nTITLE OF BILL:\n\nAn act to amend the railroad law, in relation to requiring certain\ntrains and locomotives to have a crew size of not less than two persons\n\n \nPURPOSE:\n\nThis chapter amendment prohibits a freight train carrying hazardous\nmaterials from being operated unless it has a crew consisting of at\nleast two individuals.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one prohibits any Class I freight railroad, Class I railroad, or\nClass II railroad for transporting hazardous materials unless there is a\ncrew of no less than two persons.\n\nSection two references the hazardous materials definition from the\nUnited States Code.\n\nSections three and four include severability clauses and the effective\ndate.\n\n \nJUSTIFICATION:\n\nThis bill is intended to protect New Yorkers by requiring trains and\nlight engines carrying hazardous freight within New York to be operated\nwith a crew of no less than two members. This bill is intended to\nprotect not only the public, but railroad workers as well. In recent\nyears, new technology has made railroads safer; however nothing can\nreplace an extra set of eyes and ears when it comes to public safety.\n\nIt is nearly impossible for a single operator in an emergency situation\nto properly assess the situation, secure the train, and notify police,\nfire and other necessary officials all at once.\n\nCurrently, the federal government and other states are working on ways\nto increase railroad safety, and at this point, nearly 20 states have\nintroduced or enacted minimum crew legislation. Requiring two-person\ncrews is a straightforward way of ensuring the safety of our railways\nhere in New York State.\n\n \nLEGISLATIVE HISTORY:\n\n2023: Underlying bill (S.5775) passed Senate 55-6.\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nIn the same manner as the underlying chapter, which takes effect 30 days\nafter being signed into law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8083",
+    "publishDate": "2024-01-05",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "RRD63-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8491",
+       "basePrintNoStr": "A8491-2023",
+       "printNo": "A8491",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8083",
+ "basePrintNoStr": "S8083-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 7,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 8,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 9,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 10,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 11,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 12,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 13,
+    "year": 2024
+   }
+  ],
+  "size": 7
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 3,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-05",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2024-01-23",
+    "billCalNo": 199,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2024-01-05T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8083",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-01-05T14:01:21.229967",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2024-01-05T14:01:21.229967",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 63,
+   "fullName": "Timothy M. Kennedy",
+   "imgName": "429_timothy_m._kennedy.jpg",
+   "incumbent": false,
+   "memberId": 429,
+   "sessionMemberId": 2019,
+   "sessionYear": 2023,
+   "shortName": "KENNEDY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-23",
+  "billCalNo": 199,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8491",
+  "basePrintNoStr": "A8491-2023",
+  "session": 2023
+ },
+ "summary": "Provides that no person operating or controlling any Class I railroad or Class II railroad shall allow the operation of any railroad train or locomotive for the movement of hazardous materials unless such railroad train or locomotive has a crew of not less than two individuals.",
+ "title": "Requires certain trains and locomotives to have a crew size of not less than two persons",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8083",
+     "basePrintNoStr": "S8083-2023",
+     "printNo": "S8083",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2004,
+         "sessionYear": 2023,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2008,
+         "sessionYear": 2023,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Nathalia Fernandez",
+         "imgName": "966_Nathalia_Fernandez.jpg",
+         "incumbent": true,
+         "memberId": 1520,
+         "sessionMemberId": 1883,
+         "sessionYear": 2023,
+         "shortName": "FERNANDEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 2011,
+         "sessionYear": 2023,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 2019,
+         "sessionYear": 2023,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 2020,
+         "sessionYear": 2023,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2021,
+         "sessionYear": 2023,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 2027,
+         "sessionYear": 2023,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2028,
+         "sessionYear": 2023,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 2038,
+         "sessionYear": 2023,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 18
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2013,
+         "sessionYear": 2023,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Pamela Helming",
+         "imgName": "773_Pamela_Helming.jpg",
+         "incumbent": true,
+         "memberId": 951,
+         "sessionMemberId": 2015,
+         "sessionYear": 2023,
+         "shortName": "HELMING"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2034,
+         "sessionYear": 2023,
+         "shortName": "SEPULVEDA"
+        }
+       ],
+       "size": 3
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-01-23",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2024
+}

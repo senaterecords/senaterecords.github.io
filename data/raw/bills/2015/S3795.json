@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3795",
+     "basePrintNoStr": "S3795-2015",
+     "printNo": "S3795",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-02-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CONSUMER PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3795",
+     "basePrintNoStr": "S3795-2015",
+     "printNo": "S3795",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-09",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law, in relation to the sale and use of employment information",
+    "basePrintNo": "S3795",
+    "basePrintNoStr": "S3795-2015",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rel §380-v to be §380-w, add §380-v, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": "BILL NUMBER:S3795\n\nTITLE OF BILL:  An act to amend the general business law, in relation\nto the sale and use of employment information\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nno consumer reporting agency or any subsidiary thereof shall sell or\nresell, or offer for sale or resale or distribute employment\ninformation to any principal creditor, as that term is defined in\nsubdivision three of section six hundred of this chapter, or other\ndebt collector without verifying that such sale, resale, or\ndistribution was disclosed to the consumer to whom such employment\ninformation pertains without written consumer consent in a separate\nstand alone document\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nbans the use of employer data information\n\nJUSTIFICATION:\n\nemployment information shall include, but not be limited to, payroll\nand earnings information, hours worked, consumer history and health\ninsurance information.\n\nPRIOR LEGISLATIVE HISTORY:\n\nNew Bill\n\nFISCAL IMPLICATIONS:\n\nnone\n\nEFFECTIVE DATE:\n\nthis act shall take effect on the one hundred eightieth day after it\nshall have become a law\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3795",
+    "publishDate": "2015-02-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3795",
+ "basePrintNoStr": "S3795-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2015-02-17",
+    "billCalNo": null,
+    "committeeName": "Consumer Protection",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2015-02-17T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S7202",
+    "basePrintNoStr": "S7202-2013",
+    "printNo": "S7202",
+    "session": 2013,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3795",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-02-17T15:03:47",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2015-02-17T15:03:47",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 10,
+   "fullName": "James Sanders Jr.",
+   "imgName": "432_james_sanders_jr.jpg",
+   "incumbent": true,
+   "memberId": 432,
+   "sessionMemberId": 875,
+   "sessionYear": 2015,
+   "shortName": "SANDERS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2015-06-09",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Bans the sale of employment data reports without written consumer consent; provides such employment data reports shall include, but not be limited to, payroll and earnings information, hours worked, consumer history and health insurance information.",
+ "title": "Bans the use of employer data information",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

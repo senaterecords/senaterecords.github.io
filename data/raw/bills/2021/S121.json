@@ -1,0 +1,1981 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-20",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-20",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 121A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 4,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-04-26",
+    "sequenceNo": 5,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-05",
+    "sequenceNo": 6,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-05",
+    "sequenceNo": 7,
+    "text": "PRINT NUMBER 121B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-17",
+    "sequenceNo": 8,
+    "text": "REPORTED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-23",
+    "sequenceNo": 9,
+    "text": "ORDERED TO THIRD READING CAL.1417"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-25",
+    "sequenceNo": 10,
+    "text": "SUBSTITUTED BY A472C"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT in relation to authorizing the commissioner of education to conduct a\nstudy regarding courses of study on the Holocaust within the state",
+    "basePrintNo": "S121",
+    "basePrintNoStr": "S121-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1796,
+       "sessionYear": 2021,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 1846,
+       "sessionYear": 2021,
+       "shortName": "RYAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Education",
+    "memo": "\n \nBILL NUMBER: S121\n\nSPONSOR: KAPLAN\n \nTITLE OF BILL:\n\nAn act in relation to authorizing the commissioner of education to\nconduct a study regarding courses of study on the Holocaust within the\nstate\n\n \nPURPOSE:\n\nTo require the commissioner of education to submit a report to the\ngovernor and legislature regarding compliance with the requirement to\nprovide a course of study on the Holocaust and to authorize the commis-\nsioner to promulgate regulations to ensure school districts are provid-\ning such instruction.\n\n \nSUMMARY OF PROVISIONS:\n\nSection I authorizes the commissioner of education to conduct a study to\ndetermine which school districts are offering instruction on the Holo-\ncaust in compliance with section 801 of the education law.\n\nSections II provides that commissioner shall provide a report on the\nfindings of such study by the first of January after this act has become\nlaw.\n\nSection III directs the commissioner to promulgate rules and regulations\nensuring school districts are offering instruction on the Holocaust in\ncompliance with section 801 of the education law\n\nSection IV sets forth the effective date.\n\n \nJUSTIFICATION:\n\nIt is not lost on us that the horrors of the Holocaust are not forgotten\nwith this year's International Holocaust Remembrance Day marking only 72\nyears since the liberation of Auschwitz-Birkenau. Every moment we have\nto honor the innocent lives lost at the hands of state-sponsored perse-\ncution and murder is a step forward in condemning hate and violence\nrooted in intolerance and oppression. Not only is it our societal\nresponsibility to commemorate the lives lost, we must continue making\nconscious efforts to educate future generations on how important human\nrights declarations are in the prevention of genocide.\n\nRecent news stories have featured a controversial high school assignment\nin which students were instructed to provide their \"Nazi point of view\"\nin support of the Holocaust. This troubling assignment comes amidst a\nrise of anti-Semitic vandalism and threats of violence against our\ncommunities. Passage of this legislation would ensure that all of our\nchildren are accurately taught about this moment in history so that we\ncan truly live up to our pledge of never again.\n\n \nLEGISLATIVE HISTORY:\n\nS. 2963/A. 2182; Referred to Education Committee 2018: A8527/S. 5530\nPassed Senate\n\n \nFISCAL IMPLICATIONS:\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S121",
+    "publishDate": "2020-12-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A472",
+       "basePrintNoStr": "A472-2021",
+       "printNo": "A472",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT in relation to authorizing the commissioner of education to conduct a\nstudy regarding courses of study on the Holocaust within the state",
+    "basePrintNo": "S121",
+    "basePrintNoStr": "S121-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1796,
+       "sessionYear": 2021,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 1846,
+       "sessionYear": 2021,
+       "shortName": "RYAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Alexis Weik",
+       "imgName": "1310_Alexis_Weik.jpg",
+       "incumbent": true,
+       "memberId": 1493,
+       "sessionMemberId": 1848,
+       "sessionYear": 2021,
+       "shortName": "WEIK"
+      }
+     ],
+     "size": 22
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Education",
+    "memo": "\n \nBILL NUMBER: S121A\n\nSPONSOR: KAPLAN\n \nTITLE OF BILL:\n\nAn act in relation to authorizing the commissioner of education to\nconduct a study regarding courses of study on the Holocaust within the\nstate\n\n \nPURPOSE:\n\nTo require the commissioner of education to submit a report to the\ngovernor and legislature regarding compliance with the requirement to\nprovide a course of study on the Holocaust and to authorize the commis-\nsioner to promulgate regulations to ensure school districts are provid-\ning such instruction.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 authorizes the commissioner of education to conduct a study to\ndetermine which school districts are offering instruction on the Holo-\ncaust in compliance with section 801 of the education law.\n\nSection 2 provides that commissioner shall provide a report on the find-\nings of such study by the first of January after this act has become\nlaw.\n\nSection 3 directs the commissioner within 90 days to put forward recom-\nmendations to ensure instruction on the Holocaust is provided at all\nschools covered by section 801 of the education law\n\nSection 4 sets forth the effective date.\n\n \nJUSTIFICATION:\n\nIt is not lost on us that the horrors of the Holocaust are not forgotten\nwith this year's International Holocaust Remembrance Day marking only 72\nyears since the liberation of Auschwitz-Birkenau. Every moment we have\nto honor the innocent lives lost at the hands of state-sponsored perse-\ncution and murder is a step forward in condemning hate and violence\nrooted in intolerance and oppression. Not only is it our societal\nresponsibility to commemorate the lives lost, we must continue making\nconscious efforts to educate future generations on how important human\nrights declarations are in the prevention of genocide.\n\nRecent news stories have featured a controversial high school assignment\nin which students were instructed to provide their \"Nazi point of view\"\nin support of the Holocaust. This troubling assignment comes amidst a\nrise of anti-Semitic vandalism and threats of violence against our\ncommunities. Passage of this legislation would ensure that all of our\nchildren are accurately taught about this moment in history so that we\ncan truly live up to our pledge of never again.\n\n \nLEGISLATIVE HISTORY:\n\nS. 2963/A. 2182; Referred to Education Committee 2018: A8527/S. 5530\nPassed Senate\n\n \nFISCAL IMPLICATIONS:\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S121A",
+    "publishDate": "2021-05-20",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT in relation to authorizing the commissioner of education to conduct a\nstudy regarding courses of study on the Holocaust within the state",
+    "basePrintNo": "S121",
+    "basePrintNoStr": "S121-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1796,
+       "sessionYear": 2021,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 1846,
+       "sessionYear": 2021,
+       "shortName": "RYAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Alexis Weik",
+       "imgName": "1310_Alexis_Weik.jpg",
+       "incumbent": true,
+       "memberId": 1493,
+       "sessionMemberId": 1848,
+       "sessionYear": 2021,
+       "shortName": "WEIK"
+      }
+     ],
+     "size": 23
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Education",
+    "memo": " \nBILL NUMBER: S121B\n\nSPONSOR: KAPLAN\n \nTITLE OF BILL:\n\nAn act in relation to authorizing the commissioner of education to\nconduct a study regarding courses of study on the Holocaust within the\nstate\n\n \nPURPOSE:\n\nThis legislation would require the commissioner of education to author-\nize and conduct a survey on the Holocaust within the State.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 authorizes and directs SED to conduct a survey regarding\ninstruction on the Holocaust. The survey shall focus on identifying\nwhich school districts provide instruction on the Holocaust. The survey\nshall include questions on how the district is meeting the learning\nstandards as required on the Holocaust. This survey will also require\nthe attestation from a school district superintendent that indicates\ninstruction related to the Holocaust is provided at all appropriate\ngrade levels and as such are in compliance.\n\nSection 2 findings of the survey shall include detailed results of the\nsurvey, the extent the survey data was submitted was compliant with\nsection 801 of the education law, and if needed recommendations to\nstrengthen the law. A report is to be sent to those enumerated.\n\nSection 3 states that each school district that does not respond or does\nnot affirmatively attest, shall provide a corrective action plan to\ncomply with section 801 of the education law. This corrective action\nplan shall be submitted to the commissioner for approval.\n\nSection 4 sets forth the effective date.\n\n \nJUSTIFICATION:\n\nIt is not lost on us that the horrors of the Holocaust are not forgotten\nwith this year's International Holocaust Remembrance Day marking only 77\nyears since the liberation of Auschwitz-Birkenau. Every moment we have\nto honor the innocent lives lost at the hands of state-sponsored perse-\ncution and murder is a step forward in condemning hate and violence\nrooted in intolerance and oppression. Not only is it our societal\nresponsibility to commemorate the lives lost, we must continue making\nconscious efforts to educate future generations on how important human\nrights declarations are in the prevention of genocide.\n\nRecent news stories have featured a controversial high school assignment\nin which students were instructed to provide their \"Nazi point of view\"\nin support of the Holocaust. This troubling assignment comes amidst a\nrise of anti-Semitic vandalism and threats of violence against our\ncommunities. Passage of this legislation would ensure that all of our\nchildren are accurately taught about this moment in history so that we\ncan truly live up to our pledge of never again.\n\n \nLEGISLATIVE HISTORY:\n\nS. 2963/A. 2182; Referred to Education Committee 2018: A8527/S. 5530\nPassed Senate\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S121B",
+    "publishDate": "2022-05-05",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A472",
+       "basePrintNoStr": "A472-2021",
+       "printNo": "A472C",
+       "session": 2021,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S121",
+ "basePrintNoStr": "S121-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 58,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2022
+   }
+  ],
+  "size": 2
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 13,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Education"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 3
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-05-17",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2022-05-23",
+    "billCalNo": 1417,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2021-05-20T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2022-04-26T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2022-05-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2022-05-17T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 6
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S2963",
+    "basePrintNoStr": "S2963-2019",
+    "printNo": "S2963",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S5530",
+    "basePrintNoStr": "S5530-2017",
+    "printNo": "S5530",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S121B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2020-12-18T15:29:07.287976",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-05-20T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2022-05-05T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2020-12-18T15:29:07.287976",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 7,
+   "fullName": "Anna Kaplan",
+   "imgName": "1044_Anna_Kaplan.jpg",
+   "incumbent": false,
+   "memberId": 1224,
+   "sessionMemberId": 1817,
+   "sessionYear": 2021,
+   "shortName": "KAPLAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-05-23",
+  "billCalNo": 1417,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A472",
+  "basePrintNoStr": "A472-2021",
+  "session": 2021
+ },
+ "summary": "Authorizes the commissioner of education to conduct a survey regarding instruction on the Holocaust within the state; provides a report shall be delivered which includes detailed results of the survey, the extent the survey data submitted was compliant with section eight hundred one of the education law, and if needed, recommendations to strengthen provisions of law if not compliant.",
+ "title": "Authorizes the commissioner of education to conduct a survey regarding instruction on the Holocaust within the state",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 1795,
+         "sessionYear": 2021,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "John E. Brooks",
+         "imgName": "923_John_Brooks.jpg",
+         "incumbent": false,
+         "memberId": 1101,
+         "sessionMemberId": 1803,
+         "sessionYear": 2021,
+         "shortName": "BROOKS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 1814,
+         "sessionYear": 2021,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 1854,
+         "sessionYear": 2021,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 1824,
+         "sessionYear": 2021,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Elijah Reichlin-Melnick",
+         "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+         "incumbent": false,
+         "memberId": 1495,
+         "sessionMemberId": 1850,
+         "sessionYear": 2021,
+         "shortName": "REICHLIN-MELNICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1840,
+         "sessionYear": 2021,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 1842,
+         "sessionYear": 2021,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Alexis Weik",
+         "imgName": "1310_Alexis_Weik.jpg",
+         "incumbent": true,
+         "memberId": 1493,
+         "sessionMemberId": 1848,
+         "sessionYear": 2021,
+         "shortName": "WEIK"
+        }
+       ],
+       "size": 14
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2022-04-26",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121B",
+     "session": 2021,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "ABS": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 1800,
+         "sessionYear": 2021,
+         "shortName": "BORRELLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1802,
+         "sessionYear": 2021,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1804,
+         "sessionYear": 2021,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 1809,
+         "sessionYear": 2021,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 1811,
+         "sessionYear": 2021,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1819,
+         "sessionYear": 2021,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1820,
+         "sessionYear": 2021,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1835,
+         "sessionYear": 2021,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Susan Serino",
+         "imgName": "890_susan_serino.jpg",
+         "incumbent": false,
+         "memberId": 890,
+         "sessionMemberId": 1837,
+         "sessionYear": 2021,
+         "shortName": "SERINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 1839,
+         "sessionYear": 2021,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1840,
+         "sessionYear": 2021,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 1842,
+         "sessionYear": 2021,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 22
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2022-05-17",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S121",
+     "basePrintNoStr": "S121-2021",
+     "printNo": "S121B",
+     "session": 2021,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 1795,
+         "sessionYear": 2021,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1802,
+         "sessionYear": 2021,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1804,
+         "sessionYear": 2021,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1808,
+         "sessionYear": 2021,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1819,
+         "sessionYear": 2021,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1820,
+         "sessionYear": 2021,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1821,
+         "sessionYear": 2021,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 1824,
+         "sessionYear": 2021,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 1827,
+         "sessionYear": 2021,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1835,
+         "sessionYear": 2021,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 1836,
+         "sessionYear": 2021,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1841,
+         "sessionYear": 2021,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 21
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2022-05-23",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 3
+ },
+ "year": 2022
+}

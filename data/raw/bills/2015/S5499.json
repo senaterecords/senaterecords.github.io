@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5499",
+     "basePrintNoStr": "S5499-2015",
+     "printNo": "S5499",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-05-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5499",
+     "basePrintNoStr": "S5499-2015",
+     "printNo": "S5499",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-01",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the judiciary law, in relation to contingent fees for attorneys",
+    "basePrintNo": "S5499",
+    "basePrintNoStr": "S5499-2015",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §474-a, Judy L",
+    "lawSection": "Judiciary Law",
+    "memo": "BILL NUMBER:S5499\n\nTITLE OF BILL:\n\nAn act to amend the judiciary law, in relation to contingent fees for\nattorneys\n\nPURPOSE:\n\nLimits contingent fees to attorneys in actions for property damage or\npersonal injury, including death\n\nSUMMARY OF PROVISIONS:\n\nSection 1: Amends section 474-a of judiciary law.\n\nSection 2: Sets the effective date.\n\nJUSTIFICATION:\n\nUnder traditional contingency fee rules, personal injury trial lawyers\nstand to take 1/3 of the amount recovered plus expenses. Individual\npayouts under the proposed settlement could range anywhere from $3200\nto $2 million, but would be reduced to nearly half that amount with\nthis legislation.\n\nIn response to past medical malpractice insurance crises, New York\nState enacted a law to statutorily limit the percentage that a\nmalpractice attorney can take from a plaintiffs award. The statutory\nlimitation on contingency fees diminishes the incentive for personal\ninjury trial lawyers to drag out litigation and would discourage\nfrivolous claims. It assures the attorney is adequately compensated by\na sliding fee scale that provides the traditional 1/3 of smaller\nrecoveries but only 10 percent for amounts over 1.25 Million.\n\nThese limitations help to ensure a plaintiff is fairly compensated for\nhis or her injury, and that major parts of the awards are not diverted\nto pay what are often huge attorney fees in addition to all other\ndisbursements that a suing plaintiff must reimburse to their attorney.\nUnder the current law, attorneys are well compensated in medical\nliability actions, in the case of a $1 million award, for example, an\nattorney receive a fee of $237,500 rather than $333,333.\n\nLEGISLATIVE HISTORY:\n\n2009/10 - A.10695 - Held in Judiciary 2011/12 - A.1558 - Held in\nJudiciary\n2013/2014- A.5190 - Held in judiciary\n\nFISCAL IMPLICATIONS:\n\nTo be determined.\n\nEFFECTIVE DATE:\n\nThis act shall take effect immediately.\n\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5499",
+    "publishDate": "2015-05-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5499",
+ "basePrintNoStr": "S5499-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2015-05-14",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2015-05-14T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5499",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-05-14T16:01:51",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2015-05-14T16:01:51",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 46,
+   "fullName": "George Amedore",
+   "imgName": "892_george_amedore.jpg",
+   "incumbent": false,
+   "memberId": 892,
+   "sessionMemberId": 886,
+   "sessionYear": 2015,
+   "shortName": "AMEDORE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2015-06-01",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Limits contingent fees to attorneys in actions for property damage or personal injury, including death.",
+ "title": "Limits contingent fees to attorneys in actions for property damage or personal injury, including death",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

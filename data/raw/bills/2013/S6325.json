@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6325",
+     "basePrintNoStr": "S6325-2013",
+     "printNo": "S6325",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-01-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6325",
+     "basePrintNoStr": "S6325-2013",
+     "printNo": "S6325",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-03-10",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to muzzle-loading deer hunting seasons in the southern zone",
+    "basePrintNo": "S6325",
+    "basePrintNoStr": "S6325-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §11-0907, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "BILL NUMBER:S6325\n\nTITLE OF BILL:  An act to amend the environmental conservation law, in\nrelation to muzzle-loading deer hunting seasons in the southern zone\n\nPURPOSE: The purpose of this bill is to extend the current\nmuzzle-loading deer hunting season to fourteen days in the southern\nzone.\n\nSUMMARY OF PROVISIONS:\n\nSections 1 of the bill amends subdivision 8 of section 11-0907 of the\nenvironmental conservation law to extend the current muzzle-loading\ndeer hunting season to fourteen days in the southern zone.\n\nSection 2 of the bill is the effective date.\n\nJUSTIFICATION: Currently, New York statutes limit the muzzle-loading\ndeer hunting season to just seven days in the Department of\nEnvironmental Conservation's Southern Zone. Extending this season to\n14 days will provide New York hunters and sportsmen with a greater\nopportunity to enjoy their particular sport within New York. The\nmuzzle-loading deer hunting season does not interfere with other\nhunting seasons in New York and this modest extension would help in\nproper management. of the deer population.\n\nPRIOR LEGISLATIVE HISTORY: New bill.\n\nFISCAL IMPLICATIONS: None.\n\nEFFECTIVE DATE: This act shall take effect on the 60th day after it\nshall have become a law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6325",
+    "publishDate": "2014-01-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6325",
+ "basePrintNoStr": "S6325-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-01-14",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2014-01-14T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6325",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2014-01-14T13:40:37",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2014-01-14T13:40:37",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 62,
+   "fullName": "George D. Maziarz",
+   "imgName": "George D. Maziarz.jpg",
+   "incumbent": false,
+   "memberId": 411,
+   "sessionMemberId": 167,
+   "sessionYear": 2013,
+   "shortName": "MAZIARZ"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-03-10",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides that muzzle-loading deer hunting season in the southern zone shall be for not less than 14 calendar days in certain wildlife management areas.",
+ "title": "Relates to muzzle-loading deer hunting season in the southern zone",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

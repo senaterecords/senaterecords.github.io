@@ -1,0 +1,873 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1978",
+     "basePrintNoStr": "S1978-2023",
+     "printNo": "S1978",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1978",
+     "basePrintNoStr": "S1978-2023",
+     "printNo": "S1978",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-02-03",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1978",
+     "basePrintNoStr": "S1978-2023",
+     "printNo": "S1978A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-02-03",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1978A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1978",
+     "basePrintNoStr": "S1978-2023",
+     "printNo": "S1978A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 4,
+    "text": "REFERRED TO LABOR"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the labor law, in relation to raising the minimum wage\nannually by a percentage which is based on inflation and providing for the\nenforcement of such minimum wage; and to repeal subdivision 6 of section 652\nof the labor law relating thereto",
+    "basePrintNo": "S1978",
+    "basePrintNoStr": "S1978-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2005,
+       "sessionYear": 2023,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §652, rpld §652 sub 6, ren §665 to be §669, add §665, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S1978\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to raising the minimum wage\nannually by a percentage which is based on inflation and providing for\nthe enforcement of such minimum wage; and to repeal subdivision 6 of\nsection 652 of the labor law relating thereto\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nEnsures that the minimum wage keeps up with rising prices.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: This act shall be known and cited as the Raise the Wage Act\n\nSection 2: Legislative findings\n\nSection 3: Amends the labor law Section 652 to include rates of minimum\nwage 2023. 2024 2025, 2026 and index to inflation after said date. After\n2026, the Commissioner of Labor will publish a new, increased minimum\nwage on or before October first of each year. The new wage will be the\ncurrent minimum wage increased by June. The June rate of inflation as\nmeasured by the consumer price index for all urban consumers (CPI-U).\nWhen inflation is positive, the new minimum wage takes effect on Decem-\nber 31st.\n\nSection 4: Subdivision 6 of section 652 of the labor law is REPEALED.\n\nSection 5. Established local wage enforcement authority for a city of\none million or more. Section 6: Effective date.\n\n \nJUSTIFICATION:\n\nIn New York State, roughly one million workers--16.4% of New York\nState's workforce-earn the minimum wage. Beginning in 2012, the nation-\nwide Fight for Fifteen movement publicized the inadequacy of the minimum\nwage and in part led state lawmakers to gradually increase the minimum\nwage in New York. New York City reached a $15 minimum wage in 2019, and\nthe rest of downstate to attain $15 minimum wage in 2021. The upstate\nminimum wage is currently $14.20. Current law would increase upstate's\nminimum wage each year according to inflation and other indicators as\ndetermined by the Commissioner until it reaches $15.\n\nHistorically yearly gains in inflation have decreased the value of the\nminimum wage, chipping away at workers purchasing power and leading to\nhardship or many. Increases in minimum wage historically have not\noccurred each year in New York State. Each year that inflation increases\nand wages at the bottom do not workers in the lowest-paying positions\nstruggle to pay bills, feed their families, and access transportation\nAcross the state, minimum wage workers are disproportionately women and\npeople of color. groups that also face significant barriers to advance-\nment.\n\nBy joining eighteen other states that have tied the minimum wage to\ninflation minimum wage workers in New York State will maintain their\npurchasing power without yearly legislative action\n \nLEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1978",
+    "publishDate": "2023-01-17",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB665"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "LAB652"
+       ],
+       "size": 1
+      },
+      "RENAME": {
+       "items": [
+        "LAB665"
+       ],
+       "size": 1
+      },
+      "REPEAL": {
+       "items": [
+        "LAB652"
+       ],
+       "size": 1
+      }
+     },
+     "size": 4
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2204",
+       "basePrintNoStr": "A2204-2023",
+       "printNo": "A2204",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the labor law, in relation to raising the minimum wage\nannually by a percentage which is based on inflation and providing for the\nenforcement of such minimum wage; and to repeal subdivision 6 of section 652\nof the labor law relating thereto",
+    "basePrintNo": "S1978",
+    "basePrintNoStr": "S1978-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2005,
+       "sessionYear": 2023,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Iwen Chu",
+       "imgName": "1331_Iwen_Chu.jpg",
+       "incumbent": false,
+       "memberId": 1514,
+       "sessionMemberId": 1877,
+       "sessionYear": 2023,
+       "shortName": "CHU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2035,
+       "sessionYear": 2023,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2037,
+       "sessionYear": 2023,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 29
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §652, rpld §652 sub 6, ren §665 to be §669, add §665, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S1978A\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to raising the minimum wage\nannually by a percentage which is based on inflation and providing for\nthe enforcement of such minimum wage; and to repeal subdivision 6 of\nsection 652 of the labor law relating thereto\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nEnsures that the minimum wage keeps up with rising prices.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: This act shall be known and cited as the Raise the Wage Act\n\nSection 2: Legislative findings\n\nSection 3: Amends the labor law Section 652 to include rates of minimum\nwage 2023, 2024, 2025, 2026 and index to inflation after said date.\nAfter 2026, the Commissioner of Labor will publish a new, increased\nminimum wage on or before October first of each year. The new wage will\nbe the current minimum wage increased by June. The June rate of\ninflation as measured by the consumer price index for all urban consum-\ners (CPI-U). When inflation is positive, the new minimum wage takes\neffect on December 31st.\n\nSection 4: Subdivision 6 of section 652 of the labor law is REPEALED.\n\nSection 5. Established local wage enforcement authority for a city of\none million or more.\n\nSection 6: Effective date.\n\n \nJUSTIFICATION:\n\nIn New York State, roughly one million workers--16.4% of New York\nState's workforce-eam the minimum wage. Beginning in 2012, the nation-\nwide Fight for Fifteen movement publicized the inadequacy of the minimum\nwage and in part led state lawmakers to gradually increase the minimum\nwage in New York. New York City reached a $15 minimum wage in 2019, and\nthe rest of downstate to attain a $15 minimum wage in 2021. The upstate\nminimum wage is currently $14.20. Current law would increase upstate's\nminimum wage each year according to inflation and other indicators as\ndetermined by the Commissioner until it reaches $15.\n\nHistorically, yearly gains in inflation have decreased the value of the\nminimum wage, chipping away at workers' purchasing power and leading to\nhardship for many. Increases in minimum wage historically have not\noccurred each year in New York State. Each year that inflation increases\nand wages at the bottom do not, workers in the lowest-paying positions\nstruggle to pay bills, feed their families, and access transportation.\nAcross the state, minimum wage workers are disproportionately women and\npeople of color, groups that also face significant barriers to advance-\nment.\n\n\nBy joining eighteen other states that have tied the minimum wage to\ninflation, minimum wage workers in New York State will maintain their\npurchasing power without yearly legislative action.\n\n \nLEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1978A",
+    "publishDate": "2023-02-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB665"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "LAB652"
+       ],
+       "size": 1
+      },
+      "RENAME": {
+       "items": [
+        "LAB665"
+       ],
+       "size": 1
+      },
+      "REPEAL": {
+       "items": [
+        "LAB652"
+       ],
+       "size": 1
+      }
+     },
+     "size": 4
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1978",
+ "basePrintNoStr": "S1978-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Labor",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2023-01-17T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2023-02-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S3062",
+    "basePrintNoStr": "S3062-2021",
+    "printNo": "S3062D",
+    "session": 2021,
+    "version": "D"
+   },
+   {
+    "basePrintNo": "S9085",
+    "basePrintNoStr": "S9085-2019",
+    "printNo": "S9085",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S1978A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-17T15:47:53.256946",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2023-02-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-01-17T15:47:53.256946",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 13,
+   "fullName": "Jessica Ramos",
+   "imgName": "1046_Jessica_Ramos.jpg",
+   "incumbent": true,
+   "memberId": 1226,
+   "sessionMemberId": 2030,
+   "sessionYear": 2023,
+   "shortName": "RAMOS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Labor",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Increases the minimum wage annually; provides for the enforcement of the minimum wage; repeals certain provisions of law relating thereto.",
+ "title": "Increases the minimum wage annually; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

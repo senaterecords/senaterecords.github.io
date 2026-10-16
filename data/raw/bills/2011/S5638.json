@@ -1,0 +1,257 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5638",
+     "basePrintNoStr": "S5638-2011",
+     "printNo": "S5638",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5638",
+     "basePrintNoStr": "S5638-2011",
+     "printNo": "S5638",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-15",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5638",
+     "basePrintNoStr": "S5638-2011",
+     "printNo": "S5638",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-15",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1294"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5638",
+     "basePrintNoStr": "S5638-2011",
+     "printNo": "S5638",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-15",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A2930A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the village law and the public officers law, in relation to the office of the assessor of the village of Haverstraw, Rockland county",
+    "basePrintNo": "S5638",
+    "basePrintNoStr": "S5638-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3-300, Vil L; amd §3, Pub Off L",
+    "lawSection": "Village Law",
+    "memo": "BILL NUMBER:S5638\n\nTITLE OF BILL:\nAn act\nto amend the village law and the public officers law,\nin relation to the office of the assessor of\nthe village of Haverstraw, Rockland county\n\nPURPOSE OF THE BILL:\nThis bill would allow the village of Haverstraw\nto hire an assessor from outside the village, who is a resident of\nthe county of Rockland, Orange, Putnam or Westchester.\n\nSUMMARY OF PROVISIONS:\nSection 1 amends section 3-300 of the village\nlaw by adding a new subdivision 20 as it relates to allowing the\nvillage of Haverstraw to have a person hold the office of assessor\nwho is not a resident of the village, provided that such person\nresides in the counties of Rockland, Westchester, Orange, or Putnam.\n\nSection two amends section three of the public officers law by adding\na new subdivision 58 that does not require a person holding the\noffice of assessor to reside within the village, provided the\nindividual resides within the county the village is located or an\nadjoining county within the state of New York.\n\nSection three relates to the effective date.\n\nJUSTIFICATION:\nThe village of Haverstraw has had trouble finding an\nappropriate assessor given the limitation that the assessor must in\nthe village. This bill will give them the flexibility to hire a\ncandidate as long as they are a resident of Rockland, Putnam, Orange\nor Westchester, thereby making it easier to find a well qualified\ncandidate.\n\nPRIOR LEGISLATIVE HISTORY:\nA.6300 of 2009-10.\n\nFISCAL IMPLICATIONS FOR STATE:\nNone.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5638",
+    "publishDate": "2011-06-08",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2930",
+       "basePrintNoStr": "A2930-2011",
+       "printNo": "A2930A",
+       "session": 2011,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5638",
+ "basePrintNoStr": "S5638-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 53,
+    "year": 2011
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-15",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-15",
+    "billCalNo": 1294,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2011-06-08T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2011-06-15T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5638",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-06-08T16:43:30",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-06-08T16:43:30",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 38,
+   "fullName": "David Carlucci",
+   "imgName": "370_david_carlucci.jpg",
+   "incumbent": false,
+   "memberId": 370,
+   "sessionMemberId": 64,
+   "sessionYear": 2011,
+   "shortName": "CARLUCCI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-15",
+  "billCalNo": 1294,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2930",
+  "basePrintNoStr": "A2930-2011",
+  "session": 2011
+ },
+ "summary": "Provides that the village board of trustees of the incorporated village of Haverstraw, Rockland county, may by resolution, provide that the office of assessor of such village may be held by a person who is not a resident of such village, provided that such person resides in Rockland, Westchester, Orange or Putnam county.",
+ "title": "Relates to the office of the assessor of the village of Haverstraw, Rockland county, state of New York",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

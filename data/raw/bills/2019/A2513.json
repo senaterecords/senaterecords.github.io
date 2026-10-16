@@ -1,0 +1,955 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A2513",
+     "basePrintNoStr": "A2513-2019",
+     "printNo": "A2513",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-01-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO GOVERNMENTAL OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A2513",
+     "basePrintNoStr": "A2513-2019",
+     "printNo": "A2513",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-01-08",
+    "sequenceNo": 2,
+    "text": "REFERRED TO GOVERNMENTAL OPERATIONS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to repeal section 50-a of the civil rights law, relating to personnel\nrecords of police officers, firefighters and correction officers",
+    "basePrintNo": "A2513",
+    "basePrintNoStr": "A2513-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 29,
+       "fullName": "Alicia Hyndman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1089,
+       "sessionMemberId": 1383,
+       "sessionYear": 2019,
+       "shortName": "HYNDMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1338,
+       "sessionYear": 2019,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 55,
+       "fullName": "Latrice Walker",
+       "imgName": "896_latrice_walker.jpg",
+       "incumbent": true,
+       "memberId": 896,
+       "sessionMemberId": 1370,
+       "sessionYear": 2019,
+       "shortName": "WALKER"
+      },
+      {
+       "alternate": true,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1315,
+       "sessionYear": 2019,
+       "shortName": "GOTTFRIED R"
+      },
+      {
+       "alternate": true,
+       "chamber": "ASSEMBLY",
+       "districtCode": 141,
+       "fullName": "Crystal Peoples-Stokes",
+       "imgName": "591_crystal_peoples-stokes.jpg",
+       "incumbent": true,
+       "memberId": 591,
+       "sessionMemberId": 1328,
+       "sessionYear": 2019,
+       "shortName": "PEOPLES-STOKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 66,
+       "fullName": "Deborah Glick",
+       "imgName": "519_deborah_glick.jpg",
+       "incumbent": true,
+       "memberId": 519,
+       "sessionMemberId": 1310,
+       "sessionYear": 2019,
+       "shortName": "GLICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 73,
+       "fullName": "Dan Quart",
+       "imgName": "618_dan_quart.jpg",
+       "incumbent": false,
+       "memberId": 618,
+       "sessionMemberId": 1336,
+       "sessionYear": 2019,
+       "shortName": "QUART"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 58,
+       "fullName": "N. Nick Perry",
+       "imgName": "511_n._nick_perry.jpg",
+       "incumbent": false,
+       "memberId": 511,
+       "sessionMemberId": 1308,
+       "sessionYear": 2019,
+       "shortName": "PERRY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Inez E. Dickens",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1128,
+       "sessionMemberId": 1398,
+       "sessionYear": 2019,
+       "shortName": "DICKENS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 60,
+       "fullName": "Charles Barron",
+       "imgName": "493_charles_barron.jpg",
+       "incumbent": false,
+       "memberId": 493,
+       "sessionMemberId": 1430,
+       "sessionYear": 2019,
+       "shortName": "BARRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Harvey Epstein",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1144,
+       "sessionMemberId": 1409,
+       "sessionYear": 2019,
+       "shortName": "EPSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Walter T. Mosley",
+       "imgName": "663_walter_t._mosley.jpg",
+       "incumbent": false,
+       "memberId": 663,
+       "sessionMemberId": 1356,
+       "sessionYear": 2019,
+       "shortName": "MOSLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 1255,
+       "sessionYear": 2019,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 85,
+       "fullName": "Marcos Crespo",
+       "imgName": "537_marcos_crespo.jpg",
+       "incumbent": false,
+       "memberId": 537,
+       "sessionMemberId": 1440,
+       "sessionYear": 2019,
+       "shortName": "CRESPO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 1240,
+       "sessionYear": 2019,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 35,
+       "fullName": "Jeffrion Aubry",
+       "imgName": "460_jeffrion_aubry.jpg",
+       "incumbent": false,
+       "memberId": 460,
+       "sessionMemberId": 1294,
+       "sessionYear": 2019,
+       "shortName": "AUBRY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Anthony D'Urso",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1130,
+       "sessionMemberId": 1400,
+       "sessionYear": 2019,
+       "shortName": "D'URSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 72,
+       "fullName": "Carmen De La Rosa",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1129,
+       "sessionMemberId": 1399,
+       "sessionYear": 2019,
+       "shortName": "DE LA ROSA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 80,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": false,
+       "memberId": 1146,
+       "sessionMemberId": 1410,
+       "sessionYear": 2019,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Victor M. Pichardo",
+       "imgName": "667_victor_m._pichardo.jpg",
+       "incumbent": false,
+       "memberId": 667,
+       "sessionMemberId": 1359,
+       "sessionYear": 2019,
+       "shortName": "PICHARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 36,
+       "fullName": "Aravella Simotas",
+       "imgName": "612_aravella_simotas.jpg",
+       "incumbent": false,
+       "memberId": 612,
+       "sessionMemberId": 1333,
+       "sessionYear": 2019,
+       "shortName": "SIMOTAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 46,
+       "fullName": "Mathylde Frontus",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1256,
+       "sessionMemberId": 1254,
+       "sessionYear": 2019,
+       "shortName": "FRONTUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Jaime R. Williams",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1116,
+       "sessionMemberId": 1389,
+       "sessionYear": 2019,
+       "shortName": "WILLIAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 78,
+       "fullName": "Jose Rivera",
+       "imgName": "530_jose_rivera.jpg",
+       "incumbent": false,
+       "memberId": 530,
+       "sessionMemberId": 1316,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 79,
+       "fullName": "Michael Blake",
+       "imgName": "899_michael_blake.jpg",
+       "incumbent": false,
+       "memberId": 899,
+       "sessionMemberId": 1372,
+       "sessionYear": 2019,
+       "shortName": "BLAKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 40,
+       "fullName": "Ron Kim",
+       "imgName": "659_ron_kim.jpg",
+       "incumbent": true,
+       "memberId": 659,
+       "sessionMemberId": 1353,
+       "sessionYear": 2019,
+       "shortName": "KIM"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 71,
+       "fullName": "Al Taylor",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1141,
+       "sessionMemberId": 1408,
+       "sessionYear": 2019,
+       "shortName": "TAYLOR"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 1376,
+       "sessionYear": 2019,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 31,
+       "fullName": "Michele Titus",
+       "imgName": "456_michele_titus.jpg",
+       "incumbent": false,
+       "memberId": 456,
+       "sessionMemberId": 1291,
+       "sessionYear": 2019,
+       "shortName": "TITUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 65,
+       "fullName": "Yuh-Line Niou",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1132,
+       "sessionMemberId": 1402,
+       "sessionYear": 2019,
+       "shortName": "NIOU"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 56,
+       "fullName": "Tremaine Wright",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1134,
+       "sessionMemberId": 1404,
+       "sessionYear": 2019,
+       "shortName": "WRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 51,
+       "fullName": "Felix Ortiz",
+       "imgName": "504_felix_ortiz.jpg",
+       "incumbent": false,
+       "memberId": 504,
+       "sessionMemberId": 1307,
+       "sessionYear": 2019,
+       "shortName": "ORTIZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": false,
+       "memberId": 657,
+       "sessionMemberId": 1351,
+       "sessionYear": 2019,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 44,
+       "fullName": "Robert C. Carroll",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1122,
+       "sessionMemberId": 1393,
+       "sessionYear": 2019,
+       "shortName": "CARROLL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 108,
+       "fullName": "John T. McDonald III",
+       "imgName": "662_john_t._mcdonald_iii.jpg",
+       "incumbent": true,
+       "memberId": 662,
+       "sessionMemberId": 1355,
+       "sessionYear": 2019,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 27,
+       "fullName": "Daniel Rosenthal",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1139,
+       "sessionMemberId": 1406,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL D"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 125,
+       "fullName": "Barbara Lifton",
+       "imgName": "575_barbara_lifton.jpg",
+       "incumbent": false,
+       "memberId": 575,
+       "sessionMemberId": 1323,
+       "sessionYear": 2019,
+       "shortName": "LIFTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 1364,
+       "sessionYear": 2019,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 25,
+       "fullName": "Nily Rozic",
+       "imgName": "669_nily_rozic.jpg",
+       "incumbent": true,
+       "memberId": 669,
+       "sessionMemberId": 1360,
+       "sessionYear": 2019,
+       "shortName": "ROZIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 93,
+       "fullName": "David Buchwald",
+       "imgName": "654_david_buchwald.jpg",
+       "incumbent": false,
+       "memberId": 654,
+       "sessionMemberId": 1348,
+       "sessionYear": 2019,
+       "shortName": "BUCHWALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Michael DenDekker",
+       "imgName": "459_michael_dendekker.jpg",
+       "incumbent": false,
+       "memberId": 459,
+       "sessionMemberId": 1293,
+       "sessionYear": 2019,
+       "shortName": "DENDEKKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 50,
+       "fullName": "Joseph Lentol",
+       "imgName": "503_joseph_lentol.jpg",
+       "incumbent": false,
+       "memberId": 503,
+       "sessionMemberId": 1306,
+       "sessionYear": 2019,
+       "shortName": "LENTOL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Robert J. Rodriguez",
+       "imgName": "616_robert_j._rodriguez.jpg",
+       "incumbent": false,
+       "memberId": 616,
+       "sessionMemberId": 1335,
+       "sessionYear": 2019,
+       "shortName": "RODRIGUEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 128,
+       "fullName": "Pamela J. Hunter",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1105,
+       "sessionMemberId": 1387,
+       "sessionYear": 2019,
+       "shortName": "HUNTER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 103,
+       "fullName": "Kevin Cahill",
+       "imgName": "551_kevin_cahill.jpg",
+       "incumbent": false,
+       "memberId": 551,
+       "sessionMemberId": 1420,
+       "sessionYear": 2019,
+       "shortName": "CAHILL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 42,
+       "fullName": "Rodneyse Bichotte Hermelyn",
+       "imgName": "898_rodneyse_bichotte.jpg",
+       "incumbent": true,
+       "memberId": 898,
+       "sessionMemberId": 1371,
+       "sessionYear": 2019,
+       "shortName": "BICHOTTE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 127,
+       "fullName": "Albert A. Stirpe",
+       "imgName": "571_albert_a._stirpe.jpg",
+       "incumbent": true,
+       "memberId": 571,
+       "sessionMemberId": 1448,
+       "sessionYear": 2019,
+       "shortName": "STIRPE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 77,
+       "fullName": "Latoya Joyner",
+       "imgName": "902_latoya_joyner.jpg",
+       "incumbent": false,
+       "memberId": 902,
+       "sessionMemberId": 1375,
+       "sessionYear": 2019,
+       "shortName": "JOYNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 106,
+       "fullName": "Didi Barrett",
+       "imgName": "625_didi_barrett.jpg",
+       "incumbent": true,
+       "memberId": 625,
+       "sessionMemberId": 1339,
+       "sessionYear": 2019,
+       "shortName": "BARRETT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 91,
+       "fullName": "Steven Otis",
+       "imgName": "665_steven_otis.jpg",
+       "incumbent": true,
+       "memberId": 665,
+       "sessionMemberId": 1357,
+       "sessionYear": 2019,
+       "shortName": "OTIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 54,
+       "fullName": "Erik Dilan",
+       "imgName": "900_erik_dilan.jpg",
+       "incumbent": true,
+       "memberId": 900,
+       "sessionMemberId": 1373,
+       "sessionYear": 2019,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 129,
+       "fullName": "William Magnarelli",
+       "imgName": "570_william_magnarelli.jpg",
+       "incumbent": true,
+       "memberId": 570,
+       "sessionMemberId": 1428,
+       "sessionYear": 2019,
+       "shortName": "MAGNARELLI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 137,
+       "fullName": "David Gantt",
+       "imgName": "583_david_gantt.jpg",
+       "incumbent": false,
+       "memberId": 583,
+       "sessionMemberId": 1425,
+       "sessionYear": 2019,
+       "shortName": "GANTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 43,
+       "fullName": "Diana Richardson",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 912,
+       "sessionMemberId": 1380,
+       "sessionYear": 2019,
+       "shortName": "RICHARDSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1324,
+       "sessionYear": 2019,
+       "shortName": "LUPARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1341,
+       "sessionYear": 2019,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 11,
+       "fullName": "Kimberly Jean-Pierre",
+       "imgName": "901_jean-pierre.jpg",
+       "incumbent": false,
+       "memberId": 901,
+       "sessionMemberId": 1374,
+       "sessionYear": 2019,
+       "shortName": "JEAN-PIERRE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 53,
+       "fullName": "Maritza Davila",
+       "imgName": "655_maritza_davila.jpg",
+       "incumbent": true,
+       "memberId": 655,
+       "sessionMemberId": 1349,
+       "sessionYear": 2019,
+       "shortName": "DAVILA"
+      }
+     ],
+     "size": 61
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld §50-a, Civ Rts L",
+    "lawSection": "Civil Rights Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      }
+     ],
+     "size": 1
+    },
+    "printNo": "A2513",
+    "publishDate": "2019-01-23",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3695",
+       "basePrintNoStr": "S3695-2019",
+       "printNo": "S3695",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A2513",
+ "basePrintNoStr": "A2513-2019",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-01-08",
+    "billCalNo": null,
+    "committeeName": "Governmental Operations",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Operations",
+    "referenceDate": "2019-01-23T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Operations",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A3333",
+    "basePrintNoStr": "A3333-2017",
+    "printNo": "A3333",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A9332",
+    "basePrintNoStr": "A9332-2015",
+    "printNo": "A9332",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "A2513",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-23T16:26:09.671984",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-01-23T15:53:53.03814",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 69,
+   "fullName": "Daniel O'Donnell",
+   "imgName": "522_daniel_o'donnell.jpg",
+   "incumbent": false,
+   "memberId": 522,
+   "sessionMemberId": 1313,
+   "sessionYear": 2019,
+   "shortName": "O'DONNELL"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-01-08",
+  "billCalNo": null,
+  "committeeName": "Governmental Operations",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Repeals provisions relating to personnel records of police officers, firefighters and correction officers.",
+ "title": "Repeals section 50-a of the civil rights law",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

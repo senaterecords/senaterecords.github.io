@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3898",
+     "basePrintNoStr": "S3898-2011",
+     "printNo": "S3898",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3898",
+     "basePrintNoStr": "S3898-2011",
+     "printNo": "S3898",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-28",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to direct the department of environmental conservation to authorize the installation of a dry hydrant on Colgate Lake in the town of Jewett, county of Greene",
+    "basePrintNo": "S3898",
+    "basePrintNoStr": "S3898-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Environmental Conservation",
+    "memo": "BILL NUMBER:S3898\n\nTITLE OF BILL:\nAn act\nto direct the department of environmental conservation to authorize the\ninstallation of a dry hydrant on Colgate Lake in the town of Jewett,\ncounty of Greene\n\nPURPOSE OR GENERAL IDEA OF BILL:\nAuthorizes the Department of\nEnvironmental Conservation (DEC) to permit a dry hydrant for the Town\nof Jewett.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nThis legislation would amend the State\nLaw to permit the construction of a dry hydrant as defined by the\nstate fire code at Colgate Lake in the Town of Jewett.\n\nThe second section of this bill provides for an immediate effective\ndate.\n\nJUSTIFICATION:\nThe Catskill Park State Land Master Plan does not allow\nthe installation of dry hydrants as fire control devices because they\nare not defined as conforming use structures in the park's current\nland use regulations. The Town of Jewett appealed to DEC as the\npark's master plan was revised just two years ago so that these\nstructures would be included in the updated use plan, but the\ndepartment rejected the town's request to add the necessary language.\n\nThe Town of Jewett's officials, fire district and safety\nadministrators, and residents feel that this element is a necessary\naddition for the health and safety of the park's surrounding\ncommunities.\nAccordingly, this legislation seeks to authorize the town to install a\ndry hydrant at Colgate Lake for public safety and fire control\npurposes.\n\nPRIOR LEGISLATIVE HISTORY:\nNew Bill.\n\nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\nNone to the state. Costs associated with installing the dry\nhydrant and necessary fire control infrastructure would be borne\nby the Town of Jewett or appropriate fire district.\n\nEFFECTIVE DATE:\nThis act would take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3898",
+    "publishDate": "2011-03-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6351",
+       "basePrintNoStr": "A6351-2011",
+       "printNo": "A6351",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3898",
+ "basePrintNoStr": "S3898-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-03-09",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2011-03-09T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3898",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-03-09T10:06:54",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-03-09T10:06:54",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 51,
+   "fullName": "James L. Seward",
+   "imgName": "371_james_l._seward.jpg",
+   "incumbent": false,
+   "memberId": 371,
+   "sessionMemberId": 65,
+   "sessionYear": 2011,
+   "shortName": "SEWARD"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-03-28",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Directs the department of environmental conservation to authorize the installation of a dry hydrant on Colgate Lake in the town of Jewett, county of Greene.",
+ "title": "Directs the department of environmental conservation to authorize the installation of a dry hydrant on Colgate Lake in the town of Jewett, county of Greene",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

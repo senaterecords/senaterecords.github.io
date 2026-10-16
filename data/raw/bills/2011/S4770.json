@@ -1,0 +1,240 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4770",
+     "basePrintNoStr": "S4770-2011",
+     "printNo": "S4770",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-04-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4770",
+     "basePrintNoStr": "S4770-2011",
+     "printNo": "S4770",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-16",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4770",
+     "basePrintNoStr": "S4770-2011",
+     "printNo": "S4770",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-16",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1342"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4770",
+     "basePrintNoStr": "S4770-2011",
+     "printNo": "S4770",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-20",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A6056A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S4770",
+    "basePrintNoStr": "S4770-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Real Property Taxation",
+    "memo": "BILL NUMBER:S4770\n\nTITLE OF BILL:\nAn act\nauthorizing the assessor of the town of Rockland to accept applications\nfor exemption from real property taxation from\nthe Roscoe-Rockland fire district\n\nPURPOSE:\nTo allow the Board of Assessors of the Town of Rockland to accept an\napplication for tax exemption from the Roscoe-Rockland Fire District.\n\nSUMMARY OF PROVISIONS:\nAuthorizes the Board of Assessors of the Town of Rockland to accept an\napplication for tax exemption from the Roscoe-Rockland Fire District\nnotwithstanding that such application is otherwise untimely. For the\nparcels identified as lots 33.-1-43.2, 33.-1-44 and 33.-1-45.\n\nEXISTING LAW:\nDoes not allow the Board to accept an application for tax exemption\noutside the statutorily prescribed dates.\n\nJUSTIFICATION:\nThe Roscoe-Rockland Fire District acquired title with financial\ncapital assistance from the State of New York to certain real\nproperty after taxable status date. The property is in the Town of\nRockland. The Fire District is rural and has a minimal real property\ntax base. The purchase of the property was complicated by the delays\nin receiving the capital grant of $600,000 which was provided in\nGovernor Paterson's 2009 budget. The tax bill they are liable for is\napproximately $31,078. That $31,078 would be better spent on\nfirefighter equipment.\n\nThe Town of Rockland has provided a Resolution dated February 3, 2011\nin support of this legislation.\n\nLEGISLATIVE HISTORY:\nNew Bill.\n\nFISCAL IMPLICATIONS:\nNone.\n\nLOCAL FISCAL IMPLICATIONS:\nThe total real property tax bill is approximately $31,078.\n\nEFFECTIVE DATE:\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4770",
+    "publishDate": "2011-04-20",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6056",
+       "basePrintNoStr": "A6056-2011",
+       "printNo": "A6056A",
+       "session": 2011,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4770",
+ "basePrintNoStr": "S4770-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2011
+   }
+  ],
+  "size": 2
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-16",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-16",
+    "billCalNo": 1342,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2011-04-20T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2011-06-16T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4770",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-04-20T11:54:58",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-04-20T11:54:58",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": null,
+  "redistricting": false,
+  "rules": true
+ },
+ "status": {
+  "actionDate": "2011-06-16",
+  "billCalNo": 1342,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A6056",
+  "basePrintNoStr": "A6056-2011",
+  "session": 2011
+ },
+ "summary": "Authorizes the town of Rockland to accept an application for real property tax exemption from the Roscoe-Rockland fire district.",
+ "title": "Authorizes the town of Rockland to accept an application for real property tax exemption from the Roscoe-Rockland fire district",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

@@ -1,0 +1,888 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-27",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-09",
+    "sequenceNo": 3,
+    "text": "1ST REPORT CAL.900"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-10",
+    "sequenceNo": 4,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-14",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-24",
+    "sequenceNo": 6,
+    "text": "AMENDED ON THIRD READING (T) 5007A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-29",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A8117B"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S5007",
+    "basePrintNoStr": "S5007-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 14,
+       "sessionYear": 2009,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 12,
+       "sessionYear": 2009,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 58,
+       "sessionYear": 2009,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Eric T. Schneiderman",
+       "imgName": "Eric T. Schneiderman.jpg",
+       "incumbent": false,
+       "memberId": 444,
+       "sessionMemberId": 17,
+       "sessionYear": 2009,
+       "shortName": "SCHNEIDERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 42,
+       "sessionYear": 2009,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 26,
+       "sessionYear": 2009,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6951, Ed L",
+    "lawSection": "Education Law",
+    "memo": " BILL NUMBER:  S5007\n\n TITLE OF BILL :\nAn act to amend the education law, in relation to the definition of\nthe practice of midwifery\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nTo eliminate the requirement for a written practice agreement.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nThis legislation amends subdivision 1 and 2 of section 6951 of the\nEducation Law by eliminating the requirement for a written practice\nagreement.\n\n JUSTIFICATION :\nThis bill will amend the Education Law to eliminate the requirement\nfor a written practice agreement.  This bill will not expand the scope\nof practice of licensed midwives.\n\nMidwives are an integral part of our health care system. Although\nmidwives have been educated in universities for over fifty years, the\nMidwifery Practice Act was not passed until 1992. To date, more than\n1300 midwives have been licensed by the New York State Education\nDepartment for practice in a variety of settings, including private\noffices, public health clinics, hospitals, birth centers and homes.\nMidwives attend approximately 10% of all births (15% of all vaginal\nbirths) in New York State every year and are proud of the lower\ncesarean rates, shorter hospital stays and higher breastfeeding rates\namong the women they serve. Midwives provide management of normal\npregnancies, child birth and postpartum care as well as primary\npreventive reproductive health care of essentially healthy women,\nincluding newborn evaluation, resuscitation and referral for infants.\nNew York State licensed midwives also provide health care to\npre-adolescent, adolescent and adult women throughout their life span,\nincluding primary well woman health care, gynecologic care and care\nduring and after pregnancy. In addition, licensed midwives prescribe\nmedications, order laboratory tests and refer to other health care\nproviders. Midwives have been and continue to be a vital component of\nour health care delivery system in New York State.\n\nUnder the Midwifery Practice Act, the New York State Board of\nMidwifery outlines rigorous educational requirements and regulations\nfor the practice of midwifery. Pursuant to their scope of practice, as\nwell as their professional and ethical obligations, licensed midwives\nprovide services to their clients, with referral, collaboration and\nconsultation. By removing the requirement for a \"written practice\nagreement,\" this bill will promote and enhance access to health care\nservices, especially in rural and lower-income urban areas, and\nincrease the quality of care for those women who choose midwifery\nservices.\n\nMidwives currently practice in 15 states (AK, AZ, CT, DC, ID, IA, ME,\nMN, MT, NH, NM, OR, RI, W A, WY) without signed practice agreements.\nLike these and many other states, New York is experiencing a shortage\nin its health care workforce, especially Ob-Gyns and primary care\nproviders.  According to the New York Department of Health (\"NYDOH\"),\nthe North Country region's primary care physician supply decreased by\n8% between 2001 and 2005 and, in the nine-county Southern Tier region,\nthe number of OB/GYNs declined by 28%. In addition, NYDOH statistics\nfor 2004-2006 show that there was late or no prenatal care in almost\n7% of all births in Cattaraugus County and in over 8% of all births in\nQueens County. Access to quality prenatal and post-partum care is\nessential to achieve good health outcomes, and have healthy mothers\nand healthy babies. For many women in New York's rural and\n\nlower-income urban areas, licensed midwives are their only source of\nhealth care and point of access to the health care system.\n\nLicensed midwives need to be recognized as full partners in New York's\nhealth care delivery system in order to ensure that women in New York\nhave access to comprehensive and quality health care services.  Too\noften, however, the written practice agreement requirement stands as\nan obstacle to midwifery care.  For example, in certain rural\ncommunities, there are no physicians available to sign an agreement.\nMoreover, even when a midwife is able to secure a written practice\nagreement, it has served as the basis for limiting the practice of\nmidwifery by wrongly implying that midwives require direct supervision\nand interfering with effective coordination of care.\n\nAs health care professionals that serve and care for the needs women\nand babies, including those in New York's underserved areas, licensed\nmidwives play a vital role in our health care system. The requirement\nfor a written practice agreement restricts access to care and the\nchoice of a licensed midwife as a health care provider for women in\nNew York State. Safe, quality health care can best be provided to\nwomen and their infants when policymakers develop laws and regulations\nthat foster midwives' ability to provide midwifery care within their\nscope of practice while encouraging consultation, collaborative\nmanagement, and seamless referral and transfer of care when indicated.\n\n PRIOR LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5007",
+    "publishDate": "2009-06-30",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law and the insurance law, in relation to the definition of the practice of midwifery",
+    "basePrintNo": "S5007",
+    "basePrintNoStr": "S5007-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 14,
+       "sessionYear": 2009,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 12,
+       "sessionYear": 2009,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 58,
+       "sessionYear": 2009,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Eric T. Schneiderman",
+       "imgName": "Eric T. Schneiderman.jpg",
+       "incumbent": false,
+       "memberId": 444,
+       "sessionMemberId": 17,
+       "sessionYear": 2009,
+       "shortName": "SCHNEIDERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 42,
+       "sessionYear": 2009,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 26,
+       "sessionYear": 2009,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6951, Ed L; amd §§3216, 3221 & 4303, Ins L",
+    "lawSection": "Education Law",
+    "memo": "BILL NUMBER:S5007A\n\nTITLE OF BILL:\n\nAn act\nto amend the education law and the insurance law, in\nrelation to the definition of the practice of midwifery\n\nPURPOSE:\n\nTo eliminate the requirement for a written practice agreement.\n\nSUMMARY OF PROVISIONS:\n\nSection I of the bill amends subdivision I and 2 of section 6951 of\nthe Education Law by eliminating the requirement for a written\npractice agreement. It adds a requirement that the midwife have\ncollaborative relationships that provide for consultation,\ncollaborative management or referral, and emergency medical\ngynecological and/or obstetric coverage, as indicated by the health\nstatus of the patient.\n\nSections 2, 3, and 4 of the bill delete references to the written\npractice agreement in sections 3216, 3221 and 4303 of the Insurance\nLaw in relation to individual and group health insurance and managed\ncare benefits.\n\nJUSTIFICATION:\n\nThis bill will eliminate the requirement for a written practice\nagreement. This bill will not expand the scope of practice of\nlicensed midwives. The new language about collaborative relationships\nreflects current professional standards for midwifery and serves to\nprotect patients.\nThese relationships are to ensure that the midwife has access to\nappropriate health care professionals and hospital services as needed\nto provide expertise and services for the midwife's patient.\n\nThe reference to \"relationships\" (plural) does not require relating to\nmore than one provider; the midwife may have more than one of the\nreferenced \"relationships\" with a single provider. The documentation\nreferred to can be in the nature of a statement or file memorandum by\nthe midwife describing the elements of the collaborative relationship.\n\nThe provision stating that violation of the bill's provisions can be\nthe basis for professional discipline is not substantively new.\nProfessional practice in violation of the practice act is always\ngrounds for professional discipline. It is re-stated here for emphasis.\n\nMidwives are an integral part of our health care system. Although\nmidwives have been educated in universities for over fifty years, the\n\nMidwifery Practice Act was not passed until 1992. To date, more than\n1300 midwives have been licensed by the New York State Education\nDepartment for practice in a variety of settings, including private\noffices, public health clinics, hospitals, birth centers and homes.\nMidwives attend approximately 10% of all births (15% of all vaginal\nbirths) in New York State every year and are proud of the lower\ncesarean rates, shorter hospital stays and higher breastfeeding rates\namong the women they serve. Midwives provide management of normal\npregnancies, child birth and postpartum care as well as primary\npreventive reproductive health care of essentially healthy women,\nincluding newborn evaluation, resuscitation and referral for infants.\nNew York State licensed midwives also provide health care to\npre-adolescent, adolescent and adult women throughout their life\nspan, including primary well woman health care, gynecologic care and\ncare during and after pregnancy. In addition, licensed midwives\nprescribe medications, order laboratory tests and refer to other\nhealth care providers.\nMidwives have been and continue to be a vital component of our health\ncare delivery system in New York State.\n\nUnder the Midwifery Practice Act, the New York State Board of\nMidwifery outlines rigorous educational requirements and regulations\nfor the practice of midwifery. Pursuant to their scope of practice,\nas well as their professional and ethical obligations, licensed\nmidwives provide services to their clients, with referral,\ncollaboration and consultation. By removing the requirement for a\n\"written practice agreement,\" this bill will promote and enhance\naccess to health care services, especially in rural and lower-income\nurban areas, and increase the quality of care for those women who\nchoose midwifery services.\n\nMidwives currently practice in 15 states (AK, AZ, CT, DC, ID, IA, ME,\nMN, MT, NH, NM, OR, RI, WA, WY) without signed practice agreements.\nLike these and many other states, New York is experiencing a shortage\nin its health care workforce, especially Ob-Gyns and primary care\nproviders. According to the New York Department of Health (\"NYDOH\"),\nthe North Country region's primary care physician supply decreased by\n8% between 2001 and 2005 and, in the nine-county Southern Tier\nregion, the number of OB/GYNs declined by 28%. In addition, NYDOH\nstatistics for 2004-2006 show that there was late or no prenatal care\nin almost 7% of all births in Cattaraugus County and in over 8% of\nall births in Queens County. Access to quality prenatal and\npost-partum care is essential to achieve good health outcomes, and\nhave healthy mothers and healthy babies. For many women in New York's\nrural and lower-income urban areas, licensed midwives are their only\nsource of health care and point of access to the health care system.\n\nLicensed midwives need to be recognized as full partners in New York's\nhealth care delivery system in order to ensure that women in New York\nhave access to comprehensive and quality health care services. Too\noften, however, the written practice agreement requirement stands as\nan obstacle to midwifery care. For example, in certain rural\n\ncommunities, there are no physicians available to sign an agreement.\nMoreover, even when a midwife is able to secure a written practice\nagreement, it has served as the basis for limiting the practice of\nmidwifery by wrongly implying that midwives require direct\nsupervision and interfering with effective coordination of care.\n\nAs health care professionals that serve and care for the needs women\nand babies, including those in New York's underserved areas, licensed\nmidwives play a vital role in our health care system.\nThe requirement for a written practice agreement restricts access to\ncare and the choice of a licensed midwife as a health care provider\nfor women in New York State. Safe, quality health care can best be\nprovided to women and their infants when policymakers develop laws\nand regulations that foster midwives' ability to provide midwifery\ncare within their scope of practice while encouraging consultation,\ncollaborative management, and seamless referral and transfer of care\nwhen indicated.\n\nLEGISLATIVE HISTORY:\n\nNew bill.\n\nFISCAL IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\n\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5007A",
+    "publishDate": "2010-06-24",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8117",
+       "basePrintNoStr": "A8117-2009",
+       "printNo": "A8117B",
+       "session": 2009,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5007",
+ "basePrintNoStr": "S5007-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 61,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 67,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 68,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 69,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 70,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 71,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 72,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 73,
+    "year": 2010
+   }
+  ],
+  "size": 13
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-24",
+    "billCalNo": 900,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2009-04-27T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5007A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-06-30T17:23:44",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2010-06-24T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2009-06-30T17:23:44",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 29,
+   "fullName": "Thomas K. Duane",
+   "imgName": "Thomas K. Duane.jpg",
+   "incumbent": false,
+   "memberId": 387,
+   "sessionMemberId": 18,
+   "sessionYear": 2009,
+   "shortName": "DUANE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-24",
+  "billCalNo": 900,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8117",
+  "basePrintNoStr": "A8117-2009",
+  "session": 2009
+ },
+ "summary": "Relates to the definition of the practice of midwifery.",
+ "title": "Relates to the definition of the practice of midwifery",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5007",
+     "basePrintNoStr": "S5007-2009",
+     "printNo": "S5007",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Brian X. Foley",
+         "imgName": "Brian X. Foley.jpg",
+         "incumbent": false,
+         "memberId": 448,
+         "sessionMemberId": 34,
+         "sessionYear": 2009,
+         "shortName": "FOLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 54,
+         "sessionYear": 2009,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "Shirley L. Huntley",
+         "imgName": "Shirley L. Huntley.jpg",
+         "incumbent": false,
+         "memberId": 378,
+         "sessionMemberId": 10,
+         "sessionYear": 2009,
+         "shortName": "HUNTLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 31,
+         "sessionYear": 2009,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "George Onorato",
+         "imgName": "George Onorato.jpg",
+         "incumbent": false,
+         "memberId": 443,
+         "sessionMemberId": 15,
+         "sessionYear": 2009,
+         "shortName": "ONORATO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 46,
+         "sessionYear": 2009,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Eric T. Schneiderman",
+         "imgName": "Eric T. Schneiderman.jpg",
+         "incumbent": false,
+         "memberId": 444,
+         "sessionMemberId": 17,
+         "sessionYear": 2009,
+         "shortName": "SCHNEIDERMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 5,
+         "sessionYear": 2009,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 3,
+         "sessionYear": 2009,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 30,
+         "sessionYear": 2009,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 10
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "James S. Alesi",
+         "imgName": "James S. Alesi.jpg",
+         "incumbent": false,
+         "memberId": 392,
+         "sessionMemberId": 23,
+         "sessionYear": 2009,
+         "shortName": "ALESI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Darrel J. Aubertine",
+         "imgName": "Darrel J. Aubertine.jpg",
+         "incumbent": false,
+         "memberId": 451,
+         "sessionMemberId": 53,
+         "sessionYear": 2009,
+         "shortName": "AUBERTINE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 24,
+         "sessionYear": 2009,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 49,
+         "sessionYear": 2009,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 41,
+         "sessionYear": 2009,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 19,
+         "sessionYear": 2009,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 47,
+         "sessionYear": 2009,
+         "shortName": "ROBACH"
+        }
+       ],
+       "size": 7
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 29,
+         "sessionYear": 2009,
+         "shortName": "FLANAGAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-06-09",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

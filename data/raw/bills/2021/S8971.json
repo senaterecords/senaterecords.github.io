@@ -1,0 +1,544 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8971",
+     "basePrintNoStr": "S8971-2021",
+     "printNo": "S8971",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8971",
+     "basePrintNoStr": "S8971-2021",
+     "printNo": "S8971",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-23",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8971",
+     "basePrintNoStr": "S8971-2021",
+     "printNo": "S8971",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-23",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1463"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8971",
+     "basePrintNoStr": "S8971-2021",
+     "printNo": "S8971",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-25",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A10004"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public officers law, in relation to providing for a waiver\nof the residency requirement for the city attorney in the city of Saratoga\nSprings, Saratoga county",
+    "basePrintNo": "S8971",
+    "basePrintNoStr": "S8971-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3, Pub Off L",
+    "lawSection": "Public Officers Law",
+    "memo": " \nBILL NUMBER: S8971\n\nSPONSOR: JORDAN\n \nTITLE OF BILL:\n\nAn act to amend the public officers law, in relation to providing for a\nwaiver of the residency requirement for the city attorney in the city of\nSaratoga Springs, Saratoga county\n\n \nPURPOSE:\n\nThis bill permits the City of Saratoga Springs to allow through resol-\nution their city attorney to reside outside the City of Saratoga Springs\nin Saratoga County.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends section 3 of the public officers law by adding new\nsubdivision 72 to authorize the City of Saratoga Springs to appoint any\nduly licensed, qualified attorney as City Attorney provided such person\nlives within Saratoga County or an adjoining county within the State of\nNew York.\n\nSection 2 establishes the effective date.\n\n \nJUSTIFICATION:\n\nThe position of city attorney requires an attorney well-versed in the\npractice areas of city, municipal, and county law, among others.\nDespite being one of the larger population centers in Saratoga County,\nthe City of Saratoga Springs has consistently had difficulty hiring a\nlicensed, qualified attorney who resides within the city.  This bill\nwould provide Saratoga Springs with the flexibility to appoint any duly\nlicensed, qualified attorney who resides in Saratoga County or an\nadjoining county within the State of New York as city attorney.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8971",
+    "publishDate": "2022-05-03",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBO3"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A10004",
+       "basePrintNoStr": "A10004-2021",
+       "printNo": "A10004",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8971",
+ "basePrintNoStr": "S8971-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 58,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2022
+   }
+  ],
+  "size": 2
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-05-23",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2022-05-23",
+    "billCalNo": 1463,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2022-05-03T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2022-05-23T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8971",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2022-05-03T10:18:14.432117",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2022-05-03T10:18:14.432117",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 43,
+   "fullName": "Daphne Jordan",
+   "imgName": "1055_Daphne_Jordan.jpg",
+   "incumbent": false,
+   "memberId": 1235,
+   "sessionMemberId": 1815,
+   "sessionYear": 2021,
+   "shortName": "JORDAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-05-23",
+  "billCalNo": 1463,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A10004",
+  "basePrintNoStr": "A10004-2021",
+  "session": 2021
+ },
+ "summary": "Provides for a waiver of the residency requirement for the city attorney in the city of Saratoga Springs, Saratoga county, provided that such person resides in Saratoga county or an adjoining county within the state of New York.",
+ "title": "Provides for a waiver of the residency requirement for the city attorney in the city of Saratoga Springs, Saratoga county",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8971",
+     "basePrintNoStr": "S8971-2021",
+     "printNo": "S8971",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 1795,
+         "sessionYear": 2021,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1802,
+         "sessionYear": 2021,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1804,
+         "sessionYear": 2021,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1808,
+         "sessionYear": 2021,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1819,
+         "sessionYear": 2021,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1820,
+         "sessionYear": 2021,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1821,
+         "sessionYear": 2021,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 1824,
+         "sessionYear": 2021,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 1827,
+         "sessionYear": 2021,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1835,
+         "sessionYear": 2021,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 1836,
+         "sessionYear": 2021,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1841,
+         "sessionYear": 2021,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 21
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2022-05-23",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2022
+}

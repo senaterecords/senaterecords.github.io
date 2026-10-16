@@ -1,0 +1,488 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7541",
+     "basePrintNoStr": "S7541-2009",
+     "printNo": "S7541",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-04-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7541",
+     "basePrintNoStr": "S7541-2009",
+     "printNo": "S7541",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-04-27",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.436"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7541",
+     "basePrintNoStr": "S7541-2009",
+     "printNo": "S7541",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-04-28",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7541",
+     "basePrintNoStr": "S7541-2009",
+     "printNo": "S7541",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-03",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7541",
+     "basePrintNoStr": "S7541-2009",
+     "printNo": "S7541",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-04",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A10750"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to the ability of defendants to call for counsel upon being charged with a crime",
+    "basePrintNo": "S7541",
+    "basePrintNoStr": "S7541-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§120.90 & 140.20, CP L (as proposed in S.5688-D/A.8530-E)",
+    "lawSection": "Criminal Procedure Law",
+    "memo": " BILL NUMBER:  S7541\n\n TITLE OF BILL :\nAn act to amend the criminal procedure law, in relation to the ability\nof defendants to call for counsel upon being charged with a crime\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nTo amend the proposed language in legislative bill number S.5688-D and\nA.8530-E to remove the provision requiring law enforcement to grant an\narrestee access to their cell phone or other digital device for the\npurpose of locating a telephone number therein.\n\n JUSTIFICATION :\nRequiring law enforcement to permit an arrestee access to their cell\nphone for the purpose of locating a telephone number in an effort to\nassist them in contacting counsel, a relative or friend to alert them\nof their arrest is favored whenever possible, however, it will not be\nmandated at this time.\n\n PRIOR LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect on the same date and in the same manner as\na chapter of the laws of 2010 amending the criminal procedure law\nrelating to providing defendants the ability to call any telephone\nnumber located in the United States or Puerto Rico for the purpose of\nobtaining counsel and informing a relative or friend that they have\nbeen charged with a crime, as legislative bill numbers S. 5688-D and A\n8530-E take effect.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7541",
+    "publishDate": "2010-04-20",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A10750",
+       "basePrintNoStr": "A10750-2009",
+       "printNo": "A10750",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7541",
+ "basePrintNoStr": "S7541-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 41,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2010
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-04-20",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-05-03",
+    "billCalNo": 436,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2010-04-20T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7541",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-04-20T10:58:30",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-04-20T10:58:30",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 16,
+   "fullName": "Toby Ann Stavisky",
+   "imgName": "400_toby_ann_stavisky.jpg",
+   "incumbent": true,
+   "memberId": 400,
+   "sessionMemberId": 30,
+   "sessionYear": 2009,
+   "shortName": "STAVISKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-05-03",
+  "billCalNo": 436,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A10750",
+  "basePrintNoStr": "A10750-2009",
+  "session": 2009
+ },
+ "summary": "Relates to a defendant's ability to call certain persons upon being charged with a crime.",
+ "title": "Relates to a defendant's ability to call certain persons upon being charged with a crime",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7541",
+     "basePrintNoStr": "S7541-2009",
+     "printNo": "S7541",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 4,
+         "sessionYear": 2009,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 8,
+         "sessionYear": 2009,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 18,
+         "sessionYear": 2009,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 29,
+         "sessionYear": 2009,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 52,
+         "sessionYear": 2009,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "Shirley L. Huntley",
+         "imgName": "Shirley L. Huntley.jpg",
+         "incumbent": false,
+         "memberId": 378,
+         "sessionMemberId": 10,
+         "sessionYear": 2009,
+         "shortName": "HUNTLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 21,
+         "sessionYear": 2009,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 39,
+         "sessionYear": 2009,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 46,
+         "sessionYear": 2009,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 7,
+         "sessionYear": 2009,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 32,
+         "sessionYear": 2009,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "John L. Sampson",
+         "imgName": "369_john_l._sampson.jpg",
+         "incumbent": false,
+         "memberId": 369,
+         "sessionMemberId": 1,
+         "sessionYear": 2009,
+         "shortName": "SAMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Eric T. Schneiderman",
+         "imgName": "Eric T. Schneiderman.jpg",
+         "incumbent": false,
+         "memberId": 444,
+         "sessionMemberId": 17,
+         "sessionYear": 2009,
+         "shortName": "SCHNEIDERMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Daniel L. Squadron",
+         "imgName": "412_daniel_l._squadron.jpg",
+         "incumbent": false,
+         "memberId": 412,
+         "sessionMemberId": 42,
+         "sessionYear": 2009,
+         "shortName": "SQUADRON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Dale M. Volker",
+         "imgName": "Dale M. Volker.jpg",
+         "incumbent": false,
+         "memberId": 452,
+         "sessionMemberId": 57,
+         "sessionYear": 2009,
+         "shortName": "VOLKER"
+        }
+       ],
+       "size": 16
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-04-27",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

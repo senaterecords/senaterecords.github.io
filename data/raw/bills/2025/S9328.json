@@ -1,0 +1,254 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S9328",
+     "basePrintNoStr": "S9328-2025",
+     "printNo": "S9328",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-02",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9328",
+     "basePrintNoStr": "S9328-2025",
+     "printNo": "S9328",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9328",
+     "basePrintNoStr": "S9328-2025",
+     "printNo": "S9328",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1652"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9328",
+     "basePrintNoStr": "S9328-2025",
+     "printNo": "S9328",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A10518"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to granting peace\nofficer status to security officers employed by Albany Memorial Hospital,\nSamaritan Hospital, and St. Peter's Hospital",
+    "basePrintNo": "S9328",
+    "basePrintNoStr": "S9328-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2.10, CP L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": " \nBILL NUMBER: S9328\n\nSPONSOR: FAHY\n \nTITLE OF BILL:\n\nAn act to amend the criminal procedure law, in relation to granting\npeace officer status to security officers employed by Albany Memorial\nHospital, Samaritan Hospital, and St. Peter's Hospital\n\n \nPURPOSE:\n\nGrants peace officer status to security officers employed by Albany\nMemorial Hospital, Samaritan Hospital, and St. Peter's Hospital\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of the bill amends section 2.10 of the Criminal Procedure Law\nby adding a new subdivision 88 to designate security officers employed\nby Albany Memorial Hospital (600 Northern Boulevard, Albany); Samaritan\nHospital (2215 Burdett Avenue, Troy); and St.  Peter's Hospital (315\nSouth Manning Boulevard, Albany).\n\nSection 2 provides that the act shall take effect immediately.\n\n \nJUSTIFICATION:\n\nHospitals increasingly face complex public safety challenges, including\nworkplace violence, behavioral health crises, and emergency department\novercrowding. Security officers are often the first responders to inci-\ndents occurring on hospital property and must act swiftly to protect\npatients, visitors, and staff.\n\nThe bill is narrowly tailored. Authority is limited geographically to\nthe property of specific Capital Region hospitals and immediately adja-\ncent public areas, except in specific circumstances involving transport\nat the request of local law enforcement. The measure does not confer\ngeneral law enforcement powers and does not authorize the carrying of\nfirearms absent proper licensure under state law.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S9328",
+    "publishDate": "2026-03-02",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CPL2.10"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A10518",
+       "basePrintNoStr": "A10518-2025",
+       "printNo": "A10518",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S9328",
+ "basePrintNoStr": "S9328-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 62,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": 1652,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2026-03-02T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-03T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S9328",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-03-02T15:33:11.127704",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-03-02T15:33:11.076049",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 46,
+   "fullName": "Patricia Fahy",
+   "imgName": "657_patricia_fahy.jpg",
+   "incumbent": true,
+   "memberId": 1571,
+   "sessionMemberId": 2532,
+   "sessionYear": 2025,
+   "shortName": "FAHY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-03",
+  "billCalNo": 1652,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A10518",
+  "basePrintNoStr": "A10518-2025",
+  "session": 2025
+ },
+ "summary": "Grants peace officer status to security officers employed by Albany Memorial Hospital, Samaritan Hospital, and St. Peter's Hospital when acting pursuant to their special duties on the grounds or premises owned, controlled or administered by any such hospital or any of its subsidiaries.",
+ "title": "Grants peace officer status to security officers employed by Albany Memorial Hospital, Samaritan Hospital, and St. Peter's Hospital",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

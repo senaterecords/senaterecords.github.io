@@ -1,0 +1,1228 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-06",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.589"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-07",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-08",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-29",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 4981A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-20",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 7,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-22",
+    "sequenceNo": 8,
+    "text": "AMEND AND RECOMMIT TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-22",
+    "sequenceNo": 9,
+    "text": "PRINT NUMBER 4981B"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to vacating\nconvictions for offenses resulting from sex trafficking, labor trafficking and\ncompelling prostitution",
+    "basePrintNo": "S4981",
+    "basePrintNoStr": "S4981-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §440.10, CP L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "\n \nBILL NUMBER: S4981\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:  An act to amend the criminal procedure law, in\nrelation to vacating convictions for offenses resulting from sex traf-\nficking, labor trafficking and compelling prostitution\n\n \nPURPOSE OR GENERAL IDEA OF BILL:z\n\nTo strengthen protections for victims of sex trafficking, labor traf-\nficking, compelling prostitution, and trafficking in persons, who are\nconvicted of a range of offenses as a result of that trafficking or\ncompelling.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 sets forth legislative intent to expand to other offenses New\nYork's existing law that offers vacatur of convictions for prostitu-\ntion-related offenses that were a result of being a victim of traffick-\ning.\n\nSection 2 amends CPL § 440.10(1)(i) to allow vacating of a conviction\nwhere the offense was a result of sex trafficking, labor traffic king,\ncompelling prostitution and trafficking in persons; CPL\n\n§ 440.10(1) (ii) to include documentation with regard to labor traffick-\ning and aggravated labor trafficking as additional grounds for a\npresumption that a victim was a victim of trafficking; adds new CPL §\n440.10(1)(iii) to provide confidentiality for motions to vacate a judge-\nment; and adds new CPL § 440.10(1) (iv) to allow consolidation of\nproceedings in multiple courts.\n\nSection 3 amends CPL § 440.10 (6) to require that judgments be vacated\non the merits because the defendant's participation in the offense was a\nresult of having been a victim of trafficking.\n\nSection 4 provides an immediate effective date, except that new subpara-\ngraph (iii) takes effect 60 days after enactment into law.\n\n \nJUSTIFICATION:\n\nIn 2010, New York State passed an historic law allowing victims of human\ntrafficking to vacate prostitution-related criminal convictions that\nwere directly tied to their victimization. The law recognized that these\nconvictions should be vacated because the conviction itself was unjust.\nVictims of human trafficking were allowed a second chance at life, free\nfrom the criminal records forced upon them by their traffickers. Twenty\nseven states have since followed New York's example with similar laws.\n\nSeveral states have now gone beyond New York's law, to make this relief\navailable not just for prostitution-related offenses but for all\noffenses related to the trafficking. This bill follows that example.\nTrafficking victims may be arrested and prosecuted for a variety of\noffenses resulting from trafficking. A common example is possessing\nfalse documents, usually at the direction of their trafficker, who has\nconfiscated their true documents as part of the exerted coercion.\n\nThe CPL is further amended to protect the confidentiality of information\ncontained in motions brought under the statute. This explicit and manda-\ntory protection is necessary to meet the legislation's goals of severing\nvictims of human trafficking from their traumatic past, and to ensure\nthat victims of human trafficking will not be endangered by the process\nof vacating their convictions. Courts may also take other action, such\nas offering a closed courtroom for court appearances.\n\nThe bill emphasizes that these convictions should be vacated because of\nthe circumstances of the offenses and convictions, not because of a\nvictim's post-conviction circumstances.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2016: A. 10353 - Referred to Codes\n2017: A4540 - Passed Assembly / Senate Rules\n2018: A4540 - Passed Assembly / Senate Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediate, except that new CPLR§ 440.10(1)(iii) takes effect 60 days\nafter enactment into law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4981",
+    "publishDate": "2019-04-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to vacating\nconvictions for offenses resulting from sex trafficking, labor trafficking and\ncompelling prostitution",
+    "basePrintNo": "S4981",
+    "basePrintNoStr": "S4981-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 17
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §440.10, CP L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "\n \nBILL NUMBER: S4981A\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:  An act to amend the criminal procedure law, in\nrelation to vacating convictions for offenses resulting from sex traf-\nficking, labor trafficking and compelling prostitution\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo strengthen protections for victims of sex trafficking, labor traf-\nficking, compelling prostitution, and trafficking in persons, who are\nconvicted of a range of offenses as a result of that trafficking or\ncompelling.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 sets forth legislative intent to expand to other offenses New\nYork's existing law that offers vacatur of convictions for prostitu-\ntion-related offenses that were a result of being a victim of traffick-\ning.\n\nSection 2 amends CPL § 440.10(1)(i) to allow vacating of a conviction\nwhere the offense was a result of sex trafficking, labor trafficking,\ncompelling prostitution and trafficking in persons; CPL § 440.10(1) (ii)\nto include documentation with regard to labor trafficking and aggravated\nlabor trafficking as additional grounds for a presumption that a victim\nwas a victim of trafficking; adds new CPL § 440.10(1)(iii) to provide\nconfidentiality for motions to vacate a judgement; and adds new CPL §\n440.10(1) (iv) to allow consolidation of proceedings in multiple courts.\n\nSection 3 amends CPL § 440.10 (6) to require that judgments be vacated\non the merits because the defendant's participation in the offense was a\nresult of having been a victim of trafficking.\n\nSection 4 provides an immediate effective date, except that new subpara-\ngraph (ii) takes effect 60 days after enactment into law.\n\n \nJUSTIFICATION:\n\nIn 2010, New York State passed an historic law allowing victims of human\ntrafficking to vacate prostitution-related criminal convictions that\nwere directly tied to their victimization. The law recognized that these\nconvictions should be vacated because the conviction itself was unjust.\n\nVictims of human trafficking were allowed a second chance at life, free\nfrom the criminal records forced upon them by their traffickers.  Twen-\nty-seven states have since followed New York's example with similar\nlaws.\n\nSeveral states have now gone beyond New York's law, to make this relief\navailable not just for prostitution-related offenses but for all\noffenses related to the trafficking. This bill follows that example.\n\nTrafficking victims may be arrested and prosecuted for a variety of\noffenses resulting from trafficking. A common example is possessing\nfalse documents, usually at the direction of their trafficker, who has\nconfiscated their true documents as part of the exerted coercion.\n\n\nThe CPL is further amended to protect the confidentiality of information\ncontained in motions brought under the statute. This explicit and manda-\ntory protection is necessary to meet the legislation's goals of severing\nvictims of human trafficking from their traumatic past, and to ensure\nthat victims of human trafficking will not be endangered by the process\nof vacating their convictions.  Courts may also take other action, such\nas offering a closed courtroom for court appearances.\n\nThe bill emphasizes that these convictions should be vacated because of\nthe circumstances of the offenses and convictions, not because of a\nvictim's post-conviction circumstances.\n\n \nPRIOR LEGISLATIVE HISTORY:.\n\n2016: A. 10353 - Referred to Codes\n2017: A4540 - Passed Assembly / Senate Rules\n2018: A4540 - Passed Assembly / Senate Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediate, except that new CPLR§ 440.10(1)(iii) takes effect 60 days\nafter enactment into law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4981A",
+    "publishDate": "2019-05-29",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6983",
+       "basePrintNoStr": "A6983-2019",
+       "printNo": "A6983A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to vacating\nconvictions for offenses resulting from sex trafficking, labor trafficking and\ncompelling prostitution",
+    "basePrintNo": "S4981",
+    "basePrintNoStr": "S4981-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 17
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §440.10, CP L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "\n \nBILL NUMBER: S4981B\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:\n\nAn act to amend the criminal procedure law, in relation to vacating\nconvictions for offenses resulting from sex trafficking, labor traffick-\ning and compelling prostitution\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo strengthen protections for victims of sex trafficking, labor traf-\nficking, compelling prostitution, and trafficking in persons, who are\nconvicted of a range of offenses as a result of that trafficking or\ncompelling.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 sets forth legislative intent to expand to other offenses New\nYork's existing law that offers vacatur of convictions for prostitu-\ntion-related offenses that were a result of being a victim of traffick-\ning.\n\nSection 2 amends CPL § 440.10(1)(i) to allow vacating of a conviction\nwhere the offense was a result of sex trafficking, labor trafficking,\ncompelling prostitution and trafficking in persons. It amends CPL §\n440.10(1)(i)(i) to remove language that limits such a motion to defend-\nants who are no longer victims of trafficking or have already sought\nvictim services. CPL § 440.10 (1)(i)(ii) is renumbered as CPL § 440.10\n(1)(i)(i) and amended to include documentation with regard to sex traf-\nficking, labor trafficking and aggravated labor trafficking as addi-\ntional grounds for a presumption that a victim was a victim of traffick-\ning. It amends CPL § 440.10(1)(i)(ii) to provide confidentiality for\nmotions to vacate a judgement, and adds a new CPL § 440.10(1) (iii) to\nallow consolidation of proceedings in multiple courts.\n\nSection 3 amends CPL § 440.10 (6) to require that judgments be vacated\non the merits because the defendant's participation in the offense was a\nresult of having been a victim of trafficking.\n\nSection 4 provides an immediate effective date, except that new subpara-\ngraph (ii) takes effect 60 days after enactment into law.\n\n \nJUSTIFICATION:\n\nIn 2010, New York State passed an historic law allowing victims of human\ntrafficking to vacate prostitution-related criminal convictions that\nwere directly tied to their victimization. The law recognized that these\nconvictions should be vacated because the conviction itself was unjust.\nVictims of human trafficking were allowed a second chance at life, free\nfrom the criminal records forced upon them by their traffickers. Twenty\nseven states have since followed New York's example with similar laws.\n\nSeveral states have now gone beyond New York's law, to make this relief\navailable not just for prostitution-related offenses but for all\noffenses related to the trafficking. This bill follows that example.\nTrafficking victims may be arrested and prosecuted for a variety of\noffenses resulting from trafficking. A common example is possessing\n\nfalse documents, usually at the direction of their trafficker, who has\nconfiscated their true documents as part of the exerted coercion.\n\nThe CPL is further amended to protect the confidentiality of information\ncontained in motions brought under the statute. This explicit and manda-\ntory protection is necessary to meet the legislation's goals of severing\nvictims of human trafficking from their traumatic past, and to ensure\nthat victims of human trafficking will not be endangered by the process\nof vacating their convictions.  Courts may also take other action, such\nas offering a closed courtroom for court appearances.\n\nThe bill emphasizes that these convictions should be vacated because of\nthe circumstances of the offenses and convictions, not because of a\nvictim's post-conviction circumstances.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2016: A. 10353 - Referred to Codes\n\n2017: A4540 - Passed Assembly / Senate Rules\n\n2018: A4540 - Passed Assembly / Senate Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided that subparagraph (ii)\nof paragraph (i) of subdivision I of section 440.10 of the criminal\nprocedure law, as added by section two of this act, shall take effect on\nthe sixtieth day after it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4981B",
+    "publishDate": "2020-01-22",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6983",
+       "basePrintNoStr": "A6983-2019",
+       "printNo": "A6983B",
+       "session": 2019,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4981",
+ "basePrintNoStr": "S4981-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 39,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2019
+   }
+  ],
+  "size": 22
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-01-22",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2019-04-03T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2020-01-22T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-06-20T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4981B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-04-03T13:04:46.641230",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-05-29T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2020-01-22T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2019-04-03T13:04:46.64123",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 13,
+   "fullName": "Jessica Ramos",
+   "imgName": "1046_Jessica_Ramos.jpg",
+   "incumbent": true,
+   "memberId": 1226,
+   "sessionMemberId": 1224,
+   "sessionYear": 2019,
+   "shortName": "RAMOS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-01-22",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to proceedings to vacate convictions for offenses resulting from sex trafficking, labor trafficking and compelling prostitution and provides for confidentiality of records of such proceedings.",
+ "title": "Relates to confidentiality of records in proceedings to vacate convictions for offenses resulting from sex trafficking, labor trafficking and compelling prostitution",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4981",
+     "basePrintNoStr": "S4981-2019",
+     "printNo": "S4981",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1199,
+         "sessionYear": 2019,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1229,
+         "sessionYear": 2019,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 1227,
+         "sessionYear": 2019,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1204,
+         "sessionYear": 2019,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1407,
+         "sessionYear": 2019,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1226,
+         "sessionYear": 2019,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        }
+       ],
+       "size": 7
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Fredrick J. Akshar II",
+         "imgName": "735_Fredrick_Akshar.jpg",
+         "incumbent": false,
+         "memberId": 913,
+         "sessionMemberId": 1381,
+         "sessionYear": 2019,
+         "shortName": "AKSHAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        }
+       ],
+       "size": 2
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1289,
+         "sessionYear": 2019,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1417,
+         "sessionYear": 2019,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1416,
+         "sessionYear": 2019,
+         "shortName": "O'MARA"
+        }
+       ],
+       "size": 4
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-05-06",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2020
+}

@@ -1,0 +1,1581 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-22",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-22",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1168A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-26",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.729"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-27",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-28",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-04",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A108B"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to enacting the \"safe\nstaffing for quality care act\"",
+    "basePrintNo": "S1168",
+    "basePrintNoStr": "S1168-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 1847,
+       "sessionYear": 2021,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 1846,
+       "sessionYear": 2021,
+       "shortName": "RYAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 39
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§2805 & 2801-a, add §§2828 - 2836 & 2895-b, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S1168\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to enacting the \"safe\nstaffing for quality care act\"\n\n \nPURPOSE:\n\nTo require all acute care facilities and nursing homes to meet standards\nfor appropriate staffing ratios of nursing and unlicensed direct care\nstaff.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 is the short title.\n\nSection 2 amends Public Health Law § 2805 to require that application\nfor operating certificates for a hospital include a direct care staffing\nplan.\n\nSection 3 adds nine new sections, 2827 through 2535, which require\nhospitals to maintain and comply with a staffing plan; establish the\nAcute Care Facility Council to be appointed by the Commissioner of\nHealth, enumerate the elements of a satisfactory staffing, plan; set\nforth minimum nurse to patient ratios; require clinical competency:\nprovide for emergency situations; require public disclosure of facility\nstaffing requirements: and allows for private right of action by employ-\nees.\n\nSection 4 amends § 2801-a directing the Public Health and Health Plan-\nning Council to consider staffing violations when reviewing \"character,\ncompetence and standing in the community\" for applications and renewals\nof certificates of incorporation or establishment of a hospital.\n\nSection 5 amends § 2805 requiring the Commissioner to consider staffing\nviolations when reviewing applications and renewals operating certif-\nicates for acute care facilities.\n\nSection 6 amends S 2895-b to establish a Residential Health Care Facili-\nty Council to be appointed by the Commissioner; requires minimum staff\nhours of care per resident per day; allows for private right of action\nby employees: and requires public disclosure of information about direct\ncare staffing.\n\n \nJUSTIFICATION:\n\nThe hospital nurse-to-patient ratio specified in this bill is based on\npeer-reviewed academic research and evidence-based recommendations.  The\nminimum care hours specified for residential health care facilities are\nalso based on research evidence and on the recommendations of the Insti-\ntute of Medicine's report, \"Keeping Patients Safe: Transforming the Work\nEnvironment of Nurses\" (2004).  The number of patients assigned to a\nnurse has a direct impact on the quality of care a nurse can provide.\nResearch publisher in the Journal of the American Medical Association,\nestimates five additional deaths per 1,000 patients in hospitals which\nroutinely staff with only 1:8 nurse to patient ratios compared to those\nstaffing with 1:4 nurse to-patient ratios. This same study determined\nthe odds of patient death increased by 71 for each additional patient\nthe nurse must care for at one time.\n\nSafe nurse staffing also reduces avoidable, adverse patient outcomes.\nResearch funded by the federal Agency for Healthcare Research and Quali-\nty (AHRQ) has demonstrated that hospitals with lower nurse staffing\nlevels have higher rates of pneumonia, shock, cardiac arrest, urinary\ntract infections and upper gastrointestinal bleeds; all leading to high-\ner costs and mortality from hospital-acquired complications.  In nursing\nhomes, research has demonstrated that safe nurse staffing levels have a\npositive impact on facility processes and on resident outcomes. Research\nhas demonstrated that as nurse turnover increases in nursing homes, the\nquality of resident care declines, resulting in more frequent use of\nrestraints, urinary catheterization, and psychoactive drugs; increased\nrisk of contractures, pressure ulcers and more survey deficiencies.\n\nA broad range of research demonstrates that increased staffing levels do\nnot diminish the profitability of facilities. Nursing workforce costs\nmay rise, but that increase is mitigated by overall savings from\nimproved patient outcomes and avoided adverse events. The improved\noutcomes reduce medical malpractice and other penalties resulting from\navoidable occurrences and poor patient satisfaction.\n\nIn 2004, California became the first state to mandate nurse staffing\nratios in hospitals. New statistical analysis reveals that the Califor-\nnia mandates are significantly associated with fewer negative outcomes\nfor patients and staff. The study, published in Health Services Research\nand conducted by the Center for Health Outcomes and Policy Research,\nUniversity of Pennsylvania, concluded that \"improved nurse staffing,\nhowever it is achieved, is associated with better outcomes for nurses\nand patients.\"\n\nEstablishing staffing standards for nursing and unlicensed direct care\nstaff in acute care facilities and residential health care facilities\nwill help ensure that these facilities operate in a manner that guaran-\ntees the public safety and the delivery of quality health care services.\nThis legislation provides an opportunity to discuss making changes in\nNew York.\n\n \nLEGISLATIVE HISTORY:\n\n2013-2014: S3691A Hannon/A6571 Gottfried 2015-2016: S782 Hannon/A8580A\nGunther 2017-2018: S3330 Hannon/A1532 Gunther 2019-2020: S1032\nRivera/A2954 Gunther\n\n \nFISCAL IMPLICATIONS:\n\nSome staff time in the Department of Health; possible increased Medicaid\nspending to cover the cost of increases, staffing balanced by reduced\nMedicaid spending as reduced bad outcomes and reduced staff turnover\nreduce health care costs.\n\n \nEFFECTIVE DATE:\nTakes effect 180 days after it becomes law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1168",
+    "publishDate": "2021-01-07",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH2895-B"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "PBH2801-A",
+        "PBH2805"
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to establishing clinical\nstaffing committees",
+    "basePrintNo": "S1168",
+    "basePrintNoStr": "S1168-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 1847,
+       "sessionYear": 2021,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1829,
+       "sessionYear": 2021,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 1846,
+       "sessionYear": 2021,
+       "shortName": "RYAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 40
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2805-t, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S1168A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to establishing clin-\nical staffing committees\n\n \nPURPOSE:\n\nTo establish clinical staffing committees in each general hospital to\ndevelop and oversee a clinical staffing plan.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of the bill requires every general hospital to create a\nclinical staffing committee made up of registered nurses, licensed prac-\ntical nurses, ancillary staff members providing direct patient care, and\nhospital administrators by January 1, 2022. The committee will be\nresponsible for developing and overseeing the implementation of a clin-\nical staffing plan that will include specific guidelines or ratios,\nmatrices, or grids indicating how many patients are assigned to each\nnurse and the number of ancillary staff in each unit. The Committees\nmust take into account several factors when developing the plans, which\nare required to be completed and submitted to DOH by July 1 each year.\nThe Committees will also be responsible for reviewing the staffing\nplans, making adjustments to the plans, and responding to complaints for\nvariations from the plans.\n\nThe staffing plans must be posted in a publicly conspicuous area and\nposted on the DOH hospital profile website. DOH is tasked with investi-\ngating potential violations of the staffing plan requirements or any\nunresolved complaints that were submitted to a hospital's clinical\nstaffing committee and the hospital will be subject to civil penalties\nfor failing to remedy the violation. However, DOH shall take into\naccount unforeseeable emergency circumstances when determining whether a\nhospital is in violation. DOH must also submit an annual report to the\nLegislature and Governor by December 31 of each year regarding the\ncomplaints received by DOH and how they were handled.\n\nAn advisory commission will be created consisting of 9 members repres-\nenting experts in staffing standards and quality of patient care, labor\norganizations representing nurses, and hospital representatives. The\nGovernor, Assembly Speaker, and Temporary President of the Senate will\nappoint one member for each of the three categories. The Advisory\nCommission will evaluate the staffing levels and other quality metrics\nrelated to nurse staffing in hospitals. The Advisory Commission will\nsend a report to the Legislature and make a report available to the\npublic on any further legislative action to improve working conditions\nand quality of care in hospitals by October 31, 2024 and every three\nyears thereafter.\n\n \nJUSTIFICATION:\n\nHaving safe and appropriate levels of nurse an ancillary member staffing\nhas been shown to reduce avoidable and adverse patient outcomes.\nResearch has demonstrated that hospitals with lower nurse staffing\nlevels have higher rates of pneumonia, shock, cardiac arrest, urinary\ntract infections and upper gastrointestinal bleeds; all leading to high-\ner costs and mortality from hospital-acquired complications. The\nimproved outcomes reduce medical malpractice and other penalties result-\ning from avoidable occurrences and poor patient satisfaction. In addi-\ntion, assuring sufficient staffing of hospital personnel protects\npatients and supports greater retention of nurses and promotes safer\nworking conditions.\n\nAllowing each hospital to collaboratively develop these clinical staff-\ning plans with the nurses and other staff will allow for the best staff-\ning outcomes at these hospitals. This hospital-by-hospital approach they\nwill be able to balance what is best for the patient and workforce while\ntaking into account the varying needs of each individual hospital.\n\nEstablishing these clinical staffing committees and staffing plans for\nnursing and unlicensed direct care staff in hospitals will help ensure\nthat these facilities operate in a manner that guarantees the public\nsafety and the delivery of quality health care services.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nImmediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1168A",
+    "publishDate": "2021-04-22",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH2805-T"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A108",
+       "basePrintNoStr": "A108-2021",
+       "printNo": "A108B",
+       "session": 2021,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1168",
+ "basePrintNoStr": "S1168-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 40,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2021
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-04-22",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-04-28",
+    "billCalNo": 729,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-01-07T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-04-22T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1032",
+    "basePrintNoStr": "S1032-2019",
+    "printNo": "S1032",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S3330",
+    "basePrintNoStr": "S3330-2017",
+    "printNo": "S3330",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S782",
+    "basePrintNoStr": "S782-2015",
+    "printNo": "S782",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S3691",
+    "basePrintNoStr": "S3691-2013",
+    "printNo": "S3691A",
+    "session": 2013,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S4553",
+    "basePrintNoStr": "S4553-2011",
+    "printNo": "S4553",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S7974",
+    "basePrintNoStr": "S7974-2009",
+    "printNo": "S7974",
+    "session": 2009,
+    "version": ""
+   }
+  ],
+  "size": 6
+ },
+ "printNo": "S1168A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-07T16:05:23.575749",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-04-22T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-01-07T16:05:23.575749",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 1832,
+   "sessionYear": 2021,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-04-28",
+  "billCalNo": 729,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A108",
+  "basePrintNoStr": "A108-2021",
+  "session": 2021
+ },
+ "summary": "Requires certain facilities establish clinical staffing committees.",
+ "title": "Establishes clinical staffing committees",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1168",
+     "basePrintNoStr": "S1168-2021",
+     "printNo": "S1168A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 14
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2021-04-26",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

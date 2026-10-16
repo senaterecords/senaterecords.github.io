@@ -1,0 +1,1532 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-01-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-20",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1247"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-21",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-22",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-09",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 399A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-13",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-07",
+    "sequenceNo": 7,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-04-27",
+    "sequenceNo": 8,
+    "text": "AMEND AND RECOMMIT TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2026-04-27",
+    "sequenceNo": 9,
+    "text": "PRINT NUMBER 399B"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the penal law, in relation to the regulation of pistol\nconverters and convertible pistols",
+    "basePrintNo": "S399",
+    "basePrintNoStr": "S399-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2332,
+       "sessionYear": 2025,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2344,
+       "sessionYear": 2025,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2328,
+       "sessionYear": 2025,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 15
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§265.00, 265.02, 265.10 & 265.20, Pen L",
+    "lawSection": "Penal Law",
+    "memo": " \nBILL NUMBER: S399\n\nSPONSOR: MYRIE\n \nTITLE OF BILL:\n\nAn act to amend the  penal law, in relation to the regulation of pistol\nconverters and convertible pistols\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subdivision 1 of section 265.00 of the penal law, which\ndefines \"Machine-gun\" and adds two new subdivisions 36 and 37 to that\nsection to define the following terms: \"Pistol converter\", and \"Convert-\nible pistol\".\n\nSection 2 amends subdivision 10 of section 265.02 of the penal law, as\nadded by Chapter 1 of the laws of 2013 by adding a new subdivision 11\nthat criminalizes the possession of any pistol converter.\n\nSection 3 amends subdivisions 1 and 2 of section 265.10 of the penal law\nas separately amended by chapters 34, 130, and 146 of the laws of 2019,\nwhich state the various criminal charges for manufacturing and transpor-\ntation of respective illegal weapons and components, to include pistol\nconverters and adds a new subdivision 10 which states criminal charges\nfor disposing of transporting or shipping as merchandise a convertible\npistol.\n\nSection 4 amends section 265.20 of the penal law, which lists applicable\nexemptions to weapons offenses, by adding a new subdivision f, which\nstates the specified parties to whom a person, dealer, firm, partner-\nship, or corporation may legally dispose of a convertible pistol,\ndespite the prohibition created in Section 3, such as persons in mili-\ntary service at both federal and state levels, police officers, peace\nofficers, government defense contractors fulfilling their agreements,\nand licensed gunsmiths and dealers in firearms.\n\nSection 5 provides for the effective date.\n\n \nJUSTIFICATION:\n\nPistol converters, a type of auto-sear commonly known as a \"Glock\nSwitch\", pose a rising significant threat to public safety because they\ncan be and increasingly have been used to quickly and easily convert\nsemi-automatic pistols into fully automatic machine guns, bypass current\nprohibitions against the manufacture, sale, and possession of machine\nguns in the state of New York and on a Federal level. These pistol\nconverters are known as \"Glock Switches\" because the design of Glock\npistols - and other pistols that replicate those designs -- makes them\nuniquely susceptible to this type of illegal conversion. Pistol convert-\ners are not compatible with and cannot convert any other major manufac-\nturers' semi-automatic pistols into machine guns. Only Glocks and Glock\ncopycat weapons can be converted in this manner.\n\nBecause of their small size and simple design, pistol converters are\noften obtained illegally through overseas channels and can also be manu-\nfactured through the use of 3D printing. These pistol converters and a\nscrewdriver are all a person needs to transform single-fire, semi-auto-\nmatic pistols into illegal, fully automatic weapons, dramatically\n\nincreasing their lethality and enabling them to fire continuously with a\nsingle pull of the trigger, at rates of up to 1,200 rounds per minute.\n\nThe current gun violence crisis facing the nation has worsened as the\nillegal manufacture, sale, and possession of pistol converters and easy\nconversion of convertible pistols into machine guns have become more\nfrequent. The ATF recently announced in January 2024 that they have\nrecovered more than 31,000 machine gun conversion devices, including\nGlock switches, over the past five years - a drastic increase compared\nto previous periods. Numerous violent crimes have been perpetrated with\nillegally modified handguns equipped with pistol converters, with nota-\nble occurrences in a mass shooting in Sacramento that killed 6 people\nand injured 12 others where one of the gunmen involved converted a\npistol with the use of a pistol converter (2022).\n\nWithin the State of New York, these \"Clock switches\" have been uncovered\nin multiple police investigations in areas such as Poughkeepsie, Suffolk\nCounty, Syracuse, Buffalo, Troy, Brooklyn, Tuckahoe, and Queens. This\nincludes a horrific 2022 incident where a man shot and killed a father\nvisiting his son at Marist College in the lobby of a hotel in an unpro-\nvoked attack using a Glock pistol equipped with a switch. As the market\nfor these illegal devices grows, so do the public safety concerns as\nthese illegal devices place communities at risk of heightened gun\nviolence. Despite this rising danger and knowing that the design of its\npistols makes these easy conversions possible-manufacturers of converti-\nble pistols have taken no action to fix this problem and prevent the\neasy conversion of their pistols into machine guns.\n\nThis bill will hold firearm companies that produce convertible pistols\naccountable for their failure to address this problem and the dangers it\nposes to New York State. It is intended to incentivize them to take\nsteps to update their design to prevent the continued misuse of their\nproducts. By restricting sales of convertible pistols in New York, the\nbill will create a financial incentive for these companies to change the\ndesigns of their products so they can no longer be easily converted into\nmachine guns simply by the installation of a pistol converter.\n\nThe bill would not place any new restrictions on convertible pistols\nthat have previously been sold in New York or those currently lawfully\npossessed by New Yorkers. These pistols would remain lawful to possess\nand carry throughout the state by those licensed to do so. Only future\nsales and transfers of convertible pistols would be prohibited, subject\nto the numerous exceptions in the bill. Only companies that manufacture\nand sell convertible pistols- namely Glock and makers of copycat weapons\nthat duplicate the designs that make Glock pistols uniquely susceptible\nto easy conversion into machine guns--would be impacted by the new\nprohibition. Other than Glock and those who duplicate its designs, no\nother major manufacturer produces semi-automatic pistols that can be\nconverted into machine guns solely by the installation of a pistol\nconverter.\n\nIf makers of convertible pistols adapt their designs to ensure they\ncannot be converted into machine guns simply by installing a pistol\nconverter, they will no longer be subject to the sale prohibition.\nRegardless of when and whether makers of convertible pistols update\ntheir designs, all other major manufacturers' semi-automatic pistols\nwill remain legal to sell in New York.\n\nThe bill will also create a new definition of the pistol converters that\nmake these simple conversions possible which are already prohibited\nunder New York and Federal law-and reclassify them in the New York code.\nThese changes would align the criminal penalties for manufacturing,\ntransporting, and possessing these dangerous accessories so that they\nare treated identically to machine guns, as is currently the case under\nfederal law.\n\nFinally, the bill will update the definition of 'machine gun' to ensure\nthat any convertible pistol, when equipped with a pistol converter, is a\nmachine gun under state law.\n\n \nLEGISLATIVE HISTORY:\n\nS9225 of 2024-24: Referred to Codes.\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S399",
+    "publishDate": "2024-12-30",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PEN265.00",
+        "PEN265.02",
+        "PEN265.10",
+        "PEN265.20"
+       ],
+       "size": 4
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the penal law, in relation to the regulation of pistol\nconverters and convertible pistols",
+    "basePrintNo": "S399",
+    "basePrintNoStr": "S399-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2332,
+       "sessionYear": 2025,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2353,
+       "sessionYear": 2025,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Erik Bottcher",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1574,
+       "sessionMemberId": 2535,
+       "sessionYear": 2025,
+       "shortName": "BOTTCHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Siela Bynoe",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1549,
+       "sessionMemberId": 2323,
+       "sessionYear": 2025,
+       "shortName": "BYNOE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2373,
+       "sessionYear": 2025,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 2376,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2344,
+       "sessionYear": 2025,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 2324,
+       "sessionYear": 2025,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2350,
+       "sessionYear": 2025,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2327,
+       "sessionYear": 2025,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2346,
+       "sessionYear": 2025,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2328,
+       "sessionYear": 2025,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Jeremy Zellner",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1575,
+       "sessionMemberId": 2536,
+       "sessionYear": 2025,
+       "shortName": "ZELLNER"
+      }
+     ],
+     "size": 28
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§265.00, 265.10 & 265.20, Pen L",
+    "lawSection": "Penal Law",
+    "memo": " \nBILL NUMBER: S399A\n\nSPONSOR: MYRIE\n \nTITLE OF BILL:\n\nAn act to amend the  penal law, in relation to the regulation of pistol\nconverters and convertible pistols\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subdivision 1 of section 265.00 of the penal law, which\ndefines \"Machine-gun\" and adds subdivision 37 to that section to define\nthe following terms: \"Pistol converter\", \"Convertible pistol\", and\n\"common household tools\".\n\nSection 2 amends subdivisions 1 and 2 of section 265.10 of the penal law\nas separately amended by chapters 34, 130, and 146 of the laws of 2019,\nwhich state the various criminal charges for manufacturing and transpor-\ntation of respective illegal weapons and components, to include pistol\nconverters and adds a new subdivision 10 which states criminal charges\nfor disposing of transporting or shipping as merchandise a convertible\npistol.\n\nSection 3 amends section 265.20 of the penal law, which lists applicable\nexemptions to weapons offenses, by adding a new subdivision f, which\nstates the specified parties to whom a person, dealer, firm, partner-\nship, or corporation may legally dispose of a convertible pistol,\ndespite the prohibition created in Section 3, such as persons in mili-\ntary service at both federal and state levels, police officers, peace\nofficers, government defense contractors fulfilling their agreements,\nand licensed gunsmiths and dealers in firearms.\n\nSection 4 amends Subdivision 36 of Section 265 of the Penal Law, which\ndefines the term \"Pistol Converter\".\n\nSection 5 Authorizes the superintendent of the Division of state police\nto promulgate rules and regulations according to this legislation.\n\nSection 6 provides for the effective date.\n\n \nJUSTIFICATION:\n\nsignificant threat to public safety because they can be and increasingly\nhave been used to quickly and easily convert semi-automatic pistols into\nfully automatic machine guns, bypass current prohibitions against the\nmanufacture, sale, and possession of machine guns in the state of New\nYork and on a Federal level. These pistol converters are known as \"Glock\nSwitches\" because the design of Glock pistols - and other pistols that\nreplicate those designs- makes them uniquely susceptible to this type of\nillegal conversion. Pistol converters are not compatible with and cannot\nconvert any other major manufacturers' semi-automatic pistols into\nmachine guns. Only Glocks and Glock copycat weapons can be converted in\nthis manner.\n\nBecause of their small size and simple design, pistol converters are\noften obtained illegally through overseas channels and can also be manu-\nfactured through the use of 3D printing. These pistol converters and a\nscrewdriver are all a person needs to transform single-fire, semi-auto-\nmatic pistols into illegal, fully automatic weapons, dramatically\nincreasing their lethality and enabling them to fire continuously with a\nsingle pull of the trigger, at rates of up to 1,200 rounds per minute.\n\nThe current gun violence crisis facing the nation has worsened as the\nillegal manufacture, sale, and possession of pistol converters and the\neasy conversion of convertible pistols into machine guns have become\nmore frequent. The ATF recently announced in January 2024 that they have\nrecovered more than 31,000 machine gun conversion devices, including\nGlock switches, over the past five years - a drastic increase compared\nto previous periods. Numerous violent crimes have been perpetrated with\nillegally modified handguns equipped with pistol converters, with nota-\nble occurrences in a mass shooting in Sacramento that killed 6 people\nand injured 12 others, where one of the gunmen involved converted a\npistol with the use of a pistol converter (2022).\n\nWithin the State of New York, these \"Glock switches\" have been uncovered\nin multiple police investigations in areas such as Poughkeepsie, Suffolk\nCounty, Syracuse, Buffalo, Troy, Brooklyn, Tuckahoe, and Queens. This\nincludes a horrific 2022 incident where a man shot and killed a father\nvisiting his son at Marist College in the lobby of a hotel in an unpro-\nvoked attack using a Glock pistol equipped with a switch. As the market\nfor these illegal devices grows, so do the public safety concerns, as\nthese illegal devices place communities at risk of heightened gun\nviolence despite this rising danger and knowing that the design of its\npistols makes these easy conversions possible-manufacturers of converti-\nble pistols have taken no action to fix this problem and prevent the\neasy conversion of their pistols into machine guns.\n\nThis bill will hold firearm companies that produce convertible pistols\naccountable for their failure to address this problem and the dangers it\nposes to New York State. It is intended to incentivize them to take\nsteps to update their design to prevent the continued misuse of their\nproducts. By restricting sales of convertible pistols in New York, the\nbill will create a financial incentive for these companies to change the\ndesigns of their products so they can no longer be easily converted into\nmachine guns simply by the installation of a pistol converter.  said in\nNew York or those currently lawfully possessed by New Yorkers These\npistols would remain lawful to possess and carry throughout the state by\nthose licensed to do so. Only future sales and transfers of convertible\npistols would be prohibited, subject to the numerous exceptions in the\nbill. Only companies that manufacture and sell convertible pistols,\nnamely, Glock and makers of copycat weapons that duplicate the designs\nthat make Glock pistols uniquely susceptible to easy conversion into\nmachine guns, would be impacted by the new prohibition. Other than Glock\nand those who duplicate its designs, no other major manufacturer produc-\nes semi-automatic pistols that can be converted into machine guns solely\nby the installation of a pistol converter.\n\nIf makers of convertible pistols adapt their designs to ensure they\ncannot be converted into machine guns simply by installing a pistol\nconverter, they will no longer be subject to the sale prohibition.\nRegardless of when and whether makers of convertible pistols update\ntheir designs, all other major manufacturers' semi-automatic pistols\nwill remain legal to sell in New York.\n\nThe bill will also create a new definition of the pistol converters that\nmake these simple conversions possible, which are already prohibited\nunder New York and Federal law-and reclassify them in the New York code.\nThese changes would align the criminal penalties for manufacturing,\ntransporting, and possessing these dangerous accessories so that they\nare treated identically to machine guns, as is currently the case under\nfederal law.\n\nFinally, the bill will update the definition of 'machine gun' to ensure\nthat any convertible pistol, when equipped with a pistol converter, is a\nmachine gun under state law.\n\n \nLEGISLATIVE HISTORY:\n\nS9225 of 2024-24: Referred to Codes.\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S399A",
+    "publishDate": "2025-06-09",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PEN265.00",
+        "PEN265.10",
+        "PEN265.20"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the penal law, in relation to the regulation of pistol\nconverters and convertible pistols",
+    "basePrintNo": "S399",
+    "basePrintNoStr": "S399-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2332,
+       "sessionYear": 2025,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2353,
+       "sessionYear": 2025,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Erik Bottcher",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1574,
+       "sessionMemberId": 2535,
+       "sessionYear": 2025,
+       "shortName": "BOTTCHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Siela Bynoe",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1549,
+       "sessionMemberId": 2323,
+       "sessionYear": 2025,
+       "shortName": "BYNOE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2373,
+       "sessionYear": 2025,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 2376,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2344,
+       "sessionYear": 2025,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 2324,
+       "sessionYear": 2025,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2350,
+       "sessionYear": 2025,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2327,
+       "sessionYear": 2025,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2346,
+       "sessionYear": 2025,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2328,
+       "sessionYear": 2025,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Jeremy Zellner",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1575,
+       "sessionMemberId": 2536,
+       "sessionYear": 2025,
+       "shortName": "ZELLNER"
+      }
+     ],
+     "size": 28
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§265.00, 265.10 & 265.20, Pen L",
+    "lawSection": "Penal Law",
+    "memo": " \nBILL NUMBER: S399BREVISED 5/13/26\n\nSPONSOR: MYRIE\n \nTITLE OF BILL:\n\nAn act to amend the  penal law, in relation to the regulation of pistol\nconverters and convertible pistols\n\n \nSUMMARY:\n\nSection 1 amends subdivision I of section 265.00 of the penal law, which\ndefines \"Machine-gun\" and adds subdivision 37 to that section to define\nthe following terms: \"Pistol converter\", \"Convertible pistol\", \"cruci-\nform trigger bar\", and \"common household tools\".\n\nSection 2 amends subdivisions 1 and 2 of section 265.10 of the penal law\nas separately amended by chapters 34, 130, and 146 of the laws of 2019,\nwhich state the various criminal charges for manufacturing and transpor-\ntation of respective illegal weapons and components, to include pistol\nconverters and adds a new subdivision 10 which states criminal charges\nfor disposing of transporting or shipping as merchandise a convertible\npistol.\n\nSection 3 amends subdivision ten of section 265.10 of the penal law,\nwhich lists applicable exemptions to weapons offenses, by adding a new\nsubdivision f, which states the specified parties to whom a person,\ndealer, firm, partnership, or corporation may legally dispose of a\nconvertible pistol, despite the prohibition created in Section 3, such\nas persons in military service at both federal and state levels, police\nofficers, peace officers, government defense contractors fulfilling\ntheir agreements, and licensed gunsmiths and dealers in firearms.\n\nSection 4 amends Subdivision 36 of Section 265 of the Penal Law, which\ndefines the term \"Pistol Converter\".\n\nSection 5 Authorizes the superintendent of the Division of state police\nto promulgate rules and regulations according to this legislation.\n\nSection 6 provides for the effective date.\n\n \nJUSTIFICATION:\n\nPistol converters, a type of auto-sear commonly known as a \"Glock\nSwitch,\" pose a rising significant threat to public safety because they\ncan be and increasingly have been used to quickly and easily convert\nsemi-automatic pistols into fully automatic machine guns, bypass current\nprohibitions against the manufacture, sale, and possession of machine\nguns in the state of New York and on a Federal level. These pistol\nconverters are known as \"Glock Switches\" because the design of Glock\npistols and other pistols that replicate those designs - makes them\nuniquely susceptible to this type of illegal conversion. Because of\ntheir small size and simple design, pistol converters are often obtained\nillegally through overseas channels and can also be manufactured through\nthe use of 3D printing. These pistol converters and a screwdriver are\nall a person needs to transform single-fire, semi-automatic pistols into\nillegal, fully automatic weapons, dramatically increasing their lethali-\nty and enabling them to fire continuously with a single pull of the\ntrigger, at rates of up to 1,200 rounds per minute. The current gun\nviolence crisis facing the nation has worsened as the illegal manufac-\nture, sale, and possession of pistol converters and easy conver sion of\nconvertible pistols into machine guns have become more frequent. The ATF\nrecently announced in January 2024 that they have recovered more than\n31,000 machine gun conversion devices, including Glock switches, over\nthe past five years - a drastic increase compared to previous time peri-\nods. Numerous violent crimes have been perpetrated with illegally modi-\nfied handguns equipped with pistol converters, with notable occurrences\nin a mass shooting in Sacramento that killed 6 people and injured 12\nothers where one of the gunmen involved converted a pistol with the use\nof a pistol converter (2022).\n\nWithin the State of New York, these \"Glock switches\" have been uncovered\nin multiple police investigations in areas such as Poughkeepsie, Suffolk\nCounty, Syracuse, Buffalo, Troy, Brooklyn, Tuckahoe, and Queens. This\nincludes a horrific 2022 incident where a man shot and killed a father\nvisiting his son at Marist College in the lobby of a hotel in an unpro-\nvoked attack using a Glock pistol equipped with a switch. As the market\nfor these illegal devices grows, so do the public safety concerns as\nthese illegal devices place communities at risk of heightened gun\nviolence. Despite this rising danger-and despite knowing that the design\nof its pistols makes these easy conversions possible-manufacturers of\nconvertible pistols have taken no action to fix this problem and prevent\nthe easy conversion of their pistols into machine guns.\n\nThis bill will hold firearm companies that produce convertible pistols\naccountable for their failure to address this problem and the dangers it\nposes to New York State. It is intended to incentivize them to take\nsteps to update their design to prevent the continued misuse of their\nproducts. By restricting sales of convertible pistols in New York, the\nbill will create a financial incentive for these companies to change the\ndesigns of their products so they can no longer be easily converted into\na machine gun simply by the installation of a pistol converter.\n\nThe bill would not place any new restrictions on convertible pistols\nthat have previously been sold in New York or those currently lawfully\npossessed by New Yorkers. These pistols would remain lawful to possess\nand carry throughout the state by those licensed to do so.  Only future\nsales and transfers of convertible pistols would be prohibited, subject\nto the numerous exceptions in the bill. Only companies that manufacture\nand sell convertible pistols-namely Glock and makers of copycat weapons\nthat duplicate the designs that make Glock pistols uniquely susceptible\nto easy conversion into machine guns--would be impacted by the new\nprohibition. Other than Glock and those who duplicate its designs, no\nother major manufacturer produces semi-automatic pistols that can be\nconverted into machine guns solely by the installation of a pistol\nconverter.\n\nIf makers of convertible pistols adapt their designs to ensure they\ncannot be converted into machine guns simply by installing a pistol\nconverter, they will no longer be subject to the sale prohibition.\n\nRegardless of when and whether makers of convertible pistols update\ntheir designs, all other major manufacturers' semi-automatic pistols\nwill remain legal to sell in New York.\n\nFinally, the bill will update the definition of 'machine-gun' to ensure\nthat any convertible pistol, when equipped with a pistol converter, is a\nmachine gun under state law.\n \nSOCIAL JUSTICE IMPACT:\n\nTBD.\n\n \nLEGISLATIVE HISTORY:\n\n2024: A10194; referred to codes.\n\n \nFISCAL IMPLICATIONS:\n\nTBD\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one-hundred eightieth day after it\nshall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S399B",
+    "publishDate": "2026-04-27",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PEN265.00",
+        "PEN265.10",
+        "PEN265.20"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A199",
+       "basePrintNoStr": "A199-2025",
+       "printNo": "A199B",
+       "session": 2025,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S399",
+ "basePrintNoStr": "S399-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 56,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 67,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 68,
+    "year": 2025
+   }
+  ],
+  "size": 13
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-04-27",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2025-01-08T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2026-04-27T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2025-06-13T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S9225",
+    "basePrintNoStr": "S9225-2023",
+    "printNo": "S9225",
+    "session": 2023,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S399B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-12-30T15:59:33.347410",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2025-06-09T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2026-04-27T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2024-12-30T15:59:33.34741",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 20,
+   "fullName": "Zellnor Myrie",
+   "imgName": "1048_Zellnor_Myrie.jpg",
+   "incumbent": true,
+   "memberId": 1228,
+   "sessionMemberId": 2337,
+   "sessionYear": 2025,
+   "shortName": "MYRIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-04-27",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Makes it illegal for certain persons to possess or sell a pistol converter or a converted pistol; directs the superintendent of the state police to publish a list of pistols that the superintendent has determined to be convertible pistols.",
+ "title": "Regulates pistol converters and convertible pistols",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S399",
+     "basePrintNoStr": "S399-2025",
+     "printNo": "S399",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2353,
+         "sessionYear": 2025,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Jeremy Cooney",
+         "imgName": "1318_Jeremy_Cooney.jpg",
+         "incumbent": true,
+         "memberId": 1501,
+         "sessionMemberId": 2373,
+         "sessionYear": 2025,
+         "shortName": "COONEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2343,
+         "sessionYear": 2025,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 2344,
+         "sessionYear": 2025,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2337,
+         "sessionYear": 2025,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "Roxanne J. Persaud",
+         "imgName": "736_Roxanne_Persaud.jpg",
+         "incumbent": true,
+         "memberId": 914,
+         "sessionMemberId": 2336,
+         "sessionYear": 2025,
+         "shortName": "PERSAUD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2335,
+         "sessionYear": 2025,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2349,
+         "sessionYear": 2025,
+         "shortName": "SEPULVEDA"
+        }
+       ],
+       "size": 8
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Jabari Brisport",
+         "imgName": "1311_Jabari_Brisport.jpg",
+         "incumbent": true,
+         "memberId": 1494,
+         "sessionMemberId": 2342,
+         "sessionYear": 2025,
+         "shortName": "BRISPORT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 2318,
+         "sessionYear": 2025,
+         "shortName": "PALUMBO"
+        }
+       ],
+       "size": 2
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2377,
+         "sessionYear": 2025,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Dean Murray",
+         "imgName": "910_dean_murray.jpg",
+         "incumbent": true,
+         "memberId": 1521,
+         "sessionMemberId": 2320,
+         "sessionYear": 2025,
+         "shortName": "MURRAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2375,
+         "sessionYear": 2025,
+         "shortName": "O'MARA"
+        }
+       ],
+       "size": 3
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2025-05-20",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

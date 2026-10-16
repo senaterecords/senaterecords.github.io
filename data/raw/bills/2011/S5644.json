@@ -1,0 +1,247 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5644",
+     "basePrintNoStr": "S5644-2011",
+     "printNo": "S5644",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5644",
+     "basePrintNoStr": "S5644-2011",
+     "printNo": "S5644",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-16",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5644",
+     "basePrintNoStr": "S5644-2011",
+     "printNo": "S5644",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-16",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1346"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5644",
+     "basePrintNoStr": "S5644-2011",
+     "printNo": "S5644",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-17",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A8306"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend chapter 474 of the laws of 1996, amending the education law and other laws relating to rates for residential health care facilities, in relation to payments by social services districts for public general hospitals",
+    "basePrintNo": "S5644",
+    "basePrintNoStr": "S5644-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §213, Chap 474 of 1996",
+    "lawSection": "Health",
+    "memo": "BILL NUMBER:S5644\n\nTITLE OF BILL:\nAn act\nto amend chapter 474 of the laws of 1996,\namending the education law and other laws relating to rates for\nresidential health care facilities, in relation to payments by social\nservices districts for public general hospitals\n\nPURPOSE:\nAuthorizes the social services districts and their public\nhospitals the option to select either Intergovernmental Transfers or\ncertified public expenditures (CPEs) as a funding mechanism for\ncertain already authorized Medicaid payments to public general\nhospitals.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nSection 1 of the bill permits Medicaid funding obligations of a social\nservices district in relation to specified Medicaid payments to be\nfulfilled through CPEs by public general hospitals located in the\nsocial services district.\nSection 2 provides for an immediate effective date.\n\nJUSTIFICATION:\nFederal Medicaid law permits local government entities\nto fund the non-federal share of Medicaid payments through\nintergovernmental transfers (IGTs) or CPEs. New York currently funds\ncertain supplemental Medicaid payments to public general hospitals\nthrough IGTs from the social services district in which the hospital\nis located. In some circumstances, IGTs raise cash flow problems for\nthe social services district and the public hospital, as the use of\nIGTs requires that a significant amount of funds be reserved for\ntransfer to the Department of Health.\n\nThe legislation would allow a social services district the option to\nuse CPEs by its public general hospital to fulfill the funding\nobligation instead of IGTs. The Department of Health would be\npermitted to draw down matching federal funds on the basis of\ncertified costs. The use of CPEs will resolve IGT related cash flow\nproblems experienced by social services districts and public general\nhospitals, as there no longer will be a need to reserve local funds\nfor transfer to the Department of Health.\n\nPRIOR LEGISLATIVE HISTORY:\nNew Bill\n\nFISCAL IMPLICATIONS:\nNone to the State.\n\nEFFECTIVE DATE:\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5644",
+    "publishDate": "2011-06-08",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8306",
+       "basePrintNoStr": "A8306-2011",
+       "printNo": "A8306",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5644",
+ "basePrintNoStr": "S5644-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2011
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-16",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-16",
+    "billCalNo": 1346,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2011-06-08T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2011-06-16T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5644",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-06-08T17:08:32",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-06-08T17:08:32",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 6,
+   "fullName": "Kemp Hannon",
+   "imgName": "424_kemp_hannon.jpg",
+   "incumbent": false,
+   "memberId": 424,
+   "sessionMemberId": 118,
+   "sessionYear": 2011,
+   "shortName": "HANNON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-16",
+  "billCalNo": 1346,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8306",
+  "basePrintNoStr": "A8306-2011",
+  "session": 2011
+ },
+ "summary": "Authorizes social services districts to fulfill their payment obligations to public general hospitals by public expenditures for the benefit of such hospitals.",
+ "title": "Authorizes social services districts to fulfill their payment obligations to public general hospitals by public expenditures for the benefit of such hospitals",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

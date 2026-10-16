@@ -1,0 +1,195 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5424",
+     "basePrintNoStr": "S5424-2009",
+     "printNo": "S5424",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO TRANSPORTATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5424",
+     "basePrintNoStr": "S5424-2009",
+     "printNo": "S5424",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-06",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S5424",
+    "basePrintNoStr": "S5424-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1157, V & T L",
+    "lawSection": "Vehicle and Traffic Law",
+    "memo": " BILL NUMBER:  S5424\n\n TITLE OF BILL :\nAn act to amend the vehicle and traffic law, in relation to allowing\nfirefighters, bona fide veterans' organizations and community based\norganizations to solicit funds on roadways\n\n\n PURPOSE :\nThis bill would change current state law to allow the common\nfundraising practice of collecting funds from passing motorist by\nvolunteer fire departments and ambulance services.\n\n SUMMARY OF PROVISIONS :\nAmends Section 1157 of the vehicle and traffic law to allow volunteer\nfire departments and ambulance companies to solicit donations along\nthe roadside while also allowing the town in which the roadway is\nlocated to adequately and fairly regulate these activities.\n\n JUSTIFICATION :\nFire departments, firefighter organizations and volunteer ambulance\nservices often engage in fundraising drives in which the members of\nthe organization stand along the road at intersections to collect\nfunds from passing motorists who remain in their cars. The most common\nof these is the \"fill the boot\" drives that occur in towns and\nvillages across Upstate New York each summer.  While the organizers of\nthese events seek and gain local government approval according to\nmunicipal laws, such fundraising activity is not permitted according\nto state law. This bill would change the law to allow volunteer\nfirefighters and ambulance services to solicit funds in these boot\ndrives while recognizing that municipalities should have the ability\nto regulate the hours and days of these activities as well as require\nthe use of safety precautions that they deem necessary and\nappropriate.\n\n LEGISLATIVE HISTORY :\n2007-08: S.5014-A\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5424",
+    "publishDate": "2009-06-30",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S1600",
+       "basePrintNoStr": "S1600-2009",
+       "printNo": "S1600B",
+       "session": 2009,
+       "version": "B"
+      },
+      {
+       "basePrintNo": "A8204",
+       "basePrintNoStr": "A8204-2009",
+       "printNo": "A8204",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 2
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5424",
+ "basePrintNoStr": "S5424-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-05-04",
+    "billCalNo": null,
+    "committeeName": "Transportation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Transportation",
+    "referenceDate": "2009-05-04T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5424",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-06-30T17:23:44",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-06-30T17:23:44",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 49,
+   "fullName": "David J. Valesky",
+   "imgName": "395_david_j._valesky.jpg",
+   "incumbent": false,
+   "memberId": 395,
+   "sessionMemberId": 26,
+   "sessionYear": 2009,
+   "shortName": "VALESKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-06",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Allows firefighters, members of a fire company auxiliary and members of a volunteer ambulance service to solicit funds on roadways.",
+ "title": "Allows firefighters, members of a fire company auxiliary and members of a volunteer ambulance service to solicit funds on roadways",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

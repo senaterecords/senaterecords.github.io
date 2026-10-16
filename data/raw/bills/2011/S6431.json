@@ -1,0 +1,927 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6431",
+     "basePrintNoStr": "S6431-2011",
+     "printNo": "S6431",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-02-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6431",
+     "basePrintNoStr": "S6431-2011",
+     "printNo": "S6431",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-05",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1043"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6431",
+     "basePrintNoStr": "S6431-2011",
+     "printNo": "S6431",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-06",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6431",
+     "basePrintNoStr": "S6431-2011",
+     "printNo": "S6431",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-11",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6431",
+     "basePrintNoStr": "S6431-2011",
+     "printNo": "S6431A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-18",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 6431A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6431",
+     "basePrintNoStr": "S6431-2011",
+     "printNo": "S6431A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-21",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to prohibiting the possession, sale, offer for sale, trade or distribution of shark fins",
+    "basePrintNo": "S6431",
+    "basePrintNoStr": "S6431-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 85,
+       "sessionYear": 2011,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 107,
+       "sessionYear": 2011,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 66,
+       "sessionYear": 2011,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 120,
+       "sessionYear": 2011,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 73,
+       "sessionYear": 2011,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 117,
+       "sessionYear": 2011,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 111,
+       "sessionYear": 2011,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§13-0338, 13-0339, 71-0923 & 71-0925; add §13-0338-a, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "BILL NUMBER:S6431\n\nTITLE OF BILL:\nAn act\nto amend the environmental conservation law, in relation to prohibiting\nthe possession, sale, offer for sale, trade or distribution of shark\nfins\n\nPURPOSE:\nThis legislation would prohibit the possession, sale, offer\nfor sale, trade or distribution of share fins.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nSection 1 creates the definition of\nshark for this section of law. This section further provides for a\ndefinition of shark fun and prohibits the possession, sale, offer for\nsale, trade, or distribution of shark fin. Section 1 further provides\nthe taking of shark fin for scientific research.\nSection 2 is the effective date.\n\nJUSTIFICATION:\nIt is already illegal to fin a shark in New York.\nHowever, there is no prohibition on the possession, sale, trade, or\ndistribution of shark fins. Already the West Coast (California,\nOregon, Washington, Hawaii and Toronto have passed legislation\nprohibiting the sale of shark fin.\nEach year approximately 73 million sharks are killed to meet the\ndemands of shark fin. The decimation of the shark population has a\ndirectly related negative impact to the entire oceanic food chain.\nThe process of filming a shark is cruel and inhumane. New York has\nalready banned the practice of finning from taking place in its\nborders. This legislation will further protect sharks by not allowing\nshark fin from being possessed, sold, or traded in New York.\n\nPRIOR LEGISLATIVE HISTORY:\nNew Bill.\n\nFISCAL IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\nThe act would take effect July 1, 2013.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6431",
+    "publishDate": "2012-02-08",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to prohibiting the possession, sale, offer for sale, trade or distribution of shark fins",
+    "basePrintNo": "S6431",
+    "basePrintNoStr": "S6431-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 85,
+       "sessionYear": 2011,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 107,
+       "sessionYear": 2011,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 66,
+       "sessionYear": 2011,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 120,
+       "sessionYear": 2011,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 73,
+       "sessionYear": 2011,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 117,
+       "sessionYear": 2011,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 111,
+       "sessionYear": 2011,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§13-0338, 13-0339, 71-0923 & 71-0925; add §13-0338-a, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "BILL NUMBER:S6431A\n\nTITLE OF BILL:\nAn act\nto amend the environmental conservation law, in relation to prohibiting\nthe possession, sale, offer for sale, trade or distribution of shark\nfins\n\nPURPOSE OR GENERAL IDEA OF BILL:\nThe purpose of this bill is to protect sharks from illegal shark\nfinning.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nThis bill would:\n\no provide definitions of \"shark\" to be used in relation to finning and\nthe regulation of sharks;\no define \"shark fin\" to mean the raw, dried or otherwise processed\ndetached fin including the tail;\"\no prohibit persons from possessing,\nselling, offering for sale, trading or distributing a shark fin\nunless the following criteria are met;\no it was taken from a spiny dogfish caught by a licensed commercial\nfisherman; or,\no it was taken from a shark caught by a recreational\nfisherman who has complied with the recreational marine fishing\nregistration requirements;\no authorize the Department of Environmental Conservation, until December\n31, 2013, to fix by regulation measures for the management of sharks,\nincluding size limits, catch and possession limits, open and closed\nseasons, closed areas, restrictions on the manner of taking and\nlanding, requirements for permits, record keeping requirements,\nrequirements concerning the amount and type of fishing effort and\ngear, and requirements relating to transportation, possession and\nsale; and,\no clarify that violations of the proposed §13-0338-a or\nregulations promulgated pursuant to §13-0338-a would be punishable\nby imprisonment of not more than 15 days or by a fine of at least $250.\n\nEFFECTS OF PRESENT LAW WHICH THIS BILL WOULD ALTER:\nAdds a new §13-0338-a and amends §13-0338, §13-0339(1)(a) and (b), and\nthe opening paragraphs of §71-0923(8), and §71-0925(7) of the\nEnvironmental Conservation Law.\n\nJUSTIFICATION:\nSharks occupy the top of the marine food chain and are a critical part\nof the ocean ecosystem.\nYet they are particularly susceptible to decline due to over-fishing\nbecause they are slow to reach reproductive maturity and birth small\nlitters, and hence cannot rebuild their populations quickly once\nover-fishing occurs. Their decline modifies the balance of species in\nthe marine ecosystem and negatively affects other fisheries: creating\na serious threat to the biodiversities of the oceans. Data from\nfederal and international agencies show a decline in shark\npopulations worldwide.\n\n\nThe barbaric practice of shark finning, whereby a shark is caught, its\nfins cut off and the carcass dumped back into the water, causes tens\nof millions of sharks to die each year. Finned sharks starve to\ndeath, may be slowly eaten by other fish or drown because most sharks\nmust keep moving in order to force water through their gills for\noxygen.\n\nPRIOR LEGISLATIVE HISTORY:\n2011: A.7707 - Referred to the Environmental Conservation Committee.\n\nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\nNone to the State.\n\nEFFECTIVE DATE:\nThis act shall take effect January 1. 2013.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6431A",
+    "publishDate": "2012-06-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7707",
+       "basePrintNoStr": "A7707-2011",
+       "printNo": "A7707C",
+       "session": 2011,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6431",
+ "basePrintNoStr": "S6431-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 53,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2012
+   }
+  ],
+  "size": 9
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Environmental Conservation"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-06-21",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2012-02-08T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2012-06-21T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6431A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-02-08T15:13:53",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2012-06-18T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2012-02-08T15:13:53",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 60,
+   "fullName": "Mark Grisanti",
+   "imgName": "Mark Grisanti.jpg",
+   "incumbent": false,
+   "memberId": 398,
+   "sessionMemberId": 92,
+   "sessionYear": 2011,
+   "shortName": "GRISANTI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-06-21",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Prohibits the possession, sale, offering for sale, trade or distribution of shark fins.",
+ "title": "Prohibits the possession, sale, offer for sale, trade or distribution of shark fins",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6431",
+     "basePrintNoStr": "S6431-2011",
+     "printNo": "S6431",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Environmental Conservation"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 85,
+         "sessionYear": 2011,
+         "shortName": "AVELLA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 79,
+         "sessionYear": 2011,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Mark Grisanti",
+         "imgName": "Mark Grisanti.jpg",
+         "incumbent": false,
+         "memberId": 398,
+         "sessionMemberId": 92,
+         "sessionYear": 2011,
+         "shortName": "GRISANTI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 113,
+         "sessionYear": 2011,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 73,
+         "sessionYear": 2011,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 101,
+         "sessionYear": 2011,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 105,
+         "sessionYear": 2011,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 109,
+         "sessionYear": 2011,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 82,
+         "sessionYear": 2011,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 69,
+         "sessionYear": 2011,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 67,
+         "sessionYear": 2011,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 108,
+         "sessionYear": 2011,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 13
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 80,
+         "sessionYear": 2011,
+         "shortName": "JOHNSON"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2012-06-05",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

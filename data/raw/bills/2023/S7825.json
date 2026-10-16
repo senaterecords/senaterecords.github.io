@@ -1,0 +1,1057 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-12-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-26",
+    "sequenceNo": 3,
+    "text": "1ST REPORT CAL.719"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-27",
+    "sequenceNo": 4,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-28",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-03",
+    "sequenceNo": 6,
+    "text": "AMENDED ON THIRD READING 7825A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-07",
+    "sequenceNo": 7,
+    "text": "COMMITTED TO RULES"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property law, in relation to limiting the amount of\nrent increases for residential ground lease cooperative apartment buildings\nand establishing certain rights upon expiration of such leases",
+    "basePrintNo": "S7825",
+    "basePrintNoStr": "S7825-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 1875,
+       "sessionYear": 2023,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2037,
+       "sessionYear": 2023,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §233-c, RP L",
+    "lawSection": "Real Property Law",
+    "memo": " \nBILL NUMBER: S7825REVISED 1/23/24\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the real property law, in relation to limiting the\namount of rent increases for residential ground lease cooperative apart-\nment buildings and establishing certain rights upon expiration of such\nleases\n\n \nPURPOSE:\n\nThis bill would limit rent increases for residential ground lease coop-\nerative apartment buildings and establish certain rights upon the expi-\nration of such leases.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one adds § 223-c to the real property law to provide basic\nprotections to ground lease residential cooperative buildings located on\nprivately owned land. The bill grants these residential cooperative\nbuildings the right to renew the leases when they expire, the ability to\nborrow money when necessary to pay for repairs and improvements not\nwithstanding prohibitions or limits in a ground lease, and the right of\nfirst refusal if the landowner chooses to sell or transfer the land\nunderlying a building. It also limits annual ground rent increases to 3%\nor the Consumer Price Index, whichever is greater.  The provisions of\nthis bill do not apply to ground lease residential buildings located on\nland owned by the federal, state, or city government or authority, any\nIndian nation or tribe, or any registered charity which purchased land\nprior to January 1, 2023.\n\nSection two contains a severability clause.\n\nSection three establishes the effective date.\n\n \nJUSTIFICATION:\n\nThere are dozens of residential cooperative buildings throughout New\nYork City containing thousands of homes that do not own the land under-\nneath. Instead, private property owners lease the land to ground lease\ncooperatives for set periods of time, and the buildings' residents make\nrent payments to the landowner through their monthly maintenance fees.\nWhen each building's lease is set to expire, an appraiser is tasked with\nevaluating the land's fair market value, which is then used to negotiate\na rent increase between the landowner and the cooperative. Residential\ncooperatives have extremely limited power in these negotiations since\nthe buildings cannot be physically moved, and existing laws do not\nprovide the right to lease renewal, limits on rent increases, or any\nother protections. In this way, shareholders in ground lease cooper-\natives are in a similar position to manufactured home residents who own\ntheir units but not the land on which they are located and cannot move\nthe structures.\n\nIn recent years, a growing number of owners of the land under ground\nlease cooperatives have been demanding rent increases that are so exces-\nsive that they put the financial viability of the residential cooper-\natives at risk. There are currently ground lease residential cooper-\natives that are facing rent increases as high as 1,000% from one year to\nthe next. While ground rent increases of this magnitude would be\nextraordinarily difficult for any group of cooperative shareholders to\nabsorb, they threaten the very viability of the many residential cooper-\native buildings which are occupied primarily by middle-income residents\non fixed incomes who have lived in their homes for decades. A number of\ncooperative buildings with ground leases coming up for renewal in the\ncoming years face default due to the rent increases being demanded; this\nwould leave the longtime shareholders without their homes or any equity\nwhile still owning mortgages on units that no longer exist. In certain\ncases, the land under ground lease cooperatives has even been explicitly\nmarketed to prospective investors as an opportunity to obtain a prime\ndevelopment site for a new luxury building once the existing residential\ncooperative is unable to pay the rent demanded up on lease renewal, goes\ninto default, and is eventually demolished.\n\nMany owners of the land under ground lease cooperatives have also\nrefused to allow buildings to borrow money required to perform critical\nrepairs and/or capital improvements. Numerous ground leases contain\nlanguage explicitly prohibiting cooperatives from taking on debt over\ncertain levels regardless of the circumstances. In some cases, property\nowners have even prohibited ground lease cooperatives from borrowing\nfunds to perform repairs ordered by New York City agencies. Given the\nhigh cost of maintaining aging buildings, along with the ongoing need to\nmake capital improvements to comply with changing laws, improve energy\nefficiency and resiliency, and respond to emergencies, it is essential\nfor ground lease cooperatives to have the ability to borrow funds when\nnecessary.\n\nAs the housing crisis worsens, it is crucial that New York provide basic\nprotections to ground lease cooperative residents facing displacement\nfrom their homes due to exorbitant rent increases and extremely limited\nnegotiating power in abnormal market conditions.  This legislation\nsimply builds upon established state laws granting manufactured home\nresidents basic rights during the lease renewal process, and if the land\nunder their homes is sold, by extending comparable protections to ground\nlease residential cooperatives that similarly cannot move their build-\nings from the land underneath.\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to all existing\nleases and to any renewals, amendments and other extensions of such\nleases.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7825",
+    "publishDate": "2023-12-20",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "RPP233-C"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5031",
+       "basePrintNoStr": "A5031-2023",
+       "printNo": "A5031A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the real property law, in relation to limiting the amount of\nrent increases for residential ground lease cooperative apartment buildings\nand establishing certain rights upon expiration of such leases",
+    "basePrintNo": "S7825",
+    "basePrintNoStr": "S7825-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 1875,
+       "sessionYear": 2023,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2037,
+       "sessionYear": 2023,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 14
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §233-c, RP L",
+    "lawSection": "Real Property Law",
+    "memo": " \nBILL NUMBER: S7825A\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the real property law, in relation to limiting the\namount of rent increases for residential ground lease cooperative apart-\nment buildings and establishing certain rights upon expiration of such\nleases\n\n \nPURPOSE:\n\nThis bill would limit rent increases for residential ground lease coop-\nerative apartment buildings and establish certain rights upon the expi-\nration of such leases.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one adds § 223-c to toe real property law to provide basic\nprotections to residential ground lease cooperative buildings located on\nprivately owned land. The bill grants residential ground cooperative\nbuildings the right to renew their leases when they expire, as well as\nthe right of first refusal if the landowner chooses to sell or transfer\nthe land underlying a.building. It limits annual increases in the base\nrent payable by ground lease residential cooperatives on or after the\nthirtieth anniversary of their initial ground lease to 3% or the Consum-\ner Price Index, whichever is greater.  The legislation also grants resi-\ndential cooperatives the ability to borrow money when necessary to pay\nfor repairs and capital improvements, notwithstanding prohibitions or\nlimits in a around lease, unless the subject ground lease owner denies\nconsent for a reasonable cause within 15 days of receiving a written\nrequest. The provisions of this bill do not apply to ground lease resi-\ndential buildings located on land owned by the federal, state, or city\ngovernment or authority, any Indian nation or tribe, or any registered\ncharity which purchased land prior to January 1, 2024.\n\nSection two contains a severability clause.\n\nSection three establishes the effective date.\n\n \nJUSTIFICATION:\n\nThere are dozens of residential cooperative buildings throughout New\nYork City containing thousands of homes that do not own the land under-\nneath. Instead, private property owners lease the land to ground lease\ncooperatives for set periods of time, and the buildings' residents make\nrent payments to the landowner through their monthly maintenance fees.\n\nWhen each building's lease is net to expire, an appraiser is tasked with\nevaluating the land's fair market value, which is then used to negotiate\na rent increase between the landowner and the cooperative.  Residential\ncooperatives have extremely limited power in these negotiations since\nthe buildings cannot be physically moved, and existing laws do not\nprovide the right to lease renewal, limits on rent increases, or any\nother protections. In this way, shareholders in ground lease cooper-\natives are in a similar position to manufactured home residents who own\ntheir units but not the land on which they are located and cannot move\nthe structures.\n\nIn recent years, a growing number of owners of the land under ground\nlease cooperatives have been demanding rent increases that are so exces-\nsive that they put the financial viability of the residential cooper-\natives at risk. There are currently ground lease residential cooper-\natives that are facing rent increases as high as 1,000% from one year to\nthe next. While ground rent increases of this magnitude would be\nextraordinarily difficult for any group of cooperative shareholders to\nabsorb, they threaten the very viability of the many residential cooper-\native buildings which are occupied primarily by middle-income residents\non fixed incomes who have lived in their homes for decades. A number of\ncooperative buildings with ground leases coming up for renewal in the\ncoming years face default due to the rent increases being demanded; this\nwould leave the longtime shareholders without their homes or any equity\nwhile still owning mortgages on units that no longer exist. In certain\ncases, the land under ground lease cooperatives has even been explicitly\nmarketed to prospective investors as an opportunity to obtain a prime\ndevelopment site for a new luxury building once the existing residential\ncooperative is unable to pay the rent demanded up on lease renewal, goes\ninto default, and is eventually demolished.\n\nMany owners of the land under ground lease cooperatives have also\nrefused to allow buildings to borrow money required to perform critical\nrepairs and/or capital improvements. Numerous ground leases contain\nlanguage explicitly prohibiting cooperatives from taking on debt over\ncertain levels regardless of the circumstances. In some cases, property\nowners have even prohibited ground lease cooperatives from borrowing\nfunds to perform repairs ordered by New York City agencies. Given the\nhigh cost of maintaining aging buildings, along with the ongoing need to\nmake capital improvements to comply with changing laws, improve energy\nefficiency and resiliency, and respond to emergencies, it is essential\nfor ground lease cooperatives to have the ability to borrow funds when\nnecessary.\n\nAs the housing crisis worsens, it is crucial that New York provide basic\nprotections to ground lease cooperative residents facing displacement\nfrom their homes due to exorbitant rent increases and extremely limited\nnegotiating power in abnormal market conditions.  This legislation\nsimply builds upon established state laws granting manufactured home\nresidents basic rights during the lease renewal process, and if the land\nunder their homes is sold, by extending comparable protections to ground\nlease residential cooperatives that similarly cannot move their build-\nings from the land underneath.\n\n \nFISCAL IMPLICATIONS:\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to all existing\nleases and to any renewals, amendments and other extensions of such\nleases.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7825A",
+    "publishDate": "2024-06-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "RPP233-C"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7825",
+ "basePrintNoStr": "S7825-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 33,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2024
+   }
+  ],
+  "size": 32
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 11,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-06-07",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2023-12-20T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2024-06-07T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7825A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-12-20T09:40:04.012726",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-06-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-12-20T09:40:04.012726",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 28,
+   "fullName": "Liz Krueger",
+   "imgName": "401_liz_krueger.jpg",
+   "incumbent": true,
+   "memberId": 401,
+   "sessionMemberId": 2020,
+   "sessionYear": 2023,
+   "shortName": "KRUEGER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-06-07",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Limits the amount of rent increases for residential ground lease cooperative apartment buildings; establishes certain rights upon the expiration of such leases.",
+ "title": "Limits the amount of rent increases for residential ground lease cooperative apartment buildings and establishes certain rights upon the expiration of such leases",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7825",
+     "basePrintNoStr": "S7825-2023",
+     "printNo": "S7825",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2012,
+         "sessionYear": 2023,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "Jessica Ramos",
+         "imgName": "1046_Jessica_Ramos.jpg",
+         "incumbent": true,
+         "memberId": 1226,
+         "sessionMemberId": 2030,
+         "sessionYear": 2023,
+         "shortName": "RAMOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2034,
+         "sessionYear": 2023,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2037,
+         "sessionYear": 2023,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 10
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Patricia Canzoneri-Fitzpatrick",
+         "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+         "incumbent": true,
+         "memberId": 1517,
+         "sessionMemberId": 1880,
+         "sessionYear": 2023,
+         "shortName": "CANZONERI-FITZPATRICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2021,
+         "sessionYear": 2023,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 2041,
+         "sessionYear": 2023,
+         "shortName": "PALUMBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 2043,
+         "sessionYear": 2023,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        }
+       ],
+       "size": 8
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-03-26",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2024
+}

@@ -1,0 +1,632 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4375",
+     "basePrintNoStr": "S4375-2021",
+     "printNo": "S4375",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4375",
+     "basePrintNoStr": "S4375-2021",
+     "printNo": "S4375",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-19",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1225"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4375",
+     "basePrintNoStr": "S4375-2021",
+     "printNo": "S4375",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-20",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4375",
+     "basePrintNoStr": "S4375-2021",
+     "printNo": "S4375",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-24",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4375",
+     "basePrintNoStr": "S4375-2021",
+     "printNo": "S4375",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-26",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A4652"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to authorizing forest\nrangers, park rangers, and environmental conservation police officers to\npossess and administer epinephrine by use of an epinephrine auto-injector\ndevice",
+    "basePrintNo": "S4375",
+    "basePrintNoStr": "S4375-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1796,
+       "sessionYear": 2021,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 1800,
+       "sessionYear": 2021,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 1812,
+       "sessionYear": 2021,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Daphne Jordan",
+       "imgName": "1055_Daphne_Jordan.jpg",
+       "incumbent": false,
+       "memberId": 1235,
+       "sessionMemberId": 1815,
+       "sessionYear": 2021,
+       "shortName": "JORDAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "Robert Ortt",
+       "imgName": "885_robert_ortt.jpg",
+       "incumbent": true,
+       "memberId": 885,
+       "sessionMemberId": 1827,
+       "sessionYear": 2021,
+       "shortName": "ORTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Dan Stec",
+       "imgName": "674_dan_stec.jpg",
+       "incumbent": true,
+       "memberId": 1490,
+       "sessionMemberId": 1845,
+       "sessionYear": 2021,
+       "shortName": "STEC"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3000-c, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S4375\n\nSPONSOR: TEDISCO\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to authorizing forest\nrangers, park rangers, and environmental conservation police officers to\npossess and administer epinephrine by use of an epinephrine auto-injec-\ntor device\n\n \nPURPOSE:\n\nThis legislation would authorize forest rangers, park rangers, and envi-\nronmental conservation police officers to possess and administer\nepinephrine.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1. Paragraph (a) of subdivision 1 of section 3000-c of the\npublic health law, as amended by chapter 633 of the laws of 2019, is\namended to define an \"eligible person or entity\" in terms of those\nauthorized to administer epinephrine, and adds forest rangers, park\nrangers, and environmental conservation police officers to this list.\n\nSection 2 provides the effective date.\n\n \nJUSTIFICATION:\n\nAccording to the Asthma and Allergy Foundation of America; anaphylaxis,\na life-threatening allergic reaction, is common in the Unites States and\noccurs in about one in 50 Americans.  Epinephrine injectors, also known\nas \"epi-pens\" are used to reverse the effects of severe allergic\nreactions, or anaphylaxis, from bee stings, drug reactions, food aller-\ngies, or exercise-induced shock.  Those who suffer from such reactions\nin parks and forests throughout New York State are at greater risk,\nbecause many of these areas are not in close proximity to medical facil-\nities.\n\nThis bill will provide clarity in the law for nearly 700 public safety\nprofessionals including park police and park rangers who patrol and work\nin 18,600,000 acres (75,000 km2) of New York's forested lands.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome a law. Effective immediately the addition, amendment and/or\nrepeal of any rule or regulation necessary for the implementation of\nthis act on its effective date are authorized to be made on or before\nsuch date\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4375",
+    "publishDate": "2021-02-03",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH3000-C"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4652",
+       "basePrintNoStr": "A4652-2021",
+       "printNo": "A4652",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4375",
+ "basePrintNoStr": "S4375-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 49,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2021
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-02-03",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-05-24",
+    "billCalNo": 1225,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-02-03T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4375",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-02-03T16:31:20.976683",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-02-03T16:31:20.976683",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 49,
+   "fullName": "James Tedisco",
+   "imgName": "925_James_Tedisco.jpg",
+   "incumbent": true,
+   "memberId": 1103,
+   "sessionMemberId": 1842,
+   "sessionYear": 2021,
+   "shortName": "TEDISCO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-05-24",
+  "billCalNo": 1225,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A4652",
+  "basePrintNoStr": "A4652-2021",
+  "session": 2021
+ },
+ "summary": "Authorizes forest rangers, park rangers, and environmental conservation police officers to possess and administer epinephrine by use of an epinephrine auto-injector device.",
+ "title": "Authorizes forest rangers, park rangers, and environmental conservation police officers to possess and administer epinephrine by use of an epinephrine auto-injector device",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4375",
+     "basePrintNoStr": "S4375-2021",
+     "printNo": "S4375",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2021-05-19",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

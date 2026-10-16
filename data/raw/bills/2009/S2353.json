@@ -1,0 +1,238 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2353",
+     "basePrintNoStr": "S2353-2009",
+     "printNo": "S2353",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2353",
+     "basePrintNoStr": "S2353-2009",
+     "printNo": "S2353",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-17",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.111"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2353",
+     "basePrintNoStr": "S2353-2009",
+     "printNo": "S2353",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-18",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2353",
+     "basePrintNoStr": "S2353-2009",
+     "printNo": "S2353",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-19",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2353",
+     "basePrintNoStr": "S2353-2009",
+     "printNo": "S2353",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-23",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A4393"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S2353",
+    "basePrintNoStr": "S2353-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §16, Chap 326 of 2008",
+    "lawSection": "Judiciary",
+    "memo": " BILL NUMBER:  S2353\n\n TITLE OF BILL :\nAn act to amend chapter 326 of the laws of 2008, amending the family\ncourt act, the criminal procedure law and the judiciary law relating\nto orders of protection and the definition of \"members of the same\nfamily or household\", in relation to making a technical correction\nthereto\n\n\n PURPOSE OF BILL :\nThis bill makes a technical correction to a reference in Section 16 of\nChapter 326 of the laws of 2008.\n\n SUMMARY OF PROVISIONS :\nSection 1 amends Section 16 of Chapter 326 of the laws of 2008 to\nreference Section 13, the correct Section of Chapter 326 of the laws\nof 2008, for expiration in September 1, 2010.\n\n JUSTIFICATION :\nThis bill references the correct provision of Chapter 326 of the laws\nof 2008 for expiration.\n\n LEGISLATIVE HISTORY :\nNew Bill, 2009 - Chapter Amendment to Chapter 326 2008.\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\nNone.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2353",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4393",
+       "basePrintNoStr": "A4393-2009",
+       "printNo": "A4393",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2353",
+ "basePrintNoStr": "S2353-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-02-18",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-03-19",
+    "billCalNo": 111,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-02-18T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2353",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 19,
+   "fullName": "John L. Sampson",
+   "imgName": "369_john_l._sampson.jpg",
+   "incumbent": false,
+   "memberId": 369,
+   "sessionMemberId": 1,
+   "sessionYear": 2009,
+   "shortName": "SAMPSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-03-19",
+  "billCalNo": 111,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A4393",
+  "basePrintNoStr": "A4393-2009",
+  "session": 2009
+ },
+ "summary": "Makes a technical correction to chapter 326 of the laws of 2008, providing for the expiration of the authorization granted to family courts to hear certain ex parte applications for orders of protection.",
+ "title": "Makes a technical correction to chapter 326 of the laws of 2008, for the expiration of family courts to hear certain ex parte applications for orders of protection",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

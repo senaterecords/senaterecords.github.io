@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1208",
+     "basePrintNoStr": "S1208-2017",
+     "printNo": "S1208",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1208",
+     "basePrintNoStr": "S1208-2017",
+     "printNo": "S1208",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-02-06",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the executive law, in relation to the appointment of interpreters to be used in parole board proceedings",
+    "basePrintNo": "S1208",
+    "basePrintNoStr": "S1208-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §259-i, Exec L",
+    "lawSection": "Executive Law",
+    "memo": " BILL NUMBER:  S1208\n\n TITLE OF BILL :  An act to amend the executive law, in relation to\nthe appointment of interpreters to be used in parole board proceedings\n\n PURPOSE: :\n\nTo provide an amendment in relation to chapter 473 of the laws of\n2016.\n\n SUMMARY OF PROVISIONS :\n\nClarifies and ensures a qualified interpreter is available for any\ninmate that requires such services while providing DOCCS with\nsufficient flexibility given existing resource concerns.\n\n JUSTIFICATION: :\n\nThis bill represents an amendment, as agreed upon by the Legislature\nand Executive, that allowed for the signing of chapter 473 into law.\nSuch agreement was memorialized at the time of signing in Approval\nMemorandum 14 of 2016.\n\n LEGISLATIVE HISTORY: :\n\nNone (Amends Ch. 473/2016)\n\n FISCAL IMPLICATIONS: :\n\nNone\n\n EFFECTIVE DATE: :\n\nThis act shall take effect on the one hundredth day after it shall\nhave become a law; provided, however, that section one of this act\nshall take effect on the same date and in the same manner as a chapter\nof the laws of 2016, relating to translation services for inmates\nappearing before the parole board as proposed in legislative bills\nnumbers S.992 and A.5548, takes effect.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1208",
+    "publishDate": "2017-01-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1208",
+ "basePrintNoStr": "S1208-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2017-01-06",
+    "billCalNo": null,
+    "committeeName": "Crime Victims, Crime And Correction",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Crime Victims, Crime And Correction",
+    "referenceDate": "2017-01-06T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8215",
+    "basePrintNoStr": "S8215-2015",
+    "printNo": "S8215",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1208",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-01-06T15:12:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2017-01-06T15:12:01",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 926,
+   "sessionYear": 2017,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2017-02-06",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Directs that the New York state office of general services statewide administrative services contract be used to select qualified interpreters to be used for translation services for inmates appearing before the parole board.",
+ "title": "Relates to the appointment of interpreters to be used in parole board proceedings",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2017
+}

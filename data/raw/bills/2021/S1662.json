@@ -1,0 +1,1883 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-07",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-07",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1662A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-12",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-12",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 1662B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-18",
+    "sequenceNo": 6,
+    "text": "1ST REPORT CAL.1130"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-20",
+    "sequenceNo": 7,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-24",
+    "sequenceNo": 8,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-09",
+    "sequenceNo": 9,
+    "text": "SUBSTITUTED BY A3523A"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to applied behavior analysis",
+    "basePrintNo": "S1662",
+    "basePrintNoStr": "S1662-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 1812,
+       "sessionYear": 2021,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Daphne Jordan",
+       "imgName": "1055_Daphne_Jordan.jpg",
+       "incumbent": false,
+       "memberId": 1235,
+       "sessionMemberId": 1815,
+       "sessionYear": 2021,
+       "shortName": "JORDAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 1847,
+       "sessionYear": 2021,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "Robert Ortt",
+       "imgName": "885_robert_ortt.jpg",
+       "incumbent": true,
+       "memberId": 885,
+       "sessionMemberId": 1827,
+       "sessionYear": 2021,
+       "shortName": "ORTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Edward Rath",
+       "imgName": "1319_Edward_Rath.jpg",
+       "incumbent": false,
+       "memberId": 1502,
+       "sessionMemberId": 1858,
+       "sessionYear": 2021,
+       "shortName": "RATH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 1831,
+       "sessionYear": 2021,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1835,
+       "sessionYear": 2021,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 1842,
+       "sessionYear": 2021,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 34
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §8802, Ed L",
+    "lawSection": "Education Law",
+    "memo": "\n \nBILL NUMBER: S1662\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to applied behavior anal-\nysis\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe bill will make New York consistent with other states that license\nbehavior analysts.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of the bill will amend Subdivision one of Section 8802 of\nthe education law to make the licensing of behavior analysts in New York\nconsistent with the licensing on other states.\n\nSection two provides an immediate effective date.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\nThe amended version clarifies that behavior analysis shall be pursuant\nto a prescription.\n\n \nJUSTIFICATION:\n\nIn 2014, New York enacted a separate licensure law for behavior\nanalysts. Unlike many other states, however, New York's behavior analy-\nsis licensing law (Article 167 of the Education law) restricts these\nprofessionals in a way that only authorizes these professionals to treat\nindividuals diagnosed with autism or a related disorder. The original\nlaw was designed to ensure a smooth implementation of the insurance\nmandate to pay for the treatment of those individuals diagnosed with\nautism by qualified and regulated professionals.\n\nBehavior analysts apply scientific principles of learning and behavior\nsystematically to address socially significant human behavior to impact\nbehavior outcomes. Examples of disorders treated by behavioral analysts\ninclude but are not limited to the following: autism spectrum disorders,\nsensory processing disorder, anorexia nervosa, Alzheimer's, ADHD, Down\nSyndrome, and reactive attachment disorder (RAD). This practice is not\ndesigned to be limited to individuals diagnosed with autism or a related\ndisorder.\n\nThe profession of behavior analysis has made countless improvements in\nthe lives of individuals in many ways including educational applications\nand learning, behavioral challenges, substance abuse, brain injury,\nAlzheimer's, ADHD, behavioral medicine and Down Syndrome. The profession\nhas contributed substantial evidence making positive behavioral outcomes\nfor those with many disorders other than autism, and should not be\ndefined by a particular disorder. It is time to align New York's law\nwith the actual practice of this profession and match with the laws of\nother states.\n\nThis law affects students in college programs studying to become\nlicensed behavior analysts because it reduces the training opportu-\nnities. The education of individuals in a profession should not be\nlimited by a particular disorder; instead, as in other professions, the\nlearning involves a broader understanding of the full scope of practice.\nThis change in the law should be implemented to allow the profession to\nbe properly defined and match the laws of other states.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020 - S4967A Referred to Higher Education\n       A6389A Referred to Higher Education\n\nA. 7632 of 2017/2018\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1662",
+    "publishDate": "2021-01-14",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN8802"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3523",
+       "basePrintNoStr": "A3523-2021",
+       "printNo": "A3523",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to applied behavior analysis",
+    "basePrintNo": "S1662",
+    "basePrintNoStr": "S1662-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 1812,
+       "sessionYear": 2021,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Daphne Jordan",
+       "imgName": "1055_Daphne_Jordan.jpg",
+       "incumbent": false,
+       "memberId": 1235,
+       "sessionMemberId": 1815,
+       "sessionYear": 2021,
+       "shortName": "JORDAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 1847,
+       "sessionYear": 2021,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "Robert Ortt",
+       "imgName": "885_robert_ortt.jpg",
+       "incumbent": true,
+       "memberId": 885,
+       "sessionMemberId": 1827,
+       "sessionYear": 2021,
+       "shortName": "ORTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Edward Rath",
+       "imgName": "1319_Edward_Rath.jpg",
+       "incumbent": false,
+       "memberId": 1502,
+       "sessionMemberId": 1858,
+       "sessionYear": 2021,
+       "shortName": "RATH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 1831,
+       "sessionYear": 2021,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1835,
+       "sessionYear": 2021,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 1842,
+       "sessionYear": 2021,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 34
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §8802, Ed L",
+    "lawSection": "Education Law",
+    "memo": "\n \nBILL NUMBER: S1662A\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to applied behavior anal-\nysis\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe bill will make New York consistent with other states that license\nbehavior analysts.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of the bill will amend Subdivision one of Section 8802 of\nthe education law to make the licensing of behavior analysts in New York\nconsistent with the licensing on other states. Prescriptions or orders\nfor behavioral health treatment provided by a licensed behavior analyst\nshall be limited to providing treatment to individuals with behavioral\nhealth conditions that appear in the Diagnostic and Statistical Manual\nof Mental Disorders, published by the American Psychiatric Association,\nor an equivalent classification system as determined by the department.\nIn addition, licensed behavior analysts providing services pursuant to a\nprescription or order, as authorized by this section, shall provide a\nreport at least annually regarding the status of the individual served\nto the licensed person prescribing or ordering such service or more\nfrequently, if needed, in order to report significant changes in the\ncondition of the individual.\n\nSection two provides the effective date.\n\n \nJUSTIFICATION:\n\nIn 2014, New York enacted a separate licensure law for behavior\nanalysts. Unlike many other states, however, New York's behavior analy-\nsis licensing law (Article 167 of the Education law) restricts these\nprofessionals in a way that only authorizes these professionals to treat\nindividuals diagnosed with autism or a related disorder. The original\nlaw was designed to ensure a smooth implementation of the insurance\nmandate to pay for the treatment of those individuals diagnosed with\nautism by qualified and regulated professionals.\n\nBehavior analysts apply scientific principles of learning and behavior\nsystematically to address socially significant human behavior to impact\nbehavior outcomes. Examples of disorders treated by behavioral analysts\ninclude but are not limited to the following: autism spectrum disorders,\nsensory processing disorder, anorexia nervosa, Alzheimer's, ADHD, Down\nSyndrome, and reactive attachment disorder (RAD). This practice is not\ndesigned to be limited to individuals diagnosed with autism or a related\ndisorder.\n\nThe profession of behavior analysis has made countless improvements in\nthe lives of individuals in many ways including educational applications\nand learning, behavioral challenges, substance abuse, brain injury,\nAlzheimer's, ADHD, behavioral medicine and Down Syndrome. The profession\nhas contributed substantial evidence making positive behavioral outcomes\nfor those with many disorders other than autism, and should not be\ndefined by a particular disorder. It is time to align New York's law\nwith the actual practice of this profession and match with the laws of\nother states.\n\nThis law affects students in college programs studying to become\nlicensed behavior analysts because it reduces the training opportu-\nnities. The education of individuals in a profession should not be\nlimited by a particular disorder; instead, as in other professions, the\nlearning involves a broader understanding of the full scope of practice.\nThis change in the law should be implemented to allow the profession to\nbe properly defined and match the laws of other states.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020 - S4967A Referred to Higher Education\n       A6389A Referred to Higher Education\n\nA. 7632 of 2017/2018\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect eighteen months after it shall have become a\nlaw. Effective immediately, the addition and/or repeal of any rule or\nregulation necessary for the implementation of this act on its effective\ndate are authorized and directed to be made on or before such effective\ndate\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1662A",
+    "publishDate": "2021-05-07",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN8802"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the education law, in relation to applied behavior analysis",
+    "basePrintNo": "S1662",
+    "basePrintNoStr": "S1662-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 1812,
+       "sessionYear": 2021,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Daphne Jordan",
+       "imgName": "1055_Daphne_Jordan.jpg",
+       "incumbent": false,
+       "memberId": 1235,
+       "sessionMemberId": 1815,
+       "sessionYear": 2021,
+       "shortName": "JORDAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 1847,
+       "sessionYear": 2021,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 58,
+       "fullName": "Thomas F. O'Mara",
+       "imgName": "415_thomas_f._o'mara.jpg",
+       "incumbent": true,
+       "memberId": 415,
+       "sessionMemberId": 1826,
+       "sessionYear": 2021,
+       "shortName": "O'MARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "Robert Ortt",
+       "imgName": "885_robert_ortt.jpg",
+       "incumbent": true,
+       "memberId": 885,
+       "sessionMemberId": 1827,
+       "sessionYear": 2021,
+       "shortName": "ORTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Edward Rath",
+       "imgName": "1319_Edward_Rath.jpg",
+       "incumbent": false,
+       "memberId": 1502,
+       "sessionMemberId": 1858,
+       "sessionYear": 2021,
+       "shortName": "RATH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 1831,
+       "sessionYear": 2021,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1835,
+       "sessionYear": 2021,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 1842,
+       "sessionYear": 2021,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 35
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §8802, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S1662B\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to applied behavior anal-\nysis\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to make New York consistent with other\nstates that license behavior analysts.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of the bill amends Subdivision one of Section 8802 of the\neducation law to make the licensing of behavior analysts in New York\nconsistent with the licensing in other states by removing the\nrestriction that the treatment is only for persons with autism and\nautism spectrum disorders. Additionally, prescriptions or orders for\nbehavioral health treatment provided by a licensed behavior analyst\nshall be limited to providing treatment to individuals with behavioral\nhealth conditions that appear in the Diagnostic and Statistical Manual\nof Mental Disorders, published by the American Psychiatric Association,\nor an equivalent classification system as determined by the department.\nIn addition, licensed behavior analysts providing services pursuant to a\nprescription or order, as authorized by this section, shall provide a\nreport at least annually regarding the status of the individual served\nto the licensed person prescribing or ordering such service or more\nfrequently, if needed, in order to report significant changes in the\ncondition of the individual.\n\nSection two provides the effective date.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION:\n\nThe amended version of the bill provides that prescriptions or orders\nfor behavioral health treatment provided by a licensed behavior analyst\nshall be limited to providing treatment to individuals with behavioral\nhealth conditions that appear in the Diagnostic and Statistical Manual\nof Mental Disorders, published by the American Psychiatric Association,\nor an equivalent classification system as determined by the department.\nIn addition, licensed behavior analysts providing services pursuant to a\nprescription or order, as authorized by this section, shall provide a\nreport at least annually regarding the status of the individual served\nto the licensed person prescribing or ordering such service or more\nfrequently, if needed, in order to report significant changes in the\ncondition of the individual.\n\nThe amended version also has a new effective date.\n\n \nJUSTIFICATION:\n\nIn 2014, New York enacted a separate licensure law for behavior\nanalysts. Unlike many other states, however, New York's behavior analy-\nsis licensing law (Article 167 of the Education law) restricts these\nprofessionals in a way that only authorizes these professionals to treat\nindividuals diagnosed with autism or a related disorder. The original\nlaw was designed to ensure a smooth implementation of the insurance\nmandate to pay for the treatment of those individuals diagnosed with\nautism by qualified and regulated professionals.  Behavior analysts\napply scientific principles of learning and behavior systematically to\naddress socially significant human behavior to impact behavior outcomes.\nExamples of disorders treated by behavioral analysts include but are not\nlimited to the following:  autism spectrum disorders, sensory processing\ndisorder, anorexia nervosa, Alzheimer's, ADHD, Down Syndrome, and reac-\ntive attachment disorder (RAD). This practice is not designed to be\nlimited to individuals diagnosed with autism or a related disorder. The\nprofession of behavior analysis has made countless improvements in the\nlives of individuals in many ways including educational applications and\nlearning, behavioral challenges, substance abuse, brain injury,\nAlzheimer's, ADHD, behavioral medicine and Down Syndrome. The profession\nhas contributed substantial evidence making positive behavioral outcomes\nfor those with many disorders other than autism, and should not be\ndefined by a particular disorder. It is time to align New York's law\nwith the actual practice of this profession and match with the laws of\nother states.\n\nThis law affects students in college programs studying to become\nlicensed behavior analysts because it reduces the training opportu-\nnities. The education of individuals in a profession should not be\nlimited by a particular disorder; instead, as in other professions, the\nlearning involves a broader understanding of the full scope of practice.\nThis change in the law should be implemented to allow the profession to\nbe properly defined and match the laws of other states.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nA.7632 of 2017/2018\nA.6398A/S4967A of 2019/2020\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect eighteen months after it shall have become a\nlaw. Effective immediately, the addition and/or repeal of any rule or\nregulation necessary for the implementation of this act on its effective\ndate are authorized and directed to be made on or before such effective\ndate\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1662B",
+    "publishDate": "2021-05-12",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN8802"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3523",
+       "basePrintNoStr": "A3523-2021",
+       "printNo": "A3523A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1662",
+ "basePrintNoStr": "S1662-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 49,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2021
+   }
+  ],
+  "size": 10
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-05-12",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-05-24",
+    "billCalNo": 1130,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2021-01-14T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2021-05-07T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2021-05-12T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4967",
+    "basePrintNoStr": "S4967-2019",
+    "printNo": "S4967A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A7632",
+    "basePrintNoStr": "A7632-2017",
+    "printNo": "A7632",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S1662B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-14T12:07:45.335886",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-05-07T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2021-05-12T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2021-01-14T12:07:45.335886",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "James Skoufis",
+   "imgName": "672_james_skoufis.jpg",
+   "incumbent": true,
+   "memberId": 1232,
+   "sessionMemberId": 1839,
+   "sessionYear": 2021,
+   "shortName": "SKOUFIS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-05-24",
+  "billCalNo": 1130,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A3523",
+  "basePrintNoStr": "A3523-2021",
+  "session": 2021
+ },
+ "summary": "Relates to the practice of applied behavior analysis.",
+ "title": "Relates to the practice of applied behavior analysis",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1662",
+     "basePrintNoStr": "S1662-2021",
+     "printNo": "S1662B",
+     "session": 2021,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Jeremy Cooney",
+         "imgName": "1318_Jeremy_Cooney.jpg",
+         "incumbent": true,
+         "memberId": 1501,
+         "sessionMemberId": 1857,
+         "sessionYear": 2021,
+         "shortName": "COONEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Jim Gaughran",
+         "imgName": "1042_Jim_Gaughran.jpg",
+         "incumbent": false,
+         "memberId": 1222,
+         "sessionMemberId": 1807,
+         "sessionYear": 2021,
+         "shortName": "GAUGHRAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 1809,
+         "sessionYear": 2021,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 1814,
+         "sessionYear": 2021,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1840,
+         "sessionYear": 2021,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 11
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2021-05-18",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

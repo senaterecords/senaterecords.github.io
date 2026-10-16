@@ -1,0 +1,514 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4350",
+     "basePrintNoStr": "S4350-2019",
+     "printNo": "S4350",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4350",
+     "basePrintNoStr": "S4350-2019",
+     "printNo": "S4350",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-12",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4350",
+     "basePrintNoStr": "S4350-2019",
+     "printNo": "S4350",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-12",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.255"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4350",
+     "basePrintNoStr": "S4350-2019",
+     "printNo": "S4350",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-12",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A5979A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to signatures for designating\npetitions for certain political subdivisions; and providing for the repeal of\nsuch provisions upon expiration thereof",
+    "basePrintNo": "S4350",
+    "basePrintNoStr": "S4350-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6-136, El L",
+    "lawSection": "Election Law",
+    "memo": "\n \nBILL NUMBER: S4350\n\nSPONSOR: BRESLIN\n \nTITLE OF BILL:\n\nAn act to amend the election law, in relation to signatures for desig-\nnating petitions for certain political subdivisions; and providing for\nthe repeal of such provisions upon expiration thereof\n\n \nPURPOSE:\n\nTo ensure ballot access for a variety of candidates for office due to\nthe recent change in the primary election date.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of this bill amends subdivision 2 of § 6-136 of the election\nlaw to reduce the minimum petition signature requirement for all public\noffices to be filled in 2019, with the exception of offices in New York\nCity, Nassau and Erie Counties to 3.75 percent of the enrolled voters of\nthe party residing within the political unit in which the office or\nposition is to be voted for.\n\nSection two is the effective date\n\n \nJUSTIFICATION:\n\nIn 2019, after 8 years of impasse the legislature has passed legislation\nreunifying state, local and federal (non-presidential) primary elections\nto be held on the 4th Tuesday in June, effective immediately.\n\nHowever, because of the imminent change in the political calendar neces-\nsary to meet the requirements for a June primary, candidates f or local\noffices in 2019 are required to begin circulating designating petitions\nat the end of February 2019, rather than in mid-June, 2019.\n\nThis bill would temporarily reduce the number of signatures required for\ndesignating petitions by 1/4 for candidates running for office, with the\nexception of NYC, and Nassau and Erie Counties, in 2019 to allow candi-\ndates to organize their campaigns, print their petitions, and begin\ncollecting voters' signatures after the change in the primary date.\n\n \nFISCAL IMPACT ON THE STATE:\n\nNone.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall expire December 31,\n2019 when upon such date the provisions of this act shall be deemed\nrepealed.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4350",
+    "publishDate": "2019-03-08",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5979",
+       "basePrintNoStr": "A5979-2019",
+       "printNo": "A5979A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4350",
+ "basePrintNoStr": "S4350-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 19,
+    "year": 2019
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 8,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-03-12",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-03-12",
+    "billCalNo": 255,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2019-03-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-03-12T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4350",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-03-08T09:45:42.930022",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-03-08T09:45:42.930022",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 44,
+   "fullName": "Neil D. Breslin",
+   "imgName": "372_neil_d._breslin.jpg",
+   "incumbent": false,
+   "memberId": 372,
+   "sessionMemberId": 1201,
+   "sessionYear": 2019,
+   "shortName": "BRESLIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-03-12",
+  "billCalNo": 255,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5979",
+  "basePrintNoStr": "A5979-2019",
+  "session": 2019
+ },
+ "summary": "Relates to signatures for designating petitions for political subdivisions outside the city of New York and the counties of Erie and Nassau; must be signed by not less than three and three-quarters per centum.",
+ "title": "Relates to signatures for designating petitions for political subdivisions outside the city of New York and the counties of Erie and Nassau",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4350",
+     "basePrintNoStr": "S4350-2019",
+     "printNo": "S4350",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 1283,
+         "sessionYear": 2019,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1203,
+         "sessionYear": 2019,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1281,
+         "sessionYear": 2019,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1206,
+         "sessionYear": 2019,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1288,
+         "sessionYear": 2019,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1223,
+         "sessionYear": 2019,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1219,
+         "sessionYear": 2019,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 1211,
+         "sessionYear": 2019,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1282,
+         "sessionYear": 2019,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 18
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-03-12",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

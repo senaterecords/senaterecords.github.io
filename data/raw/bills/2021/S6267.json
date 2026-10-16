@@ -1,0 +1,483 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6267",
+     "basePrintNoStr": "S6267-2021",
+     "printNo": "S6267",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-19",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CONSUMER PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6267",
+     "basePrintNoStr": "S6267-2021",
+     "printNo": "S6267",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-18",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1079"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6267",
+     "basePrintNoStr": "S6267-2021",
+     "printNo": "S6267",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-20",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6267",
+     "basePrintNoStr": "S6267-2021",
+     "printNo": "S6267",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-24",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6267",
+     "basePrintNoStr": "S6267-2021",
+     "printNo": "S6267A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-01",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 6267A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6267",
+     "basePrintNoStr": "S6267-2021",
+     "printNo": "S6267A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-09",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A268A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law, in relation to telecommunication\ncompanies blocking certain numbers",
+    "basePrintNo": "S6267",
+    "basePrintNoStr": "S6267-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §399-z-1, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": "\n \nBILL NUMBER: S6267\n\nSPONSOR: COONEY\n \nTITLE OF BILL:\n\nAn act to amend the general business law, in relation to telecommuni-\ncation companies blocking certain numbers\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo allow telecommunication companies to block robocalls from certain\nnumbers.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of the bill amends the general business law by adding a new\nsection 399-z-1. Subdivision one sets out relevant definitions.  Subdi-\nvision two sets out the types of calls that telecommunication providers\nshall block.\n\nFirst, providers shall block a voice call when the subscriber to which\nthe originating number is assigned has requested that calls purporting\nto originate from that number be blocked because the number is used for\ninbound calls only. Next, providers shall block calls originating from\nthe following numbers: (i) a number that is not a valid North American\nnumbering plan number; (ii) a valid North American numbering plan number\nthat is not allocated to a provider by the North American numbering plan\nadministrator or the pooling administrator; and (iii) a valid North\nAmerican numbering plan number that is allocated to a provider by the\nNorth American number plan administrator or pooling administrator, but\nis unused, so long as the provider blocking the calls is the allocate of\nthe number and confirms that the number is unused or has obtained\nverification from the allocated that the number is unused at the time of\nthe blocking.\n\nSection one also states that providers shall not block a voice call if\nthe call is an emergency call placed to 911 or if a subscriber has\nrequested that no inbound calls be blocked.\n\nSection two provides the effective date.\n\n \nJUSTIFICATION:\n\nUnwanted robocalls are the top consumer complaint received by the Feder-\nal Communications Commission (FCC), representing over sixty percent of\nall complaints received.* It is estimated that Americans received about\n16.3 billion robocalls in the first five months of 2018 alone.** In the\nmonth of September 2018, roughly 4.4 billion robocalls were reported.***\nThese numbers continue to rise and the predictions for the expected\nnumber of robocalls in the coming year are staggering.  In 2017, only\nabout 3.7% of all calls to cell phones were considered to be robo-\ncalls.**** In 2018, that number rose to about 29% and by 2019, it is\nexpected that at least 45% of all calls to cell phones will be robo-\ncalls.*****\n\nIn efforts to combat this issue, the FCC released a rule in November of\n2017 to allow phone service providers to proactively block robocalls\noriginating from certain numbers.****** These would include calls that\nare the most likely to be illegitimate, as they are coming from numbers\nthat actually do not or cannot make outgoing calls.******* These types\nof numbers are indicative of \"spoofing\" schemes wherein the true caller\nidentity is masked behind a fake, invalid number. There is also a common\npractice of consumers receiving calls from such invalid numbers which\nshow up as a local call on their caller ID, prompting many to pick up\nonly to realize it is a robocall.\n\nThis legislation mirrors the provisions in the FCC rule and would\nrequire telecommunication providers to block calls coming from numbers\nthat are not valid North American numbering plan numbers, numbers that\nare valid but are not allocated to a provider, and valid numbers allo-\ncated to a provider but are unused. The bill would also require provid-\ners to block calls when the subscriber assigned to a number has\nrequested that calls purporting to originate from such number be blocked\nbecause such number is in fact used only for inbound calls.\n\nRobocalls present a significant nuisance for New Yorkers on a daily\nbasis and as figures indicate, the issue will only continue to worsen\nunless preventive measures are implemented to combat this problem.\nMirroring the protections set out by the Federal rule in New York State\nLaw and requiring telecommunication providers to block these calls will\nafford much needed safeguards to decrease the number of unwanted robo-\ncalls New Yorkers receive.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020: A.2230A, reported referred to rules / S.4764, referred to consumer\nprotection.\n\n2019: A.2230A, amended and recommitted to consumer affairs and\nprotection / S.4764, referred to consumer protection.\n\n \nFISCAL IMPLICATION:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n* See FCC press release- FCC Adopts Rules to Allow Phone Companies to\nProactively Block Illegal Robocalls. November 16, 2017. See also \"The\nFCC's Push to Combat Robocalls & Spoofing.\"\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6267",
+    "publishDate": "2021-04-19",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "GBS399-Z-1"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the general business law, in relation to telecommunication\ncompanies blocking certain numbers",
+    "basePrintNo": "S6267",
+    "basePrintNoStr": "S6267-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §399-z-1, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": "\n \nBILL NUMBER: S6267A\n\nSPONSOR: COONEY\n \nTITLE OF BILL:\n\nAn act to amend the general business law, in relation to telecommuni-\ncation companies blocking certain numbers\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo allow telecommunication companies to block robocalls from certain\nnumbers.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of the bill amends the general business law by adding a new\nsection 399-z-1. Subdivision one sets out relevant definitions.  Subdi-\nvision two sets out the types of calls that telecommunication providers\nshall block.\n\nFirst, providers shall block a voice call when the subscriber to which\nthe originating number is assigned has requested that calls purporting\nto originate from that number be blocked because the number is used for\ninbound calls only. Next, providers shall block calls originating from\nthe following numbers: (i) a number that is not a valid North American\nnumbering plan number; (ii) a valid North American numbering plan number\nthat is not allocated to a provider by the North American numbering plan\nadministrator or the pooling administrator; and (iii) a valid North\nAmerican numbering plan number that is allocated to a provider by the\nNorth American number plan administrator or pooling administrator, but\nis unused, so long as the provider blocking the calls is the allocate of\nthe number and confirms that the number is unused or has obtained\nverification from the allocated that the number is unused at the time of\nthe blocking.\n\nSection one also states that providers shall not block a voice call if\nthe call is an emergency call placed to 911 or if a subscriber has\nrequested that no inbound calls be blocked. Further, it exempts any\nvoice service provider who is in compliance with federal call blocking\nrules and regulations.\n\nSection two provides the effective date.\n\n \nJUSTIFICATION:\n\nUnwanted robocalls are the top consumer complaint received by the Feder-\nal Communications Commission (FCC), representing over sixty percent of\nall complaints received.* It is estimated that Americans received about\n16.3 billion robocalls in the first five months of 2018 alone.** In the\nmonth of September 2018, roughly 4.4 billion robocalls were reported.***\nThese numbers continue to rise and the predictions for the expected\nnumber of robocalls in the coming year are staggering. In 2017, only\nabout 3.7% of all calls to cell phones were considered to be robo-\ncalls.**** In 2018, that number rose to about 29% and by 2019, it is\nexpected that at least 45% of all calls to cell phones will be robo-\ncalls.*****\n\nIn efforts to combat this issue, the FCC released a rule in November of\n2017 to allow phone service providers to proactively block robocalls\noriginating from certain numbers.****** These would include calls that\nare the most likely to be illegitimate, as they are coming from numbers\nthat actually do not or cannot make outgoing calls.******* These types\nof numbers are indicative of \"spoofing\" schemes wherein the true caller\nidentity is masked behind a fake, invalid number. There is also a common\npractice of consumers receiving calls from such invalid numbers which\nshow up as a local call on their caller ID, prompting many to pick up\nonly to realize it is a robocall.\n\nThis legislation mirrors the provisions in the FCC rule and would\nrequire telecommunication providers to block calls coming from numbers\nthat are not valid North American numbering plan numbers, numbers that\nare valid but are not allocated to a provider, and valid numbers allo-\ncated to a provider but are unused. The bill would also require provid-\ners to block calls when the subscriber assigned to a number has\nrequested that calls purporting to originate from such number be blocked\nbecause such number is in fact used only for inbound calls.\n\nRobocalls present a significant nuisance for New Yorkers on a daily\nbasis and as figures indicate, the issue will only continue to worsen\nunless preventive measures are implemented to combat this problem.\nMirroring the protections set out by the Federal rule in New York State\nLaw and requiring telecommunication providers to block these calls will\nafford much needed safeguards to decrease the number of unwanted robo-\ncalls New Yorkers receive.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020: A.2230A, reported referred to rules / S.4764, referred to consumer\nprotection.\n\n2019: A.2230A, amended and recommitted to consumer affairs and\nprotection / S.4764, referred to consumer protection.\n\n \nFISCAL IMPLICATION:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n* See FCC press release- FCC Adopts Rules to Allow Phone Companies to\nProactively Block Illegal Robocalls. November 16, 2017. See also \"The\nFCC's Push to Combat Robocalls & Spoofing.\"\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6267A",
+    "publishDate": "2021-06-01",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "GBS399-Z-1"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A268",
+       "basePrintNoStr": "A268-2021",
+       "printNo": "A268A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6267",
+ "basePrintNoStr": "S6267-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 49,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2021
+   }
+  ],
+  "size": 10
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Consumer Protection"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-04-19",
+    "billCalNo": null,
+    "committeeName": "Consumer Protection",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-06-01",
+    "billCalNo": 1079,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2021-04-19T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4764",
+    "basePrintNoStr": "S4764-2019",
+    "printNo": "S4764",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S6267A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-04-19T16:18:23.142594",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-06-01T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-02-03T12:26:12.054499",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 56,
+   "fullName": "Jeremy Cooney",
+   "imgName": "1318_Jeremy_Cooney.jpg",
+   "incumbent": true,
+   "memberId": 1501,
+   "sessionMemberId": 1857,
+   "sessionYear": 2021,
+   "shortName": "COONEY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-06-01",
+  "billCalNo": 1079,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A268",
+  "basePrintNoStr": "A268-2021",
+  "session": 2021
+ },
+ "summary": "Relates to telecommunication companies blocking certain numbers.",
+ "title": "Relates to telecommunication companies blocking certain numbers",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6267",
+     "basePrintNoStr": "S6267-2021",
+     "printNo": "S6267",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Consumer Protection"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 1809,
+         "sessionYear": 2021,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1818,
+         "sessionYear": 2021,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "Mario Mattera",
+         "imgName": "1309_Mario_Mattera.jpg",
+         "incumbent": true,
+         "memberId": 1492,
+         "sessionMemberId": 1847,
+         "sessionYear": 2021,
+         "shortName": "MATTERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1825,
+         "sessionYear": 2021,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Elijah Reichlin-Melnick",
+         "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+         "incumbent": false,
+         "memberId": 1495,
+         "sessionMemberId": 1850,
+         "sessionYear": 2021,
+         "shortName": "REICHLIN-MELNICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 1842,
+         "sessionYear": 2021,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2021-05-18",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3715",
+     "basePrintNoStr": "S3715-2019",
+     "printNo": "S3715",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3715",
+     "basePrintNoStr": "S3715-2019",
+     "printNo": "S3715",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-14",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to provide procedures relating to the adoption and submission of an\nannual budget by the Trustees of the Freeholders and Commonalty of the town of\nSouthampton",
+    "basePrintNo": "S3715",
+    "basePrintNoStr": "S3715-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Suffolk County",
+    "memo": "\n \nBILL NUMBER: S3715\n\nSPONSOR: LAVALLE\n \nTITLE OF BILL:\n\nAn act to provide procedures relating to the adoption and submission of\nan annual budget by the Trustees of the Freeholders and Commonalty of\nthe town of Southampton\n\n \nPURPOSE:\n\nTo provide procedures relating to the adoption and submission of an\nannual budget by the Trustees of the Freeholders and Commonalty of the\nTown of Southampton.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Provides a procedure relating to the adoption and submission\nof an annual budget by the Trustees of the Freeholders and Commonalty of\nthe Town of Southampton.\n\nSection 2. Effective date.\n\n \nJUSTIFICATION:\n\nProvides that the Trustees of the Freeholders and Commonalty of the Town\nof Southampton shall, after a public hearing, prepare and adopt an annu-\nal budget prescribed in section 181 of the Town Law provided that such\nannual budget shall not contain an increase of more than two percent\nabove the budgeted amount of the prior year. The budgetary controls set\nforth in section 181-a of the town law and the independent audit\nrequirements of section 181-b of the town law shall apply to this proce-\ndure.\n\nThe Trustees of the Freeholders and Commonalty of the Town of Southamp-\nton shall submit their budget on or before the twentieth of September to\nthe budget officer of the Town of Southampton. The budget format shall\nfollow that prescribed in section 107 of the town law.\n\nThe Town of Southampton budget officer shall affix such budget to the\nannual town budget, submitted by the Trustees of the Freeholders and\nCommonalty of the town of Southampton.\n\n \nLEGISLATIVE HISTORY:\n\n2018 S.8659B/A.10677B\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to all fiscal\nyears beginning on and after January 1, 2021.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3715",
+    "publishDate": "2019-02-13",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3715",
+ "basePrintNoStr": "S3715-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-02-13",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2019-02-13T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8659",
+    "basePrintNoStr": "S8659-2017",
+    "printNo": "S8659B",
+    "session": 2017,
+    "version": "B"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3715",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-13T13:09:27.038063",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-02-13T13:09:27.038063",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 1,
+   "fullName": "Kenneth P. LaValle",
+   "imgName": "419_kenneth_p._lavalle.jpg",
+   "incumbent": false,
+   "memberId": 419,
+   "sessionMemberId": 1288,
+   "sessionYear": 2019,
+   "shortName": "LAVALLE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-05-14",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides procedures relating to the adoption and submission of an annual budget by the Trustees of the Freeholders and Commonality of the town of Southampton.",
+ "title": "Provides procedures relating to the adoption and submission of an annual budget by the Trustees of the Freeholders and Commonalty of the town of Southampton",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

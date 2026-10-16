@@ -1,0 +1,1097 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-03-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CITIES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-03-16",
+    "sequenceNo": 2,
+    "text": "REPORTED"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-03-18",
+    "sequenceNo": 3,
+    "text": "ADVANCED TO THIRD READING CAL.749"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-03-22",
+    "sequenceNo": 4,
+    "text": "AMENDED ON THIRD READING 10172A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-03-24",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 10172B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-04-21",
+    "sequenceNo": 6,
+    "text": "PASSED ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-04-21",
+    "sequenceNo": 7,
+    "text": "DELIVERED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-04-21",
+    "sequenceNo": 8,
+    "text": "REFERRED TO CITIES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-04",
+    "sequenceNo": 9,
+    "text": "SUBSTITUTED FOR S7344"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10172",
+     "basePrintNoStr": "A10172-2009",
+     "printNo": "A10172B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-04",
+    "sequenceNo": 10,
+    "text": "3RD READING CAL.428"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the municipal home rule law, in relation to charter revision commissions",
+    "basePrintNo": "A10172",
+    "basePrintNoStr": "A10172-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 280,
+       "sessionYear": 2009,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 85,
+       "fullName": "Marcos Crespo",
+       "imgName": "537_marcos_crespo.jpg",
+       "incumbent": false,
+       "memberId": 537,
+       "sessionMemberId": 204,
+       "sessionYear": 2009,
+       "shortName": "CRESPO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Michael DenDekker",
+       "imgName": "459_michael_dendekker.jpg",
+       "incumbent": false,
+       "memberId": 459,
+       "sessionMemberId": 211,
+       "sessionYear": 2009,
+       "shortName": "DENDEKKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Nelson Castro",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 538,
+       "sessionMemberId": 270,
+       "sessionYear": 2009,
+       "shortName": "CASTRO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 66,
+       "fullName": "Deborah Glick",
+       "imgName": "519_deborah_glick.jpg",
+       "incumbent": true,
+       "memberId": 519,
+       "sessionMemberId": 241,
+       "sessionYear": 2009,
+       "shortName": "GLICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Hakeem Jeffries",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 510,
+       "sessionMemberId": 205,
+       "sessionYear": 2009,
+       "shortName": "JEFFRIES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 135,
+       "fullName": "David Koon",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 585,
+       "sessionMemberId": 278,
+       "sessionYear": 2009,
+       "shortName": "KOON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 77,
+       "fullName": "Vanessa Gibson",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 529,
+       "sessionMemberId": 259,
+       "sessionYear": 2009,
+       "shortName": "GIBSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 40,
+       "fullName": "Inez Barron",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1273,
+       "sessionMemberId": 289,
+       "sessionYear": 2009,
+       "shortName": "BARRON"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §36, Munic Home R L",
+    "lawSection": "Municipal Home Rule Law",
+    "memo": "BILL NUMBER:A10172\n\nTITLE  OF  BILL:    An  act  to  amend the municipal home rule law, in\nrelation to charter revision commissions\n\nPURPOSE OR GENERAL IDEA OF  BILL:  This  bill  clearly  lays  out  the\nprocess  for  a charter revision commission to follow. It requires the\ncommission to hold a hearing or hearings before it begins its work and\nagain after it  presents  preliminary  proposals  to  the  public.  It\nrequires  that  any  proposals  put before The voters be placed on the\nballot as separate proposals to the extent practicable. It prevents  a\ncommission  formed  after  February  15  in  any  given  year to place\nproposals on the ballot in that year.\n\nJUSTIFICATION: This bill sets forth the process of charter revision in\nsuch a way as to provide for  the  public  to  propose  and  react  to\nproposals.  It  provides time for deliberative thinking on the part of\nall parties, both the members of the commission and the public  and  a\nchance to fully educate the voters as to any proposals they might vote\nupon.\n\nPRIOR LEGISLATIVE HISTORY: New bill.\n\nEFFECTIVE  DATE:  January 1, 2010 and provides for any commission that\nis in the process of deliberations not in compliance with this act  is\nterminated.\n\n",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 237,
+       "sessionYear": 2009,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 321,
+       "sessionYear": 2009,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Alan Maisel",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 512,
+       "sessionMemberId": 232,
+       "sessionYear": 2009,
+       "shortName": "MAISEL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 51,
+       "fullName": "Felix Ortiz",
+       "imgName": "504_felix_ortiz.jpg",
+       "incumbent": false,
+       "memberId": 504,
+       "sessionMemberId": 331,
+       "sessionYear": 2009,
+       "shortName": "ORTIZ"
+      }
+     ],
+     "size": 4
+    },
+    "printNo": "A10172",
+    "publishDate": "2010-03-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the municipal home rule law, in relation to charter revision commissions",
+    "basePrintNo": "A10172",
+    "basePrintNoStr": "A10172-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 280,
+       "sessionYear": 2009,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 85,
+       "fullName": "Marcos Crespo",
+       "imgName": "537_marcos_crespo.jpg",
+       "incumbent": false,
+       "memberId": 537,
+       "sessionMemberId": 204,
+       "sessionYear": 2009,
+       "shortName": "CRESPO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Michael DenDekker",
+       "imgName": "459_michael_dendekker.jpg",
+       "incumbent": false,
+       "memberId": 459,
+       "sessionMemberId": 211,
+       "sessionYear": 2009,
+       "shortName": "DENDEKKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Nelson Castro",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 538,
+       "sessionMemberId": 270,
+       "sessionYear": 2009,
+       "shortName": "CASTRO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 66,
+       "fullName": "Deborah Glick",
+       "imgName": "519_deborah_glick.jpg",
+       "incumbent": true,
+       "memberId": 519,
+       "sessionMemberId": 241,
+       "sessionYear": 2009,
+       "shortName": "GLICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Hakeem Jeffries",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 510,
+       "sessionMemberId": 205,
+       "sessionYear": 2009,
+       "shortName": "JEFFRIES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 135,
+       "fullName": "David Koon",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 585,
+       "sessionMemberId": 278,
+       "sessionYear": 2009,
+       "shortName": "KOON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 77,
+       "fullName": "Vanessa Gibson",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 529,
+       "sessionMemberId": 259,
+       "sessionYear": 2009,
+       "shortName": "GIBSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 40,
+       "fullName": "Inez Barron",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1273,
+       "sessionMemberId": 289,
+       "sessionYear": 2009,
+       "shortName": "BARRON"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §36, Munic Home R L",
+    "lawSection": "Municipal Home Rule Law",
+    "memo": "BILL NUMBER:A10172A\n\nTITLE OF BILL:  An act to amend the municipal home rule law, in relation\nto charter revision commissions\n\nPURPOSE OR GENERAL IDEA OF BILL: This bill clearly lays out the process\nfor a charter revision commission to follow. It requires the commission\nto hold a hearing or hearings before it begins its work and again after\nit presents preliminary proposals to the public. It requires that any\nproposals put before the voters be placed on the ballot as separate\nproposals to the extent practicable. It prevents a commission formed\nafter February 15 in any given year to place proposals on the ballot in\nthat year, unless the commission declares a state of emergency, in which\ncase the city council must concur.\n\nJUSTIFICATION: This bill sets forth the process of charter revision in\nsuch a way as to provide for the public to propose and react to\nproposals. It provides time for deliberative thinking on the part of all\nparties, both the members of the commission and the public and a chance\nto fully educate the voters as to any proposals they might vote upon.\n\nPRIOR LEGISLATIVE HISTORY: New bill.\n\nEFFECTIVE DATE: January 1, 2010 and provides for any commission that is\nin the process of deliberations not in compliance with this act is\nterminated.\n\n",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 237,
+       "sessionYear": 2009,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 321,
+       "sessionYear": 2009,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Alan Maisel",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 512,
+       "sessionMemberId": 232,
+       "sessionYear": 2009,
+       "shortName": "MAISEL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 22,
+       "fullName": "Grace Meng",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 461,
+       "sessionMemberId": 287,
+       "sessionYear": 2009,
+       "shortName": "MENG"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 51,
+       "fullName": "Felix Ortiz",
+       "imgName": "504_felix_ortiz.jpg",
+       "incumbent": false,
+       "memberId": 504,
+       "sessionMemberId": 331,
+       "sessionYear": 2009,
+       "shortName": "ORTIZ"
+      }
+     ],
+     "size": 5
+    },
+    "printNo": "A10172A",
+    "publishDate": "2010-03-22",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the municipal home rule law, in relation to charter revision commissions",
+    "basePrintNo": "A10172",
+    "basePrintNoStr": "A10172-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 280,
+       "sessionYear": 2009,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 85,
+       "fullName": "Marcos Crespo",
+       "imgName": "537_marcos_crespo.jpg",
+       "incumbent": false,
+       "memberId": 537,
+       "sessionMemberId": 204,
+       "sessionYear": 2009,
+       "shortName": "CRESPO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Michael DenDekker",
+       "imgName": "459_michael_dendekker.jpg",
+       "incumbent": false,
+       "memberId": 459,
+       "sessionMemberId": 211,
+       "sessionYear": 2009,
+       "shortName": "DENDEKKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Nelson Castro",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 538,
+       "sessionMemberId": 270,
+       "sessionYear": 2009,
+       "shortName": "CASTRO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 66,
+       "fullName": "Deborah Glick",
+       "imgName": "519_deborah_glick.jpg",
+       "incumbent": true,
+       "memberId": 519,
+       "sessionMemberId": 241,
+       "sessionYear": 2009,
+       "shortName": "GLICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Hakeem Jeffries",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 510,
+       "sessionMemberId": 205,
+       "sessionYear": 2009,
+       "shortName": "JEFFRIES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 135,
+       "fullName": "David Koon",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 585,
+       "sessionMemberId": 278,
+       "sessionYear": 2009,
+       "shortName": "KOON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 77,
+       "fullName": "Vanessa Gibson",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 529,
+       "sessionMemberId": 259,
+       "sessionYear": 2009,
+       "shortName": "GIBSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 40,
+       "fullName": "Inez Barron",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1273,
+       "sessionMemberId": 289,
+       "sessionYear": 2009,
+       "shortName": "BARRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 58,
+       "fullName": "N. Nick Perry",
+       "imgName": "511_n._nick_perry.jpg",
+       "incumbent": false,
+       "memberId": 511,
+       "sessionMemberId": 203,
+       "sessionYear": 2009,
+       "shortName": "PERRY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 38,
+       "fullName": "Michael G. Miller",
+       "imgName": "492_michael_g._miller.jpg",
+       "incumbent": false,
+       "memberId": 492,
+       "sessionMemberId": 227,
+       "sessionYear": 2009,
+       "shortName": "MILLER M"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 212,
+       "sessionYear": 2009,
+       "shortName": "ROSENTHAL"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §36, Munic Home R L",
+    "lawSection": "Municipal Home Rule Law",
+    "memo": "BILL NUMBER:A10172B\n\nTITLE OF BILL:  An act to amend the municipal home rule law, in relation\nto charter revision commissions\n\nPURPOSE  OR GENERAL IDEA OF BILL: This bill clearly lays out the process\nfor a charter revision commission to follow. It requires the  commission\nto  hold a hearing or hearings before it begins its work and again after\nit presents preliminary proposals to the public. It  requires  that  any\nproposals  put  before  the  voters  be placed on the ballot as separate\nproposals to the extent practicable. It  prevents  a  commission  formed\nafter  February 15 in any given year to place proposals on the ballot in\nthat year, unless the commission request and obtains the consent of  the\nlegislative body.\n\nJUSTIFICATION:  This  bill sets forth the process of charter revision in\nsuch a way as to  provide  for  the  public  to  propose  and  react  to\nproposals. It provides time for deliberative thinking on the part of all\nparties,  both the members of the commission and the public and a chance\nto fully educate the voters as to any proposals they might vote upon.\n\nPRIOR LEGISLATIVE HISTORY: New bill.\n\nEFFECTIVE DATE: January 1, 2010 and provides for any commission that  is\nin  the  process  of  deliberations  not  in compliance with this act is\nterminated.\n\n",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 237,
+       "sessionYear": 2009,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 321,
+       "sessionYear": 2009,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Alan Maisel",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 512,
+       "sessionMemberId": 232,
+       "sessionYear": 2009,
+       "shortName": "MAISEL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 22,
+       "fullName": "Grace Meng",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 461,
+       "sessionMemberId": 287,
+       "sessionYear": 2009,
+       "shortName": "MENG"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 51,
+       "fullName": "Felix Ortiz",
+       "imgName": "504_felix_ortiz.jpg",
+       "incumbent": false,
+       "memberId": 504,
+       "sessionMemberId": 331,
+       "sessionYear": 2009,
+       "shortName": "ORTIZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 23,
+       "fullName": "Audrey Pheffer",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 483,
+       "sessionMemberId": 276,
+       "sessionYear": 2009,
+       "shortName": "PHEFFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Adam Clayton Powell IV",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 521,
+       "sessionMemberId": 249,
+       "sessionYear": 2009,
+       "shortName": "POWELL"
+      }
+     ],
+     "size": 7
+    },
+    "printNo": "A10172B",
+    "publishDate": "2010-03-24",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S7344",
+       "basePrintNoStr": "S7344-2009",
+       "printNo": "S7344",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A10172",
+ "basePrintNoStr": "A10172-2009",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 44,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 67,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 68,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 69,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 70,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 71,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 72,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 73,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 74,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 75,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 76,
+    "year": 2010
+   }
+  ],
+  "size": 33
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-03-09",
+    "billCalNo": null,
+    "committeeName": "Cities",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   },
+   {
+    "actionDate": "2010-03-24",
+    "billCalNo": 749,
+    "committeeName": null,
+    "statusDesc": "Assembly Floor Calendar",
+    "statusType": "ASSEMBLY_FLOOR"
+   },
+   {
+    "actionDate": "2010-04-21",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Passed Assembly",
+    "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2010-04-21",
+    "billCalNo": null,
+    "committeeName": "Cities",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-05-04",
+    "billCalNo": 428,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 5
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Cities",
+    "referenceDate": "2010-03-09T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Cities",
+    "referenceDate": "2010-04-21T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A10172B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-03-09T11:49:48",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2010-03-22T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2010-03-24T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2010-03-09T11:49:48",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 44,
+   "fullName": "James F. Brennan",
+   "imgName": "497_james_f._brennan.jpg",
+   "incumbent": false,
+   "memberId": 497,
+   "sessionMemberId": 274,
+   "sessionYear": 2009,
+   "shortName": "BRENNAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-05-04",
+  "billCalNo": 428,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for the manner of submission of proposed charter revision proposals by a charter revision commission.",
+ "title": "Provides for the manner of submission of proposed charter revision proposals by a charter revision commission",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

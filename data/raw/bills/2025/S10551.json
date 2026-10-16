@@ -1,0 +1,254 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10551",
+     "basePrintNoStr": "S10551-2025",
+     "printNo": "S10551",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10551",
+     "basePrintNoStr": "S10551-2025",
+     "printNo": "S10551",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10551",
+     "basePrintNoStr": "S10551-2025",
+     "printNo": "S10551",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1689"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10551",
+     "basePrintNoStr": "S10551-2025",
+     "printNo": "S10551",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A11472"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the alcoholic beverage control law, in relation to an\nexemption for certain property in the village of Lake Placid from the\nprohibition of alcohol sales within a certain distance from a church",
+    "basePrintNo": "S10551",
+    "basePrintNoStr": "S10551-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §64, ABC L",
+    "lawSection": "Alcoholic Beverage Control Law",
+    "memo": " \nBILL NUMBER: S10551\n\nSPONSOR: STEC\n \nTITLE OF BILL:\n\nAn act to amend the alcoholic beverage control law, in relation to an\nexemption for certain property in the village of Lake Placid from the\nprohibition of alcohol sales within a certain distance from a church\n\n \nPURPOSE:\n\nTo authorize the state Liquor Authority to issue an on-premises license\nto a business within 200 feet of a church within the village of Lake\nPlacid.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 Permits SLA to grant an on-premises license to the business\nlocated at 2442 Main Street in Lake Placid, the former Great Adirondack\nSteak and Seafood restaurant.\n\nSection 2 Provides effective date\n\n \nJUSTIFICATION:\n\nFor about 40 years, the owners of Great Adirondack Steak and Seafood\nenjoyed an on-premises liquor license at the restaurant, which is\nlocated next door to St. Eustace Episcopal Church.\n\nHowever, when the property was sold in 2025, the license did not trans-\nfer to the new ownership group. After consultation with SLA, the new\nowners have asked for this legislation so the business can remain fully\noperational.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10551",
+    "publishDate": "2026-05-20",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ABC64"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11472",
+       "basePrintNoStr": "A11472-2025",
+       "printNo": "A11472",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10551",
+ "basePrintNoStr": "S10551-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 62,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": 1689,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Commerce, Economic Development And Small Business",
+    "referenceDate": "2026-05-20T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-03T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S10551",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-05-20T15:56:59.629761",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-05-20T15:56:59.57752",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 45,
+   "fullName": "Dan Stec",
+   "imgName": "674_dan_stec.jpg",
+   "incumbent": true,
+   "memberId": 1490,
+   "sessionMemberId": 2362,
+   "sessionYear": 2025,
+   "shortName": "STEC"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-03",
+  "billCalNo": 1689,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11472",
+  "basePrintNoStr": "A11472-2025",
+  "session": 2025
+ },
+ "summary": "Exempts certain property in the village of Lake Placid, town of North Elba, from the prohibition of alcohol sales within a certain distance from a church.",
+ "title": "Exempts certain property in the village of Lake Placid from the prohibition of alcohol sales within a certain distance from a church",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

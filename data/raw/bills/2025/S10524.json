@@ -1,0 +1,553 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10524",
+     "basePrintNoStr": "S10524-2025",
+     "printNo": "S10524",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10524",
+     "basePrintNoStr": "S10524-2025",
+     "printNo": "S10524",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-01",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10524",
+     "basePrintNoStr": "S10524-2025",
+     "printNo": "S10524",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-01",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1517"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10524",
+     "basePrintNoStr": "S10524-2025",
+     "printNo": "S10524",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-01",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A11005"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend part U of chapter 56 of the laws of 2018, amending the\neducation law relating to requiring regulations to permit tuition waivers for\ncertain firefighters and fire officers for CUNY, in relation to the\neffectiveness thereof",
+    "basePrintNo": "S10524",
+    "basePrintNoStr": "S10524-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Part U §2, Chap 56 of 2018",
+    "lawSection": "Education",
+    "memo": " \nBILL NUMBER: S10524\n\nSPONSOR: STAVISKY\n \nTITLE OF BILL:\n\nAn act to amend part U of chapter 56 of the laws of 2018, amending the\neducation law relating to requiring regulations to permit tuition waiv-\ners for certain firefighters and fire officers for CUNY, in relation to\nthe effectiveness thereof\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo purpose of this bill is to extend the law that provides certain fire-\nfighters and fire officers enrolled at CUNY with a tuition waiver for\none course.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of the bill amends Chapter 56 of the Laws of 2018 to extend\nthe law through July 1, 2028.\n\nSection two of the bill provides for an immediate effective date.\n\n \nJUSTIFICATION:\n\nThis bill provides an incentive for firefighters and fire officers to\npursue higher education by authorizing a tuition wavier for one course\nat CUNY.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nChapter 291 of the Laws of 2022. Chapter 58 of the Laws of 2020 (Item LL\nof subpart B of Part XXX).\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10524",
+    "publishDate": "2026-05-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11005",
+       "basePrintNoStr": "A11005-2025",
+       "printNo": "A11005",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10524",
+ "basePrintNoStr": "S10524-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 60,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-01",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-01",
+    "billCalNo": 1517,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2026-05-18T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-01T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S9768",
+    "basePrintNoStr": "S9768-2023",
+    "printNo": "S9768",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S9129",
+    "basePrintNoStr": "S9129-2021",
+    "printNo": "S9129",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S10524",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-05-18T13:05:28.610285",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-05-18T13:05:28.560961",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 11,
+   "fullName": "Toby Ann Stavisky",
+   "imgName": "400_toby_ann_stavisky.jpg",
+   "incumbent": true,
+   "memberId": 400,
+   "sessionMemberId": 2328,
+   "sessionYear": 2025,
+   "shortName": "STAVISKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-01",
+  "billCalNo": 1517,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11005",
+  "basePrintNoStr": "A11005-2025",
+  "session": 2025
+ },
+ "summary": "Extends certain provisions of law relating to requiring regulations to permit tuition waivers for certain firefighters and fire officers for CUNY until July 1, 2028.",
+ "title": "Extends certain provisions of law relating to requiring regulations to permit tuition waivers for certain firefighters and fire officers for CUNY",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S10524",
+     "basePrintNoStr": "S10524-2025",
+     "printNo": "S10524",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2332,
+         "sessionYear": 2025,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2353,
+         "sessionYear": 2025,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2331,
+         "sessionYear": 2025,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Nathalia Fernandez",
+         "imgName": "966_Nathalia_Fernandez.jpg",
+         "incumbent": true,
+         "memberId": 1520,
+         "sessionMemberId": 2351,
+         "sessionYear": 2025,
+         "shortName": "FERNANDEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2377,
+         "sessionYear": 2025,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 2329,
+         "sessionYear": 2025,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 2376,
+         "sessionYear": 2025,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2370,
+         "sessionYear": 2025,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 2357,
+         "sessionYear": 2025,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Pamela Helming",
+         "imgName": "773_Pamela_Helming.jpg",
+         "incumbent": true,
+         "memberId": 951,
+         "sessionMemberId": 2371,
+         "sessionYear": 2025,
+         "shortName": "HELMING"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 2345,
+         "sessionYear": 2025,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2341,
+         "sessionYear": 2025,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2333,
+         "sessionYear": 2025,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2354,
+         "sessionYear": 2025,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2337,
+         "sessionYear": 2025,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 2379,
+         "sessionYear": 2025,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2349,
+         "sessionYear": 2025,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 2352,
+         "sessionYear": 2025,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 2361,
+         "sessionYear": 2025,
+         "shortName": "TEDISCO"
+        }
+       ],
+       "size": 20
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2338,
+         "sessionYear": 2025,
+         "shortName": "PARKER"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2026-06-01",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

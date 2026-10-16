@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4476",
+     "basePrintNoStr": "S4476-2013",
+     "printNo": "S4476",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-04-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4476",
+     "basePrintNoStr": "S4476-2013",
+     "printNo": "S4476",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-04-15",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law and the public health law, in relation to restricting limitations on non-affiliated physicians from becoming a network provider of any health care plan or health maintenance organization",
+    "basePrintNo": "S4476",
+    "basePrintNoStr": "S4476-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3217-b, Ins L; amd §4406-c, Pub Health L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S4476\n\nTITLE  OF  BILL:    An  act  to amend the insurance law and the public\nhealth law, in relation to restricting limitations  on  non-affiliated\nphysicians from becoming a network provider of any health care plan or\nhealth maintenance organization\n\nPURPOSE:\n\nTo  allow  non-affiliated  physicians  the opportunity to be part of a\nhealth insurer's provider network in order to coordinate patient  care\nand help control the spiraling cost of medical care.\n\nSUMMARY OF PROVISIONS:\n\nAmends  section  3217-b of the insurance law and section 4406-c of the\npublic health law to  prohibit  a  health  insurer  from  requiring  a\nphysician to be affiliated with and/or maintain hospital privileges as\na  condition  of  entering  into or remaining in the provider network.\nAlso prohibits a health insurer from restricting a physician's ability\nto refer a patient to another physician based solely on  the  referred\nphysician's lack of affiliation with a hospital.\n\nJUSTIFICATION:\n\nThe  contractual agreements that exist between insurance companies and\nhospitals  creates  an  environment  that  restricts  community  based\nphysicians  from entering into network provider agreements unless they\nare unaffiliated with a hospital.  This  practice  is  unfair  if  the\nnon-affiliated  health care provider meets the credentialing standards\nThe health care provider is responsible for meeting  the  requirements\nfor   participation.   Upon   meeting   the   necessary  criteria  for\nqualification,  there  should  be  no  basis   for   denial   of   the\nnon-affiliated  independent  physician's  right  to  become  a network\nprovider of any New York State  sanctioned  health  care  plan  and/or\nhealth maintenance organization.\n\nLEGISLATIVE HISTORY:\n\nS 7336 of 2012\n\nFISCAL IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\n\n180 days after becoming a law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4476",
+    "publishDate": "2013-04-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4476",
+ "basePrintNoStr": "S4476-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2013-04-03",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2013-04-03T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S7336",
+    "basePrintNoStr": "S7336-2011",
+    "printNo": "S7336",
+    "session": 2011,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S4476",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-04-03T11:22:17",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2013-04-03T11:22:17",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 51,
+   "fullName": "James L. Seward",
+   "imgName": "371_james_l._seward.jpg",
+   "incumbent": false,
+   "memberId": 371,
+   "sessionMemberId": 127,
+   "sessionYear": 2013,
+   "shortName": "SEWARD"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2013-04-15",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides that no insurer or health care plan shall by contract, written policy or written procedure require the maintenance of hospital privileges by any non-hospital employee health care provider as a condition of entering into or maintaining a contract, agreement of membership or acceptance into a health care plan or health maintenance organization's provider network; provides that no insurer or health care plan can prohibit or restrict any health care provider from referring an insured to another physician based solely upon the referred physician's lack of affiliation and/or lack of hospital privileges.",
+ "title": "Restricts limitations on non-affiliated physicians from becoming a network provider of any health care plan or health maintenance organization",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

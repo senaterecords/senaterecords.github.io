@@ -1,0 +1,1045 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-02-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-04-29",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.893"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-04-30",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-01",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-19",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 5294A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-05",
+    "sequenceNo": 6,
+    "text": "AMENDED ON THIRD READING 5294B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-11",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A203B"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to requiring hospitals to\ndevelop a violence prevention program",
+    "basePrintNo": "S5294",
+    "basePrintNoStr": "S5294-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 2370,
+       "sessionYear": 2025,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 2319,
+       "sessionYear": 2025,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §2832, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S5294\n\nSPONSOR: SEPULVEDA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to requiring hospi-\ntals to develop a violence prevention program\n\n \nPURPOSE:\n\nTo require hospitals to establish a violence prevention protection\nprogram including the establishment of security personnel in hospital\nemergency departments to protect from violence and verbal and physical\nabuse of doctors, nurses and staff who provide critical medical care in\nsuch emergency departments.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill requires hospitals to establish a violence\nprevention program to require:\n\nEach hospital shall create such program consistent with the workplace\nviolence standards of any accrediting organization approved by the\nCenters for Medicare & Medicaid Services under which such hospital main-\ntains accreditation provided however that such standards are comparable\nto those established by the Joint Commission on Health Care Organiza-\ntions;\n\nGeneral hospitals located in a city or county with a population of one\nmillion or more shall be required to have at least one-off duty law\nenforcement officer or trained security personnel be present at all\ntimes in the emergency department with consideration of emergent circum-\nstance in any hospital; and\n\nGeneral hospitals located in a city or county with a population less\nthan one million shall be required to have at least one off-duty law\nenforcement officer or trained security personnel on premises at all\ntimes in a manner that prioritizes physical presence near, or within\nclose proximity to, the emergency department of such hospital with\ndirect responsibility to the emergency department. This shall not apply\nto hospitals designated as a critical access hospitals, sole community\nhospitals, or rural emergency hospitals. However, if any such hospital\nexperiences increased rates of violence or abuse of emergency department\npersonnel evidenced by internal reporting pursuant to the violence\nprevention program or reports to law enforcement the commissioner shall\nwork with the critical access hospital, sole community hospital, or\nrural emergency hospital to come into compliance with the requirement,\nto have at least one off-duty law enforcement officer or trained securi-\nty personnel on premises at all times in a manner that prioritizes phys-\nical presence near, or within close proximity to, the emergency depart-\nment of such hospital with direct responsibility to the emergency\ndepartment, over a reasonable period of time.\n\nSection 2 provides for the effective date.\n\n \nJUSTIFICATION:\n\n\n\nPhysicians, nurses, and other healthcare employees are exposed on a\ndaily basis to the potential of assault or other violent situations in\nthe course of their duties.\n\nAssault on the job is one of the most frequent causes of serious inju-\nries in the healthcare industry, and violence is a more common cause of\ninjury than in other industries. U.S. healthcare workers suffer thou-\nsands of workplace-violence related injuries every year that require\ntime away from work for treatment and recovery (i.e., serious injuries).\n\nIn a 2022 American College of Emergency Physicians survey of E.R.\ndoctors, 55 percent said they had been physically assaulted, almost all\nby patients, with a third of those resulting in injuries. 85 percent had\nbeen seriously threatened by patients. The risks can be even higher for\nE.R. nurses, with over 70 percent reporting they had sustained physical\nassaults at work.\n\nThe 2022 American College of Emergency Physicians survey further found\nthat the incidences of workplace violence in emergency departments\ncontributed to staff shortages due to staff injury, emotional trauma,\nand anxiety. As well as increased wait times for patients and delay of\ncritical medical care.\n\n \nLEGISLATIVE HISTORY:\n\nS.4909B Of 2023-2024: Amended on Third Reading (T) 4909B, Re-passed\nSenate, Returned to Assembly;\n\nA.4848 of 2020\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect two hundred and seventy days after it shall\nhave become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5294",
+    "publishDate": "2025-02-20",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH2832"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to requiring hospitals to\ndevelop a violence prevention program",
+    "basePrintNo": "S5294",
+    "basePrintNoStr": "S5294-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 2370,
+       "sessionYear": 2025,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 2319,
+       "sessionYear": 2025,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "Robert Rolison",
+       "imgName": "1336_Robert_Rolison.jpg",
+       "incumbent": true,
+       "memberId": 1519,
+       "sessionMemberId": 2356,
+       "sessionYear": 2025,
+       "shortName": "ROLISON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §2832, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S5294A\n\nSPONSOR: SEPULVEDA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to requiring hospi-\ntals to develop a violence prevention program\n\n \nPURPOSE:\n\nTo require hospitals to establish a violence prevention protection\nprogram including the establishment of security personnel in hospital\nemergency departments to protect from violence and verbal and physical\nabuse of doctors, nurses and staff who provide critical medical care in\nsuch emergency departments.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill requires hospitals to establish a violence\nprevention program to require:\n\nEach hospital shall create such program consistent with the workplace\nviolence standards of any accrediting organization approved by the\nCenters for Medicare & Medicaid Services under which such hospital main-\ntains accreditation provided however that such standards are comparable\nto those established by the Joint Commission on Health Care Organiza-\ntions;\n\nGeneral hospitals located in a city or county with a population of one\nmillion or more shall be required to have at least one-off duty law\nenforcement officer or trained security personnel be present at all\ntimes in the emergency department with consideration of emergent circum-\nstance in any hospital; and\n\nGeneral hospitals located in a city or county with a population less\nthan one million shall be required to have at least one off-duty law\nenforcement officer or trained security personnel on premises at all\ntimes in a manner that prioritizes physical presence near, or within\nclose proximity to, the emergency department of such hospital with\ndirect responsibility to the emergency department. This shall not apply\nto hospitals designated as a critical access hospitals, sole community\nhospitals, or rural emergency hospitals. However, if any such hospital\nexperiences increased rates of violence or abuse of emergency department\npersonnel evidenced by internal reporting pursuant to the violence\nprevention program or reports to law enforcement the commissioner shall\nwork with the critical access hospital, sole community hospital, or\nrural emergency hospital to come into compliance with the requirement,\nto have at least one off-duty law enforcement officer or trained securi-\nty personnel on premises at all times in a manner that prioritizes phys-\nical presence near, or within close proximity to, the emergency depart-\nment of such hospital with direct responsibility to the emergency\ndepartment, over a reasonable period of time.\n\nSection 2 provides for the effective date.\n\n \nJUSTIFICATION:\n\n\n\nPhysicians, nurses, and other healthcare employees are exposed on a\ndaily basis to the potential of assault or other violent situations in\nthe course of their duties.\n\nAssault on the job is one of the most frequent causes of serious inju-\nries in the healthcare industry, and violence is a more common cause of\ninjury than in other industries. U.S. healthcare workers suffer thou-\nsands of workplace-violence related injuries every year that require\ntime away from work for treatment and recovery (i.e., serious injuries).\n\nIn a 2022 American College of Emergency Physicians survey of E.R.\ndoctors, 55 percent said they had been physically assaulted, almost all\nby patients, with a third of those resulting in injuries. 85 percent had\nbeen seriously threatened by patients. The risks can be even higher for\nE.R. nurses, with over 70 percent reporting they had sustained physical\nassaults at work.\n\nThe 2022 American College of Emergency Physicians survey further found\nthat the incidences of workplace violence in emergency departments\ncontributed to staff shortages due to staff injury, emotional trauma,\nand anxiety. As well as increased wait times for patients and delay of\ncritical medical care.\n\n \nLEGISLATIVE HISTORY:\n\nS.49098 Of 2023-2024: Amended on Third Reading (T) 4909B, Re-passed\nSenate, Returned to Assembly;\n\nA.4848 of 2020\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect two hundred and seventy days after it shall\nhave become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5294A",
+    "publishDate": "2025-05-19",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH2832"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the public health law, in relation to requiring hospitals to\ndevelop a violence prevention program",
+    "basePrintNo": "S5294",
+    "basePrintNoStr": "S5294-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 2370,
+       "sessionYear": 2025,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 2319,
+       "sessionYear": 2025,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "Robert Rolison",
+       "imgName": "1336_Robert_Rolison.jpg",
+       "incumbent": true,
+       "memberId": 1519,
+       "sessionMemberId": 2356,
+       "sessionYear": 2025,
+       "shortName": "ROLISON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §§2832 & 2832-a, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S5294B\n\nSPONSOR: SEPULVEDA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to requiring hospi-\ntals to develop a violence prevention program\n\n \nPURPOSE:\n\nTo require hospitals to establish a violence prevention protection\nprogram including the establishment of security personnel in hospital\nemergency departments to protect from violence and verbal and physical\nabuse of doctors, nurses and staff who provide critical medical care in\nsuch emergency departments.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill requires hospitals to establish a violence\nprevention program to require:\n\nEach hospital shall create such program consistent with the workplace\nviolence standards of any accrediting organization approved by the\nCenters for Medicare & Medicaid Services under which such hospital main-\ntains accreditation provided however that such standards are comparable\nto those established by the Joint Commission on Health Care Organiza-\ntions;\n\nGeneral hospitals located in a city or county with a population of one\nmillion or more shall be required to have at least one-off duty law\nenforcement officer or trained security personnel be present at all\ntimes in the emergency department with consideration of emergent circum-\nstance in any hospital; and\n\nGeneral hospitals located in a city or county with a population less\nthan one million shall be required to have at least one off-duty law\nenforcement officer or trained security personnel on premises at all\ntimes in a manner that prioritizes physical presence near, or within\nclose proximity to, the emergency department of such hospital with\ndirect responsibility to the emergency department. This shall not apply\nto hospitals designated as a critical access hospitals, sole community\nhospitals, or rural emergency hospitals. However, if any such hospital\nexperiences increased rates of violence or abuse of emergency department\npersonnel evidenced by internal reporting pursuant to the violence\nprevention program or reports to law enforcement the commissioner shall\nwork with the critical access hospital, sole community hospital, or\nrural emergency hospital to come into compliance with the requirement,\nto have at least one off-duty law enforcement officer or trained securi-\nty personnel on premises at all times in a manner that prioritizes phys-\nical presence near, or within close proximity to, the emergency depart-\nment of such hospital with direct responsibility to the emergency\ndepartment, over a reasonable period of time.\n\nSection 2 provides for the effective date.\n\n \nJUSTIFICATION:\n\n\n\nPhysicians, nurses, and other healthcare employees are exposed on a\ndaily basis to the potential of assault or other violent situations in\nthe course of their duties.\n\nAssault on the job is one of the most frequent causes of serious inju-\nries in the healthcare industry, and violence is a more common cause of\ninjury than in other industries. U.S. healthcare workers suffer thou-\nsands of workplace-violence related injuries every year that require\ntime away from work for treatment and recovery (i.e., serious injuries).\n\nIn a 2022 American College of Emergency Physicians survey of E.R.\ndoctors, 55 percent said they had been physically assaulted, almost all\nby patients, with a third of those resulting in injuries. 85 percent had\nbeen seriously threatened by patients. The risks can be even higher for\nE.R. nurses, with over 70 percent reporting they had sustained physical\nassaults at work.\n\nThe 2022 American College of Emergency Physicians survey further found\nthat the incidences of workplace violence in emergency departments\ncontributed to staff shortages due to staff injury, emotional trauma,\nand anxiety. As well as increased wait times for patients and delay of\ncritical medical care.\n\n \nLEGISLATIVE HISTORY:\n\nS.4909E Of 2023-2024: Amended on Third Reading (T) 4909B, Re-passed\nSenate, Returned to Assembly;\n\nA.4848 of 2020\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect two hundred and seventy days after it shall\nhave become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5294B",
+    "publishDate": "2025-06-05",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH2832",
+        "PBH2832-A"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A203",
+       "basePrintNoStr": "A203-2025",
+       "printNo": "A203B",
+       "session": 2025,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5294",
+ "basePrintNoStr": "S5294-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 44,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2025
+   }
+  ],
+  "size": 23
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2025-02-20",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2025-06-05",
+    "billCalNo": 893,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2025-02-20T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4909",
+    "basePrintNoStr": "S4909-2023",
+    "printNo": "S4909B",
+    "session": 2023,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S8834",
+    "basePrintNoStr": "S8834-2021",
+    "printNo": "S8834",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S1907",
+    "basePrintNoStr": "S1907-2019",
+    "printNo": "S1907",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S8355",
+    "basePrintNoStr": "S8355-2017",
+    "printNo": "S8355",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 4
+ },
+ "printNo": "S5294B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-02-20T14:15:48.651353",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2025-05-19T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2025-06-05T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2025-02-20T14:15:48.651353",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 32,
+   "fullName": "Luis R. Sepúlveda",
+   "imgName": "493_Luis_Sepulveda.jpg",
+   "incumbent": true,
+   "memberId": 1142,
+   "sessionMemberId": 2349,
+   "sessionYear": 2025,
+   "shortName": "SEPULVEDA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2025-06-05",
+  "billCalNo": 893,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A203",
+  "basePrintNoStr": "A203-2025",
+  "session": 2025
+ },
+ "summary": "Requires hospitals to establish a violence prevention program which includes a workplace safety and security assessment and develop a safety and security plan that addresses identified workplace violence threats or hazards.",
+ "title": "Requires hospitals to develop a violence prevention program",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5294",
+     "basePrintNoStr": "S5294-2025",
+     "printNo": "S5294",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 2360,
+         "sessionYear": 2025,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2372,
+         "sessionYear": 2025,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2377,
+         "sessionYear": 2025,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 2376,
+         "sessionYear": 2025,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2364,
+         "sessionYear": 2025,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2337,
+         "sessionYear": 2025,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2338,
+         "sessionYear": 2025,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 2322,
+         "sessionYear": 2025,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2350,
+         "sessionYear": 2025,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Christopher Ryan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1551,
+         "sessionMemberId": 2367,
+         "sessionYear": 2025,
+         "shortName": "RYAN C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 2369,
+         "sessionYear": 2025,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 13
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 2324,
+         "sessionYear": 2025,
+         "shortName": "MARTINS"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2025-04-29",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2025
+}

@@ -1,0 +1,669 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2802",
+     "basePrintNoStr": "S2802-2011",
+     "printNo": "S2802",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-02-01",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2802",
+     "basePrintNoStr": "S2802-2011",
+     "printNo": "S2802",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-16",
+    "sequenceNo": 2,
+    "text": "ORDERED TO THIRD READING CAL.230"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2802",
+     "basePrintNoStr": "S2802-2011",
+     "printNo": "S2802",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-16",
+    "sequenceNo": 3,
+    "text": "SUBSTITUTED BY A4002"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S2802",
+    "basePrintNoStr": "S2802-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Budget Bills",
+    "memo": "BILL NUMBER:S2802\n\nTITLE OF BILL:\nAn act\nmaking appropriations for the legal requirements of the state debt\nservice and lease purchase payments and other special contractual\nobligations\n\nSummary:\nThis bill would make appropriations for the legal requirements\n(payments of principle, interest, related expenses and interest\nrate exchange and similar agreements) of the state debt service for\ngeneral obligation bonds, lease purchase payments and other special\ncontractual obligations.\n\nJustification:\nAnnually the State legislature considers a bill of appropriations for\ndebt service so that the State may meet its obligations to make\npayments on outstanding bonds and new State-supported bond issuances.\nThe State's good faith debt payments have garnered favorable credit\nratings by Standard & Poor's (AA), Fitch (PA) and Moody's (Aa2) for\nthe State's general obligation debt. Favorable ratings are determined\nby on-time and consistent debt service payments, revenues that are\npledged to support payments and, inter alia, the State's fiscal\nstability. For SFY 2011-12, the State plans to make $5.143 billion in\nstate-supported debt service payments and an additional $586,301\nmillion in other state debt obligations for a total of $6.623 billion\nin state-related debt service payments. New State-supported debt is\nsubject to the statutory debt limitations of the Debt Reform Act of\n2000.\n\nFiscal impact:\nThis bill would authorize a maximum of $8.879 billion in debt service\nappropriations, which includes $1.5 billion in appropriations for\nmarket fluctuations in variable rate debt and interest rate exchange\nand similar agreements and $250 million for the Debt Reduction\nReserve Fund.\n\nEffective Date:\nEffective April 1st, 2011.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2802",
+    "publishDate": "2011-02-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4002",
+       "basePrintNoStr": "A4002-2011",
+       "printNo": "A4002",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2802",
+ "basePrintNoStr": "S2802-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 20,
+    "year": 2011
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 8,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-02-01",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-03-16",
+    "billCalNo": 230,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2011-02-01T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2802",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-02-01T12:18:50",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-02-01T12:08:49",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": true,
+  "member": null,
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-03-16",
+  "billCalNo": 230,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A4002",
+  "basePrintNoStr": "A4002-2011",
+  "session": 2011
+ },
+ "summary": "Makes appropriations for the support of government - State Debt Service Budget.",
+ "title": "state debt service",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S2802",
+     "basePrintNoStr": "S2802-2011",
+     "printNo": "S2802",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "James S. Alesi",
+         "imgName": "James S. Alesi.jpg",
+         "incumbent": false,
+         "memberId": 392,
+         "sessionMemberId": 86,
+         "sessionYear": 2011,
+         "shortName": "ALESI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 107,
+         "sessionYear": 2011,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 66,
+         "sessionYear": 2011,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 70,
+         "sessionYear": 2011,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 120,
+         "sessionYear": 2011,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 112,
+         "sessionYear": 2011,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 93,
+         "sessionYear": 2011,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 119,
+         "sessionYear": 2011,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 77,
+         "sessionYear": 2011,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 116,
+         "sessionYear": 2011,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 118,
+         "sessionYear": 2011,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 80,
+         "sessionYear": 2011,
+         "shortName": "JOHNSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 95,
+         "sessionYear": 2011,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Carl Kruger",
+         "imgName": "Carl Kruger.jpg",
+         "incumbent": false,
+         "memberId": 420,
+         "sessionMemberId": 114,
+         "sessionYear": 2011,
+         "shortName": "KRUGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 103,
+         "sessionYear": 2011,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 68,
+         "sessionYear": 2011,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 113,
+         "sessionYear": 2011,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 73,
+         "sessionYear": 2011,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 101,
+         "sessionYear": 2011,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 75,
+         "sessionYear": 2011,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 88,
+         "sessionYear": 2011,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 82,
+         "sessionYear": 2011,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 110,
+         "sessionYear": 2011,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 122,
+         "sessionYear": 2011,
+         "shortName": "PERALTA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 69,
+         "sessionYear": 2011,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 71,
+         "sessionYear": 2011,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 111,
+         "sessionYear": 2011,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 96,
+         "sessionYear": 2011,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 94,
+         "sessionYear": 2011,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 108,
+         "sessionYear": 2011,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 32
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 81,
+         "sessionYear": 2011,
+         "shortName": "DUANE"
+        }
+       ],
+       "size": 1
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 115,
+         "sessionYear": 2011,
+         "shortName": "DIAZ"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2011-03-16",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

@@ -1,0 +1,194 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S971",
+     "basePrintNoStr": "S971-2009",
+     "printNo": "S971",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-22",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S971",
+     "basePrintNoStr": "S971-2009",
+     "printNo": "S971",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CODES"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S971",
+    "basePrintNoStr": "S971-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §245.12, Pen L",
+    "lawSection": "Penal Law",
+    "memo": " BILL NUMBER:  S971\n\n TITLE OF BILL :\n\nAn act to amend the penal law, in relation to public distribution of\noffensive sexual material\n\n\n SUMMARY :\n\nThis bill adds a new section 245.12 to the penal law. It states that\nif a person is found guilty of public distribution of offensive sexual\nmaterial he/she will be found guilty of a Class A misdemeanor\npunishable by a fine not to exceed $100 for each violation of this\nsection. Offensive sexual material is that material which depicts any\npictorial or other visual representation of a person or portion of the\nhuman body which appeals to the prurient interest in sex.\n\n JUSTIFICATION :\n\nIn recent years, the introduction of \"900\" telephone numbers and\ntelephone sex lines has been increasing. Many companies have been\nproducing and distributing cards which contain these phone numbers\nwhile illustrating obscene pictures. These cards are appearing as\nlitter in our streets, in front of our children's schools, and near\nhouses of worship.  This bill is a direct effort to decrease the\naccess of pornography to our vulnerable youth.\n\n FISCAL IMPLICATION :\n\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect on the first of November next succeeding\nthe date on which it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S971",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S971",
+ "basePrintNoStr": "S971-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2009-01-22T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S2530",
+    "basePrintNoStr": "S2530-2007",
+    "printNo": "S2530",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S971",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 27,
+   "fullName": "Carl Kruger",
+   "imgName": "Carl Kruger.jpg",
+   "incumbent": false,
+   "memberId": 420,
+   "sessionMemberId": 50,
+   "sessionYear": 2009,
+   "shortName": "KRUGER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-01-06",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Creates the crime of public distribution of offensive sexual material; makes the public distribution of offensive sexual material without charge a class A misdemeanor punishable by a fine not to exceed $100 for each violation.",
+ "title": "Criminalizes public distribution of offensive sexual material",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

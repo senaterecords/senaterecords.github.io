@@ -1,0 +1,430 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-21",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-21",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 50A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-29",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-29",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 50B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-29",
+    "sequenceNo": 6,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50C",
+     "session": 2009,
+     "version": "C"
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-29",
+    "sequenceNo": 7,
+    "text": "PRINT NUMBER 50C"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50C",
+     "session": 2009,
+     "version": "C"
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-31",
+    "sequenceNo": 8,
+    "text": "REPORTED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50C",
+     "session": 2009,
+     "version": "C"
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-31",
+    "sequenceNo": 9,
+    "text": "ORDERED TO THIRD READING CAL.130"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S50",
+     "basePrintNoStr": "S50-2009",
+     "printNo": "S50C",
+     "session": 2009,
+     "version": "C"
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-01",
+    "sequenceNo": 10,
+    "text": "SUBSTITUTED BY A150C"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "C",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B",
+   "C"
+  ],
+  "size": 4
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S50",
+    "basePrintNoStr": "S50-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S50",
+    "publishDate": "2009-01-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "",
+    "basePrintNo": "S50",
+    "basePrintNoStr": "S50-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S50A",
+    "publishDate": "2009-01-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "",
+    "basePrintNo": "S50",
+    "basePrintNoStr": "S50-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S50B",
+    "publishDate": "2009-03-29",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   },
+   "C": {
+    "actClause": "",
+    "basePrintNo": "S50",
+    "basePrintNoStr": "S50-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Budget Bills",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S50C",
+    "publishDate": "2009-03-29",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A150",
+       "basePrintNoStr": "A150-2009",
+       "printNo": "A150C",
+       "session": 2009,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": true,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S50",
+ "basePrintNoStr": "S50-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-31",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-03-31",
+    "billCalNo": 130,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-01-07T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-01-21T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-03-29T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-03-31T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S50C",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-21T00:00",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2009-01-21T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2009-03-29T00:00",
+    "published": true,
+    "version": "B"
+   },
+   "C": {
+    "effectDateTime": "2009-03-29T00:00",
+    "published": true,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": true,
+  "member": null,
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-03-31",
+  "billCalNo": 130,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A150",
+  "basePrintNoStr": "A150-2009",
+  "session": 2009
+ },
+ "summary": "Makes appropriations for the support of government - Public Protection and General Government Budget.",
+ "title": "Public Protection and General Government",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

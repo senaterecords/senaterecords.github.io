@@ -1,0 +1,249 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1886",
+     "basePrintNoStr": "S1886-2009",
+     "printNo": "S1886",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1886",
+     "basePrintNoStr": "S1886-2009",
+     "printNo": "S1886",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.589"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1886",
+     "basePrintNoStr": "S1886-2009",
+     "printNo": "S1886",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-03",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1886",
+     "basePrintNoStr": "S1886-2009",
+     "printNo": "S1886",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-04",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1886",
+     "basePrintNoStr": "S1886-2009",
+     "printNo": "S1886",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-30",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A227"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S1886",
+    "basePrintNoStr": "S1886-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §1202-aa, Tax L",
+    "lawSection": "Tax Law",
+    "memo": " BILL NUMBER:  S1886\n\n TITLE OF BILL :\nAn act to amend the tax law, in relation to the imposition of an\noccupancy tax in the city of New Rochelle; and providing for the\nrepeal of such provisions upon expiration thereof\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nTo authorize the City of New Rochelle to enact a room occupancy tax\nnot to exceed 3%.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nSection 1202-aa of the tax law is amended to add a new subdivision y\nto authorize the City of New Rochelle to enact such a tax.\n\n JUSTIFICATION :\nThe City of New Rochelle seeks authority to impose a 3% daily room tax\non hotel, motel, inn, club or similar place of public accommodation.\nThis is a necessary non-property tax revenue to support City expenses\nincluding offset impacts of rising pension costs, healthcare costs and\nother expenses not fully discretionary.\n\n LEGISLATIVE HISTORY :\n2007-08: A.6994A Referred to Investigations & Operations\n\n FISCAL IMPLICATIONS :\nThe City estimates increased revenues of $200,000 to $250,000 per year\nminus implementation costs.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1886",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A227",
+       "basePrintNoStr": "A227-2009",
+       "printNo": "A227",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1886",
+ "basePrintNoStr": "S1886-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-02-09",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-06-04",
+    "billCalNo": 589,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2009-02-09T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4987",
+    "basePrintNoStr": "S4987-2007",
+    "printNo": "S4987A",
+    "session": 2007,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1886",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 134
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 37,
+   "fullName": "Suzi Oppenheimer",
+   "imgName": "Suzi Oppenheimer.jpg",
+   "incumbent": false,
+   "memberId": 388,
+   "sessionMemberId": 19,
+   "sessionYear": 2009,
+   "shortName": "OPPENHEIMER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-06-04",
+  "billCalNo": 589,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A227",
+  "basePrintNoStr": "A227-2009",
+  "session": 2009
+ },
+ "summary": "Imposes an occupancy tax in the city of New Rochelle; and provides for the repeal of such provisions of law upon the expiration thereof.",
+ "title": "Imposes a hotel occupancy tax in the city of New Rochelle",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

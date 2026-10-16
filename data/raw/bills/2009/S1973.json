@@ -1,0 +1,196 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1973",
+     "basePrintNoStr": "S1973-2009",
+     "printNo": "S1973",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1973",
+     "basePrintNoStr": "S1973-2009",
+     "printNo": "S1973",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-20",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S1973",
+    "basePrintNoStr": "S1973-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §87, Pub Off L",
+    "lawSection": "Public Officers Law",
+    "memo": " BILL NUMBER:  S1973\n\n TITLE OF BILL :\n\nAn act to amend the public officers law, in relation to the disclosure\nof the inventory file of real property\n\n\n PURPOSE :\n\nEnactment of this legislation would make available the property\ncharacteristics of an inventory file for a parcel of real estate and\nclarity that such information shall not be deemed a matter of personal\nproperty.\n\n SUMMARY OF PROVISIONS :\n\nSection 1 amends section 87 of the public officers law by adding a new\nsubdivision 5 requiring that the property characteristics of an\ninventory file for a parcel of real estate shall be disclosed by any\nagency in possession of such inventory file.\n\n EXISTING LAW :\n\nUnder existing law, such information is considered to be a matter of\npersonal privacy and is not made available under the FOIL or other\navenues.\n\n JUSTIFICATION :\n\nA recent court decision held that a municipality properly withheld\ndisclosure of the inventory file on the basis that the release of that\ninformation would constitute an unwarranted invasion of personal\nprivacy. The \"inventory file\" includes specific public information\nabout real property, such as square footage, number of rooms and\nbaths, and lot size. This is commonly known as the \"property\ncharacteristics file\" in many other jurisdictions.\n\nThis decision was a major blow to the real estate industry as access\nto the inventory file is necessary for the accurate valuation of real\nproperty. The lack of such information jeopardizes, or at least\nhinders, the ability to accurately value real property. This in turn,\nmay promote unintended consequences, such as mortgage fraud, or at the\nvery minimum, a slower and more inefficient closing process.\n\n LEGISLATIVE HISTORY :\n\nNew bill - 2008 Referred to Investigations & Government Operations\n\n FISCAL IMPLICATIONS :\n\nNone to New York State.\n\n LOCAL FISCAL IMPLICATIONS :\n\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1973",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7107",
+       "basePrintNoStr": "A7107-2009",
+       "printNo": "A7107",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1973",
+ "basePrintNoStr": "S1973-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-02-10",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2009-02-10T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8150",
+    "basePrintNoStr": "S8150-2007",
+    "printNo": "S8150",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1973",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 58,
+   "fullName": "William T. Stachowski",
+   "imgName": "William T. Stachowski.jpg",
+   "incumbent": false,
+   "memberId": 453,
+   "sessionMemberId": 59,
+   "sessionYear": 2009,
+   "shortName": "STACHOWSKI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-04-20",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Requires agencies to disclose the physical characteristics of real property contained within an inventory file.",
+ "title": "Requires agencies to disclose the physical characteristics of real property contained within an inventory file",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

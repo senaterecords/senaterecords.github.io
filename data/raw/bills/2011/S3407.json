@@ -1,0 +1,896 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3407",
+     "basePrintNoStr": "S3407-2011",
+     "printNo": "S3407",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-02-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENERGY AND TELECOMMUNICATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3407",
+     "basePrintNoStr": "S3407-2011",
+     "printNo": "S3407",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-01",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.143"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3407",
+     "basePrintNoStr": "S3407-2011",
+     "printNo": "S3407",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-02",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3407",
+     "basePrintNoStr": "S3407-2011",
+     "printNo": "S3407",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-03",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3407",
+     "basePrintNoStr": "S3407-2011",
+     "printNo": "S3407A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2011-05-02",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 3407A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3407",
+     "basePrintNoStr": "S3407-2011",
+     "printNo": "S3407A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2011-05-09",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A6270B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public service law, in relation to remote net metering by farm and non-residential customer-generators",
+    "basePrintNo": "S3407",
+    "basePrintNoStr": "S3407-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 92,
+       "sessionYear": 2011,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 83,
+       "sessionYear": 2011,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 102,
+       "sessionYear": 2011,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 70,
+       "sessionYear": 2011,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 73,
+       "sessionYear": 2011,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 101,
+       "sessionYear": 2011,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 110,
+       "sessionYear": 2011,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Stephen M. Saland",
+       "imgName": "Stephen M. Saland.jpg",
+       "incumbent": false,
+       "memberId": 402,
+       "sessionMemberId": 96,
+       "sessionYear": 2011,
+       "shortName": "SALAND"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §66-j & 66-l, Pub Serv L",
+    "lawSection": "Public Service Law",
+    "memo": "BILL NUMBER:S3407\n\nTITLE OF BILL:\nAn act\nto amend the public service law, in relation to remote net metering\nby farm and non-residential customer-generators\n\nPURPOSE:\nThis legislation amends portions of the state's net metering\nlaw to allow farm operations, customers who own land used in\nagricultural production and non-residential customers of an electric\ncorporation to generate electricity at one location that is owned or\nunder the control of such customer, and, via \"remote not metering\",\napply net metering credit for such electricity generation to up to 15\nmeters at other locations on the customer's property in order to\noffset the customer's total annual energy costs.\n\nSUMMARY OF PROVISIONS:\nThe bill establishes a process for remote net\nmetering by authorizing the designation of net metering credit by a\nfarm operation, a customer who owns land used in agricultural\nproduction, or a non-residential customer, for the use of such net\nmetering credit at a separate location, having its own net energy\nmeter, and being owned by or under the control of the customer to\noffset the customer's total annual energy usage. The bill contains a\nrequirement that the amount of the net metering credits allowable\nunder this bill could not exceed the total amount billed to the\nparticipating customer-generator in the course of a year, and can\nonly be applied to up to 15 meters. Furthermore, the meter to which\nthe designation of any net metering credit is made shall be within\nthe service territory of the same electric corporation to which the\ncustomer-generator's net meters are interconnected, and also within\nthe same load zone as determined by the New York Independent System\nOperator (NYISO).\n\nJUSTIFICATION:\nThis legislation is designed to allow certain\nelectricity customer-generators, whose wind, solar or farm waste\nenergy generating equipment is not immediately adjacent to the\nlocation of their energy use, to remotely net-meter this resource.\nNew York's current net metering law allows customers to install\nrenewable energy systems connected to a single meter in order to meet\ntheir energy needs. When such systems generate energy that is not\nused on-site, it is sent out to the grid to be used by the utility\nwith a credit applied to the meter or customer's account. In some\ninstances, it is not practical or possible to utilize electricity on\nthe immediate site where it is produced. In other cases, customers\nhave multiple meters for multiple buildings/facilities.\n\nThis bill would allow farm operations, customers with land in\nagricultural production (including those with \"residential\" rate\nmeters), or non-residential customers to install renewable energy\nsystems and apply credit received for power delivered to the grid to\nup to 15 of the customer's meters rather than only to a single,\ndirectly connected meter as long as they are located on the\ncustomer's property within the same utility territory and within the\n\n\nsame NYISO zone. This is envisioned as particularly helpful to\nagricultural enterprises, municipalities, school districts and some\nbusinesses as they will be able to better control their energy costs\ninto the future. The goal of this legislation is to allow customers\nthe ability to offset the total annual energy consumption of their\ncollective accounts\nthrough use of renewable energy generated by their system, but it is\nnot intended to facilitate construction and net metering of\nfacilities that routinely generate energy in excess of total annual\nenergy consumption by the customer's accounts. All other\nrequirements for interconnection as described in the Standard\nInterconnection Requirements (SIR) developed by the Department of\nPublic Service would apply.\n\nLEGISLATIVE HISTORY:\n\nFISCAL IMPLICATIONS:\nNone for the State.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3407",
+    "publishDate": "2011-02-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public service law, in relation to remote net metering by farm and non-residential customer-generators",
+    "basePrintNo": "S3407",
+    "basePrintNoStr": "S3407-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 92,
+       "sessionYear": 2011,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 83,
+       "sessionYear": 2011,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 102,
+       "sessionYear": 2011,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 70,
+       "sessionYear": 2011,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 73,
+       "sessionYear": 2011,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 101,
+       "sessionYear": 2011,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 110,
+       "sessionYear": 2011,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Stephen M. Saland",
+       "imgName": "Stephen M. Saland.jpg",
+       "incumbent": false,
+       "memberId": 402,
+       "sessionMemberId": 96,
+       "sessionYear": 2011,
+       "shortName": "SALAND"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§66-j & 66-l, Pub Serv L",
+    "lawSection": "Public Service Law",
+    "memo": "BILL NUMBER:S3407A\n\nTITLE OF BILL:\nAn act\nto amend the public service law, in relation to remote net metering\nby farm and non-residential customer-generators\n\nPURPOSE:\nThis legislation amends portions of the state's net metering law to\nallow farm operations, customers who own land used in agricultural\nproduction and non-residential customers of an electric corporation\nto generate electricity at one location that is owned or under the\ncontrol of such customer, and, via \"remote not metering\", apply net\nmetering credit for such electricity generation to meters at other\nlocations on the customer's property in order to offset the\ncustomer's total annual energy costs.\n\nSUMMARY OF PROVISIONS:\nThe bill establishes a process for remote net metering by authorizing\nthe designation of net metering credit by a farm operation, a\ncustomer who owns land used in agricultural production, or a\nnon-residential customer, for the use of such net metering credit at\na separate location, having its own net energy meter, and being owned\nby or under the control of the customer to offset the customer's\ntotal annual energy usage. The bill contains a requirement that the\namount of the net metering credits allowable under this bill could\nnot exceed the total amount billed to the participating\ncustomer-generator in the course of a year, and can only be applied\nto meters at any property owned or leased by such customer\ngenerator. Furthermore, the meter to which the designation of any\nnet metering credit is made shall be within the service territory of\nthe same electric corporation to which the customer-generator's net\nmeters are interconnected, and also within the same load zone as\ndetermined by the location based marginal price.\n\nJUSTIFICATION:\nThis legislation is designed to allow certain electricity\ncustomer-generators, whose wind, solar or farm waste energy\ngenerating equipment is not immediately adjacent to the location of\ntheir energy use, to remotely net-meter this resource. New York's\ncurrent net metering law allows customers to install renewable energy\nsystems connected to a single meter in order to meet their energy\nneeds. When such systems generate energy that is not used on-site, it\nis sent out to the grid to be used by the utility with a credit\napplied to the meter or customer's account.\nIn some instances, it is not practical or possible to utilize\nelectricity on the immediate site where it is produced. In other\ncases, customers have multiple meters for multiple\nbuildings/facilities.\n\nThis bill would allow farm operations, customers with land in\nagricultural production (including those with \"residential\" rate\nmeters), or non-residential customers to install renewable energy\nsystems and apply credit received for power delivered to the grid to\nany of the customer's meters rather than only to a single, directly\nconnected meter as long as they are located on the customer's\n\n\nproperty within the same utility territory. This is envisioned as\nparticularly helpful to agricultural enterprises, municipalities,\nschool districts and some businesses as they will be able to better\ncontrol their energy costs into the future. The goal of this\nlegislation is to allow customers the ability to offset the total\nannual energy consumption of their collective accounts through use of\nrenewable energy generated by their system, but it is not intended to\nfacilitate construction and net metering of facilities that routinely\ngenerate energy in excess of total annual energy consumption by the\ncustomer's accounts. All other requirements for interconnection as\ndescribed in the Standard Interconnection Requirements (SIR)\ndeveloped by the Department of Public Service would apply.\n\nLEGISLATIVE HISTORY:\nS.7229 of 2010, Rules Committee\n\nFISCAL IMPLICATIONS:\nNone for the State.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3407A",
+    "publishDate": "2011-05-02",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6270",
+       "basePrintNoStr": "A6270-2011",
+       "printNo": "A6270B",
+       "session": 2011,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3407",
+ "basePrintNoStr": "S3407-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 12,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 13,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 14,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 15,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 16,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 17,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 18,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 19,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 20,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 21,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 22,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 23,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 24,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 25,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 26,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 27,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 28,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 29,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 30,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 31,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 32,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 33,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2011
+   }
+  ],
+  "size": 27
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 6,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Energy And Telecommunications"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-02-18",
+    "billCalNo": null,
+    "committeeName": "Energy And Telecommunications",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-05-02",
+    "billCalNo": 143,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Energy And Telecommunications",
+    "referenceDate": "2011-02-18T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3407A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-02-18T11:17:20",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2011-05-02T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2011-02-18T11:17:20",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 62,
+   "fullName": "George D. Maziarz",
+   "imgName": "George D. Maziarz.jpg",
+   "incumbent": false,
+   "memberId": 411,
+   "sessionMemberId": 105,
+   "sessionYear": 2011,
+   "shortName": "MAZIARZ"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-05-02",
+  "billCalNo": 143,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A6270",
+  "basePrintNoStr": "A6270-2011",
+  "session": 2011
+ },
+ "summary": "Relates to remote net metering by farm and non-residential customer-generators.",
+ "title": "Relates to remote net metering by farm and non-residential customer-generators",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3407",
+     "basePrintNoStr": "S3407-2011",
+     "printNo": "S3407",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Energy And Telecommunications"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "James S. Alesi",
+         "imgName": "James S. Alesi.jpg",
+         "incumbent": false,
+         "memberId": 392,
+         "sessionMemberId": 86,
+         "sessionYear": 2011,
+         "shortName": "ALESI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 119,
+         "sessionYear": 2011,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 77,
+         "sessionYear": 2011,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 87,
+         "sessionYear": 2011,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 123,
+         "sessionYear": 2011,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 105,
+         "sessionYear": 2011,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 109,
+         "sessionYear": 2011,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 110,
+         "sessionYear": 2011,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 117,
+         "sessionYear": 2011,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 111,
+         "sessionYear": 2011,
+         "shortName": "ROBACH"
+        }
+       ],
+       "size": 10
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Eric Adams",
+         "imgName": "Eric Adams.jpg",
+         "incumbent": false,
+         "memberId": 382,
+         "sessionMemberId": 76,
+         "sessionYear": 2011,
+         "shortName": "ADAMS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Carl Kruger",
+         "imgName": "Carl Kruger.jpg",
+         "incumbent": false,
+         "memberId": 420,
+         "sessionMemberId": 114,
+         "sessionYear": 2011,
+         "shortName": "KRUGER"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2011-03-01",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

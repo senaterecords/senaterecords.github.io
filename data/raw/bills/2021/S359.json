@@ -1,0 +1,698 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S359",
+     "basePrintNoStr": "S359-2021",
+     "printNo": "S359",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S359",
+     "basePrintNoStr": "S359-2021",
+     "printNo": "S359",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S359",
+     "basePrintNoStr": "S359-2021",
+     "printNo": "S359",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-24",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S359",
+     "basePrintNoStr": "S359-2021",
+     "printNo": "S359A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-24",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 359A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the labor law, in relation to maximum hours for home care\naides",
+    "basePrintNo": "S359",
+    "basePrintNoStr": "S359-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 17
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §167-a, Lab L",
+    "lawSection": "Labor Law",
+    "memo": "\n \nBILL NUMBER: S359\n\nSPONSOR: PERSAUD\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to maximum hours for home\ncare aides\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill defines home care aide as a home health aide, personal care\naide, personal care attendant, home attendant or other licensed or unli-\ncensed person whose primary responsibility includes the provision of\nin-home assistance with activities of daily living. It also requires\nthat any overtime be voluntary and if the aide does not accept it, he or\nshe cannot be penalized. Further, it does not mean that he or she will\nnot accept or reject overtime in the future.  There are two exceptions:\nif a health care worker wants to stay at a care recipient's apartment\nbecause the replacement care worker is delayed, the current health care\nworker can opt to stay for a maximum of 2 hours. Finally, the bill\nallows the aide to bring a civil action against his or her employer for\nviolating their freedom to refuse overtime and a range of damages.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\n-Adds definition for \"Maximum home care hours\"\n-Adds \"consumer directed personal assistant\" to the definition of \"home\ncare aide\"\n-Makes explicit that a home care aide's acceptance of an assignment for\nmore than maximum home care hours must be voluntary\n-Makes explicit that a staffing shortage may not constitute an \"unfore-\nseeable circumstance\"\n-Creates limits to the number of hours over the maximum home care hours\nthat can be worked by a home care aide in unforeseeable emergent circum-\nstances\n\n \nJUSTIFICATION:\n\nHome care workers in New York are essential to maintaining the daily\nwellbeing and long-term care of older adults and people living with\nchronic health conditions or disabilities. Home care workers and\npersonal care aides are among the fastest growing occupations in the\nstate. New York State employs more than 210,000 home care workers and\nthey rank as NYC's single largest occupational group. The demand for\nhome care workers will only accelerate with a growing aging population.\n\nIt has become increasingly apparent that many home care workers are\nrequired by employers to work mandatory 24-hour shifts to care for\npeople who have been approved for around-the-clock care. Home care work-\ners report that they are often required to work 24-hour shifts consec-\nutively in a week. The growth in mandatory 24-hour shifts can endanger\nthe health and safety of both home care workers and care recipients.\nStudies have shown that prolonged periods of wakefulness (17 hours with-\nout sleep) can significantly impair hand-eye coordination, decision-mak-\ning skills and memory. Workers' sleep is shorter, lighter, more frag-\nmented and less restorative than normal sleep at night. Twenty-four hour\nshifts are equally detrimental to care recipients. When home care work-\ners are too fatigued or become chronically ill from lack of proper rest\nand sleep, care recipients - those approved for 24-hour care and among\nthe neediest of clients - are less likely to receive proper treatment\nand safe care. They face a higher risk of injury when workers are\nmentally or physically fatigued to safely move them or assist with medi-\ncally-related tasks. Further, burn-out, occupational related illnesses\nand high turnover among workers lowers the quality and continuity of\ncare received by care recipients.\n\nThe labor of home care workers contributes to the well-being and long\nterm care of New York's aging community and people living with chronic\nhealth needs or disabilities. Home care workers are also an important\ncomponent of the state's economic growth. It is thus declared to be the\npublic policy of this State to protect home care workers from 24-hour\nshifts in order to safeguard the health, safety and general well-being\nof home care workers and their families, as well as care recipients,\nconsumers and the public.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020: 56640 referred to Senate Labor Committee\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S359",
+    "publishDate": "2020-12-30",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB167-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the labor law, in relation to maximum hours for home care\naides",
+    "basePrintNo": "S359",
+    "basePrintNoStr": "S359-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 17
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §167-a, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S359A\n\nSPONSOR: PERSAUD\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to maximum hours for home\ncare aides\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo protect home health aides from being required to work unreasonable\nwork schedules in any day or week and ensure they are not pressured by\nemployers with disciplinary action.\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill defines home care aide as a home health aide, personal care\naide, personal care attendant, home attendant or other licensed or unli-\ncensed person whose primary responsibility includes the provision of\nin-home assistance with activities of daily living. It also requires\nthat any overtime be voluntary and if the aide does not accept it, they\ncannot be penalized. Further, it does not mean that they will not accept\nor reject overtime in the future. Finally, the bill allows the aide to\nbring a civil action against his or her employer for violating their\nfreedom to refuse overtime and a range of damages.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\n-Adds definition for \"Maximum home care hours\"\n-Adds \"consumer directed personal assistant\" to the definition of \"home\ncare aide\"\n-Makes explicit that a home care aide's acceptance of an assignment for\nmore than maximum home care hours must be voluntary\n-Makes explicit that a staffing shortage may not constitute an \"unfore-\nseeable circumstance\"\n-Creates limits to the number of hours over the maximum home care hours\nthat can be worked by a home care aide in unforeseeable emergent circum-\nstances\n\n \nJUSTIFICATION:\n\nHome care workers in New York are essential to maintaining the daily\nwellbeing and long-term care of older adults and people living with\nchronic health conditions or disabilities. Home care workers and\npersonal care aides are among the fastest growing occupations in the\nstate. New York State employs more than 210,000 home care workers and\nthey rank as NYC's single largest occupational group. The demand for\nhome care workers will only accelerate with a growing aging population.\n\nIt has become increasingly apparent that many home care workers are\nrequired by employers to work mandatory 24-hour shifts to care for\npeople who have been approved for around-the-clock care. Home care work-\ners report that they are often required to work 24-hour shifts consec-\nutively in a week. The growth in mandatory 24-hour shifts can endanger\nthe health and safety of both home care workers and care recipients.\nStudies have shown that prolonged periods of wakefulness (17 hours with-\nout sleep) can significantly impair hand-eye coordination, decision-mak-\ning skills and memory. Workers' sleep is shorter, lighter, more frag-\nmented and less restorative than normal sleep at night. Twenty-four hour\nshifts are equally detrimental to care recipients. When home care work-\ners are too fatigued or become chronically ill from lack of proper rest\nand sleep, care recipients - those approved for 24-hour care and among\nthe neediest of clients - are less likely to receive proper treatment\nand safe care. They face a higher risk of injury when workers are\nmentally or physically fatigued to safely move them or assist with medi-\ncally-related tasks.  Further, burn-out, occupational related illnesses\nand high turnover among workers lowers the quality and continuity of\ncare received by care recipients.\n\nThe labor of home care workers contributes to the well-being and long\nterm care of New York's aging community and people living with chronic\nhealth needs or disabilities. Home care workers are also an important\ncomponent of the state's economic growth. It is thus declared to be the\npublic policy of this State to protect home care workers from 24-hour\nshifts in order to safeguard the health, safety and general well-being\nof home care workers and their families, as well as care recipients,\nconsumers and the public.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2021: S.359 referred to Senate Labor Committee\n2020: S.6640 referred to Senate Labor Committee\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S359A",
+    "publishDate": "2022-01-24",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB167-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3145",
+       "basePrintNoStr": "A3145-2021",
+       "printNo": "A3145A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S359",
+ "basePrintNoStr": "S359-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-24",
+    "billCalNo": null,
+    "committeeName": "Labor",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2022-01-24T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6640",
+    "basePrintNoStr": "S6640-2019",
+    "printNo": "S6640",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S359A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2020-12-30T10:06:00.206850",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-01-24T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2020-12-30T10:06:00.20685",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 19,
+   "fullName": "Roxanne J. Persaud",
+   "imgName": "736_Roxanne_Persaud.jpg",
+   "incumbent": true,
+   "memberId": 914,
+   "sessionMemberId": 1829,
+   "sessionYear": 2021,
+   "shortName": "PERSAUD"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-24",
+  "billCalNo": null,
+  "committeeName": "Labor",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires the provision of care to persons requiring twenty-four hours of care take the form of non-sequential split shifts of twelve hours each.",
+ "title": "Requires the provision of care to persons requiring twenty-four hours of care take the form of non-sequential split shifts of twelve hours each",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

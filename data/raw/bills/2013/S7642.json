@@ -1,0 +1,456 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7642",
+     "basePrintNoStr": "S7642-2013",
+     "printNo": "S7642",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-05-22",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7642",
+     "basePrintNoStr": "S7642-2013",
+     "printNo": "S7642",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-03",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1159"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7642",
+     "basePrintNoStr": "S7642-2013",
+     "printNo": "S7642",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-09",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7642",
+     "basePrintNoStr": "S7642-2013",
+     "printNo": "S7642",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-10",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7642",
+     "basePrintNoStr": "S7642-2013",
+     "printNo": "S7642",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-12",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A9770"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the correction law, in relation to making technical corrections thereto",
+    "basePrintNo": "S7642",
+    "basePrintNoStr": "S7642-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §500, Cor L",
+    "lawSection": "Correction Law",
+    "memo": "BILL NUMBER:S7642\n\nTITLE  OF  BILL:    An act to amend the correction law, in relation to\nmaking technical corrections thereto\n\nPURPOSE:\n\nThis bill fixes an incorrect reference to a subdivision in section 500\nof the correction law.\n\nSUMMARY OF PROVISIONS:\n\nSection one fixes a technical error in section 500 of  the  correction\nlaw,  which  governs  local  correctional  facilities, by changing the\nreference to the definition of  a  local  correctional  facility  from\nsubdivision  fifteen  to  subdivision  sixteen  of  section  2  of the\ncorrection law.\n\nSection two states that this act shall take effect immediately.\n\nJUSTIFICATION:\n\nSection 500 of the correction law  incorrectly  references  the  wrong\nsubdivision  of  section  2  of  the  correction law in regards to the\ndefinition of a \"local correctional facility.\"  Subdivision sixteen of\nsection 2 of the correction law provides this  definition.  This  bill\nmakes  a  technical  change  to  section  500 of the correction law to\nreference the correct subdivision.\n\nLEGISLATIVE HISTORY:\n\nNew bill.\n\nFISCAL IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\n\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7642",
+    "publishDate": "2014-05-22",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9770",
+       "basePrintNoStr": "A9770-2013",
+       "printNo": "A9770",
+       "session": 2013,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7642",
+ "basePrintNoStr": "S7642-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 46,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2014
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2014
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Crime Victims, Crime And Correction"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-05-22",
+    "billCalNo": null,
+    "committeeName": "Crime Victims, Crime And Correction",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2014-06-10",
+    "billCalNo": 1159,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Crime Victims, Crime And Correction",
+    "referenceDate": "2014-05-22T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7642",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2014-05-22T13:04:29",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2014-05-22T13:04:29",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 59,
+   "fullName": "Patrick M. Gallivan",
+   "imgName": "427_patrick_m._gallivan.jpg",
+   "incumbent": true,
+   "memberId": 427,
+   "sessionMemberId": 182,
+   "sessionYear": 2013,
+   "shortName": "GALLIVAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-06-10",
+  "billCalNo": 1159,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9770",
+  "basePrintNoStr": "A9770-2013",
+  "session": 2013
+ },
+ "summary": "Makes technical corrections to the correction law.",
+ "title": "Makes technical corrections to the correction law",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7642",
+     "basePrintNoStr": "S7642-2013",
+     "printNo": "S7642",
+     "session": 2013,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Crime Victims, Crime And Correction"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 126,
+         "sessionYear": 2013,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 132,
+         "sessionYear": 2013,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 182,
+         "sessionYear": 2013,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 149,
+         "sessionYear": 2013,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 136,
+         "sessionYear": 2013,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 176,
+         "sessionYear": 2013,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 135,
+         "sessionYear": 2013,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 167,
+         "sessionYear": 2013,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 168,
+         "sessionYear": 2013,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 150,
+         "sessionYear": 2013,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 187,
+         "sessionYear": 2013,
+         "shortName": "PERALTA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 179,
+         "sessionYear": 2013,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 133,
+         "sessionYear": 2013,
+         "shortName": "RIVERA"
+        }
+       ],
+       "size": 13
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2014-06-03",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

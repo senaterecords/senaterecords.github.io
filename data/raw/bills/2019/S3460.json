@@ -1,0 +1,797 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO SOCIAL SERVICES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-01",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-07",
+    "sequenceNo": 3,
+    "text": "1ST REPORT CAL.620"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-08",
+    "sequenceNo": 4,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-13",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-20",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 7,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-03-17",
+    "sequenceNo": 8,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-03-17",
+    "sequenceNo": 9,
+    "text": "PRINT NUMBER 3460A"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law and the mental hygiene law, in\nrelation to violations of safety conditions in adult care facilities",
+    "basePrintNo": "S3460",
+    "basePrintNoStr": "S3460-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§460-d, 461-c, 461-d, 461-e & 461-a, Soc Serv L; amd §29.15, Ment Hyg L",
+    "lawSection": "Social Services Law",
+    "memo": "\n \nBILL NUMBER: S3460\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:  An act to amend the social services law and the mental\nhygiene law, in relation to violations of safety conditions in adult\ncare facilities\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo protect the health, safety and quality of life of adult care facility\n(ACF) residents by improving Department of Health safety enforcement.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends SSL § 460-d(4)(b), which authorizes a pre-hearing\nsuspension or limitation of an ACF's operating certificate, until a DOH\nhearing is begun. This section provides that if there is a finding of\nimminent danger to the public health or a resident's health, safety or\nwelfare, the suspension or limitation may be extended for up to 60 days\nif DOH makes reasonable efforts to complete the hearing.\n\nSection 2 amends SSL § 460-d(7) to increase potential penalties for ACF\nviolations from $1,000 per day to $5,000 per violation per day, consist-\nent with PHL § 12. Rectification within 30 days will no longer mitigate\na penalty for a violation that endanger residents, has caused harm, or\nis a repeated violation.\n\nSections 3 and 4 amend SSL § 460-d(9) to conform actions against unli-\ncensed ACFs to PHL § 12, and allow DOH inspections when a facility is\nunlicensed and there is reason to believe it poses an imminent danger to\nresidents.\n\nSections 5 and 6 amend SSL §§ 460-d(1 1) and (12), which provides for\nDOH to notify hospitals when DOH issues notice of proposed revocation,\nsuspension or limitation of an ACF operating certificate or places it on\nthe \"Do Not Refer\" list. The bill provides that notice shall also go to\nnursing homes and other ACFs.\n\nSection 7 adds a new SSL § 460-d(18) to provide that when DOH proposes\nan enforcement action under SSL § 460-d(11) when there is a condition\nthat constitutes an imminent danger any resident, DOH may prohibit the\noperator from admitting new residents until the danger no longer exists.\n\nSection 8 adds a new 461-c(10) to require ACFs to post resident agree-\nments and rates on the web.\n\nSection 9 amends SSL § 461-d(3) to provide that the rights of residents\nset forth in that subdivision cannot be waived by legal representatives\nor resident representatives.\n\nSection 10 adds a new SSL § 461-e(3-a) to require ACFs to publically\npost complaint-driven inspection reports and make them available to\nprospective residents.\n\nSection 11 amends SSL § 461-a(2) to delete a provision permitting\n\"facilities receiving the department's highest rating\" to undergo\ninspections every 18 months, instead of annually, and instead reserves\nthe 18 month inspection schedule for facilities in compliance based on\nthe facility's most recent inspection. This section also authorizes,\nrather than mandates, that the inspection report provide directions as\nto how compliance is achieved, and requires the operator to submit a\ncorrection plan within 30 calendar days. DOH will answer as to the\nacceptability of the plan within another 30 days. Additionally, enriched\nhousing programs are required to develop and implement quality assurance\nactivities for each area of operation.\n\nSection 12 amends Mental Hygiene Law .§ 29.15(i)(2)(I) and (II) to\ninclude enriched housing programs among the facilities to which a\npatient can be referred when discharged from facilities licensed or\noperated by the Office of Mental Retardation and Developmental Disabili-\nties (OMRDD), the Office of Alcoholism and Substance Abuse Services\n(OASAS) or the Office of Mental Health (OMH), if the receiving facility\nmeets applicable requirements.\n\n \nJUSTIFICATION:\n\nAdult homes, enriched housing programs and residences for adults collec-\ntively referred to as adult care facilities (ACF) - are important models\nof care that serve as the homes of thousands of New York State resi-\ndents. This bill modernizes and strengthens inspection and enforcement\nprocess and transparency.\n\nMany ACFs operate within the law and provide quality services. But year\nafter year, there are horrendous cases of severe deficiencies affecting\nvulnerable residents. This bill offers more clear guidance for issues of\nendangerment, harm, repeated violations and unlicensed facilities. The\nbill would permit a \"per violation\" fine in addition to the current law\npermitting \"per day\" fines. The maximum fine per day has not been raised\nsince the law's inception in 1977. While $1,000 may have been a signif-\nicant sum then, too often now it is just the \"cost of doing business.\"\nCompared to the $10,000 maximum per day facing nursing homes, $5,000 is\nan appropriate deterrent for ACFs.  Currently, other ACFs and nursing\nhomes are not notified and so make referrals to the ACFs on the \"do not\nrefer\" list. This bill corrects that.\n\nSeveral court decisions have interpreted SSL § 461-a(2)(3) as requiring\nDOH inspection reports to indicate areas of operation where an ACF is\nand is not in compliance, and to require DOH to specifically direct how\na violation is to be rectified. This bill provides clarity so that DOH\nresources will be better spent.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2017-2018: A2743 Gottfried / No Same-as\n2019: New Bill\n\n \nFISCAL IMPLICATIONS:\n\nNo fiscal impact on the State or local governments.\n\n \nEFFECTIVE DATE:\nNinetieth day after it becomes a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3460",
+    "publishDate": "2019-02-07",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the social services law and the mental hygiene law, in\nrelation to violations of safety conditions in adult care facilities",
+    "basePrintNo": "S3460",
+    "basePrintNoStr": "S3460-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§460-d, 461-c, 461-d, 461-e & 461-a, Soc Serv L; amd §29.15, Ment Hyg L",
+    "lawSection": "Social Services Law",
+    "memo": "\n \nBILL NUMBER: S3460A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the social services law and the mental hygiene law, in\nrelation to violations of safety conditions in adult care facilities\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo protect the health, safety and quality of life of adult care facility\n(ACF) residents by improving Department of Health safety enforcement.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends SSL § 460-d(4)(b), which authorizes a pre-hearing\nsuspension or limitation of an ACF's operating certificate, until a DOH\nhearing is begun. This section provides that if there is a finding of\nimminent danger to the public health or a resident's health, safety or\nwelfare, the suspension or limitation may be extended for up to 30 days\nif DOH makes reasonable efforts to complete the hearing.\n\nSection 2 amends SSL § 460-d(7) to increase potential fines for ACF\nviolations from $1,000 per day to $2,000 per violation per day, and\n$3,000 per violation per day for identical repeat violations.  Recti-\nfication within 30 days will continue to mitigate a fine, except for\nviolations that that are proven after an hearing to have endanger resi-\ndents or caused harm by violating the already existing rights of resi-\ndents, or is an identical repeated violation.\n\nSections 3 and 4 amend SSL § 460-d(9) to conform actions against unli-\ncensed ACFs to PHL § 12, and allow DOH inspections when a facility is\nunlicensed and there is reason to believe it poses an imminent danger to\nresidents.\n\nSections 5 and 6 amend SSL §§ 460-d(11) and (12), which provides for DOH\nto notify hospitals when DOH issues notice of proposed revocation,\nsuspension or limitation, but not a proposed fine, of an ACF operating\ncertificate or places it on the \"Do Not Refer\" list.  The bill provides\nthat notice shall also go to nursing homes and other ACFs. The Depart-\nment must notify all parties within ten days of the violation being\nresolved.\n\nSection 7 adds a new SSL § 460-d(18) to provide that when DOH proposes\nan enforcement action under SSL § 460-d(11) when there is a condition\nthat constitutes an imminent danger any resident, DOH may prohibit the\noperator from admitting new residents until the danger no longer exists.\n\nSection 8 adds a new 461-c(10) to require ACFs to post resident agree-\nments but not the rates charged on the web.\n\nSection 9 amends SSL § 461-d(3) to provide that the rights of residents\nset forth in that subdivision cannot be waived by legal representatives\nor resident representatives.\n\nSection 10 adds a new SSL § 461-e(3-a) to require ACFs to publically\npost complaint-driven inspection reports that resulted in fines, and\nmake all complaint -driven inspection reports available to residents,\nprospective residents, and resident councils.\nSection 11 amends SSL § 461-a(2) to delete a provision permitting\n\"facilities receiving the department's highest rating\" to undergo\ninspections every 18 months, instead of annually, and instead 2 reserves\nthe 18 month inspection schedule for facilities in compliance based on\nthe facility's most recent inspection. This section also authorizes,\nrather than mandates, that the inspection report provide directions as\nto how compliance is achieved, and requires the operator to submit a\ncorrection plan within 30 calendar days. DOH will answer as to the\nacceptability of the plan within another 30 days. Additionally, enriched\nhousing programs are required to develop and implement quality assurance\nactivities for each area of operation.\n\nSection 12 amends Mental Hygiene Law § 29.15(i)(2)(I) and (II) to\ninclude enriched housing programs among the facilities to which a\npatient can be referred when discharged from facilities licensed or\noperated by the Office of Mental Retardation and Developmental Disabili-\nties (OMRDD), the Office of Alcoholism and Substance Abuse Services\n(OASAS) or the Office of Mental Health (OMH), if the receiving facility\nmeets applicable requirements.\n\n \nJUSTIFICATION:\n\nAdult homes, enriched housing programs and residences for adults -\ncollectively referred to as adult care facilities (ACF) - are important\nmodels of care that serve as the homes of thousands of New York State\nresidents. This bill modernizes and strengthens inspection and enforce-\nment process and transparency.  Many ACFs operate within the law and\nprovide quality services. But year after year, there are horrendous\ncases of severe deficiencies affecting vulnerable residents. This bill\noffers more clear guidance for issues of endangerment, harm, repeated\nviolations and unlicensed facilities, as well as mitigating circum-\nstances that will enable otherwise good facilities to avoid debilitating\npenalties. The bill would permit a \"per violation\" fine in addition to\nthe current law permitting \"per day\" fines. The maximum fine per day has\nnot been raised since the law's inception in 1977. While $1,000 may have\nbeen a significant sum then, too often now it is just the \"cost of doing\nbusiness.\" Compared to the $10,000 maximum per day facing nursing homes,\n$2,000 per violation is an appropriate deterrent for ACFs.  Currently,\nother ACFs and nursing homes are not notified and so make referrals to\nthe ACFs on the \"do not refer\" list. This bill corrects that.\n\nSeveral court decisions have interpreted SSL § 461-a(2)(3) as requiring\nDOH inspection reports to indicate areas of operation where an ACF is\nand is not in compliance, and to require DOH to specifically direct how\na violation is to be rectified. This bill provides clarity so that DOH\nresources will be better spent.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2017-2018: A2743 Gottfried/ No Same-as\n\n2019: New Bill\n\n \nFISCAL IMPLICATIONS:\n\nNo fiscal impact on the State or local governments.\n\n \nEFFECTIVE DATE:\nNinetieth day after it becomes a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3460A",
+    "publishDate": "2020-03-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4416",
+       "basePrintNoStr": "A4416-2019",
+       "printNo": "A4416C",
+       "session": 2019,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3460",
+ "basePrintNoStr": "S3460-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 40,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2019
+   }
+  ],
+  "size": 21
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-03-17",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2019-03-01T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2020-03-17T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-06-20T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Social Services",
+    "referenceDate": "2019-02-07T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3460A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-07T13:07:01.069799",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2020-03-17T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2019-02-07T13:07:01.069799",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 1196,
+   "sessionYear": 2019,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-03-17",
+  "billCalNo": null,
+  "committeeName": "Health",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to violations of safety conditions in adult care facilities; provides penalties for safety violations and operating without a valid license; prohibits reductions in fines in certain circumstances where a patient is endangered or harmed.",
+ "title": "Relates to violations of safety conditions in adult care facilities",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3460",
+     "basePrintNoStr": "S3460-2019",
+     "printNo": "S3460",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1229,
+         "sessionYear": 2019,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 1195,
+         "sessionYear": 2019,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1196,
+         "sessionYear": 2019,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1225,
+         "sessionYear": 2019,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1209,
+         "sessionYear": 2019,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 7
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "Jen Metzger",
+         "imgName": "1054_Jen_Metzger.jpg",
+         "incumbent": false,
+         "memberId": 1234,
+         "sessionMemberId": 1232,
+         "sessionYear": 2019,
+         "shortName": "METZGER"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Bob Antonacci",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1236,
+         "sessionMemberId": 1234,
+         "sessionYear": 2019,
+         "shortName": "ANTONACCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 1191,
+         "sessionYear": 2019,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1417,
+         "sessionYear": 2019,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Chris Jacobs",
+         "imgName": "921_Chris_Jacobs.jpg",
+         "incumbent": false,
+         "memberId": 1099,
+         "sessionMemberId": 1385,
+         "sessionYear": 2019,
+         "shortName": "JACOBS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1204,
+         "sessionYear": 2019,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1418,
+         "sessionYear": 2019,
+         "shortName": "RITCHIE"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-05-07",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2020
+}

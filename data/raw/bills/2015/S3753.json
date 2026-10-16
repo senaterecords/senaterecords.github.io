@@ -1,0 +1,220 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3753",
+     "basePrintNoStr": "S3753-2015",
+     "printNo": "S3753",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-02-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3753",
+     "basePrintNoStr": "S3753-2015",
+     "printNo": "S3753",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-05-27",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property tax law, in relation to exemptions of new multiple dwellings from local taxation",
+    "basePrintNo": "S3753",
+    "basePrintNoStr": "S3753-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 708,
+       "sessionYear": 2015,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 723,
+       "sessionYear": 2015,
+       "shortName": "RIVERA"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §421-a, RPT L",
+    "lawSection": "Real Property Tax Law",
+    "memo": "BILL NUMBER:S3753\n\nTITLE OF BILL:  An act to amend the real property tax law, in relation\nto exemptions of new multiple dwellings from local taxation\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this legislation is to extend the effectiveness of\n421-a tax benefits for buildings whose construction commences prior to\nJune 15, 2011.\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis bill would make available the benefits of the 421-a program in\nthe borough of Manhattan for new multiple dwellings on tax lots now\nexisting or hereafter created south of or adjacent to either side of\none hundred tenth street which commence construction after July 1,\n1992 and before June 15, 2011, only if construction is commenced after\nJanuary 1, 1975, and before June 15, 2011, provided that such\ncommencement period shall not apply to multiple dwellings eligible for\nbenefits under this subdivision.\n\nJUSTIFICATION:\n\nSection 421-a of the Real Property Tax Law has provided tax benefits\nfor construction of new residential buildings in the City of New York\nsince 1971. Section 421a benefits are available for up to 25 years\ndepending upon the location of the multiple dwelling and the inclusion\nof affordable housing units. The law provides a period of full\nexemption followed by a phase-out to full taxation. The 421-a program\nhas been primarily responsible for encouraging the construction of new\nhousing in New York City since 1971. Since 1985, the 421-a program has\nalso been responsible for generating affordable units both in\nManhattan and in the outer boroughs. The continuing shortage of\naffordable housing in the City of New York necessitates the extension\nof this essential tax exemption program that serves as an incentive\nfor the development of new housing. The proposed legislation would\nensure that the 421-a program continued to fulfill this mission by\nextending the program.\n\nPRIOR LEGISLATIVE HISTORY:\n\nNone.\n\nFISCAL IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\n\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3753",
+    "publishDate": "2015-02-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3753",
+ "basePrintNoStr": "S3753-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2015-02-17",
+    "billCalNo": null,
+    "committeeName": "Housing, Construction And Community Development",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2015-02-17T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1819",
+    "basePrintNoStr": "S1819-2013",
+    "printNo": "S1819",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S2894",
+    "basePrintNoStr": "S2894-2011",
+    "printNo": "S2894",
+    "session": 2011,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S3753",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-02-17T11:53:39",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2015-02-17T11:53:39",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 31,
+   "fullName": "Adriano Espaillat",
+   "imgName": "385_adriano_espaillat.jpg",
+   "incumbent": false,
+   "memberId": 385,
+   "sessionMemberId": 718,
+   "sessionYear": 2015,
+   "shortName": "ESPAILLAT"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2015-05-27",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Exempts new multiple dwellings from local taxation; extends period until June 15, 2018.",
+ "title": "Exempts new multiple dwellings from local taxation",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

@@ -1,0 +1,249 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3984",
+     "basePrintNoStr": "S3984-2009",
+     "printNo": "S3984",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3984",
+     "basePrintNoStr": "S3984-2009",
+     "printNo": "S3984",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.593"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3984",
+     "basePrintNoStr": "S3984-2009",
+     "printNo": "S3984",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-03",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3984",
+     "basePrintNoStr": "S3984-2009",
+     "printNo": "S3984",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-04",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3984",
+     "basePrintNoStr": "S3984-2009",
+     "printNo": "S3984",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-30",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A1753"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S3984",
+    "basePrintNoStr": "S3984-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1210, Tax L",
+    "lawSection": "Tax Law",
+    "memo": " BILL NUMBER:  S3984\n\n TITLE OF BILL :\nAn act to amend the tax law, in relation to authorizing the county of\nTompkins to continue imposing an additional one percent sales tax\n\n\n PURPOSE :\nTo extend for two more years statutory authorization to Tompkins\nCounty to impose an additional one percent sales and compensating use\ntax.\n\n SUMMARY OF PROVISIONS :\nAmends Section 1210 of the tax law.\n\n JUSTIFICATION :\nTompkins County has formally requested this authorization to impose\nthe additional sales tax be extended for two years. The extension is\nnecessary in order to avoid a $9,200,000 reduction in county\nexpenditures which would create a major impact on the availability of\nservices or would impose a 27% increase in County property taxes.\n\n LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone to the state.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3984",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1753",
+       "basePrintNoStr": "A1753-2009",
+       "printNo": "A1753",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3984",
+ "basePrintNoStr": "S3984-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-04-07",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-06-04",
+    "billCalNo": 593,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2009-04-07T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1714",
+    "basePrintNoStr": "S1714-2007",
+    "printNo": "S1714",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3984",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 185
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 53,
+   "fullName": "George Winner",
+   "imgName": "George Winner.jpg",
+   "incumbent": false,
+   "memberId": 450,
+   "sessionMemberId": 45,
+   "sessionYear": 2009,
+   "shortName": "WINNER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-06-04",
+  "billCalNo": 593,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A1753",
+  "basePrintNoStr": "A1753-2009",
+  "session": 2009
+ },
+ "summary": "Provides that the county of Tompkins may impose an additional sales tax up to one percent until the year 2011.",
+ "title": "Provides that the county of Tompkins may impose an additional sales tax up to one percent until the year 2011",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

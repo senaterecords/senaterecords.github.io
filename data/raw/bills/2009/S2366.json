@@ -1,0 +1,1405 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2366",
+     "basePrintNoStr": "S2366-2009",
+     "printNo": "S2366",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-19",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2366",
+     "basePrintNoStr": "S2366-2009",
+     "printNo": "S2366",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-10-09",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2366",
+     "basePrintNoStr": "S2366-2009",
+     "printNo": "S2366A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2009-10-09",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 2366A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2366",
+     "basePrintNoStr": "S2366-2009",
+     "printNo": "S2366A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 4,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2366",
+     "basePrintNoStr": "S2366-2009",
+     "printNo": "S2366A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-02-23",
+    "sequenceNo": 5,
+    "text": "NOTICE OF PETITION - REQUESTED"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S2366",
+    "basePrintNoStr": "S2366-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Craig M. Johnson",
+       "imgName": "Craig M. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 446,
+       "sessionMemberId": 62,
+       "sessionYear": 2009,
+       "shortName": "JOHNSON C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 16,
+       "sessionYear": 2009,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 43,
+       "sessionYear": 2009,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 8,
+       "sessionYear": 2009,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Ruben Diaz",
+       "imgName": "421_ruben_diaz.jpg",
+       "incumbent": false,
+       "memberId": 421,
+       "sessionMemberId": 51,
+       "sessionYear": 2009,
+       "shortName": "DIAZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 56,
+       "sessionYear": 2009,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Hugh T. Farley",
+       "imgName": "418_hugh_t._farley.jpg",
+       "incumbent": false,
+       "memberId": 418,
+       "sessionMemberId": 48,
+       "sessionYear": 2009,
+       "shortName": "FARLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "John J. Flanagan",
+       "imgName": "399_john_j._flanagan.jpg",
+       "incumbent": false,
+       "memberId": 399,
+       "sessionMemberId": 29,
+       "sessionYear": 2009,
+       "shortName": "FLANAGAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Brian X. Foley",
+       "imgName": "Brian X. Foley.jpg",
+       "incumbent": false,
+       "memberId": 448,
+       "sessionMemberId": 34,
+       "sessionYear": 2009,
+       "shortName": "FOLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 52,
+       "sessionYear": 2009,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 24,
+       "sessionYear": 2009,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 54,
+       "sessionYear": 2009,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 12,
+       "sessionYear": 2009,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 61,
+       "sessionYear": 2009,
+       "shortName": "JOHNSON O"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 21,
+       "sessionYear": 2009,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 39,
+       "sessionYear": 2009,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 6,
+       "sessionYear": 2009,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 49,
+       "sessionYear": 2009,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 11,
+       "sessionYear": 2009,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 37,
+       "sessionYear": 2009,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "George D. Maziarz",
+       "imgName": "George D. Maziarz.jpg",
+       "incumbent": false,
+       "memberId": 411,
+       "sessionMemberId": 41,
+       "sessionYear": 2009,
+       "shortName": "MAZIARZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 20,
+       "sessionYear": 2009,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Hiram Monserrate",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 454,
+       "sessionMemberId": 188,
+       "sessionYear": 2009,
+       "shortName": "MONSERRATE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Thomas P. Morahan",
+       "imgName": "Thomas P. Morahan.jpg",
+       "incumbent": false,
+       "memberId": 441,
+       "sessionMemberId": 2,
+       "sessionYear": 2009,
+       "shortName": "MORAHAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Michael F. Nozzolio",
+       "imgName": "394_michael_f._nozzolio.jpg",
+       "incumbent": false,
+       "memberId": 394,
+       "sessionMemberId": 25,
+       "sessionYear": 2009,
+       "shortName": "NOZZOLIO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "George Onorato",
+       "imgName": "George Onorato.jpg",
+       "incumbent": false,
+       "memberId": 443,
+       "sessionMemberId": 15,
+       "sessionYear": 2009,
+       "shortName": "ONORATO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Frank Padavan",
+       "imgName": "Frank Padavan.jpg",
+       "incumbent": false,
+       "memberId": 445,
+       "sessionMemberId": 22,
+       "sessionYear": 2009,
+       "shortName": "PADAVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 46,
+       "sessionYear": 2009,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 47,
+       "sessionYear": 2009,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 5,
+       "sessionYear": 2009,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Dean G. Skelos",
+       "imgName": "430_dean_g._skelos.jpg",
+       "incumbent": false,
+       "memberId": 430,
+       "sessionMemberId": 60,
+       "sessionYear": 2009,
+       "shortName": "SKELOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 58,
+       "fullName": "William T. Stachowski",
+       "imgName": "William T. Stachowski.jpg",
+       "incumbent": false,
+       "memberId": 453,
+       "sessionMemberId": 59,
+       "sessionYear": 2009,
+       "shortName": "STACHOWSKI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 30,
+       "sessionYear": 2009,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 35,
+       "fullName": "Andrea Stewart-Cousins",
+       "imgName": "396_andrea_stewart-cousins.jpg",
+       "incumbent": true,
+       "memberId": 396,
+       "sessionMemberId": 27,
+       "sessionYear": 2009,
+       "shortName": "STEWART-COUSINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 26,
+       "sessionYear": 2009,
+       "shortName": "VALESKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Dale M. Volker",
+       "imgName": "Dale M. Volker.jpg",
+       "incumbent": false,
+       "memberId": 452,
+       "sessionMemberId": 57,
+       "sessionYear": 2009,
+       "shortName": "VOLKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "George Winner",
+       "imgName": "George Winner.jpg",
+       "incumbent": false,
+       "memberId": 450,
+       "sessionMemberId": 45,
+       "sessionYear": 2009,
+       "shortName": "WINNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "Catharine Young",
+       "imgName": "414_catharine_young.jpg",
+       "incumbent": false,
+       "memberId": 414,
+       "sessionMemberId": 44,
+       "sessionYear": 2009,
+       "shortName": "YOUNG"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 14,
+       "sessionYear": 2009,
+       "shortName": "ADAMS"
+      }
+     ],
+     "size": 43
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3216, 3221 & 4303, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": " BILL NUMBER:  S2366\n\n TITLE OF BILL :\nAn act to amend the insurance law, in relation to autism spectrum\ndisorders\n\n\n PURPOSE :\nProvides for insurance coverage of individuals 21 years or younger for\nthe diagnosis and treatment of autism spectrum disorder.\n\n SUMMARY OF PROVISIONS :\nSection 1. Amends section 3216 of the insurance law to provide\ninsurance coverage for the diagnosis and treatment of autism spectrum\ndisorders in individuals 21 years of age or less, up to a maximum\nbenefit of $36,000.\n\nSection 2. Amends section 3221 of the insurance law to provide\ninsurance coverage for the diagnosis and treatment of autism spectrum\ndisorders in individuals 21 years of age or less, up to a maximum\nbenefit of $36,000.\n\nSection 3. Amends section 4303 of the insurance law to provide\ninsurance coverage for the diagnosis and treatment of autism spectrum\ndisorders in individuals 21 years of age or less, up to a maximum\nbenefit of $36,000.\n\nSection 4. Effective date.\n\n JUSTIFICATION :\nAutism is a complex neurobiological disorder that severely affects the\nway an individual diagnosed with autism relates to others socially and\ntheir ability to communicate and learn. Today, 1 in 150 individuals is\ndiagnosed with autism, making it more common than pediatric cancer,\ndiabetes, and AIDS combined. It occurs in all racial, ethnic, and\nsocial groups and is four times more likely to strike boys than girls.\nAlthough it is considered a life span disorder of varying severity,\nautism is treatable. Early diagnosis and intense early intervention\nhave been proven to provide the same benefits to individuals with\nautism that medication or medical procedures provide to individuals\nafflicted with other similar physical or bioneurological disorders.\nHowever, many children with autism are not properly diagnosed until\nyears after the first symptoms appear.  Furthermore, although\ninsurance companies and health maintenance organizations routinely\ncover treatment for similar neurobiological disorders, most health\ninsurance plans in the state of New York do not cover autism\ntreatment.\n\nIn the absence of coverage, families often pay as much as they can\nout-of-pocket for services that can cost upwards of $50,000 per year.\nIn the process, many risk their homes and the educations of their\nunaffected children - essentially mortgaging their futures. This bill\nwould expedite diagnosis and treatment by providing insurance parity\nfor autism sufferers by requiring equitable coverage of the disorder\nby insurance companies for individuals 21 years or younger.\n\n LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS :\nUndetermined.\n\n EFFECTIVE DATE :\nThis act shall take effect on the first of January after it shall have\nbecome a law and shall apply to all policies and contracts issued,\nrenewed, modified, altered or amended, on or after the effective date;\nprovided, however, that any rules and regulations necessary for the\nimplementation of this act shall be promulgated on or before such\neffective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2366",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6001",
+       "basePrintNoStr": "A6001-2009",
+       "printNo": "A6001",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the insurance law, in relation to autism spectrum disorders",
+    "basePrintNo": "S2366",
+    "basePrintNoStr": "S2366-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Craig M. Johnson",
+       "imgName": "Craig M. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 446,
+       "sessionMemberId": 62,
+       "sessionYear": 2009,
+       "shortName": "JOHNSON C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 16,
+       "sessionYear": 2009,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "James S. Alesi",
+       "imgName": "James S. Alesi.jpg",
+       "incumbent": false,
+       "memberId": 392,
+       "sessionMemberId": 23,
+       "sessionYear": 2009,
+       "shortName": "ALESI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 43,
+       "sessionYear": 2009,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 8,
+       "sessionYear": 2009,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Ruben Diaz",
+       "imgName": "421_ruben_diaz.jpg",
+       "incumbent": false,
+       "memberId": 421,
+       "sessionMemberId": 51,
+       "sessionYear": 2009,
+       "shortName": "DIAZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 56,
+       "sessionYear": 2009,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Hugh T. Farley",
+       "imgName": "418_hugh_t._farley.jpg",
+       "incumbent": false,
+       "memberId": 418,
+       "sessionMemberId": 48,
+       "sessionYear": 2009,
+       "shortName": "FARLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "John J. Flanagan",
+       "imgName": "399_john_j._flanagan.jpg",
+       "incumbent": false,
+       "memberId": 399,
+       "sessionMemberId": 29,
+       "sessionYear": 2009,
+       "shortName": "FLANAGAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Brian X. Foley",
+       "imgName": "Brian X. Foley.jpg",
+       "incumbent": false,
+       "memberId": 448,
+       "sessionMemberId": 34,
+       "sessionYear": 2009,
+       "shortName": "FOLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 52,
+       "sessionYear": 2009,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 24,
+       "sessionYear": 2009,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 54,
+       "sessionYear": 2009,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 12,
+       "sessionYear": 2009,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 61,
+       "sessionYear": 2009,
+       "shortName": "JOHNSON O"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 21,
+       "sessionYear": 2009,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Carl Kruger",
+       "imgName": "Carl Kruger.jpg",
+       "incumbent": false,
+       "memberId": 420,
+       "sessionMemberId": 50,
+       "sessionYear": 2009,
+       "shortName": "KRUGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 39,
+       "sessionYear": 2009,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 6,
+       "sessionYear": 2009,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 49,
+       "sessionYear": 2009,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Tom Libous",
+       "imgName": "410_tom_libous.jpg",
+       "incumbent": false,
+       "memberId": 410,
+       "sessionMemberId": 40,
+       "sessionYear": 2009,
+       "shortName": "LIBOUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 11,
+       "sessionYear": 2009,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 37,
+       "sessionYear": 2009,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "George D. Maziarz",
+       "imgName": "George D. Maziarz.jpg",
+       "incumbent": false,
+       "memberId": 411,
+       "sessionMemberId": 41,
+       "sessionYear": 2009,
+       "shortName": "MAZIARZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 20,
+       "sessionYear": 2009,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Thomas P. Morahan",
+       "imgName": "Thomas P. Morahan.jpg",
+       "incumbent": false,
+       "memberId": 441,
+       "sessionMemberId": 2,
+       "sessionYear": 2009,
+       "shortName": "MORAHAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Michael F. Nozzolio",
+       "imgName": "394_michael_f._nozzolio.jpg",
+       "incumbent": false,
+       "memberId": 394,
+       "sessionMemberId": 25,
+       "sessionYear": 2009,
+       "shortName": "NOZZOLIO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "George Onorato",
+       "imgName": "George Onorato.jpg",
+       "incumbent": false,
+       "memberId": 443,
+       "sessionMemberId": 15,
+       "sessionYear": 2009,
+       "shortName": "ONORATO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Frank Padavan",
+       "imgName": "Frank Padavan.jpg",
+       "incumbent": false,
+       "memberId": 445,
+       "sessionMemberId": 22,
+       "sessionYear": 2009,
+       "shortName": "PADAVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 46,
+       "sessionYear": 2009,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 36,
+       "sessionYear": 2009,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 47,
+       "sessionYear": 2009,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Stephen M. Saland",
+       "imgName": "Stephen M. Saland.jpg",
+       "incumbent": false,
+       "memberId": 402,
+       "sessionMemberId": 32,
+       "sessionYear": 2009,
+       "shortName": "SALAND"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 1,
+       "sessionYear": 2009,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Eric T. Schneiderman",
+       "imgName": "Eric T. Schneiderman.jpg",
+       "incumbent": false,
+       "memberId": 444,
+       "sessionMemberId": 17,
+       "sessionYear": 2009,
+       "shortName": "SCHNEIDERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 5,
+       "sessionYear": 2009,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Dean G. Skelos",
+       "imgName": "430_dean_g._skelos.jpg",
+       "incumbent": false,
+       "memberId": 430,
+       "sessionMemberId": 60,
+       "sessionYear": 2009,
+       "shortName": "SKELOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 42,
+       "sessionYear": 2009,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 58,
+       "fullName": "William T. Stachowski",
+       "imgName": "William T. Stachowski.jpg",
+       "incumbent": false,
+       "memberId": 453,
+       "sessionMemberId": 59,
+       "sessionYear": 2009,
+       "shortName": "STACHOWSKI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 30,
+       "sessionYear": 2009,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 35,
+       "fullName": "Andrea Stewart-Cousins",
+       "imgName": "396_andrea_stewart-cousins.jpg",
+       "incumbent": true,
+       "memberId": 396,
+       "sessionMemberId": 27,
+       "sessionYear": 2009,
+       "shortName": "STEWART-COUSINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 26,
+       "sessionYear": 2009,
+       "shortName": "VALESKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Dale M. Volker",
+       "imgName": "Dale M. Volker.jpg",
+       "incumbent": false,
+       "memberId": 452,
+       "sessionMemberId": 57,
+       "sessionYear": 2009,
+       "shortName": "VOLKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "George Winner",
+       "imgName": "George Winner.jpg",
+       "incumbent": false,
+       "memberId": 450,
+       "sessionMemberId": 45,
+       "sessionYear": 2009,
+       "shortName": "WINNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 14,
+       "sessionYear": 2009,
+       "shortName": "ADAMS"
+      }
+     ],
+     "size": 50
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3216, 3221 & 4303, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": " BILL NUMBER:  S2366A          REVISED 10/13/09\n\n TITLE OF BILL :\nAn act to amend the insurance law, in relation to autism spectrum\ndisorders\n\n\n PURPOSE :\nProvides for insurance coverage of individuals 21 years or younger for\nthe diagnosis and treatment of autism spectrum disorder.\n\n SUMMARY OF PROVISIONS :\nSection 1. Amends section 3216 of the insurance law to provide\ninsurance coverage for applied behavior analysis therapy for the\ntreatment of autism spectrum disorders in individuals 21 years of age\nor less, up to a maximum benefit of $36,000.\n\nSection 2. Amends section 3221 of the insurance law to provide\ninsurance coverage for applied behavior analysis therapy for the\ntreatment of autism spectrum disorders in individuals 21 years of age\nor less, up to a maximum benefit of$36,000.\n\nSection 3. Amends section 4303 of the insurance law to provide\ninsurance coverage for applied behavior analysis therapy for the\ntreatment of autism spectrum disorders in individuals 21 years of age\nor less, up to a maximum benefit of $36,000.\n\nSection 4. Effective date.\n\n JUSTIFICATION :\nAutism is a complex neurobiological disorder that severely affects the\nway autistic individuals relate to others socially and their ability\nto communicate and learn. Today, 1 in 150 individuals is diagnosed\nwith autism, making it more common than pediatric cancer, diabetes,\nand AIDS combined. It occurs in all racial, ethnic, and social groups\nand is four times more likely to strike boys than girls. Although it\nis considered a life span disorder of varying severity, autism is\ntreatable. Early diagnosis and intense early intervention have been\nproven to provide the same benefits to individuals with autism that\nmedication or medical procedures provide to individuals afflicted with\nother similar physical or bioneurological disorders. However, many\nchildren with autism are not properly diagnosed until years after the\nfirst symptoms appear. Furthermore, although insurance companies and\nhealth maintenance organizations routinely cover treatment for similar\nneurobiological disorders, most health insurance plans in the state of\nNew York do not cover autism treatment.\n\nIn the absence of coverage, families often pay as much as they can\nout-of-pocket for services that can cost upwards of $50,000 per year.\nIn the process, many risk their homes and the education's of their\nunaffected children _ essentially mortgaging their futures. This bill\nwould expedite diagnosis and treatment by providing insurance parity\nfor autism sufferers by requiring equitable coverage of the disorder\nby insurance companies for individuals 21 years or younger.\n\n LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nThe first of January after it shall have become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2366A",
+    "publishDate": "2009-10-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6001",
+       "basePrintNoStr": "A6001-2009",
+       "printNo": "A6001A",
+       "session": 2009,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2366",
+ "basePrintNoStr": "S2366-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2009-02-19T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2009-10-09T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2366A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2009-10-09T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 8,
+   "fullName": "Charles J. Fuschillo Jr.",
+   "imgName": "Charles J. Fuschillo Jr.jpg",
+   "incumbent": false,
+   "memberId": 425,
+   "sessionMemberId": 55,
+   "sessionYear": 2009,
+   "shortName": "FUSCHILLO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-01-06",
+  "billCalNo": null,
+  "committeeName": "Insurance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to autism spectrum disorders in individuals twenty-one years or less; directs the department of health to promulgate rules and regulations establishing standards for qualified autism services providers and upon such promulgation, payment for treatment of autism spectrum disorders covered shall only be made available to autism services providers who meet such standards; further directs the department of health shall further establish standards to be utilized by managed care plans for the credentialing of autism service providers and authorizes that the department of insurance may require that a managed care plan grant credentials to any autism service provider whom the department determines meets or exceeds the department's credentialing standards.",
+ "title": "Relates to autism spectrum disorders",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

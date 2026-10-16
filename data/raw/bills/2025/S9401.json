@@ -1,0 +1,607 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-31",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-31",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 9401A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-04-21",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.813"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-04-22",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-04-27",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-13",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A8849B"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to requiring the department\nof health to facilitate the exchange of data between the state prescription\ndrug program and electronic health records",
+    "basePrintNo": "S9401",
+    "basePrintNoStr": "S9401-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3343-a, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S9401\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to requiring the\ndepartment of health to facilitate the exchange of data between the\nstate prescription drug program and electronic health records\n\n \nPURPOSE:\n\nTo direct the commissioner of health to issue regulations permitting\nelectronic health record vendors to obtain state approval to enable\ninteroperability between the Prescription Monitoring Program (PMP)\nregistry and certified electronic health record systems connected to\nnational data-sharing hubs.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends Subdivision (c) of section 3343-a of the public\nhealth law, as it relates to the prescription monitoring program (PMP)\nregistry to require the Commissioner of Health to develop regulations\nallowing electronic health records (EHR) vendors to integrate their\nsystem with the State's prescription monitoring program to ease access\nof patient information for prescribers and pharmacists.\n\nThe bill would establish several requirements for this integration\nincluding data privacy and protection, availability of information,\npromotion of prescriber and pharmacist choice, and utilization of the\nexisting PMP infrastructure.\n\nSection two of the legislation provides an immediate effective date.\n\n \nJUSTIFICATION:\n\nThe effectiveness and timeliness of prescribers is being limited by the\nNew York prescription monitoring program (PMP) Registry's inability to\nintegrate with electronic health records (EHR). This means that every\ntime prescribers and pharmacists need to check with the PMP, which is\nlegally required of them when prescribing certain controlled substances\n(Schedules II, Ill, and IV), they have to exit their EHR, log into a\nseparate PMP system, look up the data, then go back into EHR and contin-\nue writing the prescription. This invites room for error, interrupts\nworkflow, and takes time away from the prescriber's ability to adminis-\nter care.\n\nCurrently, there are 46 other states that have integrated their PMP data\ndirectly into EHR systems, allowing prescribers to view necessary infor-\nmation within the same platform they utilize for all patient care. The\nVeterans Health Administration (VA) already requires this integration,\nmeaning that VA facilities operating within New York are demonstrating\nthe feasibility of statewide adoption.\n\nIntegrating New York's PMP with EHRs is essential to reduce prescribing\nerrors, save clinicians time, and ensure more consistent use of the PMP.\nStreamlined access to controlled substance data within EHRs would\nenhance patient safety, improve care quality, and align New York with\nnational best practices already adopted by most other states.\n\n \nLEGISLATIVE HISTORY:\n\nNew legislation\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S9401",
+    "publishDate": "2026-03-10",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH3343-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to requiring the department\nof health to facilitate the exchange of data between the state prescription\ndrug program and electronic health records",
+    "basePrintNo": "S9401",
+    "basePrintNoStr": "S9401-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3343-a, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S9401A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to requiring the\ndepartment of health to facilitate the exchange of data between the\nstate prescription drug program and electronic health records\n\n \nPURPOSE:\n\nTo direct the commissioner of health to issue regulations permitting\nelectronic health record vendors to obtain state approval to enable\ninteroperability between the Prescription Monitoring Program (PMP)\nregistry and certified electronic health record systems connected to\nnational data-sharing hubs.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends subdivision (c) of section 3343-a of the public\nhealth law, as it relates to the prescription monitoring program (PMP)\nregistry to require the Commissioner of Health to develop regulations\nallowing electronic health records (EHR) vendors to integrate their\nsystem with the State's prescription monitoring program to ease access\nof patient information for prescribers and pharmacists.\n\nThe bill would establish several requirements for this integration\nincluding data privacy and protection, availability of information,\npromotion of prescriber and pharmacist choice, and utilization of the\nexisting PMP infrastructure.\n\nSection two of the legislation provides an immediate effective date.\n\n \nJUSTIFICATION:\n\nThe effectiveness and timeliness of prescribers is being limited by the\nNew York prescription monitoring program (PMP) Registry's inability to\nintegrate with electronic health records (EHR). This means that every\ntime prescribers and pharmacists need to check with the PMP, which is\nlegally required of them when prescribing certain controlled substances\n(Schedules II, Ill, and IV), they have to exit their EHR, log into a\nseparate PMP system, look up the data, then go back into EHR and contin-\nue writing the prescription. This invites room for error, interrupts\nworkflow, and takes time away from the prescriber's ability to adminis-\nter care.\n\nCurrently, there are 46 other states that have integrated their PMP data\ndirectly into EHR systems, allowing prescribers to view necessary infor-\nmation within the same platform they utilize for all patient care. The\nVeterans Health Administration (VA) already requires this integration,\nmeaning that VA facilities operating within New York are demonstrating\nthe feasibility of statewide adoption.\n\nIntegrating New York's PMP with EHRs is essential to reduce prescribing\nerrors, save clinicians time, and ensure more consistent use of the PMP.\nStreamlined access to controlled substance data within EHRs would\nenhance patient safety, improve care quality, and align New York with\nnational best practices already adopted by most other states.\n\n \nLEGISLATIVE HISTORY:\n\nNew legislation\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S9401A",
+    "publishDate": "2026-03-31",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH3343-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8849",
+       "basePrintNoStr": "A8849-2025",
+       "printNo": "A8849B",
+       "session": 2025,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S9401",
+ "basePrintNoStr": "S9401-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 40,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2026
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2026
+   }
+  ],
+  "size": 11
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-03-31",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-04-27",
+    "billCalNo": 813,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-03-10T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-03-31T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S9401A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-03-10T11:30:10.282080",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2026-03-31T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2026-03-10T11:30:10.2181",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 2350,
+   "sessionYear": 2025,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-04-27",
+  "billCalNo": 813,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8849",
+  "basePrintNoStr": "A8849-2025",
+  "session": 2025
+ },
+ "summary": "Directs the commissioner of health shall promulgate regulations allowing for any electronic health records integration vendor to obtain state approval to facilitate interoperability between the prescription monitoring program registry and certified electronic health records systems that can connect with any national data sharing hub.",
+ "title": "Requires the department of health to facilitate the exchange of data between the state prescription drug program and electronic health records",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S9401",
+     "basePrintNoStr": "S9401-2025",
+     "printNo": "S9401A",
+     "session": 2025,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 2360,
+         "sessionYear": 2025,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2372,
+         "sessionYear": 2025,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2377,
+         "sessionYear": 2025,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 2376,
+         "sessionYear": 2025,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 2324,
+         "sessionYear": 2025,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2365,
+         "sessionYear": 2025,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2337,
+         "sessionYear": 2025,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2338,
+         "sessionYear": 2025,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 2322,
+         "sessionYear": 2025,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2350,
+         "sessionYear": 2025,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Christopher Ryan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1551,
+         "sessionMemberId": 2367,
+         "sessionYear": 2025,
+         "shortName": "RYAN C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Sam Sutton",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1572,
+         "sessionMemberId": 2533,
+         "sessionYear": 2025,
+         "shortName": "SUTTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 2369,
+         "sessionYear": 2025,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2026-04-21",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

@@ -1,0 +1,238 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2970",
+     "basePrintNoStr": "S2970-2009",
+     "printNo": "S2970",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2970",
+     "basePrintNoStr": "S2970-2009",
+     "printNo": "S2970",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-21",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.184"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2970",
+     "basePrintNoStr": "S2970-2009",
+     "printNo": "S2970",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-22",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2970",
+     "basePrintNoStr": "S2970-2009",
+     "printNo": "S2970",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-27",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2970",
+     "basePrintNoStr": "S2970-2009",
+     "printNo": "S2970",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-28",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A2574"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S2970",
+    "basePrintNoStr": "S2970-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §236, Dom Rel L",
+    "lawSection": "Domestic Relations Law",
+    "memo": " BILL NUMBER:  S2970\n\n TITLE OF BILL :\nAn act to amend the domestic relations law, in relation to\nestablishing automatic orders in matrimonial actions\n\n\n PURPOSE OF BILL :\nTo prevent a party in a matrimonial action commenced in Supreme Court\nfrom dissipating assets in order to deprive his or her spouse of the\nproperty to which that spouse may be entitled.\n\n SUMMARY OF PROVISIONS OF BILL :\nAmends domestic relations law § 236(B)(2) to place upon the plaintiff\na duty to serve upon the defendant automatic orders which would bind\nboth parties from the commencement of a matrimonial action. The\nautomatic orders would be binding upon the plaintiff upon the\ncommencement of the action and upon the defendant upon service of the\nSummons or Summons and Complaint. The specific matters covered by the\nproposed automatic orders include prohibitions against the following:\ntransfers and encumbrances of real and personal property and\nretirement funds; the accumulation of unreasonable debt; and changes\nin beneficiaries on existing health and life insurance policies.\n\n JUSTIFICATION :\nThe adoption of automatic orders at the very commencement of a\nmatrimonial action is intended to prevent both parties from\ndissipating assets, incurring unreasonable debts, or removing a party\nor the children from health or life insurance policies.  Making these\nprohibitions automatic upon commencement of the action will also save\non legal fees and judicial time. The bill has the support of the OCA\nCommittee on Matrimonial Practice, chaired by Hon.  Jacqueline\nSilbermann, Statewide Administrative Judge for Matrimonial Matters.\n\n LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\nNone.\n\n EFFECTIVE DATE :\nThe law will take effect on the first of the calendar month next\nsucceeding the sixtieth day after it shall become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2970",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2574",
+       "basePrintNoStr": "A2574-2009",
+       "printNo": "A2574",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2970",
+ "basePrintNoStr": "S2970-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-09",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-04-27",
+    "billCalNo": 184,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-03-09T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2970",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 19,
+   "fullName": "John L. Sampson",
+   "imgName": "369_john_l._sampson.jpg",
+   "incumbent": false,
+   "memberId": 369,
+   "sessionMemberId": 1,
+   "sessionYear": 2009,
+   "shortName": "SAMPSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-04-27",
+  "billCalNo": 184,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2574",
+  "basePrintNoStr": "A2574-2009",
+  "session": 2009
+ },
+ "summary": "Establishes automatic orders in matrimonial actions which remain in full force and effect during the pendency of the action, unless terminated, modified or amended by further order of the court upon motion of either of the parties or upon written agreement between the parties duly executed and acknowledged.",
+ "title": "Establishes automatic orders in matrimonial actions",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

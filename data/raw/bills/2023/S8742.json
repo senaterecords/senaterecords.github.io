@@ -1,0 +1,597 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8742",
+     "basePrintNoStr": "S8742-2023",
+     "printNo": "S8742",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8742",
+     "basePrintNoStr": "S8742-2023",
+     "printNo": "S8742",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-14",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1123"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8742",
+     "basePrintNoStr": "S8742-2023",
+     "printNo": "S8742",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-15",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8742",
+     "basePrintNoStr": "S8742-2023",
+     "printNo": "S8742",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-16",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8742",
+     "basePrintNoStr": "S8742-2023",
+     "printNo": "S8742",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-21",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A9337"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the executive law, in relation to hazardous materials\nemergency response training for incidents involving lithium-ion batteries",
+    "basePrintNo": "S8742",
+    "basePrintNoStr": "S8742-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §156-a, Exec L",
+    "lawSection": "Executive Law",
+    "memo": " \nBILL NUMBER: S8742\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the executive law, in relation to hazardous materials\nemergency response  training for incidents involving lithium-ion\nbatteries\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to provide training regarding lithium-ion\nbattery emergency response.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of this bill would amend section 156-a of the Executive Law\nby incorporating training regarding lithium-ion battery emergency\nresponse into the Office of Fire Prevention and Control specialized\nhazardous materials emergency response training program.\n\nSection two would establish the effective date.\n\n \nJUSTIFICATION:\n\nLithium-ion batteries are ever present in today's society, from e-bikes\nto smart phones to laptops. Unfortunately, due to how they are\nconstructed, they are susceptible to catching fire, especially when they\nare damaged. This bill ensures that there is specialized training avail-\nable to first responders so they are equipped to handle an emergency\nwhen it comes to these types of batteries.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8742",
+    "publishDate": "2024-03-06",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EXC156-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9337",
+       "basePrintNoStr": "A9337-2023",
+       "printNo": "A9337",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8742",
+ "basePrintNoStr": "S8742-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 51,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2024
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-03-06",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2024-05-16",
+    "billCalNo": 1123,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-03-06T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A9337",
+    "basePrintNoStr": "A9337-2023",
+    "printNo": "A9337",
+    "session": 2023,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S8742",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-03-06T12:24:42.929517",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2024-03-06T12:24:42.929517",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 30,
+   "fullName": "Cordell Cleare",
+   "imgName": "Cordell Cleare.jpg",
+   "incumbent": true,
+   "memberId": 1504,
+   "sessionMemberId": 2056,
+   "sessionYear": 2023,
+   "shortName": "CLEARE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-05-16",
+  "billCalNo": 1123,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9337",
+  "basePrintNoStr": "A9337-2023",
+  "session": 2023
+ },
+ "summary": "Requires the state fire administrator to establish hazardous materials emergency response training for incidents involving lithium-ion batteries.",
+ "title": "Relates to hazardous materials emergency response training for incidents involving lithium-ion batteries",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8742",
+     "basePrintNoStr": "S8742-2023",
+     "printNo": "S8742",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "ABS": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2028,
+         "sessionYear": 2023,
+         "shortName": "PARKER"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 2006,
+         "sessionYear": 2023,
+         "shortName": "BORRELLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2008,
+         "sessionYear": 2023,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Jeremy Cooney",
+         "imgName": "1318_Jeremy_Cooney.jpg",
+         "incumbent": true,
+         "memberId": 1501,
+         "sessionMemberId": 2051,
+         "sessionYear": 2023,
+         "shortName": "COONEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2012,
+         "sessionYear": 2023,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2013,
+         "sessionYear": 2023,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Michelle Hinchey",
+         "imgName": "1314_Michelle_Hinchey.jpg",
+         "incumbent": true,
+         "memberId": 1497,
+         "sessionMemberId": 2047,
+         "sessionYear": 2023,
+         "shortName": "HINCHEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 2020,
+         "sessionYear": 2023,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 2049,
+         "sessionYear": 2023,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2037,
+         "sessionYear": 2023,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 20
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-05-14",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2024
+}

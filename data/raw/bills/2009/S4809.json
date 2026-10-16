@@ -1,0 +1,251 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4809",
+     "basePrintNoStr": "S4809-2009",
+     "printNo": "S4809",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-27",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4809",
+     "basePrintNoStr": "S4809-2009",
+     "printNo": "S4809",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.556"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4809",
+     "basePrintNoStr": "S4809-2009",
+     "printNo": "S4809",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-03",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4809",
+     "basePrintNoStr": "S4809-2009",
+     "printNo": "S4809",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-04",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4809",
+     "basePrintNoStr": "S4809-2009",
+     "printNo": "S4809",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-16",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A5049"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S4809",
+    "basePrintNoStr": "S4809-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §73, Pub Off L",
+    "lawSection": "Public Officers Law",
+    "memo": " BILL NUMBER:  S4809\n\n TITLE OF BILL :  An act to amend the public officers law, in relation\nto activities by former state officers\n\n PURPOSE OR GENERAL IDEA OF BILL : To extend the exemption from the\n\"revolving door\" provisions of the Public Officers Law to include\nthose state workers who lose their jobs as a result of the reduction\nin the state workforce on or after January 1, 2009 and before April 1,\n2011.\n\n SUMMARY OF SPECIFIC PROVISIONS : Paragraph (b) of subdivision 8 of\nsection 73 of the public officers law is amended to open a new window\nin the exemption from the \"revolving door\" provisions of the public\nofficers law to former employees who have lost their jobs due to state\nworkforce reductions. References to the State Ethics Commission are\naltered to reflect the Commission on Public Integrity created in 2007.\n\n JUSTIFICATION : From time to time, due to unfavorable fiscal\nconditions, it becomes necessary to reduce the size of the state\nworkforce. The bill assists state workers who lose their jobs by\nexempting them from the \"revolving door\" provisions of the public\nofficers law. This legislation opens new employment opportunities to\nstate workers who lose their jobs through no fault of their own.\n\n PRIOR LEGISLATIVE HISTORY : New Bill. Similar to previous extensions\nof the \"revolving door\" exemption, such as Chapter 561 of the Laws of\n1998 and Chapter 33 of the Laws of 1997.\n\n FISCAL IMPLICATIONS : None.\n\n EFFECTIVE DATE : This act shall take effect immediately and shall be\ndeemed to have been in full force and effect on or after January 1,\n2009.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4809",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5049",
+       "basePrintNoStr": "A5049-2009",
+       "printNo": "A5049",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4809",
+ "basePrintNoStr": "S4809-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 59,
+    "year": 2009
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2009
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2009
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-04-27",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-06-04",
+    "billCalNo": 556,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-04-27T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4809",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 46,
+   "fullName": "Neil D. Breslin",
+   "imgName": "372_neil_d._breslin.jpg",
+   "incumbent": false,
+   "memberId": 372,
+   "sessionMemberId": 4,
+   "sessionYear": 2009,
+   "shortName": "BRESLIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-06-04",
+  "billCalNo": 556,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5049",
+  "basePrintNoStr": "A5049-2009",
+  "session": 2009
+ },
+ "summary": "Relates to activities by former state officers; permits certain state officers, terminated between January 1, 2009 and April 1, 2011 due to a reduction in the state workforce, to engage in certain activities representing any entity before a state agency or board.",
+ "title": "Relates to activities by certain former state officers",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

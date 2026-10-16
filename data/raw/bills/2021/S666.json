@@ -1,0 +1,1048 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-03-03",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-03-03",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 666A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-02",
+    "sequenceNo": 5,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-10",
+    "sequenceNo": 6,
+    "text": "1ST REPORT CAL.1201"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-11",
+    "sequenceNo": 7,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-16",
+    "sequenceNo": 8,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-25",
+    "sequenceNo": 9,
+    "text": "SUBSTITUTED BY A5832A"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to providing a help\nline/crisis line to assist veterans",
+    "basePrintNo": "S666",
+    "basePrintNoStr": "S666-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3803, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S666\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to providing a help\nline/crisis line to assist veterans\n\n \nPURPOSE:\n\nTo provide a toll-free telephone number for use as a help and crisis\nline to assist veterans.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends paragraph (b) of subdivision 2 of section 3803 of the\npublic health law, as amended by chapter 743 of the laws of 2006,\nproviding for the establishment of a toll-free telephone number for use\nas (i) a clearinghouse by veterans, active members of the Armed Forces\nin New York and their families to obtain referrals to entities that\nprovide benefits or services available to them; and\n\n(ii) a crisis line to respond to requests for assistance from veterans\nmodeled after the federal veterans' crisis line. The toll-free number\nshall be staffed by employees of or trained volunteers working at the\nDivision of Veterans' Services on weekdays during regular business\nhours, and on weekends and holidays from 9 AM to 5 PM.\n\nSection 2 provides this act shall take effect immediately.\n\n \nEXISTING LAW:\n\nExisting state law establishes a toll-free telephone hotline to provide\ninformation regarding health care providers and treatment centers with\nexpertise in illnesses associated with military duty.  There is also a\nfederal veterans' crisis line.\n\n \nJUSTIFICATION:\n\nVeterans and members of the Armed Forces need more support from the\nstate, including information on benefits and services available to them\nand their families, and a number they can call to speak with those qual-\nified to help them in this state during times of crisis.\n\n \nLEGISLATIVE HISTORY:\n\n2016: S.7322 REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY\nAFFAIRS\n2017: S.4524 REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY\nAFFAIRS\n2018: S.4524 PASSED SENATE\n\n \nFISCAL IMPLICATIONS:\n\nDe Minimis cost\n\n \nLOCAL FISCAL IMPLICATIONS:\n\nNone\n \nEFFECTIVE DATE:\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S666",
+    "publishDate": "2021-01-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH3803"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the military law, in relation to providing benefit information\nto a national guard member",
+    "basePrintNo": "S666",
+    "basePrintNoStr": "S666-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 1812,
+       "sessionYear": 2021,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 7
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §255, Mil L",
+    "lawSection": "Military Law",
+    "memo": " \nBILL NUMBER: S666A\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:\n\nAn act to amend the military law, in relation to providing benefit\ninformation to a national guard member\n\n \nTITLE OF BILL:\n\nAn act to amend the military law, in relation to providing benefit\ninformation to a national guard member\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo provide information on benefits for those who served in the national\nguard members on the federal and state level.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. amends the military law by adding a new section to require\nthe Division of Military and Naval Affairs is required information on\nbenefits for members of the national guard and their family in both\nprinted form and on the Division's website.\n\nSection 2 provides this act shall take effect the sixtieth day.\n\n \nJUSTIFICATION:\n\nNational guard members need a place to find information on benefits and\nservices available to them and their families.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2022: A.5832A passed Assembly 138-0\n\n2021: S.666 Referred to Veterans, Homeland Security and Military Affairs\n\n2019-2020: A.8390 - Referred to Veterans' Affairs / S2283-A - Passed\n\nSenate 2017-2018: S.4524 - Passed Senate\n\n2015-2016: S.7322 - Referred to Veterans, Homeland Security and Military\nAffairs\n\n \nFISCAL IMPLICATIONS:\n\nDe Minimis cost.\n\n \nEFFECTIVE DATE:\nThis act shall take effect sixtieth day.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S666A",
+    "publishDate": "2022-03-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "MIL255"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5832",
+       "basePrintNoStr": "A5832-2021",
+       "printNo": "A5832A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S666",
+ "basePrintNoStr": "S666-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 53,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2022
+   }
+  ],
+  "size": 7
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Veterans, Homeland Security And Military Affairs"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-05-02",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2022-05-16",
+    "billCalNo": 1201,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2022-05-02T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Veterans, Homeland Security And Military Affairs",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Veterans, Homeland Security And Military Affairs",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Veterans, Homeland Security And Military Affairs",
+    "referenceDate": "2022-03-03T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S2283",
+    "basePrintNoStr": "S2283-2019",
+    "printNo": "S2283A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S4524",
+    "basePrintNoStr": "S4524-2017",
+    "printNo": "S4524",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S7322",
+    "basePrintNoStr": "S7322-2015",
+    "printNo": "S7322",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S666A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-04T18:25:07.776911",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-03-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-01-04T18:25:07.776911",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 10,
+   "fullName": "James Sanders Jr.",
+   "imgName": "432_james_sanders_jr.jpg",
+   "incumbent": true,
+   "memberId": 432,
+   "sessionMemberId": 1834,
+   "sessionYear": 2021,
+   "shortName": "SANDERS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-05-16",
+  "billCalNo": 1201,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5832",
+  "basePrintNoStr": "A5832-2021",
+  "session": 2021
+ },
+ "summary": "Relates to providing benefit information to a national guard member.",
+ "title": "Provides benefit information to national guard members",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Veterans, Homeland Security And Military Affairs"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 1795,
+         "sessionYear": 2021,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "John E. Brooks",
+         "imgName": "923_John_Brooks.jpg",
+         "incumbent": false,
+         "memberId": 1101,
+         "sessionMemberId": 1803,
+         "sessionYear": 2021,
+         "shortName": "BROOKS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 1811,
+         "sessionYear": 2021,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Daphne Jordan",
+         "imgName": "1055_Daphne_Jordan.jpg",
+         "incumbent": false,
+         "memberId": 1235,
+         "sessionMemberId": 1815,
+         "sessionYear": 2021,
+         "shortName": "JORDAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Elijah Reichlin-Melnick",
+         "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+         "incumbent": false,
+         "memberId": 1495,
+         "sessionMemberId": 1850,
+         "sessionYear": 2021,
+         "shortName": "REICHLIN-MELNICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 1834,
+         "sessionYear": 2021,
+         "shortName": "SANDERS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 1838,
+         "sessionYear": 2021,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Alexis Weik",
+         "imgName": "1310_Alexis_Weik.jpg",
+         "incumbent": true,
+         "memberId": 1493,
+         "sessionMemberId": 1848,
+         "sessionYear": 2021,
+         "shortName": "WEIK"
+        }
+       ],
+       "size": 9
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2022-05-02",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S666",
+     "basePrintNoStr": "S666-2021",
+     "printNo": "S666A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "ABS": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 1800,
+         "sessionYear": 2021,
+         "shortName": "BORRELLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1802,
+         "sessionYear": 2021,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1804,
+         "sessionYear": 2021,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 1809,
+         "sessionYear": 2021,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 1811,
+         "sessionYear": 2021,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1819,
+         "sessionYear": 2021,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1820,
+         "sessionYear": 2021,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1835,
+         "sessionYear": 2021,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Susan Serino",
+         "imgName": "890_susan_serino.jpg",
+         "incumbent": false,
+         "memberId": 890,
+         "sessionMemberId": 1837,
+         "sessionYear": 2021,
+         "shortName": "SERINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 1839,
+         "sessionYear": 2021,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1840,
+         "sessionYear": 2021,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 1842,
+         "sessionYear": 2021,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 22
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2022-05-10",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2022
+}

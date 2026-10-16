@@ -1,0 +1,599 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6898",
+     "basePrintNoStr": "S6898-2011",
+     "printNo": "S6898",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-04-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6898",
+     "basePrintNoStr": "S6898-2011",
+     "printNo": "S6898",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-20",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6898",
+     "basePrintNoStr": "S6898-2011",
+     "printNo": "S6898",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-21",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1514"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6898",
+     "basePrintNoStr": "S6898-2011",
+     "printNo": "S6898",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-21",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A10048"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend chapter 246 of the laws of 2010 amending the public authorities law relating to the powers of the state of New York mortgage agency, in relation to extending the provisions thereof",
+    "basePrintNo": "S6898",
+    "basePrintNoStr": "S6898-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §5, Chap 246 of 2010",
+    "lawSection": "Public Authorities",
+    "memo": "BILL NUMBER:S6898\n\nTITLE OF BILL:\n\nAn act to amend chapter 246 of the laws of 2010 amending the public\nauthorities law relating to the powers of the state of New York mortgage\nagency, in relation to extending the provisions thereof\n\nPURPOSE OF THE BILL:\n\nThis bill would for two years the State of New York Mortgage Agency\nMortgage Insurance Fund's (\"MIF\") authority to insure the full principal\namount of certain preservation loans (originated between January 1, 2004\nand December 31, 2008) thereby enabling the MIF to provide needed\nsupport for the refinancing of certain multi-family affordable housing\naccommodations which became over leveraged during the current housing\ncrisis.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill would amend Chapter 246 of the Laws of 2010 to\nextend until June 30, 2014, MIF's authority to provide one hundred\npercent mortgage insurance on certain loans that (originated between\nJanuary 1, 2004 and December 31, 2008) extended for the sole purpose of\nrefinancing existing indebtedness which relate to over leveraged multi-\nfamily residential buildings.\n\nSection 2 of the bill provides for an immediate effective date.\n\nEXISTING LAW:\n\nMIF has the authority sought in this bill only through June 30, 2012.\n\nPRIOR LEGISLATIVE HISTORY:\n\nThis authority was originally granted for two years in Chapter 246 of\nthe Laws of 2010.\n\nSTATEMENT IN SUPPORT:\n\nThis bill would extend for two years MIF's authority to provide one\nhundred percent mortgage insurance on certain loans (originated between\nJanuary 1, 2004 and December 31, 2008) extended for the sale purpose of\nrefinancing existing indebtedness relating to over-leveraged multi-fami-\nly residential buildings.\n\nBUDGET IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\n\nThis bill takes effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6898",
+    "publishDate": "2012-04-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A10048",
+       "basePrintNoStr": "A10048-2011",
+       "printNo": "A10048",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6898",
+ "basePrintNoStr": "S6898-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 61,
+    "year": 2012
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 21,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-06-20",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2012-06-21",
+    "billCalNo": 1514,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Corporations, Authorities And Commissions",
+    "referenceDate": "2012-04-09T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2012-06-20T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6898",
+ "programInfo": {
+  "name": "Housing & Community Renewal (Division of)",
+  "sequenceNo": 4
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-04-09T09:24:54",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2012-04-09T09:24:54",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 57,
+   "fullName": "Catharine Young",
+   "imgName": "414_catharine_young.jpg",
+   "incumbent": false,
+   "memberId": 414,
+   "sessionMemberId": 108,
+   "sessionYear": 2011,
+   "shortName": "YOUNG"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-06-21",
+  "billCalNo": 1514,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A10048",
+  "basePrintNoStr": "A10048-2011",
+  "session": 2011
+ },
+ "summary": "Extends provisions relating to the powers of the state of New York mortgage agency.",
+ "title": "Extends provisions relating to the powers of the state of New York mortgage agency",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6898",
+     "basePrintNoStr": "S6898-2011",
+     "printNo": "S6898",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "ABD": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 69,
+         "sessionYear": 2011,
+         "shortName": "PERKINS"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "James S. Alesi",
+         "imgName": "James S. Alesi.jpg",
+         "incumbent": false,
+         "memberId": 392,
+         "sessionMemberId": 86,
+         "sessionYear": 2011,
+         "shortName": "ALESI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 66,
+         "sessionYear": 2011,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 120,
+         "sessionYear": 2011,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 112,
+         "sessionYear": 2011,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 118,
+         "sessionYear": 2011,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 74,
+         "sessionYear": 2011,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 80,
+         "sessionYear": 2011,
+         "shortName": "JOHNSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 95,
+         "sessionYear": 2011,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 68,
+         "sessionYear": 2011,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 113,
+         "sessionYear": 2011,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 104,
+         "sessionYear": 2011,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 101,
+         "sessionYear": 2011,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 105,
+         "sessionYear": 2011,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 75,
+         "sessionYear": 2011,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 88,
+         "sessionYear": 2011,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 110,
+         "sessionYear": 2011,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 96,
+         "sessionYear": 2011,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "John L. Sampson",
+         "imgName": "369_john_l._sampson.jpg",
+         "incumbent": false,
+         "memberId": 369,
+         "sessionMemberId": 63,
+         "sessionYear": 2011,
+         "shortName": "SAMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 124,
+         "sessionYear": 2011,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 99,
+         "sessionYear": 2011,
+         "shortName": "SMITH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 22
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 81,
+         "sessionYear": 2011,
+         "shortName": "DUANE"
+        }
+       ],
+       "size": 1
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 119,
+         "sessionYear": 2011,
+         "shortName": "FUSCHILLO"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 4
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2012-06-21",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

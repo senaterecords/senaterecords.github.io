@@ -1,0 +1,938 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-21",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-21",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 5160A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-25",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-25",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 5160B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-02",
+    "sequenceNo": 6,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-02",
+    "sequenceNo": 7,
+    "text": "ORDERED TO THIRD READING CAL.1448"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-09",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A229C"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the municipal home rule law, in relation to the division of a\ncounty into districts for the apportionment of members of its local\nlegislative body",
+    "basePrintNo": "S5160",
+    "basePrintNoStr": "S5160-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 4
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§34 & 10, Munic Home R L",
+    "lawSection": "Municipal Home Rule Law",
+    "memo": "\n \nBILL NUMBER: S5160\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the municipal home rule law, in relation to the division\nof a county into districts for the apportionment of members of its local\nlegislative body\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo provide that no county shall supersede any state law which relates to\nthe division of any county into districts for the purposes of apportion-\nment\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends section 34 of the municipal home rule law by adding a\nnew subdivision 4 which provides that notwithstanding any local law to\nthe contrary, any plan of apportionment adopted pursuant to a county\ncharter or charter law relating to the division of any county, except a\ncounty wholly contained within a city, into districts for the purpose of\nthe apportionment or reapportionment of members of its local legislative\nbody shall be subjected to federal and state constitutional requirements\nand shall comply with the following standards, which shall have priority\nin the order set forth in this subdivision, to the extent applicable:\n\na. districts shall be as nearly equal in population as is practicable;\nthe difference in population between the most and least populous\ndistrict shall not exceed four percent of the mean population of all\ndistricts,\n\nb. districts shall not be .drawn with the intent or result of denying or\nabridging the equal opportunity of racial or language minority groups to\nparticipate in the political process or to diminish their ability to\nelect representatives of their choice,\n\nc. to the extent possible, no villages or cities or towns except those\nhaving more than one hundred ten percent of a full ratio for each\ndistrict, shall be divided,\n\nd. districts shall be compact and consist of contiguous territory,\n\ne. to the extent possible, a district shall unite communities defined by\nactual shared interests, taking account of geographic, social, economic,\nand other factors that indicate commonality of interest,\n\nf. districts shall be drawn not to discourage competition for election\nof representatives that reflect a district's political will. The cores\nof existing districts and pre-existing political subdivisions, including\ncounties, cities, and towns, and of communities of interest shall also\nbe considered\n\ng. districts shall be formed so as to promote the orderly and efficient\nadministration of elections.\n\nSection two amends subparagraph 13 of paragraph a of subdivision 1 of\nsection 10 of the municipal home rule law to mirror new subdivision 4 of\nsection 34 of the municipal home rule law as described above.\nSection three provides the effective date\n\n \nJUSTIFICATION:\n\nThe Municipal Home Rule Law contains specific guidelines for county\nredistricting. The guidelines, which spell out allowable deviations in\npopulation equality among districts, direct counties to follow political\nsubdivision lines to the extent possible in the districting process.\n\nThe Westchester League of Women Voters challenged the 1991 county legis-\nlative redistricting in State Supreme Court on the ground that the coun-\nty redistricting that year ignored the State guidelines. The Court ruled\nthat Westchester was immune from the directives of the Municipal Home\nRule Law, a finding that was upheld in the Appellate Division. It stat-\ned: \"Westchester County operates under a charter form of government and\nits reapportionment plans are adopted pursuant to its charter, not\nMunicipal Home Rule Law Sec 10(1)(a)(13) (a).\"  The County League worked\nunsuccessfully for a Charter amendment that would incorporate guidelines\nfor protecting political subdivision lines, subject to legal require-\nments for equal population districting. Statutory provisions for elec-\ntoral procedures should be uniformly applied in New York State. In the\nface of the County's failure to exercise its own power to establish fair\ndistricting guidelines, the State should extend the reach of the Munici-\npal Home Rule Law guidelines on districting to cover charter counties.\nThis proposed amendment would extend generally accepted standards for\nrepresentation to all the people of New York.\n\n \nLEGISLATIVE HISTORY:\n\nA.426b reported to rules in 2019 and advanced to third reading cal.399\nin 2020 / Same as S.4611a, advanced to third reading and committed to\nrules in 2019 and referred to local government in 2020.\n\nA.446 of 2017 and 2018, A.1408 of 2015 and 2016,referred to local\ngovernments. referred to local governments.\n\nA.501of 2013and 2014,referred to local governments. A.142of 2011and\n2012,referred to local governments.\n\nA.782of 2009 and 2010,referred to local governments. A.1017 of 2007 and\n2008,referred to local governments.\n\nA.1773 of 2005 and 2006 referred to local governments. A.5008 of 2004\nrecommitted to local governments.\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5160",
+    "publishDate": "2021-02-25",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "MHR10",
+        "MHR34"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the municipal home rule law, in relation to the division of a\ncounty into districts for the apportionment of members of its local\nlegislative body",
+    "basePrintNo": "S5160",
+    "basePrintNoStr": "S5160-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§34 & 10, Munic Home R L",
+    "lawSection": "Municipal Home Rule Law",
+    "memo": "\n \nBILL NUMBER: S5160A\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the municipal home rule law, in relation to the division\nof a county into districts for the apportionment of members of its local\nlegislative body\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo provide that no county shall supersede any state law which relates to\nthe division of any county into districts for the purposes of apportion-\nment\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends section 34 of the municipal home rule law by adding a\nnew subdivision 4 which provides that notwithstanding any local law to\nthe contrary, any plan of districting or redistricting adopted pursuant\nto a county charter or charter law relating to the division of any coun-\nty, except a county wholly contained within a city, into districts for\nthe purpose of the apportionment or reapportionment of members of its\nlocal legislative body shall be subjected to federal and state constitu-\ntional requirements and shall comply with the following standards, which\nshall have priority in the order herein set forth, to the extent appli-\ncable:\n\na. If such plan of districting or redistricting includes only single-\nmember districts, such districts shall be as nearly equal in population\nas is practicable; the difference in population between the most and\nleast populous district shall not exceed five percent of the mean popu-\nlation of all districts. If such plan of districting or redistricting\nincludes multi-member districts, the plan shall provide substantially\nequal weight for the population of that county in the allocation of\nrepresentation in the legislative body of that county; and\n\nb. Districts shall not be drawn with the intent or result of denying or\nabridging the equal opportunity of racial or language minority groups to\nparticipate in the political process or to diminish their ability to\nelect representatives of their choice; and\n\nc. Districts shall consist of contiguous territory; and\n\nd. Districts shall be as compact in form as practicable; and\n\ne. To the extent practicable, districts shall unite communities defined\nby actual shared interests, taking account of geographic, social,\neconomic, and other factors that indicate commonality of interest; and\n\nf. Districts shall not be drawn to discourage competition or for the\npurpose of favoring or disfavoring incumbents or other particular candi-\ndates or political parties. The maintenance of cores of existing\ndistricts, of preexisting political subdivisions including cities,\nvillages, and towns, and of communities of interest shall also be\nconsidered. To the extent practicable, no villages, cities or towns\nexcept those having more than forty percent of a full ratio for each\ndistrict shall be divided; and\n\ng. Districts shall be formed so as to promote the orderly and efficient\nadministration of elections.\n\nSection two amends subparagraph 13 of paragraph a of subdivision 1 of\nsection 10 of the municipal home rule law to mirror new subdivision 4 of\nsection 34 of the municipal home rule law as described above and to make\nother conforming changes.\n\nSection three provides the effective date.\n\n \nJUSTIFICATION:\n\nThe Municipal Home Rule Law (MHRL) contains specific guidelines for\ncounty redistricting. The guidelines include a directive that counties\nshould follow political subdivision lines to the extent applicable\nduring redistricting.\n\nIn 1991, a county League of Women Voters challenged their county's\nlegislative redistricting in State Supreme Court on the ground that it\nignored the state guidelines. The Court ruled that the county was immune\nfrom the directives of MHRL, a finding that was upheld in the Appellate\nDivision. It stated that the county \"operates under a charter form of\ngovernment and its reapportionment plans are adopted pursuant to its\ncharter, not Municipal Home Rule Law Sec 10 (1)(a)(13)(a        ).\"\nAccoringly, charter counties are not legally required to follow the\nState redistricting standards set forth in MHRL.  Following that court\ndecision, the county League worked unsuccessfully for a charter amend-\nment that would incorporate guidelines for protecting political subdivi-\nsion lines. In the face of that county's failure to exercise its own\npower to establish fair redistricting guidelines, the State should\nextend the reach of the MHRL guidelines on redistricting to cover char-\nter counties so that statutory provisions for electoral procedures would\nbe uniformly applied in New York State.\n\nIn the years since this bill was originally introduced in 2002, the\nconsensus on which standards should govern redistricting has evolved.\nThis bill updates the provisions of MHRL Sec 10(1)(a)(13)(a) and applies\nthose provisions to charter counties by adding identical provisions to\nSection 34 of MHRL, which covers charter counties.  Several of the stan-\ndards included in this bill were part of the 2014 amendment to the New\nYork State Constitution, which applied redistricting standards to the\ndrawing of congressional and state legislative districts. By adding\nthese standards to MHRL, they would also apply to the drawing of county\nlegislative districts.  The changes set forth in this bill will extend\ngenerally accepted standards for representation to all the people of New\nYork.\n\n \nLEGISLATIVE HISTORY:\n\nA.426b reported to rules in 2019 and advanced to third reading cal.399\nin 2020 / Same as S.4611a, advanced to third reading and committed to\nrules in 2019 and referred to local government in 2020.\n\nA.446 of 2017 and 2018, referred to local governments.\n\nA.1408 of 2015 and 2016, referred to local governments.\n\nA.501 of 2013 and 2014, referred to local governments.\nA.142 of 2011 and 2012,referred to local governments.\n\nA.782 of 2009 and 2010, referred to local governments.\n\nA.1017 of 2007 and 2008, referred to local governments.\n\nA.1773 of 2005 and 2006, referred to local governments.\n\nA.5008 of 2003 and 2004, recommitted to local governments.\n\nA.10698 of 2002, referred to local governments.\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5160A",
+    "publishDate": "2021-05-21",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "MHR10",
+        "MHR34"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A229",
+       "basePrintNoStr": "A229-2021",
+       "printNo": "A229B",
+       "session": 2021,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the municipal home rule law, in relation to the division of a\ncounty into districts for the apportionment of members of its local\nlegislative body",
+    "basePrintNo": "S5160",
+    "basePrintNoStr": "S5160-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§34 & 10, Munic Home R L",
+    "lawSection": "Municipal Home Rule Law",
+    "memo": "\n \nBILL NUMBER: S5160B       REVISED 05/26/2021\n\nSPONSOR: SKOUFIS\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo provide that no county shall supersede any state law which relates to\nthe division of any county into districts for the purposes of apportion-\nment\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends section 34 of the municipal home rule law by adding a\nnew subdivision 4 which provides that notwithstanding any local law to\nthe contrary, any plan of districting or redistricting adopted pursuant\nto a county charter or charter law relating to the division of any coun-\nty, except a county wholly contained within a city, into districts for\nthe purpose of the apportionment or reapportionment of members of its\nlocal legislative body shall be subjected to federal and state constitu-\ntional requirements and shall comply with the following standards, which\nshall have priority in the order herein set forth, to the extent appli-\ncable:\n\na. If such plan of districting or redistricting includes only single-\nmember districts, such districts shall be as nearly equal in population\nas is practicable; the difference in population between the most and\nleast populous district shall not exceed five percent of the mean popu-\nlation of all districts. If such plan of districting or redistricting\nincludes multi-member districts, the plan shall provide substantially\nequal weight for the population of that county in the allocation of\nrepresentation in the legislative body of that county; and\n\nb. Districts shall not be drawn with the intent or result of denying or\nabridging the equal opportunity of racial or language minority groups to\nparticipate in the political process or to diminish their ability to\nelect representatives of their choice; and\n\nc. Districts shall consist of contiguous territory; and\n\nd. Districts shall be as compact in form as practicable; and\n\ne. Districts shall not be drawn to discourage competition or for the\npurpose of favoring or disfavoring incumbents or other particular candi-\ndates or political parties. The maintenance of cores of existing\ndistricts, of preexisting political subdivisions including cities,\nvillages, and towns, and of communities of interest shall also be\nconsidered. To the extent practicable, no villages, cities or towns\nexcept those having more than forty percent of a full ratio for each\ndistrict shall be divided; and\n\nf. Districts shall be formed so as to promote the orderly and efficient\nadministration of elections.\n\nSection two amends subparagraph 13 of paragraph a of subdivision 1 of\nsection 10 of the municipal home rule law to mirror new subdivision 4 of\nsection 34 of the municipal home rule law as described above and to make\nother conforming changes.\n\nSection three provides the effective date.\n\n \nJUSTIFICATION:\n\nThe Municipal Home Rule Law (MHRL) contains specific guidelines for\ncounty redistricting. The guidelines include a directive that counties\nshould follow political subdivision lines to the extent applicable\nduring redistricting.\n\nIn 1991, a county League of Women Voters challenged their county's\nlegislative redistricting in State Supreme Court on the ground that it\nignored the state guidelines. The Court ruled that the county was immune\nfrom the directives of MHRL, a finding that was upheld in the Appellate\nDivision. It stated that the county \"operates under a charter form of\ngovernment and its reapportionment plans are adopted pursuant to its\ncharter, not Municipal Home Rule Law Sec 10(1)(a)(13)(a).\" Accordingly,\ncharter counties are not legally required to follow the State redis-\ntricting standards set forth in MHRL. The State should extend the reach\nof the MHRL guidelines on redistricting to cover charter counties so\nthat statutory provisions for electoral procedures would be uniformly\napplied in New York State.\n\nIn the years since this bill was originally introduced in 2002, the\nconsensus on which standards should govern redistricting has evolved.\nThis bill updates the provisions of MHRL Sec 10(1)(a)(13)(a) and applies\nthose provisions to charter counties by adding identical provisions to\nSection 34 of MHRL, which covers charter counties.  Several of the stan-\ndards included in this bill were part of the 2014 amendment to the New\nYork State Constitution, which applied redistricting standards to the\ndrawing of congressional and state legislative districts. By adding\nthese standards to MHRL, they would also apply to the drawing of county\nlegislative districts. The changes set forth in this bill will extend\ngenerally accepted standards for representation to all the people of New\nYork.\n\n \nLEGISLATIVE HISTORY:\n\nA.426b reported to rules in 2019 and advanced to third reading cal.399\nin 2020 / Same as S.4611a, advanced to third reading and committed to\nrules in 2019 and referred to local government in 2020.\n\nA.446 of 2017 and 2018, referred to local governments.\n\nA.1408 of 2015 and 2016,referred to local governments.\n\nA.501 of 2013 and 2014,referred to local governments.\n\nA.142 of 2011 and 2012,referred to local governments.\n\nA.782 of 2009 and 2010,referred to local governments.\n\nA.1017 of 2007 and 2008,referred to local governments.\n\nA.1773 of 2005 and 2006,referred to local governments.\n\nA.5008 of 2003 and 2004,recommitted to local governments.\n\nA.10698 of 2002, referred to local governments.\n\n \nFISCAL IMPLICATIONS:\nNone.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5160B",
+    "publishDate": "2021-05-25",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "MHR10",
+        "MHR34"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A229",
+       "basePrintNoStr": "A229-2021",
+       "printNo": "A229C",
+       "session": 2021,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5160",
+ "basePrintNoStr": "S5160-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2021
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-06-02",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-06-02",
+    "billCalNo": 1448,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2021-02-25T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2021-05-21T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2021-05-25T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2021-06-02T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5160B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-02-25T14:03:31.524260",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-05-21T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2021-05-25T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2021-02-25T14:03:31.52426",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "James Skoufis",
+   "imgName": "672_james_skoufis.jpg",
+   "incumbent": true,
+   "memberId": 1232,
+   "sessionMemberId": 1839,
+   "sessionYear": 2021,
+   "shortName": "SKOUFIS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-06-02",
+  "billCalNo": 1448,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A229",
+  "basePrintNoStr": "A229-2021",
+  "session": 2021
+ },
+ "summary": "Provides that any plan of districting or redistricting relating to the division of a county, except a county wholly contained within a city, into districts for the purpose of apportionment or reapportionment of members of its local legislative body shall be subject to federal and state constitutional requirements; provides for standards to be followed for such plan.",
+ "title": "Provides no county shall supersede any state law which relates to the division of any county into districts for the purpose of apportionment",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5160",
+     "basePrintNoStr": "S5160-2021",
+     "printNo": "S5160B",
+     "session": 2021,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 1795,
+         "sessionYear": 2021,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1802,
+         "sessionYear": 2021,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1804,
+         "sessionYear": 2021,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1808,
+         "sessionYear": 2021,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1819,
+         "sessionYear": 2021,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1820,
+         "sessionYear": 2021,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 1824,
+         "sessionYear": 2021,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1835,
+         "sessionYear": 2021,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1841,
+         "sessionYear": 2021,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 14
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1821,
+         "sessionYear": 2021,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        }
+       ],
+       "size": 2
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 1827,
+         "sessionYear": 2021,
+         "shortName": "ORTT"
+        }
+       ],
+       "size": 5
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2021-06-02",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

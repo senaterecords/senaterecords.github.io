@@ -1,0 +1,562 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5861",
+     "basePrintNoStr": "S5861-2015",
+     "printNo": "S5861",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5861",
+     "basePrintNoStr": "S5861-2015",
+     "printNo": "S5861",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-17",
+    "sequenceNo": 2,
+    "text": "ORDERED TO THIRD READING CAL.1731"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5861",
+     "basePrintNoStr": "S5861-2015",
+     "printNo": "S5861",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-17",
+    "sequenceNo": 3,
+    "text": "SUBSTITUTED BY A5651A"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public authorities law, in relation to the powers of the Ogdensburg bridge authority and the Ogdensburg port authority",
+    "basePrintNo": "S5861",
+    "basePrintNoStr": "S5861-2015",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§706 & 1379, Pub Auth L",
+    "lawSection": "Public Authorities Law",
+    "memo": " BILL NUMBER:  S5861\n\n TITLE OF BILL :  An act to amend the public authorities law, in\nrelation to the powers of the Ogdensburg bridge authority and the\nOgdensburg port authority\n\n PURPOSE :\n\nThe purpose of this bill is to amend the public authorities law in\nrelation to the powers of the Ogdensburg Bridge and Port Authority and\ntheir ability to bond.\n\n SUMMARY OF PROVISIONS :\n\nSections 1 and 2 of the bill amend section 706 and section 1379 of the\npublic authorities law regarding the bonding authority of the\nOgdensburg Bridge and Port Authority.\n\nSection 3 of the bill provides the effective date.\n\n EXISTING LAW :\n\nThe Ogdensburg Bridge and Port Authority as authorized by law has not\nhad its authority updated in more than forty years. The law is\noutdated and needs to be amended to reflect the current activities of\nthe Authority.\n\n JUSTIFICATION :\n\nThe Ogdensburg Bridge and Port Authority is an economic driver and\nleader in the North Country, successfully seeking out grant funding\nand gaining the ability to bond. It owns and operates many important\npublic assets in Northern New York including: the Ogdensburg-Prescott\nInternational Bridge, the Port of Ogdensburg, the New York and\nOgdensburg Railway, the Ogdensburg International Airport, and two\nindustrial parks. These facilities require regular maintenance to\nremain in their best condition.\n\nIt is the responsibility of the Authority to conduct such maintenance\nand ensure the upkeep of all their facilities. However, the current\nbonding language of the Authority contained in the Public Authorities\nLaw is out of date and needs to be updated. Therefore, at the request\nof the Authority, this legislation is being offered.\n\nThe Authority continues to look for various ways to move forward with\npriority projects. Updating and clarifying the law governing the\nauthority will allow it to continue to do its work successfully, and\ncan undertake necessary capital improvement projects.\n\n LEGISLATIVE HISTORY :\n\nThis is a new bill.\n\n FISCAL IMPLICATIONS :\n\nNone to the state. It will help the Ogdensburg Bridge and Port\nAuthority to carry on its mission.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5861",
+    "publishDate": "2015-06-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5651",
+       "basePrintNoStr": "A5651-2015",
+       "printNo": "A5651A",
+       "session": 2015,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5861",
+ "basePrintNoStr": "S5861-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2015
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2015
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2015-06-09",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2015-06-17",
+    "billCalNo": 1731,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2015-06-09T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5861",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-06-09T11:56:31",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2015-06-09T11:56:31",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 48,
+   "fullName": "Patty Ritchie",
+   "imgName": "423_patty_ritchie.jpg",
+   "incumbent": false,
+   "memberId": 423,
+   "sessionMemberId": 701,
+   "sessionYear": 2015,
+   "shortName": "RITCHIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2015-06-17",
+  "billCalNo": 1731,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5651",
+  "basePrintNoStr": "A5651-2015",
+  "session": 2015
+ },
+ "summary": "Relates to the powers of the Ogdensburg bridge authority and the Ogdensburg port authority with regard to the Ogdensburg International Airport.",
+ "title": "Relates to the powers of the Ogdensburg bridge authority and the Ogdensburg port authority",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5861",
+     "basePrintNoStr": "S5861-2015",
+     "printNo": "S5861",
+     "session": 2015,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 729,
+         "sessionYear": 2015,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 727,
+         "sessionYear": 2015,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 721,
+         "sessionYear": 2015,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 722,
+         "sessionYear": 2015,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 718,
+         "sessionYear": 2015,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 853,
+         "sessionYear": 2015,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 878,
+         "sessionYear": 2015,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 706,
+         "sessionYear": 2015,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 871,
+         "sessionYear": 2015,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 693,
+         "sessionYear": 2015,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 707,
+         "sessionYear": 2015,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 698,
+         "sessionYear": 2015,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 694,
+         "sessionYear": 2015,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 854,
+         "sessionYear": 2015,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 856,
+         "sessionYear": 2015,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 703,
+         "sessionYear": 2015,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 711,
+         "sessionYear": 2015,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 852,
+         "sessionYear": 2015,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 713,
+         "sessionYear": 2015,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 708,
+         "sessionYear": 2015,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 704,
+         "sessionYear": 2015,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 877,
+         "sessionYear": 2015,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 728,
+         "sessionYear": 2015,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 725,
+         "sessionYear": 2015,
+         "shortName": "VALESKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 855,
+         "sessionYear": 2015,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 25
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2015-06-17",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

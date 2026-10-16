@@ -1,0 +1,207 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6142",
+     "basePrintNoStr": "S6142-2009",
+     "printNo": "S6142",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-08-28",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6142",
+     "basePrintNoStr": "S6142-2009",
+     "printNo": "S6142",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6142",
+     "basePrintNoStr": "S6142-2009",
+     "printNo": "S6142",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-04",
+    "sequenceNo": 3,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to allowing the use of rifles for hunting in Ontario county",
+    "basePrintNo": "S6142",
+    "basePrintNoStr": "S6142-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §11-0907, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " BILL NUMBER:  S6142\n\n TITLE OF BILL :\nAn act to amend the environmental conservation law, in relation to\nallowing the use of rifles for hunting in Ontario county\n\n PURPOSE :\nThis bill would serve as a chapter amendment to legislative bills\nnumbered A.7581-A and S.6057 of 2009 that when signed into law would\nallow the hunting of deer and bear through the use of a rifle in\nOntario County by restricting same to the area within the county south\nof NYS Route 20.\n\n JUSTIFICATION :\nLegislative bills A.7581-A and 5.6057 were passed by the Assembly and\nthe Senate at the request of Ontario County that it be included in\nthose areas where sportsmen and women are able to hunt deer and bear\nwith rifles. Unfortunately, the legislation omitted the qualifying\nlanguage \"south of NYS Route 20\" which was specifically referenced by\nthe county and specifically referenced in the sponsors memoranda of\nthe original bills. This chapter amendment would cure that omission\nand restrict rifle hunting to the more rural areas of Ontario County.\n\n LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6142",
+    "publishDate": "2009-08-28",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9123",
+       "basePrintNoStr": "A9123-2009",
+       "printNo": "A9123",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6142",
+ "basePrintNoStr": "S6142-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-08-28T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6142",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-08-28T15:29:16",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-08-28T15:29:16",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 59,
+   "fullName": "Dale M. Volker",
+   "imgName": "Dale M. Volker.jpg",
+   "incumbent": false,
+   "memberId": 452,
+   "sessionMemberId": 57,
+   "sessionYear": 2009,
+   "shortName": "VOLKER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-03-04",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Allows the use of rifles for hunting in Ontario county; provides for the repeal of such provisions.",
+ "title": "Allows the use of rifles for hunting in Ontario county; and providing for the repeal of such provisions",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

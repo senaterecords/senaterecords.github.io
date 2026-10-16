@@ -1,0 +1,963 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-19",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-19",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-19",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 6000A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-14",
+    "sequenceNo": 5,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-16",
+    "sequenceNo": 6,
+    "text": "ORDERED TO THIRD READING CAL.981"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-16",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A9018A"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the executive law, in relation to prohibiting employers from discriminating against victims of domestic violence",
+    "basePrintNo": "S6000",
+    "basePrintNoStr": "S6000-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 14,
+       "sessionYear": 2009,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 16,
+       "sessionYear": 2009,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 18,
+       "sessionYear": 2009,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 21,
+       "sessionYear": 2009,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 1,
+       "sessionYear": 2009,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 30,
+       "sessionYear": 2009,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Dale M. Volker",
+       "imgName": "Dale M. Volker.jpg",
+       "incumbent": false,
+       "memberId": 452,
+       "sessionMemberId": 57,
+       "sessionYear": 2009,
+       "shortName": "VOLKER"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§292 & 296, Exec L",
+    "lawSection": "Executive Law",
+    "memo": " BILL NUMBER:  S6000\n\n TITLE OF BILL :\n\nAn act to amend the executive law, in relation to prohibiting\nemployers from discriminating against victims of domestic violence\n\n\n PURPOSE :\n\nThis bill would prohibit discrimination against victims of domestic\nviolence in employment and provide a limited reasonable accommodation\nprovision.\n\n SUMMARY OF PROVISIONS :\n\nSection 1 of the bill would amend Executive Law § 292 by adding a new\nsubdivision 34 to define the term \"victim of domestic violence.\"\n\nSection 2 of the bill would amend Executive Law § 296 by adding a new\nsubdivision 20 to: (1) prohibit discrimination in employment on the\nbasis of an employee's status as a victim of domestic violence; (2)\nrequire an employer, unless it would be an undue hardship, to provide\na reasonable accommodation to a victim of domestic violence, limited\nsolely to allowing an absence, charged to leave or unpaid, for certain\nactivities set forth in the subdivision; and (3) require an employee\nwho must be absent from work pursuant to this section to provide\nreasonable advance notice, except where such notice is not feasible.\n\nSection 3 of the bill would provide that it will become effective 90\ndays after enactment.\n\n EXISTING LAW :\n\nExecutive Law § 292 defines terms used in the Human Rights Law.\n\nExecutive Law § 296 sets forth unlawful discriminatory practices in\nemployment, housing, places of public accommodation, and other areas.\n\n JUSTIFICATION :\n\nDomestic violence is a crime of enormous magnitude that affects all\nNew Yorkers regardless of age, race, or economic status-with long term\nand pervasive consequences for victims, families, communities and\nsociety. Each year, an estimated 400,000 domestic violence incidents\nare reported to law enforcement in New York, and approximately 300,000\ncalls are received by hotlines throughout the State. Nearly 165,000\norders of protection were issued in domestic violence cases in family,\ncriminal and supreme courts in 2007 alone.\n\nIn New York and around the nation, several high profile domestic\nviolence cases have renewed focus on the effects of domestic violence\non its victims, children and our communities.  In addition, some\nstudies have indicated an increased risk of abusive conduct during\ndifficult financial times. The stresses of an economic downturn might\nalso make it more difficult for victims of domestic violence to take\nthe steps they need to get and stay safe.\n\nWhile New York vigorously responds to domestic violence, with over 550\npolice departments, 200 emergency rooms, 150 domestic violence service\nproviders, 99 domestic violence hotlines and 1,000 specialized courts,\nimprovements can be made to hold offenders accountable, support\nvictims of domestic violence and protect our children from exposure to\nand involvement in domestic violence situations. This bill will\nimplement legislative changes that will strengthen New York's support\nfor victims and their children.\nStable housing and employment are often the most important resources a\ndomestic violence victim needs in order to stay safe. It can be\ndifficult for victims to obtain and maintain employment due to the\nstresses of domestic violence, the abuser's interference with the\nvictim's ability to perform in the workplace or the need to access\nservices that are necessary for safety.  By including victims of\ndomestic violence as a protected class in the employment provisions of\nthe Human Rights Law, the State will ensure that victims will not be\nprevented from obtaining or maintaining employment merely as a result\nof their status as victims of domestic violence.\n\nThe bill would allow employees a reasonable accommodation in taking\ntime off to, for example, seek medical attention or counseling or\nappear in court on matters related to incidents of domestic violence,\nincluding child protective proceedings, unless time off would\nconstitute an undue hardship for the employer. Employers would have\nthe option of requiring that employees charge this time to accumulated\nleave credits Of, where such leave credits are unavailable, take\nunpaid leave.\n\n BUDGETARY IMPLICATIONS :\n\nThis bill is not expected to have a material impact on State finances.\n\n EFFECTIVE DATE :\nThis bill would take effect ninety days after it becomes a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6000",
+    "publishDate": "2009-06-19",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the executive law, in relation to prohibiting employers from discriminating against victims of domestic violence; and to repeal certain provisions of law relating thereto",
+    "basePrintNo": "S6000",
+    "basePrintNoStr": "S6000-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 14,
+       "sessionYear": 2009,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 16,
+       "sessionYear": 2009,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 18,
+       "sessionYear": 2009,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Pedro Espada Jr.",
+       "imgName": "Pedro Espada Jr.jpg",
+       "incumbent": false,
+       "memberId": 442,
+       "sessionMemberId": 9,
+       "sessionYear": 2009,
+       "shortName": "ESPADA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 21,
+       "sessionYear": 2009,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 1,
+       "sessionYear": 2009,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 30,
+       "sessionYear": 2009,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Dale M. Volker",
+       "imgName": "Dale M. Volker.jpg",
+       "incumbent": false,
+       "memberId": 452,
+       "sessionMemberId": 57,
+       "sessionYear": 2009,
+       "shortName": "VOLKER"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§292 & 296, Exec L",
+    "lawSection": "Executive Law",
+    "memo": " BILL NUMBER:  S6000A\n\n TITLE OF BILL :\n\nAn act to amend the executive law, in relation to prohibiting\nemployers from discriminating against victims of domestic violence;\nand to repeal certain provisions of law relating thereto\n\n\n PURPOSE :\n\nThis bill would prohibit discrimination against victims of domestic\nviolence in employment and provide a limited reasonable accommodation\nprovision.\n\n SUMMARY OF PROVISIONS :\n\nSection 1 of the bill would amend Executive Law § 292 by adding a new\nsubdivision 34 to define the term \"victim of domestic violence.\"\n\nSection 2 of the bill would amend Executive Law § 296 by adding a new\nsubdivision 20 to: (1) prohibit discrimination in employment on the\nbasis of an employee's status as a victim of domestic violence; (2)\nrequire an employer, unless it would be an undue hardship, to provide\na reasonable accommodation to a victim of domestic violence, limited\nsolely to allowing an absence, charged to leave or unpaid, for certain\nactivities set forth in the subdivision; and (3) require an employee\nwho must be absent from work pursuant to this section to provide\nreasonable advance notice, except where such notice is not feasible.\n\nSection 3 of the bill would provide that it will become effective 90\ndays after enactment.\n\n EXISTING LAW :\n\nExecutive Law § 292 defines terms used in the Human Rights Law.\n\nExecutive Law § 296 sets forth unlawful discriminatory practices in\nemployment, housing, places of public accommodation, and other areas.\n\n JUSTIFICATION :\n\nDomestic violence is a crime of enormous magnitude that affects all\nNew Yorkers regardless of age, race, or economic status-with long term\nand pervasive consequences for victims, families, communities and\nsociety. Each year, an estimated 400,000 domestic violence incidents\nare reported to law enforcement in New York, and approximately 300,000\ncalls are received by hotlines throughout the State. Nearly 165,000\norders of protection were issued in domestic violence cases in family,\ncriminal and supreme courts in 2007 alone.\n\nIn New York and around the nation, several high profile domestic\nviolence cases have renewed focus on the effects of domestic violence\non its victims, children and our communities.  In addition, some\nstudies have indicated an increased risk of abusive conduct during\ndifficult financial times. The stresses of an economic downturn might\nalso make it more difficult for victims of domestic violence to take\nthe steps they need to get and stay safe.\n\nWhile New York vigorously responds to domestic violence, with over 550\npolice departments, 200 emergency rooms, 150 domestic violence service\nproviders, 99 domestic violence hotlines and 1,000 specialized courts,\nimprovements can be made to hold offenders accountable, support\nvictims of domestic violence and protect our children from exposure to\nand involvement in domestic violence situations. This bill will\n\nimplement legislative changes that will strengthen New York's support\nfor victims and their children.\n\nStable housing and employment are often the most important resources a\ndomestic violence victim needs in order to stay safe. It can be\ndifficult for victims to obtain and maintain employment due to the\nstresses of domestic violence, the abuser's interference with the\nvictim's ability to perform in the workplace or the need to access\nservices that are necessary for safety.  By including victims of\ndomestic violence as a protected class in the employment provisions of\nthe Human Rights Law, the State will ensure that victims will not be\nprevented from obtaining or maintaining employment merely as a result\nof their status as victims of domestic violence.\n\nThe bill would allow employees a reasonable accommodation in taking\ntime off to, for example, seek medical attention or counseling or\nappear in court on matters related to incidents of domestic violence,\nincluding child protective proceedings, unless time off would\nconstitute an undue hardship for the employer. Employers would have\nthe option of requiring that employees charge this time to accumulated\nleave credits Of, where such leave credits are unavailable, take\nunpaid leave.\n\n BUDGETARY IMPLICATIONS :\n\nThis bill is not expected to have a material impact on State finances.\n\n EFFECTIVE DATE :\nThis bill would take effect ninety days after it becomes a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6000A",
+    "publishDate": "2010-03-19",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9018",
+       "basePrintNoStr": "A9018-2009",
+       "printNo": "A9018A",
+       "session": 2009,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6000",
+ "basePrintNoStr": "S6000-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 64,
+    "year": 2010
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 21,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-06-14",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-16",
+    "billCalNo": 981,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2010-03-19T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-06-19T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2010-06-14T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6000A",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 60
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-06-19T18:54:57",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2010-03-19T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2009-06-19T18:54:57",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 36,
+   "fullName": "Ruth Hassell-Thompson",
+   "imgName": "380_ruth_hassell-thompson.jpg",
+   "incumbent": false,
+   "memberId": 380,
+   "sessionMemberId": 12,
+   "sessionYear": 2009,
+   "shortName": "HASSELL-THOMPSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-16",
+  "billCalNo": 981,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9018",
+  "basePrintNoStr": "A9018-2009",
+  "session": 2009
+ },
+ "summary": "Defines \"victim of domestic violence\"; prohibits employers from discriminating against victims of domestic violence.",
+ "title": "Relates to domestic violence; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6000",
+     "basePrintNoStr": "S6000-2009",
+     "printNo": "S6000A",
+     "session": 2009,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 56,
+         "sessionYear": 2009,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 18,
+         "sessionYear": 2009,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Pedro Espada Jr.",
+         "imgName": "Pedro Espada Jr.jpg",
+         "incumbent": false,
+         "memberId": 442,
+         "sessionMemberId": 9,
+         "sessionYear": 2009,
+         "shortName": "ESPADA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 12,
+         "sessionYear": 2009,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 61,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON O"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 21,
+         "sessionYear": 2009,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 31,
+         "sessionYear": 2009,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 6,
+         "sessionYear": 2009,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 13,
+         "sessionYear": 2009,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Frank Padavan",
+         "imgName": "Frank Padavan.jpg",
+         "incumbent": false,
+         "memberId": 445,
+         "sessionMemberId": 22,
+         "sessionYear": 2009,
+         "shortName": "PADAVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 46,
+         "sessionYear": 2009,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 5,
+         "sessionYear": 2009,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 3,
+         "sessionYear": 2009,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 35,
+         "sessionYear": 2009,
+         "shortName": "SMITH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "William T. Stachowski",
+         "imgName": "William T. Stachowski.jpg",
+         "incumbent": false,
+         "memberId": 453,
+         "sessionMemberId": 59,
+         "sessionYear": 2009,
+         "shortName": "STACHOWSKI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 17
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 48,
+         "sessionYear": 2009,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 54,
+         "sessionYear": 2009,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 49,
+         "sessionYear": 2009,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 32,
+         "sessionYear": 2009,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 60,
+         "sessionYear": 2009,
+         "shortName": "SKELOS"
+        }
+       ],
+       "size": 5
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Dale M. Volker",
+         "imgName": "Dale M. Volker.jpg",
+         "incumbent": false,
+         "memberId": 452,
+         "sessionMemberId": 57,
+         "sessionYear": 2009,
+         "shortName": "VOLKER"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2010-06-16",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

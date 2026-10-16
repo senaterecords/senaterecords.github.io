@@ -1,0 +1,257 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3529",
+     "basePrintNoStr": "S3529-2025",
+     "printNo": "S3529",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-01-28",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3529",
+     "basePrintNoStr": "S3529-2025",
+     "printNo": "S3529",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-07",
+    "sequenceNo": 2,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the village law, in relation to volunteer members of village\nfire companies",
+    "basePrintNo": "S3529",
+    "basePrintNoStr": "S3529-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2374,
+       "sessionYear": 2025,
+       "shortName": "BORRELLO"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §10-1006, Vil L",
+    "lawSection": "Village Law",
+    "memo": " \nBILL NUMBER: S3529\n\nSPONSOR: ORTT\n \nTITLE OF BILL:\n\nAn act to amend the village law, in relation to volunteer members of\nvillage fire companies\n\n \nPURPOSE:\n\nThis bill allows a village board of trustees to adopt a local law to\nallow the percentage of nonresident volunteer members in a village fire\n1 company to exceed forty-five percent of the actual membership of the\nfire company.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subdivision 14 of section 10-1006 of the village taw to\ngive the village board of trustees discretion to pass a local law that\nchanges, amends, or supersedes subdivision seven which forbids the\npercentage of non-resident volunteer members in village fire companies\nto exceed forty-five percent of the actual membership of the fire compa-\nny.\n\nSection 2 states that this law shall take effect immediately.\n\n \nJUSTIFICATION:\n\nCurrently, village law forbids the percentage of nonresident volunteer\nmembers in village fire companies to exceed forty-five percent of the\nactual membership of the fire company. This negatively impacts village\nfire companies by making it more difficult to fill their total member-\nship and leaving fire companies with vacancies which could be filled by\nthe membership of non-resident volunteer firefighters. This bill allows\na village board of trustees to pass a local law allowing the percentage\nof non-resident volunteer members to exceed forty-five percent of the\nactual membership of the village fire company. This will help village\nfire companies obtain greater membership and keep our communities safe.\n\n \nLEGISLATIVE HISTORY:\n\nS6217/A2116 - Referred to Local Government\n\nS1724 - 05/10/22 held for consideration in local governments\n\nS604 - 7/16/20 held for consideration in local governments\n\nS1985 - 1/3/18 referred to local government\n\nS535 - 1/6/16 referred to local government\n\nS6369 - 1/21/14 referred to local government\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3529",
+    "publishDate": "2025-01-28",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "VIL10-1006"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9421",
+       "basePrintNoStr": "A9421-2025",
+       "printNo": "A9421",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3529",
+ "basePrintNoStr": "S3529-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-01-07",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2025-01-28T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6217",
+    "basePrintNoStr": "S6217-2023",
+    "printNo": "S6217",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S1724",
+    "basePrintNoStr": "S1724-2021",
+    "printNo": "S1724",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S604",
+    "basePrintNoStr": "S604-2019",
+    "printNo": "S604",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S1985",
+    "basePrintNoStr": "S1985-2017",
+    "printNo": "S1985",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S535",
+    "basePrintNoStr": "S535-2015",
+    "printNo": "S535",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S6369",
+    "basePrintNoStr": "S6369-2013",
+    "printNo": "S6369",
+    "session": 2013,
+    "version": ""
+   }
+  ],
+  "size": 6
+ },
+ "printNo": "S3529",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-01-28T10:47:15.656574",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2025-01-28T10:47:15.656574",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 62,
+   "fullName": "Robert Ortt",
+   "imgName": "885_robert_ortt.jpg",
+   "incumbent": true,
+   "memberId": 885,
+   "sessionMemberId": 2379,
+   "sessionYear": 2025,
+   "shortName": "ORTT"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-01-07",
+  "billCalNo": null,
+  "committeeName": "Local Government",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to volunteer members of village fire companies.",
+ "title": "Relates to volunteer members of village fire companies",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

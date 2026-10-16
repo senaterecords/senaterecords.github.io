@@ -1,0 +1,206 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7609",
+     "basePrintNoStr": "S7609-2021",
+     "printNo": "S7609",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-12-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7609",
+     "basePrintNoStr": "S7609-2021",
+     "printNo": "S7609",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO BANKS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the banking law, in relation to prohibiting bank investments\nin bad faith landlords",
+    "basePrintNo": "S7609",
+    "basePrintNoStr": "S7609-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §13, Bank L",
+    "lawSection": "Banking Law",
+    "memo": " \nBILL NUMBER: S7609\n\nSPONSOR: HOYLMAN\n \nTITLE OF BILL:\n\nAn act to amend the banking law, in relation to prohibiting bank invest-\nments in bad faith landlords\n\n \nPURPOSE::\n\nTo prevent landlords convicted of fraud or violating laws from receiving\nfinancing from state-chartered banks.\n\n \nSUMMARY OF PROVISIONS::\n\n  Section  one prevents state chartered banking institution from provid-\ning financing or investing in any person or business entity  engaged  in\nleasing  residential  real  estate  if  the  person  or  entity has been\nconvicted of illegal conduct against a tenant,  convicted  of  financial\nfraud  or embezzlement, or has entered into certain consent decrees with\nthe office of the attorney general.\n\n  Section two establishes the effective date.\n\n\n \nJUSTIFICATION::\n\nWhen a landlord is found time and again to  disregard  housing  law  and\ntarget  tenants  with  harassment,  it is reasonable to expect financial\ninstitutions to analyze this record when considering  future  financing.\nCertain  bad actors have been convicted of illegal harassment, coercion,\nor fraud against tenants, only to turn around and get  financing  for  a\nnew building to exploit.\n\nPerhaps  the  most  notorious  example of this phenomenon has been Steve\nCroman, the New York City landlord who in 2017 was sentenced to one year\nof jail time and ordered to pay $8 million in restitution to tenants for\nhis crimes. A consent decree required that Croman place over 100 of  his\nproperties  under new independent management, with a monitor in place to\noversee compliance. However, after his stint in  jail,  Croman  returned\nonly  to  go on a buying spree of new buildings.  Despite his past legal\ntroubles, tenants report a  landlord  that  continues  old  patterns  of\nharassment and neglect.\n\nThis  bill  would help address the lack of accountability by prohibiting\nState chartered banks from issuing loans to  landlords  that  have  been\nconvicted  of  violating housing laws. Bad actors that act with impunity\nshould not be given the chance to continue victimizing New Yorkers.\n\n \nLEGISLATIVE HISTORY::\n\nNew bill.\n\n \nFISCAL IMPLICATIONS::\n\nNone.\n\n \nEFFECTIVE DATE::\n\nThis act shall take effect immediately.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7609",
+    "publishDate": "2021-12-17",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "BNK13"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7609",
+ "basePrintNoStr": "S7609-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Banks",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Banks",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2021-12-17T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7609",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-12-17T09:46:03.559969",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-12-17T09:46:03.559969",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 27,
+   "fullName": "Brad Hoylman-Sigal",
+   "imgName": "438_brad_hoylman.jpg",
+   "incumbent": false,
+   "memberId": 438,
+   "sessionMemberId": 1813,
+   "sessionYear": 2021,
+   "shortName": "HOYLMAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Banks",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Prohibits a state chartered banking institution from providing financing to a landlord who has engaged in certain bad faith acts.",
+ "title": "Prohibits bank investments in bad faith landlords",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

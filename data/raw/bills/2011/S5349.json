@@ -1,0 +1,247 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5349",
+     "basePrintNoStr": "S5349-2011",
+     "printNo": "S5349",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-05-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5349",
+     "basePrintNoStr": "S5349-2011",
+     "printNo": "S5349",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-15",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5349",
+     "basePrintNoStr": "S5349-2011",
+     "printNo": "S5349",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-15",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1288"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5349",
+     "basePrintNoStr": "S5349-2011",
+     "printNo": "S5349",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-15",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A7793"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the tax law, in relation to extending the clean heating fuel credit",
+    "basePrintNo": "S5349",
+    "basePrintNoStr": "S5349-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §210, Tax L",
+    "lawSection": "Tax Law",
+    "memo": "BILL NUMBER:S5349\n\nTITLE OF BILL:\nAn act\nto amend the tax law, in relation to extending the clean heating fuel\ncredit\n\nPURPOSE:\nThe purpose of this legislation is to extend the penny per gallon tax\ncredit for every gallon of biodiesel that is blended into home\nheating oil, up to 20%.\n\nSUMMARY OF PROVISIONS:\nSection 1. Extends the penny per gallon biodiesel tax credit, not to\nexceed 20 cents per gallon until two thousand seventeen.\n\nJUSTIFICATION:\nGovernor Pataki first signed this tax credit into law in 2006, in\norder to promote the use of clean heating fuel, in order to improve\nair quality, protect our environment and encourage domestic sources\nof fuel. This credit was extended in 2009, and thousands of New\nYorkers took advantage of the credit by burning cleaner, more\nrenewable and less carbon laden heating oil.\n\nDuring the intervening period more and more consumers have become\naware of biodiesel and its environmental and clean air benefits. As\nconsumers replace their traditional heating oil with greener\nbiodiesel blends, it is vitally important that this tax credit be\nextended.\n\nThis tax credit is due to expire on December 31, 2011, which means\nthat customers already taking advantage of it will lose this benefit\nand return to less environmentally friendly sources of fuel. In order\nto protect these consumers, and to promote clean air and a safer\nenvironment, the clean heating fuel tax credit must be extended.\n\nLEGISLATIVE HISTORY:\nThis is a new bill\n\nFISCAL IMPLICATIONS:\nTo be determined, but this is merely an extension\nof an existing credit\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5349",
+    "publishDate": "2011-05-10",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7793",
+       "basePrintNoStr": "A7793-2011",
+       "printNo": "A7793",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5349",
+ "basePrintNoStr": "S5349-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 53,
+    "year": 2011
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-15",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-15",
+    "billCalNo": 1288,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2011-05-10T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2011-06-15T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5349",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-05-10T12:58:04",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-05-10T12:58:04",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 62,
+   "fullName": "George D. Maziarz",
+   "imgName": "George D. Maziarz.jpg",
+   "incumbent": false,
+   "memberId": 411,
+   "sessionMemberId": 105,
+   "sessionYear": 2011,
+   "shortName": "MAZIARZ"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-15",
+  "billCalNo": 1288,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7793",
+  "basePrintNoStr": "A7793-2011",
+  "session": 2011
+ },
+ "summary": "Extends the clean heating fuel credit to January 1, 2017.",
+ "title": "Extends the clean heating fuel credit to January 1, 2017",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

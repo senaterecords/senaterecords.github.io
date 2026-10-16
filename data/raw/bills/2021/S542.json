@@ -1,0 +1,1278 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-25",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO PROCUREMENT AND CONTRACTS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-19",
+    "sequenceNo": 3,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-26",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.775"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-27",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-28",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-24",
+    "sequenceNo": 7,
+    "text": "AMENDED ON THIRD READING (T) 542A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-08",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A2591A"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the state finance law and the tax law, in relation to\nimplementing \"The New York State Low Embodied Carbon Concrete Leadership Act\"",
+    "basePrintNo": "S542",
+    "basePrintNoStr": "S542-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §165, St Fin L; amd §606 Tax L",
+    "lawSection": "State Finance Law",
+    "memo": "\n \nBILL NUMBER: S542\n\nSPONSOR: KAMINSKY\n \nTITLE OF BILL:\n\nAn act to amend the state finance law and the tax law, in relation to\nimplementing \"The New York State Low Embodied Carbon Concrete Leadership\nAct\"\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo establish a low embodied carbon procurement standard for concrete\nused in public construction projects that will rapidly incentivize emis-\nsions reductions throughout the concrete production process. The low\nembodied carbon procurement standard will leverage the State's substan-\ntial concrete purchasing power to catalyze low carbon alternative meth-\nods and products in the concrete and cement industries as a whole. The\nstandard would also establish New York as a leader in the emerging low\nembodied carbon concrete sector, resulting in new economic activity and\njob creation.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 defines terms and explanations for a number of elements impor-\ntant to the understanding of deploying carbon capture technology in\nconcrete production.\n\nSection 2b requires that facilities, transportation authorities and\ninstitutions of the state, solicitation specifications of the office of\ngeneral services and any other agency, department, office, board or\ncommission mandate provisions including the incorporation of low\nembodied carbon emissions selection standards that are governed by the\nGlobal Warming Potential (GWP) quantified through certified Environ-\nmental Product Declaration (EPD) for each concrete mix proposed in bids\nby offerers. For the purposes of bid assessment, scoring and selection,\na price discount will be applied to bids that are certified to have the\nlowest GWP values. The maximum discount to be applied for the lowest GWP\nbids will not exceed 5%.\n\nSection 2c describes the application of supplemental price discounts for\nbids that incorporate a low carbon concrete breakthrough as defined in\nthis act. The low carbon concrete breakthrough supplemental price\ndiscount reflects the necessity for innovation in concrete products and\nprocesses to fully decarbonize concrete and cement production by the\nyear 2050, given the inherent and substantial carbon intensity of\naspects of cement production that cannot be entirely mitigated through\ntechnologies, methods, and products that are widely established in the\nmarketplace and in construction practice today.\n\nSection 2d stipulates that the State will establish criteria for certi-\nfying low carbon concrete breakthrough technologies, methods, and\nproducts that are eligible for the low carbon concrete breakthrough\nsupplemental price discount. Furthermore, the state shall establish\nrules and guidelines whereby specific price discount rates for bids\ncertified to use low carbon breakthrough technologies, methods and\nproducts shall be determined and applied to bids based on GWP perform-\nance.\n\n\nSection 2e stipulates that bid opportunities that include multiple\nconcrete mixes will aggregate the GWP into a single score that will\nserve as the basis of comparison. Additionally, the concrete products\nmust meet or exceed all\n\nSection 2f stipulates that the low carbon procurement standard rules\ndefined in Section 2b and 2c shall be complied with by private firms\ncontracted by the State to complete State-funded construction projects\nthat involve the utilization of concrete.\n\nSection 2g states that the commissioner will issue, publicize and\ndisseminate regulations for implementation and guidelines for the evalu-\nation of contracts, and provide for monitoring of implementation.\n\nSection 2h stipulates that the Commissioner will submit a report annual-\nly to the legislature analyzing the costs and benefits of the low\nembodied carbon concrete procurement standard pertaining to fiscal\nimpact and the State's carbon reduction goals. The Commissioner will\nalso recommend any additional incentives or requirements that may be\nnecessary to help the state meet its emissions reduction goals of the\n2019 Climate Leadership and Community Protection Act (CLCPA).\n\nSection 3 amends section 606 of the tax law to establish a tax credit to\ncompensate for the costs incurred by concrete and concrete component\nmanufacturers to undertake Environmental Product Declaration (analysis)\nat their manufacturing plants.\n\nSection 3a defines terms and explanations for elements important to the\nunderstanding of the EPD tax credit.\n\nSection 3b states which types of commercial entities are eligible to\navail the EPD tax credit.\n\nSection 3c states that i) the maximum tax credit amount that shall be\navailed by commercial entities is the lessor of the full cost of EPD\nanalysis or $3,000; ii) the maximum number of plants that a single\ncommercial entity may be permitted to avail the tax credit for during a\ngiven tax year is eight; and iii) that the tax credit may be availed for\nEPD analysis procured during tax year 2021 and tax year 2022.\n\n \nJUSTIFICATION:\n\nMore than 10 billion tons of concrete are produced globally each year,\nmaking it the second-most used substance on earth after water. The\nproduction of concrete's core ingredient cement accounts for up to 8% of\ntotal global emissions. To bring the concrete and cement sectors in line\nwith the targets agreed upon in the Paris Agreement, annual emissions\nmust. fall by 16% by 2030. However, current trajectories project that\ndemand for both materials could increase by as much as 23% by 2050.Under\nthis business as usual scenario, production escalation on this scale\nwill release extraordinary levels of CO2 during the next three pivotal\ndecades.\n\nTherefore reducing the embodied carbon of concrete - a measure of emis-\nsions generated during the production process of materials before they\nare utilized - is a critical front in the collective global effort to\npreserve the climate. At the same time, concrete's unique potential to\npermanently store and mineralize carbon must be unlocked and advanced\nthrough both private and public sector commitments.  Indeed, deep\nreductions in cement-based emissions paired with technological inno-\nvations that maximize concrete's carbon storage potential could ulti-\nmately result in carbon negativity to an outcome in which less carbon is\nemitted in concrete production than is permanently secured in its utili-\nzation or storage. Given the present-day volume of concrete utilized\nannually and the rate of growth projected over the coming decades,\ntransforming concrete from a net carbon source to a net carbon sink\nwould have highly meaningful and quantifiable implications for the\nclimate.\n\nThe New York State Low Embodied Carbon Concrete Leadership Act proposes\na new procurement standard for public construction projects that would\nplace our state firmly in a leading position to bring about this transi-\ntion. And this is a role that New York is exceptionally well positioned\nto assume given the bold commitments established by the Climate Leader-\nship and Community Production Act of 2019, and the size and dynamism of\nthe state's economy and construction industries.\n\nIndeed, the proposed bill would help advance the ambitious goals and\nprinciples of the CLCPA, while expanding its reach to encompass a major\nsource of emissions currently left unaddressed. As a major purchaser of\nconcrete, a procurement standard of this kind would provide a powerful\nmarket signal to concrete and cement manufacturers to pursue emissions\nreductions throughout the concrete supply chain.  Further, because many\nwell-established emissions reduction measures that would be incentivized\nby this policy are made at the manufacturing plant level, the State's\nactions would have an immediate influence over the emissions profile of\nconcrete and cement supplied to the private sector at large.\n\nThe legislation's objectives align with the CLCPA's broad emissions\nreduction targets, but also specifically with provisions related to the\n15% of emissions reductions that will be achieved either through offsets\nor by carbon dioxide removal (CDR) from the atmosphere.  Enhancing\nconcrete's capacity to utilize and permanently mineralize high levels of\ncarbon in its mass is the goal of several cutting-edge research initi-\natives and startup firms today, but in the future could represent a\nscalable and standard feature of this incredibly common commodity. As a\npromising medium for carbon storage, concrete would create a sink for\ncarbon sourced from capture and storage technologies at difficult to\ndecarbonize industrial facilities (such as cement), as well emerging\ncarbon removal technologies such as Direct Air Capture (DAC). The legis-\nlation's competitive mechanism will continuously drive innovation in\nthis direction and includes a special provision that incentivizes the\nadoption and utilization of carbon capture, utilization and/or storage\ntechnology (CCUS).\n\nWhile establishing the carbon emissions of concrete as a definitive\nfactor in the bid decision making process, the legislation would also\ncap allowable price premiums for low embodied concrete, thus limiting\nfiscal impact on the State of New York and its taxpayers.\n\nFinally, to further incentivize participation by concrete manufacturers,\nthe legislation introduces a time limited tax credit for eligible local\nfirms. The credit would offset financial burdens incurred by manufactur-\ners in completing Environmental Product Declaration (EPD) analyses,\nwhich are required for quantifying the embodied carbon emissions of\nconcrete products. Given that 1. the tax credit is scheduled to expire\nin four years following program initiation; 2. EPD analyses are competi-\ntively priced ($2,000 - $4,000 per plant on average); and 3. The limited\nnumber of concrete manufacturing companies operating in the state, the\nfiscal impact of the credit will be modest relative to the market impact\nthat it will catalyze.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020: S8965 died in Rules.\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined. The one-time environmental product declaration tax\ncredit would be made eligible for two tax years to fewer than two-hun-\ndred concrete and concrete component manufacturing plants operating in\nNew York State, and would be capped at $3,000 per plant.  If fully\nsubscribed, the full fiscal impact of the tax credit would not exceed\n$600,000 during the two-year eligibility period. However, given that\nfull subscription by 100 per cent of in-state eligible firms is highly\nunlikely, this figure should be considered a maximum rather than proba-\nble fiscal impact.\n\nThe low carbon concrete price discount and the supplemental CCUS price\ndiscount defined in Section 2b and Section 3b, respectively, are\nprojected to result in negligible fiscal impact or no fiscal impact at\nall. The price discount mechanism is designed to create an incentive for\nofferers that links competitiveness for state contracts to superior GWP\nperformance. It is not designed to perversely encourage offerers to\nescalate bid pricing, nor does it entail the direct or indirect transfer\nof payments, in such forms as rebates or tax credits, to offererers as\ncompensation for incorporating low carbon concrete into bid proposals.\nOfferers, unaware of the prices proposed by other offerers, remain high-\nly incentivized to submit bids that are as price competitive as possi-\nble. Further, market analysis supports that many high impact, market\nready carbon reduction processes and products that would increase GWP\nperformance and therefore bid competitiveness - including many forms of\ncement substitution and carbon utilization - are not strongly associated\nwith premium pricing. Thus offerers are incentivized to adopt low carbon\nconcrete processes and products that are market ready and cost compet-\nitive in order to increase their competitiveness for state contracts\nvis-a-vis other offerers. This is applied for assessment and scoring\npurposes only, and does not entail the transfer of any direct financial\nincentive to high GWP performing bidders. All bidders remain incentiv-\nized to submit bids that maximize cost competitiveness.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S542",
+    "publishDate": "2021-01-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "STF165",
+        "TAX606"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the state finance law, in relation to provisions in state\nprocurement contracts involving the use of low embodied carbon concrete",
+    "basePrintNo": "S542",
+    "basePrintNoStr": "S542-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 22
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §136-d, St Fin L",
+    "lawSection": "State Finance Law",
+    "memo": " \nBILL NUMBER: S542A\n\nSPONSOR: KAMINSKY\n \nTITLE OF BILL:\n\nAn act to amend the state finance law, in relation to provisions in\nstate procurement contracts involving the use of low embodied carbon\nconcrete\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would establish procurement guidelines for the procurement of\nlow embodied carbon concrete.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill requires the Office of General Services to estab-\nlish guidelines concerning the procurement of low embodied carbon\nconcrete. Contractors doing this type of work would then need to follow\nthese guidelines and certify that their work and the concrete they are\nprocuring meets these minimum guidelines. The bill outlines what the\noffice will need to examine when crafting the guidelines including\nincentives for the procurement and usage of low embodied carbon concrete\nby contractors. The bill requires the guidance and any associated legis-\nlative recommendations to be issued to the governor and the legislature.\n\nSection 2 of the bill is the effective date.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION:\n\nThe bill now requires the issuance of procurement guidelines by the\nOffice of General Services. The tax credit associated with the bill has\nbeen removed.\n\n \nJUSTIFICATION:\n\nMore than 10 billion tons of concrete are produced globally each year,\nmaking it the second-most used substance on earth after water. The\nproduction of concrete's core ingredient cement accounts for up to 8% of\ntotal global emissions. To bring the concrete and cement sectors in line\nwith the targets agreed upon in the Paris Agreement, annual emissions\nmust fall by 16% by 2030. However, current trajectories project that\ndemand for both materials could increase by as much as 23% by 2050.\nUnder this business as usual scenario, production escalation on this\nscale will release extraordinary levels of CO2 during the next three\npivotal decades.\n\nTherefore reducing the embodied carbon of concrete - a measure of emis-\nsions generated during the production process of materials before they\nare utilized - is a critical front in the collective global effort to\npreserve the climate. At the same time, concrete's unique potential to\npermanently store and mineralize carbon must be unlocked and advanced\nthrough both private and public sector commitments.  Indeed, deep\nreductions in cement-based emissions paired with technological inno-\nvations that maximize concrete's carbon storage potential could ulti-\nmately result in carbon negativity to an outcome in which less carbon is\nemitted in concrete production than is permanently secured in its utili-\nzation or storage. Given the present-day volume of concrete utilized\nannually and the rate of growth projected over the coming decades,\ntransforming concrete from a net carbon source to a net carbon sink\nwould have highly meaningful and quantifiable implications for the\nclimate.\n\nThis bill proposes a new procurement standard for construction projects\nthat would place our state firmly in a leading position to bring about\nthis transition. And this is a role that New York is exceptionally well\npositioned to assume given the bold commitments established by the\nClimate Leadership and Community Production Act of 2019, and the size\nand dynamism of the state's economy and construction industries.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020: S8965 died in Rules.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred eightieth day after it\nshall have become a law and shall apply to any state contracting oppor-\ntunities advertised on or after such date and shall exclude contracts\nfor which an invitation for bid, request for proposal, or similar solic-\nitation has been issued prior to the effective date of this act.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S542A",
+    "publishDate": "2021-05-24",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "STF136-D"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2591",
+       "basePrintNoStr": "A2591-2021",
+       "printNo": "A2591A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S542",
+ "basePrintNoStr": "S542-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 40,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2021
+   }
+  ],
+  "size": 18
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 13,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Procurement And Contracts"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-04-19",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-05-24",
+    "billCalNo": 775,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2021-04-19T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Procurement And Contracts",
+    "referenceDate": "2021-01-25T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S542A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-04T12:48:45.382645",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-05-24T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-01-04T12:48:45.382645",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 9,
+   "fullName": "Todd Kaminsky",
+   "imgName": "903_todd_kaminsky.jpg",
+   "incumbent": false,
+   "memberId": 918,
+   "sessionMemberId": 1816,
+   "sessionYear": 2021,
+   "shortName": "KAMINSKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-05-24",
+  "billCalNo": 775,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2591",
+  "basePrintNoStr": "A2591-2021",
+  "session": 2021
+ },
+ "summary": "Relates to provisions in state procurement contracts involving the use of low embodied carbon concrete.",
+ "title": "Relates to provisions in state procurement contracts involving the use of low embodied carbon concrete",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Procurement And Contracts"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1804,
+         "sessionYear": 2021,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Jeremy Cooney",
+         "imgName": "1318_Jeremy_Cooney.jpg",
+         "incumbent": true,
+         "memberId": 1501,
+         "sessionMemberId": 1857,
+         "sessionYear": 2021,
+         "shortName": "COONEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Anna Kaplan",
+         "imgName": "1044_Anna_Kaplan.jpg",
+         "incumbent": false,
+         "memberId": 1224,
+         "sessionMemberId": 1817,
+         "sessionYear": 2021,
+         "shortName": "KAPLAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Elijah Reichlin-Melnick",
+         "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+         "incumbent": false,
+         "memberId": 1495,
+         "sessionMemberId": 1850,
+         "sessionYear": 2021,
+         "shortName": "REICHLIN-MELNICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 1834,
+         "sessionYear": 2021,
+         "shortName": "SANDERS"
+        }
+       ],
+       "size": 5
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 1800,
+         "sessionYear": 2021,
+         "shortName": "BORRELLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Daphne Jordan",
+         "imgName": "1055_Daphne_Jordan.jpg",
+         "incumbent": false,
+         "memberId": 1235,
+         "sessionMemberId": 1815,
+         "sessionYear": 2021,
+         "shortName": "JORDAN"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2021-04-19",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S542",
+     "basePrintNoStr": "S542-2021",
+     "printNo": "S542",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1802,
+         "sessionYear": 2021,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1804,
+         "sessionYear": 2021,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 1811,
+         "sessionYear": 2021,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1820,
+         "sessionYear": 2021,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1835,
+         "sessionYear": 2021,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 1839,
+         "sessionYear": 2021,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1840,
+         "sessionYear": 2021,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 15
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1810,
+         "sessionYear": 2021,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1819,
+         "sessionYear": 2021,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Susan Serino",
+         "imgName": "890_susan_serino.jpg",
+         "incumbent": false,
+         "memberId": 890,
+         "sessionMemberId": 1837,
+         "sessionYear": 2021,
+         "shortName": "SERINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 1842,
+         "sessionYear": 2021,
+         "shortName": "TEDISCO"
+        }
+       ],
+       "size": 7
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 1800,
+         "sessionYear": 2021,
+         "shortName": "BORRELLO"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2021-04-27",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2021
+}

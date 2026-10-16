@@ -1,0 +1,1109 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4550",
+     "basePrintNoStr": "S4550-2013",
+     "printNo": "S4550",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-04-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4550",
+     "basePrintNoStr": "S4550-2013",
+     "printNo": "S4550",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-01-08",
+    "sequenceNo": 2,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4550",
+     "basePrintNoStr": "S4550-2013",
+     "printNo": "S4550",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-14",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4550",
+     "basePrintNoStr": "S4550-2013",
+     "printNo": "S4550A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-14",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 4550A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4550",
+     "basePrintNoStr": "S4550-2013",
+     "printNo": "S4550A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-04-11",
+    "sequenceNo": 5,
+    "text": "AMEND (T) AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4550",
+     "basePrintNoStr": "S4550-2013",
+     "printNo": "S4550B",
+     "session": 2013,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2014-04-11",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 4550B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the executive law and the public service law, in relation to creating the state office of the utility consumer advocate",
+    "basePrintNo": "S4550",
+    "basePrintNoStr": "S4550-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 139,
+       "sessionYear": 2013,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 147,
+       "sessionYear": 2013,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 126,
+       "sessionYear": 2013,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 140,
+       "sessionYear": 2013,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 154,
+       "sessionYear": 2013,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 180,
+       "sessionYear": 2013,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 136,
+       "sessionYear": 2013,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 176,
+       "sessionYear": 2013,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 146,
+       "sessionYear": 2013,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 145,
+       "sessionYear": 2013,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 129,
+       "sessionYear": 2013,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 143,
+       "sessionYear": 2013,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 168,
+       "sessionYear": 2013,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 172,
+       "sessionYear": 2013,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 125,
+       "sessionYear": 2013,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 157,
+       "sessionYear": 2013,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Cecilia Tkaczyk",
+       "imgName": "Cecilia Tkaczyk.jpg",
+       "incumbent": false,
+       "memberId": 431,
+       "sessionMemberId": 128,
+       "sessionYear": 2013,
+       "shortName": "TKACZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 171,
+       "sessionYear": 2013,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 18
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §94-a, Exec L; amd §18-a, Pub Serv L",
+    "lawSection": "Executive Law",
+    "memo": "BILL NUMBER:S4550\n\nTITLE OF BILL:  An act to amend the executive law and the public\nservice law, in relation to creating the state office of the utility\nconsumer advocate\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would create the State Office of the Utility Consumer\nAdvocate.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 amends subdivision 2 of section 94-a of the executive law by\nadding a new paragraph d which would require the Secretary of State to\nprovide an estimate to the Department of Public Service prior to the\nstart of each fiscal year, for the funds necessary to operate the\nState Office of the Utility Consumer Advocate.\n\nSection 2 amends paragraph a of subdivision 4 of section 94-a of the\nexecutive law and provides for the creation of the State Office of the\nUtility Consumer Advocate who is charged with representing the\ninterests of residential utility customers. This section sets the\nappointment process, term of the appointment, and general duties for\nthe Utility Consumer Advocate.\n\nSection 3 amends subparagraph i and ii of paragraph b of subdivision 4\nof section 94-a of the executive law and outlines the instances in\nwhich the Utility Consumer Advocate may intervene and/or bring actions\non behalf of residential utility customers\n\nSection 4 amends subdivision 4 of section 94-a of the executive law by\nadding a new paragraph c that further outlines the Utility Consumer\nAdvocate's authority and duties.\n\nSection 5 amends paragraph a of subdivision 2 of section 18-a of the\npublic service law to require the Chairman of the Public Services\nCommission to include the cost estimate provided in paragraph d of\nsubdivision two of section 94-a of the executive law with the total\nassessment to be paid by each assessed public utility company.\n\nSection 6 sets the effective date.\n\nJUSTIFICATION:\n\nCurrently more than 40 states and the District of Columbia have an\nindependent state agency that represents the interests of residential\nutility customers, New York is one of few states, and by far the\nlargest, without such an independent office. In the wake of Superstorm\nSandy, Hurricane Irene, and Tropical Storm Lee, consumers in New York\nhave been left without a voice and real representation when it comes\nto utility services.\n\nThis bill would create the State Office of the Utility Consumer\nAdvocate to serve as an independent advocate and appear on behalf of\nNew York consumers in state and federal regulatory proceedings, as\nwell as judicial review proceedings concerning rates and conditions of\n\n\npublic service utilities. Currently consumers in New York are\nrepresented by the Public Service Commission as well as the Utility\nIntervention Unit, a division of the Department of State Neither of\nthem is able to act solely on behalf of the interest of consumers.\n\nThe Public Service Commission mediates the competing interests of\nutilities and others in their proceedings to develop facts upon which\ntheir decisions are ultimately based The utility providers as well as\nlarge commercial and industrial customers have an active and able\npresence in such proceedings; however there is a glaring lack of input\nfrom any parties representing consumers. The Utility Intervention Unit\noperates under the direction of the Secretary of the State, who has\ncreated a non-statutory subordinate at-will position for the Director\nof the Utility Intervention Unit. The Utility Consumer Advocate would\nbe appointed by the Governor, subject to Senate confirmation, and\nwould serve a term of six years similar to the Chairman of the Public\nService Commission. Therefore the Utility Consumer Advocate would not\nbe an at-will employee subject to removal without cause by the\nSecretary of State or Governor.. This would allow for actual\nindependent action on behalf of residential consumers without the\nconcern of removal for such action.\n\nIn other states where such an office exists residential consumers have\nseen drastic savings in comparison to the actual amount of funding\nthat goes to these offices. California's Division of Ratepayer\nAdvocates lobbied over 200 times on behalf of California consumers and\nsaved them over $4 billion in rates saved and increases avoided; in\nfact, they estimate that for every $1 spent representing and\nadvocating on behalf of California's public utility customers, the\naverage customer saved $153 per year. The creation of an appointed\nadvocate with the powers allotted in this bill would give New York\nutility customers a voice at the table, save them a considerable\namount of money when it comes to the utilities they use every day.\n\nPRIOR LEGISLATIVE HISTORY:\n\nThis is a New Bill\n\nFISCAL IMPLICATIONS:\n\nNone to the State.\n\nEFFECTIVE DATE:\n\nThis act shall take effect of the first of April next succeeding the\ndate on which it shall have become law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4550",
+    "publishDate": "2013-04-10",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the executive law and the public service law, in relation to creating the state office of the utility consumer advocate",
+    "basePrintNo": "S4550",
+    "basePrintNoStr": "S4550-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 139,
+       "sessionYear": 2013,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 147,
+       "sessionYear": 2013,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 126,
+       "sessionYear": 2013,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 140,
+       "sessionYear": 2013,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Terry Gipson",
+       "imgName": "Terry Gipson.jpg",
+       "incumbent": false,
+       "memberId": 437,
+       "sessionMemberId": 158,
+       "sessionYear": 2013,
+       "shortName": "GIPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 154,
+       "sessionYear": 2013,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 180,
+       "sessionYear": 2013,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 136,
+       "sessionYear": 2013,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 176,
+       "sessionYear": 2013,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 146,
+       "sessionYear": 2013,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 145,
+       "sessionYear": 2013,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 129,
+       "sessionYear": 2013,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 143,
+       "sessionYear": 2013,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 168,
+       "sessionYear": 2013,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 172,
+       "sessionYear": 2013,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 125,
+       "sessionYear": 2013,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 157,
+       "sessionYear": 2013,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Cecilia Tkaczyk",
+       "imgName": "Cecilia Tkaczyk.jpg",
+       "incumbent": false,
+       "memberId": 431,
+       "sessionMemberId": 128,
+       "sessionYear": 2013,
+       "shortName": "TKACZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 171,
+       "sessionYear": 2013,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 19
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §94-a, Exec L; amd §18-a, Pub Serv L",
+    "lawSection": "Executive Law",
+    "memo": "BILL NUMBER:S4550A\n\nTITLE  OF  BILL:    An  act  to amend the executive law and the public\nservice law, in relation to creating the state office of  the  utility\nconsumer advocate\n\nPURPOSE  OR  GENERAL  IDEA OF BILL:   This bill would create the State\nOffice of the Utility Consumer Advocate.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 amends subdivision 2 of section 94-a of the executive law by\nadding a new paragraph d which would require the Secretary of State to\nprovide an estimate to the Department of Public Service prior  to  the\nstart  of  each  fiscal  year,  for the funds necessary to operate the\nState Office of the Utility Consumer Advocate.\n\nSection 2 amends paragraph a of subdivision 4 of section 94-a  of  the\nexecutive law and provides for the creation of the State Office of the\nUtility  Consumer  Advocate  who  is  charged  with  representing  the\ninterests of residential utility  customers.  This  section  sets  the\nappointment  process,  term of the appointment, and general duties for\nthe Utility Consumer Advocate.\n\nSection 3 amends subparagraph i and ii of paragraph b of subdivision 4\nof section 94-a of the executive law and  outlines  the  instances  in\nwhich the Utility Consumer Advocate may intervene and/or bring actions\non behalf of residential utility customers.\n\nSection 4 amends subdivision 4 of section 94-a of the executive law by\nadding  a  new  paragraph c that further outlines the Utility Consumer\nAdvocate's authority and duties.\n\nSection 5 amends paragraph a of subdivision 2 of section 18-a  of  the\npublic  service  law  to  require  the Chairman of the Public Services\nCommission to include the cost estimate provided  in  paragraph  d  of\nsubdivision  two  of  section 94-a of the executive law with the total\nassessment to be paid by each assessed public utility company.\n\nSection 6 sets the effective date.\n\nJUSTIFICATION:   Currently more than 40 states  and  the  District  of\nColumbia   have  an  independent  state  agency  that  represents  the\ninterests of residential utility customers. New York  is  one  of  few\nstates, and by far the largest, without such an independent office. In\nthe wake of Superstorm Sandy, Hurricane Irene, and Tropical Storm Lee,\nconsumers  in  New  York  have  been  left  without  a  voice and real\nrepresentation when it comes to utility services.\n\nThis bill would create  the  State  Office  of  the  Utility  Consumer\nAdvocate  to  serve as an independent advocate and appear on behalf of\nNew York consumers in state and  federal  regulatory  proceedings,  as\nwell as judicial review proceedings concerning rates and conditions of\npublic   service  utilities.  Currently  consumers  in  New  York  are\nrepresented by the Public Service Commission as well  as  the  Utility\nIntervention  Unit,  a division of the Department of State. Neither of\nthem is able to act solely on behalf of the interest of consumers.\n\n\nThe Public Service Commission  mediates  the  competing  interests  of\nutilities  and others in their proceedings to develop facts upon which\ntheir decisions are ultimately based. The utility providers as well as\nlarge commercial and industrial customers  have  an  active  and  able\npresence in such proceedings; however there is a glaring lack of input\nfrom any parties representing consumers. The Utility Intervention Unit\noperates  under  the  direction of the Secretary of the State, who has\ncreated a non-statutory subordinate at-will position for the  Director\nof  the Utility Intervention Unit. The Utility Consumer Advocate would\nbe appointed by the Governor,  subject  to  Senate  confirmation,  and\nwould  serve a term of six years similar to the Chairman of the Public\nService Commission. Therefore the Utility Consumer Advocate would  not\nbe  an  at-will  employee  subject  to  removal  without  cause by the\nSecretary  of  State  or  Governor.  This  would  allow   for   actual\nindependent  action  on  behalf  of  residential consumers without the\nconcern of removal for such action.\n\nIn other states where such an office exists residential consumers have\nseen drastic savings in comparison to the  actual  amount  of  funding\nthat  goes  to  these  offices.  California's  Division  of  Ratepayer\nAdvocates lobbied over 200 times on behalf of California consumers and\nsaved them over $4 billion in rates saved and  increases  avoided;  in\nfact,   they  estimate  that  for  every  $1  spent  representing  and\nadvocating on behalf of California's  public  utility  customers,  the\naverage  customer  saved  $153  per  year The creation of an appointed\nadvocate with the powers allotted in this bill  would  give  New  York\nutility  customers  a  voice  at  the  table, save them a considerable\namount of money when it comes to the utilities they use every day.\n\nPRIOR LEGISLATIVE HISTORY: This is a New Bill.\n\nFISCAL IMPLICATIONS: None to the State.\n\nEFFECTIVE DATE:  This act shall take effect of the first of April next\nsucceeding the date on which it shall have become law\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4550A",
+    "publishDate": "2014-02-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the public service law, in relation to creating the state office of the utility consumer advocate",
+    "basePrintNo": "S4550",
+    "basePrintNoStr": "S4550-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 139,
+       "sessionYear": 2013,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 147,
+       "sessionYear": 2013,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 174,
+       "sessionYear": 2013,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 126,
+       "sessionYear": 2013,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 137,
+       "sessionYear": 2013,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 140,
+       "sessionYear": 2013,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Terry Gipson",
+       "imgName": "Terry Gipson.jpg",
+       "incumbent": false,
+       "memberId": 437,
+       "sessionMemberId": 158,
+       "sessionYear": 2013,
+       "shortName": "GIPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 154,
+       "sessionYear": 2013,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 180,
+       "sessionYear": 2013,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 136,
+       "sessionYear": 2013,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 176,
+       "sessionYear": 2013,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 146,
+       "sessionYear": 2013,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 145,
+       "sessionYear": 2013,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 129,
+       "sessionYear": 2013,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 165,
+       "sessionYear": 2013,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 143,
+       "sessionYear": 2013,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 153,
+       "sessionYear": 2013,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 168,
+       "sessionYear": 2013,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 172,
+       "sessionYear": 2013,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 131,
+       "sessionYear": 2013,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 125,
+       "sessionYear": 2013,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 134,
+       "sessionYear": 2013,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Malcolm A. Smith",
+       "imgName": "Malcolm A. Smith.jpg",
+       "incumbent": false,
+       "memberId": 405,
+       "sessionMemberId": 161,
+       "sessionYear": 2013,
+       "shortName": "SMITH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 157,
+       "sessionYear": 2013,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 156,
+       "sessionYear": 2013,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Cecilia Tkaczyk",
+       "imgName": "Cecilia Tkaczyk.jpg",
+       "incumbent": false,
+       "memberId": 431,
+       "sessionMemberId": 128,
+       "sessionYear": 2013,
+       "shortName": "TKACZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 171,
+       "sessionYear": 2013,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 27
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 1-A §§28-a - 28-d, Pub Serv L",
+    "lawSection": "Public Service Law",
+    "memo": "BILL NUMBER:S4550B\n\nTITLE OF BILL:  An act to amend the public service law, in relation to\ncreating the state office of the utility consumer advocate\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would create the State Office of the Utility Consumer\nAdvocate(UCA).\n\nSUMMARY OF PROVISIONS:\n\nSection 1 amends the public service law by adding a new article 1-A\nthat would establish the state Office of the Utility Consumer\nAdvocate. The UCA will be appointed by the governor to a six year\nterm. The section also outlines the qualifications required for such\nan appointee and his or her responsibilities as the UCA, including the\noperation of the office.\n\nThe powers of the office, include initiating, intervening, and\nparticipating on behalf of residential utility consumers in any\nproceedings before the Public Service Commission, the Federal\nRegulatory Energy Commission, the Federal Communications Commission,\nstate and local administrative and regulatory agencies, and state and\nfederal courts in any matter or proceeding that may substantially\naffect the interests of residential utility customers.  The section\nalso allows for the UCA to exercise and have independence in any and\nall actions of the office.\n\nThe new article 1-A also requires an annual report from the office to\nthe governor and legislature as, which would be made available to the\npublic, and would that will include information on all proceedings\nthat the office of the UCA participated in and the outcome of such\nproceedings. Additionally,the report shall include estimated savings\nto residential utility customers that resulted from intervention by\nthe UCA, and lastly any policy recommendations and suggested statutory\namendments that the UCA deems necessary.\n\nSection 2 sets the effective date of the first of April next\nsucceeding the date on which it shall have become law.\n\nJUSTIFICATION:\n\nCurrently more than 40 states and the District of Columbia have an\nindependent state agency that represents the interests of residential\nutility customers. New York is one of few states, and by far the\nlargest, without such an independent office.  In the wake of\nSuperstorm Sandy, Hurricane Irene, and Tropical Storm Lee, consumers\nin New York have been left without a voice and real representation\nwhen it comes to utility services.\n\nThis bill would create the State Office of the Utility Consumer\nAdvocate as an independent advocate and appear on behalf of New York\nconsumers in state and federal regulatory proceedings, as well as\njudicial review proceedings concerning rates and conditions of public\nservice utilities. Currently consumers in New York are represented by\nthe Public Service Commission as well as the Utility Intervention\n\n\nUnit, a division solely of the Department of State. Neither of them is\nable to act solely on behalf of the interest of consumers.\n\nThe Public Service Commission mediates the competing interests of\nutili- ties and others in their proceedings to develop facts upon\nwhich their decisions are ultimately based. The utility providers as\nwell as large commercial and industrial customers have an active and\nable presence in such proceedings; however there is a glaring lack of\ninput from any parties representing consumers. The Utility\nIntervention Unit operates under the direction of the Secretary of the\nState, who has created a non-statutory subordinate at-will position\nfor the Director of the Utility Intervention Unit. The Utility\nConsumer Advocate would be appointed by the Governor, subject to\nSenate confirmation, and would serve a term of six years similar to\nthe Chairman of the Public Service Commission.Therefore, the Utility\nConsumer Advocate would not be an at-will employee subject to removal\nwithout cause by the Secretary of State or Governor.  This would allow\nfor actual independent action on behalf of residential consumers\nwithout the concern of removal for such action.\n\nIn other states where such an office exists residential consumers have\nseen drastic savings in comparison to the actual amount of funding\nthat goes to these offices. California's Division of Ratepayer\nAdvocates lobbied over 200 times on behalf of California consumers and\nsaved them over $4 billion in rates saved and increases avoided; in\nfact, they estimate that for every $1 spent representing and\nadvocating on behalf of California's public utility customers, the\naverage customer saved $153 per year. The creation of an appointed\nadvocate with the powers allotted in this bill would give New York\nutility customers a voice at the table, save them a considerable\namount of money when it comes to the utilities they use every day.\n\nPRIOR LEGISLATIVE HISTORY:\n\nThis bill was first introduced in the 2013 Session.\n\nFISCAL IMPLICATIONS:\n\nTo be determined\n\nEFFECTIVE DATE:\n\nThis act shall take effect of the first of April next succeeding the\ndate on which it shall have become law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4550B",
+    "publishDate": "2014-04-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6239",
+       "basePrintNoStr": "A6239-2013",
+       "printNo": "A6239B",
+       "session": 2013,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4550",
+ "basePrintNoStr": "S4550-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-04-11",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2013-04-10T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2014-01-08T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2014-02-14T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2014-04-11T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4550B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-04-10T09:30:55",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2014-02-14T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2014-04-11T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2013-04-10T09:30:55",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 23,
+   "fullName": "Diane J. Savino",
+   "imgName": "403_diane_j._savino.jpg",
+   "incumbent": false,
+   "memberId": 403,
+   "sessionMemberId": 159,
+   "sessionYear": 2013,
+   "shortName": "SAVINO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-04-11",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Creates the state office of the utility consumer advocate to represent interests of residential utility customers.",
+ "title": "Creates the state office of the utility consumer advocate",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

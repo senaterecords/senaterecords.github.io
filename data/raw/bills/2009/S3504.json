@@ -1,0 +1,241 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3504",
+     "basePrintNoStr": "S3504-2009",
+     "printNo": "S3504",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3504",
+     "basePrintNoStr": "S3504-2009",
+     "printNo": "S3504",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-21",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.200"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3504",
+     "basePrintNoStr": "S3504-2009",
+     "printNo": "S3504",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-22",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3504",
+     "basePrintNoStr": "S3504-2009",
+     "printNo": "S3504",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-27",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3504",
+     "basePrintNoStr": "S3504-2009",
+     "printNo": "S3504",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-30",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A7085"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S3504",
+    "basePrintNoStr": "S3504-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3, Chap 327 Of 2006",
+    "lawSection": "Taxation",
+    "memo": " BILL NUMBER:  S3504\n\n TITLE OF BILL :\nAn act to amend chapter 327 of the laws of 2006, amending the tax law\nrelating to authorizing the county of Essex to impose an additional\nmortgage recording tax, in relation to extending the expiration and\nrepeal of such provisions\n\n\n PURPOSE :\nTo extend the authorization for Essex County to impose an additional\nmortgage tax from December 1, 2009 to December 1, 2012.\n\n SUMMARY OF PROVISIONS :\nSection 1: amends section 3 of chapter 327 of the laws of 2006 to\nextend the expiration date of mortgage recording tax imposition by\nEssex County to December 1, 2012.\n\nSection 2: contains the effective date.\n\n EXISTING LAW :\nSection 3 of chapter 327 of the laws of 2006 which granted Essex\nCounty the authority to impose an additional mortgage recording tax\nexpires on December 1, 2009.\n\n JUSTIFICATION :\nThe Essex County Board of Supervisors has requested the introduction\nof legislation extending their authority to impose an additional\nmortgage recording tax to December 1, 2012.\n\n LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS :\nNone to the state.\n\n LOCAL FISCAL IMPLICATIONS :\nEssex County anticipates the additional mortgage tax will generate\napproximately $430,000.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3504",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7085",
+       "basePrintNoStr": "A7085-2009",
+       "printNo": "A7085",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3504",
+ "basePrintNoStr": "S3504-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-20",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-04-27",
+    "billCalNo": 200,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2009-03-20T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3504",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 137
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 45,
+   "fullName": "Betty Little",
+   "imgName": "379_betty_little.jpg",
+   "incumbent": false,
+   "memberId": 379,
+   "sessionMemberId": 11,
+   "sessionYear": 2009,
+   "shortName": "LITTLE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-04-27",
+  "billCalNo": 200,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7085",
+  "basePrintNoStr": "A7085-2009",
+  "session": 2009
+ },
+ "summary": "Extends from December 1, 2009 to December 1, 2012, the expiration of the authorization to the county of Essex to impose an additional mortgage recording tax.",
+ "title": "Extends from December 1, 2009 to December 1, 2012, the expiration of the authorization to the county of Essex to impose an additional mortgage recording tax",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

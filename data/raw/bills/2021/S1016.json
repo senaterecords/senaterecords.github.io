@@ -1,0 +1,927 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-04",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-04",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1016A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-11",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.1033"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-12",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-19",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-20",
+    "sequenceNo": 7,
+    "text": "AMENDED ON THIRD READING 1016B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-03",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A2388B"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law and the education law, in relation to\ndirecting the commissioners of education and health to establish rules and\nregulations for the treatment and monitoring of students of school districts,\nboards of cooperative educational services and nonpublic schools who exhibit\nsigns or symptoms of pending or increased risk of sudden cardiac arrest",
+    "basePrintNo": "S1016",
+    "basePrintNoStr": "S1016-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §206, Pub Health L; add §923, amd §§3001-b & 3001-c, Ed L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S1016\n\nSPONSOR: GAUGHRAN\n \nTITLE OF BILL:\n\nAn act to amend the public health law and the education law, in relation\nto directing the commissioners of education and health to establish\nrules and regulations for the treatment and monitoring of students of\nschool districts, boards of cooperative educational services and nonpub-\nlic schools who exhibit signs or symptoms of pending or increased risk\nof sudden cardiac arrest\n\n \nPURPOSE:\n\nThis legislation would establish the Dominic Murray Sudden Cardiac\nArrest Prevention Act.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 contains the short title of the act.\n\nSection 2 amends section 206 of the public health law by adding subdivi-\nsion 31 to require the Commissioner of Health to develop information to\nbe reviewed by the Commissioner of Education, relating to pupil's exhib-\niting signs or symptoms of pending or increased risk of sudden cardiac\narrest, and provide for the posting of the information on the depart-\nment's official website.\n\nSection 3 of this bill adds a new Section 923 to the education law to\ndirect the Commissioner of Education to review the information created\nby the Department of Health relating to pupils who exhibit signs or\nsymptoms of pending or increased risk of sudden cardiac arrest. Such\ninformation will be posted on the Department's website, included in\npermission form, consent form or similar document that may be required\nfor a student's participation in interscholastic athletics. The Commis-\nsioner of Education will promulgate rules and regulations that authorize\nschool districts, at their discretion, to establish a SCA management\nteam.\n\nSection 4 and 5 amend the education law to make conforming changes to\nthe statute governing the training required by coaches.  Commissioner's\nRegulation Part 135.5 already requires that all coaches be trained in\nFirst Aid and Adult CPR/AED Skills. The Commissioner's Regulations have\nalso expanded the eligible list of training agencies beyond the American\nRed Cross. This section merely conforms statute with regulation.\n\nSection 6 specifies this act shall take effect on the first of July next\nsucceeding the date on which it shall have become law, provided that,\neffective immediately, any rules and regulations necessary to implement\nthe provisions of this act on its effective date are authorized and\ndirected to be completed on or before such date.\n\n \nJUSTIFICATION:\n\nSudden Cardiac Arrest (SCA) is the leading cause of death among school\nathletes. As many as 7,000 to 10,000 young people die from SCA every\nyear. On October 5th, 2009, Dominic Murray (age 17), suffered a sudden\ncardiac arrest and collapsed on the court during a basketball game just\nweeks in to his Freshman Year at Farmingdale State College.  His sudden\ncardiac arrest symptoms went unrecognized by all around him. SCA is a\nlife or death emergency. For every minute that passes without cardiopul-\nmonary resuscitation (CPR) and use of an automated external defibrilla-\ntor (AED), the victim sustains a 10% loss of a chance of survival.\n\nWhat happened to Dominic and many other young athletes can be prevented\nby informing and educating our coaches, pupils, and parents about SCA.\nAs our children spend a significant amount of time in school and partic-\nipating in school related activities, it is critical for schools to\neducate students and their families about SCA and its signs and symp-\ntoms. The Dominic Murray Sudden Cardiac Arrest Prevention Act is neces-\nsary in order to fill this void.\n\nCurrent law, together with Part 135.5 of the Commissioner's Regulations,\nalready require that coaches at both public and non-public schools be\ntrained in first aid, adult cardiopulmonary resuscitation and use of\nautomated external defibrillator.\n\nAll materials required by this legislation will be compiled by the\nState. The development of a sudden cardiac arrest management team would\nbe at the option of the school district.\n\nSimilar legislation has been enacted in Pennsylvania, Indiana, New\nJersey, Connecticut, Delaware, Oklahoma, Tennessee, Maryland, North\nCarolina, Florida, Washington, Ohio, California, and Georgia.\n\n \nLEGISLATIVE HISTORY:\n\nS2996A of 2019-20 S1297 of 2017-18 S7848 of 2016\n\n \nFISCAL IMPLICATIONS:\n\nMinimal given all coaches are already required to take first aid, adult\ncardiopulmonary resuscitation and use of an automated external defibril-\nlator training.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the first of July next succeeding the date\non which it shall have become law, provided that, effective immediately,\nany rules and regulations necessary to implement the provisions of this\nact on its effective date are authorized and directed to be completed on\nor before such date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1016",
+    "publishDate": "2021-01-05",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EDN923"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "EDN3001-B",
+        "EDN3001-C",
+        "PBH206"
+       ],
+       "size": 3
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2388",
+       "basePrintNoStr": "A2388-2021",
+       "printNo": "A2388",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law and the education law, in relation to\ndirecting the commissioners of education and health to establish rules and\nregulations for the treatment and monitoring of students of school districts,\nboards of cooperative educational services and nonpublic schools who exhibit\nsigns or symptoms of sudden cardiac arrest",
+    "basePrintNo": "S1016",
+    "basePrintNoStr": "S1016-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §206, Pub Health L; add §923, amd §§3001-b & 3001-c, Ed L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S1016A\n\nSPONSOR: GAUGHRAN\n \nTITLE OF BILL:\n\nAn act to amend the public health law and the education law, in relation\nto directing the commissioners of education and health to establish\nrules and regulations for the treatment and monitoring of students of\nschool districts, boards of cooperative educational services and nonpub-\nlic schools who exhibit signs or symptoms of sudden cardiac arrest\n\n \nPURPOSE:\n\nThis legislation would establish the Dominic Murray Sudden Cardiac\nArrest Prevention Act  \nSUMMARY OF PROVISIONS:\n\nSection 1 contains the short. title of the\n\nSection 2 amends section 206 of the public health law by adding subdivi-\nsion 31 to require the Commissioner of Health to develop information to\nbe reviewed by the Commissioner of Education, relating to pupil's exhib-\niting signs or symptoms of pending or increased risk of sudden cardiac\narrest, and provide for the posting of the information on the depart-\nment's official website.\n\nSection 3 of this bill adds a new Section 923 to the education law to\ndirect the Commissioner of Education to review the information created\nby the Department of Health relating to pupils who exhibit signs or\nsymptoms of pending or increased risk of sudden cardiac arrest. Such\ninformation will be posted on the Department's website, included in\npermission form, consent form or similar document that may be required\nor a student's participation in interscholastic athretis. The Commis-\nsioner of Education will promulgate rules and regulations that authorize\nschool districts, at their discretion, to establish a SCA management\nteam.\n\nSection 4 and 5 amend the education law to make conforming changes to\nthe statute governing the training required by coaches.  Commissioner's\nRegulation Part 135.5 already requires that all coaches be trained. in\nFirst Aid and Adult CPR/AED Skills. The Commissioner's Regulations have\nalso expanded the eligible list of training agencies beyond the American\nRed Cross. This section merely conforms statute with regulation.\n\nSection 6 specifies this act shall take effect on the first of July next\nsucceeding the date on which it shall have become law, provided that,\neffective immediately, any rules and regulations necessary to implement\nthe provisions of this act on its effective date are authorized and\ndirected to be completed on or before such date.\n\n \nJUSTIFICATION:\n\nSudden Cardiac Arrest (SCA) is the leading cause of death among school\nathletes. As many as 7,000 to 10,000 young people die from SCA every\nyear. Co October 5th, 2009, Dominic Murray (age 17), suffered a sudden\ncardiac arrest and collapsed on the court during a basketball game just\nweeks in to his Freshman Year at Farmingdale State College.  His sudden\ncardiac arrest symptoms went unrecognized by all around him. SCA is a\nlife or death emergency. For every minute that passes without cardiopul-\n\nmonary resuscitation (CPR) and use of -an automated external defibrilla-\ntor (AED), the victim sustains a 10% loss of a chance of survival.\n\nWhat happened to Dominic and many other young athletes can be prevented\nby informing and educating our coaches, pupils, and parents about SCA.\nAs our children spend a significant amount of time in school and partic-\nipating in school related activities, it is critical for schools to\neducate students and their families about SCA and its signs and symp-\ntoms. The Dominic Murray Sudden Cardiac Arrest Prevention Act is neces-\nsary in order to fill this void.  Current law, together with Part 135.5\nof the Commissioner's Regulations, already require that coaches at both\npublic and non-public schools be trained in first aid, adult cardiopul-\nmonary resuscitation and use of automated external defibrillator.  All\nmaterials required by this legislation will be compiled by the State.\nThe development of a sudden cardiac arrest management team would be at\nthe option of the school district.  Similar legislation has been enacted\nin Pennsylvania, Indiana, New Jersey, Connecticut, Delaware, Oklahoma,\nTennessee, Maryland, North Carolina, Florida, Washington, Ohio, Califor-\nnia, and Georgia,\n\n \nLEGISLATIVE HISTORY:\n\nS2996A of 2019-20 S1297 of 2017-18 S7848 of 2016\n\n \nFISCAL IMPLICATIONS:\n\nMinimal given all coaches are already required to take first aid, adult\ncardiopulmonary resuscitation and use of an automated external defibril-\nlator training,\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the first of July next succeeding the date\non which it shall have become law, provided that, effective immediately,\nany rules and regulations necessary t.:-) implement the provisions of\nthis act on its effective date are authorized and directed to be\ncompleted on or before such date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1016A",
+    "publishDate": "2021-05-04",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EDN923"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "EDN3001-B",
+        "EDN3001-C",
+        "PBH206"
+       ],
+       "size": 3
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2388",
+       "basePrintNoStr": "A2388-2021",
+       "printNo": "A2388A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the public health law and the education law, in relation to\ndirecting the commissioners of education and health to establish rules and\nregulations for the treatment and monitoring of students of school districts,\nboards of cooperative educational services and nonpublic schools who exhibit\nsigns or symptoms of sudden cardiac arrest",
+    "basePrintNo": "S1016",
+    "basePrintNoStr": "S1016-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §206, Pub Health L; add §923, amd §§3001-b & 3001-c, Ed L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S1016B\n\nSPONSOR: GAUGHRAN\n \nTITLE OF BILL:\n\nAn act to amend the public health law and the education law, in relation\nto directing the commissioners of education and health to establish\nrules and regulations for the treatment and monitoring of students of\nschool districts, boards of cooperative educational services and nonpub-\nlic schools who exhibit signs or symptoms of sudden cardiac arrest\n\n \nPURPOSE:\n\nThis legislation would establish the Dominic Murray Sudden Cardiac\nArrest Prevention Act.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 contains the short title of the act.\n\nSection 2 amends section 206 of the public health law by adding subdivi-\nsion 31 to require the Commissioner of Health to develop information, in\nconjunction with the Commissioner of Education, relating to pupil's\nexhibiting signs or symptoms of pending or increased risk of sudden\ncardiac arrest, and provide for the posting of the information on the\ndepartment's official website.\n\nSection 3 of this bill adds a new Section 923 to the education law to\ndirect the Commissioner of Education to review the information created\nby the Department of Health relating to pupils who exhibit signs or\nsymptoms of pending or increased risk of sudden cardiac arrest. Such\ninformation will be posted on the Department's website, included in\npermission form, consent form or similar document that may be required\nfor a student's participation in interscholastic athletics. The Commis-\nsioner of Education will promulgate rules and regulations regarding\nreturn to play after a cardiac event.\n\nSection 4 and 5 amend the education law to make conforming changes to\nthe statute governing the training required by coaches.  Commissioner's\nRegulation Part 135.5 already requires that all coaches be trained in\nFirst Aid and Adult CPR/AED Skills. The Commissioner's Regulations have\nalso expanded the eligible list of training agencies beyond the American\nRed Cross. This section merely conforms statute with regulation.\n\nSection 6 specifies this act shall take effect on the first of July next\nsucceeding the date on which it shall have become law, provided that,\neffective immediately, any rules and regulations necessary to implement\nthe provisions of this act on its effective date are authorized and\ndirected to be completed on or before such date.\n\n \nJUSTIFICATION:\n\nSudden Cardiac Arrest (SCA) is the leading cause of death among school\nathletes. As many as 7,000 to 10,000 young people die from SCA every\nyear. On October 5th, 2009, Dominic Murray (age 17), suffered a sudden\ncardiac arrest and collapsed on the court during a basketball game just\nweeks in to his Freshman Year at Farmingdale State College.  His sudden\ncardiac arrest symptoms went unrecognized by all around him. SCA is a\nlife or death emergency. For every minute that passes without cardiopul-\nmonary resuscitation (CPR) and use of an automated external defibrilla-\ntor (AED), the victim sustains a 10% loss of a chance of survival.\n\nWhat happened to Dominic and many other young athletes can be prevented\nby informing and educating our coaches, pupils, and parents about SCA.\nAs our children spend a significant amount of time in school and partic-\nipating in school related activities, it is critical for schools to\neducate students and their families about SCA and its signs and symp-\ntoms. The Dominic Murray Sudden Cardiac Arrest Prevention Act is neces-\nsary in order to fill this void.\n\nCurrent law, together with Part 135.5 of the Commissioner's Regulations,\nalready require that coaches at both public and non-public schools be\ntrained in first aid, adult cardiopulmonary resuscitation and use of\nautomated external defibrillator.\n\nAll materials required by this legislation will be compiled by the\nState. The development of a sudden cardiac arrest management team would\nbe at the option of the school district.\n\nSimilar legislation has been enacted in Pennsylvania, Indiana, New\nJersey, Connecticut, Delaware, Oklahoma, Tennessee, Maryland, North\nCarolina, Florida, Washington, Ohio, California, and Georgia.\n\n \nLEGISLATIVE HISTORY:\n\nS2996A of 2019-20\nS1297 of 2017-18\nS7848 of 2016\n\n \nFISCAL IMPLICATIONS:\n\nMinimal given all coaches are already required to take first aid, adult\ncardiopulmonary resuscitation and use of an automated external defibril-\nlator training.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the first of July next succeeding the date\non which it shall have become law, provided that, effective immediately,\nany rules and regulations necessary to implement the provisions of this\nact on its effective date are authorized and directed to be completed on\nor before such date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1016B",
+    "publishDate": "2021-05-20",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EDN923"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "EDN3001-B",
+        "EDN3001-C",
+        "PBH206"
+       ],
+       "size": 3
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2388",
+       "basePrintNoStr": "A2388-2021",
+       "printNo": "A2388B",
+       "session": 2021,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1016",
+ "basePrintNoStr": "S1016-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 47,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2021
+   }
+  ],
+  "size": 9
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-05-04",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-05-20",
+    "billCalNo": 1033,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-05-04T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S2996",
+    "basePrintNoStr": "S2996-2019",
+    "printNo": "S2996A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S1297",
+    "basePrintNoStr": "S1297-2017",
+    "printNo": "S1297B",
+    "session": 2017,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S7848",
+    "basePrintNoStr": "S7848-2015",
+    "printNo": "S7848",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S1016B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-05T19:56:24.469138",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-05-04T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2021-05-20T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2021-01-05T19:56:24.469138",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 5,
+   "fullName": "Jim Gaughran",
+   "imgName": "1042_Jim_Gaughran.jpg",
+   "incumbent": false,
+   "memberId": 1222,
+   "sessionMemberId": 1807,
+   "sessionYear": 2021,
+   "shortName": "GAUGHRAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-05-20",
+  "billCalNo": 1033,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2388",
+  "basePrintNoStr": "A2388-2021",
+  "session": 2021
+ },
+ "summary": "Establishes the \"Dominic Murray sudden cardiac arrest prevention act\"; directs the commissioners of education and health to establish rules and regulations for the treatment and monitoring of students of school districts, boards of cooperative educational services and nonpublic schools who exhibit signs or symptoms of sudden cardiac arrest; further provides that the commissioner of education shall promulgate rules and regulations requiring any student displaying signs or symptoms of pending or increased risk of sudden cardiac arrest to be immediately removed from athletic activities and not resume such activity until he or she has been evaluated by and received written and signed authorization from a licensed physician.",
+ "title": "Establishes the \"Dominic Murray sudden cardiac arrest prevention act\"",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2021",
+     "printNo": "S1016A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2021-05-11",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

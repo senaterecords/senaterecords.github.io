@@ -1,0 +1,562 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4583",
+     "basePrintNoStr": "S4583-2019",
+     "printNo": "S4583",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-15",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4583",
+     "basePrintNoStr": "S4583-2019",
+     "printNo": "S4583",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-30",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4583",
+     "basePrintNoStr": "S4583-2019",
+     "printNo": "S4583",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-30",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1012"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4583",
+     "basePrintNoStr": "S4583-2019",
+     "printNo": "S4583",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-30",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A407"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to prior notice of\nphysician privileges in nursing home residency agreements",
+    "basePrintNo": "S4583",
+    "basePrintNoStr": "S4583-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2803-c, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S4583\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:  An act to amend the public health law, in relation to\nprior notice of physician privileges in nursing home residency agree-\nments\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRequires nursing homes to provide potential residents with their policy\non granting physician privileges prior to the execution of a residency\nagreement.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nAdds a new paragraph q to subdivision 3 of section 2803-c of the public\nhealth law.\n\n \nJUSTIFICATION:\n\nPotential nursing home residents have a right to know which physicians\nwill be available to provide care prior to signing a residency agree-\nment. Many individuals enter nursing homes having pre-existing relation-\nships with doctors in their community. Whether or not those physicians\nalready have or have the opportunity to be granted privileges may play\nan important role in choosing a nursing facility.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2018: A.150A - Advanced to third reading\n2017: A.150 - Referred to Health\n2015-2016:A.1393- Referred to Health\n2013-2014:A.1239- Referred to health\n2011-2012:A.230 -Referred to health\n2009-2010:A.714-Referred to health\n2007-2008:A.7718- Referred to health\n2006: A.11220A - Referred to health\n\n \nFISCAL IMPLICATIONS:  None.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4583",
+    "publishDate": "2019-03-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A407",
+       "basePrintNoStr": "A407-2019",
+       "printNo": "A407",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4583",
+ "basePrintNoStr": "S4583-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 48,
+    "year": 2019
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-05-30",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-05-30",
+    "billCalNo": 1012,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2019-03-15T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-05-30T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A150",
+    "basePrintNoStr": "A150-2017",
+    "printNo": "A150A",
+    "session": 2017,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A1393",
+    "basePrintNoStr": "A1393-2015",
+    "printNo": "A1393",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A1239",
+    "basePrintNoStr": "A1239-2013",
+    "printNo": "A1239",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A230",
+    "basePrintNoStr": "A230-2011",
+    "printNo": "A230",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A714",
+    "basePrintNoStr": "A714-2009",
+    "printNo": "A714",
+    "session": 2009,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A7718",
+    "basePrintNoStr": "A7718-2007",
+    "printNo": "A7718",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 6
+ },
+ "printNo": "S4583",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-03-15T12:48:19.695164",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-03-15T12:48:19.695164",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 10,
+   "fullName": "James Sanders Jr.",
+   "imgName": "432_james_sanders_jr.jpg",
+   "incumbent": true,
+   "memberId": 432,
+   "sessionMemberId": 1208,
+   "sessionYear": 2019,
+   "shortName": "SANDERS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-05-30",
+  "billCalNo": 1012,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A407",
+  "basePrintNoStr": "A407-2019",
+  "session": 2019
+ },
+ "summary": "Requires nursing homes to provide potential residents with policy on granting physician privileges prior to executing agreement.",
+ "title": "Requires nursing homes to provide potential residents with policy on granting physician privileges prior to executing agreement",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4583",
+     "basePrintNoStr": "S4583-2019",
+     "printNo": "S4583",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 1283,
+         "sessionYear": 2019,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1203,
+         "sessionYear": 2019,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1281,
+         "sessionYear": 2019,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1206,
+         "sessionYear": 2019,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1223,
+         "sessionYear": 2019,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1219,
+         "sessionYear": 2019,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 1211,
+         "sessionYear": 2019,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1282,
+         "sessionYear": 2019,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 17
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        }
+       ],
+       "size": 1
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1288,
+         "sessionYear": 2019,
+         "shortName": "LAVALLE"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-05-30",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

@@ -1,0 +1,223 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S50003",
+     "basePrintNoStr": "S50003-2009",
+     "printNo": "S50003",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S50003",
+    "basePrintNoStr": "S50003-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Ed L, generally; amd §19, Chap 738 of 1988; amd §1735, Pub Auth L; amd §34, Chap 91 of 2002",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S50003",
+    "publishDate": "2009-06-23",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S60403",
+       "basePrintNoStr": "S60403-2009",
+       "printNo": "S60403",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65109",
+       "basePrintNoStr": "S65109-2009",
+       "printNo": "S65109",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65117",
+       "basePrintNoStr": "S65117-2009",
+       "printNo": "S65117",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65115",
+       "basePrintNoStr": "S65115-2009",
+       "printNo": "S65115",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65126",
+       "basePrintNoStr": "S65126-2009",
+       "printNo": "S65126",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65003",
+       "basePrintNoStr": "S65003-2009",
+       "printNo": "S65003",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65123",
+       "basePrintNoStr": "S65123-2009",
+       "printNo": "S65123",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65113",
+       "basePrintNoStr": "S65113-2009",
+       "printNo": "S65113",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65120",
+       "basePrintNoStr": "S65120-2009",
+       "printNo": "S65120",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 9
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S50003",
+ "basePrintNoStr": "S50003-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-06-23",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-06-23T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S50003",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 75
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-06-23T15:01:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-06-23T15:01:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": null,
+  "redistricting": false,
+  "rules": true
+ },
+ "status": {
+  "actionDate": "2009-06-23",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the reorganization of the New York city school construction authority, board of education and community boards.",
+ "title": "Relates to the New York city school district, board of education, chancellor, community councils and community superintendents",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

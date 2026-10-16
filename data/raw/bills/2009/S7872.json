@@ -1,0 +1,397 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7872",
+     "basePrintNoStr": "S7872-2009",
+     "printNo": "S7872",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-19",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7872",
+     "basePrintNoStr": "S7872-2009",
+     "printNo": "S7872",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-09",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.924"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7872",
+     "basePrintNoStr": "S7872-2009",
+     "printNo": "S7872",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-10",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7872",
+     "basePrintNoStr": "S7872-2009",
+     "printNo": "S7872",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-14",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7872",
+     "basePrintNoStr": "S7872-2009",
+     "printNo": "S7872",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-15",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A11023"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the town law, in relation to volunteer members of the Boght Community fire district",
+    "basePrintNo": "S7872",
+    "basePrintNoStr": "S7872-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §176-b, Town L",
+    "lawSection": "Town Law",
+    "memo": " BILL NUMBER:  S7872\n\n TITLE OF BILL :\nAn act to amend the town law, in relation to volunteer members of the\nBoght Community fire district\n\n\n PURPOSE OR GENERAL IDEA OF THE BILL :\nTo allow for the Boght Community Fire District to be exempt from the\nrequirement that no more than forty-five percent of the company's\nmembership be non-resident members.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nSection one of the bill adds the Boght Community Fire District as a\nfire company that is exempt from the requirement that no more than\nforty-five percent of its membership consist of nonresident members.\n\n JUSTIFICATION :\nIn this economic climate, it is very difficult for some volunteer fire\ncompanies to recruit new members. The Boght Community Fire District,\ndue to its location on the boundary of the City of Cohoes, attracts\nindividuals from the city of Cohoes who want to participate in the\nfire service and are willing to drive the 1-2 miles from their\nresidences to the firehouse. The Boght Community Fire District\nreceived several applications which were approved yet were unable to\naccept these new members because of the requirement that no more than\nforty-five percent of its volunteer firefights may be non-residents.\nThis requirement is a hardship for the company with regards to\nstaffing, meriting an exemption.\n\n LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7872",
+    "publishDate": "2010-05-19",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11023",
+       "basePrintNoStr": "A11023-2009",
+       "printNo": "A11023",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7872",
+ "basePrintNoStr": "S7872-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 61,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2010
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-05-19",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-14",
+    "billCalNo": 924,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2010-05-19T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7872",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-05-19T11:19:41",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-05-19T11:19:41",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 46,
+   "fullName": "Neil D. Breslin",
+   "imgName": "372_neil_d._breslin.jpg",
+   "incumbent": false,
+   "memberId": 372,
+   "sessionMemberId": 4,
+   "sessionYear": 2009,
+   "shortName": "BRESLIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-14",
+  "billCalNo": 924,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11023",
+  "basePrintNoStr": "A11023-2009",
+  "session": 2009
+ },
+ "summary": "Relates to the residency requirement for the Boght Community fire district in Albany county; authorizes more than 45% of membership from outside the district boundaries.",
+ "title": "Relates to the residency requirement for the Boght Community fire district in Albany county",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7872",
+     "basePrintNoStr": "S7872-2009",
+     "printNo": "S7872",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Craig M. Johnson",
+         "imgName": "Craig M. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 446,
+         "sessionMemberId": 62,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 11,
+         "sessionYear": 2009,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 19,
+         "sessionYear": 2009,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Antoine M. Thompson",
+         "imgName": "Antoine M. Thompson.jpg",
+         "incumbent": false,
+         "memberId": 447,
+         "sessionMemberId": 28,
+         "sessionYear": 2009,
+         "shortName": "THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 7
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Thomas P. Morahan",
+         "imgName": "Thomas P. Morahan.jpg",
+         "incumbent": false,
+         "memberId": 441,
+         "sessionMemberId": 2,
+         "sessionYear": 2009,
+         "shortName": "MORAHAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-06-09",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

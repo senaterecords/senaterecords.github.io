@@ -1,0 +1,719 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-10-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-01-08",
+    "sequenceNo": 2,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-06",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-06",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 5951A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-02",
+    "sequenceNo": 5,
+    "text": "1ST REPORT CAL.1093"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-03",
+    "sequenceNo": 6,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-09",
+    "sequenceNo": 7,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-18",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A8201A"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the executive law, in relation to providing certain civil rights protections for interns",
+    "basePrintNo": "S5951",
+    "basePrintNoStr": "S5951-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 147,
+       "sessionYear": 2013,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 137,
+       "sessionYear": 2013,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Terry Gipson",
+       "imgName": "Terry Gipson.jpg",
+       "incumbent": false,
+       "memberId": 437,
+       "sessionMemberId": 158,
+       "sessionYear": 2013,
+       "shortName": "GIPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 176,
+       "sessionYear": 2013,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 146,
+       "sessionYear": 2013,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 143,
+       "sessionYear": 2013,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 187,
+       "sessionYear": 2013,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 142,
+       "sessionYear": 2013,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §296-c, Exec L",
+    "lawSection": "Executive Law",
+    "memo": "BILL NUMBER:S5951\n\nTITLE OF BILL:  An act to amend the executive law, in relation to\nproviding certain civil rights protections for interns\n\nPURPOSE: To provide unpaid interns the same civil rights protections\nas paid interns.\n\nSUMMARY OF PROVISIONS: Section 1. The executive law is amended to add\na new section 296-c Unlawful discriminatory practices relating to\ninterns.\n\nDefines Intern and Employer.\n\nMakes it an unlawful discriminatory practice for an employer to:\n\nrefuse to hire, employ or to discriminate against an intern based on\nthe intern's age, race, creed, color, national origin, sexual\norientation, military status, sex, disability, predisposing genetic\ncharacteristics, marital status or domestic violence victim status,\n\nprint or circulate any materials which would use any form of\napplication for employment as. an intern or to make an inquiry in\nconnection with prospective employment which expresses any limitation,\nspecification or discrimination as to age, race, creed, color,\nnational origin, sexual orientation, military status, sex, disability,\npredisposing genetic characteristics, marital status or domestic\nviolence victim status,\n\ndischarge, expel or discriminate against any person because they have\nopposed any practices forbidden under this article, filed a complaint,\ntestified in any proceeding under this article,\n\ncompel an intern to take a leave of absence if pregnant,\n\nengage in unwelcome sexual advances, requests for sexual favors, or\nother verbal or physical conduct of a sexual nature to an intern.\n\nSection 2. Effective date.\n\nJUSTIFICATION: In 1994 Bridget O'Connor began an unpaid internship at\nRockland Psychiatric Center, where one of the Doctors allegedly began\nto refer to her as Miss Sexual Harassment, told her she should\nparticipate in an orgy, and suggested that she remove her clothing\nbefore meeting with him. When O'Connor filed a lawsuit, her sexual\nharassment claims were dismissed because she was an unpaid intern.\nThis was affirmed by a federal appeals court in O'Connor v. Davis.\n\nIn 2010 an unpaid intern, Lihuan Wang, had alleged that her boss at\nPhoenix Television's New York bureau had grabbed her buttocks and\ntried to kiss her. The Manhattan Federal Court recently dismissed that\nclaim stating that only paid workers are covered by the city's human\nrights law.\n\nUnder the Federal Civil Rights Act, unpaid interns are not 'employees'\nleaving them unprotected from unwanted sexual advances. Both\nWashington, D.C. and Oregon have passed an amendment to the law\n\n\nexpanding discrimination and harassment protections to interns. This\nbill mirrors the Oregon statute to provide necessary protections to\nprovide unpaid interns the same protections as paid employees.\n\nFISCAL IMPLICATIONS: None.\n\nEFFECTIVE DATE: This act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5951",
+    "publishDate": "2013-10-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the executive law, in relation to providing certain civil rights protections for interns",
+    "basePrintNo": "S5951",
+    "basePrintNoStr": "S5951-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 147,
+       "sessionYear": 2013,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 137,
+       "sessionYear": 2013,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Terry Gipson",
+       "imgName": "Terry Gipson.jpg",
+       "incumbent": false,
+       "memberId": 437,
+       "sessionMemberId": 158,
+       "sessionYear": 2013,
+       "shortName": "GIPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 176,
+       "sessionYear": 2013,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 146,
+       "sessionYear": 2013,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 143,
+       "sessionYear": 2013,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 187,
+       "sessionYear": 2013,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 142,
+       "sessionYear": 2013,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §296-c, amd §292, Exec L",
+    "lawSection": "Executive Law",
+    "memo": "BILL NUMBER:S5951A\n\nTITLE OF BILL:  An act to amend the executive law, in relation to\nproviding certain civil rights protections for interns\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would provide unpaid interns the same civil rights\nprotections as paid interns.\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of the bill adds a new section 296-c to the Executive Law,\nentitled \"Unlawful discriminatory practices relating to interns.\" The\nnew section defines and then establishes anti-discrimination\nprotections for interns. Based on a list of enumerated protected\nclasses, employers may not discriminate against interns or prospective\ninterns with respect to: hiring, discharge, or terms or conditions of\nemployment, acting on applications for internships; advertising,\napplication forms or application inquiries; retaliation for opposing\nprohibited practices; and forced pregnancy leave. The new section also\nprohibits sexual harassment of interns by employers, codifying both\nthe quid pro quo and hostile environment tests for sexual harassment.\nSection 2 amends Executive Law section 292(4) to include the\nprovisions of new section 296-c in the definition of \"unlawful\ndiscriminatory practice.\" Section 3 is the effective date.\n\nThe amendments in the A-print are made to better conform the bill,\nmodeled on Oregon's interns protections, to New York law and also to\nstrengthen protections for interns. The following specific changes\nhave been made,. The definition of employer in new Executive Law 296-c\n(1)(b) has been deleted, as there is already a definition of employer\nin Executive Law section 292. The word religion has been deleted\nthroughout, as that word is not used in the list of protected classes\nin Executive Law sections 296 and 296-a; in those sections, religion\nis subsumed under the word creed. The word religion is used in\nExecutive Law section 296-b, but it is in a shortened list of\nprotected classes that does not include the word creed. The word\n\"individual' throughout has been replaced by the word \"intern.\" The\nphrase \"in writing\" has been deleted from new section 296-c(1)(b), in\nthe definition of intern, to protect interns who have an oral, rather\nthan written, agreement that they will not be paid. Similarly the\nphrase \"given in an educational environment\" has been deleted from\nwhat is now new section 296-c(1)(c)(1) to ensure that all interns are\nprotected, including those not part of a formal academic program. The\nlanguage previously contained in what had been new section 296-\nc(1)(a)(3)(E) in the original print has been deleted as it described a\nfactual circumstance that was not intended to preclude the existence\nof an internship within the scope of the new section, but that does\nnot necessarily exist in all internships, and therefore it should not\nhave been listed as one of the required elements in the definition of\nintern. Also, Executive Law 292(4) has been amended to include the\nprovisions of new section 296-c in the definition of \"unlawful\ndiscriminatory practice.\"\n\nJUSTIFICATION:\n\n\nCase law in this state has long held that unpaid volunteers are not\nprotected by Executive Law section 296. Sweeney v.  Board of Education\nof Rocky Point. UFSD, 491 NYS2d 455 (2d Dept.  1985) (mutually\nbeneficial economic substance, i.e., compensation, is touchstone of\nemployer-employee relationship). The Second Circuit applied that case\nlaw in dismissing the claims of a female college student who was\nrequired to perform field work as one of the requirements of her\nmajor. Her college arranged for her to be placed in an unpaid\ninternship at. Rockland Psychiatric Center. While she was working\nthere, one of the doctors allegedly began to refer to her as Miss\nSexual Harassment, told her she should participate in an orgy, and\nsuggested that she remove her clothing before meeting with him. Her\nfederal Title VII claim was dismissed because she was an unpaid\nintern, and therefore, the court held, not an employee protected by\nTitle VII. O'Connor v. Davis, 126 F.3d 112 (2d Cir. 1997). More\nrecently, an unpaid intern, Lihuan Wang, had alleged that her boss at\nPhoenix Television's New York bureau had groped her and tried to kiss\nher. Citing O'Connor v. Davis, the U.S. District Court for the\nSouthern District of New York dismissed that claim, deciding that only\npaid workers are covered by the New York state and city human rights\nlaws.  Wang v. Phoenix Satellite Television, 120 Fair Empl. Prac. Cas.\n(BNA) 1618 (SDNY 2013). This bill is intended to override that case\nlaw with respect to unpaid interns who fall within the scope of the\nnew Executive Law section 296-c that the bill would add to the Human\nRights Law.\n\nBoth Washington, D.C. and Oregon have expanded their discrimination\nand harassment protections to interns. This bill mirrors the Oregon\nmodel, with the changes noted above that have been made in the\nA-print, to provide unpaid interns the same important. and necessary\nprotections against discrimination as paid employees. While it made\nsense 30 years ago for courts to use a dictionary definition of\nemployer to conclude that unpaid volunteers (or interns) were not\ncovered by the NYS Human Rights Law, in today's economy the failure to\nprotect interns - whether paid or unpaid - against sexual harassment\nand other forms of discrimination no longer makes sense, is bad social\npolicy, and is inconsistent with the overarching purpose of the Human\nRights Law to \"assure that every individual within this state is\nafforded an equal opportunity to enjoy a full and productive life ...\nand to eliminate and prevent discrimination.  Executive Law section\n290. Young people seeking employment in an economy that still has not\nrecovered from the worst recession since the Great Depression are\nunder extreme pressure to build up resumes and work references.\nIncreasingly, they turn to unpaid internships to do so. Interns, to an\neven greater extent than employees, are easy victims of sexual\nharassment as the relationship between employer and intern is the\nclassic example of the power imbalance that is at the heart of sexual\nharassment. It is time for the State of New York to extend protection\nagainst sexual harassment and other forms of discrimination to these\nvulnerable young people.\n\nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\nFISCAL IMPLICATIONS:\n\n\nNone to the state.\n\nEFFECTIVE DATE:\n\nImmediately\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5951A",
+    "publishDate": "2014-02-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8201",
+       "basePrintNoStr": "A8201-2013",
+       "printNo": "A8201A",
+       "session": 2013,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5951",
+ "basePrintNoStr": "S5951-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 45,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2014
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2014
+   }
+  ],
+  "size": 8
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2014
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Investigations And Government Operations"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-02-06",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2014-06-09",
+    "billCalNo": 1093,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2014-01-08T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2014-02-06T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2013-10-11T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5951A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-10-11T15:49:29",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2014-02-06T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2013-10-11T15:49:29",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 28,
+   "fullName": "Liz Krueger",
+   "imgName": "401_liz_krueger.jpg",
+   "incumbent": true,
+   "memberId": 401,
+   "sessionMemberId": 129,
+   "sessionYear": 2013,
+   "shortName": "KRUEGER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-06-09",
+  "billCalNo": 1093,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8201",
+  "basePrintNoStr": "A8201-2013",
+  "session": 2013
+ },
+ "summary": "Provides certain civil rights protections for interns.",
+ "title": "Provides certain civil rights protections for interns",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5951",
+     "basePrintNoStr": "S5951-2013",
+     "printNo": "S5951A",
+     "session": 2013,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Investigations And Government Operations"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 126,
+         "sessionYear": 2013,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 177,
+         "sessionYear": 2013,
+         "shortName": "DIAZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 176,
+         "sessionYear": 2013,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 163,
+         "sessionYear": 2013,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 150,
+         "sessionYear": 2013,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 183,
+         "sessionYear": 2013,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Daniel L. Squadron",
+         "imgName": "412_daniel_l._squadron.jpg",
+         "incumbent": false,
+         "memberId": 412,
+         "sessionMemberId": 157,
+         "sessionYear": 2013,
+         "shortName": "SQUADRON"
+        }
+       ],
+       "size": 7
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 178,
+         "sessionYear": 2013,
+         "shortName": "GOLDEN"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Lee M. Zeldin",
+         "imgName": "Lee M. Zeldin.jpg",
+         "incumbent": false,
+         "memberId": 404,
+         "sessionMemberId": 160,
+         "sessionYear": 2013,
+         "shortName": "ZELDIN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2014-06-02",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

@@ -1,0 +1,244 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6660",
+     "basePrintNoStr": "S6660-2009",
+     "printNo": "S6660",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6660",
+     "basePrintNoStr": "S6660-2009",
+     "printNo": "S6660",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-09",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6660",
+     "basePrintNoStr": "S6660-2009",
+     "printNo": "S6660",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-15",
+    "sequenceNo": 3,
+    "text": "RECOMMITTED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6660",
+     "basePrintNoStr": "S6660-2009",
+     "printNo": "S6660",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-04-07",
+    "sequenceNo": 4,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property law, in relation to penalties for rentals which violate occupancy restrictions",
+    "basePrintNo": "S6660",
+    "basePrintNoStr": "S6660-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §235, RP L",
+    "lawSection": "Real Property Law",
+    "memo": " BILL NUMBER:  S6660\n\n TITLE OF BILL :\nAn act to amend the real property law, in relation to penalties for\nrentals which violate occupancy restrictions\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nPenalize any property owner, or other parties who, for a fee,\nknowingly takes part in or assists in the rental of residential\nproperty when such rental is in violation of state or local occupancy\nlimits, zoning regulations, building codes, or any related rules or\nregulations.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nViolators shall be defined following the stipulations in section three\nhundred four of the multiple residence law.\n\nViolators shall be guilty of a misdemeanor and punishable by a fine of\ntwenty-five hundred dollars, or a sentence pursuant to subdivision\nfive of section 80.05 of the penal code.\n\nProperty will be returned to prior conditions and violators will be\nresponsible for incurring all relocation costs for any person who must\nmove out.\n\n JUSTIFICATION :\nTo prevent landlords from getting away with illegal violations and\ndeterring future violations by inferring the violator pays a fine,\nrestore the property to its original state, and relocates the renter.\n\n PRIOR LEGISLATIVE HISTORY :\nNONE.\n\n FISCAL IMPLICATIONS :\nTo be determined.\n\n EFFECTIVE DATE :\nThis act shall take effect on the sixtieth day after it shall have\nbecome law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6660",
+    "publishDate": "2010-01-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S7391",
+       "basePrintNoStr": "S7391-2009",
+       "printNo": "S7391",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "A355",
+       "basePrintNoStr": "A355-2009",
+       "printNo": "A355B",
+       "session": 2009,
+       "version": "B"
+      }
+     ],
+     "size": 2
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6660",
+ "basePrintNoStr": "S6660-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 8,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-03-15",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2010-03-09T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2010-01-25T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2010-03-15T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6660",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-01-25T15:40:18",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-01-25T15:40:18",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 23,
+   "fullName": "Diane J. Savino",
+   "imgName": "403_diane_j._savino.jpg",
+   "incumbent": false,
+   "memberId": 403,
+   "sessionMemberId": 33,
+   "sessionYear": 2009,
+   "shortName": "SAVINO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-04-07",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Penalizes owners who knowingly rent property in violation of occupancy limits, zoning laws, or related rules; penalties include a fine of $2500, required restoration of the property to pre-rental condition, and payment of relocation costs for any persons who must move out of the illegal rental.",
+ "title": "Penalizes by a minimum fine of $2500 persons who knowingly rent residential property in violation of state or local occupancy limits, zoning, or rules",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

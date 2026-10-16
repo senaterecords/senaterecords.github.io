@@ -1,0 +1,401 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6430",
+     "basePrintNoStr": "S6430-2011",
+     "printNo": "S6430",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-02-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6430",
+     "basePrintNoStr": "S6430-2011",
+     "printNo": "S6430",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-02-29",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.233"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6430",
+     "basePrintNoStr": "S6430-2011",
+     "printNo": "S6430",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-01",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6430",
+     "basePrintNoStr": "S6430-2011",
+     "printNo": "S6430",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-05",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6430",
+     "basePrintNoStr": "S6430-2011",
+     "printNo": "S6430",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-07",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A2603B"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to authorize Occupations, Inc. to file an application for a real property tax exemption",
+    "basePrintNo": "S6430",
+    "basePrintNoStr": "S6430-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Real Property Taxation",
+    "memo": "BILL NUMBER:S6430\n\nTITLE OF BILL:\nAn act\nto authorize Occupations, Inc. to file an application for a\nreal property tax exemption\n\nPURPOSE:\nTo allow property that was acquired by Occupations, Inc., a\nnot-for-profit corporation, to house their clinic to become exempt\nfrom real property taxes.\n\nSUMMARY OF PROVISIONS:\nThis bill directs the assessors of the Town and Village of Goshen to\naccept an application for exemption from real property taxes pursuant\nto the Real Property Tax Law even if such application is not timely\nfor the 2009 tax year.\n\nEXISTING LAW:\nOccupation's Inc. purchased property located at 2001 Route 17M, Goshen\nto house their clinic to serve the Goshen area. This not-for-profit\norganization missed the deadline that it needed to file a real\nproperty tax exemption application for the fiscal year 2009. This\nbill allows this charitable organization to file a late application\nfor such real property tax exemption.\n\nJUSTIFICATION:\nCertain not-for-profit organizations are exempt from paying real\nproperty taxes. This bill allows Occupations, Inc. to obtain its real\nproperty tax exemption for recently purchased property to be used for\nits charitable purposes.\n\nLEGISLATIVE HISTORY:\n2009-10: A.2755  - Held for Consideration in Real Property Taxation\n2008:    A.11728 - Referred to Real Property Taxation.\n\nFISCAL IMPLICATIONS:\nNone.\n\nEFFECTIVE DATE:\nImmediate.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6430",
+    "publishDate": "2012-02-08",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2603",
+       "basePrintNoStr": "A2603-2011",
+       "printNo": "A2603B",
+       "session": 2011,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6430",
+ "basePrintNoStr": "S6430-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 15,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 16,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 17,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 18,
+    "year": 2012
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 7,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-02-08",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2012-03-05",
+    "billCalNo": 233,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2012-02-08T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6430",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-02-08T14:38:52",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2012-02-08T14:38:52",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "William J. Larkin Jr.",
+   "imgName": "374_william_j._larkin_jr.jpg",
+   "incumbent": false,
+   "memberId": 374,
+   "sessionMemberId": 68,
+   "sessionYear": 2011,
+   "shortName": "LARKIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-03-05",
+  "billCalNo": 233,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2603",
+  "basePrintNoStr": "A2603-2011",
+  "session": 2011
+ },
+ "summary": "Authorizes Occupations, Inc. to apply to the assessors of the village and town of Goshen for a real property tax exemption on a certain parcel of land.",
+ "title": "Authorizes Occupations, Inc. to apply to the assessors of the village and town of Goshen for a real property tax exemption on a certain parcel of land",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6430",
+     "basePrintNoStr": "S6430-2011",
+     "printNo": "S6430",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Greg Ball",
+         "imgName": "Greg Ball.jpg",
+         "incumbent": false,
+         "memberId": 408,
+         "sessionMemberId": 102,
+         "sessionYear": 2011,
+         "shortName": "BALL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 84,
+         "sessionYear": 2011,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 73,
+         "sessionYear": 2011,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 91,
+         "sessionYear": 2011,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Roy J. McDonald",
+         "imgName": "Roy J. McDonald.jpg",
+         "incumbent": false,
+         "memberId": 389,
+         "sessionMemberId": 83,
+         "sessionYear": 2011,
+         "shortName": "MCDONALD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 117,
+         "sessionYear": 2011,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 7
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 82,
+         "sessionYear": 2011,
+         "shortName": "OPPENHEIMER"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2012-02-29",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

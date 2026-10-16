@@ -1,0 +1,832 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2994",
+     "basePrintNoStr": "S2994-2019",
+     "printNo": "S2994",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-31",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2994",
+     "basePrintNoStr": "S2994-2019",
+     "printNo": "S2994",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-19",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2994",
+     "basePrintNoStr": "S2994-2019",
+     "printNo": "S2994A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-19",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 2994A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2994",
+     "basePrintNoStr": "S2994-2019",
+     "printNo": "S2994A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-13",
+    "sequenceNo": 4,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2994",
+     "basePrintNoStr": "S2994-2019",
+     "printNo": "S2994A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-13",
+    "sequenceNo": 5,
+    "text": "ORDERED TO THIRD READING CAL.1338"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2994",
+     "basePrintNoStr": "S2994-2019",
+     "printNo": "S2994A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-13",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A2371A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to repeal subdivision 9 of section 2164 of the public health law,\nrelating to exemption from vaccination due to religious beliefs",
+    "basePrintNo": "S2994",
+    "basePrintNoStr": "S2994-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld §2164 sub 9, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S2994\n\nSPONSOR: HOYLMAN\n \nTITLE OF BILL:\n\nAn act to repeal subdivision 9 of section 2164 of the public health law,\nrelating to exemption from vaccination due to religious beliefs\n\n \nPURPOSE:\n\nThis bill would repeal all non-medical exemptions from vaccination\nrequirements for children.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill repeals subdivision 9 of section 2164 of the\npublic health law.\n\nSection 2 provides that the act shall take effect immediately.\n\n \nJUSTIFICATION:\n\nExisting New York State law requires all children in New York to receive\ncertain immunizations for poliomyelitis, mumps, measles, diphtheria,\nrubella, HiB, hepatitis B, and varicella. The law provides an exemption\nfrom the immunization requirements where a physician certifies that the\nimmunization may be detrimental to a child's health.\n\nAccording to the Centers for Disease Control, sustaining a high vaccina-\ntion rate among school children is vital to the prevention of disease\noutbreaks, including the reestablishment of diseases that have been\nlargely eradicated in the United States, such as measles.  According to\nState data from 2013-2014, there are at least 285 schools in New York\nwith an immunization rate below 85%, including 170 schools below 70%,\nfar below the CDC's goal of at least a 95% vaccination rate to maintain\nherd immunity. This bill would repeal exemptions currently found in the\nlaw for children whose parents have non-medical objections to immuniza-\ntions.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nS.0052 of 2017-2018 (Hoylman): Died in Health\n\nA.1810 of 2017-2018 (Dinowitz): Died in Health\n\nS.6017 of 2015-2016 (Hoylman): Died in Rules (2015)/Died in Health\n(2016)\n\nA.8329 of 2015-2016 (Dinowitz): Died in Health\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2994",
+    "publishDate": "2019-01-31",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2371",
+       "basePrintNoStr": "A2371-2019",
+       "printNo": "A2371",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to exemptions from\nvaccination due to religious beliefs; to repeal subdivision 9 of section 2164\nof the public health law, relating to exemption from vaccination due to\nreligious beliefs; and providing for the repeal of certain provisions upon\nexpiration thereof",
+    "basePrintNo": "S2994",
+    "basePrintNoStr": "S2994-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld §2164 sub 9, amd §§2164 & 2168, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S2994A              REVISED 05/21/19\n\nSPONSOR: HOYLMAN\n \nTITLE OF BILL:  An act to amend the public health law, in relation to\nexemptions from vaccination due to religious beliefs; to repeal subdivi-\nsion 9 of section 2164 of the public health law, relating to exemption\nfrom vaccination due to religious beliefs; and providing for the repeal\nof certain provisions upon expiration thereof\n\n \nPURPOSE:\n\nThis bill would repeal all non-medical exemptions from vaccination\nrequirements for children.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill repeals subdivision 9 of section 2164 of the\npublic health law.\n\nSection 2 of the bill strikes a reference in subdivision 6 of section\n2164 of the public health law to the repealed subdivision 9.\n\nSection 2 also amends subdivision 7 of section 2164 to allow unvaccinat-\ned children a grace period during which they can still attend school or\nday care, provided they can demonstrate that they have received at least\nthe first dose of each required immunization series, and have age-appro-\npriate appointments scheduled to complete such immunization series.\n\nSection 3 strikes a reference in subdivision 5 of section 2168 of the\npublic health law to the repealed subdivision 9 of section 2164.\n\nSection 4 establishes the effective date.\n\n \nJUSTIFICATION:\n\nThe United States is currently experiencing the worst outbreak of\nmeasles since 1994, a disease that, in a major public health victory,\nofficials declared eliminated from the United States in 2000.  880 cases\nof measles have been confirmed nationwide so far in 2019.\n\nOutbreaks in New York have been the primary driver of this epidemic.  As\nof May 20th, 2019, there have been at least 810 confirmed cases of\nmeasles in New York State since October 2018. The outbreaks have largely\nbeen concentrated in communities in Brooklyn and Rockland County with\nprecipitously low immunization rates, some as low as 70 percent.\n\nFor guidance in dealing with this epidemic, we need only look to Cali-\nfornia, which repealed all non-medical exemptions to vaccination\nrequirements under their state law after suffering an outbreak at\nDisneyland in 2014 that resulted in at least 131 cases of measles (about\nsix times fewer cases than the current number of cases confirmed in New\nYork).\n\nAfter California repealed their non-medical exemptions, their vaccina-\ntion rates improved demonstrably, particularly in schools with the\nlowest rates of compliance. The percentage of kindergarten students in\nthe 2017-18 school year with all their required vaccines was 95.1% - a\n4.7 percentage point increase over 2014-15.\n\nNew York's law currently allows children to avoid vaccinations on the\ngrounds that they contradict the \"genuine and sincere religious beliefs\"\nof the child's parent or guardian. New York should follow California's\nexample and repeal this provision of law.\n\nAlthough freedom of religious expression is a founding tenet of this\nnation, there is longstanding precedent establishing that one's right to\nfree religious expression does not include the right to endanger the\nhealth of the community, one's children, or the children of others.\n\nAs far back as 1905, the U.S. Supreme Court held that it is within the\npolice power of a State to enact a compulsory vaccination law in Jacob-\nson v. Massachusetts. In the 1944 case Prince v. Massachusetts upholding\na conviction for a child labor law violation against a free exercise of\nreligion claim, the U.S. Supreme Court observed that \"the right to prac-\ntice religion freely does not include liberty to expose the community or\nthe child to communicable disease or the latter to ill health or death.\"\n\nIn 2015, citing the Jacobson and Prince rulings as precedent, the Second\nCircuit of the U.S. Court of Appeals opined in their ruling in Phillips\nv. City of New York that \"New York could constitutionally require that\nall children be vaccinated in order to attend public school.\" The court\nalso stated, \"New York law goes beyond what the Constitution requires by\nallowing an exemption for parents with genuine and sincere religious\nbeliefs.\"\n\nNew York's Constitution specifically states that its protections for the\nfree exercise of religion \"shall not be so construed as to justify prac-\ntices inconsistent with the peace or safety of this state.\"\n\nThis legislation would repeal New York's religious exemption for vacci-\nnation requirements to protect the health of all New Yorkers, partic-\nularly our children.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2017-18: S.52 (Hoylman) - Died in Health\n2016: S.6017 (Hoylman) - Died in Health\n2015: S.6017 (Hoylman) - Died in Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided, however, that the\namendments to subdivision 7 of section 2164 of the public health law\nmade by section two of this act shall expire and be deemed repealed June\n30, 2020.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2994A",
+    "publishDate": "2019-05-19",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2371",
+       "basePrintNoStr": "A2371-2019",
+       "printNo": "A2371A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2994",
+ "basePrintNoStr": "S2994-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2019
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-06-13",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-06-13",
+    "billCalNo": 1338,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2019-01-31T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2019-05-19T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-06-13T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S52",
+    "basePrintNoStr": "S52-2017",
+    "printNo": "S52",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S6017",
+    "basePrintNoStr": "S6017-2015",
+    "printNo": "S6017",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S2994A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-31T14:27:23.106810",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-05-19T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2019-01-31T14:27:23.10681",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 27,
+   "fullName": "Brad Hoylman-Sigal",
+   "imgName": "438_brad_hoylman.jpg",
+   "incumbent": false,
+   "memberId": 438,
+   "sessionMemberId": 1190,
+   "sessionYear": 2019,
+   "shortName": "HOYLMAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-06-13",
+  "billCalNo": 1338,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2371",
+  "basePrintNoStr": "A2371-2019",
+  "session": 2019
+ },
+ "summary": "Relates to exemptions from vaccinations due to religious beliefs; and repeals certain provisions relating to exemption from vaccination due to religious beliefs.",
+ "title": "Relates to exemptions from vaccinations due to religious beliefs; and repeals subdivision 9 of section 2164 of the public health law relating to exemption from vaccination due to religious beliefs",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S2994",
+     "basePrintNoStr": "S2994-2019",
+     "printNo": "S2994A",
+     "session": 2019,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1203,
+         "sessionYear": 2019,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1206,
+         "sessionYear": 2019,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1223,
+         "sessionYear": 2019,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1282,
+         "sessionYear": 2019,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 11
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1281,
+         "sessionYear": 2019,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1219,
+         "sessionYear": 2019,
+         "shortName": "MARTINEZ"
+        }
+       ],
+       "size": 3
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 1283,
+         "sessionYear": 2019,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1288,
+         "sessionYear": 2019,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 1211,
+         "sessionYear": 2019,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 5
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2019-06-13",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

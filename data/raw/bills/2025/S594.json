@@ -1,0 +1,785 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S594",
+     "basePrintNoStr": "S594-2025",
+     "printNo": "S594",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-01-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S594",
+     "basePrintNoStr": "S594-2025",
+     "printNo": "S594",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-02-11",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S594",
+     "basePrintNoStr": "S594-2025",
+     "printNo": "S594",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-07",
+    "sequenceNo": 3,
+    "text": "REFERRED TO EDUCATION"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to providing universal school\nmeals to students",
+    "basePrintNo": "S594",
+    "basePrintNoStr": "S594-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 2360,
+       "sessionYear": 2025,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2353,
+       "sessionYear": 2025,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2374,
+       "sessionYear": 2025,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2373,
+       "sessionYear": 2025,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 2321,
+       "sessionYear": 2025,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 2324,
+       "sessionYear": 2025,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Dean Murray",
+       "imgName": "910_dean_murray.jpg",
+       "incumbent": true,
+       "memberId": 1521,
+       "sessionMemberId": 2320,
+       "sessionYear": 2025,
+       "shortName": "MURRAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 2368,
+       "sessionYear": 2025,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "Robert Rolison",
+       "imgName": "1336_Robert_Rolison.jpg",
+       "incumbent": true,
+       "memberId": 1519,
+       "sessionMemberId": 2356,
+       "sessionYear": 2025,
+       "shortName": "ROLISON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 2378,
+       "sessionYear": 2025,
+       "shortName": "RYAN S"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2349,
+       "sessionYear": 2025,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2359,
+       "sessionYear": 2025,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 27
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §915-a, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S594\n\nSPONSOR: HINCHEY\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to providing universal\nschool meals to students\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRelates to providing universal school meals to students\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends education law by adding a new section 915-a to require\nall public school districts, charter schools, and non-public schools to\nserve breakfast and lunch at no cost to students.\n\nSection 2 sets forth the bill's effective date.\n\n \nJUSTIFICATION:\n\nThe health and economic crises brought on by the COV1D-19 pandemic have\nmade the importance of the federal school meat programs clearer than\never. A record number of New Yorkers do not have enough to eat, and it\nis Likely that the economic recovery for families who struggle to put\nfood on the table will take years beyond the end of the pandemic.\n\nWhile many New York schools - predominantly our larger, urban school\ndistricts - offer meals at no cost for all through CEP, 270 schools in\nour state are eligible for CEP but not participating, often because they\nare unable to make it work financially. Many of these schools are our\nsmallest school districts in rural communities, where poverty is less\nconcentrated but still prevalent.\n\nThere has never been a more important time to invest in school meals.\nAs of 2024 nine states have fully implemented free school meals regard-\nless of income, as well as several municipalities in New York State\nincluding New York City and Albany. 1\n\nThis bill would ensure that every K-12 student in New York has equal\naccess to a nutritious breakfast and lunch at school to support their\nhealth and academic success at no cost to them.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2023: S1678A referred to Education / A1941 referred to Education\n\n2024: S1678A referred to Education / A1941 referred to Education\n\n \nFISCAL IMPLICATIONS TO STATE AND LOCAL GOVERNMENTS:\n\nNone\n\n \nEFFECTIVE DATE:,\nThis act shall take effect July 1, 2024\n1 States that Have Passed Universal Free School Meats (So Far)\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S594",
+    "publishDate": "2025-01-02",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EDN915-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A282",
+       "basePrintNoStr": "A282-2025",
+       "printNo": "A282",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S594",
+ "basePrintNoStr": "S594-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 5,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-01-07",
+    "billCalNo": null,
+    "committeeName": "Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2025-01-08T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2025-02-11T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1678",
+    "basePrintNoStr": "S1678-2023",
+    "printNo": "S1678A",
+    "session": 2023,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S9144",
+    "basePrintNoStr": "S9144-2021",
+    "printNo": "S9144",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S594",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-01-02T15:29:31.249115",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2025-01-02T15:29:31.249115",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 41,
+   "fullName": "Michelle Hinchey",
+   "imgName": "1314_Michelle_Hinchey.jpg",
+   "incumbent": true,
+   "memberId": 1497,
+   "sessionMemberId": 2358,
+   "sessionYear": 2025,
+   "shortName": "HINCHEY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-01-07",
+  "billCalNo": null,
+  "committeeName": "Education",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires all public school districts, charter schools and non-public schools in the state that participate in the national school lunch program or school breakfast program as provided in the national child nutrition act to serve breakfast and lunch at no cost to the student.",
+ "title": "Relates to providing universal school meals to students",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S594",
+     "basePrintNoStr": "S594-2025",
+     "printNo": "S594",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2332,
+         "sessionYear": 2025,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Siela Bynoe",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1549,
+         "sessionMemberId": 2323,
+         "sessionYear": 2025,
+         "shortName": "BYNOE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Stephen T. Chan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1550,
+         "sessionMemberId": 2334,
+         "sessionYear": 2025,
+         "shortName": "CHAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Cordell Cleare",
+         "imgName": "Cordell Cleare.jpg",
+         "incumbent": true,
+         "memberId": 1504,
+         "sessionMemberId": 2347,
+         "sessionYear": 2025,
+         "shortName": "CLEARE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2339,
+         "sessionYear": 2025,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2333,
+         "sessionYear": 2025,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 2321,
+         "sessionYear": 2025,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2354,
+         "sessionYear": 2025,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2335,
+         "sessionYear": 2025,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2328,
+         "sessionYear": 2025,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 2361,
+         "sessionYear": 2025,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "William Weber",
+         "imgName": "1335_William_Weber.jpg",
+         "incumbent": true,
+         "memberId": 1518,
+         "sessionMemberId": 2355,
+         "sessionYear": 2025,
+         "shortName": "WEBER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Alexis Weik",
+         "imgName": "1310_Alexis_Weik.jpg",
+         "incumbent": true,
+         "memberId": 1493,
+         "sessionMemberId": 2325,
+         "sessionYear": 2025,
+         "shortName": "WEIK"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2025-02-11",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

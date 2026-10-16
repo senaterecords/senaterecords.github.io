@@ -1,0 +1,223 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S50007",
+     "basePrintNoStr": "S50007-2009",
+     "printNo": "S50007",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S50007",
+    "basePrintNoStr": "S50007-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§1210 & 1212-A, Tax L; amd §§11-2001, 11-2002 & 11-2040, NYC Ad Cd",
+    "lawSection": "Tax Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S50007",
+    "publishDate": "2009-06-23",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S60416",
+       "basePrintNoStr": "S60416-2009",
+       "printNo": "S60416",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "A8866",
+       "basePrintNoStr": "A8866-2009",
+       "printNo": "A8866",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65015",
+       "basePrintNoStr": "S65015-2009",
+       "printNo": "S65015",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65127",
+       "basePrintNoStr": "S65127-2009",
+       "printNo": "S65127",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65139",
+       "basePrintNoStr": "S65139-2009",
+       "printNo": "S65139",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65136",
+       "basePrintNoStr": "S65136-2009",
+       "printNo": "S65136",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65133",
+       "basePrintNoStr": "S65133-2009",
+       "printNo": "S65133",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S5897",
+       "basePrintNoStr": "S5897-2009",
+       "printNo": "S5897",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65130",
+       "basePrintNoStr": "S65130-2009",
+       "printNo": "S65130",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 9
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S50007",
+ "basePrintNoStr": "S50007-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-06-23",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-06-23T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S50007",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 78
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-06-23T15:01:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-06-23T15:01:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": null,
+  "redistricting": false,
+  "rules": true
+ },
+ "status": {
+  "actionDate": "2009-06-23",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Increases certain sales and compensating use taxes in cities having a population of 1 million or more.",
+ "title": "Increases certain sales and compensating use taxes in cities having a population of 1 million or more",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

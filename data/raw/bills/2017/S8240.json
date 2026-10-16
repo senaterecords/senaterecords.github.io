@@ -1,0 +1,202 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8240",
+     "basePrintNoStr": "S8240-2017",
+     "printNo": "S8240",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-04-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO SOCIAL SERVICES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8240",
+     "basePrintNoStr": "S8240-2017",
+     "printNo": "S8240",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-04-26",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8240",
+     "basePrintNoStr": "S8240-2017",
+     "printNo": "S8240",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-05-07",
+    "sequenceNo": 3,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law, in relation to appeals and fair\nhearings",
+    "basePrintNo": "S8240",
+    "basePrintNoStr": "S8240-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §22, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": "\n \nBILL NUMBER: S8240\n\nSPONSOR: TEDISCO\n \nTITLE OF BILL:\n\nAn act to amend the social services law, in relation to appeals and fair\nhearings\n\n \nPURPOSE OF THE BILL:\n\nThis bill would amend the Social Services Law (SSL) to permit any party\nin a Department of Health (DOH) administrative hearing to appeal the\nfinal determination to DOH's chief Administrative Law Judge (AU).\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of the bill would amend subdivision 9 of SSL § 22 to allow\nany party to appeal the final determination of the presiding AU to DOH's\nchief AU.\n\nSection two of the bill would make it effective 90 days after it shall\nbecome law.\n\n \nJUSTIFICATION:\n\nThere is a right to fairness in adjudicatory proceedings for all parties\ninvolved. When making a determination in an administrative proceeding,\nthe presiding AU is required to set forth the grounds for the decision\nand the essential facts upon which the agency's inferences are based.\nSuch a determination is required to be supported by a substantial weight\nof the evidence and grounded in law. Currently, if the presiding AU errs\nin making a decision, the appellant has the right to apply for a review\nof such determination as provided by article seventy-eight of the Civil\nPractice Law and Rules. However, if an error is made by the AU against\nthe agency, there is arguably no recourse to the agency. An erroneous\ndecision could have a significant effect on the agency's ability to\npursue future claims, implement sanctions, or recover overpayments for\nclaims rightfully due to the State. This bill would create a mechanism\nfor either party to appeal to the Chief Administrative Law Judge or such\nother person designated by the Commissioner of Health for a review of\nthe determination made by the presiding AU.\n\nThe Medicaid Inspector General's inability to appeal an adverse deci-\nsion, is inconsistent with the right to appeal afforded to other State\nagencies such as the Industrial Board of Appeals and the Unemployment\nInsurance Appeals Board. The creation of this mechanism allows any\naggrieved party, including the Medicaid Inspector General's Office, the\nright to fully explain the facts and law on which it relied and the\nerror made by the presiding AU. Appealing to the Chief AU is a less\ncostly method of review for all parties involved and may result in\npotential errors being corrected prior to the commencement of a timely\nand costly article seventy-eight action.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNone.\n\n \nFISCAL IMPLICATIONS:\n\nThis bill is likely to have a positive impact on the State. Creating a\nmechanism of review available to either party establishes a more\nbalanced set of litigation risks, leading to some reduction in the\nvolume of litigation. Reduced litigation creates the potential for\nreduced costs and improved voluntary compliance. Correction of errors\nmay also lead to increased recoveries.\n\n \nEFFECTIVE DATE:\nThe bill would take effect 90 days after it becomes law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8240",
+    "publishDate": "2018-04-20",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8240",
+ "basePrintNoStr": "S8240-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2018-04-26",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2018-04-26T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Social Services",
+    "referenceDate": "2018-04-20T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8240",
+ "programInfo": {
+  "name": "Medicaid Inspector General",
+  "sequenceNo": 4
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2018-04-20T16:15:24.407828",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2018-04-20T16:15:24.407828",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 49,
+   "fullName": "James Tedisco",
+   "imgName": "925_James_Tedisco.jpg",
+   "incumbent": true,
+   "memberId": 1103,
+   "sessionMemberId": 1099,
+   "sessionYear": 2017,
+   "shortName": "TEDISCO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2018-05-07",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides that any aggrieved party to an appeal, may either: (i) apply to the department of social welfare's supervising administrative law judge, or such other individual as the commissioner may designate, for review as provided in department regulations; or (ii) apply for review as provided in article seventy-eight of the civil practice law and rules.",
+ "title": "Relates to appeals and fair hearings",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2018
+}

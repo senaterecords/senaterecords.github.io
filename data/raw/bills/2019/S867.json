@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S867",
+     "basePrintNoStr": "S867-2019",
+     "printNo": "S867",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S867",
+     "basePrintNoStr": "S867-2019",
+     "printNo": "S867",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-19",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to establishing the rural\nteacher education loan repayment program",
+    "basePrintNo": "S867",
+    "basePrintNoStr": "S867-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §676-a, Ed L",
+    "lawSection": "Education Law",
+    "memo": "\n \nBILL NUMBER: S867\n\nSPONSOR: YOUNG\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to establishing the rural\nteacher education loan repayment program\n\n \nPURPOSE:\n\nTo establish a rural teacher education loan repayment program to provide\nloans to teachers who commit to teaching in an underserved rural area of\nthe state.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Adds a new section 676-a to the education law to authorize\nthe commissioner of education in consultation with the higher education\nservices corporation to develop a rural teacher education loan repayment\nprogram. The program would provide awards of up to $20,000 per year to\nteachers who commit to serve in a designated rural underserved area for\na minimum five year period. Rural areas are defined as counties with a\npopulation of 200,000 or less or towns of with a population density of\n150 or less per square mile. The bill establishes a loan recapture\nprovision should the recipient fail to fulfill the completion of their\nfive year term of service.\n\nSection 2. Establishes an effective date 120 days after enactment.\n\n \nJUSTIFICATION:\n\nThis bill was created in response to need for teachers to serve in vari-\nous teaching positions in rural areas of the state. It can be difficult\nto attract and retain quality teachers in rural areas such as the South-\nern Tier and Western New York. This bill will grant the Commissioner of\nEducation the authority to develop a loan repayment program for teachers\nwho commit to working in underserved areas of the state for at least\nfive years. The Commissioner would be granted flexibility to determine\nareas which are currently unable to attract a reasonable pool of appli-\ncants for various teaching positions.\n\n \nLEGISLATIVE HISTORY:\n\n2018: S.8302 Referred to Higher Education\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect 120 days after becoming a law provided,\nhowever, that the commissioner shall have the power to immediately\npromulgate any rules or regulations necessary for the implementation of\nthis act.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S867",
+    "publishDate": "2019-01-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S867",
+ "basePrintNoStr": "S867-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-01-09",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2019-01-09T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8302",
+    "basePrintNoStr": "S8302-2017",
+    "printNo": "S8302",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S867",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-09T10:46:13.284083",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-01-09T10:46:13.284083",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 57,
+   "fullName": "Catharine Young",
+   "imgName": "414_catharine_young.jpg",
+   "incumbent": false,
+   "memberId": 414,
+   "sessionMemberId": 1287,
+   "sessionYear": 2019,
+   "shortName": "YOUNG"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-03-19",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes the rural teacher education loan repayment program in the education department which provides payment for the undergraduate and graduate education loans of teachers in rural school districts who agree to teach in rural areas for at least 5 years.",
+ "title": "Establishes the rural teacher education loan repayment program in the education department",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

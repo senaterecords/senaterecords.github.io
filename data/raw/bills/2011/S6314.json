@@ -1,0 +1,510 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6314",
+     "basePrintNoStr": "S6314-2011",
+     "printNo": "S6314",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-01-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6314",
+     "basePrintNoStr": "S6314-2011",
+     "printNo": "S6314",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-05",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1082"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6314",
+     "basePrintNoStr": "S6314-2011",
+     "printNo": "S6314",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-06",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6314",
+     "basePrintNoStr": "S6314-2011",
+     "printNo": "S6314",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-11",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6314",
+     "basePrintNoStr": "S6314-2011",
+     "printNo": "S6314",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-12",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A9107"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to authorizing the commissioner of health to issue a death certificate to any applicant upon the request of a sibling of the deceased",
+    "basePrintNo": "S6314",
+    "basePrintNoStr": "S6314-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §4174, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "BILL NUMBER:S6314\n\nTITLE OF BILL:\n\nAn act\nto amend the public health law, in relation to authorizing the\ncommissioner of health to issue a death certificate to any applicant\nupon the request of a sibling of the deceased\n\nPURPOSE:\n\nTo add siblings to the list of authorized family members who can\nrequest a death certificate.\n\nSUMMARY OF PROVISIONS:\n\nSection 1. Paragraph (a) of subdivision 1 of section 4174 of the\npublic health law would be amended to add siblings of deceased\npersons to the list of family members authorized to obtain a death\ncertificate upon request.\n\nEXISTING LAW:\n\nCurrent law only allows a parent, spouse or child of the deceased to\nobtain a death certificate upon request. This bill would simply add\nsiblings to the list of family members that are authorized to request\nand be issued a death certificate.\n\nJUSTIFICATION:\n\nOften a sibling may be the closest living relative to the deceased. In\nthe case where a decedent's parents may also be deceased and the\ndecedent has no children, a sibling should be authorized to be issued\na death certificate upon request.\n\nLEGISLATIVE HISTORY:\n\nNew bill.\n\nFISCAL IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\n\nThis shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6314",
+    "publishDate": "2012-01-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9107",
+       "basePrintNoStr": "A9107-2011",
+       "printNo": "A9107",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6314",
+ "basePrintNoStr": "S6314-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 53,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2012
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2012
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-01-25",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2012-06-11",
+    "billCalNo": 1082,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2012-01-25T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6314",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-01-25T10:23:29",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2012-01-25T10:23:29",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 22,
+   "fullName": "Martin J. Golden",
+   "imgName": "422_martin_j._golden.jpg",
+   "incumbent": false,
+   "memberId": 422,
+   "sessionMemberId": 116,
+   "sessionYear": 2011,
+   "shortName": "GOLDEN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-06-11",
+  "billCalNo": 1082,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9107",
+  "basePrintNoStr": "A9107-2011",
+  "session": 2011
+ },
+ "summary": "Authorizes the commissioner of health to issue a death certificate to any applicant upon the request of a sibling of the deceased.",
+ "title": "Authorizes the commissioner of health to issue a death certificate to any applicant upon the request of a sibling of the deceased",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6314",
+     "basePrintNoStr": "S6314-2011",
+     "printNo": "S6314",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Eric Adams",
+         "imgName": "Eric Adams.jpg",
+         "incumbent": false,
+         "memberId": 382,
+         "sessionMemberId": 76,
+         "sessionYear": 2011,
+         "shortName": "ADAMS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Greg Ball",
+         "imgName": "Greg Ball.jpg",
+         "incumbent": false,
+         "memberId": 408,
+         "sessionMemberId": 102,
+         "sessionYear": 2011,
+         "shortName": "BALL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 81,
+         "sessionYear": 2011,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 119,
+         "sessionYear": 2011,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 77,
+         "sessionYear": 2011,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 116,
+         "sessionYear": 2011,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 118,
+         "sessionYear": 2011,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 68,
+         "sessionYear": 2011,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Roy J. McDonald",
+         "imgName": "Roy J. McDonald.jpg",
+         "incumbent": false,
+         "memberId": 389,
+         "sessionMemberId": 83,
+         "sessionYear": 2011,
+         "shortName": "MCDONALD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 75,
+         "sessionYear": 2011,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 71,
+         "sessionYear": 2011,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 108,
+         "sessionYear": 2011,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 14
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 122,
+         "sessionYear": 2011,
+         "shortName": "PERALTA"
+        }
+       ],
+       "size": 1
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 112,
+         "sessionYear": 2011,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 99,
+         "sessionYear": 2011,
+         "shortName": "SMITH"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2012-06-05",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

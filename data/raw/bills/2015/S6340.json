@@ -1,0 +1,924 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6340",
+     "basePrintNoStr": "S6340-2015",
+     "printNo": "S6340",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6340",
+     "basePrintNoStr": "S6340-2015",
+     "printNo": "S6340",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-07",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6340",
+     "basePrintNoStr": "S6340-2015",
+     "printNo": "S6340A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-07",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 6340A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6340",
+     "basePrintNoStr": "S6340-2015",
+     "printNo": "S6340A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-17",
+    "sequenceNo": 4,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6340",
+     "basePrintNoStr": "S6340-2015",
+     "printNo": "S6340A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-17",
+    "sequenceNo": 5,
+    "text": "ORDERED TO THIRD READING CAL.1964"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6340",
+     "basePrintNoStr": "S6340-2015",
+     "printNo": "S6340A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-17",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A8704C"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the multiple dwelling law and the administrative code of the city of New York, in relation to prohibiting advertising that promotes the use of dwelling units in a class A multiple dwelling for other than permanent residence purposes; and to amend the real property law, in relation to requiring that landlords provide notice to tenants of the consequences of advertising a rental unit for use on short term rental websites",
+    "basePrintNo": "S6340",
+    "basePrintNoStr": "S6340-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 720,
+       "sessionYear": 2015,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 882,
+       "sessionYear": 2015,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 722,
+       "sessionYear": 2015,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 718,
+       "sessionYear": 2015,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 883,
+       "sessionYear": 2015,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 717,
+       "sessionYear": 2015,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Marc Panepinto",
+       "imgName": "894_marc_panepinto.jpg",
+       "incumbent": false,
+       "memberId": 894,
+       "sessionMemberId": 888,
+       "sessionYear": 2015,
+       "shortName": "PANEPINTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 714,
+       "sessionYear": 2015,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 908,
+       "sessionYear": 2015,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 723,
+       "sessionYear": 2015,
+       "shortName": "RIVERA"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §121, Mult Dwell L; add Art 18 §27-287.1, NYC Ad Cd; add §226-c, RP L",
+    "lawSection": "Multiple Dwelling Law",
+    "memo": " BILL NUMBER:  S6340\n\n TITLE OF BILL :\n\nAn act to amend the multiple dwelling law and the administrative code\nof the city of New York, in relation to prohibiting advertising that\npromotes the use of dwelling units in a class A multiple dwelling for\nother than permanent residence purposes; and to amend the real\nproperty law, in relation to requiring that landlords provide notice\nto tenants of the consequences of advertising a rental unit for use on\nshort term rental websites\n\n PURPOSE :\n\nTo prohibit advertising for the use of dwelling units in a class A\nmultiple dwelling and require notice to tenants of the consequences of\nadvertising a rental unit on short term rental websites.\n\n SUMMARY OF PROVISIONS :\n\nSection one amends the multiple dwelling law by adding a new section\n121\n\n* Prohibits advertising that promotes the use of dwelling units in a\nclass A multiple dwelling for other than permanent residence, by\nmaking it unlawful to advertise the occupancy or use of this class of\ndwelling units for other than permanent residence purposes.\n\n* Any person in violation of this provision shall be liable for a\ncivil penalty of not more than $2,500 for the first violation, $5,000\nfor the second violation, and $7 500 for the third and subsequent\nviolations\n\n* Under this law, the term 'advertise\" shall mean any form of\ncommunication for marketing that is used to encourage, persuade or\nmanipulate viewers, readers or listeners into contracting for goods\nand/or services as may be viewed through various media including but\nnot limited to:\n          o Newspapers, Magazines, Flyers, Handbills, Television\n          commercials, Radio, Signage, Direct mail, Websites, Text\n          messages\n\nSection two amends subchapter three of chapter one of title twenty\nseven of the administrative code of the city of New York by adding a\nnew article.\n\n* Same as above\n\nSection three amends the real property law by adding a new section\n226-c.\n\n* The landlord is required to provide notice to tenants on all annual\nand bi-annual lease renewals that offering or advertising the rental\nunit on a short-term rental website may be prohibited if the rental\nunit is a class A multiple dwelling, and that such offering or\nadvertising may violate the terms of the lease agreement.\n\n* Such notices provided by the landlord should encourage tenants who\nwish to offer or advertise the rental unit on a short-term rental\nwebsite to contact the proper authorities prior to utilizing such\nshort-term rental websites\n\nSection four sets forth the effective date\n\n\n\n* This act shall take effect immediately; provided, however, that\nsection three of this act shall take effect on the ninetieth day after\nit shall have become a law.\n\n JUSTIFICATION :\n\nIt is and has been illegal in New York City to occupy a class A\nmultiple dwelling unit for fewer than 30 days. The legal prohibition\nagainst transient occupancy in these dwellings was instituted to\nensure that all buildings comply with fire, building and other safety\ncodes relative to their class. Safety codes for class A multiple\ndwelling are different than for buildings allowing transient occupancy\nto ensure that specific classes of occupants are best protected.\n\nIn addition, the ban on transient occupancy in class A multiple\ndwellings was also intended to guard against the dangers of mixing\nlong- and short-term residents in the same dwelling. The intentions of\nlong- and short-term occupants vary, and each occupant class has a\nsignificantly different investment in their building and community.\n\nIn 2010, in the face of an explosion of illegal hotel operators in\nsingle room occupancy (SRO) buildings in New York City, New York State\nclarified and strengthened the laws regarding transient occupancy in\nclass A multiple dwellings. Now, with the proliferation of online home\nsharing platforms that allow users to advertise their apartments for\nuse that directly violates New York State's \"illegal hotels\" law, the\naccomplishments of years of work we have done to protect New York\ntenants and hotel guests alike are at risk of being undone.\n\nWhile it is already illegal to occupy a class A multiple dwelling for\nless than 30 days, this legislation would clarify that it also illegal\nto advertise units for occupancy that would violate New York law.\nUnfortunately, online home sharing platforms have refused to rid their\nsites of advertisements for use of units that would violate New York\nlaw and subject tenants to fines and potential eviction, These online\nhome sharing platforms have also refused to provide New York's tenants\nwith accurate information about the ways in which they may legally use\nthe service, It rests with the city and state to protect tenants,\ncommunities and existing affordable housing stock from an incursion\nthat is destabilizing communities, endangering tenants and depleting\nour rapidly dwindling stock of affordable housing,\n\nThe bill will also require landlords to provide tenants with annual\nnotice that renting units for fewer than 30 days can in some cases\nviolate New York State law and subject tenants to fines and even\neviction.\n\nThe legislative intent, with respect to this legislation, is not to\ncriminalize individual tenants, who for the most part are\nintentionally not advised of the legal prohibition against operating\nillegal hotels out of their apartments. Instead, it is designed to\nensure that all tenants are aware of their legal rights and\nresponsibilities before making a decision to advertise their homes on\nonline home sharing platforms,\n\n LEGISLATIVE HISTORY :\n\nNew bill\n\n FISCAL IMPLICATIONS :\n\nNone\n\n EFFECTIVE DATE :\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6340",
+    "publishDate": "2016-01-04",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the multiple dwelling law and the administrative code of the city of New York, in relation to prohibiting advertising that promotes the use of dwelling units in a class A multiple dwelling for other than permanent residence purposes",
+    "basePrintNo": "S6340",
+    "basePrintNoStr": "S6340-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 720,
+       "sessionYear": 2015,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 882,
+       "sessionYear": 2015,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 722,
+       "sessionYear": 2015,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 718,
+       "sessionYear": 2015,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 883,
+       "sessionYear": 2015,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 707,
+       "sessionYear": 2015,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 717,
+       "sessionYear": 2015,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Marc Panepinto",
+       "imgName": "894_marc_panepinto.jpg",
+       "incumbent": false,
+       "memberId": 894,
+       "sessionMemberId": 888,
+       "sessionYear": 2015,
+       "shortName": "PANEPINTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 714,
+       "sessionYear": 2015,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 908,
+       "sessionYear": 2015,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 723,
+       "sessionYear": 2015,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 724,
+       "sessionYear": 2015,
+       "shortName": "SAVINO"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §121, Mult Dwell L; add Art 18 §27-287.1, NYC Ad Cd",
+    "lawSection": "Multiple Dwelling Law",
+    "memo": " BILL NUMBER:  S6340A\n\n TITLE OF BILL :  An act to amend the multiple dwelling law and the\nadministrative code of the city of New York, in relation to\nprohibiting advertising that promotes the use of dwelling units in a\nclass A multiple dwelling for other than permanent residence purposes\n\n PURPOSE :\n\nTo make unlawful advertising for the use or occupancy of dwelling\nunits in class A multiple dwellings for purposes other than permanent\nresidence, to create civil penalties for violations of this\nprohibition, and to define the term \"advertise\" in such context.\n\n SUMMARY OF PROVISIONS :\n\nSection one amends the Multiple Dwelling Law by adding a new section\n121. It makes unlawful to advertise the occupancy or use of dwelling\nunits in a class A multiple dwelling for purposes other than permanent\nresidence. It also contains civil penalty of not more than $1,000 for\nthe first violation, $5,000 for the second violation, and $7,500 for\nthe third and subsequent violations. Section 1 also defines the term\n\"advertise\" as any form of communication for marketing that is used to\nencourage, persuade or manipulate viewers, readers or listeners into\ncontracting for goods and/or services as may be viewed through various\nmedia including but not limited to newspapers, magazines, flyers,\nhandbills, television commercials, radio, signage, direct mail,\nwebsites, and text messages.\n\nSection two amends subchapter three of chapter one of title twenty\nseven of the Administrative Code of the City of New York by adding a\nnew Article 18. This section makes it unlawful to advertise the\noccupancy or use of dwelling units in a class A multiple dwelling for\nother than permanent residence, creates civil penalties based on the\nnumber of violations of this prohibition, and defines the term\n\"advertise\".\n\nSection three contains the effective date.\n\n JUSTIFICATION :\n\nIt is illegal in New York City to occupy a class A multiple dwelling\nunit for fewer than 30 days. The legal prohibition against transient\noccupancy in these dwellings was instituted to ensure that all\nbuildings comply with fire, building and other safety codes relative\nto their class. Safety codes for class A multiple dwelling are\ndifferent than for buildings allowing transient occupancy to ensure\nthat specific classes of occupants are best protected.\n\nIn 2010, in the face of an explosion of illegal hotel operators in\nsingle room occupancy buildings in New York City, New York State\nclarified and strengthened the laws regarding transient occupancy in\nclass A multiple dwellings. Now, with the proliferation of online home\nsharing platforms that allow users to advertise their apartments for\nuse that directly violates New York State's \"illegal hotels\" law, the\npurpose of the \"illegal hotels\" law is at risk of being undone.\n\nWhile it is already illegal to occupy a class A multiple dwelling for\nless than 30 days, this legislation would clarify that it also illegal\nto advertise units for occupancy that would violate New York law.\nHowever, online home sharing platforms still contain advertisements\nfor use of units that would violate New York law. It rests with the\ncity and state to protect communities and existing affordable housing\nstock by prohibiting advertisements that violate the law, creating a\ncivil penalty structure for those who violate the prohibition, and\nclarifying activities that constitute advertising.\n LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS :\n\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6340A",
+    "publishDate": "2016-06-07",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8704",
+       "basePrintNoStr": "A8704-2015",
+       "printNo": "A8704C",
+       "session": 2015,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6340",
+ "basePrintNoStr": "S6340-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 56,
+    "year": 2016
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2016
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2016-06-17",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2016-06-17",
+    "billCalNo": 1964,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2016-01-06T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2016-06-07T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2016-06-17T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6340A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2016-01-04T11:17:11",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2016-06-07T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2016-01-04T11:17:11",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 24,
+   "fullName": "Andrew J. Lanza",
+   "imgName": "409_andrew_j_lanza.jpg",
+   "incumbent": true,
+   "memberId": 409,
+   "sessionMemberId": 730,
+   "sessionYear": 2015,
+   "shortName": "LANZA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2016-06-17",
+  "billCalNo": 1964,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8704",
+  "basePrintNoStr": "A8704-2015",
+  "session": 2015
+ },
+ "summary": "Relates to prohibiting advertising for the use of dwelling units in a class A multiple dwelling.",
+ "title": "Relates to prohibiting advertising for the use of dwelling units in a class A multiple dwelling",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6340",
+     "basePrintNoStr": "S6340-2015",
+     "printNo": "S6340A",
+     "session": 2015,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 729,
+         "sessionYear": 2015,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 727,
+         "sessionYear": 2015,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 721,
+         "sessionYear": 2015,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 722,
+         "sessionYear": 2015,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 718,
+         "sessionYear": 2015,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 853,
+         "sessionYear": 2015,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 878,
+         "sessionYear": 2015,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 871,
+         "sessionYear": 2015,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 693,
+         "sessionYear": 2015,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 707,
+         "sessionYear": 2015,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 730,
+         "sessionYear": 2015,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 698,
+         "sessionYear": 2015,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 694,
+         "sessionYear": 2015,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 856,
+         "sessionYear": 2015,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 703,
+         "sessionYear": 2015,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 852,
+         "sessionYear": 2015,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 713,
+         "sessionYear": 2015,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 708,
+         "sessionYear": 2015,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 873,
+         "sessionYear": 2015,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 728,
+         "sessionYear": 2015,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 725,
+         "sessionYear": 2015,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 21
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 700,
+         "sessionYear": 2015,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 706,
+         "sessionYear": 2015,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 711,
+         "sessionYear": 2015,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 704,
+         "sessionYear": 2015,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 4
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2016-06-17",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

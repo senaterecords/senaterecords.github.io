@@ -1,0 +1,1048 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-01-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-04-17",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-04-17",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 7063A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-05-22",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.1308"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-05-30",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-05-31",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063B",
+     "session": 2017,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2018-06-11",
+    "sequenceNo": 7,
+    "text": "AMENDED ON THIRD READING 7063B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063B",
+     "session": 2017,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2018-06-20",
+    "sequenceNo": 8,
+    "text": "COMMITTED TO RULES"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the private housing finance law, in relation to affordable\nhousing corporation grants",
+    "basePrintNo": "S7063",
+    "basePrintNoStr": "S7063-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 920,
+       "sessionYear": 2017,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1133,
+       "sessionYear": 2017,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 936,
+       "sessionYear": 2017,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 921,
+       "sessionYear": 2017,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 929,
+       "sessionYear": 2017,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 943,
+       "sessionYear": 2017,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 930,
+       "sessionYear": 2017,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1086,
+       "sessionYear": 2017,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 933,
+       "sessionYear": 2017,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 924,
+       "sessionYear": 2017,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1112, Priv Hous Fin L",
+    "lawSection": "Private Housing Finance Law",
+    "memo": "\n \nBILL NUMBER: S7063\n\nSPONSOR: BAILEY\n \nTITLE OF BILL:  An act to amend the private housing finance law, in\nrelation to affordable housing corporation grants\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would amend section 1. Subdivision 1 of section 1112 of the\nprivate housing finance law, in the effort to promote affordable home\nownership. This act authorize the corporation to enter into contract\nwith eligible applicants to provide grants which such applicants will\nuse to finance affordable home ownership development programs to reduce\nthe costs of new construction, rehabilitation or home improvement or\nacquisition.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis program has not been adjusted to reflect the increased cost of\nconstruction over the past 30 years. This amendment to the Private Hous-\ning Finance Law Article XIX Section 1112 and related sections that would\nreflect the following changes:\n\n1. Increase subsidy availability for projects in high cost markets from\n$40,000 per dwelling unit to up to $110,000/du\n\n2. Require resale restrictions for no less than 60 years and no more\nthan 99 years for projects seeking more than $40,000/du through deed\nrestrictions, community land trusts, or limited-equity cooperative\nownership structures.\n\n3. Project funding levels will be tiered based on length and depth of\naffordability with preference for approval and allocation amounts being\ngiven to longer terms and greater depth of affordability\n\n4. Projects in pre-development that have already received commitments\nfrom ABC under previous guidelines shall be granted the opportunity to\nrequest additional capital subsidies under these revised conditions\n\n \nJUSTIFICATION:\n\nThe New York State Affordable Housing Corporation (\"AMC\") is a public\nbenefit corporation, established in 1985 pursuant to Section 45-b of the\nPrivate Housing Finance Law (\"PHFL\") as a subsidiary of the New York\nState Housing Finance Agency (\"HFA\"), to administer the Affordable Home\nOwnership Development Program (\"Program\") under PHFL Article 19. The\npurpose of the Program is to promote homeownership by persons of low and\nmoderate income, which, in turn, fosters the development, stabilization\nand preservation of neighborhoods and communities. To achieve these\ngoals, AHC provides financial assistance, in conjunction with other\nprivate and public investment, for the construction, acquisition, reha-\nbilitation and improvement of owner-occupied housing.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nThe cost to the state and localities in lost revenues due to the special\nbenefits would be offset through new construction resulting in increased\nincome tax, partial property tax and mortgage recording tax collections.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7063",
+    "publishDate": "2017-12-07",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6494",
+       "basePrintNoStr": "A6494-2017",
+       "printNo": "A6494",
+       "session": 2017,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the private housing finance law, in relation to affordable\nhousing corporation grants",
+    "basePrintNo": "S7063",
+    "basePrintNoStr": "S7063-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 920,
+       "sessionYear": 2017,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1133,
+       "sessionYear": 2017,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 944,
+       "sessionYear": 2017,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 936,
+       "sessionYear": 2017,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 921,
+       "sessionYear": 2017,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 929,
+       "sessionYear": 2017,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 935,
+       "sessionYear": 2017,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 943,
+       "sessionYear": 2017,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 930,
+       "sessionYear": 2017,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1086,
+       "sessionYear": 2017,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 933,
+       "sessionYear": 2017,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 924,
+       "sessionYear": 2017,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1112, Priv Hous Fin L",
+    "lawSection": "Private Housing Finance Law",
+    "memo": "\n \nBILL NUMBER: S7063A\n\nSPONSOR: BAILEY\n \nTITLE OF BILL:  An act to amend the private housing finance law, in\nrelation to affordable housing corporation grants\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would amend section 1. Subdivision 1 of section 1112 of the\nprivate housing finance law, in the effort to promote affordable home\nownership. This act authorize the corporation to enter into contract\nwith eligible applicants to provide grants which such applicants will\nuse to finance affordable home ownership development programs to reduce\nthe costs of new construction, rehabilitation or home improvement or\nacquisition.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis program has not been adjusted to reflect the increased cost of\nconstruction over the past 30 years. This amendment to the Private Hous-\ning Finance Law Article XIX Section 1112 and related sections that would\nreflect the following changes:\n\n1. Increase subsidy availability for projects in high cost markets from\n$40,000 per dwelling unit to up to $75,000/du\n\n2. Require resale restrictions for no less than 60 years and no more\nthan 99 years for projects seeking more than $40,000/du through deed\nrestrictions, community land trusts, or limited-equity cooperative\nownership structures.\n\n3. Project funding levels will be tiered based on length and depth of\naffordability with preference for approval and allocation amounts being\ngiven to longer terms and greater depth of affordability\n\n4. Projects in pre-development that have already received commitments\nfrom AHC under previous guidelines shall be granted the opportunity to\nrequest additional capital subsidies under these revised conditions\n\n \nJUSTIFICATION:\n\nThe New York State Affordable Housing Corporation (\"AMC\") is a public\nbenefit corporation, established in 1985 pursuant to Section 45-b of the\nPrivate Housing Finance Law (\"PHFL\") as a subsidiary of the New York\nState Housing Finance Agency (\"HFA\"), to administer the Affordable Home\nOwnership Development Program (\"Program\") under PHFL Article 19. The\npurpose of the Program is to promote homeownership by persons of low and\nmoderate income, which, in turn, fosters the development, stabilization\nand preservation of neighborhoods and communities. To achieve these\ngoals, AHC provides financial assistance, in conjunction with other\nprivate and public investment, for the construction, acquisition, reha-\nbilitation and improvement of owner-occupied housing.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nThe cost to the state and localities in lost revenues due to the special\nbenefits would be offset through new construction resulting in increased\nincome tax, partial property tax and mortgage recording tax collections.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7063A",
+    "publishDate": "2018-04-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the private housing finance law, in relation to affordable\nhousing corporation grants",
+    "basePrintNo": "S7063",
+    "basePrintNoStr": "S7063-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Marisol Alcantara",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1096,
+       "sessionMemberId": 1090,
+       "sessionYear": 2017,
+       "shortName": "ALCANTARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 920,
+       "sessionYear": 2017,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1133,
+       "sessionYear": 2017,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 944,
+       "sessionYear": 2017,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 936,
+       "sessionYear": 2017,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 921,
+       "sessionYear": 2017,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 929,
+       "sessionYear": 2017,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 935,
+       "sessionYear": 2017,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 943,
+       "sessionYear": 2017,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 930,
+       "sessionYear": 2017,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1086,
+       "sessionYear": 2017,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 933,
+       "sessionYear": 2017,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1140,
+       "sessionYear": 2017,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 924,
+       "sessionYear": 2017,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 15
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1112, Priv Hous Fin L",
+    "lawSection": "Private Housing Finance Law",
+    "memo": "\n \nBILL NUMBER: S7063B\n\nSPONSOR: BAILEY\n \nTITLE OF BILL:  An act to amend the private housing finance law, in\nrelation to affordable housing corporation grants\n\n \nPURPOSE OR GENERAL IDEA:\n\nRelates to affordable housing corporation grants by increasing the\namount that can be granted to a high cost project.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis amendment to the Private Housing Finance Law Article XIX Section\n1112 and related sections that would reflect the following changes:\n\nSection 1. Increases subsidy availability for projects in high cost\nmarkets from $40,000 per dwelling unit to up to $75,000/du\n\nSection 2. Requires resale restrictions for no less than 60 years and no\nmore than 99 years for projects seeking more than $40,000/du through\ndeed restrictions, community land trusts, or limited-equity cooperative\nownership structures.\n\nSection 3. Establishes that the corporation shall establish tiered\nproject funding levels based on length and depth of affordability.\n\nSection 4. Establishes that projects in pre-development that have\nalready received commitments from ABC under previous guidelines shall be\ngranted the opportunity to request additional capital subsidies under\nthese revised conditions\n\n \nJUSTIFICATION:\n\nThe New York State Affordable Housing Corporation (\"AMC\") is a public\nbenefit corporation, established in 1985 pursuant to Section 45-b of the\nPrivate Housing Finance Law (\"PHFL\") as a subsidiary of the New York\nState Housing Finance Agency (\"HFA\"), to administer the Affordable Home\nOwnership Development Program (\"Program\") under PHFL Article 19. The\npurpose of the Program is to promote homeownership by persons of low and\nmoderate income, which, in turn, fosters the development, stabilization\nand preservation of neighborhoods and communities. To achieve these\ngoals, AHC provides financial assistance, in conjunction with other\nprivate and public investment, for the construction, acquisition, reha-\nbilitation and improvement of owner-occupied housing. This program has\nnot been adjusted to reflect the increased cost of construction over the\npast 30 years. This bill would support affordable homeownership.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nThe cost to the state and localities in lost revenues due to the special\nbenefits would be offset through new construction resulting in increased\nincome tax, partial property tax and mortgage recording tax collections.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7063B",
+    "publishDate": "2018-06-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6494",
+       "basePrintNoStr": "A6494-2017",
+       "printNo": "A6494B",
+       "session": 2017,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7063",
+ "basePrintNoStr": "S7063-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 46,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2018
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2018
+   }
+  ],
+  "size": 13
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2018
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Housing, Construction And Community Development"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2018-06-20",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2018-01-03T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2018-04-17T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2018-06-20T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7063B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-12-07T15:22:48.335445",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2018-04-17T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2018-06-11T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2017-12-07T15:22:48.335445",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 36,
+   "fullName": "Jamaal Bailey",
+   "imgName": "924_Jamaal_Bailey.jpg",
+   "incumbent": true,
+   "memberId": 1102,
+   "sessionMemberId": 1098,
+   "sessionYear": 2017,
+   "shortName": "BAILEY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2018-06-20",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to affordable housing corporation grants by increasing the amount that can be granted to a high cost project.",
+ "title": "Relates to affordable housing corporation grants",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7063",
+     "basePrintNoStr": "S7063-2017",
+     "printNo": "S7063A",
+     "session": 2017,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Housing, Construction And Community Development"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 920,
+         "sessionYear": 2017,
+         "shortName": "AVELLA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1098,
+         "sessionYear": 2017,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 1016,
+         "sessionYear": 2017,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 944,
+         "sessionYear": 2017,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "John E. Brooks",
+         "imgName": "923_John_Brooks.jpg",
+         "incumbent": false,
+         "memberId": 1101,
+         "sessionMemberId": 1097,
+         "sessionYear": 2017,
+         "shortName": "BROOKS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 935,
+         "sessionYear": 2017,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 947,
+         "sessionYear": 2017,
+         "shortName": "LITTLE"
+        }
+       ],
+       "size": 7
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 956,
+         "sessionYear": 2017,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 942,
+         "sessionYear": 2017,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2018-05-22",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2018
+}

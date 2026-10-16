@@ -1,0 +1,182 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8918",
+     "basePrintNoStr": "S8918-2023",
+     "printNo": "S8918",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-27",
+    "sequenceNo": 1,
+    "text": "REFERRED TO SOCIAL SERVICES"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law, in relation to requiring electronic\nbenefit transfer systems to include automatic credit or debit card\ncancellation when fraudulent activity has been reported",
+    "basePrintNo": "S8918",
+    "basePrintNoStr": "S8918-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §21-a, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": " \nBILL NUMBER: S8918\n\nSPONSOR: SEPULVEDA\n \nTITLE OF BILL:\n\nAn act to amend the social services law, in relation to requiring elec-\ntronic benefit transfer systems to include automatic credit or debit\ncard cancellation when fraudulent activity has been reported\n\n \nPURPOSE:\n\nThis bill would require the implementation of a system that would auto-\nmatically cancel EBT cards when the recipient reports fraudulent activ-\nity\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Adds paragraph (c) to subdivision 1 of section 21-a of social\nservices law\n\n(c) When an EBT recipient reports fraudulent activity on their EBT\naccount their card will automatically be cancelled. At this point they\nwill be permitted to apply for a replacement card.\n\n2. Effective Date.\n\n \nJUSTIFICATION:\n\nAs it stands, if an EBT recipient has their benefits stolen, they must\nreport their benefits stolen to get reimbursed. Then the recipient must\ncancel their card in order to apply for a new, uncompromised card.\n\nIf a recipient reports fraudulent activity their card should be automat-\nically cancelled at that point. There is no reason to make these victims\njump through multiple hoops so they may once again be able to put food\non the table.\n\nMoreover, the current multi-step system leaves victims susceptible to\nfurther theft. If a recipient fails to cancel their current card,\nthieves can continue to steal their funds each time they are added to\nthe account. This results in the waste of taxpayer money, added stress\nto the government agency, and more hardship for an already vulnerable\nNew Yorker.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8918",
+    "publishDate": "2024-03-27",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "SOS21-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9607",
+       "basePrintNoStr": "A9607-2023",
+       "printNo": "A9607",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8918",
+ "basePrintNoStr": "S8918-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-03-27",
+    "billCalNo": null,
+    "committeeName": "Social Services",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Social Services",
+    "referenceDate": "2024-03-27T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8918",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-03-27T15:04:14.735010",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2024-03-27T15:04:14.73501",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 32,
+   "fullName": "Luis R. Sepúlveda",
+   "imgName": "493_Luis_Sepulveda.jpg",
+   "incumbent": true,
+   "memberId": 1142,
+   "sessionMemberId": 2034,
+   "sessionYear": 2023,
+   "shortName": "SEPULVEDA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-03-27",
+  "billCalNo": null,
+  "committeeName": "Social Services",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires electronic benefit transfer systems to include automatic credit or debit card cancellation when fraudulent activity has been reported; directs that such cancellation shall occur as soon as the procedure for reporting fraudulent activity has been completed.",
+ "title": "Requires electronic benefit transfer systems to include automatic credit or debit card cancellation when fraudulent activity has been reported",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

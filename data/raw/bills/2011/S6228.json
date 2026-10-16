@@ -1,0 +1,1225 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-01-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-05-29",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-05-29",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 6228A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-05",
+    "sequenceNo": 4,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-12",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-12",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 6228B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-21",
+    "sequenceNo": 7,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-21",
+    "sequenceNo": 8,
+    "text": "ORDERED TO THIRD READING CAL.1465"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-21",
+    "sequenceNo": 9,
+    "text": "SUBSTITUTED BY A8869B"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, the social services law and the public authorities law, in relation to accountable care organizations",
+    "basePrintNo": "S6228",
+    "basePrintNoStr": "S6228-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 91,
+       "sessionYear": 2011,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 83,
+       "sessionYear": 2011,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Art 29-E §§2999-n - 2999-r, §2818, Pub Health L; amd §364-j, Soc Serv L; amd §1680-j, Pub Auth L",
+    "lawSection": "Public Health Law",
+    "memo": "BILL NUMBER:S6228\n\nTITLE OF BILL:\nAn act\nto amend the public health law, the social services law and the public\nauthorities law, in relation to accountable care organizations\n\nPURPOSE:\nTo regulate and promote the formation of accountable care\norganizations and protect the public interest and the interests of\npatients and health care providers.\n\nSUMMARY OF PROVISIONS:\nAmends Article 29-E of the Public Health Law to remove the\n\"demonstration\" designation of the ACO program and remove the cap on\nthe number of certificates of authority for accountable care\norganizations (ACO). The sunset of authority for the issuance of ACO\ncertificates is extended from December 31, 2015 to December 31, 2016.\n\nProvides that an ACO be a not-for-profit or governmental entity.\n\nRequires that an ACO shall have a governance system that represents the\nparticipating health care providers and their employees, the ACO's\nenrollees and patients, and the general public.\n\nRequires procedures for reviewing and appealing patient care decisions.\n\nRequires the commissioner to provide public disclosure of additional\nstatistical data relating to the quality of services, performance,\nand other characteristics of ACOs such as providers, and encounter\ndata including outcome, quality and payment measures.\n\nThe ACO network will include federally-qualified health centers unless\nthe Commissioner finds one not available.\n\nAn ACO may seek to focus on providing health care services to patients\nwith one or more chronic conditions or special needs. However, an ACO\nmay not otherwise, on the basis of a person's medical or demographic\ncharacteristics, discriminate for or against or discourage or\nencourage any person or persons with respect to enrolling or\nparticipating in the ACO.\n\nAn ACO shall not, by incentives or otherwise, discourage a health care\nprovider from providing or an enrollee or patient from seeking\nappropriate health care services.\n\nAn ACO shall not discriminate against or disadvantage a patient or\npatient's representative for the exercise of patient autonomy.\n\nEnrollee, patient, and health care provider participation in an ACO\nshall be on a voluntary basis.\n\nAuthorizes the commissioner to seek federal grants, approvals and\nwaivers to facilitate the development of ACOs, and requires detailed\ndisclosure of such applications to the legislature.\n\n\nAllows a third-patty payer to offer incentives for consumers to\nparticipate in an ACO and prohibits discriminating against a consumer\nfor participating.\n\nIn relation to patients' rights to utilization review and external\nappeal, Article 49 of the Public Health Law and article 48 of the\nInsurance Law will apply to ACOs, except where the functions of a\nmanaged care plan under these articles are the responsibility of a\nthird-patty health care payer.\n\nAn ACO may be deemed to be subject to the Insurance Law when an ACO\ncontracts with an enrollee or patient to provide health care services\nto that person, where payment for those services is not primarily the\nresponsibility of a third-patty health care payer.\n\nEnrollee, patient, and health care provider participation in an ACO\nshall be on a voluntary basis.\n\nAn ACO may seek to focus on providing health care services to patients\nwith one or more chronic conditions or special needs. However, an ACO\nmay not otherwise, on the basis of a person's medical or demographic\ncharacteristics, discriminate for or against or discourage or\nencourage any person or persons with respect to enrolling or\nparticipating in the ACO. An ACO shall not, by incentives or\notherwise, discourage a health care provider from providing or an\nenrollee or patient from seeking appropriate health care services. An\nACO shall not discriminate against or disadvantage a patient or\npatient's representative for the exercise of patient autonomy.\n\nThe bill amends section 364-j of the Social Services Law to enable an\nACO to be a Medicaid recipient's managed care organization.\n\nThe bill amends section 2818 of the Public Health Law and section\n1680-j of the Public Authorities Law to allow HEAL-NY funding for\nallocation by the commissioner in relation to the development of ACOs\nwithout competitive bid.\n\nDOH would have authority to provide technical assistance to health\ncare providers and consumer assistance in a program, and to provide\nassistance to the establishment of programs.\n\nJUSTIFICATION:\nIn 2011 the Legislature established a demonstration program for\nestablishing accountable care organizations. ACO legislation was\nneeded first to provide a legal \"safe harbor\" for payers and\nproviders to come together without violating anti-trust and other\nlaws. Second, Medicaid and other payers need legal authority to\nparticipate in new payment methodologies with ACOs.\n\nHowever, the third, and perhaps most important need, to protect the\nrights and interests of patients, health care providers, and the\ngeneral public, was only partly addressed.\nSince the passage of the demonstration program it has become clear\nthat the limitation on the number of allowed ACOs is limiting the\nability of New York organizations to apply for federal ACO designation.\n\n\nThe bill provides a more complete legal structure foi- ACOs.\nStrengthening protections for patients and providers goes hand in\nhand with the removal of the limit on the number of ACOS that may be\nauthorized.\n\nLEGISLATIVE HISTORY:\nNew bill.\n\nFISCAL IMPLICATIONS:\nTen million in HEAL-NY funds.\n\nEFFECTIVE DATE:\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6228",
+    "publishDate": "2012-01-13",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health, in relation to accountable care organizations",
+    "basePrintNo": "S6228",
+    "basePrintNoStr": "S6228-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 91,
+       "sessionYear": 2011,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 83,
+       "sessionYear": 2011,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Art 29-E §§2999-n - 2999-r, §2818, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "BILL NUMBER:S6228A         REVISED 06/12/12\n\nTITLE OF BILL:\nAn act\nto amend the public health,\nin relation to accountable care organizations\n\nPURPOSE:\nTo regulate and promote the formation of accountable care\norganizations and protect the public interest and the interests of\npatients and health care providers.\n\nSUMMARY OF PROVISIONS:\nAmends Article 29-E of the Public Health Law to remove the\n\"demonstration\" designation of the ACO program and remove the cap on\nthe number of certificates of authority for accountable care\norganizations (ACO). The sunset of authority for the issuance of ACO\ncertificates is extended from December 31, 2015 to December 31, 2016.\n\nProvides for an expedited state certificate of authority to a\nfederally authorized Medicare only ACO. To enable Medicare-only ACOs\nto begin functioning, the law's protections of an ACO from state laws\nrelating to anti-trust, restraint of trade, fee-splitting, as well as\nprotection for peer-review activities, would be granted to\nMedicare-only ACOs regardless of whether the Commissioner has made\nregulations on those items. Other provisions of Article 29-E not\nrequiring rulemaking would immediately apply to Medicare-only ACOs,\nincluding section 2999-g, subdiv. 7, which clarifies that the\nprovision of services by an ACO be construed as the practice of a\nprofession under title 8 of the Education Law.\n\nRequires that an ACO shall have a governance system, modeled on the\nfederal ACO governance regulations, that represents the participating\nhealth care providers and patients.\n\nRequires the commissioner to provide public disclosure of additional\nstatistical data relating to services, performance, quality and\npayment measures.\n\nThe ACO shall use best efforts to include federally-qualified health\ncenters that are willing and available to join the ACO on reasonable\nterms.\n\nAn ACO may seek to focus on providing health care services to patients\nwith one or more chronic conditions or special needs. However, an ACO\nmay not otherwise, on the basis of a person's medical or demographic\ncharacteristics, discriminate for or against or discourage or\nencourage any person or persons with respect to enrolling or\nparticipating in the ACO.\n\nAn ACO shall not, by incentives or otherwise, discourage a health care\nprovider from providing or an enrollee or patient from seeking\nappropriate health care services.\n\nAn ACO shall not discriminate against or disadvantage a patient or\npatient's representative for the exercise of patient autonomy.\n\nPatient, and health care provider participation in an ACO shall be on\na voluntary basis.\n\nAuthorizes the commissioner to seek federal grants, approvals and\nwaivers to facilitate the development of ACOs, and requires detailed\ndisclosure of such applications to the legislature.\n\nAllows a third-party payer to offer incentives for consumers to\nparticipate in an ACO and prohibits discriminating against a consumer\nfor participating.\n\nAn ACO may seek to focus on providing health care services to patients\nwith one of more chronic conditions or special needs. However, an ACO\nmay not otherwise, on the basis of a person's medical or demographic\ncharacteristics, discriminate for or against or discourage or\nencourage any person or persons with respect to enrolling or\nparticipating in the ACO. An ACO shall not, by incentives or\notherwise, discourage a health care provider from providing or an\nenrollee or patient from seeking appropriate health care services. An\nACO shall not discriminate against or disadvantage a patient or\npatient's representative for the exercise of patient autonomy.\n\nThe bill amends section 2818 of the Public Health Law to allow HEAL-NY\nfunding for allocation by the commissioner in relation to the\ndevelopment of ACOs without competitive bid.\n\nDOH would have authority to provide technical assistance to health\ncare providers and consumer assistance in a program, and to provide\nassistance to the establishment of programs.\n\nA workgroup will consider how to include ACOs in Medicaid managed care\nand other Medicaid care management programs.\n\nJUSTIFICATION:\nIn 2011 the Legislature established a demonstration program for\nestablishing accountable care organizations. ACO legislation was\nneeded first to provide a legal \"safe harbor\" for payers and\nproviders to come together without violating anti-trust and other\nlaws. Second, Medicaid and other payers need legal authority to\nparticipate in new payment methodologies with ACOs.\n\nHowever, the third, and perhaps most important need, to protect the\nrights and interests of patients, health care providers, and the\ngeneral public, was only partly addressed. For this reason, and\n\nbecause of the newness of the ACO concept, the law allowed DOH to\ncertify only 7 ACOs.\n\nSince the passage of the demonstration program it has become clear\nthat the limitation on the number of allowed ACOs is limiting the\nability of New York organizations to apply for federal ACO designation.\nThe bill provides a more complete legal structure for ACOs.\nStrengthening protections for patients and providers goes hand in\nhand with the removal of the limit on the number of ACOS that may be\nauthorized.\n\nLEGISLATIVE HISTORY:\nNew bill.\n\nFISCAL IMPLICATIONS:\nNone.\n\nEFFECTIVE DATE:\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6228A",
+    "publishDate": "2012-05-29",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the public health, in relation to accountable care organizations",
+    "basePrintNo": "S6228",
+    "basePrintNoStr": "S6228-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 91,
+       "sessionYear": 2011,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 83,
+       "sessionYear": 2011,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Art 29-E §§2999-n - 2999-r, §2818, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "BILL NUMBER:S6228B\n\nTITLE OF BILL:\nAn act\nto amend the public health,\nin relation to accountable care organizations\n\nPURPOSE:\nTo regulate and promote the formation of accountable care\norganizations and protect the public interest and the interests of\npatients and health care providers.\n\nSUMMARY OF PROVISIONS:\nAmends Article 29-E of the Public Health Law to remove the\n\"demonstration\" designation of the ACO program and remove the cap on\nthe number of certificates of authority for accountable care\norganizations (ACO). The sunset of authority for the issuance of ACO\ncertificates is extended from December 31, 2015 to December 31, 2016.\n\nProvides for an expedited state certificate of authority to a\nfederally authorized Medicare only ACO. To enable Medicare-only ACOs\nto begin functioning, the law's protections of an ACO from state laws\nrelating to anti-trust, restraint of trade, fee-splitting, as well as\nprotection for peer-review activities, would be granted to\nMedicare-only ACOs regardless of whether the Commissioner has made\nregulations on those items, including section 2999-g, subdiv. 7,\nwhich clarifies that the provision of services by an ACO be construed\nas the practice of a profession under title 8 of the Education Law.\n\nRequires that an ACO shall have a governance system, modeled on the\nfederal ACO governance regulations, that represents the participating\nhealth care providers and patients.\n\nRequires the commissioner to provide public disclosure of additional\nstatistical data relating to services, performance, quality and\npayment measures.\n\nThe ACO shall use best efforts to include federally-qualified health\ncenters that are willing and available to join the ACO on reasonable\nterms.\n\nAn ACO may seek to focus on providing health care services to patients\nwith one or more chronic conditions or special needs. However, an ACO\nmay not otherwise, on the basis of a person's medical or demographic\ncharacteristics, discriminate for or against or discourage or\nencourage any person or persons with respect to enrolling or\nparticipating in the ACO.\n\nAn ACO shall not, by incentives or otherwise, discourage a health care\nprovider from providing or an enrollee or patient from seeking\nappropriate health care services.\n\nAn ACO shall not discriminate against or disadvantage a patient or\npatient's representative for the exercise of patient autonomy.\n\n\nPatient, and health care provider participation in an ACO shall be on\na voluntary basis.\n\nAuthorizes the commissioner to seek federal grants, approvals and\nwaivers to facilitate the development of ACOs, and requires detailed\ndisclosure of such applications to the legislature.\n\nAllows a third-party payer to offer incentives for consumers to\nparticipate in an ACO and prohibits discriminating against a consumer\nfor participating.\n\nAn ACO may seek to focus on providing health care services to patients\nwith one or more chronic conditions or special needs. However, an ACO\nmay not otherwise, on the basis of a person's medical or demographic\ncharacteristics, discriminate for or against or discourage or\nencourage any person or persons with respect to enrolling or\nparticipating in the ACO. An ACO shall not, by incentives or\notherwise, discourage a health care provider from providing or an\nenrollee or patient from seeking appropriate health care services. An\nACO shall not discriminate against or disadvantage a patient or\npatient's representative for the exercise of patient autonomy.\n\nThe bill amends section 2818 of the Public Health Law to allow HEAL-NY\nfunding for allocation by the commissioner in relation to the\ndevelopment of ACOs without competitive bid.\n\nDOH would have authority to provide technical assistance to health\ncare providers and consumer assistance in a program, and to provide\nassistance to the establishment of programs.\n\nA workgroup will consider how to include ACOs in Medicaid managed care\nand other Medicaid care management programs.\n\nJUSTIFICATION:\nIn 2011 the Legislature established a demonstration program for\nestablishing accountable care organizations. ACO legislation was\nneeded first to provide a legal \"safe harbor\" for payers and\nproviders to come together without violating anti-trust and other\nlaws. Second, Medicaid and other payers need legal authority to\nparticipate in new payment methodologies with ACOs.\n\nHowever, the third, and perhaps most important need, to protect the\nrights and interests of patients, health care providers, and the\ngeneral public, was only partly addressed. For this reason, and\nbecause of the newness of the ACO concept, the law allowed DOH to\ncertify only 7 ACOs.\n\nSince the passage of the demonstration program it has become clear\nthat the limitation on the number of allowed ACOs is limiting the\nability of New York organizations to apply for federal ACO designation.\nThe bill provides a more complete legal structure for ACOs.\nStrengthening protections for patients and providers goes hand in\nhand with the removal of the limit on the number of ACOS that may be\nauthorized.\n\nLEGISLATIVE HISTORY:\nNew bill.\n\n\nFISCAL IMPLICATIONS:\nNone.\n\nEFFECTIVE DATE:\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6228B",
+    "publishDate": "2012-06-12",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8869",
+       "basePrintNoStr": "A8869-2011",
+       "printNo": "A8869B",
+       "session": 2011,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6228",
+ "basePrintNoStr": "S6228-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 61,
+    "year": 2012
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 21,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-06-21",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2012-06-21",
+    "billCalNo": 1465,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2012-06-05T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2012-06-12T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2012-01-13T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2012-05-29T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2012-06-21T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6228B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-01-13T16:45:33",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2012-05-29T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2012-06-12T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2012-01-13T16:45:33",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 6,
+   "fullName": "Kemp Hannon",
+   "imgName": "424_kemp_hannon.jpg",
+   "incumbent": false,
+   "memberId": 424,
+   "sessionMemberId": 118,
+   "sessionYear": 2011,
+   "shortName": "HANNON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-06-21",
+  "billCalNo": 1465,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8869",
+  "basePrintNoStr": "A8869-2011",
+  "session": 2011
+ },
+ "summary": "Relates to accountable care organizations which are certified by the department of health to provide integrated health services and reduce health care costs.",
+ "title": "Relates to accountable care organizations",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228A",
+     "session": 2011,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Greg Ball",
+         "imgName": "Greg Ball.jpg",
+         "incumbent": false,
+         "memberId": 408,
+         "sessionMemberId": 102,
+         "sessionYear": 2011,
+         "shortName": "BALL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 119,
+         "sessionYear": 2011,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 116,
+         "sessionYear": 2011,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 118,
+         "sessionYear": 2011,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 68,
+         "sessionYear": 2011,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Roy J. McDonald",
+         "imgName": "Roy J. McDonald.jpg",
+         "incumbent": false,
+         "memberId": 389,
+         "sessionMemberId": 83,
+         "sessionYear": 2011,
+         "shortName": "MCDONALD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 75,
+         "sessionYear": 2011,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 122,
+         "sessionYear": 2011,
+         "shortName": "PERALTA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 71,
+         "sessionYear": 2011,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 108,
+         "sessionYear": 2011,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 12
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Eric Adams",
+         "imgName": "Eric Adams.jpg",
+         "incumbent": false,
+         "memberId": 382,
+         "sessionMemberId": 76,
+         "sessionYear": 2011,
+         "shortName": "ADAMS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 81,
+         "sessionYear": 2011,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 77,
+         "sessionYear": 2011,
+         "shortName": "GIANARIS"
+        }
+       ],
+       "size": 3
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 112,
+         "sessionYear": 2011,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 99,
+         "sessionYear": 2011,
+         "shortName": "SMITH"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2012-06-05",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6228",
+     "basePrintNoStr": "S6228-2011",
+     "printNo": "S6228B",
+     "session": 2011,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "ABD": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "James S. Alesi",
+         "imgName": "James S. Alesi.jpg",
+         "incumbent": false,
+         "memberId": 392,
+         "sessionMemberId": 86,
+         "sessionYear": 2011,
+         "shortName": "ALESI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 66,
+         "sessionYear": 2011,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 120,
+         "sessionYear": 2011,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 81,
+         "sessionYear": 2011,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 112,
+         "sessionYear": 2011,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 119,
+         "sessionYear": 2011,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 118,
+         "sessionYear": 2011,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 74,
+         "sessionYear": 2011,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 80,
+         "sessionYear": 2011,
+         "shortName": "JOHNSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 95,
+         "sessionYear": 2011,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 68,
+         "sessionYear": 2011,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 113,
+         "sessionYear": 2011,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 104,
+         "sessionYear": 2011,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 101,
+         "sessionYear": 2011,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 105,
+         "sessionYear": 2011,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 75,
+         "sessionYear": 2011,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 88,
+         "sessionYear": 2011,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 110,
+         "sessionYear": 2011,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 69,
+         "sessionYear": 2011,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 96,
+         "sessionYear": 2011,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "John L. Sampson",
+         "imgName": "369_john_l._sampson.jpg",
+         "incumbent": false,
+         "memberId": 369,
+         "sessionMemberId": 63,
+         "sessionYear": 2011,
+         "shortName": "SAMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 124,
+         "sessionYear": 2011,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 99,
+         "sessionYear": 2011,
+         "shortName": "SMITH"
+        }
+       ],
+       "size": 24
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2012-06-21",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 0
+}

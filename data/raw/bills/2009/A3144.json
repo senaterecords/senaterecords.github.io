@@ -1,0 +1,339 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2009-01-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2009-02-04",
+    "sequenceNo": 2,
+    "text": "REPORTED REFERRED TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2009-02-11",
+    "sequenceNo": 3,
+    "text": "REPORTED"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2009-02-19",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING CAL.108"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2009-03-25",
+    "sequenceNo": 5,
+    "text": "PASSED ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2009-03-25",
+    "sequenceNo": 6,
+    "text": "DELIVERED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-25",
+    "sequenceNo": 7,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-16",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED FOR S3532"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-16",
+    "sequenceNo": 9,
+    "text": "3RD READING CAL.763"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3144",
+     "basePrintNoStr": "A3144-2009",
+     "printNo": "A3144",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-16",
+    "sequenceNo": 10,
+    "text": "COMMITTED TO RULES"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "A3144",
+    "basePrintNoStr": "A3144-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2802-a, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A3144",
+    "publishDate": "2009-07-16",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3532",
+       "basePrintNoStr": "S3532-2009",
+       "printNo": "S3532",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A3144",
+ "basePrintNoStr": "A3144-2009",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-02-04",
+    "billCalNo": null,
+    "committeeName": "Ways And Means",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   },
+   {
+    "actionDate": "2009-02-19",
+    "billCalNo": 108,
+    "committeeName": null,
+    "statusDesc": "Assembly Floor Calendar",
+    "statusType": "ASSEMBLY_FLOOR"
+   },
+   {
+    "actionDate": "2009-03-25",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Passed Assembly",
+    "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2009-07-16",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 4
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2009-01-23T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2009-02-04T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2009-03-25T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-07-16T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A1313",
+    "basePrintNoStr": "A1313-2007",
+    "printNo": "A1313",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A3144",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-07-16T14:42:15",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-07-16T14:42:15",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 3,
+   "fullName": "Patricia Eddington",
+   "imgName": "no_image.jpg",
+   "incumbent": false,
+   "memberId": 645,
+   "sessionMemberId": 254,
+   "sessionYear": 2009,
+   "shortName": "EDDINGTON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-07-16",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Authorizes the commissioner of health to approve ten, instead of five, general hospitals within the state to operate transitional care units by and within such general hospitals.",
+ "title": "Authorizes the commissioner of health to approve ten general hospitals within the state to operate transitional care units",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

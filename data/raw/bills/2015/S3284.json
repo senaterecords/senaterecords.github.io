@@ -1,0 +1,412 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3284",
+     "basePrintNoStr": "S3284-2015",
+     "printNo": "S3284",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-02-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3284",
+     "basePrintNoStr": "S3284-2015",
+     "printNo": "S3284",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-05-19",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.760"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3284",
+     "basePrintNoStr": "S3284-2015",
+     "printNo": "S3284",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-05-20",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3284",
+     "basePrintNoStr": "S3284-2015",
+     "printNo": "S3284",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-05-27",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3284",
+     "basePrintNoStr": "S3284-2015",
+     "printNo": "S3284",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-02",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A5469"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the tax law, in relation to extending the authorization of the county of Broome to impose an additional one percent of sales and compensating use taxes",
+    "basePrintNo": "S3284",
+    "basePrintNoStr": "S3284-2015",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1210, Tax L",
+    "lawSection": "Tax Law",
+    "memo": "BILL NUMBER:S3284\n\nTITLE OF BILL:  An act to amend the tax law, in relation to extending\nthe authorization of the county of Broome to impose an additional one\npercent of sales and compensating use taxes\n\nPURPOSE OF BILL: This bill authorizes the County of Broome to extend a\none percent sales tax through 2017.\n\nSUMMARY OF SPECIFIC PROVISIONS: This bill extends Broome County's\ncurrent one percent sales tax by amending the ending date from\nNovember 13th, 2015 to November 30th, 2017.\n\nJUSTIFICATION: The Broome County legislature has requested legislation\nto extend authorization to impose an additional 1% County sales tax\nwhich is set to expire on November, 2015.\n\nPRIOR LEGISLATIVE HISTORY: New bill.\n\nFISCAL IMPLICATIONS: None to the State.\n\nEFFECTIVE DATE: This act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3284",
+    "publishDate": "2015-02-04",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5469",
+       "basePrintNoStr": "A5469-2015",
+       "printNo": "A5469",
+       "session": 2015,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3284",
+ "basePrintNoStr": "S3284-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 43,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2015
+   }
+  ],
+  "size": 5
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2015
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Investigations And Government Operations"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2015-02-04",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2015-05-27",
+    "billCalNo": 760,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2015-02-04T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3284",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-02-04T11:13:18",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2015-02-04T11:13:18",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 52,
+   "fullName": "Tom Libous",
+   "imgName": "410_tom_libous.jpg",
+   "incumbent": false,
+   "memberId": 410,
+   "sessionMemberId": 854,
+   "sessionYear": 2015,
+   "shortName": "LIBOUS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2015-05-27",
+  "billCalNo": 760,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5469",
+  "basePrintNoStr": "A5469-2015",
+  "session": 2015
+ },
+ "summary": "Extends from November 30, 2015 to November 30, 2017, the authorization granted to the county of Broome to impose an additional one percent of sales and compensating use taxes.",
+ "title": "Extends authorization of the county of Broome to impose an additional one percent of sales and compensating use taxes until November 30, 2017",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3284",
+     "basePrintNoStr": "S3284-2015",
+     "printNo": "S3284",
+     "session": 2015,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Investigations And Government Operations"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 721,
+         "sessionYear": 2015,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 719,
+         "sessionYear": 2015,
+         "shortName": "DIAZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 697,
+         "sessionYear": 2015,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 705,
+         "sessionYear": 2015,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 703,
+         "sessionYear": 2015,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Terrence P. Murphy",
+         "imgName": "891_terrence_p._murphy.jpg",
+         "incumbent": false,
+         "memberId": 891,
+         "sessionMemberId": 885,
+         "sessionYear": 2015,
+         "shortName": "MURPHY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 852,
+         "sessionYear": 2015,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 872,
+         "sessionYear": 2015,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Daniel L. Squadron",
+         "imgName": "412_daniel_l._squadron.jpg",
+         "incumbent": false,
+         "memberId": 412,
+         "sessionMemberId": 715,
+         "sessionYear": 2015,
+         "shortName": "SQUADRON"
+        }
+       ],
+       "size": 9
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2015-05-19",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

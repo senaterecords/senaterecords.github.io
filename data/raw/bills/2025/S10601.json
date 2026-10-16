@@ -1,0 +1,254 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10601",
+     "basePrintNoStr": "S10601-2025",
+     "printNo": "S10601",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-29",
+    "sequenceNo": 1,
+    "text": "REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10601",
+     "basePrintNoStr": "S10601-2025",
+     "printNo": "S10601",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10601",
+     "basePrintNoStr": "S10601-2025",
+     "printNo": "S10601",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1694"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10601",
+     "basePrintNoStr": "S10601-2025",
+     "printNo": "S10601",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A1934A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the alcoholic beverage control law, in relation to an\nexemption for certain property from the prohibition of alcohol sales within a\ncertain distance from certain buildings",
+    "basePrintNo": "S10601",
+    "basePrintNoStr": "S10601-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §64, ABC L",
+    "lawSection": "Alcoholic Beverage Control Law",
+    "memo": " \nBILL NUMBER: S10601\n\nSPONSOR: ROLISON\n \nTITLE OF BILL:\n\nAn act to amend the alcoholic beverage control law, in relation to an\nexemption for certain property from the prohibition of alcohol sales\nwithin a certain distance from certain buildings\n\n \nPURPOSE:\n\nTo amend the Alcoholic Beverage Control Law by enabling an establishment\nlocated within two-hundred feet of a church to be eligible to apply for\na liquor license from the NYS Liquor Authority within the village of\nWalden.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Subdivision 7 of section 64 of the alcoholic beverage control\nlaw is amended by adding a new paragraph (e-l8) to authorize the issuing\nof a retail license for on-premises consumption for a premises which\nshall be located within two hundred feet of a building occupied as a\nchurch, synagogue or other place of worship, provided such premises\nconstitute a premises for the sale of food or beverages at retail for\nconsumption on the premises located wholly within the boundaries of\nSaratoga County.\n\nSection 2: establishes the effective date\n\n \nJUSTIFICATION:\n\nThis bill will allow the restaurant/bar located at 73 W. Main Street,\nWalden, NY to be issued a retail liquor license despite being within 200\nfeet of St Andrew's Episcopal Church. The restaurant/bar will help to\nbring jobs and revenue to the village of Walden.\n\n \nLEGISLATIVE HISTORY:\n\n2023-24: A.10534\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis legislation will take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10601",
+    "publishDate": "2026-05-29",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ABC64"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1934",
+       "basePrintNoStr": "A1934-2025",
+       "printNo": "A1934A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10601",
+ "basePrintNoStr": "S10601-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 62,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": 1694,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Commerce, Economic Development And Small Business",
+    "referenceDate": "2026-05-29T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-03T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S10601",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-05-29T14:13:57.673876",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-05-29T14:13:57.622884",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "Robert Rolison",
+   "imgName": "1336_Robert_Rolison.jpg",
+   "incumbent": true,
+   "memberId": 1519,
+   "sessionMemberId": 2356,
+   "sessionYear": 2025,
+   "shortName": "ROLISON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-03",
+  "billCalNo": 1694,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A1934",
+  "basePrintNoStr": "A1934-2025",
+  "session": 2025
+ },
+ "summary": "Provides an exemption from certain requirements for a license to sell liquor at retail for consumption on certain premises located in Orange county.",
+ "title": "Provides an exemption from certain requirements for a license to sell liquor at retail for consumption on certain premises",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

@@ -1,0 +1,241 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5713",
+     "basePrintNoStr": "S5713-2011",
+     "printNo": "S5713",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5713",
+     "basePrintNoStr": "S5713-2011",
+     "printNo": "S5713",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-16",
+    "sequenceNo": 2,
+    "text": "ORDERED TO THIRD READING CAL.1352"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5713",
+     "basePrintNoStr": "S5713-2011",
+     "printNo": "S5713",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-17",
+    "sequenceNo": 3,
+    "text": "SUBSTITUTED BY A8298"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to application for a waiver from licensing requirements for entities providing certain professional services",
+    "basePrintNo": "S5713",
+    "basePrintNoStr": "S5713-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 103,
+       "sessionYear": 2011,
+       "shortName": "LANZA"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6503-a, Ed L",
+    "lawSection": "Education Law",
+    "memo": "BILL NUMBER:S5713\n\nTITLE OF BILL:\nAn act\nto amend the education law, in relation to application for a waiver from\nlicensing requirements for entities providing certain professional\nservices\n\nPURPOSE:\nExtends the deadline by which entities providing certain professional\nservices must apply for a waiver issued by the State Education\nDepartment.\n\nSUMMARY OF PROVISIONS:\nAmends the opening paragraph of paragraph a and paragraph c of\nsubdivision 1 of section 6503-a of the education law, as added by\nchapter 140 of the laws of 2010.\n\nJUSTIFICATION:\nTo prevent the disruption of the professions of licensed master social\nwork, licensed clinical social work, licensed mental health\ncounseling, licensed marriage and family therapy, licensed creative\narts therapy, licensed psychoanalysis and licensed psychology, this\nextension provides an additional time period for not-for-profit\ncorporations and education corporations that provide these\nprofessional services to apply for a waiver with the State Education\nDepartment in order to be exempt from corporate practice prohibitions.\n\nLEGISLATIVE HISTORY:\nNew bill.\n\nFISCAL IMPLICATIONS:\nTo be determined.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5713",
+    "publishDate": "2011-06-13",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8298",
+       "basePrintNoStr": "A8298-2011",
+       "printNo": "A8298",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5713",
+ "basePrintNoStr": "S5713-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2011
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-13",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-16",
+    "billCalNo": 1352,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2011-06-13T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5713",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-06-13T14:00:55",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-06-13T14:00:55",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 4,
+   "fullName": "Owen H. Johnson",
+   "imgName": "Owen H. Johnson.jpg",
+   "incumbent": false,
+   "memberId": 386,
+   "sessionMemberId": 80,
+   "sessionYear": 2011,
+   "shortName": "JOHNSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-16",
+  "billCalNo": 1352,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8298",
+  "basePrintNoStr": "A8298-2011",
+  "session": 2011
+ },
+ "summary": "Relates to application for a waiver for entities providing certain professional services; provides that entities in existence as of the effective date of section 6503-a of the education law shall have until February 1, 2012 to apply for a waiver.",
+ "title": "Relates to application for a waiver for entities providing certain professional services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

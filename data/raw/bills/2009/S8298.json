@@ -1,0 +1,543 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8298",
+     "basePrintNoStr": "S8298-2009",
+     "printNo": "S8298",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8298",
+     "basePrintNoStr": "S8298-2009",
+     "printNo": "S8298",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-24",
+    "sequenceNo": 2,
+    "text": "ORDERED TO THIRD READING CAL.1205"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8298",
+     "basePrintNoStr": "S8298-2009",
+     "printNo": "S8298",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-24",
+    "sequenceNo": 3,
+    "text": "SUBSTITUTED BY A11316"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the estates, powers and trusts law, in relation to the execution and acknowledgment of lifetime trusts",
+    "basePrintNo": "S8298",
+    "basePrintNoStr": "S8298-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §7-1.17, EPT L",
+    "lawSection": "Estates, Powers and Trusts Law",
+    "memo": "BILL NUMBER:S8298\n\nTITLE OF BILL:\nAn act to amend the estates, powers and trusts law, in relation to the\nexecution and acknowledgment of lifetime trusts\n\nPURPOSE OF BILL:\nThis bill amends EPTL § 7-1.17 to clarify that a lifetime trust must\nbe executed by the person establishing such trust, who need not be the\n\"creator\" of such trust as defined in EPTL § 1-2.2.\n\nJUSTIFICATION:\nEPTL § 7-1.17 was enacted in 1997 to require that lifetime trusts, in\norder to be valid, must be in writing and either acknowledged or\nwitnessed by two witnesses. The section requires that the trust must\nbe executed by the \"initial creator\" of the trust, which inadvertently\ninvokes the definition of \"creator\" in EPTL § 1-2.2: \"A creator is a\nperson who makes a disposition of property.\"\n\nThe law is well established in this state that a trust may be created\nby a person other than the person who contributes property to the\ntrust. For example, an executor may be authorized to create a trust\nfor a beneficiary to receive property disposed of by a decedent's\nwill. In such case, the decedent would be considered the \"creator\"\npursuant to EPTL § 1-2.2, and under a literal reading of existing EPTL\n§ 7-1.17, the executor would be unable to create the trust.\n\nThis bill would delete the phrases \"initial creator\" and \"such\ncreator\" and replace them with \"person establishing such trust\" and\n\"such person\", thereby carrying out the intention of the 1997\nlegislation and eliminating the problem created by the inadvertent use\nof the word \"creator\".\n\nLEGISLATIVE HISTORY:\nNew bill, 2010.\n\nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\nNone.\n\nEFFECTIVE DATE:\nImmediately and shall apply to all lifetime trusts created on or after\nDecember 25, 1997.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8298",
+    "publishDate": "2010-06-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11316",
+       "basePrintNoStr": "A11316-2009",
+       "printNo": "A11316",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8298",
+ "basePrintNoStr": "S8298-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 70,
+    "year": 2010
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 22,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-06-21",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-24",
+    "billCalNo": 1205,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2010-06-21T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8298",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-06-21T18:10:45",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-06-21T18:10:45",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 19,
+   "fullName": "John L. Sampson",
+   "imgName": "369_john_l._sampson.jpg",
+   "incumbent": false,
+   "memberId": 369,
+   "sessionMemberId": 1,
+   "sessionYear": 2009,
+   "shortName": "SAMPSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-24",
+  "billCalNo": 1205,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11316",
+  "basePrintNoStr": "A11316-2009",
+  "session": 2009
+ },
+ "summary": "Requires the person establishing a lifetime trust to execute and acknowledge such trust.",
+ "title": "Requires the person establishing a lifetime trust to execute and acknowledge such trust",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8298",
+     "basePrintNoStr": "S8298-2009",
+     "printNo": "S8298",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "ABS": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Frank Padavan",
+         "imgName": "Frank Padavan.jpg",
+         "incumbent": false,
+         "memberId": 445,
+         "sessionMemberId": 22,
+         "sessionYear": 2009,
+         "shortName": "PADAVAN"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 56,
+         "sessionYear": 2009,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 18,
+         "sessionYear": 2009,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Pedro Espada Jr.",
+         "imgName": "Pedro Espada Jr.jpg",
+         "incumbent": false,
+         "memberId": 442,
+         "sessionMemberId": 9,
+         "sessionYear": 2009,
+         "shortName": "ESPADA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 48,
+         "sessionYear": 2009,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 54,
+         "sessionYear": 2009,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 12,
+         "sessionYear": 2009,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 61,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON O"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 21,
+         "sessionYear": 2009,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 31,
+         "sessionYear": 2009,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 6,
+         "sessionYear": 2009,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 49,
+         "sessionYear": 2009,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 13,
+         "sessionYear": 2009,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 46,
+         "sessionYear": 2009,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 32,
+         "sessionYear": 2009,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 5,
+         "sessionYear": 2009,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 3,
+         "sessionYear": 2009,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 60,
+         "sessionYear": 2009,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 35,
+         "sessionYear": 2009,
+         "shortName": "SMITH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "William T. Stachowski",
+         "imgName": "William T. Stachowski.jpg",
+         "incumbent": false,
+         "memberId": 453,
+         "sessionMemberId": 59,
+         "sessionYear": 2009,
+         "shortName": "STACHOWSKI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Dale M. Volker",
+         "imgName": "Dale M. Volker.jpg",
+         "incumbent": false,
+         "memberId": 452,
+         "sessionMemberId": 57,
+         "sessionYear": 2009,
+         "shortName": "VOLKER"
+        }
+       ],
+       "size": 22
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-06-24",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

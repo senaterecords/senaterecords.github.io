@@ -1,0 +1,193 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4002",
+     "basePrintNoStr": "S4002-2019",
+     "printNo": "S4002",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4002",
+     "basePrintNoStr": "S4002-2019",
+     "printNo": "S4002",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-11",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to signatures for designating\npetitions for political subdivisions outside the city of New York; and\nproviding for the repeal of such provisions upon expiration thereof",
+    "basePrintNo": "S4002",
+    "basePrintNoStr": "S4002-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 1280,
+       "sessionYear": 2019,
+       "shortName": "LITTLE"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6-136, El L",
+    "lawSection": "Election Law",
+    "memo": "\n \nBILL NUMBER: S4002\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the election law, in relation to signatures for desig-\nnating petitions for political subdivisions outside the city of New\nYork; and providing for the repeal of such provisions upon expiration\nthereof\n\n \nPURPOSE OF BILL:\n\nTo ensure ballot access for a variety of candidates for office due to\nthe recent change in the primary election date.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of this bill adds a new subdivision 5 of § 6-136 of the\nelection law to reduce the minimum petition signature requirement for\nall public offices to be filled in 2019, with the exception of offices\nin New York City, to 3.75 percent of the enrolled voters of the party\nresiding within the political unit in which the office or position is to\nbe voted for.\n\nSection two is the effective date.\n\n \nJUSTIFICATION:\n\nIn 2019, after 8 years of impasse the legislature has passed legislation\nreunifying state, local and federal (non-presidential) primary elections\nto be held on the 4th Tuesday in June, effective immediately.\n\nHowever, because of the imminent change in the political calendar neces-\nsary to meet the requirements for a June primary, candidates for local\noffices in 2019 are required to begin circulating designating petitions\nat the end of February 2019, rather than in mid-June, 2019.  This bill\nwould temporarily reduce the number of signatures required for designat-\ning petitions by 1/4 for candidates running for office, with the excep-\ntion of NYC, in 2019 to allow candidates to organize their campaigns,\nprint their petitions, and begin collecting voters' signatures after the\nchange in the primary date.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall expire December 31,\n2019 when upon such date the provisions of this act shall be deemed\nrepealed.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4002",
+    "publishDate": "2019-02-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4002",
+ "basePrintNoStr": "S4002-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-02-25",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2019-02-25T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4002",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-25T09:57:42.362475",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-02-25T09:57:42.362475",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 53,
+   "fullName": "Rachel May",
+   "imgName": "1057_Rachel_May.jpg",
+   "incumbent": true,
+   "memberId": 1237,
+   "sessionMemberId": 1235,
+   "sessionYear": 2019,
+   "shortName": "MAY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-03-11",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to signatures for designating petitions for political subdivisions outside the city of New York; must be signed by not less than three and three-quarters per centum.",
+ "title": "Relates to signatures for designating petitions for political subdivisions outside the city of New York",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

@@ -1,0 +1,628 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4623",
+     "basePrintNoStr": "S4623-2013",
+     "printNo": "S4623",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-04-16",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4623",
+     "basePrintNoStr": "S4623-2013",
+     "printNo": "S4623",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-01-08",
+    "sequenceNo": 2,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4623",
+     "basePrintNoStr": "S4623-2013",
+     "printNo": "S4623",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-04-25",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4623",
+     "basePrintNoStr": "S4623-2013",
+     "printNo": "S4623A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-04-25",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 4623A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law, in relation to requiring health insurance coverage for drug and alcohol abuse and dependency treatment services",
+    "basePrintNo": "S4623",
+    "basePrintNoStr": "S4623-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 164,
+       "sessionYear": 2013,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 141,
+       "sessionYear": 2013,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 126,
+       "sessionYear": 2013,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "John J. Flanagan",
+       "imgName": "399_john_j._flanagan.jpg",
+       "incumbent": false,
+       "memberId": 399,
+       "sessionMemberId": 155,
+       "sessionYear": 2013,
+       "shortName": "FLANAGAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Terry Gipson",
+       "imgName": "Terry Gipson.jpg",
+       "incumbent": false,
+       "memberId": 437,
+       "sessionMemberId": 158,
+       "sessionYear": 2013,
+       "shortName": "GIPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 154,
+       "sessionYear": 2013,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 143,
+       "sessionYear": 2013,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 175,
+       "sessionYear": 2013,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 163,
+       "sessionYear": 2013,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 153,
+       "sessionYear": 2013,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 172,
+       "sessionYear": 2013,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Cecilia Tkaczyk",
+       "imgName": "Cecilia Tkaczyk.jpg",
+       "incumbent": false,
+       "memberId": 431,
+       "sessionMemberId": 128,
+       "sessionYear": 2013,
+       "shortName": "TKACZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "Catharine Young",
+       "imgName": "414_catharine_young.jpg",
+       "incumbent": false,
+       "memberId": 414,
+       "sessionMemberId": 170,
+       "sessionYear": 2013,
+       "shortName": "YOUNG"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Lee M. Zeldin",
+       "imgName": "Lee M. Zeldin.jpg",
+       "incumbent": false,
+       "memberId": 404,
+       "sessionMemberId": 160,
+       "sessionYear": 2013,
+       "shortName": "ZELDIN"
+      }
+     ],
+     "size": 14
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3216, 3221 & 4303, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S4623\n\nTITLE OF BILL:  An act to amend the insurance law, in relation to\nrequiring health insurance coverage for drug and alcohol abuse and\ndependency treatment services\n\nPURPOSE: To ensure that patients suffering from drug and alcohol\ndependency receive appropriate care, by directing insurers to provide\nauthorization and payment to appropriately licensed healthcare\nproviders for detoxification, rehabilitation and intensive residential\nrehabilitation based on the examining physician's recommendation.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 adds a new paragraph (30) to subsection (i) of section 3216\nof the Insurance Law to require every policy delivered or issued for\ndelivery in New York State which provides medical, major medical, or\nsimilar comprehensive-type coverage to include specific coverage for\ndrug and alcohol abuse and dependency treatment services that are\ncertified as necessary by a qualified health professional. The only\nprerequisite for the coverage of hospital-based detoxification is the\ncertification and referral by a qualified health professional which\nwill control both the nature and the duration of covered treatment,\nexcepting when the attending physician providing the drug and alcohol\ntreatment certifies that admission of the covered person is not\nnecessary, early discharge is appropriate, or additional days or\nsessions are necessary. The location of covered treatment is dependent\non the insurer's requirements relating to the use of participating\nproviders.\n\nSection 2 adds a new paragraph (19) to subsection (1) of section 3221\nof the Insurance Law. This section's language mirrors that of section\n1, pertaining to every group or blanket policy delivered or issued for\ndelivery in New York State.\n\nSection 3 adds a new subsection (oo) to section 4303 of the Insurance\nlaw. This section's language again mirrors that of section 1,\npertaining to every contract issued by a hospital service company or\nhealth service corporation.\n\nSection 4 provides an effective date.\n\nJUSTIFICATION:  Prescription Drug Abuse is a public health crisis.\nDuring the 2011-12 Legislative Session the Senate Health Committee\nheld two Roundtables on the subject and issued a report entitled \"The\nPrescription Drug Crisis in New York State: A Comprehensive Approach.\"\nIn 2012 New York State took a bold step and adopted I-STOP (The\nInternet System for Tracking Over-Prescribing) which includes a number\nof provisions aimed at gaining better control over prescribing of\ncontrolled substances. At the same time, Nassau and Suffolk County\neach convened Task Forces on Prescription Drug Abuse. This legislation\naddresses concerns raised and recommendation that have been made to\nmake sure patients whose health care provider feels that they need\ndrug or alcohol addiction treatment are able to access those services\nfrom their insurer.\n\n\nThis legislation recognizes the important balance between insurers and\nproviders in providing appropriate health care services. Many\ninsurance companies rate healthcare providers based on the provider's\nability to place patients into the appropriate level of care and\ncontract with providers on this ability, as well as the provider's\nability to deliver quality healthcare outcomes. Providers are not\ngoing to automatically start admitting everyone unnecessarily for\nseveral reasons: 1) there will be no capacity increase in this bill,\nlimiting the number of available beds to what they are at the present\ntime; and 2) insurers can decide not to contract with providers who\nadmit patients too readily, frequently or unnecessarily.  In addition,\nwith payment reform a part of the health care system overhaul and\nAffordable Care Act, providers have begun to take on the payment risk.\nBy having arrangements with insurers to manage a population of\nbeneficiaries and being paid a set amount for these managed lives, as\nopposed to on a fee-for-service basis, providers will make decisions\nbased on what a patient needs, rather than on what they might get paid\nfor a particular procedure.  If a health care facility admits patients\nunnecessarily, the dollars will soon be coming out of their pocket,\nNOT the insurance company.\n\nA similar provision was adopted in the State of Pennsylvania in 1989\nand has proven effective in ensuring appropriate treatment for those\nsuffering from alcohol and drug addiction. This legislation will\nprovide a focus for New York to consider similar provisions. As New\nYork's I-STOP law goes into effect, those currently addicted to\nprescription pain medication may find their sources dry up and seek\ntreatment. This bill is an important next step to ensure those seeking\ntreatment can access it.\n\nPRIOR LEGISLATIVE HISTORY: New Bill\n\nFISCAL IMPLICATIONS: To be determined\n\nEFFECTIVE DATE: The first of January next succeeding the date on which\nit shall have become a law and shall apply to policies and contracts\nissued, renewed, modified, altered or amended on or after such date.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4623",
+    "publishDate": "2013-04-16",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the insurance law, in relation to requiring health insurance coverage for drug and alcohol abuse and dependency treatment services",
+    "basePrintNo": "S4623",
+    "basePrintNoStr": "S4623-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 147,
+       "sessionYear": 2013,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 164,
+       "sessionYear": 2013,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 141,
+       "sessionYear": 2013,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 126,
+       "sessionYear": 2013,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "John J. Flanagan",
+       "imgName": "399_john_j._flanagan.jpg",
+       "incumbent": false,
+       "memberId": 399,
+       "sessionMemberId": 155,
+       "sessionYear": 2013,
+       "shortName": "FLANAGAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Terry Gipson",
+       "imgName": "Terry Gipson.jpg",
+       "incumbent": false,
+       "memberId": 437,
+       "sessionMemberId": 158,
+       "sessionYear": 2013,
+       "shortName": "GIPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 154,
+       "sessionYear": 2013,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 165,
+       "sessionYear": 2013,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 143,
+       "sessionYear": 2013,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 175,
+       "sessionYear": 2013,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 163,
+       "sessionYear": 2013,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 153,
+       "sessionYear": 2013,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 172,
+       "sessionYear": 2013,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Cecilia Tkaczyk",
+       "imgName": "Cecilia Tkaczyk.jpg",
+       "incumbent": false,
+       "memberId": 431,
+       "sessionMemberId": 128,
+       "sessionYear": 2013,
+       "shortName": "TKACZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "Catharine Young",
+       "imgName": "414_catharine_young.jpg",
+       "incumbent": false,
+       "memberId": 414,
+       "sessionMemberId": 170,
+       "sessionYear": 2013,
+       "shortName": "YOUNG"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Lee M. Zeldin",
+       "imgName": "Lee M. Zeldin.jpg",
+       "incumbent": false,
+       "memberId": 404,
+       "sessionMemberId": 160,
+       "sessionYear": 2013,
+       "shortName": "ZELDIN"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3216, 3221 & 4303, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S4623A\n\nTITLE OF BILL:  An act to amend the insurance law, in relation to\nrequiring health insurance coverage for drug and alcohol abuse and\ndependency treatment services\n\nTITLE OF BILL:  An act to amend the insurance law, in relation to\nrequiring health insurance coverage for drug and alcohol abuse and\ndependency treatment services\n\nPURPOSE:\n\nTo ensure that patients suffering from drug and alcohol dependency\nreceive appropriate care, by directing insurers to provide authorization\nand payment to appropriately licensed healthcare providers for detoxifi-\ncation, rehabilitation and intensive residential rehabilitation based on\nthe examining physician's recommendation.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 adds a new paragraph (30) to subsection (i) of section 3216 of\nthe Insurance Law to require every policy delivered or issued for deliv-\nery in New York State which provides medical, major medical, or similar\ncomprehensive-type coverage to include specific coverage for drug and\nalcohol abuse and dependency treatment services that are certified as\nnecessary by a qualified health professional. The only prerequisite for\nthe coverage of hospital-based detoxification is the certification and\nreferral by a qualified health professional which will control both the\nnature and the duration of covered treatment, excepting when the attend-\ning physician providing the drug and alcohol treatment certifies that\nadmission of the covered person is not necessary, early discharge is\nappropriate, or additional days or sessions are necessary. The location\nof covered treatment is dependent on the insurer's requirements relating\nto the use of participating providers.\n\nSection 2 adds a new paragraph (19) to subsection (1) of section 3221 of\nthe Insurance Law. This section's language mirrors that of section 1,\npertaining to every group or blanket policy delivered or issued for\ndelivery in New York State.\n\nSection 3 adds a new subsection (oo) to section 4303 of the Insurance\nlaw. This section's language again mirrors that of section 1, pertaining\nto every contract issued by a hospital service company or health service\ncorporation.\n\nSection 4 provides an effective date.\n\nJUSTIFICATION:\n\nPrescription Drug Abuse is a public health crisis. During the 2011-12\nLegislative Session the Senate Health Committee held two Roundtables on\nthe subject and issued a report entitled \"The Prescription Drug Crisis\n\nin New York State: A Comprehensive Approach.\" In 2012 New York State\ntook a bold step and adopted I-STOP (The Internet System for Tracking\nOver-Prescribing) which includes a number of provisions aimed at gaining\nbetter control over prescribing of controlled substances. At the same\ntime, Nassau and Suffolk County each convened Task Forces on\nPrescription Drug Abuse. This legislation addresses concerns raised and\nrecommendation that have been made to make sure patients whose health\ncare provider feels that they need drug or alcohol addiction treatment\nare able to access those services from their insurer.\n\nThis legislation recognizes the important balance between insurers and\nproviders in providing appropriate health care services. Many insurance\ncompanies rate healthcare providers based on the provider's ability to\nplace patients into the appropriate level of care and contract with\nproviders on this ability, as well as the provider's ability to deliver\nquality healthcare outcomes. Providers are not going to automatically\nstart admitting everyone unnecessarily for several reasons: 1) there\nwill be no capacity increase in this bill, limiting the number of avail-\nable beds to what they are at the present time; and 2) insurers can\ndecide not to contract with providers who admit patients too readily,\nfrequently or unnecessarily. In addition, with payment reform a part of\nthe health care system overhaul and Affordable Care Act, providers have\nbegun to take on the payment risk. By having arrangements with insurers\nto manage a population of beneficiaries and being paid a set amount for\nthese managed lives, as opposed to on a fee-for-service basis, providers\nwill make decisions based on what a patient needs, rather than on what\nthey might get paid for a particular procedure. If a health care facili-\nty admits patients unnecessarily, the dollars will soon be coming out of\ntheir pocket, NOT the insurance company.\n\nA similar provision was adopted in the State of Pennsylvania in 1989 and\nhas proven effective in ensuring appropriate treatment for those suffer-\ning from alcohol and drug addiction. This legislation will provide a\nfocus for New York to consider similar provisions. As New York's I-STOP\nlaw goes into effect, those currently addicted to prescription pain\nmedication may find their sources dry up and seek treatment. This bill\nis an important next step to ensure those seeking treatment can access\nit.\n\nLEGISLATIVE HISTORY:\n\nNew Bill.\n\nFISCAL IMPLICATIONS:\n\nTo be determined.\n\nEFFECTIVE DATE:\n\nThe first of January next succeeding the date on which it shall have\nbecome a law and shall apply to policies and contracts issued, renewed,\nmodified, altered or amended on or after such date.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4623A",
+    "publishDate": "2014-04-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7003",
+       "basePrintNoStr": "A7003-2013",
+       "printNo": "A7003A",
+       "session": 2013,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4623",
+ "basePrintNoStr": "S4623-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-04-25",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2013-04-16T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2014-01-08T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2014-04-25T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4623A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-04-16T11:15:03",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2014-04-25T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2013-04-16T11:15:03",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 6,
+   "fullName": "Kemp Hannon",
+   "imgName": "424_kemp_hannon.jpg",
+   "incumbent": false,
+   "memberId": 424,
+   "sessionMemberId": 180,
+   "sessionYear": 2013,
+   "shortName": "HANNON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-04-25",
+  "billCalNo": null,
+  "committeeName": "Insurance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires health insurance to cover drug and alcohol abuse and dependency treatment services.",
+ "title": "Requires health insurance to cover drug and alcohol abuse and dependency treatment services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

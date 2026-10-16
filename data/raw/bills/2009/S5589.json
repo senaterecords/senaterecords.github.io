@@ -1,0 +1,231 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5589",
+     "basePrintNoStr": "S5589-2009",
+     "printNo": "S5589",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5589",
+     "basePrintNoStr": "S5589-2009",
+     "printNo": "S5589",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.531"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5589",
+     "basePrintNoStr": "S5589-2009",
+     "printNo": "S5589",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-03",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5589",
+     "basePrintNoStr": "S5589-2009",
+     "printNo": "S5589",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-04",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5589",
+     "basePrintNoStr": "S5589-2009",
+     "printNo": "S5589",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-09",
+    "sequenceNo": 5,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S5589",
+    "basePrintNoStr": "S5589-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Gen Ob L, generally",
+    "lawSection": "General Obligations Law",
+    "memo": " BILL NUMBER:  S5589\n\n TITLE OF BILL :\nAn act to amend the general obligations law, in relation to powers of\nattorney for financial estate planning; and directing the law revision\ncommission to study the implementation of such powers of attorney\n\n\n PURPOSE OF BILL :\nTo provide technical amendments to revise Ch. 644 '08 in regard to the\nexecution of powers of attorney and ensure that language is used in a\nconsistent way throughout the statute.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nThe process of revoking a power of attorney is clarified in\nsubdivision 3 of §5-1511. Furthermore, paragraph (e) of subdivision 1\nis revised so subsequently drafted powers of attorney do not\nautomatically revoke previously drafted powers of attorney. In\naddition, the ability of agents to act separately or jointly is also\nclarified in paragraph (e) of this section.\n\nThe definition of a power of attorney is refined in subdivision 10 of\n\n§5-1501 of the general obligations law, and the language regarding\n\"statutory major gifts rider\" is now used consistently throughout the\nstatute. The gift making capacity of a power of attorney without a\nstatutory major gifts rider is further clarified in this section as a\nmaximum of $500 each year.\n\n JUSTIFICATION :\nCh. 644 '08 provides a comprehensive revision to the power of attorney\nlaws in New York State. To ensure a smooth transition, the enactment\ndate of Ch. 644 '08 was extended from March 1, 2009 to September 1,\n2009 by Ch. 4 '09.\n\nThe technical changes and clarifications made by this bill are\nnecessary in order to facilitate the transition of the comprehensive\nchanges to the power of attorney laws made by Ch. 644 '08.\n\n LEGISLATIVE HISTORY :\nNew bill, 2009.\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\nNone.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5589",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5589",
+ "basePrintNoStr": "S5589-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 59,
+    "year": 2009
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-05-20",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-06-04",
+    "billCalNo": 531,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-05-20T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5589",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 19,
+   "fullName": "John L. Sampson",
+   "imgName": "369_john_l._sampson.jpg",
+   "incumbent": false,
+   "memberId": 369,
+   "sessionMemberId": 1,
+   "sessionYear": 2009,
+   "shortName": "SAMPSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-07-09",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Makes technical corrections to provisions establishing powers of attorney for financial estate planning; directs the law revision commission to study, over a period of 2 years, the implementation of such provisions.",
+ "title": "Makes technical corrections to provisions establishing powers of attorney for financial estate planning",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

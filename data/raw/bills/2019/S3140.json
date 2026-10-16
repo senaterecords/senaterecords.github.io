@@ -1,0 +1,384 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3140",
+     "basePrintNoStr": "S3140-2019",
+     "printNo": "S3140",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3140",
+     "basePrintNoStr": "S3140-2019",
+     "printNo": "S3140",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-26",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.163"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3140",
+     "basePrintNoStr": "S3140-2019",
+     "printNo": "S3140",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-27",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3140",
+     "basePrintNoStr": "S3140-2019",
+     "printNo": "S3140",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-28",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3140",
+     "basePrintNoStr": "S3140-2019",
+     "printNo": "S3140",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-05",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A111"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to publishing local campaign\ncontribution limits",
+    "basePrintNo": "S3140",
+    "basePrintNoStr": "S3140-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §14-114, El L",
+    "lawSection": "Election Law",
+    "memo": "\n \nBILL NUMBER: S3140\n\nSPONSOR: MYRIE\n \nTITLE OF BILL:\n\nAn act to amend the election law, in relation to publishing local\ncampaign contribution limits\n\n \nPURPOSE:\n\nTo increase transparency and awareness regarding local campaign contrib-\nution limits\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill amends section 14-114 of the Election Law to provide for local\nboards of election to calculate and publish on their websites by April\n15th, the contribution limits for all county, town, city, and village\noffices on the ballot in that year.\n\n \nJUSTIFICATION:\n\nBecause contribution limits are calculated based upon the total number\nof registered votes in a political subdivision, limits can change from\nyear to year. There is currently no requirement that boards of elections\npublish such information, although some county boards of elections,\nincluding Westchester's, deserve credit for voluntarily doing so. This\nbill would increase transparency and educate candidates, contributors,\nas well as voters, fostering compliance with campaign finance rules.\n\n \nLEGISLATIVE HISTORY:\n\n2018: A.9922 - Passed Assembly 140 to 0\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTS ON FINES, TERMS OF IMPRISONMENT AND OTHER PENAL SANCTIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the fifteenth day of December after it\nshall become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3140",
+    "publishDate": "2019-02-04",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A111",
+       "basePrintNoStr": "A111-2019",
+       "printNo": "A111",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3140",
+ "basePrintNoStr": "S3140-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 12,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 13,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 14,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 15,
+    "year": 2019
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 6,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-02-04",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-02-28",
+    "billCalNo": 163,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2019-02-04T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3140",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-04T11:31:53.569225",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-02-04T11:31:53.569225",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 20,
+   "fullName": "Zellnor Myrie",
+   "imgName": "1048_Zellnor_Myrie.jpg",
+   "incumbent": true,
+   "memberId": 1228,
+   "sessionMemberId": 1226,
+   "sessionYear": 2019,
+   "shortName": "MYRIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-02-28",
+  "billCalNo": 163,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A111",
+  "basePrintNoStr": "A111-2019",
+  "session": 2019
+ },
+ "summary": "Relates to publishing local campaign contribution limits.",
+ "title": "Relates to publishing local campaign contribution limits",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3140",
+     "basePrintNoStr": "S3140-2019",
+     "printNo": "S3140",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Fredrick J. Akshar II",
+         "imgName": "735_Fredrick_Akshar.jpg",
+         "incumbent": false,
+         "memberId": 913,
+         "sessionMemberId": 1381,
+         "sessionYear": 2019,
+         "shortName": "AKSHAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1407,
+         "sessionYear": 2019,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1235,
+         "sessionYear": 2019,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 1210,
+         "sessionYear": 2019,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1226,
+         "sessionYear": 2019,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1225,
+         "sessionYear": 2019,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 1287,
+         "sessionYear": 2019,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-02-25",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

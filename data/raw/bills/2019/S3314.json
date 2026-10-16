@@ -1,0 +1,1373 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-04",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.216"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-05",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-06",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-05",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 3314A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-20",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 7,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-02-21",
+    "sequenceNo": 8,
+    "text": "AMEND AND RECOMMIT TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2020-02-21",
+    "sequenceNo": 9,
+    "text": "PRINT NUMBER 3314B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-07-15",
+    "sequenceNo": 10,
+    "text": "AMENDED BY RESTORING TO PREVIOUS PRINT 3314A"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the penal law, in relation to crimes involving the death or\ninjury of a worker",
+    "basePrintNo": "S3314",
+    "basePrintNoStr": "S3314-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1198,
+       "sessionYear": 2019,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§20.20, 60.27 & 80.10, add Art 122 §§122.00 - 122.15, Pen L",
+    "lawSection": "Penal Law",
+    "memo": "\n \nBILL NUMBER: S3314\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:\n\nAn act to amend the penal law, in relation to crimes involving the death\nor injury of a worker\n\n \nPURPOSE:\n\nThis bill seeks to protect workers from employers and supervisors that\nignore, disregard or fail to comply with safety protocols by amending\nthe penal code to create a new Article 122 of the Penal Law - Workplace\nSafety Offenses.\n\n \nSUMMARY OF PROVISIONS:\n\n§ 1 - amends section 20.20 of the penal law relating to criminal liabil-\nity of corporations by adding a new Article 122 of the penal law - work-\nplace safety offenses - endangering the welfare of a workers in the 1st,\n2nd, or 3rd degree for which an agent of a corporation could be guilty.\n\n§ 2 - amends section a and b of subdivision 1 of section 80.10 relating\nto fines on corporation by adding fines for violations under new article\n122 of the Penal law. For felony offenses, the fine may be up to\n$50,000. For misdemeanors offenses the fine may be up to $25,000.\n\n§ 3 - Creates a new Article 122 of the Penal Law - Workplace Safety\nOffenses\n\n§ 122.00 - endangering the welfare of a worker in the third degree - if\nan employer or supervisor ignores, disregards or fails to comply with\nworkplace safety protocols or procedures; and that conduct exposes a\nworker to bodily injury - punishable as a class A misdemeanor.\n\n§ 122.05 - endangering the welfare of a worker in the second degree - if\nan employer or supervisor ignores, disregards or fails to comply with\nworkplace safety protocols or procedures, and that conduct exposes a\nworker to serious physical injury - punishable as a class E felony.\n\n§ 122.10 - endangering the welfare of a worker in the first degree - if\nan employer or supervisor ignores, disregards or fails to comply with\nworkplace safety protocols or procedures, and that contributes directly\nto the death of a worker - punishable as a class D felony.\n\n§ 4 - effective date of 30 days after signed into law\n\n \nJUSTIFICATION:\n\nWorkplace deaths and serious injuries continue to be commonplace in the\nconstruction industry. Of the more than 400,000 workplace fatalities\nsince Congress enacted the Occupational Safety and Health Act (OSHA),\nfewer than 80 have been prosecuted, and only about a dozen lead to\nconvictions. That is roughly one conviction for every 33,000 fatalities.\nIn the few cases that have resulted in conviction, the penalty was only\n$1,000 on average. Under the OSHA, the criminal penalty is a Class B\nmisdemeanor, and carries, at most, up to 6 months imprisonment. The\nweakness of OSHA's punitive measures has therefore failed to encourage\nsafer work environments.\nThis bill would strengthen New York State's laws by creating a new Arti-\ncle 122 of the Penal law of Workplace Safety Offenses increasing both\nfines and penalties when an employer or supervisor ignores, disregards\nor fails to comply with workplace safety protocols or procedures, and\nthat contributes directly to bodily injury, serious physical injury of\nthe death of a worker.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2016 Session - New bill\n\n \nFISCAL IMPLICATIONS:\n\nNone to the state.\n\n \nEFFECTIVE DATE:\n30 days after being signed into law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3314",
+    "publishDate": "2019-02-05",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the penal law, in relation to crimes involving the death or\ninjury of a worker",
+    "basePrintNo": "S3314",
+    "basePrintNoStr": "S3314-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1198,
+       "sessionYear": 2019,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1220,
+       "sessionYear": 2019,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§20.20, 60.27 & 80.10, add Art 122 §§122.00 - 122.20, Pen L",
+    "lawSection": "Penal Law",
+    "memo": "\n \nBILL NUMBER: S3314A\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:  An act to amend the penal law, in relation to crimes\ninvolving the death or injury of a worker\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill seeks to protect workers from \"supervisors\" that negligently\nfail to comply with safety protocols by amending the penal code to\ncreated new offenses and substantially increasing the fines that can be\nimposed upon a corporate defendant convicted of certain crimes.\n\n \nSUMMARY OF PROVISIONS:\n\n- Section one entitles this act as \"Carlos' Law.\"\n\n- Section two amends paragraph (c) of subdivision 2 of section 20.20 of\nthe penal law regarding corporate criminal liability.\n\n- Section three amends subdivision five of section 60.27 of the penal\nlaw by adding a new paragraph (c) to allow a court to order additional\nrestitution to victims.\n\n- Section four amends paragraphs (a) and (b) of subdivision 1 of section\n80.10 of the penal law to provide for increased fines against corpo-\nrations convicted of certain crimes.\n\n- Section five amends the penal law by adding a new article 122 titled\nWorkplace Safety. This new title contains a section on definitions,\nsection 122.00; a class A misdemeanor offense, endangering the welfare\nof a worker in the third degree, section 122.05; a class E felony\noffense, endangering the welfare of a worker in the second degree,\nsection 122.10; and a class D felony offense, endangering the welfare of\na worker in the first degree, section 122.15; section 122.20 enforce-\nment.\n\n-Section 6 is the effective date.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\nThe criminal actor in this article has been termed a supervisor. This is\na defined term that captures a host of individuals and entities which\nexercise control over a job site. And, criminal jurisdiction has been\nexpanded. The attorney general, as well as the district attorney having\njurisdiction over the criminal conduct, may prosecute these offenses.\n\n \nJUSTIFICATION:\n\nWorkplace deaths and serious injuries continue to be commonplace in the\nconstruction industry. Of the more than 400,000 workplace fatalities\nsince Congress enacted the Occupational Safety and Health Act (OSH Act),\nfewer than 80 have been prosecuted, and only about a dozen employers\nhave been convicted. That is roughly 1-conviction for every 33,000\nfatalities. In the few cases that have resulted in conviction, the\npenalty was only $1,000 on average. Under the OSH Act, the criminal\npenalty is considered as a Class B misdemeanor, and carries, at most, up\nto 6 months imprisonment. The weakness of OSH's punitive measures has\ntherefore failed to encourage safer work environments. This bill would\nreinforce the purpose of the OSH Act by amending the penal code to\ninclude \"endangering the welfare of the worker in the third degree\",\nestablished as a class A misdemeanor, \"endangering the welfare of the\nworker in the second degree\", a class E felony, and \"endangering the\nwelfare of the worker in the first degree\", a class D felony.\n\nThis bill increases punitive measures so that employers and supervisors\nwho ignore or fail to follow safety protocols and procedures and put\nworkers at risk are less likely to write off serious workplace injuries\nas a minimal cost of doing business, and more likely to give workplace\nsafety the serious attention it requires.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2018: A.10728 (Espinal) - Passed Assembly;\n2017: A.2966-B (Moya) Passed Assembly\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3314A",
+    "publishDate": "2019-06-05",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4508",
+       "basePrintNoStr": "A4508-2019",
+       "printNo": "A4508A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the penal law, in relation to crimes involving the death or\ninjury of a worker",
+    "basePrintNo": "S3314",
+    "basePrintNoStr": "S3314-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1198,
+       "sessionYear": 2019,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1220,
+       "sessionYear": 2019,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§20.20, 60.27 & 80.10, add Art 122 §§122.00 - 122.20, Pen L",
+    "lawSection": "Penal Law",
+    "memo": "\n \nBILL NUMBER: S3314b\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:\n\nAn act to amend the penal law, in relation to crimes involving the death\nor injury of a worker\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill seeks to protect workers from \"supervisors\" that recklessly\nfail to comply with safety protocols by amending the penal code to\ncreate new offenses and substantially increasing the fines that can be\nimposed upon a corporate defendant convicted of certain crimes.\n\n \nSUMMARY OF PROVISIONS:\n\n-Section one entitles this act as \"Carlos' Law.\"\n\n-Section two amends paragraph ® of subdivision 2 of section 20.20 of the\npenal law regarding corporate criminal liability.\n\n-Section three amends subdivision (a) and (b) of subdivision 1 of\nsection 80.10 of the penal law to provide for increased fines against\ncorporations convicted of certain crimes.\n\nSection five amends the penal law by adding a new article 122 titled\nWorkplace Safety. The new title contains a section on definitions,\nsection 122.00; a class A misdemeanor offense, endangering the welfare\nof a worker in the third degree, section 122,05; a class E felony\noffense, endangering the welfare of a worker in the second degree,\nsection 122.10; and a class D felony offense, endangering the welfare of\na worker in the first degree, section 122.15; section 122.20 enforce-\nment.\n\n-Section 6 is the effective date.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\nThe criminal actor in this article has been termed a supervisor. This is\na defined term that captures a host of individuals and entities which\nexercise control over a job site. The criminal jurisdiction has been\nexpanded. The attorney general attorney, as well as the district attor-\nney having jurisdiction over the criminal conduct, may prosecute\noffenses that are reckless.\n\n \nJUSTIFICATION:\n\nWorkforce deaths and serious injuries continue to be commonplace in the\nconstruction industry. Of the more than 400,000 workplace fatalities\nsince Congress enacted the Occupational Safety and Health Act (OSC Act)\nfewer than 80 have been prosecuted, and only about a dozen employers\nhave been convicted. That is roughly 1-conviction for every 33,000\nfatalities. In the few cases that have resulted in conviction, the\npenalty was $1,000.00 on average. Under the OSH Act the criminal is\nconside5red as a Class B misdemeanor, and carries, at most, up to 6\nmonths imprisonment. The weakness of OSH's punitive measures have there-\nfore failed to encourage safer work environments.  This bill would rein-\nforce the purpose of the OSH Act by amending the penal code to include\n\"endangering the welfare of the worker in the third degree\", established\nas a class A misdemeanor, \"Endangering the welfare of a worker in the\nsecond degree, a class E felony, and \"endangering the welfare of the\nworker in the first degree, a class D felony.\n\nThis bill increases punitive measures so that employers and supervisors\nwho ignore or fail to follow safety protocols and procedures and put\nworkers at risk are less likely to write off serious workplace injuries\nas a minimal cost of doing business, and more likely to give workplace\nthe serious attention it requires.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019: S.3314-A Third Reading\n2019: A.4508-A Third Reading\n2018: S.4373-B Referred to Codes\n2018: A.1072-B Passed Assembly\n2017: S.4373-B Referred to Codes\n2017: A.2966 Passed Assembly\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3314B",
+    "publishDate": "2020-02-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3314",
+ "basePrintNoStr": "S3314-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 15,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 16,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 17,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 18,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 19,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 20,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 21,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 22,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 23,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 24,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 25,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 26,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 27,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 28,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 29,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 30,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 31,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 32,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 33,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2019
+   }
+  ],
+  "size": 46
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 7,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-02-21",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2019-02-05T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2020-02-21T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2019-06-20T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4373",
+    "basePrintNoStr": "S4373-2017",
+    "printNo": "S4373B",
+    "session": 2017,
+    "version": "B"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3314A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-05T15:03:00.154829",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-06-05T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2020-02-21T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2019-02-05T15:03:00.154829",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 10,
+   "fullName": "James Sanders Jr.",
+   "imgName": "432_james_sanders_jr.jpg",
+   "incumbent": true,
+   "memberId": 432,
+   "sessionMemberId": 1208,
+   "sessionYear": 2019,
+   "shortName": "SANDERS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-02-21",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts Carlos' law; relates to crimes involving the death or injury of a worker; establishes higher fines for corporations who commit such crimes; establishes the crimes of endangering the welfare of a worker in the third, second and first degrees.",
+ "title": "Enacts Carlos' law; relates to crimes involving the death or injury of a worker",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3314",
+     "basePrintNoStr": "S3314-2019",
+     "printNo": "S3314",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1199,
+         "sessionYear": 2019,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1229,
+         "sessionYear": 2019,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1417,
+         "sessionYear": 2019,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 1227,
+         "sessionYear": 2019,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1204,
+         "sessionYear": 2019,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1407,
+         "sessionYear": 2019,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1226,
+         "sessionYear": 2019,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        }
+       ],
+       "size": 9
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Fredrick J. Akshar II",
+         "imgName": "735_Fredrick_Akshar.jpg",
+         "incumbent": false,
+         "memberId": 913,
+         "sessionMemberId": 1381,
+         "sessionYear": 2019,
+         "shortName": "AKSHAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1289,
+         "sessionYear": 2019,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        }
+       ],
+       "size": 3
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1416,
+         "sessionYear": 2019,
+         "shortName": "O'MARA"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-03-04",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2020
+}

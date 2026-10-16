@@ -1,0 +1,406 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6976",
+     "basePrintNoStr": "S6976-2009",
+     "printNo": "S6976",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-02",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6976",
+     "basePrintNoStr": "S6976-2009",
+     "printNo": "S6976",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-09",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.913"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6976",
+     "basePrintNoStr": "S6976-2009",
+     "printNo": "S6976",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-10",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6976",
+     "basePrintNoStr": "S6976-2009",
+     "printNo": "S6976",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-14",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6976",
+     "basePrintNoStr": "S6976-2009",
+     "printNo": "S6976",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-16",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A9979"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to authorize the Greater Utica Community Food Resources, Inc. to file an application for a real property tax exemption",
+    "basePrintNo": "S6976",
+    "basePrintNoStr": "S6976-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Real Property Taxation",
+    "memo": " BILL NUMBER:  S6976\n\n TITLE OF BILL :\nAn act to authorize the Greater Utica Community Food Resources, Inc.\nto file an application for a real property tax exemption\n\n\n PURPOSE :\nThis bill would authorize the Greater Utica Community Food Resources\nInc. to file an application for a real property tax exemption.\n\n SUMMARY OF PROVISIONS :\nSection one of this bill authorizes the assessor of the City of Utica,\nOneida county, to accept from Greater Utica Community Food Resources\nInc., an application for exemption from real property taxes for the\n2007-2008 and 2008-2009 assessment rolls for their building at 112-114\nBleecker Street.\n\n JUSTIFICATION :\nThe Greater Utica Community Food Resources Inc. purchased 112-114\nBleecker Street in 2006. The previous executive director did not file\nthe proper paperwork in a timely fashion with the City of Utica. This\nlegislation will allow the City, at local option, to accept an\napplication from the Greater Utica Community Food Resources Inc. thus\nallowing the regional food distributor relief from having to pay their\npast due real property taxes.\n\n LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone to the state.\n\n EFFECTIVE DATE :\nImmediate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6976",
+    "publishDate": "2010-03-02",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9979",
+       "basePrintNoStr": "A9979-2009",
+       "printNo": "A9979",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6976",
+ "basePrintNoStr": "S6976-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 61,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2010
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-03-02",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-14",
+    "billCalNo": 913,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2010-03-02T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6976",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-03-02T14:35:58",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-03-02T14:35:58",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 47,
+   "fullName": "Joseph A. Griffo",
+   "imgName": "393_joseph_a._griffo.jpg",
+   "incumbent": true,
+   "memberId": 393,
+   "sessionMemberId": 24,
+   "sessionYear": 2009,
+   "shortName": "GRIFFO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-14",
+  "billCalNo": 913,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9979",
+  "basePrintNoStr": "A9979-2009",
+  "session": 2009
+ },
+ "summary": "Authorizes Greater Utica Community Food Resources, Inc. to file an application for a real property tax exemption.",
+ "title": "Authorizes the Greater Utica Community Food Resources, Inc. to file an application for a real property tax exemption",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6976",
+     "basePrintNoStr": "S6976-2009",
+     "printNo": "S6976",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Craig M. Johnson",
+         "imgName": "Craig M. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 446,
+         "sessionMemberId": 62,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 11,
+         "sessionYear": 2009,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 19,
+         "sessionYear": 2009,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Antoine M. Thompson",
+         "imgName": "Antoine M. Thompson.jpg",
+         "incumbent": false,
+         "memberId": 447,
+         "sessionMemberId": 28,
+         "sessionYear": 2009,
+         "shortName": "THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 6
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Thomas P. Morahan",
+         "imgName": "Thomas P. Morahan.jpg",
+         "incumbent": false,
+         "memberId": 441,
+         "sessionMemberId": 2,
+         "sessionYear": 2009,
+         "shortName": "MORAHAN"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-06-09",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

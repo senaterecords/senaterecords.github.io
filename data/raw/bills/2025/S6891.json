@@ -1,0 +1,917 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-03-26",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-04-30",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.906"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-01",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-05",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-19",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 6891A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-27",
+    "sequenceNo": 6,
+    "text": "AMENDED ON THIRD READING 6891B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-12",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A7613B"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to clarifying the requirements\nfor a certified public accountant",
+    "basePrintNo": "S6891",
+    "basePrintNoStr": "S6891-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2377,
+       "sessionYear": 2025,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 2341,
+       "sessionYear": 2025,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      }
+     ],
+     "size": 7
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§7404 & 7406, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S6891REVISED 4/30/2025\n\nSPONSOR: STAVISKY\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to clarifying the\nrequirements for a certified public accountant\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nAuthorizes the establishment of an additional pathway to CPA licensure\nthat maintains the license's integrity and protects the public while\nproviding flexibility in response to stakeholder demand.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Amends section 7404 of the education law to create an addi-\ntional path to CPA licensure that would require a bachelor's degree, the\npassage of a CPA exam and two years of professional experience.\n\nSection 2. Amends section 7406 of the education law to seek to shift to\nan \"individual-based\" mobility model that incorporates a CPA's ability\nto practice across state lines. The amendment would also add language to\nensure CPAs meet exiting licensure requirements.\n\nSection 3. Effective Date.\n\n \nJUSTIFICATION:\n\nCurrently, CPA candidates must obtain 150 hours of higher education, or\na master's degree, one year of experience and passage of the CPA exam in\norder to obtain a CPA license. This legislation would add an alternative\nroute to licensure by allowing candidates to earn a bachelors or\n120-credit hours with 2 years of relative experience.  This change will\nallow students to begin earning money sooner in their career while also\navoiding the cost of an additional year of college.\n\nThis bill will help address the shrinking pool of CPAs both in New York\nand nationally, putting businesses, governmental agencies, individual\ntaxpayers and capital markets at risk due to a shortage of these trusted\nfinancial professionals. Many other states are adopting this alternative\npathway, encouraging students to leave New York and to obtain their CPA\nlicense in states that allow for the 120-hour pathway. Creating addi-\ntional pathways to licensure will allow more opportunity for underprivi-\nleged and minority students to enter the accounting profession.\n\nAdditionally, this bill ensures continued interstate practice mobility\nfor CPAs and makes it clear that as long as an out-of-state CPA has a\nlicense in good standing and has passed the uniform CPA Examination,\nthey are welcome in New York without needing a reciprocal License, while\nstill being subject to New York's laws and regulations.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew Bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nN/A\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred eightieth day after it\nshall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6891",
+    "publishDate": "2025-03-26",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN7404",
+        "EDN7406"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to clarifying the requirements\nfor a certified public accountant",
+    "basePrintNo": "S6891",
+    "basePrintNoStr": "S6891-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2377,
+       "sessionYear": 2025,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 2341,
+       "sessionYear": 2025,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2359,
+       "sessionYear": 2025,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§7404 & 7406, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S6891A\n\nSPONSOR: STAVISKY\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to clarifying the\nrequirements for a certified public accountant\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nAuthorizes the establishment of an additional pathway to CPA licensure\nthat maintains the license's integrity and protects the public while\nproviding flexibility in response to stakeholder demand.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Amends section 7404 of the education law to create an addi-\ntional path to CPA licensure that would require a bachelor's degree, the\npassage of a CPA exam and two years of professional experience.\n\nSection 2. Amends section 7406 of the education law to seek to shift to\nan \"individual-based\" mobility model that incorporates a CPA's ability\nto practice across state lines. The amendment would also add language to\nensure CPAs meet exiting licensure requirements.\n\nSection 3. Effective Date.\n\n \nJUSTIFICATION:\n\nCurrently, CPA candidates must obtain lA hours of higher education, or a\nmaster's degree, one year of experience and passage of the CPA exam in\norder to obtain a CPA license. This legislation would add an alternative\nroute to licensure by allowing candidates to earn a bachelors or\n120-credit hours with 2 years of relative experience.This change will\nallow students to begin earning money sooner in their career while also\navoiding the cost of an additional year of college.\n\nThis bill will help address the shrinking pool of CPAs both in New York\nand nationally, putting businesses, governmental agencies, individual\ntaxpayers and capital markets at risk due to a shortage of these trusted\nfinancial professionals. Many other states are adopting this alternative\npathway, encouraging students to leave New York and to obtain their CPA\nlicense in states that allow for the 120-hour pathway. Creating addi-\ntional pathways to licensure will allow more opportunity for underprivi-\nleged and minority students to enter the accounting profession.\n\nAdditionally, this bill ensures continued interstate practice mobility\nfor CPAs and makes it clear that as long as an out-of-state CPA has a\nlicense in good standing and has passed the uniform CPA Examination,\nthey are welcome in New York without needing a reciprocal License, while\nstill being subject to New York's laws and regulations.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew Bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nN/A\n \nEFFECTIVE DATE:\nThis act shall take twelve months after it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6891A",
+    "publishDate": "2025-05-19",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN7404",
+        "EDN7406"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the education law, in relation to clarifying the requirements\nfor a certified public accountant",
+    "basePrintNo": "S6891",
+    "basePrintNoStr": "S6891-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2377,
+       "sessionYear": 2025,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 2341,
+       "sessionYear": 2025,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2359,
+       "sessionYear": 2025,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§7404 & 7406, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S6891B\n\nSPONSOR: STAVISKY\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to clarifying the\nrequirements for a certified public accountant\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nAuthorizes the establishment of an additional pathway to CPA licensure\nand enhance practice mobility.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Amends section 7404 of the education law to create an addi-\ntional path to CPA licensure that would require a bachelor's degree, the\npassage of a CPA exam and two years of professional experience.\n\nSection 2. Amends section 7406 of the education law to seek to shift to\nan \"individual-based\" mobility model that incorporates a CPA's ability\nto practice across state lines. The amendment would also add language to\nensure CPAs meet exiting licensure requirements.\n\nSection 3. Effective Date.\n\n \nJUSTIFICATION:\n\nCurrently, CPA candidates must obtain 150 hours of higher education, or\na master's degree, one year of experience and passage of the CPA exam in\norder to obtain a CPA license. This legislation would add an alternative\nroute to licensure by allowing candidates to earn a bachelor's or\n120-credit hours with 2 years of relative experience.  This change will\nallow students to begin earning money sooner in their career while also\navoiding the cost of an additional year of college.\n\nThis bill will help address the shrinking pool of CPAs both in New York\nand nationally, putting businesses, governmental agencies, individual\ntaxpayers and capital markets at risk due to a shortage of these trusted\nfinancial professionals. Many other states are adopting this alternative\npathway, encouraging students to leave New York and to obtain their CPA\nlicense in states that allow for the 120-hour pathway. Creating addi-\ntional pathways to licensure will allow more opportunity for underprivi-\nleged and minority students to enter the accounting profession.\n\nAdditionally, this bill ensures continued interstate practice mobility\nfor CPAs and makes it clear that as tong as an out-of-state CPA has a\nlicense in good standing and has passed the uniform CPA Examination,\nthey are welcome in New York without needing a reciprocal license, white\nstill being subject to New York's laws and regulations.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew Bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTBD\n\n \nEFFECTIVE DATE:\nThis act shall take effect twelve months after it shall become a taw.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6891B",
+    "publishDate": "2025-05-27",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN7404",
+        "EDN7406"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7613",
+       "basePrintNoStr": "A7613-2025",
+       "printNo": "A7613B",
+       "session": 2025,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6891",
+ "basePrintNoStr": "S6891-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 45,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 67,
+    "year": 2025
+   }
+  ],
+  "size": 23
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2025-03-26",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2025-05-27",
+    "billCalNo": 906,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2025-03-26T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6891B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-03-26T10:34:40.620151",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2025-05-19T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2025-05-27T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2025-03-26T10:34:40.558253",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 11,
+   "fullName": "Toby Ann Stavisky",
+   "imgName": "400_toby_ann_stavisky.jpg",
+   "incumbent": true,
+   "memberId": 400,
+   "sessionMemberId": 2328,
+   "sessionYear": 2025,
+   "shortName": "STAVISKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2025-05-27",
+  "billCalNo": 906,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7613",
+  "basePrintNoStr": "A7613-2025",
+  "session": 2025
+ },
+ "summary": "Reforms the education requirements for persons who want to become certified public accountants; provides alternative pathways to being certified as certified public accountants.",
+ "title": "Reforms the education requirements for persons who want to become certified public accountants",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6891",
+     "basePrintNoStr": "S6891-2025",
+     "printNo": "S6891",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Patricia Fahy",
+         "imgName": "657_patricia_fahy.jpg",
+         "incumbent": true,
+         "memberId": 1571,
+         "sessionMemberId": 2532,
+         "sessionYear": 2025,
+         "shortName": "FAHY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2343,
+         "sessionYear": 2025,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2370,
+         "sessionYear": 2025,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2333,
+         "sessionYear": 2025,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2365,
+         "sessionYear": 2025,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Dean Murray",
+         "imgName": "910_dean_murray.jpg",
+         "incumbent": true,
+         "memberId": 1521,
+         "sessionMemberId": 2320,
+         "sessionYear": 2025,
+         "shortName": "MURRAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 2368,
+         "sessionYear": 2025,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2350,
+         "sessionYear": 2025,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2328,
+         "sessionYear": 2025,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 2369,
+         "sessionYear": 2025,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 11
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2025-04-30",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2025
+}

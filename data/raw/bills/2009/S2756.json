@@ -1,0 +1,262 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2756",
+     "basePrintNoStr": "S2756-2009",
+     "printNo": "S2756",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-02",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2756",
+     "basePrintNoStr": "S2756-2009",
+     "printNo": "S2756",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-12",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2756",
+     "basePrintNoStr": "S2756-2009",
+     "printNo": "S2756",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-27",
+    "sequenceNo": 3,
+    "text": "1ST REPORT CAL.491"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2756",
+     "basePrintNoStr": "S2756-2009",
+     "printNo": "S2756",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-01",
+    "sequenceNo": 4,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2756",
+     "basePrintNoStr": "S2756-2009",
+     "printNo": "S2756",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2756",
+     "basePrintNoStr": "S2756-2009",
+     "printNo": "S2756",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-09",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A8581"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S2756",
+    "basePrintNoStr": "S2756-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Education",
+    "memo": " BILL NUMBER:  S2756\n\n TITLE OF BILL :\n\nAn act to provide for the repayment by the Highland Falls central\nschool district of certain excess state payments\n\n\n PURPOSE :\n\nThis bill relates to adjusting certain state aid payments to the\nHighland Falls Central School District.\n\n SUMMARY OF PROVISIONS :\n\nSections 1 and 2: These proposed unconsolidated provisions of law\nprovide that excess state aid payments that were inadvertently made to\nthe Highland Falls central school district would not all be deducted\nfrom State Aid payments in fiscal year 2009/2010, but would be\ndeducted over a 6 year period of time so that the school district can\nabsorb this lost revenue over time instead of one year.\n\n EXISTING LAW :\n\nNone.\n\n JUSTIFICATION :\n\nThis bill was requested by the Highland Falls central school district.\nFurther it helps to remedy this situation in a manner like it has been\nremedied by other school districts across the state that faced a\nsimilar problem. See Chapters 37, 360, and 361 of the Laws of 2005.\n\n LEGISLATIVE HISTORY :\n\nNew Bill.\n\n FISCAL IMPLICATIONS :\n\nNone.\n\n LOCAL FISCAL IMPLICATIONS :\n\nNone.\n\n EFFECTIVE DATE :\nImmediate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2756",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8581",
+       "basePrintNoStr": "A8581-2009",
+       "printNo": "A8581",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2756",
+ "basePrintNoStr": "S2756-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 59,
+    "year": 2009
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-05-12",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-06-02",
+    "billCalNo": 491,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2009-03-02T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-05-12T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2756",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "William J. Larkin Jr.",
+   "imgName": "374_william_j._larkin_jr.jpg",
+   "incumbent": false,
+   "memberId": 374,
+   "sessionMemberId": 6,
+   "sessionYear": 2009,
+   "shortName": "LARKIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-06-02",
+  "billCalNo": 491,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8581",
+  "basePrintNoStr": "A8581-2009",
+  "session": 2009
+ },
+ "summary": "Provides for the repayment of certain excess state payments made to the Highland Falls central school district.",
+ "title": "Provides for the repayment of certain excess state payments made to the Highland Falls central school district",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

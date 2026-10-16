@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4230",
+     "basePrintNoStr": "S4230-2013",
+     "printNo": "S4230",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-03-15",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4230",
+     "basePrintNoStr": "S4230-2013",
+     "printNo": "S4230",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-04-16",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law, in relation to the filing of wholesale fees by certain suppliers of service contracts with the superintendent of financial services",
+    "basePrintNo": "S4230",
+    "basePrintNoStr": "S4230-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §7903, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S4230\n\nTITLE OF BILL:  An act to amend the insurance law, in relation to the\nfiling of wholesale fees by certain suppliers of service contracts\nwith the superintendent of financial services\n\nPURPOSE:  This legislation relates to the filing of wholesale fees by\ncertain suppliers of service contracts with the superintendent of\nfinancial services.\n\nSUMMARY OF PROVISIONS:\n\nSection 1: Amends subsection (a) of section 7903 of the insurance law,\nas amended by chapter 409 of the laws of 2012.\n\nSection 2: Effective Date\n\nJUSTIFICATION:  Chapter 409 of the Laws of 2012 was signed into law to\nallow small local paintless dent repair businesses to offer services\ncontracts.  This legislation also requires the submission of retail\nrates, which must be filed with DFS 30 days prior to charging these\nprices to consumers. Small businesses have found this extremely\ndifficult to do since they must compete with major service contract\nproviders for auto dealer space on Finance and Insurance menus and\ndealers will place the products on the menu that perform the best. If\nPDU and glass are the only products with price limits the dealer will\nnot put them on the menu. Because the law requires small businesses to\nfile the ultimate price, they are also accountable if one dealer\nstrays from the service contract agreement which unfairly puts them in\na position to police the auto dealers. No other state requires the\nfiling of the retail price prior to sale. If the intent of the bill is\ntruly to protect consumers the service contract provider should only\nhave to file the wholesale price.\n\nLEGISLATIVE HISTORY: New Bill\n\nFISCAL IMPLICATIONS: None\n\nEFFECTIVE DATE:  This act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4230",
+    "publishDate": "2013-03-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4230",
+ "basePrintNoStr": "S4230-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2013-03-15",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2013-03-15T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4230",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-03-15T10:21:18",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2013-03-15T10:21:18",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 50,
+   "fullName": "John A. DeFrancisco",
+   "imgName": "376_john_a._defrancisco.jpg",
+   "incumbent": false,
+   "memberId": 376,
+   "sessionMemberId": 132,
+   "sessionYear": 2013,
+   "shortName": "DEFRANCISCO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2013-04-16",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the filing of wholesale fees by certain suppliers of service contracts with the superintendent of financial services.",
+ "title": "Relates to the filing of wholesale fees by certain suppliers of service contracts with the superintendent of financial services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

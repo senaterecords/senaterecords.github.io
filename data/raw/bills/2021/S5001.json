@@ -1,0 +1,222 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5001",
+     "basePrintNoStr": "S5001-2021",
+     "printNo": "S5001",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-22",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5001",
+     "basePrintNoStr": "S5001-2021",
+     "printNo": "S5001",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO FINANCE"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the state finance law, in relation to creating the \"New York\nstate social impact bond initiative\"",
+    "basePrintNo": "S5001",
+    "basePrintNoStr": "S5001-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 5-G §§69-p - 69-t, St Fin L",
+    "lawSection": "State Finance Law",
+    "memo": "\n \nBILL NUMBER: S5001\n\nSPONSOR: PARKER\n \nTITLE OF BILL:\n\nAn act to amend the state finance law, in relation to creating the \"New\nYork state social impact bond initiative\"\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo establish a statewide pilot program modeled after the NYC social\nimpact bond project to lower recidivism and improve the lives of 16-18\nyear olds in New York's correctional facilities.\n\n \nSUMMARY OF SPECIFIC PROVISIONS: Section 1: Title\n\nSection 2: Legislative intent; Definitions; The New York state social\nimpact bond Task Force; Duties and responsibilities of the Task Force;\nSocial Impact bond issuance\n\nSection 3: This act shall take effect one year after it shall have\nbecome a law.\n\n \nJUSTIFICATION:\n\nThis bill is modeled after the pilot program written about in the New\nYork Times in 2012. This bill will establish a statewide pilot program\nmodeled after the New York City Social Impact Bond project to lower\nrecidivism and improve the lives of 16-18 year olds in New York's\ncorrectional facilities. The first statewide program of its kind in the\nUnited States, this program will create financing arrangements that aim\nto increase funding available for preventative services through public-\nprivate partnerships. (See,\nhttp://www.mdrc.org/usingsocialimpactbondsspur- innovation-knowledge-\nbuilding-and-accountability).\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-20: S.4613 - Referred to Finance\n\n2017-18: S.3634 - REFERRED TO FINANCE\n\n2015-16: S.1888 - Died in Finance\n\n2013-14: S.5523 - Died in Finance\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect one year after it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5001",
+    "publishDate": "2021-02-22",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "STFA5-G"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5001",
+ "basePrintNoStr": "S5001-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2021-02-22T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4613",
+    "basePrintNoStr": "S4613-2019",
+    "printNo": "S4613",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S3634",
+    "basePrintNoStr": "S3634-2017",
+    "printNo": "S3634",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S1888",
+    "basePrintNoStr": "S1888-2015",
+    "printNo": "S1888",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S5523",
+    "basePrintNoStr": "S5523-2013",
+    "printNo": "S5523",
+    "session": 2013,
+    "version": ""
+   }
+  ],
+  "size": 4
+ },
+ "printNo": "S5001",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-02-22T14:46:52.613470",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-02-22T14:46:52.61347",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 21,
+   "fullName": "Kevin S. Parker",
+   "imgName": "416_kevin_s._parker.jpg",
+   "incumbent": true,
+   "memberId": 416,
+   "sessionMemberId": 1828,
+   "sessionYear": 2021,
+   "shortName": "PARKER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes a statewide pilot program modeled after the NYC social impact bond project to lower recidivism and improve the lives of 16-18 year olds in New York's correctional facilities.",
+ "title": "Creates the New York state social impact bond initiative",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

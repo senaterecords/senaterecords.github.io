@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3462",
+     "basePrintNoStr": "S3462-2009",
+     "printNo": "S3462",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-19",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3462",
+     "basePrintNoStr": "S3462-2009",
+     "printNo": "S3462",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-13",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S3462",
+    "basePrintNoStr": "S3462-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2, Chap 203 of 1999",
+    "lawSection": "Environmental Conservation",
+    "memo": " BILL NUMBER:  S3462\n\n TITLE OF BILL :\nAn act to amend chapter 203 of the laws of 1999, amending the\nenvironmental conservation law relating to extending Nassau county's\nauthority to initiate and enforce certain actions, in relation to the\nextension of Nassau county's authority to initiate and enforce certain\nactions\n\n\n PURPOSE :\nTo extend until October 1, 2011, the authority of the Health\nCommissioner of Nassau County, pursuant to Environmental Conservation\nLaw (\"ECL\") Section 711939, to enforce certain provisions of the ECL\nfor water pollution control.\n\n SUMMARY OF PROVISIONS :\nSection 1 of the bill amends Section 2 of Chapter 203 of the laws of\n1999, by extending through October 1, 2011, the authority granted by\nECL Section 711939 (c) and (d) to the Nassau County Health\nCommissioner to enforce certain provisions of the ECL relating to\nwater pollution control, including the general prohibition against\nwater pollution and pollution of the marine district, and for the\ncontrol of bulk storage petroleum.\n\n JUSTIFICATION :\nThis legislation is needed to preserve the Nassau County Health\nCommissioner's power to enforce certain provisions of the ECL\nregulating water pollution. Nassau County's water bodies are perhaps\nits most precious natural resource. It is critical to the welfare of\nthe residents of the County that the County's water resources be\nvigorously protected. Preserving the County Health Commissioner's\npower to enforce water pollution control regulations is thus\nessential.\n\n LEGISLATIVE HISTORY :\nThese provisions were previously extended by Chapter 246 of the laws\nof 2007 through October 1, 2009.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3462",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3462",
+ "basePrintNoStr": "S3462-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-19",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2009-03-19T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3462",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 7,
+   "fullName": "Craig M. Johnson",
+   "imgName": "Craig M. Johnson.jpg",
+   "incumbent": false,
+   "memberId": 446,
+   "sessionMemberId": 62,
+   "sessionYear": 2009,
+   "shortName": "JOHNSON C"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-13",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Extends from October 1, 2009 until October 1, 2011, the date until which Nassau county has the authority to initiate and enforce certain actions.",
+ "title": "Extends Nassau county's authority to initiate and enforce certain actions",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

@@ -1,0 +1,780 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6730",
+     "basePrintNoStr": "S6730-2011",
+     "printNo": "S6730",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO AGRICULTURE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6730",
+     "basePrintNoStr": "S6730-2011",
+     "printNo": "S6730",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-05-01",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6730",
+     "basePrintNoStr": "S6730-2011",
+     "printNo": "S6730",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-05-30",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6730",
+     "basePrintNoStr": "S6730-2011",
+     "printNo": "S6730A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-05-30",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 6730A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the agriculture and markets law and the penal law, in relation to promoting understanding, awareness and enforcement of animal crimes laws; and to repeal sections 351, 353, 353-a, 353-b, 353-d, 355, 361, 362 and subdivision 8 of section 374 of the agriculture and markets law relating thereto",
+    "basePrintNo": "S6730",
+    "basePrintNoStr": "S6730-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 70,
+       "sessionYear": 2011,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 120,
+       "sessionYear": 2011,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 118,
+       "sessionYear": 2011,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "George D. Maziarz",
+       "imgName": "George D. Maziarz.jpg",
+       "incumbent": false,
+       "memberId": 411,
+       "sessionMemberId": 105,
+       "sessionYear": 2011,
+       "shortName": "MAZIARZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 111,
+       "sessionYear": 2011,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§350, 365, 369, 371 & 373, rpld §§351, 353, 353-a, 353-b, 353-d, 355, 360, 361 & 362, §374 sub 8, add §380, Ag & Mkts L; add Title Q Art 280 §§280.00 - 280.80 & §60.22, amd §§70.02, 195.06, 195.11, 195.12 & 265.01, Pen L",
+    "lawSection": "Agriculture and Markets Law",
+    "memo": "BILL NUMBER:S6730               REVISED 03/14/12\n\nTITLE OF BILL:\n\nAn act\nto amend the agriculture and markets law and the penal law, in relation\nto promoting understanding, awareness and enforcement of animal crimes\nlaws; and to repeal sections 351, 353, 353-a, 353-b, 353-d, 355, 361,\n362 and subdivision 8 of section 374 of the agriculture and markets law\nrelating thereto\n\nPURPOSE:\n\nThis bill seeks to clarify, modernize, and restructure the animal\ncrimes laws of New York State. It does so by transplanting certain\nsections of the Agriculture and Markets Law into the Penal Law,\nre-defining terms, re-titling offenses, altering the classification\nof certain animal crimes offenses, delineating specific sentencing\nprovisions, introducing various new offenses. This bill also serves\nto create a hierarchy of offenses for plea bargaining and referencing\npurposes. Additionally,\nthis bill serves to address and rectify the many constitutional\nchallenges facing the current Agriculture and Markets statutes.\nUltimately, the purpose of this bill is to promote sound enforcement\nof animal crimes by members of law enforcement and judiciary.\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nAmends Article 26 of the Agriculture and Markets Law by removing the\nmore non-commercial enforcement provisions and making various\nstructural modifications to enhance the ability to cross-reference.\nThe intent is to transplant the majority of the non-commercial\nprovisions to a new Penal Law Title (Z-1.\n\nThe existing section 350 of the Agriculture and Markets Law is\nmodified by adding subdivision 6, which provides the definition of an\n\"animal cruelty offense\" a term used to help define the scope of\nvarious other proposed and existing statutes involving evidence\ncollection, animal disposition, and sentencing.\n\nThe existing sections 351, 353, 353-a, 355, 361, and 362 of the\nAgriculture and Markets Law are removed entirely and variations of\nthese statutes appear in the proposed Penal Law Title Z-1, presented\nin section\nthree of the bill. Sections 353-b and 353-d are removed and inserted\nverbatim in the proposed Penal Law Title Z-1.\n\nThe existing subdivision 1 of section 359 of the Agriculture and\nMarkets Law is removed and a variation of this statute appears in the\nproposed Penal Law Title Z-1. Section 359 is re-titled to comport\nwith this adjustment.\n\nThe existing sections 369 and 371 of the Agriculture and Markets Law\nare given language which helps to incorporate them and otherwise make\nthem applicable to the provisions of the proposed Penal Law Title Z-1.\n\nThe existing section 374 of the Agriculture and Markets Law is\nmodified by detaching the special sentencing provisions contained,\nbut hidden, in subdivision 8. These special sentencing provisions are\nmoved to a new section, 380, which makes cross-referencing to these\nprovisions much easier. Additionally, the special sentencing\nprovisions are made to\napply to all \"animal cruelty offenses\" (as that term is now defined in\nthe proposed subdivision 6 of section 350), instead of continuing an\nitemized listing of applicable statutes. The proposed section 380 of\nthe Agriculture and Markets Law then reorganizes the special\nsentencing provisions into subdivisions for greater clarity.\n\nAmends the Penal Law by adding a new Title Z-1, which is comprised of\nanimal cruelty offenses and largely based upon the former provisions\nof Article 26 of the Agriculture and Markets Law. The Title consists\nof a new Article 510, which is captioned \"Offenses Against Animals.\"\n\nSection 510.00 is introduced to the Penal Law and contains the bulk of\nthe definitions for the proposed Article 510. Subdivision 1 is a\nverbatim reproduction of subdivision 1 of section 350 of the\nAgriculture and Markets Law. Subdivision 2 is a verbatim reproduction\nof subdivision 2 of section 350 of the Agriculture and Markets Law.\nSubdivision 3 is a near-verbatim reproduction of language found in\nsubdivision 1 of section 353-a of the Agriculture and Markets Law,\nthe only difference being the omission of subsection markings.\nSubdivision 4 is based upon subdivision 3 of section 350 of the\nAgriculture and Markets Law, but makes\nvarious grammatical changes and broadens the scope of adoption.\nSubdivision 5 is near-verbatim reproduction of subdivision 4 of\nsection 350 of the Agriculture and Markets Law. Subdivision 6 is a\nverbatim reproduction of subdivision 5 of section 350 of the\nAgriculture and Markets Law. Subdivision 7 is a verbatim reproduction\nof language which appears in subdivision 1 of section 351 of the\nAgriculture and Markets Law. Subdivision 8 was composed to provide a\nconcrete definition of \"abandons\" as that term is used in\nsubparagraph (b) of subdivision 1 of the\nproposed section 510.20 of the Penal Law. Subdivision 9 provides a\ndefinition of \"restrain\" and was substantially based on subdivision 1\nof section 135.00 of the Penal Law. Subdivision 10 provides a\ndefinition of \"abduct\" and was substantially based on subdivision 2\nof the section 135.00 of the Penal Law.\n\nSection 510.05 is introduced as one of two statutes taken from section\n351 of the Agriculture and Markets Law. The current section 351 of\nthe Agriculture and Markets Law covers multiple crimes, both\nmisdemeanors\nand felonies. This bill splits the conglomerate into two separate\nstatutes, Section 510.05 and Section 510.10, for clarity and\n\ncomprehensibility. Subdivision 1 of section 510.05 is based on\nsubparagraph (e) of\nsubdivision 2 of section 351 of the Agriculture and Markets Law.\nSubdivision 2 of section 510.05 is loosely based on subparagraph (b)\nof subdivision 4 of section 351 of the Agriculture and Markets Law,\nbut modifies the mens rea component for clarity of what is required\nfor commission of the offense. Section 510.10 is introduced to\nreplace the felony components of section 351 of the Agriculture and\nMarkets Law. It is a verbatim reproduction of the statute, with only\nstructural changes. However, it is notable that, pursuant to section\n160.10 of the Criminal Procedure Law, the transplant of the\nmisdemeanor portion to the Penal\nLaw causes this offense to now be a printable offense for law\nenforcement. As it currently stands, a violation of subparagraph (b)\nof subdivision 3 of section 351 (misdemeanor animal fighting) is NOT\na printable offense, which is a major oversight in legislative\ndrafting.\n\nSection 510.20 is introduced to replace various components of sections\n353, 355, 359, and 360 of the Agriculture and Markets Law. It is\ndelineated by subdivision into two major components. Subdivision 1\noutlines\nthe standard of care to be provided by an owner, possessor, custodian,\nor caregiver of an animal. Subdivision 2 outlines the standard of\ncare to be applied to animals in general, regardless of personal\nconnection. Subparagraph (a) of subdivision 1 of section 510.20\nreplaces the constitutionally-troublesome term \"sustenance,\" as it\nappeared in section 353 of the Agriculture and Markets Law, with the\nun-codified case law definition on that term (i.e., \"food, drink,\nveterinary care, or shelter\nadequate to maintain the animal's health and comfort\"), provided in a\nlitany of cases that include, but is not limited to People v.\nRichardson, 15 Misc.3d 4 138A (App. Term 9th & 10th Jud. Dist. 2007)\nand People v. Mahoney, 9 Misc.3d 101 (App. Term 9th & 10th Jud. Dist.\n2008). Apart from codification, the terms \"food\" and \"drink\" are\nreplaced by the more modern concepts of \"nutrition\" and \"hydration.\"\nSubparagraph (b) of subdivision 1 is a near verbatim reproduction of\nsection 355 of the Agriculture and Markets Law. Subparagraph (a) of\nsubdivision 2 is based on section 353 of the Agriculture and Markets\nLaw, but removes the word \"cruelly\" from the statutory language.\nSubparagraph (b) of subdivision 2 is likewise based on section 353 of\nthe Agriculture and Markets Law, with minimal grammatical changes.\nSubparagraph (c) of subdivision 2 is based on subdivision 1 of\nsection 359 of the Agriculture and Markets Law, but removes\nunnecessarily limiting language regarding vessel or vehicular\ntransport. Subparagraph (d) of subdivision 2 is based on language\nfound in section 353 of the Agriculture and Markets Law. Subparagraph\n(e) of subdivision 2 is based on section 360 of the Agriculture and\nMarkets Law, with minimal grammatical changes.\n\nSection 510.25 is introduced to replace section 353-a of the\nAgriculture and Markets Law. It differs from section 353-a of the\n\nAgriculture and Markets Law in that it enhances the classification\nand punishment on the proscribed conduct - a violation of section\n510.25 is a class D felony, whereas a violation of section 353-a of\nthe Agriculture and Markets Law is an unclassified felony with a\nlimited sentencing range. The section is re-titled to match its\ncounterpart, section 510.20. The definition of the term \"aggravated\ncruelty,\" as it appears in section 510.25, appears in section 510.00.\nSubdivision 1 is based upon language in subdivision 1 of section\n353-a of the Agriculture and Markets Law. Subdivision 2 of section\n510.25 proposes a sanction for acts of \"aggravated cruelty.\"\nSubdivision 3 is based upon provisions found in the existing section\n360 of the Agriculture and Markets Law. Subdivision 4 is an\nadditional sanction for repeat offenders of section 510.20, modeled\nafter statutory language which appears elsewhere in the Penal Law.\n\nSection 510.26 is introduced to provide an affirmative defense in the\nsituation of a violation of subparagraph (b) of subdivision 1 of\nsection 510.20. The language is partially modeled after section\n260.03 of the Penal Law, which allows for a similar defense in\nrelation to abandonment of a child.\n\nSection 510.30 is based loosely on the existing section 361 of the\nAgriculture and Markets Law. The new statute is re-titled for clarity\nand serves to enhance the penalty for interference with competitive\nor exhibited animals.\n\nSection 510.35 is introduced to subsume and rectify the constitutional\nproblems with the existing section 362 of the Agriculture and Markets\nLaw. The existing section 362 of the Agriculture and Markets Law, as\nwritten, effectively makes littering a misdemeanor, has an incorrectly-\npositioned mens rea, and is not often used. Section 510.35\nincorporates certain language from subdivision 7 of section 240.20 of\nthe Penal Law to adjust for the mens rea of the statute. It also more\nappropriately categorizes the offense as a violation, which is\nintended to play a crucial role in any plea bargaining of animal\noffenses and serve as a lesser included offense of the various\nprovisions of Article 510. Subdivision 1 acts as a \"catch-all\"\nprovision that bridges the gap between non-culpability and conduct\nwhich violates section 510.20. Subdivision 2 incorporates language\nfrom section 362 of the Agriculture and Markets Law, but clarifies\nthe mens rea, obviating constitutional concerns. As a violation-level\noffense, a perpetrator could be subjected to fifteen days\nincarceration, in addition to other sentencing possibilities, the\nmost notable of which are the special sentencing provisions in the\nproposed section 380 of the Agriculture and Markets Law.\n\nSections 510.40, 510.45, and 510.50 are introduced to allow\nprosecution in the event of unlawful taking of an animal. Currently,\nthe only other statutes designed to cover this type of conduct are\nthe larceny provisions contained in Article 155 of the Penal Law. As\nsociety is moving away from treating pets as chattel or property,\nstatutes need to adjust for the humanistic approach to prosecution.\n\nThese sections must be read in conjunction with the definitions of\n\"restrains\" and \"abducts,\" which are listed in the proposed section\n510.00. Section 510.40 is based upon language found in section 135.05\nof the Penal Law. Section 510.45 is based upon language found in\nsection 135.05 of the Penal Law. Section 510.45 is based upon\nlanguage found in section 135.20 of the Penal Law. Section 510.45 is\nbased upon language found in section 135.20 of the Penal Law. Section\n510.50 is based upon language found in 135.25 of the Penal Law. The\nclassification of these crimes, as\nproposed, would greatly enhance the penalty for such conduct. For\nexample, currently, an individual who steals another person's adopted\nnon-purebred dog, drives it to a far away location, and leaves it\nthere to die, could only be charged with petit larceny, in violation\nof section 155.25 of the Penal Law, and Abandonment of Animals, in\nviolation of section 355 of the Agriculture and Markets Law. Both of\nthose crimes are class A misdemeanors. The proposed section 510.50\nwould potentially make the same conduct punishable as a class D felony.\n\nSection 510.55 contains a presumption applicable to prosecutions of\nsections 510.40, 510.45, and 510.50. Sections 510.60 and 510.65 are\nverbatim reproductions of the current sections 353-b and 353-d of the\nAgriculture and Markets Law, respectively.\n\nSection 510.70 is a verbatim reproduction of the current section 367\nof the Agriculture and Markets Law. Section 510.75 is a\ncross-referencing tool to the evidentiary, disposition, and care\nprovisions which appear in various sections of the Agriculture and\nMarkets Law.\n\nSection 510.80 is an important cross-referencing tool to ensure that\nthe courts are empowered to sentence in accordance with the special\nneeds of an animal cruelty prosecution. The bill modifies paragraph\n(c) of subdivision 1 of section 70.02 of the Penal Law to incorporate\nthe proposed \"animal cruelty in the first degree,\" in violation of\nproposed section 510.25, into the list of violent felony offenses. The\nbill modifies section 195.06 of the Penal Law to\nenhance the offense classification and penalty for killing or injuring a\npolice animal. A violation of this section would now be a class D\nfelony, which comports this statute to the level of offense of Animal\nCruelty in the First Degree, under the proposed section 510.25 of the\nPenal Law. Modifies section 195.11 of the Penal Law to enhance the\noffense classification and penalty for harming an animal\ntrained to aid a person with a disability in the second degree. A\nviolation of this section would now be a class A misdemeanor, which\ncomports this statute to the level of offense of Animal Cruelty in\nthe Second Degree, under the proposed section 510.20 of the Penal Law\n(or the existing offense of overdriving, torturing and injuring\nanimals; failure to provide proper sustenance, under section 353 of\nthe Agriculture and Markets Law) . The bill modifies section 195.12\nof the Penal Law to enhance the offense classification and penalty\nfor harming and animals trained to aid a person with a disability in\n\nthe first degree. A violation of this section would now be a class E\nfelony.\n\nJUSTIFICATION:\n\nArticle 26 of the Agriculture and Markets Law, as currently written,\nis fraught with loopholes and constitutionality issues. Furthermore,\nit is antiquated and, in many places, incomprehensible. For these\nreasons, members of law enforcement, including police officers, peace\nofficers, prosecutors, defense attorneys and judges are not able to\nmaximize the promise and potential that Article 26 is supposed to\nbring to animal cruelty offenses. A noticeable trend has formed,\nwhereby members of law enforcement focus specifically on section 353\nof the Agriculture and Markets Law. The great paradox lies in the\nnotion that section 353 is both the hallmark enforcement mechanism\nand a colossal constitutional problem.\n\nCourts throughout the state have repeatedly tackled the issue of\nwhether the wording in section 353 is unconstitutionally vague in\nviolation of the State and Federal Constitution. While the case law\nis split, the trend is to read modern standards into the generic\nwording of the section. The Court of Appeals has not addressed this\nissue, therefore, no standard has been set statewide.\n\nYet, law enforcement continually focuses on section 353, with all its\nendless verbs and complexities, primarily because of the built--up\ntradition, but also because the other sections of Article 26 are\nawkwardly worded and completely archaic. Some of these \"lost\"\nsections have great value, but are buried so deep within discrete\nparts of the article that many members of law enforcement are unaware\nof their existence. In an effort to streamline enforcement, this bill\nleaves commercial issues to the Agriculture and Markets Law, while\nhighlighting the criminal offenses as a new and separate article of\nthe Penal Law.\n\nCurrent law is also lacking strength and congruence in the\npunishments for offenses against animals. As such, this new bill\nclassifies the various levels of criminality, including new specific\nD felonies and E felonies. In an effort to harmonize the punishments\nwhich exist across the various statutes, Article 195 of the Penal Law\nis modified to enhance the penalties for offenses against service\nanimals.\n\nIn keeping with the widely-known concept that individuals who commit\nacts of cruelty against animals progress to commit violent crimes\nagainst people, certain acts under this bill are made to constitute\n\"violent felony offenses\" as that term is defined in section 70.02 of\nthe Penal Law.\n\nFISCAL IMPLICATIONS:\n\nNone to the State.\n\nEFFECTIVE DATE:\n\nThis act will take effect immediately; provided, however sections nine\nthrough fourteen shall take effect on the first of November\nsucceeding the date on which it shall have become law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6730",
+    "publishDate": "2012-03-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9917",
+       "basePrintNoStr": "A9917-2011",
+       "printNo": "A9917",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the agriculture and markets law and the penal law, in relation to promoting understanding, awareness and enforcement of animal crimes laws; and to repeal sections 351, 353, 353-a, 353-b, 353-d, 355, 360, 361, 362 and subdivision 8 of section 374 of the agriculture and markets law relating thereto",
+    "basePrintNo": "S6730",
+    "basePrintNoStr": "S6730-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 64,
+       "sessionYear": 2011,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 70,
+       "sessionYear": 2011,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 120,
+       "sessionYear": 2011,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 118,
+       "sessionYear": 2011,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 91,
+       "sessionYear": 2011,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "George D. Maziarz",
+       "imgName": "George D. Maziarz.jpg",
+       "incumbent": false,
+       "memberId": 411,
+       "sessionMemberId": 105,
+       "sessionYear": 2011,
+       "shortName": "MAZIARZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 111,
+       "sessionYear": 2011,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 89,
+       "sessionYear": 2011,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 15
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§350, 365, 369, 371 & 373, rpld §§351, 353, 353-a, 353-b, 353-d, 355, 361 & 362, §374 sub 8, add §380, Ag & Mkts L; add Title Q Art 280 §§280.00 - 280.80 & §60.22, amd §§70.02, 195.06, 195.11, 195.12 & 265.01, Pen L",
+    "lawSection": "Agriculture and Markets Law",
+    "memo": "BILL NUMBER:S6730A\n\nTITLE OF BILL:\nAn act\nto amend the agriculture and markets law and the penal law, in relation\nto promoting understanding, awareness and enforcement of animal crimes\nlaws; and to repeal sections 351, 353, 353-a, 353-b, 353-d, 355, 360,\n361,\n362 and subdivision 8 of section 374 of the agriculture and markets law\nrelating thereto\n\nPURPOSE OR GENERAL IDEA OF THE BILL:\nThis bill seeks to clarify,\nmodernize, and restructure the animal crimes laws of New York State.\nIt does so by transplanting certain sections of the Agriculture and\nMarkets Law into the Penal Law, re-defining statutory terms,\nre-titling animal crimes offenses, altering the classification of\ncertain animal crimes offenses, delineating specific sentencing\nprovisions for animal crime offenses, introducing various new animal\ncrimes offenses. Additionally, this bill serves to create a\nhierarchy of offenses for charging, plea-bargaining, and\ncross-referencing purposes. Finally, this bill serves to address and\nrectify the many antiquated passages, vague definitions and concepts,\nand outmoded language contained in the current Agriculture and\nMarkets statutes. Ultimately, the purpose of this bill is to promote\nsound enforcement and consistent interpretation of animal crimes by\nmembers of law enforcement and the court system.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nArticle 26 of the Agriculture and\nMarkets Law is amended by removing the most common patrol-scenario\nprovisions. These provisions are transplanted into a new Penal Law\nTitle (Q), discussed below. Additionally, Article 26 is generally\namended to incorporate appropriate cross-referencing provisions.\n\nThe existing section 350 of the Agriculture and Markets Law is\nmodified by adding subdivision 6, which provides the definition of an\n\"animal cruelty offense;\" a term used to help define the scope of\nvarious other proposed and existing statutes involving evidence\ncollection, animal disposition, and sentencing. The term also goes\nbeyond enumerated crimes to include any offense by which an animal is\nvictimized (e.g. reckless endangerment of property; criminal\nmischief). The existing section 350 of the Agriculture and Markets\nLaw is further modified by adding subdivision 7, which provides the\ndefinition of a \"duly\nincorporated society for the prevention of cruelty to animals,\" which\nis a cross-reference to the provisions providing for the creation and\npowers of such entity as contained in the not-for-profit corporation\nlaw.\n\nThe existing sections 351, 353, 353-a, 355, 360, 361, and 362 of the\nAgriculture and Markets Law are removed entirely and variations of\nthese statutes appear in the proposed Penal Law Title Q. Sections\n353-b and 353-d are removed and inserted verbatim in the proposed\nPenal Law Title Q.\n\n\nThe existing sections 369 and 371 of the Agriculture and Markets Law\nare given language which helps to incorporate them and otherwise make\nthem applicable to the provisions of the proposed Penal Law Title Q.\n\nThe existing subdivision 6 of section 373 of the Agriculture and\nMarkets Law is amended to add other agencies to qualify as impounding\norganizations for the purposes of petitioning for a security bond in\norder to obtain reasonable boarding expenses pending criminal\nlitigation. The addition of the other agencies comports with the fact\nthat these agencies may become responsible for the impound if the\nanimal were seized or impounded pursuant to a search warrant obtained\nunder article 690 of the criminal procedure law. For consistency, the\nterm \"impounding organization\" is further regularized in later\nsubsections of subdivision 6.\n\nThe existing section 374 of the Agriculture and Markets Law is\nmodified by detaching the special sentencing provisions contained,\nbut somewhat obscured by their placement in subdivision 8. These\nspecial sentencing provisions are moved to a new section, 380, which\nmakes cross-referencing to these provisions much easier.\nAdditionally, the special sentencing provisions are made to apply to\nall \"animal cruelty offenses\" (as that term is now defined in the\nproposed subdivision 6 of section 350), instead of continuing an\nitemized listing of applicable statutes. The proposed section 380 of\nthe Agriculture and Markets Law then reorganizes the special\nsentencing provisions into subdivisions for greater clarity.\nFinally, subdivisions 1, 2, and 6 of section 380 add language which\nwould permit the court to order forfeiture of the animal to an animal\nshelter, pound, sheriff, police officer, or district attorney, in\naddition to a society for the prevention of cruelty to animals. As\nthe law is currently written, it stands to limit the forfeiture to a\nsociety for the prevention of cruelty to animals only, which may\ncause problems if either\nthe society is overwhelmed or overburdened with animal wards at that\npoint in time or if the county is without such a society.\nThe presence of a such a society is not mandated by law. By\nincorporating additional law enforcement entities and animal\nshelters, there would be additional outlets for animal placement.\n\nSubdivision 3 of the proposed section 380 eliminates the wording \"or\nany person dwelling in the same household who conspired, aided or\nabetted in the unlawful act which was the basis of the conviction, or\nwho knew or should have known of the unlawful act.\" This is due to\nthe simple fact that this present language, if acted upon, would\nconstitute a gross violation of the due process rights on an\nunaccused party that is not under the jurisdiction of the sentencing\ncourt. If, indeed, there were such a person, that person would have\nbeen or should have been separately charged under accomplice\nliability or otherwise, and received an individual determination\nunder section 380.\nSubdivision 5, which represents a possible sale restriction for farm\nanimals, is likewise modified to eliminate possible constitutional\nconcerns. The language is amended to reflect a possible court\nrestriction on sale or transfer to a charged, but not adjudicated,\nco-defendant or co-conspirator.\n\n\nAdditionally, language has been added to subdivision 3 in an effort to\nalleviate the constitutional cloud over the term \"reasonable. \" The\nlanguage and criteria is thusly elaborated:\n\"In making its determination of what period of time is reasonable, the\ncourt shall take into account the totality of the circumstances\nbefore it and be bound to no single factor.\nSuch order must be in writing and specifically state the period of\ntime imposed.\"\n\nSubdivision 4 of the proposed section 380 adds the term \"used\" in\nregards to scientific testing. As the language of section 374 stands\npresently, the absence of this term is an oversight that would permit\nthe shelter, pound, or duly incorporated society for the prevention\nof cruelty to animals to experiment on the animals themselves, while\nprohibiting their sale or transfer for that purpose.\n\nThe gravamen of the bill is the amendment of the Penal Law by adding a\nnew Title Q, which is comprised of animal cruelty offenses and\nlargely based upon the former provisions of Article 26 of the\nAgriculture and Markets Law. The Title consists of a new Article 280,\nwhich is captioned \"Offenses against Animals.\"\n\nSection 280.00 is introduced to the Penal Law and contains the bulk of\nthe definitions for the proposed Article 280.\nSubdivision 1 is a verbatim reproduction of subdivision 1 of section\n350 of the Agriculture and Markets Law. Subdivision 2 is a\nreproduction of subdivision 2 of section 350 of the Agriculture and\nMarkets Law with an important addition that serves to outsource\nclutter from the proposed section 280.20.\nThis additional language is based on passages from the existing\nsection 353 of the Agriculture and Markets Law. Importantly, the\ndefinitions of \"cruelty\" and \"torture,\" which appeared together in\nsubdivision 2 of section 350 of the Agriculture and Markets Laws, are\nnow severed. The definition of \"torture\" now appears in subdivision 4\nof the proposed definitions section and derives entirely from a\nsegment of the present definition of \"aggravated cruelty,\" as that\nterm currently appears in section 353-a of the Agriculture and\nMarkets Law. Subdivision 3 is a near-verbatim reproduction of\nlanguage found in subdivision 1 of section 353-a of the Agriculture\nand Markets Law, the only difference being the aforementioned\nseverance of verbiage which is transferred as the definition of the\nterm \"torture.\" Subdivision 5 is based upon subdivision 3 of section\n350 of the Agriculture and Markets Law. Subdivision 6 is a\nnear-verbatim reproduction of subdivision 4 of section 350 of the\nAgriculture and Markets Law. Subdivision 7 is a near-verbatim\nreproduction of subdivision 5 of section 350 of the Agriculture and\nMarkets Law with a minor change in sequencing on the second couplet\nof \"companion animal\" or \"pet.\" Subdivision 8 is a verbatim reproduction\nof language which appears in subdivision 1 of section 351 of the\nAgriculture and Markets Law. Subdivision 9 was composed to provide a\nconcrete definition of \"abandons\" as that term is used in the\nproposed section 280.20 of the Penal Law. Subdivision 10 provides a\ndefinition of \"restrain\" and was substantially based on subdivision 1\nof section 135.00 of the Penal Law. Subdivision 11 provides a\ndefinition of \"abduct\" and was substantially based on subdivision 2\nof the section 135.00 of the Penal Law.\n\n\nSection 280.05 is introduced as one of two statutes taken from section\n351 of the Agriculture and Markets Law. The current section 351 of\nthe Agriculture and Markets Law covers multiple crimes, both\nmisdemeanors and felonies. This bill splits the conglomerate into two\nseparate statutes, Section 280.05 and Section 280.10, for clarity and\ncomprehensibility. Subdivision 1 of section 280.05 is based on\nsubparagraph (e) of subdivision 2 of section 351 of the Agriculture\nand Markets Law.\nSubdivision 2 of section 280.05 is loosely based on subparagraph (b)\nof subdivision 4 of section 351 of the Agriculture and\nMarkets Law, but modifies the mens rea component for clarity of what\nis required for commission of the offense. Section 280.10 is\nintroduced to replace the felony components of section 351 of the\nAgriculture and Markets Law. It is a substantial reproduction of the\nstatute, with few structural changes.\nSubdivision 3 of section 280.10 amends its predecessor statute with\nthe inclusion of the word \"transfers\" which was a broad oversight in\nprevious drafting. Subdivision 5 of section 280.10 is amended to\nremove a troublesome element involving the proof of training of the\nby-standing animal such animal possibly being a \"bait animal\" which\nwas not trained to fight.\n\nIt is notable that, pursuant to section 160.10 of the Criminal\nProcedure Law, the transplant of the misdemeanor portion of animal\nfighting to the Penal Law causes this offense to now be a printable\noffense for law enforcement (the same can be said for all\ntransplanted agriculture and markets law misdemeanors). As it\ncurrently stands, a violation of subparagraph (b) of subdivision 3 of\nsection 351 (misdemeanor animal fighting) is not a printable offense\nfor purposes of Article 160 of the Criminal Procedure Law, which is\nanother major oversight in the existing legislative drafting.\nFinally, as crimes in the Penal Law must be classified pursuant to\nTitle E, Article 55, the misdemeanor component of animal fighting,\nnow housed in section 280.05, is designated as a class A misdemeanor\nand the felony component of animal fighting, now housed in section\n280.10, is designated as a class D felony. The special fine\nschedules, which were previously enacted for animal fighting, are\nretained by enacting an authorized dispositions section, contained in\nsection 60.22 of the Penal Law.\n\nSection 280.20 is introduced to replace various components of sections\n353, 355, and 360 of the Agriculture and Markets Law.\nSubdivision 1 outlines the standard of care to be provided by an\nowner, possessor, custodian, or caregiver of an animal. The vague\nterm \"sustenance,\" as it appeared in section 353 of the Agriculture\nand Markets Law, with the un-codified case law definition on that\nterm (i.e. \"food, drink, veterinary care, or shelter adequate to\nmaintain the animal's health and comfort\"), provided in a litany of\ncases that include, but is not limited to People v. Richardson, 15\nMisc. 3d 138A (App. Term 9th & 10th Jud. Dist. 2007) and People v.\nMahoney, 9 Misc.3d 101 (App. Term 9th & 10th Jud. Dist. 2008). Apart\nfrom codification, the terms \"food\" and \"drink\" are replaced by the\nmore modern concepts of \"nutrition\" and \"hydration.\" The former\npresence of \"necessary\" in section 353 of the agriculture and markets\nlaw (i.e. \"necessary sustenance\"), is replaced with the expanded\nprovision\n\n\nof adequacy. The adequacy of all four elements - nutrition, hydration,\nveterinary care, and shelter - is required.\n\nSubdivision 2 is based upon section 355 of the Agriculture and Markets\nLaw, except that duplicative language is dropped after the first\nclause regarding abandonment. \"Abandons\" is defined in the revised\nsubdivision (9) of section 280.00.\n\nSubdivision 3 outlines the standard of care to be applied to animals\nin general, regardless of personal connection, and pulls heavily on\nthe enhanced definition of \"cruelty\" as it appears in subdivision 2\nof the proposed section 280.00. It is a successor-clause to the\nexisting final clause of section 353 of the agriculture and markets\nlaw. The term \"willfully,\" however, was relaxed to \"knowingly,\" which\nmore clearly comports with the expansion of the term \"cruelty,\" both\nas currently defined and under the proposed definition.\n\nSubdivision 4 is based on section 360 of the Agriculture and Markets\nLaw, with structural changes for clarity and a mental intent to\ninjure added.\n\nSection 280.25 is introduced to replace section 353 -a of the\nAgriculture and Markets Law. It differs from section 353-a of the\nAgriculture and Markets Law in that it enhances the classification\nand punishment on the proscribed conduct a violation of section\n280.25 is a class D felony, whereas a violation of section 353-a of\nthe Agriculture and Markets Law is an unclassified felony with a\nlimited sentencing range (a 80called \"E Minus\" felony). The section\nis re-titled to match its counterpart, section 280.20. The definition\nof the term \"aggravated cruelty,\" as it appears in section 280.25,\nappears in section 280.00, and it amended to split acts of torture\nfrom acts of cruelty. The practical effect is negligible as both\ndefinitions remain under the force of the statute.\n\nSubdivisions 1 and 2 are based upon language in subdivision 1 of\nsection 353-a of the Agriculture and Markets Law, however, they are\nworded more akin to assault and homicide statutes elsewhere in the\npenal law. Subdivision 3 of section 280.25 proposes a sanction for\nacts of \"aggravated cruelty\" and \"torture\" committed against any\nanimal and not just \"companion animals\" which is long overdue and\nbased upon the sentiment that this law should be meant to focus on\nthe extremely disturbing conduct of an individual and not the human\nemotion or affection towards the affected animal. Whether the\nindividual sadistically tortured a wild turtle or a pet turtle, the\ncriminal sanction on that type\nof behavior should be the same. Subdivision 4 is based upon provisions\nfound in the existing section 360 of the Agriculture and Markets Law.\nSubdivision 5 is an additional sanction for repeat offenders of\nsection 280.20, modeled after statutory language which appears\nelsewhere in the Penal Law.\n\nSection 280.30 is based loosely on the existing section 361 of the\nAgriculture and Markets Law. The new statute is re-titled for clarity\nand serves to enhance the penalty for interference with competitive\nor exhibited animals. The term \"domestic,\" which had no definition,\nwas removed as its inclusion had de minimis practicality or legal\nsignificance.\n\n\nSection 280.35 is introduced to subsume and rectify the constitutional\nproblems with the existing section 362 of the Agriculture and Markets\nLaw. The existing section 362 of the Agriculture and Markets Law, as\nwritten, effectively makes littering a misdemeanor, has an\nincorrectly-positioned mens rea, and is not often used. Section\n280.35 incorporates certain language from subdivision 7 of section\n240.20 of the Penal Law to adjust for the mens rea of the statute. It\nalso more appropriately categorizes the offense as a violation, which\nis intended play a crucial role in any plea bargaining of animal\noffenses and serve as a lesser-included offense of the various\nprovisions of Article 280. Subdivision 1 acts as a \"catch-all\"\nprovision that bridges the gap between non-culpability and conduct\nwhich violates section 280.20. Subdivision 2 incorporates language\nfrom section 362 of the Agriculture and Markets Law, but clarifies\nthe mens rea, obviating constitutional concerns. As a\nviolation-level offense, a perpetrator could be subjected to fifteen\ndays incarceration, in addition to other sentencing possibilities,\nthe most notable of which are the special sentencing provisions in\nthe proposed section 380 of the Agriculture and Markets Law,\ndiscussed above.\n\nSections 280.40, 280.45, and 280.50 are introduced to allow\nprosecution in the event of unlawful restraint or taking of an\nanimal. Currently, the only other statutes designed to cover this\ntype of conduct are the larceny provisions contained in Article 155\nof the Penal Law. As society is moving away from treating pets as\nchattel or property, statutes need to adjust for the humanistic\napproach to prosecution. These sections must be read in conjunction\nwith the definitions of \"restrains\" and \"abducts,\" which are listed\nin the proposed section 280.00.\nSection 280.40 is based upon language found in section 135.05 of the\nPenal Law. Section 280.45 is based upon language found in section\n135.20 of the Penal Law. Section 280.50 is based upon\nlanguage found in 135.25 of the Penal Law. The classification of these\ncrimes, as proposed, would greatly enhance the penalty for such\nconduct. For example, currently, an individual who steals another\nperson's adopted non-purebred dog, drives it to a far away location,\nand leaves it there to die, could only be charged with petit larceny,\nin violation of section 155.25 of the Penal Law, and Abandonment of\nAnimals, in violation of section 355 of the Agriculture and Markets\nLaw. Both of those crimes are class A misdemeanors. The proposed\nsection 280.50 would potentially make the same conduct punishable as\na class D felony.\n\nSection 280.55 contains a presumption applicable to prosecutions of\nsections 280.40, 280.45, and 280.50.\n\nSections 280.60 and 280.65 are verbatim reproductions of the current\nsections 353-b and 353-d of the Agriculture and Markets Law,\nrespectively.\n\nSection 280.70 is a verbatim reproduction of the current section 367\nof the Agriculture and Markets Law.\n\nSection 280.75 is a cross-referencing tool to the evidentiary,\ndisposition, and care provisions which appear in various sections of\nthe Agriculture and Markets Law.\n\n\nSection 280.80 is an important cross-referencing tool to ensure that\nthe courts are empowered to sentence in accordance with the special\nneeds of an animal cruelty prosecution.\n\nSection ten of this bill contains a proposed section 60.22 of the\nPenal Law, which is the vehicle by which the special fine sentencing\nprovisions enacted for animal fighting, under the current section 351\nof the Agriculture and Markets Law, survive the transfer to the Penal\nLaw.\n\nSection eleven modifies paragraph (c) of subdivision 1 of section\n70.02 of the Penal Law to incorporate select provisions of the\nproposed \"animal cruelty in the first degree,\" in violation of\nproposed section 280.25, into the list of violent felony offenses.\nThe excluded provisions are the aggregation offense for twice\nviolating animal cruelty in the second degree (subdivision 5) and the\naggravating-factor poisoning offense (subdivision 4).\n\nSection twelve of this bill modifies section 195.06 of the Penal Law\nto enhance the offense classification and penalty for\nkilling or injuring a police animal.\nA violation of this section would now be a class D felony, which\nwhich comports this statute to the\nlevel of offense of Animal Cruelty in\nthe First Degree, under the proposed section 280.25 of the Penal Law.\n\nSection thirteen of this bill modifies section 195.11 of the Penal Law\nto enhance the offense classification and penalty for harming an\nanimal trained to aid a person with a disability in the second\ndegree. A violation of this section would now be a class A\nmisdemeanor, which comports this statute to the level of offense of\nAnimal Cruelty in the Second Degree, under the proposed section\n280.20 of the Penal Law (or the existing offense of Overdriving,\ntorturing and injuring animals; failure to provide proper sustenance,\nunder section 353 of the Agriculture and Markets Law).\n\nSection fourteen of this bill modifies section 195.12 of the Penal Law\nto enhance the offense classification and penalty for harming and\nanimals trained to aid a person with a disability in the first\ndegree. A violation of this section would now be a class E felony.\n\nSection fifteen of this bill modifies subdivision 2 of section 265.01\nof the Penal Law in two ways. Firstly, it converts it to gender\nneutrality. Secondly, it adds animals as a protected class against\nunlawful weapon use. This will be particularly helpful for law\nenforcement where there is clear evidence of a beating with an\ninstrument but, due to unfamiliarity with field examinations of\nanimals for injury, a charge can be made upon implementation alone.\n\nJUSTIFICATION:\nThis bill markedly improves the accessibility and\ncomprehensibility of animal crime statutes, thereby promoting\nenforcement of this category of crime. The bill endeavors to take\npatrol-scenario crimes, faced by municipal law enforcement, and\nstructure them alongside the bulk of criminal law. By placing animal\ncrime shoulder-to-shoulder with other categories of crime in the\n\n\nPenal Law, there will be a streamlining of criminal procedure,\ntraining, legal terminology, and judicial philosophy.\n\nAs the law currently stands, commercial, industrial, and\npatrol-scenario offenses are housed together in a body of law that has\nproven to be inaccessible by police. Not only is a patrol officer\nunlikely to have a copy of the Agriculture and Markets Law in their\nradio car, but the precinct desk officer is also unlikely to have a\ncopy at headquarters. Furthermore, police\nacademies primarily focus training on Penal Law and Vehicle and\nTraffic Law provisions, without any education or training whatsoever\non Agriculture and Markets Law provisions. While there may be crimes\nhoused outside the Penal Law - for example, tax crimes there is\nseldom, if ever, a patrol dispatch requiring urgent response and\naction on a violation of the tax law. Animal crimes occur in the\nfield and often require emergency response.\n\nAn ancillary benefit to that main objective will be a harmonizing of\nthis crime with others as far as the applicability of the criminal\nprocedure law. Matters such as search warrants, fingerprinting,\ncollection of DNA, recordkeeping, court surcharges, and other\nprocedural aspects of law enforcement become applicable.\n\nBeyond the mere transplant, however, this bill modernizes statutory\nlanguage and structure to more aptly match its sister crimes. Within\nthe bill text, there is heavy borrowing from terminology and format\nfrom other areas of Penal Law. This was done not only for clarity,\nfamiliarity, and comprehensibility, but also so that case\ninterpretations of terminology and structure become immediately\napplicable.\n\nOffenses have been re-titled for clarity and order of precedence.\nOffenses have been re-structured into manageable subdivisions.\nOffenses have been given appropriate and clear mental states. If\nthere were a prevailing case law interpretation of a term, the term\nwas codified into the statute itself in order to obviate time-wasting\nmotion practice over the issue.\n\nIn short, the average police officer will now be able to find the law,\nread the law, understand the law, and apply the law all while\nstanding at a crime scene in the middle of the night.\nProsecutors and defense attorneys will spend markedly less time in\nneedless motion practice over the definition of obsolete terms or\ngeneral applicability of passages. Judges will be better equipped to\ndispense justice on accused individuals.\nFinally, the average member of the public will be better apprised of\nthe standards that apply to the treatment of animals.\n\nFISCAL IMPLICATIONS:\nPenal Law surcharges become applicable to animal\ncrimes offenses, potentially enhancing state revenue.\n\nEFFECTIVE DATE:\nThis act will take effect on the first of November next\nsucceeding the date on which it shall become a law.\n\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6730A",
+    "publishDate": "2012-05-30",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9917",
+       "basePrintNoStr": "A9917-2011",
+       "printNo": "A9917A",
+       "session": 2011,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6730",
+ "basePrintNoStr": "S6730-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Agriculture"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-05-30",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Agriculture",
+    "referenceDate": "2012-03-14T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2012-05-01T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2012-05-30T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6730A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-03-14T13:29:04",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2012-05-30T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2012-03-14T13:29:04",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 8,
+   "fullName": "Charles J. Fuschillo Jr.",
+   "imgName": "Charles J. Fuschillo Jr.jpg",
+   "incumbent": false,
+   "memberId": 425,
+   "sessionMemberId": 119,
+   "sessionYear": 2011,
+   "shortName": "FUSCHILLO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-05-30",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to promoting understanding, awareness and enforcement of animal crime laws.",
+ "title": "Relates to promoting understanding, awareness and enforcement of animal crimes laws; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6730",
+     "basePrintNoStr": "S6730-2011",
+     "printNo": "S6730",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Agriculture"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 85,
+         "sessionYear": 2011,
+         "shortName": "AVELLA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "Shirley L. Huntley",
+         "imgName": "Shirley L. Huntley.jpg",
+         "incumbent": false,
+         "memberId": 378,
+         "sessionMemberId": 72,
+         "sessionYear": 2011,
+         "shortName": "HUNTLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 123,
+         "sessionYear": 2011,
+         "shortName": "KENNEDY"
+        }
+       ],
+       "size": 3
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 121,
+         "sessionYear": 2011,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 109,
+         "sessionYear": 2011,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 100,
+         "sessionYear": 2011,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 117,
+         "sessionYear": 2011,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 5
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 89,
+         "sessionYear": 2011,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 108,
+         "sessionYear": 2011,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 4
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2012-05-01",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

@@ -1,0 +1,209 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5520",
+     "basePrintNoStr": "S5520-2023",
+     "printNo": "S5520",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5520",
+     "basePrintNoStr": "S5520-2023",
+     "printNo": "S5520",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to the performance of medical\nservices by physician assistants; and providing for the repeal of such\nprovisions upon expiration thereof",
+    "basePrintNo": "S5520",
+    "basePrintNoStr": "S5520-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6542, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S5520\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to the performance of\nmedical services by physician assistants; and providing for the repeal\nof such provisions upon expiration thereof\n\n \nPURPOSE:\n\nProvides for the performance of medical services by physician assistants\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 adds new subdivision 2-a to section 6542 of the education law\nto allow licensed physician assistants to provide medical services that\nare within the scope of practice, education, and training, without the\nsupervision of a physician.\n\nSection 2 provides the effective date.\n\n \nJUSTIFICATION:\n\nOver the fifty years since the establishment of the profession and prac-\ntice of physician assistant, New York's enabling statutory language has\nhad few if any amendments. In contrast, the State's statutory framework\ngoverning the health care delivery system has changed considerably.\n\nMost recently, a new law allows nurse practitioners to practice without\nany collaborative agreement with a physician. This language recognizes\nthe flexibility under the COVID Executive Orders as well as the work-\nforce shortage. This law marks the value of advanced care professionals,\nadopting health care standards and advancing access to care, while\npreserving patient safety.\n\nPhysician assistants (PAs) must undergo a rigorous course of medical\neducation and training, and are authorized to practice in any medical\nfield physicians are trained in, including but not limited to emergency\ncare, surgery, primary care, and specialty medicine. They develop these\ncompetencies working with physicians and in a team-based care environ-\nment.\n\nDuring the COVID-19 pandemic, the Governor explicitly waived any \"super-\nvisory\" requirements for PAs, recognizing that increased flexibility to\nallow greater access to care was imperative during the public health\ncrisis. Multiple hospital systems and physician practices across the\nstate have benefitted from the elimination of barriers to care. The\nelimination of this barrier has also benefited all New York State citi-\nzens. This flexibility has been continued to this day with current exec-\nutive orders in place to address the healthcare workforce crisis. For\nthe past two years, PAs have been allowed to practice without physician\nsupervision to the benefit of patients and healthcare delivery systems,\nand without any adverse effects. This bill would allow this practice to\ncontinue for a period of two years.\n\n \nLEGISLATIVE HISTORY:\n\n2021-2022: S9233/No same as\n \nFISCAL IMPLICATIONS:\n\nNo negative fiscal implications. Cost savings to be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect ninety days after enactment.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5520",
+    "publishDate": "2023-03-07",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN6542"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5012",
+       "basePrintNoStr": "A5012-2023",
+       "printNo": "A5012",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5520",
+ "basePrintNoStr": "S5520-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2023-03-07T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S9233",
+    "basePrintNoStr": "S9233-2021",
+    "printNo": "S9233",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S5520",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-03-07T08:45:59.592742",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-03-07T08:45:59.592742",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 2031,
+   "sessionYear": 2023,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Higher Education",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Permits the performance of medical services by a physician assistant without the supervision of a physician as appropriate to the physician assistant's scope of practice, education and training where such physician assistant has practiced for more than three thousand six hundred hours.",
+ "title": "Provides for the performance of medical services by physician assistants",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

@@ -1,0 +1,1035 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-13",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-28",
+    "sequenceNo": 3,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-28",
+    "sequenceNo": 4,
+    "text": "ORDERED TO THIRD READING CAL.1507"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-03",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING (T) 8608A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-06",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A9265A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the labor law, in relation to requiring contractors and\nsubcontractors employed by the state to submit their payrolls or transcripts\nto the commissioner",
+    "basePrintNo": "S8608",
+    "basePrintNoStr": "S8608-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Iwen Chu",
+       "imgName": "1331_Iwen_Chu.jpg",
+       "incumbent": false,
+       "memberId": 1514,
+       "sessionMemberId": 1877,
+       "sessionYear": 2023,
+       "shortName": "CHU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2041,
+       "sessionYear": 2023,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §220-j, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S8608\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to requiring contractors and\nsubcontractors employed by the state to submit their payrolls or tran-\nscripts to the commissioner\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo add a new section 220-j to Article 8 of the labor law to create an\nelectronic certified payroll system applicable to all prevailing wage\nprojects.\n\n \nSUMMARY OF PROVISIONS:\n\nSection adds a new section 220-j to article 8 of the labor law which\ndetails relevant definitions, covered projects, the information required\nto be submitted electronically by each contractor, the applicable penal-\nties for failure to do so and sets a date of December 31, 2024 for the\nDepartment of Labor (DOL) to implement such system.\n\nElectronic reporting requirements would be monthly, unless the contract\nrequires more frequent reporting, and would apply to all records that\ncontractors are currently required to report pursuant to section 220(3-\na)(a)(iii) of labor law. Additionally the contractor must provide\ndocumentation of each fund, plan or program where any supplement has\nbeen paid or provided for, along with a copy of the payment bond\nrequired by section 137 of the state finance law, which is already open\nto public inspection.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\nN/A\n\n \nJUSTIFICATION:\n\nThis legislation will provide a more streamlined system for DOL to\ncollect and maintain certified payroll already required by the law.  It\nwill also assist the various public entities, including municipalities,\nwho are responsible for ensuring contractors maintain these records. The\nsponsors anticipate the system will pay for itself in terms of increased\nefficiency for DOL enforcement activities and resulting collections.\nNotably, contractors will all have to register electronically at the end\nof 2024 pursuant to section 220-i of the labor law; it would make sense\nfor payroll reporting to be included.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8608",
+    "publishDate": "2024-02-21",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB220-J"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the labor law, in relation to requiring contractors and\nsubcontractors employed by the state to submit their payrolls or transcripts\nto the commissioner",
+    "basePrintNo": "S8608",
+    "basePrintNoStr": "S8608-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Iwen Chu",
+       "imgName": "1331_Iwen_Chu.jpg",
+       "incumbent": false,
+       "memberId": 1514,
+       "sessionMemberId": 1877,
+       "sessionYear": 2023,
+       "shortName": "CHU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2041,
+       "sessionYear": 2023,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §220-j, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S8608A\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to requiring contractors and\nsubcontractors employed by the state to submit their payrolls or tran-\nscripts to the fiscal officer\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo add a new section 220-j to Article 8 of the labor law to create an\nelectronic certified payroll system applicable to all prevailing wage\nprojects.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. adds a new section 220-j to article 8 of the labor law which\ndetails relevant definitions, covered projects, the information required\nto be submitted electronically by each contractor, the applicable penal-\nties for failure to do so and sets a date of December 31, 2024 for the\nDepartment of Labor (DOL) to implement such system.  Electronic report-\ning requirements would be monthly, unless the contract requires more\nfrequent reporting, and would apply to all records that contractors are\ncurrently required to report pursuant to section 220(3 - a)(a)(iii) of\nlabor law. Additionally the contractor must provide documentation of\neach fund, plan or program where any supplement has been paid or\nprovided for, along with a copy of the payment bond required by section\n137 of the state finance law, which is already open to public\ninspection.\n\nSection 2. Effective date.\n\n \nJUSTIFICATION:\n\nThis legislation will provide a more streamlined system for DOL to\ncollect and maintain certified payroll already required by the law.  It\nwill also assist the various public entities, including municipalities,\nwho are responsible for ensuring contractors maintain these records. The\nsponsors anticipate the system will pay for itself in terms of increased\nefficiency for DOL enforcement activities and resulting collections.\nNotably, contractors will all have to register electronically at the end\nof 2024 pursuant to section 220-i of the labor law; it would make sense\nfor payroll reporting to be included.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8608A",
+    "publishDate": "2024-06-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB220-J"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9265",
+       "basePrintNoStr": "A9265-2023",
+       "printNo": "A9265A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8608",
+ "basePrintNoStr": "S8608-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 58,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2024
+   }
+  ],
+  "size": 6
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Labor"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-05-28",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2024-06-03",
+    "billCalNo": 1507,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-05-13T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2024-02-21T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2024-05-28T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8608A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-02-21T11:43:20.651584",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-06-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2024-02-21T11:43:20.651584",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 13,
+   "fullName": "Jessica Ramos",
+   "imgName": "1046_Jessica_Ramos.jpg",
+   "incumbent": true,
+   "memberId": 1226,
+   "sessionMemberId": 2030,
+   "sessionYear": 2023,
+   "shortName": "RAMOS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-06-03",
+  "billCalNo": 1507,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9265",
+  "basePrintNoStr": "A9265-2023",
+  "session": 2023
+ },
+ "summary": "Requires contractors and subcontractors working on covered projects submit their payrolls or transcripts to the fiscal officer; directs the department to create a database for such records that are publicly available for inspection.",
+ "title": "Requires contractors and subcontractors working on covered projects submit their payrolls or transcripts to the fiscal officer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Labor"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Nathalia Fernandez",
+         "imgName": "966_Nathalia_Fernandez.jpg",
+         "incumbent": true,
+         "memberId": 1520,
+         "sessionMemberId": 1883,
+         "sessionYear": 2023,
+         "shortName": "FERNANDEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2012,
+         "sessionYear": 2023,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2017,
+         "sessionYear": 2023,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "Mario Mattera",
+         "imgName": "1309_Mario_Mattera.jpg",
+         "incumbent": true,
+         "memberId": 1492,
+         "sessionMemberId": 2044,
+         "sessionYear": 2023,
+         "shortName": "MATTERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "Jessica Ramos",
+         "imgName": "1046_Jessica_Ramos.jpg",
+         "incumbent": true,
+         "memberId": 1226,
+         "sessionMemberId": 2030,
+         "sessionYear": 2023,
+         "shortName": "RAMOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 2043,
+         "sessionYear": 2023,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 2033,
+         "sessionYear": 2023,
+         "shortName": "SANDERS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Jessica Scarcella-Spanton",
+         "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+         "incumbent": true,
+         "memberId": 1512,
+         "sessionMemberId": 1875,
+         "sessionYear": 2023,
+         "shortName": "SCARCELLA-SPANTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        }
+       ],
+       "size": 11
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 2049,
+         "sessionYear": 2023,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-05-13",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8608",
+     "basePrintNoStr": "S8608-2023",
+     "printNo": "S8608",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2004,
+         "sessionYear": 2023,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2008,
+         "sessionYear": 2023,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Nathalia Fernandez",
+         "imgName": "966_Nathalia_Fernandez.jpg",
+         "incumbent": true,
+         "memberId": 1520,
+         "sessionMemberId": 1883,
+         "sessionYear": 2023,
+         "shortName": "FERNANDEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 2011,
+         "sessionYear": 2023,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 2027,
+         "sessionYear": 2023,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2028,
+         "sessionYear": 2023,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 2038,
+         "sessionYear": 2023,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 13
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2013,
+         "sessionYear": 2023,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Pamela Helming",
+         "imgName": "773_Pamela_Helming.jpg",
+         "incumbent": true,
+         "memberId": 951,
+         "sessionMemberId": 2015,
+         "sessionYear": 2023,
+         "shortName": "HELMING"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2021,
+         "sessionYear": 2023,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2034,
+         "sessionYear": 2023,
+         "shortName": "SEPULVEDA"
+        }
+       ],
+       "size": 6
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 2020,
+         "sessionYear": 2023,
+         "shortName": "KRUEGER"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-05-28",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2024
+}

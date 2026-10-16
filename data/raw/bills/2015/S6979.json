@@ -1,0 +1,422 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6979",
+     "basePrintNoStr": "S6979-2015",
+     "printNo": "S6979",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-03-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6979",
+     "basePrintNoStr": "S6979-2015",
+     "printNo": "S6979",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-05-09",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.731"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6979",
+     "basePrintNoStr": "S6979-2015",
+     "printNo": "S6979",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-05-10",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6979",
+     "basePrintNoStr": "S6979-2015",
+     "printNo": "S6979",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-05-11",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6979",
+     "basePrintNoStr": "S6979-2015",
+     "printNo": "S6979",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-05-18",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A7597"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to repeal subdivision 8 of section 4-104 of the election law, relating to the amount paid to lease a polling station",
+    "basePrintNo": "S6979",
+    "basePrintNoStr": "S6979-2015",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld §4-104 sub 8, amd §4-104, El L",
+    "lawSection": "Election Law",
+    "memo": " BILL NUMBER:  S6979\n\n TITLE OF BILL :\n\nAn act to repeal subdivision 8 of section 4-104 of the election law,\nrelating to the amount paid to lease a polling station\n\n PURPOSE :\n\nTo provide clarification in regard to fee charged for the use of\naccessible poll sites.\n\n SUMMARY OF PROVISIONS :\n\nSection one of this repeals subdivision 8 of § 4-104 of the Election\nlaw.\n\nSection two is the effective date (Immediately).\n\n JUSTIFICATION :\n\nThe provision to be repealed allowed for the amounts which may be paid\nfor the use of poll sites to be different, distinguishing higher costs\nfor those sites which are accessible and lesser amounts for those\nsites not deemed accessible. In that federal and state law requires\nthat all poll sites be accessible, there is no longer any need for\nsuch distinction. Additionally, by not repealing this provision there\nmay remain confusion among election administrators concerning the\ndesignation of accessible poll sites, without exception.\n\n LEGISLATIVE HISTORY :\n\nNew Bill\n\n FISCAL IMPLICATIONS :\n\nNone.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6979",
+    "publishDate": "2016-03-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7597",
+       "basePrintNoStr": "A7597-2015",
+       "printNo": "A7597",
+       "session": 2015,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6979",
+ "basePrintNoStr": "S6979-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 39,
+    "year": 2016
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2016
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2016
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2016
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2016
+   }
+  ],
+  "size": 5
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2016
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2016-03-11",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2016-05-11",
+    "billCalNo": 731,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2016-03-11T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6979",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2016-03-11T09:29:04",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2016-03-11T09:29:04",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 52,
+   "fullName": "Fredrick J. Akshar II",
+   "imgName": "735_Fredrick_Akshar.jpg",
+   "incumbent": false,
+   "memberId": 913,
+   "sessionMemberId": 907,
+   "sessionYear": 2015,
+   "shortName": "AKSHAR"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2016-05-11",
+  "billCalNo": 731,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7597",
+  "basePrintNoStr": "A7597-2015",
+  "session": 2015
+ },
+ "summary": "Relates to the amount paid to lease a polling station.",
+ "title": "Provides for the repeal of subdivision 8 of section 4-104 of the election law, relating to the amount paid to lease a polling station",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6979",
+     "basePrintNoStr": "S6979-2015",
+     "printNo": "S6979",
+     "session": 2015,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Fredrick J. Akshar II",
+         "imgName": "735_Fredrick_Akshar.jpg",
+         "incumbent": false,
+         "memberId": 913,
+         "sessionMemberId": 907,
+         "sessionYear": 2015,
+         "shortName": "AKSHAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "George Amedore",
+         "imgName": "892_george_amedore.jpg",
+         "incumbent": false,
+         "memberId": 892,
+         "sessionMemberId": 886,
+         "sessionYear": 2015,
+         "shortName": "AMEDORE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 882,
+         "sessionYear": 2015,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 722,
+         "sessionYear": 2015,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 696,
+         "sessionYear": 2015,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 707,
+         "sessionYear": 2015,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Kathleen A. Marchione",
+         "imgName": "435_kathleen_a._marchione.jpg",
+         "incumbent": false,
+         "memberId": 435,
+         "sessionMemberId": 699,
+         "sessionYear": 2015,
+         "shortName": "MARCHIONE"
+        }
+       ],
+       "size": 7
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 720,
+         "sessionYear": 2015,
+         "shortName": "AVELLA"
+        }
+       ],
+       "size": 1
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 852,
+         "sessionYear": 2015,
+         "shortName": "NOZZOLIO"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2016-05-09",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

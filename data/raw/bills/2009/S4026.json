@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4026",
+     "basePrintNoStr": "S4026-2009",
+     "printNo": "S4026",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4026",
+     "basePrintNoStr": "S4026-2009",
+     "printNo": "S4026",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-12",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S4026",
+    "basePrintNoStr": "S4026-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §308-x, County L",
+    "lawSection": "County Law",
+    "memo": " BILL NUMBER:  S4026\n\n TITLE OF BILL :\nAn act to amend the county law, in relation to authorizing the county\nof Suffolk to establish a wireless surcharge\n\n\n PURPOSE OF THE BILL :\nAuthorizes the county of Suffolk to establish a surcharge on wireless\ncommunication service.\n\n SUMMARY OF PROVISIONS :\nSection 1 of the bill amends the county law by adding a new section\n308-x as it relates to the establishment of wireless surcharges for\nthe county of Suffolk.\n\nParagraph 2 relates to providing written notice forty-five days prior\nto the imposition of the surcharge.\n\nParagraph 3 relates to the wireless communication service supplier\nobligations.\n\nParagraph 4 of the bill is amended as it relates surcharge monies\nshall only be expendable for costs associated with public safety\ncommunication networks in Suffolk County.\n\n JUSTIFICATION :\nThis legislation will assist Suffolk County in paying for costs\nassociated with establishing and maintaining an enhanced emergency\ntelephone service system.\n\n PRIOR LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS FOR STATE :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4026",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7336",
+       "basePrintNoStr": "A7336-2009",
+       "printNo": "A7336",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4026",
+ "basePrintNoStr": "S4026-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-04-07",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2009-04-07T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4026",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 3,
+   "fullName": "Brian X. Foley",
+   "imgName": "Brian X. Foley.jpg",
+   "incumbent": false,
+   "memberId": 448,
+   "sessionMemberId": 34,
+   "sessionYear": 2009,
+   "shortName": "FOLEY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-12",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Authorizes the local county legislative body of the county of Suffolk to establish a wireless surcharge not to exceed thirty cents per month on wireless communications service in the county of Suffolk; provides such surcharge moneys may be used for the payment of eligible wireless service costs as defined in the county law.",
+ "title": "Authorizes the local county legislative body of the county of Suffolk to establish a wireless surcharge",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

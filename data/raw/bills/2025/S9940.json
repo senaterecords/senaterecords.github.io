@@ -1,0 +1,430 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S9940",
+     "basePrintNoStr": "S9940-2025",
+     "printNo": "S9940",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-04-16",
+    "sequenceNo": 1,
+    "text": "REFERRED TO VETERANS, HOMELAND SECURITY AND MILITARY AFFAIRS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9940",
+     "basePrintNoStr": "S9940-2025",
+     "printNo": "S9940",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-18",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9940",
+     "basePrintNoStr": "S9940-2025",
+     "printNo": "S9940",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 3,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9940",
+     "basePrintNoStr": "S9940-2025",
+     "printNo": "S9940",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 4,
+    "text": "ORDERED TO THIRD READING CAL.1758"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9940",
+     "basePrintNoStr": "S9940-2025",
+     "printNo": "S9940",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A8061"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the veterans' services law, in relation to creating a women\nveterans history trail in order to recognize and celebrate the history of\nwomen in service",
+    "basePrintNo": "S9940",
+    "basePrintNoStr": "S9940-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §20-a, Veterans' Services L",
+    "lawSection": "Veterans' Service Law",
+    "memo": " \nBILL NUMBER: S9940\n\nSPONSOR: SCARCELLA-SPANTON\n \nTITLE OF BILL:\n\nAn act to amend the veterans' services law, in relation to creating a\nwomen veterans history trail in order to recognize and celebrate the\nhistory of women in service\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo establish a Women Veterans' History Trail under the department of\nveterans' services which shall include historic preservation of items at\nthe approval of the commissioner.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Outlines the establishment of a women veterans' history\ntrail.\n\nSection 2: The effective date.\n\n \nJUSTIFICATION:\n\nWomen have been serving in the military since the formation of the\nUnited States of America. Unfortunately, women veterans have not\nreceived the recognition they deserve.\n\nEstablishing a Women Veterans' History Trail would highlight all the\ngreat achievements that women veterans have had throughout history.  It\nis important that the State of New York continue to strive for equity\nand fair recognition of women who have served in the US Armed Forces.\n\n \nLEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect ninety days after it has become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S9940",
+    "publishDate": "2026-04-16",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "VET20-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8061",
+       "basePrintNoStr": "A8061-2025",
+       "printNo": "A8061",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S9940",
+ "basePrintNoStr": "S9940-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 63,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Veterans, Homeland Security And Military Affairs"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": 1758,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2026-05-18T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-04T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Veterans, Homeland Security And Military Affairs",
+    "referenceDate": "2026-04-16T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S9940",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-04-16T15:41:55.549133",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-04-16T15:41:55.493077",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 23,
+   "fullName": "Jessica Scarcella-Spanton",
+   "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+   "incumbent": true,
+   "memberId": 1512,
+   "sessionMemberId": 2340,
+   "sessionYear": 2025,
+   "shortName": "SCARCELLA-SPANTON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-04",
+  "billCalNo": 1758,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8061",
+  "basePrintNoStr": "A8061-2025",
+  "session": 2025
+ },
+ "summary": "Creates a women veterans history trail in order to recognize and celebrate the history of women in service.",
+ "title": "Creates a women veterans history trail",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S9940",
+     "basePrintNoStr": "S9940-2025",
+     "printNo": "S9940",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Veterans, Homeland Security And Military Affairs"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2332,
+         "sessionYear": 2025,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 2360,
+         "sessionYear": 2025,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "April Baskin",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1552,
+         "sessionMemberId": 2380,
+         "sessionYear": 2025,
+         "shortName": "BASKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 2357,
+         "sessionYear": 2025,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Jessica Scarcella-Spanton",
+         "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+         "incumbent": true,
+         "memberId": 1512,
+         "sessionMemberId": 2340,
+         "sessionYear": 2025,
+         "shortName": "SCARCELLA-SPANTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 2346,
+         "sessionYear": 2025,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Alexis Weik",
+         "imgName": "1310_Alexis_Weik.jpg",
+         "incumbent": true,
+         "memberId": 1493,
+         "sessionMemberId": 2325,
+         "sessionYear": 2025,
+         "shortName": "WEIK"
+        }
+       ],
+       "size": 8
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 2327,
+         "sessionYear": 2025,
+         "shortName": "SANDERS"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2026-05-18",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

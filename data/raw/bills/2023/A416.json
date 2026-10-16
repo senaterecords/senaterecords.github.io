@@ -1,0 +1,373 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A416",
+     "basePrintNoStr": "A416-2023",
+     "printNo": "A416",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A416",
+     "basePrintNoStr": "A416-2023",
+     "printNo": "A416",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO EDUCATION"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to expanding the requirements\nfor teaching humane education to secondary school students and provides for\nthe verification of compliance of such instruction",
+    "basePrintNo": "A416",
+    "basePrintNoStr": "A416-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 2116,
+       "sessionYear": 2023,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 2183,
+       "sessionYear": 2023,
+       "shortName": "THIELE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 10,
+       "fullName": "Steve Stern",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1147,
+       "sessionMemberId": 2179,
+       "sessionYear": 2023,
+       "shortName": "STERN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 2124,
+       "sessionYear": 2023,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Tony Simone",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1532,
+       "sessionMemberId": 2087,
+       "sessionYear": 2023,
+       "shortName": "SIMONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 125,
+       "fullName": "Anna Kelles",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1482,
+       "sessionMemberId": 2210,
+       "sessionYear": 2023,
+       "shortName": "KELLES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 53,
+       "fullName": "Maritza Davila",
+       "imgName": "655_maritza_davila.jpg",
+       "incumbent": true,
+       "memberId": 655,
+       "sessionMemberId": 2120,
+       "sessionYear": 2023,
+       "shortName": "DAVILA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Harvey Epstein",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1144,
+       "sessionMemberId": 2127,
+       "sessionYear": 2023,
+       "shortName": "EPSTEIN"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §809, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 66,
+       "fullName": "Deborah Glick",
+       "imgName": "519_deborah_glick.jpg",
+       "incumbent": true,
+       "memberId": 519,
+       "sessionMemberId": 2133,
+       "sessionYear": 2023,
+       "shortName": "GLICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 2174,
+       "sessionYear": 2023,
+       "shortName": "SIMON"
+      }
+     ],
+     "size": 2
+    },
+    "printNo": "A416",
+    "publishDate": "2023-01-09",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN809"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S4533",
+       "basePrintNoStr": "S4533-2023",
+       "printNo": "S4533",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A416",
+ "basePrintNoStr": "A416-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Education",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Education",
+    "referenceDate": "2023-01-09T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Education",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A2082",
+    "basePrintNoStr": "A2082-2021",
+    "printNo": "A2082",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A1063",
+    "basePrintNoStr": "A1063-2019",
+    "printNo": "A1063A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A2137",
+    "basePrintNoStr": "A2137-2017",
+    "printNo": "A2137",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A518",
+    "basePrintNoStr": "A518-2015",
+    "printNo": "A518",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A782",
+    "basePrintNoStr": "A782-2013",
+    "printNo": "A782",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A1925",
+    "basePrintNoStr": "A1925-2011",
+    "printNo": "A1925",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A6126",
+    "basePrintNoStr": "A6126-2009",
+    "printNo": "A6126",
+    "session": 2009,
+    "version": ""
+   }
+  ],
+  "size": 7
+ },
+ "printNo": "A416",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-09T11:10:52.856360",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-01-09T10:44:22.034355",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 67,
+   "fullName": "Linda Rosenthal",
+   "imgName": "520_linda_rosenthal.jpg",
+   "incumbent": true,
+   "memberId": 520,
+   "sessionMemberId": 2168,
+   "sessionYear": 2023,
+   "shortName": "ROSENTHAL L"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Education",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Expands the requirements for teaching humane education of animals to secondary school students; requires verification of compliance.",
+ "title": "Expands the requirements for teaching humane education to secondary school students",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

@@ -1,0 +1,238 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4378",
+     "basePrintNoStr": "S4378-2009",
+     "printNo": "S4378",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-22",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4378",
+     "basePrintNoStr": "S4378-2009",
+     "printNo": "S4378",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-28",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.236"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4378",
+     "basePrintNoStr": "S4378-2009",
+     "printNo": "S4378",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-29",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4378",
+     "basePrintNoStr": "S4378-2009",
+     "printNo": "S4378",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-04",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4378",
+     "basePrintNoStr": "S4378-2009",
+     "printNo": "S4378",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-05",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A1436"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S4378",
+    "basePrintNoStr": "S4378-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6-134, El L",
+    "lawSection": "Election Law",
+    "memo": " BILL NUMBER:  S4378\n\n TITLE OF BILL :\n\nAn act to amend the election law, in relation to providing that\ndesignating petitions and independent nominating petitions may not\ncontain candidates for the same public office from different political\nsubdivisions\n\n\n PURPOSE :\n\nSection 1: Amends Election Law section 6-134 subdivision 1 to prohibit\nthe combining of the petitions of two candidates for the same public\noffice in different political subdivisions.\n\nSection 2: Provides that the Act takes effect immediately.\n\n EXISTING LAW :\n\nUnder the existing law,\n\n JUSTIFICATION :\n\nIn the case of Popkin v. Umane, 22 AD2d613 (2nd Dep't 2005), the\nAppellate Division held that petitions which contained the names of\ndifferent candidates for the same public office in different political\nsubdivisions are valid. This holding could be interpreted to allow one\npetition to be used for a candidate of a party in each of the Assembly\nDistricts in New York City, placing a heavy burden of the board of\nelections to determine which signers resided in each of the\ncandidates' political subdivision.\n\n LEGISLATIVE HISTORY :\n\nA642 - 2007\nA10908 - 2006\n\n FISCAL IMPLICATIONS :\n\nNone.\n\n LOCAL FISCAL IMPLICATIONS :\n\nNone.\n\n EFFECTIVE DATE :\nThis bill is effective immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4378",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1436",
+       "basePrintNoStr": "A1436-2009",
+       "printNo": "A1436",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4378",
+ "basePrintNoStr": "S4378-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-04-22",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-05-04",
+    "billCalNo": 236,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2009-04-22T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4378",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 15,
+   "fullName": "Joseph P. Addabbo Jr.",
+   "imgName": "384_joseph_p._addabbo_jr.jpg",
+   "incumbent": true,
+   "memberId": 384,
+   "sessionMemberId": 16,
+   "sessionYear": 2009,
+   "shortName": "ADDABBO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-04",
+  "billCalNo": 236,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A1436",
+  "basePrintNoStr": "A1436-2009",
+  "session": 2009
+ },
+ "summary": "Provides that designating petitions and independent nominating petitions may not contain candidates for the same public office from different political subdivisions.",
+ "title": "Provides that designating petitions and independent nominating petitions may not contain candidates for the same public office from different political subdivisions",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

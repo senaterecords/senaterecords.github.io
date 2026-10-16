@@ -1,0 +1,413 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7030",
+     "basePrintNoStr": "S7030-2009",
+     "printNo": "S7030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7030",
+     "basePrintNoStr": "S7030-2009",
+     "printNo": "S7030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-03",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.736"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7030",
+     "basePrintNoStr": "S7030-2009",
+     "printNo": "S7030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-07",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7030",
+     "basePrintNoStr": "S7030-2009",
+     "printNo": "S7030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-08",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7030",
+     "basePrintNoStr": "S7030-2009",
+     "printNo": "S7030",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-16",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A9950"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the local finance law, in relation to authorizing and empowering the city of Kingston to amortize the cost of payments to employees upon separation of service from the city",
+    "basePrintNo": "S7030",
+    "basePrintNoStr": "S7030-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §11.00, Loc Fin L",
+    "lawSection": "Local Finance Law",
+    "memo": " BILL NUMBER:  S7030\n\n TITLE OF BILL :\nAn act to amend the local finance law, in relation to authorizing and\nempowering the city of Kingston to amortize the cost of payments to\nemployees upon separation of service from the city\n\n\n PURPOSE :\nThe purpose of this bill is to make explicit the ability of the City\nof Kingston to amortize the cost of payments made to employees upon\nseparation of service over a period of ten years.\n\n SUMMARY OF PROVISIONS :\nSection 1, authorizing and empowering the City of Kingston to amortize\nthe cost of payments made to employees upon separation of service over\na period often years.\n\nSection 2, effective date.\n\n EXISTING LAW :\nNone.\n\n JUSTIFICATION :\nThis legislation addresses the City of Kingston's need to amortize the\ncost of payments to employees upon separation of service from the\nCity. The measure was requested by the City of Kingston.\n\n LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone to the State.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7030",
+    "publishDate": "2010-03-08",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9950",
+       "basePrintNoStr": "A9950-2009",
+       "printNo": "A9950",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7030",
+ "basePrintNoStr": "S7030-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 58,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2010
+   }
+  ],
+  "size": 7
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-03-08",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-08",
+    "billCalNo": 736,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2010-03-08T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7030",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-03-08T16:15:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-03-08T16:15:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "William J. Larkin Jr.",
+   "imgName": "374_william_j._larkin_jr.jpg",
+   "incumbent": false,
+   "memberId": 374,
+   "sessionMemberId": 6,
+   "sessionYear": 2009,
+   "shortName": "LARKIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-08",
+  "billCalNo": 736,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9950",
+  "basePrintNoStr": "A9950-2009",
+  "session": 2009
+ },
+ "summary": "Authorizes the city of Kingston to amortize the cost of payments to employees upon separation of service from such city.",
+ "title": "Authorizes the city of Kingston to amortize the cost of payments to employees upon separation of service from such city",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7030",
+     "basePrintNoStr": "S7030-2009",
+     "printNo": "S7030",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Craig M. Johnson",
+         "imgName": "Craig M. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 446,
+         "sessionMemberId": 62,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 11,
+         "sessionYear": 2009,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 19,
+         "sessionYear": 2009,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Antoine M. Thompson",
+         "imgName": "Antoine M. Thompson.jpg",
+         "incumbent": false,
+         "memberId": 447,
+         "sessionMemberId": 28,
+         "sessionYear": 2009,
+         "shortName": "THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 7
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Thomas P. Morahan",
+         "imgName": "Thomas P. Morahan.jpg",
+         "incumbent": false,
+         "memberId": 441,
+         "sessionMemberId": 2,
+         "sessionYear": 2009,
+         "shortName": "MORAHAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-06-03",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

@@ -1,0 +1,202 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S701",
+     "basePrintNoStr": "S701-2009",
+     "printNo": "S701",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S701",
+     "basePrintNoStr": "S701-2009",
+     "printNo": "S701",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S701",
+    "basePrintNoStr": "S701-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §532, RPT L",
+    "lawSection": "Real Property Tax Law",
+    "memo": " BILL NUMBER:  S701\n\n TITLE OF BILL :\nAn act to amend the real property tax law, in relation to subjecting\ncertain state land in Orange county to real property taxation\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nLegislation that would compensate all municipalities in New York State\nfor state owed land not on the local tax rolls that are part of the\nPalisades Park System.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nAll lands in the counties of Rockland and Sullivan, and in the towns\nof Monroe, Warwick, Wallkill, Cornwall, Highlands, Tuxedo and\nWoodbury, Orange County, and in the towns of Gardiner, Rochester,\nShawangunk, Warwarsing, Ulster County, acquired for a public use by\nthe commissioners of the Palisades Interstate Park, exclusive of the\nimprovements erected thereon by the state.\n\n JUSTIFICATION :\nSome towns receive compensation while others do not.  The intent of\nthis legislation is to bring about equity.\n\n PRIOR LEGISLATIVE HISTORY :\n2003-2004: A.3880, held for consideration in real property taxation.\n2001-2002: A.6028, not considered.\nS.5311 of 2005-2006.\nS.530 of 2007-2008\n\n FISCAL IMPLICATIONS :\nTo be determined.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately and shall apply to assessment\nrolls prepared on the basis of taxable status dates occurring on or\nafter the date on which this act shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S701",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4026",
+       "basePrintNoStr": "A4026-2009",
+       "printNo": "A4026",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S701",
+ "basePrintNoStr": "S701-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2009-01-13T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S530",
+    "basePrintNoStr": "S530-2007",
+    "printNo": "S530",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S701",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "William J. Larkin Jr.",
+   "imgName": "374_william_j._larkin_jr.jpg",
+   "incumbent": false,
+   "memberId": 374,
+   "sessionMemberId": 6,
+   "sessionYear": 2009,
+   "shortName": "LARKIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-01-06",
+  "billCalNo": null,
+  "committeeName": "Local Government",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Subjects lands in the town of Wallkill, Orange County, which are acquired for a public use by the commissioners of the Palisades Interstate park, exclusive of improvements thereon erected by the state, to real property taxation.",
+ "title": "Subjects certain land in the town of Wallkill, Orange county, to real property taxation",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

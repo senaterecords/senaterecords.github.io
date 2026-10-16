@@ -1,0 +1,397 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7127",
+     "basePrintNoStr": "S7127-2009",
+     "printNo": "S7127",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-03-15",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7127",
+     "basePrintNoStr": "S7127-2009",
+     "printNo": "S7127",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-10",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.512"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7127",
+     "basePrintNoStr": "S7127-2009",
+     "printNo": "S7127",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-11",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7127",
+     "basePrintNoStr": "S7127-2009",
+     "printNo": "S7127",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-12",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7127",
+     "basePrintNoStr": "S7127-2009",
+     "printNo": "S7127",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-17",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A2364"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the private housing finance law and the public housing law, in relation to preferences with respect to certain projects",
+    "basePrintNo": "S7127",
+    "basePrintNoStr": "S7127-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§1112 & 1102, Priv Hous Fin L; amd §14, Pub Hous L",
+    "lawSection": "Private Housing Finance Law",
+    "memo": " BILL NUMBER:  S7127\n\n TITLE OF BILL :\nAn act to amend the private housing finance law and the public housing\nlaw, in relation to preferences with respect to certain projects\n\n\n SUMMARY OF PROVISIONS :\nThe purpose of this bill is to provide preferences to former\nBrownfield sites in the DHCR unified funding rounds.\n\n JUSTIFICATION :\nLast year the Legislature enacted a Brownfield's Redevelopment\ninitiative, this legislation goes one step further by directing DHCR\nto give eligible former brownfield sites an additional preference\nwhere they are feasible and received a certificate of completion of\nthe Department of Environmental Conservation.\n\n LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7127",
+    "publishDate": "2010-03-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2364",
+       "basePrintNoStr": "A2364-2009",
+       "printNo": "A2364",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7127",
+ "basePrintNoStr": "S7127-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 46,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2010
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Housing, Construction And Community Development"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-03-15",
+    "billCalNo": null,
+    "committeeName": "Housing, Construction And Community Development",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-05-12",
+    "billCalNo": 512,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2010-03-15T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7127",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-03-15T11:57:19",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-03-15T11:57:19",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Pedro Espada Jr.",
+   "imgName": "Pedro Espada Jr.jpg",
+   "incumbent": false,
+   "memberId": 442,
+   "sessionMemberId": 9,
+   "sessionYear": 2009,
+   "shortName": "ESPADA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-05-12",
+  "billCalNo": 512,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2364",
+  "basePrintNoStr": "A2364-2009",
+  "session": 2009
+ },
+ "summary": "Relates to giving preferences to former brownfield sites with respect to DHCR unified funding rounds; provides that commissioner has discretion to determine contract awards through a competitive application process.",
+ "title": "Relates to giving preferences with respect to certain projects",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7127",
+     "basePrintNoStr": "S7127-2009",
+     "printNo": "S7127",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Housing, Construction And Community Development"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 51,
+         "sessionYear": 2009,
+         "shortName": "DIAZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Pedro Espada Jr.",
+         "imgName": "Pedro Espada Jr.jpg",
+         "incumbent": false,
+         "memberId": 442,
+         "sessionMemberId": 9,
+         "sessionYear": 2009,
+         "shortName": "ESPADA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 12,
+         "sessionYear": 2009,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Daniel L. Squadron",
+         "imgName": "412_daniel_l._squadron.jpg",
+         "incumbent": false,
+         "memberId": 412,
+         "sessionMemberId": 42,
+         "sessionYear": 2009,
+         "shortName": "SQUADRON"
+        }
+       ],
+       "size": 4
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 31,
+         "sessionYear": 2009,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Vincent L. Leibell",
+         "imgName": "Vincent L. Leibell.jpg",
+         "incumbent": false,
+         "memberId": 449,
+         "sessionMemberId": 38,
+         "sessionYear": 2009,
+         "shortName": "LEIBELL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 44,
+         "sessionYear": 2009,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 4
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-05-10",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

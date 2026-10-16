@@ -1,0 +1,945 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-01-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO TRANSPORTATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-01-22",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO TRANSPORTATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2015-01-22",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1792A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-01-06",
+    "sequenceNo": 4,
+    "text": "REFERRED TO TRANSPORTATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-16",
+    "sequenceNo": 5,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-16",
+    "sequenceNo": 6,
+    "text": "ORDERED TO THIRD READING CAL.1912"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2016-06-17",
+    "sequenceNo": 7,
+    "text": "RECOMMITTED TO RULES"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the vehicle and traffic law, in relation to the definition of an all terrain vehicle or \"ATV\"",
+    "basePrintNo": "S1792",
+    "basePrintNoStr": "S1792-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 729,
+       "sessionYear": 2015,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Rich Funke",
+       "imgName": "887_rich_funke.jpg",
+       "incumbent": false,
+       "memberId": 887,
+       "sessionMemberId": 881,
+       "sessionYear": 2015,
+       "shortName": "FUNKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 696,
+       "sessionYear": 2015,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 702,
+       "sessionYear": 2015,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 698,
+       "sessionYear": 2015,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 856,
+       "sessionYear": 2015,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Kathleen A. Marchione",
+       "imgName": "435_kathleen_a._marchione.jpg",
+       "incumbent": false,
+       "memberId": 435,
+       "sessionMemberId": 699,
+       "sessionYear": 2015,
+       "shortName": "MARCHIONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 58,
+       "fullName": "Thomas F. O'Mara",
+       "imgName": "415_thomas_f._o'mara.jpg",
+       "incumbent": true,
+       "memberId": 415,
+       "sessionMemberId": 872,
+       "sessionYear": 2015,
+       "shortName": "O'MARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "James L. Seward",
+       "imgName": "371_james_l._seward.jpg",
+       "incumbent": false,
+       "memberId": 371,
+       "sessionMemberId": 704,
+       "sessionYear": 2015,
+       "shortName": "SEWARD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "Catharine Young",
+       "imgName": "414_catharine_young.jpg",
+       "incumbent": false,
+       "memberId": 414,
+       "sessionMemberId": 855,
+       "sessionYear": 2015,
+       "shortName": "YOUNG"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2281, V & T L",
+    "lawSection": "Vehicle and Traffic Law",
+    "memo": "BILL NUMBER:S1792\n\nTITLE OF BILL:  An act to amend the vehicle and traffic law, in\nrelation to the definition of an all terrain vehicle or \"ATV\"\n\nPURPOSE:\n\nThis bill raises the defined weight of an all terrain vehicle to 1,500\npounds of dry weight to allow certain all terrain vehicles to be\nregistered in New York.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 amends the definition of an \"all terrain vehicle\" in chapter\n319 of the Vehicle and Traffic Law by raising the dry weight\nqualification from 1,000 pounds to 1,500 pounds for certain all\nterrain vehicles. Section 2 provides the effective date.\n\nJUSTIFICATION:\n\nThe current vehicle and traffic law defines an all terrain vehicle\n(ATV) as being no wider than 70 inches and no heavier than 1,000\npounds. Advancements in technology have lead to the development of new\nall terrain vehicles. Sometimes, these new vehicles are heavier than\nthe more traditional models. Unlike other states, New York has not\nupdated their regulations to allow the registration of these new\nvehicles. The current dry weight limit on all terrain vehicles is\nenticing New Yorkers to register their vehicles in other states or to\nleave their vehicles unregistered.\n\nBy increasing the weight limit on certain all terrain vehicles by 500\npounds users will be able to register their vehicles in New York\nState. This will generate more revenue for the State through\nregistrations. Also, it is anticipated that permitting the\nregistration of certain all terrain vehicles weighing over 1,000\npounds will increase the interest in purchasing such vehicles and\ngenerate additional sales tax revenue for the State. Finally,\nenactment of this legislation will provide a necessary update to allow\ncurrent owners of all terrain vehicles to register and legally use\ntheir vehicles in New York.\n\nLEGISLATIVE HISTORY:\n\nS.3160 of 2006 - Referred to Transportation\nS.4380 of 2007 - Referred to Transportation\nS.4380A of 2008 - Passed Senate\nS.4277 of 2009 - Committed to Rules\nS.4277 of 2010 - Passed Senate\nS.3318 of 2011 - Passed Senate\nS.3318 of 2012 - Passed Senate\nS.1946 of 2013 - Passed Senate\nS.1946A of 2014 - Passed Senate\n\nFISCAL IMPLICATIONS:\n\nNo cost to the state. Additional revenue is anticipated through new\nregistrations and sales tax.\n\n\nEFFECTIVE DATE:\n\nThis act shall take effect on the 30th day after it shall have become\nlaw.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1792",
+    "publishDate": "2015-01-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the vehicle and traffic law, in relation to the definition of an all terrain vehicle or \"ATV\"",
+    "basePrintNo": "S1792",
+    "basePrintNoStr": "S1792-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 729,
+       "sessionYear": 2015,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Rich Funke",
+       "imgName": "887_rich_funke.jpg",
+       "incumbent": false,
+       "memberId": 887,
+       "sessionMemberId": 881,
+       "sessionYear": 2015,
+       "shortName": "FUNKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 696,
+       "sessionYear": 2015,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 702,
+       "sessionYear": 2015,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 698,
+       "sessionYear": 2015,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 856,
+       "sessionYear": 2015,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Kathleen A. Marchione",
+       "imgName": "435_kathleen_a._marchione.jpg",
+       "incumbent": false,
+       "memberId": 435,
+       "sessionMemberId": 699,
+       "sessionYear": 2015,
+       "shortName": "MARCHIONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 58,
+       "fullName": "Thomas F. O'Mara",
+       "imgName": "415_thomas_f._o'mara.jpg",
+       "incumbent": true,
+       "memberId": 415,
+       "sessionMemberId": 872,
+       "sessionYear": 2015,
+       "shortName": "O'MARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "James L. Seward",
+       "imgName": "371_james_l._seward.jpg",
+       "incumbent": false,
+       "memberId": 371,
+       "sessionMemberId": 704,
+       "sessionYear": 2015,
+       "shortName": "SEWARD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "Catharine Young",
+       "imgName": "414_catharine_young.jpg",
+       "incumbent": false,
+       "memberId": 414,
+       "sessionMemberId": 855,
+       "sessionYear": 2015,
+       "shortName": "YOUNG"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2281, V & T L",
+    "lawSection": "Vehicle and Traffic Law",
+    "memo": "BILL NUMBER:S1792A\n\nTITLE OF BILL:\n\nAn act to amend the vehicle and traffic law, in relation to the\ndefinition of an all terrain vehicle or \"ATV\"\n\nPURPOSE:\n\nThis bill raises the defined weight of an all terrain vehicle to 1,500\npounds of dry weight to allow certain all terrain vehicles to be\nregistered in New York.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 amends the definition of an \"all terrain vehicle\" in chapter\n319 of the Vehicle and Traffic Law by raising the dry weight\nqualification from 1,000 pounds to 1,500 pounds for certain all\nterrain vehicles. Section 2 provides the effective date.\n\nJUSTIFICATION:\n\nThe current vehicle and traffic law defines an all terrain vehicle\n(ATV) as being no wider than 70 inches and no heavier than 1,000\npounds. Advancements in technology have lead to the development of new\nall terrain vehicles. Sometimes, these new vehicles are heavier than\nthe more traditional models. Unlike other states, New York has not\nupdated their regulations to allow the registration of these new\nvehicles. The current dry weight limit on all terrain vehicles is\nenticing New Yorkers to register their vehicles in other states or to\nleave their vehicles unregistered.\n\nBy increasing the weight limit on certain all terrain vehicles by 500\npounds users will be able to register their vehicles in New York\nState. This will generate more revenue for the State through\nregistrations. Also, it is anticipated that permitting the\nregistration of certain all terrain vehicles weighing over 1,000\npounds will increase the interest in purchasing such vehicles and\ngenerate additional sales tax revenue for the State. Finally,\nenactment of this legislation will provide a necessary update to allow\ncurrent owners of all terrain vehicles to register and legally use\ntheir vehicles in New York.\n\nLEGISLATIVE HISTORY:\n\nS.3160 of 2006 - Referred to Transportation\nS.4380 of 2007 - Referred to Transportation\nS.4380A of 2008 - Passed Senate\nS.4277 of 2009 - Committed to Rules\nS.4277 of 2010 - Passed Senate\nS.3318 of 2011 - Passed Senate\nS.3318 of 2012 - Passed Senate\nS.1946 of 2013 - Passed Senate\nS.1946A of 2014 - Passed Senate\n\nFISCAL IMPLICATIONS:\n\n\nNo cost to the state. Additional revenue is anticipated through new\nregistrations and sales tax.\n\nEFFECTIVE DATE:\n\nThis act shall take effect on the 30th day after it shall have become\nlaw.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1792A",
+    "publishDate": "2015-01-22",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1951",
+       "basePrintNoStr": "A1951-2015",
+       "printNo": "A1951",
+       "session": 2015,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1792",
+ "basePrintNoStr": "S1792-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2016
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2016
+   }
+  ],
+  "size": 2
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2016
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2016-06-17",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2016-06-16T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2016-06-17T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Transportation",
+    "referenceDate": "2015-01-14T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Transportation",
+    "referenceDate": "2015-01-22T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Transportation",
+    "referenceDate": "2016-01-06T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1946",
+    "basePrintNoStr": "S1946-2013",
+    "printNo": "S1946A",
+    "session": 2013,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S3318",
+    "basePrintNoStr": "S3318-2011",
+    "printNo": "S3318",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S4277",
+    "basePrintNoStr": "S4277-2009",
+    "printNo": "S4277",
+    "session": 2009,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S1792A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-01-14T15:16:37",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2015-01-22T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2015-01-14T15:16:37",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 48,
+   "fullName": "Patty Ritchie",
+   "imgName": "423_patty_ritchie.jpg",
+   "incumbent": false,
+   "memberId": 423,
+   "sessionMemberId": 701,
+   "sessionYear": 2015,
+   "shortName": "RITCHIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2016-06-17",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Amends the definition of all terrain vehicles to include certain vehicles of up to seventy inches long and 1500 pounds.",
+ "title": "Relates to the definition of all terrain vehicle or \"ATV\"",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1792",
+     "basePrintNoStr": "S1792-2015",
+     "printNo": "S1792A",
+     "session": 2015,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 729,
+         "sessionYear": 2015,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 727,
+         "sessionYear": 2015,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 700,
+         "sessionYear": 2015,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 853,
+         "sessionYear": 2015,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 878,
+         "sessionYear": 2015,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 871,
+         "sessionYear": 2015,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 730,
+         "sessionYear": 2015,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 698,
+         "sessionYear": 2015,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 856,
+         "sessionYear": 2015,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 703,
+         "sessionYear": 2015,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 852,
+         "sessionYear": 2015,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 713,
+         "sessionYear": 2015,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 873,
+         "sessionYear": 2015,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 704,
+         "sessionYear": 2015,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 725,
+         "sessionYear": 2015,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 15
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 694,
+         "sessionYear": 2015,
+         "shortName": "LAVALLE"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 721,
+         "sessionYear": 2015,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 722,
+         "sessionYear": 2015,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 718,
+         "sessionYear": 2015,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 706,
+         "sessionYear": 2015,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 693,
+         "sessionYear": 2015,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 707,
+         "sessionYear": 2015,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 711,
+         "sessionYear": 2015,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 708,
+         "sessionYear": 2015,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 728,
+         "sessionYear": 2015,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 9
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2016-06-16",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

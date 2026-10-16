@@ -1,0 +1,490 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A5202",
+     "basePrintNoStr": "A5202-2023",
+     "printNo": "A5202",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-03-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO GOVERNMENTAL EMPLOYEES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5202",
+     "basePrintNoStr": "A5202-2023",
+     "printNo": "A5202",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-04-27",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO GOVERNMENTAL EMPLOYEES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5202",
+     "basePrintNoStr": "A5202-2023",
+     "printNo": "A5202A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-04-27",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 5202A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5202",
+     "basePrintNoStr": "A5202-2023",
+     "printNo": "A5202A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 4,
+    "text": "REFERRED TO GOVERNMENTAL EMPLOYEES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5202",
+     "basePrintNoStr": "A5202-2023",
+     "printNo": "A5202A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-22",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO GOVERNMENTAL EMPLOYEES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5202",
+     "basePrintNoStr": "A5202-2023",
+     "printNo": "A5202B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-22",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 5202B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general municipal law, in relation to the pensionable\nearnings of first grade police officers",
+    "basePrintNo": "A5202",
+    "basePrintNoStr": "A5202-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §209-ffff, Gen Muni L",
+    "lawSection": "New York City Administrative Code",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A5202",
+    "publishDate": "2023-03-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto the pensionable earnings of first grade police officers",
+    "basePrintNo": "A5202",
+    "basePrintNoStr": "A5202-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 61,
+       "fullName": "Charles Fall",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1244,
+       "sessionMemberId": 2129,
+       "sessionYear": 2023,
+       "shortName": "FALL"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §14-111, NYC Ad Cd",
+    "lawSection": "New York City Administrative Code",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A5202A",
+    "publishDate": "2023-04-27",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S2148",
+       "basePrintNoStr": "S2148-2023",
+       "printNo": "S2148A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto the pensionable earnings of first grade police officers",
+    "basePrintNo": "A5202",
+    "basePrintNoStr": "A5202-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 61,
+       "fullName": "Charles Fall",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1244,
+       "sessionMemberId": 2129,
+       "sessionYear": 2023,
+       "shortName": "FALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 27,
+       "fullName": "Sam Berger",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1545,
+       "sessionMemberId": 2314,
+       "sessionYear": 2023,
+       "shortName": "BERGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 26,
+       "fullName": "Edward Braunstein",
+       "imgName": "610_edward_braunstein.jpg",
+       "incumbent": true,
+       "memberId": 610,
+       "sessionMemberId": 2109,
+       "sessionYear": 2023,
+       "shortName": "BRAUNSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 13,
+       "fullName": "Charles Lavine",
+       "imgName": "474_charles_lavine.jpg",
+       "incumbent": true,
+       "memberId": 474,
+       "sessionMemberId": 2146,
+       "sessionYear": 2023,
+       "shortName": "LAVINE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 10,
+       "fullName": "Steve Stern",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1147,
+       "sessionMemberId": 2179,
+       "sessionYear": 2023,
+       "shortName": "STERN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 2116,
+       "sessionYear": 2023,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 2172,
+       "sessionYear": 2023,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Jaime R. Williams",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1116,
+       "sessionMemberId": 2190,
+       "sessionYear": 2023,
+       "shortName": "WILLIAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Eddie Gibbs",
+       "imgName": "1505_Eddie_Gibbs.jpg",
+       "incumbent": true,
+       "memberId": 1505,
+       "sessionMemberId": 2221,
+       "sessionYear": 2023,
+       "shortName": "GIBBS"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §14-111, NYC Ad Cd",
+    "lawSection": "New York City Administrative Code",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A5202B",
+    "publishDate": "2024-01-22",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S2148",
+       "basePrintNoStr": "S2148-2023",
+       "printNo": "S2148B",
+       "session": 2023,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A5202",
+ "basePrintNoStr": "A5202-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-22",
+    "billCalNo": null,
+    "committeeName": "Governmental Employees",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Employees",
+    "referenceDate": "2023-03-06T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Employees",
+    "referenceDate": "2023-04-27T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Employees",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Employees",
+    "referenceDate": "2024-01-22T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A10373",
+    "basePrintNoStr": "A10373-2021",
+    "printNo": "A10373",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A7875",
+    "basePrintNoStr": "A7875-2019",
+    "printNo": "A7875",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A7900",
+    "basePrintNoStr": "A7900-2017",
+    "printNo": "A7900A",
+    "session": 2017,
+    "version": "A"
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "A5202B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-03-06T11:13:49.117090",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2023-04-27T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2024-01-22T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2023-03-06T10:33:49.759596",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 23,
+   "fullName": "Stacey Pheffer Amato",
+   "imgName": "no_image.jpg",
+   "incumbent": true,
+   "memberId": 1131,
+   "sessionMemberId": 2162,
+   "sessionYear": 2023,
+   "shortName": "PHEFFER AMATO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-22",
+  "billCalNo": null,
+  "committeeName": "Governmental Employees",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for the pension benefits for first grade police officers of the city of New York who have served for 25 or 30 years.",
+ "title": "Provides for the pension benefits for first grade police officers of the city of New York who have served for 25 or 30 years",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

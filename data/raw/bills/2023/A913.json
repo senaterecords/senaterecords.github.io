@@ -1,0 +1,311 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A913",
+     "basePrintNoStr": "A913-2023",
+     "printNo": "A913",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-01-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A913",
+     "basePrintNoStr": "A913-2023",
+     "printNo": "A913",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO JUDICIARY"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the civil practice law and rules, in relation to enacting the\n\"patient privacy protection act\"",
+    "basePrintNo": "A913",
+    "basePrintNoStr": "A913-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 2189,
+       "sessionYear": 2023,
+       "shortName": "WEPRIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 44,
+       "fullName": "Robert C. Carroll",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1122,
+       "sessionMemberId": 2114,
+       "sessionYear": 2023,
+       "shortName": "CARROLL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 2116,
+       "sessionYear": 2023,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 104,
+       "fullName": "Jonathan Jacobson",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1259,
+       "sessionMemberId": 2141,
+       "sessionYear": 2023,
+       "shortName": "JACOBSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 2174,
+       "sessionYear": 2023,
+       "shortName": "SIMON"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3102, CPLR",
+    "lawSection": "Civil Practice Law and Rules",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A913",
+    "publishDate": "2023-01-11",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CVP3102"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A913",
+ "basePrintNoStr": "A913-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Judiciary",
+    "referenceDate": "2023-01-11T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Judiciary",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A1490",
+    "basePrintNoStr": "A1490-2021",
+    "printNo": "A1490",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A2370",
+    "basePrintNoStr": "A2370-2019",
+    "printNo": "A2370",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A9030",
+    "basePrintNoStr": "A9030-2017",
+    "printNo": "A9030",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A242",
+    "basePrintNoStr": "A242-2015",
+    "printNo": "A242",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A2365",
+    "basePrintNoStr": "A2365-2013",
+    "printNo": "A2365",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A694",
+    "basePrintNoStr": "A694-2011",
+    "printNo": "A694A",
+    "session": 2011,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A1254",
+    "basePrintNoStr": "A1254-2009",
+    "printNo": "A1254A",
+    "session": 2009,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A8691",
+    "basePrintNoStr": "A8691-2007",
+    "printNo": "A8691B",
+    "session": 2007,
+    "version": "B"
+   }
+  ],
+  "size": 8
+ },
+ "printNo": "A913",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-11T11:39:45.581863",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-01-11T10:26:43.041783",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 81,
+   "fullName": "Jeffrey Dinowitz",
+   "imgName": "533_jeffrey_dinowitz.jpg",
+   "incumbent": true,
+   "memberId": 533,
+   "sessionMemberId": 2124,
+   "sessionYear": 2023,
+   "shortName": "DINOWITZ"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Judiciary",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts the \"patient privacy protection act\"; prohibits ex-parte interviews of other party's treating physicians or health care providers in personal injury, medical, dental, or podiatric malpractice, or wrongful death actions.",
+ "title": "Enacts the \"patient privacy protection act\"",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

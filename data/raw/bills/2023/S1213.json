@@ -1,0 +1,941 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-27",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-27",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1213A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-30",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-30",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 1213B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2023-04-17",
+    "sequenceNo": 6,
+    "text": "ORDERED TO THIRD READING CAL.590"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2023-04-19",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A1395C"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, the state finance law and the tax law, in\nrelation to requiring the state university of New York and the city university\nof New York to provide abortion by medication techniques at all public\ncolleges and public universities within the state",
+    "basePrintNo": "S1213",
+    "basePrintNoStr": "S1213-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 129-C §6450, Ed L; add §99-qq, St Fin L; add §630-l, Tax L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S1213\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the education law, the state finance law and the tax\nlaw, in relation to requiring the state university of New York and the\ncity university of New York to provide abortion by medication techniques\nat all public colleges and public universities within the state\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would reduce financial and logistical barriers that public\nuniversity students may have to accessing healthcare to safely end a\npregnancy.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends the education law by adding a new article 129-C enti-\ntled \"medical and health services\" which defines terms, provides that\nstudent health centers at public colleges make abortion medication tech-\nniques onsite or contract with a third party to provide services, and\ncreates a reporting requirement to track outcomes.\n\nSection 2 amends the state finance law by adding a new section 99-qq\nthat establishes a public colleges and universities student health\ncenter abortion by medication fund under the joint custody of the comp-\ntroller, commissioner of health, and the SUNY and CUNY chancellors to\nwhich taxpayers may voluntarily contribute. Monies from the fund shall\nbe made available for payment of any costs associated with the provision\nof medication abortion at student health centers.\n\nSection 3 amends the tax law by adding a new section. 630-1 to enable\ntaxpayers to make a contribution to the public colleges and universities\nstudent health center abortion by medication fund on their personal\nincome tax return starting beginning in a tax year commencing on or\nafter January 1 st , 2020. abortion by medication techniques in public\ncollege student health centers\n\nSection 4 provides the effective date\n\n \nJUSTIFICATION:\n\nCollege students' often busy schedules, lack of transportation options,\nand to -incomes present harriers to accessing abortion healthcare.\nStudents who want to end a pregnancy have to travel far to off-campus\nproviders, potentially missing classes and disrupting their studies.\n\nStates are increasingly recognizing the provision of medication abortion\non public university campuses as a key way to increase access to\nabortion. In 2019, California enacted a law requiring public universi-\nties to offer medication abortion on campus. In 2022, Massachusetts\nenacted a similar law. Also in 2022, the private New York City-based\ncollege, Barnard announced its intention to provide medication abortion\nat student health center.\n\nFor decades, medication abortion has provided a safe, non-invasive, and\neffective way to end a pregnancy. According to Planned Parenthood, the\nmedication has a less than 1% rate of complication and a near 100%\npercent rate of effectively terminating pregnancy, making it one of the\nsafest and most effective medications.\n\nMedication abortion is different than the \"morning after pill,\" which is\ntypically already available at public university student health centers.\nWhile the morning after pill is intended to prevent pregnancy from\noccurring, medication abortion is intended to prevent an existing preg-\nnancy from progressing.\n\nAccording to the most recent data available from the Guttmadher insti-\ntute, 39% of counties in New York State are without a known clinic,\npresenting obstacles to New Yorkers, including students, who need\nabortion care. New York has positioned itself as a safe haven state,\nwhich means people seeking reproductive healthcare will travel to New\nYork to seek care in addition to New York residents seeking care, creat-\ning more demand on our healthcare systems. As a result, New York must\nexpand its ability to meet demand. By providing access to medication\nabortion at public university student health centers, students will have\naccess to care in a safe and timely way so they can remain healthy and\nfocused on their studies.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined\n\n \nEFFECTIVE DATE:\nImmediately after becoming law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1213",
+    "publishDate": "2023-01-10",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EDN6450",
+        "STF99-QQ",
+        "TAX630-L"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to providing access to\nmedication abortion prescription drugs at the state university of New York and\nthe city university of New York",
+    "basePrintNo": "S1213",
+    "basePrintNoStr": "S1213-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §6438-b, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S1213A\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to providing access to\nmedication abortion prescription drugs at the state university of New\nYork and the city university of New York\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would require SUNY and CUNY to ensure access to medication\nabortion to all enrolled students.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends the education law by adding a new section 6438-b to\nrequire every SUNY and CUNY campus to provide access to medication\nabortion to all enrolled students.\n\nSection 2 provides the effective date.\n\n \nJUSTIFICATION:\n\nFor decades, medication abortion has provided a safe, non-invasive, and\neffective way to end a pregnancy. According to Planned Parenthood, the\nmedication has a less than 1% rate of complication and a near 100% rate\nof effectively terminating pregnancy, making it one of the safest and\nmost effective medications.\n\nMedication abortion is different than the \"morning after pill,\"which is\ntypically already available at public university student health centers.\nWhile the morning after pill is intended to prevent pregnancy from\noccurring, medication abortion is intended to prevent an existing preg-\nnancy from progressing. This bill would ensure that our public colleges\nprovide students with access to these medication abortion prescription\ndrugs.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2022: A.3322-A (Epstein) - Referred to Higher Education\n\n2019-2020:  A.8743 (Epstein) - Referred to Higher Education\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect August 1, 2023.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1213A",
+    "publishDate": "2023-03-27",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EDN6438-B"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the education law, in relation to providing access to\nmedication abortion prescription drugs at the state university of New York and\nthe city university of New York",
+    "basePrintNo": "S1213",
+    "basePrintNoStr": "S1213-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §6438-b, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S1213B\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to providing access to\nmedication abortion prescription drugs at the state university of New\nYork and the city university of New York\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill would require SUNY and CUNY to provide access to medication\nabortion to all enrolled students.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends the education law by adding a new section 6438-b to\nrequire every SUNY and CUNY campus to provide access to medication\nabortion to all enrolled students.\n\nSection 2 requires SUNY and CUNY submit a report to the Governor and the\nlegislature on the provision of such access.\n\nSection 3 provides the effective date.\n\n \nJUSTIFICATION:\n\nFor decades, medication abortion has provided a safe, non-invasive, and\neffective way to end a pregnancy. According to Planned Parenthood, the\nmedication has a less than 1% rate of complication and a near 100% rate\nof effectively terminating pregnancy, making it one of the safest and\nmost effective medications.\n\nMedication abortion is different than the \"morning after pill,\" which is\ntypically already available at public university student health centers.\nWhile the morning after pill is intended to prevent pregnancy from\noccurring, medication abortion is intended to prevent an existing preg-\nnancy from progressing.\n\nThis bill would ensure that our public colleges provide students with\naccess to these medication abortion prescription drugs, either by 1)\nemploying or contracting with authorized prescribers acting within their\nscope of practice, or 2) providing students with information and refer-\nrals to authorized prescribers acting within their scope of practice.\nSuch information and referrals may include local providers and tele-\nhealth providers.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2022: A.3322-A (Epstein) - Referred to Higher Education\n\n2019-2020: A.8743 (Epstein) - Referred to Higher Education\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect August 1, 2023.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1213B",
+    "publishDate": "2023-03-30",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EDN6438-B"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1395",
+       "basePrintNoStr": "A1395-2023",
+       "printNo": "A1395C",
+       "session": 2023,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1213",
+ "basePrintNoStr": "S1213-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 37,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2023
+   }
+  ],
+  "size": 2
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2023-03-30",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2023-04-17",
+    "billCalNo": 590,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2023-01-10T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2023-03-27T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2023-03-30T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S9444",
+    "basePrintNoStr": "S9444-2021",
+    "printNo": "S9444A",
+    "session": 2021,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A8743",
+    "basePrintNoStr": "A8743-2019",
+    "printNo": "A8743",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S1213B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-10T15:28:23.625245",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2023-03-27T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2023-03-30T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2023-01-10T15:28:23.625245",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 30,
+   "fullName": "Cordell Cleare",
+   "imgName": "Cordell Cleare.jpg",
+   "incumbent": true,
+   "memberId": 1504,
+   "sessionMemberId": 2056,
+   "sessionYear": 2023,
+   "shortName": "CLEARE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2023-04-17",
+  "billCalNo": 590,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A1395",
+  "basePrintNoStr": "A1395-2023",
+  "session": 2023
+ },
+ "summary": "Provides access to medication abortion prescription drugs at SUNY and CUNY campuses by employing or contracting with individuals authorized to prescribe such drugs, or by providing referrals.",
+ "title": "Provides access to medication abortion prescription drugs at SUNY and CUNY campuses",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1213",
+     "basePrintNoStr": "S1213-2023",
+     "printNo": "S1213B",
+     "session": 2023,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2004,
+         "sessionYear": 2023,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2008,
+         "sessionYear": 2023,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Nathalia Fernandez",
+         "imgName": "966_Nathalia_Fernandez.jpg",
+         "incumbent": true,
+         "memberId": 1520,
+         "sessionMemberId": 1883,
+         "sessionYear": 2023,
+         "shortName": "FERNANDEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 2011,
+         "sessionYear": 2023,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 2019,
+         "sessionYear": 2023,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 2020,
+         "sessionYear": 2023,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2028,
+         "sessionYear": 2023,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2034,
+         "sessionYear": 2023,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 2038,
+         "sessionYear": 2023,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 14
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        }
+       ],
+       "size": 2
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2013,
+         "sessionYear": 2023,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Pamela Helming",
+         "imgName": "773_Pamela_Helming.jpg",
+         "incumbent": true,
+         "memberId": 951,
+         "sessionMemberId": 2015,
+         "sessionYear": 2023,
+         "shortName": "HELMING"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2021,
+         "sessionYear": 2023,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 2027,
+         "sessionYear": 2023,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 5
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2023-04-17",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2023
+}

@@ -1,0 +1,939 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-16",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 3325A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-19",
+    "sequenceNo": 4,
+    "text": "AMEND (T) AND RECOMMIT TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-19",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 3325B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-15",
+    "sequenceNo": 6,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-15",
+    "sequenceNo": 7,
+    "text": "ORDERED TO THIRD READING CAL.849"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-16",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A7122C"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S3325",
+    "basePrintNoStr": "S3325-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Ruben Diaz",
+       "imgName": "421_ruben_diaz.jpg",
+       "incumbent": false,
+       "memberId": 421,
+       "sessionMemberId": 51,
+       "sessionYear": 2009,
+       "shortName": "DIAZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 12,
+       "sessionYear": 2009,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §50-i, Gen Muni L",
+    "lawSection": "Court of Claims Act",
+    "memo": " BILL NUMBER:  S3325\n\n TITLE OF BILL :\nAn act to amend the court of claims act and the general municipal law,\nin relation to extending the time to file a notice of claim for\ncertain persons who sustained injury as a result of the World Trade\nCenter rescue, recovery or cleanup operations\n\n PURPOSE :\nTo extend the time for filing a notice of claim for injuries suffered\nas a result of participation in the world Trade Center rescue,\nrecovery, or clean-up operations.\n\n SUMMARY OF PROVISIONS :\nSection one is the short title, \"Jimmy Nolan's Law\".\n\nSection two, Section 10 of the court of claims act is amended by\nadding a new subdivision 10.\n\nSection three, Subdivision 1 of section 50-e of the general municipal\nlaw is amended by adding a new paragraph (c).\n\nSection four is an immediate effective date.\n\n JUSTIFICATION :\nWe all know that thousands of men and women lost their lives on\nSeptember 11, 2001 at the World Trade Center tragedy. Thousands of\nindividuals who worked at the site and at site-related areas for\nperiods of time that ran up to two and one-half years, were told and\nbelieved that they were working in a safe environment. However, today,\nafter more than five years, we are seeing that more and more\nindividuals are experiencing health problems that are far above the\nstatistical norm, leading any reasonable person to conclude that these\nillnesses are being caused by their 911-related rescue, recovery and\nclean-up efforts.  However, most of the people who are sick and are\nstill getting sick are beyond the current statutory ninety day limit\nfor filing a notice of claim. These individuals must not be denied\ntheir right to pursue just compensation simply because he or she was\ngiven incorrect information, had no immediate symptoms or was unaware\nof the filing time limits.  The 911 tragedy created this special group\nof 'second wave 911 victims'; this is a special case which must be\naddressed in a special way. The proposed bill would assure that all\nsecond wave 911 victims' involved with the rescue, recovery and\nclean-up would be treated with the dignity and equity that they\ndeserve. The proposed bill protects and preserves the rights of those\n911 workers who are sick as well as those that are continuing to get\nsick.\n\n LEGISLATIVE HISTORY :\n2008: S.3177-A Referred to Judiciary\n\n FISCAL IMPLICATIONS :\nUnknown.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3325",
+    "publishDate": "2009-06-02",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the court of claims act and the general municipal law, in relation to extending the time to file a notice of claim for certain persons who sustained injury as a result of the World Trade Center rescue, recovery or cleanup operations",
+    "basePrintNo": "S3325",
+    "basePrintNoStr": "S3325-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Ruben Diaz",
+       "imgName": "421_ruben_diaz.jpg",
+       "incumbent": false,
+       "memberId": 421,
+       "sessionMemberId": 51,
+       "sessionYear": 2009,
+       "shortName": "DIAZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 12,
+       "sessionYear": 2009,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Court of Claims Act",
+    "memo": " BILL NUMBER:  S3325A\n\n\n PURPOSE :\nTo extend the time for filing a notice of claim for injuries suffered\nas a result of participation in the world Trade Center rescue,\nrecovery, or clean-up operations.\n\n SUMMARY OF PROVISIONS :\nSection one is the short title, \"Jimmy Nolan's Law\".\n\nSection two, Section 10 of the court of claims act is amended by\nadding a new subdivision 10.\n\nSection three, Subdivision 1 of section 50-e of the general municipal\nlaw is amended by adding a new paragraph (c).\n\nSection four is an immediate effective date.\n\n JUSTIFICATION :\nWe all know that thousands of men and women lost their lives on\nSeptember 11, 2001 at the World Trade Center tragedy.  Thousands of\nindividuals who worked at the site and at site-related areas for\nperiods of time that ran up to two and one-half years, were told and\nbelieved that they were working in a safe environment.  However,\ntoday, after more than five years, we are seeing that more and more\nindividuals are experiencing health problems that are far above the\nstatistical norm, leading any reasonable person to conclude that these\nillnesses are being caused by their 9/11-related rescue, recovery and\nclean-up efforts. However, most of the people who are sick and are\nstill getting sick are beyond the current statutory ninety day limit\nfor filing a notice of claim. These individuals must not be denied\ntheir right to pursue information, had no immediate symptoms or was\nunaware of the filing time limits. The 9/11 tragedy created this\nspecial group of 'second wave 9/11 victims'; this is a special case\nwhich must be addressed in a special way. The proposed bill would\nassure that all second wave 9/11 victims involved with the rescue,\nrecovery and clean-up would be treated with the dignity and equity\nthat they deserve. The proposed bill protects and preserves the rights\nof those 9/11 workers who are sick as well as those that are\ncontinuing to get sick.\n\n LEGISLATIVE HISTORY :\n2008: S.3177-A Referred to Judiciary\n\n FISCAL IMPLICATIONS :\nUnknown.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3325A",
+    "publishDate": "2009-06-02",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the general municipal law, in relation to extending the time to file a claim against a public corporation for injuries sustained by persons who participated in the World Trade Center rescue, recovery or cleanup operations",
+    "basePrintNo": "S3325",
+    "basePrintNoStr": "S3325-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Ruben Diaz",
+       "imgName": "421_ruben_diaz.jpg",
+       "incumbent": false,
+       "memberId": 421,
+       "sessionMemberId": 51,
+       "sessionYear": 2009,
+       "shortName": "DIAZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 12,
+       "sessionYear": 2009,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 13,
+       "sessionYear": 2009,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 19,
+       "sessionYear": 2009,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 7,
+       "sessionYear": 2009,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 33,
+       "sessionYear": 2009,
+       "shortName": "SAVINO"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §50-i, Gen Muni L",
+    "lawSection": "Court of Claims Act",
+    "memo": " BILL NUMBER:  S3325B\n\n TITLE OF BILL :  An act to amend the general municipal law, in\nrelation to extending the time to file a claim against a public\ncorporation for injuries sustained by persons who participated in the\nWorld Trade Center rescue, recovery or cleanup operations\n\n PURPOSE :To extend the time for filing a notice of claim for injuries\nsuffered as a result of participation in the world Trade Center\nrescue, recovery, or clean-up operations.\n\n SUMMARY OF PROVISIONS :  Section one is the short title, \"Jimmy\nNolan's Law\".\n\nSection two, Section 10 of the court of claims act is amended by\nadding a new subdivision 10.\n\nSection three, Subdivision 1 of section 50-e of the general municipal\nlaw is amended by adding a new paragraph ( c ).\n\nSection four is an immediate effective date.\n\n JUSTIFICATION : We all know that thousands of men and women lost\ntheir lives on September 11, 2001 at the World Trade Center tragedy.\nThousands of individuals who worked at the site and at site-related\nareas for periods of time that ran up to two and one-half years, were\ntold and believed that they were working in a safe environment.\nHowever, today, after more than eight years, we are seeing that more\nand more individuals are experiencing health problems that are far\nabove the statistical norm, leading any reasonable person to conclude\nthat these illnesses are being caused by their 9/11-related rescue,\nrecovery and clean-up efforts. However, most of the people who are\nsick and are still getting sick are beyond the current statutory\nninety day limit for filing a notice of claim. These individuals must\nnot be denied their right to pursue information, had no immediate\nsymptoms or was unaware of the filing time limits. The 9/11 tragedy\ncreated this special group of 'second wave 9/11 victims'; this is a\nspecial case which must be addressed in a special way. The proposed\nbill would assure that all second wave 9/11 victims involved with the\nrescue, recovery and clean-up would be treated with the dignity and\nequity that they deserve. The proposed bill protects and preserves the\nrights of those 9/11 workers who are sick as well as those that are\ncontinuing to get sick.\n\n LEGISLATIVE HISTORY :  2008: S3177-A Referred to Judiciary\n\n FISCAL IMPLICATIONS :  Unknown\n\n EFFECTIVE DATE : Immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3325B",
+    "publishDate": "2009-06-19",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7122",
+       "basePrintNoStr": "A7122-2009",
+       "printNo": "A7122C",
+       "session": 2009,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3325",
+ "basePrintNoStr": "S3325-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 61,
+    "year": 2009
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-07-15",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-07-15",
+    "billCalNo": 849,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-03-16T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-06-02T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-06-19T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-07-15T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S3177",
+    "basePrintNoStr": "S3177-2007",
+    "printNo": "S3177A",
+    "session": 2007,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3325B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-06-02T00:00",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2009-06-02T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2009-06-19T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 35,
+   "fullName": "Andrea Stewart-Cousins",
+   "imgName": "396_andrea_stewart-cousins.jpg",
+   "incumbent": true,
+   "memberId": 396,
+   "sessionMemberId": 27,
+   "sessionYear": 2009,
+   "shortName": "STEWART-COUSINS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-07-15",
+  "billCalNo": 849,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7122",
+  "basePrintNoStr": "A7122-2009",
+  "session": 2009
+ },
+ "summary": "Extends the time for filing a claim against a public corporation for injuries sustained as a result of participation in the World Trade Center rescue, recovery, or cleanup operations.",
+ "title": "Extends the time for filing a notice of claim for injuries suffered as a result of participation in the World Trade Center rescue, recovery or cleanup operations",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3325",
+     "basePrintNoStr": "S3325-2009",
+     "printNo": "S3325B",
+     "session": 2009,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 56,
+         "sessionYear": 2009,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 18,
+         "sessionYear": 2009,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Pedro Espada Jr.",
+         "imgName": "Pedro Espada Jr.jpg",
+         "incumbent": false,
+         "memberId": 442,
+         "sessionMemberId": 9,
+         "sessionYear": 2009,
+         "shortName": "ESPADA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 48,
+         "sessionYear": 2009,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 12,
+         "sessionYear": 2009,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 21,
+         "sessionYear": 2009,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 31,
+         "sessionYear": 2009,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 6,
+         "sessionYear": 2009,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 49,
+         "sessionYear": 2009,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "Hiram Monserrate",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 454,
+         "sessionMemberId": 188,
+         "sessionYear": 2009,
+         "shortName": "MONSERRATE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 13,
+         "sessionYear": 2009,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Frank Padavan",
+         "imgName": "Frank Padavan.jpg",
+         "incumbent": false,
+         "memberId": 445,
+         "sessionMemberId": 22,
+         "sessionYear": 2009,
+         "shortName": "PADAVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 46,
+         "sessionYear": 2009,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 32,
+         "sessionYear": 2009,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 5,
+         "sessionYear": 2009,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 3,
+         "sessionYear": 2009,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 35,
+         "sessionYear": 2009,
+         "shortName": "SMITH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "William T. Stachowski",
+         "imgName": "William T. Stachowski.jpg",
+         "incumbent": false,
+         "memberId": 453,
+         "sessionMemberId": 59,
+         "sessionYear": 2009,
+         "shortName": "STACHOWSKI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Dale M. Volker",
+         "imgName": "Dale M. Volker.jpg",
+         "incumbent": false,
+         "memberId": 452,
+         "sessionMemberId": 57,
+         "sessionYear": 2009,
+         "shortName": "VOLKER"
+        }
+       ],
+       "size": 21
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 54,
+         "sessionYear": 2009,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 60,
+         "sessionYear": 2009,
+         "shortName": "SKELOS"
+        }
+       ],
+       "size": 2
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 61,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON O"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2009-07-15",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

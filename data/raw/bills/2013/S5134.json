@@ -1,0 +1,512 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5134",
+     "basePrintNoStr": "S5134-2013",
+     "printNo": "S5134",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-05-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5134",
+     "basePrintNoStr": "S5134-2013",
+     "printNo": "S5134",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-05-21",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.645"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5134",
+     "basePrintNoStr": "S5134-2013",
+     "printNo": "S5134",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-05-22",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5134",
+     "basePrintNoStr": "S5134-2013",
+     "printNo": "S5134",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-05-23",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5134",
+     "basePrintNoStr": "S5134-2013",
+     "printNo": "S5134",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-05-29",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A6712"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend chapter 552 of the laws of 1995 amending the education law relating to contracts for the transportation of school children, in relation to the effectiveness thereof",
+    "basePrintNo": "S5134",
+    "basePrintNoStr": "S5134-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2, Chap 552 of 1995",
+    "lawSection": "Education",
+    "memo": "BILL NUMBER:S5134\n\nTITLE OF BILL:  An act to amend chapter 552 of the laws of 1995\namending the education law relating to contracts for the\ntransportation of  school children, in relation to the effectiveness\nthereof\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to provide a three year extender for\nstudent transportation contract provisions.\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nThe bill extends for another three years until January 1, 2017 chapter\n55 of the laws of 1995 as amended by chapter 201 of the laws of 2010.\n\nJUSTIFICATION:\n\nNew safety or operational developments may be devised during the term\nof a contract for transportation services; often, these developments\nmay not be capitalized on without causing a material change in the\ncontract. This bill would permit a contract to be amended pursuant to\nthe mutual agreement of the parties to the contract and subject to the\nfinal approval of the Commissioner. A further stipulation provides\nthat there be no added cost to the state caused by the benefit arising\nout of the contract amendment.\n\nPRIOR LEGISLATIVE HISTORY:\n\nThe Legislature previously extended this provision in 2007, and 2010.\n\nFISCAL IMPLICATIONS:\n\nNone.\n\nEFFECTIVE DATE:\n\nThis act shall take effect immediately, with a three year sunset\nprovision.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5134",
+    "publishDate": "2013-05-10",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6712",
+       "basePrintNoStr": "A6712-2013",
+       "printNo": "A6712",
+       "session": 2013,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5134",
+ "basePrintNoStr": "S5134-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 42,
+    "year": 2013
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2013
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2013
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2013
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2013-05-10",
+    "billCalNo": null,
+    "committeeName": "Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2013-05-23",
+    "billCalNo": 645,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2013-05-10T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5134",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-05-10T11:43:03",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2013-05-10T11:43:03",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 2,
+   "fullName": "John J. Flanagan",
+   "imgName": "399_john_j._flanagan.jpg",
+   "incumbent": false,
+   "memberId": 399,
+   "sessionMemberId": 155,
+   "sessionYear": 2013,
+   "shortName": "FLANAGAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2013-05-23",
+  "billCalNo": 645,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A6712",
+  "basePrintNoStr": "A6712-2013",
+  "session": 2013
+ },
+ "summary": "Extends provisions of law relating to the transportation of school children.",
+ "title": "Extends provisions of law relating to the transportation of school children",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5134",
+     "basePrintNoStr": "S5134-2013",
+     "printNo": "S5134",
+     "session": 2013,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 139,
+         "sessionYear": 2013,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 147,
+         "sessionYear": 2013,
+         "shortName": "AVELLA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 174,
+         "sessionYear": 2013,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 151,
+         "sessionYear": 2013,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 155,
+         "sessionYear": 2013,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 165,
+         "sessionYear": 2013,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "George Latimer",
+         "imgName": "434_george_latimer.jpg",
+         "incumbent": false,
+         "memberId": 434,
+         "sessionMemberId": 143,
+         "sessionYear": 2013,
+         "shortName": "LATIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 175,
+         "sessionYear": 2013,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 135,
+         "sessionYear": 2013,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 163,
+         "sessionYear": 2013,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 167,
+         "sessionYear": 2013,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 168,
+         "sessionYear": 2013,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 162,
+         "sessionYear": 2013,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 173,
+         "sessionYear": 2013,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 127,
+         "sessionYear": 2013,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 156,
+         "sessionYear": 2013,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Cecilia Tkaczyk",
+         "imgName": "Cecilia Tkaczyk.jpg",
+         "incumbent": false,
+         "memberId": 431,
+         "sessionMemberId": 128,
+         "sessionYear": 2013,
+         "shortName": "TKACZYK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 171,
+         "sessionYear": 2013,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 18
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2013-05-21",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

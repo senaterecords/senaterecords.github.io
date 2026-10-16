@@ -1,0 +1,518 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-07",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-07",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 4591A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 4,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-11",
+    "sequenceNo": 5,
+    "text": "1ST REPORT CAL.1317"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-16",
+    "sequenceNo": 6,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-17",
+    "sequenceNo": 7,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-25",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A831A"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to the accessibility of\ncongressional, senatorial, assembly and election district maps",
+    "basePrintNo": "S4591",
+    "basePrintNoStr": "S4591-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §4-102, El L",
+    "lawSection": "Election Law",
+    "memo": "\n \nBILL NUMBER: S4591\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the election law, in relation to the accessibility of\ncongressional, senatorial, assembly and election district maps\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo require boards of elections to publish election district maps in\nShapefile format on their website.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends section 4-102 of the election law by adding a new para-\ngraph to require that election district maps shall be posted on board of\nelections' website and each board of elections shall make such maps\navailable in a downloadable Shapefile format.\n\nSection 2 provides the effective date.\n\n \nJUSTIFICATION:\n\nElection districts and the process of drawing new boundaries has been an\narcane process for the vast majority of voters. Election district maps\nare only accessible to the public by viewing hard copies at the clerk's\noffice. For many people, that is not feasible or practical because indi-\nviduals must travel there in person and the maps are not in a user-\nfriendly format. The lack of transparency related to election district\nmaps leave voters unable to voice concerns about the way in which\nelection districts are created. As a result, many voters believe\nelection district boundaries are created through a manipulative process\nthat legislators utilize for their own political gain. However, granting\nvoters access to election district maps may allow for people to suggest\nalternatives that are less partisan and pressure decision makers to draw\nthe districts more fairly in the first place.\n\nThis bill would require each board of elections to publish the appropri-\nate election district maps on their website. These maps would also be\nmade available in a Shapefile format, which enables members of the\npublic to download the map and utilize geographic information system\n(GIS) software.\n\nThe redistricting process is an inherently geographic undertaking\nbecause each year, the geographic distribution of a community changes as\npeople are born, retire, or relocate. If election district maps are\navailable in Shapefile format, they are compatible with GIS soft- ware\nthat enables people to see what effect boundary changes will have on a\ncommunity or population. Additionally, GIS software can utilize census\ndata or other datasets that allow users to measure compliance of specif-\nic redistricting principles like population size and diversity. There-\nfore, the availability of election district maps iASHapefile format\nwould allow voters to review the demographics of districts and hold\nlegislators accountable when boundaries are unfairly drawn.\n\n \nPRIOR. LEGISLATIVE HISTORY:\n\nA.10330a of 2020, referred to election law FISCAL IMPLICATIONS:  None.\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4591",
+    "publishDate": "2021-02-05",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ELN4-102"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A831",
+       "basePrintNoStr": "A831-2021",
+       "printNo": "A831",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the election law, in relation to the accessibility of\ncongressional, senatorial, assembly and election district maps",
+    "basePrintNo": "S4591",
+    "basePrintNoStr": "S4591-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §4-102, El L",
+    "lawSection": "Election Law",
+    "memo": "\n \nBILL NUMBER: S4591A\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the election law, in relation to the accessibility of\ncongressional, senatorial, assembly and election district maps\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo require boards of elections to publish election district maps in\nShapefile format on their website.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends section 4-102 of the election law by adding a new para-\ngraph to require that election district maps shall be posted on board of\nelections' website and each board of elections shall make such maps\navailable in a downloadable Shapefile format.\n\nSection 2 provides the effective date.\n\n \nJUSTIFICATION:\n\nElection districts and the process of drawing new boundaries has been an\narcane process for the vast majority of voters. Election district maps\nare only accessible to the public by viewing hard copies at the clerk's\noffice. For many people, that is not feasible or practical because indi-\nviduals must travel there in person and the maps are not in a user-\nfriendly format. The lack of transparency related to election district\nmaps leave voters unable to voice concerns about the way in which\nelection districts are created. As a result, many voters believe\nelection district boundaries are created through a manipulative process\nthat legislators utilize for their own political gain. However, granting\nvoters access to election district maps may allow for people to suggest\nalternatives that are less partisan and pressure decision makers to draw\nthe districts more fairly in the first place.\n\nThis bill would require each board of elections to publish the appropri-\nate election district maps on their website. These maps would also be\nmade available in a Shapefile format, which enables members of the\npublic to download the map and utilize geographic information system\n(GIS) software.\n\nThe redistricting process is an inherently geographic undertaking\nbecause each year, the geographic distribution of a community changes as\npeople are born, retire, or relocate. If election district maps are\navailable in Shapefile format, they are compatible with GIS software\nthat enables people to see what effect boundary changes will have on a\ncommunity or population. Additionally, GIS software can utilize census\ndata or other datasets that allow users to measure compliance of specif-\nic redistricting principles like population size and diversity. There-\nfore, the availability of election district maps in Shapefile format\nwould allow voters to review the demographics of districts and hold\nlegislators accountable when boundaries are unfairly drawn.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nA.10330a of 2020, referred to election law\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred eightieth day after it\nshall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4591A",
+    "publishDate": "2021-05-07",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ELN4-102"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A831",
+       "basePrintNoStr": "A831-2021",
+       "printNo": "A831A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4591",
+ "basePrintNoStr": "S4591-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 54,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2022
+   }
+  ],
+  "size": 6
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2022-05-17",
+    "billCalNo": 1317,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2021-02-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2021-05-07T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A10330",
+    "basePrintNoStr": "A10330-2019",
+    "printNo": "A10330A",
+    "session": 2019,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S4591A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-02-05T16:25:29.941345",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-05-07T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-02-05T16:25:29.941345",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "James Skoufis",
+   "imgName": "672_james_skoufis.jpg",
+   "incumbent": true,
+   "memberId": 1232,
+   "sessionMemberId": 1839,
+   "sessionYear": 2021,
+   "shortName": "SKOUFIS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-05-17",
+  "billCalNo": 1317,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A831",
+  "basePrintNoStr": "A831-2021",
+  "session": 2021
+ },
+ "summary": "Requires congressional, senatorial, assembly and election district maps be made available on applicable board of elections' websites and in a downloadable Shapefile format.",
+ "title": "Relates to the accessibility of congressional, senatorial, assembly and election district maps",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4591",
+     "basePrintNoStr": "S4591-2021",
+     "printNo": "S4591A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1818,
+         "sessionYear": 2021,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 1824,
+         "sessionYear": 2021,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1825,
+         "sessionYear": 2021,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        }
+       ],
+       "size": 6
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2022-05-11",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2022
+}

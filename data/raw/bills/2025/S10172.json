@@ -1,0 +1,254 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10172",
+     "basePrintNoStr": "S10172-2025",
+     "printNo": "S10172",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10172",
+     "basePrintNoStr": "S10172-2025",
+     "printNo": "S10172",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10172",
+     "basePrintNoStr": "S10172-2025",
+     "printNo": "S10172",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1764"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10172",
+     "basePrintNoStr": "S10172-2025",
+     "printNo": "S10172",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A11437"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the alcoholic beverage control law, in relation to license\nfees required to be paid by wholesale beer licensees to sell cider",
+    "basePrintNo": "S10172",
+    "basePrintNoStr": "S10172-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §58-a, ABC L",
+    "lawSection": "Alcoholic Beverage Control Law",
+    "memo": " \nBILL NUMBER: S10172\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the alcoholic beverage control law, in relation to\nlicense fees required to be paid by wholesale beer licensees to sell\ncider\n\n \nPURPOSE:\n\nTo ensure that the additional allowance to sell cider by beer wholesaler\nlicensees mirrors the length of licensure for beer wholesale.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Amends section 58-a of the alcoholic beverage control law by\nchanging the additional license fee for the sale of cider to 375 dollars\nand establishing that the term to sell cider by wholesale beer licensees\nshall run concurrently with the term of the wholesale license.\n\nSection 2: Sets Effective Date.\n\n \nJUSTIFICATION:\n\nThe alcoholic beverage control law currently allows licensed beer whole-\nsalers, for an additional annual fee, to be permitted to sell cider for\na period of one year. As the state prepares to extend the general licen-\nsure period for beer wholesalers from one year to three, mirroring the\nduration already enjoyed by liquor and wine wholesalers, beer whole-\nsalers should not be stuck reapplying annually for this distinct cider\nallowance.\n\nThis legislation would tie the licensing period for this cider provision\nto that of beer wholesalers generally. It further triples the fee\nrequired to be paid by beer wholesalers for this cider privilege, align-\ning the cost with a three-year term rather than a one-year term.\n\nBringing parity to terms of licensure will simplify and streamline\nadministrative burdens placed not only on these wholesalers, but on the\nState Liquor Authority.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10172",
+    "publishDate": "2026-05-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ABC58-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11437",
+       "basePrintNoStr": "A11437-2025",
+       "printNo": "A11437",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10172",
+ "basePrintNoStr": "S10172-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 63,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": 1764,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Commerce, Economic Development And Small Business",
+    "referenceDate": "2026-05-04T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-04T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S10172",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-05-04T13:55:09.487382",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-05-04T13:55:09.433024",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 42,
+   "fullName": "James Skoufis",
+   "imgName": "672_james_skoufis.jpg",
+   "incumbent": true,
+   "memberId": 1232,
+   "sessionMemberId": 2359,
+   "sessionYear": 2025,
+   "shortName": "SKOUFIS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-04",
+  "billCalNo": 1764,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11437",
+  "basePrintNoStr": "A11437-2025",
+  "session": 2025
+ },
+ "summary": "Requires wholesale beer licensees to only need to pay a one time additional license fee to sell cider.",
+ "title": "Relates to license fees required to be paid by wholesale beer licensees to sell cider",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

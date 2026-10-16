@@ -1,0 +1,1102 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-01-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-05-22",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2013-05-22",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 2186A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2013-06-10",
+    "sequenceNo": 4,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2013-06-18",
+    "sequenceNo": 5,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2013-06-18",
+    "sequenceNo": 6,
+    "text": "ORDERED TO THIRD READING CAL.1425"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2013-06-18",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A962A"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law and the social services law, in relation to providing that persons with hemophilia and other clotting protein deficiencies who are otherwise eligible for the Child Health Plus or Family Health Plus programs shall have access to reimbursement for outpatient blood clotting factor concentrates and other necessary treatments and services",
+    "basePrintNo": "S2186",
+    "basePrintNoStr": "S2186-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 186,
+       "sessionYear": 2013,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 174,
+       "sessionYear": 2013,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 154,
+       "sessionYear": 2013,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Kathleen A. Marchione",
+       "imgName": "435_kathleen_a._marchione.jpg",
+       "incumbent": false,
+       "memberId": 435,
+       "sessionMemberId": 144,
+       "sessionYear": 2013,
+       "shortName": "MARCHIONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Michael F. Nozzolio",
+       "imgName": "394_michael_f._nozzolio.jpg",
+       "incumbent": false,
+       "memberId": 394,
+       "sessionMemberId": 150,
+       "sessionYear": 2013,
+       "shortName": "NOZZOLIO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 172,
+       "sessionYear": 2013,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 171,
+       "sessionYear": 2013,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 7
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2510, Pub Health L; amd §369-ee, Soc Serv L",
+    "lawSection": "Public Health Law",
+    "memo": "BILL NUMBER:S2186\n\nTITLE  OF  BILL:    An act to amend the public health law and the social\nservices law, in relation to providing that persons with hemophilia  and\nother  clotting  protein deficiencies who are otherwise eligible for the\nChild Health Plus or Family Health Plus programs shall  have  access  to\nreimbursement  for  outpatient  blood  clotting  factor concentrates and\nother necessary treatments and services\n\nPURPOSE:  To provide outpatient coverage under the  Child  Health  Plus,\nFamily  Health  Plus,  and  Healthy New York programs for blood clotting\nfactor concentrates as well as other treatments and  services  necessary\nfor individuals with hemophilia and other clotting protein deficiencies.\n\nSUMMARY  OF  PROVISIONS:    Subdivision  7 of section 2510 of the public\nhealth law, as amended by section 21 of part B of  chapter  109  of  the\nlaws of 2010, is amended to include:\n\n*outpatient  blood  clotting  factor  products  and other treatments and\nservices furnished in connection with the care of hemophilia  and  other\nblood clotting protein deficiencies;\n\nParagraph  a  of subdivision 7 of section 2510 of the public health law,\nas amended by chapter 526 of the laws of 2002 is amended to include:\n\n* outpatient blood clotting factor products  and  other  treatments  and\nservices  furnished  in connection with the care of hemophilia and other\nblood clotting protein deficiencies;\n\nSubparagraphs (xv) and (xvi)  of  paragraph  (e)  of  subdivision  1  of\nsection  369-ee of the social services law, subparagraph (xv) as amended\nand subparagraph (xvi) as added by chapter 526 of the laws of 2002,  are\namended and a new paragraph (xvii) is added to read as follows:\n\n(xv) services provided to meet the requirements of 42 D.S.C. 1396d(r);\n\n(xvi)hospice services; and\n\n(xvii)  outpatient  blood  clotting factor products and other treatments\nand services furnished in connection with the  care  of  hemophilia  and\nother blood clotting protein deficiencies as defined by the commissioner\nof health in consultation with the superintendent.\n\nParagraph  13 of subsection (d) of section 4326 of the insurance law, as\nadded by chapter 1 of the laws of 1999 is amended to read as follows:\n\n*blood and blood products furnished in connection with surgery or  inpa-\ntient  hospital services or outpatient services for hemophilia and other\nblood clotting protein deficiencies;\n\nJUSTIFICATION:   Hemophilia  is  a  rare  hereditary  bleeding  disorder\naffecting  roughly  2,000  New  Yorkers,  resulting from a deficiency in\nblood proteins known as clotting factors. without an adequate supply  of\nclotting  factors, individuals can experience prolonged bleeding follow-\ning  routine medical and dental procedures, trauma, and a range of phys-\nical activities. Additionally, individuals with hemophilia often experi-\nence spontaneous internal bleeding that can cause severe  joint  damage,\nchronic pain, and even death.\n\nPrior to the 1970's, individuals with hemophilia seldom lived beyond 30.\nEarly  treatment  consisted  of  whole  blood and Plasma transfusions at\nhospitals. These treatments were  difficult,  time  consuming  and  only\nminimally  effective.  The  advent of commercially prepared blood treat-\nment, both in terms of efficacy and convenience. Most importantly, these\nadvances allowed for home infusion.\n\nIn addition to hemophilia, there are several other  disorders  resulting\nfrom  blood  protein  deficiencies. These include Von Willebrand Disease\n(VWD) , the most common bleeding disorder, affecting  approximately  two\nmillion  Americans.  Individuals  with  the severest form of VWD rely on\nclotting factor treatments similar to those  used  by  individuals  with\nhemophilia.\n\nClotting factor products produced today {derived from plasma or recombi-\nnant  technology) are very safe and highly effective medications. Access\nto therapies has vastly improved both the health outcomes and quality of\nlife for the majority of patients  and  their  families.  Many  patients\ntoday  are  on a prophylactic regimen to prevent bleeding episodes. This\npreventative regimen together with  the  coordinated  care  provided  by\nhemophilia  treatment centers have significantly reduced visits to emer-\ngency rooms, hospitalizations and joint damage. Further, the ability  to\nmanage  hemophilia  and other bleeding disorders outside of the hospital\nsetting has  improved  attendance  for  school-aged-children,  decreased\nabsenteeism from work for adult patients and caregivers, vastly improved\nthe  ability  of  affected persons to join the work force, and minimized\nlife disruptions for the entire family.\n\nChild Health Plus, Family Health Plus and Healthy New York presently  do\nnot  cover clotting factor therapies prescribed for use at home by indi-\nviduals with hemophilia and other clotting protein deficiencies.   more-\nover, New York state is the only state in the U.S. not currently provid-\ning coverage for outpatient clotting factor products used by individuals\nwho  are  eligible  for  the  State  Children's Health Insurance Program\n(i.e., Child Health Plus). All three programs - Child Health Plus, Fami-\nly Health Plus and Healthy New York - were created to improve access  to\nhealth  care  for low-income individuals.  Having a policy in place that\nprevents otherwise eligible individuals with hemophilia and other bleed-\ning disorders from accessing lifesaving medications  not  only  violates\nthe  spirit of the policy, it is discriminating against a selected group\nwhose health care costs are deemed to be high and  fundamentally  under-\nmines  the  programs'  overall goal of ensuring that low-income children\nand families have access to the quality health care.\n\nPRIOR LEGISLATIVE HISTORY:   2011 Referred to Health  2012  Referred  to\nHealth\n\nFISCAL IMPLICATIONS: Unknown.\n\nEFFECTIVE  DATE:   This act shall take effect on the first of April next\nsucceeding the date upon which it shall have become law,  provided  that\nthe amendments to the subdivision 7 of section 2510 of the public health\nlaw  made  by section two of this act shall be subject to the expiration\nand reversion of such subdivision pursuant to subdivision 4  of  section\n47 of chapter 2 of the laws of 1998, as amended, when upon such date the\nprovisions of section three of this act shall take effect.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2186",
+    "publishDate": "2013-01-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to providing that persons with hemophilia and other clotting protein deficiencies who are otherwise eligible for the Child Health Plus program shall have access to reimbursement for outpatient blood clotting factor concentrates and other necessary treatments and services",
+    "basePrintNo": "S2186",
+    "basePrintNoStr": "S2186-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 174,
+       "sessionYear": 2013,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 154,
+       "sessionYear": 2013,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 130,
+       "sessionYear": 2013,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Kathleen A. Marchione",
+       "imgName": "435_kathleen_a._marchione.jpg",
+       "incumbent": false,
+       "memberId": 435,
+       "sessionMemberId": 144,
+       "sessionYear": 2013,
+       "shortName": "MARCHIONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Michael F. Nozzolio",
+       "imgName": "394_michael_f._nozzolio.jpg",
+       "incumbent": false,
+       "memberId": 394,
+       "sessionMemberId": 150,
+       "sessionYear": 2013,
+       "shortName": "NOZZOLIO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 172,
+       "sessionYear": 2013,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 171,
+       "sessionYear": 2013,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 7
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2510, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "BILL NUMBER:S2186A\n\nTITLE OF BILL:  An act to amend the public health law, in relation to\nproviding that persons with hemophilia and other clotting protein\ndeficiencies who are otherwise eligible for the Child Health Plus\nprogram shall have access to reimbursement for outpatient blood\nclotting factor concentrates and other necessary treatments and\nservices\n\nPURPOSE:  To provide outpatient coverage under the Child Health Plus,\nFamily Health Plus, and Healthy New York programs for blood clotting\nfactor concentrates as well as other treatments and services necessary\nfor individuals with hemophilia and other clotting protein\ndeficiencies.\n\nSUMMARY OF PROVISIONS:  Subdivision 7 of section 2510 of the public\nhealth law, as amended by section 21 of part B of chapter 109 of the\nlaws of 2010, is amended to include:\n\n*outpatient blood clotting factor products and other treatments and\nservices furnished in connection with the care of hemophilia and other\nblood clotting protein deficiencies;\n\nParagraph a of subdivision 7 of section 2510 of the public health law,\nas amended by chapter 526 of the laws of 2002 is amended to include:\n\n* outpatient blood clotting factor products and other treatments and\nservices furnished in connection with the care of hemophilia and other\nblood clotting protein deficiencies;\n\nSubparagraphs (xv) and (xvi) of paragraph (e) of subdivision 1 of\nsection 369-ee of the social services law, subparagraph (xv) as\namended and subparagraph (xvi) as added by chapter 526 of the laws of\n2002, are amended and a new paragraph (xvii) is added to read as\nfollows:\n\n(xv) services provided to meet the requirements of 42 D.S.C. 1396d(r);\n\n(xvi)hospice services; and\n\n(xvii) outpatient blood clotting factor products and other treatments\nand services furnished in connection with the care of hemophilia and\nother blood clotting protein deficiencies as defined by the\ncommissioner of health in consultation with the superintendent.\n\nParagraph 13 of subsection (d) of section 4326 of the insurance law,\nas added by chapter 1 of the laws of 1999 is amended to read as\nfollows:\n\n*blood and blood products furnished in connection with surgery or\ninpatient hospital services or outpatient services for hemophilia and\nother blood clotting protein deficiencies;\n\nJUSTIFICATION:  Hemophilia is a rare hereditary bleeding disorder\naffecting roughly 2,000 New Yorkers, resulting from a deficiency in\nblood proteins known as clotting factors. without an adequate supply\nof clotting factors, individuals can experience prolonged bleeding\n\n\nfollowing routine medical and dental procedures, trauma, and a range\nof physical activities. Additionally, individuals with hemophilia\noften experience spontaneous internal bleeding that can cause severe\njoint damage, chronic pain, and even death.\n\nPrior to the 1970's, individuals with hemophilia seldom lived beyond\n30. Early treatment consisted of whole blood and Plasma transfusions\nat hospitals. These treatments were difficult, time consuming and only\nminimally effective. The advent of commercially prepared blood\ntreatment, both in terms of efficacy and convenience. Most\nimportantly, these advances allowed for home infusion.\n\nIn addition to hemophilia, there are several other disorders resulting\nfrom blood protein deficiencies. These include Von Willebrand Disease\n(VWD) , the most common bleeding disorder, affecting approximately two\nmillion Americans. Individuals with the severest form of VWD rely on\nclotting factor treatments similar to those used by individuals with\nhemophilia.\n\nClotting factor products produced today {derived from plasma or\nrecombinant technology) are very safe and highly effective\nmedications. Access to therapies has vastly improved both the health\noutcomes and quality of life for the majority of patients and their\nfamilies. Many patients today are on a prophylactic regimen to prevent\nbleeding episodes. This preventative regimen together with the\ncoordinated care provided by hemophilia treatment centers have\nsignificantly reduced visits to emergency rooms, hospitalizations and\njoint damage. Further, the ability to manage hemophilia and other\nbleeding disorders outside of the hospital setting has improved\nattendance for school-aged-children, decreased absenteeism from work\nfor adult patients and caregivers, vastly improved the ability of\naffected persons to join the work force, and minimized life\ndisruptions for the entire family.\n\nChild Health Plus, Family Health Plus and Healthy New York presently\ndo not cover clotting factor therapies prescribed for use at home by\nindividuals with hemophilia and other clotting protein deficiencies.\nmoreover, New York state is the only state in the U.S. not currently\nproviding coverage for outpatient clotting factor products used by\nindividuals who are eligible for the State Children's Health Insurance\nProgram (i.e., Child Health Plus). All three programs - Child Health\nPlus, Family Health Plus and Healthy New York - were created to\nimprove access to health care for low-income individuals.  Having a\npolicy in place that prevents otherwise eligible individuals with\nhemophilia and other bleeding disorders from accessing lifesaving\nmedications not only violates the spirit of the policy, it is\ndiscriminating against a selected group whose health care costs are\ndeemed to be high and fundamentally undermines the programs' overall\ngoal of ensuring that low-income children and families have access to\nthe quality health care.\n\nPRIOR LEGISLATIVE HISTORY:  2011 Referred to Health 2012 Referred to\nHealth\n\nFISCAL IMPLICATIONS: Unknown.\n\n\nEFFECTIVE DATE:  This act shall take effect on the first of April next\nsucceeding the date upon which it shall have become law, provided that\nthe amendments to the subdivision 7 of section 2510 of the public\nhealth law made by section two of this act shall be subject to the\nexpiration and reversion of such subdivision pursuant to subdivision 4\nof section 47 of chapter 2 of the laws of 1998, as amended, when upon\nsuch date the provisions of section three of this act shall take\neffect.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2186A",
+    "publishDate": "2013-05-22",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A962",
+       "basePrintNoStr": "A962-2013",
+       "printNo": "A962A",
+       "session": 2013,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2186",
+ "basePrintNoStr": "S2186-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 54,
+    "year": 2013
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2013
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2013
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2013-06-18",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2013-06-18",
+    "billCalNo": 1425,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2013-06-10T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2013-01-14T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2013-05-22T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2013-06-18T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S3865",
+    "basePrintNoStr": "S3865-2011",
+    "printNo": "S3865A",
+    "session": 2011,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S2186A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-01-14T11:21:24",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2013-05-22T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2013-01-14T11:21:24",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 56,
+   "fullName": "Joseph E. Robach",
+   "imgName": "417_joseph_e._robach.jpg",
+   "incumbent": false,
+   "memberId": 417,
+   "sessionMemberId": 173,
+   "sessionYear": 2013,
+   "shortName": "ROBACH"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2013-06-18",
+  "billCalNo": 1425,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A962",
+  "basePrintNoStr": "A962-2013",
+  "session": 2013
+ },
+ "summary": "Provides that persons with hemophilia and other clotting protein deficiencies who are otherwise eligible for the Child Health Plus program shall have access to reimbursement for outpatient blood clotting factor concentrates and other necessary treatments and services.",
+ "title": "Provides that persons with clotting protein deficiencies who are otherwise eligible for certain health insurance programs shall have access to reimbursement for certain treatments",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186A",
+     "session": 2013,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Eric Adams",
+         "imgName": "Eric Adams.jpg",
+         "incumbent": false,
+         "memberId": 382,
+         "sessionMemberId": 186,
+         "sessionYear": 2013,
+         "shortName": "ADAMS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Greg Ball",
+         "imgName": "Greg Ball.jpg",
+         "incumbent": false,
+         "memberId": 408,
+         "sessionMemberId": 164,
+         "sessionYear": 2013,
+         "shortName": "BALL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 151,
+         "sessionYear": 2013,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 181,
+         "sessionYear": 2013,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 185,
+         "sessionYear": 2013,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 178,
+         "sessionYear": 2013,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 180,
+         "sessionYear": 2013,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 136,
+         "sessionYear": 2013,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 176,
+         "sessionYear": 2013,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 130,
+         "sessionYear": 2013,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Ted O'Brien",
+         "imgName": "Ted O'Brien.jpg",
+         "incumbent": false,
+         "memberId": 436,
+         "sessionMemberId": 148,
+         "sessionYear": 2013,
+         "shortName": "O'BRIEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 133,
+         "sessionYear": 2013,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 159,
+         "sessionYear": 2013,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 170,
+         "sessionYear": 2013,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 14
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 168,
+         "sessionYear": 2013,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 187,
+         "sessionYear": 2013,
+         "shortName": "PERALTA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 127,
+         "sessionYear": 2013,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 3
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2013-06-10",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S2186",
+     "basePrintNoStr": "S2186-2013",
+     "printNo": "S2186A",
+     "session": 2013,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 169,
+         "sessionYear": 2013,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 174,
+         "sessionYear": 2013,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 126,
+         "sessionYear": 2013,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 137,
+         "sessionYear": 2013,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 140,
+         "sessionYear": 2013,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 151,
+         "sessionYear": 2013,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 155,
+         "sessionYear": 2013,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Charles J. Fuschillo Jr.",
+         "imgName": "Charles J. Fuschillo Jr.jpg",
+         "incumbent": false,
+         "memberId": 425,
+         "sessionMemberId": 185,
+         "sessionYear": 2013,
+         "shortName": "FUSCHILLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 138,
+         "sessionYear": 2013,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 180,
+         "sessionYear": 2013,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 136,
+         "sessionYear": 2013,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 129,
+         "sessionYear": 2013,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 130,
+         "sessionYear": 2013,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 175,
+         "sessionYear": 2013,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 166,
+         "sessionYear": 2013,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 163,
+         "sessionYear": 2013,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 167,
+         "sessionYear": 2013,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 168,
+         "sessionYear": 2013,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 150,
+         "sessionYear": 2013,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 172,
+         "sessionYear": 2013,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 131,
+         "sessionYear": 2013,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 127,
+         "sessionYear": 2013,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 184,
+         "sessionYear": 2013,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 152,
+         "sessionYear": 2013,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 171,
+         "sessionYear": 2013,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 25
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2013-06-18",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 0
+}

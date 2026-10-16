@@ -1,0 +1,593 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6617",
+     "basePrintNoStr": "S6617-2017",
+     "printNo": "S6617",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6617",
+     "basePrintNoStr": "S6617-2017",
+     "printNo": "S6617",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-19",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6617",
+     "basePrintNoStr": "S6617-2017",
+     "printNo": "S6617A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-19",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 6617A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6617",
+     "basePrintNoStr": "S6617-2017",
+     "printNo": "S6617A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-01-03",
+    "sequenceNo": 4,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6617",
+     "basePrintNoStr": "S6617-2017",
+     "printNo": "S6617A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-03-19",
+    "sequenceNo": 5,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, the public service law, the public authorities law, the labor law and the community risk and resiliency act, in relation to establishing the New York state climate and community protection act",
+    "basePrintNo": "S6617",
+    "basePrintNoStr": "S6617-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 933,
+       "sessionYear": 2017,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Marisol Alcantara",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1096,
+       "sessionMemberId": 1090,
+       "sessionYear": 2017,
+       "shortName": "ALCANTARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1072,
+       "sessionYear": 2017,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 930,
+       "sessionYear": 2017,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 919,
+       "sessionYear": 2017,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 944,
+       "sessionYear": 2017,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 1091,
+       "sessionYear": 2017,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 951,
+       "sessionYear": 2017,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 75 §§75-0101 - 75-0115, amd §54-1523, En Con L; add §66-o, Pub Serv L; amd §§1005 & 1020-s, ren §§1020-ii, 1020-jj & 1020-kk to be §§1020-jj, 1020-kk & 1020-ll, add §1020-ii, Pub Auth L; add Art 8-B §228, Lab L; add §§17-a & 17-b, Chap 355 of 2014",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " BILL NUMBER:  S6617\n\n TITLE OF BILL :\n\nAn act to amend the environmental conservation law, the public service\nlaw, the public authorities law, the labor law and the community risk\nand resiliency act, in relation to establishing the New York state\nclimate and community protection act\n\n PURPOSE OR GENERAL IDEA OF BILL :\n\nThe purpose of this bill is to enact the \"New York State Climate and\nCommunity Protection Act\" to address and mitigate the impacts of\nclimate change in New York.\n\n SUMMARY OF SPECIFIC PROVISIONS :\n\nThis bill would:\n\n*define relevant terms;\n\n*establish the 'New York State Climate Action Council\" (the Council)\nconsisting of 25 members including state agencies and individuals with\nexpertise in environmental issues, environmental justice, labor, and\nregulated industries;\n\n*require the Department of Environmental Conservation (DEC) to\nestablish:\n\n*greenhouse gas reporting requirements; *statewide greenhouse gas\nemissions limits;\n\n*a scoping plan, developed in consultation with the Council, the\nEnvironmental Justice Advisory Group (established in A.3063, sponsored\nby M. of A. Peoples-Stokes), the Disadvantaged Communities Working\nGroup and other stakeholders, outlining DEC's recommendations for\nattaining the statewide greenhouse gas emissions limits;\n\n*regulations to achieve statewide greenhouse gas emissions reductions;\n\n*a report, not less than every four years, including recommendations\nregarding the implementation of greenhouse gas reduction measures;\n\n*a report on barriers to, and opportunities for, community ownership\nof services and commodities in disadvantaged communities, including\ndistributed renewable energy generation; energy efficiency and\nweatherization investments; and, zero emission and low-emission\ntransportation options; and,\n\n*take actions to promote adaptation and resilience;\n\n*establish a Climate Change Working Group consisting of\nrepresentatives from environmental justice communities, DEC, and the\nDepartments of Health and Labor to:\n\n*identify disadvantaged communities for the purposes of co-pollutant\nand greenhouse gas emissions reductions and the allocation of certain\ninvestments; and,\n\n*advise DEC on the promulgation of certain reports and regulations;\n\n*require state agencies to assess and implement strategies to reduce\ntheir greenhouse gas emissions and, when issuing permits, licenses or\nother administrative approvals and decisions, to consider whether such\ndecisions would be inconsistent with the attainment of the statewide\ngreenhouse gas emission limits;\n*authorize monies from the Environmental Protection Fund to be used to\nestablish and implement easily-replicated renewable energy projects,\nincluding solar arrays, heat pumps and wind turbines in public\nlow-income housing in suburban, urban and rural areas;\n\n*provide a definition of \"renewable energy systems\" to mean systems\nthat generate electricity or thermal energy through the use of the\nfollowing technologies: solar thermal, photovoitaics, wind,\nhydroelectric, geothermal electric, geothermal ground source heat,\ntidal energy, wave energy, ocean thermal, offshore wind and fuel cells\nwhich do not utilize a fossil fuel resource in the process of\ngenerating electricity;\n\n*require that fifty percent of the electric generation secured by load\nserving entities regulated by the Public Service Commission (PSC); the\nPower Authority of the State of New York (PASNY); and the Long Island\nPower Authority (LIPA) be produced by renewable energy systems by\n2030;\n\n*require that all projects contracted pursuant to this act that either\nreceive financial assistance of more than $100,000 or have a total\nvalue of more than $10 million pay to building service workers and\nconstruction workers the prevailing wage rate of the locality in which\nthe project is located. These projects must also include in their\ncontracts with contractors language requiring labor harmony policies,\ndispute resolution mechanisms, prevailing wage compliance, safety\npoli- cies, workers compensation insurance, and apprenticeship program\nutilization; and,\n\n*provide that contracts by recipients of financial assistance\npertaining to prevailing wage are to be considered for the benefit of\nthe applicable workers, and these workers have a right to maintain an\naction in court if they are paid less than prevailing wage.\n\n JUSTIFICATION :\n\nClimate change is adversely affecting economic well-being, public\nhealth, natural resources, and the environment of New York. Climate\nchange especially heightens the vulnerability of disadvantaged\ncommuni- ties, which bear environmental and socioeconomic burdens. The\nseverity of current climate change and the threat of additional and\nmore severe change will be affected by the actions undertaken by New\nYork and other jurisdictions to reduce greenhouse gas emissions.\nAccording to the U.S.  Global Change Research Program (USGCRP) and the\nIntergovernmental Panel on Climate Change, substantial reductions in\ngreenhouse gas emissions will be required by mid-century in order to\nlimit global warming. Action undertaken by New York to reduce\ngreenhouse emissions will have an impact on global greenhouse gas\nemissions and the rate of climate change. In addition, such action\nwill encourage other jurisdictions to implement complementary\ngreenhouse gas reduction strategies and provide an example of how such\nstrategies can be implemented. It will also advance the development of\ngreen technologies and sustainable practices within the private\nsector, which can have far-reaching impacts such as a reduction in the\ncost of renewable energy components, and the creation of jobs and tax\nrevenues in New York.\n\nThis bill will:\n\n*help put New York on track to minimize the adverse impacts of climate\nchange through a combination of measures to reduce statewide\ngreenhouse gas emissions and improve the resiliency of the state with\nrespect to the impacts and risks of climate change that cannot be\navoided;\n\n\n*shape the ongoing transition in the State's energy sector to ensure\nthat it creates good jobs and protects workers and communities that\nmay lose employment in the current transition. Setting clear standards\nfor job quality and training standards encourages not only\nhigh-quality work but positive economic impacts;\n\n*prioritize the safety and health of disadvantaged communities,\ncontrol potential regressive impacts of future climate change\nmitigation and adaptation policies on these communities; and, *review\nand prioritize the allocation of certain public investments.\n\n PRIOR LEGISLATIVE HISTORY :\n\n2016: A.10342 (Englebright) - Passed the Assembly.\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\n\nTo be determined.\n\n EFFECTIVE DATE :\nThis act shall take effect on the same date and in the same manner as\na chapter of the laws of 2017, in relation to establishing a permanent\nenvironmental justice advisory group as proposed in legislative bills\nnumbers A.2234 and S.3110, provided further that the provisions of\nsection seven shall take effect on the 180th day after it shall have\nbecome law and shall apply to any grants, loans, and contracts and\nfinancial assistance awarded or renewed on or after such effective\ndate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6617",
+    "publishDate": "2017-06-07",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the environmental conservation law, the public service law, the public authorities law, the labor law and the community risk and resiliency act, in relation to establishing the New York state climate and community protection act",
+    "basePrintNo": "S6617",
+    "basePrintNoStr": "S6617-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 933,
+       "sessionYear": 2017,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Marisol Alcantara",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1096,
+       "sessionMemberId": 1090,
+       "sessionYear": 2017,
+       "shortName": "ALCANTARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1072,
+       "sessionYear": 2017,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 930,
+       "sessionYear": 2017,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 919,
+       "sessionYear": 2017,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 944,
+       "sessionYear": 2017,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 921,
+       "sessionYear": 2017,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 918,
+       "sessionYear": 2017,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1137,
+       "sessionYear": 2017,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 929,
+       "sessionYear": 2017,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 1091,
+       "sessionYear": 2017,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 935,
+       "sessionYear": 2017,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 1088,
+       "sessionYear": 2017,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Elaine Phillips",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1100,
+       "sessionMemberId": 1096,
+       "sessionYear": 2017,
+       "shortName": "PHILLIPS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 934,
+       "sessionYear": 2017,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 951,
+       "sessionYear": 2017,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 17
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 75 §§75-0101 - 75-0115, amd §54-1523, En Con L; add §66-o, Pub Serv L; amd §§1005 & 1020-s, ren §§1020-ii, 1020-jj & 1020-kk to be §§1020-jj, 1020-kk & 1020-ll, add §1020-ii, Pub Auth L; add Art 8-B §228, Lab L; add §§17-a & 17-b, Chap 355 of 2014",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " BILL NUMBER:  S6617A\n\n TITLE OF BILL :  An act to amend the environmental conservation law,\nthe public service law, the public authorities law, the labor law and\nthe community risk and resiliency act, in relation to establishing the\nNew York state climate and community protection act\n\n PURPOSE OR GENERAL IDEA OF BILL :\n\nThe purpose of this bill is to enact the \"New York State Climate and\nCommunity Protection Act\" to address and mitigate the impacts of\nclimate change in New York.\n\n SUMMARY OF SPECIFIC PROVISIONS :\n\nThis bill would:\n\n*define relevant terms;\n\n*establish the 'New York State Climate Action Council\" (the Council)\nconsisting of 25 members including state agencies and individuals with\nexpertise in environmental issues, environmental justice, labor, and\nregulated industries;\n\n*require the Department of Environmental Conservation (DEC) to\nestablish:\n\n*greenhouse gas reporting requirements;\n\n*statewide greenhouse gas emissions limits;\n\n*a scoping plan, developed in consultation with the Council, the\nEnvironmental Justice Advisory Group (established in A.3063, sponsored\nby M. of A. Peoples-Stokes), the Disadvantaged Communities Working\nGroup and other stakeholders, outlining DEC's recommendations for\nattaining the statewide greenhouse gas emissions limits;\n\n*regulations to achieve statewide greenhouse gas emissions reductions;\n\n*a report, not less than every four years, including recommendations\nregarding the implementation of greenhouse gas reduction measures;\n\n*a report on barriers to, and opportunities for, community ownership\nof services and commodities in disadvantaged communities, including\ndistributed renewable energy generation; energy efficiency and\nweatherization investments; and, zero emission and low-emission\ntransportation options; and,\n\n*take actions to promote adaptation and resilience;\n\n*establish a Climate Change Working Group consisting of\nrepresentatives from environmental justice communities, DEC, and the\nDepartments of Health and Labor to:\n\n*identify disadvantaged communities for the purposes of co-pollutant\nand greenhouse gas emissions reductions and the allocation of certain\ninvestments; and,\n\n*advise DEC on the promulgation of certain reports and regulations;\n\n*require state agencies to assess and implement strategies to reduce\ntheir greenhouse gas emissions and, when issuing permits, licenses or\nother administrative approvals and decisions, to consider whether such\ndecisions would be inconsistent with the attainment of the statewide\ngreenhouse gas emission limits;\n\n*authorize monies from the Environmental Protection Fund to be used to\nestablish and implement easily-replicated renewable energy projects,\nincluding solar arrays, heat pumps and wind turbines in public\nlow-income housing in suburban, urban and rural areas;\n\n*provide a definition of \"renewable energy systems\" to mean systems\nthat generate electricity or thermal energy through the use of the\nfollowing technologies: solar thermal, photovoltaics, wind,\nhydroelectric, geothermal electric, geothermal ground source heat,\ntidal energy, wave energy, ocean thermal, offshore wind and fuel cells\nwhich do not utilize a fossil fuel resource in the process of\ngenerating electricity;\n\n*require that fifty percent of the electric generation secured by load\nserving entities regulated by the Public Service Commission (PSC); the\nPower Authority of the State of New York (PASNY); and the Long Island\nPower Authority (LIPA) be produced by renewable energy systems by\n2030;\n\n*require that all projects contracted pursuant to this act that either\nreceive financial assistance of more than $100,000 or have a total\nvalue of more than $10 million pay to building service workers and\nconstruction workers the prevailing wage rate of the locality in which\nthe project is located. These projects must also include in their\ncontracts with contractors language requiring labor harmony policies,\ndispute resolution mechanisms, prevailing wage compliance, safety\npolicies, workers' compensation insurance, and apprenticeship program\nutilization; and,\n\n*provide that contracts by recipients of financial assistance\npertaining to prevailing wage are to be considered for the benefit of\nthe applicable workers, and these workers have a right to maintain an\naction in court if they are paid less than prevailing wage.\n\n JUSTIFICATION :\n\nClimate change is adversely affecting economic well-being, public\nhealth, natural resources, and the environment of New York. Climate\nchange especially heightens the vulnerability of disadvantaged\ncommunities, which bear environmental and socioeconomic burdens. The\nseverity of current climate change and the threat of additional and\nmore severe change will be affected by the actions undertaken by New\nYork and other jurisdictions to reduce greenhouse gas emissions.\nAccording to the U.S. Global Change Research Program (USGCRP) and the\nIntergovernmental Panel on Climate Change, substantial reductions in\ngreenhouse gas emissions will be required by mid-century in order to\nlimit global warming. Action undertaken by New York to reduce\ngreenhouse emissions will have an impact on global greenhouse gas\nemissions and the rate of climate change. In addition, such action\nwill encourage other jurisdictions to implement complementary\ngreenhouse gas reduction strategies and provide an example of how such\nstrategies can be implemented. It will also advance the development of\ngreen technologies and sustainable practices within the private\nsector, which can have far-reaching impacts such as a reduction in the\ncost of renewable energy components, and the creation of jobs and tax\nrevenues in New York.\n\nThis bill will:\n\n*help put New York on track to minimize the adverse impacts of climate\nchange through a combination of measures to reduce statewide\ngreenhouse gas emissions and improve the resiliency of the state with\nrespect to the impacts and risks of climate change that cannot be\navoided;\n\n\n*shape the ongoing transition in the State's energy sector to ensure\nthat it creates good jobs and protects workers and communities that\nmay lose employment in the current transition. Setting clear standards\nfor job quality and training standards encourages not only\nhigh-quality work but positive economic impacts;\n\n*prioritize the safety and health of disadvantaged communities,\ncontrol potential regressive impacts of future climate change\nmitigation and adaptation policies on these communities; and,\n\n*review and prioritize the allocation of certain public investments.\n\n PRIOR LEGISLATIVE HISTORY :\n\n2016: A.10342 (Englebright) - Passed the Assembly.\n2017: A8270-A Englebright)\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\n\nTo be determined.\n\n EFFECTIVE DATE :\nThis act shall take effect on the same date and in the same manner as\na chapter of the laws of 2017, in relation to establishing a permanent\nenvironmental justice advisory group as proposed in legislative bills\nnumbers A.2234 and S.3110, provided further that the provisions of\nsection seven shall take effect on the 180th day after it shall have\nbecome law and shall apply to any grants, loans, and contracts and\nfinancial assistance awarded or renewed on or after such effective\ndate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6617A",
+    "publishDate": "2017-06-19",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": true,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6617",
+ "basePrintNoStr": "S6617-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2018-01-03",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2018-01-03T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2017-06-07T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2017-06-19T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8005",
+    "basePrintNoStr": "S8005-2015",
+    "printNo": "S8005",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S6617A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-06-07T13:26:58",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2017-06-19T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2017-06-07T13:26:58",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 11,
+   "fullName": "Tony Avella",
+   "imgName": "391_tony_avella.jpg",
+   "incumbent": false,
+   "memberId": 391,
+   "sessionMemberId": 920,
+   "sessionYear": 2017,
+   "shortName": "AVELLA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2018-03-19",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts the New York state climate and community protection act; relates to climate change; renewable energy program; labor and job standards and worker protection.",
+ "title": "Enacts the New York state climate and community protection act",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2018
+}

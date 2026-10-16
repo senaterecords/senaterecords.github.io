@@ -1,0 +1,202 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S37",
+     "basePrintNoStr": "S37-2009",
+     "printNo": "S37",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S37",
+     "basePrintNoStr": "S37-2009",
+     "printNo": "S37",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CODES"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S37",
+    "basePrintNoStr": "S37-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§190.25 & 190.26, Pen L",
+    "lawSection": "Penal Law",
+    "memo": " BILL NUMBER:  S37\n\n TITLE OF BILL :\nAn act to amend the penal law, in relation to increasing the penalties\nfor criminal impersonation in the first and second degrees\n\n\n PURPOSE :\nRelates to increasing the penalties for the crime for criminal\nimpersonation in both the first and second degrees.\n\n SUMMARY OF PROVISIONS :\nThe bill changes the designation of second degree criminal\nimpersonation from a class A misdemeanor to a class E felony. In\naddition, criminal impersonation in the first degree, currently a\nclass E felony, would be reclassified as a class D felony.\n\n JUSTIFICATION :\nCriminal impersonation is a heinous crime in which an individual poses\nas a law enforcement officer, a physician, or any such person of\nauthority in order to gain the trust and acquiescence of the victim.\nRecently, Nassau County Police arrested a police impersonator who shot\nand killed a Long Island bank manager during a motor vehicle stop.\nThis incident was preceded by several Nassau County robberies by\npolice impersonators, in which managers of stores were followed and\npulled over by an armed police impersonator. In the interest of\ngranting the authorities greater prosecutorial power and that of\nenhancing overall public safety, this bill raises the penalties for\noffenders convicted of criminal impersonation in either the first or\nsecond degree.\n\n LEGISLATIVE HISTORY :\n2005 Passed Senate, 2006 Codes Committee (S.2471/A.4692)\n2007-2008: Passed the Senate (S.1532/A.3456)\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect on the first of November next succeeding\nthe date on which it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S37",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2502",
+       "basePrintNoStr": "A2502-2009",
+       "printNo": "A2502",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S37",
+ "basePrintNoStr": "S37-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2009-01-07T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1532",
+    "basePrintNoStr": "S1532-2007",
+    "printNo": "S1532",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S37",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 8,
+   "fullName": "Charles J. Fuschillo Jr.",
+   "imgName": "Charles J. Fuschillo Jr.jpg",
+   "incumbent": false,
+   "memberId": 425,
+   "sessionMemberId": 55,
+   "sessionYear": 2009,
+   "shortName": "FUSCHILLO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-01-06",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Increases the penalties for criminal impersonation in the first degree from a class E felony to a class D felony; increases the penalty for criminal impersonation in the second degree from a class A misdemeanor to a class E felony.",
+ "title": "Increases the penalties for criminal impersonation in the first and second degrees",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

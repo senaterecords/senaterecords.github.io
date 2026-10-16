@@ -1,0 +1,485 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8744",
+     "basePrintNoStr": "S8744-2023",
+     "printNo": "S8744",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8744",
+     "basePrintNoStr": "S8744-2023",
+     "printNo": "S8744",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-26",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.736"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8744",
+     "basePrintNoStr": "S8744-2023",
+     "printNo": "S8744",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-27",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8744",
+     "basePrintNoStr": "S8744-2023",
+     "printNo": "S8744",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-28",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8744",
+     "basePrintNoStr": "S8744-2023",
+     "printNo": "S8744",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-04-03",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A4714"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to repeal section 255.17 of the penal law relating to the crime of\nadultery",
+    "basePrintNo": "S8744",
+    "basePrintNoStr": "S8744-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld §255.17, Pen L",
+    "lawSection": "Penal Law",
+    "memo": " \nBILL NUMBER: S8744\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to repeal section 255.17 of the penal law relating to the crime\nof adultery\n\n \nPURPOSE:\n\nTo decriminalize adultery\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 repeals section 255.17 of the penal law.\n\nSection 2 sets the effective date.\n\n \nJUSTIFICATION:\n\nThis outdated statute criminalizes sexual behavior between consenting\nadults as a Class B Misdemeanor, punishable by up to three months in\nprison and a fine of up to $500. The state has no business regulating\nthe consensual sexual behavior between adults. It is long-past time for\nus to remove this statute from the penal law.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2021 - 2022: A100 (Quart)\n\n2019 - 2020:  A11073 (Quart)\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone to the state.\n\n \nEFFECTIVE DATE:\nThis act shall take place immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8744",
+    "publishDate": "2024-03-06",
+    "relatedLaws": {
+     "items": {
+      "REPEAL": {
+       "items": [
+        "PEN255.17"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4714",
+       "basePrintNoStr": "A4714-2023",
+       "printNo": "A4714",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8744",
+ "basePrintNoStr": "S8744-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 33,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2024
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 11,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-03-06",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2024-03-28",
+    "billCalNo": 736,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2024-03-06T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A4714",
+    "basePrintNoStr": "A4714-2023",
+    "printNo": "A4714",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A100",
+    "basePrintNoStr": "A100-2021",
+    "printNo": "A100",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A11073",
+    "basePrintNoStr": "A11073-2019",
+    "printNo": "A11073",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S8744",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-03-06T12:25:04.895134",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2024-03-06T12:25:04.895134",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 28,
+   "fullName": "Liz Krueger",
+   "imgName": "401_liz_krueger.jpg",
+   "incumbent": true,
+   "memberId": 401,
+   "sessionMemberId": 2020,
+   "sessionYear": 2023,
+   "shortName": "KRUEGER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-03-28",
+  "billCalNo": 736,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A4714",
+  "basePrintNoStr": "A4714-2023",
+  "session": 2023
+ },
+ "summary": "Repeals the crime of adultery.",
+ "title": "Repeals the crime of adultery",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8744",
+     "basePrintNoStr": "S8744-2023",
+     "printNo": "S8744",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Jabari Brisport",
+         "imgName": "1311_Jabari_Brisport.jpg",
+         "incumbent": true,
+         "memberId": 1494,
+         "sessionMemberId": 2046,
+         "sessionYear": 2023,
+         "shortName": "BRISPORT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 2014,
+         "sessionYear": 2023,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 2018,
+         "sessionYear": 2023,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Dean Murray",
+         "imgName": "910_dean_murray.jpg",
+         "incumbent": true,
+         "memberId": 1521,
+         "sessionMemberId": 1884,
+         "sessionYear": 2023,
+         "shortName": "MURRAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 2041,
+         "sessionYear": 2023,
+         "shortName": "PALUMBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "Roxanne J. Persaud",
+         "imgName": "736_Roxanne_Persaud.jpg",
+         "incumbent": true,
+         "memberId": 914,
+         "sessionMemberId": 2029,
+         "sessionYear": 2023,
+         "shortName": "PERSAUD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 2043,
+         "sessionYear": 2023,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2034,
+         "sessionYear": 2023,
+         "shortName": "SEPULVEDA"
+        }
+       ],
+       "size": 13
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-03-26",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2024
+}

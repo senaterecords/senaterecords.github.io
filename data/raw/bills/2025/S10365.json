@@ -1,0 +1,255 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10365",
+     "basePrintNoStr": "S10365-2025",
+     "printNo": "S10365",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-15",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CITIES 1"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10365",
+     "basePrintNoStr": "S10365-2025",
+     "printNo": "S10365",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10365",
+     "basePrintNoStr": "S10365-2025",
+     "printNo": "S10365",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1685"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10365",
+     "basePrintNoStr": "S10365-2025",
+     "printNo": "S10365",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-03",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A11378"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property tax law, in relation to extending certain\ndeadlines for purposes of the green roof tax abatement for certain properties\nin a city of one million or more persons",
+    "basePrintNo": "S10365",
+    "basePrintNoStr": "S10365-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§499-bbb & 499-ccc, RPT L",
+    "lawSection": "Real Property Tax Law",
+    "memo": " \nBILL NUMBER: S10365\n\nSPONSOR: LIU\n \nTITLE OF BILL:\n\nAn act to amend the real property tax law, in relation to extending\ncertain deadlines for  purposes   of  the  green  roof tax abatement for\ncertain properties in a city of one  million or more persons\n\n \nPURPOSE:\n\nThis bill extends the tax abatement program for green roofs.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends section 499-bbb of the real property tax law to extend\nthe sunset date of the program from 6/30/2027 to 6/30/2031.\n\nSection 2 amends the real property tax law to extend the application\ndate from 3/15/2026 to 3/15/2030.\n\nSection 3 sets the effective date.\n\n \nJUSTIFICATION:\n\nGreen roofs provide multiple important benefits for municipalities.\nThey can help address flash flooding and sewage overflow by retaining\nstormwater runoff. This is especially important now due to the increas-\ning frequency of severe weather events such as Hurricane Sandy, Isaias,\nand Ida. They help improve air quality, reduce greenhouse gas emissions,\nmitigate the urban heat island effect, and increase biodiversity. These\neffects provide a significant benefit to the city, easing the strain on\nthe city's storm-water and sewage systems, lowering energy demand and\nenhancing quality of life.\n\nThis bill would extend the Green Roof Tax abatement program for 4 addi-\ntional years.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone to the state\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10365",
+    "publishDate": "2026-05-15",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "RPT499-BBB",
+        "RPT499-CCC"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11378",
+       "basePrintNoStr": "A11378-2025",
+       "printNo": "A11378",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10365",
+ "basePrintNoStr": "S10365-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 62,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-03",
+    "billCalNo": 1685,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Cities 1",
+    "referenceDate": "2026-05-15T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-03T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S10365",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-05-15T10:25:13.900273",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-05-15T10:25:13.851215",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 16,
+   "fullName": "John Liu",
+   "imgName": "1045_John_Liu.jpg",
+   "incumbent": true,
+   "memberId": 1225,
+   "sessionMemberId": 2333,
+   "sessionYear": 2025,
+   "shortName": "LIU"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-03",
+  "billCalNo": 1685,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11378",
+  "basePrintNoStr": "A11378-2025",
+  "session": 2025
+ },
+ "summary": "Extends certain deadlines for purposes of the green roof tax abatement for certain properties in a city of one million or more persons.",
+ "title": "Extends certain deadlines for purposes of the green roof tax abatement for certain properties in a city of one million or more persons",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

@@ -1,0 +1,183 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10201",
+     "basePrintNoStr": "S10201-2025",
+     "printNo": "S10201",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO MENTAL HEALTH"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the mental hygiene law, in relation to the powers of the head\nof the office of mental health and the head of the office for people with\ndevelopmental disabilities to promulgate rules regarding communications needs\nof non-English speaking individuals",
+    "basePrintNo": "S10201",
+    "basePrintNoStr": "S10201-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§7.09 & 13.09, Ment Hyg L",
+    "lawSection": "Mental Hygiene Law",
+    "memo": " \nBILL NUMBER: S10201\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the mental hygiene law, in relation to the powers of the\nhead of the office of mental health and the head of the office for\npeople with developmental disabilities to promulgate rules regarding\ncommunications needs of non-English speaking individuals\n\n \nPURPOSE:\n\nThe purpose of this bill is to increase access to services and support\nfor non-English speaking individuals.\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill would amend current mental hygiene law by requiring the\ncommissioner of the Office of Mental Health (OMB) and the Office for\nPeople with Developmental Disabilities (OPWDD) to provide language\nlimited to documents, forms, and materials being made available in the\ntwelve most common non-English languages in the state of New York, as\ndetermined by United States census data.\n\n \nJUSTIFICATION:\n\nThe OMH and the OPWDD provide valuable services to individuals with a\nmental health diagnosis or with a developmental disability. These\nservices were implemented with the intention of serving all New Yorkers.\nHowever, without providing materials in the twelve most common non-En-\nglis languages in the state, there will be barriers to treatment and\nsupports to those who are not proficient in the English language. This\nbill would increase access to services and supports provided by the OMB\nand OPWDD by requiring the commissioner of the office of mental health\nand the office for people with developmental disabilities to provide\nlanguage assistance services for non-English individuals, including but\nnot limited to documents, forms, and materials being made available in\nthe twelve most common non-English languages in the state of New York,\nas determined by United States census data.\n\n \nLEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect Immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10201",
+    "publishDate": "2026-05-05",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "MHY13.09",
+        "MHY7.09"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11023",
+       "basePrintNoStr": "A11023-2025",
+       "printNo": "A11023",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10201",
+ "basePrintNoStr": "S10201-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-05-05",
+    "billCalNo": null,
+    "committeeName": "Mental Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Mental Health",
+    "referenceDate": "2026-05-05T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S10201",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-05-05T11:05:57.023711",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-05-05T11:05:56.971372",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 30,
+   "fullName": "Cordell Cleare",
+   "imgName": "Cordell Cleare.jpg",
+   "incumbent": true,
+   "memberId": 1504,
+   "sessionMemberId": 2347,
+   "sessionYear": 2025,
+   "shortName": "CLEARE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-05-05",
+  "billCalNo": null,
+  "committeeName": "Mental Health",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the powers of the head of the office of mental health and the head of the office for people with developmental disabilities to promulgate rules regarding communications needs of non-English speakers seeking or receiving services; includes the provision of language services and documents in English and the twelve most common non-English languages spoken by individuals in New York State based on United States census data.",
+ "title": "Relates to the powers of the head of the office of mental health and the head of the office for people with developmental disabilities to promulgate rules regarding communications needs of non-English speakers",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

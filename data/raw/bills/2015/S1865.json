@@ -1,0 +1,897 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-01-15",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-05-18",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2015-05-18",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1865A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-02",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.1286"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-03",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-08",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865B",
+     "session": 2015,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-09",
+    "sequenceNo": 7,
+    "text": "AMENDED ON THIRD READING 1865B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865B",
+     "session": 2015,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-17",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A3563C"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to exempt persons under the profession of psychology",
+    "basePrintNo": "S1865",
+    "basePrintNoStr": "S1865-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 720,
+       "sessionYear": 2015,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 721,
+       "sessionYear": 2015,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 700,
+       "sessionYear": 2015,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Rich Funke",
+       "imgName": "887_rich_funke.jpg",
+       "incumbent": false,
+       "memberId": 887,
+       "sessionMemberId": 881,
+       "sessionYear": 2015,
+       "shortName": "FUNKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 701,
+       "sessionYear": 2015,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 873,
+       "sessionYear": 2015,
+       "shortName": "ROBACH"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §7605, Ed L",
+    "lawSection": "Education Law",
+    "memo": "BILL NUMBER:S1865\n\nTITLE OF BILL:\n\nAn act to amend the education law, in relation to exempt persons under\nthe profession of psychology\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo allow testing technicians to administer and score standardized\nobjective psychological or neuropsychological tests.\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1. Amends Section 7605 of the education law by adding a new\nparagraph 11, which would allow testing technicians to administer and\nscore standardized objective psychological or neuropsychological tests\nwhich involve specific predetermined and manualized procedures.\n\nSection 2. Effective Date\n\nJUSTIFICATION:\n\nPrior to enactment of the psychology scope of practice law (Chapter\n676 of the Laws of 2002), testing technicians routinely and\nsuccessfully administered and scored standardized objective\npsychological and neuropsychological tests. The legislative intent of\nthe psychology scope of practice law was to not change the practice of\npsychology. In 2003, the State Education Department issued a letter\ninterpreting the 2002 statute as excluding the use of testing\ntechnicians for administering and scoring neuropsychological tests, on\nthe grounds that test administration and scoring was captured within\nthe scope of practice of psychology. The proposed legislation would\nreverse the negative impact of the 2003 interpretive letter, which\nseverely limited access to these critically needed services,\nparticularly for ethnic minority patients and those from low\nsocioeconomic backgrounds.\n\nThe legislation would require that testing technicians have a\nBachelor's degree in psychology or a related field; be trained by a\nlicensed psychologist in a non-school setting where the ratio of\ntechnician to licensed psychologist does not exceed 3:1; and also\nrequires that technicians not provide opinions or interpret data.\n\nThe practice of employing non-doctoral level technicians for\nobjective, standardized psychological and neuropsychological testing\nhad been a standard practice in New York until the promulgation of the\ninterpretative letter of 2003, is widespread nationally in the\nprofession, and is supported by all professional organizations\nincluding the American Psychological Association (APA), the\nNeuropsychology Division of the APA, the American Academy of Clinical\nNeuropsychology, the American.  Board of Professional Neuropsychology,\nthe National Academy of Neuropsychology and the International\nNeuropsychology Society.  Additionally, current Medicare regulations\nallow for the use of testing technicians when diagnostic psychological\ntesting is furnished under the supervision of a physician or clinical\npsychologist. This is represented by the CPT code 96119. The Veterans\n\n\nAdministration continues to use testing technicians in\nneuropsychological practice throughout the country, including in New\nYork State. Although psychologists have been restricted from using\ntesting technicians as a result of the interpretive letter in 2002,\nphysicians have continued unrestricted use of testing technicians.\nThis is an important division of labor in a psychologist's practice,\nwhich would allow the licensed psychologist to focus more directly on\naspects of their practice which require the highest degree of\ntraining, clinical judgment and the ability to diagnose and treat\nindividuals in their practices. Moreover, use of technicians is a cost\nefficient means of providing this clinical service which is\nparticularly important in the midst of healthcare reform.\n\nThe time has come to revise New York's laws to more accurately reflect\ncurrent and common practices in the field of neuropsychology.\n\nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\nFISCAL IMPLICATIONS:\n\nS4176B of 2014\n\nEFFECTIVE DATE:\n\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1865",
+    "publishDate": "2015-01-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3563",
+       "basePrintNoStr": "A3563-2015",
+       "printNo": "A3563A",
+       "session": 2015,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to exempt persons under the profession of psychology",
+    "basePrintNo": "S1865",
+    "basePrintNoStr": "S1865-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 720,
+       "sessionYear": 2015,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 721,
+       "sessionYear": 2015,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 700,
+       "sessionYear": 2015,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Rich Funke",
+       "imgName": "887_rich_funke.jpg",
+       "incumbent": false,
+       "memberId": 887,
+       "sessionMemberId": 881,
+       "sessionYear": 2015,
+       "shortName": "FUNKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 701,
+       "sessionYear": 2015,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 873,
+       "sessionYear": 2015,
+       "shortName": "ROBACH"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §7605, Ed L",
+    "lawSection": "Education Law",
+    "memo": "BILL NUMBER:S1865A\n\nTITLE OF BILL:\n\nAn act to amend the education law, in relation to exempt persons under\nthe profession of psychology\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo allow testing technicians to administer and score standardized\nobjective psychological or neuropsychological tests.\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1. Amends Section 7605 of the education law by adding a new\nparagraph 11, which would allow testing technicians to administer and\nscore standardized objective psychological or neuropsychological tests\nwhich involve specific predetermined and manualized procedures.\n\nSection 2. Effective Date\n\nJUSTIFICATION:\n\nPrior to enactment of the psychology scope of practice law (Chapter\n676 of the Laws of 2002), testing technicians routinely and\nsuccessfully administered and scored standardized objective\npsychological and neuropsychological tests. The legislative intent of\nthe psychology scope of practice law was to not change the practice of\npsychology. In 2003, the State Education Department issued a letter\ninterpreting the 2002 statute as excluding the use of testing\ntechnicians for administering and scoring neuropsychological tests, on\nthe grounds that test administration and scoring was captured within\nthe scope of practice of psychology. The proposed legislation would\nreverse the negative impact of the 2003 interpretive letter, which\nseverely limited access to these critically needed services,\nparticularly for ethnic minority patients and those from low\nsocioeconomic backgrounds.\n\nThe legislation would require that testing technicians have a\nBachelor's degree in psychology or a related field; be trained by a\nlicensed psychologist in a non-school setting where the ratio of\ntechnician to licensed psychologist does not exceed 3:1; and also\nrequires that technicians not provide opinions or interpret data.\n\nThe practice of employing non-doctoral level technicians for\nobjective, standardized psychological and neuropsychological testing\nhad been a standard practice in New York until the promulgation of the\ninterpretative letter of 2003, is widespread nationally in the\nprofession, and is supported by all professional organizations\nincluding the American Psychological Association (APA), the\nNeuropsychology Division of the APA, the American Academy of Clinical\nNeuropsychology, the American.  Board of Professional Neuropsychology,\nthe National Academy of Neuropsychology and the International\nNeuropsychology Society.  Additionally, current Medicare regulations\nallow for the use of testing technicians when diagnostic psychological\ntesting is furnished under the supervision of a physician or clinical\npsychologist. This is represented by the CPT code 96119. The Veterans\n\n\nAdministration continues to use testing technicians in\nneuropsychological practice throughout the country, including in New\nYork State. Although psychologists have been restricted from using\ntesting technicians as a result of the interpretive letter in 2002,\nphysicians have continued unrestricted use of testing technicians.\nThis is an important division of labor in a psychologist's practice,\nwhich would allow the licensed psychologist to focus more directly on\naspects of their practice which require the highest degree of\ntraining, clinical judgment and the ability to diagnose and treat\nindividuals in their practices. Moreover, use of technicians is a cost\nefficient means of providing this clinical service which is\nparticularly important in the midst of healthcare reform.\n\nThe time has come to revise New York's laws to more accurately reflect\ncurrent and common practices in the field of neuropsychology.\n\nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\nFISCAL IMPLICATIONS:\n\nS4176B of 2014\n\nEFFECTIVE DATE:\n\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1865A",
+    "publishDate": "2015-05-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the education law, in relation to exempt persons under the profession of psychology",
+    "basePrintNo": "S1865",
+    "basePrintNoStr": "S1865-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 720,
+       "sessionYear": 2015,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 721,
+       "sessionYear": 2015,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 700,
+       "sessionYear": 2015,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Rich Funke",
+       "imgName": "887_rich_funke.jpg",
+       "incumbent": false,
+       "memberId": 887,
+       "sessionMemberId": 881,
+       "sessionYear": 2015,
+       "shortName": "FUNKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 701,
+       "sessionYear": 2015,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 873,
+       "sessionYear": 2015,
+       "shortName": "ROBACH"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §7605, Ed L",
+    "lawSection": "Education Law",
+    "memo": " BILL NUMBER:  S1865B\n\n TITLE OF BILL :  An act to amend the education law, in relation to\nexempt persons under the profession of psychology\n\n PURPOSE OR GENERAL IDEA OF BILL :\n\nTo allow testing technicians to administer and score standardized\nobjective psychological or neuropsychological tests.\n\n SUMMARY OF SPECIFIC PROVISIONS :\n\nSection 1. Amends Section 7605 of the education law by adding a new\nparagraph 11, which would allow testing technicians to administer and\nscore standardized objective psychological or neuropsychological tests\nwhich involve specific predetermined and manualized procedures.\n\nSection 2. Effective Date\n\n JUSTIFICATION :\n\nPrior to enactment of the psychology scope of practice law (Chapter\n676 of the Laws of 2002), testing technicians routinely and\nsuccessfully administered and scored standardized objective\npsychological and neuropsychological tests. The legislative intent of\nthe psychology scope of practice law was to not change the practice of\npsychology. In 2003, the State Education Department issued a letter\ninterpreting the 2002 statute as excluding the use of testing\ntechnicians for administering and scoring neuropsychological tests, on\nthe grounds that test administration and scoring was captured within\nthe scope of practice of psychology. The proposed legislation would\nreverse the negative impact of the 2003 interpretive letter, which\nseverely limited access to these critically needed services,\nparticularly for ethnic minority patients and those from low\nsocioeconomic backgrounds.\n\nThe legislation would require that testing technicians have a\nBachelor's degree in psychology or a related field; be trained by a\nlicensed psychologist in a non-school setting where the ratio of\ntechnician to licensed psychologist does not exceed 3:1; and also\nrequires that technicians not provide opinions or interpret data.\n\nThe practice of employing non-doctoral level technicians for\nobjective, standardized psychological and neuropsychological testing\nhad been a standard practice in New York until the promulgation of the\ninterpretative letter of 2003, is widespread nationally in the\nprofession, and is supported by all professional organizations\nincluding the American Psychological Association (APA), the\nNeuropsychology Division of the APA, the American Academy of Clinical\nNeuropsychology, the American.  Board of Professional Neuropsychology,\nthe National Academy of Neuropsychology and the International\nNeuropsychology Society.  Additionally, current Medicare regulations\nallow for the use of testing technicians when diagnostic psychological\ntesting is furnished under the supervision of a physician or clinical\npsychologist. This is represented by the CPT code 96119. The Veterans\nAdministration continues to use testing technicians in\nneuropsychological practice throughout the country, including in New\nYork State. Although psychologists have been restricted from using\ntesting technicians as a result of the interpretive letter in 2002,\nphysicians have continued unrestricted use of testing technicians.\nThis is an important division of labor in a psychologist's practice,\nwhich would allow the licensed psychologist to focus more directly on\naspects of their practice which require the highest degree of\ntraining, clinical judgment and the ability to diagnose and treat\nindividuals in their practices. Moreover, use of technicians is a cost\n\nefficient means of providing this clinical service which is\nparticularly important in the midst of healthcare reform.\n\nThe time has come to revise New York's laws to more accurately reflect\ncurrent and common practices in the field of neuropsychology.\n\n PRIOR LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS :\n\nS4176B of 2014\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1865B",
+    "publishDate": "2015-06-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3563",
+       "basePrintNoStr": "A3563-2015",
+       "printNo": "A3563C",
+       "session": 2015,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1865",
+ "basePrintNoStr": "S1865-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 48,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2015
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2015
+   }
+  ],
+  "size": 8
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2015
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2015-05-18",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2015-06-09",
+    "billCalNo": 1286,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2015-01-15T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Higher Education",
+    "referenceDate": "2015-05-18T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4176",
+    "basePrintNoStr": "S4176-2013",
+    "printNo": "S4176B",
+    "session": 2013,
+    "version": "B"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1865B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-01-15T11:19:02",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2015-05-18T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2015-06-09T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2015-01-15T11:19:02",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 53,
+   "fullName": "David J. Valesky",
+   "imgName": "395_david_j._valesky.jpg",
+   "incumbent": false,
+   "memberId": 395,
+   "sessionMemberId": 725,
+   "sessionYear": 2015,
+   "shortName": "VALESKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2015-06-09",
+  "billCalNo": 1286,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A3563",
+  "basePrintNoStr": "A3563-2015",
+  "session": 2015
+ },
+ "summary": "Exempts certain persons who administer and score objective psychological tests from provisions of law relating to the practice of the profession of psychology.",
+ "title": "Exempts certain persons who administer and score objective psychological tests from provisions of law relating to the practice of the profession of psychology",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1865",
+     "basePrintNoStr": "S1865-2015",
+     "printNo": "S1865A",
+     "session": 2015,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Higher Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 727,
+         "sessionYear": 2015,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Thomas Croci",
+         "imgName": "893_thomas_croci.jpg",
+         "incumbent": false,
+         "memberId": 893,
+         "sessionMemberId": 887,
+         "sessionYear": 2015,
+         "shortName": "CROCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 718,
+         "sessionYear": 2015,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Rich Funke",
+         "imgName": "887_rich_funke.jpg",
+         "incumbent": false,
+         "memberId": 887,
+         "sessionMemberId": 881,
+         "sessionYear": 2015,
+         "shortName": "FUNKE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 696,
+         "sessionYear": 2015,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 707,
+         "sessionYear": 2015,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 694,
+         "sessionYear": 2015,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 879,
+         "sessionYear": 2015,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 713,
+         "sessionYear": 2015,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 701,
+         "sessionYear": 2015,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 723,
+         "sessionYear": 2015,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 873,
+         "sessionYear": 2015,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Susan Serino",
+         "imgName": "890_susan_serino.jpg",
+         "incumbent": false,
+         "memberId": 890,
+         "sessionMemberId": 884,
+         "sessionYear": 2015,
+         "shortName": "SERINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 704,
+         "sessionYear": 2015,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 710,
+         "sessionYear": 2015,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 725,
+         "sessionYear": 2015,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 16
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 702,
+         "sessionYear": 2015,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 714,
+         "sessionYear": 2015,
+         "shortName": "PERALTA"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2015-06-02",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

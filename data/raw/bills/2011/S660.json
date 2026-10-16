@@ -1,0 +1,402 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S660",
+     "basePrintNoStr": "S660-2011",
+     "printNo": "S660",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-01-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S660",
+     "basePrintNoStr": "S660-2011",
+     "printNo": "S660",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-01-04",
+    "sequenceNo": 2,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the legislative law, in relation to apportionment of congressional, senate and assembly districts; and to repeal section 83-m of such law relating to the legislative task force on demographic research and reapportionment",
+    "basePrintNo": "S660",
+    "basePrintNoStr": "S660-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 77,
+       "sessionYear": 2011,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 84,
+       "sessionYear": 2011,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 76,
+       "sessionYear": 2011,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 107,
+       "sessionYear": 2011,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 66,
+       "sessionYear": 2011,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 64,
+       "sessionYear": 2011,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 97,
+       "sessionYear": 2011,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 106,
+       "sessionYear": 2011,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 35,
+       "fullName": "Andrea Stewart-Cousins",
+       "imgName": "396_andrea_stewart-cousins.jpg",
+       "incumbent": true,
+       "memberId": 396,
+       "sessionMemberId": 90,
+       "sessionYear": 2011,
+       "shortName": "STEWART-COUSINS"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§5-a & 12, rpld §83-m, add Art 6-A §§93 - 99, Leg L",
+    "lawSection": "Legislative Law",
+    "memo": "BILL NUMBER:S660\n\nTITLE OF BILL:\nAn act\nto amend the legislative law, in relation to apportionment of\ncongressional, senate and assembly districts; and to repeal section 83-m\nof such law relating to the legislative task force on demographic\nresearch and reapportionment\n\nPURPOSE OR GENERAL IDEA OF BILL:\nTo establish an independent reapportionment commission to propose for\napproval by the state legislature district boundaries for congress,\nstate Senate and Assembly districts every ten years following the U.S.\nCensus.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nThis bill would establish a citizen apportionment commission that\nwould draw maps for congressional and state legislative district\nboundaries every ten years following the U.S. Census. The commission\nwould propose district boundaries that would be submitted to the\nlegislature for approval. AS many as three plans would be developed,\nwith public hearings required if the first two plans are rejected, at\nwhich the legislature would testify to the commission regarding any\nobjections to the plan. The legislature would have the ability to\namend only a third plan, which would be submitted by the commission.\nThus, the legislature would have the ultimate authority in approving\na final plan, with the ability to amend a third plan should previous\nplans be rejected.\n\nThe district lines for all plans would be drawn according to a set of\nprinciples and guidelines that do not abridge or deny minority voting\nrights while seeking to align districts as best as possible with\nlocal boundaries and community character to ensure the even-handed\nand nonpartisan drawing of lines. The citizen apportionment\ncommission would be appointed by the legislative leaders from a pool\nof candidates who are vetted for conflicts of interest by a separate\nnominations committee.\n\nThe specific provisions of the legislation are detailed below.\n\nSections 1 and 2 - Removes mention of the legislative task force on\ndemographic research and reapportionment (LATFOR) from sections 5-a\nand 12 of the legislative law, replacing it with the civilian\napportionment commission.\n\nSection 3 - Repeals section 83-m of the legislative law with regard to\nthe formation of LATFOR.\n\nSection 4 - Amends the legislative law by adding a new article 6-a with\nregard to the creation of a citizen apportionment commission and\napportionment nominations committee.\n\nThe nominations committee would be composed of eight members, with the\ntemporary president of the senate, speaker of the assembly, minority\nleader of the senate, and minority leader of the assembly each\nappointing two members. Members could not serve if they currently\n\n\nhold or, in the past two years, have held elective or public office,\na position as a lobbyist, a political party position, or are a\nrelative or spouse of an elected or public official.\n\nThe nominations committee develops a list of 40 persons known as the\n\"nominations pool\" who are vetted for conflicts of interest (such as\nhaving held or holding public office, being a registered lobbyist,\namong other items described above), and consist of the following\nmembers: 15 persons enrolled as Democrats, 15 persons enrolled as\nRepublicans, and 10 persons not enrolled as Democrats or Republicans.\nMembers would also be selected to represent the geographic, racial,\nethnic, and gender diversity of the state.\n\nThe apportionment commission would be selected from the members of the\nnominations pool, with each legislative leader (majority and\nminority) appointing two members, for a total of eight members. The\neight members would then appoint three additional members, One of\nwhom would serve as Chair of the commission. No more than four\nmembers of the apportionment commission would be enrolled in the same\npolitical party, and members would be selected to represent the\ndiversity of the state as described above. The commission would be\ncharged with developing reapportionment plans and would make such\nplans and corresponding data available to the public.\n\nAll apportionment plans would be drawn according to the following\nprinciples:\n\n- all congressional district shall be as nearly equal in population as\npracticable;\n- districts shall be contiguous;\n- districts shall not be established that abridge or deny minority\nvoting rights;\n- districts shall not be drawn to favor or oppose any political party,\nincumbent, or candidates for office;\n- the most and least populous senate and assembly districts shall not\nexceed the mean population of districts for each house by more than\none percent;\n- counties and county subdivisions shall not be divided in the\nformation of districts, and where it is unavoidable, more populous\ncounties or subdivisions will be divided in preference to those with\nsmaller populations;\n- villages shall not be divided;\n- districts shall be as compact as possible; and\n- districts shall unite communities of interest.\n\nThe commission would hold public hearings throughout the state on the\nfirst apportionment plan submitted to the legislature. After the\npublic hearings, the plan would require a vote of the legislature\nwithout amendments. If the proposal is rejected, the commission would\nsubmit an amended proposal after hearing the reasons given by the\nlegislature\nregarding the first plan's rejection at a public hearing. The second\nplan, again, would be voted upon by the legislature without amendments.\nIf the second proposal is also rejected, the commission would submit a\nthird plan following a second public hearing at which the legislature\nwould testify. The third plan would be subject to the normal\namendment process.\n\n\nJUSTIFICATION:\nConcerned New Yorkers have indicated that the current reapportionment\nprocess exposes the legislature to claims that the deck is stacked to\nfavor the re-election of incumbents and to discourage potential\nchallengers, as signified by the large number of unopposed elections\nand the largely uncompetitive nature of most other contests.\nFurthermore, it appears as if voters are selected by legislators\nthrough the redistricting process, rather than voters selecting the\ncandidates of their choice. The oddly shaped districts are perceived\nto be drawn to maximize the election of incumbents above all else,\ncreating disjointed boundaries that are not aligned to local\ndivisions and undermine the fabric of the community.\n\nWhile most legislators are being re-elected because of their diligent\nefforts to represent their constituents, the appearance that the\nreapportionment process is subject to conflicts of interests should\nbe eliminated. An independent commission would enable the\nreapportionment process to unfold in a manner that debunks any claims\nthat legislators are primarily concerned with apportioning districts\nin order to facilitate their own re-elections.\n\nThe process proposed in this bill is similar to that used successfully\nin Iowa for many years and recently implemented in California, and is\nsupported by all the leading good government organizations in New York.\n\nPRIOR LEGISLATIVE HISTORY:\nS.7124 in 2006\nS.1155 in 2007\nS.1614 in 2009\n\nFISCAL IMPLICATIONS:\nTo be determined.\n\nEFFECTIVE DATE:\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S660",
+    "publishDate": "2010-12-28",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5602",
+       "basePrintNoStr": "A5602-2011",
+       "printNo": "A5602",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S660",
+ "basePrintNoStr": "S660-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-01-04",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2011-01-05T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1614",
+    "basePrintNoStr": "S1614-2009",
+    "printNo": "S1614B",
+    "session": 2009,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S1155",
+    "basePrintNoStr": "S1155-2007",
+    "printNo": "S1155",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S660",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-12-28T14:53:34",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-12-28T14:53:34",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 49,
+   "fullName": "David J. Valesky",
+   "imgName": "395_david_j._valesky.jpg",
+   "incumbent": false,
+   "memberId": 395,
+   "sessionMemberId": 89,
+   "sessionYear": 2011,
+   "shortName": "VALESKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-01-04",
+  "billCalNo": null,
+  "committeeName": "Investigations And Government Operations",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes an apportionment commission to create apportionment plans for congressional and state legislative districts based on decennial federal census, which shall be considered by and voted upon by the state legislature; eliminates the legislative task force on demographic research and reapportionment.",
+ "title": "Establishes apportionment commission to create apportionment plans for congressional and state legislative districts based on federal censuses; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

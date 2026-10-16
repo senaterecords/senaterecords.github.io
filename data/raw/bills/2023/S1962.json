@@ -1,0 +1,210 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1962",
+     "basePrintNoStr": "S1962-2023",
+     "printNo": "S1962",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RACING, GAMING AND WAGERING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1962",
+     "basePrintNoStr": "S1962-2023",
+     "printNo": "S1962",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO RACING, GAMING AND WAGERING"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the racing, pari-mutuel wagering and breeding law, in relation\nto the definition of wager and the licensing of mobile sports wagering\noperators",
+    "basePrintNo": "S1962",
+    "basePrintNoStr": "S1962-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§1367 & 1367-a, RWB L",
+    "lawSection": "Racing, Pari-Mutuel Wagering and Breeding Law",
+    "memo": " \nBILL NUMBER: S1962\n\nSPONSOR: ADDABBO\n \nTITLE OF BILL:\n\nAn act to amend the racing, pari-mutuel wagering and breeding law, in\nrelation to the definition of wager and the licensing of mobile sports\nwagering operators\n\n \nPURPOSE:\n\nTo update the law related to promotional credits, to codify the existing\ntax rates, and to license additional operators.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Adds \"thing of value\" to the definition of sports wager.\n\nSection 2: amends the definition of \"sports wagering gross revenue\" to\nexclude wagers placed with promotional credits.\n\nSection 3: Clarifies that the taxes paid under this section shall be in\nlieu of all other state and local taxes.\n\nSection 4: Allows loses to be carried forward from previous month in\ndetermining overall revenue\n\nSection 5: Codifies the tax rates to be paid, establishes an application\nprocess, and directs the Commission to allow a total of fourteen mobile\noperators.\n\nSection 6: Provides act shall take effect immediately.\n\n \nJUSTIFICATION:\n\nNew York State recently authorized mobile sports betting in New York and\nlicensed nine operators. While there has been an exciting start to\nmobile sports wagering in New York, there is still room for improvement.\nThis legislation would clarify and update the laws governing the current\noperations and would direct the Gaming Commission to issue additional\nmobile sports wagering licenses so that we can continue to grow and\nimprove the market.\n\n \nLEGISLATIVE HISTORY:\n\n2022: S. 8471 - Reported to Finance\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1962",
+    "publishDate": "2023-01-17",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PML1367",
+        "PML1367-A"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3666",
+       "basePrintNoStr": "A3666-2023",
+       "printNo": "A3666",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1962",
+ "basePrintNoStr": "S1962-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Racing, Gaming And Wagering",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Racing, Gaming And Wagering",
+    "referenceDate": "2023-01-17T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Racing, Gaming And Wagering",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8471",
+    "basePrintNoStr": "S8471-2021",
+    "printNo": "S8471",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1962",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-17T15:28:31.748201",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-01-17T15:28:31.748201",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 15,
+   "fullName": "Joseph P. Addabbo Jr.",
+   "imgName": "384_joseph_p._addabbo_jr.jpg",
+   "incumbent": true,
+   "memberId": 384,
+   "sessionMemberId": 2004,
+   "sessionYear": 2023,
+   "shortName": "ADDABBO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Racing, Gaming And Wagering",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Amends the definition of sports wager to include other things of value; changes the licensing requirement for mobile sports wagering operators; provides the state shall by no later than January 31, 2024 have fourteen operators and by January 31, 2025 have sixteen operators; provides tax rates shall be determined based on the number of operators.",
+ "title": "Amends the definition of wager and changes the licensing requirements for mobile sports wagering operators",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

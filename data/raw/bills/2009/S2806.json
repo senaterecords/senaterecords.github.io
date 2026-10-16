@@ -1,0 +1,241 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2806",
+     "basePrintNoStr": "S2806-2009",
+     "printNo": "S2806",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2806",
+     "basePrintNoStr": "S2806-2009",
+     "printNo": "S2806",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-22",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.216"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2806",
+     "basePrintNoStr": "S2806-2009",
+     "printNo": "S2806",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-27",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2806",
+     "basePrintNoStr": "S2806-2009",
+     "printNo": "S2806",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-28",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2806",
+     "basePrintNoStr": "S2806-2009",
+     "printNo": "S2806",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-30",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A6565"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S2806",
+    "basePrintNoStr": "S2806-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §11.00, Loc Fin L",
+    "lawSection": "Local Finance Law",
+    "memo": " BILL NUMBER:  S2806\n\n TITLE OF BILL :\nAn act to amend the local finance law, in relation to authorizing and\nempowering the county of Rockland to amortize the cost of the targeted\ncounty retirement program of the county of Rockland\n\n\n PURPOSE :\nThe purpose of this bill is to make explicit the ability of the County\nof Rockland to issue bonds authorized by the Rockland County\nLegislature.\n\n SUMMARY OF PROVISIONS :\nSection 1, authorizing and empowering the County of Rockland to\namortize its early retirement incentive over a period of ten years.\n\nSection 2, effective date.\n\n JUSTIFICATION :\n\nThis legislation addresses the County of Rockland's need to amortize\nits early retirement incentive over a period of ten years in order to\nachieve maximum savings for its taxpayers. By amortizing this cost\nover ten years, it will help the County of Rockland alleviate certain\npressures on its current cash flow issue.\n\n LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS :\n\nNone to the State. This bill will save the County of Rockland more\nthan $6,000,000 in taxpayer dollars for 2009.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2806",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6565",
+       "basePrintNoStr": "A6565-2009",
+       "printNo": "A6565",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2806",
+ "basePrintNoStr": "S2806-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-03",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-04-28",
+    "billCalNo": 216,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2009-03-03T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2806",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 146
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 38,
+   "fullName": "Thomas P. Morahan",
+   "imgName": "Thomas P. Morahan.jpg",
+   "incumbent": false,
+   "memberId": 441,
+   "sessionMemberId": 2,
+   "sessionYear": 2009,
+   "shortName": "MORAHAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-04-28",
+  "billCalNo": 216,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A6565",
+  "basePrintNoStr": "A6565-2009",
+  "session": 2009
+ },
+ "summary": "Authorizes and empowers the county of Rockland to amortize the cost of the targeted county retirement program of the county of Rockland.",
+ "title": "Authorizes and empowers the county of Rockland to amortize the cost of the targeted county retirement program of the county of Rockland",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

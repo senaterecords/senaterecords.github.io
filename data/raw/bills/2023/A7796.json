@@ -1,0 +1,316 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A7796",
+     "basePrintNoStr": "A7796-2023",
+     "printNo": "A7796",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-06-15",
+    "sequenceNo": 1,
+    "text": "REFERRED TO VETERANS' AFFAIRS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7796",
+     "basePrintNoStr": "A7796-2023",
+     "printNo": "A7796",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO VETERANS' AFFAIRS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7796",
+     "basePrintNoStr": "A7796-2023",
+     "printNo": "A7796",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-06-03",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO VETERANS' AFFAIRS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7796",
+     "basePrintNoStr": "A7796-2023",
+     "printNo": "A7796A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-06-03",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 7796A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property tax law, in relation to a real property tax\nexemption for property owned by certain persons performing active duty in a\ncombat zone",
+    "basePrintNo": "A7796",
+    "basePrintNoStr": "A7796-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §458-d, RPT L",
+    "lawSection": "Real Property Tax Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A7796",
+    "publishDate": "2023-06-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the real property tax law, in relation to a real property tax\nexemption for property owned by certain persons performing active duty in a\ncombat zone",
+    "basePrintNo": "A7796",
+    "basePrintNoStr": "A7796-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §458-d, RPT L",
+    "lawSection": "Real Property Tax Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A7796A",
+    "publishDate": "2024-06-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "RPT458-D"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S5442",
+       "basePrintNoStr": "S5442-2023",
+       "printNo": "S5442A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A7796",
+ "basePrintNoStr": "A7796-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-06-03",
+    "billCalNo": null,
+    "committeeName": "Veterans' Affairs",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Veterans' Affairs",
+    "referenceDate": "2023-06-15T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Veterans' Affairs",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Veterans' Affairs",
+    "referenceDate": "2024-06-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A5766",
+    "basePrintNoStr": "A5766-2021",
+    "printNo": "A5766",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A5344",
+    "basePrintNoStr": "A5344-2019",
+    "printNo": "A5344A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A9025",
+    "basePrintNoStr": "A9025-2017",
+    "printNo": "A9025",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A6520",
+    "basePrintNoStr": "A6520-2015",
+    "printNo": "A6520",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A566",
+    "basePrintNoStr": "A566-2013",
+    "printNo": "A566A",
+    "session": 2013,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A5455",
+    "basePrintNoStr": "A5455-2011",
+    "printNo": "A5455",
+    "session": 2011,
+    "version": ""
+   }
+  ],
+  "size": 6
+ },
+ "printNo": "A7796A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-06-15T14:50:00.790915",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-06-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-06-15T13:43:33.466179",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 11,
+   "fullName": "Kimberly Jean-Pierre",
+   "imgName": "901_jean-pierre.jpg",
+   "incumbent": false,
+   "memberId": 901,
+   "sessionMemberId": 2142,
+   "sessionYear": 2023,
+   "shortName": "JEAN-PIERRE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-06-03",
+  "billCalNo": null,
+  "committeeName": "Veterans' Affairs",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Authorizes municipalities to offer a real property tax exemption for property owned by certain persons performing active duty in a combat zone in an amount to the extent of fifteen percent of the assessed value of the real property, but shall not exceed twelve thousand dollars.",
+ "title": "Relates to a real property tax exemption for property owned by certain persons performing active duty in a combat zone",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

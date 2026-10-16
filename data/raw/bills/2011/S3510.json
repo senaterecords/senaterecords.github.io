@@ -1,0 +1,1798 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-02-24",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-04-25",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2011-04-25",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 3510A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2011-05-17",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2011-05-17",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 3510B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-20",
+    "sequenceNo": 6,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-20",
+    "sequenceNo": 7,
+    "text": "ORDERED TO THIRD READING CAL.1383"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-20",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A5502B"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law, in relation to the purchase of prescription drugs",
+    "basePrintNo": "S3510",
+    "basePrintNoStr": "S3510-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 66,
+       "sessionYear": 2011,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 78,
+       "sessionYear": 2011,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 85,
+       "sessionYear": 2011,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 102,
+       "sessionYear": 2011,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 107,
+       "sessionYear": 2011,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 87,
+       "sessionYear": 2011,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 118,
+       "sessionYear": 2011,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 84,
+       "sessionYear": 2011,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Carl Kruger",
+       "imgName": "Carl Kruger.jpg",
+       "incumbent": false,
+       "memberId": 420,
+       "sessionMemberId": 114,
+       "sessionYear": 2011,
+       "shortName": "KRUGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 103,
+       "sessionYear": 2011,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Tom Libous",
+       "imgName": "410_tom_libous.jpg",
+       "incumbent": false,
+       "memberId": 410,
+       "sessionMemberId": 104,
+       "sessionYear": 2011,
+       "shortName": "LIBOUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 101,
+       "sessionYear": 2011,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 91,
+       "sessionYear": 2011,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 122,
+       "sessionYear": 2011,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Lee M. Zeldin",
+       "imgName": "Lee M. Zeldin.jpg",
+       "incumbent": false,
+       "memberId": 404,
+       "sessionMemberId": 98,
+       "sessionYear": 2011,
+       "shortName": "ZELDIN"
+      }
+     ],
+     "size": 28
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3216, 3221, 4303 & 4322, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S3510\n\nTITLE OF BILL:\nAn act\nto amend the insurance law,\nin relation to the purchase of\nprescription drugs\n\nPURPOSE OR GENERAL IDEA OF BILL:\nProhibits health insurance policies from mandating their insured to\npurchase prescribed drugs from a mail order pharmacy.\n\nSUMMARY OF PROVISIONS:\nSubsection (i) of Section 3216 of the insurance law is amended to\npreclude health insurance policies from mandating that their insured\npurchase prescribed drugs from mail order pharmacies. Such policies\nare also precluded from imposing a co-payment fee or other condition\non an insured who chooses not to purchase from a designated mail\norder pharmacy.\n\nA new paragraph 18 is also added to subsection (1) of Section 3221 of\nsuch law and a new Subsection (hh) is likewise added to section 4303 to\nimpose such a prohibition on all policies of health insurance in the\nstate including those issued by health services or medical expense\nindemnity corporations issuing group contracts.\n\nJUSTIFICATION:\nThis legislation will provide freedom of choice to consumers who have\ncoverage for prescribed drugs as part of their health insurance. When\na policy mandates purchase from a specific mail order pharmacy the\nconsumer is forced to purchase an interim supply of the prescribed\ndrug from his or her neighborhood pharmacist who is familiar with his\nor her medical history. The risk to the consumer in this situation is\nobvious.\n\nFurthermore, the neighborhood pharmacy in these situations is forced\nto bear the burden of educating the patient as to the use and\npotential effects of the prescribed drug. The inability of the\nconsumer to purchase the full prescription from the neighborhood\npharmacy imposes this burden inequitably, thereby providing the mail\norder house with an economic advantage that the local provider cannot\novercome.\n\nFinally, many consumers, especially senior citizens, rely on their\nlocal pharmacist for the service that they provide with respect to\nmonitoring the regimen of drugs that they take. A mandate of purchase\nby mail denies them of this important service and confidence.\n\nPRIOR LEGISLATIVE HISTORY:\n\nS.6007 (2009-2010), Referred to Insurance\nA.2808/S.8775 (2007-2008)\nA.6934 (2005-2006)\n\nFISCAL IMPLICATIONS:\nNone.\n\n\nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome law and shall apply to all policies and contracts issued,\nrenewed, modified, altered or amended on or after such effective date.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3510",
+    "publishDate": "2011-02-24",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5502",
+       "basePrintNoStr": "A5502-2011",
+       "printNo": "A5502",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the insurance law, in relation to the purchase of prescription drugs",
+    "basePrintNo": "S3510",
+    "basePrintNoStr": "S3510-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 66,
+       "sessionYear": 2011,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 78,
+       "sessionYear": 2011,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 85,
+       "sessionYear": 2011,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 102,
+       "sessionYear": 2011,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 107,
+       "sessionYear": 2011,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 87,
+       "sessionYear": 2011,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 118,
+       "sessionYear": 2011,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 84,
+       "sessionYear": 2011,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Carl Kruger",
+       "imgName": "Carl Kruger.jpg",
+       "incumbent": false,
+       "memberId": 420,
+       "sessionMemberId": 114,
+       "sessionYear": 2011,
+       "shortName": "KRUGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 103,
+       "sessionYear": 2011,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Tom Libous",
+       "imgName": "410_tom_libous.jpg",
+       "incumbent": false,
+       "memberId": 410,
+       "sessionMemberId": 104,
+       "sessionYear": 2011,
+       "shortName": "LIBOUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 101,
+       "sessionYear": 2011,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 91,
+       "sessionYear": 2011,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 122,
+       "sessionYear": 2011,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Lee M. Zeldin",
+       "imgName": "Lee M. Zeldin.jpg",
+       "incumbent": false,
+       "memberId": 404,
+       "sessionMemberId": 98,
+       "sessionYear": 2011,
+       "shortName": "ZELDIN"
+      }
+     ],
+     "size": 28
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3216, 3221, 4303 & 4322, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S3510A\n\nTITLE OF BILL:\nAn act\nto amend the insurance law,\nin relation to the purchase of\nprescription drugs\n\nPURPOSE OR GENERAL IDEA OF BILL:\nProhibits health insurance policies from mandating their insured to\npurchase prescribed drugs from a mail order pharmacy.\n\nSUMMARY OF PROVISIONS:\nSubsection (i) of Section 3216 of the insurance law is amended to\npreclude health insurance policies from mandating that their insured\npurchase prescribed drugs from mail order pharmacies, provided that\nthe non mail order pharmacy offers to accept a comparable price. Such\npolicies are also precluded from imposing a co-payment fee or other\ncondition on an insured who chooses not to purchase from a designated\nmail order pharmacy.\n\nA new paragraph 18 is also added to subsection (1) of Section 3221 of\nsuch law and a new Subsection (hh) is likewise added to section 4303\nto impose such a prohibition on all policies of health insurance in\nthe state including those issued by health services or medical\nexpense indemnity corporations issuing group contracts.\n\nJUSTIFICATION:\nThis legislation will provide freedom of choice to consumers who have\ncoverage for prescribed drugs as part of their health insurance. When\na policy mandates purchase from a specific mail order pharmacy the\nconsumer is forced to purchase an interim supply of the prescribed\ndrug from his or her neighborhood pharmacist who is familiar with his\nor her medical history. The risk to the consumer in this situation is\nobvious. This bill also offers cost protections for consumers and\ninsurance carriers by ensuring that the protections offered in this\nbill are only applied when a non-mail order pharmacy offers a\ncomparable price.\n\nFurthermore, the neighborhood pharmacy in these situations is forced\nto bear the burden of educating the patient as to the use and\npotential effects of the prescribed drug. The inability of the\nconsumer to purchase the full prescription from the neighborhood\npharmacy imposes this burden inequitably, thereby providing the mail\norder house with an economic advantage that the local provider cannot\novercome.\n\nFinally, many consumers, especially senior citizens, rely on their\nlocal pharmacist for the service that they provide with respect to\nmonitoring\nthe regimen of drugs that they take. A mandate of purchase by mail\ndenies them of this important service and confidence.\n\nPRIOR LEGISLATIVE HISTORY:\n\n\nS.6007 (2009-2010), Referred to Insurance\nA.2808/S.8775 (2007-2008)\nA.6934 (2005-2006)\n\nFISCAL IMPLICATIONS:\nNone.\n\nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome law and shall apply to all policies and contracts issued,\nrenewed, modified, altered or amended on or after such effective date\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3510A",
+    "publishDate": "2011-04-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the insurance law, in relation to the purchase of prescription drugs",
+    "basePrintNo": "S3510",
+    "basePrintNoStr": "S3510-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 66,
+       "sessionYear": 2011,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 76,
+       "sessionYear": 2011,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 78,
+       "sessionYear": 2011,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 85,
+       "sessionYear": 2011,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 102,
+       "sessionYear": 2011,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 107,
+       "sessionYear": 2011,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 79,
+       "sessionYear": 2011,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Martin J. Golden",
+       "imgName": "422_martin_j._golden.jpg",
+       "incumbent": false,
+       "memberId": 422,
+       "sessionMemberId": 116,
+       "sessionYear": 2011,
+       "shortName": "GOLDEN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 87,
+       "sessionYear": 2011,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 92,
+       "sessionYear": 2011,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 118,
+       "sessionYear": 2011,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 74,
+       "sessionYear": 2011,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 84,
+       "sessionYear": 2011,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 103,
+       "sessionYear": 2011,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Tom Libous",
+       "imgName": "410_tom_libous.jpg",
+       "incumbent": false,
+       "memberId": 410,
+       "sessionMemberId": 104,
+       "sessionYear": 2011,
+       "shortName": "LIBOUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Carl L. Marcellino",
+       "imgName": "407_carl_l_marcellino.jpg",
+       "incumbent": false,
+       "memberId": 407,
+       "sessionMemberId": 101,
+       "sessionYear": 2011,
+       "shortName": "MARCELLINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 91,
+       "sessionYear": 2011,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Michael F. Nozzolio",
+       "imgName": "394_michael_f._nozzolio.jpg",
+       "incumbent": false,
+       "memberId": 394,
+       "sessionMemberId": 88,
+       "sessionYear": 2011,
+       "shortName": "NOZZOLIO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 122,
+       "sessionYear": 2011,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Lee M. Zeldin",
+       "imgName": "Lee M. Zeldin.jpg",
+       "incumbent": false,
+       "memberId": 404,
+       "sessionMemberId": 98,
+       "sessionYear": 2011,
+       "shortName": "ZELDIN"
+      }
+     ],
+     "size": 32
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3216, 3221 & 4303, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S3510B\n\nTITLE OF BILL:\nAn act\nto amend the insurance law,\nin relation to the purchase of\nprescription drugs\n\nPURPOSE OR GENERAL IDEA OF BILL:\nProhibits health insurance policies from mandating their insured to\npurchase prescribed drugs from a mail order pharmacy.\n\nSUMMARY OF PROVISIONS:\nSubsection (i) of Section 3216 of the insurance law is amended to\npreclude health insurance policies from mandating that their insured\npurchase prescribed drugs from mail order pharmacies, provided that\nthe non mail order pharmacy offers to accept a comparable price. Such\npolicies are also precluded from imposing a co-payment fee or other\ncondition on an insured who chooses not to purchase from a designated\nmail order pharmacy.\n\nA new paragraph 18 is also added to subsection (1) of Section 3221 of\nsuch law and a new Subsection (hh) is likewise added to section 4303\nto impose such a prohibition on all policies of health insurance in\nthe state including those issued by health services or medical\nexpense indemnity corporations issuing group contracts.\n\nJUSTIFICATION:\nThis legislation will provide freedom of choice to consumers who have\ncoverage for prescribed drugs as part of their health insurance. When\na policy mandates purchase from a specific mail order pharmacy the\nconsumer is forced to purchase an interim supply of the prescribed\ndrug from his or her neighborhood pharmacist who is familiar with his\nor her medical history. The risk to the consumer in this situation is\nobvious.\nThis bill also offers cost protections for consumers and insurance\ncarriers by ensuring that the protections offered in this bill are\nonly applied when a non-mail order pharmacy offers a comparable price.\n\nFurthermore, the neighborhood pharmacy in these situations is forced\nto bear the burden of educating the patient as to the use and\npotential effects of the prescribed drug. The inability of the\nconsumer to purchase the full prescription from the neighborhood\npharmacy imposes this burden inequitably, thereby providing the mail\norder house with an economic advantage that the local provider cannot\novercome.\n\nFinally, many consumers, especially senior citizens, rely on their\nlocal pharmacist for the service that they provide with respect to\nmonitoring\nthe regimen of drugs that they take. A mandate of purchase by mail\ndenies them of this important service and confidence.\n\nPRIOR LEGISLATIVE HISTORY:\n\n\nS.6007 (2009-2010), Referred to Insurance\nA.2808/S.8775 (2007-2008)\nA.6934 (2005-2006)\n\nFISCAL IMPLICATIONS:\nNone.\n\nEFFECTIVE DATE:\nThis act shall take effect on the thirtieth day after it shall have\nbecome law and shall apply to all policies and contracts issued,\nrenewed, modified, altered or amended on or after such effective date.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3510B",
+    "publishDate": "2011-05-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5502",
+       "basePrintNoStr": "A5502-2011",
+       "printNo": "A5502B",
+       "session": 2011,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3510",
+ "basePrintNoStr": "S3510-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 56,
+    "year": 2011
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-20",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-20",
+    "billCalNo": 1383,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2011-02-24T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2011-04-25T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2011-05-17T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2011-06-20T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6007",
+    "basePrintNoStr": "S6007-2009",
+    "printNo": "S6007",
+    "session": 2009,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3510B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-02-24T09:59:43",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2011-04-25T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2011-05-17T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2011-02-24T09:59:43",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 62,
+   "fullName": "George D. Maziarz",
+   "imgName": "George D. Maziarz.jpg",
+   "incumbent": false,
+   "memberId": 411,
+   "sessionMemberId": 105,
+   "sessionYear": 2011,
+   "shortName": "MAZIARZ"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-20",
+  "billCalNo": 1383,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5502",
+  "basePrintNoStr": "A5502-2011",
+  "session": 2011
+ },
+ "summary": "Prohibits health insurers from requiring that the insured purchase prescribed drugs from a mail order pharmacy or pay a co-payment fee when such purchases are not made from a mail order pharmacy if a similar fee is not charged for drugs from a mail order pharmacy.",
+ "title": "Prohibits health insurers from requiring that the insured purchase prescribed drugs from mail order pharmacy",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3510",
+     "basePrintNoStr": "S3510-2011",
+     "printNo": "S3510B",
+     "session": 2011,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "ABD": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 75,
+         "sessionYear": 2011,
+         "shortName": "MONTGOMERY"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "James S. Alesi",
+         "imgName": "James S. Alesi.jpg",
+         "incumbent": false,
+         "memberId": 392,
+         "sessionMemberId": 86,
+         "sessionYear": 2011,
+         "shortName": "ALESI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 66,
+         "sessionYear": 2011,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 120,
+         "sessionYear": 2011,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "Thomas K. Duane",
+         "imgName": "Thomas K. Duane.jpg",
+         "incumbent": false,
+         "memberId": 387,
+         "sessionMemberId": 81,
+         "sessionYear": 2011,
+         "shortName": "DUANE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 112,
+         "sessionYear": 2011,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 118,
+         "sessionYear": 2011,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 74,
+         "sessionYear": 2011,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Owen H. Johnson",
+         "imgName": "Owen H. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 386,
+         "sessionMemberId": 80,
+         "sessionYear": 2011,
+         "shortName": "JOHNSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 95,
+         "sessionYear": 2011,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 68,
+         "sessionYear": 2011,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 113,
+         "sessionYear": 2011,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 104,
+         "sessionYear": 2011,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 101,
+         "sessionYear": 2011,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 105,
+         "sessionYear": 2011,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 88,
+         "sessionYear": 2011,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 110,
+         "sessionYear": 2011,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 69,
+         "sessionYear": 2011,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Stephen M. Saland",
+         "imgName": "Stephen M. Saland.jpg",
+         "incumbent": false,
+         "memberId": 402,
+         "sessionMemberId": 96,
+         "sessionYear": 2011,
+         "shortName": "SALAND"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "John L. Sampson",
+         "imgName": "369_john_l._sampson.jpg",
+         "incumbent": false,
+         "memberId": 369,
+         "sessionMemberId": 63,
+         "sessionYear": 2011,
+         "shortName": "SAMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 124,
+         "sessionYear": 2011,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 99,
+         "sessionYear": 2011,
+         "shortName": "SMITH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 90,
+         "sessionYear": 2011,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 22
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2011-06-20",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

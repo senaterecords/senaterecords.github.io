@@ -1,0 +1,1053 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4220",
+     "basePrintNoStr": "S4220-2011",
+     "printNo": "S4220",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4220",
+     "basePrintNoStr": "S4220-2011",
+     "printNo": "S4220",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-12-12",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4220",
+     "basePrintNoStr": "S4220-2011",
+     "printNo": "S4220A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2011-12-12",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 4220A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4220",
+     "basePrintNoStr": "S4220-2011",
+     "printNo": "S4220A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-01-04",
+    "sequenceNo": 4,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4220",
+     "basePrintNoStr": "S4220-2011",
+     "printNo": "S4220A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-05-01",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4220",
+     "basePrintNoStr": "S4220-2011",
+     "printNo": "S4220B",
+     "session": 2011,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2012-05-01",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 4220B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to prohibiting the use of hydraulic fracturing",
+    "basePrintNo": "S4220",
+    "basePrintNoStr": "S4220-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 76,
+       "sessionYear": 2011,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 78,
+       "sessionYear": 2011,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 64,
+       "sessionYear": 2011,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 120,
+       "sessionYear": 2011,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 79,
+       "sessionYear": 2011,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 74,
+       "sessionYear": 2011,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 84,
+       "sessionYear": 2011,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Carl Kruger",
+       "imgName": "Carl Kruger.jpg",
+       "incumbent": false,
+       "memberId": 420,
+       "sessionMemberId": 114,
+       "sessionYear": 2011,
+       "shortName": "KRUGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 71,
+       "sessionYear": 2011,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 63,
+       "sessionYear": 2011,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 97,
+       "sessionYear": 2011,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 106,
+       "sessionYear": 2011,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 20
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§23-0501 & 23-0305, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "BILL NUMBER:S4220\n\nTITLE OF BILL:\nAn act\nto amend the environmental conservation law, in relation to prohibiting\nthe use of hydraulic fracturing\n\nPURPOSE OR GENERAL IDEA OF THE BILL:\nThe purpose of this legislation\nis to prohibit the use of hydraulic fracturing in the process of\ndrilling for natural gas and/or oil.\n\nSUMMARY OF PROVISIONS:\nSection 1 of the bill amends paragraph b of subdivision 1 of section\n23-0501 of the environmental conservation law by adding a new\nsubparagraph 4 which defines \"Hydraulic Fracturing\" to mean\n\"fracturing of rock by man-made fluid-driven fracturing techniques\nfor the purpose of stimulating natural gas or oil well production\".\n\nSection 2 of the bill amends section 23-0305 of the environmental\nconservation law by adding a new subdivision 15 to prohibit the\nDepartment of Environmental Conservation from issuing any permit for\nthe drilling or operation of any well proposing to use hydraulic\nfracturing or hydraulic fracturing fluids for the extraction of gas\nand/or oil.\n\nSection 3 of the bill amends subdivision 3 of section 23-0501 of the\nenvironmental conservation law by renumbering it to subdivision 4 of\nsection 23-0501 and adds a new subdivision 3, paragraph a, to\nprohibit the Department of Environmental Conservation from issuing\nany permit for the drilling or operation of any well proposing to use\nhydraulic fracturing or hydraulic fracturing fluids for the\nextraction of gas and/or oil; and, paragraph b that defines hydraulic\nfracturing as the fracturing of rock by man-made fluid-driven\nfracturing techniques for the purpose of stimulating natural gas or\noil well production.\n\nSection 4 sets an immediate effective date.\n\nJUSTIFICATION:\n\nAs the price of oil continues its meteoric rise due to demand and\nregional instability in oil producing nations, the cry for fuel\nalternatives including natural gas gets louder. In addition, the need\nfor job creation becomes more imperative as New Yorkers try to\nrecover from the economic crises of recent years and the state\nattempts to balance an out of control budget. Each of these mounting\nconcerns compels the State to utilize its large natural gas reserves\nto alleviate these problems. Unfortunately, in our haste to find an\nexpedient and viable solution to these issues the State could easily\ncreate a situation where we put our citizens at grave risk of harm\n\nfrom an environmental disaster by expanding the use of hydraulic\nfracturing methods of extracting natural gas and oil.\n\nThe extraction of natural gas and oil reserves using hydraulic\nfracturing presents significant risk to the environment. This method\nof natural gas and oil extraction utilizes water combined with\nmultiple chemical additives, some of which are toxic and have been\nshown to be associated with public health risks such as cancer and\ndevelopmental delays. Unfortunately many companies involved in\ndrilling have been resistant to revealing which chemicals are\ncontained in their fracturing fluids, making it difficult for\ncommunities to assess their risk due to drilling operations. There\nare also additional chemical contamination risks posed by\ntransportation of chemicals to drilling sites and the storage of the\nmillions of gallons of used fluids that are produced through the\ndrilling process.\n\nMost importantly, a large proportion of the state's drinking water\nsupplies come from areas located above the Utica and Marcellus Shale\ngeological formations where much of the state's natural gas reserves\nexist. Use of hydraulic fracturing to extract these reserves\ninherently creates a tremendous risk of contamination to the State's\ndrinking water supply and in turn risk of a significant public health\ncrisis affecting millions of people both upstate and downstate.\n\nMoreover, communities located above the Utica and Marcellus Shales\nwould be further burdened by the construction of new roads to\naccommodate drilling sites, increased traffic, and potential\ndecreases in air quality due to emissions from drilling operations.\n\nThe risk of catastrophic danger to the environment, especially the\nstate's drinking water supplies, as a result hydraulic fracturing far\noutweighs the potential for job creation and promotion of a natural\ngas alternative to oil. Therefore, the practice of hydraulic\nfracturing should be banned throughout New York State.\n\nLEGISLATIVE HISTORY:\nNew Bill.\n\nFISCAL IMPLICATIONS:\nYet to be determined.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4220",
+    "publishDate": "2011-03-23",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7218",
+       "basePrintNoStr": "A7218-2011",
+       "printNo": "A7218",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to prohibiting the use of hydraulic fracturing and the disposal and/or processing of any fluid which was used in a hydraulic fracturing process",
+    "basePrintNo": "S4220",
+    "basePrintNoStr": "S4220-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 76,
+       "sessionYear": 2011,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 78,
+       "sessionYear": 2011,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 64,
+       "sessionYear": 2011,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 120,
+       "sessionYear": 2011,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 79,
+       "sessionYear": 2011,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 74,
+       "sessionYear": 2011,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 84,
+       "sessionYear": 2011,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 71,
+       "sessionYear": 2011,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 63,
+       "sessionYear": 2011,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 97,
+       "sessionYear": 2011,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 106,
+       "sessionYear": 2011,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 19
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§23-0501 & 23-0305, add §17-0513, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "BILL NUMBER:S4220A            REVISED 12/13/11\n\nTITLE OF BILL:\nAn act\nto amend the environmental conservation law, in relation to prohibiting\nthe use of hydraulic fracturing\nand the disposal and/or processing of any fluid which was used in a\nhydraulic fracturing process\n\nPURPOSE OR GENERAL IDEA OF THE BILL:\nThe purpose of this legislation\nis to prohibit the use of hydraulic fracturing in the process of\ndrilling for natural gas and/or oil and to prohibit the disposal\nand/or processing of hydrofracking fluids and drill cuttings.\n\nSUMMARY OF PROVISIONS:\nSection 1 of the bill amends paragraph b of subdivision 1 of section\n23-0501 of the environmental conservation law by adding a new\nsubparagraph 4 which defines \"Hydraulic Fracturing\" to mean\n\"fracturing of rock by man-made fluid-driven fracturing techniques\nfor the purpose of stimulating natural gas or oil well production\".\n\nSection 2 of the bill amends section 23-0305 of the environmental\nconservation law by adding a new subdivision 15 to prohibit the\nDepartment of Environmental Conservation from issuing any permit for\nthe drilling or operation of any well proposing to use hydraulic\nfracturing or hydraulic fracturing fluids for the extraction of gas\nand/or oil.\n\nSection 3 of the bill amends subdivision 3 of section 23-0501 of the\nenvironmental conservation law by renumbering it to subdivision 4 of\nsection 23-0501 and adds a new subdivision 3, paragraph a, to\nprohibit the Department of Environmental Conservation from issuing\nany permit for the drilling or operation of any well proposing to use\nhydraulic fracturing or hydraulic fracturing fluids for the\nextraction of gas and/or oil; and, paragraph b that defines hydraulic\nfracturing as the fracturing of rock by man-made fluid-driven\nfracturing techniques for the purpose of stimulating natural gas or\noil well production.\n\nSection 4 of the bill amends the environmental conservation law by\nadding a new section 17-0513 to prohibit the acceptance, disposal\nand/or processing of any fluid (including drill cuttings) used in a\nhydraulic fracturing process. Drilling fluids include drilling mud,\nchemical additives contained in or added to drilling fluids during\nhydraulic fracturing process, flow back water and any other residual\nliquids. Drill cuttings include solid products removed from the well\nbore during an oil or gas well drilling operation.\n\nSection 5 sets an immediate effective date.\n\nJUSTIFICATION:\nAs the price of oil continues its meteoric rise due to demand and\nregional instability in oil producing nations, the cry for fuel\nalternatives including natural gas gets louder. In addition, the need\nfor job creation becomes more imperative as New Yorkers try to\n\n\nrecover from the economic crises of recent years and the state\nattempts to balance an out of control budget. Each of these mounting\nconcerns compels the State to utilize its large natural gas reserves\nto alleviate these problems. Unfortunately, in our haste to find an\nexpedient and viable solution to these issues the State could easily\ncreate a situation where we put our citizens at grave risk of harm\nfrom an environmental disaster by expanding the use of hydraulic\nfracturing methods of extracting natural gas and oil.\n\nThe extraction of natural gas and oil reserves using hydraulic\nfracturing presents significant risk to the environment. This method\nof natural gas and oil extraction utilizes water combined with\nmultiple chemical additives, some of which are toxic and have been\nshown to be associated with public health risks such as cancer and\ndevelopmental delays. Unfortunately many companies involved in\ndrilling have been resistant to revealing which chemicals are\ncontained in their fracturing fluids, making it difficult for\ncommunities to assess their risk due to drilling operations.\nThere are also additional chemical contamination risks posed by\ntransportation of chemicals to drilling sites and the storage of the\nmillions of gallons of used fluids that are produced through the\ndrilling process.\n\nMost importantly, a large proportion of the state's drinking water\nsupplies come from areas located above the Utica and Marcellus Shale\ngeological formations where much of the state's natural gas reserves\nexist. Use of hydraulic fracturing to extract these reserves\ninherently creates a tremendous risk of contamination to the State's\ndrinking water supply and in turn risk of a significant public health\ncrisis affecting millions of people both upstate and downstate.\n\nMoreover, communities located above the Utica and Marcellus Shales\nwould be further burdened by the construction of new roads to\naccommodate drilling sites, increased traffic, and potential\ndecreases in air quality due to emissions from drilling operations.\n\nIn addition, the state currently allows hydrofracking waste products,\nincluding drill cuttings (pulverized rock) and drilling fluid, to be\ndumped in our landfills, spread on our fields and roads and \"treated\"\nin waste treatment facilities that are not necessarily equipped to\nproperly treat such materials. Much of this hydrofracking waste\nincludes low-level radioactive waste such as Ra-226 which is a known\ncarcinogen and is especially dangerous if inhaled or ingested. It is\nnot a stretch of the imagination to see that these waste products\ncould very easily find their way into local ground water directly\nexposing people by ingestion of the water or by inhaling dust that\ncomes from local landfills or from roads and fields where it has been\nspread.\n\nA significant amount of this hydrofracking waste is being imported\nfrom outside New York, primarily from neighboring Pennsylvania.\nTrucks cross New York State borders on a daily basis carrying this\nhighly dangerous waste into our state and place many of our citizens\nat great risk.\n\nThe risk of catastrophic danger to the environment, especially the\nstate's drinking water supplies, as a result hydraulic fracturing far\n\n\noutweighs the potential for job creation and promotion of a natural\ngas alternative to oil. Therefore, the both the practice of hydraulic\nfracturing and the disposal and/or processing of hydrofracking fluids\nand drill cuttings should be banned throughout New York State.\n\nLEGISLATIVE HISTORY:\nNew Bill.\n\nFISCAL IMPLICATIONS:\nYet to be determined.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4220A",
+    "publishDate": "2011-12-12",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7218",
+       "basePrintNoStr": "A7218-2011",
+       "printNo": "A7218A",
+       "session": 2011,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to prohibiting the use of hydraulic fracturing and the disposal and/or processing of any fluid which was used in a hydraulic fracturing process",
+    "basePrintNo": "S4220",
+    "basePrintNoStr": "S4220-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Eric Adams",
+       "imgName": "Eric Adams.jpg",
+       "incumbent": false,
+       "memberId": 382,
+       "sessionMemberId": 76,
+       "sessionYear": 2011,
+       "shortName": "ADAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 78,
+       "sessionYear": 2011,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 64,
+       "sessionYear": 2011,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Martin Malavé Dilan",
+       "imgName": "426_martin_malave_dilan.jpg",
+       "incumbent": false,
+       "memberId": 426,
+       "sessionMemberId": 120,
+       "sessionYear": 2011,
+       "shortName": "DILAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "Thomas K. Duane",
+       "imgName": "Thomas K. Duane.jpg",
+       "incumbent": false,
+       "memberId": 387,
+       "sessionMemberId": 81,
+       "sessionYear": 2011,
+       "shortName": "DUANE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 79,
+       "sessionYear": 2011,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Ruth Hassell-Thompson",
+       "imgName": "380_ruth_hassell-thompson.jpg",
+       "incumbent": false,
+       "memberId": 380,
+       "sessionMemberId": 74,
+       "sessionYear": 2011,
+       "shortName": "HASSELL-THOMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 72,
+       "sessionYear": 2011,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Jeffrey D. Klein",
+       "imgName": "390_jeffrey_d._klein.jpg",
+       "incumbent": false,
+       "memberId": 390,
+       "sessionMemberId": 84,
+       "sessionYear": 2011,
+       "shortName": "KLEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 95,
+       "sessionYear": 2011,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 75,
+       "sessionYear": 2011,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Suzi Oppenheimer",
+       "imgName": "Suzi Oppenheimer.jpg",
+       "incumbent": false,
+       "memberId": 388,
+       "sessionMemberId": 82,
+       "sessionYear": 2011,
+       "shortName": "OPPENHEIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Bill Perkins",
+       "imgName": "375_bill_perkins.jpg",
+       "incumbent": false,
+       "memberId": 375,
+       "sessionMemberId": 69,
+       "sessionYear": 2011,
+       "shortName": "PERKINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 71,
+       "sessionYear": 2011,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "John L. Sampson",
+       "imgName": "369_john_l._sampson.jpg",
+       "incumbent": false,
+       "memberId": 369,
+       "sessionMemberId": 63,
+       "sessionYear": 2011,
+       "shortName": "SAMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 97,
+       "sessionYear": 2011,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 67,
+       "sessionYear": 2011,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 106,
+       "sessionYear": 2011,
+       "shortName": "SQUADRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 94,
+       "sessionYear": 2011,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 19
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§23-0501 & 23-0305, add §17-0513, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "BILL NUMBER:S4220B\n\nTITLE OF BILL:\nAn act\nto amend the environmental conservation law, in relation to prohibiting\nthe use of hydraulic fracturing\nand the disposal and/or processing of any fluid which was used in a\nhydraulic fracturing process\n\nPURPOSE OR GENERAL IDEA OF THE BILL:\nThe purpose of this legislation\nis to prohibit the use of hydraulic fracturing in the process of\ndrilling for natural gas and/or oil.\n\nSUMMARY OF PROVISIONS:\nSection 1 of the bill amends paragraph b of subdivision 1 of section\n23-0501 of the environmental conservation law by adding a new\nsubparagraph 4 which defines \"Hydraulic Fracturing\" to mean\n\"fracturing of rock by man-made fluid-driven fracturing techniques\nfor the purpose of stimulating natural gas or oil well production.\nAny fluid used in such a fracturing technique shall be deemed a\n'hydraulic fracturing fluid', including water or liquid propane gas.\"\n\nSection 2 of the bill amends section 23-0305 of the environmental\nconservation law by adding a new subdivision 15 to prohibit the\nDepartment of Environmental Conservation from issuing any permit for\nthe drilling or operation of any well proposing to use hydraulic\nfracturing or hydraulic fracturing fluids for the extraction of gas\nand/or oil.\n\nSection 3 of the bill amends subdivision 3 of section 23-0501 of the\nenvironmental conservation law by renumbering it to subdivision 4 of\nsection 23-0501 and adds a new subdivision 3, paragraph a, to\nprohibit the Department of Environmental Conservation from issuing\nany permit for the drilling or operation of any well proposing to use\nhydraulic fracturing or hydraulic fracturing fluids for the\nextraction of gas and/or oil; and, paragraph b that defines hydraulic\nfracturing as the fracturing of rock by man-made fluid-driven\nfracturing techniques for the purpose of stimulating natural gas or\noil well production.\n\nSection 4 of the bill amends the environmental conservation law by\nadding a new section 17-0513 to prohibit the acceptance, disposal\nand/or processing of any fluid (including drill cuttings) used in a\nhydraulic fracturing process.\nDrilling fluids include drilling mud, chemical additives contained in\nor added to drilling fluids during hydraulic fracturing process, flow\nback water and any other residual liquids. Drill cuttings include\nsolid products removed from the well bore during an oil or gas well\ndrilling operation.\n\nSection 5 sets an immediate effective date.\n\nJUSTIFICATION:\nAs the price of oil continues its meteoric rise due to demand and\nregional instability in oil producing nations, the cry for fuel\n\n\nalternatives including natural gas gets louder. In addition, the need\nfor job creation becomes more imperative as New Yorkers try to\nrecover from the economic crises of recent years and the state\nattempts to balance an out of control budget. Each of these mounting\nconcerns compels the State to utilize its large natural gas reserves\nto alleviate these problems. Unfortunately, in our haste to find an\nexpedient and viable solution to these issues the State could easily\ncreate a situation where we put our citizens at grave risk of harm\nfrom an environmental disaster by expanding the use of hydraulic\nfracturing methods of extracting natural gas and oil.\n\nThe extraction of natural gas and oil reserves using hydraulic\nfracturing presents significant risk to the environment. This method\nof natural gas and oil extraction utilizes water combined with\nmultiple chemical additives, some of which are toxic and have been\nshown to be associated with public health risks such as cancer and\ndevelopmental\ndelays. There are also new proposals by some companies to use liquid\npropane gas as a fracking agent - which has yet to receive any\nserious study as to its safety or effectiveness and could prove to be\nvery dangerous.\n\nUnfortunately many companies involved in drilling have been resistant\nto revealing which chemicals are contained in their fracturing\nfluids, making it difficult for communities to assess their risk due\nto drilling operations. There are also additional chemical\ncontamination risks posed by transportation of chemicals to drilling\nsites and the storage of the millions of gallons of used fluids that\nare produced through the drilling process.\n\nMost importantly, a large proportion of the state's drinking water\nsupplies come from areas located above the Utica and Marcellus Shale\ngeological formations where much of the state's natural gas reserves\nexist. Use of hydraulic fracturing to extract these reserves\ninherently creates a tremendous risk of contamination to the State's\ndrinking water supply and in turn risk of a significant public health\ncrisis affecting millions of people both upstate and downstate.\n\nMoreover, communities located above the Utica and Marcellus Shales\nwould be further burdened by the construction of new roads to\naccommodate drilling sites, increased traffic, and potential\ndecreases in air quality due to emissions from drilling operations.\n\nIn addition, the state currently allows hydrofracking waste products,\nincluding drill cuttings (pulverized rock) and drilling fluid, to be\ndumped in our landfills, spread on our fields and roads and \"treated\"\nin waste treatment facilities that are not necessarily equipped to\nproperly treat such materials. Much of this hydrofracking waste\nincludes low-level radioactive waste such as Ra-226 which is a known\ncarcinogen and is especially dangerous if inhaled or ingested. It is\nnot a stretch of the imagination to see that these waste products\ncould very easily find their way into local ground water directly\nexposing people by ingestion of the water or by inhaling dust that\ncomes from local landfills or from roads and fields where it has been\nspread.\n\n\nA significant amount of this hydrofracking waste is being imported\nfrom outside New York, primarily from neighboring Pennsylvania.\nTrucks cross New York State borders on a daily basis carrying this\nhighly dangerous waste into our state and place many of our citizens\nat great risk.\n\nThe risk of catastrophic danger to the environment, especially the\nstate's drinking water supplies, as a result hydraulic fracturing far\noutweighs the potential for job creation and promotion of a natural\ngas alternative to oil. Therefore, the both the practice of hydraulic\nfracturing and the disposal and/or processing of hydrofracking fluids\nand drill cuttings should be banned throughout New York State.\n\nLEGISLATIVE HISTORY:\nNew Bill\n\nFISCAL IMPLICATIONS:\nYet to be determined.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4220B",
+    "publishDate": "2012-05-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7218",
+       "basePrintNoStr": "A7218-2011",
+       "printNo": "A7218B",
+       "session": 2011,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4220",
+ "basePrintNoStr": "S4220-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-05-01",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2011-03-23T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2011-12-12T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2012-05-01T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4220B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-03-23T15:36:21",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2011-12-12T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2012-05-01T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2011-03-23T15:36:21",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 11,
+   "fullName": "Tony Avella",
+   "imgName": "391_tony_avella.jpg",
+   "incumbent": false,
+   "memberId": 391,
+   "sessionMemberId": 85,
+   "sessionYear": 2011,
+   "shortName": "AVELLA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-05-01",
+  "billCalNo": null,
+  "committeeName": "Environmental Conservation",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Prohibits the use of hydraulic fracturing in the extraction of oil and gas; prohibits acceptance, disposal and/or processing of any fluid used in a hydraulic fracturing process.",
+ "title": "Prohibits the use of hydraulic fracturing in the extraction of oil and gas",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

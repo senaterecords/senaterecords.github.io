@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6779",
+     "basePrintNoStr": "S6779-2011",
+     "printNo": "S6779",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6779",
+     "basePrintNoStr": "S6779-2011",
+     "printNo": "S6779",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-06-05",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the civil rights law, in relation to protecting a person's right to know who is behind an anonymous internet posting",
+    "basePrintNo": "S6779",
+    "basePrintNoStr": "S6779-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §79-o, Civ Rts L",
+    "lawSection": "Civil Rights Law",
+    "memo": "BILL NUMBER:S6779\n\nTITLE OF BILL:\nAn act\nto amend the civil rights law, in relation to protecting a person's right\nto know who is behind an anonymous internet posting\n\nPURPOSE:\nTo enact the Internet Protection Act to provide reasonable protection\nto individuals from anonymous Internet posters.\n\nSUMMARY OF PROVISIONS:\nSection 1 contains definitions and requires a website administrator,\nupon request to remove any comments posted on his or her website by\nan anonymous poster unless the anonymous poster agrees to attach\nhis or her name to the post and confirms his or her address, legal\nname, and home address are accurate. Also, requires website\nadministrators to have a contact number or email address posted for\nremoval requests, clearly visible in any section where comments are\nposted.\n\nJUSTIFICATION:\nBullies are notorious for harassing and/or threatening their victims\nface-to-face. However, modem technology now allows this behavior to\noccur anonymously, from just about anywhere at any time. Using\nelectronic communications devices, cyber bullies can post damaging\ncomments about a person on a website, while remaining anonymous and\ndifficult to trace. While cyber bullying is often committed by or\nagainst children, it is by no means confined to children.\n\nAnonymous postings on the internet not only can harm the persons or\nbusinesses being directly victimized, but they also hurt the public\nin general. When anonymous posters hide behind the internet to\nfacilitate a crime (such as Harassment) or as a vehicle for\ndefamation, innocent men, women and children are openly victimized,\nand the public is intentionally mislead.\n\nThis legislation simply provides a means for the victim of an\nanonymous posting on a website to request that such post be removed,\nunless the anonymous poster is willing to attach his or her name to it.\n\nLEGISLATIVE HISTORY:\nNew Bill.\n\nFISCAL IMPLICATIONS:\nNone.\n\nLOCAL FISCAL IMPLICATIONS:\nNone.\n\nEFFECTIVE DATE:\n\nThis act shall take effect on the ninetieth day after it shall have\nbecome a law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6779",
+    "publishDate": "2012-03-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8688",
+       "basePrintNoStr": "A8688-2011",
+       "printNo": "A8688",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6779",
+ "basePrintNoStr": "S6779-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-03-21",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2012-03-21T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6779",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-03-21T15:15:16",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2012-03-21T15:15:16",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 53,
+   "fullName": "Thomas F. O'Mara",
+   "imgName": "415_thomas_f._o'mara.jpg",
+   "incumbent": true,
+   "memberId": 415,
+   "sessionMemberId": 109,
+   "sessionYear": 2011,
+   "shortName": "O'MARA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-06-05",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides that a web site administrator shall remove any comments posted upon request unless the poster agrees to attach his or her name to the post.",
+ "title": "Provides that a web site administrator shall remove any comments posted upon request unless the poster agrees to attach his or her name to the post",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

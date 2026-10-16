@@ -1,0 +1,397 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7914",
+     "basePrintNoStr": "S7914-2009",
+     "printNo": "S7914",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7914",
+     "basePrintNoStr": "S7914-2009",
+     "printNo": "S7914",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-09",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.928"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7914",
+     "basePrintNoStr": "S7914-2009",
+     "printNo": "S7914",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-10",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7914",
+     "basePrintNoStr": "S7914-2009",
+     "printNo": "S7914",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-14",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7914",
+     "basePrintNoStr": "S7914-2009",
+     "printNo": "S7914",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-15",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A11136"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the town law, in relation to volunteer members of the Armor Fire Company",
+    "basePrintNo": "S7914",
+    "basePrintNoStr": "S7914-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §176-b, Town L",
+    "lawSection": "Town Law",
+    "memo": " BILL NUMBER:  S7914\n\n TITLE OF BILL :\nAn act to amend the town law, in relation to volunteer members of the\nArmor Fire Company\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nTo allow for the Armor Volunteer Fire Company to be exempt from the\nrequirement that no more than forty-five percent of the company's\nmembership be of non-resident members.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nSection one of the bill adds the Armor Volunteer Fire Company of Erie\nCounty as a fire company that is exempt from the requirement that no\nmore than forty-five percent of its membership consist of non-resident\nmembers.\n\n JUSTIFICATION :\nIn this economic climate it is very difficult for some volunteer fire\ncompanies to recruit new members to replace those who may move out of\nthe district. Armor Volunteer Fire Company has had recent troubles\nsustaining adequate enrollment from within the boundaries of their\nfire district. Also, many volunteer firefighters who do move out of\nthe district are willing to continue their service in heir former\ndistrict of residence. Armor Volunteer Fire Company has many\nnon-resident members who wish to continue their service, but are not\nable to because of the residency requirement where no more than\nforty-five percent of its volunteer firefighters may be non-residents.\nThis requirement is a hardship for the company with regards to\nstaffing and adequate service to the community, meriting an exemption.\n\n PRIOR LEGISLATIVE HISTORY :\nNew Bill.\n\n FISCAL IMPLICATIONS :\nNone to the State.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7914",
+    "publishDate": "2010-05-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11136",
+       "basePrintNoStr": "A11136-2009",
+       "printNo": "A11136",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7914",
+ "basePrintNoStr": "S7914-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 61,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2010
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-05-21",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-14",
+    "billCalNo": 928,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2010-05-21T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7914",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-05-21T14:44:28",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2010-05-21T14:44:28",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 58,
+   "fullName": "William T. Stachowski",
+   "imgName": "William T. Stachowski.jpg",
+   "incumbent": false,
+   "memberId": 453,
+   "sessionMemberId": 59,
+   "sessionYear": 2009,
+   "shortName": "STACHOWSKI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-14",
+  "billCalNo": 928,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A11136",
+  "basePrintNoStr": "A11136-2009",
+  "session": 2009
+ },
+ "summary": "Relates to the residency requirement for the Armor Volunteer Fire Company in Erie county.",
+ "title": "Relates to the residency requirement for the Armor Fire Company in Erie county",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7914",
+     "basePrintNoStr": "S7914-2009",
+     "printNo": "S7914",
+     "session": 2009,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Local Government"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 43,
+         "sessionYear": 2009,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Craig M. Johnson",
+         "imgName": "Craig M. Johnson.jpg",
+         "incumbent": false,
+         "memberId": 446,
+         "sessionMemberId": 62,
+         "sessionYear": 2009,
+         "shortName": "JOHNSON C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 11,
+         "sessionYear": 2009,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Suzi Oppenheimer",
+         "imgName": "Suzi Oppenheimer.jpg",
+         "incumbent": false,
+         "memberId": 388,
+         "sessionMemberId": 19,
+         "sessionYear": 2009,
+         "shortName": "OPPENHEIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 27,
+         "sessionYear": 2009,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Antoine M. Thompson",
+         "imgName": "Antoine M. Thompson.jpg",
+         "incumbent": false,
+         "memberId": 447,
+         "sessionMemberId": 28,
+         "sessionYear": 2009,
+         "shortName": "THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 26,
+         "sessionYear": 2009,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 7
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Thomas P. Morahan",
+         "imgName": "Thomas P. Morahan.jpg",
+         "incumbent": false,
+         "memberId": 441,
+         "sessionMemberId": 2,
+         "sessionYear": 2009,
+         "shortName": "MORAHAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2010-06-09",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

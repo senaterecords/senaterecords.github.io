@@ -1,0 +1,270 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1796",
+     "basePrintNoStr": "S1796-2009",
+     "printNo": "S1796",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1796",
+     "basePrintNoStr": "S1796-2009",
+     "printNo": "S1796",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-17",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1796",
+     "basePrintNoStr": "S1796-2009",
+     "printNo": "S1796",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-27",
+    "sequenceNo": 3,
+    "text": "1ST REPORT CAL.484"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1796",
+     "basePrintNoStr": "S1796-2009",
+     "printNo": "S1796",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-01",
+    "sequenceNo": 4,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1796",
+     "basePrintNoStr": "S1796-2009",
+     "printNo": "S1796",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-02",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1796",
+     "basePrintNoStr": "S1796-2009",
+     "printNo": "S1796",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-07-09",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A4767"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S1796",
+    "basePrintNoStr": "S1796-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Education",
+    "memo": " BILL NUMBER:  S1796\n\n TITLE OF BILL :\nAn act in relation to legalizing, validating, ratifying and confirming\nactions of the Rocky Point union free school district with respect to\ncertain building aid contracts\n\n\n PURPOSE :\nTo allow the Rocky Point Union Free School district to receive state\naid for seven contracts that have been held up due to a ministerial\nfiling error\n\n SUMMARY OF PROVISIONS :\nThe bill would allow the State Education Department to accept Final\nCost Reports for seven projects in the Rocky Point UFSD and process\nthe aid applications.\n\n JUSTIFICATION :\nThe contracts in question represent approximately 2.4 million dollars\nin aid to the school district.  The sole impediment to obtaining the\naid is the late filing of Final Cost Reports which occurred through a\nministerial error. This bill allows SED to continue the claims\nprocess.\n\n LEGISLATIVE HISTORY :\n2007-08, S.8792\n\n FISCAL IMPLICATIONS :\nNo additional funds need to be appropriated.\n\n LOCAL FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1796",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4767",
+       "basePrintNoStr": "A4767-2009",
+       "printNo": "A4767",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1796",
+ "basePrintNoStr": "S1796-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 59,
+    "year": 2009
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-17",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-06-02",
+    "billCalNo": 484,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2009-02-06T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-03-17T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8792",
+    "basePrintNoStr": "S8792-2007",
+    "printNo": "S8792",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1796",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:01",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:01",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 1,
+   "fullName": "Kenneth P. LaValle",
+   "imgName": "419_kenneth_p._lavalle.jpg",
+   "incumbent": false,
+   "memberId": 419,
+   "sessionMemberId": 49,
+   "sessionYear": 2009,
+   "shortName": "LAVALLE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-06-02",
+  "billCalNo": 484,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A4767",
+  "basePrintNoStr": "A4767-2009",
+  "session": 2009
+ },
+ "summary": "Legalizes actions of the Rocky Point union free school district with respect to certain building aid contracts.",
+ "title": "Legalizes actions of the Rocky Point union free school district with respect to certain building aid contracts",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

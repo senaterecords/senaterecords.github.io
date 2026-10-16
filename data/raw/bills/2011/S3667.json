@@ -1,0 +1,262 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3667",
+     "basePrintNoStr": "S3667-2011",
+     "printNo": "S3667",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-01",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CIVIL SERVICE AND PENSIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3667",
+     "basePrintNoStr": "S3667-2011",
+     "printNo": "S3667",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-17",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3667",
+     "basePrintNoStr": "S3667-2011",
+     "printNo": "S3667",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-17",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1355"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3667",
+     "basePrintNoStr": "S3667-2011",
+     "printNo": "S3667",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-17",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A5184"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the retirement and social security law, in relation to the employment of police officers in the town of Southampton; and to repeal certain provisions of such law relating thereto",
+    "basePrintNo": "S3667",
+    "basePrintNoStr": "S3667-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld & add §384-d sub m, R & SS L",
+    "lawSection": "Retirement and Social Security Law",
+    "memo": "BILL NUMBER:S3667\n\nTITLE OF BILL:\n\nAn act\nto amend the retirement and social security law, in relation to the\nemployment of police officers in the town of Southampton; and to repeal\ncertain provisions of such law relating thereto\n\nPURPOSE:\n\nThis would allow the Town of Southampton the option of allowing a\npolice officer to complete twenty years of service to the Town.\n\nSUMMARY OF PROVISIONS:\n\nSubdivision m of section 384-d of the retirement and social security\nlaw is repealed, and a new subdivision m is added.\n\nJUSTIFICATION:\n\nPolice Officers must complete twenty years of service in order to\nreceive full pension benefits.\nCurrent law requires police officers employed by the Town of\nSouthampton to retire at 55 years of age, regardless of whether they\ncompleted 20 years of service. This legislation would allow the Town\nthe option of continuing an officer's term of employment, in order\nfor an officer to reach the twenty year mark.\n\nLEGISLATIVE HISTORY:\n\n2007-08: S.8027A/A.11177; 2010 S.4129A/A.7511A\n\nFISCAL IMPLICATIONS:\n\nThe Actuary for the New York State and Local Police and Fire\nRetirement System estimates that there will be no cost associated\nwith the enactment of this legislation.\n\nEFFECTIVE DATE:\n\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3667",
+    "publishDate": "2011-03-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5184",
+       "basePrintNoStr": "A5184-2011",
+       "printNo": "A5184",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3667",
+ "basePrintNoStr": "S3667-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2011
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-17",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-17",
+    "billCalNo": 1355,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Civil Service And Pensions",
+    "referenceDate": "2011-03-01T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2011-06-17T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4129",
+    "basePrintNoStr": "S4129-2009",
+    "printNo": "S4129A",
+    "session": 2009,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S8027",
+    "basePrintNoStr": "S8027-2007",
+    "printNo": "S8027A",
+    "session": 2007,
+    "version": "A"
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S3667",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-03-01T11:01:06",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-03-01T11:01:06",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 1,
+   "fullName": "Kenneth P. LaValle",
+   "imgName": "419_kenneth_p._lavalle.jpg",
+   "incumbent": false,
+   "memberId": 419,
+   "sessionMemberId": 113,
+   "sessionYear": 2011,
+   "shortName": "LAVALLE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-17",
+  "billCalNo": 1355,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5184",
+  "basePrintNoStr": "A5184-2011",
+  "session": 2011
+ },
+ "summary": "Provides that in no event shall such annual service be continued after a member has attained age fifty-five or at least twenty years of service, except however, that members in the town of Southampton police department who hold the rank of sergeant or higher within such department may be permitted by the town board to remain in service until such member has attained age sixty.",
+ "title": "Relates to the employment of police officers in the town of Southampton; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

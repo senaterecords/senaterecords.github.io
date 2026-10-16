@@ -1,0 +1,973 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S674",
+     "basePrintNoStr": "S674-2021",
+     "printNo": "S674",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S674",
+     "basePrintNoStr": "S674-2021",
+     "printNo": "S674",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-22",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.385"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S674",
+     "basePrintNoStr": "S674-2021",
+     "printNo": "S674",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-23",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S674",
+     "basePrintNoStr": "S674-2021",
+     "printNo": "S674",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-24",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S674",
+     "basePrintNoStr": "S674-2021",
+     "printNo": "S674",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-25",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A459"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to vacating\nconvictions for offenses resulting from sex trafficking, labor trafficking and\ncompelling prostitution",
+    "basePrintNo": "S674",
+    "basePrintNoStr": "S674-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Simcha Felder",
+       "imgName": "439_simcha_felder.jpg",
+       "incumbent": false,
+       "memberId": 439,
+       "sessionMemberId": 1805,
+       "sessionYear": 2021,
+       "shortName": "FELDER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1835,
+       "sessionYear": 2021,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 30
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §440.10, CP L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "\n \nBILL NUMBER: S674\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:\n\nAn act to amend the criminal procedure law, in relation to vacating\nconvictions for offenses resulting from sex trafficking, labor traffick-\ning and compelling prostitution\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo strengthen protections for victims of sex trafficking, labor traf-\nficking, compelling prostitution, and trafficking in persons, who are\nconvicted of a range of offenses as a result of that trafficking or\ncompelling.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 sets forth legislative intent to expand to other offenses New\nYork's existing law that offers vacatur of convictions for prostitu-\ntion-related offenses that were a result of being a victim of traffick-\ning.\n\nSection 2 amends CPL § 440.10(1)(i) to allow vacating of a conviction\nwhere the offense was a result of sex trafficking, labor trafficking,\ncompelling prostitution and trafficking in persons. It amends CPL §\n440.10(1)(i)(i) to remove language that limits such a motion to defend-\nants who are no longer victims of trafficking or have already sought\nvictim services. CPL § 440.10 (1)(i)(ii) is renumbered as CPL § 440.10\n(1)(i)(i) and amended to include documentation with regard to sex traf-\nficking, labor trafficking and aggravated labor trafficking as addi-\ntional grounds for a presumption that a victim was a victim of traffick-\ning. It amends CPL § 440.10(1)(i)(ii) to provide confidentiality for\nmotions to vacate a judgement, and adds a new CPL § 440.10(1) (iii) to\nallow consolidation of proceedings in multiple courts.\n\nSection 3 amends CPL § 440.10 (6) to require that judgments be vacated\non the merits because the defendant's participation in the offense was a\nresult of having been a victim of trafficking.\n\nSection 4 provides an immediate effective date, except that new subpara-\ngraph (ii) takes effect 60 days after enactment into law.\n\n \nJUSTIFICATION:\n\nIn 2010, New York State passed an historic law allowing victims of human\ntrafficking to vacate prostitution-related criminal convictions that\nwere directly tied to their victimization. The law recognized that these\nconvictions should be vacated because the conviction itself was unjust.\nVictims of human trafficking were allowed a second chance at life, free\nfrom the criminal records forced upon them by their traffickers. Twenty\nseven states have since followed New York's example with similar laws.\n\nSeveral states have now gone beyond New York's law, to make this relief\navailable not just for prostitution-related offenses but for all\noffenses related to the trafficking. This bill follows that example.\nTrafficking victims may be arrested and prosecuted for a variety of\noffenses resulting from trafficking. A common example is possessing\n\nfalse documents, usually at the direction of their trafficker, who has\nconfiscated their true documents as part of the exerted coercion.\n\nThe CPL is further amended to protect the confidentiality of information\ncontained in motions brought under the statute. This explicit and manda-\ntory protection is necessary to meet the legislation's goals of severing\nvictims of human trafficking from their traumatic past, and to ensure\nthat victims of human trafficking will not be endangered by the process\nof vacating their convictions. Courts may also take other action, such\nas offering a closed courtroom for court appearances.\n\nThe bill emphasizes that these convictions should be vacated because of\nthe circumstances of the offenses and convictions, not because of a\nvictim's post-conviction circumstances.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2016:A.10353- Referred to Codes\n\n2017:A4540 -Passed Assembly/Senate Rules\n\n2018:A4540 -Passed Assembly/Senate Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided that subparagraph (ii)\nof paragraph (i) of subdivision I of section 440.10 of the criminal\nprocedure law, as added by section two of this act, shall take effect on\nthe sixtieth day after it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S674",
+    "publishDate": "2021-01-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CPL440.10"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A459",
+       "basePrintNoStr": "A459-2021",
+       "printNo": "A459",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S674",
+ "basePrintNoStr": "S674-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 14,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 15,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 16,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 17,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 18,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 19,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 20,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 21,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 22,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 23,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 24,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 25,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 26,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 27,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 28,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 29,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 30,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 31,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 32,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 33,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2021
+   }
+  ],
+  "size": 38
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 6,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-01-06",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-02-24",
+    "billCalNo": 385,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4981",
+    "basePrintNoStr": "S4981-2019",
+    "printNo": "S4981B",
+    "session": 2019,
+    "version": "B"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S674",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-04T18:34:49.948036",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-01-04T18:34:49.948036",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 13,
+   "fullName": "Jessica Ramos",
+   "imgName": "1046_Jessica_Ramos.jpg",
+   "incumbent": true,
+   "memberId": 1226,
+   "sessionMemberId": 1830,
+   "sessionYear": 2021,
+   "shortName": "RAMOS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-02-24",
+  "billCalNo": 385,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A459",
+  "basePrintNoStr": "A459-2021",
+  "session": 2021
+ },
+ "summary": "Relates to proceedings to vacate convictions for offenses resulting from sex trafficking, labor trafficking and compelling prostitution and provides for confidentiality of records of such proceedings.",
+ "title": "Relates to confidentiality of records in proceedings to vacate convictions for offenses resulting from sex trafficking, labor trafficking and compelling prostitution",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S674",
+     "basePrintNoStr": "S674-2021",
+     "printNo": "S674",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Jabari Brisport",
+         "imgName": "1311_Jabari_Brisport.jpg",
+         "incumbent": true,
+         "memberId": 1494,
+         "sessionMemberId": 1849,
+         "sessionYear": 2021,
+         "shortName": "BRISPORT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Jeremy Cooney",
+         "imgName": "1318_Jeremy_Cooney.jpg",
+         "incumbent": true,
+         "memberId": 1501,
+         "sessionMemberId": 1857,
+         "sessionYear": 2021,
+         "shortName": "COONEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1818,
+         "sessionYear": 2021,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1825,
+         "sessionYear": 2021,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1835,
+         "sessionYear": 2021,
+         "shortName": "SAVINO"
+        }
+       ],
+       "size": 9
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Fredrick J. Akshar II",
+         "imgName": "735_Fredrick_Akshar.jpg",
+         "incumbent": false,
+         "memberId": 913,
+         "sessionMemberId": 1796,
+         "sessionYear": 2021,
+         "shortName": "AKSHAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 1844,
+         "sessionYear": 2021,
+         "shortName": "PALUMBO"
+        }
+       ],
+       "size": 4
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2021-02-22",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

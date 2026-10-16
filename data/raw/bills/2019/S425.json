@@ -1,0 +1,1320 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-11",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-11",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 425A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 4,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-07-20",
+    "sequenceNo": 5,
+    "text": "REPORTED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-07-21",
+    "sequenceNo": 6,
+    "text": "ORDERED TO THIRD READING CAL.759"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-07-22",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A2176A"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the civil rights law and the judiciary law, in relation to\nprotecting certain interested parties or people from civil arrest while going\nto, remaining at, or returning from the place of such court proceeding",
+    "basePrintNo": "S425",
+    "basePrintNoStr": "S425-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §28, Civ Rts L; add §4-a, amd §212, Judy L",
+    "lawSection": "Civil Rights Law",
+    "memo": "\n \nBILL NUMBER: S425\n\nSPONSOR: HOYLMAN\n \nTITLE OF BILL:  An act to amend the civil rights law and the judiciary\nlaw, in relation to protecting certain interested parties or people from\ncivil arrest while going to, remaining at, or returning from the place\nof such court proceeding\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to facilitate continued access to the\njustice system and courts by all members of the community without fear\nof immigration-related consequences.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one is the title of the bill.\n\nSection two would amend the Civil Rights Law to protect certain persons\nfrom civil arrest when going to, remaining at, or returning from a court\nappearance or proceeding unless a specific judicial warrant or judicial\norder authorizing such arrest has been issued.  This section provides\nthat a civil court action may be brought by the individual or the attor-\nney general to address an alleged violation of this provision. This\nprovision is in addition to the general protections from civil arrest\nfound in Article Three of the Civil Rights Law, in any other law, and\navailable under common law.\n\nSection three would amend the Judiciary Law to allow courts to issue\norders designed to protect the prohibition on such civil arrests.\n\nSection four would amend the Judiciary Law to provide that non-local law\nenforcement officials seeking to enter a courthouse with respect to an\nalleged violation or violations of federal immigration law would be\nrequired to identify themselves and such purpose. Counsel for the\nunified court system would be required to review any judicial warrant or\njudicial order presented to assure its authenticity before allowing\nentry of the officer intending to effect such an immigration-related\narrest.\n\nSection five contains a severability clause. Section six is the effec-\ntive date.\n\n \nJUSTIFICATION:\n\nArticle Three of the Civil Rights Law, \"Privilege From Arrest,\" dates\nback to the early part of the last century. Most of these provisions of\nthe Civil Rights Law were enacted in 1909 (e.g., § 22 (\"Privileges of\nofficers and prisoners from arrest while passing through another coun-\nty\"); § 23 (\"No person to be arrested in civil proceedings without a\nstatutory provision); § 25 (\"Witness exempt from arrest\")).  While such\nprovisions have been effective to protect the integrity and needs of the\ncourt system in certain circumstances, certain modern practices make an\nupdated, supplementary statute necessary.  Changes by federal agencies\nregarding the enforcement of federal immigration law have instilled\nsignificant fear in immigrant communities across New York State. In\nparticular, the use of court calendars and courthouses as a means of\nlocating allegedly undocumented individuals has soared, leaving many\nimmigrants, documented and undocumented, afraid to access the justice\nsystem or respond to court summonses for fear of potentially life-chang-\ning immigration-related repercussions. This trend has a potentially\ndamaging impact on all New Yorkers, not just immigrant communities, as\nthe operation of our judicial system and public safety are undermined.\n\nDomestic violence victims - whether documented individuals or not - need\naccess to our civil justice system, for orders of protection and similar\nrelief. An entire family may be gravely impacted if a tenant is afraid\nto enter the courthouse and respond to a landlord's court petition.\nJustice to other persons is denied when an immigrant - documented or not\n- refuses to come to court to testify as a victim or witness. It serves\nneither justice nor public safety when fear of a civil arrest deters a\ndefendant charged with a traffic infraction, or a more serious crime,\nfrom attending a scheduled court appearance in the case.\n\nAccording to the Immigrant Defense Project, from 2016 to 2017, arrests\nby federal Immigration and Customs Enforcement (\"ICE\") agents at court-\nhouses in New York State increased by 1200%. Fear of being targeted,\neither due to a lack of legal immigration status or concern about the\nuncertain status of a family member, have dissuaded many individuals\nfrom contacting law enforcement or following through with court\nproceedings. District attorneys and legal representatives, in New York\nand elsewhere, have expressed frustration and concern regarding their\nability to prosecute cases, as victims and witnesses are sometimes too\nafraid to attend the proceedings. This inability of law enforcement and\nthe legal community to work effectively with immigrant communities and\nindividuals has potentially severe consequences for public safety, as\nthe justice system is handicapped by the unwillingness of victims,\nwitnesses, tenants and others to come forward and enter the courthouse.\n\nAs fewer individuals feel safe interacting with the justice system,\nfearing potential implications for themselves, friends or family, it\nbecomes all the more challenging to promote public safety. It is imper-\native that we ensure that all members of our community feel safe access-\ning New York's court system.\n\nThis bill would make a modest change to clarify and update New York's\ncentury-old prohibition on certain courthouse arrests (Civil Rights Law\nArt. 3). The bill would allow arrest for an immigration offense based on\na judicial arrest warrant or judicial order, signed by a judge of anoth-\ner jurisdiction who is authorized to order such arrest.\n\nHowever, an immigration - related courthouse arrest based on an adminis-\ntrative warrant, or without a warrant, would not be permitted.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2018: S.8925 (Alcantara) - Died in Rules\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone expected.\n\n \nEFFECTIVE DATE:\nThis bill would take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S425",
+    "publishDate": "2019-01-04",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2176",
+       "basePrintNoStr": "A2176-2019",
+       "printNo": "A2176",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the civil rights law and the judiciary law, in relation to\nprotecting certain interested parties or people from civil arrest while going\nto, remaining at, or returning from the place of such court proceeding",
+    "basePrintNo": "S425",
+    "basePrintNoStr": "S425-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Simcha Felder",
+       "imgName": "439_simcha_felder.jpg",
+       "incumbent": false,
+       "memberId": 439,
+       "sessionMemberId": 1290,
+       "sessionYear": 2019,
+       "shortName": "FELDER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1220,
+       "sessionYear": 2019,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1204,
+       "sessionYear": 2019,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 35
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §28, Civ Rts L; add §4-a, amd §212, Judy L",
+    "lawSection": "Civil Rights Law",
+    "memo": "\n \nBILL NUMBER: S425A\n\nSPONSOR: HOYLMAN\n \nTITLE OF BILL:  An act to amend the civil rights law and the judiciary\nlaw, in relation to protecting certain interested parties or people from\ncivil arrest while going to, remaining at, or returning from the place\nof such court proceeding\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to facilitate continued access to the\njustice system and courts by all members of the community without fear\nof immigration-related consequences.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one is the title of the bill.\n\nSection two would amend the Civil Rights Law to protect certain persons\nfrom civil arrest when going to, remaining at, or returning from a court\nappearance or .proceeding unless a specific judicial warrant or judicial\norder authorizing such arrest has been issued. This section provides\nthat a civil court action may be brought by the individual or the attor-\nney general to address an alleged violation of this provision. This\nprovision is in addition to the general protections from civil arrest\nfound in Article Three of the Civil Rights Law, in any other law, and\navailable under common. law.\n\nSection three would amend the.Judiciary.Law to allow courts to issue\norders designed to protect the prohibition on such civil arrests,\n\nSection four would amend the Judiciary Law direct the Office of Court\nAdministration to promulgate rules to ensure that, among other things:\nany representatives of a law enforcement agency acting in their official\ncapacity shall identify themselves And their specific law enforcement\npurpose and proposed enforcement action when entering a New York State\ncourthouse intending to observe an individual or take an individual into\ncustody; except in extraordinary circumstances, that no arrest may be\nmade in a courtroom absent leave of the court; and that no civil arrest\nshall be executed inside a New York State courthouse except pursuant to\na judicial warrant or order.\n\nSection five contains a severability clause. Section six is the effec-\ntive date.\n\n \nJUSTIFICATION:\n\nArticle Three of the Civil Rights Law, \"Privilege From Arrest,\" dates\nback to the early part of the last century. Most of these provisions of\nthe Civil Rights Law were enacted in 1909 (e.g., § 22 (\"Privileges of\nofficers and prisoners from arrest while passing through another coun-\nty\"); § 23 (\"No person to be arrested in civil proceedings without a\nstatutory provision); § 25 (\"Witness exempt from arrest\")).  While such\nprovisions have been effective to protect the integrity and needs of the\ncourt system in certain circumstances, certain modern practices make an\nupdated, supplementary statute necessary. Changes by federal agencies\nregarding the enforcement of federal immigration law have instilled\nsignificant fear in immigrant communities across New York State. In\nparticular, the use of court calendars and courthouses as a means of\nlocating allegedly undocumented individuals has soared, leaving many\nimmigrants, documented and undocumented, afraid to access the justice\nsystem or respond to court summonses for fear of potentially life-chang-\ning immigration-related repercussions. This trend has a potentially\ndamaging impact on all New Yorkers, not just immigrant communities, as\nthe operation of our judicial system and public safety are undermined.\n\nDomestic violence victims - whether documented individuals or not - need\naccess to our civil justice system, for orders of protection and similar\nrelief. An entire family may be gravely impacted if a tenant is afraid\nto enter the courthouse and respond to a landlord's court petition.\nJustice to other persons is denied when an immigrant - documented or not\n- refuses to come to court to testify as a victim or witness. It serves\nneither justice nor public safety when fear of a civil arrest deters a\ndefendant charged with a traffic infraction, or a more serious crime,\nfrom attending a scheduled court appearance in the case.\n\nAccording to the Immigrant Defense Project, from 2016 to 2017, arrests\nby federal Immigration and Customs Enforcement (\"ICE\") agents at court-\nhouses in New York State increased by 1200%. Fear of being targeted,\neither due to a lack of legal immigration status or concern about the\nuncertain status of a family member, have dissuaded many individuals\nfrom contacting law enforcement or following through with court\nproceedings. District attorneys and legal representatives, in New York\nand elsewhere, have expressed frustration and concern regarding their\nability to prosecute cases, as victims and witnesses are sometimes too\nafraid to attend the proceedings. This inability of law enforcement and\nthe legal community to work effectively with immigrant communities and\nindividuals has potentially severe consequences for public safety, as\nthe justice system is handicapped by the unwillingness of victims,\nwitnesses, tenants and others to come forward and enter the courthouse.\n\nAs fewer individuals feel safe interacting with the justice system,\nfearing potential implications for themselves, friends or family, it\nbecomes all the more challenging to promote public safety. It is imper-\native that we ensure that all members of our community feel safe access-\ning New York's court system.\n\nThis bill would make a modest change to clarify and update New York's\ncentury-old prohibition on certain courthouse arrests (Civil Rights Law\nArt. 3). The bill would allow arrest for an immigration offense based on\na judicial arrest warrant or judicial order, signed by a judge of anoth-\ner jurisdiction who is authorized to order such arrest.\n\nHowever, an immigration - related courthouse arrest based on an adminis-\ntrative warrant, or without a warrant, would not be permitted.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2018: S.8925 (Alcantara) - Died in Rules\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone expected.\n\n \nEFFECTIVE DATE:\nThis bill would take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S425A",
+    "publishDate": "2019-06-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2176",
+       "basePrintNoStr": "A2176-2019",
+       "printNo": "A2176A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S425",
+ "basePrintNoStr": "S425-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 38,
+    "year": 2020
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2020
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2020
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Codes"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2020
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 3
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-07-20",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2020-07-21",
+    "billCalNo": 759,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2019-01-09T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2019-06-11T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2020-07-20T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8925",
+    "basePrintNoStr": "S8925-2017",
+    "printNo": "S8925",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S425A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-04T11:27:58.218571",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-06-11T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2019-01-04T11:27:58.218571",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 27,
+   "fullName": "Brad Hoylman-Sigal",
+   "imgName": "438_brad_hoylman.jpg",
+   "incumbent": false,
+   "memberId": 438,
+   "sessionMemberId": 1190,
+   "sessionYear": 2019,
+   "shortName": "HOYLMAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-07-21",
+  "billCalNo": 759,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2176",
+  "basePrintNoStr": "A2176-2019",
+  "session": 2019
+ },
+ "summary": "Exempts certain interested parties or people from civil arrest while going to, remaining at, or returning from the place of such court proceeding.",
+ "title": "Exempts certain interested parties or people from civil arrest while going to, remaining at, or returning from the place of such court proceeding",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S425",
+     "basePrintNoStr": "S425-2019",
+     "printNo": "S425A",
+     "session": 2019,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1203,
+         "sessionYear": 2019,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1206,
+         "sessionYear": 2019,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1223,
+         "sessionYear": 2019,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1219,
+         "sessionYear": 2019,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1282,
+         "sessionYear": 2019,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 12
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1281,
+         "sessionYear": 2019,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1288,
+         "sessionYear": 2019,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "Robert Ortt",
+         "imgName": "885_robert_ortt.jpg",
+         "incumbent": true,
+         "memberId": 885,
+         "sessionMemberId": 1365,
+         "sessionYear": 2019,
+         "shortName": "ORTT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 1211,
+         "sessionYear": 2019,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        }
+       ],
+       "size": 6
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2020-07-21",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2020
+}

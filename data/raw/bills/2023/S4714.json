@@ -1,0 +1,387 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4714",
+     "basePrintNoStr": "S4714-2023",
+     "printNo": "S4714",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-02-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CORPORATIONS, AUTHORITIES AND COMMISSIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4714",
+     "basePrintNoStr": "S4714-2023",
+     "printNo": "S4714",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-08",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.451"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4714",
+     "basePrintNoStr": "S4714-2023",
+     "printNo": "S4714",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-09",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4714",
+     "basePrintNoStr": "S4714-2023",
+     "printNo": "S4714",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-13",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4714",
+     "basePrintNoStr": "S4714-2023",
+     "printNo": "S4714",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-15",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A4037"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the not-for-profit corporation law, in relation to exempting\nthe Southwood Volunteer Fire Department, Inc. from the requirement that the\npercentage of non-resident fire department members not exceed forty-five\npercent of the membership",
+    "basePrintNo": "S4714",
+    "basePrintNoStr": "S4714-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1402, N-PC L",
+    "lawSection": "Not-for-Profit Corporation Law",
+    "memo": " \nBILL NUMBER: S4714\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the not-for-profit corporation law, in relation to\nexempting the Southwood Volunteer Fire Department, Inc. from the\nrequirement that the percentage of non-resident fire department members\nnot exceed forty-five percent of the membership\n\n \nPURPOSE:\n\nTo authorize non-resident volunteer membership within the Southwood\nVolunteer Fire Department, Inc.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subparagraph 3 of paragraph (c) of section 1402 of the\nnot-for-profit corporation law.\n\nSection 2 establishes the effective date.\n\n \nJUSTIFICATION:\n\nThe Southwood Volunteer Fire Department, Inc. has had difficulty\nrecruiting members from their district and is close to exceeding the\nforty-five percent cap.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nImmediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4714",
+    "publishDate": "2023-02-13",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "NPC1402"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4037",
+       "basePrintNoStr": "A4037-2023",
+       "printNo": "A4037",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4714",
+ "basePrintNoStr": "S4714-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 21,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 22,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 23,
+    "year": 2023
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 8,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Corporations, Authorities And Commissions"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2023-02-13",
+    "billCalNo": null,
+    "committeeName": "Corporations, Authorities And Commissions",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2023-03-13",
+    "billCalNo": 451,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Corporations, Authorities And Commissions",
+    "referenceDate": "2023-02-13T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4714",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-02-13T15:51:09.856544",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-02-13T15:51:09.856544",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 48,
+   "fullName": "Rachel May",
+   "imgName": "1057_Rachel_May.jpg",
+   "incumbent": true,
+   "memberId": 1237,
+   "sessionMemberId": 2023,
+   "sessionYear": 2023,
+   "shortName": "MAY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2023-03-13",
+  "billCalNo": 451,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A4037",
+  "basePrintNoStr": "A4037-2023",
+  "session": 2023
+ },
+ "summary": "Exempts the Southwood Volunteer Fire Department, Inc. from the requirement that the percentage of non-resident fire department members not exceed forty-five percent of the membership.",
+ "title": "Exempts the Southwood Volunteer Fire Department, Inc. from the requirement that the percentage of non-resident fire department members not exceed forty-five percent of the membership",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4714",
+     "basePrintNoStr": "S4714-2023",
+     "printNo": "S4714",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Corporations, Authorities And Commissions"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2008,
+         "sessionYear": 2023,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "Mario Mattera",
+         "imgName": "1309_Mario_Mattera.jpg",
+         "incumbent": true,
+         "memberId": 1492,
+         "sessionMemberId": 2044,
+         "sessionYear": 2023,
+         "shortName": "MATTERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "Jessica Ramos",
+         "imgName": "1046_Jessica_Ramos.jpg",
+         "incumbent": true,
+         "memberId": 1226,
+         "sessionMemberId": 2030,
+         "sessionYear": 2023,
+         "shortName": "RAMOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "William Weber",
+         "imgName": "1335_William_Weber.jpg",
+         "incumbent": true,
+         "memberId": 1518,
+         "sessionMemberId": 1881,
+         "sessionYear": 2023,
+         "shortName": "WEBER"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2023-03-08",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2023
+}

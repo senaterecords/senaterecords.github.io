@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7045",
+     "basePrintNoStr": "S7045-2015",
+     "printNo": "S7045",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-03-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7045",
+     "basePrintNoStr": "S7045-2015",
+     "printNo": "S7045",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-03-22",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to the Kings county health care facility transformation program",
+    "basePrintNo": "S7045",
+    "basePrintNoStr": "S7045-2015",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2825-a, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " BILL NUMBER:  S7045\n\n TITLE OF BILL :  An act to amend the public health law, in relation\nto the Kings county health care facility transformation program\n\n PURPOSE :\n\nThis bill would ensure that the $700 million in capital grants for the\nabove-mentioned program be awarded pursuant to an open and transparent\nprocess.\n\n SUMMARY OF PROVISIONS :\n\nSection one of the bill would add a new subdivision five to section\n2825-a of the Public Health Law to require that the agreement of the\ncommissioner of health and the president of DASNY include:\n\n*a schedule or timetable for the issuance of the request for\napplications, the receipt of applications and the awarding of the\ngrants; *a description of the process or procedures for determining\nthe amounts to be awarded to each applicant; and\n\n*a description of how the grants will be distributed, administered and\nmonitored.\n\nThe section would also require that a public posting of all\napplications received and the amount of the grant requested by, or to\nbe awarded to, each applicant; and that at least one public hearing in\nthe county of Kings be held prior to the awarding of the grants.\n\nSection two of the bill provides that the act shall take effect\nimmediately.\n\n JUSTIFICATION :\n\nUnder the current law, the capital grants to be awarded pursuant to\nthe Kings county health care transformation program will be made by\nthe commissioner of Health and the president of DASNY without\ncompetitive bidding.\n\nAs such, there is no way for the residents of Brooklyn or other\ninterested parties to know or learn the identity of the applicants,\nwhether the applicants in fact are eligible to receive a grant or the\namount of the grant until after the awards have been made.\n\nThis bill would require a more open and transparent process for the\nawarding of capital grants under this program.\n\n LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS :\n\nMinimal.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7045",
+    "publishDate": "2016-03-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9515",
+       "basePrintNoStr": "A9515-2015",
+       "printNo": "A9515",
+       "session": 2015,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2015,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7045",
+ "basePrintNoStr": "S7045-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2016-03-18",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2016-03-18T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7045",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2016-03-18T12:47:31",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2016-03-18T12:47:31",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 25,
+   "fullName": "Velmanette Montgomery",
+   "imgName": "381_velmanette_montgomery.jpg",
+   "incumbent": false,
+   "memberId": 381,
+   "sessionMemberId": 711,
+   "sessionYear": 2015,
+   "shortName": "MONTGOMERY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2016-03-22",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the Kings county health care facility transformation program.",
+ "title": "Relates to the Kings county health care facility transformation program",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

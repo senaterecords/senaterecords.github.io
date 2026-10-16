@@ -1,0 +1,720 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-29",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-06",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-06",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 1375A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-18",
+    "sequenceNo": 5,
+    "text": "AMEND (T) AND RECOMMIT TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-18",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 1375B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-25",
+    "sequenceNo": 7,
+    "text": "1ST REPORT CAL.637"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-26",
+    "sequenceNo": 8,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-05-27",
+    "sequenceNo": 9,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375B",
+     "session": 2009,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-09",
+    "sequenceNo": 10,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S1375",
+    "basePrintNoStr": "S1375-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 16,
+       "sessionYear": 2009,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Hiram Monserrate",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 454,
+       "sessionMemberId": 188,
+       "sessionYear": 2009,
+       "shortName": "MONSERRATE"
+      }
+     ],
+     "size": 4
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6-142, El L",
+    "lawSection": "Election Law",
+    "memo": " BILL NUMBER:  S1375\n\n TITLE OF BILL :\nAn act to amend the election law, in relation to the number of\nsignatures on and time for filing of nominating petitions\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nThis bill will help eliminate inequities in the special election\nprocess by allowing independent candidates to file a smaller, more\nreasonable amount of petition signatures in special congressional\nelections, and by allowing more time to collect these signatures.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nParagraph (e) of subdivision 2 of section 6142 of the election law, as\namended by chapter 79 of the laws of 1992, is amended reducing the\nnumber of signatures required for a nominating petition to one\nthousand two hundred.\n\n JUSTIFICATION :\nIn recent special elections, independent candidates for congressional\noffice were allowed only 7 days to collect 3500 valid petition\nsignatures in order to appear on the ballot. However, in the same\nelection, candidates nominated by a statewide party appeared on the\nballot after being designated by party leadership. This situation\ntherefore creates a situation where a candidate who has perhaps only\nthe backing of party leadership can appear on the ballot without\ndemonstrating grass roots support, while requiring an independent\ncandidate to demonstrate support from the community at large before he\nor she can appear on the same ballot. This is compounded by the fact\nthat candidates commonly collect twice the number of required\nsignatures in order to avoid being thrown off the ballot if their\nsignatures are challenged.\n\nIt is hoped that by reducing the amount of required signatures while\nincreasing the time allowed to collect them, independent candidates,\nwho still must show grass roots support, will compete on a more level\nplaying field with a party's chosen candidates.\n\n PRIOR LEGISLATIVE HISTORY :\nThis bill has been previously introduced.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nFirst of January after it shall have become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1375",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2651",
+       "basePrintNoStr": "A2651-2009",
+       "printNo": "A2651A",
+       "session": 2009,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the election law, in relation to the number of signatures on and time for filing of nominating petitions",
+    "basePrintNo": "S1375",
+    "basePrintNoStr": "S1375-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 16,
+       "sessionYear": 2009,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      }
+     ],
+     "size": 3
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§6-142 & 6-158, El L",
+    "lawSection": "Election Law",
+    "memo": " BILL NUMBER:  S1375A\n\n TITLE OF BILL :\nAn act to amend the election law, in relation to the number of\nsignatures on and time for filing of nominating petitions\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nThis bill will help eliminate inequities in the special election\nprocess by allowing independent candidates to file a smaller, more\nreasonable amount of petition signatures in special congressional\nelections, and by allowing more time to collect these signatures.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nParagraph (e) of subdivision 2 of section 6142 of the election law, as\namended by chapter 79 of the laws of 1992, is amended reducing the\nnumber of signatures required for a nominating petition to two\nthousand.\n\n JUSTIFICATION :\nIn recent special elections, independent candidates for congressional\noffice were allowed only 7 days to collect 3500 valid petition\nsignatures in order to appear on the ballot. However, in the same\nelection, candidates nominated by a statewide party appeared on the\nballot after being designated by party leadership. This situation\ntherefore creates a situation where a candidate who has perhaps only\nthe backing of party leadership can appear on the ballot without\ndemonstrating grass roots support, while requiring an independent\ncandidate to demonstrate support from the community at large before he\nor she can appear on the same ballot. This is compounded by the fact\nthat candidates commonly collect twice the number of required\nsignatures in order to avoid being thrown off the ballot if their\nsignatures are challenged.\n\nIt is hoped that by reducing the amount of required signatures while\nincreasing the time allowed to collect them, independent candidates,\nwho still must show grass roots support, will compete on a more level\nplaying field with a party's chosen candidates.\n\n PRIOR LEGISLATIVE HISTORY :\nThis bill has been previously introduced.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nFirst of January after it shall have become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1375A",
+    "publishDate": "2010-05-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2651",
+       "basePrintNoStr": "A2651-2009",
+       "printNo": "A2651B",
+       "session": 2009,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the election law, in relation to the number of signatures on nominating petitions",
+    "basePrintNo": "S1375",
+    "basePrintNoStr": "S1375-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 16,
+       "sessionYear": 2009,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "Shirley L. Huntley",
+       "imgName": "Shirley L. Huntley.jpg",
+       "incumbent": false,
+       "memberId": 378,
+       "sessionMemberId": 10,
+       "sessionYear": 2009,
+       "shortName": "HUNTLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 31,
+       "sessionYear": 2009,
+       "shortName": "KRUEGER"
+      }
+     ],
+     "size": 3
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §6-142, El L",
+    "lawSection": "Election Law",
+    "memo": " BILL NUMBER:  S1375B\n\n TITLE OF BILL :\nAn act to amend the election law, in relation to the number of\nsignatures on nominating petitions\n\n\n PURPOSE OR GENERAL IDEA OF BILL :\nThis bill will help eliminate inequities in the special election\nprocess by allowing independent candidates to file a smaller, more\nreasonable amount of petition signatures in special congressional\nelections, and by allowing more time to collect these signatures.\n\n SUMMARY OF SPECIFIC PROVISIONS :\nParagraph (e) of subdivision 2 of section 6142 of the election law, as\namended by chapter 79 of the laws of 1992, is amended reducing the\nnumber of signatures required for a nominating petition to two\nthousand.\n\n JUSTIFICATION :\nIn recent special elections, independent candidates for congressional\noffice were allowed only 7 days to collect 3500 valid petition\nsignatures in order to appear on the ballot. However, in the same\nelection, candidates nominated by a statewide party appeared on the\nballot after being designated by party leadership. This situation\ntherefore creates a situation where a candidate who has perhaps only\nthe backing of party leadership can appear on the ballot without\ndemonstrating grass roots support, while requiring an independent\ncandidate to demonstrate support from the community at large before he\nor she can appear on the same ballot. This is compounded by the fact\nthat candidates commonly collect twice the number of required\nsignatures in order to avoid being thrown off the ballot if their\nsignatures are challenged.\n\nIt is hoped that by reducing the amount of required signatures\nindependent candidates, who still must show grass roots support, will\ncompete on a more level playing field with a party's chosen\ncandidates.\n\n PRIOR LEGISLATIVE HISTORY :\nThis bill has been previously introduced.\n\n FISCAL IMPLICATIONS :\nNone.\n\n EFFECTIVE DATE :\nFirst of January after it shall have become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1375B",
+    "publishDate": "2010-05-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2651",
+       "basePrintNoStr": "A2651-2009",
+       "printNo": "A2651C",
+       "session": 2009,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1375",
+ "basePrintNoStr": "S1375-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 52,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2010
+   }
+  ],
+  "size": 9
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2010
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-05-18",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-05-27",
+    "billCalNo": 637,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2009-01-29T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2010-05-06T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2010-05-18T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S446",
+    "basePrintNoStr": "S446-2007",
+    "printNo": "S446",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1375B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2010-05-06T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2010-05-18T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 16,
+   "fullName": "Toby Ann Stavisky",
+   "imgName": "400_toby_ann_stavisky.jpg",
+   "incumbent": true,
+   "memberId": 400,
+   "sessionMemberId": 30,
+   "sessionYear": 2009,
+   "shortName": "STAVISKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-09",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Reduces number of signatures required for a nominating petition for congressional district election; reduces signatures to 2000 from 3500.",
+ "title": "Reduces number of signatures required for a nominating petition",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1375",
+     "basePrintNoStr": "S1375-2009",
+     "printNo": "S1375B",
+     "session": 2009,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 16,
+         "sessionYear": 2009,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 56,
+         "sessionYear": 2009,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 40,
+         "sessionYear": 2009,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 5,
+         "sessionYear": 2009,
+         "shortName": "SERRANO"
+        }
+       ],
+       "size": 4
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Brian X. Foley",
+         "imgName": "Brian X. Foley.jpg",
+         "incumbent": false,
+         "memberId": 448,
+         "sessionMemberId": 34,
+         "sessionYear": 2009,
+         "shortName": "FOLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 24,
+         "sessionYear": 2009,
+         "shortName": "GRIFFO"
+        }
+       ],
+       "size": 2
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "Thomas P. Morahan",
+         "imgName": "Thomas P. Morahan.jpg",
+         "incumbent": false,
+         "memberId": 441,
+         "sessionMemberId": 2,
+         "sessionYear": 2009,
+         "shortName": "MORAHAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2010-05-25",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

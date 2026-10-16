@@ -1,0 +1,224 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S131",
+     "basePrintNoStr": "S131-2019",
+     "printNo": "S131",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO TRANSPORTATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S131",
+     "basePrintNoStr": "S131-2019",
+     "printNo": "S131",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-01",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public authorities law, in relation to allowing the New\nYork state thruway authority to offer a discounted toll rate to residents of\nRockland and Westchester counties for Tappan Zee bridge crossings",
+    "basePrintNo": "S131",
+    "basePrintNoStr": "S131-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §354-a, Pub Auth L",
+    "lawSection": "Public Authorities Law",
+    "memo": "\n \nBILL NUMBER: S131\n\nSPONSOR: CARLUCCI\n \nTITLE OF BILL:\n\nAn act to amend the public authorities law, in relation to allowing the\nNew York state thruway authority to offer a discounted toll rate to\nresidents of Rockland and Westchester counties for Tappan Zee bridge\ncrossings\n\n \nPURPOSE:\n\nThis bill will provide Rockland and Westchester residents with a\ndiscount resident rate for Tappan Zee Bridge crossings at 60% of the\noriginal toll.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Adds a new section 354-a to the public authorities law to\npermit the Thruway authority, subject to agreements with noteholders and\nbondholders, to offer a discounted toll, at 60% of the original toll, to\nresidents of Rockland and Westchester counties for Tappan Zee bridge\ncrossings.\n\nSection 2. Effective date.\n\n \nJUSTIFICATION:\n\nAs the construction of the replacement for the Tappan Zee bridge moves\nforward, we must keep in mind the residents of Rockland and Westchester\nwho will bear the burden of paying for anticipated increase in tolls.\nRockland residents currently lack a one seat mass transit option to\nManhattan and, given that many residents do not have an alternative mass\ntransit option, a discounted toll is warranted. The County of Rockland\ncurrently pays more than $40 million to the MTA annually than it\nreceives back in services. This value gap demonstrates the importance of\nthe new Tappan Zee Bridge to the region and the need to address the lack\nof mass transit available to residents of Rockland and Westchester coun-\nties.\n\n \nLEGISLATIVE HISTORY:\n\n2107-18: S1407/A1313 - TRANSPORTATION/corporations\n2015-16: S1659A/A1487A - Transportation/Corporations, Authorities &\nCommissions\n2013-14: S1996-A/A1198-A - Transportation/Corporations, Authorities &\nCommissions\n2012: S7094/A9881 - Transportation/Corporations, Authorities & Commis-\nsions\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined; there are currently commuter rates that are offered\nand this legislation would have similar impact.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S131",
+    "publishDate": "2019-01-02",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S5464",
+       "basePrintNoStr": "S5464-2019",
+       "printNo": "S5464",
+       "session": 2019,
+       "version": ""
+      },
+      {
+       "basePrintNo": "A3466",
+       "basePrintNoStr": "A3466-2019",
+       "printNo": "A3466",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 2
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S131",
+ "basePrintNoStr": "S131-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-01-09",
+    "billCalNo": null,
+    "committeeName": "Transportation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Transportation",
+    "referenceDate": "2019-01-09T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1407",
+    "basePrintNoStr": "S1407-2017",
+    "printNo": "S1407",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S1659",
+    "basePrintNoStr": "S1659-2015",
+    "printNo": "S1659A",
+    "session": 2015,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S1996",
+    "basePrintNoStr": "S1996-2013",
+    "printNo": "S1996A",
+    "session": 2013,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S7094",
+    "basePrintNoStr": "S7094-2011",
+    "printNo": "S7094",
+    "session": 2011,
+    "version": ""
+   }
+  ],
+  "size": 4
+ },
+ "printNo": "S131",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-02T12:55:33.528320",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-01-02T12:55:33.52832",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 38,
+   "fullName": "David Carlucci",
+   "imgName": "370_david_carlucci.jpg",
+   "incumbent": false,
+   "memberId": 370,
+   "sessionMemberId": 1191,
+   "sessionYear": 2019,
+   "shortName": "CARLUCCI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-05-01",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Allows the thruway authority to offer discounted tokens to residents of Rockland and Westchester counties for Tappan Zee bridge crossings.",
+ "title": "Allows the thruway authority to offer a discounted toll rate to residents of Rockland and Westchester counties for Tappan Zee bridge crossings",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

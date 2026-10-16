@@ -1,0 +1,1298 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-15",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-24",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-24",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 237A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-06-01",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2023-06-01",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 237B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 7,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-03",
+    "sequenceNo": 8,
+    "text": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237C",
+     "session": 2023,
+     "version": "C"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-03",
+    "sequenceNo": 9,
+    "text": "PRINT NUMBER 237C"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "C",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B",
+   "C"
+  ],
+  "size": 4
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to returnable\nbottles",
+    "basePrintNo": "S237",
+    "basePrintNoStr": "S237-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§27-1003, 27-1005, 27-1007, 27-1011, 27-1012 & 27-1014, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " \nBILL NUMBER: S237\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, in relation to\nreturnable bottles\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill would amend § 27-1003(1) of the Environmental\nConservation Law (ECL) to include wine, liquor, distilled spirit cool-\ners, cider, and wine products under definition of beverage and remove\nthe prohibition on the redemption of water beverages with added sugar.\n\nSection 2 of the bill would amend § 27-1003(1) of the ECL to phase in\nthe addition of noncarbonated soft drinks, noncarbonated fruit and vege-\ntable juices containing less than 100% fruit or vegetable juice, coffee\nand tea beverages, and carbonated fruit beverages into the definition of\n\"beverage.\"\n\nSection 3 of the bill would amend § 27-1003(12) of the ECL to expand the\ndefinition of \"reverse vending machine\" to include alternative technolo-\ngy approved by the Commissioner of the Department of Environmental\nConservation (DEC) under a local solid waste management plan.\n\nSection 4 of the bill would amend § 27-1007 of the ECL to increase\nconsumer protections including, for example protections for expiring\nreturned container scrip and receipts. This section would also modify\nthe container take-back requirements for small retail businesses of\n10,000 square feet or less that primarily sell food or beverages for\nconsumption off premises, to provide greater flexibility.  Additionally,\nthis section would increase the handling fee to six cents beginning\nApril 1, 2025.\n\nSection 5 of the bill would amend § 27-1011 of the ECL to establish\nphased-in minimum post-consumer content requirements for glass, alumi-\nnum, polyethylene terephthalate (PET), and plastic beverage containers.\n\nSection 6 of the bill would amend § 27-1012(3) of the ECL to include new\ninformation required on quarterly reports filed by deposit initiators to\nprovide that service charges do not exceed the maximum amount authorized\nby the DEC Commissioner.\n\nSection 7 of the bill would amend § 27-1012(4) of the ECL to authorize\ndeposit initiators utilizing a state-specific Universal Product Code\n(UPC) on beverage containers, an important anti-fraud component, to\nretain additional revenue.\n\nSection 8 of the bill would amend § 27-1012(12) of the ECL to require\ndeposit initiators to include information related to a state-specific\nuniversal product code on reports submitted to DEC.\n\nSection 9 of the bill would amend § 27-1014 of the ECL to authorize DEC\nto promulgate regulations to implement the new provision.\n\nSection 10 of the bill would amend § 27-1005 of the ECL to raise the\ndeposit refund value to ten cents beginning April 1, 2025.\n\nSection 11 of the bill would provide the effective date.\n\n \nJUSTIFICATION:\n\nNew York's Returnable Container Act (\"The Bottle Bill\"), first enacted\nin 1982, has been the State's most successful recycling program.\nAccording to the DEC, the Bottle Bill reduced curbside container litter\nby 70 percent and has encouraged the recycling of billions of plastic,\nglass, and aluminum containers. The Container Recycling Institute (CRI)\nstates that the over 11 million tons of containers recycled in New York\nsince the implementation of the Bottle Bill has reduced greenhouse gas\nemissions equivalent to taking about 3 million cars off the road for a\nyear. CRI also makes the important point that the processing and sale of\nrecycled containers benefits New York's economy and secures jobs in the\nrecycling industry.\n\nBy expanding the Bottle Bill to include a much more inclusive list of\nbeverages, we can expect an even greater number of containers to be\nrecycled and an even greater reduction of container litter in our\nstreets. Additionally, in the face of a growing recycling crisis, an\nexpansion of the Bottle Bill would help ease the burden that municipal\nrecycling facilities are currently facing by keeping these materials out\nof the traditional waste stream. The expansion would be phased in,\nbeginning primarily with the harder-to-manage glass and aluminum\ncontainers and subsequently to PET and other plastics. This approach,\ncoupled with the post-consumer content requirements for beverage\ncontainers will help ensure a continued market for beverage container\nmaterials and provide an important step in decreasing reliance on\nsingle-use plastic.\n\nRaising the deposit to lOcents will incentivize the public to return\nempty beverage containers, reduce liter, and provide additional income\nto individuals who collect and redeem such containers.  Additionally,\nthe delayed phase in will allow time for the bottle return industry to\nprepare.\n\n \nLEGISLATIVE HISTORY:\n\n2022: S9164 (MAY) REF TO ENCON/A.10184 (Englebright) Ref to Encon\n\n2019-20: A.5028-A (Englebright) - Referred to Ways and Means\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined\n\n \nEFFECTIVE DATE:\nThis act shall take effect April 1, 2024; provided, however, that\nsection two of this act shall take effect April 1, 2025. Effective imme-\ndiately, the addition, amendment and/or repeal of any rule or regulation\nnecessary for the implementation of this act on its effective date are\nauthorized to be made and completed on or before such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S237",
+    "publishDate": "2022-12-29",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ENV27-1003",
+        "ENV27-1005",
+        "ENV27-1007",
+        "ENV27-1011",
+        "ENV27-1012",
+        "ENV27-1014"
+       ],
+       "size": 6
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6353",
+       "basePrintNoStr": "A6353-2023",
+       "printNo": "A6353",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to returnable\nbottles and to retention and use of funds for the beverage container\nassistance program",
+    "basePrintNo": "S237",
+    "basePrintNoStr": "S237-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§27-1003, 27-1005, 27-1007, 27-1012, 27-1014 & 27-1018, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " \nBILL NUMBER: S237A\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, in relation to\nreturnable bottles and to retention and use of funds for the beverage\ncontainer assistance program\n\n \nPURPOSE:\n\nThe purpose of this bill is to incentivize more recycling of beverage\ncontainers, and thereby reduce solid waste, through expansion of eligi-\nble containers for a deposit and redemption under the current Bottle\nBill. The bill would raise the deposit refund value to ten cents, raise\nthe handling fee to six cents, and improve the redemption process\nthrough implementation of grants to establish new redemption centers and\nfor the purchase of reverse vending machines.\n\n \nSUMMARY OF PROVISIONS:\n\nThe bill would amend § 27-1003(1) of the Environmental Conservation Law\n(ECL) to include wine, liquor, distilled spirit coolers, cider, wine\nproducts, noncarbonated soft drinks, noncarbonated fruit and vegetable\njuices containing less than 100% fruit or vegetable juice, coffee and\ntea beverages, carbonated and non-carbonated water, and carbonated fruit\nbeverages under the definition of \"beverage\".\n\nThe bill would amend § 27-1003(12) of the ECL to expand the definition\nof \"reverse vending machine\" to include alternative technology approved\nby the Commissioner of the Department of Environmental Conservation\n(DEC) under a local solid waste management plan.\n\nThe bill would amend § 27-1007 of the ECL to increase consumer\nprotections including, for example, protections for expiring returned\ncontainer scrip and receipts. This section would also modify the\ncontainer take-back requirements for small retail businesses of 10,000\nsquare feet or less that primarily sell food or beverages for consump-\ntion off premises, to provide greater flexibility.  Additionally, this\nsection would increase the handling fee to six cents.\n\n* *The amendments to this version eliminate requirements for phased-in\nminimum post-consumer content for glass, aluminum, polyethylene tereph-\nthalate (PET), and plastic beverage containers.\n\nThe bill would amend § 27-1012(3) of the ECL to include new information\nrequired on quarterly reports filed by deposit initiators to provide\nthat service charges do not exceed the maximum amount authorized by the\nDEC Commissioner.\n\n* *The amendments to this version eliminate all requirements regarding\nthe use of a state-specific Universal Product Code (UPC) on beverage\ncontainers.\n\nThe bill would amend § 27-1005 of the ECL to raise the deposit refund\nvalue to ten cents for all covered beverage containers.\n\n** Amendments to this version of the bill provide that agribusinesses\nwhich are licensed to sell alcoholic beverages on their premises for\noff-premise consumption will not be required to redeem any empty\ncontainers subject to this act. This exemption shall extend to farmers\nmarkets and premises selling pursuant to a seven day license or tempo-\nrary license.\n\n** Amendments to this version of the bill include amendments to section\n27-1018 of the ECL to implement the beverage container assistance\nprogram. The bill would authorize the use of a small percentage of\nunclaimed deposit funds for the purpose of grants for the establishment\nof redemption centers, purchase of reverse vending machines, and real\nproperty improvements for redemption purposes.  (S6869-MAY)\n\n \nJUSTIFICATION:\n\nNew York's Returnable Container Act (\"The Bottle Bill\"), first enacted\nin 1982, has been the State's most successful recycling program.\nAccording to the DEC, the Bottle Bill reduced curbside container litter\nby 70 percent and has encouraged the recycling of billions of plastic,\nglass, and aluminum containers. The Container Recycling Institute (CRI)\nstates that the over 11 million tons of containers recycled in New York\nsince the implementation of the Bottle Bill has reduced greenhouse gas\nemissions equivalent to taking about 3 million cars off the road for a\nyear. CRI also makes the important point that the processing and sale of\nrecycled containers benefits New York's economy and secures jobs in the\nrecycling industry.\n\nBy expanding the Bottle Bill to include a much more inclusive list of\nbeverages, we can expect an even greater number of containers to be\nrecycled and an even greater reduction of container litter in our\nstreets. Additionally, in the face of a growing recycling crisis, an\nexpansion of the Bottle Bill would help ease the burden that municipal\nrecycling facilities are currently facing by keeping these materials out\nof the traditional waste stream.\n\nRaising the deposit to 10 cents will incentivize the public to return\nempty beverage containers, reduce liter, and provide additional income\nto individuals who collect and redeem such containers.  Additionally,\nthe one year delayed phase in will allow time for the bottle return\nindustry to prepare.\n\n \nLEGISLATIVE HISTORY:\n\n2022: S9164 (MAY) REF TO ENCON/A.10184 (Englebright) Ref to Encon\n\n2019-20: A.5028-A (Englebright) - Referred to Ways and Means\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided that sections one, two,\nthree, four, five, and six take effect one year after enactment.  Effec-\ntive immediately, the addition, amendment and/or repeal of any rule or\nregulation necessary for the implementation of this act on its effective\ndate are authorized to be made and completed on or before such effective\ndate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S237A",
+    "publishDate": "2023-05-24",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ENV27-1003",
+        "ENV27-1005",
+        "ENV27-1007",
+        "ENV27-1012",
+        "ENV27-1014",
+        "ENV27-1018"
+       ],
+       "size": 6
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to returnable\nbottles and to retention and use of funds for the beverage container\nassistance program",
+    "basePrintNo": "S237",
+    "basePrintNoStr": "S237-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 14
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§27-1003, 27-1005, 27-1007, 27-1012 & 27-1014, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " \nBILL NUMBER: S237B\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, in relation to\nreturnable bottles and to retention and use of funds for the beverage\ncontainer assistance program\n\n \nPURPOSE:\n\nThe purpose of this bill is to incentivize more recycling of beverage\ncontainers, and thereby reduce solid waste, through expansion of eligi-\nble containers for a deposit and redemption under the current Bottle\nBill. The bill would raise the deposit refund value to ten cents, raise\nthe handling fee to six cents, and improve the redemption process\nthrough implementation of grants to establish new redemption centers and\nfor the purchase of reverse vending machines.\n\n \nSUMMARY OF PROVISIONS:\n\nThe bill would amend § 27-1003(1) of the Environmental Conservation Law\n(ECL) to include wine, liquor, distilled spirit coolers, cider, wine\nproducts, noncarbonated soft drinks, noncarbonated fruit and vegetable\njuices containing less than 100% fruit or vegetable juice, coffee and\ntea beverages, carbonated and non-carbonated water, and carbonated fruit\nbeverages under the definition of \"beverage\".\n\nThe bill would amend § 27-1003(12) of the ECL to expand the definition\nof \"reverse vending machine\" to include alternative technology approved\nby the Commissioner of the Department of Environmental Conservation\n(DEC) under a local solid waste management plan.\n\nThe bill would amend § 27-1007 of the ECL to increase consumer\nprotections including, for example, protections for expiring returned\ncontainer scrip and receipts. This section would also modify the\ncontainer take-back requirements for small retail businesses of 10,000\nsquare feet or less that primarily sell food or beverages for consump-\ntion off premises, to provide greater flexibility.  Additionally, this\nsection would increase the handling fee to six cents.\n\n** The amendments to this version eliminate requirements for phased-in\nminimum post-consumer content for glass, aluminum, polyethylene tereph-\nthalate (PET), and plastic beverage containers.\n\nThe bill would amend § 27-1012(3) of the ECL to include new information\nrequired on quarterly reports filed by deposit initiators to provide\nthat service charges do not exceed the maximum amount authorized by the\nDEC Commissioner.\n\nThe amendments to this version eliminate all requirements regarding the\nuse of a state-specific Universal Product Code (UPC) on beverage\ncontainers.\n\nThe bill would amend § 27-1005 of the ECL to raise the deposit refund\nvalue to ten cents for all covered beverage containers.\n\nAmendments to this version of the bill provide that agribusinesses which\nare licensed to sell alcoholic beverages on their premises for off-prem-\nise consumption will not be required to redeem any empty containers\nsubject to this act. This exemption shall extend to farmers markets and\npremises selling pursuant to a temporary license.\n\nAmendments to this version of the bill include amendments to section\n27-1018 of the ECL to implement the beverage container assistance\nprogram. The bill would authorize the use of a small percentage of\nunclaimed deposit funds for the purpose of grants for the establishment\nof redemption centers, purchase of reverse vending machines, and real\nproperty improvements for redemption purposes.  (S6869-MAY)\n\n** Amendments to this version are technical and relate only to the prop-\ner references for the agribusiness exemption.\n\n \nJUSTIFICATION:\n\nNew York's Returnable Container Act (\"The Bottle Bill\"), first enacted\nin 1982, has been the State's most successful recycling program.\nAccording to the DEC, the Bottle Bill reduced curbside container litter\nby 70 percent and has encouraged the recycling of billions of plastic,\nglass, and aluminum containers. The Container Recycling Institute (CRI)\nstates that the over 11 million tons of containers recycled in New York\nsince the implementation of the Bottle Bill has reduced greenhouse gas\nemissions equivalent to taking about 3 million cars off the road for a\nyear. CRI also makes the important point that the processing and sale of\nrecycled containers benefits New York's economy and secures jobs in the\nrecycling industry.\n\nBy expanding the Bottle Bill to include a much more inclusive list of\nbeverages, we can expect an even greater number of containers to be\nrecycled and an even greater reduction of container litter in our\nstreets. Additionally, in the face of a growing recycling crisis, an\nexpansion of the Bottle Bill would help ease the burden that municipal\nrecycling facilities are currently facing by keeping these materials out\nof the traditional waste stream.\n\nRaising the deposit to 10 cents will incentivize the public to return\nempty beverage containers, reduce liter, and provide additional income\nto individuals who collect and redeem such containers.  Additionally,\nthe one year delayed phase in will allow time for the bottle return\nindustry to prepare.\n\n \nLEGISLATIVE HISTORY:\n\n2022: S9164 (MAY) REF TO ENCON/A.10184 (Englebright) Ref to Encon\n\n2019-20: A.5028-A (Englebright) - Referred to Ways and Means\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided that sections one, two,\nthree, four, five, and six take effect one year after enactment.  Effec-\ntive immediately, the addition, amendment and/or repeal of any rule or\nregulation necessary for the implementation of this act on its effective\ndate are authorized to be made and completed on or before such effective\ndate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S237B",
+    "publishDate": "2023-06-01",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ENV27-1003",
+        "ENV27-1005",
+        "ENV27-1007",
+        "ENV27-1012",
+        "ENV27-1014"
+       ],
+       "size": 5
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   },
+   "C": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to returnable\nbottles; and to repeal section 27-1018 of such law relating to the beverage\ncontainer assistance program",
+    "basePrintNo": "S237",
+    "basePrintNoStr": "S237-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§27-1003, 27-1005, 27-1007, 27-1012, 27-1013, 27-1014 & 27-1018, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " \nBILL NUMBER: S237C\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, in relation to\nreturnable bottles; and to repeal section 27-1018 of such law relating\nto the beverage container assistance program\n\n \nPURPOSE:\n\nThe purpose of this bill is to incentivize more recycling of beverage\ncontainers, and thereby reduce solid waste, through expansion of\ncontainers eligible for a deposit and redemption under the current\nReturnable Container Act (Bottle Bill). The bill would raise the deposit\nrefund value to ten cents, raise the handling fee incrementally, and\nimplement a grant program to assist redemption centers.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill would amend § 27-1003(1) of the Environmental\nConservation Law (ECL) to include noncarbonated soft drinks, noncarbo-\nnated fruit and vegetable juices containing less than 100% fruit or\nvegetable juice, coffee and tea beverages, carbonated fruit beverages,\nand cider under definition of beverage and remove the prohibition on the\nredemption of water beverages with added sugar.\n\nSection 2 of the bill would amend § 27-1003(1) of the ECL to include all\nbeverage containers which contain liquids for oral consumption within\nthe definition of \"beverage\" starting April 1, 2029. The following would\nexcluded from the definition of beverage: a drug regulated under the\nFederal Food, Drug, and Cosmetic Act, 21 U.S.C.  301 et seq.; infant\nformula; a meal replacement liquid; dairy products derived from animal\nmilk; plant-based dairy alternatives; and noncarbonated fruit or vegeta-\nble juices containing one hundred percent fruit or vegetable juice.\n\nSection 3 of the bill would amend § 27-1003(12) of the ECL to expand the\ndefinition of \"reverse vending machine\"(RVM) to include alternative\ntechnology approved by the Commissioner of the Department of Environ-\nmental Conservation (DEC) under a local solid waste management plan and\nadds definitions of refillable beverage containers, return and reusable\nsystems, redemption rate, and recycling.\n\nSection 4 of the bill would amend § 27-1007 of the ECL to increase\nconsumer protections including, for example protections for expiring\nreturned container scrip and receipts. This section would also modify\nthe container take-back requirements for small retail businesses of\n10,000 square feet or less that primarily sell food or beverages for\nconsumption off premises, to provide greater flexibility. Additionally,\nthis section would increase the handling fee to five cents immediately,\nsix cents beginning April 1, 2026 and six and one half cent beginning\nApril 1, 2031. Finally, it would add provisions relating to recounts,\nthe loading and unloading of containers, and grant audit powers over\nRVMs.\n\nSection 5 of the bill would amend § 27-1011 of the ECL to require the\nuse of Universal Parcel Codes\n\n\nSection 6 of the bill would amend § 27-1011 of the ECL to establish\nphased-in minimum post-consumer content requirements for beverage\ncontainers.\n\nSection 7 of the bill would amend § 27-1012 of the ECL to transfer 5% of\nadditional unclaimed funds to the beverage container assistance fund.\n\nSection 8 of the bill would amend § 27-1012(3) of the ECL to include new\ninformation required on quarterly reports filed by deposit initiators to\nprovide that service charges do not exceed the maximum amount authorized\nby the DEC Commissioner.\n\nSection 9 of the bill would amend § 27-1012(4) of the ECL to create a\nrefillable bonus for deposit initiators which use refillable systems.\n\nSection 10 of the bill would amend § 27-1012(7) of the ECL to require\nDEC to publish a list of deposit initiators, covered products, and\nredemption centers.\n\nSection 11 of the bill would amend § 27-1014 of the ECL to authorize DEC\nto promulgate regulations to implement the new provision.\n\nSection 12 of the bill would amend § 27-1018 of the ECL to expand the\nuse of the beverage container assistance fund and sunset the fund in 15\nyears.\n\nSection 13 of the bill would amend § 27-1013 of the ECL to allow DEC to\nregulate for safe pick up and drop off.\n\nSection 14 of the bill would amend § 27-1005 of the ECL to raise the\ndeposit refund value to ten cents beginning April 1, 2025.\n\nSection 15 of the bill would repeal § 27-1018 on January 1, 2038.\n\nSection 16 of the bill would provide the effective date.\n\n \nJUSTIFICATION:\n\nNew York's Returnable Container Act (\"The Bottle Bill\"), first enacted\nin 1982, has been the State's most successful recycling program.\nAccording to the DEC, the Bottle Bill reduced curbside container litter\nby 70 percent and has encouraged the recycling of billions of plastic,\nglass, and aluminum containers. The Container Recycling Institute (CRI)\nstates that the over 11 million tons of containers recycled in New York\nsince the implementation of the Bottle Bill has reduced greenhouse gas\nemissions equivalent to taking about 3 million cars off the road for a\nyear. CRI also makes the important point that the processing and sale of\nrecycled containers benefits New York's economy and secures jobs in the\nrecycling industry.\n\nBy expanding the Bottle Bill to include a much more inclusive list of\nbeverages, we can expect an even greater number of containers to be\nrecycled and an even greater reduction of container litter in our\nstreets. Additionally, in the face of a growing recycling crisis, an\nexpansion of the Bottle Bill would help ease the burden that municipal\nrecycling facilities are currently facing by keeping these materials out\nof the traditional waste stream. The expansion would be phased in,\nbeginning primarily with the harder-to-manage glass and aluminum\ncontainers and subsequently to PET and other plastics. This approach,\ncoupled with the post-consumer content requirements for beverage\ncontainers will help ensure a continued market for beverage container\nmaterials and provide an important step in decreasing reliance on\nsingle-use plastic.  Raising the deposit to 10 cents will incentivize\nthe public to return empty beverage containers, reduce liter, and\nprovide additional income to individuals who collect and redeem such\ncontainers.  Additionally, the delayed phase in will allow time for the\nbottle return industry to prepare.\n\n \nLEGISLATIVE HISTORY:\n\n2023: S237B (MAY) REF TO ENCON\n\n2022: S9164 (MAY) REF TO ENCON/A.10184 (Englebright) Ref to Encon\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined\n\n \nEFFECTIVE DATE:\nThis act shall take effect April 1, 2025; provided, however, that\nsection one of this act shall take effect April 1, 2016; provided\nfurther that section two of this act shall take effect April 1, 2029;\nprovided, further, that the amendments to subdivision 6 of section\n27-1007 of the environmental conservation law made by section four of\nthis act shall take effect immediately; provided further that section\nfifteen of this act shall take effect January 1, 2038, with any proceeds\ntransferred to the environmental protection fund established pursuant to\nsection 92-s of the state finance law. Effective immediately, the addi-\ntion, amendment and/or repeal of any rule or regulation necessary for\nthe implementation of this act on its effective date are authorized to\nbe made and completed on or before such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S237C",
+    "publishDate": "2024-05-03",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ENV27-1003",
+        "ENV27-1005",
+        "ENV27-1007",
+        "ENV27-1012",
+        "ENV27-1013",
+        "ENV27-1014",
+        "ENV27-1018"
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6353",
+       "basePrintNoStr": "A6353-2023",
+       "printNo": "A6353A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S237",
+ "basePrintNoStr": "S237-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 9,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Environmental Conservation"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-05-03",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2023-01-04T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2024-05-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2023-03-15T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2023-05-24T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2023-06-01T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 6
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S9164",
+    "basePrintNoStr": "S9164-2021",
+    "printNo": "S9164",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A5028",
+    "basePrintNoStr": "A5028-2019",
+    "printNo": "A5028A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S2129",
+    "basePrintNoStr": "S2129-2019",
+    "printNo": "S2129A",
+    "session": 2019,
+    "version": "A"
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S237C",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2022-12-29T14:57:03.410454",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2023-05-24T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2023-06-01T00:00",
+    "published": true,
+    "version": "B"
+   },
+   "C": {
+    "effectDateTime": "2024-05-03T00:00",
+    "published": true,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "publishedDateTime": "2022-12-29T14:57:03.410454",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 48,
+   "fullName": "Rachel May",
+   "imgName": "1057_Rachel_May.jpg",
+   "incumbent": true,
+   "memberId": 1237,
+   "sessionMemberId": 2023,
+   "sessionYear": 2023,
+   "shortName": "MAY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-05-03",
+  "billCalNo": null,
+  "committeeName": "Environmental Conservation",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to returnable bottles; adds noncarbonated soft drinks, certain noncarbonated fruit or vegetable juices, coffee and tea beverages, carbonated fruit beverages and cider to the definition of \"beverage\"; provides that beginning April 1, 2026, the handling fee will be six cents for each beverage container accepted by a deposit initiator from a dealer or operator of a redemption center.",
+ "title": "Relates to returnable bottles; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S237",
+     "basePrintNoStr": "S237-2023",
+     "printNo": "S237",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Environmental Conservation"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 2014,
+         "sessionYear": 2023,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 2018,
+         "sessionYear": 2023,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 2035,
+         "sessionYear": 2023,
+         "shortName": "SERRANO"
+        }
+       ],
+       "size": 4
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Michelle Hinchey",
+         "imgName": "1314_Michelle_Hinchey.jpg",
+         "incumbent": true,
+         "memberId": 1497,
+         "sessionMemberId": 2047,
+         "sessionYear": 2023,
+         "shortName": "HINCHEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1874,
+         "sessionYear": 2023,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 2041,
+         "sessionYear": 2023,
+         "shortName": "PALUMBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        }
+       ],
+       "size": 5
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Patricia Canzoneri-Fitzpatrick",
+         "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+         "incumbent": true,
+         "memberId": 1517,
+         "sessionMemberId": 1880,
+         "sessionYear": 2023,
+         "shortName": "CANZONERI-FITZPATRICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2023-03-14",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2024
+}

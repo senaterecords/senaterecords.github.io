@@ -1,0 +1,1195 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-08",
+    "sequenceNo": 3,
+    "text": "1ST REPORT CAL.449"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-09",
+    "sequenceNo": 4,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-14",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-03-08",
+    "sequenceNo": 6,
+    "text": "AMENDED ON THIRD READING 6522A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-10",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A7363A"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the civil practice law and rules, in relation to protecting\npatients from certain penalties due to money judgments arising from actions\nbrought by hospitals or health care professionals",
+    "basePrintNo": "S6522",
+    "basePrintNoStr": "S6522-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      }
+     ],
+     "size": 15
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§5201 & 5231, CPLR",
+    "lawSection": "Civil Practice Law and Rules",
+    "memo": " \nBILL NUMBER: S6522\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the civil practice law and rules, in relation to\nprotecting patients from certain penalties due to money judgments aris-\ning from actions brought by hospitals or health care professionals\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo protect patients from certain penalties due to money judgments\nbrought by hospitals or health care providers.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of the bill amends paragraph (b) of Section 5201 of the Civil\nPractice Law and Rules to prohibit a lien being placed on a person's\nprimary residence for medical debt judgments.\n\nSection 2 of the bill amends paragraph (b) of Section 5231 of the Civil\nPractice Law and Rules to prohibit wage garnishment for medical debt\njudgments.\n\n \nJUSTIFICATION:\n\nNew Yorkers struggle with health care costs, even when they have insu-\nrance.(i) Over 50,000 New York patients have been sued for medical debt\nby non-profit hospitals in the past five years-4,000 during the COVID-19\npandemic (March December 2020). Eight percent of New Yorkers have delin-\nquent medical debt that appears on their credit reports.  The problem is\nmost pervasive upstate: in Oswego County, this increases to 23% of resi-\ndents and there are 16 other upstate counties where between 16 and 23%\nof residents have an adverse credit entry for delinquent medical\ndebt.(ii) Medical debt is strongly associated with housing instability,\nand even homelessness.(iii) Communities of color in New York are almost\ntwice as likely to have medical debt than their white counterparts.(iv)\n\nNew York State provides its non-profit hospitals with $1.1 billion in\nIndigent Care Pool funds to support the provision of uncompensated care.\nWhile most hospitals do not sue their patients, a significant minority\ndo sue their patients for relatively small amounts: the median court\ncase is for $1,900 dollars. These cases do little to stabilize a hospi-\ntal's finances but can have devastating financial consequences for the\npatient. Once a hospital or health care provider secures a judgment in a\nmedical debt court case, they have the ability under New York State law\nto place liens on a patient's home or garnish a patient's wages to\nsatisfy the medical debt judgment.\n\nThis bill would promote housing stability for patients by prohibiting\nnonprofit hospitals and health care providers from imposing liens on a\npatient's primary residence to satisfy a judgment in a medical debt\nlawsuit. New York's hospitals have taken over 2,000 liens against their\npatient's homes. One hospital in Albany county took over 250 liens in\n2018 alone. Ten states and jurisdictions already have placed protections\non the family home, including: Arkansas, Washington DC, Florida, Iowa,\nKansas, Maryland, Oklahoma, Puerto Rico, South Dakota, and Texas.\n\n\nThis bill would also promote income stability by prohibiting non-profit\nhospitals from securing wage garnishments after prevailing in a medical\ndebt lawsuit. A review of wage garnishment data in medical debt cases in\nAlbany, Fulton and Onondaga counties indicated that most of the patients\nworked in low-wage service occupations such as retail, fast food and\nhealth care entities.(v) Four states ban wage garnishments (North Caro-\nlina, Pennsylvania, South Carolina, and Texas). Maryland recently banned\nhospitals from placing wage garnishments on patients who are eligible\nfor financial assistance.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nImmediately.\n1 Altarum Healthcare Value Hub and Community Service Society of New\nYork, \"New Yorkers Struggle to Afford High Healthcare Costs; Support a\nRange of Government Solutions Across Party Lines,\" March 2019,\n \nHTTPS://WWW.CSSNY.ORG/NEWS/ENTRY/NEW-STATEWIDE- HEALTHCARE-AFFORDABILI-\nTYSURVEY.ct.\nii Urban Institute, \"Debt in America: An Interactive Map,\" December\n2019,  \nHTTPS://APPS.URBAN.ORG/FEATURES/DEBT-\nINTERACTIVEMAP/?TYPE=OVERALL&VARIABLE=PCT W MEDICALDEBT IN\nCOLLECTIONS&STATE=36 &COUNTY=36075.ct.  The counties are Cattaraugus,\nCayuga, Chautauqua, Columbia, Cortland, Greene, Jefferson, Madison,\nOnondaga, Rensselaer, Schenectady, Schuyler, Seneca, Steuben, Sullivan,\nand Washington.\niii Seifert, R . \"Home Sick: How Medical Debt Undermines Housing\nSecurity,\" St Louis Univ Law J, 51:325; Bienlenberg, J. \"Presence of Any\nMedical debt Associated with Two Additional Years of Homelessness in a\nSeattle Sample,\" The J of Health Care Organizations, 57:1-10, Jan. 2020.\niv Urban Institute, \"Debt in America: An Interactive Map,\" December\n2019,  \nHTTPS://APPS.URBAN.ORG/FEATURES/DEBT-\nINTERACTIVEMAP/?TYPE=OVERALL&VARIABLE=PCT W MEDICAL DEBT IN\nCOLLECTIONS&STATE=36&COUNTY= 36075\nv Amanda Dunker and Elisabeth Benjamin, \"Discharged Into Debt: Medical\nDebt and Racial Disparities in Albany County,\" January 2021,\n \nHTTPS://WWW.CSSNY.ORG/PUBLICATIONS/ENTRY/ DISCHARGED-INTO-DEBT-MEDI-\nCAL-DEBTAND-RACIAL- DISPARITIES-IN-ALBANY-COUNTY\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6522",
+    "publishDate": "2021-05-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CVP5201",
+        "CVP5231"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7363",
+       "basePrintNoStr": "A7363-2021",
+       "printNo": "A7363",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the civil practice law and rules, in relation to protecting\npatients from certain penalties due to money judgments arising from actions\nbrought by hospitals or health care professionals",
+    "basePrintNo": "S6522",
+    "basePrintNoStr": "S6522-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1835,
+       "sessionYear": 2021,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 25
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§5201 & 5231, CPLR",
+    "lawSection": "Civil Practice Law and Rules",
+    "memo": " \nBILL NUMBER: S6522A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the civil practice law and rules, in relation to\nprotecting patients from certain penalties due to money judgments aris-\ning from actions brought by hospitals or health care professionals\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo protect patients from certain penalties due to money judgments,\nbrought by hospitals or health care providers.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of the bill amends paragraph (b) of Section 5201 of the Civil\nPractice Law and Rules to prohibit a lien being placed or enforced\nagainst a person's primary residence in an action arising from medical\ndebt judgments.\n\nSection 2 of the bill amends paragraph (b) of Section 5231 of the Civil\nPractice Law and Rules to prohibit wage garnishment for medical debt\njudgments.\n\n \nJUSTIFICATION:\n\nNew Yorkers struggle with health care costs, even when they have insu-\nrance.(i) Over 50,000 New York patients have been sued for medical debt\nby non-profit hospitals in the past five years-4,000 during the COVID-19\npandemic (March December 2020). Eight percent of New Yorkers have delin-\nquent medical debt that appears on their credit reports. The problem is\nmost pervasive upstate: in Oswego County, this increases to 23% of resi-\ndents and there are 16 other upstate counties where between 16 and 23%\nof residents have an adverse credit entry for delinquent medical\ndebt.(ii) Medical debt is strongly associated with housing instability,\nand even homelessness.(iii) Communities of color in New York are almost\ntwice as likely to have medical debt than their white counterparts.(iv)\n\nNew York State provides its non-profit hospitals with $1.1 billion in\nIndigent Care Pool funds to support the provision of uncompensated care.\nWhile most hospitals do not sue their patients, a significant minority\ndo sue their patients for relatively small amounts: the median court\ncase is for $1,900 dollars. These cases do little to stabilize a hospi-\ntal's finances but can have devastating financial consequences for the\npatient. Once a hospital or health care provider secures a judgment in a\nmedical debt court case, they have the ability under New York State law\nto place liens on a patient's home or garnish a patient's wages to\nsatisfy the medical debt judgment.\n\nThis bill would promote housing stability for patients by prohibiting\nnonprofit hospitals and health care providers from imposing and enforc-\ning liens on a patient's primary residence to satisfy a judgment in a\nmedical debt lawsuit. New York's hospitals have taken over 2,000 liens\nagainst their patient's homes. One hospital in Albany county took over\n250 liens in 2018 alone. Ten states and jurisdictions already have\nplaced protections on the family home, including: Arkansas, Washington\nDC, Florida, Iowa, Kansas, Maryland, Oklahoma, Puerto Rico, South Dako-\nta, and Texas.\nThis bill would also promote income stability by prohibiting non-profit\nhospitals from securing wage garnishments after prevailing in a medical\ndebt lawsuit. A review of wage garnishment data in medical debt cases in\nAlbany, Fulton and Onondaga counties indicated that most of the patients\nworked in low-wage service occupations such as retail, fast food and\nhealth care entities.(v) Four states ban wage garnishments (North Caro-\nlina, Pennsylvania, South Carolina, and Texas). Maryland recently banned\nhospitals from placing wage garnishments on patients who are eligible\nfor financial assistance.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nImmediately.\n(1) Altarum Healthcare Value Hub and Community Service Society of New\nYork, \"New Yorkers Struggle to Afford High Healthcare Costs; Support a\nRange of Government Solutions Across Party Lines,\" March 2019,\n \nHTTPS://WWW.CSSNY.ORG/NEWS/ENTRY/NEW-STATEWIDE- HEALTHCARE-AFFORDABILI-\nTYSURVEY.ct.  ii Urban Institute, \"Debt in America: An Interactive\nMap,\" December 2019,\n \nHTTPS://APPS.URBAN.ORG/FEATURES/DEBT-\nINTERACTIVEMAP/?TYPE=OVERALL&VARIABLE=PCT W MEDICALDEBT IN\nCOLLECTIONS&STATE=36 &COUNTY=36075.ct.  The counties are Cattaraugus,\nCayuga, Chautauqua, Columbia, Cortland, Greene, Jefferson, Madison,\nOnondaga, Rensselaer, Schenectady, Schuyler, Seneca, Steuben, Sullivan,\nand Washington.\niii Seifert, R . \"Home Sick: How Medical Debt Undermines Housing Securi-\nty,\" St Louis Univ Law J, 51:325; Bienlenberg, J. \"Presence of Any\nMedical debt Associated with Two Additional Years of Homelessness in a\nSeattle Sample,\" The J of Health Care Organizations, 57:1-10, Jan. 2020.\niv Urban Institute, \"Debt in America: An Interactive Map,\" December\n2019,\n \nHTTPS://APPS.URBAN.ORG/FEATURES/DEBT-\nINTERACTIVEMAP/?TYPE=OVERALL&VARIABLE=PCT W MEDICAL DEBT IN\nCOLLECTIONS&STATE=36&COUNTY= 36075 v Amanda Dunker and Elisabeth Benja-\nmin, \"Discharged Into Debt: Medical Debt and Racial Disparities in Alba-\nny County,\" January 2021,\n \nHTTPS://WWW.CSSNY.ORG/PUBLICATIONS/ENTRY/ DISCHARGED-INTO-DEBT-MEDI-\nCAL-DEBTAND-RACIAL- DISPARITIES-IN-ALBANY-COUNTY\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6522A",
+    "publishDate": "2022-03-08",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CVP5201",
+        "CVP5231"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7363",
+       "basePrintNoStr": "A7363-2021",
+       "printNo": "A7363A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6522",
+ "basePrintNoStr": "S6522-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 16,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 17,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 18,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 19,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 20,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 21,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 22,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 23,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 24,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 25,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 26,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 27,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 28,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 29,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 30,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 31,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 32,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 33,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2022
+   }
+  ],
+  "size": 37
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 5,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2022-03-08",
+    "billCalNo": 449,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2021-05-04T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6522A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-05-04T14:12:18.880172",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-03-08T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-05-04T14:12:18.880172",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 1832,
+   "sessionYear": 2021,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-03-08",
+  "billCalNo": 449,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7363",
+  "basePrintNoStr": "A7363-2021",
+  "session": 2021
+ },
+ "summary": "Protects patients from liens against their primary residence and wage garnishment due to money judgments arising from actions brought by hospitals or health care professionals.",
+ "title": "Protects patients from certain penalties due to money judgments arising from actions brought by hospitals or health care professionals",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6522",
+     "basePrintNoStr": "S6522-2021",
+     "printNo": "S6522",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1797,
+         "sessionYear": 2021,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1802,
+         "sessionYear": 2021,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 1809,
+         "sessionYear": 2021,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 1825,
+         "sessionYear": 2021,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 1836,
+         "sessionYear": 2021,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 1839,
+         "sessionYear": 2021,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 9
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Anna Kaplan",
+         "imgName": "1044_Anna_Kaplan.jpg",
+         "incumbent": false,
+         "memberId": 1224,
+         "sessionMemberId": 1817,
+         "sessionYear": 2021,
+         "shortName": "KAPLAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1821,
+         "sessionYear": 2021,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 1844,
+         "sessionYear": 2021,
+         "shortName": "PALUMBO"
+        }
+       ],
+       "size": 6
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2022-02-08",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2022
+}

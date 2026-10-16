@@ -1,0 +1,244 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A7313",
+     "basePrintNoStr": "A7313-2011",
+     "printNo": "A7313",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-04-29",
+    "sequenceNo": 1,
+    "text": "REFERRED TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7313",
+     "basePrintNoStr": "A7313-2011",
+     "printNo": "A7313",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-06-07",
+    "sequenceNo": 2,
+    "text": "REPORTED REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7313",
+     "basePrintNoStr": "A7313-2011",
+     "printNo": "A7313",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-06-15",
+    "sequenceNo": 3,
+    "text": "REPORTED"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7313",
+     "basePrintNoStr": "A7313-2011",
+     "printNo": "A7313",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-06-15",
+    "sequenceNo": 4,
+    "text": "RULES REPORT CAL.279"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7313",
+     "basePrintNoStr": "A7313-2011",
+     "printNo": "A7313",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-06-15",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY S4650"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the tax law, in relation to sales and compensating use tax in Dutchess county",
+    "basePrintNo": "A7313",
+    "basePrintNoStr": "A7313-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1210, Tax L",
+    "lawSection": "Tax Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A7313",
+    "publishDate": "2011-04-29",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S4650",
+       "basePrintNoStr": "S4650-2011",
+       "printNo": "S4650",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A7313",
+ "basePrintNoStr": "A7313-2011",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-06-07",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   },
+   {
+    "actionDate": "2011-06-15",
+    "billCalNo": 279,
+    "committeeName": null,
+    "statusDesc": "Assembly Floor Calendar",
+    "statusType": "ASSEMBLY_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Rules",
+    "referenceDate": "2011-06-07T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2011-04-29T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A7313",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-04-29T11:38:54",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-04-29T11:38:54",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 100,
+   "fullName": "Thomas Kirwan",
+   "imgName": "no_image.jpg",
+   "incumbent": false,
+   "memberId": 652,
+   "sessionMemberId": 506,
+   "sessionYear": 2011,
+   "shortName": "KIRWAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-15",
+  "billCalNo": 279,
+  "committeeName": null,
+  "statusDesc": "Assembly Floor Calendar",
+  "statusType": "ASSEMBLY_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "S4650",
+  "basePrintNoStr": "S4650-2011",
+  "session": 2011
+ },
+ "summary": "Relates to extending the authorization for additional sales and compensating use tax in Dutchess county until 2013.",
+ "title": "Relates to extending the authorization for additional sales tax in Dutchess county",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

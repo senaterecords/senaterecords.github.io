@@ -1,0 +1,507 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4582",
+     "basePrintNoStr": "S4582-2019",
+     "printNo": "S4582",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-15",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4582",
+     "basePrintNoStr": "S4582-2019",
+     "printNo": "S4582",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-30",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.540"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4582",
+     "basePrintNoStr": "S4582-2019",
+     "printNo": "S4582",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-01",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4582",
+     "basePrintNoStr": "S4582-2019",
+     "printNo": "S4582",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-06",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4582",
+     "basePrintNoStr": "S4582-2019",
+     "printNo": "S4582",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-08",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A1078"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to the definition of\npalliative care",
+    "basePrintNo": "S4582",
+    "basePrintNoStr": "S4582-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §4012-b, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S4582\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:  An act to amend the public health law, in relation to\nthe definition of palliative care\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nAdd a definition for and update other references to palliative care in\nthe hospice law.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThe bill deletes the definition of palliative care in Section 4012-b\nwhich is selectively applicable to services for patients with life-lim-\niting as opposed to life-ending illness, and makes other technical\nrevisions so that the new definition in Subdivision 6 of Section 4002\nwill apply to Article Forty as a whole.\n\n \nJUSTIFICATION:\n\nIn 2002, Section 4012-b was enacted to enable hospices to provide palli-\native care to patients not at end-of-life. However, the inconsistent\ndefinitions between hospice statute and palliative care statutes have\nled to confusion and could potentially limit access.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2013-2014: A.7505 - passed Assembly\n2015-2016: A2211-A passed Assembly\n2017-2018: A.2723 - passed Assembly\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nImmediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4582",
+    "publishDate": "2019-03-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1078",
+       "basePrintNoStr": "A1078-2019",
+       "printNo": "A1078",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4582",
+ "basePrintNoStr": "S4582-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 37,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2019
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2019
+   }
+  ],
+  "size": 4
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-03-15",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2019-05-06",
+    "billCalNo": 540,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2019-03-15T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S789",
+    "basePrintNoStr": "S789-2017",
+    "printNo": "S789",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S311",
+    "basePrintNoStr": "S311-2015",
+    "printNo": "S311A",
+    "session": 2015,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S7504",
+    "basePrintNoStr": "S7504-2013",
+    "printNo": "S7504",
+    "session": 2013,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S4582",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-03-15T12:48:08.098735",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-03-15T12:48:08.098735",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 10,
+   "fullName": "James Sanders Jr.",
+   "imgName": "432_james_sanders_jr.jpg",
+   "incumbent": true,
+   "memberId": 432,
+   "sessionMemberId": 1208,
+   "sessionYear": 2019,
+   "shortName": "SANDERS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-05-06",
+  "billCalNo": 540,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A1078",
+  "basePrintNoStr": "A1078-2019",
+  "session": 2019
+ },
+ "summary": "Relates to conforming the definition of palliative care under hospice provisions to be the same as under other public health law provisions.",
+ "title": "Relates to conforming the definition of palliative care throughout the public health law",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4582",
+     "basePrintNoStr": "S4582-2019",
+     "printNo": "S4582",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1229,
+         "sessionYear": 2019,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 1191,
+         "sessionYear": 2019,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1204,
+         "sessionYear": 2019,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "Jen Metzger",
+         "imgName": "1054_Jen_Metzger.jpg",
+         "incumbent": false,
+         "memberId": 1234,
+         "sessionMemberId": 1232,
+         "sessionYear": 2019,
+         "shortName": "METZGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 1195,
+         "sessionYear": 2019,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1418,
+         "sessionYear": 2019,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1196,
+         "sessionYear": 2019,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1225,
+         "sessionYear": 2019,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1209,
+         "sessionYear": 2019,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 12
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Bob Antonacci",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1236,
+         "sessionMemberId": 1234,
+         "sessionYear": 2019,
+         "shortName": "ANTONACCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1417,
+         "sessionYear": 2019,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Chris Jacobs",
+         "imgName": "921_Chris_Jacobs.jpg",
+         "incumbent": false,
+         "memberId": 1099,
+         "sessionMemberId": 1385,
+         "sessionYear": 2019,
+         "shortName": "JACOBS"
+        }
+       ],
+       "size": 3
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-04-30",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

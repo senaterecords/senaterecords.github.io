@@ -1,0 +1,574 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3415",
+     "basePrintNoStr": "S3415-2015",
+     "printNo": "S3415",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-02-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CONSUMER PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3415",
+     "basePrintNoStr": "S3415-2015",
+     "printNo": "S3415",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-15",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO CONSUMER PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3415",
+     "basePrintNoStr": "S3415-2015",
+     "printNo": "S3415A",
+     "session": 2015,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-15",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 3415A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3415",
+     "basePrintNoStr": "S3415-2015",
+     "printNo": "S3415",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2015-06-16",
+    "sequenceNo": 4,
+    "text": "AMEND BY RESTORING TO ORIGINAL PRINT 3415"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3415",
+     "basePrintNoStr": "S3415-2015",
+     "printNo": "S3415",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-01-06",
+    "sequenceNo": 5,
+    "text": "REFERRED TO CONSUMER PROTECTION"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law, in relation to employment agencies",
+    "basePrintNo": "S3415",
+    "basePrintNoStr": "S3415-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 724,
+       "sessionYear": 2015,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 726,
+       "sessionYear": 2015,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 720,
+       "sessionYear": 2015,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 716,
+       "sessionYear": 2015,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 882,
+       "sessionYear": 2015,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 718,
+       "sessionYear": 2015,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 883,
+       "sessionYear": 2015,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 730,
+       "sessionYear": 2015,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 717,
+       "sessionYear": 2015,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Marc Panepinto",
+       "imgName": "894_marc_panepinto.jpg",
+       "incumbent": false,
+       "memberId": 894,
+       "sessionMemberId": 888,
+       "sessionYear": 2015,
+       "shortName": "PANEPINTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 714,
+       "sessionYear": 2015,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 715,
+       "sessionYear": 2015,
+       "shortName": "SQUADRON"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Gen Bus L, generally",
+    "lawSection": "General Business Law",
+    "memo": "BILL NUMBER:S3415\n\nTITLE OF BILL:\n\nAn  act  to  amend the general business law, in relation to employment\nagencies\n\nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo provide new provisions to prevent fraud in employment  agencies  by\nmodifying   license   procedures,  general  practice  procedures,  and\nenforcement.\n\nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 - amends Section 171 of the general business law  to  add  a\nnew  subdivision  12 to require a \"bona tide order\", as defined in the\nbill, be maintained on a 45 day  basis  between  an  employer  and  an\nemployment  agency  that  clearly  defines the details of the position\navailable and other criteria.\n\nSection 2 - Paragraph b of subdivision 2 of section 173 of the general\nbusiness law is amended to include a contract, statement of terms  and\nconditions,  and  receipt  be  approved  b)  the commissioner before a\nlicense is granted.\n\nSection 3 - Subdivisions 1  and  2  of  section  174  of  the  general\nbusiness  law  are amended to require that certain license information\nbe posted on the commissioner's website and that and criminal  history\nbe disclosed to the applicant.\n\nSection  4 - Section 179 of the general business law is amended to add\nbona fide order to documents that agencies are  required  to  keep  on\nfile.\n\nSection  5  -  Section  181  of the general business law is amended to\nrequire statements of terms and conditions be given to each  applicant\nfor  employment,  clarifies  required  information  to  be included in\ncontracts with employment applicants,  requires  the  commissioner  to\nprepare   templates  that  comply  with  those  requirements  in  dual\nlanguages, requires contracts and receipts be kept on file  for  three\nyears, and provide that receipts must state that job applicants cannot\nbe charged a tee prior to being referred to a job they accept.\n\nSection 6 - Subdivisions land 3 of section 185 of the general business\nlaw  are  amended and a new subdivision 1-a is added to change advance\nfee charges and to require reimbursement of past advanced fees charged\nto class A and A-I workers who were not hired by the agency.\n\nSection 7 - Subdivision 2 of section 186 of the general  business  law\nis amended to cap fees when a job applicant fails to report to work.\n\nSection  8  - Subdivision 3 of section 187 of the general business law\nis amended to  require  employment  vacancies  include  their  license\nnumber in any advertisements.\n\n\nSection  9  -  Section  189  of the general business law is amended to\ngrant the commissioner and the attorney general the power  to  enforce\nthis  article,  explains  what  inspections  can  be  made  to  ensure\ncompliance with this  article,  allows  charges  to  be  made  against\nlicensed  and  unlicensed  agencies.  This  section  also explains the\npenalties for violating the article and allows for  aggrieved  persons\nto pursue civil action.\n\nSection  10  -  Section  190 of the general business law is amended to\nexplain the criminal penalties for violating the article.\n\nSection 11 - Adds a new section 195 to the  general  business  law  to\nprovide  job  applicants  protection  from retaliation from employment\nagencies.\n\nJUSTIFICATION:\n\nThis legislation  brings  existing  provisions  regulating  employment\nagencies  up-to-date  and  strengthens protections for job seekers. In\norder to accomplish  these  goals,  the  legislation:  1)  amends  the\nGeneral  Business  Law  to  more  effectively  deter employment agency\nabuse; 2) facilitates enforcement of  the  General  Business  Law;  3)\nempowers  job  seekers to hold employment agencies accountable; and 4)\nimproves the job market for low-wage workers.\n\nThe current employment agency laws offer insufficient  protection  for\njob  seekers,  especially  low-wage workers,. For example, the current\nlaw contains an advance fee exception that exposes the most vulnerable\njob seekers to employment agency fraud. Under Section 185  of  Article\n11 of the General Business Law, employment agencies may charge fees to\nlow-wage  workers  (i.e.  domestic  workers and manual workers) before\nplacing workers in a job. All other classes  of  worker  pay  agencies\nonly  after securing a job. Agencies routinely profit from the advance\nfee exception by accepting fees from low-wage workers and  failing  to\nprovide  a service in return,. In addition, inadequate penalties under\nthe current. General Business Law  fail  to  deter  employment  agency\nabuse.  Article  11  allows  the  New York City Department of Consumer\nAffairs or the New York State Department of Labor to impose a  penalty\nof no more than $500 for each violation of the employment agency laws.\nThis small and optional penalty has proved ineffective.\n\nThe  existing General Business law also makes it exceedingly difficult\nfor job seekers to hold employment agencies accountable.  Job  seekers\ncannot  defend  their  rights  if  they  do  not understand them. This\nlegislation  requires  employment  agencies  to  provide   basic   and\nimportant  information to job seekers about their rights. In addition,\nunder the current law, job seekers cannot  hold  employment.  agencies\naccountable  through  civil actions, Workers must rely on overburdened\ngovernment agencies to address all abuse. This legislation will permit\njob seekers to bring civil actions against  employment  agencies  that\nviolate the law.\n\nA  recent  study  in  Queens,  New  York  conducted  by  New Immigrant\nCommunity Empowerment (NICE) and the Urban Justice Center (UJC)  found\nthat:  1)  81% of survey respondents who did not find a job through an\nagency were still charged a fee (average, $122); 2)  Agencies  do  not\ninform  job  seekers  that  fees  are  refundable and, in violation of\n\n\nexisting provisions, refuse to refund excess fees;  3)  One  third  of\nsurvey  respondents  were  offered jobs paying below the state minimum\nwage by agencies in violation of  the  New  York  Labor  Law  and  the\nGeneral Business law; and 4) Job seekers who receive written contracts\nfrom  agencies  are  more  likely  to  secure  jobs and less likely to\nexperience fraud. However, among immigrant job seekers  surveyed,  two\nthirds were not given a written contract.\n\nEmployment  agency  abuse  affects  job  seekers throughout the entire\nstate. There exist approximately 300 licensed employment  agencies  in\nNew  York City. Approximately 100 licensed employment agencies operate\noutside of the five boroughs, with many of those concentrated on  Long\nIsland  and  in  Westchester. However, as the study cited above noted,\nmany more unlicensed agencies operate throughout the state. It is time\nto provide adequate and meaningful protections to low-wage workers  as\nthey look for work across the state of New York.\n\nPRIOR LEGISLATIVE HISTORY:\n\n2014 - died in Consumer Protection; P-Assembly.\n\nFISCAL IMPLICATIONS:\n\nTo be determined.\n\nEFFECTIVE DATE:\n\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3415",
+    "publishDate": "2015-02-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the general business law, in relation to employment agencies",
+    "basePrintNo": "S3415",
+    "basePrintNoStr": "S3415-2015",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 724,
+       "sessionYear": 2015,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 726,
+       "sessionYear": 2015,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 720,
+       "sessionYear": 2015,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 716,
+       "sessionYear": 2015,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 882,
+       "sessionYear": 2015,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 718,
+       "sessionYear": 2015,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 883,
+       "sessionYear": 2015,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 730,
+       "sessionYear": 2015,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "George Latimer",
+       "imgName": "434_george_latimer.jpg",
+       "incumbent": false,
+       "memberId": 434,
+       "sessionMemberId": 717,
+       "sessionYear": 2015,
+       "shortName": "LATIMER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Marc Panepinto",
+       "imgName": "894_marc_panepinto.jpg",
+       "incumbent": false,
+       "memberId": 894,
+       "sessionMemberId": 888,
+       "sessionYear": 2015,
+       "shortName": "PANEPINTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "José Peralta",
+       "imgName": "428_jose_peralta.jpg",
+       "incumbent": false,
+       "memberId": 428,
+       "sessionMemberId": 714,
+       "sessionYear": 2015,
+       "shortName": "PERALTA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Daniel L. Squadron",
+       "imgName": "412_daniel_l._squadron.jpg",
+       "incumbent": false,
+       "memberId": 412,
+       "sessionMemberId": 715,
+       "sessionYear": 2015,
+       "shortName": "SQUADRON"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Gen Bus L, generally",
+    "lawSection": "General Business Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3415A",
+    "publishDate": "2015-06-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3415",
+ "basePrintNoStr": "S3415-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2016-01-06",
+    "billCalNo": null,
+    "committeeName": "Consumer Protection",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2015-02-09T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2015-06-15T00:00",
+    "sessionYear": 2015
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2016-01-06T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S7742",
+    "basePrintNoStr": "S7742-2013",
+    "printNo": "S7742",
+    "session": 2013,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3415",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2015-02-09T10:08:52",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2015-06-15T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2016-06-09T18:48:13",
+    "published": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2015-02-09T10:08:52",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 34,
+   "fullName": "Jeffrey D. Klein",
+   "imgName": "390_jeffrey_d._klein.jpg",
+   "incumbent": false,
+   "memberId": 390,
+   "sessionMemberId": 876,
+   "sessionYear": 2015,
+   "shortName": "KLEIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2016-01-06",
+  "billCalNo": null,
+  "committeeName": "Consumer Protection",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to employment agencies, including application for license; relates to procedures; relates to granting of licenses and enforcement of provisions relating thereto.",
+ "title": "Relates to employment agencies, including application for license; procedures; granting of licenses and enforcement of provisions relating thereto",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

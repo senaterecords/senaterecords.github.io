@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4239",
+     "basePrintNoStr": "S4239-2017",
+     "printNo": "S4239",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-02-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4239",
+     "basePrintNoStr": "S4239-2017",
+     "printNo": "S4239",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-19",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the penal law, in relation to expediting the firearm license application process for retired veterans and law enforcement",
+    "basePrintNo": "S4239",
+    "basePrintNoStr": "S4239-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §400.00, Pen L",
+    "lawSection": "Penal Law",
+    "memo": " BILL NUMBER:  S4239\n\n TITLE OF BILL :  An act to amend the penal law, in relation to\nexpediting the firearm license application process for retired\nveterans and law enforcement\n\n PURPOSE :\n\nAmend chapter 31 of the laws of 1909 relating to Indians, the Indian\nlaw, the general municipal law, the education law, and the criminal\nprocedure law, to rename the Indian law as the Native American law.\n\n SUMMARY OF PROVISIONS :\n\nSections 1-5 of this legislation replace references of Indian law with\nNative American law. Section 6 establishes an immediate effective\ndate.\n\n JUSTIFICATION :\n\nThe use of the term Indian is offensive, outdated and inaccurate. New\nYork State has acted to replace similarly offensive language from law\nin the past.\n\n LEGISLATIVE HISTORY :\n\n2015-2016 S.7820: Referred to veterans, homeland security and military\naffairs.\n\n EFFECTIVE DATE :\nImmediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4239",
+    "publishDate": "2017-02-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4239",
+ "basePrintNoStr": "S4239-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2017-02-06",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Codes",
+    "referenceDate": "2017-02-06T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S7820",
+    "basePrintNoStr": "S7820-2015",
+    "printNo": "S7820",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S4239",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-02-06T15:42:33",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2017-02-06T15:42:33",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 18,
+   "fullName": "Martin Malavé Dilan",
+   "imgName": "426_martin_malave_dilan.jpg",
+   "incumbent": false,
+   "memberId": 426,
+   "sessionMemberId": 927,
+   "sessionYear": 2017,
+   "shortName": "DILAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2017-06-19",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Expedites the firearm license application process for retired veterans and law enforcement to three months.",
+ "title": "Expedites the firearm license application process for retired veterans and law enforcement",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2017
+}

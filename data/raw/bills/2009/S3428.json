@@ -1,0 +1,241 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3428",
+     "basePrintNoStr": "S3428-2009",
+     "printNo": "S3428",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3428",
+     "basePrintNoStr": "S3428-2009",
+     "printNo": "S3428",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-19",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.405"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3428",
+     "basePrintNoStr": "S3428-2009",
+     "printNo": "S3428",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-20",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3428",
+     "basePrintNoStr": "S3428-2009",
+     "printNo": "S3428",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-26",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3428",
+     "basePrintNoStr": "S3428-2009",
+     "printNo": "S3428",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-30",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A7009"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S3428",
+    "basePrintNoStr": "S3428-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1210, Tax L",
+    "lawSection": "Tax Law",
+    "memo": " BILL NUMBER:  S3428\n\n TITLE OF BILL :\nAn act to amend the tax law, in relation to extending the expiration\nof the authority granted to the county of Franklin to impose an\nadditional one percent of sales and compensating use taxes\n\n\n PURPOSE :\nTo extend the authorization of the county of Franklin to impose an\nadditional one percent tax to the existing three percent sales and\ncompensating and use taxes through November 30, 2011.\n\n SUMMARY OF PROVISIONS :\nSection 1 - amends clause 40 of subparagraph (i) of the opening\nparagraph of section 1210 of the tax law, as amended by chapter 33 of\nthe laws of 2007 to extend the authority of Franklin County to adopt\nand amend local laws, ordinances or resolutions imposing such taxes at\na rate which is one percent additional to the three percent rate\nauthorized until November 30, 2011.\n\nSection 2 - Contains effective date.\n\n EXISTING LAW :\nClause 40 of subparagraph (i) of the opening paragraph of section 1210\nof the tax law authorizes Franklin County to impose additional one\npercent in additional to three percent rate of sales and compensating\nuse taxes for the period of June 1, 2006 and ending November 30, 2009.\n\nSection 3 - Contains effective date.\n\n JUSTIFICATION :\nThe Franklin County Legislature has requested the introduction of\nlegislation extending their authority to impose an additional one\npercent sales and compensating use tax to November 30, 2011.\n\n LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone to the state.\n\n LOCAL FISCAL IMPLICATIONS :\nThe county anticipates there will be $5 million in additional annual\nrevenue.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3428",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7009",
+       "basePrintNoStr": "A7009-2009",
+       "printNo": "A7009",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3428",
+ "basePrintNoStr": "S3428-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-18",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-05-26",
+    "billCalNo": 405,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2009-03-18T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3428",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 162
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 45,
+   "fullName": "Betty Little",
+   "imgName": "379_betty_little.jpg",
+   "incumbent": false,
+   "memberId": 379,
+   "sessionMemberId": 11,
+   "sessionYear": 2009,
+   "shortName": "LITTLE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-26",
+  "billCalNo": 405,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7009",
+  "basePrintNoStr": "A7009-2009",
+  "session": 2009
+ },
+ "summary": "Extends from November 30, 2009 to November 30, 2011, the expiration of the authority of the county of Franklin to impose an additional 1% sales and compensating use tax.",
+ "title": "Extends the expiration of the authority of the county of Franklin to impose an additional 1% sales and compensating use tax",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

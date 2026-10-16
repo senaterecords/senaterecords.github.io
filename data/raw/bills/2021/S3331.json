@@ -1,0 +1,1457 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-28",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-05",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-05",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 3331A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-09",
+    "sequenceNo": 5,
+    "text": "1ST REPORT CAL.1100"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-10",
+    "sequenceNo": 6,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-11",
+    "sequenceNo": 7,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2022-05-24",
+    "sequenceNo": 8,
+    "text": "AMENDED ON THIRD READING 3331B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2022-06-03",
+    "sequenceNo": 9,
+    "text": "COMMITTED TO RULES"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to the\nregulation of ingredients in personal care products",
+    "basePrintNo": "S3331",
+    "basePrintNoStr": "S3331-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 37 Title 10 §§37-1001 - 37-1011, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "\n \nBILL NUMBER: S3331\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, in relation to the\nregulation of ingredients in personal care products\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to regulate ingredients in personal care\nproducts, to better assess its impact on the environment and on public\nhealth.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 states the legislative findings and intent.\n\nSection 2 amends article 37 of the environmental conservation law by\nadding a new title 10 which defines:\n\n-\"chemical of concern\" as those appearing on any of the lists included\nin Department of Environmental Conservation Division of Materials\nManagement Program Policy on Household Cleansing Product Information\nDisclosure;\n\n-\"ingredient\" as any of the following (a) An intentionally added ingre-\ndient present in any quantity in the personal care product;(b) A\nnonfunctional byproduct or nonfunctional contaminant, present in a\npersonal care product in any quantity exceeding 1 part per million of\nthe content of the product by weight or other amount determined by the\ncommissioner;(c) A nonfunctional byproduct present in a personal care\nproduct in any quantity not exceeding one part per million of the\ncontent of the product by weight present at or above the practical quan-\ntification limit as determined by the commissioner;\n\n-\"personal care product\" as articles intended to be rubbed, poured,\nsprinkled, or sprayed on, introduced into, or otherwise applied to the\nhuman body or any part thereof for cleansing, beautifying, promoting\nattractiveness, or altering the appearance, and articles intended for\nuse as a component of any such articles; except that such term shall not\ninclude soap; and\n\n-\"restricted substance\" as lead, mercury and related compounds, formal-\ndehyde, triclosan, toluene, per- and polyfluoroalkyl substances, dibu-\ntylphthalate, di(2)ethylhexyl phthalate, and isobutyl-, isopropyl,\nbutyl-,and propyl paraben.\n\nIt also states that manufacturers of personal care products shall\nfurnish to the commissioner for public record information regarding such\nproducts pursuant to rules and regulations promulgated by the commis-\nsioner. This information shall include, but not be limited to:\n\n(a) A list naming each ingredient;\n\n(b) such list shall disclose that the ingredient is published as a chem-\nical of concern as identified in this chapter, including specification\nof which list or lists; and\n\n(c)investigations concerning the effects on human health and the envi-\nronment of such product or such ingredients.  It also allows the commis-\nsioner, in consultation with the commissioner of health to periodically\nreview the list of chemicals of concern to identify or remove chemicals\nfrom such list; prohibits the sale of personal care products containing\nrestricted substances after a period; sets penalties for violations; but\nexempts very small businesses from such penalties.\n\n \nJUSTIFICATION:\n\nThere are thousands of chemicals in personal care, household cleaning,\nand other consumer products, many of which have never been fully tested\nfor potential impacts on human health or the environment. This had led\nnational and international organizations to develop lists of chemicals\nof concern and require their disclosure, such as the New York State\nDepartment of Environmental Conservation's Household Cleaning Product\nIngredient Disclosure Program (HCPIDP).  /sk While federal law requires\npersonal care product labels to list certain intentionally added ingre-\ndients, information concerning potential health effects is not disclosed\nor otherwise widely available and certain categories of chemical ingre-\ndients are exempt from labeling requirements.\n\nPersonal care products can contain chemicals associated with asthma,\nallergies, hormone disruption, neurodevelopmental problems, infertility,\neven cancer. Americans use an average of 10 personal care products Every\nday. Exposure to personal care products typically begins in infancy,\nwith products such as baby shampoo and diaper cream, and continues\nthroughout their lifespan.\n\nNew York State is not alone in seeking to promote greater transparency\nand safety with personal care products. European Union countries prohib-\nit (with few exceptions) substances classified as carcinogenic, mutagen-\nic, or toxic for reproduction in cosmetic products. The Canadian govern-\nment regularly updates a Cosmetic Ingredient Hotlist that includes\nhundreds of chemicals and contaminants prohibited and restricted from\ncosmetics, such as formaldehyde, triclosan, selenium, nitrosamines, and\n1,4-dioxane. Furthermore, over 40 countries including Japan, Cambodia,\nand Vietnam, have stricter restrictions on chemicals in personal care\nproducts than does the United States.\n\nTherefore, the legislature finds and declares that federal disclosure\nrequirements are not sufficient to educate and protect consumers, and\nthat it shall be the policy of the state to require the personal care\nproduct industry to more fully disclose ingredients and identify ingre-\ndients published as chemicals of concern on lists identified by the\ncommissioner such as the HCPIDP or other national or international\nlists.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S6077A/A7978A Gottfried\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo Be Determined.\n\n \nEFFECTIVE DATE:\nThis act shall take 180 days after it shall have become law\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3331",
+    "publishDate": "2021-01-28",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ENVA37T10"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A143",
+       "basePrintNoStr": "A143-2021",
+       "printNo": "A143",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to the\nregulation of ingredients in personal care products and cosmetics",
+    "basePrintNo": "S3331",
+    "basePrintNoStr": "S3331-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 22
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 37 Title 11 §§37-1101 - 37-1113, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " \nBILL NUMBER: S3331A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, in relation to the\nregulation of ingredients in personal care products and cosmetics\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to regulate ingredients in personal care\nproducts, to better assess its impact on the environment and on public\nhealth.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 states the legislative findings and intent.\n\nSection 2 amends article 37 of the environmental conservation law by\nadding a new title 10 which defines:\n\n*\"chemical of concern\" as those appearing on any of the lists included\nin Department of Environmental Conservation Division of Materials\nManagement Program Policy on Household Cleansing Product Information\nDisclosure;\n\n*\"ingredient\" as any of the following (a) An intentionally added ingre-\ndient present in any quantity in the personal care product;(b) A\nnonfunctional byproduct or nonfunctional contaminant, present in a\npersonal care product in any quantity exceeding 1 part per million of\nthe content of the product by weight or other amount determined by the\ncommissioner;(c) A nonfunctional byproduct present in a personal care\nproduct in any quantity not exceeding one part per million of the\ncontent of the product by weight present at or above the practical quan-\ntification limit as determined by the commissioner;\n\n*\"personal care product\" as articles intended to be rubbed, poured,\nsprinkled, or sprayed on, introduced into, or otherwise applied to the\nhuman body or any part thereof for cleansing, beautifying, promoting\nattractiveness, or altering the appearance, and articles intended for\nuse as a component of any such articles; except that such term shall not\ninclude soap; and\n\n*\"restricted substance\" as lead, mercury and related compounds, formal-\ndehyde, triclosan, toluene, per- and polyfluoroalkyl substances, dibu-\ntylphthalate, di(2)ethylhexyl phthalate, and isobutyl-, isopropyl,\nbutyl-,and propyl paraben.  It also states that manufacturers of\npersonal care products shall furnish to the commissioner for public\nrecord information regarding such products pursuant to rules and regu-\nlations promulgated by the commissioner. This information shall include,\nbut not be limited to:\n\n(a) A list naming each ingredient;\n\n(b) such list shall disclose that the ingredient is published as a chem-\nical of concern as identified in this chapter, including specification\nof which list or lists; and\n\n\n(c)investigations concerning the effects on human health and the envi-\nronment of such product or such ingredients. It also allows the commis-\nsioner, in consultation with the commissioner of health to periodically\nreview the list of chemicals of concern to identify or remove chemicals\nfrom such list; prohibits the sale of personal care products containing\nrestricted substances after a period; sets penalties for violations; but\nexempts very small businesses from such penalties.\n\n \nJUSTIFICATION:\n\nThere are thousands of chemicals in personal care, household cleaning,\nand other consumer products, many of which have never been fully tested\nfor potential impacts on human health or the environment. This had led\nnational and international organizations to develop lists of chemicals\nof concern and require their disclosure, such as the New York State\nDepartment of Environmental Conservation's Household Cleaning Product\nIngredient Disclosure Program (HCPIDP). While federal law requires\npersonal care product labels to list certain intentionally added ingre-\ndients, information concerning potential health effects is not disclosed\nor otherwise widely available and certain categories of chemical ingre-\ndients are exempt from labeling requirements.\n\nPersonal care products can contain chemicals associated with asthma,\nallergies, hormone disruption, neurodevelopmental problems, infertility,\neven cancer. Americans use an average of 10 personal care products Every\nday. Exposure to personal care products typically begins in infancy,\nwith products such as baby shampoo and diaper cream, and continues\nthroughout their lifespan.\n\nNew York State is not alone in seeking to promote greater transparency\nand safety with personal care products. European Union countries prohib-\nit (with few exceptions) substances classified as carcinogenic, mutagen-\nic, or toxic for reproduction in cosmetic products. The Canadian govern-\nment regularly updates a Cosmetic Ingredient Hotlist that includes\nhundreds of chemicals and contaminants prohibited and restricted from\ncosmetics, such as formaldehyde, triclosan, selenium, nitrosamines, and\n1,4-dioxane. Furthermore, over 40 countries including Japan, Cambodia,\nand Vietnam, have stricter restrictions on chemicals in personal care\nproducts than does the United States.\n\nTherefore, the legislature finds and declares that federal disclosure\nrequirements are not sufficient to educate and protect consumers, and\nthat it shall be the policy of the state to require the personal care\nproduct industry to more fully disclose ingredients and identify ingre-\ndients published as chemicals of concern on lists identified by the\ncommissioner such as the HCPIDP or other national or international\nlists.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S6077A/A7978A Gottfried\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo Be Determined.\n\n \nEFFECTIVE DATE:\nThis act shall take 180 days after it shall have become law\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3331A",
+    "publishDate": "2022-05-05",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ENVA37T11"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the environmental conservation law, in relation to the\nregulation of ingredients in personal care products and cosmetics",
+    "basePrintNo": "S3331",
+    "basePrintNoStr": "S3331-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Phil Boyle",
+       "imgName": "433_phil_boyle.jpg",
+       "incumbent": false,
+       "memberId": 433,
+       "sessionMemberId": 1801,
+       "sessionYear": 2021,
+       "shortName": "BOYLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 24
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 37 Title 11 §§37-1101 - 37-1111, En Con L",
+    "lawSection": "Environmental Conservation Law",
+    "memo": " \nBILL NUMBER: S3331B\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, in relation to the\nregulation of ingredients in personal care products and cosmetics\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to regulate ingredients in personal care\nproducts, to better assess its impact on the environment and on public\nhealth.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 states that this act shall be known as the \"safe personal care\nand cosmetics act.\"\n\nSection 2 states the legislative findings and intent and amends article\n37 of the environmental conservation law by adding a new title 10 which\ndefines:\n\n*\"chemical of concern\" means any chemicals known to cause harm as clas-\nsified, included, referenced, or identified in certain jurisdictions\ncodes and asthmagens as designated by the commissioner in consultation\nwith the commissioner of health.\n\n*\"ingredient\" as any of the following (a) An intentionally added ingre-\ndient present in any quantity in the personal care product; or (b) A\nnonfunctional byproduct or nonfunctional contaminant present in a\npersonal care product, in any quantity, provided such element or\ncompound is a chemical of concern;\n\n*\"manufacturer\" as any person, firm, association, partnership, limited\nliability company, or corporation which produces, prepares, formulates,\nor compounds a personal care product;\n\n*\"personal care product\" as articles intended to be rubbed, poured,\nsprinkled, or sprayed on, introduced into, or otherwise applied to the\nhuman body or any part thereof for cleansing, beautifying, promoting\nattractiveness, or altering the appearance, and articles intended for\nuse as a component of any such articles; except that such term shall not\ninclude soap; and\n\n*\"practical quantification limit\" is the lowest level that can be reli-\nably achieved within predetermined limits of precision and accuracy\nduring routine laboratory operating conditions\n\n*\"restricted substance\" as lead, lead compounds, or mercury and related\ncompounds, formaldehyde, paraformaldehyde, triclosan, toluene, per- and\npolyfluoroalkyl substances, dibutyl phthalate, di(2)ethylhexyl phtha-\nlate, diethyl phthalate, butyl benzyl, phthalate, isobutyl-, isopropyl-,\nbutyl-, methyl-, propylparaben, methylene glycol, oxybenzone, Quaterni-\num-15, m-Phenylenediamine and its salts, and o-Phenylenediamine and its\nsalts.\n\n*\"soap\" as articles comprised entirely of an alkali salt of fatty acids\nwhere the detergent properties of the article are due to the alkali-fat-\nty acid compounds, and the article shall be labeled, sold, and repres-\nented only as soap\n\nIt also states that manufacturers of personal care products shall\nfurnish to the commissioner for public record information regarding such\nproducts pursuant to rules and regulations promulgated by the commis-\nsioner. This information shall include, but not be limited to:\n\n(a) A list naming each ingredient;\n\n(b) each ingredient in the product that is a chemical of concern.\n\nAdditionally it adds new sections including the promulgation of lists, a\nsmall business exemption, and penalties.\n\nSection 3 establishes a severability clause.\n\nSection 4 establishes the effective date.\n\n \nJUSTIFICATION:\n\nThere are thousands of chemicals in personal care, household cleaning,\nand other consumer products, many of which have never been fully tested\nfor potential impacts on human health or the environment. This had led\nnational and international organizations to develop lists of chemicals\nof concern and require their disclosure, such as the New York State\nDepartment of Environmental Conservation's Household Cleaning Product\nIngredient Disclosure Program (HCPIDP). While federal law requires\npersonal care product labels to list certain intentionally added ingre-\ndients, information concerning potential health effects is not disclosed\nor otherwise widely available and certain categories of chemical ingre-\ndients are exempt from labeling requirements.\n\nPersonal care products can contain chemicals associated with asthma,\nallergies, hormone disruption, neurodevelopmental problems, infertility,\neven cancer. Americans use an average of 10 personal care products Every\nday. Exposure to personal care products typically begins in infancy,\nwith products such as baby shampoo and diaper cream, and continues\nthroughout their lifespan.\n\nNew York State is not alone in seeking to promote greater transparency\nand safety with personal care products. European Union countries prohib-\nit (with few exceptions) substances classified as carcinogenic, mutagen-\nic, or toxic for reproduction in cosmetic products. The Canadian govern-\nment regularly updates a Cosmetic Ingredient Hotlist that includes\nhundreds of chemicals and contaminants prohibited and restricted from\ncosmetics, such as formaldehyde, triclosan, selenium, nitrosamines, and\n1,4-dioxane. Furthermore, over 40 countries including Japan, Cambodia,\nand Vietnam, have stricter restrictions on chemicals in personal care\nproducts than does the United States.\n\nTherefore, the legislature finds and declares that federal disclosure\nrequirements are not sufficient to educate and protect consumers, and\nthat it shall be the policy of the state to require the personal care\nproduct industry to more fully disclose ingredients and identify ingre-\ndients published as chemicals of concern on lists identified by the\ncommissioner such as the HCPIDP or other national or international\nlists.\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S6077A/A7978A Gottfried\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo Be Determined.\n\n \nEFFECTIVE DATE:\nThis act shall take 180 days after it shall have become law\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3331B",
+    "publishDate": "2022-05-24",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ENVA37T11"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A143",
+       "basePrintNoStr": "A143-2021",
+       "printNo": "A143A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3331",
+ "basePrintNoStr": "S3331-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 52,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2022
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2022
+   }
+  ],
+  "size": 12
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Environmental Conservation"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-06-03",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2021-01-28T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2022-05-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2022-06-03T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6077",
+    "basePrintNoStr": "S6077-2019",
+    "printNo": "S6077A",
+    "session": 2019,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3331B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-28T15:48:20.603039",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-05-05T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2022-05-24T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2021-01-28T15:48:20.603039",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 1832,
+   "sessionYear": 2021,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-06-03",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the regulation of ingredients in personal care products and cosmetics to include chemicals of concern which shall be provided on lists identified by the commissioner.",
+ "title": "Relates to the regulation of ingredients in personal care products and cosmetics",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3331",
+     "basePrintNoStr": "S3331-2021",
+     "printNo": "S3331A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Environmental Conservation"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 1811,
+         "sessionYear": 2021,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Michelle Hinchey",
+         "imgName": "1314_Michelle_Hinchey.jpg",
+         "incumbent": true,
+         "memberId": 1497,
+         "sessionMemberId": 1852,
+         "sessionYear": 2021,
+         "shortName": "HINCHEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Anna Kaplan",
+         "imgName": "1044_Anna_Kaplan.jpg",
+         "incumbent": false,
+         "memberId": 1224,
+         "sessionMemberId": 1817,
+         "sessionYear": 2021,
+         "shortName": "KAPLAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1818,
+         "sessionYear": 2021,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 1854,
+         "sessionYear": 2021,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 1838,
+         "sessionYear": 2021,
+         "shortName": "SERRANO"
+        }
+       ],
+       "size": 8
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 1844,
+         "sessionYear": 2021,
+         "shortName": "PALUMBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        }
+       ],
+       "size": 2
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2022-05-09",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2022
+}

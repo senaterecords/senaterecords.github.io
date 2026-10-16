@@ -1,0 +1,274 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A3423",
+     "basePrintNoStr": "A3423-2011",
+     "printNo": "A3423",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-01-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO SOCIAL SERVICES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3423",
+     "basePrintNoStr": "A3423-2011",
+     "printNo": "A3423",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-01-04",
+    "sequenceNo": 2,
+    "text": "REFERRED TO SOCIAL SERVICES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3423",
+     "basePrintNoStr": "A3423-2011",
+     "printNo": "A3423",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-03-29",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO SOCIAL SERVICES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3423",
+     "basePrintNoStr": "A3423-2011",
+     "printNo": "A3423A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-03-29",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 3423A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law, in relation to clarifying conciliation procedures in cases when the recipient of public assistance programs refuses to comply with employment program requirements",
+    "basePrintNo": "A3423",
+    "basePrintNoStr": "A3423-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§341 & 342, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A3423",
+    "publishDate": "2011-01-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the social services law, in relation to clarifying notice requirements conciliation procedures and sanctions in cases when the recipient of public assistance programs refuses to comply with employment program requirements",
+    "basePrintNo": "A3423",
+    "basePrintNoStr": "A3423-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§341 & 342, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A3423A",
+    "publishDate": "2012-03-29",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S6910",
+       "basePrintNoStr": "S6910-2011",
+       "printNo": "S6910",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A3423",
+ "basePrintNoStr": "A3423-2011",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-03-29",
+    "billCalNo": null,
+    "committeeName": "Social Services",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Social Services",
+    "referenceDate": "2011-01-25T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Social Services",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Social Services",
+    "referenceDate": "2012-03-29T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A11409",
+    "basePrintNoStr": "A11409-2009",
+    "printNo": "A11409",
+    "session": 2009,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A3423A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-01-25T12:39:13",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2012-03-29T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2011-01-25T12:39:13",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 70,
+   "fullName": "Keith L.T. Wright",
+   "imgName": "646_keith_l.t._wright.jpg",
+   "incumbent": false,
+   "memberId": 646,
+   "sessionMemberId": 450,
+   "sessionYear": 2011,
+   "shortName": "WRIGHT"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-03-29",
+  "billCalNo": null,
+  "committeeName": "Social Services",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Clarifies conciliation procedures in cases when the recipient of public assistance programs refuses to comply with employment program requirements.",
+ "title": "Clarifies conciliation procedures in cases when the recipient of public assistance programs refuses to comply with employment program requirements",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

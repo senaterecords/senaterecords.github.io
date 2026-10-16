@@ -1,0 +1,249 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4115",
+     "basePrintNoStr": "S4115-2009",
+     "printNo": "S4115",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4115",
+     "basePrintNoStr": "S4115-2009",
+     "printNo": "S4115",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-19",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.410"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4115",
+     "basePrintNoStr": "S4115-2009",
+     "printNo": "S4115",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-20",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4115",
+     "basePrintNoStr": "S4115-2009",
+     "printNo": "S4115",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-26",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4115",
+     "basePrintNoStr": "S4115-2009",
+     "printNo": "S4115",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-30",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A7671"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S4115",
+    "basePrintNoStr": "S4115-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1210, Tax L",
+    "lawSection": "Tax Law",
+    "memo": " BILL NUMBER:  S4115\n\n TITLE OF BILL :\nAn act to amend the tax law, in relation to extending the\nauthorization of the county of Oswego to impose an additional one\npercent of sales and compensating use taxes\n\n\n PURPOSE :\nTo extend the authorization granted to Oswego county to impose an\nadditional one percent of sales and compensating use taxes.\n\n SUMMARY OF PROVISIONS :\nExtends to November 30, 2011 the authorization for Oswego County to\nimpose an additional one percent sales and compensating tax will now\nsunset on November 30, 2009. The revenues anticipated from the\nextension of the additional tax will allow Oswego county to continue\nto provide services that it deems vital, while maintaining a balanced\nbudget.\n\n LEGISLATIVE HISTORY :\nNew bill.\n\n FISCAL IMPLICATIONS :\nNone to the state.\n\n LOCAL FISCAL IMPLICATIONS :\nContinued enhanced revenue for Oswego county.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4115",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7671",
+       "basePrintNoStr": "A7671-2009",
+       "printNo": "A7671",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4115",
+ "basePrintNoStr": "S4115-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-04-13",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-05-26",
+    "billCalNo": 410,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2009-04-13T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S4259",
+    "basePrintNoStr": "S4259-2007",
+    "printNo": "S4259",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S4115",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 177
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 48,
+   "fullName": "Darrel J. Aubertine",
+   "imgName": "Darrel J. Aubertine.jpg",
+   "incumbent": false,
+   "memberId": 451,
+   "sessionMemberId": 53,
+   "sessionYear": 2009,
+   "shortName": "AUBERTINE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-26",
+  "billCalNo": 410,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7671",
+  "basePrintNoStr": "A7671-2009",
+  "session": 2009
+ },
+ "summary": "Extends from November 30, 2009 to November 30, 2011, the authorization granted to the county of Oswego to impose an additional one percent of sales and compensating use taxes.",
+ "title": "Extends authorization of the county of Oswego to impose an additional one percent of sales and compensating use taxes until November 30, 2011",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

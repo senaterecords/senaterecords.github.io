@@ -1,0 +1,574 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENERGY AND TELECOMMUNICATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-03-08",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO ENERGY AND TELECOMMUNICATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-03-08",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 4281A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-28",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.849"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-03",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-04",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-06-09",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A585A"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law, in relation to requiring STIR/SHAKEN\nauthentication framework",
+    "basePrintNo": "S4281",
+    "basePrintNoStr": "S4281-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §399-z-1, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": "\n \nBILL NUMBER: S4281\n\nSPONSOR: KAMINSKY\n \nTITLE OF BILL:\n\nAn act to amend the general business law, in relation to requiring\nSTIR/SHAKEN authentication framework\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRequires providers of voice service to implement the STIR/SHAKEN authen-\ntication framework in the internet protocol networks of voice service\nproviders.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of the bill adds a new section 399-z-1 to the general busi-\nness law to provide that voice service providers shall implement the\nSTIR/SHAKEN authentication framework for alternative technology that\nprovides comparable or superior capability to verify and authenticate\ncaller identification in the internet protocol networks of voice service\nproviders. It further sets forth penalty and enforcement provisions.\n\nSection two provides the effective date.\n\n \nJUSTIFICATION:\n\nUnwanted robocalls are the top consumer complaint received by the Feder-\nal Communications Commission (FCC), representing over sixty percent of\nall complaints received. It is estimated that Americans received about\n16.3 billion robocalls in the first five months of 2018 alone. In the\nmonth of September 2018, roughly 4.4 billion robocalls were reported.\nThese numbers continue to rise and the predictions for the expected\nnumber of robocalls in the coming year are staggering. In 2017, only\nabout 3.7% of all calls to cell phones were considered to be robocalls.\nIn 2018, that number rose to about 29% and by 2019, it is expected that\nat least 45% of all calls to cell phones will be robocalls.\n\nMany of these calls are coming from .numbers that actually do not or\ncannot make outgoing calls. These types of numbers are indicative of\n\"spoofing\" schemes wherein the true caller identity is masked behind a\nfake, invalid number. There is also a common practice of consumers\nreceiving calls from such invalid numbers that show up as a local call\non their caller ID, prompting many to pick up only to realize it is a\nrobocall.\n\nIn efforts to combat this issue, on November 5, 2018 the FCC called\nupon, but did not require, all voice service providers to implement the\nSTIR/SHAKEN authentication protocol, with a target date of 2019.  The\nSTIR/SHAKEN authentication protocol uses cryptography to validate that a\ncall is really from the number it displays, preventing bad actors from\nillegally \"spoofing\" phone numbers. STIR/SHAKEN also makes it much easi-\ner to trace illegal calls back to their source, since each hall will\nhave an identification assigned to it. Once the source is identified,\nenforcement actions can be taken against the perpetrators.\n\nAll voice providers must implement STIR/SHAKEN in order for it to be\neffective, otherwise there will be holes in the telecommunications\nsystem that bad actors can exploit to continue to \"spoof' numbers and\navoid detection. Since the FCC has not required implementation, many\nsmall providers have not adopted it and scammers have begun to originate\ncalls on those providers' networks to avoid authentication and\ndetection. By mandating implementation of STIR/SHAKEN by all voice\nproviders in New York, we can prevent this.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020: S5926B (Kaminsky) died in Energy, passed Assembly.\n\n2019: S5926 (Kaminsky) died in Energy.\n\n \nFISCAL IMPLICATION:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4281",
+    "publishDate": "2021-02-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "GBS399-Z-1"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the general business law, in relation to requiring STIR/SHAKEN\nauthentication framework",
+    "basePrintNo": "S4281",
+    "basePrintNoStr": "S4281-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §399-z-1, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": "\n \nBILL NUMBER: S4281A\n\nSPONSOR: KAMINSKY\n \nTITLE OF BILL:\n\nAn act to amend the general business law, in relation to requiring\nSTIR/SHAKEN authentication framework\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRequires providers of voice service to implement the STIR/SHAKEN authen-\ntication framework in the internet protocol networks of voice service\nproviders.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of the bill adds a new section 399-z-1 to the general busi-\nness law to provide that voice service providers shall implement the\nSTIR/SHAKEN authentication framework for alternative technology that\nprovides comparable or superior capability to verify and authenticate\ncaller identification in the internet protocol networks of voice service\nproviders. It further sets forth penalty and enforcement provisions.\n\nSection two provides the effective date.\n\n \nJUSTIFICATION:\n\nUnwanted robocalls are the top consumer complaint received by the Feder-\nal Communications Commission (FCC), representing over sixty percent of\nall complaints received. It is estimated that Americans received about\n16.3 billion robocalls in the first five months of 2018 alone. In the\nmonth of September 2018, roughly 4.4 billion robocalls were reported.\nThese numbers continue to rise and the predictions for the expected\nnumber of robocalls in the coming year are staggering. In 2017, only\nabout 3.7% of all calls to cell phones were considered to be robocalls.\nIn 2018, that number rose to about 29% and by 2019, it is expected that\nat least 45% of all calls to cell phones will be robocalls.\n\nMany of these calls are coming from .numbers that actually do not or\ncannot make outgoing calls. These types of numbers are indicative of\n\"spoofing\" schemes wherein the true caller identity is masked behind a\nfake, invalid number. There is also a common practice of consumers\nreceiving calls from such invalid numbers that show up as a local call\non their caller ID, prompting many to pick up only to realize it is a\nrobocall.\n\nIn efforts to combat this issue, on November 5, 2018 the FCC called\nupon, but did not require, all voice service providers to implement the\nSTIR/SHAKEN authentication protocol, with a target date of 2019.\n\nThe STIR/SHAKEN authentication protocol uses cryptography to validate\nthat a call is really from the number it displays, preventing bad actors\nfrom illegally \"spoofing\" phone numbers. STIR/SHAKEN also makes it much\neasier to trace illegal calls back to their source, since each hall will\nhave an identification assigned to it. Once the source is identified,\nenforcement actions can be taken against the perpetrators.\n\nAll voice providers must implement STIR/SHAKEN in order for it to be\neffective, otherwise there will be holes in the telecommunications\nsystem that bad actors can exploit to continue to \"spoof\" numbers and\navoid detection. Since the FCC has not required implementation, many\nsmall providers have not adopted it and scammers have begun to originate\ncalls on those providers' networks to avoid authentication and\ndetection. By mandating implementation of STIR/SHAKEN by all voice\nproviders in New York, we can prevent this.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2020: S5926B (Kaminsky) died in Energy, passed Assembly.\n\n2019: S5926 (Kaminsky) died in Energy.\n\n \nFISCAL IMPLICATION:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4281A",
+    "publishDate": "2021-03-08",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "GBS399-Z-1"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A585",
+       "basePrintNoStr": "A585-2021",
+       "printNo": "A585A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4281",
+ "basePrintNoStr": "S4281-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 42,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2021
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2021
+   }
+  ],
+  "size": 17
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Energy And Telecommunications"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2021-03-08",
+    "billCalNo": null,
+    "committeeName": "Energy And Telecommunications",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2021-05-04",
+    "billCalNo": 849,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Energy And Telecommunications",
+    "referenceDate": "2021-02-03T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Energy And Telecommunications",
+    "referenceDate": "2021-03-08T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A7759",
+    "basePrintNoStr": "A7759-2019",
+    "printNo": "A7759B",
+    "session": 2019,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S5926",
+    "basePrintNoStr": "S5926-2019",
+    "printNo": "S5926B",
+    "session": 2019,
+    "version": "B"
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S4281A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-02-03T12:25:57.748773",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-03-08T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-02-03T12:25:57.748773",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 9,
+   "fullName": "Todd Kaminsky",
+   "imgName": "903_todd_kaminsky.jpg",
+   "incumbent": false,
+   "memberId": 918,
+   "sessionMemberId": 1816,
+   "sessionYear": 2021,
+   "shortName": "KAMINSKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2021-05-04",
+  "billCalNo": 849,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A585",
+  "basePrintNoStr": "A585-2021",
+  "session": 2021
+ },
+ "summary": "Requires providers of voice service to implement the STIR/SHAKEN authentication framework in the internet protocol networks of voice service providers.",
+ "title": "Requires providers of voice service to implement the STIR/SHAKEN authentication framework in the internet protocol networks of voice service providers",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4281",
+     "basePrintNoStr": "S4281-2021",
+     "printNo": "S4281A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Energy And Telecommunications"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Jim Gaughran",
+         "imgName": "1042_Jim_Gaughran.jpg",
+         "incumbent": false,
+         "memberId": 1222,
+         "sessionMemberId": 1807,
+         "sessionYear": 2021,
+         "shortName": "GAUGHRAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Pete Harckham",
+         "imgName": "1053_Pete_Harckham.jpg",
+         "incumbent": true,
+         "memberId": 1233,
+         "sessionMemberId": 1811,
+         "sessionYear": 2021,
+         "shortName": "HARCKHAM"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Michelle Hinchey",
+         "imgName": "1314_Michelle_Hinchey.jpg",
+         "incumbent": true,
+         "memberId": 1497,
+         "sessionMemberId": 1852,
+         "sessionYear": 2021,
+         "shortName": "HINCHEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 1818,
+         "sessionYear": 2021,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1819,
+         "sessionYear": 2021,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 1826,
+         "sessionYear": 2021,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1828,
+         "sessionYear": 2021,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1831,
+         "sessionYear": 2021,
+         "shortName": "RITCHIE"
+        }
+       ],
+       "size": 9
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2021-04-14",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2021
+}

@@ -1,0 +1,1399 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-02-17",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-02-17",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 8838A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-19",
+    "sequenceNo": 4,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 5,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 6,
+    "text": "ORDERED TO THIRD READING CAL.1735"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A10576"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law, in relation to providing parity to\ndurable medical equipment providers by requiring Medicaid managed care\norganizations to reimburse such providers at no less than one hundred percent\nof the medical assistance durable medical equipment and complex rehabilitation\ntechnology fee schedule for the same service or item",
+    "basePrintNo": "S8838",
+    "basePrintNoStr": "S8838-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 2360,
+       "sessionYear": 2025,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2353,
+       "sessionYear": 2025,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2374,
+       "sessionYear": 2025,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2377,
+       "sessionYear": 2025,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 2371,
+       "sessionYear": 2025,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 2324,
+       "sessionYear": 2025,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 2319,
+       "sessionYear": 2025,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 2368,
+       "sessionYear": 2025,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 58,
+       "fullName": "Thomas F. O'Mara",
+       "imgName": "415_thomas_f._o'mara.jpg",
+       "incumbent": true,
+       "memberId": 415,
+       "sessionMemberId": 2375,
+       "sessionYear": 2025,
+       "shortName": "O'MARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2318,
+       "sessionYear": 2025,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 2340,
+       "sessionYear": 2025,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2359,
+       "sessionYear": 2025,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "Alexis Weik",
+       "imgName": "1310_Alexis_Weik.jpg",
+       "incumbent": true,
+       "memberId": 1493,
+       "sessionMemberId": 2325,
+       "sessionYear": 2025,
+       "shortName": "WEIK"
+      }
+     ],
+     "size": 32
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §364-j, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": " \nBILL NUMBER: S8838\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the social services law, in relation to providing parity\nto durable medical equipment providers by requiring Medicaid managed\ncare organizations to reimburse such providers at no less than one\nhundred percent of the medical assistance durable medical equipment and\ncomplex rehabilitation technology fee schedule for the same service or\nitem\n\n \nPURPOSE:\n\nThis bill provides parity to durable medical equipment providers by\nrequiring Medicaid-managed care organizations to, at a minimum, reim-\nburse such providers at Medicaid fee-for-service rates.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subdivision 4 of section 364-j of the Social Services\nLaw, as it relates to the coverage of durable medical equipment and\nrelated supplies, to require managed care providers to pay, directly or\nindirectly, for durable medical equipment, prosthetics, orthotics, and\nother related supplies at no less than one hundred percent of the Medi-\ncaid durable medical equipment and complex rehabilitation technology fee\nschedule.\n\nSection two of the bill provides the effective date.\n\n \nJUSTIFICATION:\n\nDurable Medical Equipment (DME) is equipment that is considered\nmedically necessary as prescribed by a physician for use in a patient's\nhome. DME includes equipment such as wheelchairs, powered mobility\ndevices, hospital beds, oxygen systems, ventilators, respiratory care\nsupplies, orthotics, and prosthetics. For Medicaid consumers with a\ndisability, DME can improve safety while decreasing the need for care-\ngiver assistance. It can substantially improve overall quality of life\nby increasing a consumer's independence with functional mobility and\nactivities of daily living (ADLs). Medicaid members who use DME services\nmay regain independence in the hopes of returning to their prior level\nof function and home environment rather than needing costly institu-\ntional care.\n\nIn recent years, Medicaid managed care organizations (MCO) have reduced\nreimbursement on DME products to unsustainable levels. Many MCOs reim-\nburse DME providers less than half of the Medicaid fee-for-service fee\nschedule for identical devices and supplies paid in the fee-for-service\nsystem. This reimbursement reduction is compounded by the fact that the\nmajority of their members are enrolled in a Medicaid Managed Care Plan,\nwhich comprises approximately 75 percent of their revenue.\n\nThis MCO rate reduction has caused numerous access issues throughout the\nstate. Medicaid consumers and their physicians face challenges in find-\ning a DME supplier. Over 20 percent of providers have closed in recent\nyears, and twelve counties do not have a DME location. Without\nreimbursement parity, additional DME providers will not survive and\n\nconsumers will no longer be able to access medically necessary services\nand supplies.\n\nThe requirement of parity has been enacted in other areas of the Medi-\ncaid program, including behavioral health. In addition, other States\nhave implemented payment parity legislation and have established rate\nfloors, including Virginia, Kentucky, and North Carolina.\n\n \nLEGISLATIVE HISTORY:\n\n2021-2022: S5118-A Rivera/A5368-A McDonald\n\n2023-2024: S3468 Rivera/A3408 McDonald\n\n2025: S1616 Rivera/A2520 - Vetoed memo. 40\n\n \nFISCAL IMPLICATIONS:\n\nNo fiscal.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8838",
+    "publishDate": "2026-01-08",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "SOS364-J"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the social services law, in relation to providing parity to\ndurable medical equipment providers by requiring Medicaid managed care\norganizations to reimburse such providers at no less than one hundred percent\nof the medical assistance durable medical equipment fee schedule for the same\nservice or item",
+    "basePrintNo": "S8838",
+    "basePrintNoStr": "S8838-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 2360,
+       "sessionYear": 2025,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2353,
+       "sessionYear": 2025,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2374,
+       "sessionYear": 2025,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2377,
+       "sessionYear": 2025,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 2371,
+       "sessionYear": 2025,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 2324,
+       "sessionYear": 2025,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 2319,
+       "sessionYear": 2025,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 2368,
+       "sessionYear": 2025,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 58,
+       "fullName": "Thomas F. O'Mara",
+       "imgName": "415_thomas_f._o'mara.jpg",
+       "incumbent": true,
+       "memberId": 415,
+       "sessionMemberId": 2375,
+       "sessionYear": 2025,
+       "shortName": "O'MARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2318,
+       "sessionYear": 2025,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 2340,
+       "sessionYear": 2025,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2359,
+       "sessionYear": 2025,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Sam Sutton",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1572,
+       "sessionMemberId": 2533,
+       "sessionYear": 2025,
+       "shortName": "SUTTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "Alexis Weik",
+       "imgName": "1310_Alexis_Weik.jpg",
+       "incumbent": true,
+       "memberId": 1493,
+       "sessionMemberId": 2325,
+       "sessionYear": 2025,
+       "shortName": "WEIK"
+      }
+     ],
+     "size": 34
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §364-j, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": " \nBILL NUMBER: S8838A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the social services law, in relation to providing parity\nto durable medical equipment providers by requiring Medicaid managed\ncare organizations to reimburse such providers at no less than one\nhundred percent of the medical assistance durable medical equipment fee\nschedule for the same service or item\n\n \nPURPOSE:\n\nThis bill provides parity to durable medical equipment providers by\nrequiring Medicaid-managed care organizations to, at a minimum, reim-\nburse such providers at Medicaid fee-for-service rates.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subdivision 4 of section 364-j of the Social Services\nLaw, as it relates to the coverage of durable medical equipment and\nrelated supplies, to require managed care providers to pay, directly or\nindirectly, for durable medical equipment, prosthetics, orthotics, and\nother related supplies at no less than one hundred percent of the Medi-\ncaid durable medical equipment fee schedule.\n\nSection two of the bill provides the effective date.\n\n \nJUSTIFICATION:\n\nDurable Medical Equipment (DME) is equipment that is considered\nmedically necessary as prescribed by a physician for use in a patient's\nhome. DME includes equipment such as wheelchairs, powered mobility\ndevices, hospital beds, oxygen systems, ventilators, respiratory care\nsupplies, orthotics, and prosthetics. For Medicaid consumers with a\ndisability, DME can improve safety while decreasing the need for care-\ngiver assistance. It can substantially improve overall quality of life\nby increasing a consumer's independence with functional mobility and\nactivities of daily living (ADLs). Medicaid members who use DME services\nmay regain independence in the hopes of returning to their prior level\nof function and home environment rather than needing costly institu-\ntional care.\n\nIn recent years, Medicaid managed care organizations (MCO) have reduced\nreimbursement on DME products to unsustainable levels. Many MCOs reim-\nburse DME providers less than half of the Medicaid fee-for-service fee\nschedule for identical devices and supplies paid in the fee-for- service\nsystem. This reimbursement reduction is compounded by the fact that the\nmajority of their members are enrolled in a Medicaid Managed Care Plan,\nwhich comprises approximately 75 percent of their revenue.\n\nThis MCO rate reduction has caused numerous access issues throughout the\nstate. Medicaid consumers and their physicians face challenges in find-\ning a DME supplier. Over 20 percent of providers have closed in recent\nyears, and twelve counties do not have a DME location. Without\nreimbursement parity, additional DME providers will not survive and\nconsumers will no longer be able to access medically necessary services\nand supplies.\n\nThe requirement of parity has been enacted in other areas of the Medi-\ncaid program, including behavioral health. In addition, other States\nhave implemented payment parity legislation and have established rate\nfloors, including Virginia, Kentucky, and North Carolina.\n\n \nLEGISLATIVE HISTORY:\n\n2021-2022: S5118-A Rivera/A5368-A McDonald\n\n2023-2024: S3468 Rivera/A3408 McDonald\n\n2025: S1616 Rivera/A2520 - Vetoed memo. 40\n\n \nFISCAL IMPLICATIONS:\n\nNo fiscal.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8838A",
+    "publishDate": "2026-02-17",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "SOS364-J"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A10576",
+       "basePrintNoStr": "A10576-2025",
+       "printNo": "A10576",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8838",
+ "basePrintNoStr": "S8838-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 63,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": 1735,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2026-05-19T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-01-08T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-02-17T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-04T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S1616",
+    "basePrintNoStr": "S1616-2025",
+    "printNo": "S1616",
+    "session": 2025,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S3468",
+    "basePrintNoStr": "S3468-2023",
+    "printNo": "S3468",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A5368",
+    "basePrintNoStr": "A5368-2021",
+    "printNo": "A5368A",
+    "session": 2021,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S5118",
+    "basePrintNoStr": "S5118-2021",
+    "printNo": "S5118A",
+    "session": 2021,
+    "version": "A"
+   }
+  ],
+  "size": 4
+ },
+ "printNo": "S8838A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-01-08T15:54:55.887787",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2026-02-17T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2026-01-08T15:54:55.833425",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 2350,
+   "sessionYear": 2025,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-04",
+  "billCalNo": 1735,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A10576",
+  "basePrintNoStr": "A10576-2025",
+  "session": 2025
+ },
+ "summary": "Provides parity to durable medical equipment providers by requiring Medicaid managed care organizations to reimburse such providers at no less than one hundred percent of the medical assistance durable medical equipment fee schedule for the same service or item.",
+ "title": "Provides parity to durable medical equipment providers by requiring Medicaid managed care organizations to reimburse such providers",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8838",
+     "basePrintNoStr": "S8838-2025",
+     "printNo": "S8838A",
+     "session": 2025,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 2360,
+         "sessionYear": 2025,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2372,
+         "sessionYear": 2025,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2377,
+         "sessionYear": 2025,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 2376,
+         "sessionYear": 2025,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 2324,
+         "sessionYear": 2025,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2365,
+         "sessionYear": 2025,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2337,
+         "sessionYear": 2025,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2338,
+         "sessionYear": 2025,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 2322,
+         "sessionYear": 2025,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2350,
+         "sessionYear": 2025,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Christopher Ryan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1551,
+         "sessionMemberId": 2367,
+         "sessionYear": 2025,
+         "shortName": "RYAN C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Sam Sutton",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1572,
+         "sessionMemberId": 2533,
+         "sessionYear": 2025,
+         "shortName": "SUTTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 2369,
+         "sessionYear": 2025,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2026-05-19",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

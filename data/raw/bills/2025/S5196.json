@@ -1,0 +1,952 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5196",
+     "basePrintNoStr": "S5196-2025",
+     "printNo": "S5196",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-02-19",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5196",
+     "basePrintNoStr": "S5196-2025",
+     "printNo": "S5196",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-04-29",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.892"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5196",
+     "basePrintNoStr": "S5196-2025",
+     "printNo": "S5196",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-04-30",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5196",
+     "basePrintNoStr": "S5196-2025",
+     "printNo": "S5196",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-01",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5196",
+     "basePrintNoStr": "S5196-2025",
+     "printNo": "S5196A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-05",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 5196A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5196",
+     "basePrintNoStr": "S5196-2025",
+     "printNo": "S5196A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-13",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law and the tax law, in relation to\nprohibiting the storage of flavored vapor products near where vapor or tobacco\nproducts are sold at retail or wholesale",
+    "basePrintNo": "S5196",
+    "basePrintNoStr": "S5196-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2345,
+       "sessionYear": 2025,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 2321,
+       "sessionYear": 2025,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2318,
+       "sessionYear": 2025,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§1399-aa, 1399-ee, 1399-ff, 1399-gg, 1399-hh, 1399-ii, 1399-ii-1, 1399-ll & 1399-mm-1, Pub Health L; amd §1183, Tax L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S5196\n\nSPONSOR: HOYLMAN-SIGAL\n \nTITLE OF BILL:\n\nAn act to amend the public health law and the tax law, in relation to\nprohibiting the storage of flavored vapor products near where vapor or\ntobacco products are sold at retail or wholesale\n\n \nPURPOSE:\n\nThis legislation will empower local health departments to enforce the\nstate's ban on the sale of flavored vapor products.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends subdivisions one, seventeen, and eighteen of section\n1399-aa of the public health law by adding a new subdivision 2-a.\n\nSection two amends subdivision two and paragraph F of subdivision 3 of\nsection 1399-ee of the public health law.\n\nSection three amends subdivision 1 of section 1399-ff of the public\nhealth law.\n\nSection four amends subdivisions two and three of section 1399-hh of the\npublic health law.\n\nSection five amends subdivision two of section 1399-ii of the public\nhealth law.\n\nSection six amends section 1399-H-1 of the public health taw.\n\nSection seven amends subdivision six of section 1399-11 of the public\nhealth law.\n\nSection eight amends section 1399-mm-1 of the public health law.\n\nSection nine amends section 1183 of the tax law.\n\nSection ten amends section 1183 of the tax taw by adding two new subdi-\nvisions, I and J.\n\nSection eleven contains a severability clause.\n\nSection twelve establishes the effective date.\n\n \nJUSTIFICATION:\n\nIn 2018, the U.S. Surgeon General declared youth e-cigarette use an\nepidemic. Flavored vapor products continue to pose a health risk to\nyoung people in particular and their use has been linked to increased\nrisk of cardiovascular disease, negative impacts on adolescent brain\ndevelopment, and for many, the start of a lifelong battle with nicotine\naddiction.\n\nBig tobacco has tong used flavors to attract a new generation of custom-\ners and pad their bottom tine. In 2020, New York State banned the sale\nof flavored e-cigarettes, recognizing the harm they cause to countless\nyoung people. According to the National Youth Tobacco Survey, in 2020\nalmost twenty percent of high school students used e-cigarettes; of\nthose students, more than eight out of ten reported using flavored\nproducts.\n\nThe language that was ultimately adopted as part of the state budget\nincluded an exemption for products approved by the federal Food and Drug\nAdministration through the premarket tobacco application process. Over-\nwhelming evidence shows that flavored e-cigarettes hook young people.\nThis legislation would remove this potential loophole.  In addition,\nenforcement has proven difficult for local health departments. Some\nretailers have begun to stock flavored products in back rooms, even\nselling to customers in violation of the law. In some instances, health\nofficials have been unable to gain access to all areas of the store\nduring an inspection. By hindering health departments ability to confirm\ncompliance, bad actors have been able to continue to sell flavored\nproducts.\n\nNew York State's campaign to stymie nicotine addiction in youths has\nalso been hindered by Big Tobacco. As more states adopt laws similar to\nthose passed by New York State, tobacco companies have crafted a way to\ncircumvent these bans by adding ingredients to their products to create\na \"cooling\" sensation that mimics menthol. In other states, manufactur-\ners have switched to using additives that provide the same sensation,\nthough without mint flavor. Despite not containing any flavor, the pack-\naging has been designed to give consumers the same impression of a\n\"refreshing\" sensation that customers have learned to associated with\nmenthol-flavored products.\n\nThis legislation would strengthen the existing taws by explicitly safe-\nguarding New York State's strong taws that protect young people from the\ndangers of electronic cigarettes. Retailers would be prohibited from\nkeeping flavored products in their inventory or otherwise distributing\nthem and fines would be imposed for impeding an official's ability to\nconduct their inspection.\n\n \nLEGISLATIVE HISTORY:\n\n2023-24: A.9110 - Referred to Health; S.8531 Referred to Health\n\n \nFISCALIMPLICATIONS:\n\nUndetermined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5196",
+    "publishDate": "2025-02-19",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH1399-AA",
+        "PBH1399-EE",
+        "PBH1399-FF",
+        "PBH1399-GG",
+        "PBH1399-HH",
+        "PBH1399-II",
+        "PBH1399-II-1",
+        "PBH1399-LL",
+        "PBH1399-MM-1",
+        "TAX1183"
+       ],
+       "size": 10
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law and the tax law, in relation to\nprohibiting the storage of flavored vapor products near where vapor or tobacco\nproducts are sold at retail or wholesale",
+    "basePrintNo": "S5196",
+    "basePrintNoStr": "S5196-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2345,
+       "sessionYear": 2025,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 2321,
+       "sessionYear": 2025,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2318,
+       "sessionYear": 2025,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§1399-aa, 1399-ee, 1399-ff, 1399-gg, 1399-hh, 1399-ii, 1399-ii-1, 1399-ll & 1399-mm-1, Pub Health L; amd §1183, Tax L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S5196A\n\nSPONSOR: HOYLMAN-SIGAL\n \nTITLE OF BILL:\n\nAn act to amend the public health law and the tax law, in relation to\nprohibiting the storage of flavored vapor products near where vapor or\ntobacco products are sold at retail or wholesale\n\n \nPURPOSE:\n\nThis legislation will empower local health departments to enforce the\nstate's ban on the sale of flavored vapor products.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends subdivisions one, seventeen, and eighteen of section\n1399-aa of the public health law by adding a new subdivision 2-a.\n\nSection two amends subdivision two and paragraph F of subdivision 3 of\nsection 1399-ee of the public health law.\n\nSection three amends subdivision 1 of section 1399-ff of the public\nhealth law.\n\nSection four amends subdivisions two and three of section 1399-hh of the\npublic health law.\n\nSection five amends subdivision two of section 1399-ii of the public\nhealth law.\n\nSection six amends section 1399-H-1 of the public health law.\n\nSection seven amends subdivision six of section 1399-11 of the public\nhealth law.\n\nSection eight amends section 1399-mm-1 of the public health law.\n\nSection nine amends section 1183 of the tax law.\n\nSection ten amends section 1183 of the tax law by adding two new subdi-\nvisions, I and J.\n\nSection eleven contains a severability clause. Section twelve estab-\nlishes the effective date.\n\n \nJUSTIFICATION:\n\nIn 2018, the U.S. Surgeon General declared youth e-cigarette use an\nepidemic. Flavored vapor products continue to pose a health risk to\nyoung people in particular and their use has been linked to increased\nrisk of cardiovascular disease, negative impacts on adolescent brain\ndevelopment, and for many, the start of a lifelong battle with nicotine\naddiction.\n\nBig tobacco has tong used flavors to attract a new generation of custom-\ners and pad their bottom tine. In 2020, New York State banned the sale\nof flavored e-cigarettes, recognizing the harm they cause to countless\nyoung people. According to the National Youth Tobacco Survey, in 2020\nalmost twenty percent of high school students used e-cigarettes; of\nthose students, more than eight out of ten reported using flavored\nproducts.\n\nThe language that was ultimately adopted as part of the state budget\nincluded an exemption for products approved by the federal Food and Drug\nAdministration through the premarket tobacco application process. Over-\nwhelming evidence shows that flavored e-cigarettes hook young people.\nThis legislation would remove this potential loophole.  In addition,\nenforcement has proven difficult for local health departments. Some\nretailers have begun to stock flavored products in back rooms, even\nselling to customers in violation of the law. In some instances, health\nofficials have been unable to gain access to all areas of the store\nduring an inspection. By hindering health departments ability to confirm\ncompliance, bad actors have been able to continue to sell flavored\nproducts.\n\nNew York State's campaign to stymie nicotine addiction in youths has\nalso been hindered by Big Tobacco. As more states adopt laws similar to\nthose passed by New York State, tobacco companies have crafted a way to\ncircumvent these bans by adding ingredients to their products to create\na \"cooling\" sensation that mimics menthol. In other states, manufactur-\ners have switched to using additives that provide the same sensation,\nthough without mint flavor. Despite not containing any flavor, the pack-\naging has been designed to give consumers the same impression of a\n\"refreshing\" sensation that customers have learned to associated with\nmenthol-flavored products.\n\nThis legislation would strengthen the existing laws by explicitly safe-\nguarding New York State's strong laws that protect young people from the\ndangers of electronic cigarettes. Retailers would be prohibited from\nkeeping flavored products in their inventory or otherwise distributing\nthem and fines would be imposed for impeding an official's ability to\nconduct their inspection.\n\n \nLEGISLATIVE HISTORY:\n\n2023-24: A.9110 - Referred to Health; S.8531 Referred to Health\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5196A",
+    "publishDate": "2025-06-05",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH1399-AA",
+        "PBH1399-EE",
+        "PBH1399-FF",
+        "PBH1399-GG",
+        "PBH1399-HH",
+        "PBH1399-II",
+        "PBH1399-II-1",
+        "PBH1399-LL",
+        "PBH1399-MM-1",
+        "TAX1183"
+       ],
+       "size": 10
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2128",
+       "basePrintNoStr": "A2128-2025",
+       "printNo": "A2128A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5196",
+ "basePrintNoStr": "S5196-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 44,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 67,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 68,
+    "year": 2025
+   }
+  ],
+  "size": 25
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2025-06-13",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2025-02-19T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2025-06-13T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8531",
+    "basePrintNoStr": "S8531-2023",
+    "printNo": "S8531",
+    "session": 2023,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S5196A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-02-19T14:34:17.278950",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2025-06-05T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2025-02-19T14:34:17.27895",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 47,
+   "fullName": "Brad Hoylman-Sigal",
+   "imgName": "438_brad_hoylman.jpg",
+   "incumbent": false,
+   "memberId": 438,
+   "sessionMemberId": 2364,
+   "sessionYear": 2025,
+   "shortName": "HOYLMAN-SIGAL"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2025-06-13",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Prohibits the keeping of inventory, storage, warehouse, processing, packaging, shipping or distributing of flavored vapor products near where vapor or tobacco products are sold at retail or wholesale.",
+ "title": "Prohibits the storage of flavored vapor products near where vapor or tobacco products are sold at retail or wholesale",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5196",
+     "basePrintNoStr": "S5196-2025",
+     "printNo": "S5196",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2372,
+         "sessionYear": 2025,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 2376,
+         "sessionYear": 2025,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2364,
+         "sessionYear": 2025,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2337,
+         "sessionYear": 2025,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2338,
+         "sessionYear": 2025,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2350,
+         "sessionYear": 2025,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 2369,
+         "sessionYear": 2025,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 8
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 2360,
+         "sessionYear": 2025,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 2322,
+         "sessionYear": 2025,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Christopher Ryan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1551,
+         "sessionMemberId": 2367,
+         "sessionYear": 2025,
+         "shortName": "RYAN C"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 4
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2377,
+         "sessionYear": 2025,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 2324,
+         "sessionYear": 2025,
+         "shortName": "MARTINS"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2025-04-29",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2025
+}

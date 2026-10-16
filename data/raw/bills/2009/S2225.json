@@ -1,0 +1,238 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2225",
+     "basePrintNoStr": "S2225-2009",
+     "printNo": "S2225",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2225",
+     "basePrintNoStr": "S2225-2009",
+     "printNo": "S2225",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-03",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.73"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2225",
+     "basePrintNoStr": "S2225-2009",
+     "printNo": "S2225",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-04",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2225",
+     "basePrintNoStr": "S2225-2009",
+     "printNo": "S2225",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-05",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2225",
+     "basePrintNoStr": "S2225-2009",
+     "printNo": "S2225",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-09",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A2003"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S2225",
+    "basePrintNoStr": "S2225-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1750-b, SCPA",
+    "lawSection": "Surrogate's Court Procedure Act",
+    "memo": " BILL NUMBER:  S2225\n\n TITLE OF BILL :\nAn act to amend the surrogate's court procedure act, in relation to a\nsurrogate decision-making committee acting as the guardian of a\nmentally retarded person\n\n\n PURPOSE :\nTo make a technical correction to Chapter 262 of the Laws of 2008\nwhich allowed Surrogate Decision Making Committees to make certain\ntreatment decisions pursuant to section 1750-b of the Surrogate's\nCourt Procedure Act.\n\n SUMMARY OF PROVISIONS :\nSection one of the bill removes the word \"court\" which was\ninappropriately included in the reference to a surrogate decision\nmaking committee.\n\n JUSTIFICATION :\nThe Health Care Decisions Act (HCDA) for persons with Mental\nRetardation was originally enacted as Chapter 500 of the Laws of 2002.\nIt has been subsequently amended several times to among other things,\nallow Surrogate Decision Making Committees (SDMCs) to make major\nmedical decisions on behalf of individuals with developmental\ndisabilities. Chapter 262 of the laws of 2008, which this bill makes a\ntechnical amendment to, authorizes SDMCs to make a decision to\nwithhold or withdraw life-sustaining treatment only if no guardian or\ninvolved family member, as authorized by Chapter 105 of 2007, is\navailable. It also authorizes dispute mediation systems or a hospice\nethics committee to attempt non-binding resolution of a dispute\nemanating from an objection to a decision. If mediation is not\navailable or unable to resolve a dispute, the objection proceeds to\njudicial review.\n\n LEGISLATIVE HISTORY :\nNew Bill making a technical amendment to Chapter 262 of 2008.\n\n FISCAL IMPLICATIONS :\nThere is no fiscal impact.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2225",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2003",
+       "basePrintNoStr": "A2003-2009",
+       "printNo": "A2003",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2225",
+ "basePrintNoStr": "S2225-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-02-13",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-03-05",
+    "billCalNo": 73,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2009-02-13T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2225",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 10,
+   "fullName": "Shirley L. Huntley",
+   "imgName": "Shirley L. Huntley.jpg",
+   "incumbent": false,
+   "memberId": 378,
+   "sessionMemberId": 10,
+   "sessionYear": 2009,
+   "shortName": "HUNTLEY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-03-05",
+  "billCalNo": 73,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A2003",
+  "basePrintNoStr": "A2003-2009",
+  "session": 2009
+ },
+ "summary": "Makes technical correction to provisions designating surrogate decision-making committees as guardians of mentally retarded persons when making health care decisions.",
+ "title": "Makes technical correction to provisions designating surrogate decision-making committees as guardians of mentally retarded persons",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

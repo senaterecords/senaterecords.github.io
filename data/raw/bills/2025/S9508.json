@@ -1,0 +1,262 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S9508",
+     "basePrintNoStr": "S9508-2025",
+     "printNo": "S9508",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INTERNET AND TECHNOLOGY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9508",
+     "basePrintNoStr": "S9508-2025",
+     "printNo": "S9508",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 2,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9508",
+     "basePrintNoStr": "S9508-2025",
+     "printNo": "S9508",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.1747"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9508",
+     "basePrintNoStr": "S9508-2025",
+     "printNo": "S9508",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 4,
+    "text": "SUBSTITUTED BY A5175A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law, in relation to requiring certain\nsecurity features and warning labels on baby monitors",
+    "basePrintNo": "S9508",
+    "basePrintNoStr": "S9508-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §399-iii, Gen Bus L",
+    "lawSection": "General Business Law",
+    "memo": " \nBILL NUMBER: S9508\n\nSPONSOR: GOUNARDES\n \nTITLE OF BILL:\n\nAn act to amend the general business law, in relation to requiring\ncertain security features and warning labels on baby monitors\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe bill would require that baby monitors are equipped with security\nfeatures to prevent unauthorized users from hearing or viewing activ-\nities, and to contain a warning label stating that the device connects\nto the internet and that security features should be used.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Amends the general business law by adding a new section 399-\niii\n\nSection 2. Sets the effective date.\n\n \nJUSTIFICATION:\n\nThe use of baby monitors, especially those with audio and video features\nthat can be accessed through an internet connection which can pose a\ncybersecurity risk that can jeopardize the safety of both children and\ntheir families. In particular, wife monitors are susceptible to hacking,\nunauthorized surveillance, and unauthorized communication that put chil-\ndren in danger. Knowing the potential security and safety risks incen-\ntivizes further precautions to be taken when using baby monitors. This\nbill will also help inform caretakers of some of the security features\nthat exist in baby monitors.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNone\n\n \nFISCAL IMPLICATIONS:\n\nTBD\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S9508",
+    "publishDate": "2026-03-18",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "GBS399-III"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5175",
+       "basePrintNoStr": "A5175-2025",
+       "printNo": "A5175A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S9508",
+ "basePrintNoStr": "S9508-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 63,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": 1747,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Internet And Technology",
+    "referenceDate": "2026-03-18T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-04T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A6427",
+    "basePrintNoStr": "A6427-2023",
+    "printNo": "A6427",
+    "session": 2023,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S9508",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-03-18T15:20:37.992219",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-03-18T15:20:37.941128",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 26,
+   "fullName": "Andrew Gounardes",
+   "imgName": "1049_Andrew_Gounardes.jpg",
+   "incumbent": true,
+   "memberId": 1229,
+   "sessionMemberId": 2343,
+   "sessionYear": 2025,
+   "shortName": "GOUNARDES"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-04",
+  "billCalNo": 1747,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A5175",
+  "basePrintNoStr": "A5175-2025",
+  "session": 2025
+ },
+ "summary": "Prohibits the manufacture, distribution, sale, or offering for sale of a baby monitor that broadcasts audio or video through an internet connection unless it includes certain security features to prevent unauthorized access; requires a written warning label; provides penalties.",
+ "title": "Requires certain security features and warning labels on baby monitors",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

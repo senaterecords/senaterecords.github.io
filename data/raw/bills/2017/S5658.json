@@ -1,0 +1,428 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5658",
+     "basePrintNoStr": "S5658-2017",
+     "printNo": "S5658",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-04-24",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5658",
+     "basePrintNoStr": "S5658-2017",
+     "printNo": "S5658",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-22",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1085"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5658",
+     "basePrintNoStr": "S5658-2017",
+     "printNo": "S5658",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-23",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5658",
+     "basePrintNoStr": "S5658-2017",
+     "printNo": "S5658",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-24",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5658",
+     "basePrintNoStr": "S5658-2017",
+     "printNo": "S5658",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-14",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A8019"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to repeal section 2-126 of the election law, relating to party funds and restrictions on expenditures",
+    "basePrintNo": "S5658",
+    "basePrintNoStr": "S5658-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld §2-126, El L",
+    "lawSection": "Election Law",
+    "memo": " BILL NUMBER:  S5658\n\n TITLE OF BILL :  An act to repeal section 2-126 of the election law,\nrelating to party funds and restrictions on expenditures\n\n SUMMARY OF PROVISIONS :\n\nThis bill repeals section 2-126 of the election law which prohibits\nthe expenditure of party funds in primary elections. The section has\nbeen declared unconstitutional *and the State Board of Elections in\nenjoined from enforcing the provision.\n\n JUSTIFICATION :\n\nElection Law 2-126 has been declared unconstitutional; and the State\nBoard of Elections has been enjoined from enforcing the provision\nsince 2006 (see Matter of Avella v Batt, 33 AD3d 77  3' Dept 2006 ;\nKermani v New York State Board of Elections, 487 F.Supp2d 101  NDNY\n2006 ).\n\n LEGISLATIVE HISTORY :\n\nNone.\n\n FISCAL IMPACT :\n\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5658",
+    "publishDate": "2017-04-24",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8019",
+       "basePrintNoStr": "A8019-2017",
+       "printNo": "A8019",
+       "session": 2017,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5658",
+ "basePrintNoStr": "S5658-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 47,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2017
+   }
+  ],
+  "size": 9
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2017
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2017-04-24",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2017-05-24",
+    "billCalNo": 1085,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2017-04-24T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5658",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-04-24T13:25:21",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2017-04-24T13:25:21",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 59,
+   "fullName": "Patrick M. Gallivan",
+   "imgName": "427_patrick_m._gallivan.jpg",
+   "incumbent": true,
+   "memberId": 427,
+   "sessionMemberId": 956,
+   "sessionYear": 2017,
+   "shortName": "GALLIVAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2017-05-24",
+  "billCalNo": 1085,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8019",
+  "basePrintNoStr": "A8019-2017",
+  "session": 2017
+ },
+ "summary": "Relates to party funds and restrictions on expenditures.",
+ "title": "Repeals section 2-126 of the election law relating to party funds and restrictions on expenditures",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5658",
+     "basePrintNoStr": "S5658-2017",
+     "printNo": "S5658",
+     "session": 2017,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Fredrick J. Akshar II",
+         "imgName": "735_Fredrick_Akshar.jpg",
+         "incumbent": false,
+         "memberId": 913,
+         "sessionMemberId": 952,
+         "sessionYear": 2017,
+         "shortName": "AKSHAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "George Amedore",
+         "imgName": "892_george_amedore.jpg",
+         "incumbent": false,
+         "memberId": 892,
+         "sessionMemberId": 954,
+         "sessionYear": 2017,
+         "shortName": "AMEDORE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 920,
+         "sessionYear": 2017,
+         "shortName": "AVELLA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 936,
+         "sessionYear": 2017,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 927,
+         "sessionYear": 2017,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 956,
+         "sessionYear": 2017,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 935,
+         "sessionYear": 2017,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Kathleen A. Marchione",
+         "imgName": "435_kathleen_a._marchione.jpg",
+         "incumbent": false,
+         "memberId": 435,
+         "sessionMemberId": 940,
+         "sessionYear": 2017,
+         "shortName": "MARCHIONE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 1099,
+         "sessionYear": 2017,
+         "shortName": "TEDISCO"
+        }
+       ],
+       "size": 9
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2017-05-22",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2017
+}

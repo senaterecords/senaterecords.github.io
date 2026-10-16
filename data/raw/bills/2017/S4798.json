@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4798",
+     "basePrintNoStr": "S4798-2017",
+     "printNo": "S4798",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-03-01",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4798",
+     "basePrintNoStr": "S4798-2017",
+     "printNo": "S4798",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-01",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to continue the existence of the village of Groton industrial development agency",
+    "basePrintNo": "S4798",
+    "basePrintNoStr": "S4798-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "General Municipal",
+    "memo": " BILL NUMBER:  S4798\n\n TITLE OF BILL :  An act to continue the existence of the village of\nGroton industrial development agency\n\n PURPOSE :\n\nTo extend and clarify in statute the existence of the Groton IDA\n\n SUMMARY OF PROVISIONS :\n\nSection 1 is a declaratory paragraph that the Groton village IDA,\ncreated by the General Municipal Law, shall continue and shall have\nbeen in existence since July 2003. Section 2 provides for the\neffective date.\n\n EXISTING LAW :\n\nThe law authorizing the IDA's existence lapsed in 2003.\n\n JUSTIFICATION :\n\nThe legislation has been requested by the village of Groton pursuant\nto its home rule authority. The village has had an IDA since 1983,\nwhen established by section 926-i of the GML. It was renewed in 1993\nfor another ten years (chaper 364 of the Laws of 1993). While the\nlegislative authority for the IDA seemingly lapsed, it has continued\nits operations and has filed every report required by the Authorities\nBudget Office. IDAs can play a valuable role in local economic and\nindustrial development, and the local government has requested the\ncontinuation of this additional economic development tool. When it was\nbrought to the village's attention that the legislative authority for\nthe IDA had lapsed, village officials immediately sought legislative\nassistance to validate and continue the IDA's operation.\n\nThis is a \"housekeeping\" measure that essentially validates the IDA's\nexistence and extends its duration.\n\n LEGISLATIVE HISTORY :\n\nNew bill\n\n FISCAL IMPLICATIONS :\n\nNone to the state\n\n EFFECTIVE DATE :\nImmediate\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4798",
+    "publishDate": "2017-03-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4798",
+ "basePrintNoStr": "S4798-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2017-03-01",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2017-03-01T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4798",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-03-01T15:06:27",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2017-03-01T15:06:27",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 51,
+   "fullName": "James L. Seward",
+   "imgName": "371_james_l._seward.jpg",
+   "incumbent": false,
+   "memberId": 371,
+   "sessionMemberId": 950,
+   "sessionYear": 2017,
+   "shortName": "SEWARD"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2017-05-01",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Continues the existence of the Groton industrial development agency.",
+ "title": "Relates to continuing the existence of the Groton industrial development agency",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2017
+}

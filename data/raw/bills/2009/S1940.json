@@ -1,0 +1,215 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1940",
+     "basePrintNoStr": "S1940-2009",
+     "printNo": "S1940",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1940",
+     "basePrintNoStr": "S1940-2009",
+     "printNo": "S1940",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1940",
+     "basePrintNoStr": "S1940-2009",
+     "printNo": "S1940",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-14",
+    "sequenceNo": 3,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S1940",
+    "basePrintNoStr": "S1940-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §99-h, St Fin L",
+    "lawSection": "State Finance Law",
+    "memo": " BILL NUMBER:  S1940\n\n TITLE OF BILL :\n\nAn act to amend the state finance law, in relation to the tribal-state\ncompact revenue account; and providing for the repeal of such\nprovisions upon the expiration thereof\n\n\n PURPOSE :\n\nProvides for a plan of expenditure for monies appropriated and\nreceived by the state on behalf of a gaming facility located in the\nCity of Buffalo.\n\n SUMMARY OF PROVISIONS :\n\nSection 1 amends subdivision 3 of section 99-h of the state finance\nlaw, as amended by chapter 747 of the laws of 2006 to provide that\ntwenty five percent of the net drop from electronic gaming devices\nfrom any gaming facility located in the City of Buffalo shall be\ndistributed in accordance with subdivision five of this section.\n\nSection 2 amends subdivision 3 of section 99-h of the state finance\nlaw, as amended by section 1 of part V of chapter 59 of the laws of\n2006 to clarify that the municipal government entitled to receive the\nminimum twenty five percent of the state share of the tribal-state\ncompact electronic gaming device revenues is to be the City of\nBuffalo.\n\nSection 3 amends section 99-h of the state finance law, as amended by\nchapter 747 of the laws of 2006, by adding a new subdivision 5 by\nspecifying that the City of Buffalo will retain 96.5% of the total\nannual amount received, and 3.5% will be allocated for the\ndevelopment, preservation and expansion of cultural institutions or\nthe development and preservation of tourism resources.\n\n EXISTING LAW :\n\nCurrent law does not specify the \"host community\" entitled to the\nrevenues provided for in the tribal-state compact.\n\n JUSTIFICATION :\n\nAccording to the agreement between the Seneca Nation of the Indians\nand the City of Buffalo, the city agreed to provide sewer, water and\nemergency services to the proposed Buffalo Creek Casino. That\nagreement acknowledged the intention of the Seneca Nation that the\ncity be designated as the sole host municipality, bolstering the fact\nthat the County of Erie was neither a party nor a signatory to the\nagreement.\n\nThe county has also previously expressed its' opposition to such a\nfacility, repeatedly demonstrating such opposition to the construction\nand operation of a casino on the Buffalo Creek Casino site by\nparticipating in three separate lawsuits. The county's efforts in this\nregard have led city government to spend approximately $400,000 to\nfight these lawsuits, a fact which should preclude county government\nfrom any effort to obtain revenues as a \"host community\" under\nexisting statute.\n\n LEGISLATIVE HISTORY :\n\nNew Bill- 2008. Referred to Finance.\n\n FISCAL IMPLICATIONS :\nNone to New York State.\n\n LOCAL FISCAL IMPLICATIONS :\n\nPositive for the City of Buffalo\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1940",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2229",
+       "basePrintNoStr": "A2229-2009",
+       "printNo": "A2229",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1940",
+ "basePrintNoStr": "S1940-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-02-10T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8190",
+    "basePrintNoStr": "S8190-2007",
+    "printNo": "S8190",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1940",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 58,
+   "fullName": "William T. Stachowski",
+   "imgName": "William T. Stachowski.jpg",
+   "incumbent": false,
+   "memberId": 453,
+   "sessionMemberId": 59,
+   "sessionYear": 2009,
+   "shortName": "STACHOWSKI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-14",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for a plan of expenditure for monies appropriated and received by the state on behalf of a gaming facility located in the city of Buffalo; provides for the repeal of such provisions on December 31, 2018.",
+ "title": "Provides for a plan of expenditure for monies appropriated and received by the state on behalf of a gaming facility located in the city of Buffalo",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

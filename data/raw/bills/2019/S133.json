@@ -1,0 +1,223 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S133",
+     "basePrintNoStr": "S133-2019",
+     "printNo": "S133",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CONSUMER PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S133",
+     "basePrintNoStr": "S133-2019",
+     "printNo": "S133",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-05-06",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law and the state technology law, in\nrelation to notification of a security breach",
+    "basePrintNo": "S133",
+    "basePrintNoStr": "S133-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Art 39-F Art Head, §899-aa, add §899-bb, Gen Bus L; amd §208, St Tech L",
+    "lawSection": "General Business Law",
+    "memo": "\n \nBILL NUMBER: S133\n\nSPONSOR: CARLUCCI\n \nTITLE OF BILL:\n\nAn act to amend the general business law and the state technology law,\nin relation to notification of a security breach\n\n \nPURPOSE:\n\nNew York's data breach notification law needs to be updated keep pace\nwith current technology. This bill broadens the scope of information\ncovered under the notification law and updates the notification require-\nments when there has been a breach of data. It also broadens the defi-\nnition of a data breach to include an unauthorized person gaining access\nto information. It also requires reasonable data security, provides\nstandards tailored to the size of a business, and provides protections\nfrom liability for certain entities.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of the bill names the act.\n\nSection 2 of the bill amends the title of article 39-F of the General\nBusiness Law.\n\nSection 3 of the bill amends section 899-aa of the General Business Law.\nThe amendments would:\n\n*update the notifications section of the General Business Law by adding\nbiometric data, email addresses or user names in combination with a\npassword or security question answer, and protected health information\nheld by a \"covered entity\" to the private information definition;\n\n*update the notifications section of the General Business Law by adding\nunauthorized access to the private information to the definitions of\n\"private information\" and \"breach of the security of the system\";\n\n*update the notification requirement by applying it to any person or\nentity with private information of a New York resident, not just to\nthose that \"conduct business\" in New York State;\n\n*add definitions for the terms credit card and debit card;\n\n*correct typos and inconsistencies in language to clarify that breaches\nof private information only (and not personal information) trigger\nnotice obligations and to make consistent all references to compromise\nby an unauthorized person or a person without valid authorization;\n\n*authorize businesses in certain circumstances to notify the consumer\nvia email of the breach and if the consumer's email is believed to have\nbeen compromised authorize the business to use other electronic methods\nto notify the consumer;\n\n*require that, if a business is sending out a new credit or debit card\nto a consumer, the consumer be notified that the card is on its way;\n\n\n\n*outline penalties for businesses that fail to provide notice to consum-\ners of a breach and the limitations period for the attorney general to\nact on any failure;\n\n*require certain information to be included in the notice that would\ndirect consumers to federal and state data security prevention entities\nand require businesses to send a template of their notice to consumers\nto the attorney general and the Office of Information Technology\nServices; and,\n\n*task the Department of State with receiving and responding to data\nbreach complaints and with informing the public of data security and\nbreach prevention techniques.\n\nSection 4 of the bill creates a new section 899-bb of the General Busi-\nness Law that would:\n\n*require reasonable data security for private information, with a more\nflexible standard for small businesses, without creating new require-\nments for entities subject to existing or future regulations by any\nfederal or other New York State government entity, and while providing\nsafe harbor from enforcement for entities that take steps to verify\ntheir compliance with other existing data security regulations or stand-\nards; and\n\n*deem failure to provide required reasonable data security to be a\nviolation of section 349 of the General Business Law, permitting the\nattorney general to bring suit but not any private plaintiff.\n\nSection 5 of the bill amends the State Technology Law. The amendments\nwould:\n\n*include the same terms as above in the definition of private informa-\ntion;\n\n*state that should a data breach occur in a State entity the Office of\nInformation Technology Services shall deliver a report on the scope of\nthe breach to the entity affected;\n\n*require that an entity shall notify individuals affected by the data\nbreach as quickly as possible; and,\n\n*task the office of information technology services to develop and\nprovide regular trainings to all entities on preventing data breaches.\n\nSection 6 of the bill sets forth the effective date.\n\n \nJUSTIFICATION:\n\nNew York's current data breach notification law needs to be updated to\nkeep pace with individuals' use and dissemination of private informa-\ntion. New York also needs to join the increasing number of states that\nrequire reasonable data security protections, without imposing duplicate\nobligations on those already subject to other federal or New York State\ndata security regulations and without imposing excessive costs on small\nbusiness, while providing safe harbor from enforcement for entities that\ntake steps to verify their compliance with other existing data security\nregulations or standards. This bill expands the scope of information\nsubject to the current data breach notification law to include biometric\ninformation, email addresses and their corresponding passwords or secu-\nrity questions and answers, and protected health information as defined\nunder HIPAA. It broadens the definition of a data breach to include\nunauthorized access to private information. It applies the notification\nrequirement to any person or entity with private information of a New\nYork resident, not just to those that conduct business in New York\nState. It also updates the notification procedures companies and state\nentities must follow when there has been a breach of private informa-\ntion. It also creates reasonable data security requirements tailored to\nthe size of a business and provides protections from liability for\ncertain entities that take steps to verify their safeguarding of private\ninformation.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2017-18: S6933b/A8884b - FINANCE/passed assembly\n\n \nFISCAL IMPACT ON THE STATE:\n\nNone.\n\n \nFISCAL IMPACT ON LOCALITIES:\n\nNone.\n\n \nIMPACT ON THE REGULATION OF BUSINESSES AND INDIVIDUALS:\n\nThe bill would impose stronger obligations on businesses handling\nprivate data of customers, regarding security and proper notification of\nbreaches.\n\n \nIMPACT ON FINES, IMPRISONMENT, FORFEITURE OF RIGHTS, OR OTHER PENAL\nSANCTIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome a law; provided, however, that section four of this act shall\ntake effect on the two hundred fortieth day after it shall have become a\nlaw.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S133",
+    "publishDate": "2019-01-02",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5635",
+       "basePrintNoStr": "A5635-2019",
+       "printNo": "A5635",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S133",
+ "basePrintNoStr": "S133-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-01-09",
+    "billCalNo": null,
+    "committeeName": "Consumer Protection",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2019-01-09T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A8756",
+    "basePrintNoStr": "A8756-2017",
+    "printNo": "A8756",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A8884",
+    "basePrintNoStr": "A8884-2017",
+    "printNo": "A8884B",
+    "session": 2017,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S6933",
+    "basePrintNoStr": "S6933-2017",
+    "printNo": "S6933B",
+    "session": 2017,
+    "version": "B"
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S133",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-02T12:56:16.832775",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-01-02T12:56:16.832775",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 38,
+   "fullName": "David Carlucci",
+   "imgName": "370_david_carlucci.jpg",
+   "incumbent": false,
+   "memberId": 370,
+   "sessionMemberId": 1191,
+   "sessionYear": 2019,
+   "shortName": "CARLUCCI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-05-06",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to notification of a security breach; includes credit and debit cards; increases civil penalties.",
+ "title": "Relates to a notification of a security breach",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

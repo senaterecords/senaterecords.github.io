@@ -1,0 +1,641 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-08-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-07",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CITIES 1"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-17",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO CITIES 1"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-17",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 8472A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-07",
+    "sequenceNo": 5,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 6,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 7,
+    "text": "ORDERED TO THIRD READING CAL.1734"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-06-04",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY A9058A"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto requiring biannual certification of cooling towers",
+    "basePrintNo": "S8472",
+    "basePrintNoStr": "S8472-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 2376,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§28-317.5 & 17-194.1, NYC Ad Cd",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S8472\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the administrative code of the city of New York, in\nrelation to requiring biannual certification of cooling towers\n\n \nPURPOSE:\n\nThe purpose of this bill is to protect seniors, individuals and families\nfrom bacterial outbreaks, such as legionnaires, that start within and\nare spread via cooling towers.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1. Amends the administrative code of the city of New York to:\nRequire biannual certification of cooling towers Require weekly testing\nand inspection Require owners of towers to remediate situations in 12-24\nhours Increase fines for violations Extend reporting requirements so\npatterns can be tracked\n\n \nJUSTIFICATION:\n\nAs of August 6th, 2025 3 people have died and 70 have been seriously\nharmed by an outbreak of Legionnaires Disease in Harlem, that originated\nin Cooling Towers, which it is predisposed to do. Given the number of\noutbreaks over the years, further regulations and inspections are\nwarranted. This legislation takes five meaningful measures to stop the\nspread and instance of Legionnaires.\n\n \nFISCAL IMPLICATIONS:\n\nMinimal.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill.\n\n \nEFFECTIVE DATE:\nImmediate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8472",
+    "publishDate": "2025-08-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto requiring biannual certification of cooling towers",
+    "basePrintNo": "S8472",
+    "basePrintNoStr": "S8472-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 2376,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§28-317.5 & 17-194.1, NYC Ad Cd",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S8472A\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the administrative code of the city of New York, in\nrelation to requiring biannual certification of cooling towers\n\n \nPURPOSE:\n\nThe purpose of this bill is to protect seniors, individuals and families\nfrom bacterial outbreaks, such as legionnaires, that start within and\nare spread via cooling towers.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Amends the New York. City Administrative Code to require\nbiannual certification of cooling towers.\n\nSection 2. Requires owners of towers to notify and remediate maintenance\ndeficiencies and serious health threats as soon as possible within a\ncertain time frame.\n\nSection 3. Increases the fine for violation and the amount of time\nowners are required to maintain records on inspections and tests\nperformed on the cooling tower.\n\n \nJUSTIFICATION:\n\nAs of August 6th, 2025 3 people have died and 70 have been seriously\nharmed by an outbreak of Legionnaires Disease in Harlem, that originated\nin Cooling Towers, which it is predisposed to do. Given the number of\noutbreaks over the years, further regulations and inspections are\nwarranted. This legislation takes five meaningful measures to stop the\nspread and instance of legionnaires.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nMinimal.\n\n \nEFFECTIVE DATE:\nNinety days after it shall have become a law except for the amendments\nrequiring the owners to notify and remediate maintenance deficiencies\nand serious health threats as soon as possible, that would take effect\nin 30 days.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8472A",
+    "publishDate": "2026-03-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9058",
+       "basePrintNoStr": "A9058-2025",
+       "printNo": "A9058A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8472",
+ "basePrintNoStr": "S8472-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 63,
+    "year": 2026
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Cities 1"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 20,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2026-06-04",
+    "billCalNo": 1734,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Cities 1",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Cities 1",
+    "referenceDate": "2026-03-17T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2026-05-07T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2025-08-06T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2026-06-04T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8472A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-08-06T15:27:12.576927",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2026-03-17T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2025-08-06T15:27:12.518464",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 30,
+   "fullName": "Cordell Cleare",
+   "imgName": "Cordell Cleare.jpg",
+   "incumbent": true,
+   "memberId": 1504,
+   "sessionMemberId": 2347,
+   "sessionYear": 2025,
+   "shortName": "CLEARE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-06-04",
+  "billCalNo": 1734,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9058",
+  "basePrintNoStr": "A9058-2025",
+  "session": 2025
+ },
+ "summary": "Requires biannual certification of cooling towers; increases penalties for violations of such reporting requirements.",
+ "title": "Requires biannual certification of cooling towers",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8472",
+     "basePrintNoStr": "S8472-2025",
+     "printNo": "S8472A",
+     "session": 2025,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Cities 1"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2332,
+         "sessionYear": 2025,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Erik Bottcher",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1574,
+         "sessionMemberId": 2535,
+         "sessionYear": 2025,
+         "shortName": "BOTTCHER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Cordell Cleare",
+         "imgName": "Cordell Cleare.jpg",
+         "incumbent": true,
+         "memberId": 1504,
+         "sessionMemberId": 2347,
+         "sessionYear": 2025,
+         "shortName": "CLEARE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "Roxanne J. Persaud",
+         "imgName": "736_Roxanne_Persaud.jpg",
+         "incumbent": true,
+         "memberId": 914,
+         "sessionMemberId": 2336,
+         "sessionYear": 2025,
+         "shortName": "PERSAUD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2335,
+         "sessionYear": 2025,
+         "shortName": "SALAZAR"
+        }
+       ],
+       "size": 5
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2341,
+         "sessionYear": 2025,
+         "shortName": "LANZA"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Stephen T. Chan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1550,
+         "sessionMemberId": 2334,
+         "sessionYear": 2025,
+         "shortName": "CHAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2026-05-07",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

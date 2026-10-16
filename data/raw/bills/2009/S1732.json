@@ -1,0 +1,246 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1732",
+     "basePrintNoStr": "S1732-2009",
+     "printNo": "S1732",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CITIES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1732",
+     "basePrintNoStr": "S1732-2009",
+     "printNo": "S1732",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-12",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.299"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1732",
+     "basePrintNoStr": "S1732-2009",
+     "printNo": "S1732",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-13",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1732",
+     "basePrintNoStr": "S1732-2009",
+     "printNo": "S1732",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-18",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1732",
+     "basePrintNoStr": "S1732-2009",
+     "printNo": "S1732",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-19",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A1204"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S1732",
+    "basePrintNoStr": "S1732-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Utica, City of",
+    "memo": " BILL NUMBER:  S1732\n\n TITLE OF BILL :\nAn act to authorize the city of Utica to enter into a contract to sell\nsome or all of the delinquent tax liens held by such city to a private\nparty; and providing for the repeal of such provisions upon expiration\nthereof\n\n\n PURPOSE :\nTo expand the options available to the City of Utica to efficiently\nand effectively manage the collection of delinquent property taxes.\n\n\n SUMMARY OF PROVISIONS :\nPermits the City of Utica, under enumerated circumstances, to enter\ninto a contract to sell some or all of their delinquent tax liens to a\nprivate party. The contract must be entered into by December 31, 2009,\nand this authority sunsets on December 31, 2011.  Provides \"consumer\nprotections\" for affected property owners, including a requirement for\nthirty days notification, assurance that the existing redemption\nperiods and interest rates remain unchanged, and imposition of the\nprocedural requirements relating to foreclosure of a mortgage or tax\nlien sale by the Municipal Bond Bank Agency.\n\n EXISTING LAW :\nThis measure is an extension of Chapter 45 of the Laws of 2007\n\n JUSTIFICATION :\nThis bill was introduced at the request of the City of Utica, Oneida\nCounty. This legislation will continue to provide Utica with the same\noption which has been utilized by the nearby cities of Schenectady and\nAmsterdam in previous legislation.\n\n LEGISLATIVE HISTORY :\nThis is a new bill for 2009.\n\n FISCAL IMPLICATIONS :\nNone to the State.\n\n LOCAL FISCAL IMPLICATIONS :\nShould improve the fiscal status of the City of Utica through an\ninfusion of cash upon the sale of delinquent tax liens.\n\n EFFECTIVE DATE :\nImmediate, and expires on December 31, 2011.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1732",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1204",
+       "basePrintNoStr": "A1204-2009",
+       "printNo": "A1204",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1732",
+ "basePrintNoStr": "S1732-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-02-05",
+    "billCalNo": null,
+    "committeeName": "Cities",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-05-18",
+    "billCalNo": 299,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Cities",
+    "referenceDate": "2009-02-05T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S2321",
+    "basePrintNoStr": "S2321-2007",
+    "printNo": "S2321",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1732",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 47,
+   "fullName": "Joseph A. Griffo",
+   "imgName": "393_joseph_a._griffo.jpg",
+   "incumbent": true,
+   "memberId": 393,
+   "sessionMemberId": 24,
+   "sessionYear": 2009,
+   "shortName": "GRIFFO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-18",
+  "billCalNo": 299,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A1204",
+  "basePrintNoStr": "A1204-2009",
+  "session": 2009
+ },
+ "summary": "Authorizes the city of Utica to enter into a contract to sell some or all of the delinquent tax liens held by such city to a private party until December 31, 2009.",
+ "title": "Authorizes the city of Utica to enter into a contract to sell some or all of the delinquent tax liens held by such city",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

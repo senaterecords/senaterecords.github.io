@@ -1,0 +1,865 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-02-24",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-20",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-20",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 5539A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-28",
+    "sequenceNo": 4,
+    "text": "1ST REPORT CAL.1401"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-29",
+    "sequenceNo": 5,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-04",
+    "sequenceNo": 6,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-11",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A785A"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to requiring schools safety\nplans to include a cardiac emergency response plan",
+    "basePrintNo": "S5539",
+    "basePrintNoStr": "S5539-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2342,
+       "sessionYear": 2025,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2344,
+       "sessionYear": 2025,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 2340,
+       "sessionYear": 2025,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2801-a, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S5539\n\nSPONSOR: BASKIN\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to requiring schools\nsafety plans to include a cardiac emergency response plan\n\n \nPURPOSE:\n\nTo ensure that school safety plans include guidelines to respond to\ncardiac emergencies.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1. Amends paragraphs h, 1 and m of subdivision 2 of section\n2801-a of the education law, paragraph h as amended by section 1 of part\nB of chapter 54 of the laws of 2016 and paragraphs 1 and m as amended by\nchapter 30 of the laws of 2021, are amended and a new paragraph n is\nadded.\n\nSection 2. Amends paragraph a of subdivision 3 of section 2801-a of the\neducation law, as amended by section 1 of part B of chapter 54 of the\nlaws of 2016.\n\nSection 3. Sets the effective date.\n\n \nJUSTIFICATION:\n\nInstances of sudden cardiac arrest sometimes occur on school property or\nat school-operated events like sports practice.  There is a lack of\nspecific, evidence-based guidance on what to do in these situations for\nschool staff.\n\nThis bill requires that districts create cardiac emergency response\nplans and that schools incorporate response procedures in existing\nschool safety and preparedness plans. Further, this legislation requires\nthat these policies are established in coordination with the community's\nEMS responder protocols.\n\nWhen an individual's heart stops, time is of the essence. Studies have\nshown that mortality rates increase for every second longer it takes to\nadminister an automated external defibrillator (AED) shock to the heart.\nThis means having a Cardiac Emergency Response Plan (CERP) in place and\nAED physically on-site would save precious time should a sudden cardiac\narrest occur, increasing the survivability rate of the individual. This\nbill recommends that an AED should be placed on a victim within three\nminutes of the onset of sudden cardiac arrest.\n\nThe plan shall integrate evidenced based core elements as recommended by\nthe American Heart Association or other nationally recognized organiza-\ntion that provides the guidelines training for the use of an automated\nexternal defibrillator (AED) and cardiopulmonary resuscitation (CPR).\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\nTBD.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred eightieth day after it\nshall have becOme a law; provided, however, that the amendments to para-\ngraph a of subdivision 3 of section 2801-a of the education law made by\nsection two of this act shall take effect on the same date and in the\nsame manner as chapter 596 of the laws of 2024, takes effect. Effective\nimmediately, the addition, amendment and/or repeal of any rule or regu-\nlation necessary for the implementation of this act on its effective\ndate are authorized to be made and completed on or before such effective\ndate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5539",
+    "publishDate": "2025-02-24",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN2801-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A785",
+       "basePrintNoStr": "A785-2025",
+       "printNo": "A785",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to requiring schools safety\nplans to include a cardiac emergency response plan",
+    "basePrintNo": "S5539",
+    "basePrintNoStr": "S5539-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2342,
+       "sessionYear": 2025,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2344,
+       "sessionYear": 2025,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2336,
+       "sessionYear": 2025,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 2340,
+       "sessionYear": 2025,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§917 & 2801-a, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S5539AREVISED 5/29/25\n\nSPONSOR: BASKIN\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to requiring schools\nsafety plans to include a cardiac emergency response plan\n\n \nPURPOSE:\n\nTo ensure that school safety plans include guidelines to respond to\ncardiac emergencies.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 provides the short title of the act: \"Desha's Law.\"\n\nSection 2 amends subdivision 1 of Section 917 of the Education Law to\nrequire school districts, boards of cooperative educational services\n(BOCES), county vocational education and extension boards, and charter\nschools to provide and maintain on-site AED (automated external defi-\nbrillator) equipment in each instructional school facility. AEDs must be\nclearly marked, accessible, and maintained in accordance with guidelines\nset by the American Heart Association or other nationally recognized\nemergency cardiovascular care standards.\n\nSection 3 amends paragraphs h, 1, and m of subdivision 2 of Section\n2801-a of the Education Law and adds a new paragraph n. These changes:\n\n*Require that annual school safety training for staff includes compo-\nnents on sudden cardiac arrest (in addition to violence prevention and\nmental health);\n\n*Reaffirm the designation of a chief emergency officer responsible for\nemergency planning and coordination;\n\n*Update emergency protocols; and\n\n*Add new requirements for a Cardiac Emergency Response Plan (CERP).\nEach school district's safety team must develop a written plan for\nresponding to sudden cardiac arrest or similar life-threatening emergen-\ncies on school property or during school-sponsored events.  This plan\nmust include venue-specific procedures, especially for athletic\nprograms, and incorporate evidence-based guidelines such as those recom-\nmended by the American Heart Association. Schools are encouraged to\ncoordinate these plans with community EMS responder protocols.  Volun-\ntary training in CPR, AED use, and first aid may be offered to relevant\nstaff, including members of building-level emergency response teams.\n\nSection 4 amends paragraph a of subdivision 3 of Section 2801-a to\ninclude sudden cardiac arrest among the emergency situations covered by\nschool safety response policies, alongside evacuation, sheltering, and\nlockdown.\n\nSection 5 further amends paragraph a of subdivision 3 of Section 2801-a\nto reflect recent statutory changes ensuring sudden cardiac arrest is\nincluded alongside emergency conditions.\n\n\nSection 6 provides that the act shall take effect on the 180th day after\nit becomes law. The amendments made in Section 5 shall take effect on\nthe same date and in the same manner as Chapter 25 of the Laws of 2025.\nImmediate adoption, amendment, or repeal of any necessary regulations is\nauthorized in advance of the effective date.\n\n \nJUSTIFICATION:\n\nInstances of sudden cardiac arrest sometimes occur on school property or\nat school-operated events like sports practice. There is a lack of\nspecific, evidence-based guidance on what to do in these situations for\nschool staff.\n\nThis bill works in continues the work of The Louis Acompora AED's in\nSchools Act which requires certain public-school facilities to retain on\npremises at least one functional cardiac automated external defibrilla-\ntor. This bill requires that districts create cardiac emergency response\nplans and that schools incorporate response procedures in existing\nschool safety and preparedness plans. Further, this legislation requires\nthat these policies are established in coordination with the community's\nEMS responder protocols.\n\nWhen an individual's heart stops, time is of the essence. Studies have\nshown that mortality rates increase for every second longer it takes to\nadminister an automated external defibrillator (AED) shock to the heart.\nThis means having a Cardiac Emergency Response Plan (CERP) in place and\nAED physically on-site would save precious time should a sudden cardiac\narrest occur, increasing the survivability rate of the individual. This\nbill recommends that an AED should be placed on a victim within three\nminutes of the onset of sudden cardiac arrest.\n\nThe plan shall integrate evidenced based core elements as recommended by\nthe American Heart Association or other nationally recognized organiza-\ntion that provides the guidelines training for the use of an automated\nexternal defibrillator (AED) and cardiopulmonary resuscitation (CPR).\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nTBD.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred eightieth day after it\nshall have become a law; provided, however, that the amendments to para-\ngraph a of subdivision 3 of section 2801-a of the education law made by\nsection two of this act shall take effect on the same date and in the\nsame . manner as chapter 596 of the laws of 2024, takes effect. Effec-\ntive immediately, the addition, amendment and/or repeal of any rule or\nregulation necessary for the implementation of this act on its effective\ndate are authorized to be made and completed on or before such effective\ndate.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5539A",
+    "publishDate": "2025-05-20",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN2801-A",
+        "EDN917"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A785",
+       "basePrintNoStr": "A785-2025",
+       "printNo": "A785A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5539",
+ "basePrintNoStr": "S5539-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 60,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2025
+   }
+  ],
+  "size": 7
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2025-05-20",
+    "billCalNo": null,
+    "committeeName": "Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2025-06-04",
+    "billCalNo": 1401,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2025-02-24T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2025-05-20T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5539A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-02-24T14:22:34.212145",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2025-05-20T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2025-02-24T14:22:34.212145",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 63,
+   "fullName": "April Baskin",
+   "imgName": "no_image.jpg",
+   "incumbent": true,
+   "memberId": 1552,
+   "sessionMemberId": 2380,
+   "sessionYear": 2025,
+   "shortName": "BASKIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2025-06-04",
+  "billCalNo": 1401,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A785",
+  "basePrintNoStr": "A785-2025",
+  "session": 2025
+ },
+ "summary": "Requires schools safety plans to include a cardiac emergency response plan that addresses the use of appropriate personnel and measures to respond to incidents involving any individual experiencing sudden cardiac arrest or similar life-threatening emergency on any school site owned or operated by a school or at a location of a school sponsored event.",
+ "title": "Requires schools safety plans to include a cardiac emergency response plan",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5539",
+     "basePrintNoStr": "S5539-2025",
+     "printNo": "S5539A",
+     "session": 2025,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2332,
+         "sessionYear": 2025,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Siela Bynoe",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1549,
+         "sessionMemberId": 2323,
+         "sessionYear": 2025,
+         "shortName": "BYNOE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Stephen T. Chan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1550,
+         "sessionMemberId": 2334,
+         "sessionYear": 2025,
+         "shortName": "CHAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Cordell Cleare",
+         "imgName": "Cordell Cleare.jpg",
+         "incumbent": true,
+         "memberId": 1504,
+         "sessionMemberId": 2347,
+         "sessionYear": 2025,
+         "shortName": "CLEARE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2333,
+         "sessionYear": 2025,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 2321,
+         "sessionYear": 2025,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2354,
+         "sessionYear": 2025,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2335,
+         "sessionYear": 2025,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2328,
+         "sessionYear": 2025,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Sam Sutton",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1572,
+         "sessionMemberId": 2533,
+         "sessionYear": 2025,
+         "shortName": "SUTTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 2361,
+         "sessionYear": 2025,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "William Weber",
+         "imgName": "1335_William_Weber.jpg",
+         "incumbent": true,
+         "memberId": 1518,
+         "sessionMemberId": 2355,
+         "sessionYear": 2025,
+         "shortName": "WEBER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Alexis Weik",
+         "imgName": "1310_Alexis_Weik.jpg",
+         "incumbent": true,
+         "memberId": 1493,
+         "sessionMemberId": 2325,
+         "sessionYear": 2025,
+         "shortName": "WEIK"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2025-05-28",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2025
+}

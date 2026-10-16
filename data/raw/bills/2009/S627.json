@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S627",
+     "basePrintNoStr": "S627-2009",
+     "printNo": "S627",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S627",
+     "basePrintNoStr": "S627-2009",
+     "printNo": "S627",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-02-03",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S627",
+    "basePrintNoStr": "S627-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §230, Exec L",
+    "lawSection": "Executive Law",
+    "memo": " BILL NUMBER:  S627\n\n TITLE OF BILL :\nAn act to amend the executive law, in relation to the compilation of\nfirearm and ballistic data\n\n PURPOSE :\nThis bill will require that any expended projectile, expended shell\ncasing or gun seized, found or otherwise coming into possession of any\nstate or local law enforcement agency be submitted to the division of\nstate police, to be entered in the automated electronic databank.\n\n SUMMARY OF PROVISIONS :\nSection 1 of this bill amends subdivision 4 of section 230 of the\nexecutive law by adding paragraphs (b) and (c). Paragraph (b) sets\nforth the submission requirements being placed on state and local law\nenforcement agencies of the division of the state police. Paragraph\n(c) requires that materials submitted must be done so within thirty\ndays of coming into the possession of a state or local law enforcement\nagency.\n\nSection 2 is the effective date for this bill.\n\n JUSTIFICATION :\nCurrently, local law enforcement agencies are not required to submit\nevidence to a centralized crime laboratory. Requiring agencies to do\nso would facilitate the exchange of information, increasing the\neffectiveness of both the labs and the local law enforcement agencies.\nRequiring submission of certain materials to a crime laboratory and\nentry into a computerized ballistic system will allow these materials\nto be cross-checked with previously entered materials.\n\n LEGISLATIVE HISTORY :\n2006 Referred to Finance\n2007 Referred to Finance\n2008 Referred to Finance\n\n FISCAL IMPLICATIONS :\nTo be determined.\n\n EFFECTIVE DATE :\nThis act shall take effect on the 120th day after it shall have become\nlaw.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S627",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S627",
+ "basePrintNoStr": "S627-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-01-09",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2009-01-09T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S3009",
+    "basePrintNoStr": "S3009-2007",
+    "printNo": "S3009",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S627",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 56,
+   "fullName": "Joseph E. Robach",
+   "imgName": "417_joseph_e._robach.jpg",
+   "incumbent": false,
+   "memberId": 417,
+   "sessionMemberId": 47,
+   "sessionYear": 2009,
+   "shortName": "ROBACH"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-02-03",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for the submission by state and local law enforcement authorities of expended projectiles and shell casings and guns, found or otherwise coming into their possession, to the state police pistol and revolver ballistic identification electronic databank; requires the law enforcement agencies to make a record thereof and submit within 30 days.",
+ "title": "Provides for the submission of expended projectiles and shell casings and guns to the state police pistol and revolver ballistic identification electronic databank",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

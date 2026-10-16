@@ -1,0 +1,392 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5385",
+     "basePrintNoStr": "S5385-2011",
+     "printNo": "S5385",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-05-16",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5385",
+     "basePrintNoStr": "S5385-2011",
+     "printNo": "S5385",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-06",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1031"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5385",
+     "basePrintNoStr": "S5385-2011",
+     "printNo": "S5385",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-07",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5385",
+     "basePrintNoStr": "S5385-2011",
+     "printNo": "S5385",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-13",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5385",
+     "basePrintNoStr": "S5385-2011",
+     "printNo": "S5385",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-14",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A7453A"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to the requirement to lock voting machines",
+    "basePrintNo": "S5385",
+    "basePrintNoStr": "S5385-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3-222, El L",
+    "lawSection": "Election Law",
+    "memo": "BILL NUMBER:S5385\n\nTITLE OF BILL:\nAn act\nto amend the election law, in relation to the requirement to lock voting\nmachines\n\nPURPOSE OR GENERAL IDEA OF BILL:\nThe purpose of this bill is to\nfurther conform and clarify the election law in response to the\nadoption and technical characteristics of the new HAVA compliant\nvoting machines\n\nSUMMARY OF SPECIFIC PROVISIONS:\nSection 1 of the bill updates and\nclarifies the election law regarding the security of removable memory\ncards or other similar electronic media used by the new HAVA\ncompliant voting systems must be securely kept until such time as the\ninformation on the media has been preserved in a manner statutorily\nprescribed manner.\n\nSection 2 of the bill is the effective date.\n\nJUSTIFICATION:\nThe logistical transition to the new HAVA compliant\nvoting system in New York State and hence to a paper-based system\nwith a large electronic storage component mandates that selected\nprovisions of the election law be amended to reflect these changes in\nthe voting system. Section 3-222(1) is one such provision. As\npresently constituted, this section currently speaks to locking\nvoting machines used in elections and sets out the conditions under\nwhich such machines May be unlocked and the results examined. In\nrecognition that the results of elections administered with the new\nHAVA compliant machines are stored on portable memory devices, rather\nthan.on the machines themselves, this bill applies similar security\nand disclosure procedures in place for lever machines and applies\nthem to the new HAVA compliant machines.\n\nPRIOR LEGISLATIVE HISTORY:\nNone.\n\nFISCAL IMPLICATION:\nNone.\n\nEFFECTIVE DATE:\nThis bill would take effect immediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5385",
+    "publishDate": "2011-05-16",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7453",
+       "basePrintNoStr": "A7453-2011",
+       "printNo": "A7453A",
+       "session": 2011,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5385",
+ "basePrintNoStr": "S5385-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 50,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2011
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2011-05-16",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2011-06-13",
+    "billCalNo": 1031,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2011-05-16T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5385",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-05-16T10:04:07",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-05-16T10:04:07",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 59,
+   "fullName": "Patrick M. Gallivan",
+   "imgName": "427_patrick_m._gallivan.jpg",
+   "incumbent": true,
+   "memberId": 427,
+   "sessionMemberId": 121,
+   "sessionYear": 2011,
+   "shortName": "GALLIVAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2011-06-13",
+  "billCalNo": 1031,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7453",
+  "basePrintNoStr": "A7453-2011",
+  "session": 2011
+ },
+ "summary": "Relates to the requirement to lock voting machines; requires sealing of removable memory cards or other similar electronic media.",
+ "title": "Relates to the requirement to lock voting machines",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5385",
+     "basePrintNoStr": "S5385-2011",
+     "printNo": "S5385",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Elections"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 78,
+         "sessionYear": 2011,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Greg Ball",
+         "imgName": "Greg Ball.jpg",
+         "incumbent": false,
+         "memberId": 408,
+         "sessionMemberId": 102,
+         "sessionYear": 2011,
+         "shortName": "BALL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 64,
+         "sessionYear": 2011,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 120,
+         "sessionYear": 2011,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 121,
+         "sessionYear": 2011,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 88,
+         "sessionYear": 2011,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 109,
+         "sessionYear": 2011,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 100,
+         "sessionYear": 2011,
+         "shortName": "RANZENHOFER"
+        }
+       ],
+       "size": 8
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2011-06-06",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

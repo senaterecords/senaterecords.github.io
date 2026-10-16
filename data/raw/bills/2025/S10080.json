@@ -1,0 +1,182 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S10080",
+     "basePrintNoStr": "S10080-2025",
+     "printNo": "S10080",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-04-27",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the financial services law, in relation to requiring the\nsuperintendent of financial services to conduct a review of mandated benefits\nand their impact on insurance premiums and to conduct a cost analysis of\nlegislation mandating new insurance benefits",
+    "basePrintNo": "S10080",
+    "basePrintNoStr": "S10080-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §301, Fin Serv L",
+    "lawSection": "Financial Services Law",
+    "memo": " \nBILL NUMBER: S10080\n\nSPONSOR: BAILEY\n \nTITLE OF BILL:\n\nAn act to amend the financial services law, in relation to requiring the\nsuperintendent of financial services to conduct a review of mandated\nbenefits and their impact on insurance premiums and to conduct a cost\nanalysis of legislation mandating new insurance benefits\n\n \nPURPOSE:\n\nThe legislation would require the Department of Financial Services to\nconduct a review of mandated health benefits required by New York State\nlaw in effect as of December 31, 2024, as well as require the Department\nto conduct a cost analysis of the impact of any new mandated health\nbenefit on health insurance premiums before the new requirement could\ntake effect.\n\n \nSUMMARY OF PROVISIONS:\n\nSection (d) would require the Department of Financial Services to\nconduct a review of mandated benefits required by New York State law in\neffect as of December 31, 2024 and issue a report detailing both the\nindividual and cumulative costs of such mandates on insurance premiums.\nThe report would be due 12 months from the date on which this provision\ntakes effect.\n\nSection (e) would require the Department of Financial Services to\nconduct a cost analysis of legislation mandating new insurance benefits\nto examine the impact on insurance premiums prior to the adoption of\nsuch legislation. Any new mandated benefit would not take effect until\nthe Department completes its analysis and the review is made publicly\navailable for review and comment.\n\n \nJUSTIFICATION:\n\nMore than 30 states have laws that require an evaluation of mandated\nbenefits, analyzing the impact on the cost of health care coverage.  In\n2007, New York created the New York State Health Care Quality and Cost\nContainment Commission, which was charged with analyzing the cost and\nefficacy of proposed mandated benefits. Unfortunately, the Commission\nhas never been seated.\n\nThe legislation would establish a formal mechanism for the Department of\nFinancial Services to review the fiscal impact of mandated benefits.\nThis would provide for an independent, and evidence-based analysis for\npolicymakers, employers and consumers to understand the impact of new\nmandated benefits on the cost of coverage and ensure that those costs\nare accurately reflected in premiums.\n\n \nLEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S10080",
+    "publishDate": "2026-04-27",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "FIS301"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8364",
+       "basePrintNoStr": "A8364-2025",
+       "printNo": "A8364A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S10080",
+ "basePrintNoStr": "S10080-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-04-27",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2026-04-27T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S10080",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-04-27T15:26:09.045674",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-04-27T15:26:08.995277",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 36,
+   "fullName": "Jamaal Bailey",
+   "imgName": "924_Jamaal_Bailey.jpg",
+   "incumbent": true,
+   "memberId": 1102,
+   "sessionMemberId": 2353,
+   "sessionYear": 2025,
+   "shortName": "BAILEY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-04-27",
+  "billCalNo": null,
+  "committeeName": "Insurance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires the superintendent of financial services to conduct a review of mandated benefits in effect as of December 31, 2025 and their impact on insurance premiums and to conduct a cost analysis of legislation mandating new insurance benefits to examine the impact on insurance premiums prior to the adoption of such legislation.",
+ "title": "Requires the superintendent of financial services to conduct a review of mandated benefits and their impact on insurance premiums and to conduct a cost analysis of legislation mandating new insurance benefits",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

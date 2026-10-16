@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4300",
+     "basePrintNoStr": "S4300-2013",
+     "printNo": "S4300",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-03-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENERGY AND TELECOMMUNICATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4300",
+     "basePrintNoStr": "S4300-2013",
+     "printNo": "S4300",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2013-03-24",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public service law, in relation to electronic service of orders",
+    "basePrintNo": "S4300",
+    "basePrintNoStr": "S4300-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §23, Pub Serv L",
+    "lawSection": "Public Service Law",
+    "memo": "BILL NUMBER:S4300\n\nTITLE OF BILL:  An act to amend the public service law, in relation to\nelectronic service of orders\n\nPurpose of the Bill:\n\nThe bill would conform Public Service Law (PSL) § 23 with State\nTechnology Law (STL) Article III (Electronic Signatures and Records\nAct (ESRA)), thereby reducing costs, increasing efficiency and\nexpediting public notification by streamlining recordkeeping for\nelectronic issuance of Orders by the Public Service Commission (PSC or\nCommission).\n\nSummary of Provisions:\n\nSection 1 of the bill would amend PSL § 23(1) to allow Orders issued\nby the PSC to be provided by electronic means pursuant to PSC\nregulations except that non-electronic service would be provided upon\nrequest.\n\nSection 2 of the bill would make the bill effective immediately.\n\nExisting Law:\n\nPSL § 23(1) requires that every Order of the Commission be served upon\nall persons or corporations affected by such Order either by (i)\npersonal delivery or (ii) mail, in a sealed envelope with prepaid\npostage, addressed to persons designated to receive a summons under\nthe CPLR; electronic service is not authorized.\n\nPrior Legislative History:\n\n2012: A.9856/S.6764 passed the Senate.\n\nStatement in Support:\n\nPSL § 23(1) was enacted in 1910 (Ch. 480), and reflected the need in a\npre-electronic world to provide utility management and other parties\nwith hard copies of Commission Order. This bill would allow the\nCommission to serve its Orders by electronic mail, reserving to\nparties the option to receive hard copies if that is their preference.\nSelecting an option establishes no additional burden on a party when\nlie or she contacts the Commission to indicate a desire to become a\nparty to a Commission proceeding. Parties can indicate their\npreference for service of documents related to the proceeding,\nincluding Commission Orders.\n\nElectronic communication is as reliable as regular mail, and the\nlimited options set forth in PSL § 23(1) for service of Commission\nOrders are inefficient, outdated and expensive. Information can be\ntransmitted far more quickly and efficiently by electronic means than\nby regular mail. Addressees receive the information nearly\ninstantaneously rather than days later, and electronic service can be\nconfigured to provide for electronic \"return receipts\" to confirm\ndelivery. ESRA was accordingly adopted because \"it is in the best\ninterest of the State of New York, its citizens, businesses and\n\n\ngovernment entities for state and federal law to work in tandem to\npromote the use of electronic technology in the everyday lives and\ntransactions of such individuals and entities.\" Laws of 2002, Ch. 314\n§ 1.\n\nThe Commission sends out approximately 650 Orders annually, which must\nbe sent to multiple parties per case; large proceedings may have over\n100 parties. Implementation of electronic service would reduce the\ncost of paper, envelopes, printing and mailing. ESRA provides agencies\nbroad authority to seek the savings of electronic transmittal and\nelectronic recordkeeping. However, ESRA implementing regulations, 9\nNYCRR §540.5(e), provide that \"(g)overmental entities using electronic\nrecords shall, in the absence of specific statutory or regulatory\nrequirements, have the authority to specify the manner and format in\nwhich electronic records will be received, produced, accepted,\nacquired, recorded, filed, transmitted, forwarded, acknowledged and\nstored.\" (Emphasis added). Because PSL § 23(1) mandates personal\nservice or \"by mailing a copy thereof, in a sealed package with\npostage prepaid,\" it precludes electronic service of Commission\nOrders, without a waiver.\n\nBudget Implications:\n\nA nominal amount of nonpersonal services savings is projected. There\nare also large, but unquantifiable, efficiencies due to resources\nsaved in attempting to design., maintain and refine a process for\nwaiver of PSL § 23(1).\n\nLocal Impact:\n\nNone.\n\nEffective Date:\n\nImmediately Upon enactment.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4300",
+    "publishDate": "2013-03-20",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4300",
+ "basePrintNoStr": "S4300-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2013-03-20",
+    "billCalNo": null,
+    "committeeName": "Energy And Telecommunications",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Energy And Telecommunications",
+    "referenceDate": "2013-03-20T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4300",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2013-03-20T11:29:09",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2013-03-20T11:29:09",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 48,
+   "fullName": "Patty Ritchie",
+   "imgName": "423_patty_ritchie.jpg",
+   "incumbent": false,
+   "memberId": 423,
+   "sessionMemberId": 179,
+   "sessionYear": 2013,
+   "shortName": "RITCHIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2013-03-24",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for the electronic service of orders of the public service commission.",
+ "title": "Provides for the electronic service of orders of the public service commission",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

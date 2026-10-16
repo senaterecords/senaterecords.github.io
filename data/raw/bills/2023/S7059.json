@@ -1,0 +1,380 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7059",
+     "basePrintNoStr": "S7059-2023",
+     "printNo": "S7059",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CONSUMER PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7059",
+     "basePrintNoStr": "S7059-2023",
+     "printNo": "S7059",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-24",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1358"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7059",
+     "basePrintNoStr": "S7059-2023",
+     "printNo": "S7059",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-30",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7059",
+     "basePrintNoStr": "S7059-2023",
+     "printNo": "S7059",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-31",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7059",
+     "basePrintNoStr": "S7059-2023",
+     "printNo": "S7059",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-06-01",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A7401"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend chapter 109 of the laws of 2018 amending the general business\nlaw relating to certain rental vehicle protections, in relation to the\neffectiveness thereof",
+    "basePrintNo": "S7059",
+    "basePrintNoStr": "S7059-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §4, Chap 109 of 2018",
+    "lawSection": "General Business",
+    "memo": " \nBILL NUMBER: S7059\n\nSPONSOR: THOMAS\n \nTITLE OF BILL:\n\nAn act to amend chapter 109 of the laws of 2018 amending the general\nbusiness law relating to certain rental vehicle protections, in relation\nto the effectiveness thereof\n\n \nPURPOSE:\n\nExtends provisions of law relating to certain rental vehicle\nprotections.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one amends chapter 109 of the laws of 2018 amending the general\nbusiness law relating to certain rental vehicle protections, to provide\nthat its provisions, currently set to sunset on June 30, 2023 shall\ninstead expire and be deemed repealed on June 30, 2028\n\n \nJUSTIFICATION:\n\nChapter 109 of 2018 updated and modernized the administration of consum-\ner vehicles rentals and enhanced consumer protections. This bill extends\nthese important provisions for an additional 5 years.\n\n \nLEGISLATIVE HISTORY:\n\n5 year extender of chapter 109 of the laws of 2018\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7059",
+    "publishDate": "2023-05-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7401",
+       "basePrintNoStr": "A7401-2023",
+       "printNo": "A7401",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7059",
+ "basePrintNoStr": "S7059-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 56,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2023
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Consumer Protection"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2023-05-17",
+    "billCalNo": null,
+    "committeeName": "Consumer Protection",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2023-05-31",
+    "billCalNo": 1358,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Consumer Protection",
+    "referenceDate": "2023-05-17T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7059",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-05-17T12:27:03.295293",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-05-17T12:27:03.295293",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 6,
+   "fullName": "Kevin Thomas",
+   "imgName": "1043_Kevin_Thomas.jpg",
+   "incumbent": false,
+   "memberId": 1223,
+   "sessionMemberId": 2040,
+   "sessionYear": 2023,
+   "shortName": "THOMAS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2023-05-31",
+  "billCalNo": 1358,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7401",
+  "basePrintNoStr": "A7401-2023",
+  "session": 2023
+ },
+ "summary": "Extends provisions of law relating to certain rental vehicle protections from June 30, 2023 until June 30, 2028.",
+ "title": "Extends provisions of law relating to certain rental vehicle protections",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7059",
+     "basePrintNoStr": "S7059-2023",
+     "printNo": "S7059",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Consumer Protection"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2050,
+         "sessionYear": 2023,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Patricia Canzoneri-Fitzpatrick",
+         "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+         "incumbent": true,
+         "memberId": 1517,
+         "sessionMemberId": 1880,
+         "sessionYear": 2023,
+         "shortName": "CANZONERI-FITZPATRICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 1876,
+         "sessionYear": 2023,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brian Kavanagh",
+         "imgName": "526_brian_kavanagh.jpg",
+         "incumbent": true,
+         "memberId": 1140,
+         "sessionMemberId": 2018,
+         "sessionYear": 2023,
+         "shortName": "KAVANAGH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "William Weber",
+         "imgName": "1335_William_Weber.jpg",
+         "incumbent": true,
+         "memberId": 1518,
+         "sessionMemberId": 1881,
+         "sessionYear": 2023,
+         "shortName": "WEBER"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2023-05-24",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2023
+}

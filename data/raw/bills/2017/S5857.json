@@ -1,0 +1,976 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-23",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1131"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-05-24",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-05",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-15",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING (T) 5857A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-21",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-01-03",
+    "sequenceNo": 7,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857A",
+     "session": 2017,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2018-06-08",
+    "sequenceNo": 8,
+    "text": "AMEND (T) AND RECOMMIT TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857B",
+     "session": 2017,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2018-06-08",
+    "sequenceNo": 9,
+    "text": "PRINT NUMBER 5857B"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the civil practice law and rules and the civil rights law, in relation to the right to privacy and persona rights",
+    "basePrintNo": "S5857",
+    "basePrintNoStr": "S5857-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 952,
+       "sessionYear": 2017,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Marisol Alcantara",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1096,
+       "sessionMemberId": 1090,
+       "sessionYear": 2017,
+       "shortName": "ALCANTARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 920,
+       "sessionYear": 2017,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Thomas Croci",
+       "imgName": "893_thomas_croci.jpg",
+       "incumbent": false,
+       "memberId": 893,
+       "sessionMemberId": 955,
+       "sessionYear": 2017,
+       "shortName": "CROCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 956,
+       "sessionYear": 2017,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §215, CPLR; amd Art 5 Head & §§50 & 51, Civ Rts L",
+    "lawSection": "Civil Practice Law and Rules",
+    "memo": " BILL NUMBER:  S5857\n\n TITLE OF BILL :  An act to amend the civil practice law and rules and\nthe civil rights law, in relation to the right to privacy and persona\nrights\n\n PURPOSE OR GENERAL IDEA OF BILL :\n\nTo add persona rights to Section 50 of the Civil Rights Law, Right of\nPrivacy.\n\n SUMMARY OF PROVISIONS :\n\nSection 50(1) of the Civil Rights Law would be amended to define\n\"person\" and \"persona.\"\n\nSection 50(2) would provide that a person who uses the persona of a\nliving or deceased person without written consent for advertising\nand/or trade purposes would be guilty of a misdemeanor.\n\nSection 50(3) would provide that, regarding a deceased person's\npersona, the required written consent would be exercisable by the\nperson or persons who collectively own more than 50% of the rights of\nthe persona.\n\nSection 50(4) would provide that this property right would exist in a\ndeceased individual who died on or after or within seventy years\nbefore the effective date of this subdivision. It would further\nprovide that these property rights would be freely transferrable or\ndescendible, and would exist for seventy years after the death of the\nindividual.\n\nSection 50(5) would provide that, in the absence of a transfer in a\ntestamentary instrument, a provision in a testamentary instrument that\nprovides for the disposition of the rest of a deceased person's assets\nwould be effective to transfer the individual's persona.\n\nSection 50(6) would provide that persona rights recognized by a person\nidentified as entitled to inherit a deceased individual's property\nunder intestacy would not be affected.\n\nSection 51(1) would provide an equitable cause of action for a\nviolation of this; a plaintiff could seek to prevent and restrain the\nuse of a persona, and/or damages.\n\nSection 51(2) would require that such an action be brought within\nthree years of the date of discovery, or from the date through the\nexercise of reasonable diligence such should have been discovered.\n\n JUSTIFICATION :\n\nThis bill would establish a property right in an individual's persona,\nand would further establish that use of an individual's persona\nwithout written consent for advertising and/or trade purposes would be\na misdemeanor. Such unauthorized use would also create a cause of\naction; a plaintiff could seek to prevent and restrain the use of a\npersona, and/or damages.\n\n PRIOR LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\n\nNone.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5857",
+    "publishDate": "2017-05-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the civil practice law and rules and the civil rights law, in relation to the right to privacy and persona rights",
+    "basePrintNo": "S5857",
+    "basePrintNoStr": "S5857-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 952,
+       "sessionYear": 2017,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Marisol Alcantara",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1096,
+       "sessionMemberId": 1090,
+       "sessionYear": 2017,
+       "shortName": "ALCANTARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 920,
+       "sessionYear": 2017,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Thomas Croci",
+       "imgName": "893_thomas_croci.jpg",
+       "incumbent": false,
+       "memberId": 893,
+       "sessionMemberId": 955,
+       "sessionYear": 2017,
+       "shortName": "CROCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Ren §50 to be §50-f, add §§50, 50-g, 50-h & 50-i, amd §§50-f & 51, Civ Rts L; amd §215, CPLR",
+    "lawSection": "Civil Practice Law and Rules",
+    "memo": " BILL NUMBER:  S5857A\n\n TITLE OF BILL :  An act to amend the civil rights law, in relation to\nthe right of publicity; and to amend the civil practice law and rules,\nin relation to the timeliness of commencement of an action for\nviolation of the right of publicity\n\n PURPOSE OF BILL :\n\nTo create a right of publicity for deceased individuals and a registry\nto publicly post such interests upon thereby giving notice to people\nwho may seek to use an individual's right of publicity in New York\nState for advertising purposes, or for the purposes of trade or for\npurposes of fund-raising or solicitation of donations.\n\n SUMMARY OF PROVISIONS :\n\n§ .50. Definitions. For the purposes of sections fifty-f, fifty-g,\nfifty-h, fifty-i and fifty one of this article, the following terms\nare defined:\n\n1. \"Characteristic\"\n\n2. \"Deceased individual\"\n\n3. \"Secretary\"\n\n4. \"Fund-raising\"\n\n5. \"Individual\"\n\n6. \"Likeness\"\n\n7. \"Name\"\n\n8. \"Person\"\n\n9. \"Photograph\"\n\n10. \"Registration to establish a claim of right\"\n\n11. \"Right of publicity\"\n\n12. \"Signature\"\n\n§ 50-f. Right of publicity for living and deceased individuals.\nCreates a right of publicity for all individuals, whether living or\ndeceased, wherever they might be domiciled, for actions that occur\nwithin New York State. This legislation establishes that a living or\ndeceased individual's name, voice, signature and likeness,\nindividually and collectively known as his or her right of publicity,\nis personal property, freely transferable or descendible, in whole or\nin part, by contract or by means of any trust or testamentary\ninstrument, whether such contract, trust or testamentary instrument\nwas entered into or executed before or after the effective date. An\nindividual's right of publicity cannot be used without obtaining the\nwritten consent of the individual, his or her successors or assigns,\nor in the case of a minor, of his or her parent or guardian.\n\n§ 50-g. Duration of an individual's right of publicity. Establishes\nthat every individual's right of publicity continues to exist for\nforty years after their death, and does not expire upon the death of\nthe individual, regardless of whether the law of the domicile,\nresidence, or citizenship of the individual at the time of death or\notherwise recognizes a similar or identical property right.\n\n§ 50-h. Methods of transfer and conveyance. Establishes the ways that\nan individual's right of publicity may be transferred, including by\ncontract, license, gift, trust, will, testamentary instrument or\nintestacy. After an individual dies, the person who is his or her\nsuccessor in interest with an ownership of fifty one percent or more\nof the decedent's right of publicity may register such interest with\nthe New York State secretary of state for a fee of $50.00. Unless the\nright of publicity is registered and publicly posted by the secretary\nof state on the public website maintained for that purpose, there is\nno protection against the use of a deceased individual's right of\npublicity. After forty years have passed, the deceased individual's\nright of publicity is no longer protected against use in commerce and\ntrade. After forty seven years have passed the secretary of state may\ndestroy all information related to the lapsed right of publicity.\n\n§ 50-i. No abrogation of rights and remedies. States that nothing\ncontained in the provisions of this article related to the right of\npublicity shall be deemed to abrogate or otherwise limit any rights or\nremedies otherwise conferred by federal or state law.\n\n§ 51. Action for injunction and for damages. Subparagraph one\ndetermines that this legislation applies to any act that occurs in New\nYork State regardless of the deceased individual's domicile,\nresidence, or citizenship. Subparagraph two discusses when consent for\nuse of another individual's right of publicity as provided in the\nprovisions of this Article pertaining to the right of publicity shall\nnot be required with a limited exception. The limited exception is in\nresponse to the development and use of technology that allows a\nvariety of media forms to reproduce the right of publicity of\nindividuals, both living and dead, in a variety of contexts such as\nmovies, videogames and books on CD. Therefore, the statute provides\nprotections to the use of the life time and post mortem use of an\nindividual's right of publicity in the light of such technological\ndevelopments. Subparagraph three discusses limited immunities for\ncertain people unless it is established that the owners or employees\nhad knowledge of the unauthorized use. Subparagraph four states that\nif an individual's right of publicity is used within this state for\nadvertising purposes, or for the purposes of trade or for purposes of\nfund-raising or solicitation of donations, without the written consent\nthe individual is entitled to maintain an equitable action for\nviolation of the individual's right of publicity. In addition, to\nprevent and restrain the use thereof; an individual may also sue and\nrecover damages for any injuries sustained, including an amount equal\nto the greater of seven hundred fifty dollars ($750) or compensatory\ndamages by reason of such use and if the defendant shall have\nknowingly used such person's right of publicity the finder of fact, in\nits discretion, may award exemplary damages. Furthermore, a violation\nof an individual's right of publicity may occur without regard to\nwhether the use or activity is for profit or not for profit.\n\n JUSTIFICATION :\n\nThe term \"Right of Publicity\" originated in the United States Court of\nAppeals for the Second Circuit in 1953 in Haelan Laboratories v.\nTopps Chewing Gum to describe the right of individuals to control the\nuse of their name and likenesses for commercial and other valuable\npurposes. Since then, more than half of the states have granted rights\nof publicity to individuals through either the common law or by\nstatute.\n\nThe Right of Publicity refers to every individual's inherent right to\ncontrol the commercial use of his or her personal characteristics,\nwhich can include name, voice, signature, photograph, image, likeness,\ndistinctive appearance, gestures, or mannerisms. The most critical\nfunction of the Right of Publicity is control. The Right of Publicity,\neven though it is a property right, is not merely a property asset,\nlike a painting or real estate, for estate tax purposes. The Right of\nPublicity ensures that if a person, or that person's successor in\ninterest, does not seek to commercialize the right, they are not\ncompelled to do so.\n\nThis bill provides for a post mortem right of publicity for forty\nyears after the death of an individual, allowing successors in\ninterest to provide notice of such interest through a public\nregistration and posting maintained by the New York Secretary of\nState. Along with providing for a post mortem right of publicity the\nbill also has exclusions consistent with constitutionally protected\nfreedom of speech.\n\nFinally, the Right of Publicity created through this legislation\napplies to acts that occur within New York State regardless of the\ndeceased individual's domicile, residence, or citizenship. This way we\nare able to prevent anomalous results in the application of the law to\nindividuals who do not have a Right of Publicity in their domicile or\ncountry.\n\nIn conclusion, this bill is balanced in protecting essential first\namendment rights consistent with current law while still providing\nprotections for an individual's right of publicity during life and for\nforty years after death.\n\n LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS :\n\nTo be determined.\n\n EFFECTIVE DATE :\nThis act shall take effect on the one hundred eightieth day after it\nshall have become a law, and shall apply to deceased individuals who\ndied on or after such date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5857A",
+    "publishDate": "2017-06-15",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the civil practice law and rules and the civil rights law, in relation to the right to privacy and persona rights",
+    "basePrintNo": "S5857",
+    "basePrintNoStr": "S5857-2017",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 952,
+       "sessionYear": 2017,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Marisol Alcantara",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1096,
+       "sessionMemberId": 1090,
+       "sessionYear": 2017,
+       "shortName": "ALCANTARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Tony Avella",
+       "imgName": "391_tony_avella.jpg",
+       "incumbent": false,
+       "memberId": 391,
+       "sessionMemberId": 920,
+       "sessionYear": 2017,
+       "shortName": "AVELLA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1133,
+       "sessionYear": 2017,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Thomas Croci",
+       "imgName": "893_thomas_croci.jpg",
+       "incumbent": false,
+       "memberId": 893,
+       "sessionMemberId": 955,
+       "sessionYear": 2017,
+       "shortName": "CROCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Jesse Hamilton",
+       "imgName": "889_jesse_hamilton.jpg",
+       "incumbent": false,
+       "memberId": 889,
+       "sessionMemberId": 937,
+       "sessionYear": 2017,
+       "shortName": "HAMILTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1140,
+       "sessionYear": 2017,
+       "shortName": "SEPULVEDA"
+      }
+     ],
+     "size": 7
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Ren §50 to be §50-f, add §§50, 50-g, 50-h & 50-i, amd §§50-f & 51, Civ Rts L; amd §215, CPLR",
+    "lawSection": "Civil Rights Law",
+    "memo": "\n \nBILL NUMBER: S5857B\n\nSPONSOR: SAVINO\n \nTITLE OF BILL:\n\nAn act to amend the civil rights law, in relation to the right of priva-\ncy and the right of publicity; and to amend the civil practice law and\nrules, in relation to the timeliness of commencement of an action for\nviolation of the right of publicity\n\n \nPURPOSE OF BILL:\n\nTo create a right of publicity for deceased individuals and a registry\nto publicly post such interests upon thereby giving notice to people who\nmay seek to use an individual's right of publicity in New York State for\nadvertising purposes, or for the purposes of trade. In addition this\nbill addresses the ability of technology to create digital avatars and\nmakes regulations regarding their use.\n\n \nSUMMARY OF PROVISIONS:\n\n§ .50. Definitions. For the purposes of sections fifty-f, fifty-g,\nfifty-h, fifty-i and fifty one of this article, the following terms are\ndefined:\n\n1. \"Deceased individual\"\n\n2. \"Digital replica\"\n\n3. \"Secretary\"\n\n4. \"Fund-raising\"\n\n5. \"Individual\"\n\n6. \"Name\"\n\n7. \"Person\"\n\n8. \"Persona\"\n\n9. \"Right of privacy\"\n\n10. \"Right of publicity\"\n\n11. \"Signature\"\n\n§ 50-f. Right of publicity for living and deceased individuals.  Creates\na right of publicity for individuals, whether living or deceased, for\nactions that occur within New York State. This legislation establishes\nthat a living or deceased individual's persona, is personal property,\nfreely transferable or descendible, in whole or in part, by contract or\nby means of any trust or testamentary instrument, whether such contract,\ntrust or testamentary instrument was entered into or executed before or\nafter the effective date. An individual's right of publicity cannot be\nused for advertising purposes or purposes of trade without obtaining the\nwritten consent of the individual, his or her successors or assigns, or\nin the case of a minor, of his or her parent or guardian as limited by\n\nsection 35.03 of the Arts and Cultural Affairs Law. Furthermore, a\nparent may not assign a child's Right of Publicity.\n\n§ 50-g. Duration of an individual's right of publicity. Establishes that\nan individual's right of publicity continues to exist for forty years\nafter their death.\n\n§ 50-h. Methods of transfer and conveyance. Establishes the ways that an\nindividual's right of publicity may be transferred, including by\ncontract, license, gift, trust, will, testamentary. instrument or intes-\ntacy. After an individual dies, the person who is his or her successor\nin interest with an ownership of fifty one percent or more of the\ndecedent's right of publicity may register such interest with the New\nYork State secretary of state for a fee of $100.00. Unless the right of\npublicity is registered within six months of the individual's death\nthere is no protection against the use of a deceased individual's right\nof publicity. After forty years have passed, the deceased individual's\nright of publicity is no longer protected against use in advertising and\ntrade. After forty seven years have passed the secretary of state may\ndestroy all information related to the lapsed right of publicity.\n\n§ 50-i. No abrogation of rights and remedies. States that nothing\ncontained in the provisions of this article related to the right of\npublicity shall be deemed to abrogate or otherwise limit any rights or\nremedies otherwise conferred by federal or state law.\n\n§ 51. Action for injunction and for damages. Subparagraph one determines\nthat this legislation applies to any act that occurs in New York State.\nSubparagraph two discusses when consent for use of another individual's\nright of publicity as provided in the provisions of this Article\npertaining to the right of publicity shall not be required with a few\nlimited exception.\n\nSubparagraph three discusses the use of digital replicas for purposes of\ntrade in an expressive work and limited immunities for such use.\nSubparagraph four discusses the use of digital replicas in pornographic\nwork without the consent of the individual.  Subparagraph five discusses\nthe limited immunity for certain people unless it is established that\nthe owners or employees had knowledge of the unauthorized use.\n\nSubparagraph six, action for injunction or damages, states that if an\nindividual's right of publicity is used within this state for advertis-\ning purposes, or for the purposes of trade without written consent the\nindividual is entitled to maintain an equitable action for violation of\nthe individual's right of privacy or right of publicity. In addition,\n'to prevent and restrain the use thereof; an individual may also sue and\nrecover damages for any injuries sustained, including an amount equal to\nthe greater of seven hundred fifty dollars ($750) or compensatory\ndamages by reason of such use and if the defendant shall have knowingly\nused such person's right of publicity the finder of fact, in its\ndiscretion, may award exemplary damages.\n\nSubparagraph seven clarifies that when using more than one person's\npersona it is still a violation under the right of privacy or the right\nof publicity if the necessary written permission is not obtained prior\nto such use.\n\n\nSubparagraphs eight, nine, ten and eleven are updated and modernized and\nmade easier to understand.\n\nSubparagraph twelve discusses the termination of the post mortem right\nof publicity.\n\nSubparagraph thirteen discusses the statute of limitations which is one\nyear.\n\nSection five amends the civil practice law and rules. Section six is the\nseverability clause.\n\nSection seven is the effective date, on the one hundred and eightieth\nday after becoming a law.\n\n \nJUSTIFICATION:\n\nThe term \"Right of Publicity\" originated in the United States Court of\nAppeals for the Second Circuit in 1953 in Haelan Laboratories v.  Topps\nChewing Gum to describe the right of individuals to control the use of\ntheir name and likenesses for commercial and other valuable purposes.\nSince then, more than half of the states have granted rights of public-\nity to individuals through either the common law or by statute.\n\nThe Right of Publicity refers to every individual's inherent right to\ncontrol the commercial use of his or her personal characteristics, which\ncan include name, portrait or picture, voice or signature, each a part\nof an individual's persona. Recently, in Lohann v. Take Two (Lohan v\nTake-Two Interactive Software, Inc. 2018 NY Slip Op 02208 Decided on\nMarch 29, 2018 Court of Appeals Fahey, J. Published by New York State\nLaw Reporting Bureau pursuant to Judiciary Law § 431.), the Court stated\nthat \"A computer generated image may constitute a \"portrait\" within the\nmeaning of N.Y. Civ. Rights Law 50 and 51, but the disputed images in\nthe video game central to this matter were not recognizable as Lindsay\nLohan, and therefore, Lohan's complaint was properly dismissed.\"\n\nThe most critical function of the Right of Publicity is control. The\nRight of Publicity, even though it is a property right, is not merely a\nproperty asset, like a painting or real estate, for estate tax purposes.\nThe Right of Publicity ensures that if a person, or that person's\nsuccessor in interest, does not seek to commercialize the right, they\nare not compelled to do so.\n\nThis bill provides for a post mortem right of publicity for forty years\nafter the death of an individual, allowing successors in interest to\nprovide notice of such interest through a public registration and post-\ning maintained by the New York Secretary of State. Along with providing\nfor a post mortem right of publicity the bill also has exclusions\nconsistent with constitutionally protected freedom of speech.\n\nFinally, the Right of Publicity created through this legislation applies\nto acts that occur within New York State.\n\nIn conclusion, this bill is balanced in protecting essential first\namendment rights consistent with current law while maintaining the\ncurrent status of the right of privacy law and still providing\nprotections for an individual's right of publicity, whether they are a\nchild or an adult, during life and for forty years after death.\n \nLEGISLATIVE HISTORY:\n\n2017 - died on 3rd Rdg. in both Houses.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take place on the one hundred and eightieth day after it\nshall have become a law, and shall apply to all living individuals and\ndeceased individuals who died on or after such date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5857B",
+    "publishDate": "2018-06-08",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8155",
+       "basePrintNoStr": "A8155-2017",
+       "printNo": "A8155B",
+       "session": 2017,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5857",
+ "basePrintNoStr": "S5857-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 48,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2017
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2017
+   }
+  ],
+  "size": 12
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2017
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2018-06-08",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2017-05-03T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2018-01-03T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2018-06-08T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2017-06-21T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5857B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-05-03T14:29:21",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2017-06-15T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2018-06-08T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2017-05-03T14:29:21",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 23,
+   "fullName": "Diane J. Savino",
+   "imgName": "403_diane_j._savino.jpg",
+   "incumbent": false,
+   "memberId": 403,
+   "sessionMemberId": 933,
+   "sessionYear": 2017,
+   "shortName": "SAVINO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2018-06-08",
+  "billCalNo": null,
+  "committeeName": "Judiciary",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes the right of privacy and the right of publicity for both living and deceased individuals; provides that an individual's persona is the personal property of the individual and is freely transferable and descendible; provides for the registration with the department of state of such rights of a deceased individual; and that the use of a digital replica for  purposes of trade within an expressive work shall be a violation.",
+ "title": "Establishes the right of privacy and the right of publicity for both living and deceased individuals",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5857",
+     "basePrintNoStr": "S5857-2017",
+     "printNo": "S5857",
+     "session": 2017,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "George Amedore",
+         "imgName": "892_george_amedore.jpg",
+         "incumbent": false,
+         "memberId": 892,
+         "sessionMemberId": 954,
+         "sessionYear": 2017,
+         "shortName": "AMEDORE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 920,
+         "sessionYear": 2017,
+         "shortName": "AVELLA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1098,
+         "sessionYear": 2017,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 1016,
+         "sessionYear": 2017,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 944,
+         "sessionYear": 2017,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Thomas Croci",
+         "imgName": "893_thomas_croci.jpg",
+         "incumbent": false,
+         "memberId": 893,
+         "sessionMemberId": 955,
+         "sessionYear": 2017,
+         "shortName": "CROCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 1085,
+         "sessionYear": 2017,
+         "shortName": "DIAZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 927,
+         "sessionYear": 2017,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Jesse Hamilton",
+         "imgName": "889_jesse_hamilton.jpg",
+         "incumbent": false,
+         "memberId": 889,
+         "sessionMemberId": 937,
+         "sessionYear": 2017,
+         "shortName": "HAMILTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Chris Jacobs",
+         "imgName": "921_Chris_Jacobs.jpg",
+         "incumbent": false,
+         "memberId": 1099,
+         "sessionMemberId": 1095,
+         "sessionYear": 2017,
+         "shortName": "JACOBS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 918,
+         "sessionYear": 2017,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1084,
+         "sessionYear": 2017,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 943,
+         "sessionYear": 2017,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 941,
+         "sessionYear": 2017,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Elaine Phillips",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1100,
+         "sessionMemberId": 1096,
+         "sessionYear": 2017,
+         "shortName": "PHILLIPS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 933,
+         "sessionYear": 2017,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 924,
+         "sessionYear": 2017,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 17
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 946,
+         "sessionYear": 2017,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 921,
+         "sessionYear": 2017,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1010,
+         "sessionYear": 2017,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Susan Serino",
+         "imgName": "890_susan_serino.jpg",
+         "incumbent": false,
+         "memberId": 890,
+         "sessionMemberId": 1018,
+         "sessionYear": 2017,
+         "shortName": "SERINO"
+        }
+       ],
+       "size": 4
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 1011,
+         "sessionYear": 2017,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 948,
+         "sessionYear": 2017,
+         "shortName": "RANZENHOFER"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2017-05-23",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2018
+}

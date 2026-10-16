@@ -1,0 +1,1041 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2892",
+     "basePrintNoStr": "S2892-2019",
+     "printNo": "S2892",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-30",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2892",
+     "basePrintNoStr": "S2892-2019",
+     "printNo": "S2892",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-06",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2892",
+     "basePrintNoStr": "S2892-2019",
+     "printNo": "S2892A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-06",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 2892A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2892",
+     "basePrintNoStr": "S2892-2019",
+     "printNo": "S2892A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 4,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2892",
+     "basePrintNoStr": "S2892-2019",
+     "printNo": "S2892A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-02-06",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2892",
+     "basePrintNoStr": "S2892-2019",
+     "printNo": "S2892B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2020-02-06",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 2892B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property law, in relation to prohibiting eviction\nwithout good cause",
+    "basePrintNo": "S2892",
+    "basePrintNoStr": "S2892-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 6-A §§210 - 216, RP L",
+    "lawSection": "Real Property Law",
+    "memo": "\n \nBILL NUMBER: S2892\n\nSPONSOR: SALAZAR\n \nTITLE OF BILL:\n\nAn act to amend the real property law, in relation to prohibiting\neviction without good cause\n\n \nPURPOSE:\n\nThe purpose of this legislation is to prohibit the eviction of residen-\ntial tenants or the non-renewal of residential leases without good\ncause.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one adds a new Article 6-A to the real property law titled\nProhibition of Eviction Without Good Cause, with the following sections:\n\nSection 1: A new section 210 provides that the short title of this arti-\ncle is the \"Prohibition of eviction without good cause law\".\n\nSection 211 provides definitions of the following terms used in the\nstatute: \"housing accommodation\", \"landlord\", \"tenant\", \"rent\", and\n\"disabled person\".\n\nA new section 212 states Article 6-A is applicable to all housing accom-\nmodations, except for owner-occupied premises with less than four units,\npremises sublet pursuant to RPL 226-b where the sublessor seeks in good\nfaith to recover possession for his/her personal use and occupancy,\npremises incident to employment when such employment is being lawfully\nterminated, and premises otherwise subject to regulation of rent or\nevictions pursuant to state or federal law to the extent such state or\nfederal law requires good cause for termination or non-renewal.\n\nA new section 213 prohibits landlords from taking any action to evict,\nfail to renew a lease, or otherwise seek to remove a tenant from housing\naccommodation except for good cause.\n\nA new section 214 (1) sets forth permissible grounds for the removal of\ntenants, including the failure to pay rent, the violation of a substan-\ntial obligation of the tenancy, committing or permitting a nuisance,\npermitting the premises to be used for an illegal purpose, or if, under\ncertain conditions, the to be premises are to be personally occupied by\nthe landlord or close relatives of the landlord as their primary resi-\ndence. Section 214 (2) creates a private right of action for tenants\nrequires to surrender housing accommodations if a landlord makes a frau-\ndulent statement regarding a proposed use of the housing accommodation\nfor personal or family use.  214 (3) provides that tenants' rights\npursuant to RPAPL 751 to stay the issuance or execution of a warrant of\neviction, so long as the tenant complies with the procedural require-\nments of said law.\n\nA new section 215 preserves existing requirements of law relating to\neviction proceedings.\n\nA new section 216 provides that any waiver of the rights provided by\nthis Article is void.\n\nSection 2 provides that this Act will take effect immediately.\n\n \nEXISTING LAW:\n\nNew Bill\n\n \nJUSTIFICATION:\n\nToday, many residential tenants from across New York State are being\nevicted for unjustifiable reasons. Residential renter-tenants, consti-\ntuting the biggest constituency in our state, they lack basic rights\nthat will allow them to renew their expiring lease and to not be priced\nout of their homes.\n\nLandlords across our state are displacing tenants in order to gain high-\ner profits. The de facto evictions happen via non-renewal of their leas-\nes. These non-renewals are displacing individuals and families n order\nfor owners to rent out their units to higher income tenants. This bill\nwill prohibit landlords from evicting tenants without their being a good\ncause (which is outlined in Section 214).\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nLOCAL FISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis Act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2892",
+    "publishDate": "2019-01-30",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5030",
+       "basePrintNoStr": "A5030-2019",
+       "printNo": "A5030",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the real property law, in relation to prohibiting eviction\nwithout good cause",
+    "basePrintNo": "S2892",
+    "basePrintNoStr": "S2892-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 23
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 6-A §§210 - 216, RP L",
+    "lawSection": "Real Property Law",
+    "memo": "\n \nBILL NUMBER: S2892A\n\nSPONSOR: SALAZAR\n \nTITLE OF BILL:  An act to amend the real property law, in relation to\nprohibiting eviction without good cause\n\n \nPURPOSE::\n\nThe purpose of this legislation is to prohibit the eviction of residen-\ntial tenants or the non-renewal of residential leases without good\ncause.\n\n \nSUMMARY OF PROVISIONS::\n\nSection one adds a new Article 6-A to the real property law titled\nProhibition of Eviction Without Good Cause, with the following sections:\n\nSection 1: A new section 210 provides that the short title of this arti-\ncle is the \"Prohibition of eviction without good cause law\".  Section\n211 provides definitions of the following terms used in the statute:\n\"housing accommodation\", \"landlord\", \"tenant\", \"rent\", and \"disabled\nperson\".\n\nA new section 212 states Article 6-A is applicable to all housing accom-\nmodations, except for owner-occupied premises with less than four units,\npremises sublet pursuant to RPL 226-b where the sublessor seeks in good\nfaith to recover possession for his/her personal use and occupancy,\npremises incident to employment when such employment is being lawfully\nterminated, and premises otherwise subject to regulation of rent or\nevictions pursuant to state or federal law to the extent such state or\nfederal law requires good cause for termination or non-renewal.\n\nA new section 213 prohibits landlords from taking any action to evict,\nfail to renew a lease, or otherwise seek to remove a tenant from housing\naccommodation except for good cause.\n\nA new section 214 (1) sets forth permissible grounds for the removal of\ntenants, including the failure to pay rent, the violation of a substan-\ntial obligation of the tenancy, committing or permitting a nuisance,\npermitting the premises to be used for an illegal purpose, or if, under\ncertain conditions, the to be premises are to be personally occupied by\nthe landlord or close relatives of the landlord as their primary resi-\ndence. Section 214 (2) creates a private right of action for tenants\nrequires to surrender housing accommodations if a landlord makes a frau-\ndulent statement regarding a proposed use of the housing accommodation\nfor personal or family use. 214 (3) provides that tenants' rights pursu-\nant to RPAPL 751 to stay the issuance or execution of a warrant of\neviction, so long as the tenant complies with the procedural require-\nments of said law.\n\nA new section 215 preserves existing requirements of law relating to\neviction proceedings.\n\nA new section 216 provides that any waiver of the rights provided by\nthis Article is void and adds severability clause.\n\nSection 2 provides that this Act will take effect immediately.\n\n \nEXISTING LAW::\nNew Bill\n\n \nJUSTIFICATION::\n\nToday, many residential tenants from across New York State are being\nevicted for unjustifiable reasons. Residential renter-tenants, consti-\ntuting the biggest constituency in our state, they lack basic rights\nthat will allow them to renew their expiring lease and to not be priced\nout of their homes.\n\nLandlords across our state are displacing tenants in order to gain high-\ner profits. The de facto evictions happen via non-renewal of their leas-\nes. These non-renewals are displacing individuals and families in order\nfor owners to rent out their units to higher income tenants.  This bill\nwill prohibit landlords from evicting tenants without their being a good\ncause (which is outlined in Section 214).\n\n \nLEGISLATIVE HISTORY::\n\nNew Bill\n\n \nFISCAL IMPLICATIONS::\n\nNone\n\n \nLOCAL FISCAL IMPLICATIONS::\n\nNone\n\n \nEFFECTIVE DATE::\n\nThis Act shall take effect immediately.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2892A",
+    "publishDate": "2019-03-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5030",
+       "basePrintNoStr": "A5030-2019",
+       "printNo": "A5030A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the real property law, in relation to prohibiting eviction\nwithout good cause",
+    "basePrintNo": "S2892",
+    "basePrintNoStr": "S2892-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 22
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 6-A §§210 - 216, RP L",
+    "lawSection": "Real Property Law",
+    "memo": "\n \nBILL NUMBER: S2892B              REVISED 02/07/2020\n\nSPONSOR: SALAZAR\n \nTITLE OF BILL:\n\nAn act to amend the real property law, in relation to prohibiting\neviction without good cause\n\n \nPURPOSE:\n\nThe purpose of this legislation is to prohibit the eviction of residen-\ntial tenants or the non-renewal of residential leases without good\ncause.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one adds a new Article 6-A to the real property law titled\nProhibition of Eviction Without Good Cause, with the following sections:\n\nSection 1: A new section 210 provides that the short title of this arti-\ncle is the \"Prohibition of eviction without good cause law\".\n\nA new Section 211 provides definitions of the following terms used in\nthe statute: \"housing accommodation\", \"landlord\", \"tenant\", \"rent\", and\n\"disabled person\".\n\nA new section 212 states Article 6-A is applicable to all housing accom-\nmodations, except for owner-occupied premises with less than four units,\npremises sublet pursuant to RPL 226-b where the sublessor seeks in good\nfaith to recover possession for his/her personal use and occupancy,\npremises incident to employment when such employment is being lawfully\nterminated, and premises otherwise subject to regulation of rent or\nevictions pursuant to state or federal law to the extent such state or\nfederal law requires good cause for termination or non-renewal.\n\nA new section 213 prohibits landlords from taking any action to evict,\nfail to renew a lease, or otherwise seek to remove a tenant from housing\naccommodation except for good cause.\n\nA new section 214 (1) sets forth permissible grounds for the removal of\ntenants, including the failure to pay rent, the violation of a substan-\ntial obligation of the tenancy, committing or permitting a nuisance,\npermitting the premises to be used for an illegal purpose, or if, under\ncertain conditions, the to be premises are to be personally occupied by\nthe landlord or close relatives of the landlord as their primary resi-\ndence. A rent increase is presumed to be unreasonable and, therefore,\nnot a basis for eviction, if it is greater than 3% or 1.5% of the\nConsumer Price Index whichever is higher. Section 214 (2) creates a\nprivate right of action for tenants required to surrender housing accom-\nmodations if a landlord makes a fraudulent statement regarding a\nproposed use of the housing accommodation for personal or family use.\n214 (3) provides that a tenant's rights pursuant to RPAPL 751 to stay\nthe issuance or execution of a warrant of eviction remain in force, so\nlong as the tenant complies with the procedural requirements of said\nlaw.  A new section 215 preserves existing requirements of law relating\nto eviction proceedings.\n\nA new section 216 provides that any waiver of the rights provided by\nthis Article is void.\nSection 2 is a severability provision.\n\nSection 3 provides that this Act will take effect immediately.\n\n \nEXISTING LAW:\n\nNew Bill\n\n \nJUSTIFICATION:\n\nToday, many residential tenants from across New York State are being\nevicted for unjustifiable reasons. Residential renter-tenants, consti-\ntuting the biggest constituency in our state, they lack basic rights\nthat will allow them to renew their expiring lease and to not be priced\nout of their homes.\n\nLandlords across our state are displacing tenants in order to gain high-\ner profits. The de facto evictions happen via non-renewal of their leas-\nes. These non-renewals are displacing individuals and families in order\nfor owners to rent out their units to higher income tenants. This bill\nwill prohibit landlords from evicting tenants without their being a good\ncause (which is defined in Section 214).\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:  None\n\n \nLOCAL FISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis Act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2892B",
+    "publishDate": "2020-02-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5030",
+       "basePrintNoStr": "A5030-2019",
+       "printNo": "A5030B",
+       "session": 2019,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2892",
+ "basePrintNoStr": "S2892-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-02-06",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2019-01-30T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2019-03-06T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2020-02-06T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S2892B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-30T11:49:28.602819",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-03-06T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2020-02-06T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2019-01-30T11:49:28.602819",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 18,
+   "fullName": "Julia Salazar",
+   "imgName": "1047_Julia_Salazar.jpg",
+   "incumbent": true,
+   "memberId": 1227,
+   "sessionMemberId": 1225,
+   "sessionYear": 2019,
+   "shortName": "SALAZAR"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-02-06",
+  "billCalNo": null,
+  "committeeName": "Judiciary",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Prohibits eviction without good cause.",
+ "title": "Relates to prohibiting eviction without good cause",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

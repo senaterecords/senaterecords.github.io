@@ -1,0 +1,1371 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-14",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-15",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-15",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 8485A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-21",
+    "sequenceNo": 5,
+    "text": "1ST REPORT CAL.1399"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-22",
+    "sequenceNo": 6,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-23",
+    "sequenceNo": 7,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-29",
+    "sequenceNo": 8,
+    "text": "AMENDED ON THIRD READING 8485B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-05",
+    "sequenceNo": 9,
+    "text": "SUBSTITUTED BY A9232B"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the estates, powers and trusts law, in relation to the payment\nand distribution of damages in wrongful death actions",
+    "basePrintNo": "S8485",
+    "basePrintNoStr": "S8485-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 1885,
+       "sessionYear": 2023,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 2021,
+       "sessionYear": 2023,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Dean Murray",
+       "imgName": "910_dean_murray.jpg",
+       "incumbent": true,
+       "memberId": 1521,
+       "sessionMemberId": 1884,
+       "sessionYear": 2023,
+       "shortName": "MURRAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "Robert Ortt",
+       "imgName": "885_robert_ortt.jpg",
+       "incumbent": true,
+       "memberId": 885,
+       "sessionMemberId": 2027,
+       "sessionYear": 2023,
+       "shortName": "ORTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2041,
+       "sessionYear": 2023,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 2039,
+       "sessionYear": 2023,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 1881,
+       "sessionYear": 2023,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 7
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§5-4.1, 5-4.3, 5-4.4 & 5-4.6, EPT L",
+    "lawSection": "Estates, Powers and Trusts Law",
+    "memo": " \nBILL NUMBER: S8485\n\nSPONSOR: HOYLMAN-SIGAL\n \nTITLE OF BILL:\n\nAn act to amend the estates, powers and trusts law, in relation to the\npayment and distribution of damages in wrongful death actions\n\n \nPURPOSE OF BILL:\n\nThis bill would permit the families of wrongful death victims to recover\ncompensation for their emotional anguish.\n\n \nSUMMARY OF PROVISIONS OF BILL:\n\nSection 1 amends EPTL section 5-4.1 to extend the time permitted to\nbring a wrongful death action by one year and six months.\n\nSection 2 amends EPTL section 5-4.3, to permit recovery of damages for\nemotional loss when a tortfeasor is found liable for causing a death.\nCurrent law allows recovery of pecuniary loss only, thus making it\nimpossible for close family members to receive any compensation for\ntheir non-economic loss.\n\nSection 3 amends EPTL section 5-4.4 to permit recovery by close family\nmembers.\n\nSection 4 amends EPTL section 5-4.6 to replace distributees with persons\nfor whose benefit the action is brought.\n\nSection 5 states that the act shall take effect immediately and shall\napply to all causes of action that accrue on or after July 1, 2018,\nregardless of when filed.\n\n \nJUSTIFICATION:\n\nNew York families who suffer the loss of a loved one must endure a\nsecond blow, when they discover the state's civil justice system is\nunable to compensate them for their emotional loss. New York's wrongful\ndeath statute is over 175 years old, and it is unfortunately out of step\nwith nearly every other state because the New York's laws prohibit\ngrief-stricken families from recovering damages for their emotional\nsuffering from the death of their loved one.\n\nThe current law, which awards compensation for pecuniary loss only,\nimpacts most harshly on children, seniors, women and people of color;\npeople who often have no income or significantly less income, or have\nbeen traditionally undervalued in our society. For many years, the\ncourts have struggled to overcome the current law's narrow and inhumane\nlanguage, which measures the worth of loved family members solely by\ntheir value as wage earners.\n\nThe law, in essence, says that the attributes of our family members that\nwe most value--emotional support, love, companionship, advice and\nguidance--count for nothing.\n\nAnother consequence of New York's outdated law is that it fails to\nrecognize the many shapes families take. Any justice permitted by the\ncurrent statute is limited to distributees, or the people who would\ninherit a decedent's estate. The current law doesn't recognize loss of\nstep-family, people being raised by or raising other family members, or\neven nuclear family members depending on marital and child status. In\naddition to recognizing non-married couples, this bill recognizes that\nfamily takes many forms.\n\nForty-seven other states compensate family members for emotional loss.\nThis bill will not only better address and more fully right the wrong to\nthe family of the deceased, it will also deter the negligent, reckless,\nsometimes criminal behavior that leads to needless deaths.  It is ironic\nand contrary to public policy that currently a wrongdoer may take advan-\ntage of the law that makes it cheaper to kill someone than to seriously\ninjure them. This bill would correct this harsh anomaly of the current\nwrongful death law.\n\n \nLEGISLATIVE HISTORY:\n\nS.6636/A.6698 (2023) - Passed Both Houses, Vetoed  151\n\nS.74/A.6770 (2021-2022) - Passed Both Houses, Vetoed  192\n\nS.4006/A.5612- (2019-2020)\n\nS.411/A.1386 - (2017-2018)\n\nS.336/A.164 - (2015-2016);\n\nS.551/A.1001 (2013-2014);\n\nS.2540/A.4851 (2011- 12)\n\nA.S.2391/A.2872 (2009-10);\n\nS.1266/A.6420 (2007-08);\n\nS.54/A.5856 (2005-06);\n\nS.2994/A.6637 (2003-04);\n\nS.793/A.7789 (2001-02)\n\nS.5487/A.8013 (1999);\n\nS.585-A/A.4553-A (1997);\n\nS.2133/A.3224 (1995);\n\nS.8558/A.11792 (1994)\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to all causes of\naction that accrue after July 1, 2018 regardless of when filed.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8485",
+    "publishDate": "2024-02-05",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EPT5-4.1",
+        "EPT5-4.3",
+        "EPT5-4.4",
+        "EPT5-4.6"
+       ],
+       "size": 4
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the estates, powers and trusts law, in relation to the payment\nand distribution of damages in wrongful death actions",
+    "basePrintNo": "S8485",
+    "basePrintNoStr": "S8485-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 1885,
+       "sessionYear": 2023,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 2021,
+       "sessionYear": 2023,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Dean Murray",
+       "imgName": "910_dean_murray.jpg",
+       "incumbent": true,
+       "memberId": 1521,
+       "sessionMemberId": 1884,
+       "sessionYear": 2023,
+       "shortName": "MURRAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "Robert Ortt",
+       "imgName": "885_robert_ortt.jpg",
+       "incumbent": true,
+       "memberId": 885,
+       "sessionMemberId": 2027,
+       "sessionYear": 2023,
+       "shortName": "ORTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2041,
+       "sessionYear": 2023,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 2039,
+       "sessionYear": 2023,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 1881,
+       "sessionYear": 2023,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§5-4.1, 5-4.3, 5-4.4 & 5-4.6, EPT L",
+    "lawSection": "Estates, Powers and Trusts Law",
+    "memo": " \nBILL NUMBER: S8485A\n\nSPONSOR: HOYLMAN-SIGAL\n \nTITLE OF BILL:\n\nAn act to amend the estates, powers and trusts law, in relation to the\npayment and distribution of damages in wrongful death actions\n\n \nPURPOSE OF BILL:\n\nThis bill would permit the families of wrongful death victims to recover\ncompensation for their emotional anguish.\n\n \nSUMMARY OF PROVISIONS: OF BILL:\n\nSection 1 amends EPTL section 5-4.1 to extend the time permitted to\nbring a wrongful death action by one year and six months.\n\nSection 2 amends EPTL section 5-4.3, to permit recovery of damages for\nemotional loss when a tortfeasor is found liable for causing a death.\nCurrent law allows recovery of pecuniary loss only, thus making it\nimpossible for close family members to receive any compensation for\ntheir non-economic loss.\n\nSection 3 amends EPTL section 5-4.4 to permit recovery by close family\nmembers.\n\nSection 4 amends EPTL section 5-4.6 to replace distributees with persons\nfor whose benefit the action is brought.\n\nSection 5 states that the act shall take effect immediately and shall\napply to all causes of action that accrue on or after July 1, 2018,\nregardless of when filed.\n\n \nJUSTIFICATION:\n\nNew York families who suffer the loss of a loved one must endure a\nsecond blow, when they discover the state's civil justice system is\nunable to compensate them for their emotional loss. New York's wrongful\ndeath statute is over 175 years old, and it is unfortunately out of step\nwith nearly every other state because the New York's laws prohibit\ngrief-stricken families from recovering damages for their emotional\nsuffering from the death of their loved one.\n\nThe current law, which awards compensation for pecuniary loss only,\nimpacts most harshly on children, seniors, women and people of color;\npeople who often have no income or significantly less income, or have\nbeen traditionally undervalued in our society. For many years, the\ncourts have struggled to overcome the current law's narrow and inhumane\nlanguage, which measures the worth of loved family members solely by\ntheir value as wage earners.\n\nThe law, in essence, says that the attributes of our family members that\nwe most value--emotional support, love, companionship, advice and\nguidance--count for nothing.\n\nAnother consequence of New York's outdated law is that it fails to\nrecognize the many shapes families take. Any justice permitted by the\ncurrent statute is limited to distributees, or the people who would\ninherit a decedent's estate. The current law doesn't recognize loss of\nstep-family, people being raised by or raising other family members, or\neven nuclear family members depending on marital and child status. In\naddition to recognizing non-married couples, this bill recognizes that\nfamily takes many forms.\n\nForty-seven other states compensate family members for emotional loss.\nThis bill will not only better address and more fully right the wrong to\nthe family of the deceased, it will also deter the negligent, reckless,\nsometimes criminal behavior that leads to needless deaths.  It is ironic\nand contrary to public policy that currently a wrongdoer may take advan-\ntage of the law that makes it cheaper to kill someone than to seriously\ninjure them. This bill would correct this harsh anomaly of the current\nwrongful death law.\n\n \nLEGISLATIVE HISTORY:\n\nS.6636/A.6698 (2023) - Passed Both Houses, Vetoed 151\n\nS.74/A.6770 (2021-2022) - Passed Both Houses, Vetoed 192\n\nS.4006/A.5612- (2019-2020)\n\nS.411/A.1386 - (2017-2018)\n\nS.336/A.164 - (2015-2016);\n\nS.551/A.1001 (2013-2014);\n\nS.2540/A.4851 (2011- 12)\n\nA.S.2391/A.2872 (2009-10);\n\nS.1266/A.6420 (2007-08);\n\nS.54/A.5856 (2005-06);\n\nS.2994/A.6637 (2003-04);\n\nS.793/A.7789 (2001-02)\n\nS.5487/A.8013 (1999);\n\nS.585-A/A.4553-A (1997);\n\nS.2133/A.3224 (1995);\n\nS.8558/A.11792 (1994)\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to all causes of\naction that accrue after July 1, 2018 regardless of when filed\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8485A",
+    "publishDate": "2024-05-15",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EPT5-4.1",
+        "EPT5-4.3",
+        "EPT5-4.4",
+        "EPT5-4.6"
+       ],
+       "size": 4
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the estates, powers and trusts law, in relation to the payment\nand distribution of damages in wrongful death actions",
+    "basePrintNo": "S8485",
+    "basePrintNoStr": "S8485-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 1885,
+       "sessionYear": 2023,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 2021,
+       "sessionYear": 2023,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Dean Murray",
+       "imgName": "910_dean_murray.jpg",
+       "incumbent": true,
+       "memberId": 1521,
+       "sessionMemberId": 1884,
+       "sessionYear": 2023,
+       "shortName": "MURRAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "Robert Ortt",
+       "imgName": "885_robert_ortt.jpg",
+       "incumbent": true,
+       "memberId": 885,
+       "sessionMemberId": 2027,
+       "sessionYear": 2023,
+       "shortName": "ORTT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2041,
+       "sessionYear": 2023,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 2039,
+       "sessionYear": 2023,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 1881,
+       "sessionYear": 2023,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 8
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§5-4.1, 5-4.3, 5-4.4 & 5-4.6, EPT L",
+    "lawSection": "Estates, Powers and Trusts Law",
+    "memo": " \nBILL NUMBER: S8485B\n\nSPONSOR: HOYLMAN-SIGAL\n \nTITLE OF BILL:\n\nAn act to amend the estates, powers and trusts law, in relation to the\npayment and distribution of damages in wrongful death actions\n\n \nSUMMARY OF PROVISIONS OF BILL:\n\nSection 1 amends EPTL section 5-4.1 to extend the time permitted to\nbring a wrongful death action by one year.\n\nSection 2 amends EPTL section 5-4.3, to permit recovery of damages for\ngrief and anguish when a tortfeasor is found liable for causing a death.\nCurrent law allows recovery of pecuniary loss only, thus making it\nimpossible for close family members to receive any compensation for\ntheir non-economic loss.\n\nSection 3 amends EPTL section 5-4.4 to permit recovery by close family\nmembers.\n\nSection 4 amends EPTL section 5-4.6 to replace distributees with persons\nfor whose benefit the action s brought.\n\nSection 5 states that the act shall take effect immediately and shall\napply to all causes of action that accrue on or after January 1, 2021,\n\n \nJUSTIFICATION:\n\nNew York families who suffer the loss of a loved one must endure a\nsecond blow, when they discover the state's civil justice system is\nunable to compensate them for their emotional loss. New York's wrongful\ndeath statute is over 175 years old, and it is unfortunately out of step\nwith nearly every other state because the New York's laws prohibit\ngrief-stricken families from recovering damages for their emotional\nsuffering from the death of their loved one. The current law, which\nawards compensation for pecuniary loss only, impacts most harshly on\nchildren, seniors, women and people of color; people who often have no\nincome or significantly less income, or have been traditionally under-\nvalued in our society. For many years, the courts have struggled to\novercome the current law's narrow and inhumane language, which measures\nthe worth of loved family members solely by their value as wage earners.\nCurrently, the grief and anguish of grieving family members counts for\nnothing.\n\nAs distinguished from prior versions of this legislation vetoed by the\nGovernor, this bill narrowly defines and limits the \"surviving close\nfamily members\" who may potentially claim grief and suffering damages as\ndistributees under current law, with the limited exception of where the\ndecedent is survived by a parent or parents, or any person standing in\nloco parentis to the decedent, and a spouse and no issue, the parent or\nparents or such person standing in loco parentis is deemed to be a\nsurviving close family member. And importantly, the finder of fact shall\ndetermine which close family members are-or are not-entitled to damages\nbased upon the specific circumstances relating to the person's relation-\nship with the decedent. To further address concerns raised by the Gover-\nnor, this version of the bill has shortened the proposed retroactive\n\neffect of the legislation by three years. It now only applies to causes\nof action that accrue on or after January 1, 2021.\n\nForty-eight other states compensate family members for emotional loss in\nwrongful death cases. This bill will not only better address and more\nfully right the wrong to the family of the deceased, but it will also\ndeter negligent, reckless, sometimes criminal behavior that leads to\nneedless deaths. It is ironic and contrary to public policy that\ncurrently a wrongdoer may take advantage of the law that makes it cheap-\ner to kill someone than to seriously injure them. New Yorkers have wait-\ned since 1847 to reform this outdated, noxious and discriminatory law.\nIt stands as an injustice today as it did when it limited the families\nof the women killed in the Triangle Shirtwaist Factory fire to a paltry\n$75.00 in compensation. This bill is immediately needed to correct the\nharsh anomaly of the current wrongful death law.\n\n \nLEGISLATIVE HISTORY:\n\n2023-24: A.6690/S.6636 - Passed Both Houses, Vetoed, Memo 151.\n\n2021-22: A.6770/S.74 - Passed Both Houses, Vetoed, Memo 192.\n\n2019-20: A.5612/S.4006- A.Cal./S.Fin\n\n2017-18: A.1386/S.411 - A.Cal/S.Judi\n\n2015-16: A.164/S.336 - A.Judi/S. Judi\n\n2013-14: A.1001/S.551 -A. Judi/S. Judi\n\n2011-12: A.4851/S.2540 - A. Judi/S.Judi\n\n2009-10: A.2872/S.6420 - A. Judi/S. Judi\n\n2007-08: A.6420/S.1266 - A.Judi/S. Judi\n\n2005-06: A.5856/S.54 - A. Judi/S. Rules\n\n2003-04: A.6637/S.2294 - A.Judi/S. Rules\n\n2002: A.7789/S.793 - A.Rules/S. Rules\n\n2001: A.7789/S.793 - A.Judi /S. Judi\n\n1999-2000: A.8013 - A. Judi\n\n1998: A.4553-A - A. Rules\n\n1997: A.4553-A - PA\n\n1996: 8.3224 - A. Rules\n\n1995: A.3224 - A. Cal. 1994: A.11792 - A. Rules\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to all causes of\naction that have accrued on or after January 1, 2021.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8485B",
+    "publishDate": "2024-05-29",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EPT5-4.1",
+        "EPT5-4.3",
+        "EPT5-4.4",
+        "EPT5-4.6"
+       ],
+       "size": 4
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9232",
+       "basePrintNoStr": "A9232-2023",
+       "printNo": "A9232B",
+       "session": 2023,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8485",
+ "basePrintNoStr": "S8485-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 55,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2024
+   }
+  ],
+  "size": 8
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-05-15",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2024-05-29",
+    "billCalNo": 1399,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-05-14T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-05-15T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2024-02-05T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6636",
+    "basePrintNoStr": "S6636-2023",
+    "printNo": "S6636",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S74",
+    "basePrintNoStr": "S74-2021",
+    "printNo": "S74A",
+    "session": 2021,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S4006",
+    "basePrintNoStr": "S4006-2019",
+    "printNo": "S4006",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S411",
+    "basePrintNoStr": "S411-2017",
+    "printNo": "S411",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S336",
+    "basePrintNoStr": "S336-2015",
+    "printNo": "S336",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S551",
+    "basePrintNoStr": "S551-2013",
+    "printNo": "S551",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S2540",
+    "basePrintNoStr": "S2540-2011",
+    "printNo": "S2540",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S2391",
+    "basePrintNoStr": "S2391-2009",
+    "printNo": "S2391",
+    "session": 2009,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S1266",
+    "basePrintNoStr": "S1266-2007",
+    "printNo": "S1266",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 9
+ },
+ "printNo": "S8485B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-02-05T14:29:51.419057",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-05-15T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2024-05-29T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2024-02-05T14:23:07.0987",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 47,
+   "fullName": "Brad Hoylman-Sigal",
+   "imgName": "438_brad_hoylman.jpg",
+   "incumbent": false,
+   "memberId": 438,
+   "sessionMemberId": 2313,
+   "sessionYear": 2023,
+   "shortName": "HOYLMAN-SIGAL"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-05-29",
+  "billCalNo": 1399,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9232",
+  "basePrintNoStr": "A9232-2023",
+  "session": 2023
+ },
+ "summary": "Provides for the types of damages that may be awarded to the persons for whose benefit an action for wrongful death is brought.",
+ "title": "Provides for the types of damages that may be awarded to the persons for whose benefit an action for wrongful death is brought",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2012,
+         "sessionYear": 2023,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2021,
+         "sessionYear": 2023,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 2041,
+         "sessionYear": 2023,
+         "shortName": "PALUMBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "Jessica Ramos",
+         "imgName": "1046_Jessica_Ramos.jpg",
+         "incumbent": true,
+         "memberId": 1226,
+         "sessionMemberId": 2030,
+         "sessionYear": 2023,
+         "shortName": "RAMOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 2043,
+         "sessionYear": 2023,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2034,
+         "sessionYear": 2023,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2037,
+         "sessionYear": 2023,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 13
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Patricia Canzoneri-Fitzpatrick",
+         "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+         "incumbent": true,
+         "memberId": 1517,
+         "sessionMemberId": 1880,
+         "sessionYear": 2023,
+         "shortName": "CANZONERI-FITZPATRICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 4
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-05-14",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8485",
+     "basePrintNoStr": "S8485-2023",
+     "printNo": "S8485A",
+     "session": 2023,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "ABS": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 2049,
+         "sessionYear": 2023,
+         "shortName": "OBERACKER"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 2006,
+         "sessionYear": 2023,
+         "shortName": "BORRELLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2008,
+         "sessionYear": 2023,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Jeremy Cooney",
+         "imgName": "1318_Jeremy_Cooney.jpg",
+         "incumbent": true,
+         "memberId": 1501,
+         "sessionMemberId": 2051,
+         "sessionYear": 2023,
+         "shortName": "COONEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2012,
+         "sessionYear": 2023,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2013,
+         "sessionYear": 2023,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Michelle Hinchey",
+         "imgName": "1314_Michelle_Hinchey.jpg",
+         "incumbent": true,
+         "memberId": 1497,
+         "sessionMemberId": 2047,
+         "sessionYear": 2023,
+         "shortName": "HINCHEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 2020,
+         "sessionYear": 2023,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2028,
+         "sessionYear": 2023,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2037,
+         "sessionYear": 2023,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 20
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2024-05-21",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2024
+}

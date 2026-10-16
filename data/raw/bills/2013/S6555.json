@@ -1,0 +1,1872 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-07",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO COMMERCE, ECONOMIC DEVELOPMENT AND SMALL BUSINESS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-07",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 6555A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-04-29",
+    "sequenceNo": 4,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-16",
+    "sequenceNo": 5,
+    "text": "COMMITTEE DISCHARGED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-16",
+    "sequenceNo": 6,
+    "text": "ORDERED TO THIRD READING CAL.1398"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-16",
+    "sequenceNo": 7,
+    "text": "PASSED SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2014-06-16",
+    "sequenceNo": 8,
+    "text": "DELIVERED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2014-06-16",
+    "sequenceNo": 9,
+    "text": "REFERRED TO ECONOMIC DEVELOPMENT"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the economic development law, in relation to the New York state biomedical and biotechnological translational research and entrepreneurship initiative",
+    "basePrintNo": "S6555",
+    "basePrintNoStr": "S6555-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 182,
+       "sessionYear": 2013,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 149,
+       "sessionYear": 2013,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 180,
+       "sessionYear": 2013,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 162,
+       "sessionYear": 2013,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 173,
+       "sessionYear": 2013,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Cecilia Tkaczyk",
+       "imgName": "Cecilia Tkaczyk.jpg",
+       "incumbent": false,
+       "memberId": 431,
+       "sessionMemberId": 128,
+       "sessionYear": 2013,
+       "shortName": "TKACZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 171,
+       "sessionYear": 2013,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 7
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 22 §§441 - 451, Ec Dev L",
+    "lawSection": "Economic Development Law",
+    "memo": "BILL NUMBER:S6555\n\nTITLE OF BILL:  An act to amend the economic development law, in\nrelation to the New York state biomedical and biotechnological\ntranslational research and entrepreneurship initiative\n\nPURPOSE: To rapidly increase biomedical and biotechnological jobs,\ncompanies, and enhance research by creating a lab to market program at\npublic and private medical schools in NYS while also ensuring NYS\nmedical schools can maintain and recruit top tier researchers and\nscientists who are critical to this development as other States make\nsignificant investments into recruiting of star talent.\n\nSUMMARY OF PROVISIONS:  Amends the economic development law to add a\nnew article 22, the New York State Biomedical And Biotechnological\nTranslational Research And Entrepreneurship Initiative. Key Provisions\n\n* State Initiative Committee - composed of several state\ncommissioners, chaired by Commissioners of Economic Development and\nHealth, this provides oversight to the program and designation of the\ncenters.\n\n* Peer review Committee - selected by the chairs of the state\nInitiative Committee to do qualitative review of applications. This\ncommittee does the first review of applications before they are\nsubmitted to the State Initiative Committee The State Committee cannot\napprove an application that is not recommended by the Peer Review\nCommittee.\n\n* Application - Only a medical school can apply for designation as a\nNYS biomedical and biotechnological translational research and\nentrepreneurship initiative center (Center) in response to an RFP\nApplications must show 2SCRIPT funding match and demonstrate a\nmajority of the following.\n\n-Commercialization - how the school will increase commercialization of\nresearch.\n\n-Commitment: five year plan showing use of resources and personnel.\n\n-Resources: the school has or is developing facilities, expertise, and\ncollaborations.\n\n-Collaborations: entrepreneurial relationships with incubators,\nhotspots, and STARTUP-NY programs, and research collaborations.\n\n-Additional, plans for IP, training and educational programs,\nintegration with research and clinical activities. Also community\nsupport, performance metrics, economic outcomes.\n\n* Review and approval - two-stage review:\n\n-Peer review committee scores qualitative factors (a) scientific and\ntechnical merit; (b) scientific knowledge, technical capability,\nclinical practice, other components needed to implement the plan; (c)\nsuitability of staff and collaborators; (d) school accomplishments and\nexpertise; (e) plans for protection of human subjects; (f) the\n\n\nscientific environment; (g) appropriateness of institutional support,\nequipment, and physical resources; and (h) other information as\nrequired. Applications may be not recommended based on low score, or\nas lacking significant and substantial merit, or as presenting serious\nethical problems in the protection of human subjects from research\nrisks, or other serious ethical problems.\n\n-State initiative committee (unless peer review is negative) -\nrecommends changes and funding levels and sources. Not more than 40%\nof funds can be used for any single project in any year. The committee\nis required to seek geographical balance. The committee is also\nrequired to notify the legislature of its choices.\n\n* Operation and re-designation. Requires evaluation of centers.\nFailure to timely cure a deficiency results in disqualification.\nCenters re-designated every five years unless they receive negative\nevaluation from the peer review committee, or fail to remedy\noperational defects, or if the state initiative committee determines\nthat such defects involve fraud, or are of such extent that they\ncannot be remedied.\n\n* Waiver - allows waiver by State committee member with approval by\nthe rest of the committee and DOB, of regulatory or procedural\nrequirements that impede project success, if the waiver is consistent\nwith statutes and will not impair the general health or welfare.\nAppropriate alternative standards may be set in place of any waived\nrequirements.\n\n* Scientific research and discovery bank program - centers can request\nfunds for recruitment and retention of out of state and retention of\nin-state scientists and researchers necessary to projects. Funds must\nbe matched 2:1, and plan must be approved by the State Committee.\n\n* Unified contract. The commissioner of economic development executes\na unified contract with each center that includes all information and\nrequirements relative to the project. Limits administrative overhead\nof the project to 10% and prohibits indirect charges.\n\nEXISTING LAW: New bill.\n\nJUSTIFICATION: New York State can significantly expand high-impact,\nhigh-value biomedical and bioscience jobs, development, and innovation\nby supporting research and entrepreneurship in the state's sixteen\npublic and private medical school centers. Extraordinary research is\ntaking place at the medical schools, but researchers need assistance\nin developing entrepreneurial skills and business knowledge, along\nwith access to sophisticated financial and intellectual property\nexpertise, to commercialize and bring their inventions to market.\n\nAdditionally, NYS must be proactive and provide support to maintain\nthe critical research infrastructure that has been created and\ndeveloped over time. As federal research dollars, and the\nopportunities they create, become increasingly scarce, states are\nrecognizing the value provided by especially productive researchers\nand the potential innovation that can result from their work as an\nimportant asset. A number of states such as Texas and California are\ninvesting heavily in the active recruitment of top researchers and\n\n\nscientists, often seeking to pull these individuals and their research\nenterprises out of the many top-tier New York institutions.  New\nYork's medical schools are responsible for $416.5 million in research\nfunding upstate, and $1.8 billion downstate, including $253 million in\nNational Science Foundation awards and $2 billion from the National\nInstitutes of Health. Additionally, New York is home to seven Clinical\nand Translational Science Awards (CTSA) centers. As impressive as this\nis, it also leaves the schools vulnerable to downturns and changes. As\nan example, the Associated Medical Schools of New York expects federal\nsequestration to result in nearly 1,000 fewer National Science\nFoundation grant awards, affecting the research programs and education\nof 12,000 scientists and students. NIH, which has already lost\none-fifth of its purchasing power over the last decade, will be forced\nto cut $1.5 billion in awards to research institutions in the first\nyear alone. Each award is estimated to equate to seven research\npositions. The scientific research and discovery bank program will\nhelp New York protect and grow this valuable asset so we are able to\nkeep cutting-edge research in New York and protect the pipeline\nleading to commercialization in the biomedical and biotechnological\nsectors.\n\nA potentially fertile alternate source of revenues for the schools\nthat also benefits the residents of this state is more rapid licensure\nof inventions and techniques developed in medical school center\nresearch laboratories. Licensure generates revenue for the schools and\nthe researchers, and also creates jobs and development and potential\nhealth care benefits for New Yorkers. Current conversion of research\ninto licensure dollars is low. NYU gets about 50 cents for every\nresearch dollar, and Columbia gets about 24 cents The University of\nRochester gets about 9 cents, and Mt. Sinai about 5 cents. Most\nmedical school centers have a low return on investment from research\nfunds. The four just mentioned are all among the top 25 schools in the\ncountry for turning research into licensing revenue. Other states and\nother schools fare much worse.\n\nCreating an entrepreneurial culture can be done by bringing existing\nNYS infrastructural and economic development program components into\ncollaborative partnership with the schools. This could be done using\nNYS Business Incubators, Hotspots, and Startup-NY tax free zones,\nalong with some new program approaches. Such a program combines the\nstrengths of medical schools and NYS incubators with strategic State\nsupport, to leverage other-source funds in a way that will speed\ncommercialization of research, incentivize public-private\npartnerships, and increase the depth of the research community. The\nultimate program will be similar to the Naomi Berrie Diabetes Center\nprogram at Columbia University Medical Center, which uses research,\nclinical outreach, education, and entrepreneurship as key components.\n\nFISCAL IMPLICATIONS: Subject to appropriation.\n\nEFFECTIVE DATE:  September 1 after it becomes law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6555",
+    "publishDate": "2014-02-05",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the economic development law, in relation to the New York state biomedical and biotechnological translational research and entrepreneurship initiative",
+    "basePrintNo": "S6555",
+    "basePrintNoStr": "S6555-2013",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 182,
+       "sessionYear": 2013,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 385,
+       "sessionMemberId": 140,
+       "sessionYear": 2013,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 149,
+       "sessionYear": 2013,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kemp Hannon",
+       "imgName": "424_kemp_hannon.jpg",
+       "incumbent": false,
+       "memberId": 424,
+       "sessionMemberId": 180,
+       "sessionYear": 2013,
+       "shortName": "HANNON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 146,
+       "sessionYear": 2013,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 162,
+       "sessionYear": 2013,
+       "shortName": "RANZENHOFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Joseph E. Robach",
+       "imgName": "417_joseph_e._robach.jpg",
+       "incumbent": false,
+       "memberId": 417,
+       "sessionMemberId": 173,
+       "sessionYear": 2013,
+       "shortName": "ROBACH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Cecilia Tkaczyk",
+       "imgName": "Cecilia Tkaczyk.jpg",
+       "incumbent": false,
+       "memberId": 431,
+       "sessionMemberId": 128,
+       "sessionYear": 2013,
+       "shortName": "TKACZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 171,
+       "sessionYear": 2013,
+       "shortName": "VALESKY"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 22 §§441 - 449, Ec Dev L",
+    "lawSection": "Economic Development Law",
+    "memo": "BILL NUMBER:S6555A\n\nTITLE OF BILL:  An act to amend the economic development law, in\nrelation to the New York state biomedical and biotechnological\ntranslational research and entrepreneurship initiative\n\nPURPOSE: To rapidly increase biomedical and biotechnological jobs,\ncompanies, and enhance research by creating a lab to market program at\npublic and private medical schools in NYS while also ensuring NYS\nmedical schools can maintain and recruit top tier researchers and\nscientists who are critical to this development as other States make\nsignificant investments into recruiting of star talent.\n\nSUMMARY OF PROVISIONS:  Amends the economic development law to add a\nnew article 22, the New York state biomedical and biotechnological\ntranslational research and entrepreneurship initiative. key\nprovisions:\n\n* State Initiative Committee - composed of several state\ncommissioners, chaired by Commissioners of Economic Development and\nHealth, this provides oversight to the program and designation of the\ncenters.\n\n* Peer review Committee - selected by the chairs of the state\nInitiative Committee to do qualitative review of applications. This\ncommittee does the first review of applications before they are\nsubmitted to the State Initiative Committee. The State Committee\ncannot approve an application that is not recommended by the Peer\nReview Committee.\n\n* Application - Only a medical school can apply for designation as a\nNYS biomedical and biotechnological translational research and\nentrepreneurship initiative center (Center) in response to an RFP.\nApplications must show 2SCRIPT funding match and demonstrate a\nmajority of the following:\n\n- Commercialization - how the school will increase commercialization\nof research.\n\n- Commitment five year plan showing use of resources and personnel.\n\n- Resources: the school has or is developing facilities, expertise,\nand collaborations.\n\n- Collaborations: entrepreneurial relationships with incubators,\nhotspots, and STARTUP-NY programs, and research collaborations.\n\n- Additional: plans for IP, training and educational programs,\nintegration with research and clinical activities. Also: community\nsupport, performance metrics, economic outcomes.\n\n* Review and approval - two-stage review:\n\n- Peer review committee scores qualitative factors: (a) scientific and\ntechnical merit; (b) scientific knowledge, technical capability,\nclinical practice, other components needed to implement the plan; (c)\nsuitability of staff and collaborators; (d) school accomplishments and\n\n\nexpertise; (e) plans for protection of human subjects; (f) the\nscientific environment; (g) appropriateness of institutional support,\nequipment, and physical resources; and (h) other information as\nrequired. Applications may be not recommended based on low score, or\nas lacking significant and substantial merit, or as presenting serious\nethical problems in the protection of human subjects from research\nrisks, or other serious ethical problems.\n\n- State initiative committee (unless peer review is negative) -\nrecommends changes and funding levels and sources. Not more than 40%\nof funds can be used for any single project in any year. The committee\nis required to seek geographical balance The committee is also\nrequired to notify the legislature of its choices.\n\n* Operation and re-designation. Requires evaluation of centers.\nFailure to timely cure a deficiency results in disqualification.\nCenters re-designated every five years unless they receive negative\nevaluation from the peer review committee, or fail to remedy\noperational defects, or if the state initiative committee determines\nthat such defects involve fraud, or are of such extent that they\ncannot be remedied.\n\n* Waiver - allows waiver by State committee member with approval by\nthe rest of the committee and DOB, of regulatory or procedural\nrequirements that impede project success, if the waiver is consistent\nwith statutes and will not impair the general health or welfare.\nAppropriate alternative standards may be set in place of any waived\nrequirements.\n\n* Scientific research and discovery bank program - centers can request\nfunds for recruitment and retention of out of state and retention of\nin-state scientists and researchers necessary to projects. Funds must\nbe matched 2:1, and plan must be approved by the State Committee.\n\n* Unified contract. The commissioner of economic development executes\na unified contract with each center that includes all information and\nrequirements relative to the project. Limits administrative overhead\nof the project to 10% and prohibits indirect charges.\n\nEXISTING LAW: New bill.\n\nJUSTIFICATION: New York State can significantly expand high-impact,\nhigh-value biomedical and bioscience jobs, development, and innovation\nby supporting research and entrepreneurship in the state's sixteen\npublic and private medical school centers. Extraordinary research is\ntaking place at the medical schools, but researchers need assistance\nin developing entrepreneurial skills and business knowledge, along\nwith access to sophisticated financial and intellectual property\nexpertise, to commercialize and bring their inventions to market.\n\nAdditionally, NYS must be proactive and provide support to maintain\nthe critical research infrastructure that has been created and\ndeveloped over time. As federal research dollars, and the\nopportunities they create, become increasingly scarce, states are\nrecognizing the value provided by especially productive researchers\nand the potential innovation that can result from their work as an\nimportant asset. A number of states such as Texas and California are\n\n\ninvesting heavily in the active recruitment of top researchers and\nscientists, often seeking to pull these individuals and their research\nenterprises out of the many top-tier New York institutions.  New\nYork's medical schools are responsible for $416.5 million in research\nfunding upstate, and $1.8 billion downstate, including $253 million in\nNational Science Foundation awards and $2 billion from the National\nInstitutes of Health. Additionally, New York is home to seven Clinical\nand Translational Science Awards (CTSA) centers. As impressive as this\nis, it also leaves the schools vulnerable to downturns and changes. As\nan example, the Associated Medical Schools of New York expects federal\nsequestration to result in nearly 1,000 fewer National Science\nFoundation grant awards, affecting the research programs and education\nof 12,000 scientists and students NIH, which has already lost\none-fifth of its purchasing power over the last decade, will be forced\nto cut $1.5 billion in awards to research institutions in the first\nyear alone. Each award is estimated to equate to seven research\npositions. The scientific research and discovery bank program will\nhelp New York protect and grow this valuable asset so we are able to\nkeep cutting-edge research in New York and protect the pipeline\nleading to commercialization in the biomedical and biotechnological\nsectors.\n\nA potentially fertile alternate source of revenues for the schools\nthat also benefits the residents of this state is more rapid licensure\nof inventions and techniques developed in medical school center\nresearch laboratories. Licensure generates revenue for the schools and\nthe researchers, and also creates jobs and development and potential\nhealth care benefits for New Yorkers. Current conversion of research\ninto licensure dollars is low:  NYU gets about 50 cents for every\nresearch dollar, and Columbia gets about 24 cents. The University of\nRochester gets about 9 cents, and Mt. Sinai about 5 cents. Most\nmedical school centers have a low return on investment from research\nfunds. The four just mentioned are all among the top 25 schools in the\ncountry for turning research into licensing revenue. Other states and\nother schools fare much worse.\n\nCreating an entrepreneurial culture can be done by bringing existing\nNYS infrastructural and economic development program components into\ncollaborative partnership with the schools. This could be done using\nNYS Business Incubators, Hotspots, and Startup-NY tax free zones,\nalong with some new program approaches. Such a program combines the\nstrengths of medical schools and NYS incubators with strategic State\nsupport, to leverage other-source funds in a way that will speed\ncommercialization of research, incentivize public-private\npartnerships, and increase the depth of the research community. The\nultimate program will be similar to the Naomi Berrie Diabetes Center\nprogram at Columbia University Medical Center, which uses research,\nclinical outreach, education, and entrepreneurship as key components.\n\nFISCAL IMPLICATIONS: Subject to appropriation.\n\nEFFECTIVE DATE:  September 1 after it becomes law.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6555A",
+    "publishDate": "2014-02-07",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9000",
+       "basePrintNoStr": "A9000-2013",
+       "printNo": "A9000",
+       "session": 2013,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6555",
+ "basePrintNoStr": "S6555-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 50,
+    "year": 2014
+   }
+  ],
+  "size": 1
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 11,
+     "year": 2014
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Commerce, Economic Development And Small Business"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2014
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-06-16",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2014-06-16",
+    "billCalNo": 1398,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   },
+   {
+    "actionDate": "2014-06-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Passed Senate",
+    "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2014-06-16",
+    "billCalNo": null,
+    "committeeName": "Economic Development",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 4
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Economic Development",
+    "referenceDate": "2014-06-16T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Commerce, Economic Development And Small Business",
+    "referenceDate": "2014-02-05T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Commerce, Economic Development And Small Business",
+    "referenceDate": "2014-02-07T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2014-04-29T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2014-06-16T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6555A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2014-02-05T09:38:19",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2014-02-07T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2014-02-05T09:38:19",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 22,
+   "fullName": "Martin J. Golden",
+   "imgName": "422_martin_j._golden.jpg",
+   "incumbent": false,
+   "memberId": 422,
+   "sessionMemberId": 178,
+   "sessionYear": 2013,
+   "shortName": "GOLDEN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-06-16",
+  "billCalNo": null,
+  "committeeName": "Economic Development",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the New York state biomedical and biotechnological translational research and entrepreneurship initiative.",
+ "title": "Relates to the New York state biomedical and biotechnological translational research and entrepreneurship initiative",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Commerce, Economic Development And Small Business"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 141,
+         "sessionYear": 2013,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 181,
+         "sessionYear": 2013,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 182,
+         "sessionYear": 2013,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 149,
+         "sessionYear": 2013,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 136,
+         "sessionYear": 2013,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 146,
+         "sessionYear": 2013,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 135,
+         "sessionYear": 2013,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 153,
+         "sessionYear": 2013,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Ted O'Brien",
+         "imgName": "Ted O'Brien.jpg",
+         "incumbent": false,
+         "memberId": 436,
+         "sessionMemberId": 148,
+         "sessionYear": 2013,
+         "shortName": "O'BRIEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 173,
+         "sessionYear": 2013,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 134,
+         "sessionYear": 2013,
+         "shortName": "SANDERS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 171,
+         "sessionYear": 2013,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 12
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2014-04-29",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 169,
+         "sessionYear": 2013,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 174,
+         "sessionYear": 2013,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 126,
+         "sessionYear": 2013,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 137,
+         "sessionYear": 2013,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 151,
+         "sessionYear": 2013,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 155,
+         "sessionYear": 2013,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 138,
+         "sessionYear": 2013,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 180,
+         "sessionYear": 2013,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 130,
+         "sessionYear": 2013,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 166,
+         "sessionYear": 2013,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 135,
+         "sessionYear": 2013,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 163,
+         "sessionYear": 2013,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 167,
+         "sessionYear": 2013,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 168,
+         "sessionYear": 2013,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 150,
+         "sessionYear": 2013,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 172,
+         "sessionYear": 2013,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 131,
+         "sessionYear": 2013,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 127,
+         "sessionYear": 2013,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 184,
+         "sessionYear": 2013,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 152,
+         "sessionYear": 2013,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 171,
+         "sessionYear": 2013,
+         "shortName": "VALESKY"
+        }
+       ],
+       "size": 21
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 129,
+         "sessionYear": 2013,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 175,
+         "sessionYear": 2013,
+         "shortName": "LAVALLE"
+        }
+       ],
+       "size": 2
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 140,
+         "sessionYear": 2013,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 136,
+         "sessionYear": 2013,
+         "shortName": "HASSELL-THOMPSON"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2014-06-16",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6555",
+     "basePrintNoStr": "S6555-2013",
+     "printNo": "S6555A",
+     "session": 2013,
+     "version": "A"
+    },
+    "committee": null,
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 139,
+         "sessionYear": 2013,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 147,
+         "sessionYear": 2013,
+         "shortName": "AVELLA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 40,
+         "fullName": "Greg Ball",
+         "imgName": "Greg Ball.jpg",
+         "incumbent": false,
+         "memberId": 408,
+         "sessionMemberId": 164,
+         "sessionYear": 2013,
+         "shortName": "BALL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "John J. Bonacic",
+         "imgName": "413_john_j._bonacic.jpg",
+         "incumbent": false,
+         "memberId": 413,
+         "sessionMemberId": 169,
+         "sessionYear": 2013,
+         "shortName": "BONACIC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 141,
+         "sessionYear": 2013,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 174,
+         "sessionYear": 2013,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 126,
+         "sessionYear": 2013,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 132,
+         "sessionYear": 2013,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Ruben Diaz",
+         "imgName": "421_ruben_diaz.jpg",
+         "incumbent": false,
+         "memberId": 421,
+         "sessionMemberId": 177,
+         "sessionYear": 2013,
+         "shortName": "DIAZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Martin Malavé Dilan",
+         "imgName": "426_martin_malave_dilan.jpg",
+         "incumbent": false,
+         "memberId": 426,
+         "sessionMemberId": 137,
+         "sessionYear": 2013,
+         "shortName": "DILAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Hugh T. Farley",
+         "imgName": "418_hugh_t._farley.jpg",
+         "incumbent": false,
+         "memberId": 418,
+         "sessionMemberId": 151,
+         "sessionYear": 2013,
+         "shortName": "FARLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 181,
+         "sessionYear": 2013,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 155,
+         "sessionYear": 2013,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 182,
+         "sessionYear": 2013,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 138,
+         "sessionYear": 2013,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Terry Gipson",
+         "imgName": "Terry Gipson.jpg",
+         "incumbent": false,
+         "memberId": 437,
+         "sessionMemberId": 158,
+         "sessionYear": 2013,
+         "shortName": "GIPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 149,
+         "sessionYear": 2013,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Mark Grisanti",
+         "imgName": "Mark Grisanti.jpg",
+         "incumbent": false,
+         "memberId": 398,
+         "sessionMemberId": 154,
+         "sessionYear": 2013,
+         "shortName": "GRISANTI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kemp Hannon",
+         "imgName": "424_kemp_hannon.jpg",
+         "incumbent": false,
+         "memberId": 424,
+         "sessionMemberId": 180,
+         "sessionYear": 2013,
+         "shortName": "HANNON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 176,
+         "sessionYear": 2013,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 146,
+         "sessionYear": 2013,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Jeffrey D. Klein",
+         "imgName": "390_jeffrey_d._klein.jpg",
+         "incumbent": false,
+         "memberId": 390,
+         "sessionMemberId": 145,
+         "sessionYear": 2013,
+         "shortName": "KLEIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 129,
+         "sessionYear": 2013,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 165,
+         "sessionYear": 2013,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "William J. Larkin Jr.",
+         "imgName": "374_william_j._larkin_jr.jpg",
+         "incumbent": false,
+         "memberId": 374,
+         "sessionMemberId": 130,
+         "sessionYear": 2013,
+         "shortName": "LARKIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "George Latimer",
+         "imgName": "434_george_latimer.jpg",
+         "incumbent": false,
+         "memberId": 434,
+         "sessionMemberId": 143,
+         "sessionYear": 2013,
+         "shortName": "LATIMER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 175,
+         "sessionYear": 2013,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Tom Libous",
+         "imgName": "410_tom_libous.jpg",
+         "incumbent": false,
+         "memberId": 410,
+         "sessionMemberId": 166,
+         "sessionYear": 2013,
+         "shortName": "LIBOUS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 135,
+         "sessionYear": 2013,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Carl L. Marcellino",
+         "imgName": "407_carl_l_marcellino.jpg",
+         "incumbent": false,
+         "memberId": 407,
+         "sessionMemberId": 163,
+         "sessionYear": 2013,
+         "shortName": "MARCELLINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Kathleen A. Marchione",
+         "imgName": "435_kathleen_a._marchione.jpg",
+         "incumbent": false,
+         "memberId": 435,
+         "sessionMemberId": 144,
+         "sessionYear": 2013,
+         "shortName": "MARCHIONE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 153,
+         "sessionYear": 2013,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 167,
+         "sessionYear": 2013,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 168,
+         "sessionYear": 2013,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 150,
+         "sessionYear": 2013,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Ted O'Brien",
+         "imgName": "Ted O'Brien.jpg",
+         "incumbent": false,
+         "memberId": 436,
+         "sessionMemberId": 148,
+         "sessionYear": 2013,
+         "shortName": "O'BRIEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 183,
+         "sessionYear": 2013,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 172,
+         "sessionYear": 2013,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 187,
+         "sessionYear": 2013,
+         "shortName": "PERALTA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Bill Perkins",
+         "imgName": "375_bill_perkins.jpg",
+         "incumbent": false,
+         "memberId": 375,
+         "sessionMemberId": 131,
+         "sessionYear": 2013,
+         "shortName": "PERKINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 162,
+         "sessionYear": 2013,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 179,
+         "sessionYear": 2013,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 133,
+         "sessionYear": 2013,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 173,
+         "sessionYear": 2013,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "John L. Sampson",
+         "imgName": "369_john_l._sampson.jpg",
+         "incumbent": false,
+         "memberId": 369,
+         "sessionMemberId": 125,
+         "sessionYear": 2013,
+         "shortName": "SAMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 134,
+         "sessionYear": 2013,
+         "shortName": "SANDERS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 159,
+         "sessionYear": 2013,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 142,
+         "sessionYear": 2013,
+         "shortName": "SERRANO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 127,
+         "sessionYear": 2013,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Dean G. Skelos",
+         "imgName": "430_dean_g._skelos.jpg",
+         "incumbent": false,
+         "memberId": 430,
+         "sessionMemberId": 184,
+         "sessionYear": 2013,
+         "shortName": "SKELOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Daniel L. Squadron",
+         "imgName": "412_daniel_l._squadron.jpg",
+         "incumbent": false,
+         "memberId": 412,
+         "sessionMemberId": 157,
+         "sessionYear": 2013,
+         "shortName": "SQUADRON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 156,
+         "sessionYear": 2013,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 152,
+         "sessionYear": 2013,
+         "shortName": "STEWART-COUSINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Cecilia Tkaczyk",
+         "imgName": "Cecilia Tkaczyk.jpg",
+         "incumbent": false,
+         "memberId": 431,
+         "sessionMemberId": 128,
+         "sessionYear": 2013,
+         "shortName": "TKACZYK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 171,
+         "sessionYear": 2013,
+         "shortName": "VALESKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 170,
+         "sessionYear": 2013,
+         "shortName": "YOUNG"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Lee M. Zeldin",
+         "imgName": "Lee M. Zeldin.jpg",
+         "incumbent": false,
+         "memberId": 404,
+         "sessionMemberId": 160,
+         "sessionYear": 2013,
+         "shortName": "ZELDIN"
+        }
+       ],
+       "size": 57
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Adriano Espaillat",
+         "imgName": "385_adriano_espaillat.jpg",
+         "incumbent": false,
+         "memberId": 385,
+         "sessionMemberId": 140,
+         "sessionYear": 2013,
+         "shortName": "ESPAILLAT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Martin J. Golden",
+         "imgName": "422_martin_j._golden.jpg",
+         "incumbent": false,
+         "memberId": 422,
+         "sessionMemberId": 178,
+         "sessionYear": 2013,
+         "shortName": "GOLDEN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 136,
+         "sessionYear": 2013,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Malcolm A. Smith",
+         "imgName": "Malcolm A. Smith.jpg",
+         "incumbent": false,
+         "memberId": 405,
+         "sessionMemberId": 161,
+         "sessionYear": 2013,
+         "shortName": "SMITH"
+        }
+       ],
+       "size": 4
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2014-06-16",
+    "voteType": "FLOOR"
+   }
+  ],
+  "size": 3
+ },
+ "year": 0
+}

@@ -1,0 +1,180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7576",
+     "basePrintNoStr": "S7576-2015",
+     "printNo": "S7576",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-05-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7576",
+     "basePrintNoStr": "S7576-2015",
+     "printNo": "S7576",
+     "session": 2015,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2016-05-16",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the tax law, in relation to contributions to family tuition accounts",
+    "basePrintNo": "S7576",
+    "basePrintNoStr": "S7576-2015",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §612, Tax L",
+    "lawSection": "Tax Law",
+    "memo": " BILL NUMBER:  S7576\n\n TITLE OF BILL :  An act to amend the tax law, in relation to\ncontributions to family tuition accounts\n\n PURPOSE :\n\nTo increase tax free contributions to family tuition accounts.\n\n SUMMARY OF PROVISIONS :\n\nSection 1. Amends tax law section 612(c)(32) to provide that an\naccount owner who is an individual or head of household can now make a\ncontribution that shall not exceed $10,000 instead of $5,000 and\nmarried couples who file joint tax returns can contribute $20,000\ninstead of $10,000 to New York State college choice tuition savings\naccounts.\n\nSection 2. Sets for the effective date.\n\n JUSTIFICATION :\n\nPlanning for the future is one of the most important things any\nhousehold can do in regard to saving for college expenses. By allowing\ndouble the current contribution through New York State college savings\naccounts, it allows all families to plan better and contribute more in\nadvance of the eventual goal to send their child to college.\n\nAs always, it is vital that New York State contribute as many tools to\nfamilies as possible in regard to saving and planning for higher\neducation. The expansion of contribution limits to these college\nsavings accounts would help families across New York State.\n\n LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS :\n\n EFFECTIVE DATE :\nImmediately and shall apply to taxable years beginning on and after\nJanuary 1, 2017.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7576",
+    "publishDate": "2016-05-10",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2015,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7576",
+ "basePrintNoStr": "S7576-2015",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2016-05-10",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2016-05-10T00:00",
+    "sessionYear": 2015
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7576",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2016-05-10T13:11:11",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2016-05-10T13:11:11",
+ "reprintOf": null,
+ "session": 2015,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 1,
+   "fullName": "Kenneth P. LaValle",
+   "imgName": "419_kenneth_p._lavalle.jpg",
+   "incumbent": false,
+   "memberId": 419,
+   "sessionMemberId": 694,
+   "sessionYear": 2015,
+   "shortName": "LAVALLE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2016-05-16",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Increases the amounts of contributions that may be made tax free to family tuition accounts.",
+ "title": "Increases tax free contributions to family tuition accounts",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

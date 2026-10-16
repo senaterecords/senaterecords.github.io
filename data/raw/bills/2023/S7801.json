@@ -1,0 +1,680 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-12-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-07",
+    "sequenceNo": 3,
+    "text": "1ST REPORT CAL.946"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-08",
+    "sequenceNo": 4,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-13",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-21",
+    "sequenceNo": 6,
+    "text": "AMENDED ON THIRD READING 7801A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-06",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY A8081B"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the civil practice law and rules, in relation to requiring\nproof of service to include the server's perception of various characteristics\nof the recipient in the description of the person to whom personal service of\na summons was delivered",
+    "basePrintNo": "S7801",
+    "basePrintNoStr": "S7801-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd R306, CPLR",
+    "lawSection": "Civil Practice Law and Rules",
+    "memo": " \nBILL NUMBER: S7801\n\nSPONSOR: LIU\n \nTITLE OF BILL:\n\nAn act to amend the civil practice law and rules, in relation to requir-\ning proof of service to include the server's perception of various char-\nacteristics of the recipient in the description of the person to whom\npersonal service of a summons was delivered\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nReplace \"sex, color of skin\" with \"perceived gender, race\" in the civil\npractice law and rules.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill amends subdivision (b) of rule 306 of the civil\npractice law and rules by replacing \"sex, color of skin\" with \"perceived\ngender, race\"\n\n \nJUSTIFICATION:\n\nThe phrase \"color of skin\" in the current text of subdivision (b) of\nrule 306 of the civil practice law and rules, is offensive and anachron-\nistic. For instance, when affirming that they have served legal papers\nto a person of Asian descent, people interpreting the regulation liter-\nally have filed that you describe them as \"yellow.\"  This description is\noffensive to some Asian Americans while not being reflective of their\nactual skin color. This bill rectifies this issue by substituting \"race\"\nfor \"color of skin.\"\n\nThe phrase \"sex\" in the current text of subdivision (b) of rule 306 of\nthe civil practice law and rules, is similarly exclusive, particularly\nwhen the individual being served is transgender or gender-nonconforming.\n\nTransgender individuals may be assumed to be one sex when in fact they\nare another and therefore the court will receive incorrect information.\n\nThis bill therefore replaces \"sex\" with \"perceived gender.\" This bill\nwill fix these problematic aspects of the service process and be more\ninclusive to New Yorkers of all backgrounds.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7801",
+    "publishDate": "2023-12-11",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CVP306"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the civil practice law and rules, in relation to requiring\nproof of service to include the server's perception of various characteristics\nof the recipient in the description of the person to whom personal service of\na summons was delivered",
+    "basePrintNo": "S7801",
+    "basePrintNoStr": "S7801-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd R306, CPLR",
+    "lawSection": "Civil Practice Law and Rules",
+    "memo": " \nBILL NUMBER: S7801A\n\nSPONSOR: LIU\n \nTITLE OF BILL:\n\nAn act to amend the civil practice law and rules, in relation to requir-\ning proof of service to include the server's perception of various char-\nacteristics of the recipient in the description of the person to whom\npersonal service of a summons was delivered\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nReplace \"sex, color of skin\" with \"perceived gender, race\" in the civil\npractice law and rules.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill amends subdivision (b) of rule 306 of the civil\npractice law and rules by replacing \"sex, color of skin\" with \"the proc-\ness server's perception of the person's: gender, race\"\n\n \nJUSTIFICATION:\n\nThe phrase \"color of skin\" in the current text of subdivision (b) of\nrule 306 of the civil practice law and rules, is offensive and anachron-\nistic. For instance, when affirming that they have served legal papers\nto a person of Asian descent, people interpreting the regulation liter-\nally have filed that you describe them as \"yellow.\"  This is an offen-\nsive term for Asian American individuals. This bill rectifies this issue\nby substituting \"race\" for \"color of skin.\"\n\nThe phrase \"sex\" in the current text of subdivision (b) of rule 306 of\nthe civil practice law and rules, is similarly exclusive, particularly\nwhen the individual being served is transgender or gender-nonconforming.\nTransgender individuals may be assumed to be one sex when in fact they\nare another and therefore the court will receive incorrect information.\nThis bill therefore replaces \"sex\" with \"perceived gender.\" This bill\nwill fix these problematic aspects of the service process and be more\ninclusive to New Yorkers of all backgrounds.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7801A",
+    "publishDate": "2024-05-21",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CVP306"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8081",
+       "basePrintNoStr": "A8081-2023",
+       "printNo": "A8081B",
+       "session": 2023,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7801",
+ "basePrintNoStr": "S7801-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 48,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2024
+   }
+  ],
+  "size": 16
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2024-05-21",
+    "billCalNo": 946,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Judiciary",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2023-12-11T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A8081",
+    "basePrintNoStr": "A8081-2023",
+    "printNo": "A8081A",
+    "session": 2023,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S7801A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-12-11T15:32:19.533901",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-05-21T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-12-11T15:32:19.533901",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 16,
+   "fullName": "John Liu",
+   "imgName": "1045_John_Liu.jpg",
+   "incumbent": true,
+   "memberId": 1225,
+   "sessionMemberId": 2022,
+   "sessionYear": 2023,
+   "shortName": "LIU"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-05-21",
+  "billCalNo": 946,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8081",
+  "basePrintNoStr": "A8081-2023",
+  "session": 2023
+ },
+ "summary": "Enacts the stop civil discrimination act requiring proof of service to include the server's perception of certain characteristics of the person to whom personal service of a summons was delivered.",
+ "title": "Requires proof of service to include the server's perception of certain characteristics of the person to whom personal service of a summons was delivered",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7801",
+     "basePrintNoStr": "S7801-2023",
+     "printNo": "S7801",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Judiciary"
+    },
+    "memberVotes": {
+     "items": {
+      "ABS": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        }
+       ],
+       "size": 1
+      },
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2012,
+         "sessionYear": 2023,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2024,
+         "sessionYear": 2023,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "Jessica Ramos",
+         "imgName": "1046_Jessica_Ramos.jpg",
+         "incumbent": true,
+         "memberId": 1226,
+         "sessionMemberId": 2030,
+         "sessionYear": 2023,
+         "shortName": "RAMOS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 2043,
+         "sessionYear": 2023,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 32,
+         "fullName": "Luis R. Sepúlveda",
+         "imgName": "493_Luis_Sepulveda.jpg",
+         "incumbent": true,
+         "memberId": 1142,
+         "sessionMemberId": 2034,
+         "sessionYear": 2023,
+         "shortName": "SEPULVEDA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2037,
+         "sessionYear": 2023,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 12
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Patricia Canzoneri-Fitzpatrick",
+         "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+         "incumbent": true,
+         "memberId": 1517,
+         "sessionMemberId": 1880,
+         "sessionYear": 2023,
+         "shortName": "CANZONERI-FITZPATRICK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 2021,
+         "sessionYear": 2023,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Anthony H. Palumbo",
+         "imgName": "666_anthony_h._palumbo.jpg",
+         "incumbent": true,
+         "memberId": 1489,
+         "sessionMemberId": 2041,
+         "sessionYear": 2023,
+         "shortName": "PALUMBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 6
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-05-07",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2024
+}

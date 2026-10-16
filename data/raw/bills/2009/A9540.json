@@ -1,0 +1,873 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-01-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTION LAW"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-04-21",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO ELECTION LAW"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-04-21",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 9540A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-05-12",
+    "sequenceNo": 4,
+    "text": "REPORTED"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-05-13",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING CAL.858"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-06-14",
+    "sequenceNo": 6,
+    "text": "PASSED ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-06-14",
+    "sequenceNo": 7,
+    "text": "DELIVERED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-14",
+    "sequenceNo": 8,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-15",
+    "sequenceNo": 9,
+    "text": "SUBSTITUTED FOR S7884"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9540",
+     "basePrintNoStr": "A9540-2009",
+     "printNo": "A9540A",
+     "session": 2009,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2010-06-15",
+    "sequenceNo": 10,
+    "text": "3RD READING CAL.806"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to making technical corrections with regards to political subdivisions and election districts",
+    "basePrintNo": "A9540",
+    "basePrintNoStr": "A9540-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 93,
+       "fullName": "Mike Spano",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 544,
+       "sessionMemberId": 198,
+       "sessionYear": 2009,
+       "shortName": "SPANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Robert Reilly",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 559,
+       "sessionMemberId": 231,
+       "sessionYear": 2009,
+       "shortName": "REILLY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 23,
+       "fullName": "Audrey Pheffer",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 483,
+       "sessionMemberId": 276,
+       "sessionYear": 2009,
+       "shortName": "PHEFFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 72,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 602,
+       "sessionMemberId": 312,
+       "sessionYear": 2009,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 318,
+       "sessionYear": 2009,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 20,
+       "fullName": "Harvey Weisenberg",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 481,
+       "sessionMemberId": 216,
+       "sessionYear": 2009,
+       "shortName": "WEISENBERG"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Nelson Castro",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 538,
+       "sessionMemberId": 270,
+       "sessionYear": 2009,
+       "shortName": "CASTRO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 222,
+       "sessionYear": 2009,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 337,
+       "sessionYear": 2009,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Adam Clayton Powell IV",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 521,
+       "sessionMemberId": 249,
+       "sessionYear": 2009,
+       "shortName": "POWELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": false,
+       "memberId": 526,
+       "sessionMemberId": 214,
+       "sessionYear": 2009,
+       "shortName": "KAVANAGH"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§4-128 & 4-132 & 8-302, El L",
+    "lawSection": "Election Law",
+    "memo": "BILL NUMBER:A9540\n\nTITLE OF BILL:  An act to amend the election law, in relation to making\ntechnical corrections with regards to political subdivisions and\nelection districts\n\nPURPOSE OR GENERAL IDEA OF BILL: To amend Chapter 489 of the laws of\n2009 by requiring that poll-workers are provided with maps, street\nfinders, or other descriptions of all of the polling places and election\ndistricts within the political subdivision in which the polling place is\nlocated, rather than of those within the entire county. This change will\nmake the law easier and less expensive to implement.\n\nSUMMARY OF SPECIFIC PROVISIONS: Section one amends subdivision 1 of\nsection 4-128 of the election law, as amended by chapter 489 of the laws\nof 2009, by changing the word \"county\" to \"political subdivision.\"\n\nSection two amends subdivision d of section 4-132 of the election law,\nas amended by chapter 489 of the laws of 2009, and changes the word\n\"county\" to \"political subdivision.\"\n\nSection three amends the opening paragraph of paragraph (e) of subdivi-\nsion 3 of section 8-302 of the election law, as amended by chapter 489\nof the laws of 2009, by changing the word \"county\" to \"political subdi-\nvision.\"\n\nSection four defines the effective date as immediately.\n\nJUSTIFICATION: Counties often have numerous polling places, sometimes\nwithin many, many towns. Chapter 489 of the laws of 2009 provided that a\nsufficient number of county-wide maps, street finders, or other\ndescriptions of polling places must be provided to poll-workers in order\nto advice the voter of his or her correct polling place. The intention\nwas to ensure that a vote cast by affidavit ballot is cast in the\ncorrect polling place and will, therefore, be counted.\n\nThis bill merely changes the word \"county\" to \"political subdivision.\"\nProviding maps and street finders for an entire county is not necessary,\nand is costly. Voters sometimes need help locating their polling place,\nbut will most likely know the general area/political district within the\ncounty in which they are to vote.  By changing the law to require that\npoll-workers be provided with maps and street finders that cover the\npolitical subdivision in which the polling place is located, rather than\ncounty-wide maps and street finders, will make the law easier and less\nexpensive to implement.\n\nPRIOR LEGISLATIVE HISTORY: This is a new bill.\n\nFISCAL IMPLICATION:  None to the state.\n\nEFFECTIVE DATE: Immediately.\n\n",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 55,
+       "fullName": "William Boyland",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 508,
+       "sessionMemberId": 193,
+       "sessionYear": 2009,
+       "shortName": "BOYLAND"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 225,
+       "sessionYear": 2009,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 321,
+       "sessionYear": 2009,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 98,
+       "fullName": "Aileen Gunther",
+       "imgName": "549_aileen_gunther.jpg",
+       "incumbent": false,
+       "memberId": 549,
+       "sessionMemberId": 317,
+       "sessionYear": 2009,
+       "shortName": "GUNTHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Alan Maisel",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 512,
+       "sessionMemberId": 232,
+       "sessionYear": 2009,
+       "shortName": "MAISEL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 30,
+       "fullName": "Margaret Markey",
+       "imgName": "490_margaret_markey.jpg",
+       "incumbent": false,
+       "memberId": 490,
+       "sessionMemberId": 272,
+       "sessionYear": 2009,
+       "shortName": "MARKEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 27,
+       "fullName": "Nettie Mayersohn",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 487,
+       "sessionMemberId": 248,
+       "sessionYear": 2009,
+       "shortName": "MAYERSOHN"
+      }
+     ],
+     "size": 7
+    },
+    "printNo": "A9540",
+    "publishDate": "2010-01-13",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the election law, in relation to making technical corrections with regards to political subdivisions and election districts",
+    "basePrintNo": "A9540",
+    "basePrintNoStr": "A9540-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 93,
+       "fullName": "Mike Spano",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 544,
+       "sessionMemberId": 198,
+       "sessionYear": 2009,
+       "shortName": "SPANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Robert Reilly",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 559,
+       "sessionMemberId": 231,
+       "sessionYear": 2009,
+       "shortName": "REILLY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 23,
+       "fullName": "Audrey Pheffer",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 483,
+       "sessionMemberId": 276,
+       "sessionYear": 2009,
+       "shortName": "PHEFFER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 72,
+       "fullName": "Adriano Espaillat",
+       "imgName": "385_adriano_espaillat.jpg",
+       "incumbent": false,
+       "memberId": 602,
+       "sessionMemberId": 312,
+       "sessionYear": 2009,
+       "shortName": "ESPAILLAT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 318,
+       "sessionYear": 2009,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 20,
+       "fullName": "Harvey Weisenberg",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 481,
+       "sessionMemberId": 216,
+       "sessionYear": 2009,
+       "shortName": "WEISENBERG"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Nelson Castro",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 538,
+       "sessionMemberId": 270,
+       "sessionYear": 2009,
+       "shortName": "CASTRO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 222,
+       "sessionYear": 2009,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 337,
+       "sessionYear": 2009,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Adam Clayton Powell IV",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 521,
+       "sessionMemberId": 249,
+       "sessionYear": 2009,
+       "shortName": "POWELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": false,
+       "memberId": 526,
+       "sessionMemberId": 214,
+       "sessionYear": 2009,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": true,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 226,
+       "sessionYear": 2009,
+       "shortName": "WEPRIN"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§4-128 & 4-132 & 8-302, El L",
+    "lawSection": "Election Law",
+    "memo": "BILL NUMBER:A9540A          AMENDED MEMO 4/28/10\n\nTITLE  OF BILL:  An act to amend the election law, in relation to making\ntechnical  corrections  with  regards  to  political  subdivisions   and\nelection districts\n\nPURPOSE  OR  GENERAL  IDEA  OF BILL: To amend Chapter 489 of the laws of\n2009 by requiring that  poll-workers  are  provided  with  maps,  street\nfinders, or other descriptions of all of the polling places and election\ndistricts within the political subdivision in which the polling place is\nlocated, rather than of those within the entire county. This change will\nmake the law easier and less expensive to implement.\n\nSUMMARY  OF  SPECIFIC  PROVISIONS:  Section  one amends subdivision 1 of\nsection 4-128 of the election law, as amended by chapter 489 of the laws\nof 2009, by changing the word \"county\" to \"political subdivision.\"\n\nSection two amends subdivision d of section 4-132 of the  election  law,\nas  amended  by  chapter  489  of the laws of 2009, and changes the word\n\"county\" to \"political subdivision.\"\n\nSection three amends the opening paragraph of paragraph (e) of  subdivi-\nsion  3  of section 8-302 of the election law, as amended by chapter 489\nof the laws of 2009, by changing the word \"county\" to \"political  subdi-\nvision.\"  Section  three  also  provides  that in the event that a voter\nattempts to cast a ballot, claiming to live in the election district  in\nwhich  he or she seeks to vote, and such voter's name does not appear on\nany of the specified registration records or  lists,  a  poll  clerk  or\nelection  inspector  is to, if necessary, contact the board of elections\nto obtain the relevant information in order to advice such voter of  his\nor her correct voting place.\n\nSection four defines the effective date as immediately.\n\nJUSTIFICATION:  Chapter  489 of the laws of 2009 requires polling places\nto be equipped with a sufficient number  of  maps,  street  finders  and\nother  descriptions  of polling places and election districts within the\ncounty in which the polling place is located and requires a  poll  clerk\nor  election  inspector  to  consult  a  map,  street  finder  or  other\ndescription of all of the polling places and election  districts  within\nthe county in which such election district is located in order to ensure\nthat a voter votes in the correct election district and polling place so\nthat  his or her vote will be counted. This bill would amend the Chapter\nby changing the word \"county\" to \"political subdivision.\"\n\nThe 2009 legislation that this bill seeks to amend arose out of the 2004\nelection for the 35th State  Senatorial  District  that  was  ultimately\ndecided  by  18 votes. After months of litigation, the race came down to\nthe validity of certain affidavit ballots from duly  registered  voters.\nIn  Matter of Panio v. Sunderland, 4 N.Y.3d 123, 791 N.Y.S.2d 57 (2005),\nthe Court of Appeals held that the 163 affidavit ballots cast by  voters\nat the correct polling site but wrong election district should be count-\n\ned  but  the  457  affidavit  ballots cast by voters who had gone to the\nwrong polling site (and wrong election district) should be rejected.\n\nThe Court reasoned that casting an affidavit ballot at the correct poll-\ning site but wrong election district was the result of ministerial error\non  the  part  of  a  poll  worker in failing to direct the voter to the\ncorrect table and that therefore those 163 affidavit ballots  should  be\ncounted. in rejecting 457 affidavit ballots cast at wrong polling sites,\nthe  Court  found that the voters' error of going to wrong polling sites\ncannot be attributed to the ministerial error of election workers. Thus,\n457 voters were disenfranchised and the outcome of a very close election\nwas affected because poll workers did not  direct  them  to  the  proper\npolling site.\n\nThus,  the  purpose  and goal of the 2009 legislation was to ensure that\nvoters who vote by affidavit ballot have a realistic chance to  exercise\nthe  franchise  and  have  their votes counted. The legislation required\nthat each polling site  be  supplied  with  countywide  maps  or  street\nfinders  and  required  that election inspectors and poll clerks consult\nthe countywide maps or street finders to determine and advise the  voter\nof his or her correct election district and polling place.\n\nAlthough  the intent and goal of the original legislation remain intact,\nLe., that voters cast their ballots in the proper election district  and\npolling  place so that their votes are counted, it has become clear that\nrequiring maps or street finders for the entire county at every  polling\nsite  is  expensive and unnecessary. Although voters sometimes need help\nlocating the correct  election  district  or  polling  place  for  their\naddress,  they  know  the political subdivision, i.e., the city, town or\nvillage, where they reside and vote. The voter may go to the wrong poll-\ning place within his or her town or city but is  unlikely  to  go  to  a\npolling  place  in  the wrong town or wrong city. Likewise, in a village\nelection, a voter may go to the wrong polling place within  his  or  her\nvillage but is unlikely to go to a polling place outside the village. As\nlong as poll workers have maps and street finders for the city, town, or\nvillage where the voter resides, the voter will be directed to the prop-\ner election district and polling place.\n\nBy  changing  the law to require that poll workers be provided with maps\nand street finders that cover the political  subdivision  in  which  the\npolling place is located, rather than the entire county, the law will be\nequally effective but far less expensive to implement.\n\nPRIOR LEGISLATIVE HISTORY: This is a new bill.\n\nFISCAL IMPLICATION:  None to the state.\n\nEFFECTIVE DATE: Immediately.\n\n",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 55,
+       "fullName": "William Boyland",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 508,
+       "sessionMemberId": 193,
+       "sessionYear": 2009,
+       "shortName": "BOYLAND"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 225,
+       "sessionYear": 2009,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 321,
+       "sessionYear": 2009,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 98,
+       "fullName": "Aileen Gunther",
+       "imgName": "549_aileen_gunther.jpg",
+       "incumbent": false,
+       "memberId": 549,
+       "sessionMemberId": 317,
+       "sessionYear": 2009,
+       "shortName": "GUNTHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Alan Maisel",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 512,
+       "sessionMemberId": 232,
+       "sessionYear": 2009,
+       "shortName": "MAISEL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 30,
+       "fullName": "Margaret Markey",
+       "imgName": "490_margaret_markey.jpg",
+       "incumbent": false,
+       "memberId": 490,
+       "sessionMemberId": 272,
+       "sessionYear": 2009,
+       "shortName": "MARKEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 27,
+       "fullName": "Nettie Mayersohn",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 487,
+       "sessionMemberId": 248,
+       "sessionYear": 2009,
+       "shortName": "MAYERSOHN"
+      }
+     ],
+     "size": 7
+    },
+    "printNo": "A9540A",
+    "publishDate": "2010-04-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S7884",
+       "basePrintNoStr": "S7884-2009",
+       "printNo": "S7884",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A9540",
+ "basePrintNoStr": "A9540-2009",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 64,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 67,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 68,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 69,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 70,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 71,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 72,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 73,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 74,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 75,
+    "year": 2010
+   },
+   {
+    "calendarNumber": 76,
+    "year": 2010
+   }
+  ],
+  "size": 13
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-04-21",
+    "billCalNo": null,
+    "committeeName": "Election Law",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   },
+   {
+    "actionDate": "2010-05-13",
+    "billCalNo": 858,
+    "committeeName": null,
+    "statusDesc": "Assembly Floor Calendar",
+    "statusType": "ASSEMBLY_FLOOR"
+   },
+   {
+    "actionDate": "2010-06-14",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Passed Assembly",
+    "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2010-06-14",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2010-06-15",
+    "billCalNo": 806,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 5
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Election Law",
+    "referenceDate": "2010-01-13T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Election Law",
+    "referenceDate": "2010-04-21T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2010-06-14T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A9540A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2010-01-13T16:17:17",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2010-04-21T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2010-01-13T16:17:17",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 88,
+   "fullName": "Amy Paulin",
+   "imgName": "540_amy_paulin.jpg",
+   "incumbent": true,
+   "memberId": 540,
+   "sessionMemberId": 245,
+   "sessionYear": 2009,
+   "shortName": "PAULIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-06-15",
+  "billCalNo": 806,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": null,
+ "summary": "Makes technical corrections with regard to political subdivisions and election districts; removes counties and replaces with political subdivisions for purposes of determining an individual's election district.",
+ "title": "Makes technical corrections with regards to political subdivisions and election districts",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

@@ -1,0 +1,1119 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-31",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-17",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 3,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-13",
+    "sequenceNo": 4,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-03",
+    "sequenceNo": 5,
+    "text": "AMEND (T) AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-03",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 3400A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law and the insurance law, in relation to\nutilization review program standards, and in relation to pre-authorization of\nhealth care services",
+    "basePrintNo": "S3400",
+    "basePrintNoStr": "S3400-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "Mark Walczyk",
+       "imgName": "1067_Mark_Walczyk.jpg",
+       "incumbent": true,
+       "memberId": 1523,
+       "sessionMemberId": 1886,
+       "sessionYear": 2023,
+       "shortName": "WALCZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§4902 & 4903, Pub Health L; amd §§4902, 4903 & 3238, Ins L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S3400\n\nSPONSOR: BRESLIN\n \nTITLE OF BILL:\n\nAn act to amend the public health law and the insurance law, in relation\nto utilization review program standards, and in relation to pre-authori-\nzation of health care services\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this legislation is to reduce administrative requirements\nof health care practitioners which interfere with efforts to assure\npatients receive appropriate care by amending prior authorization and\nutilization ò review procedures imposed by insurance companies.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends paragraph (c) of subdivision 1 of section 4902 of the\npublic health law by adding \"such clinical review criteria shall utilize\nrecognized evidence-based and peer reviewed clinical review criteria\nthat takes into account the needs of a typical patient populations and\ndiagnoses.\"\n\nSection 2 amends paragraph (a) of subdivision 2 of section 4903 of the\npublic health law by changing from three business days to \"seventy-two\nhours\" the amount of time a utilization review agent shall make and\ncommunicate a determination, adds \"or within twenty-four hours of the\nreceipt of necessary information if the request is for an enrollee with\na medical condition that places the health of the insured in serious\njeopardy without the health care services recommended by the enrollee's\nhealth care professional\" and \"An approval for a request for pre-author-\nization shall be valid for duration of the prescription, including any\nauthorized refills, or treatment for a specific condition as requested\nby the enrollee's health care provider.\"\n\nSection 3 amends paragraph 3 of subsection (a) of section 4902 of the\ninsurance law by adding \"such clinical review criteria shall utilize\nrecognized evidence-based and peer-reviewed clinical review criteria\nthat takes into account the needs of a typical patient populations and\ndiagnoses.\"\n\nSection 4 amends paragraph 1 of subsection (b) of section 4903 the\ninsurance law by changing from three business days to \"seventy-two\nhours\" the amount of time a utilization review agent shall make and\ncommunicate a determination adds \"within twenty-four hours of the\nreceipt of necessary information if the request is for an insured with a\nmedical condition that places the health of the insured in serious\njeopardy without the health care services recommended by the insured's\nhealth care provider\" and \"An approval of request for pre-authorization\nshall be valid for the duration of the prescription, including any\nauthorized refills, or treatment for a specific condition requested for\npre-authorization.\"\n\nSection 5 amends subsection (a) of section 3238 of the insurance law by\nadding \"and eligibility confirmed on the day of the service,\" deletes\nparagraph (1) and renumbers remaining paragraphs in the section.\n\nSection 6 is the effective date.\n \nJUSTIFICATION:\n\nSeveral studies have highlighted the inordinate amount of time, spent\naway from delivering patient care to obtain prior authorization. For\nexample, a 2016 Annals of Internal Medicine study concluded that, for\nevery hour a physician spends on delivering care to a patient, two more\nare spent on administrative tasks.\n\nThe legislation would enact a number of common sense reforms proposed in\na recently released document entitled Prior Authorization and Utiliza-\ntion Management Reform Principles Prior Authorization and Utilization I\nAMA (amaassn.org) These principles were developed by the American\nMedical Association, the American Academy of Family Physicians, the\nAmerican Hospital Association, Medical Group Management Association,\nAmerican Pharmacists Association, and Arthritis Foundation along with\nother health and patient advocacy associations. As noted in the intro-\nductory comments to the principles, utilization management programs such\nas prior authorization can create significant barriers for patients by\ndelaying the start or continuation of necessary treatment and negatively\naffecting patient health outcomes. The time-consuming processes used in\nthese programs burden providers and divert valuable resources away from\ndirect patient care.\n\nWhile some of these prior authorization principles articulated in the\nAMA/AHA et.al. document have already been enacted in New York, many\nothers have not. This legislation would enact several of these princi-\nples into law, such as assuring that utilization review criteria ar\nevidence-based and assuring that once a prior authorization is received\nit will not need to be repeated. This legislation would reduce the\nadministrative barriers that sometimes unnecessarily delay and interfere\nwith patients receiving needed treatments recommended by their health\ncare provider.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2017-2018: A.9588 - referred to Insurance Committee\n\n2019-2020: S.2847 A.3038\n\n2021-2022: S.64358\n\n \nFISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\n90 days after it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3400",
+    "publishDate": "2023-01-31",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ISC3238",
+        "ISC4902",
+        "ISC4903",
+        "PBH4902",
+        "PBH4903"
+       ],
+       "size": 5
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law and the insurance law, in relation to\nutilization review program standards and pre-authorization of health care\nservices",
+    "basePrintNo": "S3400",
+    "basePrintNoStr": "S3400-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "Mark Walczyk",
+       "imgName": "1067_Mark_Walczyk.jpg",
+       "incumbent": true,
+       "memberId": 1523,
+       "sessionMemberId": 1886,
+       "sessionYear": 2023,
+       "shortName": "WALCZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§4902 & 4903, Pub Health L; amd §§4902 & 4903, Ins L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S3400A\n\nSPONSOR: BRESLIN\n \nTITLE OF BILL:\n\nAn act to amend the public health law and the insurance law, in relation\nto utilization review program standards and pre-authorization of health\ncare services\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this legislation is to reduce administrative requirements\nof health care practitioners which interfere with efforts to assure\npatients receive appropriate care by amending prior authorization and\nutilization 6 review procedures imposed by insurance companies:\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends paragraph (c) of subdivision 1 of section 4902 of the\npublic health law by adding \"such clinical review criteria shall utilize\nrecognized evidence-based and peer reviewed clinical review criteria\nthat takes into account the needs of a typical patient populations and\ndiagnoses.\"\n\nSection 2 amends paragraph (a) of subdivision 2 of section 4903 of the\npublic health law by changing from three business days to \"seventy-two\nhours\" the amount of time a utilization review agent shall make and\ncommunicate a determination, adds \"or within twenty-four hours of the\nreceipt of necessary information if the request is for an enrollee with\na medical condition that places the health of the insured in serious\njeopardy without the health care services recommended by the enrollee's\nhealth care professional\" and \"An approval for a request for pre-author-\nization shall be valid for duration of the prescription, including any\nauthorized refills, or treatment for a specific condition as requested\nby the enrollee's health care provider.\"\n\nSection 3 amends paragraph 3 of subsection (a) of section 4902 of the\ninsurance law by adding \"such clinical review criteria shall utilize\nrecognized evidence-based and peer-reviewed clinical review criteria\nthat takes into account the needs of a typical patient populations and\ndiagnoses.\"\n\nSection 4 amends paragraph 1 of subsection (b) of section 4903 the\ninsurance law by changing from three business days to \"seventy-two\nhours\" the amount of time a utilization review agent shall make and\ncommunicate a determination adds \"within twenty-four hours of the\nreceipt of necessary information if the request is for an insured with a\nmedical condition that places the health of the insured in serious\n\n \nEFFECTIVE DATE:\n90 days after it shall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3400A",
+    "publishDate": "2024-06-03",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ISC4902",
+        "ISC4903",
+        "PBH4902",
+        "PBH4903"
+       ],
+       "size": 4
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7268",
+       "basePrintNoStr": "A7268-2023",
+       "printNo": "A7268A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3400",
+ "basePrintNoStr": "S3400-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 6,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-06-03",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2023-05-17T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-02-13T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-06-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2023-01-31T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6435",
+    "basePrintNoStr": "S6435-2021",
+    "printNo": "S6435B",
+    "session": 2021,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S2847",
+    "basePrintNoStr": "S2847-2019",
+    "printNo": "S2847",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S7872",
+    "basePrintNoStr": "S7872-2017",
+    "printNo": "S7872",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S3400A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-31T10:52:38.905716",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-06-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-01-31T10:52:38.905716",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 46,
+   "fullName": "Neil D. Breslin",
+   "imgName": "372_neil_d._breslin.jpg",
+   "incumbent": false,
+   "memberId": 372,
+   "sessionMemberId": 2007,
+   "sessionYear": 2023,
+   "shortName": "BRESLIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-06-03",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to utilization review program standards; requires use of evidence-based and peer reviewed clinical review criteria; relates to prescription drug formulary changes and pre-authorization for certain health care services.",
+ "title": "Relates to utilization review program standards and pre-authorization for certain health care services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2050,
+         "sessionYear": 2023,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 1878,
+         "sessionYear": 2023,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 14
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2023-05-17",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S3400",
+     "basePrintNoStr": "S3400-2023",
+     "printNo": "S3400",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2050,
+         "sessionYear": 2023,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 1878,
+         "sessionYear": 2023,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 14
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-02-13",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2024
+}

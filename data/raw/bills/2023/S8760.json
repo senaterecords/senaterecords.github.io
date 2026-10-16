@@ -1,0 +1,601 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8760",
+     "basePrintNoStr": "S8760-2023",
+     "printNo": "S8760",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-03-07",
+    "sequenceNo": 1,
+    "text": "REFERRED TO AGING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8760",
+     "basePrintNoStr": "S8760-2023",
+     "printNo": "S8760",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-14",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1059"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8760",
+     "basePrintNoStr": "S8760-2023",
+     "printNo": "S8760",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-15",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8760",
+     "basePrintNoStr": "S8760-2023",
+     "printNo": "S8760A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-16",
+    "sequenceNo": 4,
+    "text": "AMENDED (T) 8760A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8760",
+     "basePrintNoStr": "S8760-2023",
+     "printNo": "S8760A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-16",
+    "sequenceNo": 5,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8760",
+     "basePrintNoStr": "S8760-2023",
+     "printNo": "S8760A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-07",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A9369A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the elder law, in relation to the automatic identification and\nenrollment of elderly pharmaceutical insurance coverage program enrollees in\nHEAP",
+    "basePrintNo": "S8760",
+    "basePrintNoStr": "S8760-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2041,
+       "sessionYear": 2023,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "Robert Rolison",
+       "imgName": "1336_Robert_Rolison.jpg",
+       "incumbent": true,
+       "memberId": 1519,
+       "sessionMemberId": 1882,
+       "sessionYear": 2023,
+       "shortName": "ROLISON"
+      }
+     ],
+     "size": 4
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §245, Eld L",
+    "lawSection": "Elder Law",
+    "memo": " \nBILL NUMBER: S8760\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\nAn act to amend the elder law, in relation to the automatic identifica-\ntion and enrollment of elderly pharmaceutical insurance coverage program\nenrollees in HEAP\n\n \nPURPOSE OF THE BILL:\n\nTo data match the Home Energy Assistance Program (HEAP) with the Elderly\nPharmaceutical Insurance Coverage Program (EPIC)\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one amends the elder law to add a new section 245 to provide for\nthe automated identification of EPIC participants for HEAP\n\nSection two establishes the effective date.\n\n \nJUSTIFICATION:\n\nThe implementation of a file-matching strategy aligning the Home Energy\nAssistance Program (HEAP) with the Elderly Pharmaceutical Insurance\nCoverage Program (EPIC) is a crucial step in addressing New York's\nsenior energy affordability challenge.\n\nIn the Spring of 2019, the New York State Energy Research & Development\nAuthority (NYSERDA) released a report by Columbia University entitled\nIncreasing Senior Participation in New York's Home Energy Assistance\nProgram. A key finding of the report is that \"while one million senior\nhouseholds in New York were eligible for HEAP in 2017, under 400 thou-\nsand (or 39%) participated in the program.\" The report noted that \"the\ngap indicates that vulnerable senior households are underserved by the\nprogram, and because eligibility and enrollment in HEAP can lead to\nenrollment in other energy efficiency and assistance programs, it is\nlikely that seniors are underserved by these other programs as well.\"\n\nThe report underscored the gap between HEAP participation by income-eli-\ngible older households and the number of eligible households with older\nmembers statewide. The proposed file-matching approach utilizing the\nEPIC database serves as a targeted solution to automatically enroll\neligible seniors into HEAP, thereby improving participation rates.\n\nUnaffordable energy rates undoubtably can compel Many of these house-\nholds to make challenging household budget decisions. The proposed file-\nmatching approach not only addresses the immediate concerns of seniors'\nstruggling with energy costs but also provides a lifeline to those\nfacing difficult trade-offs.\n\nBy leveraging the EPIC database, which already identifies low- to moder-\nate-income seniors, New York can streamline the HEAP enrollment process.\nThis approach not only reduces administrative costs but also ensures\nthat vulnerable senior households, who are currently underserved,\nreceive the necessary financial assistance for heating costs. The\nstreamlined process would enable the state to tap into a previously\nuntapped pool of potential HEAP recipients, significantly increasing the\nprogram's reach and impact. Close to two-thirds of EPIC enrollees could\nbe eligible for HEAP benefits.\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred eightieth day after it\nshall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8760",
+    "publishDate": "2024-03-07",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ELD245"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the elder law, in relation to the automatic identification and\nenrollment of elderly pharmaceutical insurance coverage program enrollees in\nthe home energy assistance program",
+    "basePrintNo": "S8760",
+    "basePrintNoStr": "S8760-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2041,
+       "sessionYear": 2023,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "Robert Rolison",
+       "imgName": "1336_Robert_Rolison.jpg",
+       "incumbent": true,
+       "memberId": 1519,
+       "sessionMemberId": 1882,
+       "sessionYear": 2023,
+       "shortName": "ROLISON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §245, Eld L",
+    "lawSection": "Elder Law",
+    "memo": " \nBILL NUMBER: S8760A\n\nSPONSOR: CLEARE\n \nTITLE OF BILL:\n\nAn act to amend the elder law, in relation to the automatic identifica-\ntion and enrollment of elderly pharmaceutical insurance coverage program\nenrollees in the home energy assistance program\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to data match the Home Energy Assistance\nProgram (HEAP) with the Elderly Pharmaceutical Insurance Coverage\nProgram (EPIC).\n\n \nSUMMARY OF PROVISIONS:\n\nSection one amends the elder law to add a new section 245 to provide for\nthe automated identification of EPIC participants for HEAP.\n\nSection two establishes the effective date.\n\n \nJUSTIFICATION:\n\nThe implementation of a file-matching strategy aligning the Home Energy\nAssistance Program (HEAP) with the Elderly Pharmaceutical Insurance\nCoverage Program (EPIC) is a crucial step in addressing New York's\nsenior energy affordability challenge.\n\nIn the spring of 2019, the New York State Energy Research & Development\nAuthority (NYSERDA) released a report by Columbia University entitled\nIncreasing Senior Participation in New York's Home Energy Assistance\nProgram. A key finding of the report is that \"while one million senior\nhouseholds in New York were eligible for HEAP in 2017, under 400 thou-\nsand (or 39%) participated in the program.\" The report noted that \"the\ngap indicates that vulnerable senior households are underserved by the\nprogram, and because eligibility and enrollment in HEAP can lead to\nenrollment in other energy efficiency and assistance programs, it is\nlikely that seniors are underserved by these programs as well.\"\n\nThe report underscored the gap between HEAP participation by income-eli-\ngible older households and the number of eligible households with older\nmembers statewide. The proposed file-matching approach utilizing the\nEPIC database serves as a targeted solution to automatically enroll\neligible seniors into HEAP, thereby improving participation rates.\n\nUnaffordable energy rates undoubtably can compel many of these house-\nholds to make challenging household budget decisions. The proposed file-\nmatching approach not only addresses the immediate concerns of seniors'\nstruggling with energy costs but also provides a lifeline to those\nfacing difficult trade-offs.\n\nBy leveraging the EPIC database, which already identifies low-to-modera-\nteincome seniors, New York can streamline the HEAP enrollment process.\nThis approach not only reduces administrative costs but also ensures\nthat vulnerable senior households, who are currently underserved,\nreceive the necessary financial assistance for heating costs. The\nstreamlined process would enable the state to tap into a previously\nuntapped pool of potential HEAP recipients, significantly increasing the\nprogram's reach and impact. Close to two-thirds of EPIC enrollees could\nbe eligible for HEAP benefits.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2024: A.9369 referred to aging\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred eightieth day after it\nshall have become a law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8760A",
+    "publishDate": "2024-05-16",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ELD245"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9369",
+       "basePrintNoStr": "A9369-2023",
+       "printNo": "A9369A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8760",
+ "basePrintNoStr": "S8760-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 51,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2024
+   }
+  ],
+  "size": 14
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Aging"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-03-07",
+    "billCalNo": null,
+    "committeeName": "Aging",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2024-05-16",
+    "billCalNo": 1059,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Aging",
+    "referenceDate": "2024-03-07T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8760A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-03-07T15:26:45.190617",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-05-16T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2024-03-07T15:26:45.190617",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 30,
+   "fullName": "Cordell Cleare",
+   "imgName": "Cordell Cleare.jpg",
+   "incumbent": true,
+   "memberId": 1504,
+   "sessionMemberId": 2056,
+   "sessionYear": 2023,
+   "shortName": "CLEARE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-05-16",
+  "billCalNo": 1059,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A9369",
+  "basePrintNoStr": "A9369-2023",
+  "session": 2023
+ },
+ "summary": "Relates to the automatic identification of elderly pharmaceutical insurance coverage program enrollees who are eligible for HEAP and automatic enrollment of such eligible enrollees in HEAP.",
+ "title": "Relates to the automatic identification of elderly pharmaceutical insurance coverage program participants who are eligible for HEAP",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8760",
+     "basePrintNoStr": "S8760-2023",
+     "printNo": "S8760",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Aging"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Jabari Brisport",
+         "imgName": "1311_Jabari_Brisport.jpg",
+         "incumbent": true,
+         "memberId": 1494,
+         "sessionMemberId": 2046,
+         "sessionYear": 2023,
+         "shortName": "BRISPORT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Cordell Cleare",
+         "imgName": "Cordell Cleare.jpg",
+         "incumbent": true,
+         "memberId": 1504,
+         "sessionMemberId": 2056,
+         "sessionYear": 2023,
+         "shortName": "CLEARE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "Robert Rolison",
+         "imgName": "1336_Robert_Rolison.jpg",
+         "incumbent": true,
+         "memberId": 1519,
+         "sessionMemberId": 1882,
+         "sessionYear": 2023,
+         "shortName": "ROLISON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 29,
+         "fullName": "José M. Serrano",
+         "imgName": "373_jose_m._serrano.jpg",
+         "incumbent": true,
+         "memberId": 373,
+         "sessionMemberId": 2035,
+         "sessionYear": 2023,
+         "shortName": "SERRANO"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-05-14",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2024
+}

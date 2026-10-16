@@ -1,0 +1,1794 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-04-18",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.620"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-04-19",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-04-20",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-30",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING 1366A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-06-10",
+    "sequenceNo": 6,
+    "text": "COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 7,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-16",
+    "sequenceNo": 8,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-16",
+    "sequenceNo": 9,
+    "text": "PRINT NUMBER 1366B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-22",
+    "sequenceNo": 10,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   }
+  ],
+  "size": 10
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to the general hospital\nindigent care pool; and to repeal certain provisions of such law relating\nthereto",
+    "basePrintNo": "S1366",
+    "basePrintNoStr": "S1366-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2029,
+       "sessionYear": 2023,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 15
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2807-k, rpld §2807-k sub 14, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S1366\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to the general hospi-\ntal indigent care pool; and to repeal certain provisions of such law\nrelating thereto\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo require hospitals to use a uniform financial assistance policy and\napplication as a condition of participation in the indigent care pool\nfund (ICP) and to expand the eligibility and protections available\nthrough financial assistance.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis bill would:\n\nRequire the Department of Health (DOH) to develop a uniform financial\nassistance policy and application to be used by all hospitals that\nreceive public funds for indigent care, commencing January 1, 2025.\n\nAllow certain patients who are without third-party payor coverage, or\nwhose third-party coverage does not cover the service provided, and who\ncan demonstrate their inability to pay the charges to be eligible for\nfinancial aid.\n\nModify the maximum charges to patients receiving financial assistance.\nPatients with incomes at or below 200% of FPL would pay a nominal amount\ndepending on circumstance, and patients above 200% and up to 400% of FPL\nwould have charges reduced at a sliding scale, capped at 20% of the\nMedicare payment rate. Patients with incomes above 400% and up to 600%\nof the federal poverty level are eligible to have charges capped at\nMedicare payment levels for the same service.\n\nAllow payment installment plans to be offered with payments capped at 5%\nof the patient's gross monthly income with the first payment due no\nsooner than 180 days after the initially billed due date.\n\nEliminate patient liability for any bills until a decision is made by\nthe hospital related to availability of financial assistance.\n\nCap interest on medical debt at 2% per year.\n\nRequire patients to be refunded any overpayments made after financial\nassistance is determined.\n\nModify hospital collection actions to allow a patient to apply for\nfinancial assistance if their financial circumstance has changed, even\nif a collection action has commenced.\n\nEstablish that a hospital may use credit scoring software to help deter-\nmine income eligibility, but a credit score may not be the sole determi-\nnant of eligibility.\n\nProhibit hospitals from reporting to financial reporting entities or\ncommencing a civil action if the hospital was notified that an appeal of\na health insurance determination is pending within the last 60 days or\nif the patient has a pending financial assistance application.\n\nRequire that legal action by a hospital to collect medical debt must\ninclude an affidavit attesting that the patient is not eligible for\nfinancial assistance based on information and belief.\n\nEstablish additional consumer protections relating to notifications,\nlanguage access, appeals, and complaints of abuse.\n\n \nJUSTIFICATION:\n\nCurrently, the Department of Health (DOH) distributes over $1 billion\nannually in Indigent Care Pool (ICP) funding to public and voluntary\nhospitals throughout the state. As a condition of receiving ICP funding,\nthe law requires hospitals to offer free or discounted care to uninsured\nlow- and moderate-income patients. Recent studies and news stories have\ndocumented that some hospitals are pursuing extraordinary collection\nactions and lawsuits against patients who often live in neighborhoods\nthat are disproportionately low-income or have a high percentage of\npeople of color, furthering systemic economic and racial inequality.\n\nThe law currently allows hospitals to develop their own hospital finan-\ncial assistance application forms and policies, as long as they meet\nguidelines provided by DOH. However, the state's audits repeatedly have\nfound that hospitals are not complying with the law, as have studies by\nconsumer advocates. In fact, recent DOH audits show that hospitals have\nbecome less compliant with the law over time. The lack of standardi-\nzation in how hospitals implement financial assistance policies results\nin patients who should receive assistance going without that assistance\nand even going without care.\n\nThis bill requires all hospitals to use one simplified form and policy\ndeveloped by DOH and it strengthens the guardrails for when and how\nhospitals can pursue extraordinary medical debt collection activities,\nsuch as suing patients.\n\nIn addition, the current eligibility requirements have not kept up with\ndevelopments in public coverage eligibility. Medicaid enrollees in the\nMAGI Medicaid program are no longer subject to an asset test.  The\nincome eligibility rules for premium subsidies under the State's Chil-\ndren Health Insurance Program extend up to 400% of the Federal Poverty\nLevel (FPL). Recognizing that even 400% is too low, the federal American\nRescue Plan has extended Affordable Care Act subsidies up to 600% of the\nFPL. Accordingly, this bill eliminates asset tests and increases income\neligibility for financial assistance from 300% to 600% of the FPL.\n\nThe changes in this legislation will make it easier for DOH to ensure\nhospital compliance and simplify the experience for both patients and\nproviders. New Yorkers deserve accountability for critical tax dollars\ngoing towards health care and compliance with laws assisting and\nprotecting patients. Patients deserve the care they need without incur-\nring financial disaster.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2022 - S7625 (Rivera) - Advanced to 3rd Reading\n\n2021 - S7625 (Rivera) - Referred to Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThe majority of the bill's patient protections take effect in 120 days.\nProvisions relating to the development of uniform financial assistance\nform and policy would take effect October 1, 2024, and would apply to\nfunding distributed on or after January 1, 2025.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1366",
+    "publishDate": "2023-01-11",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH2807-K"
+       ],
+       "size": 1
+      },
+      "REPEAL": {
+       "items": [
+        "PBH2807-K"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6027",
+       "basePrintNoStr": "A6027-2023",
+       "printNo": "A6027",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to the general hospital\nindigent care pool; and to repeal certain provisions of such law relating\nthereto",
+    "basePrintNo": "S1366",
+    "basePrintNoStr": "S1366-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 1885,
+       "sessionYear": 2023,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2029,
+       "sessionYear": 2023,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2035,
+       "sessionYear": 2023,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 24
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2807-k, rpld §2807-k sub 14, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S1366A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to the general hospi-\ntal indigent care pool; and to repeal certain provisions of such law\nrelating thereto\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo require hospitals to use a uniform financial assistance policy and\napplication as a condition of participation in the indigent care pool\nfund (ICP) and to expand the eligibility and protections available\nthrough financial assistance.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis bill would:\n\nRequire hospitals to utilize a uniform financial assistance policy and\nform, that will be developed and provided by the Department of Health,\nas a condition to participate in indigent care pool distributions and as\ncompliance to the public health law regarding financial assistance and\nhospital collection procedures.\n\nAllow low income individuals and those who can demonstrate their inabil-\nity to pay the charges to be eligible for financial aid.  Patient\nliability for any bills shall be eliminated and no interest would accrue\non said bills until the hospital makes a decision on the financial aid\napplication.\n\nModify the maximum charges to patients receiving financial assistance.\nAll charges shall be waived and no nominal payments shall be made for\npatients with incomes at or below 200% of FPL. Patients above 200% and\nup to 400% of FPL would have charges reduced at a sliding scale, and\ncapped at 20% of the Medicare payment rate. Patients with incomes above\n400% and up to 600% of the federal poverty level are eligible to have\ncharges capped at Medicaid payment levels for the same service.\n\nRequire hospitals to make patients aware of the financial assistance in\nplain language during the intake, admission, and discharge process. A\nsummary of the collections process must also be made available.\n\nAllow payment installment plans to be offered with payments capped at 5%\nof the patient's gross monthly income with the first payment due no\nsooner than 180 days after the date of service or discharge, whichever\nis later.\n\nCap interest on medical debt at 2% per year.\n\nRequire patients to be refunded any overpayments made after financial\nassistance is determined.\n\nRequire the hospital's chief financial officer to provide an affidavit\nstating that the hospital has taken reasonable steps to determine if the\npatient qualified for financial assistance. The patient's financial aid\neligibility shall be valid for a minimum of 12 months and will apply to\nall outstanding medical bills.\nModify hospital collection actions to allow a patient to apply for\nfinancial assistance if their financial circumstance has changed, even\nif a collection action has commenced.\n\nEstablish that a hospital may use credit scoring software to help deter-\nmine income eligibility, but a credit score may not be the sole determi-\nnant of eligibility.\n\nProhibit hospitals from reporting to financial reporting entities or\ncommencing a civil action if the hospital was notified that an appeal of\na health insurance determination is pending within the last 60 days or\nif the patient has a pending financial assistance application.\n\nRequire that legal action by a hospital to collect medical debt must\ninclude an affidavit attesting that the patient is not eligible for\nfinancial assistance based on information and belief.\n\nEstablish additional consumer protections relating to notifications,\nlanguage access, appeals, and complaints of abuse.\n\nRequire hospitals to inform and assist patients with applications for\nhealth insurance coverage with local services districts or the market-\nplace. Prohibits decisions on financial assistance applications from\nbeing contingent upon health insurance applications.\n\n \nJUSTIFICATION:\n\nCurrently, the Department of Health (DOH) distributes over $1 billion\nannually in Indigent Care Pool (ICP) funding to public and voluntary\nhospitals throughout the state. As a condition of receiving ICP funding,\nthe law requires hospitals to offer free or discounted care to uninsured\nlow- and moderate-income patients. Recent studies and news stories have\ndocumented that some hospitals are pursuing extraordinary collection\nactions and lawsuits against patients who often live in neighborhoods\nthat are disproportionately low-income or have a high percentage of\npeople of color, furthering systemic economic and racial inequality.\n\nThe law currently allows hospitals to develop their own hospital finan-\ncial assistance application forms and policies, as long as they meet\nguidelines provided by DOH. However, the state's audits repeatedly have\nfound that hospitals are not complying with the law, as have studies by\nconsumer advocates. In fact, recent DOH audits show that hospitals have\nbecome less compliant with the law over time. The lack of standardi-\nzation in how hospitals implement financial assistance policies results\nin patients who should receive assistance going without that assistance\nand even going without care.\n\nThis bill requires all hospitals to use one simplified form and policy\ndeveloped by DOH and it strengthens the guardrails for when and how\nhospitals can pursue extraordinary medical debt collection activities,\nsuch as suing patients.\n\nIn addition, the current eligibility requirements have not kept up with\ndevelopments in public coverage eligibility. Medicaid enrollees in the\nMAGI Medicaid program are no longer subject to an asset test.  The\nincome eligibility rules for premium subsidies under the State's Chil-\ndren Health Insurance Program extend up to 400% of the Federal Poverty\nLevel (FPL). Recognizing that even 400% is too low, the federal American\nRescue Plan has extended Affordable Care Act subsidies up to 600% of the\nFPL. Accordingly, this bill eliminates asset tests and increases income\neligibility for financial assistance from 300% to 600% of the FPL.\n\nThe changes in this legislation will make it easier for DOH to ensure\nhospital compliance and simplify the experience for both patients and\nproviders. New Yorkers deserve accountability for critical tax dollars\ngoing towards health care and compliance with laws assisting and\nprotecting patients. Patients deserve the care they need without incur-\nring financial disaster.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2022 - S7625 (Rivera) - Advanced to 3rd Reading\n\n2021 - S7625 (Rivera) - Referred to Rules\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThe majority of the bill's patient protections take effect in 120 days.\nProvisions relating to the development of uniform financial assistance\nform and policy would take effect October 1, 2024, and would apply to\nfunding distributed on or after January 1, 2025.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1366A",
+    "publishDate": "2023-05-30",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH2807-K"
+       ],
+       "size": 1
+      },
+      "REPEAL": {
+       "items": [
+        "PBH2807-K"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6027",
+       "basePrintNoStr": "A6027-2023",
+       "printNo": "A6027A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the public health law, in relation to the general hospital\nindigent care pool; and to repeal certain provisions of such law relating\nthereto",
+    "basePrintNo": "S1366",
+    "basePrintNoStr": "S1366-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 1885,
+       "sessionYear": 2023,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2005,
+       "sessionYear": 2023,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2029,
+       "sessionYear": 2023,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2035,
+       "sessionYear": 2023,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 25
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2807-k, rpld §2807-k sub 14, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S1366B\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to the general hospi-\ntal indigent care pool; and to repeal certain provisions of such law\nrelating thereto\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo require hospitals to use a uniform financial assistance policy and\nform and to expand the eligibility and protections available through\nfinancial assistance.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis bill would:\n\nRequire general hospitals and their affiliated providers, including any\nagents of these parties, to utilize a uniform financial assistance poli-\ncy and form, that will be developed and provided by the Department of\nHealth, as a condition to participate in indigent care pool distrib-\nutions and as compliance to the public health law regarding financial\nassistance and hospital collection procedures.  This would also apply to\nany third party if the debt is transferred or sold.\n\nAllow low income individuals and those who can demonstrate their inabil-\nity to pay the charges to be eligible for financial aid.  Patients would\nnot be responsible for paying any bills and no interest would accrue on\nsaid bills until the hospital makes a decision on the financial aid\napplication.\n\nModify the maximum charges to patients receiving financial assistance as\nfollows:\n\nAll charges shall be waived and no nominal payments shall be made for\npatients with incomes at or below 200% of FPL.\n\nPatients above 200% and up to 400% of FPL would have charges reduced at\na sliding scale, and capped at 20% of the Medicaid payment rate.  Addi-\ntionally, patients above 200% and up to 400% of FPL would have their\noutstanding bills discharged after 36 monthly payments at the agreed\nupon amount.\n\nPatients with incomes above 400% and up to 600% of the federal poverty\nlevel are eligible to have charges capped at Medicaid payment levels for\nthe same service. Furthermore, patients with incomes above 400% and up\nto 600% of FPL would have their outstanding bills discharged after\nmaking 60 monthly payments at the agreed upon amount.\n\nRequire the Commissioner of Health (COH) and general hospitals to post\nthe policy and and form on their respective websites. It would also\nrequire hospitals to make patients aware of the financial assistance in\nplain language during the intake, admission, and discharge process. A\nsummary of the collections process must also be made available.\n\nAllow payment installment plans to be offered with payments capped at 5%\nof the patient's gross monthly income with the first payment due no\nsooner than 180 days after the date of service or discharge, whichever\nis later.\n\nCap interest on medical debt at 2% per year.\n\nRequire patients to be refunded any overpayments made after financial\nassistance is determined.\n\nRequire the hospital's chief financial officer to provide an affidavit\nstating that the hospital has taken reasonable steps to determine if the\npatient qualified for financial assistance. The patient's financial aid\neligibility shall be valid for a minimum of 12 months and will apply to\nall outstanding medical bills.\n\nModify hospital collection actions to allow a patient to apply for\nfinancial assistance if their financial circumstance has changed, even\nif a collection action has commenced.\n\nEstablish that a hospital may use credit scoring software to help deter-\nmine income eligibility, but a credit score may not be the sole determi-\nnant of eligibility.\n\nProhibit hospitals from reporting to financial reporting entities or\ncommencing a civil action if the hospital was notified that an appeal of\na health insurance determination is pending within the last 60 days or\nif the patient has a pending financial assistance application.\n\nRequire that legal action by a hospital to collect medical debt must\ninclude an affidavit attesting that the patient is not eligible for\nfinancial assistance based on information and belief.\n\nEstablish additional consumer protections relating to notifications,\nlanguage access, appeals, and complaints of abuse.\n\nAuthorize hospitals to inform and assist patients with applications for\nhealth insurance coverage with local services districts or the market-\nplace. Prohibits decisions on financial assistance applications from\nbeing contingent upon health insurance applications.\n\n \nJUSTIFICATION:\n\nCurrently, the Department of Health (DOH) distributes over $1 billion\nannually in Indigent Care Pool (ICP) funding to public and voluntary\nhospitals throughout the state. As a condition of receiving ICP funding,\nthe law requires hospitals to offer free or discounted care to uninsured\nlow- and moderate-income patients. Recent studies and news stories have\ndocumented that some hospitals are pursuing extraordinary collection\nactions and lawsuits against patients who often live in neighborhoods\nthat are disproportionately low-income or have a high percentage of\npeople of color, furthering systemic economic and racial inequality.\n\nThe law currently allows hospitals to develop their own hospital finan-\ncial assistance application forms and policies, as long as they meet\nguidelines provided by DOH. However, the state's audits repeatedly have\nfound that hospitals are not complying with the law, as have studies by\nconsumer advocates. In fact, recent DOH audits show that hospitals have\nbecome less compliant with the law over time. The lack of standardi-\nzation in how hospitals implement financial assistance policies results\nin patients who should receive assistance going without that assistance\nand even going without care.\n\nThis bill requires all hospitals to use one simplified form and policy\ndeveloped by DOH and it strengthens the guardrails for when and how\nhospitals can pursue extraordinary medical debt collection activities,\nsuch as suing patients.\n\nIn addition, the current eligibility requirements have not kept up with\ndevelopments in public coverage eligibility. Medicaid enrollees in the\nMAGI Medicaid program are no longer subject to an asset test.  The\nincome eligibility rules for premium subsidies under the State's Chil-\ndren Health Insurance Program extend up to 400% of the Federal Poverty\nLevel (FPL). Recognizing that even 400% is too low, the federal American\nRescue Plan has extended Affordable Care Act subsidies up to 600% of the\nFPL. Accordingly, this bill eliminates asset tests and increases income\neligibility for financial assistance from 300% to 600% of the FPL.\n\nThe changes in this legislation will make it easier for DOH to ensure\nhospital compliance and simplify the experience for both patients and\nproviders. New Yorkers deserve accountability for critical tax dollars\ngoing towards health care and compliance with laws assisting and\nprotecting patients. Patients deserve the care they need without incur-\nring financial disaster.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2023 - S1366A (Rivera) - Advanced to 3rd Reading\n\n2022 - S7625 (Rivera) - Advanced to 3rd Reading\n\n2021 - S7625 (Rivera) - Referred to Rules\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined.\n\n \nEFFECTIVE DATE:\nThe bill would take effect on January 1, 2025.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1366B",
+    "publishDate": "2024-01-16",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH2807-K"
+       ],
+       "size": 1
+      },
+      "REPEAL": {
+       "items": [
+        "PBH2807-K"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1366",
+ "basePrintNoStr": "S1366-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 38,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 41,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 42,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 43,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 44,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 45,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 46,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 47,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2023
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2023
+   }
+  ],
+  "size": 27
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 14,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 3,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-22",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-01-22T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2023-01-11T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2024-01-16T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2023-06-10T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S7625",
+    "basePrintNoStr": "S7625-2021",
+    "printNo": "S7625",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1366B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-11T13:47:16.546186",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2023-05-30T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2024-01-16T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2023-01-11T13:47:16.546186",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 2031,
+   "sessionYear": 2023,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-22",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to regulation of the billing by general hospitals and the distribution of funds from the general hospital indigent care pool; requires use of a uniform application form and policy.",
+ "title": "Modifies the distribution of funds from the general hospital indigent care pool; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2050,
+         "sessionYear": 2023,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 1878,
+         "sessionYear": 2023,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 13
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        }
+       ],
+       "size": 1
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2023-04-18",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1366",
+     "basePrintNoStr": "S1366-2023",
+     "printNo": "S1366B",
+     "session": 2023,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2050,
+         "sessionYear": 2023,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 1878,
+         "sessionYear": 2023,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 13
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        }
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2024-01-22",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2024
+}

@@ -1,0 +1,445 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2019",
+     "printNo": "S1016",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2019",
+     "printNo": "S1016",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-04-09",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2019",
+     "printNo": "S1016",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-05",
+    "sequenceNo": 3,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to informational materials\nconcerning menstrual disorders",
+    "basePrintNo": "S1016",
+    "basePrintNoStr": "S1016-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §268, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S1016\n\nSPONSOR: SERINO\n \nTITLE OF BILL:  An act to amend the public health law, in relation to\ninformational materials concerning menstrual disorders\n\n \nPURPOSE:\n\nTo provide informational materials concerning menstrual disorders for\nschool districts and health care practitioners\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Instructs the Commissioner of Health, in conjunction with the\nCommissioner of Education, to create materials to be provided to school\ndistricts and health care practitioners upon request regarding menstrual\ndisorders. Such materials will include information on symptoms, the\nimportance of menstrual health, statistics on endometriosis and other\nmenstrual disorders, best practices on being one's own healthcare advo-\ncate, and basic treatment options and recommendations for follow-up\ncare.\n\nSection 2: Provides the effective date.\n\n \nJUSTIFICATION:\n\nIt is imperative that as we educate young men and women about their\nhealth, that we instill in them the importance of being their own\nhealthcare advocate. This is particularly important as young people,\nparticularly young women, may begin to experience conditions and symp-\ntoms that they are unfamiliar with, especially menstrual conditions, and\nare deterred from asking about them because of certain social stigmas or\npersonal discomfort. As such, this legislation will begin these impor-\ntant conversations by requiring the Commissioner of Health, and the\nCommissioner of Education to create materials that can be utilized by\nschool districts and health care practitioners for educating young women\non menstrual disorders, and in particular, endometriosis.\n\nApproximately 1 out of every 10 women in the United States suffer from\nendometriosis, a painful condition where lining similar to that of the\nuterus grows outside of the uterus. While this is a common menstrual\ncondition, many people, and unfortunately many young women, are\ncompletely unaware of the disease. This lack of awareness explains why\nwomen typically suffer from endometriosis for 10 or more years before\nbeing correctly diagnosed - often with bouts of serious pain that can\ndisrupt their social, academic, and professional lives.  In addition,\nendometriosis is the leading cause of infertility and hysterectomies and\nis the only known precursor to ovarian cancer.  Given the seriousness of\nthis disease, and the stigma often associated with discussing menstrual\nhealth, it is critical that the state makes an effort to educate young\nwomen on this and similar menstrual conditions.\n\nThis legislation will help promote conversations regarding these issues\nand ensure young women have the education they need so they can take\nproactive steps to ensure their menstrual health and become their own\nhealthcare advocate.\n\n \nLEGISLATIVE HISTORY:\n\n2018: S.8543 Passed Senate\n\n \nFISCAL IMPLICATIONS:\n\nSubject to appropriation.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred twentieth day after it\nshall have become law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1016",
+    "publishDate": "2019-01-10",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A484",
+       "basePrintNoStr": "A484-2019",
+       "printNo": "A484",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1016",
+ "basePrintNoStr": "S1016-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 13,
+     "year": 2019
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-04-09",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2019-04-09T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2019-01-10T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8543",
+    "basePrintNoStr": "S8543-2017",
+    "printNo": "S8543",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1016",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-10T10:47:33.385224",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-01-10T10:47:33.385224",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 41,
+   "fullName": "Susan Serino",
+   "imgName": "890_susan_serino.jpg",
+   "incumbent": false,
+   "memberId": 890,
+   "sessionMemberId": 1368,
+   "sessionYear": 2019,
+   "shortName": "SERINO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-06-05",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Directs the commissioner of health to develop informational materials concerning menstrual disorders for distribution in schools and to patients.",
+ "title": "Relates to informational materials concerning menstrual disorders",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1016",
+     "basePrintNoStr": "S1016-2019",
+     "printNo": "S1016",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Bob Antonacci",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1236,
+         "sessionMemberId": 1234,
+         "sessionYear": 2019,
+         "shortName": "ANTONACCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1229,
+         "sessionYear": 2019,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 1191,
+         "sessionYear": 2019,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Chris Jacobs",
+         "imgName": "921_Chris_Jacobs.jpg",
+         "incumbent": false,
+         "memberId": 1099,
+         "sessionMemberId": 1385,
+         "sessionYear": 2019,
+         "shortName": "JACOBS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1204,
+         "sessionYear": 2019,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "Jen Metzger",
+         "imgName": "1054_Jen_Metzger.jpg",
+         "incumbent": false,
+         "memberId": 1234,
+         "sessionMemberId": 1232,
+         "sessionYear": 2019,
+         "shortName": "METZGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 1195,
+         "sessionYear": 2019,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1418,
+         "sessionYear": 2019,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1196,
+         "sessionYear": 2019,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1225,
+         "sessionYear": 2019,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1209,
+         "sessionYear": 2019,
+         "shortName": "STAVISKY"
+        }
+       ],
+       "size": 14
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1417,
+         "sessionYear": 2019,
+         "shortName": "GALLIVAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2019-04-09",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2019
+}

@@ -1,0 +1,219 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A6845",
+     "basePrintNoStr": "A6845-2009",
+     "printNo": "A6845",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2009-03-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ECONOMIC DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6845",
+     "basePrintNoStr": "A6845-2009",
+     "printNo": "A6845",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2010-01-06",
+    "sequenceNo": 2,
+    "text": "REFERRED TO ECONOMIC DEVELOPMENT"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "A6845",
+    "basePrintNoStr": "A6845-2009",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 11,
+       "fullName": "Robert Sweeney",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 472,
+       "sessionMemberId": 223,
+       "sessionYear": 2009,
+       "shortName": "SWEENEY"
+      },
+      {
+       "alternate": true,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 226,
+       "sessionYear": 2009,
+       "shortName": "WEPRIN"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Part T §3, Chap 84 of 2002",
+    "lawSection": "Education",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A6845",
+    "publishDate": "2009-07-28",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3279",
+       "basePrintNoStr": "S3279-2009",
+       "printNo": "S3279",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A6845",
+ "basePrintNoStr": "A6845-2009",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2010-01-06",
+    "billCalNo": null,
+    "committeeName": "Economic Development",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Economic Development",
+    "referenceDate": "2009-03-13T00:00",
+    "sessionYear": 2009
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Economic Development",
+    "referenceDate": "2010-01-06T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A6845",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-07-28T11:27:17",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 4,
+   "fullName": "Steven Englebright",
+   "imgName": "466_steven_englebright.jpg",
+   "incumbent": false,
+   "memberId": 466,
+   "sessionMemberId": 323,
+   "sessionYear": 2009,
+   "shortName": "ENGLEBRIGHT"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2010-01-06",
+  "billCalNo": null,
+  "committeeName": "Economic Development",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Includes the Advanced Energy Research and Technology Center (AERTC) at the State University of New York at Stony Brook in the center for excellence program.",
+ "title": "Includes the Advanced Energy Research and Technology Center (AERTC) at the State University of New York at Stony Brook in the center for excellence program",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

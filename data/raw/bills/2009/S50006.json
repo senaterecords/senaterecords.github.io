@@ -1,0 +1,188 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S50006",
+     "basePrintNoStr": "S50006-2009",
+     "printNo": "S50006",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend chapter 223 of the laws of 1996, amending the banking law relating to permissible fees in connection with open end loans, in relation to extending the effectiveness thereof",
+    "basePrintNo": "S50006",
+    "basePrintNoStr": "S50006-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3, Chap 223 of 1996",
+    "lawSection": "Banks",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S50006",
+    "publishDate": "2009-06-23",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S60404",
+       "basePrintNoStr": "S60404-2009",
+       "printNo": "S60404",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S5534",
+       "basePrintNoStr": "S5534-2009",
+       "printNo": "S5534",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "A8382",
+       "basePrintNoStr": "A8382-2009",
+       "printNo": "A8382",
+       "session": 2009,
+       "version": ""
+      },
+      {
+       "basePrintNo": "S65107",
+       "basePrintNoStr": "S65107-2009",
+       "printNo": "S65107",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 4
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S50006",
+ "basePrintNoStr": "S50006-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-06-23",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2009-06-23T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S50006",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 103
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-06-23T18:20",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-06-23T18:20:00",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": null,
+  "redistricting": false,
+  "rules": true
+ },
+ "status": {
+  "actionDate": "2009-06-23",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Extends the effectiveness of open end loans.",
+ "title": "Extends the effectiveness of open end loans",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

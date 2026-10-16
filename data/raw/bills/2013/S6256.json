@@ -1,0 +1,428 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6256",
+     "basePrintNoStr": "S6256-2013",
+     "printNo": "S6256",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6256",
+     "basePrintNoStr": "S6256-2013",
+     "printNo": "S6256",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-02-27",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6256",
+     "basePrintNoStr": "S6256-2013",
+     "printNo": "S6256",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2014-03-06",
+    "sequenceNo": 3,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the executive law, in relation to an ignition interlock device",
+    "basePrintNo": "S6256",
+    "basePrintNoStr": "S6256-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §259-c, Exec L",
+    "lawSection": "Executive Law",
+    "memo": "BILL NUMBER:S6256\n\nTITLE OF BILL:  An act to amend the executive law, in relation to an\nignition interlock device\n\nPURPOSE:\n\nRequires the Department of Corrections and Community Supervision to\nmaintain the responsibility and costs of monitoring any person\nreleased on parole with the mandatory requirement of an ignition\ninterlock device.\n\nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill amends Subdivision 15-a of section 259-c of the\nexecutive law, as amended by section 38-b of subpart A of part C of\nchapter 62 of the laws of 2011, to require the parole office to\nmaintain the responsibility and costs of monitoring any person\nreleased on parole with the mandatory requirement of installation of\nan ignition interlock device on their motor vehicle.\n\nSection 2 of the bill provides for an immediate effective date.\n\nJUSTIFICATION:\n\nUnder Chapter 62 of the Laws of 2011, parolees who are subject to the\nmandatory installation of an ignition interlock device when released\nfrom state prison are monitored by the county agency. The monitoring\nof parolees by county departments is duplicative and such departments\nare not equipped to monitor these individuals, The Department of\nCorrections and Community Supervision is already involved in their\nreentry and thus better suited for the task.\n\nLEGISLATIVE HISTORY:\n\n2012: Passed the Senate (S.5221A/A.7669A)\n2013- Passed the Senate (S.758)\n\nFISCAL IMPLICATIONS:\n\nTo be determined.\n\nEFFECTIVE DATE:\n\nImmediately.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6256",
+    "publishDate": "2014-01-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8449",
+       "basePrintNoStr": "A8449-2013",
+       "printNo": "A8449",
+       "session": 2013,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2013,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6256",
+ "basePrintNoStr": "S6256-2013",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 6,
+     "year": 2014
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Crime Victims, Crime And Correction"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-02-27",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Crime Victims, Crime And Correction",
+    "referenceDate": "2014-01-09T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2014-02-27T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S758",
+    "basePrintNoStr": "S758-2013",
+    "printNo": "S758",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S5221",
+    "basePrintNoStr": "S5221-2011",
+    "printNo": "S5221A",
+    "session": 2011,
+    "version": "A"
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S6256",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2014-01-09T09:30:12",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2014-01-09T09:30:12",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 40,
+   "fullName": "Greg Ball",
+   "imgName": "Greg Ball.jpg",
+   "incumbent": false,
+   "memberId": 408,
+   "sessionMemberId": 164,
+   "sessionYear": 2013,
+   "shortName": "BALL"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-03-06",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Requires the department of corrections and community supervision to maintain the responsibility and costs of monitoring any person released on parole with the mandatory requirement of installation of an ignition interlock device on their motor vehicle.",
+ "title": "Requires the department of corrections and community supervision to maintain the responsibility and costs of monitoring any person required to use an ignition interlock device",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6256",
+     "basePrintNoStr": "S6256-2013",
+     "printNo": "S6256",
+     "session": 2013,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Crime Victims, Crime And Correction"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "David Carlucci",
+         "imgName": "370_david_carlucci.jpg",
+         "incumbent": false,
+         "memberId": 370,
+         "sessionMemberId": 126,
+         "sessionYear": 2013,
+         "shortName": "CARLUCCI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John A. DeFrancisco",
+         "imgName": "376_john_a._defrancisco.jpg",
+         "incumbent": false,
+         "memberId": 376,
+         "sessionMemberId": 132,
+         "sessionYear": 2013,
+         "shortName": "DEFRANCISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 182,
+         "sessionYear": 2013,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 149,
+         "sessionYear": 2013,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Ruth Hassell-Thompson",
+         "imgName": "380_ruth_hassell-thompson.jpg",
+         "incumbent": false,
+         "memberId": 380,
+         "sessionMemberId": 136,
+         "sessionYear": 2013,
+         "shortName": "HASSELL-THOMPSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 135,
+         "sessionYear": 2013,
+         "shortName": "LITTLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 62,
+         "fullName": "George D. Maziarz",
+         "imgName": "George D. Maziarz.jpg",
+         "incumbent": false,
+         "memberId": 411,
+         "sessionMemberId": 167,
+         "sessionYear": 2013,
+         "shortName": "MAZIARZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 168,
+         "sessionYear": 2013,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 54,
+         "fullName": "Michael F. Nozzolio",
+         "imgName": "394_michael_f._nozzolio.jpg",
+         "incumbent": false,
+         "memberId": 394,
+         "sessionMemberId": 150,
+         "sessionYear": 2013,
+         "shortName": "NOZZOLIO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 13,
+         "fullName": "José Peralta",
+         "imgName": "428_jose_peralta.jpg",
+         "incumbent": false,
+         "memberId": 428,
+         "sessionMemberId": 187,
+         "sessionYear": 2013,
+         "shortName": "PERALTA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 179,
+         "sessionYear": 2013,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 133,
+         "sessionYear": 2013,
+         "shortName": "RIVERA"
+        }
+       ],
+       "size": 12
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 176,
+         "sessionYear": 2013,
+         "shortName": "HOYLMAN"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2014-02-27",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 0
+}

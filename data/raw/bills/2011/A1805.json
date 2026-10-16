@@ -1,0 +1,252 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A1805",
+     "basePrintNoStr": "A1805-2011",
+     "printNo": "A1805",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-01-12",
+    "sequenceNo": 1,
+    "text": "REFERRED TO JUDICIARY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1805",
+     "basePrintNoStr": "A1805-2011",
+     "printNo": "A1805",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-03-15",
+    "sequenceNo": 2,
+    "text": "REPORTED"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1805",
+     "basePrintNoStr": "A1805-2011",
+     "printNo": "A1805",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-03-17",
+    "sequenceNo": 3,
+    "text": "ADVANCED TO THIRD READING CAL.131"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1805",
+     "basePrintNoStr": "A1805-2011",
+     "printNo": "A1805",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-01-04",
+    "sequenceNo": 4,
+    "text": "REFERRED TO JUDICIARY"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general obligations law, in relation to voiding exemptions from liability",
+    "basePrintNo": "A1805",
+    "basePrintNoStr": "A1805-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 55,
+       "fullName": "William Boyland",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 508,
+       "sessionMemberId": 349,
+       "sessionYear": 2011,
+       "shortName": "BOYLAND"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 476,
+       "sessionYear": 2011,
+       "shortName": "GOTTFRIED"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §5-336, Gen Ob L",
+    "lawSection": "General Obligations Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A1805",
+    "publishDate": "2011-01-12",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A1805",
+ "basePrintNoStr": "A1805-2011",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-01-04",
+    "billCalNo": null,
+    "committeeName": "Judiciary",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Judiciary",
+    "referenceDate": "2011-01-12T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Judiciary",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A608",
+    "basePrintNoStr": "A608-2009",
+    "printNo": "A608A",
+    "session": 2009,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A407",
+    "basePrintNoStr": "A407-2007",
+    "printNo": "A407",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "A1805",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-01-12T11:34:58",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-01-12T11:34:58",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 81,
+   "fullName": "Jeffrey Dinowitz",
+   "imgName": "533_jeffrey_dinowitz.jpg",
+   "incumbent": true,
+   "memberId": 533,
+   "sessionMemberId": 379,
+   "sessionYear": 2011,
+   "shortName": "DINOWITZ"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-01-04",
+  "billCalNo": null,
+  "committeeName": "Judiciary",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Voids agreements exempting parties, their agents, servants or employees, from liability for damages caused by their negligence, as against public policy unless state statute, federal or international law specifically provides otherwise.",
+ "title": "Voids agreements exempting parties, their agents, servants or employees, from liability for damages caused by their negligence, as against public policy",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

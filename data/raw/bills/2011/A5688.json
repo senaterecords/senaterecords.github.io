@@ -1,0 +1,261 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A5688",
+     "basePrintNoStr": "A5688-2011",
+     "printNo": "A5688",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-02-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO GOVERNMENTAL EMPLOYEES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5688",
+     "basePrintNoStr": "A5688-2011",
+     "printNo": "A5688",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-01-04",
+    "sequenceNo": 2,
+    "text": "REFERRED TO GOVERNMENTAL EMPLOYEES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5688",
+     "basePrintNoStr": "A5688-2011",
+     "printNo": "A5688",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-05-15",
+    "sequenceNo": 3,
+    "text": "HELD FOR CONSIDERATION IN GOVERNMENTAL EMPLOYEES"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the retirement and social security law, in relation to the management of retirement loans",
+    "basePrintNo": "A5688",
+    "basePrintNoStr": "A5688-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 15,
+       "fullName": "Michael Montesano",
+       "imgName": "476_michael_montesano.jpg",
+       "incumbent": false,
+       "memberId": 476,
+       "sessionMemberId": 469,
+       "sessionYear": 2011,
+       "shortName": "MONTESANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 107,
+       "fullName": "Clifford Crouch",
+       "imgName": "557_clifford_crouch.jpg",
+       "incumbent": false,
+       "memberId": 557,
+       "sessionMemberId": 482,
+       "sessionYear": 2011,
+       "shortName": "CROUCH"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §50, R & SS L",
+    "lawSection": "Retirement and Social Security Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 96,
+       "fullName": "Nancy Calhoun",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 547,
+       "sessionMemberId": 442,
+       "sessionYear": 2011,
+       "shortName": "CALHOUN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 139,
+       "fullName": "Stephen Hawley",
+       "imgName": "589_stephen_hawley.jpg",
+       "incumbent": true,
+       "memberId": 589,
+       "sessionMemberId": 404,
+       "sessionYear": 2011,
+       "shortName": "HAWLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 113,
+       "fullName": "Teresa Sayward",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 563,
+       "sessionMemberId": 441,
+       "sessionYear": 2011,
+       "shortName": "SAYWARD"
+      }
+     ],
+     "size": 3
+    },
+    "printNo": "A5688",
+    "publishDate": "2011-02-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A5688",
+ "basePrintNoStr": "A5688-2011",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-01-04",
+    "billCalNo": null,
+    "committeeName": "Governmental Employees",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Employees",
+    "referenceDate": "2011-02-25T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Employees",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A5688",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-02-25T11:53:18",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-02-25T11:53:18",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 112,
+   "fullName": "Tony Jordan",
+   "imgName": "no_image.jpg",
+   "incumbent": false,
+   "memberId": 562,
+   "sessionMemberId": 440,
+   "sessionYear": 2011,
+   "shortName": "JORDAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-01-04",
+  "billCalNo": null,
+  "committeeName": "Governmental Employees",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the management of retirement loans.",
+ "title": "Relates to the management of retirement loans",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

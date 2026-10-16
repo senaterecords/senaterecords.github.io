@@ -1,0 +1,988 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-03-30",
+    "sequenceNo": 1,
+    "text": "REFERRED TO AGRICULTURE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-02",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.934"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-06",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-07",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-06-13",
+    "sequenceNo": 5,
+    "text": "COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-01-04",
+    "sequenceNo": 6,
+    "text": "REFERRED TO AGRICULTURE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-01",
+    "sequenceNo": 7,
+    "text": "AMEND AND RECOMMIT TO AGRICULTURE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-01",
+    "sequenceNo": 8,
+    "text": "PRINT NUMBER 4340A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340A",
+     "session": 2011,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2012-03-06",
+    "sequenceNo": 9,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the agriculture and markets law, the tax law, the vehicle and traffic law and the environmental conservation law, in relation to reducing farm-based taxes, fees and regulatory burdens to help grow the agricultural economy and benefit family farms",
+    "basePrintNo": "S4340",
+    "basePrintNoStr": "S4340-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 92,
+       "sessionYear": 2011,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Tom Libous",
+       "imgName": "410_tom_libous.jpg",
+       "incumbent": false,
+       "memberId": 410,
+       "sessionMemberId": 104,
+       "sessionYear": 2011,
+       "shortName": "LIBOUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "Catharine Young",
+       "imgName": "414_catharine_young.jpg",
+       "incumbent": false,
+       "memberId": 414,
+       "sessionMemberId": 108,
+       "sessionYear": 2011,
+       "shortName": "YOUNG"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §303-b, Ag & Mkts L; amd §§210, 606, 1136 & 658, Tax L; amd §§499-b & 401, V & T L; amd §72-0602, En Con L",
+    "lawSection": "Agriculture and Markets Law",
+    "memo": "BILL NUMBER:S4340\n\nTITLE OF BILL:\nAn act\nto amend the agriculture and markets law, the tax law,\nthe vehicle and traffic law\nand the environmental conservation law, in relation to reducing\nfarm-based taxes, fees and regulatory burdens to help grow the\nagricultural economy and benefit family farms\n\nPURPOSE OR GENERAL IDEA OF BILL:\nTo reduce farm-based taxes, fees, and\nregulatory burdens imposed on our state's farms to allow the state's\nvital agricultural economy to grow and to benefit family farms in New\nYork State.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nSection 303-b of Ag & Markets Law is\namended to allow Agricultural District hearing notices to be provided\nto all landowners with land being proposed for inclusion in an\nagricultural district.\n\nSubdivision 12 of section 210 of the tax law is amended by adding a\nnew paragraph (e-1) to provide agricultural operations with a\nrefundable investment tax credit.\n\nSubparagraph (C) of paragraph 1 of subdivision (i) of section 1136 of\nthe tax law, as added by section 1 of subpart G of part V-1 of\nchapter 57 of the laws of 2009, is amended to exempt farm wineries\nfrom sales tax reporting requirements.\n\nSection 658 (c) and Section 210(1)(d)(4) of tax law is amended to\nease farm filing burdens with regard to corporation filing fees.\n\nSections 800 and 504 of tax law are amended to ease payroll tax and\nvehicle supplemental registration fees within the Metropolitan\nTransit Authority (MTA) service region.\n\nSection of 499-b of vehicle and traffic law is amended to make\nnecessary clarifications to exempt rented trucks used for\nagricultural purposes from the highway use tax.\n\nSection 401(7)(E) of vehicle & traffic law is amended to reduce\nagricultural plated truck registration fees.\n\nSection 72-0602 of environmental conservation law is amended to reduce\nState Pollutant Discharge Elimination System permit fees to\nagricultural projects.\n\nJUSTIFICATION:\nNew York's farms provide substantial economic and\nenvironmental benefits to local communities and consumers in New York\nState. The agricultural industry can drive the revitalization of the\neconomy of upstate New York and Long Island, but only if given a\nchance to succeed.\n\n\nCrushing taxes, ever increasing fees and endless paperwork are stifling\nneeded business investment and are forcing farmers to spend more time\npushing pencils and cutting red tape than actually farming. With\nagriculture facing ever increasing global competition, New York must\nprovide farmers with the tools to succeed in their business. Not\ncontinue to construct obstacles to doing business that farmers must\nhurdle on a daily basis.\n\nThis bill is a first step in keeping and growing New York State's\nviable farm operations, developing new agricultural businesses, and\nproducing high quality, affordable, local food for our state's\nresidents.\n\nPRIOR LEGISLATIVE HISTORY:\nA.10103/S.6947A of 2009-2010.\n\nFISCAL IMPLICATIONS:\nMinimal.\n\nEFFECTIVE DATE:\nImmediately, with provisions.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4340",
+    "publishDate": "2011-03-30",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5286",
+       "basePrintNoStr": "A5286-2011",
+       "printNo": "A5286",
+       "session": 2011,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the agriculture and markets law, the tax law, the vehicle and traffic law and the environmental conservation law, in relation to reducing farm-based taxes, fees and regulatory burdens to help grow the agricultural economy and benefit family farms",
+    "basePrintNo": "S4340",
+    "basePrintNoStr": "S4340-2011",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 121,
+       "sessionYear": 2011,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Mark Grisanti",
+       "imgName": "Mark Grisanti.jpg",
+       "incumbent": false,
+       "memberId": 398,
+       "sessionMemberId": 92,
+       "sessionYear": 2011,
+       "shortName": "GRISANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Kenneth P. LaValle",
+       "imgName": "419_kenneth_p._lavalle.jpg",
+       "incumbent": false,
+       "memberId": 419,
+       "sessionMemberId": 113,
+       "sessionYear": 2011,
+       "shortName": "LAVALLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Tom Libous",
+       "imgName": "410_tom_libous.jpg",
+       "incumbent": false,
+       "memberId": 410,
+       "sessionMemberId": 104,
+       "sessionYear": 2011,
+       "shortName": "LIBOUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "John J. Bonacic",
+       "imgName": "413_john_j._bonacic.jpg",
+       "incumbent": false,
+       "memberId": 413,
+       "sessionMemberId": 107,
+       "sessionYear": 2011,
+       "shortName": "BONACIC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "William J. Larkin Jr.",
+       "imgName": "374_william_j._larkin_jr.jpg",
+       "incumbent": false,
+       "memberId": 374,
+       "sessionMemberId": 68,
+       "sessionYear": 2011,
+       "shortName": "LARKIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "James L. Seward",
+       "imgName": "371_james_l._seward.jpg",
+       "incumbent": false,
+       "memberId": 371,
+       "sessionMemberId": 65,
+       "sessionYear": 2011,
+       "shortName": "SEWARD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 87,
+       "sessionYear": 2011,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John A. DeFrancisco",
+       "imgName": "376_john_a._defrancisco.jpg",
+       "incumbent": false,
+       "memberId": 376,
+       "sessionMemberId": 70,
+       "sessionYear": 2011,
+       "shortName": "DEFRANCISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "Catharine Young",
+       "imgName": "414_catharine_young.jpg",
+       "incumbent": false,
+       "memberId": 414,
+       "sessionMemberId": 108,
+       "sessionYear": 2011,
+       "shortName": "YOUNG"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Greg Ball",
+       "imgName": "Greg Ball.jpg",
+       "incumbent": false,
+       "memberId": 408,
+       "sessionMemberId": 102,
+       "sessionYear": 2011,
+       "shortName": "BALL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Thomas F. O'Mara",
+       "imgName": "415_thomas_f._o'mara.jpg",
+       "incumbent": true,
+       "memberId": 415,
+       "sessionMemberId": 109,
+       "sessionYear": 2011,
+       "shortName": "O'MARA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "David J. Valesky",
+       "imgName": "395_david_j._valesky.jpg",
+       "incumbent": false,
+       "memberId": 395,
+       "sessionMemberId": 89,
+       "sessionYear": 2011,
+       "shortName": "VALESKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Roy J. McDonald",
+       "imgName": "Roy J. McDonald.jpg",
+       "incumbent": false,
+       "memberId": 389,
+       "sessionMemberId": 83,
+       "sessionYear": 2011,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Betty Little",
+       "imgName": "379_betty_little.jpg",
+       "incumbent": false,
+       "memberId": 379,
+       "sessionMemberId": 73,
+       "sessionYear": 2011,
+       "shortName": "LITTLE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Owen H. Johnson",
+       "imgName": "Owen H. Johnson.jpg",
+       "incumbent": false,
+       "memberId": 386,
+       "sessionMemberId": 80,
+       "sessionYear": 2011,
+       "shortName": "JOHNSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 62,
+       "fullName": "George D. Maziarz",
+       "imgName": "George D. Maziarz.jpg",
+       "incumbent": false,
+       "memberId": 411,
+       "sessionMemberId": 105,
+       "sessionYear": 2011,
+       "shortName": "MAZIARZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Michael H. Ranzenhofer",
+       "imgName": "406_michael_h._ranzenhofer.jpg",
+       "incumbent": false,
+       "memberId": 406,
+       "sessionMemberId": 100,
+       "sessionYear": 2011,
+       "shortName": "RANZENHOFER"
+      }
+     ],
+     "size": 18
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §303-b, Ag & Mkts L; amd §§210, 606, 1136 & 658, Tax L; amd §§499-b & 401, V & T L; amd §72-0602, En Con L",
+    "lawSection": "Agriculture and Markets Law",
+    "memo": "BILL NUMBER:S4340A\n\nTITLE OF BILL:\nAn act\nto amend the agriculture and markets law, the tax law,\nthe vehicle and traffic law\nand the environmental conservation law, in relation to reducing\nfarm-based taxes, fees and regulatory burdens to help grow the\nagricultural economy and benefit family farms\n\nPURPOSE OR GENERAL IDEA OF BILL:\nTo reduce farm-based taxes, fees, and regulatory burdens imposed on\nour state's farms to allow the state's vital agricultural economy to\ngrow and to benefit family farms in New York State.\n\nSUMMARY OF SPECIFIC PROVISIONS:\nSection 303-b of Ag & Markets Law is amended to allow Agricultural\nDistrict hearing notices to be provided to all landowners with land\nbeing proposed for inclusion in an agricultural district.\n\nSubdivision 12 of section 210 of the tax law is amended by adding a\nnew paragraph (e-1) to provide agricultural operations with a\nrefundable investment tax credit.\n\nSubparagraph (C) of paragraph 1 of subdivision (i) of section 1136 of\nthe tax law, as added by section 1 of subpart G of part V-1 of\nchapter 57 of the laws of 2009, is amended to exempt farm wineries\nfrom sales tax reporting requirements.\n\nSection 658 (c) and Section 210(1)(d)(4) of tax law is amended to ease\nfarm filing burdens with regard to corporation filing fees.\n\nSection of 499-b of vehicle and traffic law is amended to make\nnecessary clarifications to exempt rented trucks used for\nagricultural purposes from the highway use tax.\n\nSection 401(7)(E) of vehicle & traffic law is amended to reduce\nagricultural plated truck registration fees.\n\nSection 72-0602 of environmental conservation law is amended to reduce\nState Pollutant Discharge Elimination System permit fees to\nagricultural projects.\n\nJUSTIFICATION:\nNew York's farms provide substantial economic and environmental\nbenefits to local communities and consumers in New York State. The\nagricultural industry can drive the revitalization of the economy of\nupstate New York and Long Island, but only if given a chance to\nsucceed.\n\nCrushing taxes, ever increasing fees and endless paperwork are\nstifling needed business investment and are forcing farmers to spend\nmore time pushing pencils and cutting red tape than actually farming.\nWith agriculture facing ever increasing global competition, New York\nmust provide farmers with the tools to succeed in their business. Not\ncontinue to construct obstacles to doing business that farmers must\nhurdle on a daily basis.\n\nThis bill is a first step in keeping and growing New York State's\nviable farm operations, developing new agricultural businesses, and\nproducing high quality, affordable, local food for our state's\nresidents.\n\nHISTORY:\nS.6947A of 2010 - Referred to Finance\nS.4340  of 2011 - Referred to Finance\n\nFISCAL IMPLICATIONS:\nMinimal.\n\nEFFECTIVE DATE:\nImmediately, provided however, that section three shall take effect on\nthe ninetieth day after it becomes law, and that sections four and\nfive shall apply to any tax year commencing on or after January 1,\n2013.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4340A",
+    "publishDate": "2012-03-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5286",
+       "basePrintNoStr": "A5286-2011",
+       "printNo": "A5286A",
+       "session": 2011,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4340",
+ "basePrintNoStr": "S4340-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 49,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2011
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2011
+   }
+  ],
+  "size": 3
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2011
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Agriculture"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 8,
+     "year": 2012
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Agriculture"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-03-06",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Agriculture",
+    "referenceDate": "2011-03-30T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Agriculture",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Agriculture",
+    "referenceDate": "2012-03-01T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2011-06-13T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2012-03-06T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6947",
+    "basePrintNoStr": "S6947-2009",
+    "printNo": "S6947A",
+    "session": 2009,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S4340A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-03-30T09:31:51",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2012-03-01T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2011-03-30T09:31:51",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 48,
+   "fullName": "Patty Ritchie",
+   "imgName": "423_patty_ritchie.jpg",
+   "incumbent": false,
+   "memberId": 423,
+   "sessionMemberId": 117,
+   "sessionYear": 2011,
+   "shortName": "RITCHIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-03-06",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts the let New York Farm act; relates to reducing farm-based taxes, fees and regulatory burdens to help grow the agricultural economy and benefit family farms.",
+ "title": "Relates to reducing farm-based taxes, fees and regulatory burdens",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340",
+     "session": 2011,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Agriculture"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 121,
+         "sessionYear": 2011,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "Shirley L. Huntley",
+         "imgName": "Shirley L. Huntley.jpg",
+         "incumbent": false,
+         "memberId": 378,
+         "sessionMemberId": 72,
+         "sessionYear": 2011,
+         "shortName": "HUNTLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 123,
+         "sessionYear": 2011,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 109,
+         "sessionYear": 2011,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 100,
+         "sessionYear": 2011,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 117,
+         "sessionYear": 2011,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 89,
+         "sessionYear": 2011,
+         "shortName": "VALESKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 108,
+         "sessionYear": 2011,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 9
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 85,
+         "sessionYear": 2011,
+         "shortName": "AVELLA"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2011-06-01",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4340",
+     "basePrintNoStr": "S4340-2011",
+     "printNo": "S4340A",
+     "session": 2011,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Agriculture"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 121,
+         "sessionYear": 2011,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "Shirley L. Huntley",
+         "imgName": "Shirley L. Huntley.jpg",
+         "incumbent": false,
+         "memberId": 378,
+         "sessionMemberId": 72,
+         "sessionYear": 2011,
+         "shortName": "HUNTLEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 123,
+         "sessionYear": 2011,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 109,
+         "sessionYear": 2011,
+         "shortName": "O'MARA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 100,
+         "sessionYear": 2011,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 117,
+         "sessionYear": 2011,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 65,
+         "sessionYear": 2011,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "David J. Valesky",
+         "imgName": "395_david_j._valesky.jpg",
+         "incumbent": false,
+         "memberId": 395,
+         "sessionMemberId": 89,
+         "sessionYear": 2011,
+         "shortName": "VALESKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "Catharine Young",
+         "imgName": "414_catharine_young.jpg",
+         "incumbent": false,
+         "memberId": 414,
+         "sessionMemberId": 108,
+         "sessionYear": 2011,
+         "shortName": "YOUNG"
+        }
+       ],
+       "size": 9
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Tony Avella",
+         "imgName": "391_tony_avella.jpg",
+         "incumbent": false,
+         "memberId": 391,
+         "sessionMemberId": 85,
+         "sessionYear": 2011,
+         "shortName": "AVELLA"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2012-03-06",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 0
+}

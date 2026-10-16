@@ -1,0 +1,195 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S255",
+     "basePrintNoStr": "S255-2019",
+     "printNo": "S255",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S255",
+     "basePrintNoStr": "S255-2019",
+     "printNo": "S255",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-23",
+    "sequenceNo": 2,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to developing guidelines to\nencouraging participation in apprenticeships and raising awareness in\napprenticeship opportunities",
+    "basePrintNo": "S255",
+    "basePrintNoStr": "S255-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §305, Ed L",
+    "lawSection": "Education Law",
+    "memo": "\n \nBILL NUMBER: S255\n\nSPONSOR: KENNEDY\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to developing guidelines\nto encouraging participation in apprenticeships and raising awareness in\napprenticeship opportunities\n\n \nPURPOSE:\n\nTo ensure that high school students in New York are made aware of\napprenticeship and trade opportunities.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one directs the commissioner, in consultation with the depart-\nment of labor and pupil personnel advocates, develop guidelines for use\nby high school guidance counselors in making students aware of appren-\nticeship opportunities and encouraging student participation in appren-\nticeships.\n\nSection two sets the effective date.\n\n \nJUSTIFICATION:\n\nEvery year many jobs in New York go unfilled because of the lack of\nworkers with the appropriate skills necessary to fill those jobs.  Many\nof these jobs are in the building, construction, manufacturing, and\nmaritime trades. Often times, apprenticeships are the best way to\nreceive the skills necessary to obtain such jobs. Raising awareness\nabout such apprenticeship opportunities at the high school level allows\nstudents the chance to potentially participate in an apprenticeship and\ngain valuable work skills and life experience as they consider their\nfuture educational and/or work path beyond high school, and for busi-\nnesses to fill middle-skill jobs that are needlessly left vacant.\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S255",
+    "publishDate": "2019-01-02",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S255",
+ "basePrintNoStr": "S255-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-01-09",
+    "billCalNo": null,
+    "committeeName": "Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2019-01-09T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S2124",
+    "basePrintNoStr": "S2124-2017",
+    "printNo": "S2124B",
+    "session": 2017,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S7915",
+    "basePrintNoStr": "S7915-2015",
+    "printNo": "S7915",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "S255",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-02T16:08:31.577835",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-01-02T16:08:31.577835",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 63,
+   "fullName": "Timothy M. Kennedy",
+   "imgName": "429_timothy_m._kennedy.jpg",
+   "incumbent": false,
+   "memberId": 429,
+   "sessionMemberId": 1205,
+   "sessionYear": 2019,
+   "shortName": "KENNEDY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-01-23",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Requires the commissioner of education to develop guidelines to encourage those in high school to participate in apprenticeships and to raise awareness in apprenticeship opportunities.",
+ "title": "Requires the commissioner of education to develop guidelines to encourage participation in apprenticeships",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

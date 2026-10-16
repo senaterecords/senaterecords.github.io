@@ -1,0 +1,1180 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-04-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-04-30",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-04-30",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 7241A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-05-22",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-05-22",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 7241B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-01-08",
+    "sequenceNo": 6,
+    "text": "REFERRED TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-01-13",
+    "sequenceNo": 7,
+    "text": "AMEND AND RECOMMIT TO HIGHER EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7241",
+     "basePrintNoStr": "A7241-2019",
+     "printNo": "A7241C",
+     "session": 2019,
+     "version": "C"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-01-13",
+    "sequenceNo": 8,
+    "text": "PRINT NUMBER 7241C"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "C",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B",
+   "C"
+  ],
+  "size": 4
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to providing a program fee\noption for graduate students",
+    "basePrintNo": "A7241",
+    "basePrintNoStr": "A7241-2019",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §355, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A7241",
+    "publishDate": "2019-04-18",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to providing a program fee\noption for graduate students",
+    "basePrintNo": "A7241",
+    "basePrintNoStr": "A7241-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 21,
+       "fullName": "Judy Griffin",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1241,
+       "sessionMemberId": 1239,
+       "sessionYear": 2019,
+       "shortName": "GRIFFIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 46,
+       "fullName": "Mathylde Frontus",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1256,
+       "sessionMemberId": 1254,
+       "sessionYear": 2019,
+       "shortName": "FRONTUS"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §355, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      }
+     ],
+     "size": 1
+    },
+    "printNo": "A7241A",
+    "publishDate": "2019-04-30",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3916",
+       "basePrintNoStr": "S3916-2019",
+       "printNo": "S3916A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the education law, in relation to providing a program fee\noption for graduate students",
+    "basePrintNo": "A7241",
+    "basePrintNoStr": "A7241-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 21,
+       "fullName": "Judy Griffin",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1241,
+       "sessionMemberId": 1239,
+       "sessionYear": 2019,
+       "shortName": "GRIFFIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 46,
+       "fullName": "Mathylde Frontus",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1256,
+       "sessionMemberId": 1254,
+       "sessionYear": 2019,
+       "shortName": "FRONTUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 1255,
+       "sessionYear": 2019,
+       "shortName": "REYES"
+      }
+     ],
+     "size": 3
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §355, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      }
+     ],
+     "size": 1
+    },
+    "printNo": "A7241B",
+    "publishDate": "2019-05-22",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   },
+   "C": {
+    "actClause": "AN ACT to amend the education law, in relation to providing a program fee\noption for graduate students",
+    "basePrintNo": "A7241",
+    "basePrintNoStr": "A7241-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 21,
+       "fullName": "Judy Griffin",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1241,
+       "sessionMemberId": 1239,
+       "sessionYear": 2019,
+       "shortName": "GRIFFIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 46,
+       "fullName": "Mathylde Frontus",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1256,
+       "sessionMemberId": 1254,
+       "sessionYear": 2019,
+       "shortName": "FRONTUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 1255,
+       "sessionYear": 2019,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Walter T. Mosley",
+       "imgName": "663_walter_t._mosley.jpg",
+       "incumbent": false,
+       "memberId": 663,
+       "sessionMemberId": 1356,
+       "sessionYear": 2019,
+       "shortName": "MOSLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1317,
+       "sessionYear": 2019,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 59,
+       "fullName": "Jaime R. Williams",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1116,
+       "sessionMemberId": 1389,
+       "sessionYear": 2019,
+       "shortName": "WILLIAMS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Inez E. Dickens",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1128,
+       "sessionMemberId": 1398,
+       "sessionYear": 2019,
+       "shortName": "DICKENS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 44,
+       "fullName": "Robert C. Carroll",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1122,
+       "sessionMemberId": 1393,
+       "sessionYear": 2019,
+       "shortName": "CARROLL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 1256,
+       "sessionYear": 2019,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 79,
+       "fullName": "Michael Blake",
+       "imgName": "899_michael_blake.jpg",
+       "incumbent": false,
+       "memberId": 899,
+       "sessionMemberId": 1372,
+       "sessionYear": 2019,
+       "shortName": "BLAKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 1240,
+       "sessionYear": 2019,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 73,
+       "fullName": "Dan Quart",
+       "imgName": "618_dan_quart.jpg",
+       "incumbent": false,
+       "memberId": 618,
+       "sessionMemberId": 1336,
+       "sessionYear": 2019,
+       "shortName": "QUART"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 1376,
+       "sessionYear": 2019,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 36,
+       "fullName": "Aravella Simotas",
+       "imgName": "612_aravella_simotas.jpg",
+       "incumbent": false,
+       "memberId": 612,
+       "sessionMemberId": 1333,
+       "sessionYear": 2019,
+       "shortName": "SIMOTAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 11,
+       "fullName": "Kimberly Jean-Pierre",
+       "imgName": "901_jean-pierre.jpg",
+       "incumbent": false,
+       "memberId": 901,
+       "sessionMemberId": 1374,
+       "sessionYear": 2019,
+       "shortName": "JEAN-PIERRE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 93,
+       "fullName": "David Buchwald",
+       "imgName": "654_david_buchwald.jpg",
+       "incumbent": false,
+       "memberId": 654,
+       "sessionMemberId": 1348,
+       "sessionYear": 2019,
+       "shortName": "BUCHWALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Harvey Epstein",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1144,
+       "sessionMemberId": 1409,
+       "sessionYear": 2019,
+       "shortName": "EPSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 127,
+       "fullName": "Albert A. Stirpe",
+       "imgName": "571_albert_a._stirpe.jpg",
+       "incumbent": true,
+       "memberId": 571,
+       "sessionMemberId": 1448,
+       "sessionYear": 2019,
+       "shortName": "STIRPE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 9,
+       "fullName": "Mike LiPetri",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1239,
+       "sessionMemberId": 1237,
+       "sessionYear": 2019,
+       "shortName": "LIPETRI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 7,
+       "fullName": "Andrew R. Garbarino",
+       "imgName": "658_andrew_r._garbarino.jpg",
+       "incumbent": false,
+       "memberId": 658,
+       "sessionMemberId": 1352,
+       "sessionYear": 2019,
+       "shortName": "GARBARINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 71,
+       "fullName": "Al Taylor",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1141,
+       "sessionMemberId": 1408,
+       "sessionYear": 2019,
+       "shortName": "TAYLOR"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 4,
+       "fullName": "Steven Englebright",
+       "imgName": "466_steven_englebright.jpg",
+       "incumbent": false,
+       "memberId": 466,
+       "sessionMemberId": 1295,
+       "sessionYear": 2019,
+       "shortName": "ENGLEBRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 85,
+       "fullName": "Marcos Crespo",
+       "imgName": "537_marcos_crespo.jpg",
+       "incumbent": false,
+       "memberId": 537,
+       "sessionMemberId": 1440,
+       "sessionYear": 2019,
+       "shortName": "CRESPO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 146,
+       "fullName": "Karen McMahon",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1255,
+       "sessionMemberId": 1253,
+       "sessionYear": 2019,
+       "shortName": "MCMAHON"
+      },
+      {
+       "alternate": true,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1315,
+       "sessionYear": 2019,
+       "shortName": "GOTTFRIED R"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 5,
+       "fullName": "Doug Smith",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1148,
+       "sessionMemberId": 1412,
+       "sessionYear": 2019,
+       "shortName": "SMITH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 1364,
+       "sessionYear": 2019,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 23,
+       "fullName": "Stacey Pheffer Amato",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1131,
+       "sessionMemberId": 1401,
+       "sessionYear": 2019,
+       "shortName": "PHEFFER AMATO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 29,
+       "fullName": "Alicia Hyndman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1089,
+       "sessionMemberId": 1383,
+       "sessionYear": 2019,
+       "shortName": "HYNDMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 51,
+       "fullName": "Felix Ortiz",
+       "imgName": "504_felix_ortiz.jpg",
+       "incumbent": false,
+       "memberId": 504,
+       "sessionMemberId": 1307,
+       "sessionYear": 2019,
+       "shortName": "ORTIZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 80,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": false,
+       "memberId": 1146,
+       "sessionMemberId": 1410,
+       "sessionYear": 2019,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 142,
+       "fullName": "Patrick Burke",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1254,
+       "sessionMemberId": 1252,
+       "sessionYear": 2019,
+       "shortName": "BURKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1338,
+       "sessionYear": 2019,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 10,
+       "fullName": "Steve Stern",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1147,
+       "sessionMemberId": 1411,
+       "sessionYear": 2019,
+       "shortName": "STERN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 1318,
+       "sessionYear": 2019,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 88,
+       "fullName": "Amy Paulin",
+       "imgName": "540_amy_paulin.jpg",
+       "incumbent": true,
+       "memberId": 540,
+       "sessionMemberId": 1321,
+       "sessionYear": 2019,
+       "shortName": "PAULIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 104,
+       "fullName": "Jonathan Jacobson",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1259,
+       "sessionMemberId": 1257,
+       "sessionYear": 2019,
+       "shortName": "JACOBSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 30,
+       "fullName": "Brian Barnwell",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1119,
+       "sessionMemberId": 1391,
+       "sessionYear": 2019,
+       "shortName": "BARNWELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 15,
+       "fullName": "Michael Montesano",
+       "imgName": "476_michael_montesano.jpg",
+       "incumbent": false,
+       "memberId": 476,
+       "sessionMemberId": 1437,
+       "sessionYear": 2019,
+       "shortName": "MONTESANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 3,
+       "fullName": "Joe DeStefano",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1238,
+       "sessionMemberId": 1236,
+       "sessionYear": 2019,
+       "shortName": "DESTEFANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 144,
+       "fullName": "Michael J. Norris",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1126,
+       "sessionMemberId": 1396,
+       "sessionYear": 2019,
+       "shortName": "NORRIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": false,
+       "memberId": 657,
+       "sessionMemberId": 1351,
+       "sessionYear": 2019,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 65,
+       "fullName": "Yuh-Line Niou",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1132,
+       "sessionMemberId": 1402,
+       "sessionYear": 2019,
+       "shortName": "NIOU"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 13,
+       "fullName": "Charles Lavine",
+       "imgName": "474_charles_lavine.jpg",
+       "incumbent": true,
+       "memberId": 474,
+       "sessionMemberId": 1298,
+       "sessionYear": 2019,
+       "shortName": "LAVINE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 134,
+       "fullName": "Peter Lawrence",
+       "imgName": "909_peter_lawrence.jpg",
+       "incumbent": false,
+       "memberId": 909,
+       "sessionMemberId": 1379,
+       "sessionYear": 2019,
+       "shortName": "LAWRENCE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 78,
+       "fullName": "Jose Rivera",
+       "imgName": "530_jose_rivera.jpg",
+       "incumbent": false,
+       "memberId": 530,
+       "sessionMemberId": 1316,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      }
+     ],
+     "size": 49
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §355, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 84,
+       "fullName": "Carmen E. Arroyo",
+       "imgName": "536_carmen_e._arroyo.jpg",
+       "incumbent": false,
+       "memberId": 536,
+       "sessionMemberId": 1320,
+       "sessionYear": 2019,
+       "shortName": "ARROYO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 117,
+       "fullName": "Kenneth Blankenbush",
+       "imgName": "631_kenneth_blankenbush.jpg",
+       "incumbent": true,
+       "memberId": 631,
+       "sessionMemberId": 1340,
+       "sessionYear": 2019,
+       "shortName": "BLANKENBUSH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 122,
+       "fullName": "Clifford Crouch",
+       "imgName": "557_clifford_crouch.jpg",
+       "incumbent": false,
+       "memberId": 557,
+       "sessionMemberId": 1446,
+       "sessionYear": 2019,
+       "shortName": "CROUCH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 72,
+       "fullName": "Carmen De La Rosa",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1129,
+       "sessionMemberId": 1399,
+       "sessionYear": 2019,
+       "shortName": "DE LA ROSA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 37,
+       "fullName": "Catherine Nolan",
+       "imgName": "491_catherine_nolan.jpg",
+       "incumbent": false,
+       "memberId": 491,
+       "sessionMemberId": 1301,
+       "sessionYear": 2019,
+       "shortName": "NOLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      }
+     ],
+     "size": 7
+    },
+    "printNo": "A7241C",
+    "publishDate": "2020-01-13",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3916",
+       "basePrintNoStr": "S3916-2019",
+       "printNo": "S3916C",
+       "session": 2019,
+       "version": "C"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A7241",
+ "basePrintNoStr": "A7241-2019",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-01-13",
+    "billCalNo": null,
+    "committeeName": "Higher Education",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Higher Education",
+    "referenceDate": "2019-04-18T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Higher Education",
+    "referenceDate": "2019-04-30T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Higher Education",
+    "referenceDate": "2019-05-22T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Higher Education",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Higher Education",
+    "referenceDate": "2020-01-13T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A7241C",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-04-18T11:59:28.143417",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-04-30T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2019-05-22T00:00",
+    "published": true,
+    "version": "B"
+   },
+   "C": {
+    "effectDateTime": "2020-01-13T00:00",
+    "published": true,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "publishedDateTime": "2019-04-18T10:36:23.478687",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 86,
+   "fullName": "Victor M. Pichardo",
+   "imgName": "667_victor_m._pichardo.jpg",
+   "incumbent": false,
+   "memberId": 667,
+   "sessionMemberId": 1359,
+   "sessionYear": 2019,
+   "shortName": "PICHARDO"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-01-13",
+  "billCalNo": null,
+  "committeeName": "Higher Education",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides a program fee option for graduate students.",
+ "title": "Provides a program fee option for graduate students",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

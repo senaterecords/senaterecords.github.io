@@ -1,0 +1,241 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3334",
+     "basePrintNoStr": "S3334-2009",
+     "printNo": "S3334",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-03-16",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3334",
+     "basePrintNoStr": "S3334-2009",
+     "printNo": "S3334",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-28",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.244"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3334",
+     "basePrintNoStr": "S3334-2009",
+     "printNo": "S3334",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-04-29",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3334",
+     "basePrintNoStr": "S3334-2009",
+     "printNo": "S3334",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-05-04",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3334",
+     "basePrintNoStr": "S3334-2009",
+     "printNo": "S3334",
+     "session": 2009,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2009-06-30",
+    "sequenceNo": 5,
+    "text": "SUBSTITUTED BY A7531"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S3334",
+    "basePrintNoStr": "S3334-2009",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §253-d, Tax L",
+    "lawSection": "Tax Law",
+    "memo": " BILL NUMBER:  S3334\n\n TITLE OF BILL :\n\nAn act to amend the tax law, in relation to extending the expiration\nof the mortgage recording tax imposed by the city of Yonkers\n\n\n PURPOSE :\n\nThis bill extends for two years the mortgage recording tax in the city\nof Yonkers until the year 2011.\n\n SUMMARY OF PROVISIONS :\n\nThis bill amends subdivision 1 of section 253-d of the tax law, as\namended by chapters 383 of the laws of 2007.\n\n EXISTING LAW :\n\nUnder present law the city of Yonkers mortgage recording tax expires\nAugust 31, 2009.\n\n JUSTIFICATION :\n\nIn order for the City of Yonkers to adopt its Fiscal Year 2009-10\nBudget, the Mortgage Recording Tax must be extended since these\nrevenues are included in the City of Yonkers 2009-10 budget.\n\n LEGISLATIVE HISTORY :\n\n07/26/07 signed chap.383\n\n FISCAL IMPLICATIONS :;\n\nThis proposal will preserve $3.3 million in revenue in CFY 2009-10.\n\n EFFECTIVE DATE :\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3334",
+    "publishDate": "2009-01-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7531",
+       "basePrintNoStr": "A7531-2009",
+       "printNo": "A7531",
+       "session": 2009,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2009,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3334",
+ "basePrintNoStr": "S3334-2009",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2009-03-16",
+    "billCalNo": null,
+    "committeeName": "Investigations And Government Operations",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2009-05-04",
+    "billCalNo": 244,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Investigations And Government Operations",
+    "referenceDate": "2009-03-16T00:00",
+    "sessionYear": 2009
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3334",
+ "programInfo": {
+  "name": "Governor (Program)",
+  "sequenceNo": 143
+ },
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2009-01-01T00:00:02",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2009-01-01T00:00:02",
+ "reprintOf": null,
+ "session": 2009,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 35,
+   "fullName": "Andrea Stewart-Cousins",
+   "imgName": "396_andrea_stewart-cousins.jpg",
+   "incumbent": true,
+   "memberId": 396,
+   "sessionMemberId": 27,
+   "sessionYear": 2009,
+   "shortName": "STEWART-COUSINS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2009-05-04",
+  "billCalNo": 244,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A7531",
+  "basePrintNoStr": "A7531-2009",
+  "session": 2009
+ },
+ "summary": "Extends the expiration of the mortgage recording tax imposed by the city of Yonkers.",
+ "title": "Extends the expiration of the mortgage recording tax imposed by the city of Yonkers",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

@@ -1,0 +1,493 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S7752",
+     "basePrintNoStr": "S7752-2025",
+     "printNo": "S7752",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-05",
+    "sequenceNo": 1,
+    "text": "REFERRED TO BANKS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7752",
+     "basePrintNoStr": "S7752-2025",
+     "printNo": "S7752",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-20",
+    "sequenceNo": 2,
+    "text": "1ST REPORT CAL.1173"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7752",
+     "basePrintNoStr": "S7752-2025",
+     "printNo": "S7752",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-21",
+    "sequenceNo": 3,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7752",
+     "basePrintNoStr": "S7752-2025",
+     "printNo": "S7752",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-05-22",
+    "sequenceNo": 4,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7752",
+     "basePrintNoStr": "S7752-2025",
+     "printNo": "S7752A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-04",
+    "sequenceNo": 5,
+    "text": "AMENDED ON THIRD READING (T) 7752A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7752",
+     "basePrintNoStr": "S7752-2025",
+     "printNo": "S7752A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2025-06-12",
+    "sequenceNo": 6,
+    "text": "SUBSTITUTED BY A8067A"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the financial services law, in relation to requiring private\nnonprofit postsecondary providers of higher education which service student\nloans to submit an annual report relating to student loan services provided",
+    "basePrintNo": "S7752",
+    "basePrintNoStr": "S7752-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §711, Bank L",
+    "lawSection": "Financial Services Law",
+    "memo": " \nBILL NUMBER: S7752\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:\n\nAn act to amend the financial services law, in relation to requiring\nprivate nonprofit postsecondary providers of higher education which\nservice student loans to submit an annual report relating to student\nloan services provided\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRequires private nonprofit postsecondary providers of higher education\nthat service their own student loans to comply with the reporting\nrequirements applicable to licensed student loan servicers.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1:Requires private nonprofit postsecondary providers of higher\neducation to submit an annual report, due on April 1, to the Department\nof Financial Services containing information on private education debt\nthey service.\n\nSection 2: Effective Date.\n\n \nJUSTIFICATION:\n\nChapter 627 of the Laws of 2024 requires licensed student loan servicers\nto report information on private education debt they service. However,\nprivate nonprofit postsecondary providers of higher education that\nservice student loans are exempt from Article 14-a of the Banking Law\nand are therefore not subject to this reporting requirement. This bill\nseeks to close that loophole. To promote greater transparency in the\nstudent loan market-including, but not limited to, trends in loan origi-\nnation, terms and conditions, differences in financing costs across\ndemographic groups, and default rates-this bill would require private\nnonprofit postsecondary providers of higher education to report informa-\ntion on private education debt they service, as directed by the super-\nintendent.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNone.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7752",
+    "publishDate": "2025-05-05",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "BNK711"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the banking law, in relation to an exemption from the\nlicensing requirements for servicers of student loans",
+    "basePrintNo": "S7752",
+    "basePrintNoStr": "S7752-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §711, Bank L",
+    "lawSection": "Banking Law",
+    "memo": " \nBILL NUMBER: S7752A\n\nSPONSOR: SANDERS\n \nTITLE OF BILL:\n\nAn act to amend the banking law, in relation to an exemption from the\nlicensing requirements for servicers of student loans\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRequires exempt student loan servicers to comply with the student loan\nservicer reporting requirements under article 9 of the financial\nservices law.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1:Amends subdivision 2 of section 711 of the banking law to\ninclude a cross reference to article 9 of the financial services law,\nwhich establishes student loan servicer reporting requirements.\n\nSection 2: Effective Date.\n\n \nJUSTIFICATION:\n\nAlthough certain student loan servicers are exempt from licensing under\narticle 14-A of the banking law, they are still required to comply with\ncertain student loan servicer laws and regulations. To promote greater\ntransparency in the student loan market, this bill clarifies that such\nexempt student loan servicers are required to comply with article 9 of\nthe financial services law, which establishes student loan reporting\nrequirements.\n\nSuch student loan reporting requirements include, without limitation,\ninformation on trends in loan origination, terms and conditions, differ-\nences in financing costs across demographic groups, and default rates.\nNo identifying information on student loan borrowers is required to be\nreported.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNone.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S7752A",
+    "publishDate": "2025-06-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "BNK711"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8067",
+       "basePrintNoStr": "A8067-2025",
+       "printNo": "A8067A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S7752",
+ "basePrintNoStr": "S7752-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 56,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 65,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 66,
+    "year": 2025
+   },
+   {
+    "calendarNumber": 67,
+    "year": 2025
+   }
+  ],
+  "size": 12
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 18,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Banks"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2025-05-05",
+    "billCalNo": null,
+    "committeeName": "Banks",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   },
+   {
+    "actionDate": "2025-06-04",
+    "billCalNo": 1173,
+    "committeeName": null,
+    "statusDesc": "Senate Floor Calendar",
+    "statusType": "SENATE_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Banks",
+    "referenceDate": "2025-05-05T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S7752A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-05-05T14:11:32.561959",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2025-06-04T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2025-05-05T14:11:31.937843",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 10,
+   "fullName": "James Sanders Jr.",
+   "imgName": "432_james_sanders_jr.jpg",
+   "incumbent": true,
+   "memberId": 432,
+   "sessionMemberId": 2327,
+   "sessionYear": 2025,
+   "shortName": "SANDERS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2025-06-04",
+  "billCalNo": 1173,
+  "committeeName": null,
+  "statusDesc": "Senate Floor Calendar",
+  "statusType": "SENATE_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "A8067",
+  "basePrintNoStr": "A8067-2025",
+  "session": 2025
+ },
+ "summary": "Relates to an exemption from the licensing requirements for servicers of student loans.",
+ "title": "Relates to an exemption from the licensing requirements for servicers of student loans",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S7752",
+     "basePrintNoStr": "S7752-2025",
+     "printNo": "S7752",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Banks"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Jabari Brisport",
+         "imgName": "1311_Jabari_Brisport.jpg",
+         "incumbent": true,
+         "memberId": 1494,
+         "sessionMemberId": 2342,
+         "sessionYear": 2025,
+         "shortName": "BRISPORT"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2338,
+         "sessionYear": 2025,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 2378,
+         "sessionYear": 2025,
+         "shortName": "RYAN S"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2335,
+         "sessionYear": 2025,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 10,
+         "fullName": "James Sanders Jr.",
+         "imgName": "432_james_sanders_jr.jpg",
+         "incumbent": true,
+         "memberId": 432,
+         "sessionMemberId": 2327,
+         "sessionYear": 2025,
+         "shortName": "SANDERS"
+        }
+       ],
+       "size": 5
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 2374,
+         "sessionYear": 2025,
+         "shortName": "BORRELLO"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 49,
+         "fullName": "Mark Walczyk",
+         "imgName": "1067_Mark_Walczyk.jpg",
+         "incumbent": true,
+         "memberId": 1523,
+         "sessionMemberId": 2366,
+         "sessionYear": 2025,
+         "shortName": "WALCZYK"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2025-05-20",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2025
+}

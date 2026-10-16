@@ -1,0 +1,998 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S8420",
+     "basePrintNoStr": "S8420-2019",
+     "printNo": "S8420",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-05-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8420",
+     "basePrintNoStr": "S8420-2019",
+     "printNo": "S8420",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-05-26",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8420",
+     "basePrintNoStr": "S8420-2019",
+     "printNo": "S8420",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-05-27",
+    "sequenceNo": 3,
+    "text": "ORDERED TO THIRD READING CAL.671"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8420",
+     "basePrintNoStr": "S8420-2019",
+     "printNo": "S8420",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-12-28",
+    "sequenceNo": 4,
+    "text": "RECOMMITTED TO RULES"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the retirement and social security law, the education law, the\npublic authorities law and the administrative code of the city of New York, in\nrelation to establishing a coronavirus disease 2019 (COVID-19) presumption for\npublic employee death benefits; and providing for the repeal of such\nprovisions upon the expiration thereof",
+    "basePrintNo": "S8420",
+    "basePrintNoStr": "S8420-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Jen Metzger",
+       "imgName": "1054_Jen_Metzger.jpg",
+       "incumbent": false,
+       "memberId": 1234,
+       "sessionMemberId": 1232,
+       "sessionYear": 2019,
+       "shortName": "METZGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 11
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §§61-b, 361-b, 509-a & 607-i, R & SS L; amd §§512 & 2575, Ed L; amd §1266-h, Pub Auth L; add §§13-149.1, 13-244.1, 13-347.1 & 13-544.1, NYC Ad Cd",
+    "lawSection": "Retirement and Social Security Law",
+    "memo": "\n \nBILL NUMBER: S8420            Revised 5/26/2020\n\nSPONSOR: GOUNARDES\n \nTITLE OF BILL:\n\nAn act to amend the retirement and social security law, the education\nlaw, the public authorities law and the administrative code of the city\nof New York, in relation to establishing a coronavirus disease 2019\n(COVID-19) presumption for public employee death benefits; and providing\nfor the repeal of such provisions upon the expiration thereof\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to establish a COVID-19 presumption to\nprovide accidental death benefits to public employees who reported to\nwork or an alternate worksite and subsequently died due to COVID-19.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of the bill amends Article 2 of the retirement and social\nsecurity law to establish a COVID-19 presumption for accidental death\nbenefits for tier I and II members of the New York state employees'\nretirement system (NYSERS) who reported to their usual place of work or\nan alternate worksite which was not their place of residence, as\ndirected by a public employer, on or after March 1, 2020 and contracted\ncoronavirus, COVID-19, or SARS-COV2, or equivalent subsequently, as\nconfirmed by a positive lab test or diagnosis, within 45 days from\nreporting to work and subsequently died from COVID-19, as indicated on\nsuch member's death certificate or as determined by a health care\nprofessional. Such accidental death benefit amount shall be reduced by\nany ordinary death benefits amount. This section would also permit the\nbeneficiaries of any retired member of such retirement system, who\nretired on or after March 1, 2020, and had reported to work prior to\nretirement, contracted coronavirus, COVID-19, or SARS-COV2, and subse-\nquently died from COVID-19, as indicated on such member's death certif-\nicate or as determined by a health care professional, to apply for a\nconversion of such member's service or disability retirement benefit to\nan accidental death benefit.\n\nSection 2 of the bill amends Article 8 of the retirement and social\nsecurity law to establish a COVID-19 presumption for accidental death\nbenefits for tier I, II, Ill, V or VI members of the New York state\npolice and fire retirement system (NYSPFRS) who reported to their usual\nplace of work or an alternate worksite which was not their place of\nresidence, as directed by a public employer, on or after March 1, 2020\nand contracted coronavirus, COVID19, or SARS-COV2, or equivalent subse-\nquently, as confirmed by a positive lab test or diagnosis, within 45\ndays from reporting to work and subsequently died from COVID-19, as\nindicated on such member's death certificate or as determined by a\nhealth care professional. Such accidental death benefit amount shall be\nreduced by any ordinary death benefits amount. This section would also\npermit the beneficiaries of any retired member of such retirement\nsystem, who retired on or after March 1, 2020, and had reported to work\nprior to retirement, contracted coronavirus, COVID-19, or SARS-COV2, and\nsubsequently died from COVID-19, as indicated on such member's death\ncertificate or as determined by a health care professional, to apply for\na conversion of such member's service or disability retirement benefit\nto an accidental death benefit.\n\nSection 3 of the bill amends Article 14 of the retirement and social\nsecurity law to establish a COVID-19 presumption for accidental death\nbenefits for tier III members of the state and NYC public retirement\nsystems who reported to their usual place of work or an alternate work-\nsite which was not their place of residence, as directed by a public\nemployer, on or after March 1, 2020 and contracted coronavirus, COVID19,\nor SARS-COV2, or equivalent subsequently, as confirmed by a positive lab\ntest or diagnosis, within 45 days from reporting to work and subsequent-\nly died from COVID-19, as indicated on such member's death certificate\nor as determined by a health care professional. Such accidental death\nbenefit amount shall be reduced by any ordinary death benefits amount.\nThis section would also permit the beneficiaries of any retired member\nof such retirement system, who retired on or after March 1, 2020, and\nhad reported to work prior to retirement, contracted coronavirus,\nCOVID-19, or SARS-COV2, and subsequently died from COVID-19, as indi-\ncated on such member's death certificate or as determined by a health\ncare professional, to apply for a conversion of such member's service or\ndisability retirement benefit to an accidental death benefit.\n\nSection 4 of the bill amends Article 15 of the retirement and social\nsecurity law to establish a COVID-19 presumption for accidental death\nbenefits for tier IV, V, and VI members of NYSERS, the New York state\nteachers' retirement system (NYSTRS), the New York City employees\nretirement system (NYCERS), the New York City teachers' retirement\nsystem (NYCTRS), and the New York City board of education retirement\nsystem (NYCBERS) who reported to their usual place of work or an alter-\nnate worksite which was not their place of residence, as directed by a\npublic employer, on or after March 1, 2020 and contracted coronavirus,\nCOVID-19, or SARS-COV2, or equivalent subsequently, as confirmed by a\npositive lab test or diagnosis, within 45 days from reporting to work\nand subsequently died from COVID-19, as indicated on such member's death\ncertificate or as determined by a health care professional. Such acci-\ndental death benefit amount shall be reduced by any ordinary death bene-\nfits amount. This section would also permit the beneficiaries of any\nretired member of such retirement system, retired on or after March 1,\n2020, and had reported to work prior to retirement, contracted coronavi-\nrus, COVID19, or SARS-COV2, and subsequently died from COVID-19, as\nindicated on such member's death certificate, to apply for a conversion\nin such member's service or disability retirement benefit to an acci-\ndental death benefit.\n\nSection 5 of the bill amends section 512 of the education law to estab-\nlish a COVID-19 presumption for accidental death benefits  for tier I\nand II members of NYSTRS who reported to their usual place of work or an\nalternate worksite which was not their place of residence, as directed\nby a public employer, on or after March 1, 2020 and contracted coronavi-\nrus, COVID-19, or SARS-COV2, or equivalent subsequently, as confirmed by\na positive lab test or diagnosis, within 45 days from reporting to work\nand subsequently died from COVID-19, as indicated on such member's death\ncertificate or as determined by a health care professional. Such acci-\ndental death benefit amount shall be reduced by any ordinary death bene-\nfits amount. This section would also permit the beneficiaries of any\nretired member of such retirement system, retired on or after March 1,\n2020, and had reported to work prior to retirement, contracted coronavi-\nrus, COVID-19, or SARS-COV2, and subsequently died from COVID-19, as\nindicated on such member's death certificate or as determined by a\nhealth care professional, to apply for a conversion of such member's\nservice or disability retirement benefit to an accidental death benefit.\nSection 6 of the bill amends section 2575 of the education law to estab-\nlish a COVID-19 presumption for accidental death benefits for tier I and\nII members of NYCBERS who reported to their usual place of work or an\nalternate worksite which was not their place of residence, as directed\nby a public employer, on or after March 1, 2020 and contracted coronavi-\nrus, COVID-19, or SARS-COV2, or equivalent subsequently, as confirmed by\na positive lab test or diagnosis, within 45 days from reporting to work\nand subsequently died from COVID-19, as indicated on such member's death\ncertificate or as determined by a health care professional. Such acci-\ndental death benefit amount shall be reduced by any ordinary death bene-\nfits amount. This section would also permit the beneficiaries of any\nretired member of such retirement system, retired on or after March 1,\n2020, and had reported to work prior to retirement, contracted coronavi-\nrus, COVID-19, or SARS-00V2, and subsequently died from COVID-19, as\nindicated on such member's death certificate or as determined by a\nhealth care professional, to apply for a conversion of such member's\nservice or disability retirement benefit to an accidental death benefit.\n\nSection 7 of the bill amends section 1266-h of the public authorities\nlaw to establish a COVID-19 presumption for accidental death benefits\nfor members of the Metropolitan Transportation Authority police retire-\nment plan who reported to their usual place of work or an alternate\nworksite which was not their place of residence, as directed by a public\nemployer, on or after March 1, 2020 and contracted coronavirus, COVID19,\nor SARS-COV2, or equivalent subsequently, as confirmed by a positive lab\ntest or diagnosis, within 45 days from reporting to work and subsequent-\nly died from COVID-19, as indicated on such member's death certificate\nor as determined by a health care professional. Such accidental death\nbenefit amount shall be reduced by any ordinary death benefits amount.\nThis section would also permit the beneficiaries of any retired member\nof such retirement system, retired on or after March 1, 2020, and had\nreported to work prior to retirement, contracted coronavirus, COVID-19,\nor SARS-00V2, and subsequently died from COVID-19, as indicated on such\nmember's death certificate or as determined by a health care profes-\nsional, to apply for a conversion of such member's service or disability\nretirement benefit to an accidental death benefit.\n\nSection 8 of the bill amends chapter 1 of title 13 of the administrative\ncode of new York city to establish a COVID-19 presumption for accidental\ndeath benefits for tier I and II members of NYCERS who reported to their\nusual place of work or an alternate worksite which was not their place\nof residence, as directed by a public employer, on or after March 1,\n2020 and contracted coronavirus, COVID-19, or SARS-COV2, or equivalent\nsubsequently, as confirmed by a positive lab test or diagnosis, within\n45 days from reporting to work and subsequently died from COVID-19, as\nindicated on such member's death certificate or as determined by a\nhealth care professional. Such accidental death benefit amount shall be\nreduced by any ordinary death benefits amount. This section would also\npermit the beneficiaries of any retired member of such retirement\nsystem, retired on or after March 1, 2020, and had reported to work\nprior to retirement, contracted coronavirus, COVID19, or SARS-COV2, and\nsubsequently died from COVID-19, as indicated on such member's death\ncertificate or as determined by a health care professional, to apply for\na conversion of such member's service or disability retirement benefit\nto an accidental death benefit.\n\nSection 9 of the bill amends chapter 2 of title 13 of the administrative\ncode of new York city to establish a COVID-19 presumption for accidental\ndeath benefits for tier I and II members of the New York city police\npension fund who reported to their usual place of work or an alternate\nworksite which was not their place of residence, as directed by a public\nemployer, on or after March 1, 2020 and contracted coronavirus, COVID19,\nor SARS-COV2, or equivalent subsequently, as confirmed by a positive lab\ntest or diagnosis, within 45 days from reporting to work and subsequent-\nly died from COVID-19, as indicated on such member's death certificate\nor as determined by a health care professional. Such accidental death\nbenefit amount shall be reduced by any ordinary death benefits amount.\nThis section would also permit the beneficiaries of any retired member\nof such retirement system, retired on or after March 1, 2020, and had\nreported to work prior to retirement, contracted coronavirus, COVID-19,\nor SARS-COV2, and subsequently died from COVID-19, as indicated on such\nmember's death certificate or as determined by a health care profes-\nsional, to apply for a conversion of such member's service or disability\nretirement benefit to an accidental death benefit.\n\nSection 10 of the bill amends chapter 3 of title 13 of the administra-\ntive code of new York city to establish a COVID-19 presumption for acci-\ndental death benefits for tier I and II members of the New York city\nfire pension fund who reported to their usual place of work or an alter-\nnate worksite which was not their place of residence, as directed by a\npublic employer, on or after March 1, 2020 and contracted coronavirus,\nCOVID-19, or SARS-00V2, or equivalent subsequently, as confirmed by a\npositive lab test or diagnosis, within 45 days from reporting to work\nand subsequently died from COVID-19, as indicated on such member's death\ncertificate or as determined by a health care professional. Such acci-\ndental death benefit amount shall be reduced by any ordinary death bene-\nfits amount. This section would also permit the beneficiaries of any\nretired member of such retirement system, retired on or after March 1,\n2020, and had reported to work prior to retirement, contracted coronavi-\nrus, COVID-19, or SARS-00V2, and subsequently died from COVID-19, as\nindicated on such member's death certificate or as determined by a\nhealth care professional, to apply for a conversion of such member's\nservice or disability retirement benefit to an accidental death benefit.\n\nSection 11 of the bill amends chapter 4 of title 13 of the administra-\ntive code of new York city to establish a COVID-19 presumption for acci-\ndental death benefits for tier I and II members of NYCTRS who reported\nto their usual place of work or an alternate worksite which was not\ntheir place of residence, as directed by a public employer, on or after\nMarch 1, 2020 and contracted coronavirus, COVID-19, or SARS-COV2, or\nequivalent subsequently, as confirmed by a positive lab test or diagno-\nsis, within 45 days from reporting to work and subsequently died from\nCOVID-19, as indicated on such member's death certificate or as deter-\nmined by a health care professional. Such accidental death benefit\namount shall be reduced by any ordinary death benefits amount. This\nsection would also permit the beneficiaries of any retired member of\nsuch retirement system, retired on or after March 1, 2020, and had\nreported to work prior to retirement, contracted coronavirus, COVID19,\nor SARS-COV2, and subsequently died from COVID-19, as indicated on such\nmember's death certificate or as determined by a health care profes-\nsional, to apply for a conversion of such member's service or disability\nretirement benefit to an accidental death benefit.\n\nSection 12 of the bill would authorize the heads and boards of the\nretirement systems to promulgate rules and regulations to implement this\nact, including guidelines for determining a COVID diagnosis.\nSection 13 of the bill would provide that none of the provisions of this\nact shall be subjected to section 25 of the retirement and social and\nsecurity law.\n\nSection 14 of the bill sets the effective date.\n\n \nJUSTIFICATION:\n\nHistory will remember New York's essential workforce as the true heroes\nof the 2020 coronavirus pandemic. Performing jobs so critical to the\nfunctioning of society that they are precluded from the ability to tele-\ncommute, many of the essential employees in America's hardest-hit state\ninclude civil servants such as nurses, emergency medical service person-\nnel, teachers, transit employees, police officers and firefighters.\n\nWhen these essential public workers fall ill on the job, their benefici-\naries are entitled to an ordinary death benefit paid out of their\nretirement system which is generally three times their final average\nsalary (FAS). If the worker can prove that the accident was job-related,\nhowever, he or she is entitled to a much larger amount called the acci-\ndental death benefit which provides 50% of the employee's FAS each year\nfor the lifetime of the beneficiary. For certain uniformed titles enti-\ntled to an additional Special Accidental Death Benefit, the benefit\namount is 100% FAS. In order to access this larger death benefit, howev-\ner, civil servants will generally need to prove that the illness or\naccident was incurred as a direct result of performance of duty - an\nimpossible standard for a disease as pervasive as COVID-19.\n\nThis bill helps New York State's civil servants qualify for an acci-\ndental death benefit by shifting the burden of proof from the employee\nto the employer, who must prove by competent evidence that the\ncontraction of COVID-19 was NOT job-related if they want to deny the\ncivil servant the accidental death benefit. In order to qualify for the\npresumption, the public employee must have reported to work anytime on\nor after March 1st, 2020, and then contracted COVID-19 within 45 days of\ntheir last day. If after this contraction the employee passes away, and\na medical professional is able to list COVID-19 as a contributing factor\nin such employee's death, it is presumed that the death was a natural\nand proximate result of an accident sustained in the line of duty and\nnot a result of willful negligence on the part of the decedent.\n\nA common feature of pension law, presumptions are most commonly used\nwhen there is a strong link between a given disease and the hazardous\nnature of the job most likely to cause it (i.e. firefighters and cancer,\nor most famously participation in the 9/11 cleanup and certain respir-\natory and gastroesophageal diseases). Given the ubiquitous spread of the\nlatest strain of coronavirus, there can be no argument that anyone\nforced to report to work during the pandemic who later fell ill\ncontracted the disease as a direct result of such reporting. Providing\nadequate death benefits for the families of these fallen heroes, then,\nis the very least we can do to honor their public service. It is by\ntheir sacrifice that the rest of us were kept safe.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\nSee fiscal notes.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall be deemed to have been\nin full force and effect on and after March 1, 2020; provided that this\nact shall remain in effect until the later of December 31, 2020, or the\ndate of the expiration order number 202, dated March 7, 2020, as amended\nand extended, and shall expire and be deemed repealed on such date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S8420",
+    "publishDate": "2020-05-26",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A10523",
+       "basePrintNoStr": "A10523-2019",
+       "printNo": "A10523",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S8420",
+ "basePrintNoStr": "S8420-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 32,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 33,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 34,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 35,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 36,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 37,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 38,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 39,
+    "year": 2020
+   },
+   {
+    "calendarNumber": 40,
+    "year": 2020
+   }
+  ],
+  "size": 9
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 12,
+     "year": 2020
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 12,
+     "year": 2020
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-12-28",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2020-05-25T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2020-05-26T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2020-12-28T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S8420",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2020-05-26T00:24:15.784577",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2020-05-26T00:24:15.784577",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 22,
+   "fullName": "Andrew Gounardes",
+   "imgName": "1049_Andrew_Gounardes.jpg",
+   "incumbent": true,
+   "memberId": 1229,
+   "sessionMemberId": 1227,
+   "sessionYear": 2019,
+   "shortName": "GOUNARDES"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-12-28",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establish a coronavirus disease 2019 (COVID-19) presumption for public employee death benefits where a member was required to physically report to work; did in fact physically report to work as of March first, two thousand twenty; contracted COVID-19; and where the applicable head of the member's retirement system or such system's medical board determines COVID-19 to have been a  significant contributing factor in the member's death.",
+ "title": "Relates to establishing a coronavirus disease 2019 (COVID-19) presumption for public employee death benefits",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8420",
+     "basePrintNoStr": "S8420-2019",
+     "printNo": "S8420",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Rules"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 2,
+         "fullName": "John J. Flanagan",
+         "imgName": "399_john_j._flanagan.jpg",
+         "incumbent": false,
+         "memberId": 399,
+         "sessionMemberId": 1283,
+         "sessionYear": 2019,
+         "shortName": "FLANAGAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 12,
+         "fullName": "Michael Gianaris",
+         "imgName": "383_michael_gianaris.jpg",
+         "incumbent": false,
+         "memberId": 383,
+         "sessionMemberId": 1203,
+         "sessionYear": 2019,
+         "shortName": "GIANARIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 1281,
+         "sessionYear": 2019,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1206,
+         "sessionYear": 2019,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1288,
+         "sessionYear": 2019,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1223,
+         "sessionYear": 2019,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 1219,
+         "sessionYear": 2019,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 1211,
+         "sessionYear": 2019,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 35,
+         "fullName": "Andrea Stewart-Cousins",
+         "imgName": "396_andrea_stewart-cousins.jpg",
+         "incumbent": true,
+         "memberId": 396,
+         "sessionMemberId": 1282,
+         "sessionYear": 2019,
+         "shortName": "STEWART-COUSINS"
+        }
+       ],
+       "size": 18
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2020-05-24",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S8420",
+     "basePrintNoStr": "S8420-2019",
+     "printNo": "S8420",
+     "session": 2019,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 1199,
+         "sessionYear": 2019,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1200,
+         "sessionYear": 2019,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 1201,
+         "sessionYear": 2019,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 1202,
+         "sessionYear": 2019,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1417,
+         "sessionYear": 2019,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1190,
+         "sessionYear": 2019,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 63,
+         "fullName": "Timothy M. Kennedy",
+         "imgName": "429_timothy_m._kennedy.jpg",
+         "incumbent": false,
+         "memberId": 429,
+         "sessionMemberId": 1205,
+         "sessionYear": 2019,
+         "shortName": "KENNEDY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1206,
+         "sessionYear": 2019,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 24,
+         "fullName": "Andrew J. Lanza",
+         "imgName": "409_andrew_j_lanza.jpg",
+         "incumbent": true,
+         "memberId": 409,
+         "sessionMemberId": 1286,
+         "sessionYear": 2019,
+         "shortName": "LANZA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 1,
+         "fullName": "Kenneth P. LaValle",
+         "imgName": "419_kenneth_p._lavalle.jpg",
+         "incumbent": false,
+         "memberId": 419,
+         "sessionMemberId": 1288,
+         "sessionYear": 2019,
+         "shortName": "LAVALLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1223,
+         "sessionYear": 2019,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 25,
+         "fullName": "Velmanette Montgomery",
+         "imgName": "381_velmanette_montgomery.jpg",
+         "incumbent": false,
+         "memberId": 381,
+         "sessionMemberId": 1195,
+         "sessionYear": 2019,
+         "shortName": "MONTGOMERY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 1194,
+         "sessionYear": 2019,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Michael H. Ranzenhofer",
+         "imgName": "406_michael_h._ranzenhofer.jpg",
+         "incumbent": false,
+         "memberId": 406,
+         "sessionMemberId": 1285,
+         "sessionYear": 2019,
+         "shortName": "RANZENHOFER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Patty Ritchie",
+         "imgName": "423_patty_ritchie.jpg",
+         "incumbent": false,
+         "memberId": 423,
+         "sessionMemberId": 1418,
+         "sessionYear": 2019,
+         "shortName": "RITCHIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1196,
+         "sessionYear": 2019,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Joseph E. Robach",
+         "imgName": "417_joseph_e._robach.jpg",
+         "incumbent": false,
+         "memberId": 417,
+         "sessionMemberId": 1211,
+         "sessionYear": 2019,
+         "shortName": "ROBACH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Diane J. Savino",
+         "imgName": "403_diane_j._savino.jpg",
+         "incumbent": false,
+         "memberId": 403,
+         "sessionMemberId": 1284,
+         "sessionYear": 2019,
+         "shortName": "SAVINO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "James L. Seward",
+         "imgName": "371_james_l._seward.jpg",
+         "incumbent": false,
+         "memberId": 371,
+         "sessionMemberId": 1279,
+         "sessionYear": 2019,
+         "shortName": "SEWARD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 39,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 1230,
+         "sessionYear": 2019,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 1209,
+         "sessionYear": 2019,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1221,
+         "sessionYear": 2019,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 22
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Betty Little",
+         "imgName": "379_betty_little.jpg",
+         "incumbent": false,
+         "memberId": 379,
+         "sessionMemberId": 1280,
+         "sessionYear": 2019,
+         "shortName": "LITTLE"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2020-05-26",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2020
+}
