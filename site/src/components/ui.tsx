@@ -11,6 +11,17 @@ export function Icon({ name, size = 16, className }: { name: IconName; size?: nu
   );
 }
 
+declare global { interface Window { __otrEarlyClicks?: Element[] } }
+
+/** Clicks made inside this island before it started (queued by Base.astro), replayed now that it can answer them. */
+export function replayEarlyClicks(root: Element | null) {
+  const queue = window.__otrEarlyClicks;
+  if (!root || !queue?.length) return;
+  const mine = queue.filter((el) => root.contains(el));
+  window.__otrEarlyClicks = queue.filter((el) => !root.contains(el));
+  for (const el of mine) (el as HTMLElement).click();
+}
+
 /** Wraps an island that reads the page (embedded data, the DOM) so the build renders nothing for it. */
 export function clientOnly(Component: ComponentType) {
   return function ClientOnly() {

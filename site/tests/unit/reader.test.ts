@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { estimateHeight, lastPage, turnBlocks } from "../../src/lib/reader";
+import { estimateHeight, lastPage, turnBlocks, turnParagraphs } from "../../src/lib/reader";
 
 describe("turn text with page breaks", () => {
   it("splits paragraphs on blank lines and joins wrapped lines", () => {
@@ -23,6 +23,21 @@ describe("turn text with page breaks", () => {
     expect(turnBlocks("Words.", [[6, 12], [0, 11]])).toEqual([
       { kind: "pb", page: 11 },
       { kind: "p", text: "Words." },
+      { kind: "pb", page: 12 },
+    ]);
+  });
+
+  it("keeps a page break inside the paragraph it interrupts, so the sentence stays one block", () => {
+    const text = "One two.\n\nThree four\nfive six.\n\nSeven.";
+    expect(turnParagraphs(text, [[text.indexOf("five"), 828], [text.indexOf("Seven"), 829]])).toEqual([
+      { kind: "p", parts: ["One two."] },
+      { kind: "p", parts: ["Three four", { page: 828 }, "five six."] },
+      { kind: "pb", page: 829 },
+      { kind: "p", parts: ["Seven."] },
+    ]);
+    expect(turnParagraphs("Words.", [[6, 12], [0, 11]])).toEqual([
+      { kind: "pb", page: 11 },
+      { kind: "p", parts: ["Words."] },
       { kind: "pb", page: 12 },
     ]);
   });

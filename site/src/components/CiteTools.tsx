@@ -61,7 +61,10 @@ function CiteTools() {
     const range = sel.getRangeAt(0);
     const startTurn = turnOf(range.startContainer);
     const endTurn = turnOf(range.endContainer);
-    const text = sel.toString().replace(/\s+/g, " ").trim();
+    // The quote is the spoken words: page markers and gutter page numbers are left out.
+    const fragment = range.cloneContents();
+    for (const marker of fragment.querySelectorAll(".pb, .g")) marker.remove();
+    const text = (fragment.textContent ?? "").replace(/\s+/g, " ").trim();
     if (!startTurn || !endTurn || !text) { setPicked(null); return; }
     const data = readerData();
     const start = pageAt(range.startContainer, range.startOffset, startTurn);

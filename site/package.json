@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/copy-photos.mjs && astro dev",
+    "dev": "node scripts/copy-assets.mjs && astro dev",
     "build": "node scripts/build.mjs",
     "build:fixture": "node scripts/build.mjs --fixture",
     "preview": "astro preview --port 4329 --host 127.0.0.1",

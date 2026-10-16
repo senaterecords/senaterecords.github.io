@@ -41,6 +41,26 @@ test("text selected before the scripts load still gets the citation tools", asyn
   await expect(page.getByRole("button", { name: "Copy with cite" })).toBeVisible({ timeout: 10_000 });
 });
 
+test("homepage controls clicked before the scripts load still take effect", async ({ page }) => {
+  await slowScripts(page);
+  await page.goto("./", { waitUntil: "commit" });
+  await page.getByRole("button", { name: "Public hearings" }).click();
+  await page.getByRole("button", { name: "Search tips" }).click();
+  await expect(page.getByRole("dialog", { name: "Search tips" })).toBeVisible({ timeout: 10_000 });
+  await page.keyboard.press("Escape");
+  await page.getByRole("searchbox").fill("budget");
+  await page.getByRole("searchbox").press("Enter");
+  await expect(page).toHaveURL(/q=budget%20type%3Ahearing/);
+});
+
+test("searching from the homepage works even before the scripts load", async ({ page }) => {
+  await page.route("**/_astro/*.js", (route) => route.abort());
+  await page.goto("./");
+  await page.getByRole("searchbox").fill("budget");
+  await page.getByRole("searchbox").press("Enter");
+  await expect(page).toHaveURL(/search\/\?q=budget/);
+});
+
 test("J pressed before the scripts load still moves to a remark", async ({ page }, info) => {
   test.skip(info.project.name === "phone");
   await slowScripts(page);

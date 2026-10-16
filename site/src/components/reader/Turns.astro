@@ -3,9 +3,10 @@
 //   <section class="turn" data-i data-role data-key data-page>
 //     <h3 id="r-{i}" class="sp [sen]" data-key><span id="w-{i}-{page|0}-{key|x}">Label</span></h3><p>…</p>
 //   </section>
-// Page breaks are <div class="pb" id="p{page}"><b>p. N</b><i></i></div>; turns come 40 to a content-visibility chunk.
+// Page breaks are <div class="pb" id="p{page}"><b>p. N</b><i></i></div> between paragraphs, or the same as a <span>
+// inside the paragraph a break interrupts (so the sentence stays one block); turns come 40 to a content-visibility chunk.
 import { titleCase } from "../../lib/format";
-import { estimateHeight, lastPage, turnBlocks } from "../../lib/reader";
+import { estimateHeight, lastPage, turnParagraphs } from "../../lib/reader";
 import type { Turn } from "../../lib/types";
 
 interface Props { turns: Turn[]; keyOf: (t: Turn) => string | null; }
@@ -21,7 +22,7 @@ const rows = turns.map((t) => {
   const key = keyOf(t);
   const gutter = t.page != null && t.page !== previous ? t.page : null;
   previous = lastPage(t) ?? previous;
-  return { t, key, gutter, blocks: turnBlocks(t.text, t.breaks) };
+  return { t, key, gutter, blocks: turnParagraphs(t.text, t.breaks) };
 });
 const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => rows.slice(i * CHUNK, (i + 1) * CHUNK));
 ---
@@ -36,7 +37,9 @@ const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => 
           </h3>
         )}
         {blocks.map((b) => (b.kind === "p"
-          ? <p>{b.text}</p>
+          ? <p>{b.parts.map((part, j) => (typeof part === "string"
+              ? (j > 0 ? ` ${part}` : part)
+              : <span class="pb" id={pageId(part.page)} data-pagefind-ignore><b>p. {part.page}</b><i></i></span>))}</p>
           : <div class="pb" id={pageId(b.page)} data-pagefind-ignore><b>p. {b.page}</b><i></i></div>))}
       </section>
     ))}

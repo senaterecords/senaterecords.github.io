@@ -2,7 +2,7 @@
 // No motion anywhere: nothing animates, flips or slides.
 import { useEffect, useId, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { url } from "../lib/url";
-import { Icon } from "./ui";
+import { Icon, replayEarlyClicks } from "./ui";
 
 type Scope = "all" | "floor" | "hearing";
 
@@ -45,6 +45,9 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
   const tipsButton = useRef<HTMLButtonElement>(null);
   const tipsPanel = useRef<HTMLDivElement>(null);
   const tipsId = useId();
+  const form = useRef<HTMLFormElement>(null);
+
+  useEffect(() => replayEarlyClicks(form.current), []);
 
   useEffect(() => {
     const narrow = window.matchMedia("(max-width: 719.98px)");
@@ -87,7 +90,7 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
   );
 
   return (
-    <form className={`sbx sbx-${variant}`} role="search" onSubmit={submit}>
+    <form ref={form} className={`sbx sbx-${variant}`} role="search" action={url("/search/")} method="get" onSubmit={submit}>
       {variant === "home" && (
         <div className="seg sbx-scope" role="group" aria-label="Records to search">
           {SCOPES.map(([key, label]) => (

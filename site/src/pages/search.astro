@@ -1,0 +1,51 @@
+---
+// The search page. Everything here runs in the browser: Pagefind's index, the query layer, the results.
+import SearchApp from "../components/SearchApp";
+import Base from "../layouts/Base.astro";
+---
+<Base title="Search" description="Search what was said in the New York State Senate, by words, speaker, bill, year and more." wide barSearch={false}>
+  <SearchApp client:load />
+  <noscript><p class="sr-msg">Search needs JavaScript. You can still browse transcripts by year, senator or bill.</p></noscript>
+</Base>
+
+<style is:global>
+  .sr-msg { max-width: 1280px; margin: 24px auto; padding: 0 32px; font-size: 15px; color: var(--color-ink2); }
+  .sr-which { max-width: 1280px; margin: 24px auto; padding: 0 32px; }
+  .sr-which h2 { font-size: 19px; font-weight: 700; margin-bottom: 12px; }
+  .sr-which-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; }
+  .sr-which-list button { display: flex; gap: 12px; align-items: center; text-align: left; padding: 10px 12px; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; font: inherit; color: var(--color-ink); }
+  .sr-which-list button:hover { border-color: var(--color-act); }
+  .sr-which-list b { display: block; font-weight: 650; }
+  .sr-which-list small { display: block; font-size: 12.5px; color: var(--color-ink3); }
+  .sr-head { max-width: 1280px; margin: 0 auto; height: 56px; display: flex; align-items: center; gap: 16px; padding: 0 24px; border-bottom: 1px solid var(--color-rule); }
+  .sr-head h1 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; }
+  .sr-head h1 span { font-weight: 450; color: var(--color-ink2); }
+  .sr-time { font-size: 12.5px; color: var(--color-ink3); }
+  .sr-sort { margin-left: auto; }
+  .sr-sort select { height: 32px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; padding: 0 10px; font: 550 13.5px var(--font-ui); color: var(--color-ink2); }
+  .sr-filters { display: none; }
+  .sr-body { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 228px minmax(0, 1fr); min-height: 60vh; }
+  .sr-facets { padding: 18px 20px; border-right: 1px solid var(--color-rule); }
+  .fg { margin-bottom: 20px; }
+  .fg h3 { font-size: 13px; font-weight: 700; margin-bottom: 8px; }
+  .fg-row { display: flex; width: 100%; align-items: center; gap: 9px; font: 13.5px var(--font-ui); color: var(--color-ink); padding: 3.5px 0; background: none; border: 0; text-align: left; }
+  .fg-row:hover span { text-decoration: underline; text-underline-offset: 2px; }
+  .fg-row span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .fg-row b { margin-left: auto; font-weight: 500; color: var(--color-ink3); font-size: 12.5px; }
+  .sr-list { background: var(--color-pane); min-width: 0; }
+  .sr-none { padding: 24px 22px; font-size: 15px; color: var(--color-ink2); }
+  .sr-none p + p { margin-top: 8px; }
+  .sr-more { margin: 16px 22px 24px; }
+  .hearing-t { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; }
+  @media (max-width: 719.98px) {
+    .sr-msg, .sr-which { padding: 0 16px; }
+    .sr-head { height: auto; flex-wrap: wrap; gap: 8px 10px; padding: 10px 16px; background: var(--color-pane); }
+    .sr-head h1 { font-size: 15px; width: 100%; }
+    .sr-time, .sr-export { display: none; }
+    .sr-filters { display: inline-flex; }
+    .sr-sort { margin-left: 0; }
+    .sr-body { display: block; }
+    .sr-facets { display: none; }
+    .sheet .fg-row { padding: 8px 0; font-size: 14.5px; border-bottom: 1px solid var(--color-rule2); }
+  }
+</style>

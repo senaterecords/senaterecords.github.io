@@ -17,16 +17,27 @@ export function transcriptText(format: Format): string {
   for (const section of document.querySelectorAll<HTMLElement>("#transcript section.turn")) {
     const label = section.querySelector("h3.sp")?.textContent?.trim();
     let first = true;
+    const pageLine = (pb: Element) => {
+      const page = pb.querySelector("b")?.textContent?.trim() ?? "";
+      lines.push(format === "md" ? `*${page}*` : `[${page}]`, "");
+    };
+    const textLine = (raw: string) => {
+      const text = raw.replace(/\s+/g, " ").trim();
+      if (!text) return;
+      const lead = first && label ? (format === "md" ? `**${label}:** ` : `${label}: `) : "";
+      lines.push(lead + text, "");
+      first = false;
+    };
     for (const node of section.children) {
-      if (node.matches("p")) {
-        const text = node.textContent?.replace(/\s+/g, " ").trim() ?? "";
-        if (!text) continue;
-        const lead = first && label ? (format === "md" ? `**${label}:** ` : `${label}: `) : "";
-        lines.push(lead + text, "");
-        first = false;
-      } else if (node.matches(".pb")) {
-        const page = node.querySelector("b")?.textContent?.trim() ?? "";
-        lines.push(format === "md" ? `*${page}*` : `[${page}]`, "");
+      if (node.matches(".pb")) pageLine(node);
+      else if (node.matches("p")) {
+        // A page break inside a paragraph splits it into two lines around the page marker.
+        let text = "";
+        for (const child of node.childNodes) {
+          if (child instanceof Element && child.matches(".pb")) { textLine(text); text = ""; pageLine(child); }
+          else text += child.textContent ?? "";
+        }
+        textLine(text);
       }
     }
     if (first && label) lines.push(format === "md" ? `**${label}:**` : `${label}:`, "");

@@ -7,6 +7,11 @@ test("every remark has an anchor and page breaks read p. N", async ({ page }) =>
   await expect(page.locator(".pb b").first()).toHaveText(/^p\. \d+$/);
 });
 
+test("a page break in mid-sentence stays inside its paragraph", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  await expect(page.locator("section.turn p .pb").first()).toHaveText(/^p\. \d+$/);
+});
+
 test("a remark link opens at that remark", async ({ page }) => {
   await page.goto("transcripts/2025-03-04-regular-session/#r-40");
   await expect(page.locator("#r-40")).toBeInViewport();
