@@ -3,6 +3,7 @@
 // the row opens the bill's page (the headnote on the right links it too while the reading is on screen).
 import Icon from "../Icon.astro";
 import { hasBillPage } from "../../lib/data";
+import { plural } from "../../lib/format";
 import type { Segment } from "../../lib/types";
 import { url } from "../../lib/url";
 
@@ -26,9 +27,8 @@ const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
                   <span class="n num">{s.calNo}</span>
                   <span class="p">
                     {s.printNo ? <span class="num">{s.printNo}</span> : <span class="nobill">No bill number</span>}
-                    <small>{s.debated ? "Debated" : "No debate"}</small>
+                    <small>{s.debated ? (s.remarks ? `Debated · ${plural(s.remarks, "remark")}` : "Debated") : "No debate"}</small>
                   </span>
-                  <span class="c num" title="Remarks">{s.remarks || ""}</span>
                 </a>
                 {linked && <a class="bp" href={url(`/bills/${session}/${base}/`)} aria-label={`${s.printNo} bill page`} title="Bill page"><Icon name="doc" size={14} /></a>}
               </li>

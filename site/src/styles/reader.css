@@ -26,7 +26,7 @@
 .rd-cal h2 { font-size: 13px; font-weight: 700; margin: 0 0 8px 4px; }
 .rd-cal .rail-h2b { margin-top: 18px; }
 .rd-cal li { display: grid; grid-template-columns: minmax(0, 1fr) 22px; align-items: center; border-radius: 5px; font-size: 13px; }
-.rd-cal .go { display: grid; grid-template-columns: 34px 1fr auto; gap: 8px; padding: 7px 0 7px 6px; align-items: baseline; border-radius: 5px; min-width: 0; }
+.rd-cal .go { display: grid; grid-template-columns: 34px 1fr; gap: 8px; padding: 7px 0 7px 6px; align-items: baseline; border-radius: 5px; min-width: 0; }
 .rd-cal li:hover { background: rgba(22, 27, 34, .045); }
 .rd-cal .go:hover .p .num { text-decoration: underline; text-underline-offset: 2px; }
 .rd-cal .bp { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 4px; color: var(--color-ink3); }
@@ -38,7 +38,6 @@
 .rd-cal .p .num { color: var(--color-act); }
 .rd-cal .p small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12px; }
 .rd-cal .nobill { font-weight: 500; color: var(--color-ink2); }
-.rd-cal .c { color: var(--color-ink3); font-size: 12.5px; }
 .rd-cal .spk-row { grid-template-columns: 1fr auto; padding: 5px 6px; }
 .rd-cal .spk-row a:hover { text-decoration: underline; text-underline-offset: 2px; }
 .rail-empty { font-size: 13px; color: var(--color-ink3); margin: 4px; }

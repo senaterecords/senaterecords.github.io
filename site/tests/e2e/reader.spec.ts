@@ -57,6 +57,16 @@ test("a pro forma legislative day has the reader's tools, and stays out of searc
   await expect(page.getByRole("button", { name: "Export" })).toBeVisible();
 });
 
+test("a calendar row says how many remarks its reading has in words, apart from the bill page icon", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const calendar = page.getByRole("complementary", { name: "On the calendar" });
+  const debated = calendar.locator("li", { hasText: "Debated" }).first();
+  await expect(debated.locator(".p small")).toHaveText(/^Debated · \d+ remarks?$/);
+  // No bare number sits against the icon at the end of the row.
+  await expect(calendar.locator(".go > .c")).toHaveCount(0);
+});
+
 test("each calendar reading starts with its bill number and title", async ({ page }) => {
   await page.goto("transcripts/2025-03-04-regular-session/");
   const header = page.locator(".rd-seg", { hasText: "No. 441 · S172" });
