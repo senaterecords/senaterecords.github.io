@@ -8,10 +8,10 @@
 <link rel="stylesheet" href="board.css">
 <link rel="stylesheet" href="citator-base.css">
 <style>
-  .s-senator, .s-bill, .s-browse, .s-about { display: none; }
-  body.full .s-senator, body.full .s-bill, body.full .s-browse, body.full .s-about { display: block; }
-  body[class*="only-"] .s-senator, body[class*="only-"] .s-bill, body[class*="only-"] .s-browse, body[class*="only-"] .s-about { display: none; }
-  body.only-senator .s-senator, body.only-bill .s-bill, body.only-browse .s-browse, body.only-about .s-about { display: block; }
+  .s-senator, .s-bills, .s-bill, .s-browse, .s-about { display: none; }
+  body.full .s-senator, body.full .s-bills, body.full .s-bill, body.full .s-browse, body.full .s-about { display: block; }
+  body[class*="only-"] .s-senator, body[class*="only-"] .s-bills, body[class*="only-"] .s-bill, body[class*="only-"] .s-browse, body[class*="only-"] .s-about { display: none; }
+  body.only-senator .s-senator, body.only-bills .s-bills, body.only-bill .s-bill, body.only-browse .s-browse, body.only-about .s-about { display: block; }
 
   /* shared page header */
   .pg-head { background: var(--pane); border-bottom: 1px solid var(--rule); padding: 24px 32px 0; }
@@ -53,7 +53,7 @@
   .ms .s span { color: var(--ink3); font-variant-numeric: tabular-nums; font-size: 12.5px; }
   .ms .s.open b { color: var(--ink3); font-weight: 550; }
   .ms .s.done-line::after { content: ''; position: absolute; left: 6px; right: -6px; top: 6px; height: 1.5px; background: var(--ink); z-index: 0; }
-  .sec-h { display: flex; align-items: baseline; justify-content: space-between; padding: 16px 22px 10px; border-bottom: 1px solid var(--rule2); }
+  .sec-h { display: flex; align-items: baseline; justify-content: space-between; padding: 16px 28px 10px; border-bottom: 1px solid var(--rule2); }
   .sec-h h2 { font-size: 15px; font-weight: 700; }
   .sec-h a { font-size: 13px; color: var(--act); font-weight: 600; }
   .deb { display: grid; grid-template-columns: 112px 1fr auto; gap: 18px; padding: 14px 22px; border-bottom: 1px solid var(--rule2); align-items: start; }
@@ -61,6 +61,34 @@
   .deb .t span { font-size: 12.5px; color: var(--ink3); }
   .deb .ex { font-family: 'Charis SIL', Georgia, serif; font-size: 15px; line-height: 1.5; color: #1D232B; margin-top: 6px; }
   .deb .ex .sp { font-family: 'Archivo'; font-size: 12.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); margin-right: 14px; text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
+  .outcome { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+  .deb2 { padding: 18px 28px 22px; border-bottom: 1px solid var(--rule2); }
+  .deb2 .dh { display: flex; gap: 14px; font-size: 13px; color: var(--ink3); margin-bottom: 8px; font-variant-numeric: tabular-nums; }
+  .deb2 .dh b { color: var(--ink); font-weight: 650; }
+  .deb2 .outcome { margin-bottom: 8px; }
+  .deb2 .outcome span { font-weight: 450; color: var(--ink2); font-size: 13.5px; margin-left: 10px; }
+  .deb2 .ex { font-family: 'Charis SIL', Georgia, serif; font-size: 15.5px; line-height: 1.55; color: #1D232B; max-width: 92ch; margin-top: 6px; }
+  .deb2 .ex .sp { font-family: 'Archivo'; font-size: 12.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); margin-right: 14px; text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
+  .earlier { padding: 16px 28px; }
+  .earlier h3 { font-size: 13px; font-weight: 700; color: var(--ink2); margin-bottom: 8px; }
+  .er { display: grid; grid-template-columns: 112px 1fr auto; gap: 18px; align-items: baseline; font-size: 13.5px; color: var(--ink2); padding: 8px 0; border-top: 1px solid var(--rule2); }
+  .er b { color: var(--ink); font-weight: 650; font-variant-numeric: tabular-nums; }
+  .er a { color: var(--act); font-weight: 600; font-size: 13px; white-space: nowrap; }
+
+  /* bills list */
+  .bf { display: flex; align-items: center; gap: 12px; padding: 14px 32px; border-bottom: 1px solid var(--rule); background: var(--pane); }
+  .bf .f { flex: 0 1 460px; height: 36px; border: 1px solid #B9BFC6; border-radius: 6px; display: flex; align-items: center; gap: 10px; padding: 0 12px; color: var(--ink3); font-size: 14.5px; background: #fff; }
+  .bf .ct-sort { margin-left: auto; }
+  .bt { background: var(--pane); padding: 0 32px; }
+  .bt .hd, .bt .r { display: grid; grid-template-columns: 96px 1fr 170px 130px 84px; gap: 18px; align-items: baseline; }
+  .bt .hd { font-size: 12.5px; font-weight: 650; color: var(--ink3); padding: 10px 0 8px; border-bottom: 1.5px solid var(--ink); }
+  .bt .r { padding: 11px 0; border-bottom: 1px solid var(--rule2); font-size: 13.5px; }
+  .bt .r .b { font-weight: 750; font-variant-numeric: tabular-nums; }
+  .bt .r .t { font-family: 'Charis SIL', Georgia, serif; font-size: 15px; line-height: 1.35; }
+  .bt .r .t small { display: block; font-family: 'Archivo'; color: var(--ink3); font-size: 12.5px; margin-top: 2px; }
+  .bt .r .dbt { color: var(--ink2); font-variant-numeric: tabular-nums; }
+  .bt .r .dt { color: var(--ink3); font-variant-numeric: tabular-nums; text-align: right; }
+  .bt .r.nd .dbt { color: var(--ink3); }
   .vote { display: flex; gap: 18px; align-items: baseline; font-size: 14px; }
   .vote b { font-variant-numeric: tabular-nums; font-weight: 700; }
   .vote span { color: var(--ink3); }
@@ -160,6 +188,35 @@
   </div>
 </div>
 
+<!-- ============ BILLS LIST ============ -->
+<div class="screen s-bills ct">
+  <header class="ct-bar">
+    <div class="ct-mark"><span class="sig"><svg width="14" height="14"><use href="#i-sig"/></svg></span>On the Record</div>
+    <div class="ct-search"><svg width="17" height="17" style="color:#666D77"><use href="#i-search"/></svg><span style="color:#666D77">Search transcripts</span><kbd>/</kbd></div>
+    <nav class="ct-nav"><a>Transcripts</a><a>Senators</a><a class="on">Bills</a><a class="later">Laws</a></nav>
+  </header>
+  <div class="pg-head" style="padding-bottom:20px">
+    <div class="pg-title"><div><h1>Bills on the Senate floor</h1>
+      <div class="pg-meta"><span>Every bill read on the floor in the <b>2025–26 session</b> · 412 bills · 96 debated</span></div></div>
+      <div class="acts"><button class="ct-btn" style="color:#161B22;border-color:#B9BFC6">2025–26 session<svg width="14" height="14"><use href="#i-down"/></svg></button></div></div>
+  </div>
+  <div class="bf">
+    <div class="f"><svg width="16" height="16"><use href="#i-search"/></svg>Find a bill by number, title or sponsor</div>
+    <div class="hm-scope" style="margin:0"><div class="seg"><span class="on">All</span><span>Debated</span><span>No debate</span></div></div>
+    <div class="ct-sort">Most debated <svg width="15" height="15"><use href="#i-down"/></svg></div>
+  </div>
+  <div class="bt">
+    <div class="hd"><span>Bill</span><span>Title and sponsor</span><span>Floor debate</span><span>Status</span><span style="text-align:right">On floor</span></div>
+    <div class="r"><span class="b">S4597-A</span><span class="t">Central business district tolling program<small>Sen. Marisol Ortega · Transportation</small></span><span class="dbt">62 remarks · 9 senators</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span><span class="dt">Jun 10</span></div>
+    <div class="r"><span class="b">S1210</span><span class="t">Clean water infrastructure fund<small>Sen. Helen Vasquez-Moore · Environmental Conservation</small></span><span class="dbt">47 remarks · 7 senators</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span><span class="dt">Jun 5</span></div>
+    <div class="r"><span class="b">S3302</span><span class="t">Rent stabilization in cities over one million<small>Sen. Gregory Lindqvist · Housing</small></span><span class="dbt">41 remarks · 11 senators</span><span class="st amber"><svg width="14" height="14"><use href="#i-flag"/></svg>Amended</span><span class="dt">Jun 3</span></div>
+    <div class="r"><span class="b">S1877</span><span class="t">Hospital price transparency<small>Sen. Marisol Ortega · Health</small></span><span class="dbt">28 remarks · 8 senators</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span><span class="dt">May 29</span></div>
+    <div class="r"><span class="b">S2840-B</span><span class="t">School bus stop-arm cameras<small>Sen. Paul Brennan · Transportation</small></span><span class="dbt">19 remarks · 5 senators</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span><span class="dt">Jun 10</span></div>
+    <div class="r nd"><span class="b">S0950</span><span class="t">Farm stand sales tax exemption<small>Sen. Thomas Kearney · Agriculture</small></span><span class="dbt">No debate</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span><span class="dt">Jun 10</span></div>
+    <div class="r nd"><span class="b">S2287</span><span class="t">Library construction grants<small>Sen. Adaeze Okafor · Education</small></span><span class="dbt">No debate</span><span class="st"><svg width="14" height="14"><use href="#i-flag-o"/></svg>Passed Senate</span><span class="dt">Jun 10</span></div>
+  </div>
+</div>
+
 <!-- ============ BILL PAGE ============ -->
 <div class="screen s-bill ct">
   <header class="ct-bar">
@@ -185,19 +242,18 @@
   </div>
   <div class="two" style="height:calc(800px - 58px - 236px)">
     <section class="main">
-      <div class="sec-h"><h2>Floor debates</h2><a>Read full debate</a></div>
-      <div class="deb">
-        <div class="t"><b>Jun 10, 2025</b><span>Regular Session<br>pp. 5780–5838</span></div>
-        <div><div style="font-size:13px;color:#4B535E">62 remarks · 9 senators · Calendar No. 412</div>
-          <p class="ex"><span class="sp">Senator Ortega</span>Thank you, Mr. President. This bill does one thing. It says the congestion pricing program has to answer to the riders in my district…</p>
-          <p class="ex"><span class="sp">Senator Kearney</span>Will the sponsor yield?</p></div>
-        <span class="copy" style="font:650 12.5px Archivo;color:#0B6B50;display:inline-flex;gap:6px;align-items:center">Open<svg width="13" height="13"><use href="#i-chev"/></svg></span>
+      <div class="sec-h"><h2>The floor debate</h2></div>
+      <div class="deb2">
+        <div class="dh"><b>Jun 10, 2025</b><span>Regular Session</span><span>pp. 5780–5838</span></div>
+        <div class="outcome">Debated and passed, 41–20 <span>62 remarks from 9 senators</span></div>
+        <p class="ex"><span class="sp">Senator Ortega</span>Thank you, Mr. President. This bill does one thing. It says the congestion pricing program has to answer to the riders in my district before it answers to anyone else in this building.</p>
+        <p class="ex"><span class="sp">Senator Kearney</span>Will the sponsor yield?</p>
+        <p class="ex"><span class="sp">Senator Ortega</span>I do.</p>
+        <button class="ct-primary" style="height:34px;font-size:13.5px;margin-top:14px">Read the debate</button>
       </div>
-      <div class="deb">
-        <div class="t"><b>May 20, 2025</b><span>Regular Session<br>pp. 4412–4415</span></div>
-        <div><div style="font-size:13px;color:#4B535E">4 remarks · laid aside · Calendar No. 388</div>
-          <p class="ex"><span class="sp">Senator Ortega</span>Mr. President, I ask that the bill be laid aside for the day.</p></div>
-        <span class="copy" style="font:650 12.5px Archivo;color:#0B6B50;display:inline-flex;gap:6px;align-items:center">Open<svg width="13" height="13"><use href="#i-chev"/></svg></span>
+      <div class="earlier">
+        <h3>Earlier on the floor</h3>
+        <div class="er"><b>May 20, 2025</b><span>Brought up, then held for another day at the sponsor's request. No vote.</span><a>Read (4 remarks)</a></div>
       </div>
     </section>
     <aside class="side">

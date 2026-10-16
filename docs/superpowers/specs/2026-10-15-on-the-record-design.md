@@ -4,7 +4,7 @@
 **Status:** Draft for review
 **Related:**
 - Product record: [PRODUCT.md](../../../PRODUCT.md)
-- Visual direction mocks: [.impeccable/mocks/src/dir-citator.html](../../../.impeccable/mocks/src/dir-citator.html) (homepage, search results, reader) and [.impeccable/mocks/src/dir-citator-pages.html](../../../.impeccable/mocks/src/dir-citator-pages.html) (senator, bill, browse, about). All seven are shown in [citator-all.html](../../../.impeccable/mocks/src/citator-all.html).
+- Visual direction mocks: [.impeccable/mocks/src/dir-citator.html](../../../.impeccable/mocks/src/dir-citator.html) (homepage, search results, reader) and [.impeccable/mocks/src/dir-citator-pages.html](../../../.impeccable/mocks/src/dir-citator-pages.html) (senator, bills list, bill, browse, about). All eight are shown in [citator-all.html](../../../.impeccable/mocks/src/citator-all.html).
 - Direction contract: [.impeccable/surfaces/impeccable-mocks-src-dir-citator-html.md](../../../.impeccable/surfaces/impeccable-mocks-src-dir-citator-html.md)
 
 ## 1. Summary
@@ -207,7 +207,8 @@ Slugs are:
 | `/search?q=…` | results in fixed columns (date · speaker and quote · page, status, cite); facets for record type, senator, bill, session/year, committee; sort by relevance, newest or oldest; export results |
 | `/transcripts/{slug}/` | the reader: calendar rail (floor) or speaker list (hearings); the text with remark anchors `#r-{index}` and page anchors `#p{page}`; the bill headnote; find in transcript; export; J/K to move between remarks |
 | `/senators/` and `/senators/{slug}/` | A–Z index; senator page with sessions, appearances, bills debated, and search limited to their remarks |
-| `/bills/{session}/?id={printNo}` | one page per session that loads `bills/{session}.json` and renders the card plus every debate segment. This keeps the file count down. |
+| `/bills/` and `/bills/{session}/` | the Bills list: every bill read on the floor in a session (session picker, defaulting to the current one). It has a search box (number, title, sponsor), an All / Debated / No debate filter, and sorting by most debated, newest or number. Columns: bill · title and sponsor · floor debate (remarks, senators) · status · last floor date. |
+| `/bills/{session}/?id={printNo}` | the bill page: header (number, status, title, sponsor, committee, Assembly companion) and a milestone line from Introduced to Governor. **The floor debate** is the main block: date line, a plain outcome ("Debated and passed, 41–20"), an excerpt and Read the debate. **Earlier on the floor** lists other appearances in plain words (for example "Brought up, then held for another day at the sponsor's request. No vote."). A side panel shows the floor vote and who spoke. It is one page per session that loads `bills/{session}.json`, which keeps the file count down. |
 | `/browse/{year}/` | transcripts by year |
 | `/about/` | data source, last updated, quality summary, known gaps |
 
