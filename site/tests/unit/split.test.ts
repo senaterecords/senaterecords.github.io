@@ -14,6 +14,7 @@ describe("splitting the build into two sites", () => {
     expect(rewriteAssets('<link href=/_astro/a.css><use href="/icons.svg#doc"></use><a href=/transcripts/x/>')).toBe(
       '<link href=/bills/_astro/a.css><use href="/bills/icons.svg#doc"></use><a href=/transcripts/x/>');
     expect(rewriteAssets("@font-face{src:url(/_astro/f.woff2)}")).toBe("@font-face{src:url(/bills/_astro/f.woff2)}");
+    expect(rewriteAssets('<script src="/freshness.js"></script>')).toBe('<script src="/bills/freshness.js"></script>');
   });
 
   it("puts the bill pages, their own assets and a 404 page in the bills site, and everything else in the main site", () => {
@@ -23,6 +24,7 @@ describe("splitting the build into two sites", () => {
     put(join(dist, "_astro", "a.css"), "body{background:url(/_astro/f.woff2)}");
     put(join(dist, "_astro", "f.woff2"), "font");
     put(join(dist, "icons.svg"), "<svg></svg>");
+    put(join(dist, "freshness.js"), "window.otrFreshness = () => {};");
     put(join(dist, "404.html"), "<link href=/_astro/a.css>");
     put(join(dist, "bills", "2025", "S1", "index.html"), '<link href=/_astro/a.css><use href="/icons.svg#doc"></use><a href=/transcripts/x/>');
     const { main, bills } = splitSites(dist, join(dir, "out"));
@@ -32,6 +34,7 @@ describe("splitting the build into two sites", () => {
       '<link href=/bills/_astro/a.css><use href="/bills/icons.svg#doc"></use><a href=/transcripts/x/>');
     expect(readFileSync(join(bills, "_astro", "a.css"), "utf8")).toBe("body{background:url(/bills/_astro/f.woff2)}");
     expect(existsSync(join(bills, "icons.svg"))).toBe(true);
+    expect(existsSync(join(bills, "freshness.js"))).toBe(true);
     expect(readFileSync(join(bills, "404.html"), "utf8")).toBe("<link href=/bills/_astro/a.css>");
     expect(existsSync(join(bills, ".nojekyll"))).toBe(true);
   });

@@ -72,3 +72,11 @@ test("each voter on a bill page links to their senator page", async ({ page }) =
   await expect(voter).toBeVisible();
   await expect(voter).toHaveAttribute("href", /\/senators\/[a-z-]+\/$/);
 });
+
+test("a bill page carries little inline code: shared code lives in files the browser caches", async ({ request }) => {
+  // 51,000 bill pages: every kilobyte inlined into each adds 51 MB to a site GitHub Pages caps at 1 GB.
+  const html = await (await request.get("bills/2025/S4611/")).text();
+  const inline = [...html.matchAll(/<script(?![^>]*\bsrc=)[^>]*>([\s\S]*?)<\/script>/g)].reduce((n, m) => n + m[1].length, 0);
+  expect(inline).toBeLessThan(2000);
+});
+

@@ -148,6 +148,7 @@
   .upd-wait { visibility: hidden; }
   /* Its suggestions open under it, at least as wide as the homepage's list needs. */
   .sbx-bar { position: relative; }
+  .bar-search-host { display: contents; } /* the full box stands where the plain form stood */
   .sbx-bar .acbox { left: 0; right: auto; top: calc(100% + 6px); width: max(100%, 440px); }
 
   /* page header band and two columns (senator, bill, bills, browse pages) */

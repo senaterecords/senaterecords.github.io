@@ -213,12 +213,13 @@ test("a link into a bill's reading never shows the transcript overview in the si
   });
   // Hold the reader's first script back, as a slow connection would (the rest load in a chain after it); watch from
   // the first bytes, before it runs.
-  await page.route("**/_astro/ReaderScripts*.js", async (route) => { await new Promise((done) => setTimeout(done, 3000)); await route.continue(); });
+  // (Held 8 seconds: GitHub's slower machines can take a few to parse this long transcript.)
+  await page.route("**/_astro/ReaderScripts*.js", async (route) => { await new Promise((done) => setTimeout(done, 8000)); await route.continue(); });
   await page.goto(`transcripts/2025-03-04-regular-session/?x=1#${id}`, { waitUntil: "commit" });
-  await expect(page.locator(".hn-wait")).toBeVisible({ timeout: 2500 });
+  await expect(page.locator(".hn-wait")).toBeVisible({ timeout: 7000 });
   expect(await page.locator("#headnote-default").isHidden()).toBe(true);
   // Once the reader's script runs, the bill's details take the placeholder's place, and the overview never came back.
-  await expect(page.locator(".hn-live")).toBeVisible({ timeout: 15000 });
+  await expect(page.locator(".hn-live")).toBeVisible({ timeout: 20000 });
   await expect(page.locator(".hn-wait")).toBeHidden();
   expect(await page.evaluate(() => (window as unknown as { __shownAgain: number }).__shownAgain)).toBe(0);
 });

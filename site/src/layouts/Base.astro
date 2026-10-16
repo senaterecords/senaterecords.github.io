@@ -29,6 +29,8 @@ const { title, description, wide = false, barSearch = true, minimalBar = false }
     <title>{title} · {SITE_NAME}</title>
     {description && <meta name="description" content={description} />}
     <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
+    <!-- The bar's "Checked 12 min ago", shared by every page and cached (see Updated.astro). -->
+    <script is:inline src={url("/freshness.js")}></script>
     <slot name="head" />
   </head>
   <body>

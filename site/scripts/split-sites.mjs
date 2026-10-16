@@ -5,8 +5,9 @@ import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statS
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 
-// "/_astro/…" and "/icons.svg" after a quote, "=", "(" or space: attribute values (quoted or not) and CSS url().
-const SHARED = /(["'(=\s])\/(_astro\/|icons\.svg)/g;
+// "/_astro/…", "/icons.svg" and "/freshness.js" after a quote, "=", "(" or space: attribute values (quoted or not)
+// and CSS url().
+const SHARED = /(["'(=\s])\/(_astro\/|icons\.svg|freshness\.js)/g;
 
 export const rewriteAssets = (text) => text.replace(SHARED, "$1/bills/$2");
 
@@ -26,7 +27,7 @@ export function splitSites(dist, out) {
   for (const name of readdirSync(dist)) if (name !== "bills") cpSync(join(dist, name), join(main, name), { recursive: true });
   cpSync(join(dist, "bills"), bills, { recursive: true });
   cpSync(join(dist, "_astro"), join(bills, "_astro"), { recursive: true });
-  for (const name of ["icons.svg", "404.html"]) if (existsSync(join(dist, name))) cpSync(join(dist, name), join(bills, name));
+  for (const name of ["icons.svg", "freshness.js", "404.html"]) if (existsSync(join(dist, name))) cpSync(join(dist, name), join(bills, name));
   writeFileSync(join(bills, ".nojekyll"), ""); // a plain static site: no Jekyll processing on the gh-pages branch
   for (const file of files(bills)) {
     if (!/\.(html|css|js)$/.test(file)) continue;

@@ -5,7 +5,6 @@ import { SITE_NAME } from "../config";
 import { billsHome, transcriptsHome } from "../lib/data";
 import { url } from "../lib/url";
 import Icon from "./Icon.astro";
-import SearchBox from "./SearchBox";
 import Updated from "./Updated.astro";
 
 // minimal: the reader's bar, which shows only the mark, its crumb and tools, so the rest is left out of the page.
@@ -23,14 +22,13 @@ const current = (prefixes: string[]) => (prefixes.some((p) => path.startsWith(ur
 <header class="bar">
   <a class="mark" href={url("/")}><span class="sig"><Icon name="sig" size={14} /></span>{SITE_NAME}</a>
   <div class="bar-slot"><slot /></div>
-  {search && !minimal && <>
-    <script is:inline>
-      // Until the search box's script starts (slow connections), keep what is typed in it; the box picks it up.
-      window.__otrEarlyTyped = window.__otrEarlyTyped || new Map();
-      document.addEventListener("input", function (e) { if (e.target instanceof HTMLInputElement && e.target.closest("astro-island[ssr]")) window.__otrEarlyTyped.set(e.target, e.target.value); }, true);
-    </script>
-    <SearchBox client:idle variant="bar" />
-  </>}
+  {search && !minimal && (
+    <form class="bar-search sbx-bar" action={url("/search/")} method="get" role="search" data-bar-search>
+      <Icon name="search" size={17} />
+      <input type="search" name="q" placeholder="Search transcripts" aria-label="Search transcripts" autocomplete="off" spellcheck="false" />
+      <kbd aria-hidden="true">/</kbd>
+    </form>
+  )}
   {!minimal && <>
     <nav class="nav" aria-label="Sections">
       {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
@@ -51,6 +49,8 @@ const current = (prefixes: string[]) => (prefixes.some((p) => path.startsWith(ur
 </header>
 
 <script>
+  // The plain search form above becomes the full box with suggestions (one shared script, cached).
+  import "../scripts/bar-search";
   // "/" jumps to the search field in the bar, as most sites with search do.
   document.addEventListener("keydown", (event) => {
     const field = document.querySelector<HTMLInputElement>(".bar-search input");
