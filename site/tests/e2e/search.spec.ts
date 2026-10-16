@@ -372,3 +372,21 @@ test("when a speaker's own remarks don't have the words, the page says so and of
   await expect(page.locator("[data-result]").first()).toBeVisible();
 });
 
+test("on the results page Search tips sits beside the Search button, not on a line below", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // phones keep it below: the row has no room
+  await page.goto("search/?q=budget");
+  const go = (await page.getByRole("button", { name: "Search", exact: true }).boundingBox())!;
+  const tipsLink = page.getByRole("button", { name: "Search tips" });
+  const tips = (await tipsLink.boundingBox())!;
+  expect(tips.x).toBeGreaterThan(go.x + go.width);
+  expect(Math.abs(tips.y + tips.height / 2 - (go.y + go.height / 2))).toBeLessThanOrEqual(4);
+  await tipsLink.click();
+  const panel = (await page.getByRole("dialog", { name: "Search tips" }).boundingBox())!;
+  expect(panel.x).toBeGreaterThanOrEqual(0);
+  expect(panel.x + panel.width).toBeLessThanOrEqual(1280);
+  // The homepage keeps it under the box, beside the examples.
+  await page.goto("./");
+  const field = (await page.locator(".sbx-row").boundingBox())!;
+  expect((await page.getByRole("button", { name: "Search tips" }).boundingBox())!.y).toBeGreaterThan(field.y + field.height);
+});
+

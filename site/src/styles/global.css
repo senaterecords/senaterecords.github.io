@@ -130,6 +130,13 @@
   .sbx-search .sbx-field { height: 44px; }
   .sbx-search .sbx-go { height: 44px; }
   .sbx-search .sbx-under { margin-top: 8px; }
+  /* On the results page there are no examples under the box, so Search tips sits beside the Search button. */
+  @media (min-width: 720px) {
+    .sbx-search { display: flex; align-items: center; gap: 18px; }
+    .sbx-search .sbx-row { flex: 1; min-width: 0; }
+    .sbx-search .sbx-under { margin-top: 0; flex: none; }
+    .sbx-search .sbx-tipbox { top: 32px; }
+  }
 
   /* search field in the bar (Header.astro), as in the pages mocks */
   .bar-search { flex: 0 1 460px; height: 38px; display: flex; align-items: center; gap: 10px; border: 1px solid #B9BFC6; border-radius: 6px; padding: 0 8px 0 12px; background: #fff; color: var(--color-ink3); }
