@@ -246,34 +246,69 @@ const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const L = "\\p{L}\\p{N}";
 const EXCERPT = 360;
 
-/** The hits of a branch in a text, as merged [start, end) character ranges. */
-function hits(text: string, b: Branch): [number, number][] {
+interface Hit { start: number; end: number; term: string; }
+
+/** Every hit of a branch's terms in a text, in order, each with the term it belongs to. */
+function termHits(text: string, b: Branch): Hit[] {
   const nearTerms = b.near.flatMap((n) => [n.a, n.b]);
-  const patterns = [
-    ...[...b.phrases, ...nearTerms.filter(isPhrase)].map((p) => p.split(/\s+/).map(escapeRegex).join(`[^${L}]+`) + `(?![${L}])`),
-    ...[...b.words, ...nearTerms.filter((t) => !isPhrase(t))].map((w) => `${escapeRegex(w)}[${L}]*`),
+  const phrase = (p: string) => p.split(/\s+/).map(escapeRegex).join(`[^${L}]+`) + `(?![${L}])`;
+  const word = (w: string) => `${escapeRegex(w)}[${L}]*`;
+  const patterns: [string, string][] = [
+    ...[...b.phrases, ...nearTerms.filter(isPhrase)].map((t) => [t, phrase(t)] as [string, string]),
+    ...[...b.words, ...nearTerms.filter((t) => !isPhrase(t))].map((t) => [t, word(t)] as [string, string]),
   ];
-  const ranges: [number, number][] = [];
-  for (const p of patterns) {
-    for (const m of text.matchAll(new RegExp(`(?<![${L}])${p}`, "giu"))) ranges.push([m.index!, m.index! + m[0].length]);
+  const out: Hit[] = [];
+  for (const [term, p] of patterns) {
+    for (const m of text.matchAll(new RegExp(`(?<![${L}])${p}`, "giu"))) out.push({ start: m.index!, end: m.index! + m[0].length, term });
   }
-  ranges.sort((a, b) => a[0] - b[0]);
+  return out.sort((x, y) => x.start - y.start);
+}
+
+/** Hits as merged [start, end) character ranges, for marking. */
+function merge(all: Hit[]): [number, number][] {
   const merged: [number, number][] = [];
-  for (const range of ranges) {
+  for (const { start, end } of all) {
     const last = merged[merged.length - 1];
-    if (last && range[0] <= last[1]) last[1] = Math.max(last[1], range[1]);
-    else merged.push([...range]);
+    if (last && start <= last[1]) last[1] = Math.max(last[1], end);
+    else merged.push([start, end]);
   }
   return merged;
 }
 
-/** The [from, to) characters shown for a remark: all of it, or a window around the first hit when it is long. */
-function windowOf(text: string, merged: [number, number][]): [number, number] {
+/** Where a long remark's excerpt is centred: on the closest pair of a NEAR (the place that matched), else where the
+ * most different terms come together, else on the first hit. */
+function anchorOf(b: Branch, all: Hit[]): number {
+  if (!all.length) return 0;
+  const n = b.near[0];
+  if (n) {
+    let best: { gap: number; at: number } | null = null;
+    for (const x of all) {
+      if (x.term !== n.a) continue;
+      for (const y of all) {
+        if (y.term !== n.b || y === x) continue;
+        const gap = Math.max(0, y.start - x.end, x.start - y.end);
+        if (!best || gap < best.gap) best = { gap, at: Math.min(x.start, y.start) };
+      }
+    }
+    if (best) return best.at;
+  }
+  if (new Set(all.map((h) => h.term)).size < 2) return all[0].start;
+  let at = all[0].start;
+  let most = 0;
+  for (const h of all) {
+    const from = h.start - 120;
+    const terms = new Set(all.filter((o) => o.start >= from && o.end <= from + EXCERPT).map((o) => o.term)).size;
+    if (terms > most) { most = terms; at = h.start; }
+  }
+  return at;
+}
+
+/** The [from, to) characters shown for a remark: all of it, or a window around the anchor when it is long. */
+function windowOf(text: string, anchor: number): [number, number] {
   let from = 0;
   let to = text.length;
   if (text.length > EXCERPT) {
-    const first = merged[0]?.[0] ?? 0;
-    from = Math.max(0, first - 120);
+    from = Math.max(0, anchor - 120);
     if (from > 0) from = text.indexOf(" ", from) + 1 || from;
     to = Math.min(text.length, from + EXCERPT);
     if (to < text.length) to = text.lastIndexOf(" ", to) > from ? text.lastIndexOf(" ", to) : to;
@@ -281,11 +316,18 @@ function windowOf(text: string, merged: [number, number][]): [number, number] {
   return [from, to];
 }
 
-/** The remark as safe HTML with hits in <mark>, trimmed around the first hit when it is long. */
+/** A remark's hits (merged, for marking) and the window its excerpt shows. */
+function placed(text: string, b: Branch): { merged: [number, number][]; anchor: number; from: number; to: number } {
+  const all = termHits(text, b);
+  const anchor = anchorOf(b, all);
+  const [from, to] = windowOf(text, anchor);
+  return { merged: merge(all), anchor, from, to };
+}
+
+/** The remark as safe HTML with hits in <mark>, trimmed around where the query matches when it is long. */
 export function excerpt(r: Remark, b: Branch): string {
   const text = r.text;
-  const merged = hits(text, b);
-  const [from, to] = windowOf(text, merged);
+  const { merged, from, to } = placed(text, b);
   let html = from > 0 ? "… " : "";
   let at = from;
   for (const [start, end] of merged) {
@@ -301,17 +343,16 @@ export function excerpt(r: Remark, b: Branch): string {
 
 /** The plain words of a remark's excerpt: what its result row shows. */
 export function excerptText(r: Remark, b: Branch): string {
-  const [from, to] = windowOf(r.text, hits(r.text, b));
+  const { from, to } = placed(r.text, b);
   return r.text.slice(from, to);
 }
 
-/** The page of a remark's first hit, and the pages its excerpt spans, for "p. N" and the citation. */
+/** The page where the query matches, and the pages the excerpt spans, for "p. N" and the citation. */
 export function excerptPages(r: Remark, b: Branch): { hit: number | null; start: number | null; end: number | null } {
-  const merged = hits(r.text, b);
-  const [from, to] = windowOf(r.text, merged);
+  const { merged, anchor, from, to } = placed(r.text, b);
   const wordAt = (offset: number) => (r.text.slice(0, offset).match(/ /g) ?? []).length;
   const pageAt = (word: number) => r.breaks.reduce<number | null>((page, [at, p]) => (at <= word ? p : page), r.page);
-  return { hit: pageAt(wordAt(merged[0]?.[0] ?? from)), start: pageAt(wordAt(from)), end: pageAt(wordAt(Math.max(from, to - 1))) };
+  return { hit: pageAt(wordAt(merged.length ? anchor : from)), start: pageAt(wordAt(from)), end: pageAt(wordAt(Math.max(from, to - 1))) };
 }
 
 // A query's tokens as typed: a shortcut with a quoted value ("committee:\"Ways and Means\""), a phrase, or a word.

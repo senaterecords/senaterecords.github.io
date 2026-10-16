@@ -244,3 +244,28 @@ describe("NEAR with a distance, and with phrases", () => {
     expect(pagefindTerms(parseQuery('"toll revenue" NEAR bridge').branches[0])).toEqual(['"toll revenue"', "bridge"]);
   });
 });
+
+describe("a long remark's excerpt shows where the query matches", () => {
+  const filler = (n: number) => Array.from({ length: n }, (_, i) => `word${i}`).join(" ");
+  const remark = (text: string, breaks: [number, number][] = []) => ({ url: "/t/#r-1", turn: 1, page: 10, speaker: null, label: "", text, breaks });
+  // A lone "fares" early on, and "fares and tolls" (the NEAR match) much later.
+  const fares = `${filler(30)} the fares it collects ${filler(200)} on its fares and tolls along with ${filler(100)}`;
+
+  it("centres a NEAR search on the pair that matched, not on a lone first hit", () => {
+    expect(excerpt(remark(fares), parseQuery("tolls NEAR/3 fares").branches[0])).toContain("<mark>fares</mark> and <mark>tolls</mark>");
+  });
+
+  it("centres several words on where they come together", () => {
+    const text = `${filler(30)} a budget ${filler(200)} the school aid budget for ${filler(100)}`;
+    expect(excerpt(remark(text), parseQuery("school budget").branches[0])).toContain("<mark>school</mark> aid <mark>budget</mark>");
+  });
+
+  it("cites the page of the matched pair", () => {
+    // Page 11 begins at word 150: after the lone "fares", before the pair.
+    expect(excerptPages(remark(fares, [[150, 11]]), parseQuery("tolls NEAR/3 fares").branches[0])).toMatchObject({ hit: 11, start: 11 });
+  });
+
+  it("still opens on the first hit of a single word", () => {
+    expect(excerpt(remark(fares), parseQuery("fares").branches[0])).toContain("the <mark>fares</mark> it collects");
+  });
+});
