@@ -75,8 +75,47 @@ test("the header and the footer say the same thing about the last update", async
   const header = page.locator(".bar time[data-updated]");
   const footer = page.locator(".foot time[data-updated]");
   await expect(footer).toHaveText(/^Updated (just now|\d+ (min|hours?|days?) ago)$/);
-  if (await header.isVisible()) await expect(footer).toHaveText((await header.textContent())!);
+  await expect(footer).toHaveText((await header.textContent())!);
   await expect(footer).toHaveAttribute("title", /^New records last arrived [A-Z][a-z]+ \d+, \d{4} at /); // the exact time on hover
+});
+
+test("the last update shows once: in the bar on a computer, in the footer on a phone and under the reader's bar", async ({ page }, info) => {
+  await page.goto("about/");
+  const phone = info.project.name === "phone";
+  await expect(page.locator(".bar time[data-updated]")).toBeVisible({ visible: !phone });
+  await expect(page.locator(".foot time[data-updated]")).toBeVisible({ visible: phone });
+  // The reader's bar has no room for it, so its footer keeps it.
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  await expect(page.locator(".foot time[data-updated]")).toBeVisible();
+});
+
+test("the home page is light: one sentence, a quiet records choice, plain examples, and lists without extras", async ({ page }, info) => {
+  await page.goto("./");
+  await expect(page.locator(".lede")).toHaveText("Find what any senator said since 1993, follow a bill's debate, and cite the exact page.");
+  // The chosen record type is white on a grey track, not a black block.
+  const chosen = page.getByRole("button", { name: "All records" });
+  await expect(chosen).toHaveAttribute("aria-pressed", "true");
+  expect(await chosen.evaluate((el) => getComputedStyle(el).backgroundColor)).toBe("rgb(255, 255, 255)");
+  // The examples are plain words, not boxes.
+  const example = page.getByRole("button", { name: '"congestion pricing"' });
+  expect(await example.evaluate((el) => [getComputedStyle(el).borderTopWidth, getComputedStyle(el).backgroundColor])).toEqual(["0px", "rgba(0, 0, 0, 0)"]);
+  // Latest transcripts leave out page ranges; most debated bills give their status in the grey line, without a flag.
+  await expect(page.locator(".hm-list").first()).not.toContainText(/pp\. \d/);
+  await expect(page.locator(".hm .md .status")).toHaveCount(0);
+  await expect(page.locator(".hm .md small").first()).toHaveText(/^[\d,]+ remarks? · \d+ senators? · \S/);
+  if (info.project.name === "phone") {
+    for (const width of [390, 360, 320]) {
+      await page.setViewportSize({ width, height: 800 });
+      // Every example shown fits on the screen (two, or one on the narrowest phones), and Search tips is on their line.
+      const shown = page.locator(".sbx-try .chip:visible");
+      await expect(shown).toHaveCount(width < 360 ? 1 : 2);
+      for (const box of await shown.evaluateAll((els) => els.map((el) => el.getBoundingClientRect().right))) expect(box).toBeLessThanOrEqual(width - 16);
+      const tips = (await page.getByRole("button", { name: "Search tips" }).boundingBox())!;
+      const first = (await shown.first().boundingBox())!;
+      expect(Math.abs(tips.y + tips.height / 2 - (first.y + first.height / 2))).toBeLessThan(4);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+    }
+  }
 });
 
 test("the bar says when the site last checked the Senate's records, and when new ones last arrived", async ({ page }) => {

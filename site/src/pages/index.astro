@@ -1,10 +1,9 @@
 ---
 // The homepage, as in "Homepage" and "Homepage: Search tips open" in the gallery, and the phone homepage.
 import SearchBox from "../components/SearchBox";
-import Status from "../components/Status.astro";
 import Base from "../layouts/Base.astro";
 import { billsFor, currentSession, transcriptIndex, transcriptsHome } from "../lib/data";
-import { billStatus, hearingTitle, plainPages, plural, shortDate, transcriptTitle } from "../lib/format";
+import { billStatus, hearingTitle, plural, shortDate, transcriptTitle } from "../lib/format";
 import { url } from "../lib/url";
 
 const latest = transcriptIndex().slice(0, 3);
@@ -16,13 +15,11 @@ const debated = billsFor(session)
     bill,
     remarks: bill.segments.reduce((n, s) => n + s.remarks, 0),
     speakers: new Set(bill.segments.flatMap((s) => Object.keys(s.speakers))).size,
+    status: billStatus(bill.card),
   }))
   .filter((row) => row.remarks > 0)
   .sort((a, b) => b.remarks - a.remarks)
   .slice(0, 3);
-
-const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
-  !pages ? "" : kind === "hearing" ? `${pages[1] - pages[0] + 1} pp.` : plainPages(pages[0], pages[1]);
 ---
 <Base barSearch={false} title="Search the Senate record" description="Find what any New York State senator said, follow a bill's debate, and cite the exact page.">
   <script is:inline slot="head">
@@ -33,7 +30,7 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
   </script>
   <section class="hm">
     <h1>Search the Senate record</h1>
-    <p class="lede">Find what any senator said, follow a bill's debate, and cite the exact page. More than thirty years of New York State Senate transcripts, in one place.</p>
+    <p class="lede">Find what any senator said since 1993, follow a bill's debate, and cite the exact page.</p>
     <SearchBox client:load variant="home" />
 
     <div class="hm-cols">
@@ -49,7 +46,6 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
                   ? (t.dayType === "LEGISLATIVE" && !t.speakers ? "No business conducted" : `${plural(t.speakers, "senator")} spoke · ${plural(t.billsDebated, "bill")} debated`)
                   : t.committees.map(hearingTitle).join(" · ") || "Public hearing"}</small>
               </span>
-              <span class="m num">{pagesText(t.pages, t.kind)}</span>
             </li>
           ))}
         </ul>
@@ -58,14 +54,14 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
         <section>
           <h2 class="sec-h2">Most debated, {sessionLabel} <a href={url(`/bills/${session}/`)}>All bills</a></h2>
           <ul class="hm-list">
-            {debated.map(({ bill, remarks, speakers }) => (
+            {debated.map(({ bill, remarks, speakers, status }) => (
               <li class="md">
                 <span class="b num">{bill.card?.printNo ?? bill.basePrintNo}</span>
                 <span class="t">
                   <a href={url(`/bills/${session}/${bill.basePrintNo}/`)}>{bill.card?.title ?? bill.basePrintNo}</a>
-                  <small>{plural(remarks, "remark")} · {plural(speakers, "senator")}</small>
+                  {/* The status reads in the grey line, in colour only for a veto or an amendment. */}
+                  <small>{plural(remarks, "remark")} · {plural(speakers, "senator")}{status && <> · <span class:list={[status.tone !== "ink" && status.tone]}>{status.text}</span></>}</small>
                 </span>
-                <Status status={billStatus(bill.card)} />
               </li>
             ))}
           </ul>
@@ -78,13 +74,12 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
 <style is:global>
   .hm { padding: 64px 0 0; }
   .hm h1 { font-size: 36px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 10px; }
-  .lede { font-family: var(--font-read); font-size: 18px; color: var(--color-ink2); margin-bottom: 26px; max-width: 640px; }
+  .lede { font-family: var(--font-read); font-size: 18px; color: var(--color-ink2); margin-bottom: 26px; max-width: 720px; }
   .hm-cols { display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; margin-top: 48px; }
   .dk, .md { display: grid; gap: 14px; padding: 11px 0; border-bottom: 1px solid var(--color-rule); align-items: baseline; }
-  .dk { grid-template-columns: 96px 1fr auto; font-size: 14px; }
-  .md { grid-template-columns: 74px 1fr auto; gap: 12px; }
+  .dk { grid-template-columns: 96px 1fr; font-size: 14px; }
+  .md { grid-template-columns: 74px 1fr; gap: 12px; }
   .hm .d { font-weight: 650; }
-  .hm .m { color: var(--color-ink3); font-size: 12.5px; white-space: nowrap; }
   .hm .t { min-width: 0; }
   .hm .t a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
   .hm .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
@@ -94,18 +89,16 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
   .hm .b { font-weight: 750; font-size: 13.5px; }
   .md .t a { font-family: var(--font-read); font-size: 15px; line-height: 1.35; }
   .md .t small { font-family: var(--font-ui); }
+  .md .t small .red { color: var(--color-red); }
+  .md .t small .amber { color: var(--color-amber); }
 
   @media (max-width: 719.98px) {
     .hm { padding-top: 24px; }
     .hm h1 { font-size: 29px; line-height: 1.12; margin: 0 0 10px; }
     .lede { font-size: 16.5px; line-height: 1.5; margin-bottom: 20px; }
     .hm-cols { grid-template-columns: 1fr; gap: 26px; margin-top: 26px; }
-    .dk { grid-template-columns: 1fr auto; gap: 2px 10px; border-bottom-color: var(--color-rule2); }
-    .dk .d { grid-row: 1; grid-column: 1; font-weight: 450; font-size: 12.5px; color: var(--color-ink3); }
-    .dk .m { grid-row: 1; grid-column: 2; }
-    .dk .t { grid-row: 2; grid-column: 1 / -1; }
+    .dk, .md { grid-template-columns: 1fr; gap: 2px 10px; border-bottom-color: var(--color-rule2); }
+    .dk .d { font-weight: 450; font-size: 12.5px; color: var(--color-ink3); }
     .dk .t a { font-weight: 600; font-size: 14.5px; }
-    .md { grid-template-columns: 1fr auto; gap: 2px 10px; border-bottom-color: var(--color-rule2); }
-    .md .t { grid-column: 1 / -1; grid-row: 2; }
   }
 </style>

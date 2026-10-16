@@ -205,7 +205,7 @@ Recurring literals that are in the CSS but have no custom property: reading ink 
 ### Named Rules
 **The Ledger Rule.** Green marks what can be clicked, pressed or followed. The single exception, carried from the approved mock, is the 7px "Updated" freshness dot in the bar and footer.
 
-**The Pennant Rule.** Bill state is a flag icon plus text, never a filled badge: hollow ink flag (`ink2` text) for ordinary progress, solid red flag for vetoed, solid amber flag for amended or corrected.
+**The Pennant Rule.** Bill state is a flag icon plus text, never a filled badge: hollow ink flag (`ink2` text) for ordinary progress, solid red flag for vetoed, solid amber flag for amended or corrected. (The homepage's short Most debated list is the one place it is plain words in the meta line.)
 
 **The One Ink Rule.** Speakers have no colour identity. Every speaker label is ink or ink 2; senators are distinguished by an underline, not a hue.
 
@@ -278,13 +278,16 @@ Restrained and green-led.
 - **Focus:** a 2px green outline at 2px offset on every focusable element.
 
 ### Chips
-- **Style:** white, `rule` border, 4px, 600 12.5px ink, 2px 7px. Used for search examples and syntax in Search tips; clickable chips darken the border to `#9AA1AA` on hover.
+- **Style:** white, `rule` border, 4px, 600 12.5px ink, 2px 7px. Used for syntax in Search tips; clickable chips darken the border to `#9AA1AA` on hover.
+- **Homepage examples** ("Try …") are the same buttons drawn as plain words: no box, 500 weight in `ink2`, set apart by `#A3A9B0` dots, ink and underlined on hover. Phones show two (one under 360px), with Search tips on the same line.
 
 ### Segmented control
-- One 6px bordered strip, options 550 13.5px `ink2` separated by rules; the chosen option is filled ink with white text. Used for search scope and citation style (12px). Year pickers and the A–Z strip use separate 5px toggles with the same ink-fill current state.
+- One 6px bordered strip, options 550 13.5px `ink2` separated by rules; the chosen option is filled ink with white text. Used for citation style (12px). Year pickers and the A–Z strip use separate 5px toggles with the same ink-fill current state.
+- **The homepage records choice** (All records, Floor sessions, Public hearings) is the quiet form: a `#E8EAE6` track (3px padding, 8px corner, no border), options on a 6px corner, the chosen one white with ink 650 text and a 1px soft shadow.
 
 ### Status pennant
-- Flag icon (14px) plus 600 12.5px text: hollow flag in `ink2`, solid flag in red (vetoed) or amber (amended or corrected).
+- Flag icon (14px) plus 600 12.5px text: hollow flag in `ink2`, solid flag in red (vetoed) or amber (amended or corrected). The homepage's Most debated list gives the status as plain words at the end of each bill's grey meta line instead (red or amber only for a veto or an amendment), and its Latest transcripts list leaves out page ranges.
+- **"Checked …" shows once:** in the bar on a computer, in the footer on a phone and under the reader's bar (which has no room for it).
 
 ### Photo
 - Portrait rectangle, 3px corner, `#ECEEEF` ground, `rule2` border. Sizes 28×36, 40×52, 56×72 (48×62 in sheets and page titles). A missing photo shows a bottom-aligned person silhouette in `#C6CBD0`; never a broken image, never initials.
