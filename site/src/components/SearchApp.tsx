@@ -8,8 +8,8 @@ import { jsonCache } from "../lib/fetch";
 import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { fold, resolveSpeaker, type Person } from "../lib/names";
 import {
-  excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
-  type Branch, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers,
+  excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
+  toggleShortcut, type Branch, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
 } from "../lib/query";
 import { passageParam } from "../lib/passage";
 import { closestWord } from "../lib/spelling";
@@ -30,16 +30,22 @@ const getJson = jsonCache(url);
 
 type Pages = ReturnType<typeof excerptPages>;
 interface Row { key: string; remark: Remark; branch: Branch; pages: Pages; meta: Record<string, string>; transcript: string; href: string; }
-type Status = "loading" | "failed" | "which" | "nomatch" | "ready";
+type Status = "loading" | "failed" | "which" | "nomatch" | "toomany" | "ready";
 type Phase = "searching" | "reading" | null;
+type Facets = PagefindSearch["filters"];
+/** A branch's speakers, looked up: the ones it asks for, and the ones each of its NOTs leaves out. */
+interface Who { speakers: Speakers | null; not: (Speakers | null)[]; }
+interface Plan { parsed: ParsedQuery; who: Who[]; wide: boolean; }
+/** One Pagefind search a query needs: a branch's terms and filters (a printed speaker name searched as words). */
+interface Unit { terms: Terms; filters: PagefindFilters; }
 
 /** The rows a page contributes: its remarks that match a branch (in one remark, or across the transcript), in order. */
-function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: Speakers | null; wide: boolean }): Row[] {
+function rowsOf(page: PageData, plan: Plan): Row[] {
   const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
   const rows: Row[] = [];
+  const match = plan.wide ? mentionsAny : keepRemark;
   for (const remark of remarksOf(page).map(spokenText)) {
-    const match = plan.wide ? mentionsAny : keepRemark;
-    const branch = plan.parsed.branches.find((b) => match(remark, b, plan.parsed.not, plan.speaker));
+    const branch = plan.parsed.branches.find((b, k) => match(remark, b, plan.who[k].speakers, plan.who[k].not, page.filters));
     if (!branch) continue;
     // The link also names the passage the row shows, so the transcript lands on it and highlights it for a moment.
     const href = remark.url.replace("#", `?hl=${encodeURIComponent(passageParam(excerptText(remark, branch)))}#`);
@@ -53,9 +59,62 @@ const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 /** The query with one speaker:/senator: replaced by the person picked under "Which …?". */
 function replaceSpeaker(q: string, asking: SpeakerFilter, slug: string): string {
   const field = asking.senate ? "senator" : "speaker";
-  const typed = new RegExp(`${field}:("${escapeRegex(asking.text)}"?|${escapeRegex(asking.text)})(?=\\s|$)`, "i");
+  const typed = new RegExp(`${field}:("${escapeRegex(asking.text)}"?|${escapeRegex(asking.text)})(?=[\\s)]|$)`, "i");
   return q.replace(typed, `${field}:${slug}`);
 }
+
+/** The searches a branch needs. A speaker the Senate's data doesn't know can't be a filter in the index: their printed
+ * name is searched as words the transcript must hold, beside a search filtered to any people the branch also names. */
+function unitsOf(b: Branch, who: Who): Unit[] {
+  const slugs = who.speakers?.slugs ?? [];
+  const labels = who.speakers?.labels ?? [];
+  const filters = (people: string[] | null) => pagefindFilters(b.filters, people, b.not);
+  if (!labels.length) return [{ terms: b, filters: filters(slugs.length ? slugs : null) }];
+  return [
+    ...(slugs.length ? [{ terms: b, filters: filters(slugs) }] : []),
+    ...labels.map((name) => ({ terms: { ...b, words: [...b.words, ...name.split(" ")] }, filters: filters(null) })),
+  ];
+}
+
+/** The transcripts that every one of several searches finds: all their terms, and all their filters. */
+function overlap(units: Unit[]): Unit {
+  const filters = units.map((u) => u.filters).filter((f) => Object.keys(f).length);
+  return {
+    terms: { words: units.flatMap((u) => u.terms.words), phrases: units.flatMap((u) => u.terms.phrases), near: units.flatMap((u) => u.terms.near) },
+    filters: filters.length > 1 ? { all: filters } : filters[0] ?? {},
+  };
+}
+
+/** Facet counts over the transcripts any of the searches found. Two or three searches are added up less what they
+ * share, so a transcript found twice counts once. That needs each count to be exact, which it is only for a search
+ * Pagefind runs in one go: a phrase is searched on its own, and such a search's counts are its first part's. Otherwise
+ * the counts are added up, no value above the transcripts found. */
+async function facetCounts(pf: Pagefind, units: Unit[], sort: unknown, cap: number, known?: PagefindSearch[]): Promise<Facets> {
+  const search = (u: Unit) => searchBranch(pf, u.terms, { filters: u.filters, sort });
+  const singles = known ?? await Promise.all(units.map(search));
+  const exact = (u: Unit) => pagefindTerms(u.terms).length === 1;
+  if (singles.length === 1 && exact(units[0])) return singles[0].filters;
+  const total: Facets = {};
+  const add = (counts: Facets, sign: number) => {
+    for (const [key, values] of Object.entries(counts)) {
+      const into = (total[key] ??= {});
+      for (const [value, n] of Object.entries(values)) into[value] = (into[value] ?? 0) + sign * n;
+    }
+  };
+  for (const s of singles) add(s.filters, 1);
+  const groups = units.length === 2 ? [[0, 1]] : units.length === 3 ? [[0, 1], [0, 2], [1, 2], [0, 1, 2]] : [];
+  const overlaps = groups.map((g) => overlap(g.map((k) => units[k])));
+  if (groups.length && units.every(exact) && overlaps.every(exact)) {
+    const shared = await Promise.all(overlaps.map(search));
+    shared.forEach((s, k) => add(s.filters, groups[k].length === 2 ? -1 : 1));
+  } else {
+    for (const values of Object.values(total)) for (const value of Object.keys(values)) values[value] = Math.min(values[value], cap);
+  }
+  return total;
+}
+
+/** Every set of shortcuts in a query: outside brackets, in each branch, and in each of its NOTs. */
+const filterSets = (parsed: ParsedQuery): Filters[] => [parsed.filters, ...parsed.branches.flatMap((b) => [b.filters, ...b.not.map((e) => e.filters)])];
 
 /** Placeholder rows while the first remarks load: the shape of a result, shimmering. */
 const SKELETON = (
@@ -98,7 +157,7 @@ function SearchApp() {
   const [more, setMore] = useState(false);
   const [opened, setOpened] = useState<Record<string, boolean>>({});
   const queue = useRef<PagefindResult[]>([]);
-  const plan = useRef<{ parsed: ParsedQuery; speaker: Speakers | null; wide: boolean } | null>(null);
+  const plan = useRef<Plan | null>(null);
   const [printed, setPrinted] = useState<string[]>([]);
   const [asked, setAsked] = useState<SpeakerFilter | null>(null);
   const runId = useRef(0);
@@ -180,45 +239,49 @@ function SearchApp() {
       if (!q.trim()) { setStatus("ready"); return; }
       const started = performance.now();
       const parsed = parseQuery(q);
+      if (parsed.tooMany) { setStatus("toomany"); return; }
       let everyone: Person[] = [];
       try { everyone = await getJson<Person[]>("/data/people.json"); } catch { /* names fall back to transcript labels */ }
       if (id !== runId.current) return;
       setPeople(everyone);
       // Each speaker: (anyone with a card) or senator: (senators only) names one person; several mean any of them. A
       // speaker: the Senate's data doesn't know (a hearing witness, a guest) matches the name printed on their remarks.
-      const slugs: string[] = [];
-      const labels: string[] = [];
-      for (const asking of parsed.filters.speakers ?? []) {
+      // Speakers a NOT leaves out are looked up the same way.
+      const found = new Map<string, { slug?: string; label?: string }>();
+      const keyOf = (s: SpeakerFilter) => `${s.senate}:${s.text.toLowerCase()}`;
+      for (const asking of filterSets(parsed).flatMap((f) => f.speakers ?? [])) {
+        if (found.has(keyOf(asking))) continue;
         const matches = resolveSpeaker(asking.text, asking.senate ? everyone.filter((p) => p.chamber === "senate") : everyone);
         const name = fold(asking.text.replace(/-/g, " ")).trim();
-        if (!matches.length && !asking.senate && name) { labels.push(name); continue; }
+        if (!matches.length && !asking.senate && name) { found.set(keyOf(asking), { label: name }); continue; }
         if (!matches.length) { setAsked(asking); setStatus("nomatch"); return; }
         if (matches.length > 1) { setAsked(asking); setWhich(matches); setStatus("which"); return; }
-        slugs.push(matches[0].slug);
+        found.set(keyOf(asking), { slug: matches[0].slug });
       }
-      const speaker: Speakers | null = slugs.length || labels.length ? { slugs, labels } : null;
-      setPrinted(labels);
-      if (parsed.filters.committees?.length) {
+      const speakersOf = (list: SpeakerFilter[] | undefined): Speakers | null => {
+        if (!list?.length) return null;
+        const people = list.map((s) => found.get(keyOf(s))!);
+        return { slugs: [...new Set(people.flatMap((p) => (p.slug ? [p.slug] : [])))], labels: [...new Set(people.flatMap((p) => (p.label ? [p.label] : [])))] };
+      };
+      const who: Who[] = parsed.branches.map((b) => ({ speakers: speakersOf(b.filters.speakers), not: b.not.map((e) => speakersOf(e.filters.speakers)) }));
+      setPrinted([...new Set(who.flatMap((w) => w.speakers?.labels ?? []))]);
+      if (filterSets(parsed).some((f) => f.committees?.length)) {
         try {
           const committees = await getJson<{ name: string }[]>("/data/committees.json");
-          parsed.filters.committees = parsed.filters.committees.map((typed) => committees.find((c) => fold(c.name) === fold(typed))?.name ?? typed);
+          for (const f of filterSets(parsed)) {
+            if (f.committees) f.committees = f.committees.map((typed) => committees.find((c) => fold(c.name) === fold(typed))?.name ?? typed);
+          }
         } catch { /* keep what was typed */ }
       }
       let pf: Pagefind;
       try { pf = await loadPagefind(); } catch { if (id === runId.current) setStatus("failed"); return; }
-      const filters = pagefindFilters(parsed.filters, labels.length ? null : slugs.length ? slugs : null);
       // A search with only filters (say, one senator's remarks) has nothing to rank by, so it reads newest first.
       const termless = parsed.branches.every((b) => !b.words.length && !b.phrases.length && !b.near.length);
       const sortBy = sort === "relevance" ? (termless ? { date: "desc" } : undefined) : { date: sort === "newest" ? "desc" : "asc" };
+      const units = parsed.branches.flatMap((b, k) => unitsOf(b, who[k]));
       let searches: PagefindSearch[];
       try {
-        // A printed name can't be a filter in the index: it is searched as a word the transcript must hold, beside a
-        // search filtered to any people speaker: also names; the results are merged.
-        const runs = (b: Branch) => (labels.length
-          ? [...(slugs.length ? [searchBranch(pf, b, { filters: pagefindFilters(parsed.filters, slugs), sort: sortBy })] : []),
-            ...labels.map((name) => searchBranch(pf, { ...b, words: [...b.words, ...name.split(" ")] }, { filters, sort: sortBy }))]
-          : [searchBranch(pf, b, { filters, sort: sortBy })]);
-        searches = (await Promise.all(parsed.branches.map((b) => Promise.all(runs(b))))).flat();
+        searches = await Promise.all(units.map((u) => searchBranch(pf, u.terms, { filters: u.filters, sort: sortBy })));
       } catch {
         if (id === runId.current) setStatus("failed");
         return;
@@ -228,22 +291,29 @@ function SearchApp() {
       setPhase("reading");
       const seen = new Set<string>();
       queue.current = searches.flatMap((s) => s.results).filter((r) => (seen.has(r.id) ? false : (seen.add(r.id), true)));
-      plan.current = { parsed, speaker, wide };
+      plan.current = { parsed, who, wide };
       const matched = queue.current.length;
       setTotal(matched);
-      // A filter group in use is counted as if its own choice weren't made, so ticking 2019 still lists 2020 and 2021
-      // (with their counts) to add; the other groups' choices still apply. Until those counts arrive, a group in use
-      // keeps the list it had, so nothing drops out or moves under the pointer. Runs beside the reading below.
-      const chosen = Object.keys(filters);
-      setFacets((previous) => {
-        const next = { ...(searches[0]?.filters ?? {}) };
-        for (const key of chosen) if (previous[key]) next[key] = previous[key];
-        return next;
-      });
+      // The counts beside the filters cover every branch's transcripts. A filter group in use is counted as if its own
+      // choice weren't made, so ticking 2019 still lists 2020 and 2021 (with their counts) to add; the other groups'
+      // choices still apply. Until those counts arrive, a group in use keeps the list it had, so nothing drops out or
+      // moves under the pointer. All of this runs beside the reading below.
+      const chosen = [...new Set(units.flatMap((u) => Object.keys(u.filters)))].filter((key) => key !== "none");
+      void facetCounts(pf, units, sortBy, matched, searches).then((counts) => {
+        if (id !== runId.current) return;
+        setFacets((previous) => {
+          const next = { ...counts };
+          for (const key of chosen) if (previous[key]) next[key] = previous[key];
+          return next;
+        });
+      }).catch(() => { /* the counts stay as they were */ });
       if (chosen.length) {
         void Promise.all(chosen.map(async (key) => {
-          const { [key]: _mine, ...others } = filters;
-          return [key, (await searchBranch(pf, parsed.branches[0], { filters: others, sort: sortBy })).filters[key]] as const;
+          const others = units.map((u) => {
+            const { [key]: _mine, ...rest } = u.filters;
+            return { ...u, filters: rest };
+          });
+          return [key, (await facetCounts(pf, others, sortBy, Infinity))[key]] as const;
         })).then((groups) => {
           if (id !== runId.current) return;
           setFacets((current) => ({ ...current, ...Object.fromEntries(groups.filter(([, counts]) => counts)) }));
@@ -288,11 +358,13 @@ function SearchApp() {
   const personBySlug = new Map(people.map((p) => [p.slug, p]));
   // Who speaker: or senator: asked for, by name, for the message when none of their own remarks has the words.
   const askedNames = [
-    ...(plan.current?.speaker?.slugs ?? []).map((slug) => personBySlug.get(slug)).filter((p): p is Person => !!p)
+    ...[...new Set((plan.current?.who ?? []).flatMap((w) => w.speakers?.slugs ?? []))].map((slug) => personBySlug.get(slug)).filter((p): p is Person => !!p)
       .map((p) => `${p.chamber === "assembly" ? "Asm." : "Sen."} ${p.name}`),
     ...printed.map((name) => titleCase(name)),
   ];
-  const withoutSpeakers = (query: string) => query.replace(/(^|\s)-?(speaker|senator):("[^"]*"|\S+)/gi, " ").replace(/\s+/g, " ").trim();
+  // The query without the speakers it asks for (those it leaves out stay out), and without brackets left empty.
+  const withoutSpeakers = (query: string) => query.replace(/(^|[\s(])(speaker|senator):("[^"]*"?|\([^)]*\)?|[^\s)]+)/gi, "$1")
+    .replace(/\(\s*\)/g, " ").replace(/\s+/g, " ").replace(/\(\s/g, "(").replace(/\s\)/g, ")").trim();
   const remarkCount = rows.length;
   const transcriptCount = new Set(rows.map((r) => r.transcript)).size;
   const activeFilters = Object.keys(parseQuery(q).filters).length;
@@ -374,11 +446,20 @@ function SearchApp() {
     );
   };
   const quote = (v: string) => (/\s/.test(v) ? `"${v}"` : v);
+  // A speaker the whole search leaves out (-speaker:x) isn't offered as a filter: their transcripts are still counted,
+  // but none of their remarks can show.
+  const leftOut = (() => {
+    const p = plan.current;
+    if (!p) return new Set<string>();
+    const per = p.parsed.branches.map((b, k) => new Set(b.not.flatMap((e, j) =>
+      e.words.length + e.phrases.length + e.near.length === 0 && Object.keys(e.filters).length === 1 ? p.who[k].not[j]?.slugs ?? [] : [])));
+    return new Set([...(per[0] ?? [])].filter((slug) => per.every((s) => s.has(slug))));
+  })();
   const facetPanel = (
     <>
       {facetList("Record", "type", (v) => (v === "floor" ? "Floor sessions" : "Public hearings"), (v) => `type:${v}`)}
       {facetList("Year", "year", (v) => v, (v) => `year:${v}`, { byYear: true, noun: "years" })}
-      {facetList("Speaker", "senator", (v) => personBySlug.get(v)?.name ?? v, (v) => `speaker:${v}`, { noun: "speakers" })}
+      {facetList("Speaker", "senator", (v) => personBySlug.get(v)?.name ?? v, (v) => `speaker:${v}`, { keep: (v) => !leftOut.has(v), noun: "speakers" })}
       {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, { keep: (v) => /^[SA]\d+$/.test(v), noun: "bills" })}
       {facetList("Committee", "committee", (v) => v, (v) => `committee:${quote(v)}`, { noun: "committees" })}
     </>
@@ -390,6 +471,9 @@ function SearchApp() {
 
       {status === "failed" && <p className="sr-msg" role="alert">{LOAD_FAILED}</p>}
       {status === "nomatch" && asked && <p className="sr-msg">No {asked.senate ? "senator" : "senator or Assembly member"} matches “{asked.text}”.</p>}
+      {status === "toomany" && (
+        <p className="sr-msg" role="alert">This search has too many combinations to run at once (more than {MAX_BRANCHES}). Take out an OR or two, or split it into separate searches.</p>
+      )}
       {status === "which" && (
         <div className="sr-which">
           <h2>Which {asked?.text}?</h2>

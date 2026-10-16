@@ -503,3 +503,103 @@ test("the \"i\" never wraps onto a line of its own, and on a phone the counts si
   }
 });
 
+
+// The heading once every possible transcript is read: "N remarks in M transcripts".
+const counts = async (page: Page, q: string) => {
+  await page.goto(`search/?q=${encodeURIComponent(q)}`);
+  const heading = page.locator(".sr-head h1");
+  await expect(heading).toContainText(/ in \d+ transcripts?$/);
+  return (await heading.textContent())!;
+};
+
+test("brackets group the words: the same results as the search written out in full", async ({ page }) => {
+  const grouped = await counts(page, "budget AND (tax OR school)");
+  expect(grouped).toBe(await counts(page, "budget tax OR budget school"));
+  expect(grouped).not.toBe(await counts(page, "budget tax OR school")); // what the brackets used to be read as
+  expect(await counts(page, "(budget OR tax) children")).toBe(await counts(page, "budget children OR tax children"));
+  expect(await counts(page, "budget NOT (tax OR school)")).toBe(await counts(page, "budget -tax -school"));
+});
+
+test("NOT and a minus leave a speaker out, instead of keeping only that speaker", async ({ page }) => {
+  for (const q of ["budget -speaker:liz-krueger", "budget NOT speaker:liz-krueger"]) {
+    await page.goto(`search/?q=${encodeURIComponent(q)}`);
+    await expect(page.locator(".sr-head h1")).toContainText(/ in \d+ transcripts?$/);
+    const speakers = await page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
+    expect(speakers.length, q).toBeGreaterThan(0);
+    expect(speakers, q).not.toContain("liz-krueger");
+  }
+  // Nor is she offered as a speaker to narrow to.
+  if (test.info().project.name === "desktop") {
+    const facets = page.getByRole("complementary", { name: "Narrow the results" });
+    await expect(facets.getByRole("button", { name: /Robert Jackson|John Liu|Shelley Mayer/ }).first()).toBeVisible();
+    await expect(facets.getByRole("button", { name: /Liz Krueger/ })).toHaveCount(0);
+  }
+});
+
+test("a minus leaves out a year or a record type", async ({ page }) => {
+  await page.goto("search/?q=budget%20-year%3A2025");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  const dates = await page.locator("[data-result] .c-date b").allInnerTexts();
+  for (const d of dates) expect(d.slice(-4)).not.toBe("2025");
+  await page.goto("search/?q=the%20-type%3Ahearing"); // every "budget" transcript in the sample is a hearing
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  for (const k of await page.locator("[data-result] .c-date span").allInnerTexts()) expect(k).toMatch(/^Floor/);
+});
+
+test("a shortcut outside brackets narrows every group; one inside narrows only its own", async ({ page }) => {
+  await page.goto("search/?q=(budget%20OR%20tax)%20speaker%3Aliz-krueger");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  const outside = await page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
+  expect(new Set(outside)).toEqual(new Set(["liz-krueger"]));
+  // Each group's own speaker: Krueger on the budget, or Jackson on children.
+  const either = await counts(page, "(budget speaker:liz-krueger) OR (children speaker:robert-jackson)");
+  const speakers = new Set(await page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker"))));
+  expect([...speakers].every((s) => s === "liz-krueger" || s === "robert-jackson")).toBe(true);
+  // A remark has one speaker, so no remark is in both groups: the two add up.
+  const remarks = (text: string) => Number(text.match(/^([\d,]+) remarks?/)![1].replace(/,/g, ""));
+  expect(remarks(either)).toBe(remarks(await counts(page, "budget speaker:liz-krueger")) + remarks(await counts(page, "children speaker:robert-jackson")));
+});
+
+test("the counts beside the filters cover every OR group, each transcript once", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // the same counts, in a sheet
+  const row = page.getByRole("complementary", { name: "Narrow the results" }).getByRole("button", { name: /Public hearings/ });
+  const hearings = async (q: string) => {
+    await page.goto(`search/?q=${encodeURIComponent(q)}`);
+    await expect(row).toBeVisible();
+    return Number(await row.locator("b").textContent());
+  };
+  const a = await hearings("budget");
+  const b = await hearings("tax");
+  const both = await hearings("budget tax");
+  expect(both).toBeGreaterThan(0); // the two share transcripts, so adding them up would count some twice
+  await hearings("budget OR tax");
+  await expect.poll(async () => Number(await row.locator("b").textContent())).toBe(a + b - both);
+});
+
+test("a search with too many combinations says so, rather than running them all", async ({ page }) => {
+  await page.goto("search/?q=(a%20OR%20b)%20(c%20OR%20d)%20(e%20OR%20f)%20(g%20OR%20h)%20(i%20OR%20j)");
+  await expect(page.getByRole("alert")).toHaveText(/too many combinations to run at once \(more than 16\)/);
+});
+
+test("picking which person, inside brackets, keeps the brackets", async ({ page }) => {
+  await page.goto("search/?q=(budget%20speaker%3Asmith)%20OR%20tax");
+  await expect(page.getByText(/^Which smith\?/i)).toBeVisible();
+  await page.locator(".sr-which-list button").first().click();
+  await expect(page).toHaveURL(/q=%28budget(\+|%20)speaker%3A[a-z-]+smith[a-z-]*%29(\+|%20)OR(\+|%20)tax/);
+});
+
+test("filter counts stay right when the OR groups hold phrases", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // the same counts, in a sheet
+  // A phrase is searched on its own, so a group with phrases can't be counted against another by their overlap.
+  const row = page.getByRole("complementary", { name: "Narrow the results" }).getByRole("button", { name: /Floor sessions/ });
+  const floor = async (q: string) => {
+    await page.goto(`search/?q=${encodeURIComponent(q)}`);
+    await expect(page.locator(".sr-head h1")).toBeVisible();
+    return (await row.count()) ? Number(await row.locator("b").textContent()) : 0;
+  };
+  const a = await floor('"senate will come to order"');
+  const b = await floor('"executive budget"');
+  await page.goto(`search/?q=${encodeURIComponent('"senate will come to order" OR "executive budget"')}`);
+  await expect.poll(async () => ((await row.count()) ? Number(await row.locator("b").textContent()) : 0)).toBeGreaterThanOrEqual(Math.max(a, b));
+  expect(Number(await row.locator("b").textContent())).toBeLessThanOrEqual(a + b);
+});

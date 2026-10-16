@@ -34,3 +34,18 @@ describe("senator:", () => {
     expect(tokenAt("budget sen", 10)).toEqual({ field: null, text: "sen", start: 7, end: 10 });
   });
 });
+
+describe("inside brackets and after a minus", () => {
+  it("finds a shortcut that follows a bracket or a minus, and stops at a closing bracket", () => {
+    expect(tokenAt("(tolls speaker:krue", 19)).toEqual({ field: "speaker", text: "krue", start: 7, end: 19 });
+    expect(tokenAt("(speaker:krue", 13)).toEqual({ field: "speaker", text: "krue", start: 1, end: 13 });
+    expect(tokenAt("tolls -speaker:krue", 19)).toEqual({ field: "speaker", text: "krue", start: 7, end: 19 });
+    expect(tokenAt("(tolls speaker:kr) OR fares", 17)).toEqual({ field: "speaker", text: "kr", start: 7, end: 17 });
+    expect(tokenAt("(tolls speaker:kr) OR fares", 16)).toEqual({ field: "speaker", text: "k", start: 7, end: 17 });
+    expect(tokenAt("(ye", 3)).toEqual({ field: null, text: "ye", start: 1, end: 3 });
+  });
+
+  it("puts no space before a closing bracket", () => {
+    expect(replaceToken("(tolls speaker:kr) OR fares", { start: 7, end: 17 }, "speaker:liz-krueger", true)).toEqual({ value: "(tolls speaker:liz-krueger) OR fares", caret: 26 });
+  });
+});

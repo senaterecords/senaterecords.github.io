@@ -21,6 +21,7 @@ const WORDS: [string, ReactNode][] = [
   ['"toll revenue"', "this exact phrase"],
   ['"school aid" "tax cap"', "both exact phrases"],
   ["tolls OR fares", "either word"],
+  ["(tolls OR fares) bridge", "either word, with bridge"],
   ["tolls NOT bridge", <>leave out bridge (or <b>-bridge</b>)</>],
   ["tolls NEAR fares", "within 10 words"],
   ["tolls NEAR/3 fares", "within 3 words"],
@@ -33,6 +34,7 @@ const NARROW: [string, ReactNode][] = [
   ["year:2015-2019", "a year or a range"],
   ["type:hearing", <>hearings only (or <b>floor</b>)</>],
   ["committee:Health", "one committee's hearings"],
+  ["-speaker:Krueger", "everyone but one speaker (a minus works on any of these)"],
 ];
 
 const MIX = "rent speaker:Krueger year:2015-2019";

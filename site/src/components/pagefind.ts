@@ -1,8 +1,11 @@
 // Pagefind on the search page: loading it, running a branch's searches, and reading a page's text.
-import { pagefindTerms, type Branch } from "../lib/query";
+import { pagefindTerms, type PageFilters, type Terms } from "../lib/query";
 import { url } from "../lib/url";
 
-export interface PageData { url: string; content: string; meta: Record<string, string>; anchors: { element: string; id: string; text: string; location: number }[]; }
+export interface PageData {
+  url: string; content: string; meta: Record<string, string>; filters?: PageFilters;
+  anchors: { element: string; id: string; text: string; location: number }[];
+}
 export interface PagefindResult { id: string; data: () => Promise<PageData>; }
 export interface PagefindSearch { results: PagefindResult[]; filters: Record<string, Record<string, number>>; }
 export interface Pagefind {
@@ -48,7 +51,7 @@ export function loadPagefind(): Promise<Pagefind> {
 
 /** One branch's transcripts: each phrase searched exactly and the other words together, keeping the transcripts
  * every search found, in the first search's order. Facet counts come from the first search. */
-export async function searchBranch(pf: Pagefind, b: Branch, options: Record<string, unknown>): Promise<PagefindSearch> {
+export async function searchBranch(pf: Pagefind, b: Terms, options: Record<string, unknown>): Promise<PagefindSearch> {
   const searches = await Promise.all(pagefindTerms(b).map((term) => pf.search(term || null, options)));
   if (searches.length === 1) return searches[0];
   const inAll = searches.slice(1).map((s) => new Set(s.results.map((r) => r.id)));

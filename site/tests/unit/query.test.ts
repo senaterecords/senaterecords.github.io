@@ -1,17 +1,24 @@
 import { describe, expect, it } from "vitest";
-import { EVERY_PAGE, excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
+import {
+  EVERY_PAGE, excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
+  toggleShortcut, type Branch,
+} from "../../src/lib/query";
+
+// A branch's terms alone, as most tests compare them.
+const terms = (branches: Branch[]) => branches.map(({ words, phrases, near }) => ({ words, phrases, near }));
 
 describe("parseQuery", () => {
   it("reads words, phrases and shortcuts", () => {
+    const filters = { speakers: [{ text: "krueger", senate: false }], years: [2015, 2016, 2017, 2018, 2019], types: ["hearing"], committees: ["Ways and Means"], bills: ["S4597"] };
     expect(parseQuery('"congestion pricing" tolls speaker:krueger year:2015-2019 type:hearing committee:"Ways and Means" bill:s4597a')).toEqual({
-      branches: [{ words: ["tolls"], phrases: ["congestion pricing"], near: [] }],
-      not: [],
-      filters: { speakers: [{ text: "krueger", senate: false }], years: [2015, 2016, 2017, 2018, 2019], types: ["hearing"], committees: ["Ways and Means"], bills: ["S4597"] },
+      branches: [{ words: ["tolls"], phrases: ["congestion pricing"], near: [], filters, not: [] }],
+      filters,
+      tooMany: false,
     });
   });
 
   it("splits OR into branches, AND binding tighter", () => {
-    expect(parseQuery("rent stabilization OR tolls").branches).toEqual([
+    expect(terms(parseQuery("rent stabilization OR tolls").branches)).toEqual([
       { words: ["rent", "stabilization"], phrases: [], near: [] },
       { words: ["tolls"], phrases: [], near: [] },
     ]);
@@ -20,13 +27,13 @@ describe("parseQuery", () => {
 
   it("reads NOT, -word, AND and NEAR", () => {
     const q = parseQuery("tolls AND fares NOT bridge -tunnel");
-    expect(q.branches).toEqual([{ words: ["tolls", "fares"], phrases: [], near: [] }]);
-    expect(q.not).toEqual(["bridge", "tunnel"]);
-    expect(parseQuery("tolls NEAR fares").branches).toEqual([{ words: [], phrases: [], near: [{ a: "tolls", b: "fares", within: 10 }] }]);
+    expect(terms(q.branches)).toEqual([{ words: ["tolls", "fares"], phrases: [], near: [] }]);
+    expect(q.branches[0].not.map((e) => e.words)).toEqual([["bridge"], ["tunnel"]]);
+    expect(terms(parseQuery("tolls NEAR fares").branches)).toEqual([{ words: [], phrases: [], near: [{ a: "tolls", b: "fares", within: 10 }] }]);
   });
 
   it("accepts a query with only filters", () => {
-    expect(parseQuery("speaker:liz-krueger").branches).toEqual([{ words: [], phrases: [], near: [] }]);
+    expect(terms(parseQuery("speaker:liz-krueger").branches)).toEqual([{ words: [], phrases: [], near: [] }]);
   });
 });
 
@@ -77,14 +84,14 @@ describe("remark-level filtering", () => {
   it("applies phrases, words, NOT, NEAR and speaker to each remark", () => {
     const [krueger, lanza] = remarksOf(DATA);
     const branch = (s: string) => parseQuery(s).branches[0];
-    expect(keepRemark(krueger, branch('"toll revenue"'), [], null)).toBe(true);
-    expect(keepRemark(lanza, branch('"toll revenue"'), [], null)).toBe(false);
-    expect(keepRemark(lanza, branch("toll fares"), [], null)).toBe(true);
-    expect(keepRemark(krueger, branch("toll"), ["bridge"], null)).toBe(false);
-    expect(keepRemark(krueger, branch("toll NEAR fund"), [], null)).toBe(true);
-    expect(keepRemark(lanza, branch("fares NEAR district"), [], null)).toBe(true);
-    expect(keepRemark(lanza, branch("tolls"), [], "liz-krueger")).toBe(false);
-    expect(keepRemark(krueger, parseQuery('"toll revenue" "bridge fund"').branches[0], [], null)).toBe(true);
+    expect(keepRemark(krueger, branch('"toll revenue"'))).toBe(true);
+    expect(keepRemark(lanza, branch('"toll revenue"'))).toBe(false);
+    expect(keepRemark(lanza, branch("toll fares"))).toBe(true);
+    expect(keepRemark(krueger, branch("toll -bridge"))).toBe(false);
+    expect(keepRemark(krueger, branch("toll NEAR fund"))).toBe(true);
+    expect(keepRemark(lanza, branch("fares NEAR district"))).toBe(true);
+    expect(keepRemark(lanza, branch("tolls"), "liz-krueger")).toBe(false);
+    expect(keepRemark(krueger, parseQuery('"toll revenue" "bridge fund"').branches[0])).toBe(true);
   });
 
   it("writes a safe excerpt with the hits marked", () => {
@@ -180,24 +187,24 @@ describe("review fixes: remarks", () => {
   it("leaves a speaker's presiding turns out of speaker: results", () => {
     const [krueger] = remarksOf(DATA);
     const presiding = { ...krueger, label: "Acting President Krueger" };
-    expect(keepRemark(presiding, parseQuery("toll").branches[0], [], "liz-krueger")).toBe(false);
-    expect(keepRemark(presiding, parseQuery("toll").branches[0], [], null)).toBe(true);
+    expect(keepRemark(presiding, parseQuery("toll").branches[0], "liz-krueger")).toBe(false);
+    expect(keepRemark(presiding, parseQuery("toll").branches[0])).toBe(true);
   });
 });
 
 describe("review fixes: how far a search reaches", () => {
   it("reads a lowercase and as AND, not as a word to find", () => {
-    expect(parseQuery('"work from home" and "state workers"').branches).toEqual([{ words: [], phrases: ["work from home", "state workers"], near: [] }]);
+    expect(terms(parseQuery('"work from home" and "state workers"').branches)).toEqual([{ words: [], phrases: ["work from home", "state workers"], near: [] }]);
   });
 
   it("across a whole transcript, keeps a remark that holds any of the terms, still honouring NOT and speaker", () => {
     const [krueger, lanza] = remarksOf(DATA);
     const b = parseQuery('"toll revenue" fares').branches[0];
-    expect(mentionsAny(krueger, b, [], null)).toBe(true);
-    expect(mentionsAny(lanza, b, [], null)).toBe(true);
-    expect(mentionsAny(lanza, b, ["district"], null)).toBe(false);
-    expect(mentionsAny(krueger, b, [], "andrew-j-lanza")).toBe(false);
-    expect(mentionsAny(krueger, parseQuery("tunnels").branches[0], [], null)).toBe(false);
+    expect(mentionsAny(krueger, b)).toBe(true);
+    expect(mentionsAny(lanza, b)).toBe(true);
+    expect(mentionsAny(lanza, parseQuery('"toll revenue" fares -district').branches[0])).toBe(false);
+    expect(mentionsAny(krueger, b, "andrew-j-lanza")).toBe(false);
+    expect(mentionsAny(krueger, parseQuery("tunnels").branches[0])).toBe(false);
   });
 });
 
@@ -213,8 +220,8 @@ describe("several speakers, and senator:", () => {
 
   it("keeps a remark by any of the speakers", () => {
     const [krueger, lanza] = remarksOf(DATA);
-    expect(keepRemark(lanza, parseQuery("tolls").branches[0], [], ["liz-krueger", "andrew-j-lanza"])).toBe(true);
-    expect(keepRemark(krueger, parseQuery("toll").branches[0], [], ["andrew-j-lanza"])).toBe(false);
+    expect(keepRemark(lanza, parseQuery("tolls").branches[0], ["liz-krueger", "andrew-j-lanza"])).toBe(true);
+    expect(keepRemark(krueger, parseQuery("toll").branches[0], ["andrew-j-lanza"])).toBe(false);
   });
 });
 
@@ -236,19 +243,19 @@ describe("NEAR with a distance, and with phrases", () => {
   it("reads NEAR/n as within n words, and takes a phrase on either side", () => {
     expect(parseQuery("tolls NEAR/3 fares").branches[0].near).toEqual([{ a: "tolls", b: "fares", within: 3 }]);
     // With a distance it can only mean NEAR, so any case will do; a plain lowercase "near" stays a word.
-    expect(parseQuery("tolls near/1 fares").branches[0]).toEqual({ words: [], phrases: [], near: [{ a: "tolls", b: "fares", within: 1 }] });
+    expect(terms(parseQuery("tolls near/1 fares").branches)[0]).toEqual({ words: [], phrases: [], near: [{ a: "tolls", b: "fares", within: 1 }] });
     expect(parseQuery("homes near water").branches[0].words).toEqual(["homes", "near", "water"]);
-    expect(parseQuery('"toll revenue" NEAR bridge').branches).toEqual([{ words: [], phrases: [], near: [{ a: "toll revenue", b: "bridge", within: 10 }] }]);
+    expect(terms(parseQuery('"toll revenue" NEAR bridge').branches)).toEqual([{ words: [], phrases: [], near: [{ a: "toll revenue", b: "bridge", within: 10 }] }]);
     expect(parseQuery('budget NEAR "school aid"').branches[0].near).toEqual([{ a: "budget", b: "school aid", within: 10 }]);
   });
 
   it("checks the distance between the closest words of each side", () => {
     // Senator0 Krueger1 The2 toll3 revenue4 goes5 to6 the7 bridge8 fund9 ...
     const [krueger] = remarksOf(DATA);
-    expect(keepRemark(krueger, parseQuery('"toll revenue" NEAR/3 bridge').branches[0], [], null)).toBe(false);
-    expect(keepRemark(krueger, parseQuery('"toll revenue" NEAR/4 bridge').branches[0], [], null)).toBe(true);
-    expect(keepRemark(krueger, parseQuery("toll NEAR/5 fund").branches[0], [], null)).toBe(false);
-    expect(keepRemark(krueger, parseQuery("toll NEAR/6 fund").branches[0], [], null)).toBe(true);
+    expect(keepRemark(krueger, parseQuery('"toll revenue" NEAR/3 bridge').branches[0])).toBe(false);
+    expect(keepRemark(krueger, parseQuery('"toll revenue" NEAR/4 bridge').branches[0])).toBe(true);
+    expect(keepRemark(krueger, parseQuery("toll NEAR/5 fund").branches[0])).toBe(false);
+    expect(keepRemark(krueger, parseQuery("toll NEAR/6 fund").branches[0])).toBe(true);
   });
 
   it("asks Pagefind for a NEAR phrase exactly and its words together", () => {
@@ -286,17 +293,159 @@ describe("speaker: for people the Senate's data doesn't know", () => {
   const any = parseQuery("speaker:hiller").branches[0];
 
   it("matches the name printed on the remark, by any word of it", () => {
-    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], { slugs: [], labels: ["hiller"] })).toBe(true);
-    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], { slugs: [], labels: ["hil"] })).toBe(true);
-    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], { slugs: [], labels: ["commissioner hiller"] })).toBe(true);
-    expect(keepRemark(remark("SENATOR KRUEGER", "liz-krueger"), any, [], { slugs: [], labels: ["hiller"] })).toBe(false);
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, { slugs: [], labels: ["hiller"] })).toBe(true);
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, { slugs: [], labels: ["hil"] })).toBe(true);
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, { slugs: [], labels: ["commissioner hiller"] })).toBe(true);
+    expect(keepRemark(remark("SENATOR KRUEGER", "liz-krueger"), any, { slugs: [], labels: ["hiller"] })).toBe(false);
   });
 
   it("mixes with people it knows: either one's remarks", () => {
     const both = { slugs: ["liz-krueger"], labels: ["hiller"] };
-    expect(keepRemark(remark("SENATOR KRUEGER", "liz-krueger"), any, [], both)).toBe(true);
-    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, [], both)).toBe(true);
-    expect(keepRemark(remark("SENATOR LANZA", "andrew-j-lanza"), any, [], both)).toBe(false);
+    expect(keepRemark(remark("SENATOR KRUEGER", "liz-krueger"), any, both)).toBe(true);
+    expect(keepRemark(remark("DTF COMMISSIONER HILLER"), any, both)).toBe(true);
+    expect(keepRemark(remark("SENATOR LANZA", "andrew-j-lanza"), any, both)).toBe(false);
   });
 });
 
+
+describe("brackets", () => {
+  const words = (q: string) => parseQuery(q).branches.map((b) => [...b.words, ...b.phrases.map((p) => `"${p}"`)].join(" "));
+
+  it("works out brackets and OR into branches, at any depth", () => {
+    expect(words("(tolls OR fares) bridge")).toEqual(["tolls bridge", "fares bridge"]);
+    expect(words("(tolls OR fares) AND bridge")).toEqual(["tolls bridge", "fares bridge"]);
+    expect(words("budget AND (tax OR school)")).toEqual(["budget tax", "budget school"]);
+    expect(words("(budget AND tax) OR school")).toEqual(["budget tax", "school"]);
+    expect(words('((tolls OR "toll revenue") (bridge OR tunnel)) OR ferry')).toEqual(["tolls bridge", "tolls tunnel", 'bridge "toll revenue"', 'tunnel "toll revenue"', "ferry"]);
+  });
+
+  it("closes a bracket left open, and passes over one closed too many", () => {
+    expect(words("(tolls OR fares")).toEqual(["tolls", "fares"]);
+    expect(words("tolls) fares")).toEqual(["tolls fares"]);
+    expect(words("()")).toEqual([""]);
+  });
+
+  it("takes words with brackets around them as the words alone", () => {
+    expect(parseQuery("(tolls)").branches[0].words).toEqual(["tolls"]);
+    expect(words("tolls - fares")).toEqual(["tolls fares"]); // a dash alone is nothing to find
+  });
+
+  it("leaves out a whole group with NOT or a minus", () => {
+    const either = parseQuery("budget NOT (tax OR school)").branches;
+    expect(either).toHaveLength(1);
+    expect(either[0].not.map((e) => e.words)).toEqual([["tax"], ["school"]]);
+    const both = parseQuery("budget -(tax school)").branches;
+    expect(both[0].not.map((e) => e.words)).toEqual([["tax", "school"]]); // only remarks with both are left out
+    // NOT (x AND NOT y) is NOT x OR y.
+    expect(words("budget NOT (tax -school)")).toEqual(["budget", "budget school"]);
+    expect(parseQuery("budget NOT (tax -school)").branches[0].not.map((e) => e.words)).toEqual([["tax"]]);
+  });
+
+  it("keeps NEAR inside a bracket, and pairs NEAR with each word of a bracket", () => {
+    expect(parseQuery("(tolls NEAR fares) OR bridge").branches.map((b) => [b.near, b.words])).toEqual([
+      [[{ a: "tolls", b: "fares", within: 10 }], []],
+      [[], ["bridge"]],
+    ]);
+    expect(parseQuery("(tolls OR fares) NEAR/3 bridge").branches.map((b) => b.near)).toEqual([
+      [{ a: "tolls", b: "bridge", within: 3 }],
+      [{ a: "fares", b: "bridge", within: 3 }],
+    ]);
+  });
+
+  it("refuses a query that works out to too many branches", () => {
+    expect(parseQuery("(a OR b) (c OR d) (e OR f) (g OR h)").tooMany).toBe(false); // 16
+    expect(parseQuery("(a OR b) (c OR d) (e OR f) (g OR h) (i OR j)").tooMany).toBe(true); // 32
+    expect(parseQuery(Array.from({ length: 12 }, (_, i) => `(w${i} OR v${i})`).join(" ")).tooMany).toBe(true); // 4,096: stops early
+  });
+});
+
+describe("shortcuts and brackets", () => {
+  it("lets shortcuts outside brackets narrow the whole query, wherever they stand", () => {
+    const q = parseQuery("tolls OR fares year:2019");
+    expect(q.branches.map((b) => [b.words, b.filters])).toEqual([[["tolls"], { years: [2019] }], [["fares"], { years: [2019] }]]);
+    expect(q.filters).toEqual({ years: [2019] });
+  });
+
+  it("gives each bracket its own shortcuts", () => {
+    const q = parseQuery("(tolls speaker:krueger) OR (fares speaker:liu) type:floor");
+    expect(q.branches.map((b) => [b.words, b.filters])).toEqual([
+      [["tolls"], { speakers: [{ text: "krueger", senate: false }], types: ["floor"] }],
+      [["fares"], { speakers: [{ text: "liu", senate: false }], types: ["floor"] }],
+    ]);
+    expect(q.filters).toEqual({ types: ["floor"] });
+  });
+
+  it("reads speaker:( … ) as any of those speakers", () => {
+    expect(parseQuery("tolls speaker:(krueger OR liu)").filters.speakers).toEqual([{ text: "krueger", senate: false }, { text: "liu", senate: false }]);
+    expect(parseQuery('tolls committee:("Ways and Means" OR Health)').filters.committees).toEqual(["Ways and Means", "Health"]);
+  });
+
+  it("leaves a speaker, year, type, committee or bill out with NOT or a minus, instead of keeping only them", () => {
+    for (const q of ["tolls NOT speaker:krueger", "tolls -speaker:krueger"]) {
+      const b = parseQuery(q).branches[0];
+      expect(b.filters).toEqual({});
+      expect(b.not).toEqual([{ words: [], phrases: [], near: [], filters: { speakers: [{ text: "krueger", senate: false }] } }]);
+    }
+    expect(parseQuery("tolls -year:2019 -type:hearing").branches[0].not.map((e) => e.filters)).toEqual([{ years: [2019] }, { types: ["hearing"] }]);
+    expect(parseQuery("tolls -speaker:(krueger OR liu)").branches[0].not.map((e) => e.filters.speakers)).toEqual([
+      [{ text: "krueger", senate: false }], [{ text: "liu", senate: false }],
+    ]);
+    expect(parseQuery("tolls NOT -year:2019").filters).toEqual({ years: [2019] }); // two negatives make a positive
+  });
+
+  it("asks Pagefind to leave out the transcripts a NOT rules out, and nothing for a NOT about words or a speaker", () => {
+    const b = parseQuery('tolls -year:2019 -committee:"Ways and Means" -speaker:krueger -bridge').branches[0];
+    expect(pagefindFilters(b.filters, null, b.not)).toEqual({ none: [{ year: ["2019"] }, { committee: "Ways and Means" }] });
+    expect(pagefindFilters(parseQuery("tolls").branches[0].filters, null, [])).toEqual({});
+  });
+});
+
+describe("exclusions on each remark", () => {
+  const [krueger, lanza] = remarksOf(DATA);
+  const page = { year: ["2025"], type: ["floor"], session: ["2025"] };
+  const branch = (s: string) => parseQuery(s).branches[0];
+
+  it("leaves out a speaker's remarks, and only theirs", () => {
+    const b = branch("toll -speaker:krueger");
+    expect(keepRemark(krueger, b, null, ["liz-krueger"], page)).toBe(false);
+    expect(keepRemark(lanza, branch("tolls -speaker:krueger"), null, ["liz-krueger"], page)).toBe(true);
+    // Not yet looked up, the name as typed still finds them.
+    expect(keepRemark(krueger, branch("toll -speaker:liz-krueger"))).toBe(false);
+  });
+
+  it("leaves out remarks in the years, types and committees a NOT names", () => {
+    expect(keepRemark(krueger, branch("toll -year:2025"), null, [], page)).toBe(false);
+    expect(keepRemark(krueger, branch("toll -year:2019"), null, [], page)).toBe(true);
+    expect(keepRemark(krueger, branch("toll -type:floor"), null, [], page)).toBe(false);
+    expect(keepRemark(krueger, branch("toll -committee:Health"), null, [], page)).toBe(true);
+  });
+
+  it("leaves out by words, speaker and place together when a NOT names them together", () => {
+    const b = branch("toll -(bridge speaker:krueger)");
+    expect(keepRemark(krueger, b, null, ["liz-krueger"], page)).toBe(false); // Krueger, saying bridge
+    expect(keepRemark(krueger, branch("toll -(tunnel speaker:krueger)"), null, ["liz-krueger"], page)).toBe(true);
+  });
+
+  it("checks each branch's own shortcuts against the transcript", () => {
+    const [in2019, in2025] = parseQuery("(toll year:2019) OR (toll year:2025)").branches;
+    expect(keepRemark(krueger, in2019, null, [], page)).toBe(false);
+    expect(keepRemark(krueger, in2025, null, [], page)).toBe(true);
+  });
+});
+
+describe("review fixes: NOT before shortcuts", () => {
+  it("leaves out every value of speaker:( … ) after a NOT, outside brackets or in", () => {
+    const outside = parseQuery("tolls NOT speaker:(smith jones)").branches[0];
+    expect(outside.filters).toEqual({});
+    expect(outside.not.map((e) => e.filters.speakers)).toEqual([[{ text: "smith", senate: false }], [{ text: "jones", senate: false }]]);
+    const inside = parseQuery("(tolls NOT speaker:(smith jones)) OR fares").branches[0];
+    expect(inside.filters).toEqual({});
+    expect(inside.not.map((e) => e.filters.speakers)).toEqual([[{ text: "smith", senate: false }], [{ text: "jones", senate: false }]]);
+  });
+
+  it("reads NOT NOT before a shortcut as no NOT at all, leaving nothing behind", () => {
+    const q = parseQuery("tolls NOT NOT year:2019 fares");
+    expect(q.filters).toEqual({ years: [2019] });
+    expect(q.branches.map((b) => [b.words, b.not.length])).toEqual([[["tolls", "fares"], 0]]);
+  });
+});

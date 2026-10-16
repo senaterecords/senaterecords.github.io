@@ -4,42 +4,248 @@ import { fold } from "./names";
 
 /** Two terms (each a word or a phrase) within so many words of each other in one remark. */
 export interface Near { a: string; b: string; within: number; }
-export interface Branch { words: string[]; phrases: string[]; near: Near[]; }
+/** Words, phrases and NEAR pairs a remark must all hold. */
+export interface Terms { words: string[]; phrases: string[]; near: Near[]; }
 /** A speaker: or senator: in the query, as typed (senator: looks among senators only). */
 export interface SpeakerFilter { text: string; senate: boolean; }
 /** The shortcuts in a query. Several values of one shortcut mean any of them; different shortcuts must all hold. */
 export interface Filters {
   speakers?: SpeakerFilter[]; bills?: string[]; session?: number; years?: number[]; types?: ("floor" | "hearing")[]; committees?: string[];
 }
-export interface ParsedQuery { branches: Branch[]; not: string[]; filters: Filters; }
+/** What a NOT leaves out: remarks that hold all of its terms, by one of its speakers, in one of its transcripts. */
+export interface Exclusion extends Terms { filters: Filters; }
+/** One way for a remark to match: all of its terms, its shortcuts, and none of its exclusions. */
+export interface Branch extends Terms { filters: Filters; not: Exclusion[]; }
+/** A query as any of its branches (brackets and OR worked out). filters holds the shortcuts written outside brackets,
+ * which narrow every branch; tooMany says the query works out to more branches than can be searched. */
+export interface ParsedQuery { branches: Branch[]; filters: Filters; tooMany: boolean; }
 
 const FIELDS = new Set(["speaker", "senator", "bill", "year", "type", "committee"]);
+/** Branches searched at most, and how far the working out may grow before it stops. */
+export const MAX_BRANCHES = 16;
+const LIMIT = 256;
 
 /** A word every indexed transcript holds once (hidden in the page): a search with only filters looks it up, because
  * Pagefind given no word at all loads its whole index (measured: 1,002 files, 73 MB, for speaker:luis-r-sepulveda). */
 export const EVERY_PAGE = "otrrecordpage";
 const NEAR_WORDS = 10;
 
-type Token = { kind: "word" | "phrase" | "op"; value: string; field?: string; negated?: boolean };
+type Token =
+  | { kind: "word" | "phrase"; value: string; negated: boolean }
+  | { kind: "field"; field: string; value: string; negated: boolean }
+  | { kind: "op"; value: string }
+  | { kind: "open"; negated: boolean }
+  | { kind: "close" };
+
+const isNot = (t: Token | undefined) => t?.kind === "op" && t.value === "NOT";
 
 function tokenize(q: string): Token[] {
   const tokens: Token[] = [];
-  const re = /(-?)(?:([A-Za-z]+):(?:"([^"]*)"?|(\S+))|"([^"]*)"?|(\S+))/g;
-  for (const m of q.matchAll(re)) {
-    const [, minus, field, fieldQuoted, fieldBare, phrase, bare] = m;
-    if (field && FIELDS.has(field.toLowerCase())) {
-      tokens.push({ kind: "word", field: field.toLowerCase(), value: (fieldQuoted ?? fieldBare ?? "").trim() });
-    } else if (phrase !== undefined) {
-      if (phrase.trim()) tokens.push({ kind: "phrase", value: phrase.trim().replace(/\s+/g, " "), negated: !!minus });
-    } else {
-      const text = field ? `${field}:${fieldQuoted ?? fieldBare ?? ""}` : bare!;
-      // A lowercase "and" means AND (already the default between terms), not a word to find; "near/3" in any case can
-      // only mean NEAR. A plain lowercase "near" stays a word ("homes near water").
-      if (!minus && (/^(AND|OR|NOT|NEAR(\/\d{1,3})?)$/.test(text) || text === "and" || /^near\/\d{1,3}$/i.test(text))) tokens.push({ kind: "op", value: text.toUpperCase() });
-      else if (text) tokens.push({ kind: "word", value: text, negated: !!minus });
+  // Inside speaker:( … ) and the like: every word or phrase is one more value of that shortcut, which already means
+  // any of them, so its ORs and brackets need no working out.
+  let group: { field: string; negated: boolean; depth: number } | null = null;
+  const quoted = (from: number): [string, number] => {
+    const end = q.indexOf('"', from + 1);
+    return end < 0 ? [q.slice(from + 1), q.length] : [q.slice(from + 1, end), end + 1];
+  };
+  const add = (text: string, phrase: boolean, negated: boolean) => {
+    const value = phrase ? text.trim().replace(/\s+/g, " ") : text;
+    if (!fold(value)) return; // punctuation alone: nothing to find
+    if (group) tokens.push({ kind: "field", field: group.field, value, negated: group.negated !== negated });
+    else tokens.push({ kind: phrase ? "phrase" : "word", value, negated });
+  };
+  let i = 0;
+  while (i < q.length) {
+    if (/\s/.test(q[i])) { i++; continue; }
+    if (q[i] === ")") {
+      i++;
+      if (!group) tokens.push({ kind: "close" });
+      else if (group.depth-- === 0) group = null;
+      continue;
     }
+    const negated = q[i] === "-" && i + 1 < q.length && !/[\s)]/.test(q[i + 1]);
+    let j = negated ? i + 1 : i;
+    if (q[j] === "(") {
+      i = j + 1;
+      if (group) group.depth++;
+      else tokens.push({ kind: "open", negated });
+      continue;
+    }
+    if (q[j] === '"') {
+      const [text, next] = quoted(j);
+      i = next;
+      add(text, true, negated);
+      continue;
+    }
+    const named = /^([A-Za-z]+):/.exec(q.slice(j));
+    if (named && !group && FIELDS.has(named[1].toLowerCase())) {
+      const field = named[1].toLowerCase();
+      j += named[0].length;
+      if (q[j] === "(") {
+        // A NOT before speaker:( … ) leaves out every one of them, as a minus does.
+        let not = negated;
+        for (; isNot(tokens[tokens.length - 1]); not = !not) tokens.pop();
+        group = { field, negated: not, depth: 0 };
+        i = j + 1;
+        continue;
+      }
+      let value: string;
+      if (q[j] === '"') [value, i] = quoted(j);
+      else { value = /^[^\s)]*/.exec(q.slice(j))![0]; i = j + value.length; }
+      tokens.push({ kind: "field", field, value: value.trim(), negated });
+      continue;
+    }
+    // A word runs to a space or a closing bracket.
+    const text = /^[^\s)]+/.exec(q.slice(j))![0];
+    i = j + text.length;
+    // A lowercase "and" means AND (already the default between terms), not a word to find; "near/3" in any case can
+    // only mean NEAR. A plain lowercase "near" stays a word ("homes near water").
+    const op = !negated && (/^(AND|OR|NOT|NEAR(\/\d{1,3})?)$/.test(text) || text === "and" || /^near\/\d{1,3}$/i.test(text));
+    if (op && !group) tokens.push({ kind: "op", value: text.toUpperCase() });
+    else if (!op) add(text, false, negated);
   }
   return tokens;
+}
+
+/** A query as written: terms, shortcuts and what joins them. */
+type Node =
+  | { t: "term"; value: string; phrase: boolean }
+  | { t: "field"; field: string; value: string }
+  | { t: "and" | "or"; items: Node[] }
+  | { t: "not"; item: Node }
+  | { t: "near"; a: Node; b: Node; within: number };
+
+/** Reads the tokens with the usual precedence: brackets first, then NOT, NEAR, AND (also unwritten), and OR last. An
+ * unclosed bracket closes at the end, and an operator with nothing to work on is passed over. */
+function parse(tokens: Token[]): Node | null {
+  let i = 0;
+  const join = (t: "and" | "or", items: Node[]): Node | null => (items.length > 1 ? { t, items } : items[0] ?? null);
+  const isOr = (t: Token | undefined) => t?.kind === "op" && t.value === "OR";
+  const unary = (): Node | null => {
+    const t = tokens[i];
+    if (!t || t.kind === "close" || isOr(t)) return null;
+    i++;
+    if (t.kind === "op") {
+      if (t.value !== "NOT") return null; // AND or NEAR with nothing before it
+      const item = unary();
+      return item && { t: "not", item };
+    }
+    let node: Node | null;
+    if (t.kind === "open") {
+      node = or();
+      if (tokens[i]?.kind === "close") i++;
+    } else node = t.kind === "field" ? { t: "field", field: t.field, value: t.value } : { t: "term", value: t.value, phrase: t.kind === "phrase" };
+    return node && (t.negated ? { t: "not", item: node } : node);
+  };
+  const near = (): Node | null => {
+    let left = unary();
+    for (let t = tokens[i]; left && t?.kind === "op" && t.value.startsWith("NEAR"); t = tokens[i]) {
+      i++;
+      const right = unary();
+      if (!right) break;
+      left = { t: "near", a: left, b: right, within: Number(t.value.split("/")[1] ?? NEAR_WORDS) };
+    }
+    return left;
+  };
+  const and = (): Node | null => {
+    const items: Node[] = [];
+    for (let t = tokens[i]; t && t.kind !== "close" && !isOr(t); t = tokens[i]) {
+      if (t.kind === "op" && t.value === "AND") { i++; continue; }
+      const item = near();
+      if (item) items.push(item);
+    }
+    return join("and", items);
+  };
+  const or = (): Node | null => {
+    const items: Node[] = [];
+    const first = and();
+    if (first) items.push(first);
+    while (isOr(tokens[i])) {
+      i++;
+      const next = and();
+      if (next) items.push(next);
+    }
+    return join("or", items);
+  };
+  const parts: Node[] = [];
+  while (i < tokens.length) {
+    const part = or();
+    if (part) parts.push(part);
+    if (tokens[i]?.kind === "close") i++; // a closing bracket with none open
+  }
+  return join("and", parts);
+}
+
+/** One branch while the query is worked out. */
+type Conj = Branch;
+const noTerms = (): Terms => ({ words: [], phrases: [], near: [] });
+const empty = (): Conj => ({ ...noTerms(), filters: {}, not: [] });
+const hasTerms = (t: Terms) => t.words.length + t.phrases.length + t.near.length > 0;
+/** Whether shortcuts ask for certain transcripts (a year, a type, a committee, a bill), as speakers ask for remarks. */
+const hasPlace = (f: Filters) => !!(f.years?.length || f.types?.length === 1 || f.committees?.length || f.bills?.length);
+const hasFilters = (f: Filters) => !!(f.speakers?.length || hasPlace(f) || f.types?.length);
+
+class TooMany extends Error {}
+
+function mergeFilters(a: Filters, b: Filters): Filters {
+  const out: Filters = { ...a };
+  const add = <T>(x: T[] | undefined, y: T[] | undefined, key: (v: T) => string = String) =>
+    [...new Map([...(x ?? []), ...(y ?? [])].map((v) => [key(v), v])).values()];
+  if (b.speakers) out.speakers = add(a.speakers, b.speakers, (s) => `${s.senate}:${s.text.toLowerCase()}`);
+  if (b.committees) out.committees = add(a.committees, b.committees);
+  if (b.bills) out.bills = add(a.bills, b.bills);
+  if (b.types) out.types = add(a.types, b.types);
+  if (b.years) out.years = add(a.years, b.years).sort((x, y) => x - y);
+  if (b.session) out.session = b.session;
+  return out;
+}
+
+const combine = (a: Conj, b: Conj): Conj => ({
+  words: [...a.words, ...b.words], phrases: [...a.phrases, ...b.phrases], near: [...a.near, ...b.near],
+  filters: mergeFilters(a.filters, b.filters), not: [...a.not, ...b.not],
+});
+
+/** Every pairing of a branch of a with a branch of b: what AND makes of two lists of branches. */
+function cross(a: Conj[], b: Conj[]): Conj[] {
+  if (a.length * b.length > LIMIT) throw new TooMany();
+  return a.flatMap((x) => b.map((y) => combine(x, y)));
+}
+
+/** A query worked out into branches, any of which may match (OR of ANDs). */
+function branchesOf(node: Node): Conj[] {
+  switch (node.t) {
+    case "term": return [node.phrase ? { ...empty(), phrases: [node.value] } : { ...empty(), words: [node.value] }];
+    case "field": {
+      const filters: Filters = {};
+      applyFilter(filters, node.field, node.value);
+      return [{ ...empty(), filters }];
+    }
+    case "and": return node.items.reduce((all, item) => cross(all, branchesOf(item)), [empty()]);
+    case "or": {
+      const all = node.items.flatMap(branchesOf);
+      if (all.length > LIMIT) throw new TooMany();
+      return all;
+    }
+    case "near": {
+      const a = branchesOf(node.a);
+      const b = branchesOf(node.b);
+      // NEAR pairs a word or phrase with another; with a bracket of them on a side, each one is paired. Anything more
+      // (a bracket holding a shortcut or a NOT) can only ask that both be there.
+      const term = (c: Conj) => (!c.near.length && !c.not.length && !hasFilters(c.filters) && c.words.length + c.phrases.length === 1 ? c.words[0] ?? c.phrases[0] : null);
+      if (![...a, ...b].every(term)) return cross(a, b);
+      if (a.length * b.length > LIMIT) throw new TooMany();
+      return a.flatMap((x) => b.map((y) => ({ ...empty(), near: [{ a: term(x)!, b: term(y)!, within: node.within }] })));
+    }
+    case "not": {
+      // NOT (x OR y) is NOT x AND NOT y; NOT (x AND NOT y) is NOT x OR y.
+      return branchesOf(node.item).map((c) => {
+        const options: Conj[] = c.not.map((e) => ({ ...e, not: [] }));
+        const kept: Exclusion = { words: c.words, phrases: c.phrases, near: c.near, filters: c.filters };
+        if (hasTerms(kept) || hasFilters(kept.filters)) options.unshift({ ...empty(), not: [kept] });
+        return options.length ? options : [empty()]; // NOT of a shortcut that names nothing changes nothing
+      }).reduce((all, options) => cross(all, options), [empty()]);
+    }
+  }
 }
 
 function applyFilter(filters: Filters, field: string, value: string) {
@@ -71,46 +277,37 @@ function applyFilter(filters: Filters, field: string, value: string) {
 }
 
 export function parseQuery(q: string): ParsedQuery {
-  const filters: Filters = {};
-  const not: string[] = [];
-  const branches: Branch[] = [{ words: [], phrases: [], near: [] }];
-  const tokens = tokenize(q);
-  let last: { list: string[]; value: string } | null = null; // the term just read, which a NEAR can take
-  for (let i = 0; i < tokens.length; i++) {
-    const t = tokens[i];
-    const branch = branches[branches.length - 1];
-    if (t.field) { applyFilter(filters, t.field, t.value); continue; }
-    if (t.kind === "op") {
-      if (t.value === "OR") { branches.push({ words: [], phrases: [], near: [] }); last = null; }
-      else if (t.value === "NOT") {
-        const next = tokens[i + 1];
-        if (next && next.kind !== "op" && !next.field) { not.push(next.value); i++; }
-      } else if (t.value.startsWith("NEAR")) {
-        // NEAR is within 10 words; NEAR/3 within 3. Either side may be a word or a phrase.
-        const next = tokens[i + 1];
-        if (last && next && next.kind !== "op" && !next.field && !next.negated) {
-          last.list.splice(last.list.lastIndexOf(last.value), 1);
-          branch.near.push({ a: last.value, b: next.value, within: Number(t.value.split("/")[1] ?? NEAR_WORDS) });
-          i++;
-        }
-      }
-      last = null;
-      continue;
-    }
-    if (t.negated) { not.push(t.value); last = null; continue; }
-    const list = t.kind === "phrase" ? branch.phrases : branch.words;
-    list.push(t.value);
-    last = { list, value: t.value };
+  // Shortcuts outside brackets narrow the whole query wherever they stand ("tolls OR fares year:2019" is either word,
+  // in 2019), as the filters beside the results add them; inside brackets they belong to their group.
+  const outside = empty();
+  const rest: Token[] = [];
+  let depth = 0;
+  for (const t of tokenize(q)) {
+    if (t.kind === "open") depth++;
+    if (t.kind === "close") depth = Math.max(0, depth - 1);
+    if (t.kind !== "field" || depth > 0) { rest.push(t); continue; }
+    let not = false; // each NOT just before it turns it around
+    for (; isNot(rest[rest.length - 1]); not = !not) rest.pop();
+    const filters: Filters = {};
+    applyFilter(filters, t.field, t.value);
+    if (t.negated === not) outside.filters = mergeFilters(outside.filters, filters);
+    else if (hasFilters(filters)) outside.not.push({ ...noTerms(), filters });
   }
-  // "a OR" with nothing after it leaves an empty branch; keep it only when it is the only one.
-  const kept = branches.filter((b) => b.words.length || b.phrases.length || b.near.length);
-  return { branches: kept.length ? kept : [{ words: [], phrases: [], near: [] }], not, filters };
+  const tree = parse(rest);
+  try {
+    const branches = cross(tree ? branchesOf(tree) : [empty()], [outside]);
+    if (branches.length > MAX_BRANCHES) throw new TooMany();
+    return { branches: branches.length ? branches : [outside], filters: outside.filters, tooMany: false };
+  } catch (error) {
+    if (!(error instanceof TooMany)) throw error;
+    return { branches: [outside], filters: outside.filters, tooMany: true };
+  }
 }
 
 /** The searches Pagefind runs for a branch: each phrase on its own (Pagefind searches a phrase exactly only when it is
  * the whole term, and finds nothing for a term with several), then the other words together. The page keeps the
  * transcripts every search found, and each remark is still checked for every phrase and word (spec 9.1). */
-export function pagefindTerms(b: Branch): string[] {
+export function pagefindTerms(b: Terms): string[] {
   const nearTerms = b.near.flatMap((n) => [n.a, n.b]);
   const words = [...b.words, ...nearTerms.filter((t) => !isPhrase(t))].join(" ");
   const terms = [...[...b.phrases, ...nearTerms.filter(isPhrase)].map((p) => `"${p}"`), ...(words ? [words] : [])];
@@ -119,10 +316,15 @@ export function pagefindTerms(b: Branch): string[] {
 
 const isPhrase = (term: string) => /\s/.test(term.trim());
 
-/** Pagefind filters for a query. A range of years needs "any"; a plain list would require every year at once. */
-export function pagefindFilters(f: Filters, speakers: string | string[] | null): Record<string, string | string[] | { any: string[] }> {
+/** Filters as Pagefind takes them: values, "any" lists, and "none" for transcripts left out. */
+export type PagefindFilters = { [key: string]: string | string[] | { any: string[] } | PagefindFilters[] };
+
+/** Pagefind filters for a branch. A range of years needs "any"; a plain list would require every year at once. A NOT
+ * that rules out whole transcripts (a year, a type, a committee, a bill) is left to Pagefind too; one that names
+ * words or a speaker is a matter for each remark. */
+export function pagefindFilters(f: Filters, speakers: string | string[] | null, not: Exclusion[] = []): PagefindFilters {
   const slugs = speakers == null ? [] : Array.isArray(speakers) ? speakers : [speakers];
-  const out: Record<string, string | string[] | { any: string[] }> = {};
+  const out: PagefindFilters = {};
   const oneOrAny = (values: string[]) => (values.length === 1 ? values[0] : { any: values });
   if (f.years?.length) out.year = f.years.length === 1 ? [String(f.years[0])] : { any: f.years.map(String) };
   if (f.types?.length === 1) out.type = f.types[0]; // both record types is no filter
@@ -130,11 +332,16 @@ export function pagefindFilters(f: Filters, speakers: string | string[] | null):
   if (f.session && f.bills?.length === 1) out.session = String(f.session);
   if (f.committees?.length) out.committee = oneOrAny(f.committees);
   if (slugs.length) out.senator = oneOrAny(slugs);
+  const none = not.filter((e) => !hasTerms(e) && !e.filters.speakers?.length && hasPlace(e.filters)).map((e) => pagefindFilters(e.filters, null));
+  if (none.length) out.none = none;
   return out;
 }
 
 /** One remark found on a page. breaks are [word index in text, page] for each page that begins inside it. */
 export interface Remark { url: string; turn: number; page: number | null; speaker: string | null; label: string; text: string; breaks: [number, number][]; }
+
+/** A transcript's filter values, as Pagefind keeps them with its text: year, type, committee, bill, session. */
+export type PageFilters = Record<string, string[]>;
 
 interface PageData { url: string; content: string; anchors: { element: string; id: string; text: string; location: number }[]; }
 
@@ -234,23 +441,48 @@ function bySpeaker(r: Remark, speakers: SpeakerMatch): boolean {
   return asked.labels.some((name) => (name.includes(" ") ? label.includes(name) : words.some((w) => w.startsWith(name))));
 }
 
-export function keepRemark(r: Remark, b: Branch, not: string[], speakerSlug: SpeakerMatch): boolean {
-  if (!bySpeaker(r, speakerSlug)) return false;
+/** Whether a transcript is one a branch's shortcuts ask for (speakers are a matter for each remark). A page whose
+ * filter values are unknown passes. */
+function onPage(page: PageFilters | undefined, f: Filters): boolean {
+  if (!page) return true;
+  const any = (key: string, values: string[]) => values.some((v) => (page[key] ?? []).includes(v));
+  if (f.years?.length && !any("year", f.years.map(String))) return false;
+  if (f.types?.length === 1 && !any("type", f.types)) return false;
+  if (f.committees?.length && !any("committee", f.committees)) return false;
+  if (f.bills?.length && !any("bill", f.bills)) return false;
+  return !(f.session && f.bills?.length === 1 && !any("session", [String(f.session)]));
+}
+
+const holds = (words: string[], t: Terms) =>
+  t.words.every((w) => present(words, w)) && t.phrases.every((p) => hasPhrase(words, p)) && t.near.every((n) => near(words, n));
+
+/** Whether a NOT takes a remark out: it holds all of the NOT's terms, is by one of its speakers and is in one of its
+ * transcripts (whichever of those it names). Speakers not yet looked up are matched by the name as typed. */
+function excluded(r: Remark, words: string[], e: Exclusion, who: SpeakerMatch, page?: PageFilters): boolean {
+  const terms = hasTerms(e);
+  const people = !!e.filters.speakers?.length;
+  const place = hasPlace(e.filters);
+  if (!terms && !people && !place) return false;
+  const typed = (): Speakers => ({ slugs: e.filters.speakers!.map((s) => s.text.toLowerCase()), labels: e.filters.speakers!.map((s) => fold(s.text.replace(/-/g, " "))) });
+  return (!terms || holds(words, e)) && (!people || bySpeaker(r, who ?? typed())) && (!place || (!!page && onPage(page, e.filters)));
+}
+
+/** Whether a remark matches a branch: by its speakers (looked up), in its transcripts, with all its terms, and taken out
+ * by none of its NOTs (whose speakers, looked up, come one per NOT). */
+export function keepRemark(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters): boolean {
+  if (!bySpeaker(r, speakers) || !onPage(page, b.filters)) return false;
   const words = foldedWords(r.text);
-  if (!b.words.every((w) => present(words, w))) return false;
-  if (!b.phrases.every((p) => hasPhrase(words, p))) return false;
-  if (!b.near.every((n) => near(words, n))) return false;
-  return !not.some((n) => present(words, n));
+  return holds(words, b) && !b.not.some((e, k) => excluded(r, words, e, notSpeakers[k] ?? null, page));
 }
 
 /** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
  * NOT and speaker:. With no terms it is the same as keepRemark. */
-export function mentionsAny(r: Remark, b: Branch, not: string[], speakerSlug: SpeakerMatch): boolean {
+export function mentionsAny(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters): boolean {
   const terms = [...b.words, ...b.near.flatMap((n) => [n.a, n.b])];
-  if (!b.phrases.length && !terms.length) return keepRemark(r, b, not, speakerSlug);
-  if (!bySpeaker(r, speakerSlug)) return false;
+  if (!b.phrases.length && !terms.length) return keepRemark(r, b, speakers, notSpeakers, page);
+  if (!bySpeaker(r, speakers) || !onPage(page, b.filters)) return false;
   const words = foldedWords(r.text);
-  if (not.some((n) => present(words, n))) return false;
+  if (b.not.some((e, k) => excluded(r, words, e, notSpeakers[k] ?? null, page))) return false;
   return b.phrases.some((p) => hasPhrase(words, p)) || terms.some((t) => present(words, t));
 }
 
