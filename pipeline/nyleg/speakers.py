@@ -36,6 +36,10 @@ _STOP = {
     "SPEAKERS", "LIST OF SPEAKERS", "WITNESSES", "SENATE MEMBERS PRESENT",
     "ROUNDTABLE PARTICIPANTS", "NOTE",
 }
+# A hearing's cover ("PUBLIC HEARING", "JOINT VIRTUAL PUBLIC HEARING ON S.5294", "PUBLIC FORUM") and lists of who
+# attended ("ASSEMBLY MEMBERS PRESENT", "ROUNDTABLE PARTICIPANTS - CONTINUED") are not people speaking. ("PANEL
+# MEMBERS", a whole panel answering, and "HEARING OFFICER SMITH" are.)
+_HEADING = re.compile(r"^((VIRTUAL|JOINT|LEGISLATIVE|PUBLIC)\s+)+(HEARINGS?|FORUMS?|ROUNDTABLES?|MEETINGS?)\b|\bPRESENT$|\bPARTICIPANTS\b")
 _ASSEMBLY = ("ASSEMBLYMAN ", "ASSEMBLYWOMAN ", "ASSEMBLYMEMBER ", "ASSEMBLY MEMBER ")
 _CHAIR = ("CHAIRMAN ", "CHAIRWOMAN ", "CHAIRPERSON ", "CHAIR ")
 
@@ -64,7 +68,7 @@ def parse_label(text: str) -> tuple[str, str] | None:
         return None
     label = " ".join(raw.split()).rstrip(".,")
     words = label.split()
-    if not words or len(words) > 10 or label.upper() in _STOP:
+    if not words or len(words) > 10 or label.upper() in _STOP or _HEADING.search(label.upper()):
         return None
     first = words[0].strip(".,'’")
     if not any(c.isalpha() for c in first) or not all(c.isupper() for c in first if c.isalpha()):

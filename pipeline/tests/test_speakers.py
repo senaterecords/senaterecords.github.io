@@ -30,6 +30,18 @@ def test_parse_label():
     assert parse_label("(Whereupon, the Senate joined in the Pledge.)") is None
 
 
+def test_cover_headings_and_attendance_lists_are_not_speakers():
+    # A hearing's cover ("PUBLIC HEARING: TO DISCUSS ...") and lists of who attended are not people speaking.
+    for heading in ["PUBLIC HEARING", "PUBLIC HEARINGS", "JOINT PUBLIC HEARING", "JOINT VIRTUAL PUBLIC HEARING", "PUBLIC FORUM",
+                    "PUBLIC HEARING ON S.5294", "PUBLIC HEARING THE REGENTS REFORM AGENDA", "ASSEMBLY MEMBERS PRESENT",
+                    "COMMITTEE MEMBERS PRESENT", "CO-SPONSORS PRESENT", "ROUNDTABLE PARTICIPANTS - CONTINUED"]:
+        assert parse_label(f"{heading}:  TO DISCUSS THE STATE BUDGET") is None, heading
+    # A whole panel answering, a hearing officer and the witness are speakers.
+    assert parse_label("PANEL MEMBERS:  Yes.") == ("PANEL MEMBERS", "Yes.")
+    assert parse_label("HEARING OFFICER SMITH:  Thank you.") == ("HEARING OFFICER SMITH", "Thank you.")
+    assert parse_label("THE WITNESS:  Yes, sir.") == ("THE WITNESS", "Yes, sir.")
+
+
 @pytest.mark.parametrize(
     "label,expected",
     [
