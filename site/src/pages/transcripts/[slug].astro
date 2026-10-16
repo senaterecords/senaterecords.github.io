@@ -27,8 +27,8 @@ const displayTitle = doc.kind === "floor" ? `${name}, ${longDate(doc.date)}` : n
 const monthDay = longDate(doc.date).replace(/, \d{4}$/, "");
 const pages = doc.pages ? plainPages(doc.pages[0], doc.pages[1]) : "";
 const noSpeakers = doc.plainText || doc.empty || !doc.turns.some((t) => t.label);
-// Pro forma legislative days hold no debate: they get the text without the reader's tools, rails or embedded data,
-// and stay out of the search index (5,505 such days; spec 10, fallbacks).
+// Pro forma legislative days hold no debate (5,505 days, each the same short script): they have the reader's tools like
+// any transcript but stay out of the search index, where they would only add copies of the same procedural lines.
 const proForma = doc.dayType === "LEGISLATIVE" && !doc.turns.some((t) => ["senator", "chair", "assembly"].includes(t.role));
 const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
 
@@ -56,7 +56,7 @@ const readerData = {
   session: doc.session, speakers: cardData, segments,
 };
 const readings = new Map<number, { calNo: number; printNo: string | null; title: string | null }[]>();
-if (!proForma) for (const s of segments) readings.set(s.startTurn, [...(readings.get(s.startTurn) ?? []), { calNo: s.calNo, printNo: s.printNo, title: s.title }]);
+for (const s of segments) readings.set(s.startTurn, [...(readings.get(s.startTurn) ?? []), { calNo: s.calNo, printNo: s.printNo, title: s.title }]);
 const json = JSON.stringify(packReader(readerData)).replace(/</g, "\\u003c");
 const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).length;
 ---
@@ -69,13 +69,13 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
       <b>{monthDay} · {name}</b>
     </nav>
     <div class="rd-ttl"><span>{longDate(doc.date)}</span><small>{name}{pages && ` · ${pages}`}</small></div>
-    {!proForma && <div class="rd-acts" id="rd-acts"></div>}
+    <div class="rd-acts" id="rd-acts"></div>
   </Fragment>
 
 
-  {!proForma && <ReaderScripts />}
+  <ReaderScripts />
   <div class="rd">
-    {proForma ? <div class="rd-rail"></div> : doc.kind === "floor"
+    {doc.kind === "floor"
       ? <Calendar segments={doc.segments} session={doc.session} />
       : <HearingSpeakers speakers={speakers} turns={doc.turns} keyOf={keyOf} />}
 
@@ -100,11 +100,12 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         <span hidden data-pagefind-sort={`date:${doc.date}`}></span>
         </>}
         {noSpeakers && <p class="rd-note" data-pagefind-ignore>Speaker details aren't available for this transcript</p>}
-        <Turns turns={doc.turns} keyOf={keyOf} interactive={!proForma} readings={readings} />
+        <Turns turns={doc.turns} keyOf={keyOf} readings={readings}
+          billHref={(t, base) => (t.bills.some((b) => baseOf(b) === base) && hasBillPage(doc.session, base) ? url(`/bills/${doc.session}/${base}/`) : null)} />
       </article>
     </div>
 
-    {!proForma && <aside class="rd-rail rd-side" aria-label="About this transcript">
+    <aside class="rd-rail rd-side" aria-label="About this transcript">
       <div class="rail-in" id="headnote">
         <div id="headnote-live"></div>
         <div id="headnote-default">
@@ -121,9 +122,9 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         </dl>
         </div>
       </div>
-    </aside>}
+    </aside>
   </div>
 
-  {!proForma && <script type="application/json" id="reader-data" set:html={json} />}
+  <script type="application/json" id="reader-data" set:html={json} />
 </Base>
 

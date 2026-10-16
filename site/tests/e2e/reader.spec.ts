@@ -48,13 +48,13 @@ test("filters are attributes, not page text", async ({ page }) => {
   expect(text).not.toContain("type:floor");
 });
 
-test("a pro forma legislative day shows its text without the reader's tools, and stays out of search", async ({ page }) => {
+test("a pro forma legislative day has the reader's tools, and stays out of search", async ({ page }) => {
   await page.goto("transcripts/2023-06-04-regular-session/");
   await expect(page.locator("section.turn").first()).toBeVisible();
   await expect(page.locator("#transcript")).not.toHaveAttribute("data-pagefind-body", /.*/);
-  await expect(page.locator("#reader-data")).toHaveCount(0);
-  await expect(page.locator("h3.sp.k")).toHaveCount(0);
-  await expect(page.getByRole("button", { name: "Export" })).toHaveCount(0);
+  await page.locator("h3.sp.k").first().click();
+  await expect(page.getByRole("dialog").first()).toBeVisible();
+  await expect(page.getByRole("button", { name: "Export" })).toBeVisible();
 });
 
 test("each calendar reading starts with its bill number and title", async ({ page }) => {
@@ -131,4 +131,11 @@ test("a page that begins with a new paragraph shows its number in the margin, wi
     expect(number!.x + number!.width).toBeLessThanOrEqual(next!.x);
     expect(Math.abs(number!.y + number!.height / 2 - (next!.y + 14))).toBeLessThan(10);
   }
+});
+
+test("bill numbers in the text link to the bill's page", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const ref = page.locator("section.turn a.bref").first();
+  await expect(ref).toHaveAttribute("href", /\/bills\/2025\/[SA]\d+\/$/);
+  await expect(ref).toHaveText(/^(Senate|Assembly) (Print|Bill)/);
 });

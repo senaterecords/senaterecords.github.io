@@ -64,3 +64,11 @@ test("timeline labels keep clear space between steps, wrapping to two lines", as
   }));
   for (let i = 1; i < boxes.length; i++) expect(boxes[i].left - boxes[i - 1].right).toBeGreaterThanOrEqual(28);
 });
+
+test("each voter on a bill page links to their senator page", async ({ page }) => {
+  await page.goto("bills/2025/A5834/");
+  await page.getByText("How each senator voted").click();
+  const voter = page.locator(".how-group a").first();
+  await expect(voter).toBeVisible();
+  await expect(voter).toHaveAttribute("href", /\/senators\/[a-z-]+\/$/);
+});

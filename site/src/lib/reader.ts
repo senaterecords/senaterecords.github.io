@@ -78,3 +78,12 @@ export function estimateHeight(turns: { label: string | null; text: string; brea
 
 export const lastPage = (t: { page: number | null; breaks: [number, number][] }) =>
   t.breaks.length ? Math.max(...t.breaks.map(([, page]) => page)) : t.page;
+
+// How the record names a bill: "Senate Print 4597-A", "Assembly Bill Number 7594C", "Senate Bill No. 12".
+const BILL_REF = /\b(Senate|Assembly)\s+(?:Print|Bill)(?:\s+(?:Number|No\.?))?\s+(\d{1,5})(?!\d)(?:-?[A-Z]\b)?/g;
+
+/** The bill names in a text, each with its base print number (S4597), for linking to the bill's page. */
+export function billRefs(text: string): { start: number; end: number; base: string }[] {
+  return [...text.matchAll(BILL_REF)].map((m) => ({ start: m.index!, end: m.index! + m[0].length, base: `${m[1] === "Senate" ? "S" : "A"}${m[2]}` }));
+}
+

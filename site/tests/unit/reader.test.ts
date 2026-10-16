@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { estimateHeight, lastPage, turnBlocks, turnParagraphs } from "../../src/lib/reader";
+import { billRefs } from "../../src/lib/reader";
 
 describe("turn text with page breaks", () => {
   it("splits paragraphs on blank lines and joins wrapped lines", () => {
@@ -54,5 +55,18 @@ describe("turn text with page breaks", () => {
     expect(lastPage({ page: 826, breaks: [[10, 827], [90, 828]] })).toBe(828);
     expect(lastPage({ page: 826, breaks: [] })).toBe(826);
     expect(lastPage({ page: null, breaks: [] })).toBeNull();
+  });
+});
+
+describe("bill numbers in the text", () => {
+  it("finds the ways the record names a bill, with its base print number", () => {
+    const text = "moves to discharge Assembly Bill Number 7594C and substitute it for the identical Senate Bill 3852-C. Senate Print 4597-A, by Senator Krueger; Senate Bill No. 12.";
+    expect(billRefs(text).map((r) => [text.slice(r.start, r.end), r.base])).toEqual([
+      ["Assembly Bill Number 7594C", "A7594"],
+      ["Senate Bill 3852-C", "S3852"],
+      ["Senate Print 4597-A", "S4597"],
+      ["Senate Bill No. 12", "S12"],
+    ]);
+    expect(billRefs("Calendar Number 12, the bill is passed.")).toEqual([]);
   });
 });

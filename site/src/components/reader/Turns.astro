@@ -11,12 +11,32 @@
 // Only the "p. N" text is kept out of search: the break itself stays in, so Pagefind records its id as an anchor and
 // search knows the page of every word.
 import { titleCase } from "../../lib/format";
-import { estimateHeight, lastPage, turnParagraphs } from "../../lib/reader";
+import { billRefs, estimateHeight, lastPage, turnParagraphs } from "../../lib/reader";
 import type { Turn } from "../../lib/types";
 
 export interface Reading { calNo: number; printNo: string | null; title: string | null; }
-interface Props { turns: Turn[]; keyOf: (t: Turn) => string | null; interactive?: boolean; readings?: Map<number, Reading[]>; }
-const { turns, keyOf, interactive = true, readings } = Astro.props;
+interface Props {
+  turns: Turn[]; keyOf: (t: Turn) => string | null; interactive?: boolean; readings?: Map<number, Reading[]>;
+  /** The bill page for a bill named in a turn's text, or null; only bills the pipeline tied to that turn link. */
+  billHref?: (t: Turn, base: string) => string | null;
+}
+const { turns, keyOf, interactive = true, readings, billHref } = Astro.props;
+
+// A turn's text with each bill it names as a link to the bill's page.
+const linked = (text: string, t: Turn): (string | { text: string; href: string })[] => {
+  if (!billHref) return [text];
+  const out: (string | { text: string; href: string })[] = [];
+  let at = 0;
+  for (const ref of billRefs(text)) {
+    const href = billHref(t, ref.base);
+    if (!href) continue;
+    if (ref.start > at) out.push(text.slice(at, ref.start));
+    out.push({ text: text.slice(ref.start, ref.end), href });
+    at = ref.end;
+  }
+  if (at < text.length) out.push(text.slice(at));
+  return out;
+};
 
 const SPOKEN = new Set(["senator", "chair", "assembly"]);
 const CHUNK = 40;
@@ -45,7 +65,7 @@ const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => 
         )}
         {blocks.map((b) => (b.kind === "p"
           ? <p>{b.parts.map((part, j) => (typeof part === "string"
-              ? (j > 0 ? ` ${part}` : part)
+              ? <>{j > 0 && " "}{linked(part, t).map((seg) => (typeof seg === "string" ? seg : <a class="bref" href={seg.href}>{seg.text}</a>))}</>
               : <span class="pb" id={pageId(part.page)}><b data-pagefind-ignore>p. {part.page}</b><i></i></span>))}</p>
           : <div class="pb" id={pageId(b.page)}><b data-pagefind-ignore>p. {b.page}</b><i></i></div>))}
       </section>

@@ -55,6 +55,7 @@ const vote = (main && votes.find((v) => v.date === main.date)) ?? votes.at(-1) ?
 const laterVote = vote && votes.at(-1) !== vote && votes.at(-1)!.date > vote.date ? votes.at(-1)! : null;
 const VOTE_WORDS: [string, string][] = [["AYE", "aye"], ["AYEWR", "aye with reservations"], ["NAY", "nay"], ["EXC", "excused"], ["ABS", "absent"], ["ABD", "abstained"]];
 const voterName = (id: number) => byId.get(id)?.name ?? `Member ${id}`;
+const voterHref = (id: number) => { const slug = byId.get(id)?.slug; return slug && pages.has(slug) ? url(`/senators/${slug}/`) : null; };
 const voterSort = (a: number, b: number) => voterName(a).split(" ").at(-1)!.localeCompare(voterName(b).split(" ").at(-1)!);
 const officialUrl = card && session >= BILL_DATA_START ? `https://www.nysenate.gov/legislation/bills/${session}/${entry.basePrintNo}` : null;
 const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
@@ -146,8 +147,11 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
               {VOTE_WORDS.filter(([code]) => vote.members[code]?.length).map(([code, word]) => (
                 <div class="how-group">
                   <h3>{word[0].toUpperCase() + word.slice(1)} <span class="num">{vote.members[code].length}</span></h3>
-                  {/* Plain names: as links, the lists of ~60 voters weighed about 75 MB across 23,000 bill pages. */}
-                  <p>{[...vote.members[code]].sort(voterSort).map(voterName).join(", ")}</p>
+                  {/* Bill pages are their own site (/bills/), so the voters can link to their senator pages again. */}
+                  <p>{[...vote.members[code]].sort(voterSort).map((id, i) => {
+                    const href = voterHref(id);
+                    return <>{i > 0 && ", "}{href ? <a href={href}>{voterName(id)}</a> : voterName(id)}</>;
+                  })}</p>
                 </div>
               ))}
             </details>
@@ -192,6 +196,7 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
   .how { margin-top: 10px; font-size: 13px; }
   .how summary { font-weight: 650; color: var(--color-act); cursor: pointer; }
   .how-group { margin-top: 10px; }
+  .how-group a:hover { text-decoration: underline; text-underline-offset: 2px; }
   .how-group h3 { font-size: 12.5px; font-weight: 700; color: var(--color-ink2); margin-bottom: 2px; }
   .how-group h3 span { font-weight: 500; color: var(--color-ink3); }
   .how-group p { line-height: 1.55; color: var(--color-ink); }

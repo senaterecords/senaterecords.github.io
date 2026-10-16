@@ -66,6 +66,9 @@
 .turn > p:first-child, .turn > .g + p, .turn > .pb + p { margin-top: 0; }
 .turn > h3 { display: inline; font: 700 12.5px/1 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink2); margin-right: 14px; scroll-margin-top: 16px; }
 .turn > h3 + p { display: inline; margin: 0; }
+/* A bill named in the text links to its page: quiet until pointed at. */
+.turn a.bref { color: inherit; text-decoration: underline; text-decoration-color: #C5CAD0; text-underline-offset: 3px; }
+.turn a.bref:hover { color: var(--color-act); text-decoration-color: currentColor; }
 .turn > h3.k { cursor: pointer; }
 .turn > h3.k:hover { color: var(--color-ink); }
 .turn > h3.sen { color: var(--color-ink); text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
