@@ -2,7 +2,7 @@
 // the desktop headnote for the bill being read, and a notice when a remark link no longer resolves.
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { outcomeText } from "../lib/format";
+import { outcomeText, plural } from "../lib/format";
 import { indexOfTurn, readerData, type ReaderSegment } from "./readerData";
 import { clientOnly, Icon } from "./ui";
 
@@ -192,7 +192,7 @@ function ReaderNav() {
             <dt>Calendar</dt><dd className="num">No. {segment.calNo}</dd>
             {segment.sponsor && <><dt>Sponsor</dt><dd>{segment.sponsor}</dd></>}
             <dt>On the floor</dt><dd>{outcomeText(segment)}</dd>
-            <dt>Debate</dt><dd className="num">{segment.remarks ? `${segment.remarks} remarks` : "No debate"}</dd>
+            <dt>Debate</dt><dd className="num">{segment.remarks ? plural(segment.remarks, "remark") : "No debate"}</dd>
           </dl>
           {scope.length > 0 && <h3 className="hn-pos num">Remark {Math.max(k, 1)} of {scope.length}</h3>}
           <div className="keys"><span><kbd>J</kbd>next remark</span><span><kbd>K</kbd>previous</span></div>

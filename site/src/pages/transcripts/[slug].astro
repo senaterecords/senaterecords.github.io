@@ -34,7 +34,9 @@ const proForma = doc.dayType === "LEGISLATIVE" && !doc.turns.some((t) => ["senat
 const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
 
 // Pagefind filters, always in attribute form so they never become page text.
-const senatorKeys = [...new Set(doc.turns.map(keyOf).filter((k): k is string => !!k && k !== "president" && k !== "secretary"))];
+// A senator is a speaker of the transcript only for remarks in their own right: presiding ("ACTING PRESIDENT X") is
+// counted apart, as search results leave those turns out.
+const senatorKeys = [...new Set(doc.turns.filter((t) => t.role !== "presiding").map(keyOf).filter((k): k is string => !!k && k !== "president" && k !== "secretary"))];
 const billBases = [...new Set([
   ...doc.turns.flatMap((t) => t.bills.map(baseOf)),
   ...doc.segments.flatMap((s) => (s.printNo ? [baseOf(s.printNo)] : [])),

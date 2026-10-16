@@ -284,6 +284,13 @@ function SearchApp() {
   }, [q, sort, wide, loadMore]);
 
   const personBySlug = new Map(people.map((p) => [p.slug, p]));
+  // Who speaker: or senator: asked for, by name, for the message when none of their own remarks has the words.
+  const askedNames = [
+    ...(plan.current?.speaker?.slugs ?? []).map((slug) => personBySlug.get(slug)).filter((p): p is Person => !!p)
+      .map((p) => `${p.chamber === "assembly" ? "Asm." : "Sen."} ${p.name}`),
+    ...printed.map((name) => titleCase(name)),
+  ];
+  const withoutSpeakers = (query: string) => query.replace(/(^|\s)-?(speaker|senator):("[^"]*"|\S+)/gi, " ").replace(/\s+/g, " ").trim();
   const remarkCount = rows.length;
   const transcriptCount = new Set(rows.map((r) => r.transcript)).size;
   const activeFilters = Object.keys(parseQuery(q).filters).length;
@@ -449,7 +456,13 @@ function SearchApp() {
               {status === "ready" && !rows.length && queue.current.length > 0 && (
                 <div className="sr-none"><p>No matching remarks in the first {loaded.toLocaleString("en-US")} transcripts.</p></div>
               )}
-              {status === "ready" && !rows.length && !queue.current.length && !wide && total > 0
+              {status === "ready" && !rows.length && !queue.current.length && total > 0 && askedNames.length > 0
+                && parseQuery(q).branches.some((b) => b.phrases.length + b.words.length + b.near.length > 0) ? (
+                <div className="sr-none">
+                  <p>These words come up in {total.toLocaleString("en-US")} {total === 1 ? "transcript" : "transcripts"} where {askedNames.join(" or ")} spoke, but not in {askedNames.length === 1 ? `${askedNames[0]}'s` : "their"} own remarks.</p>
+                  <p><button type="button" className="btn" onClick={() => go({ q: withoutSpeakers(q) })}>Show these words from anyone</button></p>
+                </div>
+              ) : status === "ready" && !rows.length && !queue.current.length && !wide && total > 0
                 && parseQuery(q).branches.some((b) => b.phrases.length + b.words.length + b.near.length > 1) ? (
                 <div className="sr-none">
                   <p>No single remark has all of these. {total.toLocaleString("en-US")} {total === 1 ? "transcript has" : "transcripts have"} them in different remarks.</p>

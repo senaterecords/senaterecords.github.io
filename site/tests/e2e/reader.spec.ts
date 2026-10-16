@@ -230,3 +230,11 @@ test("the page a remark starts on reads as a page, \"p. 114\", like the page bre
   expect(await gutter.textContent()).toMatch(/^\d+$/); // the label is drawn, so copying never picks it up
 });
 
+test("a reading with one remark says \"1 remark\" in the side pane", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const calendar = page.getByRole("complementary", { name: "On the calendar" });
+  await calendar.locator("li", { hasText: "Debated · 1 remark" }).first().locator("a.go").click();
+  await expect(page.locator(".hn-live dd", { hasText: /remark/ })).toHaveText("1 remark");
+});
+

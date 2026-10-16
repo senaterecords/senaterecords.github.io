@@ -351,3 +351,24 @@ test("speaker: finds a hearing witness by the name the transcript prints", async
   await expect(page.locator("[data-result]")).toHaveCount(0);
 });
 
+test("a senator who only presided isn't offered as a speaker of that transcript", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // the filter panel is a sheet on phones
+  await page.goto("search/?q=resolution");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  // Ask the index itself: on March 4, 2025 she only spoke as "ACTING PRESIDENT PERSAUD".
+  const tagged = await page.evaluate(async () => {
+    const pf = await import(/* @vite-ignore */ `${location.pathname.replace(/search\/$/, "")}pagefind/pagefind.js`);
+    const found = await pf.search("resolution", { filters: { senator: "roxanne-j-persaud" } });
+    return found.results.length;
+  });
+  expect(tagged).toBe(0);
+});
+
+test("when a speaker's own remarks don't have the words, the page says so and offers them from anyone", async ({ page }) => {
+  await page.goto("search/?q=pledge%20senator%3Akrueger");
+  await expect(page.getByText(/come up in 1 transcript where Sen\. Liz Krueger spoke, but not in .*own remarks/)).toBeVisible();
+  await page.getByRole("button", { name: "Show these words from anyone" }).click();
+  await expect(page).toHaveURL(/q=pledge$/);
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+});
+
