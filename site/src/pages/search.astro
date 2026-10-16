@@ -20,7 +20,8 @@ import Base from "../layouts/Base.astro";
   .sr-which-list small { display: block; font-size: 12.5px; color: var(--color-ink3); }
   .sr-head { max-width: 1280px; margin: 0 auto; height: 56px; display: flex; align-items: center; gap: 16px; padding: 0 24px; border-bottom: 1px solid var(--color-rule); }
   .sr-head h1 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; }
-  .sr-head h1 span { font-weight: 450; color: var(--color-ink2); }
+  .sr-head h1 .sr-sub { font-weight: 450; color: var(--color-ink2); }
+  .sr-last { white-space: nowrap; }
   .sr-time { font-size: 12.5px; color: var(--color-ink3); }
   .sr-time[role="status"] { display: inline-flex; align-items: center; gap: 7px; }
   /* Loading: what the search is doing, a small turning ring, and result-shaped rows that shimmer until remarks arrive. */
@@ -61,7 +62,9 @@ import Base from "../layouts/Base.astro";
   @media (max-width: 719.98px) {
     .sr-msg, .sr-which { padding: 0 16px; }
     .sr-head { height: auto; flex-wrap: wrap; gap: 8px 10px; padding: 10px 16px; background: var(--color-pane); }
-    .sr-head h1 { position: relative; font-size: 15px; width: 100%; white-space: normal; } /* wraps on a phone; the "i" popup spans it */
+    .sr-head h1 { position: relative; font-size: 15px; width: 100%; white-space: normal; } /* the "i" popup spans it */
+    /* On a phone the counts take two tidy lines (the same in both states, so nothing jumps when reading ends). */
+    .sr-head h1 .sr-sub { display: block; margin-top: 1px; font-size: 13.5px; }
     .sr-time, .sr-export { display: none; }
     .sr-head .sr-time[role="status"] { display: inline-flex; width: 100%; }
     .skel .c-date, .skel .c-cite { display: block; margin: 0; }

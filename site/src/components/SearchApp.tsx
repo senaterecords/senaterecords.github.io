@@ -23,7 +23,7 @@ import { clientOnly, Icon } from "./ui";
 // Transcripts read per batch (tests lower it, through window.__otrBatch, to reach a partly read result on a small sample).
 const PAGE = (globalThis as { __otrBatch?: number }).__otrBatch ?? 20;
 const READERS = 6;    // fragments read at once
-const POSSIBLE = "Transcripts with all your words somewhere in them; each is searched for remarks where the words come together.";
+const POSSIBLE = <><b>Possible transcripts</b> here means the transcripts that have all your words somewhere in them. Each one is searched for remarks where the words come together.</>;
 const SHOW = 25;      // remarks shown at a time
 const LOAD_FAILED = "Search couldn't load. Check your connection and try again.";
 const getJson = jsonCache(url);
@@ -417,10 +417,12 @@ function SearchApp() {
               ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
               : (() => {
                 const heading = resultCounts({ remarks: remarkCount, transcripts: transcriptCount, read: loaded, total });
+                // The last word and the "i" stay together, so the "i" never wraps onto a line of its own.
+                const cut = heading.sub.lastIndexOf(" ") + 1;
                 return (
-                  <h1 className="num">{heading.main} <span>{heading.sub}</span>
+                  <h1 className="num">{heading.main} <span className="sr-sub">{heading.sub.slice(0, cut)}<span className="sr-last">{heading.sub.slice(cut)}
                     {loaded < total && <InfoTip label="What “possible transcripts” means">{POSSIBLE}</InfoTip>}
-                  </h1>
+                  </span></span></h1>
                 );
               })()}
             {status === "loading" && rows.length > 0 && (

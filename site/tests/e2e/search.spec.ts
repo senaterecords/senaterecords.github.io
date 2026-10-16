@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type Page } from "@playwright/test";
 
 test("a phrase search returns remarks with the phrase highlighted", async ({ page }) => {
   await page.goto("search/?q=%22executive%20budget%22");
@@ -224,6 +224,67 @@ test("opening a result lands on the passage it showed and washes it yellow for a
   await expect(page.locator(".flash")).toHaveCount(0, { timeout: 6000 });
 });
 
+// Where the start of "Campaign for Fiscal Equity" is on the screen now, and whether a yellow box covers it.
+const washed = (page: Page) => page.evaluate(() => {
+  const walker = document.createTreeWalker(document.getElementById("r-25")!, NodeFilter.SHOW_TEXT);
+  for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+    const at = n.textContent!.indexOf("Campaign for Fiscal Equity");
+    if (at < 0) continue;
+    const r = document.createRange();
+    r.setStart(n, at);
+    r.setEnd(n, at + 8);
+    const b = r.getBoundingClientRect();
+    const x = b.x + 2;
+    const y = b.y + b.height / 2;
+    return [...document.querySelectorAll(".flash")].some((el) => {
+      const f = el.getBoundingClientRect();
+      return x >= f.left && x <= f.right && y >= f.top && y <= f.bottom;
+    });
+  }
+  return false;
+});
+
+test("the yellow wash fades in, and stays on the passage while the page scrolls", async ({ page }, info) => {
+  // The wash's strength the moment it is added: it should start clear and fade in, not appear at full strength.
+  await page.addInitScript(() => {
+    new MutationObserver((changes) => {
+      for (const c of changes) for (const n of c.addedNodes) {
+        if (n instanceof HTMLElement && n.classList.contains("flash-layer")) (window as unknown as { __washStart: string }).__washStart = getComputedStyle(n).opacity;
+      }
+    }).observe(document, { childList: true, subtree: true });
+  });
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22");
+  await page.locator("[data-result] a.ctx").first().click();
+  await expect(page.locator(".flash").first()).toBeVisible();
+  expect(Number(await page.evaluate(() => (window as unknown as { __washStart: string }).__washStart))).toBeLessThan(0.3);
+  // Scrolling (a wheel on a computer, a swipe on a phone) keeps the wash on its words instead of wiping it away.
+  if (info.project.name === "phone") {
+    const s = await page.context().newCDPSession(page);
+    await s.send("Input.synthesizeScrollGesture", { x: 200, y: 600, yDistance: -120, speed: 1200 });
+  } else {
+    await page.mouse.move(640, 500);
+    await page.mouse.wheel(0, 120);
+  }
+  await expect.poll(() => page.evaluate(() => scrollY)).toBeGreaterThan(0);
+  await expect(page.locator(".flash").first()).toBeAttached();
+  await expect.poll(() => washed(page)).toBe(true);
+  await expect(page.locator(".flash")).toHaveCount(0, { timeout: 6000 });
+});
+
+test("a click fades the yellow wash out quickly instead of wiping it away", async ({ page }) => {
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22");
+  await page.locator("[data-result] a.ctx").first().click();
+  await expect(page.locator(".flash").first()).toBeVisible();
+  await page.waitForTimeout(500); // fully in
+  await page.locator("#r-25 p").first().click();
+  const right = await page.evaluate(() => {
+    const layer = document.querySelector(".flash-layer");
+    return layer ? Number(getComputedStyle(layer).opacity) : 0;
+  });
+  expect(right).toBeGreaterThan(0.3); // still there just after the click, on its way out
+  await expect(page.locator(".flash")).toHaveCount(0, { timeout: 1500 });
+});
+
 test("a transcript opened from search offers the way back to the results", async ({ page }, info) => {
   await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22");
   await page.locator("[data-result] a.ctx").first().click();
@@ -400,9 +461,45 @@ test("a partly searched result explains \"possible transcripts\" in a neat popup
   const why = page.getByRole("button", { name: /possible transcripts/i });
   if (info.project.name === "phone") await why.tap(); else await why.hover();
   await expect(page.getByRole("tooltip")).toBeVisible();
-  await expect(page.getByRole("tooltip")).toContainText("all your words somewhere");
+  await expect(page.getByRole("tooltip")).toContainText(/^Possible transcripts here means .*all your words somewhere/);
   const box = (await page.getByRole("tooltip").boundingBox())!;
   expect(box.x).toBeGreaterThanOrEqual(0); // on screen, phones included
   expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width);
+});
+
+test("the \"i\" never wraps onto a line of its own, and on a phone the counts sit on two tidy lines", async ({ page }, info) => {
+  await page.addInitScript(() => { (window as unknown as { __otrBatch: number }).__otrBatch = 2; });
+  for (const width of info.project.name === "phone" ? [390, 360, 320] : [1280]) {
+    await page.setViewportSize({ width, height: 800 });
+    await page.goto("search/?q=the");
+    await expect(page.locator(".sr-head h1")).toContainText(/possible transcripts/);
+    const lines = await page.evaluate(() => {
+      const h1 = document.querySelector(".sr-head h1")!;
+      const sub = h1.querySelector(".sr-sub")!;
+      const button = h1.querySelector(".itip-btn")!.getBoundingClientRect();
+      // The line the last word "transcripts" ends on (not counting the popup's own words).
+      const walker = document.createTreeWalker(sub, NodeFilter.SHOW_TEXT, {
+        acceptNode: (n) => (n.parentElement!.closest(".itip") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT),
+      });
+      let word: DOMRect | null = null;
+      for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+        const at = n.textContent!.lastIndexOf("transcripts");
+        if (at >= 0) { const r = document.createRange(); r.setStart(n, at); r.setEnd(n, at + 11); word = r.getBoundingClientRect(); }
+      }
+      const main = document.createRange();
+      main.selectNodeContents(h1.firstChild!);
+      return {
+        mainTop: main.getBoundingClientRect().top, subTop: sub.getClientRects()[0].top, subLeft: sub.getClientRects()[0].left, h1Left: h1.getBoundingClientRect().left,
+        wordMid: word!.top + word!.height / 2, buttonTop: button.top, buttonBottom: button.bottom, right: h1.getBoundingClientRect().right, viewport: innerWidth,
+      };
+    });
+    expect(lines.wordMid).toBeGreaterThan(lines.buttonTop); // the "i" is on the same line as "transcripts"
+    expect(lines.wordMid).toBeLessThan(lines.buttonBottom);
+    expect(lines.right).toBeLessThanOrEqual(lines.viewport);
+    if (info.project.name === "phone") {
+      expect(lines.subTop).toBeGreaterThan(lines.mainTop + 5); // "searched … possible transcripts" starts its own line
+      expect(Math.abs(lines.subLeft - lines.h1Left)).toBeLessThan(1);
+    }
+  }
 });
 
