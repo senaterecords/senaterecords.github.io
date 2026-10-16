@@ -279,13 +279,13 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 
 - **Hosting:** GitHub Pages, chosen by the user on 2026-10-15 over Cloudflare Pages. Live counts showed Cloudflare's 20,000-file cap would be exceeded unless legislative days were grouped and left out of search.
   - **Limits:** no file-count cap; the published site may be up to **1 GB**; bandwidth has a **soft limit of 100 GB/month**.
-  - **Publishing:** the hourly workflow publishes with GitHub's own Pages action. If publishing fails, the previous version stays live.
+  - **Publishing:** the hourly workflow publishes the main site with GitHub's own Pages action, from the repository `senaterecords/senaterecords.github.io` (code, raw data, workflows). The bill pages are force-pushed as one orphan commit to the `gh-pages` branch of `senaterecords/bills`, through an SSH deploy key with write access (secret `BILLS_DEPLOY_KEY`), so that repository's history never grows. Bills go first; they carry their own copy of the shared styles, scripts, fonts and icons, so either site can publish without the other and still look right. After both, a live check fetches key pages from the public address before the run records what it published. If publishing fails, the previous version stays live, and the next hourly run tries again (it publishes whenever the raw data differs from what was last published).
   - **Address:** `owner.github.io/repo`, or a clean `name.github.io` by creating a free GitHub organization and naming the site repository `name.github.io`. A custom domain can be added later.
 - **Schedule:**
   - GitHub Actions cron `17 * * * *` (an odd minute, to avoid top-of-the-hour delays)
   - a `workflow_dispatch` "Update now" button
   - the repo is public, which makes run time free and unlimited
-- **Keep-alive:** a weekly commit of `data/state.json` (last checked) prevents GitHub from disabling the schedule after 60 days with no activity.
+- **Keep-alive:** in a week with nothing published, a commit of `data/last-checked.txt` prevents GitHub from disabling the schedule after 60 days with no activity.
 - **Corpus, counted from the live API on 2026-10-15:**
 
 | Record | Count | Years |
@@ -361,8 +361,10 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 
 - a GitHub account; the repo will be public. Optionally, a free GitHub organization for a clean `name.github.io` address
 - a NY Senate Open Legislation API key (free sign-up at legislation.nysenate.gov). For local runs it lives in a git-ignored `.env`
-- one GitHub repository secret: `NYSENATE_API_KEY`
-- GitHub Pages turned on for the repository, with "GitHub Actions" as its source
+- two repositories in the organization `senaterecords`: `senaterecords.github.io` (code, data, workflows) and `bills` (the bill pages)
+- two repository secrets on `senaterecords.github.io`: `NYSENATE_API_KEY`, and `BILLS_DEPLOY_KEY` (the private half of a write deploy key on `bills`)
+- GitHub Pages turned on for both: "GitHub Actions" as the source for `senaterecords.github.io`, the `gh-pages` branch for `bills`
+- the `workflow` permission for the `gh` command line, to push the workflow files
 
 ## 16. Decision log
 
@@ -393,4 +395,9 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 | Size cuts to fit GitHub Pages (2026-10-16) | the first full build was 1,460 MB, over the 1 GB limit. Cuts that change nothing a reader sees came first; then three small visible ones: voters on bill pages as plain names, pro forma days out of search, and pages that never needed the reader's tools without them. The result is 935.5 MB, including the bill headers added by the finish review |
 | Turn markup carries each speaker key once (2026-10-16) | `<section class="turn" id="r-{i}" data-role>` with `<h3 id="w-{i}-{page}-{key}">`. The key, page and remark links (`#r-N`) work as before, with about 75 MB less markup |
 | Search reads fragments itself and searches each phrase exactly (2026-10-16) | measured on the real build: Pagefind's `data()` took about 340 ms per long transcript building excerpts the site never shows, and one all-words search for several phrases ranked transcripts with the words far apart (up to 44 s, most real matches missed on the first screen). Reading fragments with native gzip and running one exact search per phrase brings `budget speaker:Krueger` from 7.9 s to under a second on the same machine. Pagefind runs on the page (not its worker) so a failed index download says search couldn't load |
+| Raw data committed in full (2026-10-16) | 38,393 files, 1.8 GB on disk and about 241 MB packed in git, well within GitHub's limits (largest file 7 MB); reprocessing never needs a re-download, and corrected transcripts keep their history |
+| Bills published from a branch through a deploy key (2026-10-16) | a second Pages site needs its own repository; force-pushing one orphan commit keeps that repository from growing with every publish, and a deploy key limited to that one repository is the narrowest credential that can push to it |
+| Bill pages carry their own copy of the shared assets (2026-10-16) | the main site's script and style file names change with every build; bill pages pointing at their own copy can never lose their styles if one of the two publishes fails |
+| Publish when the raw data differs from what was last published (2026-10-16) | the new raw data is committed before the build, so "did this run download anything" would leave a transcript unpublished after a failed build until more data arrived; comparing with the last published data retries every hour instead |
+| Link check in parallel worker threads (2026-10-16) | the single-threaded check took 3.5 minutes of every publish; the pages are shared out among the machine's cores with the same results |
 | Changes from testing the live build (2026-10-16) | whole list rows open their link (not while selecting text) with a soft hover tint and lighter rules; page numbers in the gutter only, no rule across the text; a strip names the speaker of a long remark and opens their card; senator page tabs switch the list and stay pinned with the name; bill statuses in narrow lists sit under the title; bill timeline labels wrap with clear space; search shows shimmering placeholder rows and says what it is doing; a result opens on its passage, washed yellow for a moment, with a way back to the results; calendar rows jump to their reading (the bill page is a separate control); year lists hide pro forma legislative days until asked; speaker cards opened from the keyboard take the focus |
