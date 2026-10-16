@@ -187,7 +187,7 @@ test("while results load, placeholder rows shimmer and the page says what it is 
   await page.route("**/pagefind/fragment/**", async (route) => { await new Promise((r) => setTimeout(r, 1500)); await route.continue(); });
   await page.goto("search/?q=budget");
   await expect(page.locator(".rrow.skel").first()).toBeVisible();
-  await expect(page.getByRole("status")).toContainText(/Reading .*\d+ matching transcripts? for remarks/);
+  await expect(page.getByRole("status")).toContainText(/Checking .*\d+ transcripts? that use(s)? these words/);
   await expect(page.locator("[data-result]").first()).toBeVisible({ timeout: 15000 });
   await expect(page.locator(".rrow.skel")).toHaveCount(0);
 });
@@ -245,9 +245,9 @@ test("when no single remark has every phrase, the page says so and offers the tr
   await expect(page.getByText(/Did you mean/)).toHaveCount(0);
   await page.getByRole("button", { name: /Show matches across a whole transcript/ }).click();
   await expect(page).toHaveURL(/in=transcript/);
-  const speakers = await page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
-  expect(speakers).toContain("robert-jackson");
-  expect(speakers).toContain("andrea-stewart-cousins");
+  // The rows stream in after the address changes: wait for both speakers rather than read the first frame.
+  const speakers = () => page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
+  await expect.poll(speakers).toEqual(expect.arrayContaining(["robert-jackson", "andrea-stewart-cousins"]));
   await expect(page.getByText(/in any remark of the same transcript/)).toBeVisible();
 });
 

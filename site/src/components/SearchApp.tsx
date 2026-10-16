@@ -234,7 +234,7 @@ function SearchApp() {
       let kept = 0;
       let batches = 0;
       // Fill the first screen even when the first pages hold no matching remark, but only for a few batches.
-      while (queue.current.length && fillMore(kept, batches) && id === runId.current) {
+      while (queue.current.length && fillMore(kept, batches, queue.current.length) && id === runId.current) {
         const n = await loadMore(id);
         if (n == null) return;
         kept += n;
@@ -299,7 +299,7 @@ function SearchApp() {
     setShown((n) => n + SHOW);
   };
   const reading = phase === "reading" && batchSize > 0
-    ? `${total > batchSize ? `Reading the first ${batchSize.toLocaleString("en-US")} of ${total.toLocaleString("en-US")}` : `Reading ${batchSize.toLocaleString("en-US")}`} matching ${total === 1 ? "transcript" : "transcripts"} for remarks…`
+    ? `Checking ${total > batchSize ? `${batchSize.toLocaleString("en-US")} of ${total.toLocaleString("en-US")}` : batchSize.toLocaleString("en-US")} ${total === 1 ? "transcript that uses" : "transcripts that use"} these words…`
     : "Searching the record…";
 
   const exportResults = () => {

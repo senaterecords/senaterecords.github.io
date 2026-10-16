@@ -153,7 +153,8 @@ describe("outcomes, status, time", () => {
 describe("the results heading", () => {
   it("gives final counts once every matching transcript is read, and says so far otherwise", () => {
     expect(resultCounts({ remarks: 51, transcripts: 18, read: 128, total: 128 })).toEqual({ main: "51 remarks", sub: "in 18 transcripts" });
-    expect(resultCounts({ remarks: 430, transcripts: 38, read: 40, total: 128 })).toEqual({ main: "430 remarks so far", sub: "in the first 40 of 128 matching transcripts" });
+    // The index finds transcripts that use the words anywhere; the page then checks each for remarks that hold them.
+    expect(resultCounts({ remarks: 430, transcripts: 38, read: 40, total: 128 })).toEqual({ main: "430 remarks so far", sub: "checked 40 of 128 transcripts that use these words" });
     expect(resultCounts({ remarks: 1, transcripts: 1, read: 1, total: 1 })).toEqual({ main: "1 remark", sub: "in 1 transcript" });
   });
 });

@@ -119,9 +119,17 @@ describe("review fixes: query plan", () => {
   });
 
   it("stops filling the first screen after a few batches", () => {
-    expect(fillMore(0, 1)).toBe(true);
-    expect(fillMore(5, 1)).toBe(false);
-    expect(fillMore(0, 3)).toBe(false);
+    expect(fillMore(0, 1, 100)).toBe(true);
+    expect(fillMore(5, 1, 100)).toBe(false);
+    expect(fillMore(0, 3, 100)).toBe(false);
+  });
+
+  it("reads a last short batch rather than stop just short of the end", () => {
+    // 60 of 69 read with one remark found: the 9 left are read too, so the counts are final.
+    expect(fillMore(1, 3, 9)).toBe(true);
+    expect(fillMore(1, 3, 20)).toBe(true);
+    expect(fillMore(1, 3, 21)).toBe(false);
+    expect(fillMore(5, 3, 9)).toBe(false); // a full first screen stops as before
   });
 });
 
@@ -227,6 +235,9 @@ describe("several values of one shortcut mean any of them", () => {
 describe("NEAR with a distance, and with phrases", () => {
   it("reads NEAR/n as within n words, and takes a phrase on either side", () => {
     expect(parseQuery("tolls NEAR/3 fares").branches[0].near).toEqual([{ a: "tolls", b: "fares", within: 3 }]);
+    // With a distance it can only mean NEAR, so any case will do; a plain lowercase "near" stays a word.
+    expect(parseQuery("tolls near/1 fares").branches[0]).toEqual({ words: [], phrases: [], near: [{ a: "tolls", b: "fares", within: 1 }] });
+    expect(parseQuery("homes near water").branches[0].words).toEqual(["homes", "near", "water"]);
     expect(parseQuery('"toll revenue" NEAR bridge').branches).toEqual([{ words: [], phrases: [], near: [{ a: "toll revenue", b: "bridge", within: 10 }] }]);
     expect(parseQuery('budget NEAR "school aid"').branches[0].near).toEqual([{ a: "budget", b: "school aid", within: 10 }]);
   });

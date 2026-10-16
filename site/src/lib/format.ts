@@ -118,7 +118,8 @@ export const plural = (n: number, noun: string) => `${count(n)} ${noun}${n === 1
 export function resultCounts(n: { remarks: number; transcripts: number; read: number; total: number }): { main: string; sub: string } {
   return n.read >= n.total
     ? { main: plural(n.remarks, "remark"), sub: `in ${plural(n.transcripts, "transcript")}` }
-    : { main: `${plural(n.remarks, "remark")} so far`, sub: `in the first ${count(n.read)} of ${count(n.total)} matching transcripts` };
+    // The index finds transcripts that use the words anywhere; the page checks each one for remarks that hold them.
+    : { main: `${plural(n.remarks, "remark")} so far`, sub: `checked ${count(n.read)} of ${count(n.total)} transcripts that use these words` };
 }
 
 const PREFIX = /^(SENATOR|ACTING PRESIDENT|ASSEMBLYMAN|ASSEMBLYWOMAN|ASSEMBLYMEMBER|ASSEMBLY MEMBER|CHAIRMAN|CHAIRWOMAN|CHAIRPERSON|CHAIR)\s+/i;

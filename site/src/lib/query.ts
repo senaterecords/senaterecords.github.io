@@ -33,8 +33,9 @@ function tokenize(q: string): Token[] {
       if (phrase.trim()) tokens.push({ kind: "phrase", value: phrase.trim().replace(/\s+/g, " "), negated: !!minus });
     } else {
       const text = field ? `${field}:${fieldQuoted ?? fieldBare ?? ""}` : bare!;
-      // A lowercase "and" means AND (already the default between terms), not a word to find.
-      if (!minus && (/^(AND|OR|NOT|NEAR(\/\d{1,3})?)$/.test(text) || text === "and")) tokens.push({ kind: "op", value: text.toUpperCase() });
+      // A lowercase "and" means AND (already the default between terms), not a word to find; "near/3" in any case can
+      // only mean NEAR. A plain lowercase "near" stays a word ("homes near water").
+      if (!minus && (/^(AND|OR|NOT|NEAR(\/\d{1,3})?)$/.test(text) || text === "and" || /^near\/\d{1,3}$/i.test(text))) tokens.push({ kind: "op", value: text.toUpperCase() });
       else if (text) tokens.push({ kind: "word", value: text, negated: !!minus });
     }
   }
@@ -369,5 +370,6 @@ export function toggleShortcut(q: string, shortcut: string): string {
     : `${q.trim()} ${shortcut}`.trim();
 }
 
-/** Whether to fetch another batch for the first screen: until five remarks show, and at most three batches. */
-export const fillMore = (kept: number, batches: number) => kept < 5 && batches < 3;
+/** Whether to fetch another batch for the first screen: until five remarks show, and at most three batches, unless
+ * what is left fits in one more (20 transcripts), so the counts come out final rather than "so far". */
+export const fillMore = (kept: number, batches: number, left: number) => kept < 5 && (batches < 3 || left <= 20);
