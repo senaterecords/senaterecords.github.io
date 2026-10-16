@@ -86,12 +86,13 @@ export function parseQuery(q: string): ParsedQuery {
   return { branches: kept.length ? kept : [{ words: [], phrases: [], near: [] }], not, filters };
 }
 
-/** What Pagefind is asked for. Pagefind runs an exact search only when the whole term is one quoted phrase, and a
- * term with several quoted phrases finds nothing, so several phrases are searched as their words and each remark is
- * checked for every phrase (spec 9.1). */
-export function pagefindTerm(b: Branch): string {
-  const phrases = b.phrases.length === 1 ? [`"${b.phrases[0]}"`] : b.phrases.flatMap((p) => p.split(" "));
-  return [...b.words, ...phrases, ...b.near.flat()].join(" ");
+/** The searches Pagefind runs for a branch: each phrase on its own (Pagefind searches a phrase exactly only when it is
+ * the whole term, and finds nothing for a term with several), then the other words together. The page keeps the
+ * transcripts every search found, and each remark is still checked for every phrase and word (spec 9.1). */
+export function pagefindTerms(b: Branch): string[] {
+  const words = [...b.words, ...b.near.flat()].join(" ");
+  const terms = [...b.phrases.map((p) => `"${p}"`), ...(words ? [words] : [])];
+  return terms.length ? terms : [""];
 }
 
 /** Pagefind filters for a query. A range of years needs "any"; a plain list would require every year at once. */

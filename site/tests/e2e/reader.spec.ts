@@ -97,6 +97,21 @@ test("in a long remark the speaker stays named at the top", async ({ page }) => 
   // It floats over the text: the notices strip it lives in takes no room, so nothing below it moves.
   expect(await page.locator("#reader-notices").evaluate((el) => (el as HTMLElement).offsetHeight)).toBe(0);
   await expect(strip).toContainText(/Stewart-Cousins/i);
-  await page.evaluate(() => document.getElementById("r-15")!.scrollIntoView({ block: "center" }));
-  await expect(strip).toBeHidden();
+  // With her name back on screen the strip no longer names her (it may name a long turn above hers).
+  await page.evaluate(() => document.querySelector("#r-15 > h3")!.scrollIntoView({ block: "center" }));
+  await expect(page.locator(".rd-who", { hasText: /Stewart-Cousins/i })).toHaveCount(0);
+});
+
+test("the speaker strip stays steady while scrolling through a long remark", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/#r-15");
+  await page.mouse.move(400, 400);
+  await page.mouse.wheel(0, 300);
+  await expect(page.locator(".rd-who")).toBeVisible();
+  const seen: boolean[] = [];
+  for (let step = 0; step < 8; step++) {
+    await page.mouse.wheel(0, 50);
+    await page.waitForTimeout(80);
+    seen.push(await page.locator(".rd-who").isVisible());
+  }
+  expect(seen).toEqual(Array(8).fill(true));
 });

@@ -296,7 +296,7 @@ Restrained and green-led.
 - **Facet checkboxes:** 15px, 1.5px `#9AA1AA`, 3px; checked fills green.
 
 ### Navigation
-- Section links 550 14px `ink2`; the current one is ink with a 2px ink underline sitting on the bar's bottom rule. Page tabs are 600 14px with the same underline and tabular counts in `ink3`. Phone menu: a full-width white panel, 600 15px rows, current row marked by a 3px ink left bar.
+- Section links 550 14px `ink2`; the current one is ink with a 2px ink underline sitting on the bar's bottom rule. Page tabs are 600 14px with the same underline and tabular counts in `ink3`; on the senator page they sit in a pinned white tab bar (1px `rule` below) that switches the list shown, and the senator's name (700 14px) joins it once the page title scrolls away (its own 13px line above the tabs on phones). Phone menu: a full-width white panel, 600 15px rows, current row marked by a 3px ink left bar.
 
 ### Search tips panel
 - A 700px white float panel anchored under the "Search tips" link, with a 12px rotated-square pointer at right 28px (left 28px on phones, where the panel spans the full width). Two columns of syntax chips and plain explanations in a definition grid; a closing line under a `rule2` rule. One column on phones.
@@ -305,6 +305,7 @@ Restrained and green-led.
 - A float panel under the search field (8px). Group headings use the small uppercase label; rows are 7px 16px with a 14.5px name (matched text 750), a 12.5px `ink3` meta line and a right-aligned count. The active row gets `#F4F7F5` and a 2px inset green bar on the left. A keyboard-hint footer shows on desktop only.
 
 ### Speaker card and bottom sheet
+- Opened from the keyboard (Enter on a focused name), the card takes the focus and Esc returns it to the name; names carry a screen-reader hint that they open a card.
 - Desktop: a 400px float popover (8px, 14px 16px) opened from a speaker label: photo, 700 15px name, 12.5px tabular meta, an "N remarks in this hearing" row between `rule2` rules with Prev/Next small toggles, then primary and outline buttons.
 - Phone (≤640px): the same content in a bottom sheet with a 38×4px grab handle, 48×62 photo, 18px name, and full-width 44px stacked buttons.
 
@@ -316,12 +317,15 @@ Restrained and green-led.
 
 ### Tables and lists
 - Ruled rows on white panes with fixed leading columns (bills table 96 / fluid / 170 / 150 / 84; remark rows 112 / fluid / 158 with a ruled citation column). Under 720px every table restacks into two-line ruled rows: identifier and status on the first line, title spanning beneath, meta last. They stay ruled rows, not boxed cards.
+- Rows open their main link from anywhere in the row (not while text is being selected, not on a control in the row): a pointer cursor, the main link underlines on hover, and result rows tint `#FAFBFA`. The link stays the keyboard target.
+- In narrow lists (the senator side panel, phones) a bill's status pennant sits under its title so the title keeps the width; the wide bills list keeps a status column on desktop.
 
 ### The reader (signature)
 - **Turns:** Charis 17px/1.62 in `#1D232B`, paragraphs 12px apart.
 - **Speaker labels:** inline before the first words, uppercase Archivo 700 12.5px with 0.06em tracking, then a 14px gap. Senators (and chairs and Assembly members with a card) are ink with a `#B4BAC1` underline at 3px offset; hover or the selected speaker turns the underline ink, 2px when selected. Procedural voices (Presiding Officer, Secretary) are `ink2` and not underlined; those with a card still open it on click.
 - **Gutter page number:** the turn's starting page, 12px `ink3` tabular, right-aligned in the 96px gutter. On phones it moves above the turn as "p. N" at 11.5px.
-- **Page breaks:** "p. N" in 750 12.5px ink tabular, right-aligned in the gutter, followed by a 1px dashed `rule` line across the text column. A break inside a sentence is inline so the paragraph stays one block.
+- **Page breaks:** between paragraphs, "p. N" in 750 12.5px ink tabular, right-aligned in the gutter, followed by a 1px dashed `rule` line across the text column. A page that begins mid-sentence keeps the sentence one paragraph: the same "p. N" sits in the gutter beside that line and a 1.5px `#9AA1AA` mark shows the place in the text; on phones it is an inline 11.5px `ink3` "p. N" after a 1.5px rule.
+- **Speaker strip:** when a long remark's label has scrolled under the bar, a strip just under it names the speaker (uppercase Archivo 700 12px, then "continued" 12.5px `ink3`, a `rule2` line below). It floats over the text, so showing it never moves the transcript.
 - **Bill headers:** at each calendar reading, a `#FBFBFA` note box (1px `rule`, 6px, 68ch) with "No. {cal} · {print no.}" in Archivo 750 13.5px and the bill title in Charis 15px.
 - **Calendar rail:** rows of calendar number (34px, `ink3`), bill number as a green 650 link with a 12px status line, and a remark count; the current reading is a white row with a 1px rule ring.
 - **Headnote rail:** green bill-number link 750 15px, bill title 700 17px, an 82px-label definition list at 13px, remark position, and J/K key hints.
@@ -329,8 +333,8 @@ Restrained and green-led.
 ### Markup contract (search and islands depend on it)
 - A labelled turn is `section.turn#r-{i}` with `data-role`; an unlabelled turn (cover, stage directions) is `section.turn#t-{i}` with `data-role` and `data-page`.
 - The label is `h3#w-{i}-{page|0}-{key|x}` with class `sp`, plus `k` when it has a speaker card and `sen` when it is a spoken, underlined voice (senator, chair, Assembly). Speaker key and page live only in this id.
-- Page breaks are `.pb#p{page}` containing `<b>p. N</b><i></i>`, a `div` between paragraphs or a `span` inside an interrupted paragraph; the gutter number is `span.g#p{page}`. Each page id is emitted once.
-- Turns come 40 to a `.chunk` using `content-visibility: auto` with an estimated `--h`. Bill headers are `.rd-seg`. Gutters, page breaks and bill headers carry `data-pagefind-ignore`.
+- Page breaks are `.pb#p{page}` containing `<b data-pagefind-ignore>p. N</b><i></i>`, a `div` between paragraphs or a `span` inside an interrupted paragraph; the gutter number is `span.g#p{page}`. Each page id is emitted once.
+- Turns come 40 to a `.chunk` using `content-visibility: auto` with an estimated `--h`. Bill headers are `.rd-seg`. Gutters, bill headers and the "p. N" text carry `data-pagefind-ignore`; the page break itself stays in the index so Pagefind records `p{page}` as an anchor and search knows the page of every word.
 
 ## Do's and Don'ts
 

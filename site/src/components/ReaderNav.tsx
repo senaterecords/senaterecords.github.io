@@ -20,7 +20,13 @@ function sectionAt(y: number): HTMLElement | null {
   if (!article) return null;
   const box = article.getBoundingClientRect();
   const x = Math.min(box.left + 140, box.right - 10);
-  return document.elementFromPoint(x, y)?.closest<HTMLElement>("section.turn") ?? null;
+  // Look through anything floating over the text (the speaker strip, the notices) to the transcript beneath.
+  for (const el of document.elementsFromPoint(x, y)) {
+    const turn = el.closest<HTMLElement>("section.turn");
+    if (turn) return turn;
+    if (el === article) return null;
+  }
+  return null;
 }
 
 function turnAt(y: number): number | null {

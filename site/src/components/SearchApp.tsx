@@ -6,64 +6,52 @@ import { jsonCache } from "../lib/fetch";
 import { legalCite, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { fold, resolveSpeaker, type Person } from "../lib/names";
 import {
-  excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, pagefindTerm, parseQuery, remarksOf, spokenText, toggleShortcut,
+  excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
   type Branch, type ParsedQuery, type Remark,
 } from "../lib/query";
 import { closestWord } from "../lib/spelling";
 import { url } from "../lib/url";
+import { indexFailed, loadPagefind, readFragment, searchBranch, type PageData, type Pagefind, type PagefindResult, type PagefindSearch } from "./pagefind";
 import SearchBox from "./SearchBox";
 import { clientOnly, Icon } from "./ui";
 
-const PAGE = 20;
+const PAGE = 20;      // transcripts read per batch
+const READERS = 6;    // fragments read at once
+const SHOW = 25;      // remarks shown at a time
 const LOAD_FAILED = "Search couldn't load. Check your connection and try again.";
-
-interface PagefindResult { id: string; data: () => Promise<PageData>; }
-interface PageData { url: string; content: string; meta: Record<string, string>; anchors: { element: string; id: string; text: string; location: number }[]; }
-interface PagefindSearch { results: PagefindResult[]; filters: Record<string, Record<string, number>>; }
-interface Pagefind {
-  options: (o: Record<string, unknown>) => Promise<void>;
-  filters: () => Promise<Record<string, Record<string, number>>>;
-  search: (term: string | null, o: Record<string, unknown>) => Promise<PagefindSearch>;
-}
-
-// Pagefind logs a failed index download and carries on with fewer results. It runs on the page rather than in its
-// worker so its downloads can be watched: a failure then says search couldn't load, not a false "No remarks match".
-let indexFailed = false;
-let watching = false;
-function watchIndexDownloads() {
-  if (watching) return;
-  watching = true;
-  const plain = window.fetch.bind(window);
-  window.fetch = async (input, init) => {
-    const href = typeof input === "string" ? input : input instanceof URL ? input.href : input.url;
-    const watched = /\/pagefind\/(index|filter)\//.test(href);
-    try {
-      const response = await plain(input, init);
-      if (watched && !response.ok) indexFailed = true;
-      return response;
-    } catch (error) {
-      if (watched) indexFailed = true;
-      throw error;
-    }
-  };
-}
-
-let pagefindPromise: Promise<Pagefind> | null = null;
-const loadPagefind = () => {
-  pagefindPromise ??= import(/* @vite-ignore */ url("/pagefind/pagefind.js")).then(async (pf: Pagefind) => {
-    watchIndexDownloads();
-    await pf.options({ baseUrl: url("/"), noWorker: true });
-    await pf.filters(); // loads the filter index, without which searches return no facet counts
-    return pf;
-  });
-  pagefindPromise.catch(() => (pagefindPromise = null));
-  return pagefindPromise;
-};
 const getJson = jsonCache(url);
 
 type Pages = ReturnType<typeof excerptPages>;
 interface Row { key: string; remark: Remark; branch: Branch; pages: Pages; meta: Record<string, string>; transcript: string; }
 type Status = "loading" | "failed" | "which" | "nomatch" | "ready";
+type Phase = "searching" | "reading" | null;
+
+/** The rows a page contributes: its remarks that match a branch, in reading order. */
+function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string | null }): Row[] {
+  const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
+  const rows: Row[] = [];
+  for (const remark of remarksOf(page).map(spokenText)) {
+    const branch = plan.parsed.branches.find((b) => keepRemark(remark, b, plan.parsed.not, plan.speaker));
+    if (branch) rows.push({ key: remark.url, remark, branch, pages: excerptPages(remark, branch), meta: page.meta, transcript });
+  }
+  return rows;
+}
+
+/** Placeholder rows while the first remarks load: the shape of a result, shimmering. */
+const SKELETON = (
+  <>
+    {[0, 1, 2, 3].map((n) => (
+      <article key={n} className="rrow skel" aria-hidden="true">
+        <div className="c-date"><span className="bar" style={{ width: "72%" }} /><span className="bar sm" style={{ width: "54%" }} /></div>
+        <div>
+          <span className="bar" style={{ width: "28%" }} />
+          <span className="bar tx" style={{ width: "100%" }} /><span className="bar tx" style={{ width: "94%" }} /><span className="bar tx" style={{ width: n % 2 ? "58%" : "76%" }} />
+        </div>
+        <div className="c-cite"><span className="bar" style={{ width: "36%" }} /><span className="bar sm" style={{ width: "62%" }} /></div>
+      </article>
+    ))}
+  </>
+);
 
 const readUrl = () => {
   const p = new URLSearchParams(location.search);
@@ -83,6 +71,11 @@ function SearchApp() {
   const [suggestion, setSuggestion] = useState<string | null>(null);
   const [people, setPeople] = useState<Person[]>([]);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [phase, setPhase] = useState<Phase>(null);
+  const [batchSize, setBatchSize] = useState(0);
+  const [target, setTarget] = useState(0);
+  const [shown, setShown] = useState(SHOW);
+  const [more, setMore] = useState(false);
   const queue = useRef<PagefindResult[]>([]);
   const plan = useRef<{ parsed: ParsedQuery; speaker: string | null } | null>(null);
   const runId = useRef(0);
@@ -113,38 +106,51 @@ function SearchApp() {
     return () => removeEventListener("popstate", onPop);
   }, []);
 
-  /** Reads the next batch of pages; the number of remarks it kept, or null when part of the index failed to load. */
+  /** Reads the next batch of pages, a few at a time, showing each page's remarks as soon as every page ranked above it
+   * is in. Returns the number of remarks kept, or null when part of the index failed to load. */
   const loadMore = useCallback(async (id: number): Promise<number | null> => {
     const batch = queue.current.splice(0, PAGE);
     const p = plan.current!;
-    let pages: PageData[];
-    try {
-      pages = await Promise.all(batch.map((r) => r.data()));
-    } catch {
+    setBatchSize(batch.length);
+    setTarget((n) => n + batch.length);
+    const done: (Row[] | undefined)[] = [];
+    let next = 0;
+    let cursor = 0;
+    let kept = 0;
+    let broken = false;
+    const flush = () => {
+      const ready: Row[] = [];
+      while (next < batch.length && done[next]) ready.push(...done[next++]!);
+      if (ready.length) setRows((prev) => {
+        const seen = new Set(prev.map((r) => r.key));
+        return [...prev, ...ready.filter((r) => !seen.has(r.key))];
+      });
+    };
+    const reader = async () => {
+      while (cursor < batch.length && !broken && id === runId.current) {
+        const i = cursor++;
+        let page: PageData;
+        try { page = await readFragment(batch[i]); } catch { broken = true; return; }
+        if (id !== runId.current) return;
+        done[i] = rowsOf(page, p);
+        kept += done[i]!.length;
+        setLoaded((n) => n + 1);
+        flush();
+      }
+    };
+    await Promise.all(Array.from({ length: Math.min(READERS, batch.length) }, reader));
+    if (broken) {
       if (id === runId.current) setStatus("failed");
       return null;
     }
-    if (id !== runId.current) return 0;
-    const found: Row[] = [];
-    for (const page of pages) {
-      const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
-      for (const remark of remarksOf(page).map(spokenText)) {
-        const branch = p.parsed.branches.find((b) => keepRemark(remark, b, p.parsed.not, p.speaker));
-        if (branch) found.push({ key: remark.url, remark, branch, pages: excerptPages(remark, branch), meta: page.meta, transcript });
-      }
-    }
-    setRows((prev) => {
-      const seen = new Set(prev.map((r) => r.key));
-      return [...prev, ...found.filter((r) => !seen.has(r.key))];
-    });
-    setLoaded((n) => n + batch.length);
-    return found.length;
+    return kept;
   }, []);
 
   useEffect(() => {
     const id = ++runId.current;
     (async () => {
       setStatus("loading"); setRows([]); setLoaded(0); setTotal(0); setSuggestion(null); setWhich([]); setFiltersOpen(false);
+      setPhase("searching"); setShown(SHOW); setTarget(0);
       if (!q.trim()) { setStatus("ready"); return; }
       const started = performance.now();
       const parsed = parseQuery(q);
@@ -172,13 +178,14 @@ function SearchApp() {
       const sortBy = sort === "relevance" ? undefined : { date: sort === "newest" ? "desc" : "asc" };
       let searches: PagefindSearch[];
       try {
-        searches = await Promise.all(parsed.branches.map((b) => pf.search(pagefindTerm(b) || null, { filters, sort: sortBy })));
+        searches = await Promise.all(parsed.branches.map((b) => searchBranch(pf, b, { filters, sort: sortBy })));
       } catch {
         if (id === runId.current) setStatus("failed");
         return;
       }
       if (id !== runId.current) return;
-      if (indexFailed) { setStatus("failed"); return; }
+      if (indexFailed()) { setStatus("failed"); return; }
+      setPhase("reading");
       const seen = new Set<string>();
       queue.current = searches.flatMap((s) => s.results).filter((r) => (seen.has(r.id) ? false : (seen.add(r.id), true)));
       plan.current = { parsed, speaker };
@@ -195,6 +202,7 @@ function SearchApp() {
       }
       if (id !== runId.current) return;
       setElapsed(performance.now() - started);
+      setPhase(null);
       setStatus("ready");
       if (!kept && !queue.current.length) {
         const words = parsed.branches.flatMap((b) => b.words).filter((w) => /^[a-z]{3,}$/i.test(w));
@@ -238,6 +246,18 @@ function SearchApp() {
   const kindLabel = (meta: Record<string, string>) => meta.kind === "hearing"
     ? "Hearing"
     : `Floor · ${(meta.title ?? "Session").replace(/, [A-Z][a-z]+ \d+, \d{4}$/, "").replace(/ Session$/, "")}`;
+
+  // One button reveals more of the remarks found, then reads more transcripts once every found remark is showing.
+  const showMore = async () => {
+    if (rows.length > shown) { setShown((n) => n + SHOW); return; }
+    setMore(true);
+    await loadMore(runId.current);
+    setMore(false);
+    setShown((n) => n + SHOW);
+  };
+  const reading = phase === "reading" && batchSize > 0
+    ? `${total > batchSize ? `Reading the first ${batchSize.toLocaleString("en-US")} of ${total.toLocaleString("en-US")}` : `Reading ${batchSize.toLocaleString("en-US")}`} matching ${total === 1 ? "transcript" : "transcripts"} for remarks…`
+    : "Searching the record…";
 
   const exportResults = () => {
     const lines = [`# Search: ${markdownEscape(q)}`, "", `${remarkCount} remarks in ${transcriptCount} transcripts`, ""];
@@ -299,7 +319,12 @@ function SearchApp() {
       {(status === "ready" || status === "loading") && q.trim() !== "" && (
         <>
           <div className="sr-head">
-            <h1 className="num">{status === "loading" && !rows.length ? "Searching…" : <>{remarkCount.toLocaleString("en-US")} {remarkCount === 1 ? "remark" : "remarks"} <span>in {transcriptCount.toLocaleString("en-US")} {transcriptCount === 1 ? "transcript" : "transcripts"}</span></>}</h1>
+            {status === "loading" && !rows.length
+              ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
+              : <h1 className="num">{remarkCount.toLocaleString("en-US")} {remarkCount === 1 ? "remark" : "remarks"} <span>in {transcriptCount.toLocaleString("en-US")} {transcriptCount === 1 ? "transcript" : "transcripts"}</span></h1>}
+            {status === "loading" && rows.length > 0 && (
+              <span className="sr-time num" role="status"><span className="sr-spin" aria-hidden="true" />reading {loaded.toLocaleString("en-US")} of {target.toLocaleString("en-US")} transcripts…</span>
+            )}
             {status === "ready" && <span className="sr-time num">{total > loaded ? `first ${loaded} of ${total} matching transcripts · ` : ""}{(elapsed / 1000).toFixed(2)} s</span>}
             <button type="button" className="btn btn-quiet sr-filters" onClick={() => setFiltersOpen(true)}><Icon name="filter" size={15} />Filters{activeFilters ? ` · ${activeFilters}` : ""}</button>
             <label className="sr-sort">
@@ -315,7 +340,8 @@ function SearchApp() {
           <div className="sr-body">
             <aside className="sr-facets" aria-label="Narrow the results">{facetPanel}</aside>
             <section className="sr-list" aria-live="polite">
-              {rows.map((row) => (
+              {status === "loading" && !rows.length && SKELETON}
+              {rows.slice(0, shown).map((row) => (
                 <article key={row.key} className="rrow" data-result>
                   <div className="c-date"><b>{shortDate(row.meta.date)}</b><span>{kindLabel(row.meta)}</span></div>
                   <div>
@@ -341,8 +367,10 @@ function SearchApp() {
                   {suggestion && <p><a className="link" href={`${location.pathname}?q=${encodeURIComponent(suggestion)}`}>Did you mean: {suggestion}?</a></p>}
                 </div>
               )}
-              {status === "ready" && queue.current.length > 0 && (
-                <button type="button" className="btn sr-more" onClick={() => loadMore(runId.current)}>Load more</button>
+              {status === "ready" && (rows.length > shown || queue.current.length > 0) && (rows.length > 0 || queue.current.length > 0) && (
+                <button type="button" className="btn sr-more" onClick={showMore} disabled={more}>
+                  {more ? <><span className="sr-spin" aria-hidden="true" />Reading more transcripts…</> : rows.length > shown || rows.length > 0 ? "Show more remarks" : "Read more transcripts"}
+                </button>
               )}
             </section>
           </div>

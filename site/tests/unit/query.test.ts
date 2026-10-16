@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, pagefindTerm, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
+import { excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText, toggleShortcut } from "../../src/lib/query";
 
 describe("parseQuery", () => {
   it("reads words, phrases and shortcuts", () => {
@@ -33,7 +33,7 @@ describe("parseQuery", () => {
 describe("Pagefind plan", () => {
   it("builds the search term and filters", () => {
     const q = parseQuery('"toll revenue" fares tolls NEAR bridge year:2019 type:floor bill:S4597');
-    expect(pagefindTerm(q.branches[0])).toBe('fares "toll revenue" tolls bridge');
+    expect(pagefindTerms(q.branches[0])).toEqual(['"toll revenue"', "fares tolls bridge"]);
     expect(pagefindFilters(q.filters, "liz-krueger")).toEqual({ year: ["2019"], type: "floor", bill: "S4597", senator: "liz-krueger" });
   });
 
@@ -95,9 +95,11 @@ describe("remark-level filtering", () => {
 });
 
 describe("review fixes: query plan", () => {
-  it("searches every word of several phrases and leaves the phrases to the remark check", () => {
-    expect(pagefindTerm(parseQuery('"executive budget" "steady job growth"').branches[0])).toBe("executive budget steady job growth");
-    expect(pagefindTerm(parseQuery('"toll revenue"').branches[0])).toBe('"toll revenue"');
+  it("asks Pagefind for each phrase exactly, and for the other words together", () => {
+    expect(pagefindTerms(parseQuery('"executive budget" "steady job growth"').branches[0])).toEqual(['"executive budget"', '"steady job growth"']);
+    expect(pagefindTerms(parseQuery('"toll revenue"').branches[0])).toEqual(['"toll revenue"']);
+    expect(pagefindTerms(parseQuery("rent stabilization").branches[0])).toEqual(["rent stabilization"]);
+    expect(pagefindTerms(parseQuery("speaker:liz-krueger").branches[0])).toEqual([""]);
   });
 
   it("reads a bill's session when one is given, from either year of it", () => {

@@ -10,5 +10,7 @@ test("everything works under a project path", async ({ page }) => {
     await page.waitForLoadState("networkidle");
   }
   await expect(page.locator("[data-result]").first()).toBeVisible();
+  // Result links are built from the index, which knows nothing of the base path.
+  await expect(page.locator("[data-result] a.ctx").first()).toHaveAttribute("href", new RegExp(`^${process.env.SITE_BASE}transcripts/`));
   expect(missing).toEqual([]);
 });

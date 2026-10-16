@@ -22,6 +22,20 @@ import Base from "../layouts/Base.astro";
   .sr-head h1 { font-size: 19px; font-weight: 700; letter-spacing: -0.01em; white-space: nowrap; }
   .sr-head h1 span { font-weight: 450; color: var(--color-ink2); }
   .sr-time { font-size: 12.5px; color: var(--color-ink3); }
+  .sr-time[role="status"] { display: inline-flex; align-items: center; gap: 7px; }
+  /* Loading: what the search is doing, a small turning ring, and result-shaped rows that shimmer until remarks arrive. */
+  .sr-status { display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 550; color: var(--color-ink2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sr-spin { width: 13px; height: 13px; flex: none; border-radius: 50%; border: 2px solid var(--color-rule); border-top-color: var(--color-act); animation: sr-turn .8s linear infinite; }
+  .sr-more .sr-spin { margin-right: 8px; vertical-align: -2px; display: inline-block; }
+  .rrow.skel { pointer-events: none; }
+  .skel .bar { display: block; height: 11px; margin-bottom: 9px; border-radius: 4px; background: linear-gradient(90deg, #EDEFF1 30%, #F7F8F9 50%, #EDEFF1 70%) 0 0 / 300% 100%; animation: sr-shimmer 1.5s ease-in-out infinite; }
+  .skel .bar.sm { height: 9px; }
+  .skel .bar.tx { height: 13px; margin-bottom: 10px; }
+  .skel .who-bar, .skel > div > .bar:first-child { margin-bottom: 14px; }
+  .skel .c-cite { gap: 0; }
+  @keyframes sr-shimmer { from { background-position: 100% 0; } to { background-position: 0 0; } }
+  @keyframes sr-turn { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .skel .bar, .sr-spin { animation: none; } }
   .sr-sort { margin-left: auto; }
   .sr-sort select { height: 32px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; padding: 0 10px; font: 550 13.5px var(--font-ui); color: var(--color-ink2); }
   .sr-filters { display: none; }
@@ -45,6 +59,13 @@ import Base from "../layouts/Base.astro";
     .sr-head { height: auto; flex-wrap: wrap; gap: 8px 10px; padding: 10px 16px; background: var(--color-pane); }
     .sr-head h1 { font-size: 15px; width: 100%; }
     .sr-time, .sr-export { display: none; }
+    .sr-head .sr-time[role="status"] { display: inline-flex; width: 100%; }
+    .skel .c-date, .skel .c-cite { display: block; margin: 0; }
+    .skel .c-date .bar::before { content: none; }
+    .skel .c-date .bar { width: 42% !important; }
+    .skel .c-cite .bar { width: 34% !important; margin-top: 4px; }
+    .skel .bar.sm { display: none; }
+    .sr-status { font-size: 14px; width: 100%; }
     .sr-filters { display: inline-flex; }
     .sr-sort { margin-left: 0; }
     .sr-body { display: block; }

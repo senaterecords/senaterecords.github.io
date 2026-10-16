@@ -182,3 +182,20 @@ test("the phone filters sheet takes the focus", async ({ page }, info) => {
   await page.getByRole("button", { name: /^Filters/ }).tap();
   await expect(page.getByRole("dialog", { name: "Filters" })).toBeFocused();
 });
+
+test("while results load, placeholder rows shimmer and the page says what it is doing", async ({ page }) => {
+  await page.route("**/pagefind/fragment/**", async (route) => { await new Promise((r) => setTimeout(r, 1500)); await route.continue(); });
+  await page.goto("search/?q=budget");
+  await expect(page.locator(".rrow.skel").first()).toBeVisible();
+  await expect(page.getByRole("status")).toContainText(/Reading .*\d+ matching transcripts? for remarks/);
+  await expect(page.locator("[data-result]").first()).toBeVisible({ timeout: 15000 });
+  await expect(page.locator(".rrow.skel")).toHaveCount(0);
+});
+
+test("long result lists show 25 remarks at a time", async ({ page }) => {
+  await page.goto("search/?q=the");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  await expect(page.locator("[data-result]")).toHaveCount(25);
+  await page.getByRole("button", { name: "Show more remarks" }).click();
+  expect(await page.locator("[data-result]").count()).toBeGreaterThan(25);
+});
