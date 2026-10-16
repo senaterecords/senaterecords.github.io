@@ -134,7 +134,8 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
 
   function submit(e: FormEvent) {
     e.preventDefault();
-    let q = value.trim();
+    // What's in the field: right after this script starts, state may not yet hold what was typed before it did.
+    let q = (value || input.current?.value || "").trim();
     if (scope !== "all" && !/(^|\s)type:/i.test(q)) q = `${q} type:${scope}`.trim();
     if (!q) { input.current?.focus(); return; }
     window.location.href = `${url("/search/")}?q=${encodeURIComponent(q)}`;
