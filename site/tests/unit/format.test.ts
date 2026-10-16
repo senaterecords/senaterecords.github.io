@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
-  billStatus, count, dayDate, hearingTitle, legalCite, legalDate, legalPages, longDate, outcomeText, pageLabel,
+  billStatus, committeeName, count, dayDate, hearingTitle, legalCite, legalDate, legalPages, longDate, outcomeText, pageLabel,
   placeText, plainCite, plainPages, plural, relativeTime, serviceText, shortDate, speakerForms, titleCase, transcriptTitle, weekdayDate,
 } from "../../src/lib/format";
 
@@ -74,6 +74,13 @@ describe("service, names and titles", () => {
     expect(transcriptTitle({ kind: "hearing", sessionType: null, title: "Transit safety" })).toBe("Public hearing: Transit safety");
     expect(transcriptTitle({ kind: "hearing", sessionType: null, title: "NEW YORK STATE FORUM ON RENT" })).toBe("New York State Forum on Rent");
     expect(transcriptTitle({ kind: "hearing", sessionType: null, title: null })).toBe("Public hearing");
+  });
+
+  it("lower-cases the small words in committee names", () => {
+    expect(committeeName("Ways And Means")).toBe("Ways and Means");
+    expect(committeeName("Corporations, Authorities And Commissions")).toBe("Corporations, Authorities and Commissions");
+    expect(committeeName("FINANCE")).toBe("Finance");
+    expect(committeeName("Labor")).toBe("Labor");
   });
 
   it("counts with the right noun", () => {

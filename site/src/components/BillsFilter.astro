@@ -1,0 +1,79 @@
+---
+// The bills list tools: find by number, title or sponsor; All / Debated / No debate; and sorting.
+// Works on the server-rendered rows ([data-bill-row]) with a small inline script.
+import Icon from "./Icon.astro";
+---
+<div class="bf">
+  <label class="bf-find">
+    <Icon name="search" size={16} />
+    <input type="search" id="bill-find" aria-label="Find a bill by number, title or sponsor" placeholder="Find a bill by number, title or sponsor" autocomplete="off" />
+  </label>
+  <div class="seg" role="group" aria-label="Show">
+    <button type="button" data-show="all" aria-pressed="true">All</button>
+    <button type="button" data-show="debated" aria-pressed="false">Debated</button>
+    <button type="button" data-show="none" aria-pressed="false">No debate</button>
+  </div>
+  <label class="bf-sort">
+    <span class="visually-hidden">Sort</span>
+    <select id="bill-sort">
+      <option value="debated">Most debated</option>
+      <option value="newest">Newest on the floor</option>
+      <option value="number">Bill number</option>
+    </select>
+  </label>
+  <span class="bf-count num" id="bill-count" aria-live="polite"></span>
+</div>
+
+<script>
+  const list = document.getElementById("bill-rows")!;
+  const rows = [...list.querySelectorAll<HTMLElement>("[data-bill-row]")];
+  const find = document.getElementById("bill-find") as HTMLInputElement;
+  const sort = document.getElementById("bill-sort") as HTMLSelectElement;
+  const count = document.getElementById("bill-count")!;
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>(".bf [data-show]")];
+  let show = "all";
+
+  const apply = () => {
+    const words = find.value.toLowerCase().split(/\s+/).filter(Boolean);
+    let visible = 0;
+    for (const row of rows) {
+      const debated = row.dataset.debated === "1";
+      const okShow = show === "all" || (show === "debated") === debated;
+      const okText = words.every((w) => row.dataset.text!.includes(w));
+      row.hidden = !(okShow && okText);
+      if (!row.hidden) visible += 1;
+    }
+    count.textContent = `${visible.toLocaleString("en-US")} shown`;
+  };
+  const order = () => {
+    const key = sort.value;
+    const sorted = [...rows].sort((a, b) =>
+      key === "newest" ? b.dataset.date!.localeCompare(a.dataset.date!) || Number(b.dataset.remarks) - Number(a.dataset.remarks)
+      : key === "number" ? a.dataset.num!.localeCompare(b.dataset.num!)
+      : Number(b.dataset.remarks) - Number(a.dataset.remarks) || b.dataset.date!.localeCompare(a.dataset.date!));
+    list.append(...sorted);
+  };
+  find.addEventListener("input", apply);
+  sort.addEventListener("change", order);
+  for (const button of buttons) {
+    button.addEventListener("click", () => {
+      show = button.dataset.show!;
+      for (const b of buttons) b.setAttribute("aria-pressed", String(b === button));
+      apply();
+    });
+  }
+  apply();
+</script>
+
+<style>
+  .bf { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+  .bf-find { flex: 0 1 460px; height: 36px; border: 1px solid #B9BFC6; border-radius: 6px; display: flex; align-items: center; gap: 10px; padding: 0 12px; color: var(--color-ink3); background: #fff; }
+  .bf-find:focus-within { border-color: var(--color-ink); box-shadow: 0 0 0 3px var(--color-act-wash); }
+  .bf-find input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: 450 14.5px var(--font-ui); color: var(--color-ink); }
+  .bf-sort select { height: 36px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; padding: 0 10px; font: 550 13.5px var(--font-ui); color: var(--color-ink2); }
+  .bf-count { margin-left: auto; font-size: 13px; color: var(--color-ink3); }
+  @media (max-width: 719.98px) {
+    .bf-find { flex: 1 1 100%; height: 40px; }
+    .bf-count { display: none; }
+  }
+</style>

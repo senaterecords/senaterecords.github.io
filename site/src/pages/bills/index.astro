@@ -1,0 +1,36 @@
+---
+// Bills by session. Opens the current session's list; the list of sessions stays for anything that doesn't follow refreshes.
+import Base from "../../layouts/Base.astro";
+import { BILL_DATA_START } from "../../config";
+import { billSessions, billsFor, currentSession } from "../../lib/data";
+import { plural } from "../../lib/format";
+import { url } from "../../lib/url";
+
+const current = currentSession();
+const sessions = [...billSessions()].reverse().map((session) => ({
+  session,
+  floor: billsFor(session).filter((b) => b.segments.length > 0).length,
+}));
+const label = (s: number) => `${s}–${String(s + 1).slice(2)}`;
+---
+<Base title="Bills" description="Every bill read on the New York State Senate floor, session by session.">
+  <meta slot="head" http-equiv="refresh" content={`0; url=${url(`/bills/${current}/`)}`} />
+  <section class="bi">
+    <h1 class="page-h1">Bills on the Senate floor</h1>
+    <p class="page-sub">Choose a session. Bill details are available from {BILL_DATA_START} on.</p>
+    <ul>
+      {sessions.map(({ session, floor }) => (
+        <li><a href={url(`/bills/${session}/`)}>{label(session)} session</a><span class="num">{plural(floor, "bill")} on the floor</span></li>
+      ))}
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .bi { padding: 40px 0 0; max-width: 640px; }
+  .bi ul { margin-top: 18px; border-top: 1.5px solid var(--color-ink); }
+  .bi li { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--color-rule); font-size: 14.5px; }
+  .bi li a { font-weight: 600; color: var(--color-act); }
+  .bi li a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .bi li span { color: var(--color-ink3); font-size: 13px; }
+</style>

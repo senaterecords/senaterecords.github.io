@@ -99,6 +99,11 @@ export function hearingTitle(title: string): string {
   return titleCase(title).split(" ").map((w, i) => (i > 0 && SMALL.has(w.toLowerCase()) ? w.toLowerCase() : w)).join(" ");
 }
 
+/** Committee names as written in prose: "Ways and Means", whatever case the API sends. */
+export function committeeName(name: string): string {
+  return hearingTitle(name).split(" ").map((w, i) => (i > 0 && SMALL.has(w.toLowerCase()) ? w.toLowerCase() : w)).join(" ");
+}
+
 /** How a transcript is named in lists: the session type for floor days, the readable title for hearings. */
 export function transcriptTitle(t: { kind: "floor" | "hearing"; sessionType: string | null; title: string | null }): string {
   if (t.kind === "floor") return t.sessionType || "Floor session";
@@ -165,6 +170,32 @@ export function billStatus(card: Pick<BillCard, "vetoed" | "signed" | "status"> 
   if (card.signed) return { text: "Signed by Governor", tone: "ink" };
   const text = card.status?.text || "Introduced";
   return { text, tone: /amend/i.test(text) ? "amber" : "ink" };
+}
+
+const MILESTONE: Record<string, string> = {
+  INTRODUCED: "Introduced",
+  IN_SENATE_COMM: "In Senate committee",
+  SENATE_FLOOR: "On the Senate floor",
+  PASSED_SENATE: "Passed Senate",
+  IN_ASSEMBLY_COMM: "In Assembly committee",
+  ASSEMBLY_FLOOR: "On the Assembly floor",
+  PASSED_ASSEMBLY: "Passed Assembly",
+  DELIVERED_TO_GOV: "Delivered to Governor",
+  SIGNED_BY_GOV: "Signed by Governor",
+  VETOED: "Vetoed",
+};
+
+/** A bill's milestones so far, then the steps still ahead on its chamber's path (none after the Governor acts). */
+export function timelineSteps(card: Pick<BillCard, "basePrintNo" | "milestones">): { label: string; date: string | null; done: boolean }[] {
+  const done = card.milestones.map((m) => ({ label: (m.type && MILESTONE[m.type]) || m.text || "Step", date: m.date, done: true }));
+  const types = new Set(card.milestones.map((m) => m.type));
+  if (types.has("SIGNED_BY_GOV") || types.has("VETOED")) return done;
+  const path = card.basePrintNo.startsWith("A")
+    ? ["PASSED_ASSEMBLY", "PASSED_SENATE", "DELIVERED_TO_GOV", "GOVERNOR"]
+    : ["PASSED_SENATE", "PASSED_ASSEMBLY", "DELIVERED_TO_GOV", "GOVERNOR"];
+  const reached = path.reduce((at, type, i) => (types.has(type) ? i : at), -1);
+  const ahead = path.slice(reached + 1).map((type) => ({ label: MILESTONE[type] ?? "Governor", date: null, done: false }));
+  return [...done, ...ahead];
 }
 
 /** The pipeline writes New York wall-clock times without a zone; compare against New York's clock. */

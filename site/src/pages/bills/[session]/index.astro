@@ -1,0 +1,116 @@
+---
+// One session's bills on the floor, as in "Bills list" (desktop) and the phone bills list.
+import BillsFilter from "../../../components/BillsFilter.astro";
+import Icon from "../../../components/Icon.astro";
+import Status from "../../../components/Status.astro";
+import Base from "../../../layouts/Base.astro";
+import { BILL_DATA_START } from "../../../config";
+import { billSessions, billsFor } from "../../../lib/data";
+import { billStatus, committeeName, plural } from "../../../lib/format";
+import { url } from "../../../lib/url";
+
+export function getStaticPaths() {
+  return billSessions().map((session) => ({ params: { session: String(session) } }));
+}
+
+const session = Number(Astro.params.session);
+const label = (s: number) => `${s}–${String(s + 1).slice(2)}`;
+const SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const monthDay = (iso: string) => `${SHORT[Number(iso.slice(5, 7)) - 1]} ${Number(iso.slice(8, 10))}`;
+
+const rows = billsFor(session)
+  .filter((b) => b.segments.length > 0)
+  .map((b) => {
+    const printNo = b.card?.printNo ?? b.basePrintNo;
+    const title = b.card?.title ?? null;
+    const prefix = b.basePrintNo.startsWith("A") ? "Asm." : "Sen.";
+    const sponsorName = b.card?.sponsor?.name ?? b.segments.find((s) => s.sponsor)?.sponsor ?? null;
+    const sponsor = sponsorName ? `${prefix} ${sponsorName}` : null;
+    const remarks = b.segments.reduce((n, s) => n + s.remarks, 0);
+    const senators = new Set(b.segments.flatMap((s) => Object.keys(s.speakers))).size;
+    const lastDate = b.segments.reduce((d, s) => (s.date > d ? s.date : d), "");
+    const debated = b.segments.some((s) => s.debated);
+    const num = `${b.basePrintNo.charAt(0)}${b.basePrintNo.slice(1).padStart(6, "0")}`;
+    return { b, printNo, title, sponsor, remarks, senators, lastDate, debated, num,
+      text: [printNo, b.basePrintNo, title, sponsor, b.card?.committee].filter(Boolean).join(" ").toLowerCase() };
+  })
+  .sort((a, b) => b.remarks - a.remarks || b.lastDate.localeCompare(a.lastDate));
+const debatedCount = rows.filter((r) => r.debated).length;
+const sessions = [...billSessions()].reverse();
+---
+<Base title={`Bills, ${label(session)} session`} description={`Every bill read on the New York State Senate floor in the ${label(session)} session, with its debate.`} wide>
+  <header class="pg-head">
+    <div class="pg-in pb">
+      <div class="pg-title">
+        <div>
+          <h1>Bills on the Senate floor</h1>
+          <p class="pg-meta">Every bill read on the floor in the <b>{label(session)} session</b> · {plural(rows.length, "bill")} · {debatedCount.toLocaleString("en-US")} debated</p>
+        </div>
+        <div class="acts">
+          <label class="pick">
+            <span class="visually-hidden">Session</span>
+            <select id="session-pick">
+              {sessions.map((s) => <option value={url(`/bills/${s}/`)} selected={s === session}>{label(s)} session</option>)}
+            </select>
+            <Icon name="down" size={14} />
+          </label>
+        </div>
+      </div>
+      {session < BILL_DATA_START && <p class="pre">Full details not available for bills before {BILL_DATA_START}. The floor readings and debates are here.</p>}
+      <div class="bf-wrap"><BillsFilter /></div>
+    </div>
+  </header>
+
+  <div class="bt">
+    <div class="bt-hd" aria-hidden="true"><span>Bill</span><span>Title and sponsor</span><span>Floor debate</span><span>Status</span><span class="r">On floor</span></div>
+    <ul id="bill-rows">
+      {rows.map((r) => (
+        <li class:list={["br", { nd: !r.debated }]} data-bill-row data-debated={r.debated ? "1" : "0"} data-remarks={r.remarks} data-date={r.lastDate} data-num={r.num} data-text={r.text}>
+          <a class="b num" href={url(`/bills/${session}/${r.b.basePrintNo}/`)}>{r.printNo}</a>
+          <span class="t">{r.title ?? <span class="na">Details not available</span>}<small>{[r.sponsor, r.b.card?.committee && committeeName(r.b.card.committee)].filter(Boolean).join(" · ")}</small></span>
+          <span class="dbt num">{r.remarks ? `${plural(r.remarks, "remark")} · ${plural(r.senators, "senator")}` : "No debate"}</span>
+          <span class="st"><Status status={billStatus(r.b.card)} /></span>
+          <span class="dt num">{r.lastDate ? monthDay(r.lastDate) : ""}</span>
+        </li>
+      ))}
+    </ul>
+    {rows.length === 0 && <p class="empty-note">No bills were read on the floor in this session.</p>}
+  </div>
+</Base>
+
+<script>
+  const pick = document.getElementById("session-pick") as HTMLSelectElement | null;
+  pick?.addEventListener("change", () => (location.href = pick.value));
+</script>
+
+<style>
+  .pick { position: relative; display: inline-flex; align-items: center; }
+  .pick select { appearance: none; height: 32px; border: 1px solid #B9BFC6; border-radius: 6px; background: #fff; padding: 0 30px 0 12px; font: 600 13px var(--font-ui); color: var(--color-ink); cursor: pointer; }
+  .pick :global(.icon) { position: absolute; right: 10px; pointer-events: none; color: var(--color-ink2); }
+  .pre { margin-top: 10px; font-size: 13.5px; color: var(--color-ink2); }
+  .bf-wrap { margin-top: 16px; }
+  .bt { max-width: 1280px; margin: 0 auto; background: var(--color-pane); padding: 0 32px 24px; border-left: 1px solid var(--color-rule); border-right: 1px solid var(--color-rule); }
+  .bt-hd, .br { display: grid; grid-template-columns: 96px minmax(0, 1fr) 170px 150px 84px; gap: 18px; align-items: baseline; }
+  .bt-hd { font-size: 12.5px; font-weight: 650; color: var(--color-ink3); padding: 12px 0 8px; border-bottom: 1.5px solid var(--color-ink); }
+  .bt-hd .r, .dt { text-align: right; }
+  .br { padding: 11px 0; border-bottom: 1px solid var(--color-rule2); font-size: 13.5px; }
+  .br[hidden] { display: none; }
+  .br .b { font-weight: 750; color: var(--color-act); }
+  .br .b:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .br .t { font-family: var(--font-read); font-size: 15px; line-height: 1.35; min-width: 0; }
+  .br .t small { display: block; font-family: var(--font-ui); color: var(--color-ink3); font-size: 12.5px; margin-top: 2px; }
+  .br .na { color: var(--color-ink3); }
+  .dbt { color: var(--color-ink2); }
+  .nd .dbt { color: var(--color-ink3); }
+  .dt { color: var(--color-ink3); }
+  @media (max-width: 719.98px) {
+    .bt { padding: 0 16px 16px; border: 0; }
+    .bt-hd { display: none; }
+    .br { grid-template-columns: 1fr auto; gap: 2px 10px; padding: 11px 0; }
+    .br .b { grid-row: 1; grid-column: 1; }
+    .br .st { grid-row: 1; grid-column: 2; }
+    .br .t { grid-column: 1 / -1; }
+    .br .dbt { grid-column: 1; font-size: 12.5px; }
+    .br .dt { grid-column: 2; font-size: 12.5px; }
+  }
+</style>

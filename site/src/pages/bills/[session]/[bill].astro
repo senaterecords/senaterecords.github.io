@@ -1,0 +1,204 @@
+---
+// A page for every bill, as in "Bill page" (with "Discussed in public hearings") and the phone bill page.
+import Icon from "../../../components/Icon.astro";
+import Status from "../../../components/Status.astro";
+import Timeline from "../../../components/Timeline.astro";
+import Base from "../../../layouts/Base.astro";
+import { BILL_DATA_START } from "../../../config";
+import { bill, billPages, senatorPageSlugs, senatorsByMemberId, senatorsBySlug, transcriptIndex } from "../../../lib/data";
+import { billStatus, committeeName, hearingTitle, outcomeText, plainPages, plural, shortDate, titleCase } from "../../../lib/format";
+import type { BillSegment } from "../../../lib/types";
+import { url } from "../../../lib/url";
+
+export function getStaticPaths() {
+  return billPages().map((p) => ({ params: { session: String(p.session), bill: p.base } }));
+}
+
+const session = Number(Astro.params.session);
+const entry = bill(session, Astro.params.bill!)!;
+const card = entry.card;
+const printNo = card?.printNo ?? entry.basePrintNo;
+const sessionLabel = `${session}–${String(session + 1).slice(2)}`;
+const chamber = entry.basePrintNo.startsWith("A") ? "Asm." : "Sen.";
+
+const pages = senatorPageSlugs();
+const bySlug = senatorsBySlug();
+const byId = senatorsByMemberId();
+const summaries = new Map(transcriptIndex().map((t) => [t.slug, t]));
+const exists = (slug: string) => summaries.has(slug);
+
+const sponsorEntry = card?.sponsor?.memberId != null ? byId.get(card.sponsor.memberId) : undefined;
+const sponsorName = card?.sponsor?.name ?? entry.segments.find((s) => s.sponsor)?.sponsor ?? null;
+
+const segments = entry.segments.filter((s) => exists(s.transcript));
+const debated = segments.filter((s) => s.debated);
+const main = debated.length
+  ? [...debated].sort((a, b) => b.remarks - a.remarks || b.date.localeCompare(a.date) || b.startTurn - a.startTurn)[0]
+  : null;
+const others = segments.filter((s) => s !== main).sort((a, b) => b.date.localeCompare(a.date) || b.startTurn - a.startTurn);
+const segSlugs = new Set(segments.map((s) => s.transcript));
+const hearings = entry.mentionedIn.filter((m) => m.kind === "hearing" && exists(m.transcript));
+const floorMentions = entry.mentionedIn.filter((m) => m.kind === "floor" && !segSlugs.has(m.transcript) && exists(m.transcript));
+
+const readHref = (s: BillSegment) => url(`/transcripts/${s.transcript}/#r-${s.startTurn}`);
+const pageHref = (slug: string, page: number | null) => url(`/transcripts/${slug}/${page != null ? `#p${page}` : ""}`);
+const sessionType = (slug: string) => summaries.get(slug)?.sessionType ?? "Floor session";
+const senatorsIn = (s: BillSegment) => Object.keys(s.speakers).length;
+
+const spoke = new Map<string, number>();
+for (const s of segments) for (const [key, n] of Object.entries(s.speakers)) spoke.set(key, (spoke.get(key) ?? 0) + n);
+const speakers = [...spoke].sort((a, b) => b[1] - a[1]).map(([key, n]) => ({
+  name: bySlug.get(key)?.name ?? titleCase(key.replace(/^assembly:/, "").replace(/-/g, " ")),
+  href: pages.has(key) ? url(`/senators/${key}/`) : null, n,
+}));
+
+const vote = card?.floorVotes?.length ? [...card.floorVotes].sort((a, b) => a.date.localeCompare(b.date)).at(-1)! : null;
+const VOTE_WORDS: [string, string][] = [["AYE", "aye"], ["AYEWR", "aye with reservations"], ["NAY", "nay"], ["EXC", "excused"], ["ABS", "absent"], ["ABD", "abstained"]];
+const voterName = (id: number) => byId.get(id)?.name ?? `Member ${id}`;
+const voterSort = (a: number, b: number) => voterName(a).split(" ").at(-1)!.localeCompare(voterName(b).split(" ").at(-1)!);
+const officialUrl = card && session >= BILL_DATA_START ? `https://www.nysenate.gov/legislation/bills/${session}/${entry.basePrintNo}` : null;
+const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
+---
+<Base title={pageTitle} description={`${printNo}${card?.title ? `, ${card.title}` : ""}. New York State Senate, ${sessionLabel} session: the floor debate, the vote and who spoke.`} wide>
+  <header class="pg-head">
+    <div class="pg-in">
+      <div class="pg-crumb"><a href={url("/bills/")}>Bills</a><Icon name="chev" size={12} /><a href={url(`/bills/${session}/`)}>{sessionLabel} session</a></div>
+      <div class="pg-title">
+        <div>
+          <div class="no"><span class="num">{printNo}</span><Status status={billStatus(card)} /></div>
+          <h1 class:list={{ serif: !!card?.title }}>{card?.title ?? printNo}</h1>
+          {card ? (
+            <p class="pg-meta">
+              {sponsorName && <span>Sponsor {sponsorEntry && pages.has(sponsorEntry.slug)
+                ? <a href={url(`/senators/${sponsorEntry.slug}/`)}>{chamber} {sponsorName}</a>
+                : <b>{chamber} {sponsorName}</b>}</span>}
+              {card.coSponsors > 0 && <><span>·</span><span>{plural(card.coSponsors, "co-sponsor")}</span></>}
+              {card.committee && <><span>·</span><span>Committee on {committeeName(card.committee)}</span></>}
+              {card.sameAs.length > 0 && <><span>·</span><span>Same as {card.sameAs.join(", ")}</span></>}
+            </p>
+          ) : (
+            <p class="pg-meta na">{session < BILL_DATA_START ? `Full details not available for bills before ${BILL_DATA_START}` : "Details for this bill weren't available from the API"}</p>
+          )}
+        </div>
+        {officialUrl && <div class="acts"><a class="btn btn-quiet" href={officialUrl} target="_blank" rel="noopener"><Icon name="ext" size={14} />Official bill page</a></div>}
+      </div>
+      {card ? <Timeline card={card} /> : <div class="gap"></div>}
+    </div>
+  </header>
+
+  <div class="two">
+    <div class="two-main">
+      {main && (
+        <section>
+          <div class="sec-hd"><h2>The floor debate</h2></div>
+          <div class="deb">
+            <div class="dh num"><b>{shortDate(main.date)}</b><span>{sessionType(main.transcript)}</span>{main.pages && <span>{plainPages(main.pages[0], main.pages[1])}</span>}</div>
+            <div class="outcome">{outcomeText(main)}<span>{plural(main.remarks, "remark")} from {plural(senatorsIn(main), "senator")}</span></div>
+            {main.excerpt.map((t) => (
+              <p class="ex"><span class:list={["sp", { sen: !!t.senator }]}>{titleCase(t.label)}</span>{t.text}</p>
+            ))}
+            <a class="btn-primary read" href={readHref(main)}>Read the debate</a>
+          </div>
+        </section>
+      )}
+      {others.length > 0 && (
+        <section class="earlier">
+          <h3>{main ? "Earlier on the floor" : "On the floor"}</h3>
+          {others.map((s) => (
+            <div class="er"><b class="num">{shortDate(s.date)}</b><span>{outcomeText(s)}</span><a href={readHref(s)}>Read{s.remarks ? ` (${plural(s.remarks, "remark")})` : ""}</a></div>
+          ))}
+        </section>
+      )}
+      {hearings.length > 0 && (
+        <section class="earlier">
+          <h3>Discussed in public hearings</h3>
+          {hearings.map((m) => (
+            <div class="er"><b class="num">{shortDate(m.date)}</b><span>{hearingTitle(m.title ?? "Public hearing")}</span><a href={pageHref(m.transcript, m.page)}>Read{m.page != null ? ` (p. ${m.page})` : ""}</a></div>
+          ))}
+        </section>
+      )}
+      {floorMentions.length > 0 && (
+        <section class="earlier">
+          <h3>Mentioned on the floor</h3>
+          {floorMentions.map((m) => (
+            <div class="er"><b class="num">{shortDate(m.date)}</b><span>{m.title ?? "Floor session"}</span><a href={pageHref(m.transcript, m.page)}>Read{m.page != null ? ` (p. ${m.page})` : ""}</a></div>
+          ))}
+        </section>
+      )}
+      {!segments.length && !hearings.length && !floorMentions.length && (
+        <p class="empty-note">This bill isn't read or discussed in the transcripts here.</p>
+      )}
+    </div>
+
+    <aside class="two-side">
+      {vote && (
+        <section>
+          <h2 class="side-h2">Floor vote · {shortDate(vote.date)}</h2>
+          <div class="vote num">
+            {VOTE_WORDS.filter(([code]) => vote.counts[code]).map(([code, word]) => <span><b>{vote.counts[code]}</b> {word}</span>)}
+          </div>
+          {Object.keys(vote.members ?? {}).length > 0 && (
+            <details class="how">
+              <summary>How each senator voted</summary>
+              {VOTE_WORDS.filter(([code]) => vote.members[code]?.length).map(([code, word]) => (
+                <div class="how-group">
+                  <h3>{word[0].toUpperCase() + word.slice(1)} <span class="num">{vote.members[code].length}</span></h3>
+                  <p>{[...vote.members[code]].sort(voterSort).map((id, i) => {
+                    const s = byId.get(id);
+                    return <>{i > 0 && ", "}{s && pages.has(s.slug) ? <a href={url(`/senators/${s.slug}/`)}>{s.name}</a> : voterName(id)}</>;
+                  })}</p>
+                </div>
+              ))}
+            </details>
+          )}
+        </section>
+      )}
+      {speakers.length > 0 && (
+        <section>
+          <h2 class="side-h2">Who spoke</h2>
+          <ul class="ses">
+            {speakers.map((s) => <li>{s.href ? <a href={s.href}>{s.name}</a> : <span>{s.name}</span>}<span class="num">{s.n}</span></li>)}
+          </ul>
+        </section>
+      )}
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .no { display: flex; gap: 14px; align-items: center; margin-bottom: 6px; font-weight: 800; font-size: 15px; }
+  .na { color: var(--color-ink2); }
+  .gap { height: 20px; }
+  .deb { padding: 18px 22px 22px; border-bottom: 1px solid var(--color-rule2); }
+  .dh { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--color-ink3); margin-bottom: 8px; }
+  .dh b { color: var(--color-ink); font-weight: 650; }
+  .outcome { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+  .outcome span { font-weight: 450; color: var(--color-ink2); font-size: 13.5px; margin-left: 10px; }
+  .ex { font-family: var(--font-read); font-size: 15.5px; line-height: 1.55; color: #1D232B; max-width: 92ch; margin-top: 6px; }
+  .ex .sp { font: 700 12.5px var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink2); margin-right: 14px; }
+  .ex .sp.sen { color: var(--color-ink); text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; }
+  .read { height: 34px; margin-top: 14px; }
+  .earlier { padding: 16px 22px 4px; }
+  .earlier h3 { font-size: 13px; font-weight: 700; color: var(--color-ink2); margin-bottom: 8px; }
+  .er { display: grid; grid-template-columns: 112px 1fr auto; gap: 18px; align-items: baseline; font-size: 13.5px; color: var(--color-ink2); padding: 8px 0; border-top: 1px solid var(--color-rule2); }
+  .er b { color: var(--color-ink); font-weight: 650; }
+  .er a { color: var(--color-act); font-weight: 600; font-size: 13px; white-space: nowrap; }
+  .er a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .vote { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; font-size: 14px; }
+  .vote b { font-weight: 700; }
+  .vote span { color: var(--color-ink3); }
+  .how { margin-top: 10px; font-size: 13px; }
+  .how summary { font-weight: 650; color: var(--color-act); cursor: pointer; }
+  .how-group { margin-top: 10px; }
+  .how-group h3 { font-size: 12.5px; font-weight: 700; color: var(--color-ink2); margin-bottom: 2px; }
+  .how-group h3 span { font-weight: 500; color: var(--color-ink3); }
+  .how-group p { line-height: 1.55; color: var(--color-ink); }
+  .how-group a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  @media (max-width: 719.98px) {
+    .deb { padding: 14px 16px 18px; }
+    .earlier { padding: 14px 16px 4px; }
+    .er { grid-template-columns: 1fr auto; gap: 2px 12px; }
+    .er span { grid-column: 1 / -1; grid-row: 2; }
+    .read { width: 100%; height: 44px; border-radius: 8px; font-size: 14.5px; }
+  }
+</style>
