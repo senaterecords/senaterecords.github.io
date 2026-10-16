@@ -11,7 +11,7 @@
 
 On the Record (a working name) is a free public website that makes New York State Senate floor transcripts (1993 onward) and public hearing transcripts searchable at the level of **who said what**. Every remark is attributed to a speaker, can be cited to the official page, and is linked to the bill being debated.
 
-The site is pre-built, with no server. A Python job runs hourly on GitHub Actions. It pulls new transcripts from the NY Senate Open Legislation API, parses them into speaker turns, links senators and bills, and builds an Astro site with in-browser search (Pagefind). The result is deployed to Cloudflare Pages. Running costs are $0.
+The site is pre-built, with no server. A Python job runs hourly on GitHub Actions. It pulls new transcripts from the NY Senate Open Legislation API, parses them into speaker turns, links senators and bills, and builds an Astro site with in-browser search (Pagefind). The result is deployed to GitHub Pages. Running costs are $0.
 
 ## 2. Users and goals
 
@@ -62,7 +62,7 @@ GitHub Actions (hourly, at :17)
   1. sync     ask the API what changed since the last sync; download raw JSON into data/raw/
   2. process  clean → split speakers → match senators → segment bills → fetch bill details → site data
   3. build    Astro renders pages from the site data; Pagefind indexes the built pages
-  4. deploy   wrangler uploads dist/ to Cloudflare Pages
+  4. deploy   GitHub's Pages action publishes dist/ to GitHub Pages
   Steps 2–4 run only when step 1 found changes (or on a manual run).
 ```
 
@@ -116,14 +116,16 @@ These facts about the API were verified against the official docs and the OpenLe
   - Line numbers 1–25 appear with blank spacer lines, and pages are separated by form feeds.
   - The layout differs between 1993–98, 1999–2004 and modern files.
   - Hearings add vendor footers, "Page N" headers and labels that wrap across lines.
-- **Bills are mentioned in recognisable patterns,** such as "Calendar Number 12, by Senator X, Senate Print 4597-A" or "Assembly Print Number 64A". These mentions often wrap across lines. **The API itself doesn't link transcripts to bills.**
+- **Bills are mentioned in recognisable patterns.** Readings before about 2009 name the sponsor first ("Calendar Number 12, by Senator X, Senate Print 4597-A"). Modern readings name the bill first ("Calendar Number 1, Senate Print 88, by Senator Gianaris"). Assembly bills appear as "Assembly Bill Number N" or "Assembly Print N, by Assemblymember X"; budget bills have no sponsor; and occasionally the chamber is missing ("Print 2310B"). These mentions often wrap across lines. **The API itself doesn't link transcripts to bills.**
 - **Corrected transcripts are reissued,** and the updates endpoints report them.
 
 ## 6. Data pipeline
 
 ### 6.1 Sync
 - **Backfill:** a one-time download, year by year with `limit=1000&full=true&sessionOnly=false`, plus hearings and the members list for each session. It resumes from `data/state.json` and must stay under GitHub's 6-hour job limit, so it spreads across as many runs as needed.
-- **Incremental:** each hourly run calls the floor transcript updates endpoint since the last sync and re-downloads anything changed. Public hearings are refreshed by re-listing the current year once a day, because the shape of the hearing updates endpoint's items isn't verified. When an already-stored record's text changes, the date is written to `data/corrections.json`.
+- **Incremental:** each hourly run calls the floor transcript updates endpoint since the last sync and re-downloads anything changed. A transcript that is listed as updated but can't be fetched is recorded in `data/state.json` and doesn't stop the run.
+- **Hearings:** refreshed by re-listing this year's and last year's hearings once a day, because some are posted weeks after they happen and the hearing updates endpoint's item shape isn't verified.
+- **Corrections:** when an already-stored record's text changes, the date is written to `data/corrections.json`.
 - **Raw storage:**
   - `data/raw/transcripts/{year}/{dateTime}__{sessionType-slug}.json`
   - `data/raw/hearings/{year}/{hearing-key}.json`, where the key is the id when it is under 1000 and the filename otherwise
@@ -131,12 +133,13 @@ These facts about the API were verified against the official docs and the OpenLe
   - `data/raw/bills/{session}/{printNo}.json`
 
 ### 6.2 Clean
-- **Layout detection:** detect each file's layout from its content (not its date), then strip page numbers (including vendor "Page N" headers), line numbers, spacer lines and form feeds. Running headers and vendor footers are also stripped: these are text repeated in the first or last two lines of at least 30% of pages.
+- **Layout detection:** detect each file's layout from its content (not its date), then strip page numbers (including vendor "Page N" headers), line numbers, spacer lines and form feeds.
+- **Running headers and vendor footers:** stripped when the same text appears in the first or last two lines of at least 30% of pages (and at least 3) **and almost never anywhere else**. A line that starts like a speaker label is never stripped, even when a presiding officer opens every page.
 - **Line joining:** rejoin wrapped lines into paragraphs.
 - **Page map:** build a map from character offsets to official page numbers, so every turn knows the page or pages it starts and ends on.
 
 ### 6.3 Speaker turns
-- **Splitting:** split the text on speaker labels. A label can stand alone on its line; hearing labels can wrap across lines.
+- **Splitting:** split the text on speaker labels. A label can stand alone on its line; hearing labels can wrap across lines. Labels may contain accented capitals (SENATOR SEPÚLVEDA) and name particles (SENATOR DeFRANCISCO, McDONALD); matching folds accents.
 - **Roles:** each turn gets a role: `senator`, `presiding` (for example Acting President), `secretary`, `guest` or `witness`.
 - **Turn fields:** `{ index, label, role, senatorId?, text, pageStart, pageEnd, bills[] }`. The cleaned text is never reworded.
 - **Fallback:** when a transcript can't be split reliably, it is published as cleaned text without turns and flagged in the quality report. "Reliably" means at least 80% of its characters fall inside recognised speaker turns; the threshold can be tuned.
@@ -144,14 +147,14 @@ These facts about the API were verified against the official docs and the OpenLe
 ### 6.4 Senator matching
 - **Session year:** the odd year on or before the transcript date.
 - **Matching:** `SENATOR X` is matched to that session's members by short name. Where two senators share a surname, the transcript uses the full label (e.g. "ADA SMITH"). `ACTING PRESIDENT X` maps to senator X in the presiding role. `THE PRESIDENT` (the Lieutenant Governor) and `THE SECRETARY` are not senators.
-- **Stable identity:** each senator needs an id that stays the same across sessions, taken from the members endpoint. Which field provides it needs confirming with a key (section 13).
+- **Stable identity:** `memberId` from the members endpoint, which stays the same across sessions (verified 2026-10-15).
 - **Fixes:** labels that can't be matched go into the quality report and can be fixed in `data/overrides/speakers.yaml` without changing code.
 
 ### 6.5 Bills and debates
 - **Mentions:** after cleaning, extract bill mentions and normalise them to `{session, printNo}` (e.g. `S4597A`).
-- **Calendar segments:** in floor transcripts, a segment starts with each `THE SECRETARY: Calendar Number N, by Senator X, Senate Print Y` and ends at the next calendar item or at the end of the day.
-- **Debated or not:** a segment is **debated** if it contains at least one turn by a senator who is not presiding. Otherwise it is marked "no debate".
-- **Bill details:** sponsor, title, status, milestones and floor votes are fetched once per bill and cached. The pipeline will use the bulk bill listing (`/bills/{session}` with `full=true`) if it exists, and otherwise one request per bill with a resumable per-run budget. Bill data is believed to start around 2009, which is to be confirmed (section 13). Earlier bills show their print number without a detail card.
+- **Calendar segments:** in floor transcripts, a segment starts with each Secretary reading that begins `Calendar Number N,`, in either order (section 5), and ends at the next reading or at the end of the day.
+- **Debated or not:** a segment is **debated** when non-presiding senators or chairs speak at least 40 words before the outcome ("passed", "lost" or "laid aside"). "Lay it aside" alone is not a debate. The debate window ends at the outcome, so a motion to adjourn after the vote isn't counted.
+- **Bill details:** sponsor, title, status, milestones and floor votes, fetched one bill at a time with `view=no_fulltext`, using a resumable per-run budget. The bulk listing with `full=true` does include votes, but also each bill's full text (about 34 KB per bill), so it isn't used. Current-session bills are re-fetched weekly, so status, votes and the Governor's action stay current. Bill data starts in **2009** (verified); earlier bills show their print number without a detail card.
 
 ### 6.6 Quality report and gate
 - **The report covers:**
@@ -161,7 +164,7 @@ These facts about the API were verified against the official docs and the OpenLe
   - transcripts that fell back to plain text
   - counts per year
 - **Where it goes:** it is written each run as a build artifact, and a summary is published on the About page.
-- **The gate:** deployment is blocked if attribution or bill linking drops by more than 2 percentage points from the last deployed build. The threshold can be tuned.
+- **The gate:** deployment is blocked if attribution or bill linking drops by more than 2 percentage points from the last deployed build, or if the number of floor transcripts or hearings falls. Plain-text fallbacks count as unattributed. The threshold can be tuned.
 
 ## 7. Site data contract (`data/site/`)
 
@@ -169,9 +172,9 @@ These facts about the API were verified against the official docs and the OpenLe
 |---|---|
 | `meta.json` | last updated time, counts, quality summary |
 | `transcripts/{slug}.json` | metadata (type, date, session type, location, pages, committees) plus `turns[]`, `segments[]` (calendar no., bill, debated, outcome, votes, turn range), `plainText` (fallback flag) and `corrected` (date or null) |
-| `senators.json` | every senator: id, slug, name, party/district per session, sessions served |
-| `senators/{slug}.json` | appearances (transcript, turn count, first page), bills debated (sponsored or spoke), totals |
-| `bills/{session}.json` | every bill mentioned that session: card fields and the debate segments that reference it |
+| `senators.json` | every senator: id, slug, name, district per session (the API has no party), remarks, presiding turns and transcripts |
+| `senators/{slug}.json` | appearances (transcript, remarks, presiding turns, first page), bills debated or sponsored, totals |
+| `bills/{session}.json` | every bill mentioned that session: card fields, the debate segments that reference it (with `debateEnd`), and `mentionedIn` (every transcript that mentions it) |
 | `words/{prefix}.json` | vocabulary with frequencies for "did you mean" suggestions, split by two-letter prefix |
 
 Slugs are:
@@ -245,37 +248,36 @@ The format is to be confirmed with users. **Export** is generated in the browser
 - **The idea:** build a SQLite database with an FTS5 full-text index and one row per remark (`transcript`, `turn`, `speaker`, `date`, `bills`, `text`). Host it as static files, split into chunks under 25 MB. The browser queries it over HTTP range requests (for example with `sql.js-httpvfs` or an HTTP VFS for the official SQLite WASM build).
 - **What it would add:** true remark-level filters, OR/NOT/NEAR, ranking, and counts.
 - **The test:**
-  - Check that the host honours HTTP Range requests.
+  - Check that GitHub Pages honours HTTP Range requests (a well-known sql.js-httpvfs demo is hosted there).
   - Run 30 representative queries (rare term, common term, phrase, speaker filter, OR/NOT) on the full real corpus.
 - **Adoption rule:** adopt it as "Advanced search", or as the main engine, if p95 latency is under 3 s and the download per query is under 5 MB on a typical broadband connection. Otherwise drop it. These thresholds are proposed and can be changed.
 
-## 10. Hosting, schedule and file budget
+## 10. Hosting, schedule and size budget
 
-- **Hosting:** Cloudflare Pages free plan. It has unlimited bandwidth and requests, but caps a site at **20,000 files** and 25 MiB per file. Uploads happen from GitHub Actions through `wrangler pages deploy`, and Cloudflare keeps the previous version if an upload fails.
+- **Hosting:** GitHub Pages, chosen by the user on 2026-10-15 over Cloudflare Pages. Live counts showed Cloudflare's 20,000-file cap would be exceeded unless legislative days were grouped and left out of search.
+  - **Limits:** no file-count cap; the published site may be up to **1 GB**; bandwidth has a **soft limit of 100 GB/month**.
+  - **Publishing:** the hourly workflow publishes with GitHub's own Pages action. If publishing fails, the previous version stays live.
+  - **Address:** `owner.github.io/repo`, or a clean `name.github.io` by creating a free GitHub organization and naming the site repository `name.github.io`. A custom domain can be added later.
 - **Schedule:**
   - GitHub Actions cron `17 * * * *` (an odd minute, to avoid top-of-the-hour delays)
   - a `workflow_dispatch` "Update now" button
   - the repo is public, which makes run time free and unlimited
 - **Keep-alive:** a weekly commit of `data/state.json` (last checked) prevents GitHub from disabling the schedule after 60 days with no activity.
-- **File budget, estimated until real counts are in:**
+- **Corpus, counted from the live API on 2026-10-15:**
 
-| Item | Files |
-|---|---|
-| Floor transcripts | about 4,000–5,500 |
-| Hearings | about 1,000–2,000 |
-| Senator pages | about 300 |
-| Pagefind index | about 6,000–8,000 |
-| Site data and assets | a few hundred |
-| Vocabulary prefixes | under 1,000 |
-| **Total** | **about 12,000–17,000** |
+| Record | Count | Years |
+|---|---|---|
+| Floor session days | 2,297 | 1993–2026 |
+| Pro forma legislative days | 5,505 | mostly 1993–2023 (almost none listed after 2023) |
+| Public hearings | 261 | 2011–2026 (none in the API before 2011) |
 
+- **Size budget (estimated; measure with the first full build):** every transcript gets its own searchable page, legislative days included. Transcript text is about 200 MB; with page markup and the Pagefind index the site comes to roughly 400–500 MB, about half the 1 GB cap. Growth is roughly 85 transcripts and hearings a year, about 5–10 MB.
 - **Guardrails:**
-  - A warning at 18,000 files.
-  - The build refuses to deploy above 19,500.
+  - A warning when the built site passes 800 MB.
+  - The build refuses to publish above 950 MB.
 - **Fallbacks:**
-  - Group pro forma legislative days by month and exclude them from the index.
-  - Start the archive from a later year.
-  - Move to GitHub Pages, which has no file cap but a 1 GB size cap.
+  - Group pro forma legislative days by month and keep them out of the index.
+  - Put Cloudflare's free proxy in front of GitHub Pages if bandwidth becomes a problem.
 
 ## 11. Error handling
 
@@ -286,8 +288,9 @@ The format is to be confirmed with users. **Export** is generated in the browser
 | A transcript can't be split into speakers | publish it as cleaned plain text with the note "Speaker details aren't available for this transcript"; list it in the quality report |
 | Quality drops after a parser change | tests and the quality gate block the deploy |
 | A transcript is corrected | re-sync it, show the "Corrected transcript" flag, keep the old raw version in git history; a remark link that no longer exists lands at the top of the transcript with a notice |
-| File count reaches 18,000 or 19,500 | warn, then refuse to deploy |
-| Upload fails | Cloudflare keeps serving the previous version |
+| Built site passes 800 MB or 950 MB | warn, then refuse to publish |
+| Publishing fails | GitHub Pages keeps serving the previous version |
+| A transcript listed as updated can't be fetched (404) | record it in `data/state.json` and carry on with the rest |
 | Search assets fail to load in the browser | show "Search couldn't load. Check your connection and try again." |
 | A bill is older than the API's bill coverage | show its print number with "Full details not available for bills before {year}" |
 
@@ -304,14 +307,14 @@ The format is to be confirmed with users. **Export** is generated in the browser
 - **Quality gate:** described in section 6.6.
 - **Design:** the Impeccable finish review against the mock, then DESIGN.md (section 8.1).
 
-## 13. To verify once the API key arrives
+## 13. Verified against the live API (2026-10-15)
 
-1. Real counts per year for transcripts, hearings and legislative days. These confirm the file budget.
-2. The first session year with bill details in the API.
-3. The fields in the members endpoint. The source code (OpenLegislation `MemberView`/`FullMemberView`) shows `memberId` (stable across sessions), `districtCode` and `sessionShortNameMap`, and **no party field**. The site therefore shows district only unless party comes from another source. Confirm this with a live key.
-4. Whether a bulk bill listing with `full=true` exists.
-5. Pagefind's exact-phrase behaviour on real transcripts.
-6. Whether Cloudflare Pages honours HTTP Range requests (needed for the 9.2 experiment).
+1. **Counts per year:** see section 10. In total there are 7,802 floor transcripts (2,297 session days and 5,505 legislative days) and 261 hearings. List calls with `summary=true` return `dayType` without the text.
+2. **First session with bill details:** 2009 (28,495 bills listed). 2007 and earlier list none.
+3. **Members:** `memberId`, `chamber`, `person`, `sessionShortNameMap` and `districtCode` are present; there is **no party field**. Names keep their accents ("Luis R. Sepúlveda", shortName `SEPULVEDA`).
+4. **Bulk bill listing:** `/bills/{session}?full=true` includes votes, but also each bill's full text (about 34 KB per bill), so the pipeline fetches bills one at a time with `view=no_fulltext`.
+5. **Paging:** offsets start at 1 (`offsetStart=1`).
+6. **Still open:** Pagefind's exact-phrase behaviour on real transcripts (Plan 2), and whether GitHub Pages honours HTTP Range requests (Plan 4).
 
 ## 14. Undecided (owner: user)
 
@@ -320,24 +323,25 @@ The format is to be confirmed with users. **Export** is generated in the browser
 - whether to adopt a formal accessibility target, such as WCAG 2.2 AA
 - the page-break label: keep the citator style `*5781`, or use the plainer "Page 5781"
 - the exact citation format
+- separate pages per bill, for Google indexing, link previews and lighter pages. The recommendation is a page for every bill read on the floor, with bills only mentioned in passing kept in the session file. Measure the size in Plan 2 before deciding; 2025 alone has 1,767 bills read on the floor and 2,217 mentioned.
 
 ## 15. Setup needed from the user
 
-- a GitHub account; the repo will be public
-- a Cloudflare account with a Pages project, plus an API token that can deploy to Pages
-- a NY Senate Open Legislation API key (free sign-up at legislation.nysenate.gov)
-- these GitHub repository secrets: `NYSENATE_API_KEY`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
+- a GitHub account; the repo will be public. Optionally, a free GitHub organization for a clean `name.github.io` address
+- a NY Senate Open Legislation API key (free sign-up at legislation.nysenate.gov). For local runs it lives in a git-ignored `.env`
+- one GitHub repository secret: `NYSENATE_API_KEY`
+- GitHub Pages turned on for the repository, with "GitHub Actions" as its source
 
 ## 16. Decision log
 
 | Decision | Why |
 |---|---|
 | A pre-built static site, with no app server | free hosting that never sleeps; visitors never touch the API; nothing to babysit |
-| Cloudflare Pages over Vercel | unlimited bandwidth and requests, commercial use allowed, and no 100 MB pre-built upload limit |
+| GitHub Pages over Cloudflare Pages (and Vercel) | no file-count cap, so every transcript gets its own searchable page; 1 GB fits about 400–500 MB with room to grow; one less account. Cloudflare's 20,000-file cap would have forced grouping legislative days; Vercel's 100 MB pre-built upload limit and non-commercial terms ruled it out |
 | GitHub Actions as the job runner | free and unlimited for public repos; built-in schedule and manual run button |
 | Raw API data committed to the repo | reprocessing without re-downloading; history of corrected transcripts |
 | Astro (static generation) + React islands + Tailwind | React and Tailwind for design flexibility; plain HTML output for speed and for Pagefind |
 | Pagefind plus a query layer, with a SQLite-in-browser experiment | proven and free at launch; a measured path to more powerful search without a server |
-| Exports generated in the browser | protects the 20,000-file budget |
+| Exports generated in the browser | keeps the site small (no stored copy of every transcript in two more formats) |
 | Phased scope | transcripts first; bills, laws and calendars later inside the same design |
 | The Citator visual direction | chosen by the user from full-size mocks; refinements kept subtle |
