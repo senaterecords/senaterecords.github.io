@@ -78,12 +78,24 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
     return () => { removeEventListener("resize", fit); removeEventListener("scroll", fit); };
   }, [showList]);
 
+  // Where the caret goes once a picked suggestion is in the field. It is put there as soon as React has written the
+  // new text, before anything more can be typed: a frame later, on a slow device, it would jump back in front of
+  // letters already typed ("budget" came out "udgetb").
+  const placeCaret = useRef<number | null>(null);
+  useLayoutEffect(() => {
+    const at = placeCaret.current;
+    if (at == null || !input.current) return;
+    placeCaret.current = null;
+    input.current.focus();
+    input.current.setSelectionRange(at, at);
+  }, [value]);
   const pick = (s: Suggestion) => {
     if (!token) return;
     const next = replaceToken(value, token, s.value, s.trailingSpace);
+    if (next.value === value) { input.current?.focus(); input.current?.setSelectionRange(next.caret, next.caret); }
+    else placeCaret.current = next.caret;
     setValue(next.value);
     setCaret(next.caret);
-    requestAnimationFrame(() => { input.current?.focus(); input.current?.setSelectionRange(next.caret, next.caret); });
   };
   const onKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (!showList) return;

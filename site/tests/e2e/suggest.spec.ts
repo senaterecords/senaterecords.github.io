@@ -105,3 +105,22 @@ test("the search box in the header suggests too, on every page", async ({ page }
   await expect(page).toHaveURL(/search\/\?q=senator(%3A|:)liz-krueger(%20|\+)budget/);
 });
 
+
+test("letters typed straight after picking a suggestion stay in order, on a slow device too", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // the header box; phones reach search from the menu
+  // A slow device: each next frame comes late.
+  await page.addInitScript(() => {
+    const frame = window.requestAnimationFrame.bind(window);
+    window.requestAnimationFrame = (callback) => window.setTimeout(() => frame(callback), 400) as unknown as number;
+  });
+  await page.goto("browse/");
+  const box = page.getByRole("searchbox", { name: "Search transcripts" });
+  await box.pressSequentially("senator:kr");
+  await expect(page.getByRole("listbox").getByRole("option", { name: /Liz Krueger/ })).toBeVisible();
+  await page.keyboard.press("ArrowDown");
+  await page.keyboard.press("Enter");
+  await page.keyboard.type("b"); // before the next frame
+  await page.waitForTimeout(700); // and the rest after it
+  await page.keyboard.type("udget");
+  await expect(box).toHaveValue("senator:liz-krueger budget");
+});
