@@ -11,15 +11,24 @@ const slowScripts = async (page: import("@playwright/test").Page) => {
 
 test("a name clicked before the scripts load still opens its card", async ({ page }) => {
   await slowScripts(page);
-  await page.goto(SESSION, { waitUntil: "domcontentloaded" });
+  await page.goto(SESSION, { waitUntil: "commit" });
   await page.locator('h3.sp[data-key="secretary"]').first().click();
+  await expect(page.getByRole("dialog", { name: "The Secretary" })).toBeVisible({ timeout: 10_000 });
+});
+
+test("a name hovered before the scripts load opens its card once they do", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await slowScripts(page);
+  await page.goto(SESSION, { waitUntil: "commit" });
+  await page.locator('h3.sp[data-key="secretary"]').first().hover();
   await expect(page.getByRole("dialog", { name: "The Secretary" })).toBeVisible({ timeout: 10_000 });
 });
 
 test("text selected before the scripts load still gets the citation tools", async ({ page }, info) => {
   test.skip(info.project.name === "phone");
   await slowScripts(page);
-  await page.goto(SESSION, { waitUntil: "domcontentloaded" });
+  await page.goto(SESSION, { waitUntil: "commit" });
+  await page.locator("section.turn[data-role='senator'] p").first().waitFor();
   await page.evaluate(() => {
     const p = document.querySelector("section.turn[data-role='senator'] p")!;
     const range = document.createRange();
@@ -35,7 +44,8 @@ test("text selected before the scripts load still gets the citation tools", asyn
 test("J pressed before the scripts load still moves to a remark", async ({ page }, info) => {
   test.skip(info.project.name === "phone");
   await slowScripts(page);
-  await page.goto(SESSION, { waitUntil: "domcontentloaded" });
+  await page.goto(SESSION, { waitUntil: "commit" });
+  await page.locator("#transcript").waitFor();
   await page.keyboard.press("j");
   await expect(page).toHaveURL(/#r-\d+$/, { timeout: 10_000 });
 });

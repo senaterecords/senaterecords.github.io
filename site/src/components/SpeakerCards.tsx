@@ -93,6 +93,9 @@ function Cards() {
     window.__otrCards = true;
     const early = window.__otrEarly?.clicks.pop();
     if (early) show(early, true);
+    // A name already under the pointer opens as if it had just been hovered.
+    const hovered = document.querySelector<HTMLElement>("section.turn > h3.sp[data-key]:hover");
+    if (!early && hovered && !window.matchMedia(PHONE).matches) openTimer.current = window.setTimeout(() => show(hovered, false), OPEN_DELAY);
     document.addEventListener("pointerover", over);
     document.addEventListener("pointerout", out);
     document.addEventListener("click", click);
