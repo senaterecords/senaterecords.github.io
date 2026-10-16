@@ -82,6 +82,7 @@ site/                     Astro + React islands + Tailwind
 data/raw/                 committed: exactly what the API returned
 data/state.json           committed: last sync timestamps, backfill progress
 data/overrides/           committed: manual fixes (speakers.yaml)
+data/corrections.json     committed: date each stored transcript's text last changed (drives "Corrected transcript")
 data/site/                generated in CI, not committed
 .github/workflows/update.yml
 ```
@@ -122,7 +123,7 @@ These facts about the API were verified against the official docs and the OpenLe
 
 ### 6.1 Sync
 - **Backfill:** a one-time download, year by year with `limit=1000&full=true&sessionOnly=false`, plus hearings and the members list for each session. It resumes from `data/state.json` and must stay under GitHub's 6-hour job limit, so it spreads across as many runs as needed.
-- **Incremental:** each hourly run calls the updates endpoints for transcripts and hearings since the last sync, and re-downloads anything changed.
+- **Incremental:** each hourly run calls the floor transcript updates endpoint since the last sync and re-downloads anything changed. Public hearings are refreshed by re-listing the current year once a day, because the shape of the hearing updates endpoint's items isn't verified. When an already-stored record's text changes, the date is written to `data/corrections.json`.
 - **Raw storage:**
   - `data/raw/transcripts/{year}/{dateTime}__{sessionType-slug}.json`
   - `data/raw/hearings/{year}/{hearing-key}.json`, where the key is the id when it is under 1000 and the filename otherwise
@@ -130,7 +131,7 @@ These facts about the API were verified against the official docs and the OpenLe
   - `data/raw/bills/{session}/{printNo}.json`
 
 ### 6.2 Clean
-- **Layout detection:** detect each file's layout from its content (not its date), then strip page numbers, line numbers, spacer lines, form feeds, headers and vendor footers.
+- **Layout detection:** detect each file's layout from its content (not its date), then strip page numbers (including vendor "Page N" headers), line numbers, spacer lines and form feeds. Running headers and vendor footers are also stripped: these are text repeated in the first or last two lines of at least 30% of pages.
 - **Line joining:** rejoin wrapped lines into paragraphs.
 - **Page map:** build a map from character offsets to official page numbers, so every turn knows the page or pages it starts and ends on.
 
@@ -167,7 +168,7 @@ These facts about the API were verified against the official docs and the OpenLe
 | File | Contents |
 |---|---|
 | `meta.json` | last updated time, counts, quality summary |
-| `transcripts/{slug}.json` | metadata (type, date, session type, location, pages, committees) plus `turns[]`, `segments[]` (calendar no., bill, debated, turn range) and `flags` (corrected, plain-text fallback) |
+| `transcripts/{slug}.json` | metadata (type, date, session type, location, pages, committees) plus `turns[]`, `segments[]` (calendar no., bill, debated, outcome, votes, turn range), `plainText` (fallback flag) and `corrected` (date or null) |
 | `senators.json` | every senator: id, slug, name, party/district per session, sessions served |
 | `senators/{slug}.json` | appearances (transcript, turn count, first page), bills debated (sponsored or spoke), totals |
 | `bills/{session}.json` | every bill mentioned that session: card fields and the debate segments that reference it |
@@ -307,7 +308,7 @@ The format is to be confirmed with users. **Export** is generated in the browser
 
 1. Real counts per year for transcripts, hearings and legislative days. These confirm the file budget.
 2. The first session year with bill details in the API.
-3. The fields in the members endpoint, specifically a stable person id across sessions, and party/district.
+3. The fields in the members endpoint. The source code (OpenLegislation `MemberView`/`FullMemberView`) shows `memberId` (stable across sessions), `districtCode` and `sessionShortNameMap`, and **no party field**. The site therefore shows district only unless party comes from another source. Confirm this with a live key.
 4. Whether a bulk bill listing with `full=true` exists.
 5. Pagefind's exact-phrase behaviour on real transcripts.
 6. Whether Cloudflare Pages honours HTTP Range requests (needed for the 9.2 experiment).
