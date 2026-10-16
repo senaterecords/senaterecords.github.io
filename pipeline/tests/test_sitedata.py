@@ -72,6 +72,9 @@ def test_senators_before_2009_link_through_the_history_list(tmp_path):
     (store.root / "rosters" / "senate-1993-2008.yaml").write_text(
         "- member_id: 100001\n  name: Emanuel R. Gold\n  first: Emanuel\n  last: Gold\n  sessions: {1995: 16}\n",
         encoding="utf-8")
+    # The officers list lives in the same folder and must not be read as senators.
+    (store.root / "rosters" / "officers.yaml").write_text(
+        "lieutenant_governors: []\nsecretaries:\n- name: Stephen F. Sloan\n  cover: [SLOAN]\n", encoding="utf-8")
     build_all(store, tmp_path / "site", datetime(2025, 6, 11))
     doc = read_json(tmp_path / "site" / "transcripts" / "1995-03-01-regular-session.json")
     assert [t["senator"] for t in doc["turns"]] == ["emanuel-r-gold"]

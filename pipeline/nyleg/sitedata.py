@@ -226,7 +226,7 @@ def load_roster(store: Store) -> Roster:
     folder = store.raw / "members"
     by_session = {int(p.stem): read_json(p) or [] for p in sorted(folder.glob("*.json"))} if folder.exists() else {}
     # The API lists senators from 2009 only; data/rosters/ covers the sessions before that.
-    history = [row for path in sorted((store.root / "rosters").glob("*.yaml")) for row in load_history(path)]
+    history = [row for path in sorted((store.root / "rosters").glob("senate-*.yaml")) for row in load_history(path)]
     return Roster.from_members(by_session, history)
 
 
