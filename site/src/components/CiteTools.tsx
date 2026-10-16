@@ -97,6 +97,7 @@ function CiteTools() {
       if (e.key === "Escape") setPicked(null);
       else if (e.shiftKey && e.key.startsWith("Arrow")) window.setTimeout(read, 0);
     };
+    read(); // text selected before this island started
     document.addEventListener("mouseup", onUp);
     document.addEventListener("selectionchange", onChange);
     document.addEventListener("keyup", onKey);

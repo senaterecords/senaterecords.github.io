@@ -1,6 +1,15 @@
 // The reader page embeds its speakers and calendar as JSON (#reader-data); the reader islands share one parsed copy.
 import type { SpeakerInfo } from "../lib/speakers";
 
+declare global {
+  interface Window {
+    /** Name clicks and J/K presses made before the islands started, queued by an inline script on the reader page. */
+    __otrEarly?: { clicks: HTMLElement[]; keys: string[] };
+    __otrCards?: boolean;
+    __otrNav?: boolean;
+  }
+}
+
 export interface ReaderSegment {
   calNo: number;
   printNo: string | null;

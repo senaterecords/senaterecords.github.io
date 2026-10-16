@@ -105,6 +105,11 @@ function ReaderNav() {
       go(remarks, e.key === "j" ? base + 1 : Math.max(0, base - 1));
     };
     document.addEventListener("keydown", onKey);
+    // J/K pressed before this island started are replayed once the remarks are known.
+    if (remarks.length && !window.__otrNav) {
+      window.__otrNav = true;
+      for (const key of window.__otrEarly?.keys.splice(0) ?? []) onKey(new KeyboardEvent("keydown", { key }));
+    }
     return () => document.removeEventListener("keydown", onKey);
   }, [remarks, go]);
 

@@ -116,6 +116,18 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
   </div>
 
   <script type="application/json" id="reader-data" set:html={json} />
+  <script is:inline>
+    // Until the reader's scripts start, remember name clicks and J/K presses so they still count (slow connections).
+    window.__otrEarly = { clicks: [], keys: [] };
+    document.addEventListener("click", function (e) {
+      var label = !window.__otrCards && e.target instanceof Element && e.target.closest("section.turn > h3.sp[data-key]");
+      if (label) window.__otrEarly.clicks.push(label);
+    }, true);
+    document.addEventListener("keydown", function (e) {
+      if (window.__otrNav || (e.key !== "j" && e.key !== "k") || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (!/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) window.__otrEarly.keys.push(e.key);
+    }, true);
+  </script>
   <SpeakerCards client:load />
   <CiteTools client:load />
   <ReaderNav client:load />

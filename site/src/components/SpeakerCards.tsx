@@ -89,6 +89,10 @@ function Cards() {
       if (e.key === "Escape" && openRef.current) { const { label } = openRef.current; close(); label.focus({ preventScroll: true }); }
       if (e.key === "Enter" && labelFor(e.target) === e.target) { e.preventDefault(); show(e.target as HTMLElement, true); }
     };
+    // A name clicked before this island started opens now.
+    window.__otrCards = true;
+    const early = window.__otrEarly?.clicks.pop();
+    if (early) show(early, true);
     document.addEventListener("pointerover", over);
     document.addEventListener("pointerout", out);
     document.addEventListener("click", click);
