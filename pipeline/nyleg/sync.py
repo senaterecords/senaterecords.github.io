@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any, Protocol
 from urllib.parse import quote
 
-from .api import NotFound
+from .api import ApiError, AuthError, NotFound
 from .bills import BILL_DATA_START, base_print_no, find_bills
 from .clean import extract_lines, paragraphs
 from .senators import session_year
@@ -58,8 +58,22 @@ def hearing_key(item: dict[str, Any]) -> str:
     return item.get("filename") or str(item["id"])
 
 
+def hearing_year(item: dict[str, Any]) -> int | None:
+    """The hearing's year, or None when the record has no usable date."""
+    text = str(item.get("date") or "")[:4]
+    return int(text) if text.isdigit() else None
+
+
 def save_hearing(store: Store, item: dict[str, Any], today: date | None = None) -> Path | None:
-    return _save(store, store.hearing_path(int(str(item["date"])[:4]), hearing_key(item)), item, today)
+    year = hearing_year(item)
+    if year is None:
+        return None
+    return _save(store, store.hearing_path(year, hearing_key(item)), item, today)
+
+
+def _note_skipped(state: dict[str, Any], skipped: list[str]) -> None:
+    if skipped:
+        state["hearings_skipped"] = sorted(set(state.get("hearings_skipped", [])) | set(skipped))
 
 
 def _backfill(client: ApiClient, store: Store, years: Iterable[int], kind: str) -> SyncResult:
@@ -69,6 +83,7 @@ def _backfill(client: ApiClient, store: Store, years: Iterable[int], kind: str) 
     for year in years:
         if year in done:
             continue
+        skipped: list[str] = []
         if kind == "transcripts":
             items = client.iter_items(f"/transcripts/{year}", full=True, sessionOnly=False)
             save = save_transcript
@@ -76,11 +91,15 @@ def _backfill(client: ApiClient, store: Store, years: Iterable[int], kind: str) 
             items = client.iter_items(f"/hearings/{year}", full=True)
             save = save_hearing
         for item in items:
+            if kind == "hearings" and hearing_year(item) is None:
+                skipped.append(hearing_key(item))
+                continue
             path = save(store, item)
             if path:
                 result.changed.append(path)
         done.add(year)
         state.setdefault("backfill", {})[kind] = sorted(done)
+        _note_skipped(state, skipped)
         store.save_state(state)
     return result
 
@@ -99,6 +118,8 @@ def sync_transcript_updates(client: ApiClient, store: Store, now: datetime) -> S
     state = store.load_state()
     last = state.get("transcripts_synced_at")
     since = datetime.fromisoformat(last) - UPDATE_OVERLAP if last else now - FIRST_LOOKBACK
+    if since >= now:  # e.g. the November clock change: never ask for a window that runs backwards
+        since = now - UPDATE_OVERLAP
     result = SyncResult()
     missing = [list(x) for x in state.get("transcripts_missing", [])]
     for item in client.iter_items(f"/transcripts/updates/{_iso(since)}/{_iso(now)}"):
@@ -123,10 +144,18 @@ def sync_transcript_updates(client: ApiClient, store: Store, now: datetime) -> S
 
 def sync_hearings_year(client: ApiClient, store: Store, year: int) -> SyncResult:
     result = SyncResult()
+    skipped: list[str] = []
     for item in client.iter_items(f"/hearings/{year}", full=True):
+        if hearing_year(item) is None:
+            skipped.append(hearing_key(item))  # one bad record must not stop the run
+            continue
         path = save_hearing(store, item)
         if path:
             result.changed.append(path)
+    if skipped:
+        state = store.load_state()
+        _note_skipped(state, skipped)
+        store.save_state(state)
     return result
 
 
@@ -137,7 +166,8 @@ def sync_recent_hearings(client: ApiClient, store: Store, today: date) -> SyncRe
 
 
 def sync_members(client: ApiClient, store: Store, session: int) -> SyncResult:
-    items = list(client.iter_items(f"/members/{session}/senate", full=True))
+    # Sorted, so a different API ordering doesn't look like a change every hour.
+    items = sorted(client.iter_items(f"/members/{session}/senate", full=True), key=lambda m: m.get("memberId") or 0)
     path = store.members_path(session)
     return SyncResult([path] if write_json(path, items) else [])
 
@@ -191,21 +221,26 @@ def fetch_bills(
         if write_json(path, body["result"]):
             result.changed.append(path)
 
-    for session, base in sorted(pending):
-        if (session, base) in missing or store.bill_path(session, base).exists():
-            continue
-        if used >= budget:
-            break
-        fetch(session, base)
-    if refresh_session is not None:
-        cutoff = (today - timedelta(days=refresh_days)).isoformat()
-        folder = store.raw / "bills" / str(refresh_session)
-        for base in sorted(p.stem for p in folder.glob("*.json")) if folder.exists() else []:
+    try:
+        for session, base in sorted(pending):
+            if (session, base) in missing or store.bill_path(session, base).exists():
+                continue
             if used >= budget:
                 break
-            if checked.get(f"{refresh_session}/{base}", "") > cutoff:
-                continue
-            fetch(refresh_session, base)
+            fetch(session, base)
+        if refresh_session is not None:
+            cutoff = (today - timedelta(days=refresh_days)).isoformat()
+            folder = store.raw / "bills" / str(refresh_session)
+            for base in sorted(p.stem for p in folder.glob("*.json")) if folder.exists() else []:
+                if used >= budget:
+                    break
+                if checked.get(f"{refresh_session}/{base}", "") > cutoff:
+                    continue
+                fetch(refresh_session, base)
+    except AuthError:
+        raise
+    except ApiError:
+        pass  # the API is struggling: keep what we have, leave the rest pending for the next run
     left = {p for p in pending if p not in missing and not store.bill_path(*p).exists()}
     state["bills_pending"] = [list(p) for p in sorted(left)]
     state["bills_missing"] = [list(p) for p in sorted(missing)]

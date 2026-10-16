@@ -3,7 +3,7 @@ from urllib.parse import quote
 
 import pytest
 
-from nyleg.api import ApiError, NotFound
+from nyleg.api import ApiError, AuthError, NotFound
 from nyleg.store import Store, read_json, write_json
 from nyleg.sync import (
     backfill_hearings,
@@ -33,6 +33,8 @@ class FakeClient:
 
     def get(self, path, **params):
         self.calls.append(path)
+        if path in getattr(self, "errors", {}):
+            raise self.errors[path]
         if path not in self.singles:
             raise NotFound(path)
         return {"success": True, "result": self.singles[path]}
@@ -176,3 +178,45 @@ def test_current_session_bills_are_refreshed_weekly(tmp_path):
     client.calls.clear()
     fetch_bills(client, store, set(), budget=5, today=date(2025, 7, 1), refresh_session=2027)
     assert client.calls == []  # bills from past sessions are no longer refreshed
+
+
+def test_members_are_saved_in_a_stable_order(tmp_path):
+    store = Store(tmp_path)
+    sync_members(FakeClient({"/members/2025/senate": [{"memberId": 2}, {"memberId": 1}]}), store, 2025)
+    again = sync_members(FakeClient({"/members/2025/senate": [{"memberId": 1}, {"memberId": 2}]}), store, 2025)
+    assert again.changed == []
+    assert [m["memberId"] for m in read_json(store.members_path(2025))] == [1, 2]
+
+
+def test_the_updates_window_never_runs_backwards(tmp_path):
+    store = Store(tmp_path)
+    store.save_state({"transcripts_synced_at": "2025-11-02T01:30:00"})  # a run just before the clocks went back
+    client = FakeClient()
+    sync_transcript_updates(client, store, datetime(2025, 11, 2, 1, 5, 0))
+    assert client.calls == ["/transcripts/updates/2025-11-02T00:55:00/2025-11-02T01:05:00"]
+
+
+def test_a_server_error_while_fetching_bills_leaves_the_rest_pending(tmp_path):
+    store = Store(tmp_path)
+    client = FakeClient(singles={"/bills/2025/S1": {"basePrintNo": "S1", "session": 2025}})
+    client.errors = {"/bills/2025/S2": ApiError("Gave up on /bills/2025/S2 after 5 attempts (HTTP 503)")}
+    fetch_bills(client, store, {(2025, "S1"), (2025, "S2"), (2025, "S3")}, budget=10)
+    assert store.bill_path(2025, "S1").exists()
+    assert store.load_state()["bills_pending"] == [[2025, "S2"], [2025, "S3"]]
+
+
+def test_a_rejected_key_while_fetching_bills_still_stops_the_run(tmp_path):
+    store = Store(tmp_path)
+    client = FakeClient()
+    client.errors = {"/bills/2025/S1": AuthError("NY Senate API key rejected")}
+    with pytest.raises(AuthError):
+        fetch_bills(client, store, {(2025, "S1")}, budget=10)
+
+
+def test_hearings_without_a_date_are_skipped_not_fatal(tmp_path):
+    store = Store(tmp_path)
+    good = {"id": 1, "filename": "a.txt", "date": "2025-03-01", "text": "x"}
+    client = FakeClient({"/hearings/2025": [{"id": 2, "filename": "b.txt", "date": None, "text": "y"}, good]})
+    result = sync_hearings_year(client, store, 2025)
+    assert result.changed == [store.hearing_path(2025, "a.txt")]
+    assert store.load_state()["hearings_skipped"] == ["b.txt"]

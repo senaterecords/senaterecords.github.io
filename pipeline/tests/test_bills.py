@@ -148,3 +148,12 @@ def test_debate_window_ends_at_the_outcome():
     ]
     (segment,) = segment_calendar(turns)
     assert (segment.start_turn, segment.debate_end, segment.end_turn) == (0, 3, 4)
+
+
+def test_adopted_resolutions_get_an_outcome():
+    turns = [
+        turn(0, "THE SECRETARY", "Calendar Number 30, Senate Print 501, by Senator Hannon, Concurrent Resolution."),
+        turn(1, "ACTING PRESIDENT KUHL", "The question is on the resolution. All in favor. The resolution is adopted."),
+    ]
+    (segment,) = segment_calendar(turns)
+    assert segment.outcome == "adopted"

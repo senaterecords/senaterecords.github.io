@@ -22,6 +22,7 @@ READING_HEAD = 200  # only the start of the Secretary's reading names the bill a
 _AYES = re.compile(r"\bAyes,? (?P<ayes>\d+)\.?(?: Nays,? (?P<nays>\d+))?")
 _PASSED = re.compile(r"\bbill is passed\b", re.I)
 _LOST = re.compile(r"\bbill is lost\b|\bbill is defeated\b", re.I)
+_ADOPTED = re.compile(r"\bresolution is adopted\b", re.I)
 _ASIDE = re.compile(r"\blay (?:it|the bill) aside\b|\blaid aside\b", re.I)
 _BASE = re.compile(r"^([SA]\d+)[A-Z]?$")
 
@@ -52,7 +53,7 @@ class Segment:
     start_turn: int
     end_turn: int  # exclusive: the next reading, or the end of the day
     debated: bool
-    outcome: str | None  # "passed" | "lost" | "laid_aside" | None
+    outcome: str | None  # "passed" | "lost" | "adopted" (resolutions) | "laid_aside" | None
     ayes: int | None
     nays: int | None
     debate_end: int = 0  # exclusive end of the debate: just past the outcome turn, else end_turn
@@ -101,6 +102,8 @@ def segment_calendar(turns: list[Turn]) -> list[Segment]:
                     outcome = "passed"
                 elif _LOST.search(t.text):
                     outcome = "lost"
+                elif _ADOPTED.search(t.text):
+                    outcome = "adopted"
                 if outcome:
                     debate_end = j + 1
                     break

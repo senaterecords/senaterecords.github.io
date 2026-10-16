@@ -11,6 +11,11 @@ def test_slugify_folds_accents():
     assert slugify("Jessica González-Rojas") == "jessica-gonzalez-rojas"
 
 
+def test_slugify_drops_apostrophes():
+    assert slugify("Thomas F. O'Mara") == "thomas-f-omara"
+    assert slugify("Thomas F. O’Mara") == "thomas-f-omara"
+
+
 def test_transcript_path_has_no_colons(tmp_path):
     store = Store(tmp_path)
     path = store.transcript_path("2014-09-03T09:00", "Regular Session")

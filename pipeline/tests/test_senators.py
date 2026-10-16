@@ -97,3 +97,9 @@ def test_accented_api_names_keep_their_accents_and_get_clean_slugs():
     assert r.match("SEPÚLVEDA", 2025) == 10
     senator = r.senators[10]
     assert (senator.full_name, senator.slug) == ("Luis R. Sepúlveda", "luis-r-sepulveda")
+
+
+def test_middle_initials_do_not_block_a_match():
+    r = Roster.from_members({2025: [member(20, "Joseph P. Addabbo", "Joseph", "Addabbo", "ADDABBO", 15, 2025)]})
+    assert r.match("JOSEPH P. ADDABBO", 2025) == 20
+    assert r.match("JOSEPH ADDABBO", 2025) == 20

@@ -93,6 +93,8 @@ class Roster:
             if len(found) > 1:
                 return None
         words = key.split()
+        # "JOSEPH P. ADDABBO": a middle initial must not stop a first-and-last-name match.
+        words = [w for i, w in enumerate(words) if i in (0, len(words) - 1) or len(w) > 1]
         if len(words) > 1:
             first, last = words[0], " ".join(words[1:])
             found = [

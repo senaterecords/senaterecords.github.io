@@ -14,6 +14,7 @@ _NON_SLUG = re.compile(r"[^a-z0-9]+")
 
 
 def slugify(value: str) -> str:
+    value = value.replace("'", "").replace("’", "")  # O'Mara -> omara, not o-mara
     folded = "".join(c for c in unicodedata.normalize("NFKD", value) if not unicodedata.combining(c))
     return _NON_SLUG.sub("-", folded.lower()).strip("-")
 
