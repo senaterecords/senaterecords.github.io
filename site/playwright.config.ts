@@ -6,6 +6,8 @@ const baseURL = `http://127.0.0.1:4329${process.env.SITE_BASE ?? "/"}`;
 export default defineConfig({
   testDir: "tests/e2e",
   fullyParallel: true,
+  // Broad searches ("the": 833 remarks) take a few seconds when every worker is busy, and GitHub's machines are slower.
+  expect: { timeout: 10_000 },
   reporter: process.env.CI ? "line" : "list",
   use: { baseURL, trace: "retain-on-failure" },
   projects: [

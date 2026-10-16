@@ -1,5 +1,6 @@
 ---
 // One year of transcripts by month, as in "Browse transcripts by year" and the phone browse page.
+import Icon from "../../components/Icon.astro";
 import Base from "../../layouts/Base.astro";
 import { transcriptIndex, years } from "../../lib/data";
 import { dayDate, hearingTitle, plainPages, plural, transcriptTitle } from "../../lib/format";
@@ -11,6 +12,11 @@ export function getStaticPaths() {
 }
 
 const year = Number(Astro.params.year);
+// Years run newest first: the one before this in the list is the next year, the one after it the previous.
+const all = years();
+const at = all.findIndex((y) => y.year === year);
+const newer = all[at - 1]?.year;
+const older = all[at + 1]?.year;
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const list = transcriptIndex().filter((t) => t.date.startsWith(`${year}-`));
 const legislative = (t: TranscriptSummary) => t.dayType === "LEGISLATIVE";
@@ -49,6 +55,15 @@ const pages = (t: TranscriptSummary) =>
           </script>
         </div>
         <div class="acts">
+          <div class="yr" role="group" aria-label="Choose a year">
+            {older ? <a class="yr-step" href={url(`/browse/${older}/`)} aria-label={`Previous year, ${older}`} title={String(older)}><Icon name="chevl" size={15} /></a>
+              : <span class="yr-step" aria-hidden="true"><Icon name="chevl" size={15} /></span>}
+            <select id="yr-pick" class="yr-pick num" aria-label="Year" onchange="location.href = this.value">
+              {all.map(({ year: y }) => <option value={url(`/browse/${y}/`)} selected={y === year}>{y}</option>)}
+            </select>
+            {newer ? <a class="yr-step" href={url(`/browse/${newer}/`)} aria-label={`Next year, ${newer}`} title={String(newer)}><Icon name="chev" size={15} /></a>
+              : <span class="yr-step" aria-hidden="true"><Icon name="chev" size={15} /></span>}
+          </div>
           <div class="seg" role="group" aria-label="Show">
             <button type="button" data-kind="all" aria-pressed="true">All</button>
             <button type="button" data-kind="floor" aria-pressed="false">Floor sessions</button>
@@ -57,9 +72,6 @@ const pages = (t: TranscriptSummary) =>
 
         </div>
       </div>
-      <nav class="yrs" aria-label="Years">
-        {years().map(({ year: y }) => <a class="num" href={url(`/browse/${y}/`)} aria-current={y === year ? "page" : undefined}>{y}</a>)}
-      </nav>
     </div>
   </header>
 
@@ -84,6 +96,7 @@ const pages = (t: TranscriptSummary) =>
 <script>
   // Record type is a JavaScript filter; legislative days (pro forma, no business) are hidden by CSS until the switch is
   // on, which works without JavaScript and is remembered on this device. A month with nothing left to show folds away.
+  // (Choosing a year opens it through the dropdown's own onchange, so it works the moment the page is drawn.)
   const buttons = [...document.querySelectorAll<HTMLButtonElement>(".acts [data-kind]")];
   const showLd = document.getElementById("show-ld") as HTMLInputElement | null;
   let kind = "all";
@@ -118,10 +131,6 @@ const pages = (t: TranscriptSummary) =>
 </script>
 
 <style is:global>
-  .yrs { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 16px; padding-bottom: 16px; }
-  .yrs a { font-size: 13px; font-weight: 600; padding: 4px 10px; border: 1px solid var(--color-rule); border-radius: 5px; background: #fff; color: var(--color-ink2); }
-  .yrs a:hover { border-color: var(--color-ink); color: var(--color-ink); }
-  .yrs a[aria-current] { background: var(--color-ink); color: #fff; border-color: var(--color-ink); }
   .mon { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
   .mg { padding-top: 18px; }
   .mg[hidden], .tr li[hidden] { display: none; }
@@ -132,6 +141,14 @@ const pages = (t: TranscriptSummary) =>
   .tr .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
   .tr .t small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; }
   .tr .p { color: var(--color-ink3); font-size: 12.5px; text-align: right; }
+  /* The year: one joined control, previous and next around a dropdown of every year (newest first). */
+  .yr { display: inline-flex; align-items: stretch; height: 34px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; overflow: hidden; }
+  .yr-step { display: grid; place-items: center; width: 32px; color: var(--color-ink2); }
+  a.yr-step:hover { background: #F4F5F6; color: var(--color-ink); }
+  a.yr-step:focus-visible, .yr-pick:focus-visible { outline: 2px solid var(--color-act); outline-offset: -2px; }
+  span.yr-step { color: #C9CDD2; }
+  .yr-pick { border: 0; border-left: 1px solid var(--color-rule); border-right: 1px solid var(--color-rule); border-radius: 0; padding: 0 6px 0 10px; font: 700 14px var(--font-ui); color: var(--color-ink); background: #fff; cursor: pointer; }
+  .yr-pick:hover { background: #F9FAFA; }
   .tr .ld { color: var(--color-ink3); }
   .tr li.ld { display: none; }
   .pg-head:has(#show-ld:checked) ~ .mon .tr li.ld:not([hidden]) { display: grid; }
@@ -149,7 +166,6 @@ const pages = (t: TranscriptSummary) =>
   .ld-toggle:has(input:checked) .ld-off { display: none; }
   .tr .ld .t a { font-weight: 450; color: var(--color-ink3); }
   @media (max-width: 719.98px) {
-    .yrs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: -16px; padding-right: 16px; }
     .mon { padding: 0 16px; }
     .tr li { grid-template-columns: 1fr auto; gap: 2px 10px; border-bottom-color: var(--color-rule2); }
     .tr .d { font-weight: 450; font-size: 12.5px; color: var(--color-ink3); }

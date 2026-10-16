@@ -4,7 +4,7 @@ test("browse opens a year grouped by month", async ({ page }) => {
   await page.goto("browse/2025/");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("2025 transcripts");
   await expect(page.getByRole("heading", { name: /^March 2025/ })).toBeVisible();
-  await page.getByRole("link", { name: "1995", exact: true }).click();
+  await page.getByRole("combobox", { name: "Year" }).selectOption({ label: "1995" });
   await expect(page).toHaveURL(/browse\/1995\//);
 });
 
@@ -41,5 +41,19 @@ test("a remembered choice to show legislative days applies before the first pain
   const month = page.locator(".mg", { has: day });
   await expect(month.locator(".sec-h2 .c-on")).toBeVisible();
   await expect(month.locator(".sec-h2 .c-off")).toBeHidden();
+});
+
+test("years are one dropdown with previous and next beside it, not a row of chips", async ({ page }) => {
+  await page.goto("browse/2023/");
+  await expect(page.locator(".yrs")).toHaveCount(0);
+  const pick = page.getByRole("combobox", { name: "Year" });
+  await expect(pick).toHaveValue(/\/browse\/2023\/$/);
+  await page.getByRole("link", { name: /^Previous year/ }).click();
+  await expect(page).toHaveURL(/browse\/2021\/$/);
+  await page.getByRole("link", { name: /^Next year/ }).click();
+  await expect(page).toHaveURL(/browse\/2023\/$/);
+  await page.getByRole("combobox", { name: "Year" }).selectOption({ label: "1995" });
+  await expect(page).toHaveURL(/browse\/1995\/$/);
+  await expect(page.getByRole("link", { name: /^Previous year/ })).toHaveCount(0); // nothing older
 });
 
