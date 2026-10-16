@@ -32,6 +32,7 @@
     ['home', 'Homepage', 'dir-citator.html'],
     ['results', 'Search results', 'dir-citator.html'],
     ['reader', 'Reading a transcript', 'dir-citator.html'],
+    ['reader-card', "Clicking a senator's name", 'dir-citator.html', 'only=reader&card'],
     ['senator', 'Senator page', 'dir-citator-pages.html'],
     ['bills', 'Bills list', 'dir-citator-pages.html'],
     ['bill', 'Bill page', 'dir-citator-pages.html'],
@@ -39,9 +40,9 @@
     ['about', 'About the data', 'dir-citator-pages.html'],
   ];
   const main = document.getElementById('main'), nav = document.getElementById('nav');
-  for (const [id, label, file] of screens) {
+  for (const [id, label, file, query] of screens) {
     nav.insertAdjacentHTML('beforeend', `<a href="#${id}">${label}</a>`);
-    main.insertAdjacentHTML('beforeend', `<h2 id="${id}">${label}</h2><div class="wrap"><div class="frame"><iframe loading="lazy" title="${label}" src="${file}?full&only=${id}"></iframe></div></div>`);
+    main.insertAdjacentHTML('beforeend', `<h2 id="${id}">${label}</h2><div class="wrap"><div class="frame"><iframe loading="lazy" title="${label}" src="${file}?full&${query || 'only=' + id}"></iframe></div></div>`);
   }
   function fit() {
     const scale = Math.min(1, (window.innerWidth - 64) / 1280);

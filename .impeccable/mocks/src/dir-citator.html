@@ -148,6 +148,22 @@
   .rd-side { border-left: 1px solid var(--rule); padding: 18px 20px; background: #FBFBFA; overflow: hidden; }
   .keys { margin-top: 16px; font-size: 12.5px; color: var(--ink3); display: flex; gap: 12px; }
   .keys kbd { font: 650 11.5px 'Archivo'; color: var(--ink2); border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: #fff; margin-right: 4px; }
+
+  /* clicking a senator's name (?card) */
+  .scard { display: none; position: absolute; left: 88px; top: 508px; width: 400px; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); }
+  body.card .scard { display: block; }
+  body.card .pop { display: none; }
+  body.card .sel { background: none; box-shadow: none; }
+  body.card .turn .sp.on { text-decoration-color: var(--ink); text-decoration-thickness: 2px; }
+  .ph { flex: none; width: 40px; height: 52px; border-radius: 3px; background: #ECEEEF; border: 1px solid var(--rule2); color: #C6CBD0; display: grid; place-items: end center; overflow: hidden; }
+  .scard .hd { display: flex; gap: 12px; align-items: flex-start; }
+  .scard .nm { font-size: 15px; font-weight: 700; line-height: 1.25; }
+  .scard .mt { font-size: 12.5px; color: var(--ink3); margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .scard .here { display: flex; align-items: center; justify-content: space-between; margin: 12px 0; padding: 9px 0; border-top: 1px solid var(--rule2); border-bottom: 1px solid var(--rule2); font-size: 13px; color: var(--ink2); }
+  .scard .here b { color: var(--ink); font-weight: 650; font-variant-numeric: tabular-nums; }
+  .scard .here .nav { display: flex; gap: 6px; }
+  .scard .here .nav span { font-size: 12.5px; font-weight: 600; color: var(--ink2); border: 1px solid var(--rule); border-radius: 5px; padding: 1px 8px; background: #fff; white-space: nowrap; }
+  .scard .row { display: flex; gap: 8px; }
 </style>
 </head>
 <body>
@@ -162,6 +178,7 @@
   <symbol id="i-sig" viewBox="0 0 24 24"><path d="M7 6h10M7 10h10M7 14h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M15.5 14.5l3 3" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
   <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-person" viewBox="0 0 34 42"><circle cx="17" cy="15" r="8" fill="currentColor"/><path d="M2 42c0-9 6.7-15 15-15s15 6 15 15z" fill="currentColor"/></symbol>
 </svg>
 
 <!-- ============ SEARCH RESULTS ============ -->
@@ -316,12 +333,22 @@
       <div class="turn"><div class="g"></div><p class="tx"><span class="sp sen">Senator Ortega</span>Thank you, Mr. President. <span class="sel">This bill does one thing. It says the <mark>congestion pricing</mark> program has to answer to the riders in my district before it answers to anyone else in this building.</span></p></div>
       <div class="star"><b>*5781</b><i></i></div>
       <div class="turn"><div class="g"></div><p class="tx">It requires the authority to publish, every quarter, where each dollar collected in the zone is spent, and it gives this body the power to call them in when they don't.</p></div>
-      <div class="turn"><div class="g"></div><p class="tx"><span class="sp sen">Senator Kearney</span>Will the sponsor yield?</p></div>
+      <div class="turn"><div class="g"></div><p class="tx"><span class="sp sen on">Senator Kearney</span>Will the sponsor yield?</p></div>
       <div class="turn"><div class="g"></div><p class="tx"><span class="sp">Acting President Brennan</span>Does the sponsor yield?</p></div>
       <div class="turn"><div class="g"></div><p class="tx"><span class="sp sen">Senator Ortega</span>I do.</p></div>
       <div class="pop">
         <p class="cite">N.Y. Senate Tr., June 10, 2025, at 5780 (remarks of Sen. Ortega)</p>
         <div class="row"><button class="ct-primary" style="height:32px"><svg width="14" height="14"><use href="#i-copy"/></svg>Copy with cite</button><button class="ct-btn">Copy text only</button><button class="ct-btn" style="color:#4B535E;border-color:#D7DBDF">Link to this remark</button></div>
+      </div>
+      <div class="scard">
+        <div class="hd">
+          <div class="ph"><svg width="34" height="42"><use href="#i-person"/></svg></div>
+          <div><div class="nm">Sen. Thomas Kearney</div>
+            <div class="mt">District 4 · In the Senate since 2011</div>
+            <div class="mt">2,031 remarks in 318 transcripts</div></div>
+        </div>
+        <div class="here"><span><b>14 remarks</b> in this transcript</span><span class="nav"><span>‹ Previous</span><span>Next ›</span></span></div>
+        <div class="row"><button class="ct-primary" style="height:32px">Open senator page</button><button class="ct-btn">Show only Kearney</button></div>
       </div>
     </article>
     <aside class="rd-side">
@@ -339,6 +366,6 @@
 </div>
 
 <div class="legend"><b>The Citator</b>Search results (left), homepage (top right), transcript reader (bottom right). Sample data: every name, bill and quote is fictional.</div>
-<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);</script>
+<script>var u=new URLSearchParams(location.search);if(u.has('full'))document.body.classList.add('full');var o=u.get('only');if(o)document.body.classList.add('only-'+o);if(u.has('card'))document.body.classList.add('card');</script>
 </body>
 </html>
