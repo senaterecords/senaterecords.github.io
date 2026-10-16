@@ -1,0 +1,137 @@
+name: Update
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      rebuild:
+        description: "Rebuild and publish even if nothing changed"
+        type: boolean
+        default: false
+# One run at a time: a manual run during a scheduled one waits its turn.
+concurrency:
+  group: update
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    outputs:
+      publish: ${{ steps.go.outputs.publish }}
+      raw: ${{ steps.go.outputs.raw }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pipeline/pyproject.toml
+      - run: pip install -e pipeline
+      - name: Sync with the NY Senate API
+        id: sync
+        env:
+          NYSENATE_API_KEY: ${{ secrets.NYSENATE_API_KEY }}
+        run: |
+          # Hearings are re-listed once a day, at the 7 a.m. run (New York time).
+          if [ "$(TZ=America/New_York date +%H)" = "07" ]; then extra="--hearings"; else extra=""; fi
+          python -m nyleg --data data sync $extra
+      - name: Save the new raw data
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          bash scripts/commit-data.sh "data: sync $(date -u +%Y-%m-%dT%H:%MZ)"
+      - name: Decide whether to publish
+        id: go
+        run: |
+          # Publish when the raw data differs from what was last deployed (so a publish that failed is tried again
+          # the next hour), or when asked to rebuild.
+          raw="$(git rev-parse HEAD:data/raw)"
+          echo "raw=$raw" >> "$GITHUB_OUTPUT"
+          if [ "$raw" != "$(cat data/deployed-raw.txt 2>/dev/null)" ] || [ "${{ inputs.rebuild == true }}" = "true" ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Process (with the quality gate)
+        if: steps.go.outputs.publish == 'true'
+        run: python -m nyleg --data data process --out data/site --gate-against data/quality-deployed.json
+      - uses: actions/setup-node@v4
+        if: steps.go.outputs.publish == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Build, check and split
+        if: steps.go.outputs.publish == 'true'
+        working-directory: site
+        run: |
+          npm ci
+          npx vitest run
+          npm run build
+          npm run check
+          npm run split
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.go.outputs.publish == 'true'
+        with:
+          path: out/main
+      - uses: actions/upload-artifact@v4
+        if: steps.go.outputs.publish == 'true'
+        with:
+          name: quality
+          path: data/site/quality.json
+          retention-days: 1
+      # The bills site goes first: its pages carry their own assets, so it can't break, and if the main deploy then
+      # fails, bills are already current and their links to main pages still work.
+      - name: Publish the bills site
+        if: steps.go.outputs.publish == 'true'
+        env:
+          BILLS_DEPLOY_KEY: ${{ secrets.BILLS_DEPLOY_KEY }}
+        run: bash scripts/publish-bills.sh out/bills
+      - name: Keep the schedule alive
+        if: steps.go.outputs.publish != 'true'
+        run: |
+          # GitHub turns a schedule off after 60 days without activity; touch a file once a week.
+          last=$(git log -1 --format=%ct)
+          if [ $(( $(date +%s) - last )) -gt 604800 ]; then
+            date -u +%Y-%m-%dT%H:%MZ > data/last-checked.txt
+            bash scripts/commit-data.sh "data: weekly keep-alive"
+          fi
+  # A separate job, so the github-pages environment records a deployment only when something is published.
+  deploy:
+    needs: update
+    if: needs.update.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Publish the main site
+        id: deploy
+        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check the live site
+        run: node site/scripts/check-live.mjs https://senaterecords.github.io/
+      - uses: actions/download-artifact@v4
+        with:
+          name: quality
+          path: data/site
+      - name: Record what is deployed
+        run: |
+          # The quality baseline moves only after a deploy that answers live.
+          cp data/site/quality.json data/quality-deployed.json
+          echo "${{ needs.update.outputs.raw }}" > data/deployed-raw.txt
+          bash scripts/commit-data.sh "data: deployed $(date -u +%Y-%m-%dT%H:%MZ)"
