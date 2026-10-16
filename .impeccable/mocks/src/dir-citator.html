@@ -164,6 +164,21 @@
   .scard .here .nav { display: flex; gap: 6px; }
   .scard .here .nav span { font-size: 12.5px; font-weight: 600; color: var(--ink2); border: 1px solid var(--rule); border-radius: 5px; padding: 1px 8px; background: #fff; white-space: nowrap; }
   .scard .row { display: flex; gap: 8px; }
+  .scard .note { font-size: 12.5px; color: var(--ink2); line-height: 1.45; margin-top: 6px; }
+  .scard .note b { color: var(--ink); font-weight: 650; }
+
+  /* every kind of speaker card (?only=cards) */
+  .s-cards { display: none; }
+  body.only-cards .s-cards { display: block; }
+  .cards-head { padding: 22px 32px 6px; }
+  .cards-head h1 { font-size: 22px; font-weight: 750; letter-spacing: -0.01em; }
+  .cards-head p { color: var(--ink2); font-size: 14px; margin-top: 4px; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px 22px; padding: 14px 32px 0; }
+  .cell { min-width: 0; }
+  .cell .cap { font-size: 12.5px; font-weight: 700; color: var(--ink2); margin-bottom: 6px; }
+  .cell .tx { font-family: 'Charis SIL', Georgia, serif; font-size: 15px; line-height: 1.5; color: #1D232B; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cell .sp { font-family: 'Archivo'; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); margin-right: 12px; text-decoration: underline; text-decoration-color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  .s-cards .scard { display: block; position: static; width: auto; }
 </style>
 </head>
 <body>
@@ -178,6 +193,7 @@
   <symbol id="i-sig" viewBox="0 0 24 24"><path d="M7 6h10M7 10h10M7 14h6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M15.5 14.5l3 3" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
   <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-chev" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 5h5v5M19 5l-8 8M17 14v5H5V7h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   <symbol id="i-person" viewBox="0 0 34 42"><circle cx="17" cy="15" r="8" fill="currentColor"/><path d="M2 42c0-9 6.7-15 15-15s15 6 15 15z" fill="currentColor"/></symbol>
 </svg>
 
@@ -362,6 +378,79 @@
       <h3 style="font-size:13px;font-weight:700;margin:0 0 8px">Remark 3 of 62</h3>
       <div class="keys"><span><kbd>J</kbd>next remark</span><span><kbd>K</kbd>previous</span></div>
     </aside>
+  </div>
+</div>
+
+<!-- ============ EVERY KIND OF SPEAKER CARD ============ -->
+<div class="screen s-cards ct">
+  <header class="ct-bar rd-bar">
+    <div class="ct-mark"><span class="sig"><svg width="14" height="14"><use href="#i-sig"/></svg></span>On the Record</div>
+    <div class="crumb">Transcripts <svg width="13" height="13"><use href="#i-chev"/></svg> 2025 <svg width="13" height="13"><use href="#i-chev"/></svg> <b>June 10 · Regular Session</b></div>
+  </header>
+  <div class="cards-head">
+    <h1>What clicking a speaker's name shows</h1>
+    <p>Hover for a moment or click. Each card says only what the record supports.</p>
+  </div>
+  <div class="cards">
+    <div class="cell">
+      <div class="cap">Senator</div>
+      <p class="tx"><span class="sp">Senator Kearney</span>Will the sponsor yield?</p>
+      <div class="scard">
+        <div class="hd"><div class="ph"><svg width="34" height="42"><use href="#i-person"/></svg></div>
+          <div><div class="nm">Sen. Thomas Kearney</div><div class="mt">District 4 · In the Senate since 2011</div><div class="mt">2,031 remarks in 318 transcripts</div></div></div>
+        <div class="here"><span><b>14 remarks</b> in this transcript</span><span class="nav"><span>‹ Previous</span><span>Next ›</span></span></div>
+        <div class="row"><button class="ct-primary" style="height:32px">Open senator page</button><button class="ct-btn">Show only Kearney</button></div>
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cap">Senator presiding</div>
+      <p class="tx"><span class="sp">Acting President Brennan</span>Does the sponsor yield?</p>
+      <div class="scard">
+        <div class="hd"><div class="ph"><svg width="34" height="42"><use href="#i-person"/></svg></div>
+          <div><div class="nm">Sen. Paul Brennan</div><div class="mt">District 9 · In the Senate since 2015</div><div class="mt">Presiding officer for part of this session</div></div></div>
+        <div class="here"><span><b>38 times</b> presiding here</span><span class="nav"><span>‹ Previous</span><span>Next ›</span></span></div>
+        <div class="row"><button class="ct-primary" style="height:32px">Open senator page</button><button class="ct-btn">Show only Brennan</button></div>
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cap">Senator before 2009 (the source has no photo)</div>
+      <p class="tx"><span class="sp">Senator Whitcomb</span>Mr. President, on the bill.</p>
+      <div class="scard">
+        <div class="hd">
+          <div><div class="nm">Sen. Harold Whitcomb</div><div class="mt">District 16 · In the Senate 1993–1996, 2001–2002</div><div class="mt">1,940 remarks in 402 transcripts</div></div></div>
+        <div class="here"><span><b>6 remarks</b> in this transcript</span><span class="nav"><span>‹ Previous</span><span>Next ›</span></span></div>
+        <div class="row"><button class="ct-primary" style="height:32px">Open senator page</button><button class="ct-btn">Show only Whitcomb</button></div>
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cap">Assembly member, in a joint hearing</div>
+      <p class="tx"><span class="sp">Chairman Okoye</span>Thank you, Commissioner. Senator Ortega.</p>
+      <div class="scard">
+        <div class="hd"><div class="ph"><svg width="34" height="42"><use href="#i-person"/></svg></div>
+          <div><div class="nm">Asm. Daniel Okoye</div><div class="mt">Member of the Assembly · District 89</div><div class="mt">Chairing this joint hearing</div></div></div>
+        <div class="here"><span><b>22 remarks</b> in this hearing</span><span class="nav"><span>‹ Previous</span><span>Next ›</span></span></div>
+        <div class="row"><button class="ct-btn" style="color:#4B535E;border-color:#D7DBDF"><svg width="14" height="14"><use href="#i-ext"/></svg>Official page</button><button class="ct-btn">Show only Okoye</button></div>
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cap">Lieutenant Governor (“The President”)</div>
+      <p class="tx"><span class="sp">The President</span>The Senate will come to order.</p>
+      <div class="scard">
+        <div class="hd"><div><div class="nm">Lt. Gov. Ellen Marsh</div><div class="mt">Lieutenant Governor, 2023–present</div>
+          <p class="note">As President of the Senate, presides when present.</p></div></div>
+        <div class="here"><span><b>12 times</b> presiding here</span><span class="nav"><span>‹ Previous</span><span>Next ›</span></span></div>
+        <div class="row"><button class="ct-btn">Show only the President</button></div>
+      </div>
+    </div>
+    <div class="cell">
+      <div class="cap">The Secretary</div>
+      <p class="tx"><span class="sp">The Secretary</span>Calendar Number 412, by Senator Ortega…</p>
+      <div class="scard">
+        <div class="hd"><div><div class="nm">The Secretary</div>
+          <p class="note">Reads bills and calls the roll. A deputy often reads, so the transcript doesn't say who. Secretary of the Senate at the time: <b>Alma Reyes</b>.</p></div></div>
+        <div class="here" style="margin-bottom:0;border-bottom:0;padding-bottom:0"><span><b>214 readings</b> in this transcript</span><span class="nav"><span>‹ Previous</span><span>Next ›</span></span></div>
+      </div>
+    </div>
   </div>
 </div>
 
