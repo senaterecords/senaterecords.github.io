@@ -98,6 +98,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         <span hidden data-pagefind-meta={`title:${displayTitle}`}></span>
         <span hidden data-pagefind-meta={`date:${doc.date}`}></span>
         <span hidden data-pagefind-meta={`kind:${doc.kind}`}></span>
+        {doc.officers.president && <span hidden data-pagefind-meta={`president:${doc.officers.president.name}`}></span>}
         <span hidden data-pagefind-sort={`date:${doc.date}`}></span>
         <span class="visually-hidden" aria-hidden="true">{EVERY_PAGE}</span>
         </>}

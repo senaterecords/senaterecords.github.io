@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import {
   billStatus, committeeName, count, resultCounts, dayDate, hearingTitle, legalCite, legalDate, legalPages, longDate, outcomeText, pageLabel,
-  placeText, plainCite, plainPages, plural, relativeTime, serviceText, shortDate, speakerForms, titleCase, transcriptTitle, weekdayDate,
+  jointSpeakers, placeText, plainCite, plainPages, plural, quoteOf, relativeTime, serviceText, shortDate, speakerForms, titleCase, transcriptTitle,
+  weekdayDate,
 } from "../../src/lib/format";
 
 describe("dates and pages", () => {
@@ -95,7 +96,10 @@ describe("service, names and titles", () => {
     expect(speakerForms("senator", "SENATOR GOLD", null)).toEqual({ short: "Sen. Gold", full: "Sen. Gold" });
     expect(speakerForms("assembly", "ASSEMBLYMAN RA", "Edward P. Ra")).toEqual({ short: "Asm. Ra", full: "Asm. Edward P. Ra" });
     expect(speakerForms("secretary", "THE SECRETARY")).toEqual({ short: "the Secretary", full: "the Secretary" });
-    expect(speakerForms("president", "THE PRESIDENT", "Antonio Delgado")).toEqual({ short: "the President", full: "Lt. Gov. Antonio Delgado" });
+    // The President is always the Lieutenant Governor, so the record supports the name; the Secretary's lines are often
+    // read by a deputy, so it doesn't, and "the Secretary" stays.
+    expect(speakerForms("president", "THE PRESIDENT", "Antonio Delgado")).toEqual({ short: "Lt. Gov. Delgado", full: "Lt. Gov. Antonio Delgado" });
+    expect(speakerForms("president", "THE PRESIDENT", null)).toEqual({ short: "the President", full: "the President" });
     expect(speakerForms("other", "MS. HERNANDEZ")).toEqual({ short: "Ms. Hernandez", full: "Ms. Hernandez" });
   });
 });
@@ -159,3 +163,25 @@ describe("the results heading", () => {
   });
 });
 
+describe("a selection across several speakers", () => {
+  const krueger = { short: "Sen. Krueger", full: "Sen. Liz Krueger" };
+  const bailey = { short: "Sen. Bailey", full: "Sen. Jamaal T. Bailey" };
+  const lanza = { short: "Sen. Lanza", full: "Sen. Andrew J. Lanza" };
+  const ortt = { short: "Sen. Ortt", full: "Sen. Robert G. Ortt" };
+
+  it("names every speaker in the parentheses, in order, and says \"others\" past three", () => {
+    expect(jointSpeakers([krueger])).toEqual(krueger);
+    expect(jointSpeakers([krueger, bailey, krueger])).toEqual({ short: "Sen. Krueger and Sen. Bailey", full: "Sen. Liz Krueger and Sen. Jamaal T. Bailey" });
+    expect(jointSpeakers([krueger, bailey, lanza]).short).toBe("Sen. Krueger, Sen. Bailey and Sen. Lanza");
+    expect(jointSpeakers([krueger, bailey, lanza, ortt]).short).toBe("Sen. Krueger, Sen. Bailey and others");
+  });
+
+  it("quotes one speaker's words alone, and several speakers turn by turn with who spoke", () => {
+    expect(quoteOf([{ label: "SENATOR KRUEGER", text: "Thank you," }, { label: "SENATOR KRUEGER", text: "Mr. President." }])).toBe("Thank you, Mr. President.");
+    expect(quoteOf([
+      { label: "SENATOR KRUEGER", text: "Thank you, Mr. President." },
+      { label: "ACTING PRESIDENT BAILEY", text: "Thank you, Senator." },
+    ])).toBe(`Senator Krueger: Thank you, Mr. President.
+Acting President Bailey: Thank you, Senator.`);
+  });
+});

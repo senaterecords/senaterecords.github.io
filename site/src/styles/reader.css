@@ -83,6 +83,8 @@
 .turn > h3.k:hover { box-shadow: inset 0 0 0 1px rgba(22, 27, 34, .12); }
 .turn > h3.on { box-shadow: inset 0 0 0 1.5px rgba(22, 27, 34, .32); }
 .turn .g { position: absolute; left: 0; top: 5px; width: 96px; padding-right: 16px; text-align: right; font: 12px/1.4 var(--font-ui); color: var(--color-ink3); font-variant-numeric: tabular-nums; }
+/* "p. 114": lighter than a page break's "p. 115", the page this remark starts on (drawn, so copying leaves it out). */
+.turn .g::before { content: "p. "; }
 /* Page numbers sit in the gutter, never as a rule across the text, which read as a break in the speech. A page that
    begins with a new paragraph shows its number beside that paragraph's first line. */
 .pb b { font: 750 12.5px var(--font-ui); text-align: right; padding-right: 16px; font-variant-numeric: tabular-nums; color: var(--color-ink); white-space: nowrap; }
@@ -125,7 +127,6 @@ p > .pb i { display: none; }
   .rd-seg + .turn { scroll-margin-top: 190px; }
   .turn { padding: 0 18px 12px; }
   .turn .g { position: static; display: block; width: auto; padding: 0; text-align: left; font-size: 11.5px; margin-bottom: 4px; }
-  .turn .g::before { content: "p. "; }
   .turn > .pb { height: auto; margin: 12px 0 2px; }
   .turn > .pb b { position: static; display: block; width: auto; margin: 0; padding: 0; text-align: left; font-size: 11.5px; line-height: 1.4; color: var(--color-ink3); }
   .turn > .pb + p { margin-top: 0; }

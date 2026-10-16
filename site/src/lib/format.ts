@@ -129,12 +129,38 @@ export type SpeakerKind = "senator" | "assembly" | "secretary" | "president" | "
 /** Short form for legal citations ("Sen. Ortega"), full form for plain ones ("Sen. Marisol Ortega"). */
 export function speakerForms(kind: SpeakerKind, label: string | null, fullName?: string | null): { short: string; full: string } {
   if (kind === "secretary") return { short: "the Secretary", full: "the Secretary" };
-  if (kind === "president") return { short: "the President", full: fullName ? `Lt. Gov. ${fullName}` : "the President" };
+  // The President is always the Lieutenant Governor, so the record supports naming them. (The Secretary's lines are
+  // often read by a deputy, so the transcript doesn't say who: "the Secretary" is all it supports.)
+  if (kind === "president") return fullName ? { short: `Lt. Gov. ${surnameOf(fullName)}`, full: `Lt. Gov. ${fullName}` } : { short: "the President", full: "the President" };
   const surname = titleCase((label ?? "").replace(PREFIX, ""));
   if (kind === "senator") return { short: `Sen. ${surname}`, full: `Sen. ${fullName ?? surname}` };
   if (kind === "assembly") return { short: `Asm. ${surname}`, full: `Asm. ${fullName ?? surname}` };
   const named = titleCase(label ?? "");
   return { short: named, full: named };
+}
+
+const SUFFIXES = new Set(["Jr.", "Jr", "Sr.", "Sr", "II", "III", "IV", "Esq.", "Esq"]);
+/** The last name in a full name, past any suffix ("Robert J. Duffy" gives "Duffy"). */
+const surnameOf = (name: string) => name.replace(/,/g, "").split(" ").filter((w) => w && !SUFFIXES.has(w)).pop() ?? name;
+
+/** Everyone a quote spans, for its parentheses: "A and B", "A, B and C", then "A, B and others". */
+export function jointSpeakers(list: { short: string; full: string }[]): { short: string; full: string } {
+  const seen = list.filter((s, i) => s.short && list.findIndex((o) => o.short === s.short) === i);
+  const join = (names: string[]) => (names.length > 3 ? `${names.slice(0, 2).join(", ")} and others`
+    : names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}` : names[0] ?? "");
+  return { short: join(seen.map((s) => s.short)), full: join(seen.map((s) => s.full)) };
+}
+
+/** A selection's words: one speaker's alone; several speakers' turn by turn, each line led by who spoke. */
+export function quoteOf(parts: { label: string; text: string }[]): string {
+  const turns: { label: string; text: string }[] = [];
+  for (const p of parts) {
+    const last = turns[turns.length - 1];
+    if (last && last.label === p.label) last.text += ` ${p.text}`;
+    else turns.push({ ...p });
+  }
+  if (new Set(turns.map((t) => t.label)).size <= 1) return turns.map((t) => t.text).join(" ");
+  return turns.map((t) => (t.label ? `${titleCase(t.label)}: ${t.text}` : t.text)).join("\n");
 }
 
 export interface CiteInput {

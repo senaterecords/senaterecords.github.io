@@ -287,7 +287,7 @@ function SearchApp() {
     const title = row.meta.kind === "hearing" ? row.meta.title ?? null : null;
     // The pages cited are the ones the excerpt shows, not where the remark began.
     return legalCite({ kind: row.meta.kind === "hearing" ? "hearing" : "floor", date: row.meta.date, title, start: row.pages.start, end: row.pages.end,
-      speaker: speakerForms(kind, row.remark.label, person?.name) }).replace(/ \((remarks of )?\)$/, "");
+      speaker: speakerForms(kind, row.remark.label, person?.name ?? (kind === "president" ? row.meta.president : null)) }).replace(/ \((remarks of )?\)$/, "");
   };
   const kindLabel = (meta: Record<string, string>) => meta.kind === "hearing"
     ? "Hearing"

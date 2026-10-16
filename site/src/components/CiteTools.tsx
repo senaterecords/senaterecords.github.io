@@ -2,7 +2,7 @@
 // with the legal citation, a Plain choice, and copy buttons. Legal is the default.
 import { useCallback, useEffect, useRef, useState, type MouseEvent } from "react";
 import { createPortal } from "react-dom";
-import { legalCite, plainCite, speakerForms, type CiteInput, type SpeakerKind } from "../lib/format";
+import { jointSpeakers, legalCite, plainCite, quoteOf, speakerForms, type CiteInput, type SpeakerKind } from "../lib/format";
 import { keyOfTurn, pageOfTurn, readerData } from "./readerData";
 import { clientOnly, Icon } from "./ui";
 
@@ -36,14 +36,21 @@ function speakerOf(turn: HTMLElement): CiteInput["speaker"] {
   return speakerForms(kind, label, fullName);
 }
 
-/** The remark a selection belongs to: its turn if it has a speaker label, else the nearest labelled turn before it. */
-function remarkOf(turn: HTMLElement): number | null {
+/** The turn whose speaker a turn's words belong to: itself if it has a speaker label, else the nearest labelled turn
+ * before it. */
+function labelledOf(turn: HTMLElement): HTMLElement | null {
   let section: Element | null = turn;
   while (section) {
-    if (section.matches("section.turn") && section.id.startsWith("r-")) return Number(section.id.slice(2));
+    if (section.matches("section.turn") && section.id.startsWith("r-")) return section as HTMLElement;
     section = section.previousElementSibling ?? section.parentElement?.previousElementSibling?.lastElementChild ?? null;
   }
   return null;
+}
+
+/** The remark a selection belongs to. */
+function remarkOf(turn: HTMLElement): number | null {
+  const labelled = labelledOf(turn);
+  return labelled ? Number(labelled.id.slice(2)) : null;
 }
 
 const finish = (cite: string) => cite.replace(/ \((remarks of )?\)$/, "");
@@ -61,10 +68,24 @@ function CiteTools() {
     const range = sel.getRangeAt(0);
     const startTurn = turnOf(range.startContainer);
     const endTurn = turnOf(range.endContainer);
-    // The quote is the spoken words: page markers and gutter page numbers are left out.
-    const fragment = range.cloneContents();
-    for (const marker of fragment.querySelectorAll(".pb, .g")) marker.remove();
-    const text = (fragment.textContent ?? "").replace(/\s+/g, " ").trim();
+    // Each turn the selection touches, with the words picked in it and who spoke them. The quote is the spoken words:
+    // page marks, gutter page numbers and speaker names are left out (several speakers are named line by line instead).
+    const parts: { label: string; speaker: CiteInput["speaker"]; text: string }[] = [];
+    for (const section of document.querySelectorAll<HTMLElement>("#transcript section.turn")) {
+      if (!range.intersectsNode(section)) continue;
+      const part = document.createRange();
+      part.selectNodeContents(section);
+      if (range.compareBoundaryPoints(Range.START_TO_START, part) > 0) part.setStart(range.startContainer, range.startOffset);
+      if (range.compareBoundaryPoints(Range.END_TO_END, part) < 0) part.setEnd(range.endContainer, range.endOffset);
+      const words = part.cloneContents();
+      for (const marker of words.querySelectorAll(".pb, .g, h3")) marker.remove();
+      for (const paragraph of words.querySelectorAll("p")) paragraph.append(" "); // the page has no space between them
+      const text = (words.textContent ?? "").replace(/\s+/g, " ").trim();
+      if (!text) continue;
+      const labelled = labelledOf(section);
+      parts.push({ label: labelled?.querySelector("h3.sp")?.textContent?.trim() ?? "", speaker: labelled ? speakerOf(labelled) : { short: "", full: "" }, text });
+    }
+    const text = quoteOf(parts);
     if (!startTurn || !endTurn || !text) { setPicked(null); return; }
     const data = readerData();
     const start = pageAt(range.startContainer, range.startOffset, startTurn);
@@ -72,7 +93,7 @@ function CiteTools() {
     const rect = range.getBoundingClientRect();
     setPicked({
       text,
-      cite: { kind: data.kind, date: data.date, title: data.title, start, end: end !== start ? end : null, speaker: speakerOf(startTurn) },
+      cite: { kind: data.kind, date: data.date, title: data.title, start, end: end !== start ? end : null, speaker: jointSpeakers(parts.map((part) => part.speaker)) },
       remark: remarkOf(startTurn),
       top: rect.bottom + window.scrollY + 10,
       left: Math.max(16, Math.min(rect.left + window.scrollX, window.scrollX + window.innerWidth - 456)),

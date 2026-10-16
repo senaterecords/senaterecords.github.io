@@ -25,6 +25,35 @@ test("Copy with cite puts the quote and a legal citation on the clipboard", asyn
   expect(copied).toMatch(/^“.+”\r?\nN\.Y\. Senate Tr\., Mar\. 4, 2025, at \d+(–\d+)? \(remarks of Sen\. .+\)$/s);
 });
 
+test("a quote across two speakers names each line's speaker, and both in the citation", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto(SESSION);
+  // From the middle of one senator's remark into the next remark, by someone else.
+  const names = await page.evaluate(() => {
+    const turns = [...document.querySelectorAll<HTMLElement>("#transcript section.turn[id^='r-']")];
+    const i = turns.findIndex((t, k) => t.dataset.role === "senator" && turns[k + 1] && turns[k + 1].querySelector("h3")!.textContent !== t.querySelector("h3")!.textContent);
+    const [a, b] = [turns[i], turns[i + 1]];
+    const from = a.querySelector("p")!.firstChild!;
+    const to = b.querySelector("p")!.firstChild!;
+    const range = document.createRange();
+    range.setStart(from, Math.min(5, from.textContent!.length));
+    range.setEnd(to, Math.min(20, to.textContent!.length));
+    getSelection()!.removeAllRanges();
+    getSelection()!.addRange(range);
+    b.dispatchEvent(new MouseEvent("mouseup", { bubbles: true }));
+    return [a.querySelector("h3")!.textContent!, b.querySelector("h3")!.textContent!];
+  });
+  await page.getByRole("button", { name: "Copy with cite" }).click();
+  const copied = await page.evaluate(() => navigator.clipboard.readText());
+  const [quote, cite] = [copied.slice(0, copied.lastIndexOf("N.Y. Senate")), copied.slice(copied.lastIndexOf("N.Y. Senate"))];
+  const titled = (label: string) => label.toLowerCase().replace(/(^|\s)\S/g, (c) => c.toUpperCase());
+  expect(quote).toContain(`${titled(names[0])}: `);
+  expect(quote).toContain(`${titled(names[1])}: `);
+  expect(quote.split(names[1]).length - 1).toBe(1); // only as its line's lead: the name chip itself stays out
+  expect(quote).not.toMatch(/[a-z][.?!][A-Z]/); // paragraphs keep a space between them
+  expect(cite).toMatch(/\(remarks of .+ and .+\)$/);
+});
+
 test("the plain citation is one click away", async ({ page }, info) => {
   test.skip(info.project.name === "phone");
   await page.goto(SESSION);

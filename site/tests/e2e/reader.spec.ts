@@ -223,3 +223,10 @@ test("a link into a bill's reading never shows the transcript overview in the si
   expect(await page.evaluate(() => (window as unknown as { __shownAgain: number }).__shownAgain)).toBe(0);
 });
 
+test("the page a remark starts on reads as a page, \"p. 114\", like the page breaks", async ({ page }) => {
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  const gutter = page.locator("#transcript .turn .g").first();
+  expect(await gutter.evaluate((el) => getComputedStyle(el, "::before").content)).toBe('"p. "');
+  expect(await gutter.textContent()).toMatch(/^\d+$/); // the label is drawn, so copying never picks it up
+});
+
