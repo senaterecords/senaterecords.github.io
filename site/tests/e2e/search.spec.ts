@@ -199,3 +199,32 @@ test("long result lists show 25 remarks at a time", async ({ page }) => {
   await page.getByRole("button", { name: "Show more remarks" }).click();
   expect(await page.locator("[data-result]").count()).toBeGreaterThan(25);
 });
+
+test("opening a result lands on the passage it showed and washes it yellow for a moment", async ({ page }) => {
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22");
+  await page.locator("[data-result] a.ctx").first().click();
+  await expect(page).toHaveURL(/\/transcripts\/2025-03-04-regular-session\/#r-25$/);
+  const flash = page.locator(".flash").first();
+  await expect(flash).toBeVisible();
+  const phrase = await page.evaluate(() => {
+    const walker = document.createTreeWalker(document.getElementById("r-25")!, NodeFilter.SHOW_TEXT);
+    for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+      const at = n.textContent!.indexOf("Campaign for Fiscal Equity");
+      if (at >= 0) { const r = document.createRange(); r.setStart(n, at); r.setEnd(n, at + 8); const b = r.getBoundingClientRect(); return { x: b.x + 2, y: b.y + b.height / 2 }; }
+    }
+    return null;
+  });
+  const boxes = await page.locator(".flash").evaluateAll((els) => els.map((el) => el.getBoundingClientRect().toJSON()));
+  expect(boxes.some((b) => phrase!.x >= b.left && phrase!.x <= b.right && phrase!.y >= b.top && phrase!.y <= b.bottom)).toBe(true);
+  await expect(page.locator(".flash")).toHaveCount(0, { timeout: 6000 });
+});
+
+test("a transcript opened from search offers the way back to the results", async ({ page }, info) => {
+  await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22");
+  await page.locator("[data-result] a.ctx").first().click();
+  await expect(page).toHaveURL(/#r-25$/);
+  const back = page.getByRole("link", { name: info.project.name === "phone" ? "Back to search results" : "Search results" });
+  await back.click();
+  await expect(page).toHaveURL(/search\/\?q=%22Campaign/);
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+});

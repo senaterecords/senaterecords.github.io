@@ -6,6 +6,13 @@
 .rd-crumb { font-size: 14px; color: var(--color-ink2); display: flex; gap: 8px; align-items: center; white-space: nowrap; min-width: 0; }
 .rd-crumb a:hover { color: var(--color-ink); text-decoration: underline; text-underline-offset: 2px; }
 .rd-crumb b { color: var(--color-ink); font-weight: 650; overflow: hidden; text-overflow: ellipsis; max-width: 560px; }
+.rd-results { display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: var(--color-act); padding-right: 12px; margin-right: 4px; border-right: 1px solid var(--color-rule); }
+.rd-crumb a.rd-results:hover { color: var(--color-act); }
+/* The passage a search result showed, washed yellow for a moment when the page opens on it. */
+.flash-layer { position: fixed; inset: 0; pointer-events: none; z-index: 4; mix-blend-mode: multiply; }
+.flash { position: absolute; border-radius: 2px; background: #FFE36E; animation: otr-flash 3s ease-out forwards; }
+@keyframes otr-flash { 0%, 45% { opacity: .9; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .flash { animation-timing-function: steps(1, end); } }
 .rd-acts { margin-left: auto; display: flex; gap: 8px; }
 .bar:has(.rd-crumb) { position: sticky; top: 0; }
 .rd-back, .rd-ttl { display: none; }

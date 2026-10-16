@@ -14,3 +14,14 @@ test("the About page says where the data comes from, with no quality numbers", a
   await expect(page.getByText("The archive")).toBeVisible();
   await expect(page.getByText(/%/)).toHaveCount(0);
 });
+
+test("legislative days stay out of a year's list until asked for, and the choice is remembered", async ({ page }) => {
+  await page.goto("browse/2023/");
+  const day = page.locator("ul.tr li.ld").first();
+  await expect(day).toBeHidden();
+  await expect(page.locator(".pg-meta")).toContainText("1 legislative day");
+  await page.getByLabel("Show 1 legislative day").check();
+  await expect(day).toBeVisible();
+  await page.reload();
+  await expect(day).toBeVisible();
+});

@@ -10,17 +10,55 @@
   import "./mount";
 </script>
 <script>
+  import { url } from "../../lib/url";
+  import { flash, passageIn } from "./passage";
+
   // A remark link stays on its remark while the text above it takes its real size (skipped chunks only hold an
-  // estimate until they render), until the reader starts moving around the page.
+  // estimate until they render), until the reader starts moving around the page. A link from a search result also
+  // names the passage it showed (?hl=…): the page holds that passage a third of the way down and washes it yellow.
   const id = decodeURIComponent(location.hash.slice(1));
   const target = id ? document.getElementById(id) ?? (/^r-\d+$/.test(id) ? document.getElementById(`t-${id.slice(2)}`) : null) : null;
   const article = document.getElementById("transcript");
+  const params = new URLSearchParams(location.search);
+  const hl = params.get("hl");
+  if (hl) {
+    params.delete("hl");
+    const rest = params.toString();
+    history.replaceState(history.state, "", `${location.pathname}${rest ? `?${rest}` : ""}${location.hash}`);
+  }
   if (target && article) {
-    const pin = () => target.scrollIntoView({ block: "start" });
+    const passage = hl ? passageIn(target, hl) : null;
+    const pin = () => {
+      if (passage) window.scrollBy(0, passage.box().top - innerHeight / 3);
+      else target.scrollIntoView({ block: "start" });
+    };
+    if (passage) pin();
     const observer = new ResizeObserver(pin);
     observer.observe(article);
     const release = () => observer.disconnect();
     for (const type of ["wheel", "touchstart", "keydown", "pointerdown"]) addEventListener(type, release, { once: true, passive: true });
     setTimeout(release, 10_000);
+    if (passage) setTimeout(() => flash(passage.rects()), 300);
+  }
+
+  // Arriving from the search page, the bar offers the way back to the results (Back keeps them as they were).
+  const from = document.referrer ? new URL(document.referrer) : null;
+  if (from && from.origin === location.origin && from.pathname === url("/search/")) {
+    const back = (event: MouseEvent) => {
+      if (history.length > 1) { event.preventDefault(); history.back(); }
+    };
+    const arrow = document.querySelector<HTMLAnchorElement>(".rd-back");
+    if (arrow) {
+      arrow.href = from.href;
+      arrow.setAttribute("aria-label", "Back to search results");
+      arrow.addEventListener("click", back);
+    }
+    const crumb = document.querySelector(".rd-crumb");
+    if (crumb) {
+      const link = Object.assign(document.createElement("a"), { className: "rd-results", href: from.href, textContent: "Search results" });
+      link.insertAdjacentHTML("afterbegin", `<svg class="icon" width="14" height="14" aria-hidden="true"><use href="${url("/icons.svg#back")}"></use></svg>`);
+      link.addEventListener("click", back);
+      crumb.prepend(link);
+    }
   }
 </script>

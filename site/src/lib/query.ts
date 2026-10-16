@@ -241,6 +241,12 @@ export function excerpt(r: Remark, b: Branch): string {
   return html;
 }
 
+/** The plain words of a remark's excerpt: what its result row shows. */
+export function excerptText(r: Remark, b: Branch): string {
+  const [from, to] = windowOf(r.text, hits(r.text, b));
+  return r.text.slice(from, to);
+}
+
 /** The page of a remark's first hit, and the pages its excerpt spans, for "p. N" and the citation. */
 export function excerptPages(r: Remark, b: Branch): { hit: number | null; start: number | null; end: number | null } {
   const merged = hits(r.text, b);

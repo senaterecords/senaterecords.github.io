@@ -35,5 +35,6 @@ test("a search result opens from anywhere in the row, but selecting its words do
   await expect(page).toHaveURL(/\/search\//);
   await page.evaluate(() => getSelection()?.removeAllRanges());
   await row.locator(".c-date").click();
-  await expect(page).toHaveURL(new RegExp(`${escape(href)}$`));
+  // The link also names the passage to highlight; the page takes that off its address once it has landed.
+  await expect(page).toHaveURL(new RegExp(`${escape(href.replace(/\?hl=[^#]*/, ""))}$`));
 });

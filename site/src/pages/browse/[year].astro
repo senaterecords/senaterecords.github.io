@@ -48,6 +48,9 @@ const pages = (t: TranscriptSummary) =>
             <button type="button" data-kind="floor" aria-pressed="false">Floor sessions</button>
             <button type="button" data-kind="hearing" aria-pressed="false">Public hearings</button>
           </div>
+          {legislativeDays > 0 && (
+            <label class="ld-switch"><input type="checkbox" id="show-ld" />Show {plural(legislativeDays, "legislative day")}</label>
+          )}
         </div>
       </div>
       <nav class="yrs" aria-label="Years">
@@ -75,15 +78,32 @@ const pages = (t: TranscriptSummary) =>
 </Base>
 
 <script>
+  // Record type is a JavaScript filter; legislative days (pro forma, no business) are hidden by CSS until the switch is
+  // on, which works without JavaScript and is remembered on this device. A month with nothing left to show folds away.
   const buttons = [...document.querySelectorAll<HTMLButtonElement>(".acts [data-kind]")];
+  const showLd = document.getElementById("show-ld") as HTMLInputElement | null;
+  let kind = "all";
+  const apply = () => {
+    for (const row of document.querySelectorAll<HTMLElement>(".tr li")) row.hidden = kind !== "all" && row.dataset.kind !== kind;
+    for (const group of document.querySelectorAll<HTMLElement>(".mg")) {
+      group.hidden = ![...group.querySelectorAll<HTMLElement>(".tr li")].some((row) => !row.hidden && (showLd?.checked || !row.classList.contains("ld")));
+    }
+  };
   for (const button of buttons) {
     button.addEventListener("click", () => {
-      const kind = button.dataset.kind;
+      kind = button.dataset.kind ?? "all";
       for (const b of buttons) b.setAttribute("aria-pressed", String(b === button));
-      for (const row of document.querySelectorAll<HTMLElement>(".tr li")) row.hidden = kind !== "all" && row.dataset.kind !== kind;
-      for (const group of document.querySelectorAll<HTMLElement>(".mg")) group.hidden = !group.querySelector(".tr li:not([hidden])");
+      apply();
     });
   }
+  if (showLd) {
+    try { showLd.checked = localStorage.getItem("otr:show-ld") === "1"; } catch { /* storage blocked: keep the default */ }
+    showLd.addEventListener("change", () => {
+      try { localStorage.setItem("otr:show-ld", showLd.checked ? "1" : "0"); } catch { /* storage blocked */ }
+      apply();
+    });
+  }
+  apply();
 </script>
 
 <style is:global>
@@ -102,6 +122,10 @@ const pages = (t: TranscriptSummary) =>
   .tr .t small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; }
   .tr .p { color: var(--color-ink3); font-size: 12.5px; text-align: right; }
   .tr .ld { color: var(--color-ink3); }
+  .tr li.ld { display: none; }
+  .pg-head:has(#show-ld:checked) ~ .mon .tr li.ld:not([hidden]) { display: grid; }
+  .ld-switch { display: inline-flex; align-items: center; gap: 7px; font-size: 13.5px; font-weight: 550; color: var(--color-ink2); cursor: pointer; white-space: nowrap; }
+  .ld-switch input { width: 15px; height: 15px; accent-color: var(--color-act); margin: 0; }
   .tr .ld .t a { font-weight: 450; color: var(--color-ink3); }
   @media (max-width: 719.98px) {
     .yrs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: -16px; padding-right: 16px; }

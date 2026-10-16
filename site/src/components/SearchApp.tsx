@@ -6,9 +6,10 @@ import { jsonCache } from "../lib/fetch";
 import { legalCite, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { fold, resolveSpeaker, type Person } from "../lib/names";
 import {
-  excerpt, excerptPages, fillMore, hasShortcut, keepRemark, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
+  excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, pagefindFilters, parseQuery, remarksOf, spokenText, toggleShortcut,
   type Branch, type ParsedQuery, type Remark,
 } from "../lib/query";
+import { passageParam } from "../lib/passage";
 import { closestWord } from "../lib/spelling";
 import { url } from "../lib/url";
 import { indexFailed, loadPagefind, readFragment, searchBranch, type PageData, type Pagefind, type PagefindResult, type PagefindSearch } from "./pagefind";
@@ -22,7 +23,7 @@ const LOAD_FAILED = "Search couldn't load. Check your connection and try again."
 const getJson = jsonCache(url);
 
 type Pages = ReturnType<typeof excerptPages>;
-interface Row { key: string; remark: Remark; branch: Branch; pages: Pages; meta: Record<string, string>; transcript: string; }
+interface Row { key: string; remark: Remark; branch: Branch; pages: Pages; meta: Record<string, string>; transcript: string; href: string; }
 type Status = "loading" | "failed" | "which" | "nomatch" | "ready";
 type Phase = "searching" | "reading" | null;
 
@@ -32,7 +33,10 @@ function rowsOf(page: PageData, plan: { parsed: ParsedQuery; speaker: string | n
   const rows: Row[] = [];
   for (const remark of remarksOf(page).map(spokenText)) {
     const branch = plan.parsed.branches.find((b) => keepRemark(remark, b, plan.parsed.not, plan.speaker));
-    if (branch) rows.push({ key: remark.url, remark, branch, pages: excerptPages(remark, branch), meta: page.meta, transcript });
+    if (!branch) continue;
+    // The link also names the passage the row shows, so the transcript lands on it and highlights it for a moment.
+    const href = remark.url.replace("#", `?hl=${encodeURIComponent(passageParam(excerptText(remark, branch)))}#`);
+    rows.push({ key: remark.url, remark, branch, pages: excerptPages(remark, branch), meta: page.meta, transcript, href });
   }
   return rows;
 }
@@ -354,7 +358,7 @@ function SearchApp() {
                   <div className="c-cite">
                     {row.pages.hit != null && <span className="pg">p. {row.pages.hit}</span>}
                     <button type="button" className="copy" data-copy={citeOf(row)}><Icon name="copy" size={14} /><span>Copy cite</span></button>
-                    <a className="ctx" href={row.remark.url}>Read in context</a>
+                    <a className="ctx" href={row.href}>Read in context</a>
                   </div>
                 </article>
               ))}

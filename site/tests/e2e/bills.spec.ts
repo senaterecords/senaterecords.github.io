@@ -50,3 +50,17 @@ test("the bills list dates carry the year", async ({ page }) => {
   await page.goto("bills/2025/");
   await expect(page.locator("[data-bill-row] .dt").first()).toHaveText(/\b2025\b/);
 });
+
+test("timeline labels keep clear space between steps, wrapping to two lines", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("bills/2025/A5834/");
+  const labels = page.locator(".tl li b");
+  await expect(labels).toHaveCount(8);
+  const boxes = await labels.evaluateAll((els) => els.map((el) => {
+    const range = document.createRange();
+    range.selectNodeContents(el);
+    const r = range.getBoundingClientRect();
+    return { left: r.left, right: r.right };
+  }));
+  for (let i = 1; i < boxes.length; i++) expect(boxes[i].left - boxes[i - 1].right).toBeGreaterThanOrEqual(28);
+});
