@@ -322,3 +322,18 @@
 .xm-menu button { display: flex; width: 100%; justify-content: space-between; align-items: baseline; gap: 12px; padding: 9px 14px; background: none; border: 0; font: 550 13.5px var(--font-ui); color: var(--color-ink); text-align: left; }
 .xm-menu button:hover, .xm-menu button:focus-visible { background: #F4F7F5; }
 .xm-menu small { font-weight: 450; font-size: 12px; color: var(--color-ink3); }
+
+/* InfoTip.tsx: a small "i" with a neat popup (hover, focus or tap), in place of the browser's plain tooltip. */
+.itip { position: relative; display: inline-flex; vertical-align: -2px; margin-left: 4px; }
+.itip-btn { display: grid; place-items: center; width: 22px; height: 22px; padding: 0; border: 0; border-radius: 50%; background: none; color: var(--color-ink3); cursor: help; }
+.itip-btn:hover, .itip-btn:focus-visible { color: var(--color-ink); background: #EEF0F1; outline: none; }
+.itip-pop { position: absolute; right: -10px; top: calc(100% + 9px); z-index: 40; width: 290px; max-width: calc(100vw - 32px); padding: 10px 13px 11px; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; box-shadow: 0 2px 4px rgba(22, 27, 34, .08), 0 16px 32px -12px rgba(22, 27, 34, .28); font: 450 13px/1.5 var(--font-ui); letter-spacing: 0; text-transform: none; color: var(--color-ink2); text-align: left; white-space: normal; visibility: hidden; }
+.itip-pop::before { content: ""; position: absolute; top: -7px; right: 15px; width: 12px; height: 12px; background: #fff; border-left: 1px solid var(--color-rule); border-top: 1px solid var(--color-rule); transform: rotate(45deg); }
+.itip:hover .itip-pop, .itip:focus-within .itip-pop { visibility: visible; }
+/* On a phone the popup spans the line it explains (whose box is the positioned one), so it never runs off the screen. */
+@media (max-width: 719.98px) {
+  .itip { position: static; }
+  .itip-pop { left: 0; right: 0; width: auto; max-width: none; }
+  .itip-pop::before { display: none; }
+}
+

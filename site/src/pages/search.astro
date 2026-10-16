@@ -61,7 +61,7 @@ import Base from "../layouts/Base.astro";
   @media (max-width: 719.98px) {
     .sr-msg, .sr-which { padding: 0 16px; }
     .sr-head { height: auto; flex-wrap: wrap; gap: 8px 10px; padding: 10px 16px; background: var(--color-pane); }
-    .sr-head h1 { font-size: 15px; width: 100%; }
+    .sr-head h1 { position: relative; font-size: 15px; width: 100%; white-space: normal; } /* wraps on a phone; the "i" popup spans it */
     .sr-time, .sr-export { display: none; }
     .sr-head .sr-time[role="status"] { display: inline-flex; width: 100%; }
     .skel .c-date, .skel .c-cite { display: block; margin: 0; }

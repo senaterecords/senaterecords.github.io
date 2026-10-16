@@ -16,10 +16,12 @@ import { closestWord } from "../lib/spelling";
 import { url } from "../lib/url";
 import { indexFailed, loadPagefind, readFragment, searchBranch, type PageData, type Pagefind, type PagefindResult, type PagefindSearch } from "./pagefind";
 import { ExportButton } from "./ExportButton";
+import { InfoTip } from "./InfoTip";
 import SearchBox from "./SearchBox";
 import { clientOnly, Icon } from "./ui";
 
-const PAGE = 20;      // transcripts read per batch
+// Transcripts read per batch (tests lower it, through window.__otrBatch, to reach a partly read result on a small sample).
+const PAGE = (globalThis as { __otrBatch?: number }).__otrBatch ?? 20;
 const READERS = 6;    // fragments read at once
 const POSSIBLE = "Transcripts with all your words somewhere in them; each is searched for remarks where the words come together.";
 const SHOW = 25;      // remarks shown at a time
@@ -415,7 +417,11 @@ function SearchApp() {
               ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
               : (() => {
                 const heading = resultCounts({ remarks: remarkCount, transcripts: transcriptCount, read: loaded, total });
-                return <h1 className="num">{heading.main} <span title={loaded < total ? POSSIBLE : undefined}>{heading.sub}</span></h1>;
+                return (
+                  <h1 className="num">{heading.main} <span>{heading.sub}</span>
+                    {loaded < total && <InfoTip label="What “possible transcripts” means">{POSSIBLE}</InfoTip>}
+                  </h1>
+                );
               })()}
             {status === "loading" && rows.length > 0 && (
               <span className="sr-time num" role="status"><span className="sr-spin" aria-hidden="true" />reading {loaded.toLocaleString("en-US")} of {target.toLocaleString("en-US")} transcripts…</span>

@@ -390,3 +390,19 @@ test("on the results page Search tips sits beside the Search button, not on a li
   expect((await page.getByRole("button", { name: "Search tips" }).boundingBox())!.y).toBeGreaterThan(field.y + field.height);
 });
 
+test("a partly searched result explains \"possible transcripts\" in a neat popup beside the line", async ({ page }, info) => {
+  // Two transcripts a batch, so this small sample stops partway, as a broad search of the real archive does.
+  await page.addInitScript(() => { (window as unknown as { __otrBatch: number }).__otrBatch = 2; });
+  await page.goto("search/?q=the");
+  const line = page.locator(".sr-head h1 > span").first();
+  await expect(line).toContainText(/searched 2 of \d+ possible transcripts/);
+  expect(await line.getAttribute("title")).toBeNull(); // no plain browser tooltip
+  const why = page.getByRole("button", { name: /possible transcripts/i });
+  if (info.project.name === "phone") await why.tap(); else await why.hover();
+  await expect(page.getByRole("tooltip")).toBeVisible();
+  await expect(page.getByRole("tooltip")).toContainText("all your words somewhere");
+  const box = (await page.getByRole("tooltip").boundingBox())!;
+  expect(box.x).toBeGreaterThanOrEqual(0); // on screen, phones included
+  expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width);
+});
+
