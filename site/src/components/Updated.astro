@@ -1,23 +1,66 @@
 ---
-// "Updated 5 min ago", the same in the header and the footer: worked out before the first paint, so the build's date
-// never shows and then changes, with the exact time on hover. The same rule as relativeTime in lib/format.ts; the
-// update stamp is New York time.
+// The bar's freshness line, the same in the header and the footer: "Checked 12 min ago", when the hourly run last
+// checked the Senate's records (it writes the time to the status branch), with when new records last arrived on hover.
+// Worked out before the first paint: a check fetched in the last 10 minutes is remembered, so most pages show it at
+// once; on a first visit the line waits a moment rather than showing one thing and then another. If the check can't
+// be read, it says "Updated …" from when this page's records last changed. Times are New York's.
 import { meta } from "../lib/data";
 import { longDate } from "../lib/format";
+import { url } from "../lib/url";
 
 const updatedAt = meta().updatedAt;
-const [hours, minutes] = updatedAt.slice(11, 16).split(":").map(Number);
-const clock = Number.isFinite(hours) && Number.isFinite(minutes)
-  ? ` at ${hours % 12 || 12}:${String(minutes).padStart(2, "0")} ${hours < 12 ? "a.m." : "p.m."} New York time`
-  : "";
+const raw = process.env.OTR_STATUS_URL ?? "";
+const statusUrl = raw.startsWith("/") ? url(raw) : raw;
 ---
-<span class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt} title={`Updated ${longDate(updatedAt)}${clock}`}>Updated {longDate(updatedAt)}</time></span>
-<script is:inline>
+<span class="upd"><i></i><time data-updated={updatedAt} datetime={updatedAt}>Updated {longDate(updatedAt)}</time></span>
+<script is:inline define:vars={{ statusUrl }}>
   (function () {
-    var now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
+    var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var nyNow = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
+    var ago = function (ms) {
+      var m = Math.max(0, Math.round(ms / 60000)), h = Math.round(m / 60), d = Math.round(h / 24);
+      return m < 1 ? "just now" : m < 60 ? m + " min ago" : h < 24 ? h + " hour" + (h === 1 ? "" : "s") + " ago" : d + " day" + (d === 1 ? "" : "s") + " ago";
+    };
+    var meridiem = function (h, m) { return (h % 12 || 12) + ":" + String(m).padStart(2, "0") + " " + (h < 12 ? "a.m." : "p.m."); };
+    // "2026-10-16T01:35:57" (New York time) as "October 16, 2026 at 1:35 a.m."
+    var arrived = function (iso) {
+      var p = (iso || "").split(/[-T:]/).map(Number);
+      return p.length < 5 || isNaN(p[3]) ? "" : "New records last arrived " + MONTHS[p[1] - 1] + " " + p[2] + ", " + p[0] + " at " + meridiem(p[3], p[4]);
+    };
+    var showUpdated = function (el) {
+      el.textContent = "Updated " + ago(nyNow - new Date(el.dataset.updated));
+      el.title = arrived(el.dataset.updated);
+      el.classList.remove("upd-wait");
+    };
+    var showChecked = function (el, s) {
+      var at = new Date(new Date(s.checkedAt).toLocaleString("en-US", { timeZone: "America/New_York" }));
+      el.textContent = "Checked " + ago(Date.now() - Date.parse(s.checkedAt));
+      el.title = "Checked the Senate's records at " + meridiem(at.getHours(), at.getMinutes()) + " · " + arrived(s.updatedAt || el.dataset.updated);
+      el.classList.remove("upd-wait");
+    };
+    var cached = null;
+    try { cached = JSON.parse(localStorage.getItem("otr:checked") || "null"); } catch (e) { /* storage blocked */ }
+    var fresh = cached && cached.checkedAt && Date.now() - cached.fetched < 600000;
     document.querySelectorAll("time[data-updated]").forEach(function (el) {
-      var m = Math.max(0, Math.round((now - new Date(el.dataset.updated)) / 60000)), h = Math.round(m / 60), d = Math.round(h / 24);
-      el.textContent = "Updated " + (m < 1 ? "just now" : m < 60 ? m + " min ago" : h < 24 ? h + " hour" + (h === 1 ? "" : "s") + " ago" : d + " day" + (d === 1 ? "" : "s") + " ago");
+      if (el.dataset.shown) return;
+      el.dataset.shown = "1";
+      if (fresh) showChecked(el, cached);
+      else if (!statusUrl) showUpdated(el);
+      else el.classList.add("upd-wait");
     });
+    if (fresh || !statusUrl) return;
+    window.__otrChecked = window.__otrChecked || Promise.race([
+      fetch(statusUrl, { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("status " + r.status); return r.json(); }),
+      new Promise(function (_, fail) { setTimeout(function () { fail(new Error("slow")); }, 1500); }),
+    ]).then(function (s) {
+      if (!s || !s.checkedAt) throw new Error("no check");
+      s.fetched = Date.now();
+      try { localStorage.setItem("otr:checked", JSON.stringify(s)); } catch (e) { /* storage blocked */ }
+      return s;
+    });
+    window.__otrChecked.then(
+      function (s) { document.querySelectorAll("time.upd-wait").forEach(function (el) { showChecked(el, s); }); },
+      function () { document.querySelectorAll("time.upd-wait").forEach(showUpdated); }
+    );
   })();
 </script>

@@ -144,6 +144,8 @@
   .bar-search input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: 450 15px var(--font-ui); color: var(--color-ink); }
   .bar-search input::placeholder { color: var(--color-ink3); opacity: 1; }
   .bar-search kbd { color: var(--color-ink3); border-bottom-width: 1px; }
+  /* The freshness line waits out of sight for a moment on a first visit, rather than changing as it loads. */
+  .upd-wait { visibility: hidden; }
   /* Its suggestions open under it, at least as wide as the homepage's list needs. */
   .sbx-bar { position: relative; }
   .sbx-bar .acbox { left: 0; right: auto; top: calc(100% + 6px); width: max(100%, 440px); }

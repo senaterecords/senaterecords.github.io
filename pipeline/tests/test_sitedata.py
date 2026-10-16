@@ -73,6 +73,18 @@ def test_build_transcript_links_senators_bills_and_the_debate():
     assert segment["speakers"] == {"marisol-ortega": 1}
 
 
+def test_the_site_says_when_new_records_last_arrived_not_when_it_was_built(tmp_path):
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), MEMBERS[2025])
+    write_json(store.transcript_path("1995-03-01T11:00", "Regular Session"),
+               floor("1995-03-01T11:00", "         1             SENATOR GOLD:  I rise in support of this bill.\n"))
+    (store.root / "rosters").mkdir(parents=True)
+    (store.root / "rosters" / "officers.yaml").write_text("lieutenant_governors: []\nsecretaries: []\n", encoding="utf-8")
+    store.save_state({"updated_at": "2025-06-09T07:17:00"})
+    build_all(store, tmp_path / "site", datetime(2025, 6, 11, 12, 0))
+    assert read_json(tmp_path / "site" / "meta.json")["updatedAt"] == "2025-06-09T07:17:00"
+
+
 def test_senators_before_2009_link_through_the_history_list(tmp_path):
     store = Store(tmp_path / "data")
     write_json(store.members_path(2025), MEMBERS[2025])

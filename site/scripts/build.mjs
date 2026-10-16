@@ -9,6 +9,10 @@ import { minifyDir } from "./minify-html.mjs";
 
 const fixture = process.argv.includes("--fixture");
 process.env.OTR_DATA = resolve(fixture ? "tests/fixtures/data-site" : process.env.OTR_DATA ?? "../data/site");
+// Where the bar learns when the Senate's records were last checked (the hourly run writes it to the status branch);
+// test builds read a local address that tests fake.
+process.env.OTR_STATUS_URL = fixture ? "/__status/checked.json"
+  : process.env.OTR_STATUS_URL ?? "https://raw.githubusercontent.com/senaterecords/senaterecords.github.io/status/checked.json";
 const started = Date.now();
 copyAssets(process.env.OTR_DATA);
 rmSync("dist", { recursive: true, force: true });

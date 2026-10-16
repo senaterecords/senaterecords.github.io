@@ -18,6 +18,8 @@ Every hour, at 17 minutes past, the **Update** workflow (`.github/workflows/upda
 5. **Publish.** The bill pages go first, as one fresh commit force-pushed to the `gh-pages` branch of the [`bills`](https://github.com/senaterecords/bills) repository. Then the main site goes out through GitHub Pages.
 6. **Check live.** It fetches the homepage, search, a transcript, the bills index, a bill page and that page's stylesheet from the live address. Only then does it record what was published (`data/quality-deployed.json`, `data/deployed-raw.txt`, `data/deployed-code.txt`).
 
+Every run also writes the time of its check to the `status` branch (one small file, replaced each time). The site's bar reads it to say "Checked 12 min ago", and hovering shows when new records last arrived. If that file can't be reached, the bar says "Updated …" with the time new records last arrived.
+
 If any step fails, nothing more is published, and the live site keeps its last good version. GitHub emails the repository owner about failed runs.
 
 Only one run happens at a time; a manual run waits for a scheduled one to finish. In quiet weeks, a small weekly commit (`data/last-checked.txt`) keeps GitHub from switching the schedule off, which it does after 60 days without activity.

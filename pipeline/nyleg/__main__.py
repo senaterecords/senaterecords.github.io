@@ -97,6 +97,11 @@ def cmd_sync(args: argparse.Namespace) -> int:
     result.merge(sync.fetch_bills(client, store, sync.wanted_bills(scan, fixes), budget=args.bill_budget,
                                   today=now.date(), refresh_session=current, workers=args.parallel))
     print(f"{len(result.changed)} raw files added or updated")
+    if result.changed:
+        # When new records last arrived: what the site's "Updated" says (a rebuild for code alone doesn't move it).
+        state = store.load_state()
+        state["updated_at"] = now.isoformat(timespec="seconds")
+        store.save_state(state)
     emit("changed", "true" if result.changed else "false")
     # Bills checked, missing or pending must be kept even when no raw file changed, or the next run repeats the work.
     emit("state_changed", "true" if bookkeeping(store.load_state()) != before else "false")

@@ -63,6 +63,11 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           bash scripts/commit-data.sh "data: sync $(date -u +%Y-%m-%dT%H:%MZ)"
+      - name: Record the check
+        # The site's "Checked 12 min ago": the time of this check on the status branch (scripts/record-check.sh).
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash scripts/record-check.sh
       - name: Decide whether to publish
         id: go
         # When the raw data or the code differs from what was last deployed, or when asked to rebuild; a publish that

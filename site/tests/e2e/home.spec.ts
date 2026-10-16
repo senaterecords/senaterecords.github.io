@@ -76,6 +76,20 @@ test("the header and the footer say the same thing about the last update", async
   const footer = page.locator(".foot time[data-updated]");
   await expect(footer).toHaveText(/^Updated (just now|\d+ (min|hours?|days?) ago)$/);
   if (await header.isVisible()) await expect(footer).toHaveText((await header.textContent())!);
-  await expect(footer).toHaveAttribute("title", /^Updated [A-Z][a-z]+ \d+, \d{4}/); // the exact date on hover
+  await expect(footer).toHaveAttribute("title", /^New records last arrived [A-Z][a-z]+ \d+, \d{4} at /); // the exact time on hover
+});
+
+test("the bar says when the site last checked the Senate's records, and when new ones last arrived", async ({ page }) => {
+  const checkedAt = new Date(Date.now() - 12 * 60_000).toISOString();
+  await page.route("**/__status/checked.json", (route) => route.fulfill({ json: { checkedAt, updatedAt: "2026-10-16T01:35:57" } }));
+  await page.goto("about/");
+  const label = page.locator(".foot time[data-updated]");
+  await expect(label).toHaveText("Checked 12 min ago");
+  await expect(label).toHaveAttribute("title", /^Checked the Senate's records at .+ · New records last arrived October 16, 2026 at 1:35 a\.m\.$/);
+  // The next page has it from the first paint, even while the file is slow to come.
+  await page.unroute("**/__status/checked.json");
+  await page.route("**/__status/checked.json", async (route) => { await new Promise((done) => setTimeout(done, 3000)); await route.fulfill({ json: { checkedAt, updatedAt: "2026-10-16T01:35:57" } }); });
+  await page.goto("senators/", { waitUntil: "commit" });
+  await expect(page.locator(".foot time[data-updated]")).toHaveText("Checked 12 min ago", { timeout: 1500 });
 });
 

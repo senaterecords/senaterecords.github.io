@@ -468,7 +468,8 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
         write_json(out / "words" / f"{prefix}.json", entries)
 
     write_json(out / "meta.json", {
-        "updatedAt": now.replace(microsecond=0).isoformat(),
+        # When new records last arrived (sync records it), else when this ran.
+        "updatedAt": store.load_state().get("updated_at") or now.replace(microsecond=0).isoformat(),
         "counts": {"floorTranscripts": report.floor, "hearings": report.hearings,
                    "senators": len(appearances), "bills": sum(len(e) for e in bills.values())},
         "quality": report.to_dict(),

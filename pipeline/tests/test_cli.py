@@ -23,7 +23,7 @@ def test_sync_without_a_key_exits_with_the_auth_code(tmp_path, monkeypatch, caps
     assert "NYSENATE_API_KEY" in capsys.readouterr().err
 
 
-def fake_sync(monkeypatch, checked=None):
+def fake_sync(monkeypatch, checked=None, arrived=None):
     """Replace every API step of `sync`: transcripts only move the "last synced" stamp; bills may record checks."""
     import nyleg.__main__ as cli
     from nyleg import sync
@@ -32,7 +32,10 @@ def fake_sync(monkeypatch, checked=None):
         state = store.load_state()
         state["transcripts_synced_at"] = now.isoformat(timespec="seconds")
         store.save_state(state)
-        return sync.SyncResult()
+        result = sync.SyncResult()
+        if arrived:
+            result.changed.append(arrived)
+        return result
 
     def bills(client, store, wanted, **options):
         if checked:
@@ -155,3 +158,20 @@ def test_process_refuses_to_build_from_a_missing_data_folder(tmp_path, capsys):
     assert main(["--data", str(tmp_path / "nope"), "process", "--out", str(out)]) == EXIT_GATE
     assert "No raw transcripts" in capsys.readouterr().err
     assert not out.exists()
+
+
+def test_sync_records_when_new_records_arrived(tmp_path, monkeypatch):
+    store = Store(tmp_path / "data")
+    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00", "updated_at": "2026-10-15T12:00:00"})
+    fake_sync(monkeypatch, arrived=store.root / "raw" / "transcripts" / "new.json")
+    assert main(["--data", str(store.root), "sync"]) == 0
+    assert store.load_state()["updated_at"] > "2026-10-15T12:00:00"
+
+
+def test_sync_keeps_the_update_time_when_nothing_arrived(tmp_path, monkeypatch):
+    store = Store(tmp_path / "data")
+    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00", "updated_at": "2026-10-15T12:00:00"})
+    fake_sync(monkeypatch)
+    assert main(["--data", str(store.root), "sync"]) == 0
+    assert store.load_state()["updated_at"] == "2026-10-15T12:00:00"
+
