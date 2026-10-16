@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T00:00:00Z",
+  "title": "Design System: On the Record",
+  "extensions": {
+    "colorMeta": {
+      "act": { "role": "primary", "displayName": "Ledger Green", "canonical": "#0B6B50", "tonalRamp": ["oklch(15% 0.06 166)", "oklch(25% 0.08 166)", "oklch(35% 0.09 166)", "oklch(46% 0.09 166)", "oklch(55% 0.09 166)", "oklch(70% 0.07 166)", "oklch(85% 0.04 166)", "oklch(95% 0.02 166)"] },
+      "act-deep": { "role": "primary", "displayName": "Ledger Deep", "canonical": "#08523D" },
+      "act-wash": { "role": "primary", "displayName": "Ledger Wash", "canonical": "#E2F0EA" },
+      "red": { "role": "secondary", "displayName": "Pennant Red", "canonical": "#B42318", "tonalRamp": ["oklch(15% 0.06 29)", "oklch(25% 0.1 29)", "oklch(35% 0.14 29)", "oklch(45% 0.17 29)", "oklch(52% 0.19 29)", "oklch(70% 0.12 29)", "oklch(85% 0.06 29)", "oklch(95% 0.02 29)"] },
+      "amber": { "role": "secondary", "displayName": "Pennant Amber", "canonical": "#9A6200", "tonalRamp": ["oklch(15% 0.04 72)", "oklch(25% 0.07 72)", "oklch(35% 0.09 72)", "oklch(45% 0.11 72)", "oklch(54% 0.12 72)", "oklch(70% 0.11 72)", "oklch(85% 0.07 72)", "oklch(95% 0.03 72)"] },
+      "hit": { "role": "tertiary", "displayName": "Highlighter", "canonical": "#FFE36E", "tonalRamp": ["oklch(15% 0.03 97)", "oklch(25% 0.05 97)", "oklch(35% 0.07 97)", "oklch(45% 0.09 97)", "oklch(55% 0.11 97)", "oklch(70% 0.13 97)", "oklch(85% 0.15 97)", "oklch(95% 0.08 97)"] },
+      "ground": { "role": "neutral", "displayName": "Stone", "canonical": "#F3F4F1" },
+      "pane": { "role": "neutral", "displayName": "Pane", "canonical": "#FFFFFF" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#161B22", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(22% 0.015 255)", "oklch(35% 0.015 255)", "oklch(45% 0.015 255)", "oklch(55% 0.012 255)", "oklch(70% 0.01 255)", "oklch(85% 0.006 255)", "oklch(95% 0.004 255)"] },
+      "ink2": { "role": "neutral", "displayName": "Ink 2", "canonical": "#4B535E" },
+      "ink3": { "role": "neutral", "displayName": "Ink 3", "canonical": "#666D77" },
+      "rule": { "role": "neutral", "displayName": "Rule", "canonical": "#D7DBDF" },
+      "rule2": { "role": "neutral", "displayName": "Rule 2", "canonical": "#E9EBED" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Homepage heading only; 29px on phones." },
+      "headline": { "displayName": "Headline", "purpose": "Senator, bills and browse page titles; 23px on phones." },
+      "headline-serif": { "displayName": "Headline serif", "purpose": "A bill's own title on its page; 22px on phones." },
+      "title": { "displayName": "Title", "purpose": "Section heads, often over a 1.5px ink rule." },
+      "body": { "displayName": "Body", "purpose": "Interface default." },
+      "meta": { "displayName": "Meta", "purpose": "Dates, counts, footer, in ink3." },
+      "figures": { "displayName": "Figures", "purpose": "Dates, pages, calendar numbers, counts; tabular." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "The bar's site name, 112% width; 16px on phones." },
+      "speaker-label": { "displayName": "Speaker label", "purpose": "Inline uppercase label before a turn, 14px gap after." },
+      "reading": { "displayName": "Reading", "purpose": "Transcript turns, #1D232B, 68ch measure." },
+      "excerpt": { "displayName": "Excerpt", "purpose": "Remark quotes in results, senator pages and bill debates." }
+    },
+    "shadows": [
+      { "name": "float", "value": "0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28)", "purpose": "Search tips, suggestions, speaker card, citation panel, export menu." },
+      { "name": "sheet", "value": "0 -8px 24px rgba(22,27,34,.18)", "purpose": "Phone bottom sheets, over a rgba(22,27,34,.38) dim." },
+      { "name": "press", "value": "0 1px 2px rgba(8,82,61,.3)", "purpose": "Primary button only." },
+      { "name": "field-lift", "value": "0 1px 2px rgba(22,27,34,.06)", "purpose": "The large search field at rest." },
+      { "name": "focus-halo", "value": "0 0 0 3px #E2F0EA", "purpose": "Search fields and bills filter on focus, with an ink border." },
+      { "name": "current-row", "value": "0 0 0 1px #D7DBDF, 0 1px 2px rgba(22,27,34,.06)", "purpose": "Current reading in the calendar rail." }
+    ],
+    "motion": [
+      { "name": "none", "value": "none", "purpose": "The shipped CSS has no transitions or animations; the search box stays still." }
+    ],
+    "breakpoints": [
+      { "name": "sheet", "value": "640px" },
+      { "name": "phone", "value": "720px" },
+      { "name": "reader-two-column", "value": "1100px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one solid green action per context.",
+      "html": "<button class=\"ds-btn-primary\">Read the debate</button>",
+      "css": ".ds-btn-primary { font: 650 13.5px/1 var(--font-ui); color: #fff; background: var(--color-act); border: 0; border-radius: 6px; height: 36px; padding: 0 16px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 1px 2px rgba(8,82,61,.3); cursor: pointer; } .ds-btn-primary:hover { background: var(--color-act-deep); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-act); outline-offset: 2px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary green action: official page, show only, export.",
+      "html": "<button class=\"ds-btn\">Official bill page</button>",
+      "css": ".ds-btn { font: 600 13px/1 var(--font-ui); color: var(--color-act); background: #fff; border: 1px solid #B9CFC6; border-radius: 6px; height: 32px; padding: 0 12px; display: inline-flex; align-items: center; gap: 7px; cursor: pointer; } .ds-btn:hover { border-color: var(--color-act); background: #F6FAF8; } .ds-btn:focus-visible { outline: 2px solid var(--color-act); outline-offset: 2px; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Neutral action, e.g. Filters on phones.",
+      "html": "<button class=\"ds-btn-quiet\">Filters</button>",
+      "css": ".ds-btn-quiet { font: 600 13px/1 var(--font-ui); color: var(--color-ink2); background: #fff; border: 1px solid var(--color-rule); border-radius: 6px; height: 32px; padding: 0 12px; cursor: pointer; } .ds-btn-quiet:hover { color: var(--color-ink); border-color: #B9BFC6; background: #F8F9F9; } .ds-btn-quiet:focus-visible { outline: 2px solid var(--color-act); outline-offset: 2px; }"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Search examples and syntax.",
+      "html": "<button class=\"ds-chip\">tolls OR fares</button>",
+      "css": ".ds-chip { font: 600 12.5px/1.35 var(--font-ui); color: var(--color-ink); background: #fff; border: 1px solid var(--color-rule); border-radius: 4px; padding: 2px 7px; cursor: pointer; } .ds-chip:hover { border-color: #9AA1AA; } .ds-chip:focus-visible { outline: 2px solid var(--color-act); outline-offset: 2px; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segmented-on",
+      "description": "Search scope and citation style; chosen option is ink-filled.",
+      "html": "<div class=\"ds-seg\"><button aria-pressed=\"true\">All records</button><button aria-pressed=\"false\">Floor sessions</button><button aria-pressed=\"false\">Public hearings</button></div>",
+      "css": ".ds-seg { display: inline-flex; border: 1px solid var(--color-rule); border-radius: 6px; overflow: hidden; background: #fff; font: 550 13.5px var(--font-ui); } .ds-seg > button { padding: 6px 12px; border: 0; border-right: 1px solid var(--color-rule); color: var(--color-ink2); background: #fff; font: inherit; cursor: pointer; } .ds-seg > button:last-child { border-right: 0; } .ds-seg > [aria-pressed=\"true\"] { background: var(--color-ink); color: #fff; } .ds-seg > button:focus-visible { outline: 2px solid var(--color-act); outline-offset: -2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "The large search field; still on focus, ink border plus wash halo.",
+      "html": "<label class=\"ds-sbx\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Search for a senator, a bill, or what was said\"></label>",
+      "css": ".ds-sbx { height: 52px; border: 1.5px solid #8F97A1; border-radius: 8px; background: #fff; display: flex; align-items: center; gap: 12px; padding: 0 16px; color: var(--color-ink3); box-shadow: 0 1px 2px rgba(22,27,34,.06); } .ds-sbx:focus-within { border-color: var(--color-ink); box-shadow: 0 0 0 3px var(--color-act-wash); } .ds-sbx input { flex: 1; border: 0; outline: 0; background: transparent; font: 450 17px var(--font-ui); color: var(--color-ink); } .ds-sbx input::placeholder { color: var(--color-ink3); }"
+    },
+    {
+      "name": "Status Pennant",
+      "kind": "custom",
+      "refersTo": "status-red",
+      "description": "Bill state as flag plus text: hollow ink, solid red (vetoed), solid amber (amended or corrected).",
+      "html": "<span class=\"ds-status\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M5 21V4h12l-2 4 2 4H5\"/></svg>In Assembly Committee</span> <span class=\"ds-status ds-red\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M5 21V4h12l-2 4 2 4H5\"/></svg>Vetoed</span>",
+      "css": ".ds-status { display: inline-flex; align-items: center; gap: 6px; font: 600 12.5px var(--font-ui); color: var(--color-ink2); } .ds-status.ds-red { color: var(--color-red); } .ds-status.ds-amber { color: var(--color-amber); }"
+    },
+    {
+      "name": "Transcript Turn",
+      "kind": "custom",
+      "refersTo": "speaker-label-senator",
+      "description": "Inline uppercase speaker label, senators underlined, procedural voices not; dashed page break with p. N in the gutter.",
+      "html": "<div class=\"ds-turns\"><section class=\"ds-turn\"><h3 class=\"ds-sp\">Acting President Bailey</h3><p>Senator Mayer to explain her vote.</p></section><section class=\"ds-turn\"><h3 class=\"ds-sp ds-sen\">Senator Mayer</h3><p>Thank you, Mr. President.</p><div class=\"ds-pb\"><b>p. 901</b><i></i></div><p>And a special thank you to Senator Ramos.</p></section></div>",
+      "css": ".ds-turns { background: #fff; padding: 16px 0; } .ds-turn { position: relative; max-width: calc(96px + 68ch + 48px); padding: 0 48px 12px 96px; font: 17px/1.62 var(--font-read); color: #1D232B; } .ds-turn > p { margin: 12px 0 0; } .ds-turn > h3 + p { display: inline; margin: 0; } .ds-sp { display: inline; font: 700 12.5px/1 var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink2); margin-right: 14px; } .ds-sp.ds-sen { color: var(--color-ink); text-decoration: underline; text-decoration-color: #B4BAC1; text-underline-offset: 3px; cursor: pointer; } .ds-sp.ds-sen:hover { text-decoration-color: var(--color-ink); } .ds-pb { display: grid; grid-template-columns: 96px 1fr; align-items: center; margin: 12px 0 12px -96px; } .ds-pb b { font: 750 12.5px var(--font-ui); text-align: right; padding-right: 16px; font-variant-numeric: tabular-nums; color: var(--color-ink); } .ds-pb i { height: 1px; background: repeating-linear-gradient(90deg, var(--color-rule) 0 6px, transparent 6px 10px); }"
+    },
+    {
+      "name": "Speaker Card",
+      "kind": "card",
+      "refersTo": "popover",
+      "description": "Float popover from a speaker label; a bottom sheet at 640px and below.",
+      "html": "<div class=\"ds-scard\"><div class=\"ds-hd\"><span class=\"ds-photo\"></span><div><div class=\"ds-nm\">Sen. Liz Krueger</div><div class=\"ds-mt\">District 28 · In the Senate since 2002</div></div></div><div class=\"ds-here\"><span><b>54 remarks</b> in this hearing</span></div><button class=\"ds-pri\">Open senator page</button></div>",
+      "css": ".ds-scard { width: 400px; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; padding: 14px 16px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); font: 14px/1.45 var(--font-ui); color: var(--color-ink); } .ds-hd { display: flex; gap: 12px; } .ds-photo { width: 40px; height: 52px; border-radius: 3px; background: #ECEEEF; border: 1px solid var(--color-rule2); flex: none; } .ds-nm { font-size: 15px; font-weight: 700; line-height: 1.25; } .ds-mt { font-size: 12.5px; color: var(--color-ink3); margin-top: 2px; } .ds-here { margin: 12px 0; padding: 9px 0; border-top: 1px solid var(--color-rule2); border-bottom: 1px solid var(--color-rule2); font-size: 13px; color: var(--color-ink2); } .ds-here b { color: var(--color-ink); font-weight: 650; } .ds-pri { font: 650 13.5px/1 var(--font-ui); color: #fff; background: var(--color-act); border: 0; border-radius: 6px; height: 32px; padding: 0 16px; cursor: pointer; } .ds-pri:hover { background: var(--color-act-deep); }"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "bar-search",
+      "description": "White 58px bar, wordmark, search, section links with an ink underline on the current one.",
+      "html": "<header class=\"ds-bar\"><a class=\"ds-mark\" href=\"#\">On the Record</a><nav class=\"ds-nav\"><a href=\"#\">Transcripts</a><a href=\"#\">Senators</a><a href=\"#\" aria-current=\"page\">Bills</a><a href=\"#\">About</a></nav></header>",
+      "css": ".ds-bar { height: 58px; background: #fff; border-bottom: 1px solid var(--color-rule); display: flex; align-items: center; gap: 28px; padding: 0 24px; font-family: var(--font-ui); } .ds-mark { font-weight: 800; font-stretch: 112%; font-size: 17px; letter-spacing: -0.01em; color: var(--color-ink); text-decoration: none; } .ds-nav { display: flex; gap: 20px; margin-left: auto; font-weight: 550; font-size: 14px; } .ds-nav a { color: var(--color-ink2); text-decoration: none; } .ds-nav a:hover { color: var(--color-ink); } .ds-nav a[aria-current] { color: var(--color-ink); box-shadow: inset 0 -2px 0 var(--color-ink); padding-bottom: 17px; margin-bottom: -19px; } .ds-nav a:focus-visible { outline: 2px solid var(--color-act); outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Citator",
+    "overview": "A legal research tool for a public record. Stone ground, white panes, ink text, hairline rules, and one green that means \"you can act on this\". The interface speaks in Archivo; every word spoken on the Senate floor is set in Charis SIL, so the reader can always tell the tool from the record. Dense, quiet, and exact: dates, pages and counts are tabular figures, and the transcript page number is always visible because citing the page is the point.\n\nThe system is flat and ruled rather than boxed. Lists are ruled rows on white panes, not cards. Depth appears only on things that float over the page (popovers, the speaker card, bottom sheets). There is no motion anywhere in the shipped CSS: no transitions, no animations.",
+    "keyCharacteristics": [
+      "Stone ground (`ground`) with white working panes (`pane`) separated by 1px rules.",
+      "Ledger green (`act`) only on actionable things; status uses pennant flags, not colour blocks.",
+      "Two voices: Archivo Variable for the interface, Charis SIL for the record.",
+      "Tabular figures for every date, page, calendar number and count.",
+      "Flat, ruled, motionless; refinements stay subtle."
+    ],
+    "rules": [
+      { "name": "The Ledger Rule", "body": "Green marks what can be clicked, pressed or followed. The single exception, carried from the approved mock, is the 7px \"Updated\" freshness dot in the bar and footer.", "section": "colors" },
+      { "name": "The Pennant Rule", "body": "Bill state is a flag icon plus text, never a filled badge: hollow ink flag (`ink2` text) for ordinary progress, solid red flag for vetoed, solid amber flag for amended or corrected.", "section": "colors" },
+      { "name": "The One Ink Rule", "body": "Speakers have no colour identity. Every speaker label is ink or ink 2; senators are distinguished by an underline, not a hue.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Anything said on the floor or in a hearing, and any bill title, is Charis SIL. Everything the tool says is Archivo.", "section": "typography" },
+      { "name": "The Tabular Rule", "body": "Dates, page numbers, calendar numbers, vote tallies and counts use tabular figures (`font-variant-numeric: tabular-nums`, the `num` utility).", "section": "typography" },
+      { "name": "The Float-Only Rule", "body": "Only overlays cast shadows. Lists, panes and rows never do.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep green for actionable things only; state lives in the pennant flags.",
+      "Do set every spoken word and bill title in Charis SIL, and every interface word in Archivo.",
+      "Do use tabular figures for dates, pages, calendar numbers and counts.",
+      "Do keep \"p. N\" visible: gutter number at each turn's first page, dashed page-break rule at every break.",
+      "Do keep lists as ruled rows on white panes, restacking to two-line rows under 720px.",
+      "Do keep refinements subtle: a weight step, a rule, an underline colour."
+    ],
+    "donts": [
+      "Don't give speakers colours; no multicolour speaker identity.",
+      "Don't add avatars: no initials, no circles, no portraits beside transcript turns. Official portraits appear only as small rectangular photos in cards, lists and page titles.",
+      "Don't use a dark masthead; the bar stays white with a 1px rule.",
+      "Don't restyle lists or results as boxed cards.",
+      "Don't add motion to the search box (no transitions, no animated placeholder or expanding field); the shipped CSS has no motion at all.",
+      "Don't use red or amber as fills or backgrounds, or the highlighter for anything but search hits."
+    ]
+  }
+}
