@@ -101,3 +101,14 @@ test("the senators list sorts by remarks or service, and keeps its choices in th
   await expect(page.getByLabel("Term")).toHaveValue("2025");
 });
 
+test("a sorted senators list stays in the page's column, lined up with the title", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.setViewportSize({ width: 1600, height: 900 });
+  await page.goto("senators/");
+  const left = async (sel: string) => (await page.locator(sel).first().boundingBox())!.x;
+  const title = await left(".pg-title h1");
+  expect(Math.abs((await left(".sn-group .sn-row")) - title)).toBeLessThanOrEqual(2);
+  await page.getByLabel("Sort").selectOption("remarks");
+  expect(Math.abs((await left("#sn-flat .sn-row")) - title)).toBeLessThanOrEqual(2);
+});
+
