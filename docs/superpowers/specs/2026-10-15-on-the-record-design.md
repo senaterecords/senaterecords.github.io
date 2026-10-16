@@ -294,7 +294,7 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
 | Pro forma legislative days | 5,505 | mostly 1993–2023 (almost none listed after 2023) |
 | Public hearings | 261 | 2011–2026 (none in the API before 2011) |
 
-- **Two GitHub Pages sites (decided 2026-10-16):** the main site at the root of the free organization `ontherecord-ny` (`ontherecord-ny.github.io`), and the bill pages as their own site, a second repository named `bills` served at `/bills/` on the same address, so every address stays as it is. Each site has its own 1 GB limit and bandwidth allowance.
+- **Two GitHub Pages sites (decided 2026-10-16):** the main site at the root of the free organization `senaterecords` (`senaterecords.github.io`), and the bill pages as their own site, a second repository named `bills` served at `/bills/` on the same address, so every address stays as it is. Each site has its own 1 GB limit and bandwidth allowance.
 - **Size, measured on the final full build (2026-10-16):** 59,635 pages from the full archive in about 470 s on a 16-thread desktop when nothing else runs; the link check takes about 3.5 minutes more.
   - **Main site: 709.6 MB.** Transcripts 495.1 MB (8,063 pages), Pagefind 164.6 MB (2,558 pages indexed: floor sessions and hearings), senators 39.5 MB, data 6.2 MB, browse 2.1 MB, scripts and styles 1.3 MB, photos 0.8 MB.
   - **Bills site: 296.7 MB** (51,289 pages).
