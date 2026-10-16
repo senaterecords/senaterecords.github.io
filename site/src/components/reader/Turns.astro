@@ -1,0 +1,44 @@
+---
+// The transcript text. Markup contract (search and the islands depend on it):
+//   <section class="turn" data-i data-role data-key data-page>
+//     <h3 id="r-{i}" class="sp [sen]" data-key><span id="w-{i}-{page|0}-{key|x}">Label</span></h3><p>…</p>
+//   </section>
+// Page breaks are <div class="pb" id="p{page}"><b>p. N</b><i></i></div>; turns come 40 to a content-visibility chunk.
+import { titleCase } from "../../lib/format";
+import { estimateHeight, lastPage, turnBlocks } from "../../lib/reader";
+import type { Turn } from "../../lib/types";
+
+interface Props { turns: Turn[]; keyOf: (t: Turn) => string | null; }
+const { turns, keyOf } = Astro.props;
+
+const SPOKEN = new Set(["senator", "chair", "assembly"]);
+const CHUNK = 40;
+const usedPages = new Set<number>();
+const pageId = (page: number) => (usedPages.has(page) ? undefined : (usedPages.add(page), `p${page}`));
+
+let previous: number | null = null;
+const rows = turns.map((t) => {
+  const key = keyOf(t);
+  const gutter = t.page != null && t.page !== previous ? t.page : null;
+  previous = lastPage(t) ?? previous;
+  return { t, key, gutter, blocks: turnBlocks(t.text, t.breaks) };
+});
+const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => rows.slice(i * CHUNK, (i + 1) * CHUNK));
+---
+{chunks.map((chunk) => (
+  <div class="chunk" style={`--h:${estimateHeight(chunk.map((row) => row.t))}`}>
+    {chunk.map(({ t, key, gutter, blocks }) => (
+      <section class="turn" data-i={t.i} data-role={t.role} data-key={key ?? undefined} data-page={t.page ?? undefined}>
+        {gutter != null && <span class="g" id={pageId(gutter)} data-pagefind-ignore>{gutter}</span>}
+        {t.label && (
+          <h3 id={`r-${t.i}`} class:list={["sp", { sen: key && SPOKEN.has(t.role) }]} data-key={key ?? undefined}>
+            <span id={`w-${t.i}-${t.page ?? 0}-${key ?? "x"}`}>{titleCase(t.label)}</span>
+          </h3>
+        )}
+        {blocks.map((b) => (b.kind === "p"
+          ? <p>{b.text}</p>
+          : <div class="pb" id={pageId(b.page)} data-pagefind-ignore><b>p. {b.page}</b><i></i></div>))}
+      </section>
+    ))}
+  </div>
+))}

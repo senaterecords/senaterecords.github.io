@@ -1,0 +1,37 @@
+---
+// The left rail of a floor transcript: one row per calendar reading, jumping to it and linking its bill page.
+import { bill } from "../../lib/data";
+import type { Segment } from "../../lib/types";
+import { url } from "../../lib/url";
+
+interface Props { segments: Segment[]; session: number; }
+const { segments, session } = Astro.props;
+const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
+---
+<aside class="rd-rail rd-cal" aria-label="On the calendar">
+  <div class="rail-in">
+    <h2>On the calendar</h2>
+    {segments.length === 0
+      ? <p class="rail-empty">No bills were read on the floor this day.</p>
+      : (
+        <ul>
+          {segments.map((s) => {
+            const base = s.printNo ? baseOf(s.printNo) : null;
+            const linked = base && bill(session, base);
+            return (
+              <li data-start={s.startTurn}>
+                <a class="n num" href={`#r-${s.startTurn}`} title="Go to this reading">{s.calNo}</a>
+                <span class="p">
+                  {s.printNo
+                    ? (linked ? <a class="num" href={url(`/bills/${session}/${base}/`)}>{s.printNo}</a> : <span class="num">{s.printNo}</span>)
+                    : <span class="nobill">No bill number</span>}
+                  <small>{s.debated ? "Debated" : "No debate"}</small>
+                </span>
+                <span class="c num" title="Remarks">{s.remarks || ""}</span>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+  </div>
+</aside>

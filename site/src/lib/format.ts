@@ -20,6 +20,18 @@ export const dayDate = (iso: string) => {
   return `${DAYS[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}, ${SHORT[m - 1]} ${d}`;
 };
 
+const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+export const weekdayDate = (iso: string) => {
+  const [y, m, d] = ymd(iso);
+  return `${WEEKDAYS[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}, ${longDate(iso)}`;
+};
+
+/** Cover-page locations come in capitals or on several lines: "Hearing Room B, Legislative Office Building, Albany, New York". */
+export function placeText(location: string | null): string {
+  if (!location) return "";
+  return location.split(/\n+/).map((line) => line.trim()).filter(Boolean).map(hearingTitle).join(", ");
+}
+
 export const pageLabel = (page: number) => `p. ${page}`;
 
 /** Legal page spans drop repeated leading digits but keep at least two: 5780–81, 5798–802. */
@@ -59,9 +71,19 @@ function capital(word: string): string {
   }).join("");
 }
 
-/** "ACTING PRESIDENT BRENNAN" -> "Acting President Brennan"; keeps "DeFRANCISCO" as "DeFrancisco". */
+const HONORIFICS = new Set(["MR", "MRS", "MS", "DR", "JR", "SR", "ST"]);
+
+/** An all-capital word with no vowels is an acronym (DTF, NYC), unless it is an honorific (Mr., Dr.). */
+function isAcronym(word: string): boolean {
+  const letters = word.replace(/[^A-Za-z]/g, "");
+  const vowels = letters.length <= 3 ? /[AEIOU]/ : /[AEIOUY]/; // Y is a vowel in names (Lynch), not in NYC
+  return letters.length >= 2 && letters === letters.toUpperCase() && !vowels.test(letters) && !HONORIFICS.has(letters);
+}
+
+/** "ACTING PRESIDENT BRENNAN" -> "Acting President Brennan"; keeps "DeFRANCISCO" as "DeFrancisco" and "DTF" as "DTF". */
 export function titleCase(label: string): string {
   return label.split(/\s+/).filter(Boolean).map((word) => {
+    if (isAcronym(word)) return word;
     const particle = word.match(PARTICLE);
     return particle ? particle[1] + capital(particle[2]) : capital(word);
   }).join(" ");

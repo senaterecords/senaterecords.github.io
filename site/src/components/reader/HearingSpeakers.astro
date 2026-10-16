@@ -1,0 +1,44 @@
+---
+// The left rail of a hearing: who spoke and how often, each linking to their first remark. Witnesses follow by label.
+import { titleCase } from "../../lib/format";
+import type { SpeakerInfo } from "../../lib/speakers";
+import type { Turn } from "../../lib/types";
+
+interface Props { speakers: Record<string, SpeakerInfo>; turns: Turn[]; keyOf: (t: Turn) => string | null; }
+const { speakers, turns, keyOf } = Astro.props;
+
+const members = Object.values(speakers)
+  .filter((s) => s.remarks.length > 0)
+  .sort((a, b) => b.remarks.length - a.remarks.length);
+
+const witnesses = new Map<string, { first: number; count: number }>();
+for (const t of turns) {
+  if (!t.label || keyOf(t) || t.role === "record") continue;
+  const label = titleCase(t.label);
+  const seen = witnesses.get(label);
+  if (seen) seen.count += 1; else witnesses.set(label, { first: t.i, count: 1 });
+}
+const others = [...witnesses].sort((a, b) => b[1].count - a[1].count);
+---
+<aside class="rd-rail rd-cal" aria-label="Speakers">
+  <div class="rail-in">
+    <h2>Members</h2>
+    {members.length === 0 ? <p class="rail-empty">No senators or Assembly members are identified.</p> : (
+      <ul>
+        {members.map((s) => (
+          <li class="spk-row"><a href={`#r-${s.remarks[0]}`}>{s.name}</a><span class="c num">{s.remarks.length}</span></li>
+        ))}
+      </ul>
+    )}
+    {others.length > 0 && (
+      <>
+        <h2 class="rail-h2b">Witnesses and others</h2>
+        <ul>
+          {others.map(([label, w]) => (
+            <li class="spk-row"><a href={`#r-${w.first}`}>{label}</a><span class="c num">{w.count}</span></li>
+          ))}
+        </ul>
+      </>
+    )}
+  </div>
+</aside>

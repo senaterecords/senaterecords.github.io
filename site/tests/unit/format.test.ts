@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   billStatus, count, dayDate, hearingTitle, legalCite, legalDate, legalPages, longDate, outcomeText, pageLabel,
-  plainCite, plainPages, plural, relativeTime, serviceText, shortDate, speakerForms, titleCase, transcriptTitle,
+  placeText, plainCite, plainPages, plural, relativeTime, serviceText, shortDate, speakerForms, titleCase, transcriptTitle, weekdayDate,
 } from "../../src/lib/format";
 
 describe("dates and pages", () => {
@@ -12,6 +12,13 @@ describe("dates and pages", () => {
     expect(legalDate("2025-03-18")).toBe("Mar. 18, 2025");
     expect(legalDate("2025-09-02")).toBe("Sept. 2, 2025");
     expect(dayDate("2025-06-10")).toBe("Tue, Jun 10");
+    expect(weekdayDate("2025-03-04")).toBe("Tuesday, March 4, 2025");
+  });
+
+  it("writes places readably", () => {
+    expect(placeText("ALBANY, NEW YORK")).toBe("Albany, New York");
+    expect(placeText("Hearing Room B\nLegislative Office Building\nAlbany, New York")).toBe("Hearing Room B, Legislative Office Building, Albany, New York");
+    expect(placeText(null)).toBe("");
   });
 
   it("writes page numbers", () => {
@@ -41,6 +48,10 @@ describe("service, names and titles", () => {
     expect(titleCase("SENATOR O'MARA")).toBe("Senator O'Mara");
     expect(titleCase("SENATOR HASSELL-THOMPSON")).toBe("Senator Hassell-Thompson");
     expect(titleCase("THE STATE'S RESPONSE TO COVID-19")).toBe("The State's Response To Covid-19");
+    expect(titleCase("DTF COMMISSIONER HILLER")).toBe("DTF Commissioner Hiller");
+    expect(titleCase("MR. GUSDORF")).toBe("Mr. Gusdorf");
+    expect(titleCase("SENATOR LYNCH AND MS. WYNN")).toBe("Senator Lynch And Ms. Wynn");
+    expect(titleCase("MRS. SMITH, NYC DHCR")).toBe("Mrs. Smith, NYC DHCR");
   });
 
   it("makes all-capital hearing titles readable", () => {
