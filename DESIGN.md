@@ -304,6 +304,14 @@ Restrained and green-led.
 ### Suggestions list
 - A float panel under the search field (8px). Group headings use the small uppercase label; rows are 7px 16px with a 14.5px name (matched text 750), a 12.5px `ink3` meta line and a right-aligned count. The active row gets `#F4F7F5` and a 2px inset green bar on the left. A keyboard-hint footer shows on desktop only.
 
+The header's search box on every page but home and search (compact, 38px, a "/" key hint) opens the same list under it, at least 440px wide. In a short window the list stops 12px above the bottom and scrolls inside itself, so it never stretches the page.
+
+### Find in transcript
+- A 34px field in the reader's toolbar beside Export (170px input, a search icon, then "3 of 64" in 12.5px `ink3` tabular, 26px previous and next buttons, and a clear button once there is a search). On phones a magnifier button opens it as a 54px bar fixed across the top. Matches are washed `#F7EBB0`, the current one `#EDC75A`, drawn with the browser's highlight API so the text is never rewritten. Enter and Shift+Enter step, Esc clears, "/" jumps to it.
+
+### Export menu
+- One "Export" button and menu everywhere it appears (a transcript, search results, a senator's page): a 210px float menu of 13.5px choices, each with a 12px `ink3` hint for its file type. Word documents (.docx) come first; spreadsheets (.csv) for lists; plain text and print / PDF for transcripts. On a transcript, phones show the button as an icon.
+
 ### Speaker card and bottom sheet
 - Opened from the keyboard (Enter on a focused name), the card takes the focus and Esc returns it to the name; names carry a screen-reader hint that they open a card.
 - Desktop: a 400px float popover (8px, 14px 16px) opened from a speaker label: photo, 700 15px name, 12.5px tabular meta, an "N remarks in this hearing" row between `rule2` rules with Prev/Next small toggles, then primary and outline buttons.
