@@ -1,7 +1,7 @@
 /* The transcript reader. Global (not scoped) so the many turns carry no extra attributes, and the islands can share it. */
 
 /* the bar on reader pages: crumb and actions instead of section links (as in the reader mock) */
-.bar:has(.rd-crumb) > .nav, .bar:has(.rd-crumb) > .upd { display: none; }
+.bar:has(.rd-crumb) > .nav, .bar:has(.rd-crumb) > .upd, .bar:has(.rd-crumb) > .bar-search { display: none; }
 .bar:has(.rd-crumb) .bar-slot { flex: 1; }
 .rd-crumb { font-size: 14px; color: var(--color-ink2); display: flex; gap: 8px; align-items: center; white-space: nowrap; min-width: 0; }
 .rd-crumb a:hover { color: var(--color-ink); text-decoration: underline; text-underline-offset: 2px; }

@@ -1,0 +1,218 @@
+---
+// A senator's page, as in "Senator page" (desktop) and the phone senator page.
+import Icon from "../../components/Icon.astro";
+import Photo from "../../components/Photo.astro";
+import Status from "../../components/Status.astro";
+import Base from "../../layouts/Base.astro";
+import { bill, senatorPage, senatorPageSlugs, transcriptIndex } from "../../lib/data";
+import { billStatus, hearingTitle, legalCite, plural, serviceText, shortDate } from "../../lib/format";
+import type { SenatorBillRow } from "../../lib/types";
+import { url } from "../../lib/url";
+
+export function getStaticPaths() {
+  return [...senatorPageSlugs()].map((slug) => ({ params: { slug } }));
+}
+
+const page = senatorPage(Astro.params.slug!);
+const SUFFIX = /^(Jr\.?|Sr\.?|II|III|IV)$/;
+const words = page.name.split(/\s+/).filter((w) => !SUFFIX.test(w.replace(/,$/, "")));
+const surname = words[words.length - 1] ?? page.name;
+const name = `Sen. ${page.name}`;
+
+const sessions = Object.entries(page.sessions).sort((a, b) => Number(b[0]) - Number(a[0]));
+const latestDistrict = sessions.find(([, d]) => d != null)?.[1] ?? null;
+const sessionLabel = (s: string) => `${s}–${String(Number(s) + 1).slice(2)}`;
+const service = serviceText(page.service);
+
+const exists = new Set(transcriptIndex().map((t) => t.slug));
+const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
+const billUrl = (session: number, printNo: string) => (bill(session, baseOf(printNo)) ? url(`/bills/${session}/${baseOf(printNo)}/`) : null);
+const kindLabel = (kind: "floor" | "hearing", title: string | null) =>
+  kind === "floor" ? `Floor · ${(title ?? "Session").replace(/ Session$/, "")}` : "Hearing";
+
+const recent = page.recent.filter((r) => exists.has(r.transcript)).map((r) => ({
+  ...r,
+  href: url(`/transcripts/${r.transcript}/#r-${r.turn}`),
+  cite: legalCite({ kind: r.kind, date: r.date, title: r.title ? hearingTitle(r.title) : null, start: r.page,
+    speaker: { short: `Sen. ${surname}`, full: name } }),
+  bills: [...new Set(r.bills)].map((p) => ({ printNo: p, href: billUrl(Number(r.date.slice(0, 4)) - (Number(r.date.slice(0, 4)) % 2 === 0 ? 1 : 0), p) })),
+}));
+const appearances = page.appearances.filter((a) => exists.has(a.transcript));
+const billRows = [...page.bills].sort((a, b) => b.session - a.session || b.remarks - a.remarks);
+const topBills = [...page.bills].filter((b) => b.remarks > 0).sort((a, b) => b.remarks - a.remarks).slice(0, 3);
+const billTitle = (b: SenatorBillRow) => bill(b.session, b.basePrintNo)?.card?.title ?? null;
+const role = (b: SenatorBillRow) => [b.sponsor ? "Sponsor" : "", b.remarks ? plural(b.remarks, "remark") : ""].filter(Boolean).join(" · ") || "Spoke";
+
+const exportData = JSON.stringify({
+  name, service, slug: page.slug,
+  recent: recent.map((r) => ({ date: r.date, page: r.page, text: r.text, href: r.href, kind: r.kind, title: r.title })),
+  appearances: appearances.map((a) => ({ date: a.date, title: a.title, kind: a.kind, remarks: a.remarks, presiding: a.presiding, href: url(`/transcripts/${a.transcript}/#r-${a.firstTurn}`) })),
+}).replace(/</g, "\\u003c");
+---
+<Base title={name} description={`${name}: ${service}. Remarks on the Senate floor and in public hearings, with citations to the official page.`} wide>
+  <header class="pg-head">
+    <div class="pg-in">
+      <div class="pg-crumb"><a href={url("/senators/")}>Senators</a><Icon name="chev" size={12} /><a href={url(`/senators/#${surname.charAt(0).toUpperCase()}`)}>{surname.charAt(0).toUpperCase()}</a></div>
+      <div class="pg-title">
+        {page.photo && <Photo photo={page.photo} size="lg" eager />}
+        <div>
+          <h1>{name}</h1>
+          <p class="pg-meta">
+            {latestDistrict && <><span>District {latestDistrict}</span><span>·</span></>}
+            <span>{service}</span><span>·</span>
+            <span><b class="num">{plural(page.totals.remarks, "remark")}</b> in {plural(page.totals.transcripts, "transcript")}</span>
+          </p>
+        </div>
+        <div class="acts">
+          {page.officialUrl && <a class="btn btn-quiet" href={page.officialUrl} target="_blank" rel="noopener"><Icon name="ext" size={14} />Official page</a>}
+          <button type="button" class="btn" id="export-remarks"><Icon name="dl" size={15} />Export remarks</button>
+        </div>
+      </div>
+      <nav class="tabs" aria-label="On this page">
+        <a href="#remarks" aria-current="true">Remarks<b>{page.totals.remarks.toLocaleString("en-US")}</b></a>
+        <a href="#transcripts">Transcripts<b>{appearances.length.toLocaleString("en-US")}</b></a>
+        <a href="#bills">Bills debated<b>{billRows.length.toLocaleString("en-US")}</b></a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="two">
+    <div class="two-main">
+      <section id="remarks">
+        <div class="sec-hd"><h2>Recent remarks</h2><span>Newest first</span></div>
+        <a class="within" href={url(`/search/?q=${encodeURIComponent(`speaker:${page.slug}`)}`)}><Icon name="search" size={16} />Search all of {surname}'s remarks</a>
+        {recent.length === 0 ? <p class="empty-note">No recent remarks to show.</p> : recent.map((r) => (
+          <article class="rrow">
+            <div class="c-date"><a href={r.href}><b>{shortDate(r.date)}</b></a><span>{kindLabel(r.kind, r.title)}</span></div>
+            <div>
+              {(r.bills.length > 0 || r.kind === "hearing") && (
+                <div class="who">
+                  {r.kind === "hearing" && <span class="ob hearing-t">{hearingTitle(r.title ?? "Public hearing")}</span>}
+                  {r.bills.length > 0 && <span class="ob">on {r.bills.map((b, i) => <>{i > 0 && ", "}{b.href ? <a href={b.href}>{b.printNo}</a> : b.printNo}</>)}</span>}
+                </div>
+              )}
+              <p class="q">“{r.text}”</p>
+            </div>
+            <div class="c-cite">
+              {r.page != null && <span class="pg">p. {r.page}</span>}
+              <button type="button" class="copy" data-copy={r.cite}><Icon name="copy" size={14} /><span>Copy cite</span></button>
+              <a class="ctx" href={r.href}>Read in context</a>
+            </div>
+          </article>
+        ))}
+      </section>
+
+      <section id="transcripts">
+        <div class="sec-hd"><h2>Transcripts</h2><span>{plural(appearances.length, "transcript")}, newest first</span></div>
+        <ul class="ap">
+          {appearances.map((a) => (
+            <li>
+              <span class="d num">{shortDate(a.date)}</span>
+              <a class="t" href={url(`/transcripts/${a.transcript}/#r-${a.firstTurn}`)}>{a.kind === "floor" ? a.title ?? "Floor session" : hearingTitle(a.title ?? "Public hearing")}</a>
+              <span class="m num">{[a.remarks ? plural(a.remarks, "remark") : "", a.presiding ? `presiding ${a.presiding}×` : ""].filter(Boolean).join(" · ")}</span>
+              <span class="p num">{a.firstPage != null ? `p. ${a.firstPage}` : ""}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section id="bills">
+        <div class="sec-hd"><h2>Bills debated</h2><span>{plural(billRows.length, "bill")}</span></div>
+        {billRows.length === 0 ? <p class="empty-note">No bills on record.</p> : (
+          <ul class="bl bl-wide">
+            {billRows.map((b) => {
+              const href = billUrl(b.session, b.printNo);
+              return (
+                <li>
+                  <span class="b">{href ? <a href={href}>{b.printNo}</a> : b.printNo}</span>
+                  <span class="t">{billTitle(b) ?? `${b.session}–${String(b.session + 1).slice(2)} session`}<small>{b.session}–{String(b.session + 1).slice(2)} · {role(b)}</small></span>
+                  <Status status={billStatus(bill(b.session, b.basePrintNo)?.card ?? null)} />
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </section>
+    </div>
+
+    <aside class="two-side">
+      {topBills.length > 0 && (
+        <section>
+          <h2 class="side-h2">Bills debated most</h2>
+          <ul class="bl">
+            {topBills.map((b) => {
+              const href = billUrl(b.session, b.printNo);
+              return (
+                <li>
+                  <span class="b">{b.printNo}</span>
+                  <span class="t">{href ? <a href={href}>{billTitle(b) ?? b.printNo}</a> : billTitle(b) ?? b.printNo}<small>{role(b)}</small></span>
+                  <Status status={billStatus(bill(b.session, b.basePrintNo)?.card ?? null)} />
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+      {sessions.length > 0 && (
+        <section>
+          <h2 class="side-h2">Sessions</h2>
+          <ul class="ses">
+            {sessions.map(([s, d]) => <li><span class="num">{sessionLabel(s)}</span><span>{d ? `District ${d}` : ""}</span></li>)}
+          </ul>
+        </section>
+      )}
+    </aside>
+  </div>
+  <script type="application/json" id="senator-data" set:html={exportData} />
+</Base>
+
+<script>
+  // Tabs mark the section you jumped to.
+  const tabs = [...document.querySelectorAll<HTMLAnchorElement>(".tabs a")];
+  const mark = () => {
+    const hash = location.hash || "#remarks";
+    for (const tab of tabs) tab.toggleAttribute("aria-current", tab.getAttribute("href") === hash);
+  };
+  addEventListener("hashchange", mark);
+  mark();
+
+  // "Export remarks": Markdown of the recent remarks and transcripts, made in the browser.
+  document.getElementById("export-remarks")?.addEventListener("click", () => {
+    const data = JSON.parse(document.getElementById("senator-data")!.textContent!);
+    const abs = (href: string) => new URL(href, location.href).href;
+    const lines = [`# ${data.name}`, "", data.service, "", `Source: ${location.href.split("#")[0]}`, "", "## Recent remarks", ""];
+    for (const r of data.recent) lines.push(`- ${r.date}${r.page != null ? `, p. ${r.page}` : ""}: “${r.text}” (${abs(r.href)})`);
+    lines.push("", "## Transcripts", "");
+    for (const a of data.appearances) lines.push(`- ${a.date}, ${a.title ?? (a.kind === "floor" ? "Floor session" : "Public hearing")}: ${a.remarks} remarks${a.presiding ? `, presiding ${a.presiding} times` : ""} (${abs(a.href)})`);
+    const link = Object.assign(document.createElement("a"), {
+      href: URL.createObjectURL(new Blob([lines.join("\n") + "\n"], { type: "text/markdown;charset=utf-8" })),
+      download: `${data.slug}-remarks.md`,
+    });
+    document.body.append(link);
+    link.click();
+    link.remove();
+  });
+</script>
+
+<style>
+  .ap li { display: grid; grid-template-columns: 112px minmax(0, 1fr) auto 70px; gap: 16px; padding: 10px 22px; border-bottom: 1px solid var(--color-rule2); font-size: 14px; align-items: baseline; }
+  .ap .d { font-weight: 650; }
+  .ap .t { font-weight: 550; }
+  .ap .t:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .ap .m { color: var(--color-ink2); font-size: 13px; }
+  .ap .p { color: var(--color-ink3); font-size: 12.5px; text-align: right; }
+  .bl-wide { padding: 0 22px; }
+  .hearing-t { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; overflow: hidden; }
+  .bl-wide li { grid-template-columns: 84px 1fr auto; }
+  .bl .b a { color: var(--color-act); }
+  .bl .b a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  #remarks, #transcripts, #bills { scroll-margin-top: 8px; }
+  @media (max-width: 719.98px) {
+    .ap li { grid-template-columns: 1fr auto; gap: 2px 10px; padding: 10px 16px; }
+    .ap .d { grid-column: 1; font-weight: 450; font-size: 12.5px; color: var(--color-ink3); }
+    .ap .p { grid-column: 2; grid-row: 1; }
+    .ap .t { grid-column: 1 / -1; }
+    .ap .m { grid-column: 1 / -1; }
+    .bl-wide { padding: 0 16px; }
+  }
+</style>

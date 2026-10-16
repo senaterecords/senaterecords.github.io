@@ -7,12 +7,12 @@ import { DATA_DIR } from "../lib/data";
 import { url } from "../lib/url";
 import Icon from "./Icon.astro";
 
-interface Props { photo: string | null; size?: "sm" | "md" | "lg"; }
-const { photo, size = "md" } = Astro.props;
+interface Props { photo: string | null; size?: "sm" | "md" | "lg"; eager?: boolean; }
+const { photo, size = "md", eager = false } = Astro.props;
 const SIZES = { sm: [28, 36], md: [40, 52], lg: [56, 72] } as const;
 const [w, h] = SIZES[size];
 const found = photo && existsSync(join(DATA_DIR, photo)) ? photo : null;
 ---
 {found
-  ? <img class={`photo photo-${size}`} src={url(found)} alt="" width={w} height={h} loading="lazy" decoding="async" />
+  ? <img class={`photo photo-${size}`} src={url(found)} alt="" width={w} height={h} loading={eager ? "eager" : "lazy"} decoding="async" />
   : <span class={`photo photo-${size} empty`} aria-hidden="true"><Icon name="person" size={Math.round(w * 0.85)} /></span>}

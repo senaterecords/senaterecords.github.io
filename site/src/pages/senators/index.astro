@@ -1,0 +1,70 @@
+---
+// Every senator with a page here, A–Z by surname.
+import Photo from "../../components/Photo.astro";
+import Base from "../../layouts/Base.astro";
+import { senatorPageSlugs, senators } from "../../lib/data";
+import { plural, serviceText } from "../../lib/format";
+import { url } from "../../lib/url";
+
+const SUFFIX = /^(Jr\.?|Sr\.?|II|III|IV)$/;
+const surname = (name: string) => {
+  const words = name.split(/\s+/).filter((w) => !SUFFIX.test(w.replace(/,$/, "")));
+  return words[words.length - 1] ?? name;
+};
+const sortKey = (name: string) => `${surname(name)} ${name}`.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+const pages = senatorPageSlugs();
+const listed = senators()
+  .filter((s) => pages.has(s.slug))
+  .sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name)));
+const groups = new Map<string, typeof listed>();
+for (const s of listed) {
+  const letter = sortKey(s.name).charAt(0).toUpperCase();
+  groups.set(letter, [...(groups.get(letter) ?? []), s]);
+}
+---
+<Base title="Senators" description="Every New York State senator on the record since 1993, with what each said on the floor and in hearings." wide>
+  <header class="pg-head">
+    <div class="pg-in pb">
+      <div class="pg-title"><div>
+        <h1>Senators</h1>
+        <p class="pg-meta">{plural(listed.length, "senator")} on the record since 1993</p>
+      </div></div>
+      <nav class="az" aria-label="Jump to a letter">
+        {[...groups.keys()].map((letter) => <a href={`#${letter}`}>{letter}</a>)}
+      </nav>
+    </div>
+  </header>
+  <div class="sn">
+    {[...groups].map(([letter, rows]) => (
+      <section class="sn-group" id={letter}>
+        <h2 class="sec-h2">{letter}</h2>
+        <ul>
+          {rows.map((s) => (
+            <li class="sn-row" data-before-records={s.service[0]?.beforeRecords ? "" : undefined}>
+              <Photo photo={s.photo} size="sm" />
+              <span class="sn-name"><a href={url(`/senators/${s.slug}/`)}>{s.name}</a><small>{serviceText(s.service)}</small></span>
+              <span class="sn-count num">{plural(s.remarks, "remark")}<small>{plural(s.transcripts, "transcript")}</small></span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .az { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 14px; }
+  .az a { font-size: 13px; font-weight: 650; min-width: 28px; text-align: center; padding: 3px 6px; border: 1px solid var(--color-rule); border-radius: 5px; background: #fff; color: var(--color-ink2); }
+  .az a:hover { border-color: var(--color-ink); color: var(--color-ink); }
+  .sn { max-width: 1280px; margin: 0 auto; padding: 8px 32px 0; columns: 2 460px; column-gap: 48px; }
+  .sn-group { break-inside: avoid; padding-top: 18px; scroll-margin-top: 12px; }
+  .sn-row { display: grid; grid-template-columns: 28px 1fr auto; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--color-rule); }
+  .sn-name { min-width: 0; font-weight: 600; font-size: 14.5px; }
+  .sn-name a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .sn-name small, .sn-count small { display: block; font-weight: 400; font-size: 12.5px; color: var(--color-ink3); }
+  .sn-count { text-align: right; font-size: 13px; color: var(--color-ink2); }
+  @media (max-width: 719.98px) {
+    .sn { padding: 0 16px; columns: 1; }
+  }
+</style>

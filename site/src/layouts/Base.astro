@@ -14,8 +14,10 @@ interface Props {
   description?: string;
   /** Full-width pages (reader, search) manage their own columns. */
   wide?: boolean;
+  /** The search field in the bar; the homepage and the search page have their own. */
+  barSearch?: boolean;
 }
-const { title, description, wide = false } = Astro.props;
+const { title, description, wide = false, barSearch = true } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -28,8 +30,20 @@ const { title, description, wide = false } = Astro.props;
     <slot name="head" />
   </head>
   <body>
-    <Header><slot name="bar" /></Header>
+    <Header search={barSearch}><slot name="bar" /></Header>
     <main class={wide ? "wide" : "wrap"}><slot /></main>
     <Footer />
+    <script>
+      // "Copy cite" and similar buttons copy their data-copy text.
+      document.addEventListener("click", async (event) => {
+        const button = (event.target as Element).closest<HTMLButtonElement>("button[data-copy]");
+        if (!button) return;
+        const label = button.querySelector("span") ?? button;
+        const before = label.textContent;
+        try { await navigator.clipboard.writeText(button.dataset.copy!); label.textContent = "Copied"; }
+        catch { label.textContent = "Couldn't copy"; }
+        setTimeout(() => (label.textContent = before), 1600);
+      });
+    </script>
   </body>
 </html>

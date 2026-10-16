@@ -24,7 +24,7 @@ const debated = billsFor(session)
 const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
   !pages ? "" : kind === "hearing" ? `${pages[1] - pages[0] + 1} pp.` : plainPages(pages[0], pages[1]);
 ---
-<Base title="Search the Senate record" description="Find what any New York State senator said, follow a bill's debate, and cite the exact page.">
+<Base barSearch={false} title="Search the Senate record" description="Find what any New York State senator said, follow a bill's debate, and cite the exact page.">
   <section class="hm">
     <h1>Search the Senate record</h1>
     <p class="lede">Find what any senator said, follow a bill's debate, and cite the exact page. More than thirty years of New York State Senate transcripts, in one place.</p>

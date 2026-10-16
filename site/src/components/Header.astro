@@ -7,6 +7,8 @@ import { longDate } from "../lib/format";
 import { url } from "../lib/url";
 import Icon from "./Icon.astro";
 
+interface Props { search?: boolean; }
+const { search = true } = Astro.props;
 const path = Astro.url.pathname;
 const LINKS: [string, string, string[]][] = [
   ["Transcripts", "/browse/", ["/browse/", "/transcripts/"]],
@@ -20,6 +22,13 @@ const updatedAt = meta().updatedAt;
 <header class="bar">
   <a class="mark" href={url("/")}><span class="sig"><Icon name="sig" size={14} /></span>{SITE_NAME}</a>
   <div class="bar-slot"><slot /></div>
+  {search && (
+    <form class="bar-search" action={url("/search/")} role="search">
+      <Icon name="search" size={17} />
+      <input type="search" name="q" placeholder="Search transcripts" aria-label="Search transcripts" autocomplete="off" />
+      <kbd aria-hidden="true">/</kbd>
+    </form>
+  )}
   <nav class="nav" aria-label="Sections">
     {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
   </nav>
@@ -41,6 +50,14 @@ const updatedAt = meta().updatedAt;
   for (const el of document.querySelectorAll<HTMLTimeElement>("time[data-updated]")) {
     el.textContent = `Updated ${relativeTime(el.dataset.updated!, nyClock(new Date()))}`;
   }
+  // "/" jumps to the search field in the bar, as most sites with search do.
+  document.addEventListener("keydown", (event) => {
+    const field = document.querySelector<HTMLInputElement>(".bar-search input");
+    const target = event.target as HTMLElement;
+    if (event.key !== "/" || !field || field.offsetParent === null || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName) || target.isContentEditable) return;
+    event.preventDefault();
+    field.focus();
+  });
   // Close the phone menu when the reader taps outside it.
   document.addEventListener("click", (event) => {
     const menu = document.querySelector<HTMLDetailsElement>("details.menu[open]");

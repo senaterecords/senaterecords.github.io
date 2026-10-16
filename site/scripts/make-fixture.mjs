@@ -23,6 +23,13 @@ const write = (rel, data) => {
   writeFileSync(path, JSON.stringify(data, null, 1) + "\n");
 };
 const baseOf = (printNo) => printNo.match(/^[SA]\d+/)[0];
+// The pipeline's _clip: collapse whitespace, cut at a word near the limit, end with an ellipsis.
+const clip = (text, limit) => {
+  text = text.split(/\s+/).filter(Boolean).join(" ");
+  if (text.length <= limit) return text;
+  const cut = text.lastIndexOf(" ", limit);
+  return text.slice(0, cut > limit / 2 ? cut : limit).replace(/[ ,;:]+$/, "") + "…";
+};
 
 rmSync(OUT, { recursive: true, force: true });
 const docs = SLUGS.map((slug) => read(`transcripts/${slug}.json`));
@@ -71,7 +78,16 @@ for (const slug of speaking) {
   if (!existsSync(join(SRC, `senators/${slug}.json`))) continue;
   const page = read(`senators/${slug}.json`);
   page.appearances = page.appearances.filter((a) => keep.has(a.transcript));
-  page.recent = page.recent.filter((r) => keep.has(r.transcript));
+  // Recent remarks are rebuilt from the kept transcripts the way the pipeline builds them (newest 20 senator or
+  // chair turns), so pages in the fixture have remarks even when the senator's latest ones are elsewhere.
+  page.recent = docs
+    .flatMap((doc) => doc.turns
+      .filter((t) => t.senator === slug && (t.role === "senator" || t.role === "chair"))
+      .map((t) => ({ key: [doc.date, doc.slug, t.i], item: { transcript: doc.slug, date: doc.date, kind: doc.kind,
+        title: doc.title || doc.sessionType, turn: t.i, page: t.page, text: clip(t.text, 400), bills: t.bills } })))
+    .sort((a, b) => (b.key[0] + b.key[1]).localeCompare(a.key[0] + a.key[1]) || b.key[2] - a.key[2])
+    .slice(0, 20)
+    .map((r) => r.item);
   page.bills = page.bills.filter((b) => billKeys.has(`${b.session}/${b.basePrintNo}`));
   page.totals = {
     remarks: page.appearances.reduce((n, a) => n + a.remarks, 0),

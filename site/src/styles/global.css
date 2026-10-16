@@ -116,6 +116,67 @@
   .sbx-search .sbx-go { height: 44px; }
   .sbx-search .sbx-under { margin-top: 8px; }
 
+  /* search field in the bar (Header.astro), as in the pages mocks */
+  .bar-search { flex: 0 1 460px; height: 38px; display: flex; align-items: center; gap: 10px; border: 1px solid #B9BFC6; border-radius: 6px; padding: 0 8px 0 12px; background: #fff; color: var(--color-ink3); }
+  .bar-search:focus-within { border-color: var(--color-ink); box-shadow: 0 0 0 3px var(--color-act-wash); }
+  .bar-search input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: 450 15px var(--font-ui); color: var(--color-ink); }
+  .bar-search input::placeholder { color: var(--color-ink3); opacity: 1; }
+  .bar-search kbd { color: var(--color-ink3); border-bottom-width: 1px; }
+
+  /* page header band and two columns (senator, bill, bills, browse pages) */
+  .pg-head { background: var(--color-pane); border-bottom: 1px solid var(--color-rule); }
+  .pg-in { max-width: 1280px; margin: 0 auto; padding: 24px 32px 0; }
+  .pg-in.pb { padding-bottom: 20px; }
+  .pg-crumb { font-size: 13px; color: var(--color-ink3); margin-bottom: 8px; display: flex; gap: 6px; align-items: center; }
+  .pg-crumb a:hover { color: var(--color-ink); text-decoration: underline; text-underline-offset: 2px; }
+  .pg-title { display: flex; align-items: flex-start; gap: 16px; }
+  .pg-title h1 { font-size: 30px; font-weight: 750; letter-spacing: -0.015em; line-height: 1.15; }
+  .pg-title h1.serif { font-family: var(--font-read); font-weight: 700; font-size: 28px; letter-spacing: 0; line-height: 1.25; }
+  .pg-title .acts { margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px; }
+  .pg-title .photo-xl { width: 48px; height: 62px; }
+  .pg-meta { margin-top: 6px; font-size: 14px; color: var(--color-ink2); display: flex; gap: 6px; flex-wrap: wrap; }
+  .pg-meta b { color: var(--color-ink); font-weight: 650; }
+  .pg-meta a { color: var(--color-ink); font-weight: 650; text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
+  .tabs { display: flex; gap: 24px; margin-top: 18px; font-weight: 600; font-size: 14px; color: var(--color-ink2); white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .tabs a { padding-bottom: 12px; }
+  .tabs a:hover { color: var(--color-ink); }
+  .tabs a[aria-current] { color: var(--color-ink); box-shadow: inset 0 -2px 0 var(--color-ink); }
+  .tabs b { font-weight: 500; color: var(--color-ink3); font-variant-numeric: tabular-nums; margin-left: 4px; }
+  .two { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 340px; }
+  .two-main { background: var(--color-pane); border-right: 1px solid var(--color-rule); border-left: 1px solid var(--color-rule); min-width: 0; }
+  .two-side { padding: 20px 24px; min-width: 0; }
+  .two-side section { margin-bottom: 22px; }
+  .side-h2 { font-size: 13px; font-weight: 700; margin: 0 0 8px; }
+  .sec-hd { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 16px 22px 10px; border-bottom: 1px solid var(--color-rule2); scroll-margin-top: 12px; }
+  .sec-hd h2 { font-size: 15px; font-weight: 700; }
+  .sec-hd span { font-size: 13px; color: var(--color-ink3); }
+  .bl li { display: grid; grid-template-columns: 70px 1fr auto; gap: 10px; padding: 9px 0; border-bottom: 1px solid var(--color-rule); align-items: baseline; }
+  .bl .b { font-weight: 700; font-variant-numeric: tabular-nums; font-size: 13px; }
+  .bl .t { font-family: var(--font-read); font-size: 14.5px; line-height: 1.35; min-width: 0; }
+  .bl .t a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .bl .t small { display: block; font-family: var(--font-ui); color: var(--color-ink3); font-size: 12.5px; margin-top: 2px; }
+  .ses li { display: flex; justify-content: space-between; gap: 10px; font-size: 13.5px; padding: 6px 0; border-bottom: 1px dotted var(--color-rule); }
+  .ses li > :last-child { color: var(--color-ink3); font-variant-numeric: tabular-nums; }
+  .ses a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .within { display: flex; align-items: center; gap: 10px; margin: 14px 22px; height: 38px; border: 1px solid #B9BFC6; border-radius: 6px; padding: 0 12px; color: var(--color-ink3); font-size: 14.5px; background: #fff; }
+  a.within:hover { border-color: var(--color-ink); color: var(--color-ink); }
+
+  /* a remark row (senator pages, search results), as in the results mock */
+  .rrow { display: grid; grid-template-columns: 112px minmax(0, 1fr) 158px; gap: 18px; padding: 16px 22px 16px 20px; border-bottom: 1px solid var(--color-rule2); }
+  .rrow .c-date b { display: block; font-weight: 650; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+  .rrow .c-date a:hover b { text-decoration: underline; text-underline-offset: 2px; }
+  .rrow .c-date span { font-size: 12.5px; color: var(--color-ink3); }
+  .rrow .who { font-size: 13.5px; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; margin-bottom: 5px; }
+  .rrow .who b { font-weight: 700; }
+  .rrow .who .ob { color: var(--color-ink2); font-size: 12.5px; }
+  .rrow .who .ob a { color: var(--color-ink); font-weight: 650; text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
+  .rrow .q { font-family: var(--font-read); font-size: 15.5px; line-height: 1.5; color: #1D232B; overflow-wrap: anywhere; }
+  .rrow .c-cite { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; border-left: 1px solid var(--color-rule2); padding-left: 16px; }
+  .rrow .c-cite .pg { font-weight: 700; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .copy, .ctx { font: 650 12.5px var(--font-ui); color: var(--color-act); display: inline-flex; gap: 6px; align-items: center; background: none; border: 0; padding: 0; }
+  .copy:hover, .ctx:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .empty-note { padding: 22px; color: var(--color-ink3); font-size: 14px; }
+
   /* footer */
   .foot { margin-top: 56px; border-top: 1px solid var(--color-rule); font-size: 12.5px; color: var(--color-ink3); }
   .foot-in { max-width: 1088px; margin: 0 auto; padding: 18px 24px 28px; display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; }
@@ -154,6 +215,28 @@
     .sbx-tipbox::before { right: auto; left: 28px; }
     .sbx-cols { grid-template-columns: 1fr; gap: 14px; }
     .foot-in { padding: 16px 16px 24px; }
+    .bar-search { display: none; }
+    .pg-in { padding: 16px 16px 0; }
+    .pg-title { gap: 14px; flex-wrap: wrap; }
+    .pg-title h1 { font-size: 23px; }
+    .pg-title h1.serif { font-size: 22px; }
+    .pg-title .acts { margin-left: 0; width: 100%; padding-top: 0; }
+    .pg-meta { font-size: 13px; }
+    .tabs { gap: 22px; margin-top: 14px; }
+    .tabs a { padding-bottom: 11px; }
+    .two { display: block; }
+    .two-main { border: 0; }
+    .two-side { padding: 18px 16px; }
+    .within { margin: 12px 16px; }
+    .sec-hd { padding: 14px 16px 8px; }
+    .rrow { display: block; padding: 14px 16px; }
+    .rrow .c-date { display: flex; gap: 6px; font-size: 12.5px; color: var(--color-ink3); }
+    .rrow .c-date b { display: inline; font-size: 12.5px; color: var(--color-ink); }
+    .rrow .c-date span::before { content: "· "; }
+    .rrow .who { margin: 6px 0 0; }
+    .rrow .q { margin-top: 6px; }
+    .rrow .c-cite { flex-direction: row; gap: 16px; border: 0; padding: 0; margin-top: 10px; align-items: baseline; }
+    .rrow .c-cite .pg { font-size: 12.5px; }
     .foot .upd { margin-left: 0; }
   }
   @media (min-width: 720px) {
