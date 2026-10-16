@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { SpeakerInfo } from "../lib/speakers";
-import { readerData, surname, turnSection } from "./readerData";
+import { keyOfTurn, readerData, surname, turnSection } from "./readerData";
 import { clientOnly, Icon } from "./ui";
 
 const OPEN_DELAY = 300;
@@ -131,7 +131,7 @@ function Cards() {
     if (!article) return;
     article.classList.toggle("only", !!only);
     for (const section of article.querySelectorAll<HTMLElement>("section.turn")) {
-      section.hidden = !!only && section.dataset.key !== only.key;
+      section.hidden = !!only && keyOfTurn(section) !== only.key;
     }
   }, [only]);
 

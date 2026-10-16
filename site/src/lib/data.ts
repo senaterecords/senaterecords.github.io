@@ -42,11 +42,19 @@ export function bill(session: number, base: string): BillEntry | undefined {
   return map.get(base);
 }
 
+const getsPage = (b: BillEntry) => b.session >= BILL_DATA_START || b.segments.length > 0;
+
+/** Whether /bills/{session}/{base}/ exists: the same rule as billPages(). */
+export function hasBillPage(session: number, base: string): boolean {
+  const entry = bill(session, base);
+  return !!entry && getsPage({ ...entry, session });
+}
+
 /** Every bill from 2009 on gets a page; earlier bills only when read on the floor (they have debates, no details). */
 export function billPages(): { session: number; base: string; printNo: string }[] {
   return billSessions().flatMap((session) =>
     billsFor(session)
-      .filter((b) => session >= BILL_DATA_START || b.segments.length > 0)
+      .filter((b) => getsPage({ ...b, session }))
       .map((b) => ({ session, base: b.basePrintNo, printNo: b.card?.printNo ?? b.basePrintNo })),
   );
 }

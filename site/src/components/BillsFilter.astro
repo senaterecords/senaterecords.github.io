@@ -65,7 +65,7 @@ import Icon from "./Icon.astro";
   apply();
 </script>
 
-<style>
+<style is:global>
   .bf { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
   .bf-find { flex: 0 1 460px; height: 36px; border: 1px solid #B9BFC6; border-radius: 6px; display: flex; align-items: center; gap: 10px; padding: 0 12px; color: var(--color-ink3); background: #fff; }
   .bf-find:focus-within { border-color: var(--color-ink); box-shadow: 0 0 0 3px var(--color-act-wash); }

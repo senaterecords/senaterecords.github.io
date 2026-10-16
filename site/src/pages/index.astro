@@ -25,6 +25,12 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
   !pages ? "" : kind === "hearing" ? `${pages[1] - pages[0] + 1} pp.` : plainPages(pages[0], pages[1]);
 ---
 <Base barSearch={false} title="Search the Senate record" description="Find what any New York State senator said, follow a bill's debate, and cite the exact page.">
+  <script is:inline slot="head">
+    // Until the search box's script starts, keep clicks on its controls and what is typed (slow connections).
+    window.__otrEarlyClicks=[];window.__otrEarlyTyped=new Map();
+    document.addEventListener("input",function(e){if(e.target instanceof HTMLInputElement&&e.target.closest("astro-island[ssr]"))window.__otrEarlyTyped.set(e.target,e.target.value)},true);
+    document.addEventListener("click",function(e){var i=e.target instanceof Element&&e.target.closest("astro-island[ssr]");var c=i&&e.target.closest("button,[role=button],input[type=checkbox],input[type=radio]");if(!c||c.type==="submit")return;window.__otrEarlyClicks.push(c);e.preventDefault()},true);
+  </script>
   <section class="hm">
     <h1>Search the Senate record</h1>
     <p class="lede">Find what any senator said, follow a bill's debate, and cite the exact page. More than thirty years of New York State Senate transcripts, in one place.</p>
@@ -69,7 +75,7 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
   </section>
 </Base>
 
-<style>
+<style is:global>
   .hm { padding: 64px 0 0; }
   .hm h1 { font-size: 36px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 10px; }
   .lede { font-family: var(--font-read); font-size: 18px; color: var(--color-ink2); margin-bottom: 26px; max-width: 640px; }
@@ -77,14 +83,14 @@ const pagesText = (pages: [number, number] | null, kind: "floor" | "hearing") =>
   .dk, .md { display: grid; gap: 14px; padding: 11px 0; border-bottom: 1px solid var(--color-rule); align-items: baseline; }
   .dk { grid-template-columns: 96px 1fr auto; font-size: 14px; }
   .md { grid-template-columns: 74px 1fr auto; gap: 12px; }
-  .d { font-weight: 650; }
-  .m { color: var(--color-ink3); font-size: 12.5px; white-space: nowrap; }
-  .t { min-width: 0; }
-  .t a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
-  .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
-  .t small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .hm .d { font-weight: 650; }
+  .hm .m { color: var(--color-ink3); font-size: 12.5px; white-space: nowrap; }
+  .hm .t { min-width: 0; }
+  .hm .t a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+  .hm .t a:hover { text-decoration: underline; text-decoration-color: #A9B0B8; text-underline-offset: 2px; }
+  .hm .t small { display: block; font-weight: 400; color: var(--color-ink3); font-size: 12.5px; margin-top: 2px; font-variant-numeric: tabular-nums; }
   .dk .t a { font-weight: 550; }
-  .b { font-weight: 750; font-size: 13.5px; }
+  .hm .b { font-weight: 750; font-size: 13.5px; }
   .md .t a { font-family: var(--font-read); font-size: 15px; line-height: 1.35; }
   .md .t small { font-family: var(--font-ui); }
 

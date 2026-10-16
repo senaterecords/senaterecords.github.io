@@ -32,6 +32,12 @@ describe("the fixture data", () => {
     expect(pages.filter((p) => p.session < 2009).every((p) => (data.bill(p.session, p.base)?.segments.length ?? 0) > 0)).toBe(true);
   });
 
+  it("says whether a bill has a page, by the same rule that makes the pages", () => {
+    for (const p of data.billPages()) expect(data.hasBillPage(p.session, p.base)).toBe(true);
+    expect(data.hasBillPage(1995, "A3147")).toBe(false); // in the data, never read on the floor
+    expect(data.hasBillPage(2025, "S99999")).toBe(false);
+  });
+
   it("lists years with transcript counts, newest first", () => {
     const years = data.years();
     expect(years[0].year).toBeGreaterThan(years[years.length - 1].year);

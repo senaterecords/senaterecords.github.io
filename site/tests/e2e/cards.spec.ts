@@ -37,7 +37,7 @@ test("Show only filters the transcript to one speaker", async ({ page }) => {
   await page.locator('h3.sp[data-key="liz-krueger"]').first().click();
   await page.getByRole("button", { name: "Show only Krueger" }).click();
   await expect(page.getByText("Showing only Sen. Liz Krueger")).toBeVisible();
-  await expect(page.locator('section.turn:not([hidden]):not([data-key="liz-krueger"])')).toHaveCount(0);
+  await expect(page.locator('section.turn:not([hidden]):not(:has(> h3[data-key="liz-krueger"]))')).toHaveCount(0);
 });
 
 test("a senator from before 2009 has a card without a photo", async ({ page }) => {

@@ -4,7 +4,7 @@ import Icon from "../../components/Icon.astro";
 import Photo from "../../components/Photo.astro";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
-import { bill, senatorPage, senatorPageSlugs, transcriptIndex } from "../../lib/data";
+import { bill, hasBillPage, senatorPage, senatorPageSlugs, transcriptIndex } from "../../lib/data";
 import { billStatus, hearingTitle, legalCite, plural, serviceText, shortDate } from "../../lib/format";
 import type { SenatorBillRow } from "../../lib/types";
 import { url } from "../../lib/url";
@@ -26,7 +26,7 @@ const service = serviceText(page.service);
 
 const exists = new Set(transcriptIndex().map((t) => t.slug));
 const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
-const billUrl = (session: number, printNo: string) => (bill(session, baseOf(printNo)) ? url(`/bills/${session}/${baseOf(printNo)}/`) : null);
+const billUrl = (session: number, printNo: string) => (hasBillPage(session, baseOf(printNo)) ? url(`/bills/${session}/${baseOf(printNo)}/`) : null);
 const kindLabel = (kind: "floor" | "hearing", title: string | null) =>
   kind === "floor" ? `Floor · ${(title ?? "Session").replace(/ Session$/, "")}` : "Hearing";
 
@@ -194,7 +194,7 @@ const exportData = JSON.stringify({
   });
 </script>
 
-<style>
+<style is:global>
   .ap li { display: grid; grid-template-columns: 112px minmax(0, 1fr) auto 70px; gap: 16px; padding: 10px 22px; border-bottom: 1px solid var(--color-rule2); font-size: 14px; align-items: baseline; }
   .ap .d { font-weight: 650; }
   .ap .t { font-weight: 550; }

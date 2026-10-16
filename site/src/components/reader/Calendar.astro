@@ -1,6 +1,6 @@
 ---
 // The left rail of a floor transcript: one row per calendar reading, jumping to it and linking its bill page.
-import { bill } from "../../lib/data";
+import { hasBillPage } from "../../lib/data";
 import type { Segment } from "../../lib/types";
 import { url } from "../../lib/url";
 
@@ -17,7 +17,7 @@ const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
         <ul>
           {segments.map((s) => {
             const base = s.printNo ? baseOf(s.printNo) : null;
-            const linked = base && bill(session, base);
+            const linked = base && hasBillPage(session, base);
             return (
               <li data-start={s.startTurn}>
                 <a class="n num" href={`#r-${s.startTurn}`} title="Go to this reading">{s.calNo}</a>

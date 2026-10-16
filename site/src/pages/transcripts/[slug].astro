@@ -11,7 +11,7 @@ import ReaderNav from "../../components/ReaderNav";
 import SpeakerCards from "../../components/SpeakerCards";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
-import { assembly, bill, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex } from "../../lib/data";
+import { assembly, bill, hasBillPage, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex } from "../../lib/data";
 import { billStatus, hearingTitle, longDate, placeText, plainPages, plural, transcriptTitle, weekdayDate } from "../../lib/format";
 import { speakerData } from "../../lib/speakers";
 import { url } from "../../lib/url";
@@ -44,13 +44,15 @@ const segments = doc.segments.map((s) => {
   return {
     calNo: s.calNo, printNo: s.printNo, startTurn: s.startTurn, endTurn: s.endTurn, debateEnd: s.debateEnd, debated: s.debated,
     title: card?.title ?? null, status: billStatus(card), sponsor: (card?.sponsor?.name ?? s.sponsor) ? `${s.printNo?.startsWith("A") ? "Asm." : "Sen."} ${card?.sponsor?.name ?? s.sponsor}` : null,
-    url: s.printNo && card ? url(`/bills/${doc.session}/${baseOf(s.printNo)}/`) : null,
+    url: s.printNo && hasBillPage(doc.session, baseOf(s.printNo)) ? url(`/bills/${doc.session}/${baseOf(s.printNo)}/`) : null,
     outcome: s.outcome, ayes: s.ayes, nays: s.nays, remarks: s.remarks,
   };
 });
+// Speakers' turn lists are left out: the islands read them from the page (lib: readerData.ts).
+const cardData = Object.fromEntries(Object.entries(speakers).map(([key, { remarks: _r, presiding: _p, ...card }]) => [key, card]));
 const readerData = {
   slug: doc.slug, kind: doc.kind, date: doc.date, title: doc.kind === "hearing" ? name : doc.sessionType,
-  session: doc.session, speakers, segments,
+  session: doc.session, speakers: cardData, segments,
 };
 const json = JSON.stringify(readerData).replace(/</g, "\\u003c");
 const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).length;

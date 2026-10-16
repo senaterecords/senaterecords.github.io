@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState, type MouseEvent } from "react";
 import { createPortal } from "react-dom";
 import { legalCite, plainCite, speakerForms, type CiteInput, type SpeakerKind } from "../lib/format";
-import { readerData } from "./readerData";
+import { keyOfTurn, pageOfTurn, readerData } from "./readerData";
 import { clientOnly, Icon } from "./ui";
 
 const PHONE = "(max-width: 640px)";
@@ -14,7 +14,7 @@ interface Picked { text: string; cite: CiteInput; remark: number | null; top: nu
 function pageAt(node: Node, offset: number, turn: HTMLElement): number | null {
   const point = document.createRange();
   point.setStart(node, offset);
-  let page = turn.dataset.page ? Number(turn.dataset.page) : null;
+  let page = pageOfTurn(turn);
   for (const pb of turn.querySelectorAll<HTMLElement>(".pb")) {
     if (point.comparePoint(pb, 0) < 0) page = Number(pb.id.slice(1)) || Number(pb.textContent?.replace(/\D/g, "")) || page;
   }
@@ -25,7 +25,8 @@ const turnOf = (node: Node | null) => (node instanceof Element ? node : node?.pa
 
 function speakerOf(turn: HTMLElement): CiteInput["speaker"] {
   const label = turn.querySelector("h3.sp")?.textContent?.trim() ?? "";
-  const info = turn.dataset.key ? readerData().speakers[turn.dataset.key] : undefined;
+  const key = keyOfTurn(turn);
+  const info = key ? readerData().speakers[key] : undefined;
   if (!label) return { short: "", full: "" };
   if (!info) return speakerForms("other", label);
   const kind: SpeakerKind = info.kind;

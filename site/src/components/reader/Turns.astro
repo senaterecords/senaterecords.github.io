@@ -1,6 +1,6 @@
 ---
 // The transcript text. Markup contract (search and the islands depend on it):
-//   <section class="turn" data-i data-role data-key data-page>
+//   <section class="turn" data-i data-role [data-page, only on turns without a label]>
 //     <h3 id="r-{i}" class="sp [sen]" data-key><span id="w-{i}-{page|0}-{key|x}">Label</span></h3><p>…</p>
 //   </section>
 // Page breaks are <div class="pb" id="p{page}"><b>p. N</b><i></i></div> between paragraphs, or the same as a <span>
@@ -29,7 +29,7 @@ const chunks = Array.from({ length: Math.ceil(rows.length / CHUNK) }, (_, i) => 
 {chunks.map((chunk) => (
   <div class="chunk" style={`--h:${estimateHeight(chunk.map((row) => row.t))}`}>
     {chunk.map(({ t, key, gutter, blocks }) => (
-      <section class="turn" data-i={t.i} data-role={t.role} data-key={key ?? undefined} data-page={t.page ?? undefined}>
+      <section class="turn" data-i={t.i} data-role={t.role} data-page={t.label ? undefined : t.page ?? undefined}>
         {gutter != null && <span class="g" id={pageId(gutter)} data-pagefind-ignore>{gutter}</span>}
         {t.label && (
           <h3 id={`r-${t.i}`} class:list={["sp", { sen: key && SPOKEN.has(t.role) }]} data-key={key ?? undefined}>

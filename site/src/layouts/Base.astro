@@ -28,22 +28,6 @@ const { title, description, wide = false, barSearch = true } = Astro.props;
     {description && <meta name="description" content={description} />}
     <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
     <slot name="head" />
-    <script is:inline>
-      // Until an island's script starts, remember clicks on its controls so they still count (slow connections).
-      // Submit buttons are left alone: their forms submit on their own.
-      window.__otrEarlyClicks = [];
-      window.__otrEarlyTyped = new Map();
-      document.addEventListener("input", function (e) {
-        if (e.target instanceof HTMLInputElement && e.target.closest("astro-island[ssr]")) window.__otrEarlyTyped.set(e.target, e.target.value);
-      }, true);
-      document.addEventListener("click", function (e) {
-        var island = e.target instanceof Element && e.target.closest("astro-island[ssr]");
-        var control = island && e.target.closest("button, [role=button], input[type=checkbox], input[type=radio]");
-        if (!control || control.type === "submit") return;
-        window.__otrEarlyClicks.push(control);
-        e.preventDefault();
-      }, true);
-    </script>
   </head>
   <body>
     <Header search={barSearch}><slot name="bar" /></Header>

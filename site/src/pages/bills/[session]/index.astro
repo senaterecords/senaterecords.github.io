@@ -83,10 +83,10 @@ const sessions = [...billSessions()].reverse();
   pick?.addEventListener("change", () => (location.href = pick.value));
 </script>
 
-<style>
+<style is:global>
   .pick { position: relative; display: inline-flex; align-items: center; }
   .pick select { appearance: none; height: 32px; border: 1px solid #B9BFC6; border-radius: 6px; background: #fff; padding: 0 30px 0 12px; font: 600 13px var(--font-ui); color: var(--color-ink); cursor: pointer; }
-  .pick :global(.icon) { position: absolute; right: 10px; pointer-events: none; color: var(--color-ink2); }
+  .pick .icon { position: absolute; right: 10px; pointer-events: none; color: var(--color-ink2); }
   .pre { margin-top: 10px; font-size: 13.5px; color: var(--color-ink2); }
   .bf-wrap { margin-top: 16px; }
   .bt { max-width: 1280px; margin: 0 auto; background: var(--color-pane); padding: 0 32px 24px; border-left: 1px solid var(--color-rule); border-right: 1px solid var(--color-rule); }
