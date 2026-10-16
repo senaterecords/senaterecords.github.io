@@ -42,14 +42,14 @@ test("Enter searches what was typed until a suggestion is chosen", async ({ page
   await page.getByRole("searchbox").pressSequentially("rent ye");
   await expect(page.getByRole("option", { name: "year:" })).toBeVisible();
   await page.keyboard.press("Enter");
-  await expect(page).toHaveURL(/search\/\?q=rent%20ye$/);
+  await expect(page).toHaveURL(/search\/\?q=rent(%20|\+)ye$/); // "+" when the form is sent before the script starts
 });
 
 test("whole words like bill stay words", async ({ page }) => {
   await page.goto("./");
   await page.getByRole("searchbox").pressSequentially("school bill");
   await page.keyboard.press("Enter");
-  await expect(page).toHaveURL(/search\/\?q=school%20bill$/);
+  await expect(page).toHaveURL(/search\/\?q=school(%20|\+)bill$/);
 });
 
 test("a speaker: left ambiguous on Enter asks which person", async ({ page }) => {
