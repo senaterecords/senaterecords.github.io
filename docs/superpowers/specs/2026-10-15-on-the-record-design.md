@@ -244,7 +244,7 @@ The format is to be confirmed with users. **Export** is generated in the browser
 - **Instant suggestions:** as you type, small JSON lists (`senators.json` and a bill index) offer "Senator Marisol Ortega" or "S4597-A" directly.
 - **Shortcut suggestions:** typing a shortcut opens a suggestion list. `speaker:` lists senators (photo, district, years served, remarks), then Assembly members who speak in hearings. Any part of the name matches (first, middle, last, either half of a double-barrelled name), ignoring case, accents and apostrophes, with the matched letters in bold. A shared surname lists every holder with their years, so the user picks instead of the search guessing; a `speaker:` left ambiguous on Enter asks "Which Smith?". `year:` lists years with transcript counts, `bill:` lists bills from a bill index split by print-number prefix (a small new pipeline output), `type:` lists floor sessions and hearings, and a partial shortcut ("sp") suggests the shortcut itself. Arrow keys, Enter and Esc work. Nicknames outside the official name need an alias list if they come up.
 - **The query layer (our code in the browser):**
-  - parses `"exact phrase"`, `AND` (also the default between words), `OR`, `NOT` or `-term`, `speaker:`, `bill:`, `year:` and `type:`. On the homepage, three example searches sit under the box (click to fill it in; hover shows what each finds) beside a "Search tips" link that opens a panel listing every option with an example and a plain description, ending with a mixed example. No motion
+  - parses `"exact phrase"`, `AND` (also the default between words), `OR`, `NOT` or `-term`, `NEAR` (within a few words, checked in the remark text), `speaker:`, `bill:`, `year:` (one year or a range such as `2015-2019`), `type:` (`floor` or `hearing`) and `committee:`; the Search tips panel lists them in two groups, "Words" and "Narrow it down". On the homepage, three example searches sit under the box (click to fill it in; hover shows what each finds) beside a "Search tips" link that opens a panel listing every option with an example and a plain description, ending with a mixed example. No motion
   - turns field prefixes into Pagefind filters
   - runs one Pagefind search per OR branch and merges the results
   - removes remarks that contain any `-term`
@@ -337,10 +337,7 @@ The format is to be confirmed with users. **Export** is generated in the browser
 
 ## 14. Undecided (owner: user)
 
-- the final site name ("On the Record" is the working name)
-- the page-break label: keep the citator style `*5781`, or use the plainer "Page 5781"
-- the exact citation format
-- separate pages per bill, for Google indexing, link previews and lighter pages. The recommendation is a page for every bill read on the floor, with bills only mentioned in passing kept in the session file. Measure the size in Plan 2 before deciding; 2025 alone has 1,767 bills read on the floor and 2,217 mentioned.
+- the final site name, before launch. The build uses "On the Record" (decided 2026-10-16); changing it is one setting.
 
 ## 15. Setup needed from the user
 
@@ -368,6 +365,9 @@ The format is to be confirmed with users. **Export** is generated in the browser
 | Special-session bills linked only when published for the session | a wrong link is worse than none: the regular bill of the same number was being linked |
 | No "unofficial" notice (2026-10-16) | the user's decision; the About page still names the source and its known gaps |
 | No formal accessibility target (2026-10-16) | the user's decision; the site keeps ordinary good practice (real text, headings, labelled buttons) without auditing against WCAG |
+| A page for every bill (2026-10-16) | read on the floor (about 23,000), discussed in a hearing or mentioned in passing (about 6,800): every bill link on the site opens our page. Lean pages (card plus links into transcripts, no copied text), about 120 MB in all; Plan 2 measures one session first |
+| Page breaks shown as "p. 5781" (2026-10-16) | plain and compact, matching search results; star paging (`*5781`) is lawyer's shorthand |
+| Citations in legal style, plain one click away (2026-10-16) | "N.Y. Senate Tr., June 10, 2025, at 5780 (remarks of Sen. Ortega)" by default; "NY Senate floor transcript, June 10, 2025, p. 5780 (Sen. Marisol Ortega)" from the same menu |
 | A plain About page (2026-10-16) | what the site does, that the data comes from the Senate's Open Legislation API, hourly updates, citing by official page, and the archive's size; no list of gaps or quality percentages, which professional sites don't publish |
 | Homepage search without motion (2026-10-16) | flipping examples inside the box read as typed text; three clickable examples under the box and a Search tips panel (with a pointer to its link) were clearer. Shortcut suggestions (`speaker:`, `year:`, `bill:`) match any part of a name and resolve shared surnames by choice |
 | Mobile designed before building (2026-10-16) | all screens at 390 px (`mocks/src/mobile.html`): a menu button, back arrows, the senator card and citation tools as bottom sheets (phones can't hover), the reader's calendar and bill details as a bar on top with next and previous remark at the bottom, a vertical bill timeline, cards in place of tables, and filters behind one button |

@@ -112,7 +112,7 @@
   .hm-search { position: relative; }
   .hm-field .typed { display: none; color: var(--ink); }
   body.ac .hm-field .typed { display: inline; }
-  body.ac .hm-field .ph { display: none; }
+  body.ac .hm-field .phd { display: none; }
   body.ac .hm-field { border-color: var(--ink); box-shadow: 0 0 0 3px var(--act-wash); }
   .caret { display: inline-block; width: 1.5px; height: 20px; background: var(--ink); vertical-align: -4px; margin-left: 1px; }
   .acbox { display: none; position: absolute; left: 0; right: 108px; top: 58px; z-index: 3; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 6px 0 4px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); }
@@ -128,7 +128,9 @@
   .acbox .foot { display: flex; gap: 16px; margin-top: 4px; padding: 8px 16px 4px; border-top: 1px solid var(--rule2); font-size: 12px; color: var(--ink3); }
   .acbox .foot kbd { font: 650 11px 'Archivo'; color: var(--ink2); border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: #fff; margin-right: 4px; }
   .tipbox::before { content: ''; position: absolute; top: -7px; right: 28px; width: 12px; height: 12px; background: #fff; border-left: 1px solid var(--rule); border-top: 1px solid var(--rule); transform: rotate(45deg); }  /* points at Search tips */
-  .tipbox { display: none; position: absolute; right: 0; top: 31px; width: 470px; z-index: 2; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 14px 18px 16px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); }
+  .tipbox .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 26px; }
+  .tipbox dd b { font-weight: 650; color: var(--ink); }
+  .tipbox { display: none; position: absolute; right: 0; top: 31px; width: 700px; z-index: 2; background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 14px 18px 16px; box-shadow: 0 2px 4px rgba(22,27,34,.08), 0 16px 32px -12px rgba(22,27,34,.28); }
   body.tips .tipbox { display: block; }
   .tipbox h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; }
   .tipbox dl { display: grid; grid-template-columns: auto 1fr; gap: 9px 14px; align-items: baseline; font-size: 13px; color: var(--ink2); }
@@ -332,7 +334,7 @@
     <p class="lede">Find what any senator said, follow a bill's debate, and cite the exact page. More than thirty years of New York State Senate transcripts, in one place.</p>
     <div class="hm-scope hm-top"><div class="seg"><span class="on">All records</span><span>Floor sessions</span><span>Public hearings</span></div></div>
     <div class="hm-search">
-      <div class="hm-field"><svg width="20" height="20"><use href="#i-search"/></svg><span class="ph">Search for a senator, a bill, or what was said</span><span class="typed">speaker:ort<i class="caret"></i></span></div>
+      <div class="hm-field"><svg width="20" height="20"><use href="#i-search"/></svg><span class="phd">Search for a senator, a bill, or what was said</span><span class="typed">speaker:ort<i class="caret"></i></span></div>
       <button class="ct-primary">Search</button>
       <div class="acbox">
         <h4>Senators</h4>
@@ -356,18 +358,27 @@
       </div>
       <a class="tips">Search tips</a>
       <div class="tipbox">
-        <h3>Search tips</h3>
-        <dl>
-          <dt><code>congestion pricing</code></dt><dd>remarks with both words</dd>
-          <dt><code>"congestion pricing"</code></dt><dd>this exact phrase</dd>
-          <dt><code>"tolls" "fares"</code></dt><dd>both phrases in one remark</dd>
-          <dt><code>tolls OR fares</code></dt><dd>either word</dd>
-          <dt><code>tolls NOT bridge</code></dt><dd>tolls, but not bridge</dd>
-          <dt><code>speaker:Ortega</code></dt><dd>only Senator Ortega's remarks</dd>
-          <dt><code>bill:S4597</code></dt><dd>every transcript that mentions S4597</dd>
-          <dt><code>year:2019</code></dt><dd>only 2019</dd>
-        </dl>
-        <p>Mix them freely: <code>rent speaker:Krueger year:2019</code></p>
+        <div class="cols">
+          <div><h3>Words</h3>
+            <dl>
+              <dt><code>tolls fares</code></dt><dd>both words</dd>
+              <dt><code>"toll revenue"</code></dt><dd>this exact phrase</dd>
+              <dt><code>"tolls" "fares"</code></dt><dd>both phrases, one remark</dd>
+              <dt><code>tolls OR fares</code></dt><dd>either word</dd>
+              <dt><code>tolls NOT bridge</code></dt><dd>leave out bridge (or <b>-bridge</b>)</dd>
+              <dt><code>tolls NEAR fares</code></dt><dd>within a few words</dd>
+            </dl></div>
+          <div><h3>Narrow it down</h3>
+            <dl>
+              <dt><code>speaker:Ortega</code></dt><dd>one senator's remarks</dd>
+              <dt><code>bill:S4597</code></dt><dd>transcripts that mention it</dd>
+              <dt><code>year:2019</code></dt><dd>one year</dd>
+              <dt><code>year:2015-2019</code></dt><dd>a range of years</dd>
+              <dt><code>type:hearing</code></dt><dd>hearings only (or <b>floor</b>)</dd>
+              <dt><code>committee:Health</code></dt><dd>one committee's hearings</dd>
+            </dl></div>
+        </div>
+        <p>Mix them freely: <code>rent speaker:Krueger year:2015-2019</code></p>
       </div>
     </div>
     <div class="hm-cols">
