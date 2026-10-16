@@ -47,5 +47,6 @@ test("a list row shows a soft highlight while the pointer is over it, and the ru
   const tint = () => row.evaluate((el) => getComputedStyle(el, "::before").backgroundColor);
   expect(["rgba(0, 0, 0, 0)", "transparent"]).toContain(await tint());
   await row.hover();
-  expect(["rgba(0, 0, 0, 0)", "transparent"]).not.toContain(await tint());
+  // The tint fades in over 0.12 s, so a slow machine can read its first frame: wait for it.
+  await expect.poll(tint).not.toMatch(/^(rgba\(0, 0, 0, 0\)|transparent)$/);
 });
