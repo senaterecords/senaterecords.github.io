@@ -202,6 +202,14 @@ a.hn-bill:hover { text-decoration: underline; text-underline-offset: 2px; }
 .keys kbd { margin-right: 4px; }
 #headnote-default[hidden] { display: none; }
 
+/* Until the reader's script fills in the bill being read (after a link into a reading), a quiet placeholder stands in. */
+.hn-wait i { display: block; height: 11px; border-radius: 4px; background: #ECEFF1; margin-bottom: 12px; }
+.hn-wait i:nth-child(1) { width: 38%; height: 14px; }
+.hn-wait i:nth-child(2) { width: 92%; }
+.hn-wait i:nth-child(3) { width: 70%; margin-bottom: 22px; }
+.hn-wait i:nth-child(4) { width: 55%; }
+#headnote-live:has(.hn-live) .hn-wait { display: none; }
+
 /* missing remark notice */
 .rd-notice { margin: 0 48px 14px 96px; padding: 10px 14px; border: 1px solid #E8D9B5; background: #FBF6EA; border-radius: 6px; font-size: 13.5px; color: var(--color-ink); max-width: 68ch; }
 .rd-notice button { font: 650 13px var(--font-ui); color: var(--color-act); background: none; border: 0; padding: 0; margin-left: 6px; text-decoration: underline; text-underline-offset: 2px; }

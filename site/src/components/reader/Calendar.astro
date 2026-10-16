@@ -22,7 +22,7 @@ const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
             const base = s.printNo ? baseOf(s.printNo) : null;
             const linked = base && hasBillPage(session, base);
             return (
-              <li data-start={s.startTurn}>
+              <li data-start={s.startTurn} data-end={Math.max(s.endTurn, s.startTurn)}>
                 <a class="go" href={`#r-${s.startTurn}`}>
                   <span class="n num">{s.calNo}</span>
                   <span class="p">

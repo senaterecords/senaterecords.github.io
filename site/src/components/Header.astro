@@ -35,6 +35,17 @@ const updatedAt = meta().updatedAt;
       {LINKS.map(([name, href, prefixes]) => <a href={url(href)} aria-current={current(prefixes)}>{name}</a>)}
     </nav>
     <span class="upd"><i></i><time data-updated={updatedAt}>Updated {longDate(updatedAt)}</time></span>
+    <script is:inline>
+      // "Updated 5 min ago" before the first paint, so the full date never shows and then changes. The same rule as
+      // relativeTime in lib/format.ts; the time is New York's, like the update stamp.
+      (function () {
+        var now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
+        document.querySelectorAll("time[data-updated]").forEach(function (el) {
+          var m = Math.max(0, Math.round((now - new Date(el.dataset.updated)) / 60000)), h = Math.round(m / 60), d = Math.round(h / 24);
+          el.textContent = "Updated " + (m < 1 ? "just now" : m < 60 ? m + " min ago" : h < 24 ? h + " hour" + (h === 1 ? "" : "s") + " ago" : d + " day" + (d === 1 ? "" : "s") + " ago");
+        });
+      })();
+    </script>
   </>}
   <div class="bar-tools">
     <a class="ib" href={url("/search/")} aria-label="Search"><Icon name="search" size={20} /></a>
@@ -50,11 +61,6 @@ const updatedAt = meta().updatedAt;
 </header>
 
 <script>
-  import { nyClock, relativeTime } from "../lib/format";
-
-  for (const el of document.querySelectorAll<HTMLTimeElement>("time[data-updated]")) {
-    el.textContent = `Updated ${relativeTime(el.dataset.updated!, nyClock(new Date()))}`;
-  }
   // "/" jumps to the search field in the bar, as most sites with search do.
   document.addEventListener("keydown", (event) => {
     const field = document.querySelector<HTMLInputElement>(".bar-search input");

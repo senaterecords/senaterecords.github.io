@@ -34,10 +34,21 @@ function turnAt(y: number): number | null {
   return hit ? indexOfTurn(hit) : null;
 }
 
+/** The reading a turn belongs to: the last one starting at or before it, if the turn is within it. */
+function readingOf(segments: ReaderSegment[], turn: number): ReaderSegment | null {
+  const seg = [...segments].reverse().find((s) => s.startTurn <= turn) ?? null;
+  return seg && turn <= Math.max(seg.endTurn, seg.startTurn) ? seg : null;
+}
+
 function ReaderNav() {
   const data = readerData();
   const [remarks, setRemarks] = useState<Remark[]>([]);
-  const [segment, setSegment] = useState<ReaderSegment | null>(null);
+  // A link to a remark starts on its reading, as the page's inline script assumed before the first paint, so the side
+  // pane never falls back to the overview while the text is still being laid out.
+  const [segment, setSegment] = useState<ReaderSegment | null>(() => {
+    const linked = /^#r-(\d+)$/.exec(location.hash);
+    return linked ? readingOf(data.segments, Number(linked[1])) : null;
+  });
   const [currentTurn, setCurrentTurn] = useState<number | null>(null);
   const [missing, setMissing] = useState(false);
   const [calendarOpen, setCalendarOpen] = useState(false);
@@ -98,8 +109,7 @@ function ReaderNav() {
       const turn = turnAt(window.innerHeight / 2);
       if (turn == null) return;
       setCurrentTurn(turn);
-      const seg = [...data.segments].reverse().find((s) => s.startTurn <= turn) ?? null;
-      setSegment(seg && turn <= Math.max(seg.endTurn, seg.startTurn) ? seg : null);
+      setSegment(readingOf(data.segments, turn));
     };
     const onScroll = () => { if (!frame) frame = requestAnimationFrame(update); };
     update();

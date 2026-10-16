@@ -189,3 +189,37 @@ test("each kind of speaker has its own quiet shade: members, the chair of the da
   expect(new Set(shades).size).toBe(4);
   expect(await shade(hearing, "chair")).toBe(shades[0]); // chairs and Assembly members read as members
 });
+
+test("a link into a bill's reading never shows the transcript overview in the side pane first", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto("transcripts/2025-03-04-regular-session/");
+  // A remark inside the first reading that has one.
+  const id = await page.evaluate(() => {
+    for (const li of document.querySelectorAll<HTMLElement>(".rd-cal li[data-start]")) {
+      const start = Number(li.dataset.start), end = Number(li.dataset.end);
+      const remark = [...document.querySelectorAll<HTMLElement>("section.turn[id^='r-']")].find((s) => { const n = Number(s.id.slice(2)); return n >= start && n <= end; });
+      if (remark) return remark.id;
+    }
+    return null;
+  });
+  expect(id).not.toBeNull();
+  // Note every time the overview is shown again after the page first hid it.
+  await page.addInitScript(() => {
+    const w = window as unknown as { __shownAgain: number };
+    w.__shownAgain = 0;
+    new MutationObserver((changes) => {
+      for (const c of changes) if (c.target instanceof HTMLElement && c.target.id === "headnote-default" && c.oldValue !== null && !c.target.hidden) w.__shownAgain += 1;
+    }).observe(document, { subtree: true, attributes: true, attributeFilter: ["hidden"], attributeOldValue: true });
+  });
+  // Hold the reader's first script back, as a slow connection would (the rest load in a chain after it); watch from
+  // the first bytes, before it runs.
+  await page.route("**/_astro/ReaderScripts*.js", async (route) => { await new Promise((done) => setTimeout(done, 3000)); await route.continue(); });
+  await page.goto(`transcripts/2025-03-04-regular-session/?x=1#${id}`, { waitUntil: "commit" });
+  await expect(page.locator(".hn-wait")).toBeVisible({ timeout: 2500 });
+  expect(await page.locator("#headnote-default").isHidden()).toBe(true);
+  // Once the reader's script runs, the bill's details take the placeholder's place, and the overview never came back.
+  await expect(page.locator(".hn-live")).toBeVisible({ timeout: 15000 });
+  await expect(page.locator(".hn-wait")).toBeHidden();
+  expect(await page.evaluate(() => (window as unknown as { __shownAgain: number }).__shownAgain)).toBe(0);
+});
+

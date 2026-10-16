@@ -125,6 +125,26 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         </div>
       </div>
     </aside>
+    <script is:inline>
+      // Before the first paint: a link into a bill's reading marks its calendar row and shows a placeholder here, not
+      // the transcript overview that the reader's script would swap for the bill a moment later (same rule as
+      // ReaderNav: the last reading starting at or before the remark, if the remark is within it).
+      (function () {
+        var m = /^#r-(\d+)$/.exec(location.hash);
+        if (!m) return;
+        var n = Number(m[1]);
+        var rows = document.querySelectorAll(".rd-cal li[data-start]");
+        for (var i = rows.length - 1; i >= 0; i--) {
+          if (Number(rows[i].dataset.start) > n) continue;
+          if (n <= Number(rows[i].dataset.end)) {
+            rows[i].classList.add("cur");
+            document.getElementById("headnote-default").hidden = true;
+            document.getElementById("headnote-live").insertAdjacentHTML("afterbegin", '<div class="hn-wait" aria-hidden="true"><i></i><i></i><i></i><i></i></div>');
+          }
+          return;
+        }
+      })();
+    </script>
   </div>
 
   <script type="application/json" id="reader-data" set:html={json} />

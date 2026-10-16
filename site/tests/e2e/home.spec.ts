@@ -48,3 +48,11 @@ test("pro forma days in the latest transcripts read as legislative days", async 
   await expect(page.getByRole("link", { name: "Legislative day" })).toBeVisible();
   await expect(page.getByText("No business conducted").first()).toBeVisible();
 });
+
+test("the last update reads as time ago from the first paint, never as a date that then changes", async ({ page }) => {
+  // Hold the site's scripts back, as a slow connection would: the label must already be right without them.
+  await page.route("**/_astro/*.js", async (route) => { await new Promise((done) => setTimeout(done, 3000)); await route.continue(); });
+  await page.goto("browse/", { waitUntil: "commit" }); // "DOM ready" would wait for the held-back scripts
+  await expect(page.locator("time[data-updated]").first()).toHaveText(/^Updated (just now|\d+ (min|hours?|days?) ago)$/, { timeout: 1500 });
+});
+
