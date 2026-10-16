@@ -1,4 +1,5 @@
 // Small pieces shared by the React islands.
+import { useEffect, useState, type ComponentType } from "react";
 import { ICONS, type IconName } from "../lib/icons";
 
 export function Icon({ name, size = 16, className }: { name: IconName; size?: number; className?: string }) {
@@ -8,4 +9,13 @@ export function Icon({ name, size = 16, className }: { name: IconName; size?: nu
     <svg className={className ? `icon ${className}` : "icon"} width={size} height={Math.round((size * h) / w)} viewBox={viewBox}
       aria-hidden="true" focusable="false" dangerouslySetInnerHTML={{ __html: body }} />
   );
+}
+
+/** Wraps an island that reads the page (embedded data, the DOM) so the build renders nothing for it. */
+export function clientOnly(Component: ComponentType) {
+  return function ClientOnly() {
+    const [mounted, setMounted] = useState(false);
+    useEffect(() => setMounted(true), []);
+    return mounted ? <Component /> : null;
+  };
 }

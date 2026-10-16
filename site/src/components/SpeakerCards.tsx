@@ -4,7 +4,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 import { createPortal } from "react-dom";
 import type { SpeakerInfo } from "../lib/speakers";
 import { readerData, surname, turnSection } from "./readerData";
-import { Icon } from "./ui";
+import { clientOnly, Icon } from "./ui";
 
 const OPEN_DELAY = 300;
 const CLOSE_DELAY = 200;
@@ -214,9 +214,5 @@ function Cards() {
   );
 }
 
-/** Renders only in the browser (it reads the page's embedded data); the build renders nothing here. */
-export default function SpeakerCards() {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
-  return mounted ? <Cards /> : null;
-}
+/** Renders only in the browser (it reads the page's embedded data). */
+export default clientOnly(Cards);

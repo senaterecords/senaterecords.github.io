@@ -6,6 +6,7 @@ export interface ReaderSegment {
   printNo: string | null;
   startTurn: number;
   endTurn: number;
+  debateEnd: number;
   debated: boolean;
   title: string | null;
   status: { text: string; tone: "red" | "amber" | "ink" } | null;

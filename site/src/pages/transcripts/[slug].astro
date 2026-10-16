@@ -5,6 +5,9 @@ import Icon from "../../components/Icon.astro";
 import Calendar from "../../components/reader/Calendar.astro";
 import HearingSpeakers from "../../components/reader/HearingSpeakers.astro";
 import Turns from "../../components/reader/Turns.astro";
+import CiteTools from "../../components/CiteTools";
+import ExportMenu from "../../components/ExportMenu";
+import ReaderNav from "../../components/ReaderNav";
 import SpeakerCards from "../../components/SpeakerCards";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
@@ -39,8 +42,8 @@ const committees = doc.committees.map(hearingTitle);
 const segments = doc.segments.map((s) => {
   const card = s.printNo ? bill(doc.session, baseOf(s.printNo))?.card ?? null : null;
   return {
-    calNo: s.calNo, printNo: s.printNo, startTurn: s.startTurn, endTurn: s.endTurn, debated: s.debated,
-    title: card?.title ?? null, status: billStatus(card), sponsor: card?.sponsor?.name ?? (s.sponsor ? `Sen. ${s.sponsor}` : null),
+    calNo: s.calNo, printNo: s.printNo, startTurn: s.startTurn, endTurn: s.endTurn, debateEnd: s.debateEnd, debated: s.debated,
+    title: card?.title ?? null, status: billStatus(card), sponsor: (card?.sponsor?.name ?? s.sponsor) ? `${s.printNo?.startsWith("A") ? "Asm." : "Sen."} ${card?.sponsor?.name ?? s.sponsor}` : null,
     url: s.printNo && card ? url(`/bills/${doc.session}/${baseOf(s.printNo)}/`) : null,
     outcome: s.outcome, ayes: s.ayes, nays: s.nays, remarks: s.remarks,
   };
@@ -61,7 +64,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
       <b>{monthDay} · {name}</b>
     </nav>
     <div class="rd-ttl"><span>{longDate(doc.date)}</span><small>{name}{pages && ` · ${pages}`}</small></div>
-    <div class="rd-acts" id="rd-acts"></div>
+    <div class="rd-acts" id="rd-acts"><ExportMenu client:load /></div>
   </Fragment>
 
   <div class="rd">
@@ -94,6 +97,8 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
 
     <aside class="rd-rail rd-side" aria-label="About this transcript">
       <div class="rail-in" id="headnote">
+        <div id="headnote-live"></div>
+        <div id="headnote-default">
         <h2 class="hn-title">{doc.kind === "floor" ? name : "Public hearing"}</h2>
         {doc.kind === "hearing" && <p class="hn-sub serif">{name}</p>}
         <dl class="hn-dl">
@@ -105,12 +110,15 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
           {spokeCount > 0 && <><dt>Speakers</dt><dd class="num">{plural(spokeCount, doc.kind === "floor" ? "senator" : "member")}</dd></>}
           {doc.kind === "floor" && segments.length > 0 && <><dt>Calendar</dt><dd class="num">{plural(segments.length, "reading")}</dd></>}
         </dl>
+        </div>
       </div>
     </aside>
   </div>
 
   <script type="application/json" id="reader-data" set:html={json} />
   <SpeakerCards client:load />
+  <CiteTools client:load />
+  <ReaderNav client:load />
 </Base>
 
 <script>
