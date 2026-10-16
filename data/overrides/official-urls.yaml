@@ -4,4 +4,53 @@
 # Each entry: member is "senate:{memberId}" or "assembly:{memberId}"; url is the right address, or null for none.
 # Run `python -m nyleg check-official` to list addresses that don't answer, then review them by hand
 # (the Senate site answers some automated requests with 403 even for valid pages).
-[]
+
+# Senate addresses that differ from the name pattern, each checked in a browser on 2026-10-16.
+- member: senate:374
+  url: https://www.nysenate.gov/senators/william-larkin  # William J. Larkin Jr.
+- member: senate:376
+  url: https://www.nysenate.gov/senators/john-defrancisco  # John A. DeFrancisco
+- member: senate:393
+  url: https://www.nysenate.gov/senators/joseph-griffo  # Joseph A. Griffo
+- member: senate:405
+  url: https://www.nysenate.gov/senators/malcolm-smith  # Malcolm A. Smith
+- member: senate:435
+  url: https://www.nysenate.gov/senators/kathleen-marchione  # Kathleen A. Marchione
+- member: senate:885
+  url: https://www.nysenate.gov/senators/robert-g-ortt  # Robert Ortt
+- member: senate:891
+  url: https://www.nysenate.gov/senators/terrence-murphy  # Terrence P. Murphy
+- member: senate:893
+  url: https://www.nysenate.gov/senators/thomas-d-croci  # Thomas Croci
+- member: senate:913
+  url: https://www.nysenate.gov/senators/fred-akshar  # Fredrick J. Akshar II
+- member: senate:1222
+  url: https://www.nysenate.gov/senators/james-gaughran  # Jim Gaughran
+- member: senate:1224
+  url: https://www.nysenate.gov/senators/anna-m-kaplan  # Anna Kaplan
+- member: senate:1236
+  url: https://www.nysenate.gov/senators/robert-antonacci  # Bob Antonacci
+- member: senate:1490
+  url: https://www.nysenate.gov/senators/daniel-g-stec  # Dan Stec
+- member: senate:1491
+  url: https://www.nysenate.gov/senators/sean-m-ryan  # Sean Ryan
+- member: senate:1492
+  url: https://www.nysenate.gov/senators/mario-r-mattera  # Mario Mattera
+- member: senate:1498
+  url: https://www.nysenate.gov/senators/john-w-mannion  # John Mannion
+- member: senate:1500
+  url: https://www.nysenate.gov/senators/samra-g-brouk  # Samra Brouk
+- member: senate:1502
+  url: https://www.nysenate.gov/senators/edward-rath-iii  # Edward Rath
+- member: senate:1516
+  url: https://www.nysenate.gov/senators/steven-d-rhoads  # Steve Rhoads
+- member: senate:1518
+  url: https://www.nysenate.gov/senators/bill-weber  # William Weber
+- member: senate:1519
+  url: https://www.nysenate.gov/senators/rob-rolison  # Robert Rolison
+- member: senate:1522
+  url: https://www.nysenate.gov/senators/jacob-ashby  # Jake Ashby
+- member: senate:1551
+  url: https://www.nysenate.gov/senators/christopher-j-ryan  # Christopher Ryan
+- member: senate:1575
+  url: https://www.nysenate.gov/senators/jeremy-j-zellner  # Jeremy Zellner
