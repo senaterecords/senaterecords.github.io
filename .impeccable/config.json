@@ -11,6 +11,15 @@
         ],
         "createdAt": "2026-10-16T01:34:53.541Z",
         "reason": "Claude: uppercase is used only for short kicker, nav and section labels in a throwaway brainstorming mockup, not body passages"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/src/dir-citator-pages.html"
+        ],
+        "createdAt": "2026-10-16T02:16:51.897Z",
+        "reason": "Claude: flagged elements are fixed-height, vertically centered search fields and tabs that sit on the header rule by design, in a user-approved mock"
       }
     ]
   }
