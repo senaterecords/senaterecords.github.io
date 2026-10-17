@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
-  EVERY_PAGE, excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
+  billPlaces, EVERY_PAGE, excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
   toggleShortcut, topShortcuts, yearShortcuts, type Branch,
 } from "../../src/lib/query";
 
@@ -511,5 +511,26 @@ describe("the shortcuts the filters beside the results show and change", () => {
     expect(yearShortcuts([2024, 2019, 2020, 2022, 2023])).toBe("year:2019-2020 year:2022-2024");
     expect(yearShortcuts([2015])).toBe("year:2015");
     expect(yearShortcuts([])).toBe("");
+  });
+});
+
+describe("a bill search keeps to the bill's own remarks", () => {
+  const remark = (turn: number) => ({ url: `/t/#r-${turn}`, turn, page: 3, speaker: null, label: "", text: "Read the last section.", breaks: [] as [number, number][] });
+  const places = billPlaces("A10176=632-643,700|S4149=12-20");
+
+  it("reads the places a transcript records", () => {
+    expect([...places!]).toEqual([["A10176", [[632, 643], [700, 700]]], ["S4149", [[12, 20]]]]);
+    expect(billPlaces(undefined)).toBeUndefined();
+  });
+
+  it("keeps remarks in the bill's reading and debate, or that mention it, and only those", () => {
+    const b = parseQuery("bill:A10176").branches[0];
+    expect(keepRemark(remark(632), b, null, [], undefined, places)).toBe(true);
+    expect(keepRemark(remark(643), b, null, [], undefined, places)).toBe(true);
+    expect(keepRemark(remark(700), b, null, [], undefined, places)).toBe(true);
+    expect(keepRemark(remark(1), b, null, [], undefined, places)).toBe(false);
+    expect(keepRemark(remark(15), b, null, [], undefined, places)).toBe(false);
+    // Without recorded places, a transcript keeps all its remarks.
+    expect(keepRemark(remark(1), b)).toBe(true);
   });
 });

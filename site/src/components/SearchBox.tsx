@@ -46,7 +46,7 @@ const RULES: [string, [string, string][]][] = [
     ["year:2015-2019", "a year or a range"],
     ["type:hearing", "hearings only, or type:floor"],
     ["committee:Health", "one committee's hearings"],
-    ["bill:S4597", "transcripts that mention the bill"],
+    ["bill:S4597", "the bill: its reading, its debate and remarks that mention it"],
     ["-speaker:Krueger", "a minus in front leaves any of these out"],
   ]],
 ];

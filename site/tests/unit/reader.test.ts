@@ -69,4 +69,16 @@ describe("bill numbers in the text", () => {
     ]);
     expect(billRefs("Calendar Number 12, the bill is passed.")).toEqual([]);
   });
+
+  it("finds print numbers written compactly, and leaves short or glued codes alone", () => {
+    const text = "explain my vote on my bill, S9051B. Last year's S1507-C; S5040/A7046; No. A08587.";
+    expect(billRefs(text).map((r) => [text.slice(r.start, r.end), r.base])).toEqual([
+      ["S9051B", "S9051"],
+      ["S1507-C", "S1507"],
+      ["S5040", "S5040"],
+      ["A7046", "A7046"],
+      ["A08587", "A8587"],
+    ]);
+    expect(billRefs("a Class A1 felony, the S2 form, route NY-A100, an Airbus A320 and BS1234")).toEqual([]);
+  });
 });

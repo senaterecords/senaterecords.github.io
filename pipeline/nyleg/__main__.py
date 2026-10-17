@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 
 from . import sync
 from .api import ApiError, AuthError, Client
-from .bills import load_bill_fixes
+from .bills import MENTION_RULES, load_bill_fixes
 from .quality import gate
 from .senators import session_year
 from .sitedata import build_all
@@ -98,10 +98,17 @@ def cmd_sync(args: argparse.Namespace) -> int:
     current = session_year(now.date())
     result.merge(sync.sync_members(client, store, current))
     result.merge(sync.sync_photos(store))
-    scan = sync.bill_scan_paths(store, result.changed, args.rescan_bills)
+    # When the pipeline learns to read more ways of naming a bill (MENTION_RULES), every stored record is read again,
+    # once; bills past the budget stay pending for the next runs.
+    rescan = args.rescan_bills or store.load_state().get("bill_mentions_read_with") != MENTION_RULES
+    scan = sync.bill_scan_paths(store, result.changed, rescan)
     fixes = load_bill_fixes(store.root / "overrides" / "bills.yaml")
     result.merge(sync.fetch_bills(client, store, sync.wanted_bills(scan, fixes), budget=args.bill_budget,
                                   today=now.date(), refresh_session=current, workers=args.parallel))
+    if rescan:
+        state = store.load_state()
+        state["bill_mentions_read_with"] = MENTION_RULES
+        store.save_state(state)
     print(f"{len(result.changed)} raw files added or updated")
     if result.changed:
         # When new records last arrived: what the site's "Updated" says (a rebuild for code alone doesn't move it).

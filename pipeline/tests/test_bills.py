@@ -221,3 +221,14 @@ def test_adopted_resolutions_get_an_outcome():
     ]
     (segment,) = segment_calendar(turns)
     assert segment.outcome == "adopted"
+
+
+def test_find_bills_reads_print_numbers_written_compactly():
+    # Speakers and witnesses often name a bill by its print number alone.
+    text = ("I rise today to explain my vote on my bill, S9051B. As proposed in Legislative Bill Numbers S8142 and A11418; "
+            "last year's budget bill, S1507-C; S5040/A7046, to expand access.")
+    assert find_bills(text) == ["S9051B", "S8142", "A11418", "S1507C", "S5040", "A7046"]
+
+
+def test_find_bills_leaves_short_or_glued_codes_alone():
+    assert find_bills("a Class A1 felony, the S2 form, route NY-A100, an Airbus A320 and BS1234") == []

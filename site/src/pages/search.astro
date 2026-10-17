@@ -37,7 +37,8 @@ import Base from "../layouts/Base.astro";
   @keyframes sr-shimmer { from { background-position: 100% 0; } to { background-position: 0 0; } }
   @keyframes sr-turn { to { transform: rotate(360deg); } }
   @media (prefers-reduced-motion: reduce) { .skel .bar, .sr-spin { animation: none; } }
-  .sr-where { margin-left: auto; }
+  /* The controls sit at the right: from the switch when the search offers it, else from Sort. */
+  .sr-where, .sr-head :not(.sr-where) + .sr-sort { margin-left: auto; }
   :is(.sr-sort, .sr-where) select { height: 32px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; padding: 0 10px; font: 550 13.5px var(--font-ui); color: var(--color-ink2); }
   .sr-where-g { display: none; }
   .sr-where-g .seg { display: flex; width: 100%; margin: 0; }
@@ -78,6 +79,7 @@ import Base from "../layouts/Base.astro";
     .sr-status { font-size: 14px; width: 100%; }
     .sr-filters { display: inline-flex; }
     .sr-where { display: none; }
+    .sr-head :not(.sr-where) + .sr-sort { margin-left: 0; }
     .sheet .sr-where-g { display: block; }
     .sr-body { display: block; }
     .sr-facets { display: none; }

@@ -42,6 +42,13 @@ const billBases = [...new Set([
   ...doc.segments.flatMap((s) => (s.printNo ? [baseOf(s.printNo)] : [])),
 ])];
 const committees = doc.committees.map(hearingTitle);
+// Where each bill is in the transcript, for search to keep a bill: search to its remarks: the turns of each reading and
+// its debate, and each turn that mentions it ("A10176=632-643,700|S4149=12-20"; Pagefind keeps it with the text).
+const places = new Map<string, [number, number][]>();
+const placeAt = (base: string, from: number, to: number) => places.set(base, [...(places.get(base) ?? []), [from, to]]);
+for (const s of doc.segments) if (s.printNo) placeAt(baseOf(s.printNo), s.startTurn, Math.max(s.endTurn, s.debateEnd ?? s.endTurn));
+for (const t of doc.turns) for (const base of new Set(t.bills.map(baseOf))) placeAt(base, t.i, t.i);
+const billPlaces = [...places].map(([base, spans]) => `${base}=${spans.sort((a, b) => a[0] - b[0]).map(([a, b]) => (a === b ? `${a}` : `${a}-${b}`)).join(",")}`).join("|");
 
 const segments = doc.segments.map((s) => {
   const card = s.printNo ? bill(doc.session, baseOf(s.printNo))?.card ?? null : null;
@@ -96,6 +103,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
         <span hidden data-pagefind-filter={`session:${doc.session}`}></span>
         {senatorKeys.map((key) => <span hidden data-pagefind-filter={`senator:${key}`}></span>)}
         {billBases.map((base) => <span hidden data-pagefind-filter={`bill:${base}`}></span>)}
+        {billPlaces && <span hidden data-pagefind-meta={`bills:${billPlaces}`}></span>}
         {committees.map((c) => <span hidden data-pagefind-filter={`committee:${c}`}></span>)}
         <span hidden data-pagefind-meta={`title:${displayTitle}`}></span>
         <span hidden data-pagefind-meta={`date:${doc.date}`}></span>

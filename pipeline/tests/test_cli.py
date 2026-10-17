@@ -1,6 +1,7 @@
 import pytest
 
 from nyleg.__main__ import EXIT_AUTH, EXIT_GATE, api_client, emit, main, years
+from nyleg.bills import MENTION_RULES
 from nyleg.store import Store, read_json, write_json
 
 
@@ -53,7 +54,8 @@ def fake_sync(monkeypatch, checked=None, arrived=None):
 
 def test_sync_reports_no_state_change_when_only_the_last_synced_time_moved(tmp_path, monkeypatch, capsys):
     store = Store(tmp_path / "data")
-    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00", "bills_checked": {"2025/S1": "2026-10-10"}})
+    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00", "bills_checked": {"2025/S1": "2026-10-10"},
+                      "bill_mentions_read_with": MENTION_RULES})
     fake_sync(monkeypatch)
     assert main(["--data", str(store.root), "sync"]) == 0
     out = capsys.readouterr().out
@@ -194,3 +196,19 @@ def test_hearings_are_relisted_once_a_day_however_many_morning_runs_there_are(tm
     monkeypatch.setattr(cli, "new_york_now", lambda: cli.datetime(2026, 10, 18, 7, 5))
     assert main(["--data", str(store.root), "sync", "--hearings"]) == 0
     assert len(listed) == 2
+
+
+def test_new_ways_of_reading_bill_mentions_read_every_stored_record_once(tmp_path, monkeypatch, capsys):
+    from nyleg import sync
+
+    store = Store(tmp_path / "data")
+    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00", "bill_mentions_read_with": MENTION_RULES - 1})
+    fake_sync(monkeypatch)
+    scans = []
+    real = sync.bill_scan_paths
+    monkeypatch.setattr(sync, "bill_scan_paths", lambda store, changed, rescan: scans.append(rescan) or real(store, changed, rescan))
+    assert main(["--data", str(store.root), "sync"]) == 0
+    assert "state_changed=true" in capsys.readouterr().out  # kept, so the next run doesn't read them all again
+    assert main(["--data", str(store.root), "sync"]) == 0
+    assert scans == [True, False]
+    assert store.load_state()["bill_mentions_read_with"] == MENTION_RULES

@@ -350,6 +350,31 @@ export interface Remark { url: string; turn: number; page: number | null; speake
 /** A transcript's filter values, as Pagefind keeps them with its text: year, type, committee, bill, session. */
 export type PageFilters = Record<string, string[]>;
 
+/** Where each bill is in a transcript: the turns of its readings and debate, and each turn that mentions it. */
+export type BillPlaces = Map<string, [number, number][]>;
+
+/** The places a transcript page records with its text ("A10176=632-643,700|S4149=12-20"). */
+export function billPlaces(meta: string | undefined): BillPlaces | undefined {
+  if (!meta) return undefined;
+  const out: BillPlaces = new Map();
+  for (const part of meta.split("|")) {
+    const [bill, spans] = part.split("=");
+    if (!bill || !spans) continue;
+    out.set(bill, spans.split(",").map((span) => {
+      const [from, to] = span.split("-").map(Number);
+      return [from, Number.isFinite(to) ? to : from] as [number, number];
+    }));
+  }
+  return out;
+}
+
+/** Whether a remark is one a branch's bill: asks for: in the reading or debate of one of its bills, or mentioning one.
+ * A transcript without recorded places keeps all its remarks, as before. */
+function atBill(r: Remark, f: Filters, places?: BillPlaces): boolean {
+  if (!f.bills?.length || !places) return true;
+  return f.bills.some((bill) => (places.get(bill) ?? []).some(([from, to]) => r.turn >= from && r.turn <= to));
+}
+
 interface PageData { url: string; content: string; anchors: { element: string; id: string; text: string; location: number }[]; }
 
 /** A page's remarks: each labelled turn (r-) up to the next turn of either kind, so stage directions and roll calls
@@ -490,18 +515,24 @@ function excluded(r: Remark, words: string[], e: Exclusion, who: SpeakerMatch, p
 
 /** Whether a remark matches a branch: by its speakers (looked up), in its transcripts, with all its terms, and taken out
  * by none of its NOTs (whose speakers, looked up, come one per NOT). */
-export function keepRemark(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters): boolean {
-  if (!bySpeaker(r, speakers) || !onPage(page, b.filters)) return false;
+export function keepRemark(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters, places?: BillPlaces): boolean {
+  if (!bySpeaker(r, speakers) || !onPage(page, b.filters) || !atBill(r, b.filters, places)) return false;
   const words = foldedWords(r.text);
   return holds(words, b) && !b.not.some((e, k) => excluded(r, words, e, notSpeakers[k] ?? null, page));
 }
 
 /** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
  * NOT and speaker:. With no terms it is the same as keepRemark. */
-export function mentionsAny(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters): boolean {
+/** Whether "anywhere in a transcript" can change what a search finds: some branch has two or more words or phrases
+ * that must come together in one remark (a NEAR pair counts as two). For any other search the choice isn't offered. */
+export function whereMatters(p: ParsedQuery): boolean {
+  return p.branches.some((b) => b.words.length + b.phrases.length + 2 * b.near.length > 1);
+}
+
+export function mentionsAny(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters, places?: BillPlaces): boolean {
   const terms = [...b.words, ...b.near.flatMap((n) => [n.a, n.b])];
-  if (!b.phrases.length && !terms.length) return keepRemark(r, b, speakers, notSpeakers, page);
-  if (!bySpeaker(r, speakers) || !onPage(page, b.filters)) return false;
+  if (!b.phrases.length && !terms.length) return keepRemark(r, b, speakers, notSpeakers, page, places);
+  if (!bySpeaker(r, speakers) || !onPage(page, b.filters) || !atBill(r, b.filters, places)) return false;
   const words = foldedWords(r.text);
   if (b.not.some((e, k) => excluded(r, words, e, notSpeakers[k] ?? null, page))) return false;
   return b.phrases.some((p) => hasPhrase(words, p)) || terms.some((t) => present(words, t));

@@ -689,14 +689,40 @@ test("an OR search sorted by date lists its remarks in date order across both gr
   }
 });
 
-test("anywhere in a transcript says so when it can't change a search of single words or phrases", async ({ page }) => {
-  await page.goto("search/?q=budget&in=transcript");
-  await expect(page.locator("[data-result]").first()).toBeVisible();
-  await expect(page.locator(".sr-wide")).toContainText("This search finds the same remarks either way");
-  // With words that must come together, the choice matters and the note explains what it shows.
+test("the choice of one remark or a whole transcript is offered only when it can change the search", async ({ page }, info) => {
+  const offered = async () => {
+    if (info.project.name !== "phone") return page.getByRole("combobox", { name: "Where your words must be" }).isVisible();
+    await page.getByRole("button", { name: /^Filters/ }).click();
+    const there = await page.getByRole("group", { name: "Where your words are" }).isVisible();
+    await page.keyboard.press("Escape");
+    return there;
+  };
+  // A single word (or words joined by OR) finds the same remarks either way: no choice, no note, and a link that
+  // asks for a whole transcript is read as one remark.
+  for (const q of ["budget", "budget OR children"]) {
+    await page.goto(`search/?q=${encodeURIComponent(q)}&in=transcript`);
+    await expect(page.locator("[data-result]").first()).toBeVisible();
+    expect(await offered(), q).toBe(false);
+    await expect(page.locator(".sr-wide")).toHaveCount(0);
+    if (info.project.name === "phone") await expect(page.getByRole("button", { name: "Filters", exact: true })).toBeVisible();
+  }
+  // With words that must come together, the choice is there and the note explains what it shows.
   await page.goto(`search/?q=${encodeURIComponent("budget children")}&in=transcript`);
   await expect(page.locator("[data-result]").first()).toBeVisible();
   await expect(page.locator(".sr-wide")).toContainText("Each remark below has at least one of them");
+  expect(await offered()).toBe(true);
+});
+
+test("without the choice, Sort keeps its place at the right of the bar", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // on a phone the choice is under Filters
+  const right = async (q: string) => {
+    await page.goto(`search/?q=${encodeURIComponent(q)}`);
+    await expect(page.locator("[data-result]").first()).toBeVisible();
+    const head = (await page.locator(".sr-head").boundingBox())!;
+    const exp = (await page.locator(".sr-export").boundingBox())!;
+    return Math.round(head.x + head.width - (exp.x + exp.width));
+  };
+  expect(await right("budget")).toBe(await right("budget children"));
 });
 
 test("a year range ticks every year in it, and unticking one splits the range", async ({ page }, info) => {
@@ -717,4 +743,27 @@ test("a speaker typed by name ticks that person, and a click takes the name out"
   await expect(krueger).toHaveAttribute("aria-pressed", "true");
   await krueger.click();
   await expect(page).toHaveURL(/\?q=budget$/);
+});
+
+test("a bill search keeps to the bill's reading, its debate and remarks that mention it", async ({ page }) => {
+  await page.goto("search/?q=bill%3AS4515");
+  await expect(page.locator(".sr-head h1")).toContainText(/ in \d+ transcripts?$/);
+  await expect(page.locator(".sr-wide")).toContainText("Remarks from the reading and debate of S4515");
+  const more = page.getByRole("button", { name: "Show more remarks" });
+  while (await more.isVisible()) await more.click();
+  const rows = await page.locator("[data-result] a.ctx").evaluateAll((els) => els.map((e) => e.getAttribute("href")!));
+  expect(rows.length).toBeGreaterThan(0);
+  for (const transcript of new Set(rows.map((h) => h.split("?")[0]))) {
+    await page.goto(transcript.replace(/^\//, ""));
+    // The bill's readings (to the end of their debate) and the turns that link to it, from the page itself.
+    const allowed = await page.evaluate(() => {
+      const data = JSON.parse(document.getElementById("reader-data")!.textContent!) as { g: [number, string | null, number, number, number][] };
+      const spans = data.g.filter((s) => s[1]?.startsWith("S4515")).map((s) => [s[2], Math.max(s[3], s[4])]);
+      const linked = [...document.querySelectorAll("section.turn")].filter((s) => s.querySelector('a.bref[href*="S4515"]')).map((s) => Number(s.id.slice(2)));
+      return { spans, linked, all: document.querySelectorAll("section.turn[id^='r-']").length };
+    });
+    const turns = rows.filter((h) => h.startsWith(transcript)).map((h) => Number(h.split("#r-")[1]));
+    expect(turns.length).toBeLessThan(allowed.all); // not the whole transcript
+    for (const t of turns) expect(allowed.spans.some(([a, b]) => t >= a && t <= b) || allowed.linked.includes(t), `turn ${t}`).toBe(true);
+  }
 });

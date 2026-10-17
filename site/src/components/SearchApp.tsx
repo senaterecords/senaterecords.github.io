@@ -8,8 +8,8 @@ import { jsonCache } from "../lib/fetch";
 import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { committeeNamed, fold, resolveSpeaker, type Person } from "../lib/names";
 import {
-  excerpt, excerptPages, excerptText, fillMore, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
-  topShortcuts, yearShortcuts, type Branch, type TopShortcut, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
+  billPlaces, excerpt, excerptPages, excerptText, fillMore, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
+  topShortcuts, whereMatters, yearShortcuts, type Branch, type TopShortcut, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
 } from "../lib/query";
 import { inOrder } from "../lib/order";
 import { passageParam } from "../lib/passage";
@@ -46,8 +46,10 @@ function rowsOf(page: PageData, plan: Plan): Row[] {
   const transcript = page.url.replace(/\/$/, "").split("/").pop() ?? page.url;
   const rows: Row[] = [];
   const match = plan.wide ? mentionsAny : keepRemark;
+  // A bill: search keeps to the bill's readings, its debate and the remarks that mention it.
+  const places = billPlaces(page.meta.bills);
   for (const remark of remarksOf(page).map(spokenText)) {
-    const branch = plan.parsed.branches.find((b, k) => match(remark, b, plan.who[k].speakers, plan.who[k].not, page.filters));
+    const branch = plan.parsed.branches.find((b, k) => match(remark, b, plan.who[k].speakers, plan.who[k].not, page.filters, places));
     if (!branch) continue;
     // The link also names the passage the row shows, so the transcript lands on it and highlights it for a moment.
     const href = remark.url.replace("#", `?hl=${encodeURIComponent(passageParam(excerptText(remark, branch)))}#`);
@@ -141,7 +143,10 @@ const readUrl = () => {
 };
 
 function SearchApp() {
-  const [{ q, sort, wide }, setState] = useState(readUrl);
+  const [{ q, sort, wide: wideAsked }, setState] = useState(readUrl);
+  // "Anywhere in a transcript" is offered, and in effect, only when it can change what the search finds.
+  const choosable = whereMatters(parseQuery(q));
+  const wide = wideAsked && choosable;
   const [status, setStatus] = useState<Status>("loading");
   const [which, setWhich] = useState<Person[]>([]);
   const [rows, setRows] = useState<Row[]>([]);
@@ -535,10 +540,16 @@ function SearchApp() {
           {printed.length > 0 && (
             <p className="sr-wide">Showing remarks by speakers named {printed.map((n) => `“${titleCase(n)}”`).join(" or ")} in the transcripts, such as hearing witnesses: no senator or Assembly member has that name.</p>
           )}
-          {/* Anywhere in a transcript only changes a group of two or more terms that must come together. */}
-          {wide && (parseQuery(q).branches.some((b) => b.words.length + b.phrases.length + 2 * b.near.length > 1)
-            ? <p className="sr-wide">Your words don't have to be in the same remark here. Each remark below has at least one of them, and its transcript has all of them. <button type="button" className="link" onClick={() => go({ wide: false })}>Only remarks with all of them</button></p>
-            : <p className="sr-wide">This search finds the same remarks either way, because each part is a single word or phrase. The choice matters when several words must appear together, like <b>tolls fares</b>.</p>)}
+          {(() => {
+            // A bill: search keeps to the bill's own remarks; the note says which, and that amended prints count.
+            const bills = parseQuery(q).filters.bills ?? [];
+            if (!bills.length) return null;
+            const named = bills.join(" or ");
+            return <p className="sr-wide">Remarks from the reading and debate of {named}, and remarks that mention {bills.length > 1 ? "them" : "it"}. Amended versions, such as {bills[0]}A, count as {bills[0]}.</p>;
+          })()}
+          {wide && (
+            <p className="sr-wide">Your words don't have to be in the same remark here. Each remark below has at least one of them, and its transcript has all of them. <button type="button" className="link" onClick={() => go({ wide: false })}>Only remarks with all of them</button></p>
+          )}
           <div className="sr-head">
             {status === "loading" && !rows.length
               ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
@@ -557,13 +568,15 @@ function SearchApp() {
             )}
             {status === "ready" && <span className="sr-time num">{(elapsed / 1000).toFixed(2)} s</span>}
             <button type="button" className="btn btn-quiet sr-filters" onClick={() => setFiltersOpen(true)}><Icon name="filter" size={15} />Filters{activeFilters ? ` · ${activeFilters}` : ""}</button>
-            <label className="sr-where">
-              <span className="visually-hidden">Where your words must be</span>
-              <select value={wide ? "transcript" : "remark"} onChange={(e) => go({ wide: e.target.value === "transcript" })}>
-                <option value="remark">In one remark</option>
-                <option value="transcript">Anywhere in a transcript</option>
-              </select>
-            </label>
+            {choosable && (
+              <label className="sr-where">
+                <span className="visually-hidden">Where your words must be</span>
+                <select value={wide ? "transcript" : "remark"} onChange={(e) => go({ wide: e.target.value === "transcript" })}>
+                  <option value="remark">In one remark</option>
+                  <option value="transcript">Anywhere in a transcript</option>
+                </select>
+              </label>
+            )}
             <label className="sr-sort">
               <span className="visually-hidden">Sort</span>
               <select value={sort} onChange={(e) => go({ sort: e.target.value })}>
@@ -605,6 +618,7 @@ function SearchApp() {
                   <p><button type="button" className="btn" onClick={() => go({ q: withoutSpeakers(q) })}>Show these words from anyone</button></p>
                 </div>
               ) : status === "ready" && !rows.length && !queue.current.length && !wide && total > 0
+                // A NEAR pair counts once: its words may share a remark and only be too far apart.
                 && parseQuery(q).branches.some((b) => b.phrases.length + b.words.length + b.near.length > 1) ? (
                 <div className="sr-none">
                   <p>No single remark has all of these. {total.toLocaleString("en-US")} {total === 1 ? "transcript has" : "transcripts have"} them in different remarks.</p>
@@ -632,13 +646,15 @@ function SearchApp() {
           <div ref={sheet} className="sheet" role="dialog" aria-label="Filters" tabIndex={-1}>
             <div className="sheet-grab" />
             {/* On a phone the choice beside Sort lives here, so the bar above the results keeps to one line. */}
-            <div className="fg sr-where-g">
-              <h3 id="where-h">Where your words are</h3>
-              <div className="seg sbx-scope" role="group" aria-labelledby="where-h">
-                <button type="button" aria-pressed={!wide} onClick={() => go({ wide: false })}>In one remark</button>
-                <button type="button" aria-pressed={wide} onClick={() => go({ wide: true })}>Anywhere in a transcript</button>
+            {choosable && (
+              <div className="fg sr-where-g">
+                <h3 id="where-h">Where your words are</h3>
+                <div className="seg sbx-scope" role="group" aria-labelledby="where-h">
+                  <button type="button" aria-pressed={!wide} onClick={() => go({ wide: false })}>In one remark</button>
+                  <button type="button" aria-pressed={wide} onClick={() => go({ wide: true })}>Anywhere in a transcript</button>
+                </div>
               </div>
-            </div>
+            )}
             {facetPanel}
           </div>
         </>

@@ -14,10 +14,17 @@ from .speakers import ROLE_CHAIR, ROLE_PRESIDENT, ROLE_PRESIDING, ROLE_SECRETARY
 
 BILL_DATA_START = 2009  # first session with bill details in the API (to confirm with a live key)
 DEBATE_WORDS = 40
+# Raised whenever find_bills learns another way of naming a bill: the next sync then reads every stored record for
+# the bills it now finds (2: compact print numbers, "S9051B").
+MENTION_RULES = 2
 
 _BILL = re.compile(
     r"\b(?P<chamber>Senate|Assembly) (?:Print|Bill) (?:Number |No\. ?)?(?P<num>\d{1,5})(?:-?(?P<amd>[A-Z])\b)?"
 )
+# A print number written compactly, as speakers and witnesses often name a bill ("my bill, S9051B", "S1507-C",
+# "S5040/A7046"). Three digits or more, standing alone, so codes like "Class A1", "NY-A100" or an Airbus A320 are
+# left out.
+_COMPACT = re.compile(r"(?<![\w-])(?<!Airbus )(?P<chamber>[SA])(?P<num>\d{3,5})(?:-?(?P<amd>[A-Z]))?(?![\w-])")
 _CAL_START = re.compile(r"^Calendar Number (?P<cal>\d+),")
 _SPONSOR = re.compile(
     r"\bby (?P<title>Senators?|Assemblymembers?|Assemblyman|Assemblywoman|Members? of the Assembly) (?P<name>[^,]+)"
@@ -89,9 +96,13 @@ class BillResolver:
 
 
 def find_bills(text: str) -> list[str]:
+    """The bills a text names, in the order it names them: "Senate Print 4597-A" and the like, and compact print
+    numbers ("S9051B")."""
+    matches = [(m.start(), m["chamber"], m["num"], m["amd"]) for m in _BILL.finditer(text)]
+    matches += [(m.start(), "Senate" if m["chamber"] == "S" else "Assembly", m["num"], m["amd"]) for m in _COMPACT.finditer(text)]
     found: list[str] = []
-    for m in _BILL.finditer(text):
-        p = print_no(m["chamber"], m["num"], m["amd"])
+    for _, chamber, num, amd in sorted(matches):
+        p = print_no(chamber, num, amd)
         if p not in found:
             found.append(p)
     return found
