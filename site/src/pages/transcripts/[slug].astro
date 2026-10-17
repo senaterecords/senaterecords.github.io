@@ -9,7 +9,7 @@ import Turns from "../../components/reader/Turns.astro";
 import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
 import { assembly, bill, hasBillPage, senatorPageSlugs, senatorsBySlug, transcript, transcriptIndex, transcriptsHome } from "../../lib/data";
-import { billStatus, hearingTitle, longDate, placeText, plainPages, plural, transcriptTitle, weekdayDate } from "../../lib/format";
+import { billStatus, hearingTitle, longDate, outcomeText, placeText, plainPages, plural, transcriptTitle, weekdayDate } from "../../lib/format";
 import { packReader } from "../../lib/payload";
 import { EVERY_PAGE } from "../../lib/query";
 import { speakerData } from "../../lib/speakers";
@@ -46,17 +46,25 @@ const committees = doc.committees.map(hearingTitle);
 // its debate, and each turn that mentions it ("A10176=632-643,700|S4149=12-20"; Pagefind keeps it with the text).
 const places = new Map<string, [number, number][]>();
 const placeAt = (base: string, from: number, to: number) => places.set(base, [...(places.get(base) ?? []), [from, to]]);
-for (const s of doc.segments) if (s.printNo) placeAt(baseOf(s.printNo), s.startTurn, Math.max(s.endTurn, s.debateEnd ?? s.endTurn));
+// A calendar item's readings are every one of its bills' places: the debate of S4006C is A3006C's too once A3006C is
+// substituted for it, and the reading laid aside on the first pass belongs to the bill debated later.
+const calendar = doc.calendar ?? doc.segments;
+const itemOf = new Map(calendar.map((item) => [item.calNo, item]));
+for (const s of doc.segments) {
+  const bills = itemOf.get(s.calNo)?.readAs ?? (s.printNo ? [s.printNo] : []);
+  for (const base of new Set(bills.map(baseOf))) placeAt(base, s.startTurn, Math.max(s.endTurn, s.debateEnd ?? s.endTurn));
+}
 for (const t of doc.turns) for (const base of new Set(t.bills.map(baseOf))) placeAt(base, t.i, t.i);
 const billPlaces = [...places].map(([base, spans]) => `${base}=${spans.sort((a, b) => a[0] - b[0]).map(([a, b]) => (a === b ? `${a}` : `${a}-${b}`)).join(",")}`).join("|");
 
 const segments = doc.segments.map((s) => {
   const card = s.printNo ? bill(doc.session, baseOf(s.printNo))?.card ?? null : null;
+  const item = itemOf.get(s.calNo) ?? s;
   return {
     calNo: s.calNo, printNo: s.printNo, startTurn: s.startTurn, endTurn: s.endTurn, debateEnd: s.debateEnd, debated: s.debated,
     title: card?.title ?? null, status: billStatus(card), sponsor: (card?.sponsor?.name ?? s.sponsor) ? `${s.printNo?.startsWith("A") ? "Asm." : "Sen."} ${card?.sponsor?.name ?? s.sponsor}` : null,
     url: s.printNo && hasBillPage(doc.session, baseOf(s.printNo)) ? url(`/bills/${doc.session}/${baseOf(s.printNo)}/`) : null,
-    outcome: s.outcome, ayes: s.ayes, nays: s.nays, remarks: s.remarks,
+    floor: outcomeText(item, item.printNo && item.printNo !== s.printNo ? item.printNo : null), remarks: s.remarks, main: item.startTurn,
   };
 });
 // Speakers' turn lists are left out: the islands read them from the page (lib: readerData.ts).
@@ -86,7 +94,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
   <ReaderScripts />
   <div class="rd">
     {doc.kind === "floor"
-      ? <Calendar segments={doc.segments} session={doc.session} />
+      ? <Calendar segments={calendar} readings={doc.segments} session={doc.session} />
       : <HearingSpeakers speakers={speakers} turns={doc.turns} keyOf={keyOf} />}
 
     <div class="rd-main">
@@ -131,7 +139,7 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
           {doc.officers.president && <><dt>President</dt><dd>Lt. Gov. {doc.officers.president.name}</dd></>}
           {doc.officers.secretary?.name && <><dt>Secretary</dt><dd>{doc.officers.secretary.name}</dd></>}
           {spokeCount > 0 && <><dt>Speakers</dt><dd class="num">{plural(spokeCount, doc.kind === "floor" ? "senator" : "member")}</dd></>}
-          {doc.kind === "floor" && segments.length > 0 && <><dt>Calendar</dt><dd class="num">{plural(segments.length, "reading")}</dd></>}
+          {doc.kind === "floor" && calendar.length > 0 && <><dt>Calendar</dt><dd class="num">{plural(calendar.length, "bill")}</dd></>}
         </dl>
         </div>
       </div>
@@ -139,20 +147,25 @@ const spokeCount = Object.values(speakers).filter((s) => s.remarks.length > 0).l
     <script is:inline>
       // Before the first paint: a link into a bill's reading marks its calendar row and shows a placeholder here, not
       // the transcript overview that the reader's script would swap for the bill a moment later (same rule as
-      // ReaderNav: the last reading starting at or before the remark, if the remark is within it).
+      // ReaderNav: the last reading starting at or before the remark, if the remark is within it). A row holds every
+      // reading of its calendar number, as turn spans.
       (function () {
         var m = /^#r-(\d+)$/.exec(location.hash);
         if (!m) return;
         var n = Number(m[1]);
-        var rows = document.querySelectorAll(".rd-cal li[data-start]");
-        for (var i = rows.length - 1; i >= 0; i--) {
-          if (Number(rows[i].dataset.start) > n) continue;
-          if (n <= Number(rows[i].dataset.end)) {
-            rows[i].classList.add("cur");
-            document.getElementById("headnote-default").hidden = true;
-            document.getElementById("headnote-live").insertAdjacentHTML("afterbegin", '<div class="hn-wait" aria-hidden="true"><i></i><i></i><i></i><i></i></div>');
+        var best = null;
+        var rows = document.querySelectorAll(".rd-cal li[data-spans]");
+        for (var i = 0; i < rows.length; i++) {
+          var spans = rows[i].dataset.spans.split(" ");
+          for (var j = 0; j < spans.length; j++) {
+            var span = spans[j].split("-"), start = Number(span[0]), end = Number(span[1]);
+            if (start <= n && (!best || start > best.start)) best = { start: start, end: end, row: rows[i] };
           }
-          return;
+        }
+        if (best && n <= best.end) {
+          best.row.classList.add("cur");
+          document.getElementById("headnote-default").hidden = true;
+          document.getElementById("headnote-live").insertAdjacentHTML("afterbegin", '<div class="hn-wait" aria-hidden="true"><i></i><i></i><i></i><i></i></div>');
         }
       })();
     </script>

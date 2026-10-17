@@ -2,7 +2,7 @@
 // the desktop headnote for the bill being read, and a notice when a remark link no longer resolves.
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { outcomeText, plural } from "../lib/format";
+import { plural } from "../lib/format";
 import { indexOfTurn, readerData, type ReaderSegment } from "./readerData";
 import { clientOnly, Icon } from "./ui";
 
@@ -38,6 +38,20 @@ function turnAt(y: number): number | null {
 function readingOf(segments: ReaderSegment[], turn: number): ReaderSegment | null {
   const seg = [...segments].reverse().find((s) => s.startTurn <= turn) ?? null;
   return seg && turn <= Math.max(seg.endTurn, seg.startTurn) ? seg : null;
+}
+
+/** The day's calendar as the phone sheet lists it: one row per calendar number, however often it was read, named by
+ * every print read under it (S4006C → A3006C when the other house's bill was substituted), opening where the item does. */
+function calendarItems(readings: ReaderSegment[]) {
+  const items = new Map<number, { calNo: number; label: string | null; title: string | null; debated: boolean; main: number }>();
+  for (const r of readings) {
+    const item = items.get(r.calNo);
+    if (!item) { items.set(r.calNo, { calNo: r.calNo, label: r.printNo, title: r.title, debated: r.debated, main: r.main }); continue; }
+    if (r.printNo && !item.label?.split(" → ").includes(r.printNo)) item.label = item.label ? `${item.label} → ${r.printNo}` : r.printNo;
+    item.debated ||= r.debated;
+    item.title ??= r.title;
+  }
+  return [...items.values()];
 }
 
 function ReaderNav() {
@@ -127,7 +141,7 @@ function ReaderNav() {
   // The calendar row of the reading on screen is marked, as in the reader mock.
   useEffect(() => {
     for (const li of document.querySelectorAll(".rd-cal li.cur")) li.classList.remove("cur");
-    if (segment) document.querySelector(`.rd-cal li[data-start="${segment.startTurn}"]`)?.classList.add("cur");
+    if (segment) document.querySelector(`.rd-cal li[data-spans~="${segment.startTurn}-${Math.max(segment.endTurn, segment.startTurn)}"]`)?.classList.add("cur");
     const fallback = document.getElementById("headnote-default");
     if (fallback) fallback.hidden = !!segment;
   }, [segment]);
@@ -191,7 +205,7 @@ function ReaderNav() {
           <dl className="hn-dl">
             <dt>Calendar</dt><dd className="num">No. {segment.calNo}</dd>
             {segment.sponsor && <><dt>Sponsor</dt><dd>{segment.sponsor}</dd></>}
-            <dt>On the floor</dt><dd>{outcomeText(segment)}</dd>
+            <dt>On the floor</dt><dd>{segment.floor}</dd>
             <dt>Debate</dt><dd className="num">{segment.remarks ? plural(segment.remarks, "remark") : "No debate"}</dd>
           </dl>
           {scope.length > 0 && <h3 className="hn-pos num">Remark {Math.max(k, 1)} of {scope.length}</h3>}
@@ -232,11 +246,11 @@ function ReaderNav() {
             <div className="sheet-grab" />
             <h3 className="sheet-h3">On the calendar</h3>
             <ul className="sheet-cal">
-              {data.segments.map((s) => (
-                <li key={s.startTurn} className={s === segment ? "cur" : undefined}>
-                  <a href={`#r-${s.startTurn}`} onClick={() => setCalendarOpen(false)}>
-                    <span className="n num">{s.calNo}</span>
-                    <span className="p num">{s.printNo ?? "No bill number"}<small>{s.title ?? (s.debated ? "Debated" : "No debate")}</small></span>
+              {calendarItems(data.segments).map((item) => (
+                <li key={item.calNo} className={segment && segment.calNo === item.calNo ? "cur" : undefined}>
+                  <a href={`#r-${item.main}`} onClick={() => setCalendarOpen(false)}>
+                    <span className="n num">{item.calNo}</span>
+                    <span className="p num">{item.label ?? "No bill number"}<small>{item.title ?? (item.debated ? "Debated" : "No debate")}</small></span>
                   </a>
                 </li>
               ))}

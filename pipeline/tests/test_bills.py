@@ -245,3 +245,14 @@ def test_a_reading_with_bill_written_small_is_still_a_reading():
 
     assert parse_reading("Calendar Number 130, by Senator Levy, Senate bill Number 4887B, an act to amend the law.") == (
         130, "S4887B", "Levy")
+
+
+def test_bill_card_says_which_bill_was_substituted_for_it():
+    # S4006C (2023) was substituted on the floor by the Assembly's identical A3006C, which became law.
+    raw = {**RAW_BILL, "substitutedBy": {"basePrintNo": "A3006", "session": 2023},
+           "actions": {"items": [{"date": "2023-05-02", "text": "ORDERED TO THIRD READING CAL.723"},
+                                 {"date": "2023-05-02", "text": "SUBSTITUTED BY A3006C"}]}}
+    assert bill_card(raw)["substitutedBy"] == {"printNo": "A3006C", "basePrintNo": "A3006", "date": "2023-05-02"}
+    assert bill_card(RAW_BILL)["substitutedBy"] is None
+    # Without the action, the base print number still says which bill it was.
+    assert bill_card({**raw, "actions": {"items": []}})["substitutedBy"] == {"printNo": "A3006", "basePrintNo": "A3006", "date": None}

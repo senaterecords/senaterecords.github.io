@@ -134,6 +134,8 @@ describe("outcomes, status, time", () => {
     expect(outcomeText({ debated: false, outcome: "laid_aside", ayes: null, nays: null })).toBe("Brought up, then laid aside. No vote.");
     expect(outcomeText({ debated: false, outcome: "adopted", ayes: null, nays: null })).toBe("Adopted");
     expect(outcomeText({ debated: false, outcome: null, ayes: null, nays: null })).toBe("Read on the floor. No vote recorded.");
+    // The vote taken on the other house's bill once it was substituted.
+    expect(outcomeText(seg, "A3006C")).toBe("Debated and passed as A3006C, 41–20");
   });
 
   it("flags a bill's status", () => {
@@ -143,6 +145,15 @@ describe("outcomes, status, time", () => {
     expect(billStatus({ ...card, signed: true } as never)).toEqual({ text: "Signed by Governor", tone: "ink" });
     expect(billStatus({ ...card, status: { text: "Amended", type: null, date: null } } as never)).toEqual({ text: "Amended", tone: "amber" });
     expect(billStatus(null)).toBeNull();
+  });
+
+  it("says what became of a bill the other house's was substituted for", () => {
+    // S4006C (2023) still reads "Senate Floor Calendar" in the Senate's data; A3006C was substituted and signed.
+    const card = { vetoed: false, signed: false, status: { text: "Senate Floor Calendar", type: "SENATE_FLOOR", date: "2023-05-02" } };
+    const sub = { printNo: "A3006C", basePrintNo: "A3006", date: "2023-05-02" };
+    expect(billStatus({ ...card, substitutedBy: { ...sub, signed: true, vetoed: false } } as never)).toEqual({ text: "Signed by Governor as A3006C", tone: "ink" });
+    expect(billStatus({ ...card, substitutedBy: { ...sub, signed: false, vetoed: true } } as never)).toEqual({ text: "Vetoed as A3006C", tone: "red" });
+    expect(billStatus({ ...card, substitutedBy: sub } as never)).toEqual({ text: "Substituted by A3006C", tone: "ink" });
   });
 
   it("writes relative times and counts", () => {

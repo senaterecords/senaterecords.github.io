@@ -44,6 +44,9 @@ const mentionHref = (m: Mention) => url(m.turn != null
   ? remarkLink(`/transcripts/${m.transcript}/`, m.turn, m.said)
   : `/transcripts/${m.transcript}/${m.page != null ? `#p${m.page}` : ""}`);
 const sessionType = (slug: string) => summaries.get(slug)?.sessionType ?? "Floor session";
+// The vote on the other house's bill, when it was substituted for this one ("Debated and passed as A3006C, 41–21").
+const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
+const floorText = (s: BillSegment) => outcomeText(s, s.printNo && baseOf(s.printNo) !== entry.basePrintNo ? s.printNo : null);
 const senatorsIn = (s: BillSegment) => Object.keys(s.speakers).length;
 
 const spoke = new Map<string, number>();
@@ -98,7 +101,7 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
           <div class="sec-hd"><h2>The floor debate</h2></div>
           <div class="deb">
             <div class="dh num"><b>{shortDate(main.date)}</b><span>{sessionType(main.transcript)}</span>{main.pages && <span>{plainPages(main.pages[0], main.pages[1])}</span>}</div>
-            <div class="outcome">{outcomeText(main)}<span>{plural(main.remarks, "remark")} from {plural(senatorsIn(main), "senator")}</span></div>
+            <div class="outcome">{floorText(main)}<span>{plural(main.remarks, "remark")} from {plural(senatorsIn(main), "senator")}</span></div>
             {main.excerpt.map((t) => (
               <p class="ex"><span class:list={["sp", { sen: !!t.senator }]}>{titleCase(t.label)}</span>{t.text}</p>
             ))}
@@ -110,7 +113,7 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
         <section class="earlier">
           <h3>{heading}</h3>
           {list.map((s) => (
-            <div class="er"><b class="num">{shortDate(s.date)}</b><span>{outcomeText(s)}</span><a href={readHref(s)}>Read{s.remarks ? ` (${plural(s.remarks, "remark")})` : ""}</a></div>
+            <div class="er"><b class="num">{shortDate(s.date)}</b><span>{floorText(s)}</span><a href={readHref(s)}>Read{s.remarks ? ` (${plural(s.remarks, "remark")})` : ""}</a></div>
           ))}
         </section>
       ))}

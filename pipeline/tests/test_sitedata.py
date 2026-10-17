@@ -606,3 +606,67 @@ def test_a_mention_washes_the_sentence_that_names_the_bill():
     said = _said(long, at, at + len("Senate Print 4597"))
     assert "Senate Print 4597" in said and len(said) <= 2 * 140 + 20
     assert said.startswith("and") and said.endswith("or")
+
+
+TEXT_SUBSTITUTED = """                                                               3146
+
+ 1               THE SECRETARY:   Calendar Number 723, Senate Print 4006C,
+ 2   Budget Bill, an act to amend the Education Law.
+ 3               SENATOR KEARNEY:   Lay it aside.
+ 4               ACTING PRESIDENT BRENNAN:   Lay it aside.
+ 5               THE SECRETARY:   Calendar Number 11, Senate Print 200, by
+ 6   Senator Ortega, an act to amend the vehicle and traffic law.
+ 7               THE SECRETARY:   Ayes, 61.
+ 8               ACTING PRESIDENT BRENNAN:   The bill is passed.
+ 9               THE SECRETARY:   Calendar Number 723, Senate Print 4006C,
+10   Budget Bill, an act to amend the Education Law.
+11               SENATOR ORTEGA:   Thank you, Mr. President.  This budget
+12   bill funds our schools, and it says the state will answer to the
+13   parents in my district before it answers to anyone else in this
+14   building, and it requires every district to publish its spending.
+15               THE SECRETARY:   Senator Krueger moves to discharge, from
+16   the Committee on Finance, Assembly Bill Number 3006C and substitute
+17   it for the identical Senate Bill 4006C, Third Reading Calendar 723.
+18               ACTING PRESIDENT BRENNAN:   The substitution is so ordered.
+19               THE SECRETARY:   Calendar Number 723, Assembly Print Number
+20   3006C, Budget Bill, an act to amend the Education Law.
+21               THE SECRETARY:   Ayes, 41.  Nays, 21.
+22               ACTING PRESIDENT BRENNAN:   The bill is passed.
+"""
+
+
+def test_a_calendar_number_read_three_times_is_one_item_voted_as_its_substitute(tmp_path):
+    # Calendar 723 on May 2, 2023, in small: S4006C laid aside, then debated; A3006C substituted for it and passed.
+    store = Store(tmp_path / "data")
+    write_json(store.members_path(2025), THREE_SENATORS[2025])
+    write_json(store.transcript_path("2025-05-02T11:00", "Regular Session"), floor("2025-05-02T11:00", TEXT_SUBSTITUTED))
+    write_json(store.bill_path(2025, "S4006"), {
+        "basePrintNo": "S4006", "session": 2025, "printNo": "S4006C", "substitutedBy": {"basePrintNo": "A3006", "session": 2025},
+        "status": {"statusType": "SENATE_FLOOR", "statusDesc": "Senate Floor Calendar", "actionDate": "2025-05-02"},
+        "actions": {"items": [{"date": "2025-05-02", "text": "SUBSTITUTED BY A3006C"}]}})
+    write_json(store.bill_path(2025, "A3006"), {
+        "basePrintNo": "A3006", "session": 2025, "printNo": "A3006C", "signed": True,
+        "status": {"statusType": "SIGNED_BY_GOV", "statusDesc": "Signed by Governor", "actionDate": "2025-05-03"},
+        "milestones": {"items": [{"statusType": "PASSED_ASSEMBLY", "statusDesc": "Passed Assembly", "actionDate": "2025-05-01"},
+                                 {"statusType": "PASSED_SENATE", "statusDesc": "Passed Senate", "actionDate": "2025-05-02"},
+                                 {"statusType": "SIGNED_BY_GOV", "statusDesc": "Signed by Governor", "actionDate": "2025-05-03"}]}})
+    out = tmp_path / "site"
+    build_all(store, out, datetime(2025, 5, 3))
+    doc = read_json(out / "transcripts" / "2025-05-02-regular-session.json")
+    assert [(r["calNo"], r["printNo"], r["outcome"]) for r in doc["segments"]] == [
+        (723, "S4006C", "laid_aside"), (11, "S200", "passed"), (723, "S4006C", None), (723, "A3006C", "passed")]
+    item, other = doc["calendar"]
+    assert (other["calNo"], other["printNo"]) == (11, "S200")
+    assert {k: item[k] for k in ("calNo", "printNo", "readAs", "debated", "outcome", "ayes", "nays", "remarks")} == {
+        "calNo": 723, "printNo": "A3006C", "readAs": ["S4006C", "A3006C"], "debated": True, "outcome": "passed",
+        "ayes": 41, "nays": 21, "remarks": 1}
+    readings = [r["startTurn"] for r in doc["segments"] if r["calNo"] == 723]
+    assert item["readings"] == readings and item["startTurn"] == readings[1]  # it opens on the debate
+    # Both bills' pages show the item; the substituted bill says what became of it.
+    bills = {b["basePrintNo"]: b for b in read_json(out / "bills" / "2025.json")["bills"]}
+    assert [s["calNo"] for s in bills["S4006"]["segments"]] == [723] and [s["calNo"] for s in bills["A3006"]["segments"]] == [723]
+    sub = bills["S4006"]["card"]["substitutedBy"]
+    assert {k: sub[k] for k in ("printNo", "basePrintNo", "date", "signed", "vetoed")} == {
+        "printNo": "A3006C", "basePrintNo": "A3006", "date": "2025-05-02", "signed": True, "vetoed": False}
+    assert [m["type"] for m in sub["milestones"]] == ["PASSED_ASSEMBLY", "PASSED_SENATE", "SIGNED_BY_GOV"]
+    assert read_json(out / "transcripts.json")[0]["billsDebated"] == 1

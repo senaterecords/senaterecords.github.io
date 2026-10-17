@@ -31,6 +31,9 @@ export interface Segment {
   pages: [number, number] | null;
   excerpt: ExcerptTurn[];
   reading?: string; // the reading's words, which a link to it washes yellow
+  // A calendar item (one calendar number, however often read): every print read under it, and where each reading starts.
+  readAs?: string[];
+  readings?: number[];
 }
 
 export interface Officer { name: string; title: string; from?: number; until?: number | null; }
@@ -51,7 +54,8 @@ export interface Transcript {
   empty: boolean;
   corrected: string | null;
   turns: Turn[];
-  segments: Segment[];
+  segments: Segment[]; // each reading, where it is in the text
+  calendar?: Segment[]; // one item per calendar number: its readings together, voted as its last bill
   unresolvedBillMentions: number;
   officers: { president: Officer | null; secretary: Officer | null };
 }
@@ -118,6 +122,13 @@ export interface BillCard {
   milestones: { type: string | null; text: string | null; date: string | null }[];
   signed: boolean; vetoed: boolean; floorVotes: FloorVote[]; sameAs: string[];
   committee: string | null; coSponsors: number;
+  /** The other house's identical bill substituted for this one on the floor, and what became of it. */
+  substitutedBy?: Substitution | null;
+}
+
+export interface Substitution {
+  printNo: string; basePrintNo: string; date: string | null;
+  signed?: boolean; vetoed?: boolean; status?: BillCard["status"]; milestones?: BillCard["milestones"];
 }
 
 /** The first time a transcript names a bill: the page, the remark and the sentence it is named in. */

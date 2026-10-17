@@ -191,8 +191,10 @@ export function plainCite(c: CiteInput): string {
     : `NY Senate public hearing, ${citedTitle(c.title)}, ${longDate(c.date)}${p} (${c.speaker.full})`;
 }
 
-export function outcomeText(s: { debated: boolean; outcome: string | null; ayes: number | null; nays: number | null }): string {
-  const votes = s.ayes != null ? `, ${s.ayes}–${s.nays ?? 0}` : "";
+/** What happened to a bill on the floor. `as` names the other house's bill the vote was taken on, when one was
+ * substituted for it ("Debated and passed as A3006C, 41–21"). */
+export function outcomeText(s: { debated: boolean; outcome: string | null; ayes: number | null; nays: number | null }, as?: string | null): string {
+  const votes = `${as ? ` as ${as}` : ""}${s.ayes != null ? `, ${s.ayes}–${s.nays ?? 0}` : ""}`;
   switch (s.outcome) {
     case "passed": return s.debated ? `Debated and passed${votes}` : `Passed${votes}`;
     case "lost": return s.debated ? `Debated and lost${votes}` : `Lost${votes}`;
@@ -202,8 +204,16 @@ export function outcomeText(s: { debated: boolean; outcome: string | null; ayes:
   }
 }
 
-export function billStatus(card: Pick<BillCard, "vetoed" | "signed" | "status"> | null): { text: string; tone: "red" | "amber" | "ink" } | null {
+export function billStatus(card: Pick<BillCard, "vetoed" | "signed" | "status" | "substitutedBy"> | null): { text: string; tone: "red" | "amber" | "ink" } | null {
   if (!card) return null;
+  // Substituted on the floor by the other house's identical bill: this one stays where it was (the Senate's data
+  // still says "Senate Floor Calendar"), and what became law is the substitute.
+  const sub = card.substitutedBy;
+  if (sub) {
+    if (sub.vetoed) return { text: `Vetoed as ${sub.printNo}`, tone: "red" };
+    if (sub.signed) return { text: `Signed by Governor as ${sub.printNo}`, tone: "ink" };
+    return { text: `Substituted by ${sub.printNo}`, tone: "ink" };
+  }
   if (card.vetoed) return { text: "Vetoed", tone: "red" };
   if (card.signed) return { text: "Signed by Governor", tone: "ink" };
   const text = card.status?.text || "Introduced";
@@ -223,12 +233,20 @@ const MILESTONE: Record<string, string> = {
   VETOED: "Vetoed",
 };
 
-/** A bill's milestones so far, then the steps still ahead on its chamber's path (none after the Governor acts). */
-export function timelineSteps(card: Pick<BillCard, "basePrintNo" | "milestones">): { label: string; date: string | null; done: boolean }[] {
-  const done = card.milestones.map((m) => ({ label: (m.type && MILESTONE[m.type]) || m.text || "Step", date: m.date, done: true }));
-  const types = new Set(card.milestones.map((m) => m.type));
+/** A bill's milestones so far, then the steps still ahead on its chamber's path (none after the Governor acts). A bill
+ * the other house's was substituted for goes on as that bill: the substitution, then the substitute's later steps. */
+export function timelineSteps(card: Pick<BillCard, "basePrintNo" | "milestones" | "substitutedBy">): { label: string; date: string | null; done: boolean }[] {
+  const step = (m: BillCard["milestones"][number]) => ({ label: (m.type && MILESTONE[m.type]) || m.text || "Step", date: m.date, done: true });
+  const own = new Set(card.milestones.map((m) => m.type));
+  const sub = card.substitutedBy;
+  const then = sub ? (sub.milestones ?? []).filter((m) => !own.has(m.type)).sort((a, b) => (a.date ?? "").localeCompare(b.date ?? "")) : [];
+  const done = [
+    ...card.milestones.map(step),
+    ...(sub ? [{ label: `Substituted by ${sub.printNo}`, date: sub.date, done: true }, ...then.map(step)] : []),
+  ];
+  const types = new Set([...own, ...then.map((m) => m.type)]);
   if (types.has("SIGNED_BY_GOV") || types.has("VETOED")) return done;
-  const path = card.basePrintNo.startsWith("A")
+  const path = (sub?.basePrintNo ?? card.basePrintNo).startsWith("A")
     ? ["PASSED_ASSEMBLY", "PASSED_SENATE", "DELIVERED_TO_GOV", "GOVERNOR"]
     : ["PASSED_SENATE", "PASSED_ASSEMBLY", "DELIVERED_TO_GOV", "GOVERNOR"];
   const reached = path.reduce((at, type, i) => (types.has(type) ? i : at), -1);

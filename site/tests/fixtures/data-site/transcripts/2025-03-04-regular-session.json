@@ -1,4 +1,468 @@
 {
+ "calendar": [
+  {
+   "ayes": null,
+   "calNo": 203,
+   "debateEnd": 90,
+   "debated": false,
+   "endTurn": 90,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "laid_aside",
+   "pages": [
+    889,
+    890
+   ],
+   "printNo": "S363",
+   "readAs": [
+    "S363"
+   ],
+   "reading": "Calendar Number 203, Senate Print 363, by Senator Gianaris, an act to amend the General Business Law.",
+   "readings": [
+    86
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Gianaris",
+   "startTurn": 86
+  },
+  {
+   "ayes": 61,
+   "calNo": 364,
+   "debateEnd": 97,
+   "debated": false,
+   "endTurn": 97,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "passed",
+   "pages": [
+    890,
+    890
+   ],
+   "printNo": "S4188",
+   "readAs": [
+    "S4188"
+   ],
+   "reading": "Calendar Number 364, Senate Print 4188, by Senator Comrie, an act to amend the Penal Law.",
+   "readings": [
+    90
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Comrie",
+   "startTurn": 90
+  },
+  {
+   "ayes": 54,
+   "calNo": 368,
+   "debateEnd": 104,
+   "debated": false,
+   "endTurn": 104,
+   "excerpt": [],
+   "nays": 7,
+   "outcome": "passed",
+   "pages": [
+    890,
+    891
+   ],
+   "printNo": "S2497",
+   "readAs": [
+    "S2497"
+   ],
+   "reading": "Calendar Number 368, Senate Print 2497, by Senator Gounardes, an act to amend the Civil Practice Law and Rules.",
+   "readings": [
+    97
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Gounardes",
+   "startTurn": 97
+  },
+  {
+   "ayes": 39,
+   "calNo": 370,
+   "debateEnd": 113,
+   "debated": true,
+   "endTurn": 113,
+   "excerpt": [
+    {
+     "label": "SENATOR RAMOS",
+     "senator": "jessica-ramos",
+     "text": "Hey, thank you, Mr. President. I today want to tell you about a worker who inspired this bill. Sandra Mejia worked for years disinfecting clothes at a laundry on the Upper West Side. Her employer paid 25 percent less than the minimum wage and never paid her the overtime she was…"
+    }
+   ],
+   "nays": 22,
+   "outcome": "passed",
+   "pages": [
+    891,
+    894
+   ],
+   "printNo": "S4611",
+   "readAs": [
+    "S4611"
+   ],
+   "reading": "Calendar Number 370, Senate Print 4611, by Senator Ramos, an act to amend the Civil Practice Law and Rules.",
+   "readings": [
+    104
+   ],
+   "remarks": 1,
+   "speakers": {
+    "jessica-ramos": 1
+   },
+   "sponsor": "Ramos",
+   "startTurn": 104
+  },
+  {
+   "ayes": 58,
+   "calNo": 372,
+   "debateEnd": 120,
+   "debated": false,
+   "endTurn": 120,
+   "excerpt": [],
+   "nays": 3,
+   "outcome": "passed",
+   "pages": [
+    894,
+    894
+   ],
+   "printNo": "S4999",
+   "readAs": [
+    "S4999"
+   ],
+   "reading": "Calendar Number 372, Senate Print 4999, by Senator Hoylman-Sigal, an act to amend the Estates, Powers and Trusts Law.",
+   "readings": [
+    113
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Hoylman-Sigal",
+   "startTurn": 113
+  },
+  {
+   "ayes": 61,
+   "calNo": 374,
+   "debateEnd": 127,
+   "debated": false,
+   "endTurn": 127,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "passed",
+   "pages": [
+    895,
+    895
+   ],
+   "printNo": "S1678",
+   "readAs": [
+    "S1678"
+   ],
+   "reading": "Calendar Number 374, Senate Print 1678, by Senator C. Ryan, an act to authorize the Board of Trustees of the Village of East Syracuse to permit that the Office of Village Justice may be held by a nonresident.",
+   "readings": [
+    120
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "C. Ryan",
+   "startTurn": 120
+  },
+  {
+   "ayes": 61,
+   "calNo": 376,
+   "debateEnd": 134,
+   "debated": false,
+   "endTurn": 134,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "passed",
+   "pages": [
+    895,
+    896
+   ],
+   "printNo": "S4483",
+   "readAs": [
+    "S4483"
+   ],
+   "reading": "Calendar Number 376, Senate Print 4483, by Senator Mayer, an act to amend the Village Law.",
+   "readings": [
+    127
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Mayer",
+   "startTurn": 127
+  },
+  {
+   "ayes": 56,
+   "calNo": 407,
+   "debateEnd": 143,
+   "debated": true,
+   "endTurn": 145,
+   "excerpt": [
+    {
+     "label": "SENATOR MAY",
+     "senator": "rachel-may",
+     "text": "Thank you, Mr. President. As we see a lot of economic development in this state, as we see transitions of buildings and transportation to using more efficient electric energy, we are also seeing pressure on the electric grid to be able to transmit the amount of energy that we…"
+    }
+   ],
+   "nays": 5,
+   "outcome": "passed",
+   "pages": [
+    896,
+    898
+   ],
+   "printNo": "S2708",
+   "readAs": [
+    "S2708"
+   ],
+   "reading": "Calendar Number 407, Senate Print 2708, by Senator May, an act to amend the Public Service Law.",
+   "readings": [
+    134
+   ],
+   "remarks": 1,
+   "speakers": {
+    "rachel-may": 1
+   },
+   "sponsor": "May",
+   "startTurn": 134
+  },
+  {
+   "ayes": 52,
+   "calNo": 412,
+   "debateEnd": 152,
+   "debated": false,
+   "endTurn": 154,
+   "excerpt": [],
+   "nays": 9,
+   "outcome": "passed",
+   "pages": [
+    898,
+    899
+   ],
+   "printNo": "A5834",
+   "readAs": [
+    "A5834"
+   ],
+   "reading": "Calendar Number 412, Assembly Bill 5834, by Assemblymember Walker, an act to amend the Election Law.",
+   "readings": [
+    145
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Walker",
+   "startTurn": 145
+  },
+  {
+   "ayes": 50,
+   "calNo": 441,
+   "debateEnd": 172,
+   "debated": true,
+   "endTurn": 172,
+   "excerpt": [
+    {
+     "label": "SENATOR MAYER",
+     "senator": "shelley-mayer",
+     "text": "Thank you, Mr. President. And a special thank you to Senator Ramos for her leadership on this bill. This bill is incredibly important because it provides urgently needed reforms to the TDI system in our state, but also it includes a provision that will provide families with paid…"
+    },
+    {
+     "label": "SENATOR BORRELLO",
+     "senator": "george-borrello",
+     "text": "Thank you, Mr. President. We continue to burden our small businesses here in New York State with more and more costs. And TDI here is now going to go up a whopping 600 percent over the course of four years. For those of you that don't know, temporary disability is for an injury…"
+    },
+    {
+     "label": "SENATOR RAMOS",
+     "senator": "jessica-ramos",
+     "text": "You know, Mr. President, heaven forbid that a small business owner care about its workers. If there's anything we hear from small businesses right now it is that they're dealing with heavy turnover, and we need more incentives, not less, in order to help our small businesses be…"
+    }
+   ],
+   "nays": 11,
+   "outcome": "passed",
+   "pages": [
+    899,
+    909
+   ],
+   "printNo": "S172",
+   "readAs": [
+    "S172"
+   ],
+   "reading": "Calendar Number 441, Senate Print 172, by Senator Ramos, an act to amend the Workers' Compensation Law.",
+   "readings": [
+    154
+   ],
+   "remarks": 6,
+   "speakers": {
+    "george-borrello": 1,
+    "jack-m-martins": 1,
+    "jessica-ramos": 2,
+    "michael-gianaris": 1,
+    "shelley-mayer": 1
+   },
+   "sponsor": "Ramos",
+   "startTurn": 154
+  },
+  {
+   "ayes": 41,
+   "calNo": 442,
+   "debateEnd": 179,
+   "debated": false,
+   "endTurn": 181,
+   "excerpt": [],
+   "nays": 20,
+   "outcome": "passed",
+   "pages": [
+    909,
+    910
+   ],
+   "printNo": "S372",
+   "readAs": [
+    "S372"
+   ],
+   "reading": "Calendar Number 442, Senate Print 372, by Senator Gianaris, an act to amend the Labor Law.",
+   "readings": [
+    172
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Gianaris",
+   "startTurn": 172
+  },
+  {
+   "ayes": 61,
+   "calNo": 443,
+   "debateEnd": 188,
+   "debated": false,
+   "endTurn": 188,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "passed",
+   "pages": [
+    910,
+    911
+   ],
+   "printNo": "A3224",
+   "readAs": [
+    "A3224"
+   ],
+   "reading": "Calendar Number 443, Assembly Bill 3224, by Assemblymember Braunstein, an act to amend the New York State Medical Care Facilities Finance Agency Act.",
+   "readings": [
+    181
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Braunstein",
+   "startTurn": 181
+  },
+  {
+   "ayes": 61,
+   "calNo": 444,
+   "debateEnd": 195,
+   "debated": false,
+   "endTurn": 195,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "passed",
+   "pages": [
+    911,
+    911
+   ],
+   "printNo": "S1514",
+   "readAs": [
+    "S1514"
+   ],
+   "reading": "Calendar Number 444, Senate Print 1514, by Senator Harckham, an act to amend the Labor Law.",
+   "readings": [
+    188
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Harckham",
+   "startTurn": 188
+  },
+  {
+   "ayes": 61,
+   "calNo": 445,
+   "debateEnd": 202,
+   "debated": false,
+   "endTurn": 202,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "passed",
+   "pages": [
+    911,
+    912
+   ],
+   "printNo": "S2236",
+   "readAs": [
+    "S2236"
+   ],
+   "reading": "Calendar Number 445, Senate Print 2236, by Senator Gounardes, an act to amend the Labor Law.",
+   "readings": [
+    195
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Gounardes",
+   "startTurn": 195
+  },
+  {
+   "ayes": 40,
+   "calNo": 446,
+   "debateEnd": 211,
+   "debated": true,
+   "endTurn": 213,
+   "excerpt": [
+    {
+     "label": "SENATOR RAMOS",
+     "senator": "jessica-ramos",
+     "text": "Thank you, Mr. President. You know, Black History Month just ended, and now we are in Women's History Month, so it's only appropriate to celebrate a labor and civil rights leader who inspired this bill. Dr. Martin Luther King had a neighbor whose name was Dorothy Lee Bolden. She…"
+    }
+   ],
+   "nays": 21,
+   "outcome": "passed",
+   "pages": [
+    912,
+    916
+   ],
+   "printNo": "S4515",
+   "readAs": [
+    "S4515"
+   ],
+   "reading": "Calendar Number 446, Senate Print 4515, by Senator Ramos, an act to amend the Labor Law.",
+   "readings": [
+    202
+   ],
+   "remarks": 1,
+   "speakers": {
+    "jessica-ramos": 1
+   },
+   "sponsor": "Ramos",
+   "startTurn": 202
+  },
+  {
+   "ayes": 61,
+   "calNo": 448,
+   "debateEnd": 220,
+   "debated": false,
+   "endTurn": 224,
+   "excerpt": [],
+   "nays": null,
+   "outcome": "passed",
+   "pages": [
+    916,
+    917
+   ],
+   "printNo": "A5833",
+   "readAs": [
+    "A5833"
+   ],
+   "reading": "Calendar Number 448, Assembly Bill Number 5833, by Assemblymember Pretlow, an act to amend the State Finance Law.",
+   "readings": [
+    213
+   ],
+   "remarks": 0,
+   "speakers": {},
+   "sponsor": "Pretlow",
+   "startTurn": 213
+  }
+ ],
  "committees": [],
  "corrected": null,
  "coverage": 1,

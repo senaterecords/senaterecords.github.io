@@ -10,7 +10,11 @@ const latest = transcriptIndex().slice(0, 3);
 
 const session = currentSession();
 const sessionLabel = `${session}–${String(session + 1).slice(2)}`;
-const debated = billsFor(session)
+// A bill the other house's was substituted for shares its debate with the substitute, which is listed in its place.
+const bills = billsFor(session);
+const listed = new Set(bills.map((b) => b.basePrintNo));
+const debated = bills
+  .filter((bill) => !(bill.card?.substitutedBy && listed.has(bill.card.substitutedBy.basePrintNo)))
   .map((bill) => ({
     bill,
     remarks: bill.segments.reduce((n, s) => n + s.remarks, 0),

@@ -195,8 +195,8 @@ test("a link into a bill's reading never shows the transcript overview in the si
   await page.goto("transcripts/2025-03-04-regular-session/");
   // A remark inside the first reading that has one.
   const id = await page.evaluate(() => {
-    for (const li of document.querySelectorAll<HTMLElement>(".rd-cal li[data-start]")) {
-      const start = Number(li.dataset.start), end = Number(li.dataset.end);
+    for (const li of document.querySelectorAll<HTMLElement>(".rd-cal li[data-spans]")) {
+      const [start, end] = li.dataset.spans!.split(" ")[0].split("-").map(Number);
       const remark = [...document.querySelectorAll<HTMLElement>("section.turn[id^='r-']")].find((s) => { const n = Number(s.id.slice(2)); return n >= start && n <= end; });
       if (remark) return remark.id;
     }

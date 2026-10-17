@@ -9,8 +9,8 @@ const data: ReaderPayload = {
   },
   segments: [
     { calNo: 441, printNo: "S172", startTurn: 154, endTurn: 172, debateEnd: 172, debated: true, title: "Increases short-term disability benefits",
-      status: { text: "In Assembly Committee", tone: "ink" }, sponsor: "Sen. Jessica Ramos", url: "/bills/2025/S172/", outcome: "passed", ayes: 50, nays: 11, remarks: 6 },
-    { calNo: 9, printNo: null, startTurn: 3, endTurn: 4, debateEnd: 4, debated: false, title: null, status: null, sponsor: null, url: null, outcome: null, ayes: null, nays: null, remarks: 0 },
+      status: { text: "In Assembly Committee", tone: "ink" }, sponsor: "Sen. Jessica Ramos", url: "/bills/2025/S172/", floor: "Debated and passed, 50–11", remarks: 6, main: 154 },
+    { calNo: 9, printNo: null, startTurn: 3, endTurn: 4, debateEnd: 4, debated: false, title: null, status: null, sponsor: null, url: null, floor: "Read on the floor. No vote recorded.", remarks: 0, main: 3 },
   ],
 };
 

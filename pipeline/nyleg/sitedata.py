@@ -150,7 +150,52 @@ def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, An
     }
 
 
+def _calendar_items(readings: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """The day's calendar: one item per calendar number, however often it was read: laid aside on the first pass and
+    taken up for debate later, or read again as the other house's identical bill once that is substituted for it
+    (Calendar 723 on May 2, 2023: S4006C laid aside, S4006C debated, then A3006C substituted and passed). An item has
+    the bill voted on, every print read under the number, the outcome and vote of its last decided reading, and the
+    debate of all its readings; it opens on its longest debate, else on the reading that decided it."""
+    groups: dict[int, list[dict[str, Any]]] = {}
+    for reading in readings:
+        groups.setdefault(reading["calNo"], []).append(reading)
+    items = []
+    for cal_no, group in groups.items():
+        decided = [r for r in group if r["outcome"]]
+        final = decided[-1] if decided else group[-1]
+        debated = [r for r in group if r["debated"]]
+        main = max(debated, key=lambda r: r["remarks"]) if debated else final
+        voted = next((r for r in reversed(group) if r["ayes"] is not None), None)
+        speakers: Counter = Counter()
+        for r in group:
+            speakers.update(r["speakers"])
+        pages = [p for r in group if r["pages"] for p in r["pages"]]
+        read_as = list(dict.fromkeys(r["printNo"] for r in group if r["printNo"]))
+        items.append({
+            "calNo": cal_no,
+            "printNo": final["printNo"] or (read_as[-1] if read_as else None),
+            "readAs": read_as,
+            "sponsor": next((r["sponsor"] for r in group if r["sponsor"]), None),
+            "startTurn": main["startTurn"],
+            "endTurn": main["endTurn"],
+            "debateEnd": main["debateEnd"],
+            "readings": [r["startTurn"] for r in group],
+            "debated": bool(debated),
+            "outcome": final["outcome"],
+            "ayes": voted["ayes"] if voted else None,
+            "nays": voted["nays"] if voted else None,
+            "remarks": sum(r["remarks"] for r in group),
+            "speakers": dict(speakers.most_common()),
+            "pages": [min(pages), max(pages)] if pages else None,
+            "excerpt": main["excerpt"],
+            "reading": main["reading"],
+        })
+    return items
+
+
 COVER_HEAD = 1000  # characters of a transcript's cover page, which names its officers
+# The steps of a substitute's path a substituted bill's timeline goes on with.
+AFTER_SUBSTITUTION = {"PASSED_SENATE", "PASSED_ASSEMBLY", "DELIVERED_TO_GOV", "SIGNED_BY_GOV", "VETOED"}
 
 
 def _officers(kind: str, when: date, text: str, officers: Officers | None) -> dict[str, Any]:
@@ -237,7 +282,8 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
         "empty": empty,
         "corrected": None,
         "turns": out_turns,
-        "segments": [_segment_dict(s, out_turns) for s in segments],
+        "segments": (readings := [_segment_dict(s, out_turns) for s in segments]),
+        "calendar": _calendar_items(readings),
         "unresolvedBillMentions": unresolved,
         "officers": _officers(kind, when, text, officers),
     }
@@ -390,7 +436,7 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             "dayType": doc["dayType"], "pages": doc["pages"], "committees": doc["committees"],
             "speakers": len({t["senator"] for t in doc["turns"]
                              if t["senator"] and t["role"] in (ROLE_SENATOR, ROLE_CHAIR)}),
-            "billsDebated": sum(1 for s in doc["segments"] if s["debated"]),
+            "billsDebated": sum(1 for item in doc["calendar"] if item["debated"]),
             "plainText": doc["plainText"], "corrected": doc["corrected"],
         })
         report.chars_total += total
@@ -441,15 +487,19 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
                 "firstTurn": first[senator]["i"],
                 "firstPage": first[senator]["page"],
             })
+        # A bill's page shows each calendar item it was read under, with every print read there: S4006C's page and
+        # A3006C's both show the debate and the vote of Calendar 723, though the debate was read as one and the vote
+        # taken on the other. A senator is credited for the bill read while they spoke.
+        for item in doc["calendar"]:
+            for base in dict.fromkeys(base_print_no(p) for p in item["readAs"]):
+                entry = _bill_entry(bills, session, base)
+                entry["segments"].append({"transcript": slug, "date": doc["date"], **item})
+                mention(entry, doc, slug, kind, item["pages"][0] if item["pages"] else None, item["startTurn"], item["reading"])
         for seg in doc["segments"]:
             if not seg["printNo"]:
                 continue  # a special-session reading the API has no bill for
-            base = base_print_no(seg["printNo"])
-            entry = _bill_entry(bills, session, base)
-            entry["segments"].append({"transcript": slug, "date": doc["date"], **seg})
-            mention(entry, doc, slug, kind, seg["pages"][0] if seg["pages"] else None, seg["startTurn"], seg["reading"])
             for senator, count in seg["speakers"].items():
-                debated_bills[senator][(session, base, seg["printNo"])] += count
+                debated_bills[senator][(session, base_print_no(seg["printNo"]), seg["printNo"])] += count
 
     write_json(out / "transcripts.json", sorted(summaries, key=lambda s: (s["date"], s["slug"]), reverse=True))
     sponsored: dict[str, set[tuple[int, str, str]]] = defaultdict(set)
@@ -460,6 +510,15 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             sponsor_id = ((entry["card"] or {}).get("sponsor") or {}).get("memberId")
             if sponsor_id in roster.senators:
                 sponsored[roster.senators[sponsor_id].slug].add((session, base, entry["card"]["printNo"] or base))
+            # A bill another was substituted for stays where it was; what became of it is the substitute's story.
+            substitution = (entry["card"] or {}).get("substitutedBy")
+            raw_sub = read_json(store.bill_path(session, substitution["basePrintNo"])) if substitution else None
+            if raw_sub:
+                later = bill_card(raw_sub)
+                substitution.update({
+                    "signed": later["signed"], "vetoed": later["vetoed"], "status": later["status"],
+                    "milestones": [m for m in later["milestones"] if m["type"] in AFTER_SUBSTITUTION],
+                })
         write_json(out / "bills" / f"{session}.json", {"session": session, "bills": [entries[k] for k in sorted(entries)]})
 
     index = []

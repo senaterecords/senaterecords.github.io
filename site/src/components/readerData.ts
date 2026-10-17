@@ -22,10 +22,9 @@ export interface ReaderSegment {
   status: { text: string; tone: "red" | "amber" | "ink" } | null;
   sponsor: string | null;
   url: string | null;
-  outcome: string | null;
-  ayes: number | null;
-  nays: number | null;
+  floor: string; // what its calendar item came to on the floor
   remarks: number;
+  main: number; // where its calendar item opens
 }
 
 export interface ReaderData {

@@ -36,7 +36,7 @@ rmSync(OUT, { recursive: true, force: true });
 const docs = SLUGS.map((slug) => read(`transcripts/${slug}.json`));
 const model = docs[1];
 docs.push({
-  ...model, slug: PLAIN, date: "1995-05-09", plainText: true, coverage: 0.42, segments: [], unresolvedBillMentions: 0,
+  ...model, slug: PLAIN, date: "1995-05-09", plainText: true, coverage: 0.42, segments: [], calendar: [], unresolvedBillMentions: 0,
   turns: [{ i: 0, label: null, role: "record", senator: null, page: model.turns[0].page, breaks: [], bills: [],
             text: model.turns.slice(0, 12).map((t) => t.text).join("\n\n") }],
 });

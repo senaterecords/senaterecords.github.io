@@ -38,6 +38,7 @@ _LOST = re.compile(r"\bbill is lost\b|\bbill is defeated\b", re.I)
 _ADOPTED = re.compile(r"\bresolution is adopted\b", re.I)
 _ASIDE = re.compile(r"\blay (?:it|the bill) aside\b|\blaid aside\b", re.I)
 _BASE = re.compile(r"^([SA]\d+)[A-Z]?$")
+_SUBSTITUTED = re.compile(r"^SUBSTITUTED BY ([SA]\d+[A-Z]?)\b")
 
 
 def print_no(chamber: str, num: str, amd: str | None) -> str:
@@ -206,6 +207,17 @@ def bill_card(raw: dict[str, Any]) -> dict[str, Any]:
         return {code: [m["memberId"] for m in group.get("items") or [] if m.get("memberId") is not None]
                 for code, group in groups.items()}
 
+    # The other house's identical bill taken up in its place ("SUBSTITUTED BY A3006C"): this one then stays where it
+    # was, and the law is the substitute's.
+    substituted_by = (raw.get("substitutedBy") or {}).get("basePrintNo")
+    substitution = None
+    if substituted_by:
+        actions = [(a.get("date"), m[1]) for a in (raw.get("actions") or {}).get("items") or []
+                   if (m := _SUBSTITUTED.match(a.get("text") or ""))]
+        when, printed = actions[-1] if actions else (None, substituted_by)
+        substitution = {"printNo": printed if printed.startswith(substituted_by) else substituted_by,
+                        "basePrintNo": substituted_by, "date": when}
+
     committee = status.get("committeeName")
     if not committee:
         past = [c for c in (raw.get("pastCommittees") or {}).get("items") or []
@@ -237,4 +249,5 @@ def bill_card(raw: dict[str, Any]) -> dict[str, Any]:
         "sameAs": [s.get("printNo") or s.get("basePrintNo") for s in (amendment.get("sameAs") or {}).get("items") or []],
         "committee": committee,
         "coSponsors": len((amendment.get("coSponsors") or {}).get("items") or []),
+        "substitutedBy": substitution,
     }

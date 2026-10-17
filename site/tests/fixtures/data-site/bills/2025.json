@@ -144,6 +144,7 @@
      "text": "Signed by Governor",
      "type": "SIGNED_BY_GOV"
     },
+    "substitutedBy": null,
     "title": "Relates to the ability to issue certain bonds and notes",
     "vetoed": false
    },
@@ -174,7 +175,13 @@
       911
      ],
      "printNo": "A3224",
+     "readAs": [
+      "A3224"
+     ],
      "reading": "Calendar Number 443, Assembly Bill 3224, by Assemblymember Braunstein, an act to amend the New York State Medical Care Facilities Finance Agency Act.",
+     "readings": [
+      181
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Braunstein",
@@ -327,6 +334,7 @@
      "text": "Signed by Governor",
      "type": "SIGNED_BY_GOV"
     },
+    "substitutedBy": null,
     "title": "Authorizes the state comptroller to refund all or any part of bonds",
     "vetoed": false
    },
@@ -357,7 +365,13 @@
       917
      ],
      "printNo": "A5833",
+     "readAs": [
+      "A5833"
+     ],
      "reading": "Calendar Number 448, Assembly Bill Number 5833, by Assemblymember Pretlow, an act to amend the State Finance Law.",
+     "readings": [
+      213
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Pretlow",
@@ -513,6 +527,7 @@
      "text": "Signed by Governor",
      "type": "SIGNED_BY_GOV"
     },
+    "substitutedBy": null,
     "title": "Relates to early voting for certain special elections",
     "vetoed": false
    },
@@ -543,7 +558,13 @@
       899
      ],
      "printNo": "A5834",
+     "readAs": [
+      "A5834"
+     ],
      "reading": "Calendar Number 412, Assembly Bill 5834, by Assemblymember Walker, an act to amend the Election Law.",
+     "readings": [
+      145
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Walker",
@@ -587,6 +608,40 @@
      "date": "2025-03-04",
      "text": "Senate Floor Calendar",
      "type": "SENATE_FLOOR"
+    },
+    "substitutedBy": {
+     "basePrintNo": "A3224",
+     "date": "2025-03-04",
+     "milestones": [
+      {
+       "date": "2025-01-28",
+       "text": "Passed Assembly",
+       "type": "PASSED_ASSEMBLY"
+      },
+      {
+       "date": "2025-03-04",
+       "text": "Passed Senate",
+       "type": "PASSED_SENATE"
+      },
+      {
+       "date": "2025-03-07",
+       "text": "Delivered to Governor",
+       "type": "DELIVERED_TO_GOV"
+      },
+      {
+       "date": "2025-03-07",
+       "text": "Signed by Governor",
+       "type": "SIGNED_BY_GOV"
+      }
+     ],
+     "printNo": "A3224",
+     "signed": true,
+     "status": {
+      "date": "2025-03-07",
+      "text": "Signed by Governor",
+      "type": "SIGNED_BY_GOV"
+     },
+     "vetoed": false
     },
     "title": "Relates to the ability of the New York state medical care facilities finance agency to issue certain bonds and notes",
     "vetoed": false
@@ -811,6 +866,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Relates to issuing stop-work orders for misclassification of employees",
     "vetoed": false
    },
@@ -841,7 +897,13 @@
       911
      ],
      "printNo": "S1514",
+     "readAs": [
+      "S1514"
+     ],
      "reading": "Calendar Number 444, Senate Print 1514, by Senator Harckham, an act to amend the Labor Law.",
+     "readings": [
+      188
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Harckham",
@@ -994,6 +1056,7 @@
      "text": "Signed by Governor",
      "type": "SIGNED_BY_GOV"
     },
+    "substitutedBy": null,
     "title": "Permits the office of village justice and/or associate justice may be held by a non-resident",
     "vetoed": false
    },
@@ -1024,7 +1087,13 @@
       895
      ],
      "printNo": "S1678",
+     "readAs": [
+      "S1678"
+     ],
      "reading": "Calendar Number 374, Senate Print 1678, by Senator C. Ryan, an act to authorize the Board of Trustees of the Village of East Syracuse to permit that the Office of Village Justice may be held by a nonresident.",
+     "readings": [
+      120
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "C. Ryan",
@@ -1243,6 +1312,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Increases short-term disability benefits",
     "vetoed": false
    },
@@ -1289,7 +1359,13 @@
       909
      ],
      "printNo": "S172",
+     "readAs": [
+      "S172"
+     ],
      "reading": "Calendar Number 441, Senate Print 172, by Senator Ramos, an act to amend the Workers' Compensation Law.",
+     "readings": [
+      154
+     ],
      "remarks": 6,
      "speakers": {
       "george-borrello": 1,
@@ -1595,6 +1671,7 @@
      "text": "Passed Assembly",
      "type": "PASSED_ASSEMBLY"
     },
+    "substitutedBy": null,
     "title": "Enacts the wage payment integrity act",
     "vetoed": false
    },
@@ -1625,7 +1702,13 @@
       912
      ],
      "printNo": "S2236",
+     "readAs": [
+      "S2236"
+     ],
      "reading": "Calendar Number 445, Senate Print 2236, by Senator Gounardes, an act to amend the Labor Law.",
+     "readings": [
+      195
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Gounardes",
@@ -1841,6 +1924,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Relates to the admissibility of certain testimony and evidence by a person alleging discrimination",
     "vetoed": false
    },
@@ -1871,7 +1955,13 @@
       891
      ],
      "printNo": "S2497",
+     "readAs": [
+      "S2497"
+     ],
      "reading": "Calendar Number 368, Senate Print 2497, by Senator Gounardes, an act to amend the Civil Practice Law and Rules.",
+     "readings": [
+      97
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Gounardes",
@@ -2170,6 +2260,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Relates to advanced transmission technologies",
     "vetoed": false
    },
@@ -2206,7 +2297,13 @@
       898
      ],
      "printNo": "S2708",
+     "readAs": [
+      "S2708"
+     ],
      "reading": "Calendar Number 407, Senate Print 2708, by Senator May, an act to amend the Public Service Law.",
+     "readings": [
+      134
+     ],
      "remarks": 1,
      "speakers": {
       "rachel-may": 1
@@ -2427,6 +2524,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Establishes the \"New York junk fee prevention act\"",
     "vetoed": false
    },
@@ -2457,7 +2555,13 @@
       890
      ],
      "printNo": "S363",
+     "readAs": [
+      "S363"
+     ],
      "reading": "Calendar Number 203, Senate Print 363, by Senator Gianaris, an act to amend the General Business Law.",
+     "readings": [
+      86
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Gianaris",
@@ -2763,6 +2867,7 @@
      "text": "Passed Assembly",
      "type": "PASSED_ASSEMBLY"
     },
+    "substitutedBy": null,
     "title": "Establishes the \"no severance ultimatums act\"",
     "vetoed": false
    },
@@ -2793,7 +2898,13 @@
       910
      ],
      "printNo": "S372",
+     "readAs": [
+      "S372"
+     ],
      "reading": "Calendar Number 442, Senate Print 372, by Senator Gianaris, an act to amend the Labor Law.",
+     "readings": [
+      172
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Gianaris",
@@ -2833,6 +2944,7 @@
      "text": "In Senate Committee",
      "type": "IN_SENATE_COMM"
     },
+    "substitutedBy": null,
     "title": "Relates to calculation of franchise tax on businesses with a business income base over five million dollars",
     "vetoed": false
    },
@@ -3126,6 +3238,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Establishes the crime of misappropriation of payroll funds",
     "vetoed": false
    },
@@ -3156,7 +3269,13 @@
       890
      ],
      "printNo": "S4188",
+     "readAs": [
+      "S4188"
+     ],
      "reading": "Calendar Number 364, Senate Print 4188, by Senator Comrie, an act to amend the Penal Law.",
+     "readings": [
+      90
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Comrie",
@@ -3194,6 +3313,7 @@
      "text": "In Senate Committee",
      "type": "IN_SENATE_COMM"
     },
+    "substitutedBy": null,
     "title": "Relates to high income personal income tax rates",
     "vetoed": false
    },
@@ -3354,6 +3474,7 @@
      "text": "Signed by Governor",
      "type": "SIGNED_BY_GOV"
     },
+    "substitutedBy": null,
     "title": "Relates to the filling of vacancies for elective offices in villages with November elections",
     "vetoed": false
    },
@@ -3384,7 +3505,13 @@
       896
      ],
      "printNo": "S4483",
+     "readAs": [
+      "S4483"
+     ],
      "reading": "Calendar Number 376, Senate Print 4483, by Senator Mayer, an act to amend the Village Law.",
+     "readings": [
+      127
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Mayer",
@@ -3603,6 +3730,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Requires employers of domestic workers to provide annual sick leave to such workers",
     "vetoed": false
    },
@@ -3639,7 +3767,13 @@
       916
      ],
      "printNo": "S4515",
+     "readAs": [
+      "S4515"
+     ],
      "reading": "Calendar Number 446, Senate Print 4515, by Senator Ramos, an act to amend the Labor Law.",
+     "readings": [
+      202
+     ],
      "remarks": 1,
      "speakers": {
       "jessica-ramos": 1
@@ -3685,6 +3819,40 @@
      "date": "2025-03-04",
      "text": "Senate Floor Calendar",
      "type": "SENATE_FLOOR"
+    },
+    "substitutedBy": {
+     "basePrintNo": "A5285",
+     "date": "2025-03-10",
+     "milestones": [
+      {
+       "date": "2025-03-05",
+       "text": "Passed Assembly",
+       "type": "PASSED_ASSEMBLY"
+      },
+      {
+       "date": "2025-03-10",
+       "text": "Passed Senate",
+       "type": "PASSED_SENATE"
+      },
+      {
+       "date": "2025-03-20",
+       "text": "Delivered to Governor",
+       "type": "DELIVERED_TO_GOV"
+      },
+      {
+       "date": "2025-03-20",
+       "text": "Signed by Governor",
+       "type": "SIGNED_BY_GOV"
+      }
+     ],
+     "printNo": "A5285",
+     "signed": true,
+     "status": {
+      "date": "2025-03-20",
+      "text": "Signed by Governor",
+      "type": "SIGNED_BY_GOV"
+     },
+     "vetoed": false
     },
     "title": "Relates to prescription labels for mifepristone and misoprostol",
     "vetoed": false
@@ -3814,6 +3982,7 @@
      "text": "In Senate Committee",
      "type": "IN_SENATE_COMM"
     },
+    "substitutedBy": null,
     "title": "Provides grounds for attachment and relates to procedures where employees may hold shareholders of non-publicly traded corporations personally liable for wage theft",
     "vetoed": false
    },
@@ -3850,7 +4019,13 @@
       894
      ],
      "printNo": "S4611",
+     "readAs": [
+      "S4611"
+     ],
      "reading": "Calendar Number 370, Senate Print 4611, by Senator Ramos, an act to amend the Civil Practice Law and Rules.",
+     "readings": [
+      104
+     ],
      "remarks": 1,
      "speakers": {
       "jessica-ramos": 1
@@ -3988,6 +4163,7 @@
      "text": "In Assembly Committee",
      "type": "IN_ASSEMBLY_COMM"
     },
+    "substitutedBy": null,
     "title": "Relates to the disqualification of a surviving spouse",
     "vetoed": false
    },
@@ -4018,7 +4194,13 @@
       894
      ],
      "printNo": "S4999",
+     "readAs": [
+      "S4999"
+     ],
      "reading": "Calendar Number 372, Senate Print 4999, by Senator Hoylman-Sigal, an act to amend the Estates, Powers and Trusts Law.",
+     "readings": [
+      113
+     ],
      "remarks": 0,
      "speakers": {},
      "sponsor": "Hoylman-Sigal",
@@ -4062,6 +4244,40 @@
      "date": "2025-03-03",
      "text": "Senate Floor Calendar",
      "type": "SENATE_FLOOR"
+    },
+    "substitutedBy": {
+     "basePrintNo": "A5834",
+     "date": "2025-03-04",
+     "milestones": [
+      {
+       "date": "2025-03-04",
+       "text": "Passed Assembly",
+       "type": "PASSED_ASSEMBLY"
+      },
+      {
+       "date": "2025-03-04",
+       "text": "Passed Senate",
+       "type": "PASSED_SENATE"
+      },
+      {
+       "date": "2025-03-07",
+       "text": "Delivered to Governor",
+       "type": "DELIVERED_TO_GOV"
+      },
+      {
+       "date": "2025-03-07",
+       "text": "Signed by Governor",
+       "type": "SIGNED_BY_GOV"
+      }
+     ],
+     "printNo": "A5834",
+     "signed": true,
+     "status": {
+      "date": "2025-03-07",
+      "text": "Signed by Governor",
+      "type": "SIGNED_BY_GOV"
+     },
+     "vetoed": false
     },
     "title": "Relates to early voting for certain special elections",
     "vetoed": false
@@ -4114,6 +4330,40 @@
      "date": "2025-03-04",
      "text": "Senate Floor Calendar",
      "type": "SENATE_FLOOR"
+    },
+    "substitutedBy": {
+     "basePrintNo": "A5833",
+     "date": "2025-03-04",
+     "milestones": [
+      {
+       "date": "2025-03-04",
+       "text": "Passed Assembly",
+       "type": "PASSED_ASSEMBLY"
+      },
+      {
+       "date": "2025-03-04",
+       "text": "Passed Senate",
+       "type": "PASSED_SENATE"
+      },
+      {
+       "date": "2025-03-07",
+       "text": "Delivered to Governor",
+       "type": "DELIVERED_TO_GOV"
+      },
+      {
+       "date": "2025-03-07",
+       "text": "Signed by Governor",
+       "type": "SIGNED_BY_GOV"
+      }
+     ],
+     "printNo": "A5833",
+     "signed": true,
+     "status": {
+      "date": "2025-03-07",
+      "text": "Signed by Governor",
+      "type": "SIGNED_BY_GOV"
+     },
+     "vetoed": false
     },
     "title": "Authorizes the state comptroller to refund all or any part of bonds",
     "vetoed": false

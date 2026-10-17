@@ -1,14 +1,18 @@
 ---
-// The left rail of a floor transcript: each row is one link to its reading in the text; a small control at the end of
-// the row opens the bill's page (the headnote on the right links it too while the reading is on screen).
+// The left rail of a floor transcript: one row per calendar number, however often it was read (laid aside on the first
+// pass, debated later, or read again as the other house's bill substituted for it: "S4006C → A3006C"). Each row links
+// to where its item opens (its debate, else the reading that decided it); a small control at the end of the row opens
+// the page of the bill voted on (the headnote on the right links it too while a reading is on screen).
 import Icon from "../Icon.astro";
 import { hasBillPage } from "../../lib/data";
 import { plural } from "../../lib/format";
 import type { Segment } from "../../lib/types";
 import { url } from "../../lib/url";
 
-interface Props { segments: Segment[]; session: number; }
-const { segments, session } = Astro.props;
+interface Props { segments: Segment[]; readings: Segment[]; session: number; }
+const { segments, readings, session } = Astro.props;
+// Each row's readings, as turn spans ("102-110 195-201"): what the page and the reader mark the row by.
+const spansOf = (item: Segment) => readings.filter((r) => r.calNo === item.calNo).map((r) => `${r.startTurn}-${Math.max(r.endTurn, r.startTurn)}`).join(" ");
 const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
 ---
 <aside class="rd-rail rd-cal" aria-label="On the calendar">
@@ -22,11 +26,11 @@ const baseOf = (printNo: string) => printNo.match(/^[SA]\d+/)?.[0] ?? printNo;
             const base = s.printNo ? baseOf(s.printNo) : null;
             const linked = base && hasBillPage(session, base);
             return (
-              <li data-start={s.startTurn} data-end={Math.max(s.endTurn, s.startTurn)}>
+              <li data-spans={spansOf(s) || `${s.startTurn}-${Math.max(s.endTurn, s.startTurn)}`}>
                 <a class="go" href={`#r-${s.startTurn}`}>
                   <span class="n num">{s.calNo}</span>
                   <span class="p">
-                    {s.printNo ? <span class="num">{s.printNo}</span> : <span class="nobill">No bill number</span>}
+                    {s.printNo ? <span class="num">{(s.readAs?.length ? s.readAs : [s.printNo]).join(" → ")}</span> : <span class="nobill">No bill number</span>}
                     <small>{s.debated ? (s.remarks ? `Debated · ${plural(s.remarks, "remark")}` : "Debated") : "No debate"}</small>
                   </span>
                 </a>
