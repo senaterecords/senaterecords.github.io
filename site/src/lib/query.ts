@@ -1,6 +1,7 @@
 // The search query layer (spec 9.1): parse what the reader typed, plan the Pagefind searches, and keep only the
 // remarks that really match. Pagefind finds pages; this decides which remarks on those pages count.
 import { fold } from "./names";
+import { stem } from "./stem";
 
 /** Two terms (each a word or a phrase) within so many words of each other in one remark. */
 export interface Near { a: string; b: string; within: number; }
@@ -49,7 +50,8 @@ function tokenize(q: string): Token[] {
     return end < 0 ? [q.slice(from + 1), q.length] : [q.slice(from + 1, end), end + 1];
   };
   const add = (text: string, phrase: boolean, negated: boolean) => {
-    const value = phrase ? text.trim().replace(/\s+/g, " ") : text;
+    // "tax!" (as Westlaw and Lexis write it) is "tax*": any word that starts with tax.
+    const value = phrase ? text.trim().replace(/\s+/g, " ") : text.replace(/!$/, "*");
     if (!fold(value)) return; // punctuation alone: nothing to find
     if (group) tokens.push({ kind: "field", field: group.field, value, negated: group.negated !== negated });
     else tokens.push({ kind: phrase ? "phrase" : "word", value, negated });
@@ -231,7 +233,9 @@ function branchesOf(node: Node): Conj[] {
       const b = branchesOf(node.b);
       // NEAR pairs a word or phrase with another; with a bracket of them on a side, each one is paired. Anything more
       // (a bracket holding a shortcut or a NOT) can only ask that both be there.
-      const term = (c: Conj) => (!c.near.length && !c.not.length && !hasFilters(c.filters) && c.words.length + c.phrases.length === 1 ? c.words[0] ?? c.phrases[0] : null);
+      // A quoted single word keeps its quotes there, so it still matches only itself.
+      const term = (c: Conj) => (!c.near.length && !c.not.length && !hasFilters(c.filters) && c.words.length + c.phrases.length === 1
+        ? c.words[0] ?? (isPhrase(c.phrases[0]) ? c.phrases[0] : `"${c.phrases[0]}"`) : null);
       if (![...a, ...b].every(term)) return cross(a, b);
       if (a.length * b.length > LIMIT) throw new TooMany();
       return a.flatMap((x) => b.map((y) => ({ ...empty(), near: [{ a: term(x)!, b: term(y)!, within: node.within }] })));
@@ -309,12 +313,15 @@ export function parseQuery(q: string): ParsedQuery {
  * transcripts every search found, and each remark is still checked for every phrase and word (spec 9.1). */
 export function pagefindTerms(b: Terms): string[] {
   const nearTerms = b.near.flatMap((n) => [n.a, n.b]);
-  const words = [...b.words, ...nearTerms.filter((t) => !isPhrase(t))].join(" ");
+  const words = [...b.words, ...nearTerms.filter((t) => !isPhrase(t))].map(bare).join(" ");
   const terms = [...[...b.phrases, ...nearTerms.filter(isPhrase)].map((p) => `"${p}"`), ...(words ? [words] : [])];
   return terms.length ? terms : [EVERY_PAGE];
 }
 
 const isPhrase = (term: string) => /\s/.test(term.trim());
+/** A word as Pagefind is asked for it, without the * of "tax*" or the quotes of an exact word in a NEAR: its own
+ * matching (forms, and the start of a word) finds at least as much, and each remark is then checked exactly. */
+const bare = (word: string) => word.replace(/[*!]$/, "").replace(/^"(.*)"$/, "$1");
 
 /** Filters as Pagefind takes them: values, "any" lists, and "none" for transcripts left out. */
 export type PagefindFilters = { [key: string]: string | string[] | { any: string[] } | PagefindFilters[] };
@@ -387,9 +394,23 @@ export function spokenText(r: Remark): Remark {
 
 const foldedWords = (text: string) => fold(text).split(" ").filter(Boolean);
 
+/** How one search word matches a remark's words: by its forms ("tax": taxes, taxed, taxing, as the index stems them),
+ * as the start of a word ("tax*" or "tax!": taxpayer, taxation), or exactly (a quoted word, "\"tax\"", as a NEAR
+ * keeps it). Null for a word that folds to several (co-op), which matches as a phrase. */
+function matcher(term: string): ((word: string) => boolean) | null {
+  const text = fold(term);
+  if (!text || text.includes(" ")) return null;
+  if (/^".*"$/.test(term.trim())) return (w) => w === text;
+  if (/[*!]$/.test(term)) return (w) => w.startsWith(text);
+  const s = stem(text);
+  // A word's stem keeps all but its last few letters, so only words that start alike need stemming.
+  const head = s.slice(0, Math.max(1, s.length - 4));
+  return (w) => w.startsWith(head) && stem(w) === s;
+}
+
 function positions(words: string[], term: string): number[] {
-  const t = fold(term).replace(/ /g, "");
-  return t ? words.flatMap((w, i) => (w.startsWith(t) ? [i] : [])) : [];
+  const hit = matcher(term);
+  return hit ? words.flatMap((w, i) => (hit(w) ? [i] : [])) : [];
 }
 
 function hasPhrase(words: string[], phrase: string): boolean {
@@ -401,7 +422,7 @@ function present(words: string[], term: string): boolean {
   return fold(term).includes(" ") ? hasPhrase(words, term) : positions(words, term).length > 0;
 }
 
-/** Where a word (by its start) or a phrase (all its words) occurs, as [first, last] word indexes. */
+/** Where a word (as it matches) or a phrase (all its words) occurs, as [first, last] word indexes. */
 function spans(words: string[], term: string): [number, number][] {
   const parts = fold(term).split(" ").filter(Boolean);
   if (parts.length <= 1) return positions(words, term).map((i) => [i, i] as [number, number]);
@@ -493,18 +514,31 @@ const EXCERPT = 360;
 
 interface Hit { start: number; end: number; term: string; }
 
-/** Every hit of a branch's terms in a text, in order, each with the term it belongs to. */
+/** Every hit of a branch's terms in a text, in order, each with the term it belongs to: marked by the same rules as
+ * the remark was matched by (a word's forms, the start of a word with *, an exact word or phrase in quotes). */
 function termHits(text: string, b: Branch): Hit[] {
   const nearTerms = b.near.flatMap((n) => [n.a, n.b]);
   const phrase = (p: string) => p.split(/\s+/).map(escapeRegex).join(`[^${L}]+`) + `(?![${L}])`;
-  const word = (w: string) => `${escapeRegex(w)}[${L}]*`;
-  const patterns: [string, string][] = [
-    ...[...b.phrases, ...nearTerms.filter(isPhrase)].map((t) => [t, phrase(t)] as [string, string]),
-    ...[...b.words, ...nearTerms.filter((t) => !isPhrase(t))].map((t) => [t, word(t)] as [string, string]),
-  ];
   const out: Hit[] = [];
-  for (const [term, p] of patterns) {
-    for (const m of text.matchAll(new RegExp(`(?<![${L}])${p}`, "giu"))) out.push({ start: m.index!, end: m.index! + m[0].length, term });
+  const find = (term: string, pattern: string) => {
+    for (const m of text.matchAll(new RegExp(`(?<![${L}])${pattern}`, "giu"))) out.push({ start: m.index!, end: m.index! + m[0].length, term });
+  };
+  for (const t of [...b.phrases, ...nearTerms.filter(isPhrase)]) find(t, phrase(t));
+  const forms: { term: string; hit: (word: string) => boolean }[] = [];
+  for (const t of [...b.words, ...nearTerms.filter((w) => !isPhrase(w))]) {
+    const exact = /^"(.*)"$/.exec(t.trim());
+    if (exact) find(t, `${escapeRegex(exact[1])}(?![${L}])`);
+    else if (/[*!]$/.test(t)) find(t, `${escapeRegex(t.slice(0, -1))}[${L}]*`);
+    else if (fold(t).includes(" ")) find(t, phrase(t));
+    else forms.push({ term: t, hit: matcher(t)! });
+  }
+  // A word's forms are found word by word: each word of the text with the search word's stem.
+  if (forms.length) {
+    for (const m of text.matchAll(new RegExp(`[${L}]+(?:['’][${L}]+)*`, "gu"))) {
+      const word = fold(m[0]).replace(/ /g, "");
+      const found = forms.find((f) => f.hit(word));
+      if (found) out.push({ start: m.index!, end: m.index! + m[0].length, term: found.term });
+    }
   }
   return out.sort((x, y) => x.start - y.start);
 }

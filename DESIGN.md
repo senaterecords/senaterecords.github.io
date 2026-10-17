@@ -302,7 +302,11 @@ Restrained and green-led.
 - Section links 550 14px `ink2`; the current one is ink with a 2px ink underline sitting on the bar's bottom rule. Page tabs are 600 14px with the same underline and tabular counts in `ink3`; on the senator page they sit in a pinned white tab bar (1px `rule` below) that switches the list shown, and the senator's name (700 14px) joins it once the page title scrolls away (its own 13px line above the tabs on phones). Phone menu: a full-width white panel, 600 15px rows, current row marked by a 3px ink left bar.
 
 ### Search tips panel
-- A 700px white float panel anchored under the "Search tips" link, with a 12px rotated-square pointer at right 28px (left 28px on phones, where the panel spans the full width). Two columns of syntax chips and plain explanations in a definition grid; a closing line under a `rule2` rule. One column on phones.
+- A 780px white float panel anchored under the "Search tips" link, with a 12px rotated-square pointer at right 28px (in the band's `#FBFBFA`); the full width on phones, pointer still under the link. It teaches in three steps:
+  - **How a search fits together:** one real search on a `#FBFBFA` band with a `rule` line under it. Each part is 600 15.5px ink over a 1.5px `#9AA1AA` underline whose ends turn up 6px, like a bracket on its side, with a 12px `ink3` caption beneath ("said by Krueger"); then the whole search read back as one 13.5px `ink2` sentence, and a green "Try this search" text button.
+  - **Words / Combine / Narrow it down:** three equal columns, each a 13px 700 heading over `rule2`-ruled rows of a chip with its meaning (12.5px `ink2`) beneath. On phones one column, the meaning running on after the chip.
+  - **Try one:** research tasks as a staffer would say them (13.5px ink) with the search that does each as a chip on the right, phrases in brackets among them; on phones the chip goes under the task and may wrap.
+- A foot under a `rule` line: two 12.5px `ink3` sentences, that the words must be in one remark (and where to change that: beside Sort, or under Filters on a phone) and that operators are written in capitals. Every chip fills the field.
 
 ### Suggestions list
 - A float panel under the search field (8px). Group headings use the small uppercase label; rows are 7px 16px with a 14.5px name (matched text 750), a 12.5px `ink3` meta line and a right-aligned count. The active row gets `#F4F7F5` and a 2px inset green bar on the left. A keyboard-hint footer shows on desktop only.

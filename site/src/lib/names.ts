@@ -70,3 +70,16 @@ export function resolveSpeaker(value: string, people: Person[]): Person[] {
   if (exact) return [exact];
   return findPeople(value, people, people.length).map((m) => m.person);
 }
+
+/** The committee a committee: means, by its full name: the one named exactly so, else the only one whose name starts
+ * with what was typed, else the only one whose name holds it ("Housing" is Housing, Construction and Community
+ * Development). What was typed stays when no single committee fits. */
+export function committeeNamed(typed: string, names: string[]): string {
+  const t = fold(typed);
+  const exact = names.find((n) => fold(n) === t);
+  if (exact || !t) return exact ?? typed;
+  const only = (list: string[]) => (list.length === 1 ? list[0] : null);
+  return only(names.filter((n) => fold(n).startsWith(`${t} `) || fold(n).startsWith(t)))
+    ?? only(names.filter((n) => ` ${fold(n)} `.includes(` ${t} `)))
+    ?? typed;
+}

@@ -21,12 +21,50 @@ test("a shared name asks which person", async ({ page }) => {
   await expect(page.getByText(/^Which smith\?/i)).toBeVisible();
 });
 
-test("NOT removes remarks with the word", async ({ page }) => {
+test("NOT removes remarks with the word, in any of its forms", async ({ page }) => {
   await page.goto("search/?q=budget%20NOT%20tax");
   await expect(page.locator("[data-result]").first()).toBeVisible(); // results arrive after the page loads
   const texts = await page.locator("[data-result] .q").allInnerTexts();
   expect(texts.length).toBeGreaterThan(0);
-  for (const t of texts) expect(t.toLowerCase()).not.toMatch(/\btax/);
+  for (const t of texts) expect(t.toLowerCase()).not.toMatch(/\btax(es|ed|ing)?\b/);
+});
+
+test("a word finds its forms, tax* any word starting so, and a quoted word only itself", async ({ page }) => {
+  const marked = async (q: string) => {
+    await page.goto(`search/?q=${encodeURIComponent(q)}`);
+    await expect(page.locator("[data-result]").first()).toBeVisible();
+    return new Set((await page.locator("[data-result] mark").allInnerTexts()).map((m) => m.toLowerCase()));
+  };
+  const forms = await marked("tax");
+  expect([...forms].every((w) => /^tax(es|ed|ing)?$/.test(w)), [...forms].join(" ")).toBe(true);
+  const starts = await marked("tax*");
+  expect([...starts].some((w) => /^tax(payer|ation|able)/.test(w)), [...starts].join(" ")).toBe(true);
+  expect([...await marked('"tax"')]).toEqual(["tax"]);
+});
+
+test("the choice beside Sort finds the words anywhere in a transcript, and on a phone it is under Filters", async ({ page }, info) => {
+  await page.goto("search/?q=budget");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  if (info.project.name === "phone") {
+    await expect(page.locator(".sr-where")).toBeHidden();
+    await page.getByRole("button", { name: /^Filters/ }).click();
+    await page.getByRole("group", { name: "Where your words are" }).getByRole("button", { name: "Anywhere in a transcript" }).click();
+    await expect(page).toHaveURL(/in=transcript/);
+    await expect(page.getByRole("button", { name: /^Filters · 1/ })).toBeVisible(); // the choice counts as one in use
+  } else {
+    const where = page.getByRole("combobox", { name: "Where your words must be" });
+    await expect(where).toHaveValue("remark");
+    await where.selectOption("transcript");
+    await expect(page).toHaveURL(/in=transcript/);
+    await expect(where).toHaveValue("transcript");
+  }
+  await expect(page.locator(".sr-wide")).toContainText("from transcripts that have all of them");
+});
+
+test("committee: takes part of a committee's name", async ({ page }) => {
+  await page.goto(`search/?q=${encodeURIComponent("budget committee:ways")}`);
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  for (const k of await page.locator("[data-result] .c-date span").allInnerTexts()) expect(k).toMatch(/^Hearing/);
 });
 
 test("a year range finds transcripts from any year in it", async ({ page }) => {

@@ -37,8 +37,11 @@ import Base from "../layouts/Base.astro";
   @keyframes sr-shimmer { from { background-position: 100% 0; } to { background-position: 0 0; } }
   @keyframes sr-turn { to { transform: rotate(360deg); } }
   @media (prefers-reduced-motion: reduce) { .skel .bar, .sr-spin { animation: none; } }
-  .sr-sort { margin-left: auto; }
-  .sr-sort select { height: 32px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; padding: 0 10px; font: 550 13.5px var(--font-ui); color: var(--color-ink2); }
+  .sr-where { margin-left: auto; }
+  :is(.sr-sort, .sr-where) select { height: 32px; border: 1px solid var(--color-rule); border-radius: 6px; background: #fff; padding: 0 10px; font: 550 13.5px var(--font-ui); color: var(--color-ink2); }
+  .sr-where-g { display: none; }
+  .sr-where-g .seg { display: flex; width: 100%; margin: 0; }
+  .sr-where-g .seg > * { flex: 1; padding: 8px 10px; font-size: 13.5px; }
   .sr-filters { display: none; }
   .sr-body { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 228px minmax(0, 1fr); min-height: 60vh; }
   .sr-facets { padding: 18px 20px; border-right: 1px solid var(--color-rule); }
@@ -74,7 +77,8 @@ import Base from "../layouts/Base.astro";
     .skel .bar.sm { display: none; }
     .sr-status { font-size: 14px; width: 100%; }
     .sr-filters { display: inline-flex; }
-    .sr-sort { margin-left: 0; }
+    .sr-where { display: none; }
+    .sheet .sr-where-g { display: block; }
     .sr-body { display: block; }
     .sr-facets { display: none; }
     .sheet .fg-row { padding: 8px 0; font-size: 14.5px; border-bottom: 1px solid var(--color-rule2); }

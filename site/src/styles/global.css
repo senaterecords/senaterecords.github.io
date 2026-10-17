@@ -113,17 +113,39 @@
   .sbx-try .chip + .chip::before { content: "·"; display: inline-block; margin: 0 10px 0 2px; color: #A3A9B0; }
   .sbx-tips { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--color-act); white-space: nowrap; background: none; border: 0; padding: 0; }
   .sbx-tips:hover { text-decoration: underline; text-underline-offset: 2px; }
-  .sbx-tipbox { position: absolute; right: 0; top: 31px; width: 700px; max-width: calc(100vw - 32px); z-index: 30; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; padding: 14px 18px 16px; box-shadow: 0 2px 4px rgba(22, 27, 34, .08), 0 16px 32px -12px rgba(22, 27, 34, .28); }
+  /* Search tips (SearchBox.tsx): one search taken apart on a note-wash band, the rules in three ruled columns, research
+     tasks with the search that does each, and two plain rules at the foot. */
+  .sbx-tipbox { position: absolute; right: 0; top: 31px; width: 780px; max-width: calc(100vw - 32px); z-index: 30; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; box-shadow: 0 2px 4px rgba(22, 27, 34, .08), 0 16px 32px -12px rgba(22, 27, 34, .28); }
   .sbx-tipbox[hidden] { display: none; }
-  .sbx-tipbox::before { content: ""; position: absolute; top: -7px; right: 28px; width: 12px; height: 12px; background: #fff; border-left: 1px solid var(--color-rule); border-top: 1px solid var(--color-rule); transform: rotate(45deg); }
-  .sbx-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 26px; }
-  .sbx-tipbox h3 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: var(--color-ink); }
-  .sbx-tipbox dl { display: grid; grid-template-columns: auto 1fr; gap: 9px 14px; align-items: baseline; font-size: 13px; color: var(--color-ink2); }
-  .sbx-tipbox dl > div { display: contents; }
-  .sbx-tipbox dd b { font-weight: 650; color: var(--color-ink); white-space: nowrap; }
-  .sbx-tipbox p { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 8px; }
-  .sbx-tipbox p { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--color-rule2); font-size: 13px; color: var(--color-ink2); }
-  .sbx-tipbox p + p { border-top: 0; padding-top: 0; margin-top: 8px; }
+  .sbx-tipbox::before { content: ""; position: absolute; top: -7px; right: 28px; width: 12px; height: 12px; background: #FBFBFA; border-left: 1px solid var(--color-rule); border-top: 1px solid var(--color-rule); transform: rotate(45deg); }
+  .sbx-tipbox h3 { font-size: 13px; font-weight: 700; color: var(--color-ink); margin-bottom: 10px; }
+  .sbx-tipbox ul { list-style: none; }
+  .tip-apart { background: #FBFBFA; border-bottom: 1px solid var(--color-rule); border-radius: 8px 8px 0 0; padding: 16px 20px 15px; }
+  .tip-apart-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  .tip-apart-head h3 { margin-bottom: 12px; }
+  .tip-try { border: 0; background: none; padding: 0; font: 600 13px var(--font-ui); color: var(--color-act); white-space: nowrap; }
+  .tip-try:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .tip-parts { display: flex; flex-wrap: wrap; gap: 10px 12px; }
+  .tip-part { display: inline-flex; flex-direction: column; gap: 6px; min-width: 0; }
+  /* Each part is underlined like a bracket on its side, with its ends turned up. */
+  .tip-q { position: relative; font: 600 15.5px/1.3 var(--font-ui); color: var(--color-ink); padding: 0 1px 6px; border-bottom: 1.5px solid #9AA1AA; white-space: nowrap; }
+  .tip-q::before, .tip-q::after { content: ""; position: absolute; bottom: -1.5px; width: 1.5px; height: 6px; background: #9AA1AA; }
+  .tip-q::before { left: 0; }
+  .tip-q::after { right: 0; }
+  .tip-cap { font: 450 12px/1.3 var(--font-ui); color: var(--color-ink3); padding-left: 1px; }
+  .tip-reads { margin-top: 14px; font-size: 13.5px; line-height: 1.5; color: var(--color-ink2); max-width: 70ch; }
+  .tip-rules { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 24px; padding: 16px 20px 6px; }
+  .tip-rules h3 { margin-bottom: 4px; }
+  .tip-rules li { display: grid; gap: 3px; justify-items: start; padding: 7px 0 8px; border-top: 1px solid var(--color-rule2); }
+  .tip-rules li span { font-size: 12.5px; line-height: 1.35; color: var(--color-ink2); }
+  .tip-tasks { padding: 10px 20px 4px; }
+  .tip-tasks h3 { margin-bottom: 4px; }
+  .tip-tasks li { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 4px 16px; padding: 7px 0; border-top: 1px solid var(--color-rule2); }
+  .tip-tasks li span { font-size: 13.5px; line-height: 1.4; color: var(--color-ink); }
+  .tip-tasks li .chip { justify-self: end; }
+  .tip-foot { margin: 8px 20px 0; padding: 11px 0 15px; border-top: 1px solid var(--color-rule); display: grid; gap: 4px; font-size: 12.5px; line-height: 1.5; color: var(--color-ink3); }
+  .tip-foot b { font-weight: 650; color: var(--color-ink2); }
+  .tip-narrow { display: none; }
   .acbox { position: absolute; left: 0; right: 108px; top: calc(100% + 6px); z-index: 35; background: #fff; border: 1px solid var(--color-rule); border-radius: 8px; padding: 6px 0 4px; box-shadow: 0 2px 4px rgba(22, 27, 34, .08), 0 16px 32px -12px rgba(22, 27, 34, .28); max-height: 70vh; overflow-y: auto; }
   .acbox h4 { font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--color-ink3); padding: 8px 16px 4px; }
   .ac-row { display: flex; align-items: center; gap: 12px; padding: 7px 16px; cursor: pointer; }
@@ -288,9 +310,22 @@
     .sbx-under { gap: 10px; margin-top: 12px; }
     .sbx-try { font-size: 13px; }
     .sbx-try .chip:nth-of-type(n+3) { display: none; }
-    .sbx-tipbox { left: 0; right: auto; top: calc(100% + 10px); width: 100%; max-width: none; padding: 14px 14px 16px; }
+    .sbx-tipbox { left: 0; right: auto; top: calc(100% + 10px); width: 100%; max-width: none; }
     .sbx-tipbox::before { right: 28px; left: auto; } /* under Search tips, at the end of its line */
-    .sbx-cols { grid-template-columns: 1fr; gap: 14px; }
+    .tip-apart { padding: 14px 14px 13px; }
+    .tip-q { font-size: 15px; white-space: normal; }
+    /* Each rule's meaning runs on after its example, wrapping beneath: about half the height of stacking them. */
+    .tip-rules { grid-template-columns: 1fr; gap: 12px; padding: 14px 14px 4px; }
+    .tip-rules li { display: block; padding: 7px 0; }
+    .tip-rules li .chip { margin-right: 8px; vertical-align: 1px; }
+    .tip-rules li span { line-height: 1.6; }
+    .tip-tasks { padding: 16px 14px 2px; }
+    .tip-tasks li { grid-template-columns: 1fr; justify-items: start; }
+    .tip-tasks li .chip { justify-self: start; }
+    .sbx-tipbox .chip { max-width: 100%; white-space: normal; text-align: left; } /* a long search wraps inside its box */
+    .tip-foot { margin: 8px 14px 0; }
+    .tip-wide { display: none; }
+    .tip-narrow { display: inline; }
     .acbox { right: 0; }
     .ac-foot { display: none; }
     .foot-in { padding: 16px 16px 24px; }

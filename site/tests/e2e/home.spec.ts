@@ -16,27 +16,41 @@ test("the record filter adds a type to the search", async ({ page }) => {
   await expect(page).toHaveURL(/q=budget%20type%3Ahearing/);
 });
 
-test("Search tips lists every shortcut and closes with Esc", async ({ page }) => {
+test("Search tips takes one search apart, gives every rule and real tasks, and closes with Esc", async ({ page }, info) => {
   await page.goto("./");
   await page.getByRole("button", { name: "Search tips" }).click();
   const tips = page.getByRole("dialog", { name: "Search tips" });
-  for (const example of ["tolls NOT bridge", "tolls NEAR fares", "tolls NEAR/3 fares", '"school aid" "tax cap"', "(tolls OR fares) bridge", "senator:Krueger", "speaker:Krueger speaker:Lanza", "-speaker:Krueger", "year:2015-2019", "type:hearing", "committee:Health"]) {
-    await expect(tips.getByText(example, { exact: true })).toBeVisible();
+  // One search, each part with what it does, and the whole read back.
+  for (const [part, what] of [['("congestion pricing" OR tolls)', "this phrase or this word"], ["speaker:Krueger", "said by Krueger"], ["year:2019-2024", "in these years"], ["-bridge", "but not bridge"]]) {
+    await expect(tips.locator(".tip-part").filter({ hasText: part })).toContainText(what);
   }
-  await expect(tips.getByText("both exact phrases", { exact: true })).toBeVisible();
+  await expect(tips.locator(".tip-reads")).toContainText("Finds Senator Krueger's remarks from 2019 to 2024");
+  // The rules: how words match, how to combine them, how to narrow; and tasks that mix them, phrases in brackets too.
+  for (const example of ["tax", "tax*", '"tax"', '"school aid"', "tolls fares", "tolls OR fares", "tolls -bridge", "school NEAR/5 aid", '("toll revenue" OR fares) bridge',
+    "year:2015-2019", "type:hearing", "committee:Health", "bill:S4597", "-speaker:Krueger", '("school aid" OR "foundation aid") -speaker:Krueger', '("toll revenue" OR "congestion pricing") NEAR/10 bridge']) {
+    await expect(tips.getByRole("button", { name: example, exact: true }).first()).toBeVisible();
+  }
+  await expect(tips.locator(".tip-foot")).toContainText("All your words must be in one remark.");
+  await expect(tips.locator(".tip-foot")).toContainText(info.project.name === "phone" ? "under Filters" : "beside Sort");
   // The panel's pointer sits under the Search tips link, phones included.
   const pointer = await tips.evaluate((el) => el.getBoundingClientRect().right - parseFloat(getComputedStyle(el, "::before").right) - 6);
   const link = (await page.getByRole("button", { name: "Search tips" }).boundingBox())!;
   expect(pointer).toBeGreaterThan(link.x);
   expect(pointer).toBeLessThan(link.x + link.width);
-  await expect(tips.getByText(/one remark/)).toHaveCount(0);
-  // Every explanation has room to read on a line or two, not a crushed column.
-  if (test.info().project.name === "desktop") {
-    const widths = await tips.locator("dd").evaluateAll((els) => els.map((el) => el.getBoundingClientRect().width));
-    for (const w of widths) expect(w).toBeGreaterThanOrEqual(120);
+  // On a computer the three columns line up and leave each meaning room; on a phone nothing runs off the screen.
+  const box = (await tips.boundingBox())!;
+  expect(box.x).toBeGreaterThanOrEqual(0);
+  expect(box.x + box.width).toBeLessThanOrEqual(page.viewportSize()!.width);
+  if (info.project.name === "desktop") {
+    const tops = await tips.locator(".tip-rules h3").evaluateAll((els) => els.map((el) => Math.round(el.getBoundingClientRect().top)));
+    expect(new Set(tops).size).toBe(1);
   }
-  await tips.getByText("speaker:Krueger", { exact: true }).click();
-  await expect(page.getByRole("searchbox")).toHaveValue("speaker:Krueger");
+  // An example fills the field; so does the search taken apart.
+  await tips.getByRole("button", { name: '"school aid"', exact: true }).click();
+  await expect(page.getByRole("searchbox")).toHaveValue('"school aid"');
+  await page.getByRole("button", { name: "Search tips" }).click();
+  await tips.getByRole("button", { name: "Try this search" }).click();
+  await expect(page.getByRole("searchbox")).toHaveValue('("congestion pricing" OR tolls) speaker:Krueger year:2019-2024 -bridge');
   await page.getByRole("button", { name: "Search tips" }).click();
   await page.keyboard.press("Escape");
   await expect(tips).toBeHidden();

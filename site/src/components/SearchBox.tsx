@@ -16,29 +16,48 @@ const TRY: [string, string][] = [
   ["budget speaker:Krueger", "Finds what Senator Krueger said about the budget"],
 ];
 
-const WORDS: [string, ReactNode][] = [
-  ["tolls fares", "both words"],
-  ['"toll revenue"', "this exact phrase"],
-  ['"school aid" "tax cap"', "both exact phrases"],
-  ["tolls OR fares", "either word"],
-  ["(tolls OR fares) bridge", "either word, with bridge"],
-  ["tolls NOT bridge", <>leave out bridge (or <b>-bridge</b>)</>],
-  ["tolls NEAR fares", "within 10 words"],
-  ["tolls NEAR/3 fares", "within 3 words"],
+// The Search tips panel teaches by one search taken apart, each part with what it does and the whole read back as a
+// sentence; then the rules, three short columns; then research tasks put as a staffer would, each with its search.
+// Every example fills the field.
+const ANATOMY: [string, string][] = [
+  ['("congestion pricing" OR tolls)', "this phrase or this word"],
+  ["speaker:Krueger", "said by Krueger"],
+  ["year:2019-2024", "in these years"],
+  ["-bridge", "but not bridge"],
+];
+const ANATOMY_READS = "Finds Senator Krueger's remarks from 2019 to 2024 that mention “congestion pricing” or tolls, leaving out any that mention a bridge.";
+
+const RULES: [string, [string, string][]][] = [
+  ["Words", [
+    ["tax", "the word and its forms: taxes, taxed, taxing"],
+    ["tax*", "any word that starts with tax"],
+    ['"tax"', "only this exact word"],
+    ['"school aid"', "this exact phrase"],
+  ]],
+  ["Combine", [
+    ["tolls fares", "both, in one remark; AND does the same"],
+    ["tolls OR fares", "either one"],
+    ["tolls -bridge", "leave one out; NOT does the same"],
+    ["school NEAR/5 aid", "within 5 words (NEAR alone: 10)"],
+    ['("toll revenue" OR fares) bridge', "brackets group words and phrases, at any depth"],
+  ]],
+  ["Narrow it down", [
+    ["speaker:Krueger", "one person's remarks; senator: looks among senators only"],
+    ["year:2015-2019", "a year or a range"],
+    ["type:hearing", "hearings only, or type:floor"],
+    ["committee:Health", "one committee's hearings"],
+    ["bill:S4597", "transcripts that mention the bill"],
+    ["-speaker:Krueger", "a minus in front leaves any of these out"],
+  ]],
 ];
 
-const NARROW: [string, ReactNode][] = [
-  ["speaker:Krueger", "one speaker's remarks"],
-  ["senator:Krueger", "senators only"],
-  ["bill:A10000", "transcripts that mention it"],
-  ["year:2015-2019", "a year or a range"],
-  ["type:hearing", <>hearings only (or <b>floor</b>)</>],
-  ["committee:Health", "one committee's hearings"],
-  ["-speaker:Krueger", "everyone but one speaker (a minus works on any of these)"],
+const TASKS: [string, string][] = [
+  ["What Senator Krueger said about the budget", "budget speaker:Krueger"],
+  ["Minimum wage on the floor, 2013 to 2016", '"minimum wage" type:floor year:2013-2016'],
+  ["Rent, renters and rental in Housing hearings", "rent* committee:Housing"],
+  ["School aid or foundation aid, from anyone but Krueger", '("school aid" OR "foundation aid") -speaker:Krueger'],
+  ["Toll revenue or congestion pricing, close to a bridge", '("toll revenue" OR "congestion pricing") NEAR/10 bridge'],
 ];
-
-const MIX = "rent speaker:Krueger year:2015-2019";
-const EITHER = "speaker:Krueger speaker:Lanza";
 const LONG_PLACEHOLDER = "Search for a senator, a bill, or what was said";
 const SHORT_PLACEHOLDER = "Search a senator, bill or words";
 
@@ -262,12 +281,33 @@ export default function SearchBox({ variant = "home", initial = "" }: { variant?
         <button ref={tipsButton} type="button" className="sbx-tips" aria-expanded={tipsOpen} aria-controls={tipsId}
           onClick={() => setTipsOpen((open) => !open)}>Search tips</button>
         <div ref={tipsPanel} id={tipsId} className="sbx-tipbox" role="dialog" aria-label="Search tips" hidden={!tipsOpen}>
-          <div className="sbx-cols">
-            <div><h3>Words</h3><dl>{WORDS.map(([text, what]) => <div key={text}><dt>{example(text)}</dt><dd>{what}</dd></div>)}</dl></div>
-            <div><h3>Narrow it down</h3><dl>{NARROW.map(([text, what]) => <div key={text}><dt>{example(text)}</dt><dd>{what}</dd></div>)}</dl></div>
+          <section className="tip-apart" aria-labelledby={`${tipsId}-apart`}>
+            <div className="tip-apart-head">
+              <h3 id={`${tipsId}-apart`}>How a search fits together</h3>
+              <button type="button" className="tip-try" onClick={() => fill(ANATOMY.map(([q]) => q).join(" "))}>Try this search</button>
+            </div>
+            <p className="tip-parts">{ANATOMY.map(([q, what]) => <span key={q} className="tip-part"><span className="tip-q">{q}</span><span className="tip-cap">{what}</span></span>)}</p>
+            <p className="tip-reads">{ANATOMY_READS}</p>
+          </section>
+          <div className="tip-rules">
+            {RULES.map(([title, rules]) => (
+              <section key={title}>
+                <h3>{title}</h3>
+                <ul>{rules.map(([q, what]) => <li key={q}>{example(q)}<span>{what}</span></li>)}</ul>
+              </section>
+            ))}
           </div>
-          <p>Mix them freely: {example(MIX)}</p>
-          <p>Either of two speakers: {example(EITHER)}</p>
+          <section className="tip-tasks">
+            <h3>Try one</h3>
+            <ul>{TASKS.map(([task, q]) => <li key={q}><span>{task}</span>{example(q)}</li>)}</ul>
+          </section>
+          <div className="tip-foot">
+            <p>All your words must be in one remark.{" "}
+              <span className="tip-wide">To look across a whole transcript, choose <b>Anywhere in a transcript</b> beside Sort.</span>
+              <span className="tip-narrow">To look across a whole transcript, choose it under Filters.</span>
+            </p>
+            <p>Write AND, OR, NOT and NEAR in capitals.</p>
+          </div>
         </div>
       </div>
     </form>

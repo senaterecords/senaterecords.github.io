@@ -449,3 +449,48 @@ describe("review fixes: NOT before shortcuts", () => {
     expect(q.branches.map((b) => [b.words, b.not.length])).toEqual([[["tolls", "fares"], 0]]);
   });
 });
+
+describe("how a word matches", () => {
+  const remark = (text: string) => ({ url: "/t/#r-1", turn: 1, page: 3, speaker: null, label: "", text, breaks: [] as [number, number][] });
+  const keeps = (q: string, text: string) => keepRemark(remark(text), parseQuery(q).branches[0]);
+
+  it("matches a word's forms, not other words that start the same", () => {
+    expect(keeps("tax", "New taxes were taxed again")).toBe(true);
+    expect(keeps("tax", "Taxpayers and taxis")).toBe(false);
+    expect(keeps("sad", "It is sadly true")).toBe(true);
+    expect(keeps("sad", "Sadie sat in the saddle")).toBe(false);
+    expect(keeps("hope", "We are hoping for more")).toBe(true);
+  });
+
+  it("matches any word that starts so with * or !", () => {
+    expect(keeps("tax*", "Taxpayers and taxis")).toBe(true);
+    expect(keeps("tax!", "Taxation")).toBe(true);
+    expect(keeps("sad*", "Sadie sat in the saddle")).toBe(true);
+  });
+
+  it("matches exactly the word in quotes, in a NEAR too", () => {
+    expect(keeps('"tax"', "New taxes")).toBe(false);
+    expect(keeps('"tax"', "A new tax")).toBe(true);
+    expect(keeps('"tax" NEAR/2 cap', "the taxes cap")).toBe(false);
+    expect(keeps('"tax" NEAR/2 cap', "the tax cap")).toBe(true);
+    expect(keeps("tax NEAR/2 cap", "the taxes cap")).toBe(true);
+  });
+
+  it("leaves out a NOT word's forms", () => {
+    expect(keeps("budget -tax", "The budget and taxes")).toBe(false);
+    expect(keeps("budget -tax", "The budget and taxpayers")).toBe(true);
+  });
+
+  it("marks what matched, by the same rules", () => {
+    const marks = (q: string, text: string) => [...excerpt(remark(text), parseQuery(q).branches[0]).matchAll(/<mark>(.*?)<\/mark>/g)].map((m) => m[1]);
+    expect(marks("tax", "Taxes, taxpayers and the tax.")).toEqual(["Taxes", "tax"]);
+    expect(marks("tax*", "Taxes, taxpayers and the tax.")).toEqual(["Taxes", "taxpayers", "tax"]);
+    expect(marks('"tax"', "Taxes, taxpayers and the tax.")).toEqual(["tax"]);
+    expect(marks("governor", "The Governor's budget")).toEqual(["Governor's"]);
+  });
+
+  it("asks Pagefind for the bare words", () => {
+    expect(pagefindTerms(parseQuery("tax* fares").branches[0])).toEqual(["tax fares"]);
+    expect(pagefindTerms(parseQuery('"tax" NEAR cap').branches[0])).toEqual(["tax cap"]);
+  });
+});

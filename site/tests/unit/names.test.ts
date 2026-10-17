@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findPeople, fold, matchName, resolveSpeaker, type Person } from "../../src/lib/names";
+import { committeeNamed, findPeople, fold, matchName, resolveSpeaker, type Person } from "../../src/lib/names";
 
 const person = (slug: string, name: string, remarks = 1, chamber: "senate" | "assembly" = "senate"): Person =>
   ({ slug, name, chamber, photo: null, detail: "", remarks });
@@ -41,5 +41,20 @@ describe("name matching", () => {
     expect(resolveSpeaker("smith", PEOPLE).map((p) => p.slug)).toEqual(["malcolm-a-smith", "ada-l-smith"]);
     expect(resolveSpeaker("ada-l-smith", PEOPLE).map((p) => p.slug)).toEqual(["ada-l-smith"]);
     expect(resolveSpeaker("krueger", PEOPLE).map((p) => p.slug)).toEqual(["liz-krueger"]);
+  });
+});
+
+describe("committee: by part of a committee's name", () => {
+  const names = ["Health", "Mental Health and Developmental Disabilities", "Housing, Construction and Community Development", "Finance", "Ways and Means", "Higher Education", "Education"];
+  it("takes the exact name first, then the only one it starts or is found in", () => {
+    expect(committeeNamed("health", names)).toBe("Health");
+    expect(committeeNamed("Housing", names)).toBe("Housing, Construction and Community Development");
+    expect(committeeNamed("ways", names)).toBe("Ways and Means");
+    expect(committeeNamed("community development", names)).toBe("Housing, Construction and Community Development");
+    expect(committeeNamed("education", names)).toBe("Education");
+  });
+  it("keeps what was typed when no single committee fits", () => {
+    expect(committeeNamed("and", names)).toBe("and");
+    expect(committeeNamed("Parks", names)).toBe("Parks");
   });
 });

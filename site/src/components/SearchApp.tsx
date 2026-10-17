@@ -6,7 +6,7 @@ import { DOCX_TYPE, docx } from "../lib/docx";
 import { resultsBlocks, resultsCsv, type ResultItem } from "../lib/exports";
 import { jsonCache } from "../lib/fetch";
 import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
-import { fold, resolveSpeaker, type Person } from "../lib/names";
+import { committeeNamed, fold, resolveSpeaker, type Person } from "../lib/names";
 import {
   excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
   toggleShortcut, type Branch, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
@@ -270,7 +270,7 @@ function SearchApp() {
         try {
           const committees = await getJson<{ name: string }[]>("/data/committees.json");
           for (const f of filterSets(parsed)) {
-            if (f.committees) f.committees = f.committees.map((typed) => committees.find((c) => fold(c.name) === fold(typed))?.name ?? typed);
+            if (f.committees) f.committees = f.committees.map((typed) => committeeNamed(typed, committees.map((c) => c.name)));
           }
         } catch { /* keep what was typed */ }
       }
@@ -373,7 +373,8 @@ function SearchApp() {
     .replace(/\(\s*\)/g, " ").replace(/\s+/g, " ").replace(/\(\s/g, "(").replace(/\s\)/g, ")").trim();
   const remarkCount = rows.length;
   const transcriptCount = new Set(rows.map((r) => r.transcript)).size;
-  const activeFilters = Object.keys(parseQuery(q).filters).length;
+  // The phone's Filters button counts the filters in use, and the "anywhere in a transcript" choice it also holds.
+  const activeFilters = Object.keys(parseQuery(q).filters).length + (wide ? 1 : 0);
   const toggle = (shortcut: string) => go({ q: toggleShortcut(q, shortcut) });
 
   const nameOf = (r: Remark) => {
@@ -520,6 +521,13 @@ function SearchApp() {
             )}
             {status === "ready" && <span className="sr-time num">{(elapsed / 1000).toFixed(2)} s</span>}
             <button type="button" className="btn btn-quiet sr-filters" onClick={() => setFiltersOpen(true)}><Icon name="filter" size={15} />Filters{activeFilters ? ` · ${activeFilters}` : ""}</button>
+            <label className="sr-where">
+              <span className="visually-hidden">Where your words must be</span>
+              <select value={wide ? "transcript" : "remark"} onChange={(e) => go({ wide: e.target.value === "transcript" })}>
+                <option value="remark">In one remark</option>
+                <option value="transcript">Anywhere in a transcript</option>
+              </select>
+            </label>
             <label className="sr-sort">
               <span className="visually-hidden">Sort</span>
               <select value={sort} onChange={(e) => go({ sort: e.target.value })}>
@@ -587,6 +595,14 @@ function SearchApp() {
           <div className="sheet-dim" onClick={() => setFiltersOpen(false)} />
           <div ref={sheet} className="sheet" role="dialog" aria-label="Filters" tabIndex={-1}>
             <div className="sheet-grab" />
+            {/* On a phone the choice beside Sort lives here, so the bar above the results keeps to one line. */}
+            <div className="fg sr-where-g">
+              <h3 id="where-h">Where your words are</h3>
+              <div className="seg sbx-scope" role="group" aria-labelledby="where-h">
+                <button type="button" aria-pressed={!wide} onClick={() => go({ wide: false })}>In one remark</button>
+                <button type="button" aria-pressed={wide} onClick={() => go({ wide: true })}>Anywhere in a transcript</button>
+              </div>
+            </div>
             {facetPanel}
           </div>
         </>
