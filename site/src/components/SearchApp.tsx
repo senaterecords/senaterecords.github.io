@@ -11,6 +11,7 @@ import {
   excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
   toggleShortcut, type Branch, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
 } from "../lib/query";
+import { inOrder } from "../lib/order";
 import { passageParam } from "../lib/passage";
 import { closestWord } from "../lib/spelling";
 import { url } from "../lib/url";
@@ -289,8 +290,13 @@ function SearchApp() {
       if (id !== runId.current) return;
       if (indexFailed()) { setStatus("failed"); return; }
       setPhase("reading");
-      const seen = new Set<string>();
-      queue.current = searches.flatMap((s) => s.results).filter((r) => (seen.has(r.id) ? false : (seen.add(r.id), true)));
+      // Several searches (an OR) are read in one order: by score, or by each transcript's date (a small file).
+      let dates: Record<string, string> | null = null;
+      if (units.length > 1 && sort !== "relevance") {
+        try { dates = await getJson<Record<string, string>>("/data/search-dates.json"); } catch { /* each search's own order */ }
+        if (id !== runId.current) return;
+      }
+      queue.current = inOrder(searches.map((s) => s.results), sort, dates);
       plan.current = { parsed, who, wide };
       const matched = queue.current.length;
       setTotal(matched);

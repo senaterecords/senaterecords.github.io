@@ -634,3 +634,19 @@ test("on a phone, the passage a result opens on lands clear of the reader's bars
     }
   }
 });
+
+test("an OR search sorted by date lists its remarks in date order across both groups", async ({ page }) => {
+  for (const [sort, newest] of [["newest", true], ["oldest", false]] as const) {
+    await page.goto(`search/?q=${encodeURIComponent("budget OR children")}&sort=${sort}`);
+    await expect(page.locator(".sr-head h1")).toContainText(/ in \d+ transcripts?$/);
+    // Every remark, not only the first screen.
+    const more = page.getByRole("button", { name: "Show more remarks" });
+    while (await more.isVisible()) await more.click();
+    const days = (await page.locator("[data-result] .c-date b").allInnerTexts()).map((d) => Date.parse(d));
+    expect(new Set(days).size, sort).toBeGreaterThan(1); // more than one transcript, or the order proves nothing
+    for (let k = 1; k < days.length; k++) {
+      if (newest) expect(days[k], `${sort}: row ${k}`).toBeLessThanOrEqual(days[k - 1]);
+      else expect(days[k], `${sort}: row ${k}`).toBeGreaterThanOrEqual(days[k - 1]);
+    }
+  }
+});

@@ -6,7 +6,7 @@ export interface PageData {
   url: string; content: string; meta: Record<string, string>; filters?: PageFilters;
   anchors: { element: string; id: string; text: string; location: number }[];
 }
-export interface PagefindResult { id: string; data: () => Promise<PageData>; }
+export interface PagefindResult { id: string; score?: number; data: () => Promise<PageData>; }
 export interface PagefindSearch { results: PagefindResult[]; filters: Record<string, Record<string, number>>; }
 export interface Pagefind {
   options: (o: Record<string, unknown>) => Promise<void>;
