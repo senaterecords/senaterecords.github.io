@@ -11,7 +11,7 @@ It runs entirely on free GitHub services. There is no server, no database and no
 
 Four times an hour (at 7, 22, 37 and 52 minutes past; GitHub skips scheduled runs when it is busy, so this makes sure at least one runs most hours), the **Update** workflow (`.github/workflows/update.yml`) does the following:
 
-1. **Sync.** It asks the Senate's Open Legislation API for transcripts added or corrected since the last run, plus current senators and pending bills. At the 7 a.m. run (New York time) it also re-lists this year's hearings. New data is committed to `data/raw/` straight away.
+1. **Sync.** It asks the Senate's Open Legislation API for transcripts added or corrected since the last run, plus current senators and pending bills. Once a day (the first run of the New York day that gets through) it also re-lists this year's and last year's hearings. New data is committed to `data/raw/` straight away.
 2. **Decide.** If the raw data and the code that builds the site both match what was last published, the run ends here, usually in a few minutes. Otherwise it goes on. A publish that failed earlier, or was cancelled by a newer run, is therefore tried again the next hour, and a code change pushed to `main` is published even if no new data arrives.
 3. **Process.** It splits transcripts into speakers, matches senators and links bills (`pipeline/`). The **quality gate** stops the run if speaker attribution or bill links drop more than 2 points below the last published version, or if there are fewer transcripts.
 4. **Build and check.** It builds the site (`site/`), then refuses to publish if either site is over 950 MB or if any internal link is broken.

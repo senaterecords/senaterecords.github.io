@@ -55,9 +55,10 @@ jobs:
         env:
           NYSENATE_API_KEY: ${{ secrets.NYSENATE_API_KEY }}
         run: |
-          # Hearings are re-listed in the morning (New York time), by the first run of the day that gets there; two
-          # hours, in case scheduled runs start late (the pipeline skips the later ones).
-          case "$(TZ=America/New_York date +%H)" in 07|08) extra="--hearings" ;; *) extra="" ;; esac
+          # Hearings are re-listed once a day, by the first run of the New York day that gets through: every run asks,
+          # and the pipeline skips the listing once it is done for the day, so a dropped or failed run is made up by the
+          # next one rather than the next morning.
+          extra="--hearings"
           # When the API doesn't answer (exit 4), the run goes on with the records already kept, so a change to the
           # code still publishes; anything half fetched is put back, for the next hour's run to fetch whole. A refused
           # key (exit 3) or any other failure still stops the run.
