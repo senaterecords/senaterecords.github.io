@@ -8,7 +8,8 @@ import { BILL_DATA_START } from "../../../config";
 import { floorAppearances } from "../../../lib/bills";
 import { bill, billPages, billsHome, senatorPageSlugs, senatorsByMemberId, senatorsBySlug, transcriptIndex } from "../../../lib/data";
 import { billStatus, committeeName, hearingTitle, outcomeText, plainPages, plural, shortDate, titleCase } from "../../../lib/format";
-import type { BillSegment } from "../../../lib/types";
+import { remarkLink } from "../../../lib/passage";
+import type { BillSegment, Mention } from "../../../lib/types";
 import { url } from "../../../lib/url";
 
 export function getStaticPaths() {
@@ -37,8 +38,11 @@ const segSlugs = new Set(segments.map((s) => s.transcript));
 const hearings = entry.mentionedIn.filter((m) => m.kind === "hearing" && exists(m.transcript));
 const floorMentions = entry.mentionedIn.filter((m) => m.kind === "floor" && !segSlugs.has(m.transcript) && exists(m.transcript));
 
-const readHref = (s: BillSegment) => url(`/transcripts/${s.transcript}/#r-${s.startTurn}`);
-const pageHref = (slug: string, page: number | null) => url(`/transcripts/${slug}/${page != null ? `#p${page}` : ""}`);
+// Each link lands on the words it is about, washed yellow: a reading, or the sentence that names the bill.
+const readHref = (s: BillSegment) => url(remarkLink(`/transcripts/${s.transcript}/`, s.startTurn, s.reading));
+const mentionHref = (m: Mention) => url(m.turn != null
+  ? remarkLink(`/transcripts/${m.transcript}/`, m.turn, m.said)
+  : `/transcripts/${m.transcript}/${m.page != null ? `#p${m.page}` : ""}`);
 const sessionType = (slug: string) => summaries.get(slug)?.sessionType ?? "Floor session";
 const senatorsIn = (s: BillSegment) => Object.keys(s.speakers).length;
 
@@ -114,7 +118,7 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
         <section class="earlier">
           <h3>Discussed in public hearings</h3>
           {hearings.map((m) => (
-            <div class="er"><b class="num">{shortDate(m.date)}</b><span>{hearingTitle(m.title ?? "Public hearing")}</span><a href={pageHref(m.transcript, m.page)}>Read{m.page != null ? ` (p. ${m.page})` : ""}</a></div>
+            <div class="er"><b class="num">{shortDate(m.date)}</b><span>{hearingTitle(m.title ?? "Public hearing")}</span><a href={mentionHref(m)}>Read{m.page != null ? ` (p. ${m.page})` : ""}</a></div>
           ))}
         </section>
       )}
@@ -122,7 +126,7 @@ const pageTitle = card?.title ? `${printNo}: ${card.title}` : printNo;
         <section class="earlier">
           <h3>Mentioned on the floor</h3>
           {floorMentions.map((m) => (
-            <div class="er"><b class="num">{shortDate(m.date)}</b><span>{m.title ?? "Floor session"}</span><a href={pageHref(m.transcript, m.page)}>Read{m.page != null ? ` (p. ${m.page})` : ""}</a></div>
+            <div class="er"><b class="num">{shortDate(m.date)}</b><span>{m.title ?? "Floor session"}</span><a href={mentionHref(m)}>Read{m.page != null ? ` (p. ${m.page})` : ""}</a></div>
           ))}
         </section>
       )}

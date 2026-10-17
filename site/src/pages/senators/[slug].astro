@@ -7,6 +7,7 @@ import Status from "../../components/Status.astro";
 import Base from "../../layouts/Base.astro";
 import { bill, hasBillPage, senatorPage, senatorPageSlugs, transcriptIndex } from "../../lib/data";
 import { billStatus, hearingTitle, legalCite, plural, serviceText, shortDate } from "../../lib/format";
+import { remarkLink } from "../../lib/passage";
 import type { SenatorBillRow } from "../../lib/types";
 import { url } from "../../lib/url";
 
@@ -33,7 +34,7 @@ const kindLabel = (kind: "floor" | "hearing", title: string | null) =>
 
 const recent = page.recent.filter((r) => exists.has(r.transcript)).map((r) => ({
   ...r,
-  href: url(`/transcripts/${r.transcript}/#r-${r.turn}`),
+  href: url(remarkLink(`/transcripts/${r.transcript}/`, r.turn, r.text)), // lands on the words shown here, washed yellow
   cite: legalCite({ kind: r.kind, date: r.date, title: r.title ? hearingTitle(r.title) : null, start: r.page,
     speaker: { short: `Sen. ${surname}`, full: name } }),
   bills: [...new Set(r.bills)].map((p) => ({ printNo: p, href: billUrl(Number(r.date.slice(0, 4)) - (Number(r.date.slice(0, 4)) % 2 === 0 ? 1 : 0), p) })),

@@ -25,6 +25,14 @@ describe("the link check", () => {
     writeFileSync(join(dir, "index.html"), '<a href="/about/">About</a>');
     expect(checkLinks(dir, "/").broken).toEqual([]);
   });
+
+  it("takes a remark link to a remark without a speaker label, as the reader does, and still checks the anchor", () => {
+    dir = mkdtempSync(join(tmpdir(), "otr-links-"));
+    mkdirSync(join(dir, "transcripts", "day"), { recursive: true });
+    writeFileSync(join(dir, "transcripts", "day", "index.html"), '<section id="r-4"></section><section id="t-0"></section>');
+    writeFileSync(join(dir, "index.html"), ["?hl=a%7Cb#r-4", "?hl=bill#r-0", "#r-9"].map((h) => `<a href="/transcripts/day/${h}">x</a>`).join(" "));
+    expect(checkLinks(dir, "/").broken).toEqual([expect.stringContaining("#r-9  (anchor missing")]);
+  });
 });
 
 describe("the parallel link check", () => {

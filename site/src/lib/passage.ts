@@ -10,6 +10,13 @@ export function passageParam(excerpt: string): string {
   return words.length > EDGE * 2 ? `${words.slice(0, EDGE).join(" ")}|${words.slice(-EDGE).join(" ")}` : words.join(" ");
 }
 
+/** A link to a remark that lands on the words shown for it and washes them yellow, as a search result's link does:
+ * from a bill page's mentions and readings, or a senator's recent remarks. Without words it opens on the remark. */
+export function remarkLink(transcriptPath: string, turn: number, shown?: string | null): string {
+  const param = shown ? passageParam(shown) : "";
+  return `${transcriptPath}${param ? `?hl=${encodeURIComponent(param)}` : ""}#r-${turn}`;
+}
+
 /** Where the named passage is in a text, ignoring case and spacing; null when it is not there. */
 export function locatePassage(text: string, param: string): [number, number] | null {
   const [start, end] = param.split("|");

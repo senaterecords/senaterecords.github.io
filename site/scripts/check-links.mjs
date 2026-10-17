@@ -47,7 +47,9 @@ export function checkPages(root, siteBase, pages) {
       const urlPath = pathAndQuery.split("?")[0];
       const file = fileFor(urlPath);
       if (!file) { broken.push(`${raw}  (from ${page})`); continue; }
-      if (fragment && /^(r-\d+|p\d+)$/.test(fragment) && urlPath.includes("/transcripts/") && !idsOf(file).has(fragment)) {
+      // A remark without a speaker label is t-N; the reader takes #r-N to it, as it does for a mention in plain text.
+      const found = (id) => idsOf(file).has(id) || (/^r-\d+$/.test(id) && idsOf(file).has(`t-${id.slice(2)}`));
+      if (fragment && /^(r-\d+|p\d+)$/.test(fragment) && urlPath.includes("/transcripts/") && !found(fragment)) {
         broken.push(`${raw}  (anchor missing; from ${page})`);
       }
     }

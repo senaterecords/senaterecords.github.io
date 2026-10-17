@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from nyleg.senators import Roster
-from nyleg.sitedata import build_all, build_transcript, transcript_slug
+from nyleg.sitedata import _page_at, _said, build_all, build_transcript, transcript_slug
 from nyleg.store import Store, read_json, write_json
 
 TEXT_2025 = """                                                               5780
@@ -253,6 +253,8 @@ def test_debated_segments_carry_a_short_excerpt_of_the_debate(tmp_path):
     first = passed["excerpt"][0]
     assert (first["label"], first["senator"]) == ("SENATOR ORTEGA", "marisol-ortega")
     assert first["text"].startswith("Thank you, Mr. President.") and len(first["text"]) <= 281
+    # The reading itself, which a link to the debate lands on and washes yellow.
+    assert passed["reading"] == "Calendar Number 11, Senate Print 200, by Senator Ortega, an act to amend the vehicle and traffic law."
 
 
 def test_senator_pages_list_their_most_recent_remarks(tmp_path):
@@ -279,8 +281,10 @@ def test_bills_file_lists_every_mentioned_bill_and_sponsors_get_their_bills(tmp_
     bills = {b["basePrintNo"]: b for b in read_json(out / "bills" / "2025.json")["bills"]}
     assert sorted(bills) == ["S100", "S200", "S999"]
     assert bills["S999"]["segments"] == []
+    # A mention leads to the remark that names the bill, and to the sentence it is named in.
     assert bills["S999"]["mentionedIn"] == [{"transcript": "2025-06-10-regular-session", "kind": "floor",
-                                             "date": "2025-06-10", "title": "Regular Session", "page": 5800}]
+                                             "date": "2025-06-10", "title": "Regular Session", "page": 5800, "turn": 4,
+                                             "said": "This bill does one thing, much like Senate Print 999 did last year."}]
     brennan_bills = read_json(out / "senators" / "paul-brennan.json")["bills"]
     assert {"session": 2025, "basePrintNo": "S100", "printNo": "S100", "remarks": 0, "sponsor": True} in brennan_bills
 
@@ -582,3 +586,23 @@ def test_vocabulary_keeps_accented_words(tmp_path):
     write_json(store.transcript_path("2025-06-10T11:00", "Regular Session"), floor("2025-06-10T11:00", text))
     build_all(store, tmp_path / "site", datetime(2025, 1, 1))
     assert read_json(tmp_path / "site" / "words" / "se.json")["sepúlveda"] == 2
+
+
+def test_a_mention_is_placed_on_the_page_that_names_the_bill_not_the_page_its_remark_starts_on():
+    # Senator Gonzalez's remark of May 12, 2026 starts on page 4324 and names S9051 on page 4328.
+    turn = {"page": 4324, "breaks": [[170, 4325], [1203, 4326], [2182, 4327], [3166, 4328]]}
+    assert [_page_at(turn, at) for at in (0, 169, 170, 3273)] == [4324, 4324, 4325, 4328]
+    assert _page_at({"page": 12, "breaks": []}, 500) == 12
+
+
+def test_a_mention_washes_the_sentence_that_names_the_bill():
+    text = ("Thank you, Mr. President. In New York she has worked alongside our office on our bill, S9051, to protect "
+            "minors from chatbots.\n\nThank you, Maria.")
+    at = text.index("S9051")
+    assert _said(text, at, at + 5) == "In New York she has worked alongside our office on our bill, S9051, to protect minors from chatbots."
+    # A sentence that runs on keeps the words near the mention.
+    long = "and " * 100 + "Senate Print 4597 " + "or " * 100 + "too."
+    at = long.index("Senate")
+    said = _said(long, at, at + len("Senate Print 4597"))
+    assert "Senate Print 4597" in said and len(said) <= 2 * 140 + 20
+    assert said.startswith("and") and said.endswith("or")

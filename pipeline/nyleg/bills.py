@@ -95,17 +95,21 @@ class BillResolver:
         return candidate if day - ES_PUBLISHED_WITHIN <= when <= day + timedelta(days=1) else None
 
 
+def bill_mentions(text: str) -> list[tuple[str, int, int]]:
+    """Each bill a text names, where it first names it: (print number, start, end), in the order it names them.
+    "Senate Print 4597-A" and the like, and compact print numbers ("S9051B")."""
+    matches = [(m.start(), m.end(), m["chamber"], m["num"], m["amd"]) for m in _BILL.finditer(text)]
+    matches += [(m.start(), m.end(), "Senate" if m["chamber"] == "S" else "Assembly", m["num"], m["amd"])
+                for m in _COMPACT.finditer(text)]
+    found: dict[str, tuple[int, int]] = {}
+    for start, end, chamber, num, amd in sorted(matches):
+        found.setdefault(print_no(chamber, num, amd), (start, end))
+    return [(p, start, end) for p, (start, end) in found.items()]
+
+
 def find_bills(text: str) -> list[str]:
-    """The bills a text names, in the order it names them: "Senate Print 4597-A" and the like, and compact print
-    numbers ("S9051B")."""
-    matches = [(m.start(), m["chamber"], m["num"], m["amd"]) for m in _BILL.finditer(text)]
-    matches += [(m.start(), "Senate" if m["chamber"] == "S" else "Assembly", m["num"], m["amd"]) for m in _COMPACT.finditer(text)]
-    found: list[str] = []
-    for _, chamber, num, amd in sorted(matches):
-        p = print_no(chamber, num, amd)
-        if p not in found:
-            found.append(p)
-    return found
+    """The bills a text names, in the order it names them."""
+    return [p for p, _, _ in bill_mentions(text)]
 
 
 @dataclass

@@ -30,6 +30,7 @@ export interface Segment {
   speakers: Record<string, number>;
   pages: [number, number] | null;
   excerpt: ExcerptTurn[];
+  reading?: string; // the reading's words, which a link to it washes yellow
 }
 
 export interface Officer { name: string; title: string; from?: number; until?: number | null; }
@@ -119,7 +120,11 @@ export interface BillCard {
   committee: string | null; coSponsors: number;
 }
 
-export interface Mention { transcript: string; kind: "floor" | "hearing"; date: string; title: string | null; page: number | null; }
+/** The first time a transcript names a bill: the page, the remark and the sentence it is named in. */
+export interface Mention {
+  transcript: string; kind: "floor" | "hearing"; date: string; title: string | null; page: number | null;
+  turn?: number | null; said?: string | null;
+}
 
 export interface BillSegment extends Segment { transcript: string; date: string; }
 

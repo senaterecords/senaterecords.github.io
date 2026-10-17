@@ -12,7 +12,7 @@ from typing import Any
 from PIL import Image
 
 from .bills import (
-    BILL_DATA_START, BillResolver, Segment, base_print_no, bill_card, find_bills, load_bill_fixes, segment_calendar,
+    BILL_DATA_START, BillResolver, Segment, base_print_no, bill_card, bill_mentions, load_bill_fixes, segment_calendar,
 )
 from .clean import PageBreak, Paragraph, extract_lines, paragraphs
 from .official import load_official_overrides, official_url
@@ -36,6 +36,35 @@ def _clip(text: str, limit: int) -> str:
         return text
     cut = text.rfind(" ", 0, limit)
     return text[: cut if cut > limit // 2 else limit].rstrip(" ,;:") + "…"
+
+
+_SENTENCE_END = re.compile(r"[.?!][\"')\]]*(?=\s)|\n")
+SAID_SIDE = 140  # characters kept on each side of a mention in a long sentence
+
+
+def _said(text: str, start: int, end: int) -> str:
+    """The sentence a mention is in, on one line: what a link to it washes yellow. A long sentence keeps about
+    SAID_SIDE characters on each side of the mention, cut at words."""
+    begin = 0
+    for m in _SENTENCE_END.finditer(text, 0, start):
+        begin = m.end()
+    stop = m.end() if (m := _SENTENCE_END.search(text, end)) else len(text)
+    if start - begin > SAID_SIDE:
+        begin = text.find(" ", start - SAID_SIDE, start) + 1 or begin
+    if stop - end > SAID_SIDE:
+        cut = text.rfind(" ", end, end + SAID_SIDE)
+        stop = cut if cut > end else stop
+    return " ".join(text[begin:stop].split())
+
+
+def _page_at(turn: dict[str, Any], offset: int) -> int | None:
+    """The page a character of a turn's text is on."""
+    page = turn["page"]
+    for at, number in turn["breaks"]:
+        if at > offset:
+            break
+        page = number
+    return page
 
 
 def transcript_slug(kind: str, raw: dict[str, Any]) -> str:
@@ -117,6 +146,7 @@ def _segment_dict(segment: Segment, turns: list[dict[str, Any]]) -> dict[str, An
         "pages": [min(pages), max(pages)] if pages else None,
         "excerpt": [{"label": t["label"], "senator": t["senator"], "text": _clip(t["text"], 280)}
                     for t in speaking[:EXCERPT_TURNS]],
+        "reading": _clip(turns[segment.start_turn]["text"], 280),  # what a link to the reading washes yellow
     }
 
 
@@ -146,15 +176,16 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
     resolver = bills or BillResolver({}, lambda _session, _base: None)
     unresolved = 0
 
-    def linked_bills(text: str) -> list[str]:
+    def linked_bills(text: str) -> dict[str, list[int]]:
+        """Each bill the text names, with where it first names it."""
         nonlocal unresolved
-        found = []
-        for printed in find_bills(text):
+        found: dict[str, list[int]] = {}
+        for printed, start, end in bill_mentions(text):
             bill = resolver.resolve(printed, session, when, extraordinary)
             if bill is None:
                 unresolved += 1  # a special-session number the API has no bill for: shown, never linked
             elif bill not in found:
-                found.append(bill)
+                found[bill] = [start, end]
         return found
 
     text = raw.get("text") or ""
@@ -177,8 +208,11 @@ def build_transcript(kind: str, raw: dict[str, Any], roster: Roster, overrides: 
             "text": t.text,
             "page": t.page_start,
             "breaks": [[b.offset, b.page] for b in t.breaks],
-            "bills": linked_bills(t.text),
         }
+        named = linked_bills(t.text)
+        out["bills"] = list(named)
+        if named:
+            out["billAt"] = list(named.values())  # where each bill is first named, for links that land on it
         member = _assembly_slug(t, session, roster, assembly, joint, overrides)
         if member:
             out["assembly"] = member  # only on matched turns: millions of turns, so no empty field elsewhere
@@ -316,13 +350,16 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
     recent: dict[str, list[tuple[tuple[str, str, int], dict[str, Any]]]] = defaultdict(list)
     mention_seen: dict[tuple[int, str], set[str]] = defaultdict(set)
 
-    def mention(entry: dict[str, Any], doc: dict[str, Any], slug: str, kind: str, page: int | None) -> None:
+    def mention(entry: dict[str, Any], doc: dict[str, Any], slug: str, kind: str, page: int | None,
+                turn: int | None, said: str | None) -> None:
+        """The first time a transcript names a bill: the page, the remark and the words it is named in."""
         seen = mention_seen[(entry["session"], entry["basePrintNo"])]
         if slug in seen:
             return
         seen.add(slug)
         entry["mentionedIn"].append({"transcript": slug, "kind": kind, "date": doc["date"],
-                                     "title": doc["title"] or doc["sessionType"], "page": page})
+                                     "title": doc["title"] or doc["sessionType"], "page": page,
+                                     "turn": turn, "said": said})
 
     debated_bills: dict[str, Counter] = defaultdict(Counter)
     bills: dict[int, dict[str, dict[str, Any]]] = defaultdict(dict)
@@ -385,12 +422,13 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
                         heapq.heappush(heap, (key, item))
                     elif key > heap[0][0]:
                         heapq.heapreplace(heap, (key, item))
-            for printed in t["bills"]:
+            for printed, at in zip(t["bills"], t.get("billAt", [])):
                 base = base_print_no(printed)
                 if session >= BILL_DATA_START:
                     report.bill_mentions += 1
                     report.bill_mentions_linked += store.bill_path(session, base).exists()
-                mention(_bill_entry(bills, session, base), doc, slug, kind, t["page"])
+                mention(_bill_entry(bills, session, base), doc, slug, kind, _page_at(t, at[0]), t["i"],
+                        _said(t["text"], *at))
             words.update(_WORD.findall(t["text"].lower()))
         for senator in first:
             appearances[senator].append({
@@ -409,7 +447,7 @@ def build_all(store: Store, out: Path, now: datetime, overrides_path: Path | Non
             base = base_print_no(seg["printNo"])
             entry = _bill_entry(bills, session, base)
             entry["segments"].append({"transcript": slug, "date": doc["date"], **seg})
-            mention(entry, doc, slug, kind, seg["pages"][0] if seg["pages"] else None)
+            mention(entry, doc, slug, kind, seg["pages"][0] if seg["pages"] else None, seg["startTurn"], seg["reading"])
             for senator, count in seg["speakers"].items():
                 debated_bills[senator][(session, base, seg["printNo"])] += count
 
