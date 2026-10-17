@@ -58,7 +58,7 @@ The navigation reserves space for these (the mock shows "Laws" as a later item).
 ## 4. Architecture
 
 ```
-GitHub Actions (hourly, at :17)
+GitHub Actions (four times an hour, at :07, :22, :37 and :52)
   1. sync     ask the API what changed since the last sync; download raw JSON into data/raw/
   2. process  clean → split speakers → match senators → segment bills → fetch bill details → site data
   3. build    Astro renders pages from the site data; Pagefind indexes the built pages
@@ -286,7 +286,7 @@ A **Plain** choice in the same menu gives `NY Senate floor transcript, June 10, 
   - **Publishing:** the hourly workflow publishes the main site with GitHub's own Pages action, from the repository `senaterecords/senaterecords.github.io` (code, raw data, workflows). The bill pages are force-pushed as one orphan commit to the `gh-pages` branch of `senaterecords/bills`, through an SSH deploy key with write access (secret `BILLS_DEPLOY_KEY`), so that repository's history never grows. Bills go first; they carry their own copy of the shared styles, scripts, fonts and icons, so either site can publish without the other and still look right. After both, a live check fetches key pages from the public address before the run records what it published. If publishing fails, the previous version stays live, and the next hourly run tries again (it publishes whenever the raw data differs from what was last published).
   - **Address:** `owner.github.io/repo`, or a clean `name.github.io` by creating a free GitHub organization and naming the site repository `name.github.io`. A custom domain can be added later.
 - **Schedule:**
-  - GitHub Actions cron `17 * * * *` (an odd minute, to avoid top-of-the-hour delays)
+  - GitHub Actions cron `7,22,37,52 * * * *` (off the quarter hours, where GitHub is busiest). GitHub starts scheduled runs late or drops them under load: on launch day it started 3 of 9 hourly runs, so the site now asks four times an hour. A run with nothing new takes a minute or two; hearings are re-listed once a day in the morning window
   - a `workflow_dispatch` "Update now" button
   - the repo is public, which makes run time free and unlimited
 - **Keep-alive:** in a week with nothing published, a commit of `data/last-checked.txt` prevents GitHub from disabling the schedule after 60 days with no activity.
@@ -415,3 +415,4 @@ All of this was done on 2026-10-16; the site went live that day at https://senat
 | A lighter homepage (2026-10-16) | approved from a before-and-after mock of the live page: one sentence under the heading ("since 1993" keeps the span of years); the records choice as a quiet grey track; the "Try" examples as plain words with dots (two on a phone, one under 360px, with Search tips on their line, so none runs off the screen); no page ranges in Latest transcripts; bill status as words in the meta line, without flags; "Checked …" once, in the bar on a computer and in the footer where the bar has no room |
 | Brackets, and NOT on shortcuts (2026-10-16) | researchers type `(x OR y) AND z` from library and legal databases, and brackets had been read as plain words, silently giving other results; a NOT or minus on a shortcut was dropped, so `tolls -speaker:Krueger` found only Krueger. The query is now worked out into OR branches of ANDs (at most 16), shortcuts outside brackets still narrow the whole query as the filter list adds them, and the filter counts cover every branch |
 | An API outage doesn't hold back a code change (2026-10-16) | on 2026-10-16 the Senate's API timed out for a run that carried a reader fix, and the whole run stopped, so the fix waited for the API. Now a sync the API doesn't answer (exit 4) is a warning: the run puts back anything half fetched and publishes with the records already kept; "Checked … ago" stays as it was, since nothing was checked |
+| Four scheduled runs an hour (2026-10-17) | GitHub drops scheduled runs when it is busy: on launch day it started 3 of 9 hourly runs, and "Checked … ago" went three hours without a check. Four tries an hour, off the quarter hours, make a check most hours; the morning hearings re-list happens once a day (the date is kept in state.json) rather than on every morning run |

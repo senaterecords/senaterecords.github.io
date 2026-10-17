@@ -175,3 +175,22 @@ def test_sync_keeps_the_update_time_when_nothing_arrived(tmp_path, monkeypatch):
     assert main(["--data", str(store.root), "sync"]) == 0
     assert store.load_state()["updated_at"] == "2026-10-15T12:00:00"
 
+
+
+def test_hearings_are_relisted_once_a_day_however_many_morning_runs_there_are(tmp_path, monkeypatch, capsys):
+    import nyleg.__main__ as cli
+    from nyleg import sync
+
+    store = Store(tmp_path / "data")
+    store.save_state({"transcripts_synced_at": "2026-10-15T12:00:00"})
+    fake_sync(monkeypatch)
+    listed = []
+    monkeypatch.setattr(sync, "sync_recent_hearings", lambda client, store, today: listed.append(today) or sync.SyncResult())
+    monkeypatch.setattr(cli, "new_york_now", lambda: cli.datetime(2026, 10, 17, 7, 20))
+    assert main(["--data", str(store.root), "sync", "--hearings"]) == 0
+    assert "state_changed=true" in capsys.readouterr().out  # the day is kept, so the next run knows
+    assert main(["--data", str(store.root), "sync", "--hearings"]) == 0
+    assert len(listed) == 1
+    monkeypatch.setattr(cli, "new_york_now", lambda: cli.datetime(2026, 10, 18, 7, 5))
+    assert main(["--data", str(store.root), "sync", "--hearings"]) == 0
+    assert len(listed) == 2

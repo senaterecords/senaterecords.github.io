@@ -87,8 +87,14 @@ def cmd_sync(args: argparse.Namespace) -> int:
         for session in sorted({session_year(date(y, 1, 1)) for y in span}):
             result.merge(sync.sync_members(client, store, session))
     result.merge(sync.sync_transcript_updates(client, store, now))
-    if args.hearings:
+    # Hearings are re-listed once a day: the morning window holds several runs, and the list doesn't change between
+    # them. The day is kept only once the listing is done, so a run the API fails retries it.
+    today = now.date().isoformat()
+    if args.hearings and store.load_state().get("hearings_listed_on") != today:
         result.merge(sync.sync_recent_hearings(client, store, now.date()))
+        state = store.load_state()
+        state["hearings_listed_on"] = today
+        store.save_state(state)
     current = session_year(now.date())
     result.merge(sync.sync_members(client, store, current))
     result.merge(sync.sync_photos(store))
