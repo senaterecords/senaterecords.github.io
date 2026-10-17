@@ -32,19 +32,21 @@ jobs:
   update:
     # Only main is published: a manual run started on another branch does nothing.
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    # Pinned rather than ubuntu-latest, which moves to Ubuntu 26.04 from 2026-10-26: a new image can lack the Python
+    # builds setup-python downloads. Move up on purpose, with a test run (the Test workflow uses the same image).
+    runs-on: ubuntu-24.04
     timeout-minutes: 150
     outputs:
       publish: ${{ steps.go.outputs.publish }}
       raw: ${{ steps.go.outputs.raw }}
       code: ${{ steps.go.outputs.code }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 1
           # No token left in .git/config while the build runs third-party packages; commit-data.sh gets it alone.
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.13"
           cache: pip
@@ -94,13 +96,13 @@ jobs:
         if: steps.go.outputs.publish == 'true'
         run: python -m nyleg --data data process --out data/site --gate-against data/quality-deployed.json
       # Kept even when the gate fails, which is when it is most worth reading (the run's Artifacts).
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always() && steps.go.outputs.publish == 'true'
         with:
           name: quality
           path: data/site/quality.json
           retention-days: 7
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         if: steps.go.outputs.publish == 'true'
         with:
           node-version: 22
@@ -115,7 +117,7 @@ jobs:
           npm run build
           npm run check
           npm run split
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         if: steps.go.outputs.publish == 'true'
         with:
           path: out/main
@@ -141,7 +143,7 @@ jobs:
   deploy:
     needs: update
     if: needs.update.outputs.publish == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     permissions:
       contents: write
@@ -153,18 +155,18 @@ jobs:
     steps:
       - name: Publish the main site
         id: deploy
-        uses: actions/deploy-pages@v4
-      - uses: actions/checkout@v4
+        uses: actions/deploy-pages@v5
+      - uses: actions/checkout@v7
         with:
           ref: main
           fetch-depth: 1
           persist-credentials: false
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - name: Check the live site
         run: node site/scripts/check-live.mjs https://senaterecords.github.io/
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: quality
           path: data/site
