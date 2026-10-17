@@ -1,0 +1,275 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A1705",
+     "basePrintNoStr": "A1705-2021",
+     "printNo": "A1705",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-01-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1705",
+     "basePrintNoStr": "A1705-2021",
+     "printNo": "A1705",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CODES"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to setting bail for\ndefendants who pose a threat to public safety",
+    "basePrintNo": "A1705",
+    "basePrintNoStr": "A1705-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 30,
+       "fullName": "Brian Barnwell",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1119,
+       "sessionMemberId": 1649,
+       "sessionYear": 2021,
+       "shortName": "BARNWELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 115,
+       "fullName": "Billy Jones",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1120,
+       "sessionMemberId": 1700,
+       "sessionYear": 2021,
+       "shortName": "JONES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1753,
+       "sessionYear": 2021,
+       "shortName": "THIELE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 119,
+       "fullName": "Marianne Buttenschon",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1249,
+       "sessionMemberId": 1659,
+       "sessionYear": 2021,
+       "shortName": "BUTTENSCHON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 49,
+       "fullName": "Peter Abbate",
+       "imgName": "502_peter_abbate.jpg",
+       "incumbent": false,
+       "memberId": 502,
+       "sessionMemberId": 1643,
+       "sessionYear": 2021,
+       "shortName": "ABBATE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 98,
+       "fullName": "Karl Brabenec",
+       "imgName": "908_karl_brabenec.jpg",
+       "incumbent": true,
+       "memberId": 908,
+       "sessionMemberId": 1655,
+       "sessionYear": 2021,
+       "shortName": "BRABENEC"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §510.10, CP L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A1705",
+    "publishDate": "2021-01-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S1521",
+       "basePrintNoStr": "S1521-2021",
+       "printNo": "S1521",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A1705",
+ "basePrintNoStr": "A1705-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2021-01-11T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A9047",
+    "basePrintNoStr": "A9047-2019",
+    "printNo": "A9047",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A1705",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-11T15:28:28.962694",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-01-11T13:46:20.476638",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 111,
+   "fullName": "Angelo Santabarbara",
+   "imgName": "670_angelo_santabarbara.jpg",
+   "incumbent": true,
+   "memberId": 670,
+   "sessionMemberId": 1740,
+   "sessionYear": 2021,
+   "shortName": "SANTABARBARA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to setting bail for dangerous defendants who pose a threat to public safety.",
+ "title": "Relates to setting bail for defendants who pose a threat to public safety",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

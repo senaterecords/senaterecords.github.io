@@ -1,0 +1,242 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4130",
+     "basePrintNoStr": "S4130-2019",
+     "printNo": "S4130",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-03-01",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4130",
+     "basePrintNoStr": "S4130-2019",
+     "printNo": "S4130",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4130",
+     "basePrintNoStr": "S4130-2019",
+     "printNo": "S4130",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2020-02-12",
+    "sequenceNo": 3,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, the emergency\ntenant protection act of nineteen seventy-four and the emergency housing rent\ncontrol law, in relation to recovery of certain housing accommodations by a\nlandlord",
+    "basePrintNo": "S4130",
+    "basePrintNoStr": "S4130-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§26-408 & 26-511, NYC Ad Cd; amd §10, Emerg Ten Prot Act of 1974; amd §5, Emerg Hous Rent Cont L",
+    "lawSection": "New York City Administrative Code",
+    "memo": "\n \nBILL NUMBER: S4130\n\nSPONSOR: KAVANAGH\n \nTITLE OF BILL:  An act to amend the administrative code of the city of\nNew York, the emergency tenant protection act of nineteen seventy-four\nand the emergency housing rent control law, in relation to recovery of\ncertain housing accommodations by a landlord\n\n \nPURPOSE:\n\nThe purpose of this bill is to expand rent regulated tenant protections\nby limiting a landlord's ability to take possession of units for his or\nher own personal use.\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill would limit a landlord's ability to take possession of rent\nregulated units, for his or her own or an immediate family member's\npersonal use. The landlord would only be able reclaim units in cases of\nimmediate and compelling necessity and would permit the recovery of only\none such unit. Additionally, the bill would prohibit such a recovery if\na tenant is sixty-two years of age or older, has occupied the apartment\nfor fifteen or more years, or suffers from mental or physical impair-\nment.\n\n \nJUSTIFICATION:\n\nLimiting a landlord's ability to recover units for personal use is an\nimportant step towards protecting rent regulated tenants. By allowing a\nlandlord to recover only one unit when reclaiming units for personal\nuse, this bill would prevent situations where a landlord may force out\nmultiple rent regulated tenants for the purpose of converting the apart-\nments into a single luxury unit or in some cases, converting the entire\nbuilding into a personal house for the landlord. Additionally, some\nlandlords have attempted to use this provision to improperly deregulate\nunits by forcing out rent regulated tenants then inappropriately raising\nrents while units are not occupied or occupied by relatives.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill in the Senate.\n\n2018: A5771 - advanced to third reading.\n2017: A5.771 - advanced to third reading.\n2016: A3812 - advanced to third reading.\n2015: A3812 - referred to Housing.\n2014: A5177 - Passed Assembly.\n2013: A5177 - referred to Rules.\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately, provided that the amendments to\nthe rent stabilization and rent control laws shall not affect the expi-\nration of such laws.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4130",
+    "publishDate": "2019-03-01",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5331",
+       "basePrintNoStr": "A5331-2019",
+       "printNo": "A5331",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4130",
+ "basePrintNoStr": "S4130-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-01-08",
+    "billCalNo": null,
+    "committeeName": "Housing, Construction And Community Development",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2019-03-01T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A5771",
+    "basePrintNoStr": "A5771-2017",
+    "printNo": "A5771",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A3812",
+    "basePrintNoStr": "A3812-2015",
+    "printNo": "A3812",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A5177",
+    "basePrintNoStr": "A5177-2013",
+    "printNo": "A5177",
+    "session": 2013,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S4130",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-03-01T09:37:10.329223",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2019-03-01T09:37:10.329223",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 26,
+   "fullName": "Brian Kavanagh",
+   "imgName": "526_brian_kavanagh.jpg",
+   "incumbent": true,
+   "memberId": 1140,
+   "sessionMemberId": 1407,
+   "sessionYear": 2019,
+   "shortName": "KAVANAGH"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-02-12",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to recovery of certain housing accommodations by a landlord; limits a landlord's ability to take possession of units for their own primary residence: permits recovery of only one unit, and restricts such ability if the tenant has occupied the apartment for fifteen or more years.",
+ "title": "Relates to recovery of certain housing accommodations by a landlord",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

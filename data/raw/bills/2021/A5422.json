@@ -1,0 +1,207 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A5422",
+     "basePrintNoStr": "A5422-2021",
+     "printNo": "A5422",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-02-16",
+    "sequenceNo": 1,
+    "text": "REFERRED TO AGING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5422",
+     "basePrintNoStr": "A5422-2021",
+     "printNo": "A5422",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO AGING"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the elder law, in relation to improving and expanding the\npharmaceutical insurance coverage program for certain medicare enrollees",
+    "basePrintNo": "A5422",
+    "basePrintNoStr": "A5422-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 1748,
+       "sessionYear": 2021,
+       "shortName": "STECK"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§240, 241, 242 & 250, add §242-a, Eld L",
+    "lawSection": "Elder Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A5422",
+    "publishDate": "2021-02-16",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S4603",
+       "basePrintNoStr": "S4603-2021",
+       "printNo": "S4603",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A5422",
+ "basePrintNoStr": "A5422-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Aging",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Aging",
+    "referenceDate": "2021-02-16T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Aging",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A5422",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-02-16T12:23:23.598348",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-02-16T10:24:28.787105",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 40,
+   "fullName": "Ron Kim",
+   "imgName": "659_ron_kim.jpg",
+   "incumbent": true,
+   "memberId": 659,
+   "sessionMemberId": 1702,
+   "sessionYear": 2021,
+   "shortName": "KIM"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Aging",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to improving and expanding the pharmaceutical insurance coverage program for certain medicare enrollees; creates the expanded pharmaceutical insurance coverage panel, to be responsible for expanding pharmaceutical insurance coverage.",
+ "title": "Relates to improving and expanding the pharmaceutical insurance coverage program for certain medicare enrollees",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

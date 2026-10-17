@@ -1,0 +1,202 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A261",
+     "basePrintNoStr": "A261-2021",
+     "printNo": "A261",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO TOURISM, PARKS, ARTS AND SPORTS DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A261",
+     "basePrintNoStr": "A261-2021",
+     "printNo": "A261",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO TOURISM, PARKS, ARTS AND SPORTS DEVELOPMENT"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the parks, recreation and historic preservation law, in\nrelation to allowing persons who are permanently disabled and require the use\nof a wheelchair to have free use of any of the public campsites, parks and\nother public places of recreation in this state",
+    "basePrintNo": "A261",
+    "basePrintNoStr": "A261-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §13.19, Pks & Rec L",
+    "lawSection": "Parks, Recreation and Historic Preservation Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A261",
+    "publishDate": "2020-12-23",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S1833",
+       "basePrintNoStr": "S1833-2021",
+       "printNo": "S1833",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A261",
+ "basePrintNoStr": "A261-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Tourism, Parks, Arts And Sports Development",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Tourism, Parks, Arts And Sports Development",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Tourism, Parks, Arts And Sports Development",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A9914",
+    "basePrintNoStr": "A9914-2019",
+    "printNo": "A9914",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A261",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2020-12-23T15:46:42.049885",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2020-12-23T12:42:27.165564",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 110,
+   "fullName": "Phil Steck",
+   "imgName": "675_phil_steck.jpg",
+   "incumbent": true,
+   "memberId": 675,
+   "sessionMemberId": 1748,
+   "sessionYear": 2021,
+   "shortName": "STECK"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Tourism, Parks, Arts And Sports Development",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Allows certain persons who are permanently disabled and require the use of a wheelchair to have free use of any of the public campsites, parks and other public places of recreation in this state.",
+ "title": "Allows persons who are permanently disabled and require the use of a wheelchair to have free use of any of the public campsites, parks and other public places of recreation in this state",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

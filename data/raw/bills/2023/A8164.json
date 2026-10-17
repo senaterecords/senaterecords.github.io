@@ -1,0 +1,209 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A8164",
+     "basePrintNoStr": "A8164-2023",
+     "printNo": "A8164",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-10-18",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8164",
+     "basePrintNoStr": "A8164-2023",
+     "printNo": "A8164",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO INSURANCE"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law, in relation to the formation of mutual\nholding companies by certain domestic mutual property/casualty insurers and\nthe reorganization in connection therewith of a domestic mutual\nproperty/casualty insurer into a domestic stock property/casualty insurer",
+    "basePrintNo": "A8164",
+    "basePrintNoStr": "A8164-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 81 §§8101 - 8120, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A8164",
+    "publishDate": "2023-10-18",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ISCA81"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3538",
+       "basePrintNoStr": "S3538-2023",
+       "printNo": "S3538",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A8164",
+ "basePrintNoStr": "A8164-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Insurance",
+    "referenceDate": "2023-10-18T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Insurance",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S9021",
+    "basePrintNoStr": "S9021-2021",
+    "printNo": "S9021",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A8164",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-10-18T16:32:41.912289",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-10-18T16:10:57.375127",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 24,
+   "fullName": "David Weprin",
+   "imgName": "484_david_weprin.jpg",
+   "incumbent": true,
+   "memberId": 484,
+   "sessionMemberId": 2189,
+   "sessionYear": 2023,
+   "shortName": "WEPRIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Insurance",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for the formation of mutual holding companies by certain domestic mutual property/casualty insurers and the reorganization in connection therewith of a domestic mutual property/casualty insurer into a domestic stock property/casualty insurer.",
+ "title": "Relates to the formation of mutual holding companies by certain domestic mutual property/casualty insurers and the reorganization in connection therewith of a domestic mutual property/casualty insurer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

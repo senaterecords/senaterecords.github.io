@@ -1,0 +1,167 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A9534",
+     "basePrintNoStr": "A9534-2023",
+     "printNo": "A9534",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-03-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO WAYS AND MEANS"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the tax law, in relation to establishing a tax deduction for\nsidewalk repairs",
+    "basePrintNo": "A9534",
+    "basePrintNoStr": "A9534-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §612, Tax L",
+    "lawSection": "Tax Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A9534",
+    "publishDate": "2024-03-20",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A9534",
+ "basePrintNoStr": "A9534-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-03-20",
+    "billCalNo": null,
+    "committeeName": "Ways And Means",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2024-03-20T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A9534",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2024-03-20T10:19:07.376034",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2024-03-20T09:41:06.928925",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 59,
+   "fullName": "Jaime R. Williams",
+   "imgName": "no_image.jpg",
+   "incumbent": true,
+   "memberId": 1116,
+   "sessionMemberId": 2190,
+   "sessionYear": 2023,
+   "shortName": "WILLIAMS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-03-20",
+  "billCalNo": null,
+  "committeeName": "Ways And Means",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes a tax deduction for homeowners in a city with a population of one million or more for the cost of sidewalk repairs.",
+ "title": "Establishes a tax deduction for certain homeowners for the cost of sidewalk repairs",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

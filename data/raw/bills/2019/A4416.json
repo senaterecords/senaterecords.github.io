@@ -1,0 +1,1453 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-02-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-05-30",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-05-30",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 4416A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-03",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-03",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 4416B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-01-08",
+    "sequenceNo": 6,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-03-11",
+    "sequenceNo": 7,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416C",
+     "session": 2019,
+     "version": "C"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-03-11",
+    "sequenceNo": 8,
+    "text": "PRINT NUMBER 4416C"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4416",
+     "basePrintNoStr": "A4416-2019",
+     "printNo": "A4416C",
+     "session": 2019,
+     "version": "C"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2020-07-13",
+    "sequenceNo": 9,
+    "text": "REPORTED REFERRED TO CODES"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "C",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B",
+   "C"
+  ],
+  "size": 4
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law and the mental hygiene law, in\nrelation to violations of safety conditions in adult care facilities",
+    "basePrintNo": "A4416",
+    "basePrintNoStr": "A4416-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1341,
+       "sessionYear": 2019,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 1364,
+       "sessionYear": 2019,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1337,
+       "sessionYear": 2019,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1338,
+       "sessionYear": 2019,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Walter T. Mosley",
+       "imgName": "663_walter_t._mosley.jpg",
+       "incumbent": false,
+       "memberId": 663,
+       "sessionMemberId": 1356,
+       "sessionYear": 2019,
+       "shortName": "MOSLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 1318,
+       "sessionYear": 2019,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1317,
+       "sessionYear": 2019,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 79,
+       "fullName": "Michael Blake",
+       "imgName": "899_michael_blake.jpg",
+       "incumbent": false,
+       "memberId": 899,
+       "sessionMemberId": 1372,
+       "sessionYear": 2019,
+       "shortName": "BLAKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Anthony D'Urso",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1130,
+       "sessionMemberId": 1400,
+       "sessionYear": 2019,
+       "shortName": "D'URSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 29,
+       "fullName": "Alicia Hyndman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1089,
+       "sessionMemberId": 1383,
+       "sessionYear": 2019,
+       "shortName": "HYNDMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1324,
+       "sessionYear": 2019,
+       "shortName": "LUPARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 1256,
+       "sessionYear": 2019,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 121,
+       "fullName": "John Salka",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1250,
+       "sessionMemberId": 1248,
+       "sessionYear": 2019,
+       "shortName": "SALKA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 60,
+       "fullName": "Charles Barron",
+       "imgName": "493_charles_barron.jpg",
+       "incumbent": false,
+       "memberId": 493,
+       "sessionMemberId": 1430,
+       "sessionYear": 2019,
+       "shortName": "BARRON"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§460-d, 461-c, 461-d, 461-e & 461-a, Soc Serv L; amd §29.15, Ment Hyg L",
+    "lawSection": "Social Services Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 84,
+       "fullName": "Carmen E. Arroyo",
+       "imgName": "536_carmen_e._arroyo.jpg",
+       "incumbent": false,
+       "memberId": 536,
+       "sessionMemberId": 1320,
+       "sessionYear": 2019,
+       "shortName": "ARROYO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      }
+     ],
+     "size": 4
+    },
+    "printNo": "A4416",
+    "publishDate": "2019-02-04",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3460",
+       "basePrintNoStr": "S3460-2019",
+       "printNo": "S3460",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the social services law and the mental hygiene law, in\nrelation to violations of safety conditions in adult care facilities",
+    "basePrintNo": "A4416",
+    "basePrintNoStr": "A4416-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1341,
+       "sessionYear": 2019,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 1364,
+       "sessionYear": 2019,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1337,
+       "sessionYear": 2019,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1338,
+       "sessionYear": 2019,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Walter T. Mosley",
+       "imgName": "663_walter_t._mosley.jpg",
+       "incumbent": false,
+       "memberId": 663,
+       "sessionMemberId": 1356,
+       "sessionYear": 2019,
+       "shortName": "MOSLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 1318,
+       "sessionYear": 2019,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1317,
+       "sessionYear": 2019,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 79,
+       "fullName": "Michael Blake",
+       "imgName": "899_michael_blake.jpg",
+       "incumbent": false,
+       "memberId": 899,
+       "sessionMemberId": 1372,
+       "sessionYear": 2019,
+       "shortName": "BLAKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Anthony D'Urso",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1130,
+       "sessionMemberId": 1400,
+       "sessionYear": 2019,
+       "shortName": "D'URSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 29,
+       "fullName": "Alicia Hyndman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1089,
+       "sessionMemberId": 1383,
+       "sessionYear": 2019,
+       "shortName": "HYNDMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1324,
+       "sessionYear": 2019,
+       "shortName": "LUPARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 1256,
+       "sessionYear": 2019,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 121,
+       "fullName": "John Salka",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1250,
+       "sessionMemberId": 1248,
+       "sessionYear": 2019,
+       "shortName": "SALKA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 60,
+       "fullName": "Charles Barron",
+       "imgName": "493_charles_barron.jpg",
+       "incumbent": false,
+       "memberId": 493,
+       "sessionMemberId": 1430,
+       "sessionYear": 2019,
+       "shortName": "BARRON"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§460-d, 461-c, 461-d, 461-e & 461-a, Soc Serv L; amd §29.15, Ment Hyg L",
+    "lawSection": "Social Services Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 84,
+       "fullName": "Carmen E. Arroyo",
+       "imgName": "536_carmen_e._arroyo.jpg",
+       "incumbent": false,
+       "memberId": 536,
+       "sessionMemberId": 1320,
+       "sessionYear": 2019,
+       "shortName": "ARROYO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      }
+     ],
+     "size": 4
+    },
+    "printNo": "A4416A",
+    "publishDate": "2019-05-30",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the social services law and the mental hygiene law, in\nrelation to violations of safety conditions in adult care facilities",
+    "basePrintNo": "A4416",
+    "basePrintNoStr": "A4416-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1341,
+       "sessionYear": 2019,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 1364,
+       "sessionYear": 2019,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1337,
+       "sessionYear": 2019,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1338,
+       "sessionYear": 2019,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Walter T. Mosley",
+       "imgName": "663_walter_t._mosley.jpg",
+       "incumbent": false,
+       "memberId": 663,
+       "sessionMemberId": 1356,
+       "sessionYear": 2019,
+       "shortName": "MOSLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 1318,
+       "sessionYear": 2019,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1317,
+       "sessionYear": 2019,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 79,
+       "fullName": "Michael Blake",
+       "imgName": "899_michael_blake.jpg",
+       "incumbent": false,
+       "memberId": 899,
+       "sessionMemberId": 1372,
+       "sessionYear": 2019,
+       "shortName": "BLAKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Anthony D'Urso",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1130,
+       "sessionMemberId": 1400,
+       "sessionYear": 2019,
+       "shortName": "D'URSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 29,
+       "fullName": "Alicia Hyndman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1089,
+       "sessionMemberId": 1383,
+       "sessionYear": 2019,
+       "shortName": "HYNDMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1324,
+       "sessionYear": 2019,
+       "shortName": "LUPARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 1256,
+       "sessionYear": 2019,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 121,
+       "fullName": "John Salka",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1250,
+       "sessionMemberId": 1248,
+       "sessionYear": 2019,
+       "shortName": "SALKA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 60,
+       "fullName": "Charles Barron",
+       "imgName": "493_charles_barron.jpg",
+       "incumbent": false,
+       "memberId": 493,
+       "sessionMemberId": 1430,
+       "sessionYear": 2019,
+       "shortName": "BARRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 18,
+       "fullName": "Taylor Darling",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1240,
+       "sessionMemberId": 1504,
+       "sessionYear": 2019,
+       "shortName": "DARLING"
+      }
+     ],
+     "size": 17
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§460-d, 461-c, 461-d, 461-e & 461-a, Soc Serv L; amd §29.15, Ment Hyg L",
+    "lawSection": "Social Services Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 84,
+       "fullName": "Carmen E. Arroyo",
+       "imgName": "536_carmen_e._arroyo.jpg",
+       "incumbent": false,
+       "memberId": 536,
+       "sessionMemberId": 1320,
+       "sessionYear": 2019,
+       "shortName": "ARROYO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      }
+     ],
+     "size": 4
+    },
+    "printNo": "A4416B",
+    "publishDate": "2019-06-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   },
+   "C": {
+    "actClause": "AN ACT to amend the social services law and the mental hygiene law, in\nrelation to violations of safety conditions in adult care facilities",
+    "basePrintNo": "A4416",
+    "basePrintNoStr": "A4416-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1341,
+       "sessionYear": 2019,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 1364,
+       "sessionYear": 2019,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1337,
+       "sessionYear": 2019,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1338,
+       "sessionYear": 2019,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Walter T. Mosley",
+       "imgName": "663_walter_t._mosley.jpg",
+       "incumbent": false,
+       "memberId": 663,
+       "sessionMemberId": 1356,
+       "sessionYear": 2019,
+       "shortName": "MOSLEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 82,
+       "fullName": "Michael Benedetto",
+       "imgName": "534_michael_benedetto.jpg",
+       "incumbent": true,
+       "memberId": 534,
+       "sessionMemberId": 1318,
+       "sessionYear": 2019,
+       "shortName": "BENEDETTO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1317,
+       "sessionYear": 2019,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 79,
+       "fullName": "Michael Blake",
+       "imgName": "899_michael_blake.jpg",
+       "incumbent": false,
+       "memberId": 899,
+       "sessionMemberId": 1372,
+       "sessionYear": 2019,
+       "shortName": "BLAKE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Anthony D'Urso",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1130,
+       "sessionMemberId": 1400,
+       "sessionYear": 2019,
+       "shortName": "D'URSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 29,
+       "fullName": "Alicia Hyndman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1089,
+       "sessionMemberId": 1383,
+       "sessionYear": 2019,
+       "shortName": "HYNDMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1324,
+       "sessionYear": 2019,
+       "shortName": "LUPARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 1256,
+       "sessionYear": 2019,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 60,
+       "fullName": "Charles Barron",
+       "imgName": "493_charles_barron.jpg",
+       "incumbent": false,
+       "memberId": 493,
+       "sessionMemberId": 1430,
+       "sessionYear": 2019,
+       "shortName": "BARRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 18,
+       "fullName": "Taylor Darling",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1240,
+       "sessionMemberId": 1504,
+       "sessionYear": 2019,
+       "shortName": "DARLING"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 51,
+       "fullName": "Felix Ortiz",
+       "imgName": "504_felix_ortiz.jpg",
+       "incumbent": false,
+       "memberId": 504,
+       "sessionMemberId": 1307,
+       "sessionYear": 2019,
+       "shortName": "ORTIZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 1376,
+       "sessionYear": 2019,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 4,
+       "fullName": "Steven Englebright",
+       "imgName": "466_steven_englebright.jpg",
+       "incumbent": false,
+       "memberId": 466,
+       "sessionMemberId": 1295,
+       "sessionYear": 2019,
+       "shortName": "ENGLEBRIGHT"
+      }
+     ],
+     "size": 19
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§460-d, 461-c, 461-d, 461-e & 461-a, Soc Serv L; amd §29.15, Ment Hyg L",
+    "lawSection": "Social Services Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 84,
+       "fullName": "Carmen E. Arroyo",
+       "imgName": "536_carmen_e._arroyo.jpg",
+       "incumbent": false,
+       "memberId": 536,
+       "sessionMemberId": 1320,
+       "sessionYear": 2019,
+       "shortName": "ARROYO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      }
+     ],
+     "size": 4
+    },
+    "printNo": "A4416C",
+    "publishDate": "2020-03-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S3460",
+       "basePrintNoStr": "S3460-2019",
+       "printNo": "S3460A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A4416",
+ "basePrintNoStr": "A4416-2019",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-07-13",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2020-07-13T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2019-02-04T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2019-05-30T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2019-06-03T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2020-03-11T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 6
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A4416C",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-02-04T12:50:05.902401",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-05-30T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2019-06-03T00:00",
+    "published": true,
+    "version": "B"
+   },
+   "C": {
+    "effectDateTime": "2020-03-11T00:00",
+    "published": true,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "publishedDateTime": "2019-02-04T12:07:25.028227",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": true,
+   "chamber": "ASSEMBLY",
+   "districtCode": 75,
+   "fullName": "Richard Gottfried",
+   "imgName": "527_richard_gottfried.jpg",
+   "incumbent": false,
+   "memberId": 527,
+   "sessionMemberId": 1315,
+   "sessionYear": 2019,
+   "shortName": "GOTTFRIED R"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-07-13",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to violations of safety conditions in adult care facilities; provides penalties for safety violations and operating without a valid license; prohibits reductions in fines in certain circumstances where a patient is endangered or harmed.",
+ "title": "Relates to violations of safety conditions in adult care facilities",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

@@ -1,0 +1,1836 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-16",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-05-23",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 3,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-22",
+    "sequenceNo": 4,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-06",
+    "sequenceNo": 5,
+    "text": "1ST REPORT CAL.922"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-07",
+    "sequenceNo": 6,
+    "text": "AMENDED 6959A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-07",
+    "sequenceNo": 7,
+    "text": "2ND REPORT CAL."
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-05-08",
+    "sequenceNo": 8,
+    "text": "ADVANCED TO THIRD READING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-06-07",
+    "sequenceNo": 9,
+    "text": "COMMITTED TO RULES"
+   }
+  ],
+  "size": 9
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to federally qualified\nhealth center rate adequacy",
+    "basePrintNo": "S6959",
+    "basePrintNoStr": "S6959-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2006,
+       "sessionYear": 2023,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 2015,
+       "sessionYear": 2023,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 1873,
+       "sessionYear": 2023,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 2049,
+       "sessionYear": 2023,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2037,
+       "sessionYear": 2023,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Dan Stec",
+       "imgName": "674_dan_stec.jpg",
+       "incumbent": true,
+       "memberId": 1490,
+       "sessionMemberId": 2042,
+       "sessionYear": 2023,
+       "shortName": "STEC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 27
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2807, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S6959\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to federally quali-\nfied health center rate adequacy\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRequires the Department of Health to analyze and update federally quali-\nfied health center (FQHC) rates that are over two decades old.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends Public Health Law 2807(8)(b), which authorizes feder-\nally qualified health center (FQHC) reimbursement rates, to implement an\nupdated methodology to ensure that the two-decade old rates are updated\nto reflect actual costs incurred by FQHCs.\n\nSection 2 amends Public Health Law 2807(8) to require the Department of\nHealth (DOH) to analyze historical FQHC cost data as well as related\nfactors to set an adequate rate; eliminate arbitrary caps on rates,\nsubject to federal financial participation; and requires that prior to\nimplementation, the DOH consult with relevant stakeholders.\n\nSection 3 provides an immediate effective date.\n\n \nJUSTIFICATION:\n\nFederally qualified health centers (FQHCs), also known as community\nhealth centers (CHCs), are located in medically underserved neighbor-\nhoods, providing quality and affordable healthcare services to all,\nregardless of immigration status, insurance coverage, or ability to pay.\nCHCs are a critical safety net for quality health care services, partic-\nularly for low-income communities and communities of color. Among CHC\npatients, 89% are low-income, 68% are Black, Hispanic/Latinx, or other-\nwise people of color, 13% are uninsured, and nearly 60% of CHCs'\npatients are enrolled in Medicaid, CHIP, or are dually enrolled in Medi-\ncare and Medicaid.\n\nCHCs deliver a full spectrum of services, including many social care\nsupports, such as housing, transportation vouchers, and food, many of\nwhich were never envisioned when the CHCs' base rate was developed over\n20 years ago. Current rates are actually based on costs from 1999 and\n2000. These reimbursement rates are the oldest cost-based rates, among\nall New York State Medicaid provider types. CHC rates are further\nsuppressed by arbitrary rate ceilings regulatorily imposed by the\nDepartment of Health. Costs today for personnel, benefits, equipment,\nmedical supplies, and office space are all significantly higher than\nthey were decades ago and have risen exponentially since the pandemic.\nAdding to the inadequacy of these outdated rates is the onset of more\nwidely used health care delivery modes such as telehealth, further driv-\ning down the ability of rates to meet contemporary cost pressures. The\noutdated reimbursement methodology for CHCs does not account for the\ncurrent model of comprehensive primary care including behavioral health\nservices, oral health services, reproductive health services, and\nservices addressing social needs. CHCs are also experiencing\nunprecedented workforce attrition and workforce shortages that are\naffecting operations. CHCs' insufficient reimbursement rates undermine\ntheir ability to engage in long term sustainability and expansion plan-\nning, limiting access to care.\n\nThis legislation will ensure that the Department of Health evaluates and\nimplements updated payment rates to sufficiently account for increases\nin operation costs and the new, expanded model of health and social care\nthat is the hallmark of community health centers.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6959",
+    "publishDate": "2023-05-16",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH2807"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7560",
+       "basePrintNoStr": "A7560-2023",
+       "printNo": "A7560",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to federally qualified\nhealth center rate adequacy",
+    "basePrintNo": "S6959",
+    "basePrintNoStr": "S6959-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2006,
+       "sessionYear": 2023,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 2015,
+       "sessionYear": 2023,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 1873,
+       "sessionYear": 2023,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 2049,
+       "sessionYear": 2023,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2037,
+       "sessionYear": 2023,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Dan Stec",
+       "imgName": "674_dan_stec.jpg",
+       "incumbent": true,
+       "memberId": 1490,
+       "sessionMemberId": 2042,
+       "sessionYear": 2023,
+       "shortName": "STEC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 27
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §2807, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S6959A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to federally quali-\nfied health center rate adequacy\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nRequires the Department of Health to analyze and update federally quali-\nfied health center (FQHC) rates that are over two decades old.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends Public Health Law 2807(8)(b), which authorizes feder-\nally qualified health center (FQHC) reimbursement rates, to implement an\nupdated methodology to ensure that the two-decade old rates are updated\nto reflect actual costs incurred by FQHCs by extending the twelve month\nperiod into 2025. After September 13, 2025 the operating costs will be\ncalculated using existing metrics.\n\nSection 2 amends Public Health Law 2807(8) to require the Department of\nHealth (DOH) to analyze historical FQHC cost data as well as related\nfactors to set an adequate rate; eliminate arbitrary caps on rates,\nsubject to federal financial participation.\n\nSection 3 provides an immediate effective date.\n\n \nJUSTIFICATION:\n\nFederally qualified health centers (FQHCs), also known as community\nhealth centers (CHCs), are located in medically underserved neighbor-\nhoods, providing quality and affordable healthcare services to all,\nregardless of immigration status, insurance coverage, or ability to pay.\n\nCHCs are a critical safety net for quality health care services, partic-\nularly for low-income communities and communities of color.  Among CHC\npatients, 89% are low-income, 68% are Black, Hispanic/Latinx, or other-\nwise people of color, 13% are uninsured, and nearly 60% of CHCs'\npatients are enrolled in Medicaid, CHIP, or are dually enrolled in Medi-\ncare and Medicaid.\n\nCHCs deliver a full spectrum of services, including many social care\nsupports, such as housing, transportation vouchers, and food, many of\nwhich were never envisioned when the CHCs' base rate was developed over\n20 years ago. Current rates are actually based on costs from 1999 and\n2000. These reimbursement rates are the oldest cost-based rates, among\nall New York State Medicaid provider types. CHC rates are further\nsuppressed by arbitrary rate ceilings regulatorily imposed by the\nDepartment of Health. Costs today for personnel, benefits, equipment,\nmedical supplies, and office space are all significantly higher than\nthey were decades ago and have risen exponentially since the pandemic.\nAdding to the inadequacy of these outdated rates is the onset of more\nwidely used health care delivery modes such as telehealth, further driv-\ning down the ability of rates to meet contemporary cost pressures. The\noutdated reimbursement methodology for CHCs does not account for the\ncurrent model of comprehensive primary care including behavioral health\nservices, oral health services, reproductive health services, and\nservices addressing social needs. CHCs are also experiencing\nunprecedented workforce attrition and workforce shortages that are\naffecting operations.  CHCs' insufficient reimbursement rates undermine\ntheir ability to engage in long term sustainability and expansion plan-\nning, limiting access to care.\n\nThis legislation will ensure that the Department of Health evaluates and\nimplements updated payment rates to sufficiently account for increases\nin operation costs and the new, expanded model of health and social care\nthat is the hallmark of community health centers.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6959A",
+    "publishDate": "2024-05-07",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH2807"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7560",
+       "basePrintNoStr": "A7560-2023",
+       "printNo": "A7560A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6959",
+ "basePrintNoStr": "S6959-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [
+   {
+    "calendarNumber": 47,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 48,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 49,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 50,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 51,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 52,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 53,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 54,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 55,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 56,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 57,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 58,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 59,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 60,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 61,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 62,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 63,
+    "year": 2024
+   },
+   {
+    "calendarNumber": 64,
+    "year": 2024
+   }
+  ],
+  "size": 18
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 19,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 3,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 15,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    }
+   }
+  ],
+  "size": 3
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-06-07",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2023-05-23T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-01-22T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2023-05-16T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2024-06-07T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6959A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-05-16T10:57:52.296256",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-05-07T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-05-16T10:57:52.296256",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 2031,
+   "sessionYear": 2023,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-06-07",
+  "billCalNo": null,
+  "committeeName": "Rules",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for the calculation and analysis of certain health center costs.",
+ "title": "Relates to federal qualified health center rate adequacy",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2050,
+         "sessionYear": 2023,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 1878,
+         "sessionYear": 2023,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2023-05-23",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2050,
+         "sessionYear": 2023,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2023,
+         "sessionYear": 2023,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2025,
+         "sessionYear": 2023,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 1879,
+         "sessionYear": 2023,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2042,
+         "sessionYear": 2023,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 1878,
+         "sessionYear": 2023,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-01-22",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S6959",
+     "basePrintNoStr": "S6959-2023",
+     "printNo": "S6959",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Finance"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 36,
+         "fullName": "Jamaal Bailey",
+         "imgName": "924_Jamaal_Bailey.jpg",
+         "incumbent": true,
+         "memberId": 1102,
+         "sessionMemberId": 2005,
+         "sessionYear": 2023,
+         "shortName": "BAILEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 57,
+         "fullName": "George Borrello",
+         "imgName": "57_george_borrello.jpg",
+         "incumbent": true,
+         "memberId": 1370,
+         "sessionMemberId": 2006,
+         "sessionYear": 2023,
+         "shortName": "BORRELLO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 46,
+         "fullName": "Neil D. Breslin",
+         "imgName": "372_neil_d._breslin.jpg",
+         "incumbent": false,
+         "memberId": 372,
+         "sessionMemberId": 2007,
+         "sessionYear": 2023,
+         "shortName": "BRESLIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 14,
+         "fullName": "Leroy Comrie",
+         "imgName": "888_leroy_comrie.jpg",
+         "incumbent": true,
+         "memberId": 888,
+         "sessionMemberId": 2008,
+         "sessionYear": 2023,
+         "shortName": "COMRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 56,
+         "fullName": "Jeremy Cooney",
+         "imgName": "1318_Jeremy_Cooney.jpg",
+         "incumbent": true,
+         "memberId": 1501,
+         "sessionMemberId": 2051,
+         "sessionYear": 2023,
+         "shortName": "COONEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2010,
+         "sessionYear": 2023,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 26,
+         "fullName": "Andrew Gounardes",
+         "imgName": "1049_Andrew_Gounardes.jpg",
+         "incumbent": true,
+         "memberId": 1229,
+         "sessionMemberId": 2012,
+         "sessionYear": 2023,
+         "shortName": "GOUNARDES"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Joseph A. Griffo",
+         "imgName": "393_joseph_a._griffo.jpg",
+         "incumbent": true,
+         "memberId": 393,
+         "sessionMemberId": 2013,
+         "sessionYear": 2023,
+         "shortName": "GRIFFO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 41,
+         "fullName": "Michelle Hinchey",
+         "imgName": "1314_Michelle_Hinchey.jpg",
+         "incumbent": true,
+         "memberId": 1497,
+         "sessionMemberId": 2047,
+         "sessionYear": 2023,
+         "shortName": "HINCHEY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 47,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 2313,
+         "sessionYear": 2023,
+         "shortName": "HOYLMAN-SIGAL"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 2020,
+         "sessionYear": 2023,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2022,
+         "sessionYear": 2023,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 1873,
+         "sessionYear": 2023,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 2049,
+         "sessionYear": 2023,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2028,
+         "sessionYear": 2023,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2031,
+         "sessionYear": 2023,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2032,
+         "sessionYear": 2023,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 42,
+         "fullName": "James Skoufis",
+         "imgName": "672_james_skoufis.jpg",
+         "incumbent": true,
+         "memberId": 1232,
+         "sessionMemberId": 2036,
+         "sessionYear": 2023,
+         "shortName": "SKOUFIS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2037,
+         "sessionYear": 2023,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 2040,
+         "sessionYear": 2023,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 20
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 58,
+         "fullName": "Thomas F. O'Mara",
+         "imgName": "415_thomas_f._o'mara.jpg",
+         "incumbent": true,
+         "memberId": 415,
+         "sessionMemberId": 2026,
+         "sessionYear": 2023,
+         "shortName": "O'MARA"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2024-05-06",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 3
+ },
+ "year": 2024
+}

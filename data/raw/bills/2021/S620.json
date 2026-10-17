@@ -1,0 +1,615 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S620",
+     "basePrintNoStr": "S620-2021",
+     "printNo": "S620",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO BUDGET AND REVENUE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S620",
+     "basePrintNoStr": "S620-2021",
+     "printNo": "S620",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-02-02",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S620",
+     "basePrintNoStr": "S620-2021",
+     "printNo": "S620",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 3,
+    "text": "REFERRED TO BUDGET AND REVENUE"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the tax law, in relation to providing a tax credit for\nqualified caregiving expenses; and to provide for the repeal of such\nprovisions upon the expiration thereof",
+    "basePrintNo": "S620",
+    "basePrintNoStr": "S620-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 1812,
+       "sessionYear": 2021,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Daphne Jordan",
+       "imgName": "1055_Daphne_Jordan.jpg",
+       "incumbent": false,
+       "memberId": 1235,
+       "sessionMemberId": 1815,
+       "sessionYear": 2021,
+       "shortName": "JORDAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Todd Kaminsky",
+       "imgName": "903_todd_kaminsky.jpg",
+       "incumbent": false,
+       "memberId": 918,
+       "sessionMemberId": 1816,
+       "sessionYear": 2021,
+       "shortName": "KAMINSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 1842,
+       "sessionYear": 2021,
+       "shortName": "TEDISCO"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §606, Tax L",
+    "lawSection": "Tax Law",
+    "memo": "\n \nBILL NUMBER: S620\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the tax law, in relation to providing a tax credit for\nqualified caregiving expenses; and to provide for the repeal of such\nprovisions upon the expiration thereof\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis amends section 606 of the tax law by adding a new section (jjj)\nthat provides a tax credit to qualified caregivers.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 defines taxable year;\n\nSection 2 defines qualified caregiving expense, qualified family member,\nqualified caregiver;\n\nSection 3 establishes taxable year and qualified expense;\n\nSection 4 establishes un-used portion of credit;\n\nSection 5 defines application process and approval;\n\nSection 6 defines aggregate amount of total credit and disbursement;\n\nSection 7 establishes any additional proofs;\n\nSection 8 provides for promulgation of regulations;\n\nSection 9 departmental reporting requirements Effective date.\n\n \nJUSTIFICATION:\n\nA state caregiver tax credit would help more New Yorkers age in their\ncommunities by providing support through badly needed financial relief\nto unpaid family caregivers. While respite is essential to providing\ncaregivers relief from their duties, caregivers also need help with the\nfinancial toll of caring for their loved ones.\n\nCaregiving expenses could include payments made by the caregiver for\ngoods and services such as home health aides, adult day care, personal\ncare attendants, homemaker services, respite care, health care equip-\nment, home modifications, and transportation - all of which help aging\nadults to continue living independently in their home.\n\nThis legislation will provide for a middle class family caregiver tax\ncredit. The tax credit will be claimed by an individual with a gross\nannual income of $75,000 or less and a couple with a gross annual income\nof $150,000 or less. The credit proposed would not exceed $3,500, or\nfifty percent, of the total amount expended. This modest but well-de-\nserved tax break for the middle class would save all New York taxpayers\nmoney in the long run by keeping older adults out of taxpayer-funded\ninstitutions across the state.\n\n \nPRIOR LEGISLATIVE HISTORY:\n2019-2020: S5100 (May) / A7209 (Bronson)\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\n$35 million\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to taxable years\ncommencing on and after January 1, 2022.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S620",
+    "publishDate": "2021-01-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "TAX606"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6932",
+       "basePrintNoStr": "A6932-2021",
+       "printNo": "A6932",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S620",
+ "basePrintNoStr": "S620-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 4,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Budget And Revenue"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Budget And Revenue",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Budget And Revenue",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Budget And Revenue",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2021-02-02T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S5100",
+    "basePrintNoStr": "S5100-2019",
+    "printNo": "S5100",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S620",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-04T16:13:34.205037",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-01-04T16:13:34.205037",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 53,
+   "fullName": "Rachel May",
+   "imgName": "1057_Rachel_May.jpg",
+   "incumbent": true,
+   "memberId": 1237,
+   "sessionMemberId": 1823,
+   "sessionYear": 2021,
+   "shortName": "MAY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Budget And Revenue",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides a tax credit for qualified caregiving expenses.",
+ "title": "Provides a tax credit for qualified caregiving expenses",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S620",
+     "basePrintNoStr": "S620-2021",
+     "printNo": "S620",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Budget And Revenue"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 28,
+         "fullName": "Liz Krueger",
+         "imgName": "401_liz_krueger.jpg",
+         "incumbent": true,
+         "memberId": 401,
+         "sessionMemberId": 1820,
+         "sessionYear": 2021,
+         "shortName": "KRUEGER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 1822,
+         "sessionYear": 2021,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        }
+       ],
+       "size": 6
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 3,
+         "fullName": "Alexis Weik",
+         "imgName": "1310_Alexis_Weik.jpg",
+         "incumbent": true,
+         "memberId": 1493,
+         "sessionMemberId": 1848,
+         "sessionYear": 2021,
+         "shortName": "WEIK"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2021-02-02",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2022
+}

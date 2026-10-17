@@ -1,0 +1,1519 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5374",
+     "basePrintNoStr": "S5374-2021",
+     "printNo": "S5374",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-03-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5374",
+     "basePrintNoStr": "S5374-2021",
+     "printNo": "S5374",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-04",
+    "sequenceNo": 2,
+    "text": "AMEND (T) AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5374",
+     "basePrintNoStr": "S5374-2021",
+     "printNo": "S5374A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-04",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 5374A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5374",
+     "basePrintNoStr": "S5374-2021",
+     "printNo": "S5374A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 4,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5374",
+     "basePrintNoStr": "S5374-2021",
+     "printNo": "S5374A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-01",
+    "sequenceNo": 5,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, the social services law, the state\nfinance law and part H of chapter 59 of the laws of 2011, amending the public\nhealth law and other laws relating to known and projected department of health\nstate fund Medicaid expenditures, in relation to fair pay for home care aides",
+    "basePrintNo": "S5374",
+    "basePrintNoStr": "S5374-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1796,
+       "sessionYear": 2021,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1835,
+       "sessionYear": 2021,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 34
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §3614-f, amd §§3614-d & 3614-c, Pub Health L; add §91-h, St Fin L; amd Part H §92, Chap 59 of 2011",
+    "lawSection": "Public Health Law",
+    "memo": "\n \nBILL NUMBER: S5374\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the public health law, the social services law, the\nstate finance law and part H of chapter 59 of the laws of 2011, amending\nthe public health law and other laws relating to known and projected\ndepartment of health state fund Medicaid expenditures, in relation to\nfair pay for home care aides\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nto establish a base wage for home care workers at 150% of the regional\nminimum wage (whether set by statute or under a wage order).\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nAdds new Public Health Law § 3614-f to require that home care aides be\npaid a minimum of 150% of the regional minimum wage or wage order\ngoverning a particular sector, whichever is higher, and makes additional\nconforming amendments. The determination of regional differences will be\ndetermined by the Department of Health using currently required cost\nreports and updated yearly. The bill establishes the Fair Pay for Home\nCare Fund which will pool revenue from the federal community first\nchoice enhanced rate, Medicaid savings from the decertification of nurs-\ning home beds, unspent capital project moneys, and possible grant or\ngift awards, to subsidize Medicaid payment rates when necessary.\n\nThe bill would require that review of certificate of need applications\nfor new nursing home capacity consider a region's need and capacity to\ndeliver long term care services in the home compared to an institution.\nManaged long term care plans would face greater transparency as to pass-\nthrough of funds intended for home care aide wages to be paid through\nlicensed home care services agencies and fiscal intermediaries.\n\n \nJUSTIFICATION:\n\nNew York has a larger need for home care than ever before and is at the\ncenter of a national home care workforce crisis.  Individuals are going\nwithout services or becoming institutionalized, because there are not\nenough home care workers. Over the next ten years, the Public Health\nInstitute estimates that home care, including consumer directed personal\nassistance, should add more new jobs than any other occupation in the\nState. The consulting firm Mercer estimates that despite this rapid\ngrowth potential, the state will face a shortage of at least 80,000 home\ncare workers by 2025.  The primary reason is that home care aids are\namong the lowest paid workers in the state, averaging just $22,000 annu-\nal earnings. Fifty seven percent of home care workers rely on public\nbenefits to care for their own families.\n\nFair Pay for Home Care will respond to this crisis by providing a\nrespectful wage to these workers. A recent study by the CUNY School of\nLabor and Urban Studies and funded by the NYS Office for the Aging found\nthat if wages were increased at this scale, and funded appropriately,\nthe home care workforce shortage could be solved in less than five\nyears.\n\n\nThe study said the proposal would create almost 18,000 new jobs in local\neconomies through increased spending capacity of these home care work-\ners. The state would see increased sales and income tax collections and\nsavings from public benefits totaling $7.6 billion, putting it on track\nto be one of the most successful economic development programs in the\nstate's history.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nto be determined\n\n \nEFFECTIVE DATE:\nImmediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5374",
+    "publishDate": "2021-03-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH3614-F",
+        "STF91-H"
+       ],
+       "size": 2
+      },
+      "AMEND": {
+       "items": [
+        "PBH3614-C",
+        "PBH3614-D"
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, the state finance law and part H of\nchapter 59 of the laws of 2011, amending the public health law and other laws\nrelating to known and projected department of health state fund Medicaid\nexpenditures, in relation to fair pay for home care aides",
+    "basePrintNo": "S5374",
+    "basePrintNoStr": "S5374-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1796,
+       "sessionYear": 2021,
+       "shortName": "AKSHAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1803,
+       "sessionYear": 2021,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Simcha Felder",
+       "imgName": "439_simcha_felder.jpg",
+       "incumbent": false,
+       "memberId": 439,
+       "sessionMemberId": 1805,
+       "sessionYear": 2021,
+       "shortName": "FELDER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 1812,
+       "sessionYear": 2021,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Daphne Jordan",
+       "imgName": "1055_Daphne_Jordan.jpg",
+       "incumbent": false,
+       "memberId": 1235,
+       "sessionMemberId": 1815,
+       "sessionYear": 2021,
+       "shortName": "JORDAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1817,
+       "sessionYear": 2021,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 1855,
+       "sessionYear": 2021,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 1844,
+       "sessionYear": 2021,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Patty Ritchie",
+       "imgName": "423_patty_ritchie.jpg",
+       "incumbent": false,
+       "memberId": 423,
+       "sessionMemberId": 1831,
+       "sessionYear": 2021,
+       "shortName": "RITCHIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1832,
+       "sessionYear": 2021,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1835,
+       "sessionYear": 2021,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Susan Serino",
+       "imgName": "890_susan_serino.jpg",
+       "incumbent": false,
+       "memberId": 890,
+       "sessionMemberId": 1837,
+       "sessionYear": 2021,
+       "shortName": "SERINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1839,
+       "sessionYear": 2021,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 1842,
+       "sessionYear": 2021,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1843,
+       "sessionYear": 2021,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Alexis Weik",
+       "imgName": "1310_Alexis_Weik.jpg",
+       "incumbent": true,
+       "memberId": 1493,
+       "sessionMemberId": 1848,
+       "sessionYear": 2021,
+       "shortName": "WEIK"
+      }
+     ],
+     "size": 47
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §3614-f, amd §§3614-d & 3614-c, Pub Health L; add §91-h, St Fin L; amd Part H §92, Chap 59 of 2011",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S5374A\n\nSPONSOR: MAY\n \nTITLE OF BILL:\n\nAn act to amend the public health law, the state finance law and part H\nof chapter 59 of the laws of 2011, amending the public health law and\nother laws relating to known and projected department of health state\nfund Medicaid expenditures, in relation to fair pay for home care aides\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nto establish a minimum base wage and provider reimbursement for home\ncare workers at 150% of the regional minimum wage (whether set by stat-\nute or under a wage order).\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nAdds new Public Health Law § 3614-f to require that home care aides be\npaid a minimum of 150% of the regional minimum wage or wage order\ngoverning a particular sector, whichever is higher, and makes additional\nconforming amendments.  Regional minimum hourly base reimbursement rates\nwill be determined by the commissioner of health to include the costs of\novertime, employment taxes, disability insurance, workers compensation,\nand reasonable administrative costs as well as certain capital costs and\nallowable profits and reserves. State directed payments will assure that\nreimbursement passes through to providers.\n\nThe determination of regional differences will be determined by the\nDepartment of Health using currently required cost reports and updated\nyearly. The bill establishes the Fair Pay for Home Care Fund which will\npool revenue from the federal community first choice enhanced rate,\nMedicaid savings from the decertification of nursing home beds, unspent\ncapital project moneys, and possible grant or gift awards, to subsidize\nMedicaid payment rates when necessary.\n\n \nJUSTIFICATION:\n\nNew York has a larger need for home care than ever before and is at the\ncenter of a national home care workforce crisis.  Individuals are going\nwithout services or becoming institutionalized because there are not\nenough home care workers. Over the next ten years, the Public Health\nInstitute estimates that home care, including consumer directed personal\nassistance, should add more new jobs than any other occupation in the\nState. The consulting firm Mercer estimates that despite this rapid\ngrowth potential, the state will face a shortage of at least 80,000 home\ncare workers by 2025.  The primary reason is that home care aids are\namong the lowest paid workers in the state, averaging just $22,000 annu-\nal earnings. Fifty seven percent of home care workers rely on public\nbenefits to care for their own families.\n\nFair Pay for Home Care will respond to this crisis by providing a\nrespectful wage to these workers. A recent study by the CUNY School of\nLabor and Urban Studies and funded by the NYS Office for the Aging found\nthat if wages were increased at this scale, and funded appropriately,\nthe home care workforce shortage could be solved in less than five\nyears.\n\n\nThe study said the proposal would create almost 18,000 new jobs in local\neconomies through increased spending capacity of these home care work-\ners. The state would see increased sales and income tax collections and\nsavings from public benefits totaling $7.6 billion, putting it on track\nto be one of the most successful economic development programs in the\nstate's history.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined\n\n \nEFFECTIVE DATE:\nImmediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5374A",
+    "publishDate": "2022-01-04",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH3614-F",
+        "STF91-H"
+       ],
+       "size": 2
+      },
+      "AMEND": {
+       "items": [
+        "PBH3614-C",
+        "PBH3614-D"
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6329",
+       "basePrintNoStr": "A6329-2021",
+       "printNo": "A6329A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5374",
+ "basePrintNoStr": "S5374-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 4,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-02-01",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2022-02-01T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-03-03T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2022-01-04T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5374A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-03-03T10:01:25.371852",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-01-04T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-03-03T10:01:25.371852",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 53,
+   "fullName": "Rachel May",
+   "imgName": "1057_Rachel_May.jpg",
+   "incumbent": true,
+   "memberId": 1237,
+   "sessionMemberId": 1823,
+   "sessionYear": 2021,
+   "shortName": "MAY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-02-01",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts provisions to provide minimum wages for home care aides; requires at least 150% of minimum wage or other set minimum; directs the commissioner of health to set regional minimum rates of reimbursement for home care aides under medicaid and managed care plans.",
+ "title": "Relates to fair pay for home care aides",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S5374",
+     "basePrintNoStr": "S5374-2021",
+     "printNo": "S5374A",
+     "session": 2021,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Cordell Cleare",
+         "imgName": "Cordell Cleare.jpg",
+         "incumbent": true,
+         "memberId": 1504,
+         "sessionMemberId": 1864,
+         "sessionYear": 2021,
+         "shortName": "CLEARE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 10
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 5
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2022-02-01",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2022
+}

@@ -1,0 +1,350 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A641",
+     "basePrintNoStr": "A641-2021",
+     "printNo": "A641",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A641",
+     "basePrintNoStr": "A641-2021",
+     "printNo": "A641",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HOUSING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A641",
+     "basePrintNoStr": "A641-2021",
+     "printNo": "A641",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-04-12",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO HOUSING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A641",
+     "basePrintNoStr": "A641-2021",
+     "printNo": "A641A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-04-12",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 641A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property law, in relation to violations of certain\nnotice requirements; and to amend the real property tax law, in relation to\nprohibiting landlords from including incorrect information relating to rent\ndecontrol in certain leases and renewals thereof pertaining to units subject\nto the Affordable New York Housing Program",
+    "basePrintNo": "A641",
+    "basePrintNoStr": "A641-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1690,
+       "sessionYear": 2021,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Robert J. Rodriguez",
+       "imgName": "616_robert_j._rodriguez.jpg",
+       "incumbent": false,
+       "memberId": 616,
+       "sessionMemberId": 1735,
+       "sessionYear": 2021,
+       "shortName": "RODRIGUEZ"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §235-i, RP L; amd §421-a, RPT L",
+    "lawSection": "Real Property Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A641",
+    "publishDate": "2020-12-30",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "RPP235-I"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "RPT421-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S76",
+       "basePrintNoStr": "S76-2021",
+       "printNo": "S76",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the real property law, in relation to violations of certain\nnotice requirements; and to amend the real property tax law, in relation to\nprohibiting landlords from including incorrect information relating to rent\ndecontrol in certain leases and renewals thereof and requires the\nstandardization of certain notices pertaining to units subject to the\nAffordable New York Housing Program",
+    "basePrintNo": "A641",
+    "basePrintNoStr": "A641-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1690,
+       "sessionYear": 2021,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Robert J. Rodriguez",
+       "imgName": "616_robert_j._rodriguez.jpg",
+       "incumbent": false,
+       "memberId": 616,
+       "sessionMemberId": 1735,
+       "sessionYear": 2021,
+       "shortName": "RODRIGUEZ"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §235-j, RP L; amd §421-a, RPT L",
+    "lawSection": "Real Property Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A641A",
+    "publishDate": "2022-04-12",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "RPP235-J"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "RPT421-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A641",
+ "basePrintNoStr": "A641-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-04-12",
+    "billCalNo": null,
+    "committeeName": "Housing",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Housing",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Housing",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Housing",
+    "referenceDate": "2022-04-12T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A7990",
+    "basePrintNoStr": "A7990-2019",
+    "printNo": "A7990A",
+    "session": 2019,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A641A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2020-12-30T13:32:09.325124",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-04-12T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2020-12-30T11:08:54.667183",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 67,
+   "fullName": "Linda Rosenthal",
+   "imgName": "520_linda_rosenthal.jpg",
+   "incumbent": true,
+   "memberId": 520,
+   "sessionMemberId": 1736,
+   "sessionYear": 2021,
+   "shortName": "ROSENTHAL L"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-04-12",
+  "billCalNo": null,
+  "committeeName": "Housing",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to certain notice requirements; prohibits landlords from including incorrect information relating to rent decontrol in certain leases and renewals thereof; requires the standardization of certain notices pertaining to units subject to the Affordable New York Housing Program.",
+ "title": "Relates to certain notice requirements; and prohibits landlords from including incorrect information re rent decontrol in certain leases and renewals pertaining to units in the Affordable New York Housing Program",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

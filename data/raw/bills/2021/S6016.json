@@ -1,0 +1,214 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6016",
+     "basePrintNoStr": "S6016-2021",
+     "printNo": "S6016",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-03-29",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6016",
+     "basePrintNoStr": "S6016-2021",
+     "printNo": "S6016",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO ELECTIONS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to requiring the county seat in\nDelaware county to have at least one polling place designated for early voting",
+    "basePrintNo": "S6016",
+    "basePrintNoStr": "S6016-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Fredrick J. Akshar II",
+       "imgName": "735_Fredrick_Akshar.jpg",
+       "incumbent": false,
+       "memberId": 913,
+       "sessionMemberId": 1796,
+       "sessionYear": 2021,
+       "shortName": "AKSHAR"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §8-600, El L",
+    "lawSection": "Election Law",
+    "memo": "\n \nBILL NUMBER: S6016\n\nSPONSOR: MARTUCCI\n \nTITLE OF BILL:\n\nAn act to amend the election law, in relation to requiring the county\nseat in Delaware county to have at least one polling place designated\nfor early voting\n\n \nPURPOSE:\n\nTo ensure that there is an accessible early voting site in Delhi, the\ncounty seat of Delaware County\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 Adds the County Seat in Delaware County to the list of\nlocations required to have an early voting site\n\nSection 2 is the effective date\n\n \nJUSTIFICATION:\n\nCurrent law requires the municipality with the highest population in\neach county to host an early voting site. This requirement is not prac-\ntical in all cases depending on the geographical location of said muni-\ncipality in relation to the remainder of the county. This bill seeks to\nallow an early voting site in Delhi, the county seat in Delaware County\nin order to make it easier for voters to participate in early voting. A\nsimilar exception has been made in Washington County already and for\nsimilar reasons.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill\n\n \nFISCAL IMPLICATIONS:\n\nNone.\n\n \nEFFECTIVE DATE:\nImmediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6016",
+    "publishDate": "2021-03-29",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ELN8-600"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6879",
+       "basePrintNoStr": "A6879-2021",
+       "printNo": "A6879",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6016",
+ "basePrintNoStr": "S6016-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2021-03-29T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6016",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-03-29T12:20:25.757897",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-03-29T12:20:25.757897",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 42,
+   "fullName": "Mike Martucci",
+   "imgName": "1313_Mike_Martucci.jpg",
+   "incumbent": false,
+   "memberId": 1496,
+   "sessionMemberId": 1851,
+   "sessionYear": 2021,
+   "shortName": "MARTUCCI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Elections",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires the county seat in Delaware county (Delhi) to have at least one polling place designated for early voting.",
+ "title": "Authorizes the county seat in Delaware county to have at least one polling place designated for early voting",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

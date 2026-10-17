@@ -1,0 +1,183 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6604",
+     "basePrintNoStr": "S6604-2017",
+     "printNo": "S6604",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2017-06-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6604",
+     "basePrintNoStr": "S6604-2017",
+     "printNo": "S6604",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2018-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO LOCAL GOVERNMENT"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general municipal law, the public authorities law and the tax law, in relation to certain recording taxes",
+    "basePrintNo": "S6604",
+    "basePrintNoStr": "S6604-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §874, Gen Muni L; amd §§1963 & 2326, Pub Auth L; amd §§252 & 253, Tax L",
+    "lawSection": "General Municipal Law",
+    "memo": " BILL NUMBER:  S6604\n\n TITLE OF BILL :\n\nAn act to amend the general municipal law, the public authorities law\nand the tax law, in relation to certain recording taxes\n\n PURPOSE OF THE BILL :\n\nThis bill makes technical corrections to a chapter of the laws of\n2016.\n\n JUSTIFICATION :\n\nThis bill makes technical corrections to a chapter of the laws of 2016\nto clarify that projects should not be subject to the additional tax\nimposed by this chapter on a mortgage of real property, if the purpose\nof recording the mortgage is for such mortgage to act as the priority\nof a real property tax lien. This legislation will clarify that the\nchapter being amended did not result in double taxation.\n\n LEGISLATIVE HISTORY :\n\nNew bill.\n\n FISCAL IMPLICATIONS :\n\nNone.\n\n EFFECTIVE DATE :\nThis act shall take effect on the same date and in the same manner as\nchapter 394 of the laws of 2016 takes effect.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6604",
+    "publishDate": "2017-06-06",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8512",
+       "basePrintNoStr": "A8512-2017",
+       "printNo": "A8512",
+       "session": 2017,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6604",
+ "basePrintNoStr": "S6604-2017",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2018-01-03",
+    "billCalNo": null,
+    "committeeName": "Local Government",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Local Government",
+    "referenceDate": "2018-01-03T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Rules",
+    "referenceDate": "2017-06-06T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6604",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-06-06T22:56:41",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2017-06-06T22:56:41",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": null,
+  "redistricting": false,
+  "rules": true
+ },
+ "status": {
+  "actionDate": "2018-01-03",
+  "billCalNo": null,
+  "committeeName": "Local Government",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Exempts from the mortgage tax, mortgages which secure obligations to make payments in lieu of taxes.",
+ "title": "Exempts from the mortgage tax, mortgages which secure obligations to make payments in lieu of taxes",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2018
+}

@@ -1,0 +1,201 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6349",
+     "basePrintNoStr": "S6349-2021",
+     "printNo": "S6349",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTIONS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6349",
+     "basePrintNoStr": "S6349-2021",
+     "printNo": "S6349",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO ELECTIONS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to requiring the county seat in\nWayne county to have at least one polling place designated for early voting",
+    "basePrintNo": "S6349",
+    "basePrintNoStr": "S6349-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §8-600, El L",
+    "lawSection": "Election Law",
+    "memo": "\n \nBILL NUMBER: S6349\n\nSPONSOR: HELMING\n \nTITLE OF BILL:\n\nAn act to amend the election law, in relation to requiring the county\nseat in Wayne county to have at least one polling place designated for\nearly voting\n\n \nPURPOSE:\n\nRequires the county seat in Wayne County to have at least one polling\nplace designated for early voting.\n\n \nSUMMARY OF PROVISIONS:\n\nSection one of this bill amends paragraph (a) of subdivision 2 of\nsection 8-600 of the Election Law to provide that the county seat of\nWayne County may be a designated as an early polling site for the\npurposes of such law. (Amends Chapter 74 of 2021).\n\nSection two is the effective date.\n\n \nJUSTIFICATION:\n\nChapter 74 of the laws of 2021 requires each county board of elections\nto include at least one early voting site in the municipality with the\nhighest population in such county based on the latest federal decennial\ncensus. Chapter 74 also provides that, to the extent practicable, if\nsuch municipality has public transportation routes, such polling place\nshall be situated along such transportation routes.\n\nIn the case of Wayne County, the Town of Arcadia, which is the largest\nmunicipality in Wayne County, is located in close proximity (less than\n1/10 of a mile) to the county seat, Lyons. The Wayne County seat, Lyons,\nis also served by public transportation routes.  Additionally, having\nthis polling site located in the Wayne County Office Building along with\nthe Board of Elections is both beneficial for voters and instrumental in\nthe efficient use of time, money and resources. Thus, under these\nspecial circumstances, it is appropriate to authorize Wayne County to\ndesignate the county seat, Lyons, as an early voting site in compliance\nwith Chapter 74.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill. (Similar bill has passed the Senate in 2021 - S.1310)\n\n \nFISCAL IMPLICATIONS:\n\nNone to the State.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6349",
+    "publishDate": "2021-04-23",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ELN8-600"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7322",
+       "basePrintNoStr": "A7322-2021",
+       "printNo": "A7322",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6349",
+ "basePrintNoStr": "S6349-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Elections",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2021-04-23T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Elections",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6349",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-04-23T11:25:45.525865",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-04-23T11:25:45.525865",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 54,
+   "fullName": "Pamela Helming",
+   "imgName": "773_Pamela_Helming.jpg",
+   "incumbent": true,
+   "memberId": 951,
+   "sessionMemberId": 1812,
+   "sessionYear": 2021,
+   "shortName": "HELMING"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Elections",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires the county seat in Wayne county to have at least one polling place designated for early voting.",
+ "title": "Requires the county seat in Wayne county to have at least one polling place designated for early voting",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

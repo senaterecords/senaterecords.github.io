@@ -1,0 +1,344 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A8402",
+     "basePrintNoStr": "A8402-2021",
+     "printNo": "A8402",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-10-20",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8402",
+     "basePrintNoStr": "A8402-2021",
+     "printNo": "A8402",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8402",
+     "basePrintNoStr": "A8402-2021",
+     "printNo": "A8402",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-03-10",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8402",
+     "basePrintNoStr": "A8402-2021",
+     "printNo": "A8402A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-03-10",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 8402A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law and the mental hygiene law, in\nrelation to determining the capacity of a defendant to stand trial",
+    "basePrintNo": "A8402",
+    "basePrintNoStr": "A8402-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 56,
+       "fullName": "Stefani Zinerman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1473,
+       "sessionMemberId": 1779,
+       "sessionYear": 2021,
+       "shortName": "ZINERMAN"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§730.10, 730.20, 730.30, 730.40, 730.50, 730.60 & 730.70, CP L; amd §§9.33, 15.33 & 43.03, Ment Hyg L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A8402",
+    "publishDate": "2021-10-20",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CPL730.10",
+        "CPL730.20",
+        "CPL730.30",
+        "CPL730.40",
+        "CPL730.50",
+        "CPL730.60",
+        "CPL730.70",
+        "MHY15.33",
+        "MHY43.03",
+        "MHY9.33"
+       ],
+       "size": 10
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S7461",
+       "basePrintNoStr": "S7461-2021",
+       "printNo": "S7461",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the criminal procedure law and the mental hygiene law, in\nrelation to determining the capacity of a defendant to stand trial",
+    "basePrintNo": "A8402",
+    "basePrintNoStr": "A8402-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 56,
+       "fullName": "Stefani Zinerman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1473,
+       "sessionMemberId": 1779,
+       "sessionYear": 2021,
+       "shortName": "ZINERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 125,
+       "fullName": "Anna Kelles",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1482,
+       "sessionMemberId": 1788,
+       "sessionYear": 2021,
+       "shortName": "KELLES"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§730.10, 730.20, 730.30, 730.40, 730.50, 730.60 & 730.70, CP L; amd §§9.33, 15.33 & 43.03, Ment Hyg L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A8402A",
+    "publishDate": "2022-03-10",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "CPL730.10",
+        "CPL730.20",
+        "CPL730.30",
+        "CPL730.40",
+        "CPL730.50",
+        "CPL730.60",
+        "CPL730.70",
+        "MHY15.33",
+        "MHY43.03",
+        "MHY9.33"
+       ],
+       "size": 10
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S7461",
+       "basePrintNoStr": "S7461-2021",
+       "printNo": "S7461A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A8402",
+ "basePrintNoStr": "A8402-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-03-10",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2021-10-20T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2022-03-10T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A8402A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-10-20T13:19:56.965976",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-03-10T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-10-20T12:15:52.495424",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 100,
+   "fullName": "Aileen Gunther",
+   "imgName": "549_aileen_gunther.jpg",
+   "incumbent": false,
+   "memberId": 549,
+   "sessionMemberId": 1692,
+   "sessionYear": 2021,
+   "shortName": "GUNTHER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-03-10",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for the use of restoration services when determining the capacity of a defendant to stand trial.",
+ "title": "Relates to determining the capacity of a defendant to stand trial",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

@@ -1,0 +1,910 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2543",
+     "basePrintNoStr": "S2543-2021",
+     "printNo": "S2543",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2543",
+     "basePrintNoStr": "S2543-2021",
+     "printNo": "S2543",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-05-11",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2543",
+     "basePrintNoStr": "S2543-2021",
+     "printNo": "S2543",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 3,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2543",
+     "basePrintNoStr": "S2543-2021",
+     "printNo": "S2543",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-11",
+    "sequenceNo": 4,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to payments for personal\nprotective equipment for home and community based long term care services",
+    "basePrintNo": "S2543",
+    "basePrintNoStr": "S2543-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1797,
+       "sessionYear": 2021,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1807,
+       "sessionYear": 2021,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1820,
+       "sessionYear": 2021,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 18
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §3614-f, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S2543\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to payments for\npersonal protective equipment for home and community based long term\ncare services\n\n \nPURPOSE:\n\nAllows for funding paid by the state to Managed Long Term Care Plans\n(MLTCS) to support PPE acquisition for home care workers and personal\nassistants to protect them from COVID-19 and the infection of their\npatients.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 adds a new section 3614-f to provide for funding by MLTCS to\nprovide for the payment to home care agencies and fiscal intermediaries\nfor the purchase of PPE for home health care workers.\n\nSection 2 establishes the effective date.\n\n \nJUSTIFICATION:\n\nHome care workers keep the most vulnerable patients in their homes,\nprotecting them and the public from the spread of COVID-19. In addition,\nas a result of recent Executive Orders hospitals may not discharge\nCOVID-19 positive individuals to nursing homes but may discharge them to\nhome health care. The need for PPE for the protection of home care work-\ners, personal assistants, and home care patients is paramount.\n\nHome care agencies have struggled to find and afford PPE with delays by\nsuppliers, outbidding of orders or government agencies commandeering\nshipments. The increased costs have far exceeded reimbursement rates\npaid by Managed Long Term Care plans to home care agencies.\n\nSince the beginning of the pandemic in New York, a percentage of home\ncare clients have chosen to refuse service, due to increased concerns\nabout exposure to COVID-19. As a result, Managed Long Term Care Plans\n(MLTCs) paid by the state on a per member per month premium have gener-\nated $52 million per month in revenue surpluses that are available for\nthe purchase of PPE. This legislation makes clear that plans (MLTCs) as\nwell as home care agencies have an obligation to assist in the provision\nof PPE by home care agencies to protect home care workers and the\nvulnerable elderly and disabled they care for.\n\nThis legislation requires that funding be passed through to providers of\nhome care and personal assistant services. This funding assistance can\nbe supported in the short term by a redistribution of the underspending\nby MLTCs to fund increased and ongoing PPE needs as a result of the\npandemic.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S8361/A10451 Gottfried\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\nNone.\n\n \nEFFECTIVE DATE:\nThe legislation takes effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2543",
+    "publishDate": "2021-01-21",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH3614-F"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A179",
+       "basePrintNoStr": "A179-2021",
+       "printNo": "A179",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2543",
+ "basePrintNoStr": "S2543-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 16,
+     "year": 2021
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 1,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-11",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2021-05-11T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2022-01-11T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-01-21T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8361",
+    "basePrintNoStr": "S8361-2019",
+    "printNo": "S8361",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S2543",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-21T12:36:46.713034",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-01-21T12:36:46.713034",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 1832,
+   "sessionYear": 2021,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-11",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for insurance reimbursement for expenses related to the provision of personal protective equipment (PPE) for direct care workers, care recipients and an emergency inventory of a ninety-day supply of PPE.",
+ "title": "Relates to payments for personal protective equipment for home and community based long term care services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S2543",
+     "basePrintNoStr": "S2543-2021",
+     "printNo": "S2543",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Brian Benjamin",
+         "imgName": "no_image.jpg",
+         "incumbent": false,
+         "memberId": 1136,
+         "sessionMemberId": 1798,
+         "sessionYear": 2021,
+         "shortName": "BENJAMIN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 11
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 4
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2021-05-11",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S2543",
+     "basePrintNoStr": "S2543-2021",
+     "printNo": "S2543",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 10
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 4
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2022-01-11",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2022
+}

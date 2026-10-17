@@ -1,0 +1,183 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A9092",
+     "basePrintNoStr": "A9092-2021",
+     "printNo": "A9092",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-31",
+    "sequenceNo": 1,
+    "text": "REFERRED TO GOVERNMENTAL OPERATIONS"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the urban development corporation act, the state finance law,\nthe general municipal law and the economic development law, in relation to\nprohibiting confidentiality and non-disclosure provisions from inclusion in\ncertain contracts entered into by the state or a municipality",
+    "basePrintNo": "A9092",
+    "basePrintNoStr": "A9092-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §11-a, UDC Act; add §148, St Fin L; add §99-x, Gen Muni L; add §107, Ec Dev L",
+    "lawSection": "New York State Urban Development Corporation Act",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A9092",
+    "publishDate": "2022-01-31",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S1196",
+       "basePrintNoStr": "S1196-2021",
+       "printNo": "S1196",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A9092",
+ "basePrintNoStr": "A9092-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-31",
+    "billCalNo": null,
+    "committeeName": "Governmental Operations",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Governmental Operations",
+    "referenceDate": "2022-01-31T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S3402",
+    "basePrintNoStr": "S3402-2019",
+    "printNo": "S3402",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A9092",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2022-01-31T10:33:07.885137",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2022-01-31T09:53:51.037066",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 22,
+   "fullName": "Michaelle C. Solages",
+   "imgName": "673_michaelle_c._solages.jpg",
+   "incumbent": true,
+   "memberId": 673,
+   "sessionMemberId": 1747,
+   "sessionYear": 2021,
+   "shortName": "SOLAGES"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-31",
+  "billCalNo": null,
+  "committeeName": "Governmental Operations",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Prohibits confidentiality and non-disclosure provisions from inclusion in contracts pertaining to economic development, entered into by the state or a municipality.",
+ "title": "Prohibits confidentiality and non-disclosure provisions from inclusion in certain contracts entered into by the state or a municipality",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

@@ -1,0 +1,1675 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2992",
+     "basePrintNoStr": "S2992-2019",
+     "printNo": "S2992",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-31",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2992",
+     "basePrintNoStr": "S2992-2019",
+     "printNo": "S2992",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-16",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2992",
+     "basePrintNoStr": "S2992-2019",
+     "printNo": "S2992A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-16",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 2992A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2992",
+     "basePrintNoStr": "S2992-2019",
+     "printNo": "S2992A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-17",
+    "sequenceNo": 4,
+    "text": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2992",
+     "basePrintNoStr": "S2992-2019",
+     "printNo": "S2992B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2019-06-17",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 2992B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2992",
+     "basePrintNoStr": "S2992-2019",
+     "printNo": "S2992B",
+     "session": 2019,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 6,
+    "text": "REFERRED TO ENVIRONMENTAL CONSERVATION"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the environmental conservation law, the public service law,\nthe public authorities law, the labor law and the community risk and\nresiliency act, in relation to establishing the New York state climate and\ncommunity protection act",
+    "basePrintNo": "S2992",
+    "basePrintNoStr": "S2992-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1198,
+       "sessionYear": 2019,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1220,
+       "sessionYear": 2019,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Jen Metzger",
+       "imgName": "1054_Jen_Metzger.jpg",
+       "incumbent": false,
+       "memberId": 1234,
+       "sessionMemberId": 1232,
+       "sessionYear": 2019,
+       "shortName": "METZGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 36
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 75 §§75-0101 - 75-0115, amd §54-1523, En Con L; add §66-p, Pub Serv L; amd §§1005 & 1020-s, ren §§1020-kk, 1020-ll & 1020-ll to be §§1020-xx, 1020-yy & 1020-zz, add §1020-kk, Pub Auth L; add Art 8-B §228, Lab L; add §§17-a & 17-b, Chap 355 of 2014",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "\n \nBILL NUMBER: S2992\n\nSPONSOR: KAMINSKY\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, the public service\nlaw, the public authorities law, the labor law and the community risk\nand resiliency act, in relation to establishing the New York state\nclimate and community protection act\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to enact the \"New York State Climate and\nCommunity Protection Act\" to address and mitigate the impacts of climate\nchange in New York.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nThis bill would:\n\n*define relevant terms;\n\n*establish the \"New York State Climate Action Council\" (the Council)\nconsisting of 25 members including state agencies and individuals with\nexpertise in environmental issues, environmental justice, labor, and\nregulated industries;\n\n*require the Department of Environmental Conservation (DEC) to estab-\nlish:\n\n*greenhouse gas reporting requirements;\n\n*statewide greenhouse gas emissions limits;\n\n*a scoping plan, developed in consultation with the Council, the Envi-\nronmental Justice Advisory Group (established in A.1564, sponsored by M.\nof A. Peoples-Stokes), the Disadvantaged Communities Working Group and\nother stakeholders, outlining DEC's recommendations for attaining the\nstatewide greenhouse gas emissions limits;\n\n*regulations to achieve statewide greenhouse gas emissions reductions;\n\n*a report, not less than every four years, including recommendations\nregarding the implementation of greenhouse gas reduction measures;\n\n*a report on barriers to, and opportunities for, community ownership of\nservices and commodities in disadvantaged communities, including\ndistributed renewable energy generation; energy efficiency and weatheri-\nzation investments; and, zero emission and low-emission transportation\noptions; and,\n\n*take actions to promote adaptation and resilience;\n\n*establish a Climate Change Working Group consisting of representatives\nfrom environmental justice communities, DEC, and the Departments of\nHealth and Labor to:\n\n\n\n*identify disadvantaged communities for the purposes of co-pollutant and\ngreenhouse gas emissions reductions and the allocation of certain\ninvestments; and,\n\n*advise DEC on the promulgation of certain reports and regulations;\n\n*require state agencies to assess and implement strategies to reduce\ntheir greenhouse gas emissions and, when issuing permits, licenses or\nother administrative approvals and decisions, to consider whether such\ndecisions would be inconsistent with the attainment of the statewide\ngreenhouse gas emission limits;\n\n*authorize monies from the Environmental Protection Fund to be used to\nestablish and implement easily-replicated' renewable energy projects,\nincluding solar arrays, heat pumps and wind turbines in public low-in-\ncome housing in suburban, urban and rural areas;\n\n*provide a definition of \"renewable energy systems\" to mean systems that\ngenerate electricity or thermal energy through the use of the following\ntechnologies: solar thermal, photovoltaics, wind, hydroelectric, geoth-\nermal electric, geothermal ground source heat, tidal energy, wave ener-\ngy, ocean thermal, offshore wind and fuel cells which do not utilize a\nfossil fuel resource in the process of generating electricity;\n\n*require that fifty percent of the electric generation secured by load\nserving entities regulated by the Public Service Commission (PSC); the\nPower Authority of the State of New York (PASNY); and the Long Island\nPower Authority (LIPA) be produced by renewable energy systems by 2030;\n\n*require that all projects contracted pursuant to this act that either\nreceive financial assistance of more than $100,000 or have a total value\nof more than $10 million pay to building service workers and\nconstruction workers the prevailing wage rate of the locality in which\nthe project is located. These projects must also include in their\ncontracts with contractors language requiring labor harmony policies,\ndispute resolution mechanisms, prevailing wage compliance, safety poli-\ncies, workers' compensation insurance, and apprenticeship program utili-\nzation; and,\n\n*provide that contracts by recipients of financial assistance pertaining\nto prevailing wage are to be considered for the benefit of the applica-\nble workers, and these workers have a right to maintain an action in\ncourt if they are paid less than prevailing wage.\n\n \nJUSTIFICATION:\n\nClimate change is adversely affecting economic well-being, public\nhealth, natural resources, and the environment of New York. Climate\nchange especially heightens the vulnerability of disadvantaged communi-\nties, which bear environmental and socioeconomic burdens. The severity\nof current climate change and the threat of additional and more severe\nchange will be affected by the actions undertaken by New York and other\njurisdictions to reduce greenhouse gas emissions.  According to the U.S.\nGlobal Change Research Program (USGCRP) and the Intergovernmental Panel\non Climate Change, substantial reductions in greenhouse gas emissions\nwill be required by mid-century in order to limit global warming. Action\nundertaken by New York to reduce greenhouse emissions will have an\nimpact on global greenhouse gas emissions and the rate of climate\nchange. In addition, such action will encourage other jurisdictions to\nimplement complementary greenhouse gas reduction strategies and provide\nan example of how such strategies can be implemented. It will also\nadvance the development of green technologies and sustainable practices\nwithin the private sector, which can have far-reaching impacts such as a\nreduction in the cost of renewable energy components, and the creation\nof jobs and tax revenues in New York.\n\nThis bill will:\n\n*help put New York on track to minimize the adverse impacts of climate\nchange through a combination of measures to reduce statewide greenhouse\ngas emissions and improve the resiliency of the state with respect to\nthe impacts and risks of climate change that cannot be avoided;\n\n*shape the ongoing transition in the State's energy sector to ensure\nthat it creates good jobs and protects workers and communities that may\nlose employment in the current transition. Setting clear standards for\njob quality and training standards encourages not only high-quality work\nbut positive economic impacts;\n\n*prioritize the safety and health of disadvantaged communities, control\npotential regressive impacts of future climate change mitigation and\nadaptation policies on these communities; and,\n\n*review and prioritize the allocation of certain public investments.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2016: A.10342 (Englebright) - Passed the Assembly.\n2017-18: A.8270-8 (Englebright) - Passed the Assembly.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the same date and in the same manner as a\nchapter of the laws of 2019, in relation to establishing a permanent\nenvironmental justice advisory group as proposed in legislative bills\nnumbers A.1564, provided further that the provisions of section seven\nshall take effect on the 180th day after it shall have become law and\nshall apply to any grants, loans, and contracts and financial assistance\nawarded or renewed on or after such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2992",
+    "publishDate": "2019-01-31",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3876",
+       "basePrintNoStr": "A3876-2019",
+       "printNo": "A3876",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": true,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the environmental conservation law, the public service law,\nthe public authorities law, the labor law and the community risk and\nresiliency act, in relation to establishing the New York state climate and\ncommunity protection act",
+    "basePrintNo": "S2992",
+    "basePrintNoStr": "S2992-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1198,
+       "sessionYear": 2019,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1220,
+       "sessionYear": 2019,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Jen Metzger",
+       "imgName": "1054_Jen_Metzger.jpg",
+       "incumbent": false,
+       "memberId": 1234,
+       "sessionMemberId": 1232,
+       "sessionYear": 2019,
+       "shortName": "METZGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 36
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 75 §§75-0101 - 75-0119, amd §54-1523, En Con L; add §66-p, Pub Serv L; amd §§1005 & 1020-s, ren §§1020-kk, 1020-ll & 1020-ll to be §§1020-xx, 1020-yy & 1020-zz, add §1020-kk, Pub Auth L; add Art 8-B §228, Lab L; add §§17-a & 17-b, Chap 355 of 2014",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "\n \nBILL NUMBER: S2992A\n\nSPONSOR: KAMINSKY\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, the public service\nlaw, the public authorities law, the labor law and the community risk\nand resiliency act, in relation to establishing the New York state\nclimate and community protection act\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to enact the \"Climate Leadership and Commu-\nnity Protection Act\" to address and mitigate the impacts of climate\nchange in New York.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of this bill are the legislative findings.\n\nSection 2:\n\n§ 75-0101 - defines relevant terms;\n\n§ 75-0103 - establishes the 'New York State Climate Action Council\"\n\n(the Council) consisting of 22 members including state agencies and\nindividuals with expertise in environmental issues, environmental\njustice, labor, and regulated industries;\n\n§ 75-0105 - requires the Department of Environmental Conservation (DEC)\nto report greenhouse gas emissions:\n\n§ 75-0107 - requires the DEC to establish statewide greenhouse gas emis-\nsions limits;\n\n§ 75-0109 - requires the DEC to promulgate rules and regulations to\nensure compliance with statewide emissions reduction limits a scoping\nplan, developed in consultation with the Council, the Environmental\nJustice Advisory Group (established pursuant to § 75-0111 of this arti-\ncle), the Disadvantaged Communities Working Group and other stakehold-\ners, outlining DEC's recommendations for attaining the statewide green-\nhouse gas emissions limits;\n\n§ 75-0111 - establish a Climate Change Working Group consisting of\nrepresentatives from environmental justice communities, DEC, and the\nDepartments of Health and Labor to:\n\n* identify disadvantaged communities for the purposes of co-pollutant\nand greenhouse gas emissions reductions and the allocation of certain\ninvestments; and,\n\n* advise DEC on the promulgation of certain reports and regulations;\n\n* require state agencies to assess and implement strategies to reduce\ntheir greenhouse gas emissions and, when issuing permits, licenses or\nother administrative approvals and decisions, to consider whether such\ndecisions would be inconsistent with the attainment of the statewide\ngreenhouse gas emission limits;\n§ 75-0113 - consult with the New York State Energy Research and Develop-\nment Authority (NYSERDA) to establish a social cost of carbon expressed\nin dollars per ton of carbon dioxide equivalent.\n\n§ 75-01115 - define and establish a Community Air Monitoring Program to\nidentify the highest priority locations of disadvantaged communities and\ndevelop a strategy to reduce emissions of contaminants in disadvantaged\ncommunities\n\n§ 75-0117 - establishes a mechanism for investment of funds.\n\n§ 75-0119 - require implementation reporting no less than every four\nyears, including recommendations regarding the implementation of green-\nhouse gas reduction measures.\n\n \nSECTION 3:\n\nAuthorizes monies from the Environmental Protection Fund to be used to\nestablish and implement easily-replicated renewable energy projects,\nincluding solar arrays, heat pumps and wind turbines in public low-in-\ncome housing in suburban, urban and rural areas;\n\n \nSECTION 4:\n\n§ 66-p(1) provides a definition of \"renewable energy systems\" to mean\nsystems that generate electricity or thermal energy through the use of\nthe following technologies: solar thermal, photovoltaics, wind, hydro-\nelectric, geothermal electric, geothermal ground source heat, tidal\nenergy, wave energy, ocean thermal, offshore wind and fuel cells which\ndo not utilize a fossil fuel resource in the process of generating elec-\ntricity;\n\n§ 66-p(2) requires that seventy percent of the electric generation\nsecured by load serving entities be produced by renewable energy systems\nby 2030 with minimum percentage levels of 38% by 2022, 46% by 2024, 54%\nby 2026, 62% by 2028, and 70% by 2030;\n\n§ 66-p(3) requires the commission to issue a review of the program to\ndetermine progress in the overall and incremental targets, distribution\nof systems by size and load zone, and annual funding commitments and\nexpenditures.\n\n§ 66-p(4) authorizes the commission to temporarily suspend of modify the\nobligations under the program as long as the commission makes a finding\nthat the program impedes the safe and adequate service of electricity,\nor that there is a significant increase in arrears or service discon-\nnections.\n\n§ 66-p(5) requires that all projects contracted pursuant to this act pay\nto laborers, workers, or mechanics construction workers the prevailing\nwage rate of the locality in which the project is located.  These\nprojects must also include in their contracts with contractors language\nrequiring labor harmony policies, dispute resolution mechanisms,\nprevailing wage compliance, safety policies, workers' compensation\ninsurance, and apprenticeship program utilization; and,\n\n \nSECTION 5:\n\nAdds a section to require the authority to secure energy to serve the\nelectrical energy requirements in § 1005 of the public authorities law\n\n \nSECTION 6:\n\nDoes the same as section 5 except to § 1020-kk of public authorities\nlaw, and moves other sections accordingly.\n\n \nSECTION 6-A:\n\nAdds (f) to § 1020-s(1) of public authorities law that applies § 66-p of\npublic service law to public authorities law.\n\n \nSECTION 7:\n\nAdds new article 8-B to Labor law, which adds § 228 to apply labor and\njob standards protection\n\n \nSECTION 8:\n\nRequires a report on barriers to and opportunities for community owner-\nship of services for disadvantaged communities within 2 years of the\neffective date.\n\n \nSECTION 9:\n\nRequires state agencies to assess and implement strategies to reduce\ngreenhouse gas emissions.\n\n \nSECTION 10:\n\nAuthorizes the Public Service Commission (PSC), NYSERDA, DOH, DOT, DOS,\nDED, DOA, DFS, OGS, and public utilities authorities to promulgate rules\nto contribute to greenhouse gas emissions standards.\n\n \nSECTION 11:\n\nAdds two sections to the Chapter 355 of the laws of 2014 to require the\nDEC to promote resiliency and require applicants for permits to demon-\nstrate that future physical climate risk has been considered.\n\n \nSECTION 12:\n\nDoes not limit other authorities to adopt greenhouse gas emissions\nreduction measures.\n\n \nSECTION 13:\n\nDoes not absolve any person, entity, or public agency of compliance with\nother laws.\n\n \nSECTION 14:\n\nIssues the review of the act under Article 78 of the civil practice law\nand rules.\n\n \nSECTION 15:\n\nseverability\n\n \nSECTION 16\n\nis the effective date.\n\n \nJUSTIFICATION:\n\nClimate change is adversely affecting economic well-being, public\nhealth, natural resources, and the environment of New York. Climate\nchange especially heightens the vulnerability of disadvantaged communi-\nties, which bear environmental and socioeconomic burdens. The severity\nof current climate change and the threat of additional and more severe\nchange will be affected by the actions undertaken by New York and other\njurisdictions to reduce greenhouse gas emissions.  According to the U.S.\nGlobal Change Research Program (USGCRP) and the Intergovernmental Panel\non Climate Change, substantial reductions in greenhouse gas emissions\nwill be required by mid-century in order to limit global warming. Action\nundertaken by New York to reduce greenhouse emissions will have an\nimpact on global greenhouse gas emissions and the rate of climate\nchange. In addition, such action will encourage other jurisdictions to\nimplement complementary greenhouse gas reduction strategies and provide\nan example of how such strategies can be implemented. It will also\nadvance the development of green technologies and sustainable practices\nwithin the private sector, which can have far-reaching impacts such as a\nreduction in the cost of renewable energy components, and the creation\nof jobs and tax revenues in New York.\n\nThis bill will:\n\n* help put New York on track to minimize the adverse impacts of climate\nchange through a combination of measures to reduce statewide greenhouse\ngas emissions and improve the resiliency of the state with respect to\nthe impacts and risks of climate change that cannot be avoided;\n\n* shape the ongoing transition in the State's energy sector to ensure\nthat it creates good jobs and protects workers and communities that may\nlose employment in the current transition. Setting clear standards for\njob quality and training standards encourages not only high-quality work\nbut positive economic impacts;\n\n* prioritize the safety and health of disadvantaged communities, control\npotential regressive impacts of future climate change mitigation and\nadaptation policies on these communities; and,\n\n* review and prioritize the allocation of certain public investments.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2018: A8270B/S7971 (Englebright) - Passed Assembly\n\n2017: A8270A (Englebright) - Passed Assembly\n\n2016: A10342 (Englebright) - Passed Assembly\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n \nEFFECTIVE DATE:\nThis act shall take effect on the same date and in the same manner as a\nchapter of the laws of 2019, in relation to establishing a permanent\nenvironmental justice advisory group as proposed in legislative bills\nnumbers A.1564 and 5.2385, provided further that the provisions of\nsection seven shall take effect on the 180th day after it shall have\nbecome law and shall apply to any grants, loans, and contracts and\nfinancial assistance awarded or renewed on or after such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2992A",
+    "publishDate": "2019-06-16",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3876",
+       "basePrintNoStr": "A3876-2019",
+       "printNo": "A3876A",
+       "session": 2019,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": true,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the environmental conservation law, the public service law,\nthe public authorities law, the labor law and the community risk and\nresiliency act, in relation to establishing the New York state climate\nleadership and community protection act",
+    "basePrintNo": "S2992",
+    "basePrintNoStr": "S2992-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "John E. Brooks",
+       "imgName": "923_John_Brooks.jpg",
+       "incumbent": false,
+       "memberId": 1101,
+       "sessionMemberId": 1198,
+       "sessionYear": 2019,
+       "shortName": "BROOKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "David Carlucci",
+       "imgName": "370_david_carlucci.jpg",
+       "incumbent": false,
+       "memberId": 370,
+       "sessionMemberId": 1191,
+       "sessionYear": 2019,
+       "shortName": "CARLUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Jim Gaughran",
+       "imgName": "1042_Jim_Gaughran.jpg",
+       "incumbent": false,
+       "memberId": 1222,
+       "sessionMemberId": 1220,
+       "sessionYear": 2019,
+       "shortName": "GAUGHRAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1231,
+       "sessionYear": 2019,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Anna Kaplan",
+       "imgName": "1044_Anna_Kaplan.jpg",
+       "incumbent": false,
+       "memberId": 1224,
+       "sessionMemberId": 1222,
+       "sessionYear": 2019,
+       "shortName": "KAPLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1205,
+       "sessionYear": 2019,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 1206,
+       "sessionYear": 2019,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1219,
+       "sessionYear": 2019,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1235,
+       "sessionYear": 2019,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Jen Metzger",
+       "imgName": "1054_Jen_Metzger.jpg",
+       "incumbent": false,
+       "memberId": 1234,
+       "sessionMemberId": 1232,
+       "sessionYear": 2019,
+       "shortName": "METZGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 1230,
+       "sessionYear": 2019,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 1221,
+       "sessionYear": 2019,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 36
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 75 §§75-0101 - 75-0119, amd §54-1523, En Con L; add §66-p, Pub Serv L; add §§17-a & 17-b, Chap 355 of 2014",
+    "lawSection": "Environmental Conservation Law",
+    "memo": "\n \nBILL NUMBER: S2992B\n\nSPONSOR: KAMINSKY\n \nTITLE OF BILL:\n\nAn act to amend the environmental conservation law, the public service\nlaw, the public authorities law, the labor law and the community risk\nand resiliency act, in relation to establishing the New York state\nclimate leadership and community protection act\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to enact the \"Climate Leadership and Commu-\nnity Protection Act\" to address and mitigate the impacts of climate\nchange in New York.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of this bill are the legislative findings.\n\nSection 2:\n\n§ 75-0101 - defines relevant terms;\n\n§ 75-0103 - establishes the 'New York State Climate Action Council\" (the\nCouncil) consisting of 22 members including state agencies and individ-\nuals with expertise in environmental issues, environmental justice,\nlabor, and regulated industries;\n\n§ 75-0105 - requires the Department of Environmental Conservation (DEC)\nto report greenhouse gas emissions:\n\n§ 75-0107 - requires the DEC to establish statewide greenhouse gas emis-\nsions limits;\n\n§ 75-0109 - requires the DEC to promulgate rules and regulations to\nensure compliance with statewide emissions reduction limits a scoping\nplan, developed in consultation with the Council, the Environmental\nJustice Advisory Group (established pursuant to § 75-0111 of this arti-\ncle), the Disadvantaged Communities Working Group and other stakehold-\ners, outlining DEC's recommendations for attaining the statewide green-\nhouse gas emissions limits;\n\n§ 75-0111 - establish a Climate Change Working Group consisting of\nrepresentatives from environmental justice communities, DEC, and the\nDepartments of Health and Labor to:\n\n* identify disadvantaged communities for the purposes of co-pollutant\nand greenhouse gas emissions reductions and the allocation of certain\ninvestments; and,\n\n* advise DEC on the promulgation of certain reports and regulations;\n\n* require state agencies to assess and implement strategies to reduce\ntheir greenhouse gas emissions and, when issuing permits, licenses or\nother administrative approvals and decisions, to consider whether such\ndecisions would be inconsistent with the attainment of the statewide\ngreenhouse gas emission limits;\n\n§ 75-0113 - consult with the New York State Energy Research and Develop-\nment Authority (NYSERDA) to establish a social cost of carbon expressed\nin dollars per ton of carbon dioxide equivalent.\n\n§ 75-01115 - define and establish a Community Air Monitoring Program to\nidentify the highest priority locations of disadvantaged communities and\ndevelop a strategy to reduce emissions of contaminants in disadvantaged\ncommunities\n\n§ 75-0117 - establishes a mechanism for investment of funds.\n\n§ 75-0119 - require implementation reporting no less than every four\nyears, including recommendations regarding the implementation of green-\nhouse gas reduction measures.\n\n \nSECTION 3:\n\nAuthorizes monies from the Environmental Protection Fund to be used to\nestablish and implement easily-replicated renewable energy projects,\nincluding solar arrays, heat pumps and wind turbines in public low-in-\ncome housing in suburban, urban and rural areas;\n\n \nSECTION 4:\n\n§ 66-p(1) provides a definition of \"renewable energy systems\" to mean\nsystems that generate electricity or thermal energy through the use of\nthe following technologies: solar thermal, photovoltaics, wind, hydro-\nelectric, geothermal electric, geothermal ground source heat, tidal\nenergy, wave energy, ocean thermal, offshore wind and fuel cells which\ndo not utilize a fossil fuel resource in the process of generating elec-\ntricity;\n\n§ 66-p(2) requires that seventy percent of the electric generation\nsecured by load serving entities be produced by renewable energy systems\nby 2030 with minimum percentage levels of 38% by 2022, 46% by 2024, 54%\nby 2026, 62% by 2028, and 70% by 2030;\n\n§ 66-p(3) requires the commission to issue a review of the program to\ndetermine progress in the overall and incremental targets, distribution\nof systems by size and load zone, and annual funding commitments and\nexpenditures.\n\n§ 66-p(4) authorizes the commission to temporarily suspend of modify the\nobligations under the program as long as the commission makes a finding\nthat the program impedes the safe and adequate service of electricity,\nor that there is a significant increase in arrears or service discon-\nnections.\n\n§ 66-p(5) requires that all projects contracted pursuant to this act pay\nto laborers, workers, or mechanics construction workers the prevailing\nwage rate of the locality in which the project is located.  These\nprojects must also include in their contracts with contractors language\nrequiring labor harmony policies, dispute resolution mechanisms,\nprevailing wage compliance, safety policies, workers' compensation\ninsurance, and apprenticeship program utilization; and,\n\n \nSECTION 5:\n\nAdds a section to require the authority to secure energy to serve the\nelectrical energy requirements in § 1005 of the public authorities law\n\n \nSECTION 6:\n\nDoes the same as section 5 except to § 1020-kk of public authorities\nlaw, and moves other sections accordingly.\n\n \nSECTION 6-A:\n\nAdds (f) to § 1020-s(1) of public authorities law that applies § 66-p of\npublic service law to public authorities law.\n\n \nSECTION 7:\n\nAdds new article 8-B to Labor law, which adds § 228 to apply labor and\njob standards protection\n\n \nSECTION 8:\n\nRequires a report on barriers to and opportunities for community owner-\nship of services for disadvantaged communities within 2 years of the\neffective date.\n\n \nSECTION 9:\n\nRequires state agencies to assess and implement strategies to reduce\ngreenhouse gas emissions.\n\n \nSECTION 10:\n\nAuthorizes the Public Service Commission (PSC), NYSERDA, DOH, DOT, DOS,\nDED, DOA, DFS, OGS, and public utilities authorities to promulgate rules\nto contribute to greenhouse gas emissions standards.\n\n \nSECTION 11:\n\nAdds two sections to the Chapter 355 of the laws of 2014 to require the\nDEC to promote resiliency and require applicants for permits to demon-\nstrate that future physical climate risk has been considered.\n\n \nSECTION 12:\n\nDoes not limit other authorities to adopt greenhouse gas emissions\nreduction measures.\n\n \nSECTION 13:\n\nDoes not absolve any person, entity, or public agency of compliance with\nother laws.\n\n \nSECTION 14:\n\nIssues the review of the act under Article 78 of the civil practice law\nand rules.\n\n \nSECTION 15:\n\nseverability\n\n \nSECTION 16\n\nis the effective date.\n\n \nJUSTIFICATION:\n\nClimate change is adversely affecting economic well-being, public\nhealth, natural resources, and the environment of New York. Climate\nchange especially heightens the vulnerability of disadvantaged communi-\nties, which bear environmental and socioeconomic burdens. The severity\nof current climate change and the threat of additional and more severe\nchange will be affected by the actions undertaken by New York and other\njurisdictions to reduce greenhouse gas emissions.  According to the U.S.\nGlobal Change Research Program (USGCRP) and the Intergovernmental Panel\non Climate Change, substantial reductions in greenhouse gas emissions\nwill be required by mid-century in order to limit global warming. Action\nundertaken by New York to reduce greenhouse emissions will have an\nimpact on global greenhouse gas emissions and the rate of climate\nchange. In addition, such action will encourage other jurisdictions to\nimplement complementary greenhouse gas reduction strategies and provide\nan example of how such strategies can be implemented. It will also\nadvance the development of green technologies and sustainable practices\nwithin the private sector, which can have far-reaching impacts such as a\nreduction in the cost of renewable energy components, and the creation\nof jobs and tax revenues in New York.\n\nThis bill will:\n\n* help put New York on track to minimize the adverse impacts of climate\nchange through a combination of measures to reduce statewide greenhouse\ngas emissions and improve the resiliency of the state with respect to\nthe impacts and risks of climate change that cannot be avoided;\n\n* shape the ongoing transition in the State's energy sector to ensure\nthat it creates good jobs and protects workers and communities that may\nlose employment in the current transition. Setting clear standards for\njob quality and training standards encourages not only high-quality work\nbut positive economic impacts;\n\n* prioritize the safety and health of disadvantaged communities, control\npotential regressive impacts of future climate change mitigation and\nadaptation policies on these communities; and,\n\n*review and prioritize the allocation of certain public investments.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2018: A8270B/S7971 (Englebright) - Passed Assembly\n\n2017: A8270A (Englebright) - Passed Assembly\n\n2016: A10342 (Englebright) - Passed Assembly\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n \nEFFECTIVE DATE:\nThis act shall take effect on the same date and in the same manner as a\nchapter of the laws of 2019, in relation to establishing a permanent\nenvironmental justice advisory group as proposed in legislative bills\nnumbers A.1564 and 5.2385, provided further that the provisions of\nsection seven shall take effect on the 180th day after it shall have\nbecome law and shall apply to any grants, loans, and contracts and\nfinancial assistance awarded or renewed on or after such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2992B",
+    "publishDate": "2019-06-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3876",
+       "basePrintNoStr": "A3876-2019",
+       "printNo": "A3876B",
+       "session": 2019,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2992",
+ "basePrintNoStr": "S2992-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-01-08",
+    "billCalNo": null,
+    "committeeName": "Environmental Conservation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2019-01-31T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2019-06-16T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2019-06-17T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Environmental Conservation",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A8270",
+    "basePrintNoStr": "A8270-2017",
+    "printNo": "A8270B",
+    "session": 2017,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S7971",
+    "basePrintNoStr": "S7971-2017",
+    "printNo": "S7971A",
+    "session": 2017,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A10342",
+    "basePrintNoStr": "A10342-2015",
+    "printNo": "A10342",
+    "session": 2015,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S2992B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-31T13:56:58.411433",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-06-16T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2019-06-17T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2019-01-31T13:56:58.411433",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 9,
+   "fullName": "Todd Kaminsky",
+   "imgName": "903_todd_kaminsky.jpg",
+   "incumbent": false,
+   "memberId": 918,
+   "sessionMemberId": 1204,
+   "sessionYear": 2019,
+   "shortName": "KAMINSKY"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-01-08",
+  "billCalNo": null,
+  "committeeName": "Environmental Conservation",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts the New York state climate leadership and community protection act; relates to climate change; renewable energy program; labor and job standards and worker protection.",
+ "title": "Relates to the New York state climate leadership and community protection act",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

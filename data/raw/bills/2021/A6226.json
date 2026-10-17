@@ -1,0 +1,414 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A6226",
+     "basePrintNoStr": "A6226-2021",
+     "printNo": "A6226",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-03-10",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6226",
+     "basePrintNoStr": "A6226-2021",
+     "printNo": "A6226",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6226",
+     "basePrintNoStr": "A6226-2021",
+     "printNo": "A6226",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-02-01",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO CONSUMER AFFAIRS AND PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6226",
+     "basePrintNoStr": "A6226-2021",
+     "printNo": "A6226A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-02-01",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 6226A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6226",
+     "basePrintNoStr": "A6226-2021",
+     "printNo": "A6226A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-02-28",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO CONSUMER AFFAIRS AND PROTECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6226",
+     "basePrintNoStr": "A6226-2021",
+     "printNo": "A6226B",
+     "session": 2021,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-02-28",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 6226B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general business law and the civil practice law and rules,\nin relation to protecting private education loan borrowers and cosigners",
+    "basePrintNo": "A6226",
+    "basePrintNoStr": "A6226-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 42 §§1100 - 1109, Gen Bus L; amd §§105 & 3213, add §3012-c, CPLR",
+    "lawSection": "General Business Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A6226",
+    "publishDate": "2021-03-10",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "CVP3012-C",
+        "GBSA42"
+       ],
+       "size": 2
+      },
+      "AMEND": {
+       "items": [
+        "CVP105",
+        "CVP3213"
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the general business law and the civil practice law and rules,\nin relation to protecting private education loan borrowers and cosigners",
+    "basePrintNo": "A6226",
+    "basePrintNoStr": "A6226-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1744,
+       "sessionYear": 2021,
+       "shortName": "SIMON"
+      }
+     ],
+     "size": 1
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 42 §§1100 - 1109, Gen Bus L; add §3012-c, CPLR",
+    "lawSection": "General Business Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A6226A",
+    "publishDate": "2022-02-01",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "CVP3012-C",
+        "GBSA42"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the general business law and the civil practice law and rules,\nin relation to protecting private education loan borrowers and cosigners",
+    "basePrintNo": "A6226",
+    "basePrintNoStr": "A6226-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1744,
+       "sessionYear": 2021,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Phara Souffrant Forrest",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1474,
+       "sessionMemberId": 1861,
+       "sessionYear": 2021,
+       "shortName": "FORREST"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 42 §§1100 - 1109, Gen Bus L; amd §§105 & 3213, add §3012-c, CPLR",
+    "lawSection": "General Business Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A6226B",
+    "publishDate": "2022-02-28",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "CVP3012-C",
+        "GBSA42"
+       ],
+       "size": 2
+      },
+      "AMEND": {
+       "items": [
+        "CVP105",
+        "CVP3213"
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S5136",
+       "basePrintNoStr": "S5136-2021",
+       "printNo": "S5136B",
+       "session": 2021,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A6226",
+ "basePrintNoStr": "A6226-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-02-28",
+    "billCalNo": null,
+    "committeeName": "Consumer Affairs And Protection",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Consumer Affairs And Protection",
+    "referenceDate": "2021-03-10T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Consumer Affairs And Protection",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Consumer Affairs And Protection",
+    "referenceDate": "2022-02-01T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Consumer Affairs And Protection",
+    "referenceDate": "2022-02-28T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A6226B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-03-10T15:57:26.466781",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-02-01T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2022-02-28T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2021-03-10T14:44:35.180187",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 96,
+   "fullName": "Kenneth Zebrowski",
+   "imgName": "545_kenneth_zebrowski.jpg",
+   "incumbent": false,
+   "memberId": 545,
+   "sessionMemberId": 1763,
+   "sessionYear": 2021,
+   "shortName": "ZEBROWSKI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-02-28",
+  "billCalNo": null,
+  "committeeName": "Consumer Affairs And Protection",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts protections for private education loan borrowers and cosigners; requires certain notifications from creditors and debt collectors; prohibits acceleration; enacts provisions for cosigner release.",
+ "title": "Relates to protections for private education loan borrowers and cosigners",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

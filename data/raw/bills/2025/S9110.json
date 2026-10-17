@@ -1,0 +1,358 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S9110",
+     "basePrintNoStr": "S9110-2025",
+     "printNo": "S9110",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-02-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO BUDGET AND REVENUE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9110",
+     "basePrintNoStr": "S9110-2025",
+     "printNo": "S9110",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-03-19",
+    "sequenceNo": 2,
+    "text": "NOTICE OF COMMITTEE CONSIDERATION - REQUESTED"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "",
+    "basePrintNo": "S9110",
+    "basePrintNoStr": "S9110-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 2360,
+       "sessionYear": 2025,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2374,
+       "sessionYear": 2025,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Patricia Canzoneri-Fitzpatrick",
+       "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+       "incumbent": true,
+       "memberId": 1517,
+       "sessionMemberId": 2326,
+       "sessionYear": 2025,
+       "shortName": "CANZONERI-FITZPATRICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Joseph A. Griffo",
+       "imgName": "393_joseph_a._griffo.jpg",
+       "incumbent": true,
+       "memberId": 393,
+       "sessionMemberId": 2370,
+       "sessionYear": 2025,
+       "shortName": "GRIFFO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 2371,
+       "sessionYear": 2025,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 2341,
+       "sessionYear": 2025,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 2319,
+       "sessionYear": 2025,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 2368,
+       "sessionYear": 2025,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 1,
+       "fullName": "Anthony H. Palumbo",
+       "imgName": "666_anthony_h._palumbo.jpg",
+       "incumbent": true,
+       "memberId": 1489,
+       "sessionMemberId": 2318,
+       "sessionYear": 2025,
+       "shortName": "PALUMBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 45,
+       "fullName": "Dan Stec",
+       "imgName": "674_dan_stec.jpg",
+       "incumbent": true,
+       "memberId": 1490,
+       "sessionMemberId": 2362,
+       "sessionYear": 2025,
+       "shortName": "STEC"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 49,
+       "fullName": "Mark Walczyk",
+       "imgName": "1067_Mark_Walczyk.jpg",
+       "incumbent": true,
+       "memberId": 1523,
+       "sessionMemberId": 2366,
+       "sessionYear": 2025,
+       "shortName": "WALCZYK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 8,
+       "fullName": "Alexis Weik",
+       "imgName": "1310_Alexis_Weik.jpg",
+       "incumbent": true,
+       "memberId": 1493,
+       "sessionMemberId": 2325,
+       "sessionYear": 2025,
+       "shortName": "WEIK"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld §601 sub§§ (a), (b), (c), (d), (d-5), (d-6) & (d-7), sub§ (d-4) opening ¶, amd §601, Tax L",
+    "lawSection": "Tax Law",
+    "memo": " \nBILL NUMBER: S9110\n\nSPONSOR: RHOADS\n \nTITLE OF BILL:\n\nAn act to amend the tax law, in relation to the personal income tax\nrate; and to repeal certain provisions of such law relating thereto\n\n \nPURPOSE:\n\nRelates to the personal income tax rates.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 lowers rates and phases in an exemption of $100,000 over a ten\nyear period for married taxpayers filing jointly.\n\nSection 2 lowers rates and phases in an exemption of $75,000 over a ten\nyear period for taxpayers filing as a head of household.\n\nSection 3 lowers rates and phases in an exemption of $50,000 over a ten\nyear period for single taxpayers.\n\nSection 4 lowers rates and phases in an exemption of $50,000 over a ten\nyear period for married taxpayers filing separately.\n\nSections 5 and 6 repeal New York's tax benefit recapture provisions.\n\nSection 7 is the effective date\n\n \nJUSTIFICATION:\n\nNew York State imposes the highest personal income tax burden in the\nNation upon its residents. Albany's lack of fiscal discipline, over\nregulation and poor policy choices have made the American Dream unaf-\nfordable and unattainable. Just the increase in State annual spending\nsince 2019, has eclipsed the total amount the State collects in personal\nincome taxes. The result is predictable. New York continues to hemor-\nrhage talent, economic activity and productivity as its citizens flee to\nother states with lower tax burdens and more opportunities for their\nfamilies.\n\nAs recently as January 29, 2026, City Journal reported that census data\nshows that the outflow of New Yorkers to other states has topped the 1\nmillion mark since 2020. Over that same time, states like Texas and\nFlorida have no state personal income tax, have grown in population by\n2.6 million and 1.9 million respectively. New Yorkers are rejecting big\ntaxes, big spending and big bureaucracy with their feet, and New York is\nworse for it.\n\nOne-time gimmicks like \"Inflation Rebate Checks\" of $200-$400 touted by\nthe Governor are nothing more than a band-aid on the gaping wound\npoisoning New York's future. This legislation offers a path to a more\nprosperous tomorrow for New York and, more importantly, for New Yorkers.\nThe largest personal income tax cut in the history of New York State\nwhen fully implemented, will exempt the first $50,000 of income for\nsingle filers; the first $75,000 of income for single head of household\nfilers and the first $100,000 of income for families from New York State\n\npersonal income tax. This equates to a tax cut for ALL New Yorkers,\nsaving the average New York family almost $5,000 per year....every year.\n\nThat delivers real affordability and real opportunity for New York fami-\nlies to get ahead and incentive to continue to call New York their home.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nTax cut of roughly $35 billion when fully implemented\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S9110",
+    "publishDate": "2026-02-03",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "TAX601"
+       ],
+       "size": 1
+      },
+      "REPEAL": {
+       "items": [
+        "TAX601"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A11253",
+       "basePrintNoStr": "A11253-2025",
+       "printNo": "A11253",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S9110",
+ "basePrintNoStr": "S9110-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-02-03",
+    "billCalNo": null,
+    "committeeName": "Budget And Revenue",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Budget And Revenue",
+    "referenceDate": "2026-02-03T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S9110",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2026-02-03T14:56:40.910654",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2026-02-03T14:56:40.857229",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 5,
+   "fullName": "Steve Rhoads",
+   "imgName": "1333_Steve_Rhoads.jpg",
+   "incumbent": true,
+   "memberId": 1516,
+   "sessionMemberId": 2322,
+   "sessionYear": 2025,
+   "shortName": "RHOADS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-02-03",
+  "billCalNo": null,
+  "committeeName": "Budget And Revenue",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Phases in tax cuts to the personal income tax over a period of ten years; repeals certain provisions relating to tax benefit recapture.",
+ "title": "Relates to the personal income tax rates; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

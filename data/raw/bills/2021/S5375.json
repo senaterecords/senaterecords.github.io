@@ -1,0 +1,201 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5375",
+     "basePrintNoStr": "S5375-2021",
+     "printNo": "S5375",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-03-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5375",
+     "basePrintNoStr": "S5375-2021",
+     "printNo": "S5375",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the executive law, in relation to the discharging of certain\nsentences",
+    "basePrintNo": "S5375",
+    "basePrintNoStr": "S5375-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §259-j, Exec L",
+    "lawSection": "Executive Law",
+    "memo": "\n \nBILL NUMBER: S5375\n\nSPONSOR: SEPULVEDA\n \nTITLE OF BILL:\n\nAn act to amend the executive law, in relation to the discharging of\ncertain sentences\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill will allow those serving indeterminate sentences to be\ndischarged from parole\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nAmends Subdivision 1 of section 259-j of the Executive law\n\n \nJUSTIFICATION:\n\nUnder existing law, individuals on community supervision remain under\nsupervision until they are discharged from their sentences. If they meet\ncertain criteria, parolees may be considered for merit termination\ntermination of their sentence after three years of unrevoked super-\nvision. If eligible, their parole officer will submit the case to the\nBoard Parole, pursuant to Executive Law 259(j) for three-year discharge\nconsideration.  Otherwise, individuals on community supervision will be\ndischarged when they have reached the maximum expiration date of their\nsentence or they have completed the court imposed period of post-release\nsupervision.\n\nThis bill allows the board of parole to give 3-year parole discharges\nfor good behavior to everyone, not just those with indeterminate\nsentences. Right now an individual who has a life sentence can get\ndischarged from parole after three years of unrevoked parole however, a\nperson who has 5 years of community supervision on a flat 10 year bid\nhas to serve all five years.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined - should lead to a cost savings for the state.\n\n \nLOCAL FISCAL IMPLICATIONS:\n\nNone\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5375",
+    "publishDate": "2021-03-03",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EXC259-J"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A8276",
+       "basePrintNoStr": "A8276-2021",
+       "printNo": "A8276",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5375",
+ "basePrintNoStr": "S5375-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Crime Victims, Crime And Correction",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Crime Victims, Crime And Correction",
+    "referenceDate": "2021-03-03T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Crime Victims, Crime And Correction",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5375",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-03-03T10:01:46.025113",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-03-03T10:01:46.025113",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 32,
+   "fullName": "Luis R. Sepúlveda",
+   "imgName": "493_Luis_Sepulveda.jpg",
+   "incumbent": true,
+   "memberId": 1142,
+   "sessionMemberId": 1836,
+   "sessionYear": 2021,
+   "shortName": "SEPULVEDA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Crime Victims, Crime And Correction",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the discharging of certain sentences; makes all felonies eligible for discharge.",
+ "title": "Relates to the discharging of certain sentences",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

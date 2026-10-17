@@ -1,0 +1,209 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A4689",
+     "basePrintNoStr": "A4689-2023",
+     "printNo": "A4689",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-02-22",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4689",
+     "basePrintNoStr": "A4689-2023",
+     "printNo": "A4689",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO LABOR"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the labor law, in relation to requiring the department of\nlabor to publish the names of employers which employ 50 or more employees who\nreceive public assistance",
+    "basePrintNo": "A4689",
+    "basePrintNoStr": "A4689-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §12-a, Lab L",
+    "lawSection": "Labor Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A4689",
+    "publishDate": "2023-02-22",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB12-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S2953",
+       "basePrintNoStr": "S2953-2023",
+       "printNo": "S2953",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A4689",
+ "basePrintNoStr": "A4689-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Labor",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Labor",
+    "referenceDate": "2023-02-22T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Labor",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A9583",
+    "basePrintNoStr": "A9583-2021",
+    "printNo": "A9583",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A4689",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-02-22T16:20:44.745915",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-02-22T15:50:02.31665",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 36,
+   "fullName": "Zohran Mamdani",
+   "imgName": "no_image.jpg",
+   "incumbent": false,
+   "memberId": 1469,
+   "sessionMemberId": 2199,
+   "sessionYear": 2023,
+   "shortName": "MAMDANI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Labor",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Directs the department of labor to post on its internet website and annually update the names of employers who employ 50 or more employees who receive public assistance.",
+ "title": "Directs the department of labor to post on its internet website and annually update the names of employers who employ 50 or more employees who receive public assistance",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

@@ -1,0 +1,282 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A8590",
+     "basePrintNoStr": "A8590-2011",
+     "printNo": "A8590",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2011-09-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO REAL PROPERTY TAXATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8590",
+     "basePrintNoStr": "A8590-2011",
+     "printNo": "A8590",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-01-04",
+    "sequenceNo": 2,
+    "text": "REFERRED TO REAL PROPERTY TAXATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8590",
+     "basePrintNoStr": "A8590-2011",
+     "printNo": "A8590",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-05-22",
+    "sequenceNo": 3,
+    "text": "REPORTED REFERRED TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8590",
+     "basePrintNoStr": "A8590-2011",
+     "printNo": "A8590",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-06-06",
+    "sequenceNo": 4,
+    "text": "REPORTED REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8590",
+     "basePrintNoStr": "A8590-2011",
+     "printNo": "A8590",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-06-14",
+    "sequenceNo": 5,
+    "text": "REPORTED"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8590",
+     "basePrintNoStr": "A8590-2011",
+     "printNo": "A8590",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-06-14",
+    "sequenceNo": 6,
+    "text": "RULES REPORT CAL.188"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8590",
+     "basePrintNoStr": "A8590-2011",
+     "printNo": "A8590",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2012-06-14",
+    "sequenceNo": 7,
+    "text": "SUBSTITUTED BY S4326A"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to authorize the St. James Mar Thoma Church of Rockland, Inc to file an application for exemption from real property taxes for a certain parcel of land located in the town of Ramapo",
+    "basePrintNo": "A8590",
+    "basePrintNoStr": "A8590-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Real Property Taxation",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A8590",
+    "publishDate": "2011-09-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S4326",
+       "basePrintNoStr": "S4326-2011",
+       "printNo": "S4326A",
+       "session": 2011,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A8590",
+ "basePrintNoStr": "A8590-2011",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-06-06",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   },
+   {
+    "actionDate": "2012-06-14",
+    "billCalNo": 188,
+    "committeeName": null,
+    "statusDesc": "Assembly Floor Calendar",
+    "statusType": "ASSEMBLY_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Real Property Taxation",
+    "referenceDate": "2011-09-21T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Real Property Taxation",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Rules",
+    "referenceDate": "2012-06-06T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2012-05-22T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A8590",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-09-21T11:03:08",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-09-21T11:03:08",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 97,
+   "fullName": "Ann Rabbitt",
+   "imgName": "no_image.jpg",
+   "incumbent": false,
+   "memberId": 548,
+   "sessionMemberId": 454,
+   "sessionYear": 2011,
+   "shortName": "RABBITT"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-06-14",
+  "billCalNo": 188,
+  "committeeName": null,
+  "statusDesc": "Assembly Floor Calendar",
+  "statusType": "ASSEMBLY_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "S4326",
+  "basePrintNoStr": "S4326-2011",
+  "session": 2011
+ },
+ "summary": "Authorizes the St. James Mar Thoma Church of Rockland, Inc to file an application for exemption from real property taxes for a certain parcel of land located in the town of Ramapo.",
+ "title": "Authorizes the St. James Mar Thoma Church of Rockland, Inc. to file an application for exemption from real property taxes",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

@@ -1,0 +1,1115 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1572",
+     "basePrintNoStr": "S1572-2021",
+     "printNo": "S1572",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-13",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1572",
+     "basePrintNoStr": "S1572-2021",
+     "printNo": "S1572",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1572",
+     "basePrintNoStr": "S1572-2021",
+     "printNo": "S1572",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-01",
+    "sequenceNo": 3,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1572",
+     "basePrintNoStr": "S1572-2021",
+     "printNo": "S1572",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-01",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1572",
+     "basePrintNoStr": "S1572-2021",
+     "printNo": "S1572A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-01",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 1572A"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law, in relation to coverage for health\ncare services under the basic health program for individuals whose immigration\nstatus renders him or her ineligible for federal financial participation",
+    "basePrintNo": "S1572",
+    "basePrintNoStr": "S1572-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1829,
+       "sessionYear": 2021,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §369-gg, Art 5 Title 11-D Head, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": "\n \nBILL NUMBER: S1572\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the social services law, in relation to coverage for\nhealth care services under the basic health program for individuals\nwhose immigration status renders him or her ineligible for federal\nfinancial participation\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo expand eligibility for the Essential Plan to individuals who current-\nly face barriers to health care coverage due to their immigration\nstatus.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of the bill adds a new subdivision 3-a to Section 269-gg of\nthe social services law detailing qualifications for participation in\nthe state's basic health program, known as the Essential Plan.\n\nSection 2 of the bill amends the title heading of title 11-D of article\n5 of the social services law to read \"Basic Health Program.\"\n\nSection 3 of the bill is the effective date.\n\n \nJUSTIFICATION:\n\nSince the enactment of the Affordable Care Act Marketplace in 2010, New\nYork has drastically reduced the number of uninsured from 3 million to 1\nmillion people. However, more than 400,000 immigrant New Yorkers have\nnot benefited from new coverage options or public coverage through the\nNew York State of Health Marketplace because of their immigration\nstatus. Numerous studies have found that people without coverage are\nmore likely to delay seeking preventive care for serious and chronic\nhealth conditions, avoid seeking care for fear of costs, and are at\nhigher risk of incurring medical debt or bankruptcy. Studies have also\nshown that those who have gained coverage have reduced mortality and\nmorbidity.\n\nThe lack of coverage for significant numbers of New Yorkers causes prob-\nlems for the broader health care system because payers and providers\ncharge more to the insured population to offset their losses related to\nproviding care to the uninsured. But even with this cost shifting, the\ncosts associated with uncompensated care threaten the financial\nsustain-ability of many safety net hospitals and clinics. The program\nwill invest $532 million into the health care system, further stabiliz-\ning the state's health care economy.\n\nThis bill will provide adult immigrants with access to health insurance\ncoverage that is equivalent to the coverage offered to their citizen or\nlawfully present counterparts who are eligible for the Essential Plan.\nThe program builds upon New York's success covering children (including\nimmigrant children) through the Child Health Plus program. It extends\ncoverage to eligible adult immigrants ensuring that all New Yorkers have\naccess to affordable health coverage, averting the health insurance\ncliff many young immigrants now face when they turn 19 after years of\nstate investment in their health.\nBy expanding eligibility for coverage under the Essential Plan, this\nbill makes New York health care providers more financially sound and\nbetter able to provide continuous, high-quality care to this population.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S3900/A5947 Gottfried\n\n \nFISCAL IMPLICATIONS:\n\nThe cost to the state to accomplish this goal is estimated to be over\n$500 million. The state will be saving close to the same amount in emer-\ngency Medicaid spending. Eligible individuals would be paying small\npremium amounts to contribute to their coverage.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred-eightieth day after it\nshall have become a law. Effective immediately, the commission of health\nshall make regulations and take other actions reasonably necessary to\nimplement this act on this date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1572",
+    "publishDate": "2021-01-13",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "SOS369-GG",
+        "SOSA5T11-D"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the social services law, in relation to coverage for health\ncare services under the basic health program for individuals whose immigration\nstatus renders him or her ineligible for federal financial participation",
+    "basePrintNo": "S1572",
+    "basePrintNoStr": "S1572-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1802,
+       "sessionYear": 2021,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 1857,
+       "sessionYear": 2021,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 1811,
+       "sessionYear": 2021,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1822,
+       "sessionYear": 2021,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 53,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 1823,
+       "sessionYear": 2021,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1824,
+       "sessionYear": 2021,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1829,
+       "sessionYear": 2021,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1834,
+       "sessionYear": 2021,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 27
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §369-gg, Soc Serv L",
+    "lawSection": "Social Services Law",
+    "memo": " \nBILL NUMBER: S1572A   REVISED 02/07/2022\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the social services law, in relation to coverage for\nhealth care services under the basic health program for individuals\nwhose immigration status renders him or her ineligible for federal\nfinancial participation\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo expand eligibility for the Essential Plan to individuals who current-\nly face barriers to health care coverage due to their immigration\nstatus.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection one of the bill adds a new subdivision 3-a to Section 269-gg of\nthe social services law detailing qualifications for participation in\nthe state's basic health program, known as the Essential Plan.\n\nSection 2 of the bill is the effective date.\n\n \nJUSTIFICATION:\n\nSince the enactment of the Affordable Care Act Marketplace in 2010, New\nYork has drastically reduced the number of uninsured from 3 million to 1\nmillion people. However, more than 400,000 immigrant New Yorkers have\nnot benefited from new coverage options or public coverage through the\nNew York State of Health Marketplace because of their immigration\nstatus. Numerous studies have found that people without coverage are\nmore likely to delay seeking preventive care for serious and chronic\nhealth conditions, avoid seeking care for fear of costs, and are at\nhigher risk of incurring medical debt or bankruptcy. Studies have also\nshown that those who have gained coverage have reduced mortality and\nmorbidity.\n\nThe lack of coverage for significant numbers of New Yorkers causes prob-\nlems for the broader health care system because payers and providers\ncharge more to the insured population to offset their losses related to\nproviding care to the uninsured. But even with this cost shifting, the\ncosts associated with uncompensated care threaten the financial\nsustain-ability of many safety net hospitals and clinics. The program\nwill invest approximately 345 million into into the health care system,\nfurther stabilizing the state's health care economy.\n\nThis bill will provide adult immigrants with access to health insurance\ncoverage that is equivalent to the coverage offered to their citizen or\nlawfully present counterparts who are eligible for the Essential Plan.\nThe program builds upon New York's success covering children (including\nimmigrant children) through the Child Health Plus program. It extends\ncoverage to eligible adult immigrants ensuring that all New Yorkers have\naccess to affordable health coverage, averting the health insurance\ncliff many young immigrants now face when they turn 19 after years of\nstate investment in their health.\n\n\n\nBy expanding eligibility for coverage under the Essential Plan, this\nbill makes New York health care providers more financially sound and\nbetter able to provide continuous, high-quality care to this population.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S3900/A5947 Gottfried\n\n \nFISCAL IMPLICATIONS:\n\nThe cost to the state to accomplish this goal is estimated to be approx-\nimately $345 million. The state will be saving close to the same amount\nin emergency Medicaid spending. Eligible individuals would be paying\nsmall premium amounts to contribute to their coverage.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the one hundred-eightieth day after it\nshall have become a law. Effective immediately, the commission of health\nshall make regulations and take other actions reasonably necessary to\nimplement this act on this date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1572A",
+    "publishDate": "2022-02-01",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "SOS369-GG"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A880",
+       "basePrintNoStr": "A880-2021",
+       "printNo": "A880A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1572",
+ "basePrintNoStr": "S1572-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 4,
+     "year": 2022
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-02-01",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2022-02-01T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-01-13T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S3900",
+    "basePrintNoStr": "S3900-2019",
+    "printNo": "S3900",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1572A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-13T16:36:39.216981",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-02-01T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-01-13T16:36:39.216981",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 1832,
+   "sessionYear": 2021,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-02-01",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides eligibility for services under the basic health program for individuals whose immigration status renders him or her ineligible for federal financial participation and who meet additional requirements.",
+ "title": "Relates to coverage for health care services under the basic health program for individuals whose immigration status renders him or her ineligible for federal financial participation",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S1572",
+     "basePrintNoStr": "S1572-2021",
+     "printNo": "S1572",
+     "session": 2021,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 34,
+         "fullName": "Alessandra Biaggi",
+         "imgName": "1051_Alessandra_Biaggi.jpg",
+         "incumbent": false,
+         "memberId": 1231,
+         "sessionMemberId": 1799,
+         "sessionYear": 2021,
+         "shortName": "BIAGGI"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 1856,
+         "sessionYear": 2021,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Cordell Cleare",
+         "imgName": "Cordell Cleare.jpg",
+         "incumbent": true,
+         "memberId": 1504,
+         "sessionMemberId": 1864,
+         "sessionYear": 2021,
+         "shortName": "CLEARE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 27,
+         "fullName": "Brad Hoylman-Sigal",
+         "imgName": "438_brad_hoylman.jpg",
+         "incumbent": false,
+         "memberId": 438,
+         "sessionMemberId": 1813,
+         "sessionYear": 2021,
+         "shortName": "HOYLMAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 53,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 1823,
+         "sessionYear": 2021,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 1832,
+         "sessionYear": 2021,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 1833,
+         "sessionYear": 2021,
+         "shortName": "SALAZAR"
+        }
+       ],
+       "size": 7
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Sean Ryan",
+         "imgName": "638_sean_ryan.jpg",
+         "incumbent": false,
+         "memberId": 1491,
+         "sessionMemberId": 1846,
+         "sessionYear": 2021,
+         "shortName": "RYAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Kevin Thomas",
+         "imgName": "1043_Kevin_Thomas.jpg",
+         "incumbent": false,
+         "memberId": 1223,
+         "sessionMemberId": 1843,
+         "sessionYear": 2021,
+         "shortName": "THOMAS"
+        }
+       ],
+       "size": 2
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Phil Boyle",
+         "imgName": "433_phil_boyle.jpg",
+         "incumbent": false,
+         "memberId": 433,
+         "sessionMemberId": 1801,
+         "sessionYear": 2021,
+         "shortName": "BOYLE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 1806,
+         "sessionYear": 2021,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 9,
+         "fullName": "Todd Kaminsky",
+         "imgName": "903_todd_kaminsky.jpg",
+         "incumbent": false,
+         "memberId": 918,
+         "sessionMemberId": 1816,
+         "sessionYear": 2021,
+         "shortName": "KAMINSKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 51,
+         "fullName": "Peter Oberacker",
+         "imgName": "1316_Peter_Oberacker.jpg",
+         "incumbent": true,
+         "memberId": 1499,
+         "sessionMemberId": 1855,
+         "sessionYear": 2021,
+         "shortName": "OBERACKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 61,
+         "fullName": "Edward Rath",
+         "imgName": "1319_Edward_Rath.jpg",
+         "incumbent": false,
+         "memberId": 1502,
+         "sessionMemberId": 1858,
+         "sessionYear": 2021,
+         "shortName": "RATH"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 1845,
+         "sessionYear": 2021,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 6
+      }
+     },
+     "size": 3
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2022-02-01",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2022
+}

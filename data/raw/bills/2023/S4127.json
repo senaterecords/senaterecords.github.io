@@ -1,0 +1,971 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-02-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO DISABILITIES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-27",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 3,
+    "text": "REFERRED TO DISABILITIES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-25",
+    "sequenceNo": 4,
+    "text": "AMEND AND RECOMMIT TO DISABILITIES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-25",
+    "sequenceNo": 5,
+    "text": "PRINT NUMBER 4127A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-29",
+    "sequenceNo": 6,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT relating to establishing a direct support wage enhancement to employees\nthat provide direct care support or any other form of treatment, to\nindividuals with developmental disabilities",
+    "basePrintNo": "S4127",
+    "basePrintNoStr": "S4127-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 1885,
+       "sessionYear": 2023,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Patricia Canzoneri-Fitzpatrick",
+       "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+       "incumbent": true,
+       "memberId": 1517,
+       "sessionMemberId": 1880,
+       "sessionYear": 2023,
+       "shortName": "CANZONERI-FITZPATRICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1874,
+       "sessionYear": 2023,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 1879,
+       "sessionYear": 2023,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 1881,
+       "sessionYear": 2023,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 13
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Mental Hygiene",
+    "memo": " \nBILL NUMBER: S4127\n\nSPONSOR: MANNION\n \nTITLE OF BILL:\n\nAn act relating to establishing a direct support wage enhancement to\nemployees that provide direct care support or any other form of treat-\nment, to individuals with developmental disabilities\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to provide a direct support wage enhancement\nto employees that provide direct care support, or any other form of\ntreatment, to individuals with developmental disabilities.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of this bill would establish the direct support wage enhance-\nment for providers licensed, funded, approved and/or certified by the\nOffice for People with Developmental Disabilities (OPWDD).  Such provid-\ners would be eligible to receive supplemental funding to enhance wages\nof employees that provide direct care support, or any other form of\ntreatment, to individuals with developmental disabilities whose income\nis less than $125,000. Additionally, this section would direct OPWDD and\nthe Division of the Budget to establish a list of eligible employee\ntitles for such wage enhancement. Furthermore, this section would\nrequire OPWDD to develop a form to be used by providers to indicate the\nnumber of eligible employees to determine appropriate supplemental fund-\ning by provider agency, direct OPWDD to distribute the direct support\nwage enhancement allocation to the eligible providers in the amount of\n$4,000 per eligible employee, and require that such direct support wage\nenhancement be used to enhance base wages and benefits of eligible\nemployees.\n\nSection 2 of this bill provides that the effective date shall take\neffect April 1, 2023.\n\n \nJUSTIFICATION:\n\nCurrently, Direct Support Professionals (DSPs) and other similarly situ-\nated staff provide essential life supporting services to individuals\nwith Intellectual and Developmental Disabilities (I/DD).  Often, these\nhighly skilled and competent workers receive low wages, wages that are\nnot reflective of the vital role that they serve. DSPs take on numerous\ncritical responsibilities to uplift the safety, productivity, and well-\nbeing of the entire I/DD community.\n\nDSPs are responsible for providing important practical and administra-\ntive support such as first aid and CPR, administering medication, meal\npreparation or transport facilitation, as well as, attending to the\ncomprehensive social, emotional, and psychological needs of individuals\nwith I/DD. DSPs are required to be well trained, skilled, and constantly\nprepared for all the essential life-support services their profession\ndemands. DSPs are integral pillars of support for the State's I/DD\ncommunity and are crucial in ensuring that over 130,000 State residents\nwith I/DD can live their highest quality of life.\n\nPermanent investment in this workforce is essential to recruit and\nretain staff to and to ensure the viability of the service delivery\nsystem. The average starting wage for DSPs Statewide is approximately\n$16.07 per hour. At $4,000 per eligible employee, this wage enhancement\nwould increase wages by approximately $2.19 per hour, an increase to\n$18.26 per hour. In light of recent minimum wage increases in other\nindustries this investment might seem paltry, or lacking; however, this\nincrease would provide a much needed respite for DSPs and similarly\nsituated staff. Ideally, this wage enhancement would establish a floor,\nnot a ceiling, and spur on future wage increases for those who work for\nthe UDD community. By establishing the direct support wage enhancement\nthis bill would provide greater financial stability to the DSP workforce\nand increase retention of such workforce.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect April 1, 2023.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4127",
+    "publishDate": "2023-02-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5268",
+       "basePrintNoStr": "A5268-2023",
+       "printNo": "A5268",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT relating to establishing a direct support wage enhancement to employees\nthat provide direct care support or any other form of treatment, to\nindividuals with developmental disabilities",
+    "basePrintNo": "S4127",
+    "basePrintNoStr": "S4127-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 1885,
+       "sessionYear": 2023,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Patricia Canzoneri-Fitzpatrick",
+       "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+       "incumbent": true,
+       "memberId": 1517,
+       "sessionMemberId": 1880,
+       "sessionYear": 2023,
+       "shortName": "CANZONERI-FITZPATRICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2010,
+       "sessionYear": 2023,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1874,
+       "sessionYear": 2023,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 1873,
+       "sessionYear": 2023,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 1879,
+       "sessionYear": 2023,
+       "shortName": "RHOADS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 39,
+       "fullName": "Robert Rolison",
+       "imgName": "1336_Robert_Rolison.jpg",
+       "incumbent": true,
+       "memberId": 1519,
+       "sessionMemberId": 1882,
+       "sessionYear": 2023,
+       "shortName": "ROLISON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "James Tedisco",
+       "imgName": "925_James_Tedisco.jpg",
+       "incumbent": true,
+       "memberId": 1103,
+       "sessionMemberId": 2039,
+       "sessionYear": 2023,
+       "shortName": "TEDISCO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 1881,
+       "sessionYear": 2023,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 20
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "",
+    "lawSection": "Mental Hygiene",
+    "memo": " \nBILL NUMBER: S4127A\n\nSPONSOR: MANNION\n \nTITLE OF BILL:\n\nAn act relating to establishing a direct support wage enhancement to\nemployees that provide direct care support or any other form of treat-\nment, to individuals with developmental disabilities\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to provide a direct support wage enhancement\nto employees that provide direct care support, or any other form of\ntreatment, to individuals with developmental disabilities.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 of this bill would establish the direct support wage enhance-\nment for providers licensed, funded, approved and/or certified by the\nOffice for People with Developmental Disabilities (OPWDD).  Such provid-\ners would be eligible to receive supplemental funding to enhance wages\nof employees that provide direct care support, or any other form of\ntreatment, to individuals with developmental disabilities whose income\nis less than $125,000. Additionally, this section would direct OPWDD and\nthe Division of the Budget to establish a list of eligible employee\ntitles for such wage enhancement. Furthermore, this section would\nrequire OPWDD to develop a form to be used by providers to indicate the\nnumber of eligible employees to determine appropriate supplemental fund-\ning by provider agency, direct OPWDD to distribute the direct support\nwage enhancement allocation to the eligible providers in the amount of\n$4,000 per eligible employee, and require that such direct support wage\nenhancement be used to enhance base wages and benefits of eligible\nemployees.\n\nSection 2 of this bill provides that the effective date shall take\neffect April 1, 2024.\n\n \nJUSTIFICATION:\n\nCurrently, Direct Support Professionals (DSPs) and other similarly situ-\nated staff provide essential life supporting services to individuals\nwith Intellectual and Developmental Disabilities (I/DD).  Often, these\nhighly skilled and competent workers receive low wages, wages that are\nnot reflective of the vital role that they serve. DSPs take on numerous\ncritical responsibilities to uplift the safety, productivity, and well-\nbeing of the entire I/DD community.\n\nDSPs are responsible for providing important practical and administra-\ntive support such as first aid and CPR, administering medication, meal\npreparation or transport facilitation, as well as, attending to the\ncomprehensive social, emotional, and psychological needs of individuals\nwith I/DD. DSPs are required to be well trained, skilled, and constantly\nprepared for all the essential life-support services their profession\ndemands. DSPs are integral pillars of support for the State's I/DD\ncommunity and are crucial in ensuring that over 130,000 State residents\nwith I/DD can live their highest quality of life.\n\nPermanent investment in this workforce is essential to recruit and\nretain staff to and to ensure the viability of the service delivery\nsystem. The average starting wage for DSPs Statewide is approximately\n$16.07 per hour. At $4,000 per eligible employee, this wage enhancement\nwould increase wages by approximately $2.19 per hour, an increase to\n$18.26 per hour. In light of recent minimum wage increases in other\nindustries this investment might seem paltry, or lacking; however, this\nincrease would provide a much needed respite for DSPs and similarly\nsituated staff. Ideally, this wage enhancement would establish a floor,\nnot a ceiling, and spur on future wage increases for those who work for\nthe I/DD community. By establishing the direct support wage enhancement\nthis bill would provide greater financial stability to the DSP workforce\nand increase retention of such workforce.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect April 1, 2024.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S4127A",
+    "publishDate": "2024-01-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5268",
+       "basePrintNoStr": "A5268-2023",
+       "printNo": "A5268A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S4127",
+ "basePrintNoStr": "S4127-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 11,
+     "year": 2023
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Disabilities"
+    }
+   },
+   {
+    "agendaId": {
+     "number": 4,
+     "year": 2024
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Disabilities"
+    }
+   }
+  ],
+  "size": 2
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-29",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Disabilities",
+    "referenceDate": "2023-02-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Disabilities",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Disabilities",
+    "referenceDate": "2024-01-25T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2023-03-27T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-01-29T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S4127A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-02-03T10:52:12.118997",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-01-25T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-02-03T10:52:12.118997",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 50,
+   "fullName": "John Mannion",
+   "imgName": "1315_John_Mannion.jpg",
+   "incumbent": false,
+   "memberId": 1498,
+   "sessionMemberId": 2048,
+   "sessionYear": 2023,
+   "shortName": "MANNION"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-29",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes a direct support wage enhancement to employees that provide direct care support or any other form of treatment, to individuals with developmental disabilities and whose income is less than $125,000.",
+ "title": "Establishes a direct support wage enhancement to employees that provide direct care support or any other form of treatment, to individuals with developmental disabilities",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127",
+     "session": 2023,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Disabilities"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 1876,
+         "sessionYear": 2023,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "Roxanne J. Persaud",
+         "imgName": "736_Roxanne_Persaud.jpg",
+         "incumbent": true,
+         "memberId": 914,
+         "sessionMemberId": 2029,
+         "sessionYear": 2023,
+         "shortName": "PERSAUD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Jessica Scarcella-Spanton",
+         "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+         "incumbent": true,
+         "memberId": 1512,
+         "sessionMemberId": 1875,
+         "sessionYear": 2023,
+         "shortName": "SCARCELLA-SPANTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "William Weber",
+         "imgName": "1335_William_Weber.jpg",
+         "incumbent": true,
+         "memberId": 1518,
+         "sessionMemberId": 1881,
+         "sessionYear": 2023,
+         "shortName": "WEBER"
+        }
+       ],
+       "size": 7
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2023-03-27",
+    "voteType": "COMMITTEE"
+   },
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S4127",
+     "basePrintNoStr": "S4127-2023",
+     "printNo": "S4127A",
+     "session": 2023,
+     "version": "A"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Disabilities"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2009,
+         "sessionYear": 2023,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 1876,
+         "sessionYear": 2023,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "John Mannion",
+         "imgName": "1315_John_Mannion.jpg",
+         "incumbent": false,
+         "memberId": 1498,
+         "sessionMemberId": 2048,
+         "sessionYear": 2023,
+         "shortName": "MANNION"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 19,
+         "fullName": "Roxanne J. Persaud",
+         "imgName": "736_Roxanne_Persaud.jpg",
+         "incumbent": true,
+         "memberId": 914,
+         "sessionMemberId": 2029,
+         "sessionYear": 2023,
+         "shortName": "PERSAUD"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 23,
+         "fullName": "Jessica Scarcella-Spanton",
+         "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+         "incumbent": true,
+         "memberId": 1512,
+         "sessionMemberId": 1875,
+         "sessionYear": 2023,
+         "shortName": "SCARCELLA-SPANTON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "William Weber",
+         "imgName": "1335_William_Weber.jpg",
+         "incumbent": true,
+         "memberId": 1518,
+         "sessionMemberId": 1881,
+         "sessionYear": 2023,
+         "shortName": "WEBER"
+        }
+       ],
+       "size": 6
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 1885,
+         "sessionYear": 2023,
+         "shortName": "ASHBY"
+        }
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sequenceNo": 1,
+    "version": "A",
+    "voteDate": "2024-01-29",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 2
+ },
+ "year": 2024
+}

@@ -1,0 +1,174 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A8899",
+     "basePrintNoStr": "A8899-2021",
+     "printNo": "A8899",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-19",
+    "sequenceNo": 1,
+    "text": "REFERRED TO REAL PROPERTY TAXATION"
+   }
+  ],
+  "size": 1
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the real property tax law, in relation to requiring certain\naffordable housing units to be subject to rent stabilization",
+    "basePrintNo": "A8899",
+    "basePrintNoStr": "A8899-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §421-a, RPT L",
+    "lawSection": "Real Property Tax Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A8899",
+    "publishDate": "2022-01-19",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "RPT421-A"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A8899",
+ "basePrintNoStr": "A8899-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-19",
+    "billCalNo": null,
+    "committeeName": "Real Property Taxation",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Real Property Taxation",
+    "referenceDate": "2022-01-19T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 1
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A8899",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2022-01-19T17:16:27.265840",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2022-01-19T16:36:54.330616",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 67,
+   "fullName": "Linda Rosenthal",
+   "imgName": "520_linda_rosenthal.jpg",
+   "incumbent": true,
+   "memberId": 520,
+   "sessionMemberId": 1736,
+   "sessionYear": 2021,
+   "shortName": "ROSENTHAL L"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-19",
+  "billCalNo": null,
+  "committeeName": "Real Property Taxation",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires affordable housing units that are subject to the provisions of the Affordable New York Housing Program to be subject to rent stabilization at the end of the tax abatement and extended affordability period; provides that units subject to tax exemptions or abatements pursuant to other laws be subject to rent stabilization at the expiration of such tax exemptions or abatements.",
+ "title": "Requires certain affordable housing units to be subject to rent stabilization",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

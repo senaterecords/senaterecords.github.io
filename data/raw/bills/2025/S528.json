@@ -1,0 +1,699 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S528",
+     "basePrintNoStr": "S528-2025",
+     "printNo": "S528",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-01-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S528",
+     "basePrintNoStr": "S528-2025",
+     "printNo": "S528",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-01-28",
+    "sequenceNo": 2,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S528",
+     "basePrintNoStr": "S528-2025",
+     "printNo": "S528",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-07",
+    "sequenceNo": 3,
+    "text": "REFERRED TO EDUCATION"
+   }
+  ],
+  "size": 3
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to the salaries of certain\nteachers and aides employed by boards of cooperative educational services",
+    "basePrintNo": "S528",
+    "basePrintNoStr": "S528-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 43,
+       "fullName": "Jake Ashby",
+       "imgName": "971_Jake_Ashby.jpg",
+       "incumbent": true,
+       "memberId": 1522,
+       "sessionMemberId": 2360,
+       "sessionYear": 2025,
+       "shortName": "ASHBY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 2353,
+       "sessionYear": 2025,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2374,
+       "sessionYear": 2025,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2372,
+       "sessionYear": 2025,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 9,
+       "fullName": "Patricia Canzoneri-Fitzpatrick",
+       "imgName": "1334_Patricia_Canzoneri-Fitzpatrick.jpg",
+       "incumbent": true,
+       "memberId": 1517,
+       "sessionMemberId": 2326,
+       "sessionYear": 2025,
+       "shortName": "CANZONERI-FITZPATRICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 60,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 2377,
+       "sessionYear": 2025,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 54,
+       "fullName": "Pamela Helming",
+       "imgName": "773_Pamela_Helming.jpg",
+       "incumbent": true,
+       "memberId": 951,
+       "sessionMemberId": 2371,
+       "sessionYear": 2025,
+       "shortName": "HELMING"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 7,
+       "fullName": "Jack M. Martins",
+       "imgName": "397_jack_m._martins.jpg",
+       "incumbent": true,
+       "memberId": 397,
+       "sessionMemberId": 2324,
+       "sessionYear": 2025,
+       "shortName": "MARTINS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 2,
+       "fullName": "Mario Mattera",
+       "imgName": "1309_Mario_Mattera.jpg",
+       "incumbent": true,
+       "memberId": 1492,
+       "sessionMemberId": 2319,
+       "sessionYear": 2025,
+       "shortName": "MATTERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 3,
+       "fullName": "Dean Murray",
+       "imgName": "910_dean_murray.jpg",
+       "incumbent": true,
+       "memberId": 1521,
+       "sessionMemberId": 2320,
+       "sessionYear": 2025,
+       "shortName": "MURRAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "William Weber",
+       "imgName": "1335_William_Weber.jpg",
+       "incumbent": true,
+       "memberId": 1518,
+       "sessionMemberId": 2355,
+       "sessionYear": 2025,
+       "shortName": "WEBER"
+      }
+     ],
+     "size": 18
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§1950 & 3602, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S528\n\nSPONSOR: MAYER\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill increases the aidable salary for certain teachers and aides\nemployed by boards to 60,000 over a three year period, allows the Big 5\nto access special services aid for the ninth grade, and increases the\nreimbursement amount to $4,100.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 amends paragraph b of subdivision 5 of section 1950 of the\neducation law to increase the aidable salary for teachers to $40,000 in\n202526; $50,000 in 2026-27; and $60,000 in 2027-28.\n\nSection 2 amends paragraph b of subdivision 10 of section 3602 of the\neducation law to allow the Big 5 to .receive special services aid for\nninth grade and increase the reimbursement amount to $4,100.\n\nSection 3 sets forth the effective date.\n\n \nJUSTIFICATION:\n\nThis bill improves resources and therefore programming for career, tech-\nnical and STEM education in school districts throughout the state. New\nYork State provides aid to school districts to help them pay for\nservices that they purchase from BOCES, including teachers for instruc-\ntion in career, technical and STEM education. There is, however, a cap\non aidable teacher salaries which has not been increased since 1991. In\nthat time, New York State has highlighted STEM and technology as priori-\nties for preparing students for work and college in the 21st century.\nThis bill updates aid to match the state's educational priorities, in\nboth BOCES component school districts and in the Big 5 district that\nreceives special services aid.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nS7818 (2020): Referred Education\n\nS919 (2022): Referred to Education\n\nS5024A (2023-24): Reported from Education and committedita Finance\n\n \nFISCAL IMPLICATIONS:\n\nTBD.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S528",
+    "publishDate": "2025-01-02",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN1950",
+        "EDN3602"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A3430",
+       "basePrintNoStr": "A3430-2025",
+       "printNo": "A3430",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S528",
+ "basePrintNoStr": "S528-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 3,
+     "year": 2025
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Education"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-01-07",
+    "billCalNo": null,
+    "committeeName": "Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2025-01-08T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Education",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2025-01-28T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S5024",
+    "basePrintNoStr": "S5024-2023",
+    "printNo": "S5024A",
+    "session": 2023,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S919",
+    "basePrintNoStr": "S919-2021",
+    "printNo": "S919",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S7818",
+    "basePrintNoStr": "S7818-2019",
+    "printNo": "S7818",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S3919",
+    "basePrintNoStr": "S3919-2017",
+    "printNo": "S3919A",
+    "session": 2017,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S3697",
+    "basePrintNoStr": "S3697-2015",
+    "printNo": "S3697A",
+    "session": 2015,
+    "version": "A"
+   }
+  ],
+  "size": 5
+ },
+ "printNo": "S528",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-01-02T09:59:05.376753",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2025-01-02T09:59:05.376753",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 37,
+   "fullName": "Shelley Mayer",
+   "imgName": "623_shelley_mayer.jpg",
+   "incumbent": true,
+   "memberId": 1143,
+   "sessionMemberId": 2354,
+   "sessionYear": 2025,
+   "shortName": "MAYER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-01-07",
+  "billCalNo": null,
+  "committeeName": "Education",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to the salaries of certain teachers and aides employed by boards of cooperative educational services; puts limits on certain administrative and clerical expenses.",
+ "title": "Relates to the salaries of certain teachers and aides employed by boards of cooperative educational services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S528",
+     "basePrintNoStr": "S528-2025",
+     "printNo": "S528",
+     "session": 2025,
+     "version": ""
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Education"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 15,
+         "fullName": "Joseph P. Addabbo Jr.",
+         "imgName": "384_joseph_p._addabbo_jr.jpg",
+         "incumbent": true,
+         "memberId": 384,
+         "sessionMemberId": 2332,
+         "sessionYear": 2025,
+         "shortName": "ADDABBO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 6,
+         "fullName": "Siela Bynoe",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1549,
+         "sessionMemberId": 2323,
+         "sessionYear": 2025,
+         "shortName": "BYNOE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 17,
+         "fullName": "Stephen T. Chan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1550,
+         "sessionMemberId": 2334,
+         "sessionYear": 2025,
+         "shortName": "CHAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 30,
+         "fullName": "Cordell Cleare",
+         "imgName": "Cordell Cleare.jpg",
+         "incumbent": true,
+         "memberId": 1504,
+         "sessionMemberId": 2347,
+         "sessionYear": 2025,
+         "shortName": "CLEARE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Simcha Felder",
+         "imgName": "439_simcha_felder.jpg",
+         "incumbent": false,
+         "memberId": 439,
+         "sessionMemberId": 2339,
+         "sessionYear": 2025,
+         "shortName": "FELDER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 16,
+         "fullName": "John Liu",
+         "imgName": "1045_John_Liu.jpg",
+         "incumbent": true,
+         "memberId": 1225,
+         "sessionMemberId": 2333,
+         "sessionYear": 2025,
+         "shortName": "LIU"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 4,
+         "fullName": "Monica Martinez",
+         "imgName": "1041_Monica_Martinez.jpg",
+         "incumbent": true,
+         "memberId": 1221,
+         "sessionMemberId": 2321,
+         "sessionYear": 2025,
+         "shortName": "MARTINEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 37,
+         "fullName": "Shelley Mayer",
+         "imgName": "623_shelley_mayer.jpg",
+         "incumbent": true,
+         "memberId": 1143,
+         "sessionMemberId": 2354,
+         "sessionYear": 2025,
+         "shortName": "MAYER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 18,
+         "fullName": "Julia Salazar",
+         "imgName": "1047_Julia_Salazar.jpg",
+         "incumbent": true,
+         "memberId": 1227,
+         "sessionMemberId": 2335,
+         "sessionYear": 2025,
+         "shortName": "SALAZAR"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 11,
+         "fullName": "Toby Ann Stavisky",
+         "imgName": "400_toby_ann_stavisky.jpg",
+         "incumbent": true,
+         "memberId": 400,
+         "sessionMemberId": 2328,
+         "sessionYear": 2025,
+         "shortName": "STAVISKY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 44,
+         "fullName": "James Tedisco",
+         "imgName": "925_James_Tedisco.jpg",
+         "incumbent": true,
+         "memberId": 1103,
+         "sessionMemberId": 2361,
+         "sessionYear": 2025,
+         "shortName": "TEDISCO"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 38,
+         "fullName": "William Weber",
+         "imgName": "1335_William_Weber.jpg",
+         "incumbent": true,
+         "memberId": 1518,
+         "sessionMemberId": 2355,
+         "sessionYear": 2025,
+         "shortName": "WEBER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 8,
+         "fullName": "Alexis Weik",
+         "imgName": "1310_Alexis_Weik.jpg",
+         "incumbent": true,
+         "memberId": 1493,
+         "sessionMemberId": 2325,
+         "sessionYear": 2025,
+         "shortName": "WEIK"
+        }
+       ],
+       "size": 15
+      }
+     },
+     "size": 1
+    },
+    "sequenceNo": 1,
+    "version": "",
+    "voteDate": "2025-01-28",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

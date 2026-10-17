@@ -1,0 +1,833 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2845",
+     "basePrintNoStr": "S2845-2019",
+     "printNo": "S2845",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-01-29",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2845",
+     "basePrintNoStr": "S2845-2019",
+     "printNo": "S2845",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-07",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2845",
+     "basePrintNoStr": "S2845-2019",
+     "printNo": "S2845A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2019-02-07",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 2845A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2845",
+     "basePrintNoStr": "S2845-2019",
+     "printNo": "S2845A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-08",
+    "sequenceNo": 4,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2845",
+     "basePrintNoStr": "S2845-2019",
+     "printNo": "S2845A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2020-01-09",
+    "sequenceNo": 5,
+    "text": "RECOMMIT, ENACTING CLAUSE STRICKEN"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the emergency tenant protection act of nineteen seventy-four\nand the administrative code of the city of New York, in relation to the\nregulation of rents",
+    "basePrintNo": "S2845",
+    "basePrintNoStr": "S2845-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 18
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §10, Emerg Ten Prot Act of 1974; amd §26-511, NYC Ad Cd",
+    "lawSection": "Emergency Tenant Protection Act of 1974",
+    "memo": "\n \nBILL NUMBER: S2845\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the emergency tenant protection act of nineteen seven-\nty-four and the administrative code of the city of New York, in relation\nto the regulation of rents\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to prohibit an owner from revoking a rent\nstabilized tenant's preferential rent upon the renewal of a lease.\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill would prohibit building owners from revoking rent stabilized\ntenants' preferential rents upon lease renewal. A building owner could\nonly terminate a preferential rent, and collect the maximum legal regu-\nlated rent for a unit, upon a tenant's vacancy. In addition, such a\nvacancy could not be caused by the failure of an owner, or an agent of\nthe owner, to maintain the housing accommodation in a habitable condi-\ntion. This bill does not apply to buildings where all of the units are\nrent stabilized solely because of a regulatory agreement with a local\ngovernment agency and are deeply affordable due to project-based Section\n8 rental assistance.\n\n \nJUSTIFICATION:\n\nThe ability of building owners to terminate preferential rents upon\nlease renewal has exacerbated the displacement of rent stabilized\ntenants from their homes, created tremendous hardship and instability\nfor tenants, and worsened New York City's affordable housing crisis.\nPrior to a change in state law in 2003, a preferential rent offered to a\nrent stabilized tenant was permanent for the duration of a tenancy and\ncould only be revoked upon vacancy. As a result of amendments to the\nrent stabilization laws in 2003, owners have also been able to end pref-\nerential rents and impose maximum legal regulated rents anytime a\ntenant's lease comes up for renewal. This statutory change has put\nhundreds of thousands of tenants at risk of sudden and unexpected\nsubstantial rent increases. All too many of these tenants have been\nunable to pay the higher rents and been forced to leave their homes.\nCountless tenants have also been discouraged from raising concerns about\nconditions in their apartments and/or buildings because of fears this\ncould lead to the termination of their preferential rents.\n\nThe number of rent stabilized tenants in New York City and Westchester,\nNassau, and Rockland Counties with preferential rents has grown exponen-\ntially over the last two decades. According to data from the State Divi-\nsion of Housing and Community Renewal, there were 62 preferential rents\nregistered in 2000, 89,610 registered in 2002, and 266,279 registered in\n2015. In New York City, 251,374 rent stabilized homes (more than 31% of\nall occupied stabilized units) had preferential rents registered with\nthe State Division of Housing and Community Renewal in 2017. While the\npercentage of units with preferential rents varies significantly\nthroughout the New York City, there are zip codes where more than 80k of\nrent stabilized tenants have leases with preferential rents. Since\nbuilding owners currently can revoke a preferential rent anytime a lease\nis up for renewal, these tenants lack the security of tenure available\nto all other rent regulated tenants who pay their rent and comply with\ntheir leases.\n\nAdditionally, the existing law does not contain a \"clean hands\" require-\nment to ensure that building owners conduct themselves responsibly when\nterminating preferential rents and charging the maximum legal regulated\nrent upon vacancy. If a tenant leaves an apartment that is uninhabitable\ndue unsanitary conditions, lack of heat, hot water, electricity,\nrepairs, etc., an owner can significantly increase the rent upon the\nvacancy of an apartment. As such, the law encourages bad actors to\ndeprive tenants of a habitable apartment in order to benefit from the\nability to abandon a preferential rent.\n\nIn order to stem the displacement crisis in New York City and preserve\nthe affordable housing stock available to working families and moder-\nate-income residents, the rent regulation laws must be strengthened.\nThis proposed amendment of the preferential rent provisions is an impor-\ntant step in that direction.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nLEGISLATIVE HISTORY:\n\n2017-2018: S.6527/A.6285\n2015-2016: S.2828-B/A.3809-A\n2013-2014: S.1775/A.5473\n2011-2012: S.448\n2009-2010: S.2251/A.465-A\n2007-2008: A.10055-A\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2845",
+    "publishDate": "2019-01-29",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the emergency tenant protection act of nineteen seventy-four\nand the administrative code of the city of New York, in relation to the\nregulation of rents",
+    "basePrintNo": "S2845",
+    "basePrintNoStr": "S2845-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1193,
+       "sessionYear": 2019,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 36,
+       "fullName": "Jamaal Bailey",
+       "imgName": "924_Jamaal_Bailey.jpg",
+       "incumbent": true,
+       "memberId": 1102,
+       "sessionMemberId": 1199,
+       "sessionYear": 2019,
+       "shortName": "BAILEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1200,
+       "sessionYear": 2019,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1229,
+       "sessionYear": 2019,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 44,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 1201,
+       "sessionYear": 2019,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1202,
+       "sessionYear": 2019,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1203,
+       "sessionYear": 2019,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1227,
+       "sessionYear": 2019,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1190,
+       "sessionYear": 2019,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1228,
+       "sessionYear": 2019,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1407,
+       "sessionYear": 2019,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 1223,
+       "sessionYear": 2019,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 1210,
+       "sessionYear": 2019,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Velmanette Montgomery",
+       "imgName": "381_velmanette_montgomery.jpg",
+       "incumbent": false,
+       "memberId": 381,
+       "sessionMemberId": 1195,
+       "sessionYear": 2019,
+       "shortName": "MONTGOMERY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1226,
+       "sessionYear": 2019,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1194,
+       "sessionYear": 2019,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1207,
+       "sessionYear": 2019,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1224,
+       "sessionYear": 2019,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 1196,
+       "sessionYear": 2019,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1225,
+       "sessionYear": 2019,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 1208,
+       "sessionYear": 2019,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Diane J. Savino",
+       "imgName": "403_diane_j._savino.jpg",
+       "incumbent": false,
+       "memberId": 403,
+       "sessionMemberId": 1284,
+       "sessionYear": 2019,
+       "shortName": "SAVINO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1197,
+       "sessionYear": 2019,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1192,
+       "sessionYear": 2019,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1209,
+       "sessionYear": 2019,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 25
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §10, Emerg Ten Prot Act of 1974; amd §26-511, NYC Ad Cd",
+    "lawSection": "Emergency Tenant Protection Act of 1974",
+    "memo": "\n \nBILL NUMBER: S2845A\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the emergency tenant protection act of nineteen seven-\nty-four and the administrative code of the city of New York, in relation\nto the regulation of rents\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to prohibit an owner from revoking a rent\nstabilized tenant's preferential rent upon the renewal of a lease.\n\n \nSUMMARY OF PROVISIONS:\n\nThis bill would prohibit building owners from revoking rent stabilized\ntenants' preferential rents upon lease renewal. A building owner could\nonly terminate a preferential rent, and collect the maximum legal regu-\nlated rent for a unit, upon a tenant's vacancy. In addition, such a\nvacancy could not be caused by the failure of an owner, or an agent of\nthe owner, to maintain the housing accommodation in a habitable condi-\ntion. This bill does not apply to buildings where all of the units are\nrent stabilized solely because of a regulatory agreement with a local\ngovernment agency and are deeply affordable due to project-based Section\n8 rental assistance.\n\n \nJUSTIFICATION:\n\nThe ability of building owners to terminate preferential rents upon\nlease renewal has exacerbated the displacement of rent stabilized\ntenants from their homes, created tremendous hardship and instability\nfor tenants, and worsened New York City's affordable housing crisis.\nPrior to a change in state law in 2003, a preferential rent offered to a\nrent stabilized tenant was permanent for the duration of a tenancy and\ncould only be revoked upon vacancy. As a result of amendments to the\nrent stabilization laws in 2003, owners have also been able to end pref-\nerential rents and impose maximum legal regulated rents anytime a\ntenant's lease comes up for renewal. This statutory change has put\nhundreds of thousands of tenants at risk of sudden and unexpected\nsubstantial rent increases. All too many of these tenants have been\nunable to pay the higher rents and been forced to leave their homes.\nCountless tenants have also been discouraged from raising concerns about\nconditions in their apartments and/or buildings because of fears this\ncould lead to the termination of their preferential rents.\n\nThe number of rent stabilized tenants in New York City and Westchester,\nNassau, and Rockland Counties with preferential rents has grown exponen-\ntially over the last two decades. According to data from the State Divi-\nsion of Housing and Community Renewal, there were 62 preferential rents\nregistered in 2000, 89,610 registered in 2002, and 266,279 registered in\n2015. In New York City, 251,374 rent stabilized homes (more than 31k of\nall occupied stabilized units) had preferential rents registered with\nthe State Division of Housing and Community Renewal in 2017. While the\npercentage of units with preferential rents varies significantly\nthroughout the New York City, there are zip codes where more than 80% of\nrent stabilized tenants have leases with preferential rents. Since\nbuilding owners currently can revoke a preferential rent anytime a lease\nis up for renewal, these tenants lack the security of tenure available\nto all other rent regulated tenants who pay their rent and comply with\ntheir leases.\n\nAdditionally, the existing law does not contain a \"clean hands\" require-\nment to ensure that building owners conduct themselves responsibly when\nterminating preferential rents and charging the maximum legal regulated\nrent upon vacancy. If a tenant leaves an apartment that is uninhabitable\ndue unsanitary conditions, lack of heat, hot water, electricity,\nrepairs, etc., an owner can significantly increase the rent upon the\nvacancy of an apartment. As such, the law encourages bad actors to\ndeprive tenants of a habitable apartment in order to benefit from the\nability to abandon a preferential rent.\n\nIn order to stem the displacement crisis in New York City and preserve\nthe affordable housing stock available to working families and moder-\nate-income residents, the rent regulation laws must be strengthened.\nThis proposed amendment of the preferential rent provisions is an impor-\ntant step in that direction.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nNone.\n\n \nLEGISLATIVE HISTORY:\n\n2017-2018: S.6527/A.6285\n\n2015-2016: S.2828-B/A.3809-A\n\n2013-2014: S.1775/A.5473\n\n2011-2012: S.448\n\n2009-2010: S.2251/A.465-A\n\n2007-2008: A.10055-A\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2845A",
+    "publishDate": "2019-02-07",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4349",
+       "basePrintNoStr": "A4349-2019",
+       "printNo": "A4349",
+       "session": 2019,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": true,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2845",
+ "basePrintNoStr": "S2845-2019",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2020-01-08",
+    "billCalNo": null,
+    "committeeName": "Housing, Construction And Community Development",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2019-01-29T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2019-02-07T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2020-01-08T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S6527",
+    "basePrintNoStr": "S6527-2017",
+    "printNo": "S6527",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S2828",
+    "basePrintNoStr": "S2828-2015",
+    "printNo": "S2828B",
+    "session": 2015,
+    "version": "B"
+   },
+   {
+    "basePrintNo": "S1775",
+    "basePrintNoStr": "S1775-2013",
+    "printNo": "S1775",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S448",
+    "basePrintNoStr": "S448-2011",
+    "printNo": "S448",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S2251",
+    "basePrintNoStr": "S2251-2009",
+    "printNo": "S2251",
+    "session": 2009,
+    "version": ""
+   }
+  ],
+  "size": 5
+ },
+ "printNo": "S2845A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-29T16:29:41.808398",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-02-07T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2019-01-29T16:29:41.808398",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 28,
+   "fullName": "Liz Krueger",
+   "imgName": "401_liz_krueger.jpg",
+   "incumbent": true,
+   "memberId": 401,
+   "sessionMemberId": 1206,
+   "sessionYear": 2019,
+   "shortName": "KRUEGER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2020-01-09",
+  "billCalNo": null,
+  "committeeName": null,
+  "statusDesc": "Stricken",
+  "statusType": "STRICKEN"
+ },
+ "substitutedBy": null,
+ "summary": "Prohibits an owner from adjusting the amount of preferential rent, rent charged and paid by the tenant which is less than the legal regulated rent for the housing accommodation, upon the renewal of a lease; only allows the owner to make such adjustments upon a vacancy which is not the result of the failure of the owner to maintain a habitable residence.",
+ "title": "Prohibits an owner from adjusting the amount of preferential rent upon the renewal of a lease",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2020
+}

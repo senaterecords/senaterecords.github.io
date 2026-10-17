@@ -1,0 +1,791 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-01-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-05-01",
+    "sequenceNo": 2,
+    "text": "REPORTED REFERRED TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906",
+     "session": 2019,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-12",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-12",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 1906A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-19",
+    "sequenceNo": 5,
+    "text": "REPORTED REFERRED TO RULES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-20",
+    "sequenceNo": 6,
+    "text": "REPORTED"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-20",
+    "sequenceNo": 7,
+    "text": "RULES REPORT CAL.637"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1906",
+     "basePrintNoStr": "A1906-2019",
+     "printNo": "A1906A",
+     "session": 2019,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2019-06-20",
+    "sequenceNo": 8,
+    "text": "SUBSTITUTED BY S4663B"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to fire inspections of public\nand private schools",
+    "basePrintNo": "A1906",
+    "basePrintNoStr": "A1906-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1315,
+       "sessionYear": 2019,
+       "shortName": "GOTTFRIED R"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1337,
+       "sessionYear": 2019,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Inez E. Dickens",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1128,
+       "sessionMemberId": 1398,
+       "sessionYear": 2019,
+       "shortName": "DICKENS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Anthony D'Urso",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1130,
+       "sessionMemberId": 1400,
+       "sessionYear": 2019,
+       "shortName": "D'URSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1341,
+       "sessionYear": 2019,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 22,
+       "fullName": "Michaelle C. Solages",
+       "imgName": "673_michaelle_c._solages.jpg",
+       "incumbent": true,
+       "memberId": 673,
+       "sessionMemberId": 1362,
+       "sessionYear": 2019,
+       "shortName": "SOLAGES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 15,
+       "fullName": "Michael Montesano",
+       "imgName": "476_michael_montesano.jpg",
+       "incumbent": false,
+       "memberId": 476,
+       "sessionMemberId": 1437,
+       "sessionYear": 2019,
+       "shortName": "MONTESANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 12,
+       "fullName": "Andrew Raia",
+       "imgName": "462_andrew_raia.jpg",
+       "incumbent": false,
+       "memberId": 462,
+       "sessionMemberId": 1424,
+       "sessionYear": 2019,
+       "shortName": "RAIA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 1304,
+       "sessionYear": 2019,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 144,
+       "fullName": "Michael J. Norris",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1126,
+       "sessionMemberId": 1396,
+       "sessionYear": 2019,
+       "shortName": "NORRIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 130,
+       "fullName": "Brian Manktelow",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1251,
+       "sessionMemberId": 1249,
+       "sessionYear": 2019,
+       "shortName": "MANKTELOW"
+      }
+     ],
+     "size": 15
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§807-a & 807-c, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 101,
+       "fullName": "Brian D. Miller",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1125,
+       "sessionMemberId": 1395,
+       "sessionYear": 2019,
+       "shortName": "MILLER B"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      }
+     ],
+     "size": 2
+    },
+    "printNo": "A1906",
+    "publishDate": "2019-01-17",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to fire inspections of public\nand private schools",
+    "basePrintNo": "A1906",
+    "basePrintNoStr": "A1906-2019",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Ellen C. Jaffee",
+       "imgName": "546_ellen_c._jaffee.jpg",
+       "incumbent": false,
+       "memberId": 546,
+       "sessionMemberId": 1427,
+       "sessionYear": 2019,
+       "shortName": "JAFFEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1315,
+       "sessionYear": 2019,
+       "shortName": "GOTTFRIED R"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1431,
+       "sessionYear": 2019,
+       "shortName": "THIELE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1312,
+       "sessionYear": 2019,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1292,
+       "sessionYear": 2019,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1337,
+       "sessionYear": 2019,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Inez E. Dickens",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1128,
+       "sessionMemberId": 1398,
+       "sessionYear": 2019,
+       "shortName": "DICKENS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Anthony D'Urso",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1130,
+       "sessionMemberId": 1400,
+       "sessionYear": 2019,
+       "shortName": "D'URSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1341,
+       "sessionYear": 2019,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 22,
+       "fullName": "Michaelle C. Solages",
+       "imgName": "673_michaelle_c._solages.jpg",
+       "incumbent": true,
+       "memberId": 673,
+       "sessionMemberId": 1362,
+       "sessionYear": 2019,
+       "shortName": "SOLAGES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 15,
+       "fullName": "Michael Montesano",
+       "imgName": "476_michael_montesano.jpg",
+       "incumbent": false,
+       "memberId": 476,
+       "sessionMemberId": 1437,
+       "sessionYear": 2019,
+       "shortName": "MONTESANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 12,
+       "fullName": "Andrew Raia",
+       "imgName": "462_andrew_raia.jpg",
+       "incumbent": false,
+       "memberId": 462,
+       "sessionMemberId": 1424,
+       "sessionYear": 2019,
+       "shortName": "RAIA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 1304,
+       "sessionYear": 2019,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 144,
+       "fullName": "Michael J. Norris",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1126,
+       "sessionMemberId": 1396,
+       "sessionYear": 2019,
+       "shortName": "NORRIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 130,
+       "fullName": "Brian Manktelow",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1251,
+       "sessionMemberId": 1249,
+       "sessionYear": 2019,
+       "shortName": "MANKTELOW"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 58,
+       "fullName": "N. Nick Perry",
+       "imgName": "511_n._nick_perry.jpg",
+       "incumbent": false,
+       "memberId": 511,
+       "sessionMemberId": 1308,
+       "sessionYear": 2019,
+       "shortName": "PERRY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 93,
+       "fullName": "David Buchwald",
+       "imgName": "654_david_buchwald.jpg",
+       "incumbent": false,
+       "memberId": 654,
+       "sessionMemberId": 1348,
+       "sessionYear": 2019,
+       "shortName": "BUCHWALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 127,
+       "fullName": "Albert A. Stirpe",
+       "imgName": "571_albert_a._stirpe.jpg",
+       "incumbent": true,
+       "memberId": 571,
+       "sessionMemberId": 1448,
+       "sessionYear": 2019,
+       "shortName": "STIRPE"
+      }
+     ],
+     "size": 18
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§807-a & 807-c, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 101,
+       "fullName": "Brian D. Miller",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1125,
+       "sessionMemberId": 1395,
+       "sessionYear": 2019,
+       "shortName": "MILLER B"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1377,
+       "sessionYear": 2019,
+       "shortName": "SIMON"
+      }
+     ],
+     "size": 2
+    },
+    "printNo": "A1906A",
+    "publishDate": "2019-06-12",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S4663",
+       "basePrintNoStr": "S4663-2019",
+       "printNo": "S4663B",
+       "session": 2019,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2019,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A1906",
+ "basePrintNoStr": "A1906-2019",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2019-06-19",
+    "billCalNo": null,
+    "committeeName": "Rules",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   },
+   {
+    "actionDate": "2019-06-20",
+    "billCalNo": 637,
+    "committeeName": null,
+    "statusDesc": "Assembly Floor Calendar",
+    "statusType": "ASSEMBLY_FLOOR"
+   }
+  ],
+  "size": 2
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Education",
+    "referenceDate": "2019-01-17T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Rules",
+    "referenceDate": "2019-06-19T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2019-05-01T00:00",
+    "sessionYear": 2019
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2019-06-12T00:00",
+    "sessionYear": 2019
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A2985",
+    "basePrintNoStr": "A2985-2017",
+    "printNo": "A2985A",
+    "session": 2017,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A1906A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2019-01-17T14:37:30.312095",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2019-06-12T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2019-01-17T13:24:14.602756",
+ "reprintOf": null,
+ "session": 2019,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 96,
+   "fullName": "Kenneth Zebrowski",
+   "imgName": "545_kenneth_zebrowski.jpg",
+   "incumbent": false,
+   "memberId": 545,
+   "sessionMemberId": 1429,
+   "sessionYear": 2019,
+   "shortName": "ZEBROWSKI"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2019-06-20",
+  "billCalNo": 637,
+  "committeeName": null,
+  "statusDesc": "Assembly Floor Calendar",
+  "statusType": "ASSEMBLY_FLOOR"
+ },
+ "substitutedBy": {
+  "basePrintNo": "S4663",
+  "basePrintNoStr": "S4663-2019",
+  "session": 2019
+ },
+ "summary": "Relates to fire inspections in public and private schools; requires annual fire safety reports.",
+ "title": "Relates to fire inspections in public and private schools",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2019
+}

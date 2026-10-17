@@ -1,0 +1,208 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A531",
+     "basePrintNoStr": "A531-2013",
+     "printNo": "A531",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2013-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LOCAL GOVERNMENTS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A531",
+     "basePrintNoStr": "A531-2013",
+     "printNo": "A531",
+     "session": 2013,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2014-01-08",
+    "sequenceNo": 2,
+    "text": "REFERRED TO LOCAL GOVERNMENTS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general municipal law, in relation to apportioning the expenses of police department members attending police training schools",
+    "basePrintNo": "A531",
+    "basePrintNoStr": "A531-2013",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §72-c, Gen Muni L",
+    "lawSection": "General Municipal Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A531",
+    "publishDate": "2012-12-20",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2013,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A531",
+ "basePrintNoStr": "A531-2013",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2014-01-08",
+    "billCalNo": null,
+    "committeeName": "Local Governments",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Local Governments",
+    "referenceDate": "2013-01-09T00:00",
+    "sessionYear": 2013
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Local Governments",
+    "referenceDate": "2014-01-08T00:00",
+    "sessionYear": 2013
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A2844",
+    "basePrintNoStr": "A2844-2011",
+    "printNo": "A2844",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A2724",
+    "basePrintNoStr": "A2724-2009",
+    "printNo": "A2724",
+    "session": 2009,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A4299",
+    "basePrintNoStr": "A4299-2007",
+    "printNo": "A4299",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "A531",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2012-12-20T14:45:31",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2012-12-20T14:45:31",
+ "reprintOf": null,
+ "session": 2013,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 87,
+   "fullName": "J. Gary Pretlow",
+   "imgName": "539_j._gary_pretlow.jpg",
+   "incumbent": true,
+   "memberId": 539,
+   "sessionMemberId": 599,
+   "sessionYear": 2013,
+   "shortName": "PRETLOW"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2014-01-08",
+  "billCalNo": null,
+  "committeeName": "Local Governments",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Includes all counties and cities with a population of two hundred thousand or less within provisions which permit the apportionment of expense of municipal police department member training, thus allowing police departments to receive reimbursement of training costs if an officer is hired by another department.",
+ "title": "Changes population restrictions on apportioning expense of municipal police department member training",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

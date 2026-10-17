@@ -1,0 +1,186 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5175",
+     "basePrintNoStr": "S5175-2011",
+     "printNo": "S5175",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2011-05-03",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5175",
+     "basePrintNoStr": "S5175-2011",
+     "printNo": "S5175",
+     "session": 2011,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2012-01-04",
+    "sequenceNo": 2,
+    "text": "REFERRED TO INSURANCE"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law, in relation to ensuring insurance coverage for children in need of early intervention services",
+    "basePrintNo": "S5175",
+    "basePrintNoStr": "S5175-2011",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3235-a, Ins L",
+    "lawSection": "Insurance Law",
+    "memo": "BILL NUMBER:S5175\n\nTITLE OF BILL:\nAn act\nto amend the insurance law, in relation\nto ensuring insurance coverage for children in\nneed of early intervention services\n\nPURPOSE:\nTo ensure insurance coverage for children ages 0-3 in need of early\nintervention services.\n\nSUMMARY OF PROVISIONS:\nSection 1 amends section 3235-a to delineate conditions for\npreapproval of early intervention\n\nSection 2 designates the effective date for the bill after it shall\nhave become a law.\n\nEXISTING LAW: None.\n\nJUSTIFICATION:\nThe Early Intervention Program offers a variety of therapeutic and\nsupport services to eligible infants and toddlers with disabilities\naged 0 - 3.\n\nLast year, of the participating families in children in EIP, about 48%\nof recipients had private insurance. Counties then billed third party\nproviders $100 million for school-district mandated services. Of the\n$100 million billed, only $10 million was received. 10% paid on what\nis 100% justifiably owed. The justification for such disparity\nbetween monies owed and monies received includes nothing to help\nthese children with the most difficult of obstacles. In fact, it does\nthe very opposite.\n\nThe only thing accomplished when reimbursement is denied is a heavier\ncost burden on the shoulders of counties. From top to bottom, the\nEarly Intervention Program is undermined, if not altogether dropped\nbecause the necessary funds cannot be allocated. This legislation bans\ninsurance companies from denying Early Intervention claims based on\nmost of the common reasons.\n\nLEGISLATIVE HISTORY: New Bill.\n\nFISCAL IMPLICATIONS: None to the state.\n\nEFFECTIVE DATE:\nThis act shall take effect immediately and shall apply to any\ncontracts entered into, altered, modified, extended or removed on or\nafter such effective date.\n\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5175",
+    "publishDate": "2011-05-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2011,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5175",
+ "basePrintNoStr": "S5175-2011",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2012-01-04",
+    "billCalNo": null,
+    "committeeName": "Insurance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2011-05-03T00:00",
+    "sessionYear": 2011
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Insurance",
+    "referenceDate": "2012-01-04T00:00",
+    "sessionYear": 2011
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5175",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2011-05-03T17:19:53",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2011-05-03T17:19:53",
+ "reprintOf": null,
+ "session": 2011,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 59,
+   "fullName": "Patrick M. Gallivan",
+   "imgName": "427_patrick_m._gallivan.jpg",
+   "incumbent": true,
+   "memberId": 427,
+   "sessionMemberId": 121,
+   "sessionYear": 2011,
+   "shortName": "GALLIVAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2012-01-04",
+  "billCalNo": null,
+  "committeeName": "Insurance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to insurance coverage for children in need of early intervention services.",
+ "title": "Relates to insurance coverage for children in need of early intervention services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 0
+}

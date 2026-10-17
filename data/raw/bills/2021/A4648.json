@@ -1,0 +1,403 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A4648",
+     "basePrintNoStr": "A4648-2021",
+     "printNo": "A4648",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-02-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4648",
+     "basePrintNoStr": "A4648-2021",
+     "printNo": "A4648",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4648",
+     "basePrintNoStr": "A4648-2021",
+     "printNo": "A4648",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-03-10",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4648",
+     "basePrintNoStr": "A4648-2021",
+     "printNo": "A4648A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-03-10",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 4648A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4648",
+     "basePrintNoStr": "A4648-2021",
+     "printNo": "A4648A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-04-27",
+    "sequenceNo": 5,
+    "text": "HELD FOR CONSIDERATION IN EDUCATION"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to adjusting the regional cost\nindex for state school aid with respect to the Hudson Valley region",
+    "basePrintNo": "A4648",
+    "basePrintNoStr": "A4648-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 9,
+       "fullName": "Michael Durso",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1466,
+       "sessionMemberId": 1772,
+       "sessionYear": 2021,
+       "shortName": "DURSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 130,
+       "fullName": "Brian Manktelow",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1251,
+       "sessionMemberId": 1707,
+       "sessionYear": 2021,
+       "shortName": "MANKTELOW"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 98,
+       "fullName": "Karl Brabenec",
+       "imgName": "908_karl_brabenec.jpg",
+       "incumbent": true,
+       "memberId": 908,
+       "sessionMemberId": 1655,
+       "sessionYear": 2021,
+       "shortName": "BRABENEC"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 3,
+       "fullName": "Joe DeStefano",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1238,
+       "sessionMemberId": 1673,
+       "sessionYear": 2021,
+       "shortName": "DESTEFANO"
+      }
+     ],
+     "size": 4
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3602, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A4648",
+    "publishDate": "2021-02-04",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN3602"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to adjusting the regional cost\nindex for state school aid with respect to the Hudson Valley region",
+    "basePrintNo": "A4648",
+    "basePrintNoStr": "A4648-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 9,
+       "fullName": "Michael Durso",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1466,
+       "sessionMemberId": 1772,
+       "sessionYear": 2021,
+       "shortName": "DURSO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 130,
+       "fullName": "Brian Manktelow",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1251,
+       "sessionMemberId": 1707,
+       "sessionYear": 2021,
+       "shortName": "MANKTELOW"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 98,
+       "fullName": "Karl Brabenec",
+       "imgName": "908_karl_brabenec.jpg",
+       "incumbent": true,
+       "memberId": 908,
+       "sessionMemberId": 1655,
+       "sessionYear": 2021,
+       "shortName": "BRABENEC"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 3,
+       "fullName": "Joe DeStefano",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1238,
+       "sessionMemberId": 1673,
+       "sessionYear": 2021,
+       "shortName": "DESTEFANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 1741,
+       "sessionYear": 2021,
+       "shortName": "SAYEGH"
+      }
+     ],
+     "size": 5
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §3602, Ed L",
+    "lawSection": "Education Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A4648A",
+    "publishDate": "2022-03-10",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN3602"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S8488",
+       "basePrintNoStr": "S8488-2021",
+       "printNo": "S8488",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A4648",
+ "basePrintNoStr": "A4648-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-03-10",
+    "billCalNo": null,
+    "committeeName": "Education",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Education",
+    "referenceDate": "2021-02-04T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Education",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Education",
+    "referenceDate": "2022-03-10T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A4648A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-02-04T16:32:29.010510",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-03-10T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-02-04T15:51:44.047064",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 97,
+   "fullName": "Michael Lawler",
+   "imgName": "no_image.jpg",
+   "incumbent": false,
+   "memberId": 1479,
+   "sessionMemberId": 1785,
+   "sessionYear": 2021,
+   "shortName": "LAWLER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-03-10",
+  "billCalNo": null,
+  "committeeName": "Education",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Adjusts the regional labor force cost index for the Hudson Valley region for the 2022-2023 school year and thereafter.",
+ "title": "Adjusts the regional labor force cost index for the Hudson Valley region",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

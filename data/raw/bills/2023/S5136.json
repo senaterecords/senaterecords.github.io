@@ -1,0 +1,371 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S5136",
+     "basePrintNoStr": "S5136-2023",
+     "printNo": "S5136",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-02-23",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5136",
+     "basePrintNoStr": "S5136-2023",
+     "printNo": "S5136",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HEALTH"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law and the public health law, in relation\nto pharmacy services provided by managed care providers and to repeal sections\n1 and 1-a of part FFF of chapter 56 of the laws of 2020 relating to directing\nthe department of health to remove the pharmacy benefit from the managed care\nbenefit package and to provide the pharmacy benefit under the fee for service\nprogram, in relation thereto",
+    "basePrintNo": "S5136",
+    "basePrintNoStr": "S5136-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 14
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Rpld Part FFF §§1 & 1-a, Chap 56 of 2020; amd §364-j, Soc Serv L; amd §280-a, Pub Health L",
+    "lawSection": "Social Services Law",
+    "memo": " \nBILL NUMBER: S5136\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend the social services law and the public health law, in\nrelation to pharmacy services provided by managed care providers and to\nrepeal sections 1 and 1-a of part FFF of chapter 56 of the laws of 2020\nrelating to directing the department of health to remove the pharmacy\nbenefit from the managed care benefit package and to provide the pharma-\ncy benefit under the fee for service program, in relation thereto\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThe purpose of this bill is to repeal the transition of the Medicaid\npharmacy benefit from managed care to fee-for-service, which would cause\nunintentional harm to certain providers participating in the federal\n340B program, while still maintaining protections for pharmacy oper-\nations and reducing administrative costs associated with the 340B\nprogram.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nSection 1 of the bill would repeal Sections 1 and 1-a of part FFF of\nchapter 56 of the laws of 2020 that authorizes the Department of Health\n(DOH) to transition the pharmacy benefit from managed care into fee-for-\nservice.\n\nSection 2 of the bill requires all managed care providers and pharmacy\nbenefit managers to use the feefor-service preferred drug list in devel-\noping their formulary. All managed care organizations and pharmacy bene-\nfit managers would be required to reimburse retail pharmacies and 340B\ncovered entity providers for each drug at the National Average Drug\nAcquisition Cost (NADAC) plus a tiered volume-based dispensing fee to be\ndetermined by DOH. If a specific drug does not have a NADAC rate, then\nfeefor-service reimbursement methodologies would be used. The bill\nrequires the dispensing fee set by the Commissioner of DOH to be an\namount of at least $8.50, but would allow for it to be increased above\nthis amount for smaller pharmacies dispensing lower volumes that may be\nsubject to higher operational costs. Managed care providers would be\nprohibited from denying retail pharmacies the opportunity to participate\nin their network under Medicaid under certain conditions. Contract phar-\nmacies performing services under the 340B program would be reimbursed\nunder a fee schedule that is based on fair market principles and cannot\nbe a percentage of a claim's total reimbursement or net margin.\n\nSection 3 would prohibit pharmacy benefit managers from limiting an\nindividual's choice to receive their medication form their local, non-\nmail order pharmacy of choice.\n\nSection 4 is the effective date.\n\n \nJUSTIFICATION:\n\nThe SFY 2020-21 final adopted budget included a provision that transi-\ntions the Medicaid pharmacy benefit from managed care to the fee-for-\nservice program. While the implementation of the transition was delayed\nfor two years in the SFY 2021-22 budget, the transition is now set to go\nforward on April 1, 2023.  The transition eliminates the ability of\nsafety-net providers to utilize savings from the federal 340B program,\nas that program can only operate under managed care and not fee-for-ser-\nvice. The 340B drug rebate program provides funding to safety-net\nproviders that is used to expand healthcare services and other programs\nfor vulnerable, high-need populations. Some estimates show that safety-\nnet providers will lose hundreds of millions of dollars from lost 340B\nfunding.\n\nThis bill maintains the pharmacy benefit within managed care, which\npreserves the 340B drug rebate mechanism. Instead, a single Preferred\nDrug List (PDL) would be created that would require uniform utilization\nreview management protocols, enhance the State's negotiating power for\ndrug rebates, and provide greater transparency in the program. The bill\nwill also end restrictive and anti-competitive pharmacy benefit manager\n(PBM) practices by protecting pharmacy networks, limiting fees that\nPBM's and other third-party middlemen siphon from the program, and phar-\nmacists will receive a fair and transparent dispensing fee.\n\nThis bill achieves many of the same goals of the original carveout, but\nwith much less disruption to important safety-net providers across the\nstate.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nUndetermined, but potential savings to the Medicaid program from effi-\nciencies in the single formulary.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; except that sections two and\nthree shall take effect April 1, 2023.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5136",
+    "publishDate": "2023-02-23",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "PBH280-A",
+        "SOS364-J"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A5911",
+       "basePrintNoStr": "A5911-2023",
+       "printNo": "A5911",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S5136",
+ "basePrintNoStr": "S5136-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2023-02-23T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S5136",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-02-23T10:06:35.143931",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-02-23T10:06:35.143931",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 2031,
+   "sessionYear": 2023,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Health",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to pharmacy services provided by managed care providers; requires pharmacy benefit managers and managed care providers to reimburse retail pharmacies for each outpatient drug, at the National Average Drug Acquisition Cost (NADAC); repeals related provisions.",
+ "title": "Relates to pharmacy services provided by managed care providers; repealer",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

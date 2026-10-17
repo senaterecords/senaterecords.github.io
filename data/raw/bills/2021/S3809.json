@@ -1,0 +1,201 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3809",
+     "basePrintNoStr": "S3809-2021",
+     "printNo": "S3809",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-30",
+    "sequenceNo": 1,
+    "text": "REFERRED TO TRANSPORTATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3809",
+     "basePrintNoStr": "S3809-2021",
+     "printNo": "S3809",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO TRANSPORTATION"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the vehicle and traffic law, in relation to issuing non-driver\nidentification cards to certain persons with suspended driving privileges",
+    "basePrintNo": "S3809",
+    "basePrintNoStr": "S3809-2021",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §1193, V & T L",
+    "lawSection": "Vehicle and Traffic Law",
+    "memo": "\n \nBILL NUMBER: S3809\n\nSPONSOR: SKOUFIS\n \nTITLE OF BILL:\n\nAn act to amend the vehicle and traffic law, in relation to issuing\nnon-driver identification cards to certain persons with suspended driv-\ning privileges\n\n \nPURPOSE:\n\nTo require the Department of Motor Vehicles to issue a non-driver iden-\ntification card to an individual who has had their driver's license\nsuspended by a court.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Requires the Department of Motor Vehicles, when a court\nsuspends a driver's license, to immediately issue to the person whose\ndriver's license was suspended a non-driver identification photo card to\nsuch person. The nondriver identification card shall be in the same form\nas any other non-driver identification card issue under section 490 of\nthe vehicle and traffic law.\n\nSection 2: Effective date\n\n \nJUSTIFICATION:\n\nThis bill will direct the Department of Motor Vehicles to provide those\nindividuals with a court ordered suspension of a driver's license with a\nnondriver identification photo card. The issuance of a non-driver's\nidentification card will allow those with a suspended driver's license\nto complete necessary daily functions such as travelling, banking, and\nshopping.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nFISCAL IMPLICATIONS:\n\nNone to the state.\n\n \nEFFECTIVE DATE:\nThis act shall take effect on the ninetieth day after it shall have\nbecome a law. Effective immediately, the addition, amendment and/or\nrepeal of any rule or regulation necessary for the implementation of 13\nthis act on its effective date are authorized to be made and completed\n14 on or before such effective date.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3809",
+    "publishDate": "2021-01-30",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "VAT1193"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6942",
+       "basePrintNoStr": "A6942-2021",
+       "printNo": "A6942",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3809",
+ "basePrintNoStr": "S3809-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Transportation",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Transportation",
+    "referenceDate": "2021-01-30T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Transportation",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S3809",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-30T16:08:09.410719",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2021-01-30T16:08:09.410719",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 39,
+   "fullName": "James Skoufis",
+   "imgName": "672_james_skoufis.jpg",
+   "incumbent": true,
+   "memberId": 1232,
+   "sessionMemberId": 1839,
+   "sessionYear": 2021,
+   "shortName": "SKOUFIS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Transportation",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Issues non-driver identification cards to certain persons with suspended driving privileges due to a driving while intoxicated arrest.",
+ "title": "Relates to issuing non-driver identification cards to certain persons with suspended driving privileges",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

@@ -1,0 +1,1207 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A454",
+     "basePrintNoStr": "A454-2021",
+     "printNo": "A454",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-01-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO ELECTION LAW"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A454",
+     "basePrintNoStr": "A454-2021",
+     "printNo": "A454",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-02-10",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO ELECTION LAW"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A454",
+     "basePrintNoStr": "A454-2021",
+     "printNo": "A454A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-02-10",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 454A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A454",
+     "basePrintNoStr": "A454-2021",
+     "printNo": "A454A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 4,
+    "text": "REFERRED TO ELECTION LAW"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the election law, in relation to the boundaries of election\ndistricts and the designation of polling places",
+    "basePrintNo": "A454",
+    "basePrintNoStr": "A454-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 141,
+       "fullName": "Crystal Peoples-Stokes",
+       "imgName": "591_crystal_peoples-stokes.jpg",
+       "incumbent": true,
+       "memberId": 591,
+       "sessionMemberId": 1723,
+       "sessionYear": 2021,
+       "shortName": "PEOPLES-STOKES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 103,
+       "fullName": "Kevin Cahill",
+       "imgName": "551_kevin_cahill.jpg",
+       "incumbent": false,
+       "memberId": 551,
+       "sessionMemberId": 1662,
+       "sessionYear": 2021,
+       "shortName": "CAHILL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1666,
+       "sessionYear": 2021,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1676,
+       "sessionYear": 2021,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 4,
+       "fullName": "Steven Englebright",
+       "imgName": "466_steven_englebright.jpg",
+       "incumbent": false,
+       "memberId": 466,
+       "sessionMemberId": 1679,
+       "sessionYear": 2021,
+       "shortName": "ENGLEBRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1686,
+       "sessionYear": 2021,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1690,
+       "sessionYear": 2021,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 33,
+       "fullName": "Clyde Vanel",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1118,
+       "sessionMemberId": 1754,
+       "sessionYear": 2021,
+       "shortName": "VANEL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1644,
+       "sessionYear": 2021,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 21,
+       "fullName": "Judy Griffin",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1241,
+       "sessionMemberId": 1691,
+       "sessionYear": 2021,
+       "shortName": "GRIFFIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 104,
+       "fullName": "Jonathan Jacobson",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1259,
+       "sessionMemberId": 1698,
+       "sessionYear": 2021,
+       "shortName": "JACOBSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 106,
+       "fullName": "Didi Barrett",
+       "imgName": "625_didi_barrett.jpg",
+       "incumbent": true,
+       "memberId": 625,
+       "sessionMemberId": 1650,
+       "sessionYear": 2021,
+       "shortName": "BARRETT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 1732,
+       "sessionYear": 2021,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 1665,
+       "sessionYear": 2021,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 1667,
+       "sessionYear": 2021,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Harvey Epstein",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1144,
+       "sessionMemberId": 1680,
+       "sessionYear": 2021,
+       "shortName": "EPSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 1760,
+       "sessionYear": 2021,
+       "shortName": "WEPRIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1744,
+       "sessionYear": 2021,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 91,
+       "fullName": "Steven Otis",
+       "imgName": "665_steven_otis.jpg",
+       "incumbent": true,
+       "memberId": 665,
+       "sessionMemberId": 1720,
+       "sessionYear": 2021,
+       "shortName": "OTIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 46,
+       "fullName": "Mathylde Frontus",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1256,
+       "sessionMemberId": 1764,
+       "sessionYear": 2021,
+       "shortName": "FRONTUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 1743,
+       "sessionYear": 2021,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": false,
+       "memberId": 657,
+       "sessionMemberId": 1681,
+       "sessionYear": 2021,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 72,
+       "fullName": "Carmen De La Rosa",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1129,
+       "sessionMemberId": 1672,
+       "sessionYear": 2021,
+       "shortName": "DE LA ROSA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 26,
+       "fullName": "Edward Braunstein",
+       "imgName": "610_edward_braunstein.jpg",
+       "incumbent": true,
+       "memberId": 610,
+       "sessionMemberId": 1656,
+       "sessionYear": 2021,
+       "shortName": "BRAUNSTEIN"
+      }
+     ],
+     "size": 24
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§4-104, 4-100 & 8-600, El L",
+    "lawSection": "Election Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 66,
+       "fullName": "Deborah Glick",
+       "imgName": "519_deborah_glick.jpg",
+       "incumbent": true,
+       "memberId": 519,
+       "sessionMemberId": 1688,
+       "sessionYear": 2021,
+       "shortName": "GLICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1705,
+       "sessionYear": 2021,
+       "shortName": "LUPARDO"
+      }
+     ],
+     "size": 2
+    },
+    "printNo": "A454",
+    "publishDate": "2020-12-28",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the election law, in relation to the boundaries of election\ndistricts and the designation of polling places",
+    "basePrintNo": "A454",
+    "basePrintNoStr": "A454-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 141,
+       "fullName": "Crystal Peoples-Stokes",
+       "imgName": "591_crystal_peoples-stokes.jpg",
+       "incumbent": true,
+       "memberId": 591,
+       "sessionMemberId": 1723,
+       "sessionYear": 2021,
+       "shortName": "PEOPLES-STOKES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 103,
+       "fullName": "Kevin Cahill",
+       "imgName": "551_kevin_cahill.jpg",
+       "incumbent": false,
+       "memberId": 551,
+       "sessionMemberId": 1662,
+       "sessionYear": 2021,
+       "shortName": "CAHILL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 1666,
+       "sessionYear": 2021,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1676,
+       "sessionYear": 2021,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 4,
+       "fullName": "Steven Englebright",
+       "imgName": "466_steven_englebright.jpg",
+       "incumbent": false,
+       "memberId": 466,
+       "sessionMemberId": 1679,
+       "sessionYear": 2021,
+       "shortName": "ENGLEBRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1686,
+       "sessionYear": 2021,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Richard Gottfried",
+       "imgName": "527_richard_gottfried.jpg",
+       "incumbent": false,
+       "memberId": 527,
+       "sessionMemberId": 1690,
+       "sessionYear": 2021,
+       "shortName": "GOTTFRIED"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 33,
+       "fullName": "Clyde Vanel",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1118,
+       "sessionMemberId": 1754,
+       "sessionYear": 2021,
+       "shortName": "VANEL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1644,
+       "sessionYear": 2021,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 21,
+       "fullName": "Judy Griffin",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1241,
+       "sessionMemberId": 1691,
+       "sessionYear": 2021,
+       "shortName": "GRIFFIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 104,
+       "fullName": "Jonathan Jacobson",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1259,
+       "sessionMemberId": 1698,
+       "sessionYear": 2021,
+       "shortName": "JACOBSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 106,
+       "fullName": "Didi Barrett",
+       "imgName": "625_didi_barrett.jpg",
+       "incumbent": true,
+       "memberId": 625,
+       "sessionMemberId": 1650,
+       "sessionYear": 2021,
+       "shortName": "BARRETT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 1732,
+       "sessionYear": 2021,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 47,
+       "fullName": "William Colton",
+       "imgName": "500_william_colton.jpg",
+       "incumbent": true,
+       "memberId": 500,
+       "sessionMemberId": 1665,
+       "sessionYear": 2021,
+       "shortName": "COLTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 1667,
+       "sessionYear": 2021,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Harvey Epstein",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1144,
+       "sessionMemberId": 1680,
+       "sessionYear": 2021,
+       "shortName": "EPSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 1760,
+       "sessionYear": 2021,
+       "shortName": "WEPRIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1744,
+       "sessionYear": 2021,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 91,
+       "fullName": "Steven Otis",
+       "imgName": "665_steven_otis.jpg",
+       "incumbent": true,
+       "memberId": 665,
+       "sessionMemberId": 1720,
+       "sessionYear": 2021,
+       "shortName": "OTIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 46,
+       "fullName": "Mathylde Frontus",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1256,
+       "sessionMemberId": 1764,
+       "sessionYear": 2021,
+       "shortName": "FRONTUS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 1743,
+       "sessionYear": 2021,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": false,
+       "memberId": 657,
+       "sessionMemberId": 1681,
+       "sessionYear": 2021,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 72,
+       "fullName": "Carmen De La Rosa",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1129,
+       "sessionMemberId": 1672,
+       "sessionYear": 2021,
+       "shortName": "DE LA ROSA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 26,
+       "fullName": "Edward Braunstein",
+       "imgName": "610_edward_braunstein.jpg",
+       "incumbent": true,
+       "memberId": 610,
+       "sessionMemberId": 1656,
+       "sessionYear": 2021,
+       "shortName": "BRAUNSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 93,
+       "fullName": "Chris Burdick",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1478,
+       "sessionMemberId": 1784,
+       "sessionYear": 2021,
+       "shortName": "BURDICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1753,
+       "sessionYear": 2021,
+       "shortName": "THIELE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 88,
+       "fullName": "Amy Paulin",
+       "imgName": "540_amy_paulin.jpg",
+       "incumbent": true,
+       "memberId": 540,
+       "sessionMemberId": 1722,
+       "sessionYear": 2021,
+       "shortName": "PAULIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 55,
+       "fullName": "Latrice Walker",
+       "imgName": "896_latrice_walker.jpg",
+       "incumbent": true,
+       "memberId": 896,
+       "sessionMemberId": 1756,
+       "sessionYear": 2021,
+       "shortName": "WALKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Jessica Gonzalez-Rojas",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1468,
+       "sessionMemberId": 1774,
+       "sessionYear": 2021,
+       "shortName": "GONZALEZ-ROJAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1705,
+       "sessionYear": 2021,
+       "shortName": "LUPARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 42,
+       "fullName": "Rodneyse Bichotte Hermelyn",
+       "imgName": "898_rodneyse_bichotte.jpg",
+       "incumbent": true,
+       "memberId": 898,
+       "sessionMemberId": 1859,
+       "sessionYear": 2021,
+       "shortName": "BICHOTTE HERMELYN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 16,
+       "fullName": "Gina Sillitti",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1467,
+       "sessionMemberId": 1773,
+       "sessionYear": 2021,
+       "shortName": "SILLITTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 44,
+       "fullName": "Robert C. Carroll",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1122,
+       "sessionMemberId": 1663,
+       "sessionYear": 2021,
+       "shortName": "CARROLL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 149,
+       "fullName": "Jonathan Rivera",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1488,
+       "sessionMemberId": 1794,
+       "sessionYear": 2021,
+       "shortName": "RIVERA JD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 85,
+       "fullName": "Kenny Burgos",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1463,
+       "sessionMemberId": 1769,
+       "sessionYear": 2021,
+       "shortName": "BURGOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 50,
+       "fullName": "Emily Gallagher",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1471,
+       "sessionMemberId": 1777,
+       "sessionYear": 2021,
+       "shortName": "GALLAGHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 56,
+       "fullName": "Stefani Zinerman",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1473,
+       "sessionMemberId": 1779,
+       "sessionYear": 2021,
+       "shortName": "ZINERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Phara Souffrant Forrest",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1474,
+       "sessionMemberId": 1861,
+       "sessionYear": 2021,
+       "shortName": "FORREST"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 80,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": false,
+       "memberId": 1146,
+       "sessionMemberId": 1683,
+       "sessionYear": 2021,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 36,
+       "fullName": "Zohran Mamdani",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1469,
+       "sessionMemberId": 1775,
+       "sessionYear": 2021,
+       "shortName": "MAMDANI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 143,
+       "fullName": "Monica P. Wallace",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1133,
+       "sessionMemberId": 1757,
+       "sessionYear": 2021,
+       "shortName": "WALLACE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 28,
+       "fullName": "Andrew Hevesi",
+       "imgName": "488_andrew_hevesi.jpg",
+       "incumbent": true,
+       "memberId": 488,
+       "sessionMemberId": 1695,
+       "sessionYear": 2021,
+       "shortName": "HEVESI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 11,
+       "fullName": "Kimberly Jean-Pierre",
+       "imgName": "901_jean-pierre.jpg",
+       "incumbent": false,
+       "memberId": 901,
+       "sessionMemberId": 1699,
+       "sessionYear": 2021,
+       "shortName": "JEAN-PIERRE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 35,
+       "fullName": "Jeffrion Aubry",
+       "imgName": "460_jeffrion_aubry.jpg",
+       "incumbent": false,
+       "memberId": 460,
+       "sessionMemberId": 1647,
+       "sessionYear": 2021,
+       "shortName": "AUBRY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1736,
+       "sessionYear": 2021,
+       "shortName": "ROSENTHAL L"
+      }
+     ],
+     "size": 45
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§4-104, 4-100 & 8-600, El L",
+    "lawSection": "Election Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 66,
+       "fullName": "Deborah Glick",
+       "imgName": "519_deborah_glick.jpg",
+       "incumbent": true,
+       "memberId": 519,
+       "sessionMemberId": 1688,
+       "sessionYear": 2021,
+       "shortName": "GLICK"
+      }
+     ],
+     "size": 1
+    },
+    "printNo": "A454A",
+    "publishDate": "2021-02-10",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ELN4-100",
+        "ELN4-104",
+        "ELN8-600"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S4658",
+       "basePrintNoStr": "S4658-2021",
+       "printNo": "S4658",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A454",
+ "basePrintNoStr": "A454-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Election Law",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Election Law",
+    "referenceDate": "2021-01-06T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Election Law",
+    "referenceDate": "2021-02-10T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Election Law",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A5661",
+    "basePrintNoStr": "A5661-2019",
+    "printNo": "A5661A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A10840",
+    "basePrintNoStr": "A10840-2017",
+    "printNo": "A10840",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A5949",
+    "basePrintNoStr": "A5949-2017",
+    "printNo": "A5949",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A2806",
+    "basePrintNoStr": "A2806-2015",
+    "printNo": "A2806A",
+    "session": 2015,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A1116",
+    "basePrintNoStr": "A1116-2013",
+    "printNo": "A1116A",
+    "session": 2013,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A2162",
+    "basePrintNoStr": "A2162-2011",
+    "printNo": "A2162A",
+    "session": 2011,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A3430",
+    "basePrintNoStr": "A3430-2009",
+    "printNo": "A3430",
+    "session": 2009,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A9386",
+    "basePrintNoStr": "A9386-2009",
+    "printNo": "A9386A",
+    "session": 2009,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "A1539",
+    "basePrintNoStr": "A1539-2007",
+    "printNo": "A1539",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 9
+ },
+ "printNo": "A454A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2020-12-28T14:21:40.595909",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-02-10T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2020-12-28T12:49:42.876231",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 25,
+   "fullName": "Nily Rozic",
+   "imgName": "669_nily_rozic.jpg",
+   "incumbent": true,
+   "memberId": 669,
+   "sessionMemberId": 1738,
+   "sessionYear": 2021,
+   "shortName": "ROZIC"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Election Law",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides that whenever a contiguous property of a college or university contains three hundred or more registrants, the polling place designated for such election district shall be on such contiguous property or at a location approved by the college or university.",
+ "title": "Makes provisions regarding the designation of polling places on college campuses",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

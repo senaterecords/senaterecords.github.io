@@ -1,0 +1,1148 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S541",
+     "basePrintNoStr": "S541-2023",
+     "printNo": "S541",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-04",
+    "sequenceNo": 1,
+    "text": "REFERRED TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S541",
+     "basePrintNoStr": "S541-2023",
+     "printNo": "S541",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-02",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S541",
+     "basePrintNoStr": "S541-2023",
+     "printNo": "S541A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-03-02",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 541A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S541",
+     "basePrintNoStr": "S541-2023",
+     "printNo": "S541A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 4,
+    "text": "REFERRED TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S541",
+     "basePrintNoStr": "S541-2023",
+     "printNo": "S541A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-16",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO LABOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S541",
+     "basePrintNoStr": "S541-2023",
+     "printNo": "S541B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-16",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 541B"
+   }
+  ],
+  "size": 6
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the labor law, in relation to enacting the \"Empowering People\nin Rights Enforcement (EMPIRE) Worker Protection Act\"",
+    "basePrintNo": "S541",
+    "basePrintNoStr": "S541-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2035,
+       "sessionYear": 2023,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 12
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 35 §§1020 - 1023, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S541\n\nSPONSOR: HOYLMAN\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to enacting the \"Empowering\nPeople in Rights Enforcement (EMPIRE) Worker Protection Act\"\n\n \nPURPOSE:\n\nThis legislation empowers aggrieved workers to file claims on behalf of\nthe state against an employer for specified violations of State labor\nlaw. The Act also allows representative organizations to file claims on\nbehalf of impacted workers in order to protect the public interest.\n\n \nSUMMARY OF PROVISIONS:\n\nThe legislation adds a new Article 34 to the labor law, which estab-\nlishes the right of a public enforcement action through which an\naggrieved employee or a representative organization may commence a civil\naction on behalf of the commissioner of labor for the purpose of enforc-\ning any provision of the labor law. Section 961 of Article 33 specifies\nthat such action may provide for a civil penalty to be collected by the\ncommissioner and that multiple violations that have affected different\nemployees may be the subject of such complaint.\n\nSection 961 Subsection 2 (a) authorizes a court to exercise the same\ndiscretion as the commissioner in determining whether to assess a civil\npenalty. Subsection 2 (b) establishes a minimum civil penalty of five\nhundred dollars per period per violation. Subsection 2 (c) provides that\nany aggrieved employee or representative organization which prevails\nshall be entitled to reasonable attorney's. fees.  Subsection 3 estab-\nlishes a schedule for the distribution of any civil penalties recovered.\nSubsection 4 prohibits the use of private agreements to limit the right\nof employees to pursue a public enforcement action. Section 961\nSubsection 5 establishes a six year statute of limitations. Section 961\nSubsection 6 establishes that public enforcement actions \"belong to the\nstate\" and shall, with some exceptions, preclude subsequent state\nenforcement action. Subsection 7 requires the commissioner to establish\na publicly available data base of public enforcement actions.\n\nSection 962 Subsection 1 establishes the process for the filing of a\npublic enforcement action including the requirement for thirty-day writ-\nten notice and the items that must be included in such notice.\n\nSection 962 Subsection 2 authorizes the commissioner to intervene in a\npublic enforcement action and proceed with any and all claims.\n\nSection 962 Subsection 3 requires that a federal or state court of\ncompetent jurisdiction shall approve any settlement arrived at under\nthis act. Section 962 Subsection 4 a representative organization may\nonly initiate an action pursuant to this article if an aggrieved employ-\nee elects such organization in writing using a form approved by the\ncommissioner. Section 962 Subsection 5 provides representative organiza-\ntions and aggrieved employees with the right to amend A.416tlon after it\nhas been filed. Section 962 Subsection 6 authorizes that the notice of\nan action shall be construed in a light favorable to the employee or\nrepresentative organization.\n\nSection 963 Subsection 1 indicates that this article shall not apply to\nthe recovery of administrative and civil penalties in connection with\nthe unemployment insurance law. Section 963 Subsection 2 indicates that\nthis article shall not apply to the recovery of administrative and civil\npenalties in connection with the New York State Labor Relations Act.\nsection 963 Subsection 3 incorporates a severability clause. Section 963\nSubsection 4 authorizes this article to be construed in light of its\nremedial purposes to expand the enforcement of this chapter. This act\nshall take effect on the ninetieth day after it becomes a law.\n\n \nJUSTIFICATION:\n\nAn estimated 2.1 million New York workers are victims of wage theft each\nyear, with a total of more than $3 billion stolen in wages and benefits.\nWage theft costs our State millions of dollars a year in lost revenue\nand leaves law-abiding employers at a major competitive disadvantage.\nThe New York State Department of Labor lacks the resources needed to\neffectively investigate and prosecute wage theft at scale and is heavily\nreliant upon uncertain federal funding. As a result, New York's workers\nmay be increasingly vulnerable to exploitation.\n\nThis legislation extends the reach of the state's public enforcement\nprovisions in order to help ensure that exploitative employers do not\nget away with wage theft and other abuses; to help establish a level\nplaying field on which law abiding employers can afford to compete; to\nprotect the public interest; and to generate revenue to fund the New\nYork State Department of Labor's own work. Extending the capacity and\nreach of New York's public enforcement strategies is critically impor-\ntant in this era for a number of reasons. The public and private\nenforcement mechanisms that have played a major role in wage theft and\nworkers' rights enforcement for decades are being undermined in a number\nof ways, including: (a) unscrupulous employers who are using this moment\nof fear to intimidate and threaten workers into accepting exploitation;\n(b) a lack of sufficient funding for the Department has limited its\ncapacity to enforce existing provisions of the Labor Law.  In addition,\nprivate enforcement is often difficult to undertake in smaller workplac-\nes and industries where workers' wage theft claims are small, and in\nrural communities where workers face challenges identifying counsel.\n\nThe EMPIRE Worker Protection Act enables workers to \"step into the\nshoes\" of the government for the purposes of enforcing the New York\nLabor Law, and claims filed under the EMPIRE Worker Protection Act are\npublic in nature and not subject to private agreements. The EMPIRE Work-\ner Protection Act builds upon recent advances in New York's labor\nprotections, specifically the 2015 Achieve Pay Equity bill, which\namended the law to strengthen the State's protections against pay\ndiscrimination for women. Additionally the EMPIRE Worker Protection Act\nis a proven model for strengthening labor law enforcement with Califor-\nnia having enacted similar legislation.  That legislation has assisted\nour nation's largest state in resolving thousands of labor violations\nand generated more than $28 million in revenue for the California\nDepartment of Labor since 2013.\n\n \nLEGISLATIVE HISTORY:\n\nS.12-A of 2021-2022 (Hoylman): Died in Labor\n\nA.5876-A of 2021-2022 (Joyner): Died in Labor\nS.1848-A of 2019-2020 (Hoylman): Died in Labor\n\nA.2265-A of 2019-2020 (Joyner): Died in Labor\n\nS.6426 of 2017-2018 (Hoylman): Died in Labor\n\nA.7958 of 2017-2018 (Joyner): Died in Labor\n\n \nFISCAL IMPLICATIONS:\n\nWill result in increased revenue for the State.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S541",
+    "publishDate": "2023-01-04",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LABA35"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1893",
+       "basePrintNoStr": "A1893-2023",
+       "printNo": "A1893",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the labor law, in relation to enacting the \"Empowering People\nin Rights Enforcement (EMPIRE) Worker Protection Act\"",
+    "basePrintNo": "S541",
+    "basePrintNoStr": "S541-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 2043,
+       "sessionYear": 2023,
+       "shortName": "RYAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2035,
+       "sessionYear": 2023,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 35 §§1020 - 1023, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S541A\n\nSPONSOR: HOYLMAN-SIGAL\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to enacting the \"Empowering\nPeople in Rights Enforcement (EMPIRE) Worker Protection Act\"\n\n \nPURPOSE OF BILL:\n\nThis legislation empowers affected workers to file claims on behalf of\nthe state against an employer for specified violations of State labor\nlaw. The Act also allows labor organizations, and labor organizations\ndeputized by the states to file claims on behalf of impacted workers in\norder to protect the public interest.\n\n \nSUMMARY OF PROVISIONS:\n\nThe legislation adds a new Article 35 to the labor law, which estab-\nlishes the right of a public enforcement action through which an\naffected employee or a representative organization or organizational\ndeputy may commence a civil action on behalf of the commissioner of\nlabor for the purpose of enforcing any provision of the labor law.\n\nSection 1021 of Article 35 specifies that such action may provide for a\ncivil penalty to be collected by the commissioner and that multiple\nviolations that have affected different employees may be the subject of\nsuch complaint.\n\nSection 1021 Subsection 2 (a) authorizes a court to exercise the same\ndiscretion as the commissioner in determining whether to assess a civil\npenalty. Subsection 2 (b) establishes a minimum civil penalty of five\nhundred dollars per period per violation. Subsection 2 (c) provides that\nany affected employee or representative organization which prevails\nshall be entitled to reasonable attorney's fees.  Subsection 3 estab-\nlishes a schedule for the distribution of any civil penalties recovered.\n\nSubsection 4 prohibits the use of private agreements to limit the right\nof employees to pursue a public enforcement action unless such agree-\nments are collectively bargained and the bargaining agreement provides a\nforum for the enforcement of rights enforceable under this article.\n\nSection 1021 Subsection 5 establishes a six year statute of limitations.\n\nSection 1021 Subsection 6 establishes that public enforcement actions\n\"belong to the state\" and shall, with some exceptions, preclude subse-\nquent state enforcement action. Subsection 7 prohibits retaliatory\naction by an employer because a relator brought an enforcement action of\ncooperated with one. The section also establishes that any affection\nperson or relator may bring a public enforcement action for all appro-\npriate relief.\n\nSection 1022 Subsection 1 establishes the process for the filing of a\npublic enforcement action including the requirement for sixty-day writ-\nten notice and the items that must be included in such notice.\n\nSection 1022 Subsection 2 allows the commissioner or the Attorney Gener-\nal to appoint an organizational deputy to serve as the relator.\n\nSection 1022 Subsection 3 authorizes the commissioner or the Attorney\nGeneral to intervene in a public enforcement action and proceed with any\nand all claims.\n\nSection 1022 Subsection 4 establishes that the commissioner or the\nAttorney General, whoever intervenes may take primary responsibility for\nlitigating the action.\n\nSection 1022 Subsection 5 requires that either the commissioner, the\nAttorney General, or a federal or state court of competent jurisdiction\nshall approve any settlement arrived at under this act.\n\nSection 1022 Subsection 6 a representative organization may only initi-\nate an action pursuant to this article if an affected employee elects\nsuch organization in writing using a form approved by the commissioner\nand the Attorney General\n\nSection 1022 Subsection 7 provides the relator with the right to amend\nthe notice after it has been filed.\n\nSection 1022 Subsection 8 ensures prompt trial.\n\nSection 1022 Subsection 9 states that no public enforcement action\nbrought under this is required to meet the requirements of Rule 23(a) of\nthe Federal Rules of Civil Procedure.\n\nSection 1022 Subsection 10-11 provides for the rules governing discov-\nery.\n\nSection 1023 Subsection 1 indicates that this article shall not apply to\nthe recovery of administrative and civil penalties in connection with\nthe unemployment insurance law.\n\nSection 1023 Subsection 2 indicates that this article shall not apply to\nthe recovery of administrative and civil penalties in connection with\nthe New York State Labor Relations Act.\n\nSection 1023 Subsection 3 incorporates a severability clause.\n\nSection 1023 Subsection 4 authorizes this article to be construed in\nlight of its remedial purposes to expand the enforcement of this chap-\nter.\n\nSection 4 is the effective date. This act shall take effect immediately\nand shall permit relators to bring actions that occurred within six\nyears prior to the act's enactment.\n\n \nJUSTIFICATION:\n\nAn estimated 2.1 million New York workers are victims of wage theft each\nyear, with a total of more than $3 billion stolen in wages and benefits.\nWage theft costs our State millions of dollars a year in lost revenue\nand leaves law-abiding employers at a major competitive disadvantage.\nThe New York State Department of Labor lacks the resources needed to\neffectively investigate and prosecute wage theft at scale and is heavily\nreliant upon uncertain federal funding. As a result, New York's workers\nmay be increasingly vulnerable to exploitation.\n\nThis legislation extends the reach of the state's public enforcement\nprovisions in order to help ensure that exploitative employers do not\nget away with wage theft and other abuses; to help establish a level\nplaying field on which law abiding employers can afford to compete; to\nprotect the public interest; and to generate revenue to fund the New\nYork State Department of Labor's own work. Extending the capacity and\nreach of New York's public enforcement strategies is critically impor-\ntant in this era for a number of reasons. The public and private\nenforcement mechanisms that have played a major role in wage theft and\nworkers' rights enforcement for decades are being undermined in a number\nof ways, including: (a) unscrupulous employers who are using this moment\nof fear to intimidate and threaten workers into accepting exploitation;\n(b) a lack of sufficient funding for the Department has limited its\ncapacity to enforce existing provisions of the Labor Law. In addition,\nprivate enforcement is often difficult to undertake in smaller workplac-\nes and industries where workers' wage theft claims are small, and in\nrural communities where workers face challenges identifying counsel.\n\nThe EMPIRE Worker Protection Act enables workers to \"step into the\nshoes\" of the government for the purposes of enforcing the New York\nLabor Law, and claims filed under the EMPIRE Worker Protection Act are\npublic in nature and not subject to private agreements. The EMPIRE Work-\ner Protection Act builds upon recent advances in New York's labor\nprotections, specifically the 2015 Achieve Pay Equity bill, which\namended the law to strengthen the State's protections against pay\ndiscrimination for women. Additionally the EMPIRE Worker Protection Act\nis a proven model for strengthening labor law enforcement with Califor-\nnia having enacted similar legislation. That legislation has assisted\nour nation's largest state in resolving thousands of labor violations\nand generated more than $28 million in revenue for the California\nDepartment of Labor since 2013.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nS. 12-A of 2021-2022 (Hoylman): Died in Labor\n\nA. 5876 of 2021-2022 (Joyner): Died in Labor\n\nS.1848-A of 2019-2020 (Hoylman): Died in Labor\n\nA.2265-A of 2019-2020 (Joyner): Died in Labor\n\nS.6426 of 2017-2018 (Hoylman): Died in Labor\n\nA.7958 of 2017-2018 (Joyner): Died in Labor\n\n \nFISCAL IMPLICATIONS:\n\nWill result in increased revenue for the State.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately, and shall permit relators to\nbring actions that occurred within the six years prior to the act's\nenactment.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S541A",
+    "publishDate": "2023-03-02",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LABA35"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the labor law, in relation to enacting the \"Empowering People\nin Rights Enforcement (EMPIRE) Worker Protection Act\"",
+    "basePrintNo": "S541",
+    "basePrintNoStr": "S541-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2051,
+       "sessionYear": 2023,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 2019,
+       "sessionYear": 2023,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 28,
+       "fullName": "Liz Krueger",
+       "imgName": "401_liz_krueger.jpg",
+       "incumbent": true,
+       "memberId": 401,
+       "sessionMemberId": 2020,
+       "sessionYear": 2023,
+       "shortName": "KRUEGER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 2048,
+       "sessionYear": 2023,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2023,
+       "sessionYear": 2023,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Sean Ryan",
+       "imgName": "638_sean_ryan.jpg",
+       "incumbent": false,
+       "memberId": 1491,
+       "sessionMemberId": 2043,
+       "sessionYear": 2023,
+       "shortName": "RYAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2035,
+       "sessionYear": 2023,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 30
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Art 36 §§1020 - 1023, Lab L",
+    "lawSection": "Labor Law",
+    "memo": " \nBILL NUMBER: S541B\n\nSPONSOR: HOYLMAN-SIGAL\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to enacting the \"Empowering\nPeople in Rights Enforcement (EMPIRE) Worker Protection Act\"\n\n \nPURPOSE OF BILL:\n\nThis legislation empowers affected workers to file claims on behalf of\nthe state against an employer for specified violations of State labor\nlaw. The Act also allows labor organizations, and labor organizations\ndeputized by the states to file claims on behalf of impacted workers in\norder to protect the public interest.\n\n \nSUMMARY OF PROVISIONS:\n\nThe legislation adds a new Article 35 to the labor law, which estab-\nlishes the right of a public enforcement action through which an\naffected employee or a representative organization or organizational\ndeputy may commence a civil action on behalf of the commissioner of\nlabor for the purpose of enforcing any provision of the labor law.\n\nSection 1021 of Article 35 specifies that such action may provide for a\ncivil penalty to be collected by the commissioner and that multiple\nviolations that have affected different employees may be the subject of\nsuch complaint.\n\nSection 1021 Subsection 2 (a) authorizes a court to exercise the same\ndiscretion as the commissioner in determining whether to assess a civil\npenalty. Subsection 2 (b) establishes a minimum civil penalty of five\nhundred dollars per period per violation. Subsection 2 (c) provides that\nany affected employee or representative organization which prevails\nshall be entitled to reasonable attorney's fees.  Subsection 3 estab-\nlishes a schedule for the distribution of any civil penalties recovered.\n\nSubsection 4 prohibits the use of private agreements to limit the right\nof employees to pursue a public enforcement action unless such agree-\nments are collectively bargained and the bargaining agreement provides a\nforum for the enforcement of rights enforceable under this article.\n\nSection 1021 Subsection 5 establishes a six year statute of limitations.\n\nSection 1021 Subsection 6 establishes that public enforcement actions\n\"belong to the state\" and shall, with some exceptions, preclude subse-\nquent state enforcement action. Subsection 7 prohibits retaliatory\naction by an employer because a relator brought an enforcement action of\ncooperated with one. The section also establishes that any affection\nperson or relator may bring a public enforcement action for all appro-\npriate relief.\n\nSection 1022 Subsection 1 establishes the process for the filing of a\npublic enforcement action including the requirement for sixty-day writ-\nten notice and the items that must be included in such notice.\n\nSection 1022 Subsection 2 allows the commissioner or the Attorney Gener-\nal to appoint an organizational deputy to serve as the relator.\n\nSection 1022 Subsection 3 authorizes the commissioner or the Attorney\nGeneral to intervene in a public enforcement action and proceed with any\nand all claims.\n\nSection 1022 Subsection 4 establishes that the commissioner or the\nAttorney General, whoever intervenes may take primary responsibility for\nlitigating the action.\n\nSection 1022 Subsection 5 requires that either the commissioner, the\nAttorney General, or a federal or state court of competent jurisdiction\nshall approve any settlement arrived at under this act.\n\nSection 1022 Subsection 6 a representative organization may only initi-\nate an action pursuant to this article if an affected employee elects\nsuch organization in writing using a form approved by the commissioner\nand the Attorney General\n\nSection 1022 Subsection 7 provides the relator with the right to amend\nthe notice after it has been filed.\n\nSection 1022 Subsection 8 ensures prompt trial.\n\nSection 1022 Subsection 9 states that no public enforcement action\nbrought under this is required to meet the requirements of Rule 23(a) of\nthe Federal Rules of Civil Procedure.\n\nSection 1022 Subsection 10-11 provides for the rules governing discov-\nery.\n\nSection 1023 Subsection 1 indicates that this article shall not apply to\nthe recovery of administrative and civil penalties in connection with\nthe unemployment insurance law.\n\nSection 1023 Subsection 2 indicates that this article shall not apply to\nthe recovery of administrative and civil penalties in connection with\nthe New York State Labor Relations Act.\n\nSection 1023 Subsection 3 incorporates a severability clause.\n\nSection 1023 Subsection 4 authorizes this article to be construed in\nlight of its remedial purposes to expand the enforcement of this chap-\nter.\n\nSection 4 is the effective date. This act shall take effect immediately\nand shall permit relators to bring actions that occurred within six\nyears prior to the act's enactment.\n\n \nJUSTIFICATION:\n\nAn estimated 2.1 million New York workers are victims of wage theft each\nyear, with a total of more than $3 billion stolen in wages and benefits.\nWage theft costs our State millions of dollars a year in lost revenue\nand leaves law-abiding employers at a major competitive disadvantage.\nThe New York State Department of Labor lacks the resources needed to\neffectively investigate and prosecute wage theft at scale and is heavily\nreliant upon uncertain federal funding. As a result, New York's workers\nmay be increasingly vulnerable to exploitation.\n\nThis legislation extends the reach of the state's public enforcement\nprovisions in order to help ensure that exploitative employers do not\nget away with wage theft and other abuses; to help establish a level\nplaying field on which law abiding employers can afford to compete; to\nprotect the public interest; and to generate revenue to fund the New\nYork State Department of Labor's own work. Extending the capacity and\nreach of New York's public enforcement strategies is critically impor-\ntant in this era for a number of reasons. The public and private\nenforcement mechanisms that have played a major role in wage theft and\nworkers' rights enforcement for decades are being undermined in a number\nof ways, including: (a) unscrupulous employers who are using this moment\nof fear to intimidate and threaten workers into accepting exploitation;\n(b) a lack of sufficient funding for the Department has limited its\ncapacity to enforce existing provisions of the Labor Law. In addition,\nprivate enforcement is often difficult to undertake in smaller workplac-\nes and industries where workers' wage theft claims are small, and in\nrural communities where workers face challenges identifying counsel.\n\nThe EMPIRE Worker Protection Act enables workers to \"step into the\nshoes\" of the government for the purposes of enforcing the New York\nLabor Law, and claims filed under the EMPIRE Worker Protection Act are\npublic in nature and not subject to private agreements. The EMPIRE Work-\ner Protection Act builds upon recent advances in New York's labor\nprotections, specifically the 2015 Achieve Pay Equity bill, which\namended the law to strengthen the State's protections against pay\ndiscrimination for women. Additionally the EMPIRE Worker Protection Act\nis a proven model for strengthening labor law enforcement with Califor-\nnia having enacted similar legislation. That legislation has assisted\nour nation's largest state in resolving thousands of labor violations\nand generated more than $28 million in revenue for the California\nDepartment of Labor since 2013.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nS. 12-A of 2021-2022 (Hoylman): Died in Labor A. 5876 of 2021-2022\n(Joyner): Died in Labor\n\nS.1848-A of 2019-2020 (Hoylman): Died in Labor A.2265-A of 2019-2020\n(Joyner): Died in Labor\n\nS.6426 of 2017-2018 (Hoylman): Died in Labor A.7958 of 2017-2018\n(Joyner): Died in Labor\n\n \nFISCAL IMPLICATIONS:\n\nWill result in increased revenue for the State.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately, and shall permit relators to\nbring actions that occurred within the six years prior to the act's\nenactment.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S541B",
+    "publishDate": "2024-02-16",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LABA36"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A9012",
+       "basePrintNoStr": "A9012-2023",
+       "printNo": "A9012",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S541",
+ "basePrintNoStr": "S541-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-02-16",
+    "billCalNo": null,
+    "committeeName": "Labor",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2023-01-04T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2023-03-02T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Labor",
+    "referenceDate": "2024-02-16T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S12",
+    "basePrintNoStr": "S12-2021",
+    "printNo": "S12A",
+    "session": 2021,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S1848",
+    "basePrintNoStr": "S1848-2019",
+    "printNo": "S1848A",
+    "session": 2019,
+    "version": "A"
+   },
+   {
+    "basePrintNo": "S6426",
+    "basePrintNoStr": "S6426-2017",
+    "printNo": "S6426",
+    "session": 2017,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "S541B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-04T16:01:59.249817",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2023-03-02T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2024-02-16T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2023-01-04T16:01:59.249817",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 47,
+   "fullName": "Brad Hoylman-Sigal",
+   "imgName": "438_brad_hoylman.jpg",
+   "incumbent": false,
+   "memberId": 438,
+   "sessionMemberId": 2313,
+   "sessionYear": 2023,
+   "shortName": "HOYLMAN-SIGAL"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-02-16",
+  "billCalNo": null,
+  "committeeName": "Labor",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Enacts the \"Empowering People in Rights Enforcement (EMPIRE) Worker Protection Act\"; relates to the delegation of state enforcement authority to private actors; authorizes an affected employee, whistleblower, representative organization or an organizational deputy to initiate a public enforcement action on behalf of the commissioner for certain provisions of the labor law, or any regulation promulgated thereunder.",
+ "title": "Enacts the Empowering People in Rights Enforcement (EMPIRE) Worker Protection Act",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

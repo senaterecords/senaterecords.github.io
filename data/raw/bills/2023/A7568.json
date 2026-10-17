@@ -1,0 +1,223 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A7568",
+     "basePrintNoStr": "A7568-2023",
+     "printNo": "A7568",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-05-25",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7568",
+     "basePrintNoStr": "A7568-2023",
+     "printNo": "A7568",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HEALTH"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to state aid for home\nhealth care and hospice services to meet community need",
+    "basePrintNo": "A7568",
+    "basePrintNoStr": "A7568-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 42,
+       "fullName": "Rodneyse Bichotte Hermelyn",
+       "imgName": "898_rodneyse_bichotte.jpg",
+       "incumbent": true,
+       "memberId": 898,
+       "sessionMemberId": 2217,
+       "sessionYear": 2023,
+       "shortName": "BICHOTTE HERMELYN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 2189,
+       "sessionYear": 2023,
+       "shortName": "WEPRIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 2173,
+       "sessionYear": 2023,
+       "shortName": "SEAWRIGHT"
+      }
+     ],
+     "size": 3
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3607 & 3615, add §§3616-b & 4012-c, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A7568",
+    "publishDate": "2023-05-25",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A7568",
+ "basePrintNoStr": "A7568-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2023-05-25T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A7568",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-05-25T13:45:37.434269",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-05-25T13:01:27.602188",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 88,
+   "fullName": "Amy Paulin",
+   "imgName": "540_amy_paulin.jpg",
+   "incumbent": true,
+   "memberId": 540,
+   "sessionMemberId": 2160,
+   "sessionYear": 2023,
+   "shortName": "PAULIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Health",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides for state aid for home health care and hospice services to meet community need.",
+ "title": "Relates to state aid for home health care and hospice services to meet community need",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

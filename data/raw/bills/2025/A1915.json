@@ -1,0 +1,1285 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A1915",
+     "basePrintNoStr": "A1915-2025",
+     "printNo": "A1915",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2025-01-14",
+    "sequenceNo": 1,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1915",
+     "basePrintNoStr": "A1915-2025",
+     "printNo": "A1915",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2025-01-22",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1915",
+     "basePrintNoStr": "A1915-2025",
+     "printNo": "A1915A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2025-01-22",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 1915A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1915",
+     "basePrintNoStr": "A1915-2025",
+     "printNo": "A1915A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-01-07",
+    "sequenceNo": 4,
+    "text": "REFERRED TO INSURANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1915",
+     "basePrintNoStr": "A1915-2025",
+     "printNo": "A1915A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-04-29",
+    "sequenceNo": 5,
+    "text": "REPORTED REFERRED TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1915",
+     "basePrintNoStr": "A1915-2025",
+     "printNo": "A1915A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-04-29",
+    "sequenceNo": 6,
+    "text": "AMEND AND RECOMMIT TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1915",
+     "basePrintNoStr": "A1915-2025",
+     "printNo": "A1915B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-04-29",
+    "sequenceNo": 7,
+    "text": "PRINT NUMBER 1915B"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the insurance law and the social services law, in relation to\nprimary care investment",
+    "basePrintNo": "A1915",
+    "basePrintNoStr": "A1915-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 2404,
+       "sessionYear": 2025,
+       "shortName": "WEPRIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 28,
+       "fullName": "Andrew Hevesi",
+       "imgName": "488_andrew_hevesi.jpg",
+       "incumbent": true,
+       "memberId": 488,
+       "sessionMemberId": 2408,
+       "sessionYear": 2025,
+       "shortName": "HEVESI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 2467,
+       "sessionYear": 2025,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Tony Simone",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1532,
+       "sessionMemberId": 2455,
+       "sessionYear": 2025,
+       "shortName": "SIMONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 42,
+       "fullName": "Rodneyse Bichotte Hermelyn",
+       "imgName": "898_rodneyse_bichotte.jpg",
+       "incumbent": true,
+       "memberId": 898,
+       "sessionMemberId": 2422,
+       "sessionYear": 2025,
+       "shortName": "BICHOTTE HERMELYN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 135,
+       "fullName": "Jen Lunsford",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1486,
+       "sessionMemberId": 2515,
+       "sessionYear": 2025,
+       "shortName": "LUNSFORD"
+      }
+     ],
+     "size": 6
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §3217-k, Ins L; add §368-g, Soc Serv L",
+    "lawSection": "Insurance Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A1915",
+    "publishDate": "2025-01-14",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the insurance law and the social services law, in relation to\nprimary care investment",
+    "basePrintNo": "A1915",
+    "basePrintNoStr": "A1915-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 2404,
+       "sessionYear": 2025,
+       "shortName": "WEPRIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 28,
+       "fullName": "Andrew Hevesi",
+       "imgName": "488_andrew_hevesi.jpg",
+       "incumbent": true,
+       "memberId": 488,
+       "sessionMemberId": 2408,
+       "sessionYear": 2025,
+       "shortName": "HEVESI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 2467,
+       "sessionYear": 2025,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Tony Simone",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1532,
+       "sessionMemberId": 2455,
+       "sessionYear": 2025,
+       "shortName": "SIMONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 42,
+       "fullName": "Rodneyse Bichotte Hermelyn",
+       "imgName": "898_rodneyse_bichotte.jpg",
+       "incumbent": true,
+       "memberId": 898,
+       "sessionMemberId": 2422,
+       "sessionYear": 2025,
+       "shortName": "BICHOTTE HERMELYN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 135,
+       "fullName": "Jen Lunsford",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1486,
+       "sessionMemberId": 2515,
+       "sessionYear": 2025,
+       "shortName": "LUNSFORD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 108,
+       "fullName": "John T. McDonald III",
+       "imgName": "662_john_t._mcdonald_iii.jpg",
+       "incumbent": true,
+       "memberId": 662,
+       "sessionMemberId": 2488,
+       "sessionYear": 2025,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 2447,
+       "sessionYear": 2025,
+       "shortName": "ROSENTHAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Jessica Gonzalez-Rojas",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1468,
+       "sessionMemberId": 2414,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ-ROJAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 2490,
+       "sessionYear": 2025,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 2461,
+       "sessionYear": 2025,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 125,
+       "fullName": "Anna Kelles",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1482,
+       "sessionMemberId": 2505,
+       "sessionYear": 2025,
+       "shortName": "KELLES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Yudelka Tapia",
+       "imgName": "Yudelka Tapia.jpg",
+       "incumbent": true,
+       "memberId": 1503,
+       "sessionMemberId": 2466,
+       "sessionYear": 2025,
+       "shortName": "TAPIA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 113,
+       "fullName": "Carrie Woerner",
+       "imgName": "886_carrie_woerner.jpg",
+       "incumbent": true,
+       "memberId": 886,
+       "sessionMemberId": 2493,
+       "sessionYear": 2025,
+       "shortName": "WOERNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 21,
+       "fullName": "Judy Griffin",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1241,
+       "sessionMemberId": 2401,
+       "sessionYear": 2025,
+       "shortName": "GRIFFIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 137,
+       "fullName": "Demond Meeks",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1462,
+       "sessionMemberId": 2517,
+       "sessionYear": 2025,
+       "shortName": "MEEKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Gabriella Romero",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1565,
+       "sessionMemberId": 2489,
+       "sessionYear": 2025,
+       "shortName": "ROMERO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 2456,
+       "sessionYear": 2025,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Eddie Gibbs",
+       "imgName": "1505_Eddie_Gibbs.jpg",
+       "incumbent": true,
+       "memberId": 1505,
+       "sessionMemberId": 2448,
+       "sessionYear": 2025,
+       "shortName": "GIBBS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 71,
+       "fullName": "Al Taylor",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1141,
+       "sessionMemberId": 2451,
+       "sessionYear": 2025,
+       "shortName": "TAYLOR"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 58,
+       "fullName": "Monique Chandler-Waterman",
+       "imgName": "Monique Chandler-Waterman.jpg",
+       "incumbent": true,
+       "memberId": 1510,
+       "sessionMemberId": 2438,
+       "sessionYear": 2025,
+       "shortName": "CHANDLER-WATERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 12,
+       "fullName": "Keith Brown",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1461,
+       "sessionMemberId": 2392,
+       "sessionYear": 2025,
+       "shortName": "BROWN K"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 2470,
+       "sessionYear": 2025,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 100,
+       "fullName": "Paula Kay",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1564,
+       "sessionMemberId": 2480,
+       "sessionYear": 2025,
+       "shortName": "KAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 149,
+       "fullName": "Jonathan Rivera",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1488,
+       "sessionMemberId": 2529,
+       "sessionYear": 2025,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 2432,
+       "sessionYear": 2025,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 65,
+       "fullName": "Grace Lee",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1530,
+       "sessionMemberId": 2445,
+       "sessionYear": 2025,
+       "shortName": "LEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 2419,
+       "sessionYear": 2025,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 30,
+       "fullName": "Steven Raga",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1525,
+       "sessionMemberId": 2410,
+       "sessionYear": 2025,
+       "shortName": "RAGA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Dana Levenberg",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1537,
+       "sessionMemberId": 2475,
+       "sessionYear": 2025,
+       "shortName": "LEVENBERG"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Jordan Wright",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1562,
+       "sessionMemberId": 2450,
+       "sessionYear": 2025,
+       "shortName": "WRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 146,
+       "fullName": "Karen McMahon",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1255,
+       "sessionMemberId": 2526,
+       "sessionYear": 2025,
+       "shortName": "MCMAHON"
+      }
+     ],
+     "size": 32
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §3217-k, Ins L; add §368-g, Soc Serv L",
+    "lawSection": "Insurance Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A1915A",
+    "publishDate": "2025-01-22",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ISC3217-K",
+        "SOS368-G"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the insurance law and the social services law, in relation to\nprimary care investment",
+    "basePrintNo": "A1915",
+    "basePrintNoStr": "A1915-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 24,
+       "fullName": "David Weprin",
+       "imgName": "484_david_weprin.jpg",
+       "incumbent": true,
+       "memberId": 484,
+       "sessionMemberId": 2404,
+       "sessionYear": 2025,
+       "shortName": "WEPRIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 28,
+       "fullName": "Andrew Hevesi",
+       "imgName": "488_andrew_hevesi.jpg",
+       "incumbent": true,
+       "memberId": 488,
+       "sessionMemberId": 2408,
+       "sessionYear": 2025,
+       "shortName": "HEVESI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 2467,
+       "sessionYear": 2025,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 75,
+       "fullName": "Tony Simone",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1532,
+       "sessionMemberId": 2455,
+       "sessionYear": 2025,
+       "shortName": "SIMONE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 42,
+       "fullName": "Rodneyse Bichotte Hermelyn",
+       "imgName": "898_rodneyse_bichotte.jpg",
+       "incumbent": true,
+       "memberId": 898,
+       "sessionMemberId": 2422,
+       "sessionYear": 2025,
+       "shortName": "BICHOTTE HERMELYN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 135,
+       "fullName": "Jen Lunsford",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1486,
+       "sessionMemberId": 2515,
+       "sessionYear": 2025,
+       "shortName": "LUNSFORD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 108,
+       "fullName": "John T. McDonald III",
+       "imgName": "662_john_t._mcdonald_iii.jpg",
+       "incumbent": true,
+       "memberId": 662,
+       "sessionMemberId": 2488,
+       "sessionYear": 2025,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 2447,
+       "sessionYear": 2025,
+       "shortName": "ROSENTHAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Jessica Gonzalez-Rojas",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1468,
+       "sessionMemberId": 2414,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ-ROJAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 110,
+       "fullName": "Phil Steck",
+       "imgName": "675_phil_steck.jpg",
+       "incumbent": true,
+       "memberId": 675,
+       "sessionMemberId": 2490,
+       "sessionYear": 2025,
+       "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 2461,
+       "sessionYear": 2025,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 125,
+       "fullName": "Anna Kelles",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1482,
+       "sessionMemberId": 2505,
+       "sessionYear": 2025,
+       "shortName": "KELLES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 86,
+       "fullName": "Yudelka Tapia",
+       "imgName": "Yudelka Tapia.jpg",
+       "incumbent": true,
+       "memberId": 1503,
+       "sessionMemberId": 2466,
+       "sessionYear": 2025,
+       "shortName": "TAPIA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 113,
+       "fullName": "Carrie Woerner",
+       "imgName": "886_carrie_woerner.jpg",
+       "incumbent": true,
+       "memberId": 886,
+       "sessionMemberId": 2493,
+       "sessionYear": 2025,
+       "shortName": "WOERNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 21,
+       "fullName": "Judy Griffin",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1241,
+       "sessionMemberId": 2401,
+       "sessionYear": 2025,
+       "shortName": "GRIFFIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 137,
+       "fullName": "Demond Meeks",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1462,
+       "sessionMemberId": 2517,
+       "sessionYear": 2025,
+       "shortName": "MEEKS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 109,
+       "fullName": "Gabriella Romero",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1565,
+       "sessionMemberId": 2489,
+       "sessionYear": 2025,
+       "shortName": "ROMERO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 2456,
+       "sessionYear": 2025,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Eddie Gibbs",
+       "imgName": "1505_Eddie_Gibbs.jpg",
+       "incumbent": true,
+       "memberId": 1505,
+       "sessionMemberId": 2448,
+       "sessionYear": 2025,
+       "shortName": "GIBBS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 71,
+       "fullName": "Al Taylor",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1141,
+       "sessionMemberId": 2451,
+       "sessionYear": 2025,
+       "shortName": "TAYLOR"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 58,
+       "fullName": "Monique Chandler-Waterman",
+       "imgName": "Monique Chandler-Waterman.jpg",
+       "incumbent": true,
+       "memberId": 1510,
+       "sessionMemberId": 2438,
+       "sessionYear": 2025,
+       "shortName": "CHANDLER-WATERMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 12,
+       "fullName": "Keith Brown",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1461,
+       "sessionMemberId": 2392,
+       "sessionYear": 2025,
+       "shortName": "BROWN K"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 90,
+       "fullName": "Nader Sayegh",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1258,
+       "sessionMemberId": 2470,
+       "sessionYear": 2025,
+       "shortName": "SAYEGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 100,
+       "fullName": "Paula Kay",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1564,
+       "sessionMemberId": 2480,
+       "sessionYear": 2025,
+       "shortName": "KAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 149,
+       "fullName": "Jonathan Rivera",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1488,
+       "sessionMemberId": 2529,
+       "sessionYear": 2025,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 2432,
+       "sessionYear": 2025,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 65,
+       "fullName": "Grace Lee",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1530,
+       "sessionMemberId": 2445,
+       "sessionYear": 2025,
+       "shortName": "LEE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 2419,
+       "sessionYear": 2025,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 30,
+       "fullName": "Steven Raga",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1525,
+       "sessionMemberId": 2410,
+       "sessionYear": 2025,
+       "shortName": "RAGA"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Dana Levenberg",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1537,
+       "sessionMemberId": 2475,
+       "sessionYear": 2025,
+       "shortName": "LEVENBERG"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Jordan Wright",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1562,
+       "sessionMemberId": 2450,
+       "sessionYear": 2025,
+       "shortName": "WRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 146,
+       "fullName": "Karen McMahon",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1255,
+       "sessionMemberId": 2526,
+       "sessionYear": 2025,
+       "shortName": "MCMAHON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "MaryJane Shimsky",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1535,
+       "sessionMemberId": 2472,
+       "sessionYear": 2025,
+       "shortName": "SHIMSKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 97,
+       "fullName": "Aron Wieder",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1563,
+       "sessionMemberId": 2477,
+       "sessionYear": 2025,
+       "shortName": "WIEDER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 32,
+       "fullName": "Vivian Cook",
+       "imgName": "457_vivian_cook.jpg",
+       "incumbent": true,
+       "memberId": 457,
+       "sessionMemberId": 2412,
+       "sessionYear": 2025,
+       "shortName": "COOK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 2518,
+       "sessionYear": 2025,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 103,
+       "fullName": "Sarahana Shrestha",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1541,
+       "sessionMemberId": 2483,
+       "sessionYear": 2025,
+       "shortName": "SHRESTHA"
+      }
+     ],
+     "size": 37
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §3217-k, Ins L; add §368-g, Soc Serv L",
+    "lawSection": "Insurance Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A1915B",
+    "publishDate": "2026-04-29",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ISC3217-K",
+        "SOS368-G"
+       ],
+       "size": 2
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S1634",
+       "basePrintNoStr": "S1634-2025",
+       "printNo": "S1634A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A1915",
+ "basePrintNoStr": "A1915-2025",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-04-29",
+    "billCalNo": null,
+    "committeeName": "Ways And Means",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Insurance",
+    "referenceDate": "2025-01-14T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Insurance",
+    "referenceDate": "2025-01-22T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Insurance",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2026-04-29T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A8592",
+    "basePrintNoStr": "A8592-2023",
+    "printNo": "A8592",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "S6534",
+    "basePrintNoStr": "S6534-2021",
+    "printNo": "S6534C",
+    "session": 2021,
+    "version": "C"
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "A1915B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-01-14T12:30:01.532646",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2025-01-22T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2026-04-29T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2025-01-14T11:43:01.256119",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 88,
+   "fullName": "Amy Paulin",
+   "imgName": "540_amy_paulin.jpg",
+   "incumbent": true,
+   "memberId": 540,
+   "sessionMemberId": 2468,
+   "sessionYear": 2025,
+   "shortName": "PAULIN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-04-29",
+  "billCalNo": null,
+  "committeeName": "Ways And Means",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires health care plans and payors to have a minimum of twelve and one-half percent of their total expenditures on physical and mental health annually be for primary care services.",
+ "title": "Provides for primary care investment",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

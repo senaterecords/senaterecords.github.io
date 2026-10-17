@@ -1,0 +1,649 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S2520",
+     "basePrintNoStr": "S2520-2021",
+     "printNo": "S2520",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2520",
+     "basePrintNoStr": "S2520-2021",
+     "printNo": "S2520",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-26",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2520",
+     "basePrintNoStr": "S2520-2021",
+     "printNo": "S2520A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-26",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 2520A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2520",
+     "basePrintNoStr": "S2520-2021",
+     "printNo": "S2520",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-01-27",
+    "sequenceNo": 4,
+    "text": "AMEND BY RESTORING TO ORIGINAL PRINT 2520"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S2520",
+     "basePrintNoStr": "S2520-2021",
+     "printNo": "S2520",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 5,
+    "text": "REFERRED TO HEALTH"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend part FFF of chapter 56 of the laws of 2020, amending the\npublic health law relating to extending and enhancing the Medicaid drug cap\nand to reduce unnecessary pharmacy benefit manager costs to the Medicaid\nprogram, in relation to temporarily exempting covered entities under the\nfederal 340B program and comprehensive HIV special needs plans",
+    "basePrintNo": "S2520",
+    "basePrintNoStr": "S2520-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 1856,
+       "sessionYear": 2021,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 1852,
+       "sessionYear": 2021,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 1818,
+       "sessionYear": 2021,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "Mike Martucci",
+       "imgName": "1313_Mike_Martucci.jpg",
+       "incumbent": false,
+       "memberId": 1496,
+       "sessionMemberId": 1851,
+       "sessionYear": 2021,
+       "shortName": "MARTUCCI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1829,
+       "sessionYear": 2021,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 38,
+       "fullName": "Elijah Reichlin-Melnick",
+       "imgName": "1312_Elijah_Reichlin-Melnick.jpg",
+       "incumbent": false,
+       "memberId": 1495,
+       "sessionMemberId": 1850,
+       "sessionYear": 2021,
+       "shortName": "REICHLIN-MELNICK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 1840,
+       "sessionYear": 2021,
+       "shortName": "STAVISKY"
+      }
+     ],
+     "size": 21
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Part FFF §1-b, Chap 56 of 2020",
+    "lawSection": "Public Health",
+    "memo": " \nBILL NUMBER: S2520\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend part FFF of chapter 56 of the laws of 2020, amending the\npublic health law relating to extending and enhancing the Medicaid drug\ncap and to reduce unnecessary pharmacy benefit manager costs to the\nMedicaid program, in relation to temporarily exempting covered entities\nunder the federal 340B program and comprehensive HIV special needs plans\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo delay for 3 years the transition from managed care to fee-for-service\nfor Medicaid pharmacy benefits under the federal 340B program and\nComprehensive HIV special needs plans.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nChap. 56, Part FFF of the 2020-21 enacted budget transfers the Medicaid\nprescription drug benefit from Medicaid managed care to fee-for-service\nMedicaid by April 1, 2021. This bill adds a new § 1-b to postpone this\ncarve-out until April 2024 for prescriptions under the federal 340B\nprogram and Medicaid HIV special needs plans.\n\n \nJUSTIFICATION:\n\nThe federal 340B prescription drug program was created to lower drug\nprices for government funded health clinics \"to enable these entities to\nstretch scarce Federal resources as far as possible, reaching more\neligible patients and providing more comprehensive services.\" The\nsavings are used by 340B providers (especially community health centers)\nto provide health care services to needy patients. See: H.R.  Rep. No.\n102-384(11), at 12 (1992).\n\nMedicaid HIV special needs plans provide enhanced care coordination\nencompassing all aspect of HIV therapeutics, including prescription drug\nregimen and adjustment, which is the key factor in survival with HIV.\nThey are concerned that carving out the prescription drug benefit will\nundermine their ability to do enhanced care coordination.\n\nCarving out the Medicaid drug benefit and putting it under the fee-for-\nservice Preferred Drug Program will have fiscal and patient care bene-\nfits. However, the abrupt transition will endanger 340B providers and\nHIV SNPs. Delaying implementation for these two programs will enable\nthem, the Health Department and the Legislature to consider ways to\navoid or minimize the negative impact.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S8948/A10960 Gottfried\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2520",
+    "publishDate": "2021-01-21",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1671",
+       "basePrintNoStr": "A1671-2021",
+       "printNo": "A1671A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend part FFF of chapter 56 of the laws of 2020, amending the\npublic health law relating to extending and enhancing the Medicaid drug cap\nand to reduce unnecessary pharmacy benefit manager costs to the Medicaid\nprogram, in relation to temporarily exempting covered entities under the\nfederal 340B program and comprehensive HIV special needs plans",
+    "basePrintNo": "S2520",
+    "basePrintNoStr": "S2520-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Patrick M. Gallivan",
+       "imgName": "427_patrick_m._gallivan.jpg",
+       "incumbent": true,
+       "memberId": 427,
+       "sessionMemberId": 1806,
+       "sessionYear": 2021,
+       "shortName": "GALLIVAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 1814,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 63,
+       "fullName": "Timothy M. Kennedy",
+       "imgName": "429_timothy_m._kennedy.jpg",
+       "incumbent": false,
+       "memberId": 429,
+       "sessionMemberId": 1819,
+       "sessionYear": 2021,
+       "shortName": "KENNEDY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 1829,
+       "sessionYear": 2021,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Part FFF §1-b, Chap 56 of 2020",
+    "lawSection": "Public Health",
+    "memo": "\n \nBILL NUMBER: S2520A\n\nSPONSOR: RIVERA\n \nTITLE OF BILL:\n\nAn act to amend part FFF of chapter 56 of the laws of 2020, amending the\npublic health law relating to extending and enhancing the Medicaid drug\ncap and to reduce unnecessary pharmacy benefit manager costs to the\nMedicaid program, in relation to temporarily exempting covered entities\nunder the federal 340B program and comprehensive HIV special needs plans\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo delay for 3 years the transition from managed care to fee-for-service\nfor Medicaid pharmacy benefits under the federal 340B program and\nComprehensive HIV special needs plans.\n\n \nSUMMARY OF SPECIFIC PROVISIONS:\n\nChap. 56, Part FFF of the 2020-21 enacted budget transfers the Medicaid\nprescription drug benefit from Medicaid managed care to fee-for-service\nMedicaid by April 1, 2021. This bill adds a new § 1-b to postpone this\ncarve-out until April 2024 for prescriptions under the federal 340B\nprogram and Medicaid HIV special needs plans.\n\n \nJUSTIFICATION:\n\nThe federal 340B prescription drug program was created to lower drug\nprices for government funded health clinics \"to enable these entities to\nstretch scarce Federal resources as far as possible, reaching more\neligible patients and providing more comprehensive services.\" The\nsavings are used by 340B providers (especially community health centers)\nto provide health care services to needy patients. See: H.R.  Rep. No.\n102-384(11), at 12 (1992).\n\nMedicaid HIV special needs plans provide enhanced care coordination\nencompassing all aspect of HIV therapeutics, including prescription drug\nregimen and adjustment, which is the key factor in survival with HIV.\nThey are concerned that carving out the prescription drug benefit will\nundermine their ability to do enhanced care coordination.\n\nCarving out the Medicaid drug benefit and putting it under the fee-for-\nservice Preferred Drug Program will have fiscal and patient care bene-\nfits. However, the abrupt transition will endanger 340B providers and\nHIV SNPs. Delaying implementation for these two programs will enable\nthem, the Health Department and the Legislature to consider ways to\navoid or minimize the negative impact.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\n2019-2020: S8948/A10960 Gottfried\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S2520A",
+    "publishDate": "2021-01-26",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S2520",
+ "basePrintNoStr": "S2520-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-01-21T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2021-01-26T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8948",
+    "basePrintNoStr": "S8948-2019",
+    "printNo": "S8948",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S2520",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-21T09:38:56.992485",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-01-26T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-01-21T09:38:56.992485",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 33,
+   "fullName": "Gustavo Rivera",
+   "imgName": "377_gustavo_rivera.jpg",
+   "incumbent": true,
+   "memberId": 377,
+   "sessionMemberId": 1832,
+   "sessionYear": 2021,
+   "shortName": "RIVERA"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Health",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to temporarily exempting covered entities under the federal 340B program and comprehensive HIV special needs plans.",
+ "title": "Temporarily exempts covered entities under the federal 340B program and comprehensive HIV special needs plans",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

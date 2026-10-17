@@ -1,0 +1,513 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S3192",
+     "basePrintNoStr": "S3192-2023",
+     "printNo": "S3192",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-30",
+    "sequenceNo": 1,
+    "text": "REFERRED TO FINANCE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3192",
+     "basePrintNoStr": "S3192-2023",
+     "printNo": "S3192",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO FINANCE"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the labor law, in relation to establishing the unemployment\nbridge program; to amend the state finance law, in relation to establishing\nthe unemployment bridge program fund; and making an appropriation therefor\n(Part A); and to amend the tax law, in relation to enacting the \"Digital Ad\nTax Act (DATA)\" (Part B)",
+    "basePrintNo": "S3192",
+    "basePrintNoStr": "S3192-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Neil D. Breslin",
+       "imgName": "372_neil_d._breslin.jpg",
+       "incumbent": false,
+       "memberId": 372,
+       "sessionMemberId": 2007,
+       "sessionYear": 2023,
+       "shortName": "BRESLIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 55,
+       "fullName": "Samra Brouk",
+       "imgName": "1317_Samra_Brouk.jpg",
+       "incumbent": true,
+       "memberId": 1500,
+       "sessionMemberId": 2050,
+       "sessionYear": 2023,
+       "shortName": "BROUK"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2008,
+       "sessionYear": 2023,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2012,
+       "sessionYear": 2023,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2014,
+       "sessionYear": 2023,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2047,
+       "sessionYear": 2023,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brian Kavanagh",
+       "imgName": "526_brian_kavanagh.jpg",
+       "incumbent": true,
+       "memberId": 1140,
+       "sessionMemberId": 2018,
+       "sessionYear": 2023,
+       "shortName": "KAVANAGH"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2022,
+       "sessionYear": 2023,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2024,
+       "sessionYear": 2023,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 33,
+       "fullName": "Gustavo Rivera",
+       "imgName": "377_gustavo_rivera.jpg",
+       "incumbent": true,
+       "memberId": 377,
+       "sessionMemberId": 2031,
+       "sessionYear": 2023,
+       "shortName": "RIVERA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2032,
+       "sessionYear": 2023,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2035,
+       "sessionYear": 2023,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 1878,
+       "sessionYear": 2023,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 25
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §591-b, Lab L; add §95-l, St Fin L; add Art 15 §§330 - 334, §1816, Tax L",
+    "lawSection": "Appropriations",
+    "memo": " \nBILL NUMBER: S3192\n\nSPONSOR: RAMOS\n \nTITLE OF BILL:\n\nAn act to amend the labor law, in relation to establishing the unemploy-\nment bridge program; to amend the state finance law, in relation to\nestablishing the unemployment bridge program fund; and making an appro-\npriation therefor (Part A); and to amend the tax law, in relation to\nenacting the \"Digital Ad Tax Act (DATA)\" (Part B)\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Establishes the act to, be cited as the \"The Unemployment\nBridge Program.\"\n\nSection 2. Amends the labor law by adding section 591-b, which estab-\nlishes the \"unemployment bridge program\". This section outlines the\npowers given to the department of labor, the eligibility provisions for\nthe program and application and disbursement procedures. Furthermore,\nthis new section also includes protections and enforcement provisions,\nas well as procedures for \"navigators\" and privacy and operating fund\nprovisions.\n\nSection 3. Amends the state finance law to create a new fund known as\nthe \"unemployment bridge program fund.\" In addition to creating the fund\nit also includes payout provisions and a lockbox provision ensuring that\nthe funds for the program are neither commingled nor used for any other\npurpose as well as being eligible to be rolled over.\n\nSection 4. Amends the tax law to establish the \"digital ad tax.\"\n\nSection 5. Amends the tax law to implement the 'digital ad tax,\" by\nadding a new article 15, which sets forth definitions and describes the\nconditions for imposition of the tax, returns, and tax payment.\n\nSection 6. Amends the tax law by adding a new section 1516 which sets\nthe penalty for willful acts or emissions related to the act as a misde-\nmeanor.\n\nSection 7. Sets forth the severability clause. Section E. Sets the\neffective date.\n\n \nJUSTIFICATION:\n\nIn April 2020, the global pandemic resulted in a near shutdown 0f the\nnation's economy. This led millions of Americans cut of a job, losing\ntheir main breadwinners to the pandemic, and needing emergency unemploy-\nment benefits. The safety nets provided by the State and Federal govern-\nment leaves many communities out of receiving unemployment and disabili-\nty financial support.\n\nNamely, undocumented workers and some workers who work in the cash or\nunderground economy are excluded from our unemployment insurance system.\nTo address this inequity the state passed an emergency S2.1 Excluded\nWorkers Fund in the FY 2022 budget. An estimated 290,000 workers who\nwere excluded from unemployment services were eligible for the emergency\nfund benefits. Still, this fund was exhausted quickly and does not fix\nthe fact that some categories of workers are still excluded from the\nfederal/state unemployment system because of exclusions in the federal\nLaw or practical realities that leave groups of workers out in the cold.\nThe Unemployment Bridge Program rectifies this exclusion by creating an\nunemployment insurance program, not only for undocumented workers, but\nalso for others whose labor is not recognized by the existing system\n(hold 'non-traditional' forms of employment),including but not limited\nto domestic workers, landscaping and groundskeeping workers, day labor-\ners, and domestic construction workers who are paid off the hooks;\nstreet vendors, freelancers, self-employed workers: and workers recently\nre eased from incarceration or immigrant detention who cannot use their\nprison or detention labor to qualify for unemployment benefits.\n\nThe new fund establishes in-depth requirements and procedures making it\npossible for members of these communities to apply and receive benefits\nfor their ongoing unemployment. Given the variety of circumstances these\nworkers face, this legislation establishes fair and accessible methods\nof employment and identity verification through a point system. This\nallows for a safe and effective method of application for the most vari-\nable members of the community in which the Unemployment Bridge Program\naims to serve.\n\n \nLEGISLATIVE HISTORY:\n\nNew Bill.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S3192",
+    "publishDate": "2023-01-30",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "LAB591-B",
+        "STF95-L",
+        "TAX1816",
+        "TAXA15"
+       ],
+       "size": 4
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4821",
+       "basePrintNoStr": "A4821-2023",
+       "printNo": "A4821",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S3192",
+ "basePrintNoStr": "S3192-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2023-01-30T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S8165",
+    "basePrintNoStr": "S8165-2021",
+    "printNo": "S8165A",
+    "session": 2021,
+    "version": "A"
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S3192",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-30T10:44:09.624647",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-01-30T10:44:09.624647",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 13,
+   "fullName": "Jessica Ramos",
+   "imgName": "1046_Jessica_Ramos.jpg",
+   "incumbent": true,
+   "memberId": 1226,
+   "sessionMemberId": 2030,
+   "sessionYear": 2023,
+   "shortName": "RAMOS"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes an unemployment bridge program and an unemployment bridge program fund to provide wage replacement to workers that do not qualify for unemployment insurance or other worker wage assistance programs and who have lost a major source of income due to lost work (Part A); establishes the \"Digital Ad Tax Act (DATA)\" creating a tax on digital advertising services (Part B).",
+ "title": "Establishes an unemployment bridge program; establishes digital ad tax act; appropriation",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

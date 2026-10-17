@@ -1,0 +1,297 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1396",
+     "basePrintNoStr": "S1396-2025",
+     "printNo": "S1396",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1396",
+     "basePrintNoStr": "S1396-2025",
+     "printNo": "S1396",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-07",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HEALTH"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the social services law and the public health law, in relation\nto criminal history records of maintenance employees in adult residential\nhealth and assisted living facilities",
+    "basePrintNo": "S1396",
+    "basePrintNoStr": "S1396-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 17,
+       "fullName": "Stephen T. Chan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1550,
+       "sessionMemberId": 2334,
+       "sessionYear": 2025,
+       "shortName": "CHAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      }
+     ],
+     "size": 2
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §461-v, Soc Serv L; amd §§2899 & 2899-a, Pub Health L",
+    "lawSection": "Social Services Law",
+    "memo": " \nBILL NUMBER: S1396\n\nSPONSOR: GALLIVAN\n \nTITLE OF BILL:\n\nAn act to amend the social services law and the public health law, in\nrelation to criminal history records of maintenance employees in adult\nresidential health and assisted living facilities\n\n \nPURPOSE:\n\nThis bill provides department of health with access to criminal history\nrecords for all maintenance employees in residential health and assisted\nliving facilities to provide a level of security across all personnel\nconsistent with nursing homes.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1. Adds a new section to the Social Services law to define main-\ntenance employee and provider. Grants department of health access to\ncriminal records maintained by division of criminal justice services,\nsubject to the rules and regulations incumbent thereon.  Requires\ncourts, within seven days of a conviction or guilty plea by a mainte-\nnance worker, give notice to the department of health.  Provides crimi-\nnal history records given under this section must include fingerprints\nof the person who is the subject of the records request.\n\nSection 2. Adds maintenance employee to the definition sections of\nsubdivisions 3 and 5 of section 2899 of Public Health law.\n\nSection 3. Adds facility licensed under article forty-six-B to subdivi-\nsion 10 of section 2899-a of the Public Health law.\n\nSection 4 establishes the effective date.\n\n \nJUSTIFICATION:\n\nMaintenance and support staff at adult residential health and assisted\nliving facilities provide many services vital to the operation of such\nfacilities. Often these duties bring them into direct contact with\npatients or residents. Additionally, direct care staff employed at such\nfacilities are already required to go through a criminal history back-\nground check. This bill aims to correct the deficiency in the law so\nthat all employees are treated equally.\n\n \nLEGISLATIVE HISTORY:\n\n2023-24:S.5822/A.2971 Referred to Health/Referred to Health\n\n2011-12:S.204/A.2033 Referred to Social Services/Referred to Health\n\n2009-10:S.1418/A.2331 Referred to Social Services/Referred to Health\n\n \nFISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1396",
+    "publishDate": "2025-01-09",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "SOS461-V"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "PBH2899",
+        "PBH2899-A"
+       ],
+       "size": 2
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A4596",
+       "basePrintNoStr": "A4596-2025",
+       "printNo": "A4596",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1396",
+ "basePrintNoStr": "S1396-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-01-07",
+    "billCalNo": null,
+    "committeeName": "Health",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2025-01-09T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S5822",
+    "basePrintNoStr": "S5822-2023",
+    "printNo": "S5822",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A4276",
+    "basePrintNoStr": "A4276-2021",
+    "printNo": "A4276",
+    "session": 2021,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A6040",
+    "basePrintNoStr": "A6040-2019",
+    "printNo": "A6040",
+    "session": 2019,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A4304",
+    "basePrintNoStr": "A4304-2017",
+    "printNo": "A4304",
+    "session": 2017,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A7124",
+    "basePrintNoStr": "A7124-2015",
+    "printNo": "A7124",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A2759",
+    "basePrintNoStr": "A2759-2013",
+    "printNo": "A2759",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A2033",
+    "basePrintNoStr": "A2033-2011",
+    "printNo": "A2033",
+    "session": 2011,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A2331",
+    "basePrintNoStr": "A2331-2009",
+    "printNo": "A2331",
+    "session": 2009,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A9632",
+    "basePrintNoStr": "A9632-2007",
+    "printNo": "A9632",
+    "session": 2007,
+    "version": ""
+   }
+  ],
+  "size": 9
+ },
+ "printNo": "S1396",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-01-09T13:35:10.643742",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2025-01-09T13:35:10.643742",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 60,
+   "fullName": "Patrick M. Gallivan",
+   "imgName": "427_patrick_m._gallivan.jpg",
+   "incumbent": true,
+   "memberId": 427,
+   "sessionMemberId": 2377,
+   "sessionYear": 2025,
+   "shortName": "GALLIVAN"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-01-07",
+  "billCalNo": null,
+  "committeeName": "Health",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to criminal history records of maintenance employees in adult residential health and assisted living facilities.",
+ "title": "Relates to criminal history records of maintenance employees in adult residential health and assisted living facilities",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

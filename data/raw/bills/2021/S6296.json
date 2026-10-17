@@ -1,0 +1,650 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6296",
+     "basePrintNoStr": "S6296-2021",
+     "printNo": "S6296",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2021-04-21",
+    "sequenceNo": 1,
+    "text": "REFERRED TO NEW YORK CITY EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6296",
+     "basePrintNoStr": "S6296-2021",
+     "printNo": "S6296",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-01-05",
+    "sequenceNo": 2,
+    "text": "REFERRED TO NEW YORK CITY EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6296",
+     "basePrintNoStr": "S6296-2021",
+     "printNo": "S6296",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-02",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO NEW YORK CITY EDUCATION"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6296",
+     "basePrintNoStr": "S6296-2021",
+     "printNo": "S6296A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2022-02-02",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 6296A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the education law, in relation to requiring class size\nreduction plans in city school districts in cities having a population of one\nmillion or more",
+    "basePrintNo": "S6296",
+    "basePrintNoStr": "S6296-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Brian Benjamin",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1136,
+       "sessionMemberId": 1798,
+       "sessionYear": 2021,
+       "shortName": "BENJAMIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 1821,
+       "sessionYear": 2021,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 14
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §211-d, Ed L",
+    "lawSection": "Education Law",
+    "memo": "\n \nBILL NUMBER: S6296\n\nSPONSOR: JACKSON\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to requiring class size\nreduction plans in city school districts in cities having a population\nof one million or more\n\n \nPURPOSE:\n\nThe purpose of this legislation is to implement a class size reduction\nplan in the New York City school district.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends subparagraphs (ii) and (iii) of paragraph b of subdivi-\nsion 2 of Section 211-D of the Education Law. This will require the\nschool district in a city with a population of one million or more to\nhave a plan to reduce citywide average class sizes by district and\nschool beginning in September 2021 and to be achieved by September 2026\nfor grade ranges pre-kindergarten through 3rd grade, 4th grade through\n8th grade, and high school; and thereafter maintain average class sizes\nachieved by September 2026.\n\nThe city school district shall prepare annual reports on the plan to\nreduce average class sizes and the report shall be made readily avail-\nable to the public through the city school district's website.  The\nreport must also identify all schools that received funds targeted at\nclass size reduction efforts. The report needs to detail the actual\nstudent enrollment for school years 2020-2021, 2021-2022, 2022-2023,\n2023-2024, and 2024-2025, and the projected student enrollment for\n2025-2026; the average class size for 2020-2021, 2021-2022, 2022-2023,\nand the projected class sizes for 2023-2023, and thereafter until the\nclass size goals are achieved. The report also needs to include the\nannual capital plan for school construction and leasing to show how many\nclassrooms will be added in each year and in which schools and subdis-\ntricts to achieve the class size reduction goals. Further, the report\nalso needs to include the school capacity and utilization formula is\naligned to the class size goals.\n\nThe first report needs to be submitted to the commissioner of education\non or before November 15 of each year. If the department determines that\nthe report does show sufficient decreases in class size, the city school\ndistrict shall submit a plan for corrective action.\n\nSection 2 is the effective date.\n\n \nJUSTIFICATION:\n\nThe children of New York City have waited far too long to receive educa-\ntional justice. For decades overcrowded classrooms have impaired\nstudents' ability to learn, build relationships with their teachers and\nother staff. This bill will update Contracts for Excellence in New York\nCity to help change that situation for the more than one million chil-\ndren in the care of Department of education schools.  Class size direct-\nly impacts student success and as schools reopen from COVID-19 closures,\ncampuses will increase capacity while navigating health and safety\n\nprotocols. This bill will help alleviate historically damaging condi-\ntions to better serve students.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nSTATE AND LOCAL FISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided, however that the\namendments to section 211-d of the education law made by section one of\nthis act shall first apply to contracts for excellence for the 2021-2022\nschool year.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6296",
+    "publishDate": "2021-04-21",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN211-D"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7447",
+       "basePrintNoStr": "A7447-2021",
+       "printNo": "A7447",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the education law, in relation to requiring class size\nreduction plans in city school districts in cities having a population of one\nmillion or more",
+    "basePrintNo": "S6296",
+    "basePrintNoStr": "S6296-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 1795,
+       "sessionYear": 2021,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Alessandra Biaggi",
+       "imgName": "1051_Alessandra_Biaggi.jpg",
+       "incumbent": false,
+       "memberId": 1231,
+       "sessionMemberId": 1799,
+       "sessionYear": 2021,
+       "shortName": "BIAGGI"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 1849,
+       "sessionYear": 2021,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 1864,
+       "sessionYear": 2021,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 1804,
+       "sessionYear": 2021,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 1808,
+       "sessionYear": 2021,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 1809,
+       "sessionYear": 2021,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 27,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 1813,
+       "sessionYear": 2021,
+       "shortName": "HOYLMAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 24,
+       "fullName": "Andrew J. Lanza",
+       "imgName": "409_andrew_j_lanza.jpg",
+       "incumbent": true,
+       "memberId": 409,
+       "sessionMemberId": 1821,
+       "sessionYear": 2021,
+       "shortName": "LANZA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 1854,
+       "sessionYear": 2021,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 1825,
+       "sessionYear": 2021,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 1828,
+       "sessionYear": 2021,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 1830,
+       "sessionYear": 2021,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 1833,
+       "sessionYear": 2021,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 1836,
+       "sessionYear": 2021,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 1838,
+       "sessionYear": 2021,
+       "shortName": "SERRANO"
+      }
+     ],
+     "size": 16
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §211-d, Ed L",
+    "lawSection": "Education Law",
+    "memo": " \nBILL NUMBER: S6296A\n\nSPONSOR: JACKSON\n \nTITLE OF BILL:\n\nAn act to amend the education law, in relation to requiring class size\nreduction plans in city school districts in cities having a population\nof one million or more\n\n \nPURPOSE:\n\nThe purpose of this legislation is to implement a class size reduction\nplan in the New York City school district.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 amends paragraph e of subdivision 1 of Section 211-D of the\nEducation Law to require that a school district that submitted a\ncontract for excellence in academic year 2021-2022 must submit a\ncontract for excellence for academic year 2022-2023 unless all schools\nin the district are in good standing.\n\nSection 2 amends subparagraphs (ii) and (iii) of paragraph b of subdivi-\nsion 2 of Section 211-D of the Education Law. This will require the\nschool district in a city with a population of one million or more to\nhave a plan to reduce citywide average class sizes by district and\nschool beginning in September 2022 and to be achieved by September 2027\nfor grade ranges pre-kindergarten through 3rd grade, 4th grade through\n8th grade, and high school; and thereafter maintain average class sizes\nachieved by September 2026.\n\nThe city school district shall prepare annual reports on the plan to\nreduce average class sizes and the report shall be made readily avail-\nable to the public through the city school district's website.  The\nreport must also identify all schools that received funds targeted at\nclass size reduction efforts. The report needs to detail the actual\nstudent enrollment for school years 2022-2023, 2023-2024, 2024-2025,\n2025-2026, and 2026-2027, and the projected student enrollment for\n2026-2027; the average class size for 2023-2024, 2024-2025, 2025-2026,\nand the projected class sizes for 2026-2027, and thereafter until the\nclass size goals are achieved. The report also needs to include the\nannual capital plan for school construction and leasing to show how many\nclassrooms will be added in each year and in which schools and subdis-\ntricts to achieve the class size reduction goals.  Further, the report\nalso needs to include the school capacity and utilization formula is\naligned to the class size goals.\n\nThe first report needs to be submitted to the commissioner of education\non or before November 15 of each year. If the department determines that\nthe report does show sufficient decreases in class size, the city school\ndistrict shall submit a plan for corrective action.\n\nSection 3 amends paragraph d of subdivision 4 and subdivision 5 of\nSection 211-D of the Education Law. This requires the public process for\ncommenting on the proposed plan shall commence no later than 30 days\nafter the state budget is enacted and must be completed 30 days after\nthe public process begins. Notice of the public comment process to be\ngiven 15 days prior to the commencement of the public process.  This\nnotice must be posted on the school district's website as well as be\ntransmitted via email to school administrators, parent and teacher\norganizations, and elected officials. Additionally, the proposed plan\nshall be submitted for state approval within two weeks following the\ncompletion of the public process. The proposed plan must be posted on\nthe school district's website within 24 hours of submission along with a\nsummary of the public comments and the school district's explanation and\nreasons for which public comments were incorporated into the proposed\nplan and which public comments were not incorporated into the proposed\nplan.\n\nContract for excellence shall be approved and the corresponding funds\nreleased once the public process has been completed. The approved plan\nshall be posted on the department's website within 48 hours after its\napproval along with any revisions to such plan or corrective action\nrequired by the state. Contract for excellence funds shall be released\nto the school district when the contract is approved by the commission-\ner. Upon approval of the contract for excellence, one-third of the funds\nshall be released to the school district. The remaining funds shall be\nreleased to the school district upon submission of the commissioner's\nreport by November 15, only if the report demonstrates sufficient\nreduction in class sizes.  If the report does not reflect sufficient\nclass size reduction, the remaining funds shall be released upon\nsubmission of a corrective action plan.\n\nSection 4 is the effective date.\n\n \nJUSTIFICATION:\n\nThe children of New York City have waited far too long to receive educa-\ntional justice. For decades overcrowded classrooms have impaired\nstudents' ability to learn, build relationships with their teachers and\nother staff. This bill will update Contracts for Excellence in New York\nCity to help change that situation for the more than one million chil-\ndren in the care of Department of education schools.  Class size direct-\nly impacts student success and as schools reopen from COVID-19 closures,\ncampuses will increase capacity while navigating health and safety\nprotocols. This bill will help alleviate historically damaging condi-\ntions to better serve students.\n\n \nLEGISLATIVE HISTORY:\n\nNew bill.\n\n \nSTATE AND LOCAL FISCAL IMPLICATIONS:\n\nTo be determined.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately and shall first apply to\ncontracts for excellence for the 2022-2023 school year.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6296A",
+    "publishDate": "2022-02-02",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "EDN211-D"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A7447",
+       "basePrintNoStr": "A7447-2021",
+       "printNo": "A7447A",
+       "session": 2021,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6296",
+ "basePrintNoStr": "S6296-2021",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-02-02",
+    "billCalNo": null,
+    "committeeName": "New York City Education",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "New York City Education",
+    "referenceDate": "2021-04-21T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "New York City Education",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "SENATE",
+    "name": "New York City Education",
+    "referenceDate": "2022-02-02T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6296A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-04-21T09:48:03.930337",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2022-02-02T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-04-21T09:48:03.930337",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 31,
+   "fullName": "Robert Jackson",
+   "imgName": "1050_Robert_Jackson.jpg",
+   "incumbent": true,
+   "memberId": 1230,
+   "sessionMemberId": 1814,
+   "sessionYear": 2021,
+   "shortName": "JACKSON"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-02-02",
+  "billCalNo": null,
+  "committeeName": "New York City Education",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Requires city school districts in cities having a population of one million or more to develop class size reduction plans beginning in September 2022 to reduce the average classroom size citywide, by district, and by school in such districts by the 2027-2028 school year.",
+ "title": "Requires class size reduction plans in city school districts in cities having a population of one million or more",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

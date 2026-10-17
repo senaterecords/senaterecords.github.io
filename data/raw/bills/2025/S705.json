@@ -1,0 +1,1531 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2025-01-08",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-01-07",
+    "sequenceNo": 2,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-02-03",
+    "sequenceNo": 3,
+    "text": "AMEND (T) AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-02-03",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 705A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-04",
+    "sequenceNo": 5,
+    "text": "AMEND AND RECOMMIT TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-04",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 705B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2026-05-12",
+    "sequenceNo": 7,
+    "text": "REPORTED AND COMMITTED TO FINANCE"
+   }
+  ],
+  "size": 7
+ },
+ "activeVersion": "B",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B"
+  ],
+  "size": 3
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law, in relation to fair pricing for\nlow-complexity, routine medical care",
+    "basePrintNo": "S705",
+    "basePrintNoStr": "S705-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 2376,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2338,
+       "sessionYear": 2025,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2346,
+       "sessionYear": 2025,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      }
+     ],
+     "size": 18
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Ren §2830 to be §2832, add §2833, Pub Health L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S705\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to fair pricing for\nlow-complexity, routine medical care\n\n \nPURPOSE:\n\nTo enact site neutral payment policy for certain healthcare services in\nNew York State. To ensure that routine outpatient services do not cost\nNew Yorkers arbitrarily high prices as a result of hospital market power\nor consolidation in healthcare. To effect benchmark-based price caps\nthat bring the highest costs down to align with prices found in doctors'\noffices.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Amends the public health law by adding a new section 2832\n\nSubdivision 1: Establishes various definitions related to applicable\nservices, health benefit plans, plan sponsors, health care contracts,\nwhat shall and shall not be considered a health care provider, affil-\niated providers, health insurance carriers, health systems, participat-\ning providers, site-neutral payment policies, superintendent and third-\nparty administrators.\n\nSubdivision 2: Dictates the maximum rate for health care providers that\nenter healthcare contracts for applicable services to be the lessor of\n150% of the Medicare rate or the negotiated rate.\n\nSubdivision 3: Requires that certain provisions be included in health\ncare contracts.\n\nSubdivision 4: Requires that the department collect and compile all\navailable and relevant hospital, health system, and payer-reported data.\nSuch information shalt be published on a publicly accessible website\n\nSubdivision 5: Requires that each health insurance carrier submit an\nannual report to DFS concerning rates for applicable services. DFS and\nDOH shall submit a report to the Governor, and legislative houses summa-\nrizing certain information about rates and spending trends.\n\nSubdivision 6: Creates a penalty structure and enforcement and oversight\npowers for DFS, DOH, and the Attorney General.\n\nSubdivision 7: Provides that DFS and DOH shall have the ability to\npromulgate additional regulations or add to the list of applicable\nservices if designated by the Federal Government through the Medicare\nPayment Advisory Commission. Regulations and additional codes shall\nfollow the existing procedures for rulemaking.\n\nSection 2: Severability.\n\nSection 3: Immediate effective date.\n\n \nJUSTIFICATION:\n\nAcross the nation and in New York State, high hospital prices are driv-\ning unsustainable increases in healthcare costs. These cost increases\nthreaten affordability for New Yorkers and squeeze worker wages. While\nhospital spending increased by 97% from 2007 to 2020, average hourly\nwages only increased 15% in that same period.\n\nThese steadily increasing amounts New Yorkers are paying for healthcare\nare not yielding more care or better health outcomes in return.\nInstead, high prices are reflective of hospital market power and consol-\nidation.\n\nWith almost 60% of doctors' offices now owned by hospitals or corpo-\nrations, there has been an outsized growth in healthcare costs ass\nociated with outpatient services that were traditionally performed in a\ndoctor's office but are now being charged at higher hospital level pric-\nes. Essentially, the service and the quality of care are the same, but\npatients are paying more, in some cases just because a hospital owns the\nbuilding.\n\nSite neutral payment policy aims to reduce unnecessary and inflated\nhealthcare costs by equalizing the payment rate across \"sites\" of\nservice (hospital outpatient departments, doctors' offices, ambulatory\nsurgical centers, and other outpatient settings). Site neutral payment\npolicy was initiated as part of the Medicare program, which set site-\nneutral payments for routine evaluation and management (E&M) services,\nsuch as a 15-minute wellness visit. Recent federal initiatives have\nsought to expand site neutral payment policy.\n\nThe Fair Pricing Act is based on applying site neutral payment policy to\na limited number of medical services that are appropriately delivered in\nthe lower-cost site, which is an outpatient setting, including a\ndoctor's office or ambulatory surgical center, depending on the service.\nHospital outpatient departments are generally higher-priced. The\nservices covered under the Fair Pricing Act are the same that Medicare's\nPayment Advisory Commission (Med PAC) has determined are safe and effec-\ntive to perform in a doctor's office or other outpatient setting, and\nwhich had primarily been performed in doctors' offices prior to recent\nconsolidation trends. Examples of such services include clinic visits,\ngynecological procedures like a pap-smear, certain skin procedures, such\nas laser treatments; drug administration procedures such as vaccines or\ninfusion drug administration; and imaging procedures, such as X-Rays,\nultrasounds, EKGs and MRIs.\n\nThe site-neutral payment policy applies to all patients and programs\nexcept those paid for by Medicare, which sets its own rates at t he\nfederal level. The site-neutral payment policy will not apply to Feder-\nally Qualified Health Centers (FQHCs), public hospitals, federally\ndesignated critical access hospitals, federally designated sole communi-\nty hospitals, rural emergency hospitals, and safety net hospitals, which\nare exempt. The Fair Pricing Act offers a unique and much needed remedy\nfor New Yorkers' continuously rising healthcare costs by capping prices\nf or routine services at 150% of Medicare in order to lower health bene-\nfit expenses for payers and make healthcare more affordable for\npatients. This price cap level is set above the average prices charged\nby doctors' offices for the applicable services but below high hospital\nprice levels for the applicable services, thus aiming to bring payment\nlevels in other sites of service closer in line with doctors' office\nrates.\nBy placing guardrails on healthcare pricing for routine services,\nregardless of where these medical services are provided, New York State\ncan interrupt consolidation and corporatization incentives in health-\ncare; protect patients - both insured and uninsured - from excessive and\narbitrary prices; and promote a fair and affordable economy for taxpay-\ners, employers, and workers alike.\n\nSite-based price differences for the applicable services are estimated\nto cost New Yorkers $1.07 billion in annual healthcare overpayments.\nWhile specific savings estimates for the bill are to be determined, this\nbill will help to reduce health care costs for individuals, employers,\nand the state.\n\n \nLEGISLATIVE HISTORY:\n\n2024- S.9952 New Bill\n\n \nFISCAL IMPLICATIONS:\n\nCosts are to be determined\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S705",
+    "publishDate": "2025-01-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH2833"
+       ],
+       "size": 1
+      },
+      "RENAME": {
+       "items": [
+        "PBH2830"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2140",
+       "basePrintNoStr": "A2140-2025",
+       "printNo": "A2140",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the public health law, in relation to fair pricing for\nlow-complexity, routine medical care; and to amend the insurance law, in\nrelation to billing and reimbursement",
+    "basePrintNo": "S705",
+    "basePrintNoStr": "S705-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2342,
+       "sessionYear": 2025,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2373,
+       "sessionYear": 2025,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 2376,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2338,
+       "sessionYear": 2025,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2349,
+       "sessionYear": 2025,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2346,
+       "sessionYear": 2025,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2359,
+       "sessionYear": 2025,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Sam Sutton",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1572,
+       "sessionMemberId": 2533,
+       "sessionYear": 2025,
+       "shortName": "SUTTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Jeremy Zellner",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1575,
+       "sessionMemberId": 2536,
+       "sessionYear": 2025,
+       "shortName": "ZELLNER"
+      }
+     ],
+     "size": 25
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Ren §2830 to be §2833, add §2834, amd §4406-c, Pub Health L; amd §§3217-b, 3221, 4325, 4413, 3231 & 4308, add §§4242 & 4715, Ins L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S705A\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to fair pricing for\nlow-complexity, routine medical care; and to amend the insurance law, in\nrelation to billing and reimbursement\n\n \nPURPOSE:\n\nTo enact site neutral payment policy for certain ambulatory healthcare\nservices in New York State. To ensure that routine outpatient services\ndo not cost New Yorkers arbitrarily high prices as a result of hospital\nmarket power or consolidation in healthcare. To effect benchmark-based\nprice caps that bring the highest costs down to align with prices found\nin doctors' offices and other standalone facilities.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Amends the public health law by adding a new section 2834\n\nSubdivision 1: Establishes various definitions related to applicable\nservices, health benefit plans, plan sponsors, health care contracts,\nwhat shall and shall not be considered a health care provider, affil-\niated providers, health insurance carriers, health systems, participat-\ning providers, site-neutral payment policies, superintendent and third-\nparty administrators.\n\nSubdivision 2: Dictates the maximum rate for health care providers,\nincluding those that enter healthcare contracts for applicable services,\nto be the lessor of 150% of the Medicare rate or the negotiated rate.\nProhibits the billing of an additional institutional claim, otherwise\nknown as a facility fee, for the applicable services.\n\nSubdivision 3: Requires that the department publish an annual report on\nspending trends and cost drivers for ambulatory services, service-spe-\ncific rates for common services, a list of exempt hospitals, a list of\nhospitals in violation of the maximum rate provision and related\nenforcement actions, and recommendations.  Allows additional data\ncollection if existing data is insufficient.\n\nSubdivision 4: Creates a penalty structure and enforcement and oversight\npowers for DFS and DOH, as well as the Attorney General through desig-\nnation of violations as unlawful deceptive acts_or_practices.\n\nSection 2,3,4,5,6,7 and 8: Amends various sections of the insurance law\nto prevent insurance companies from entering into contracts to make\npayments or making payments to health care providers in excess of limits\ncreated in this legislation\n\nSection 9 and 10: Amends various sections of the insurance law to ensure\nthat savings achieved as a result of the fair pricing law will be\nreflected in the approved insurance rates to ensure that savings result-\ning from this law will result in lower health care costs for New Yorkers\n\nSection 11 provides the ability to the Commissioner of Health and Super-\nintendent of DFS to promulgate additional regulations as necessary.\n\nSection 12: Severability.\n\nSection 13: Effective on first of January next succeeding enactment.\n\n \nJUSTIFICATION:\n\nAcross the nation and in New York State, high hospital prices are driv-\ning unsustainable increases in healthcare costs. These cost increases\nthreaten affordability for New Yorkers and squeeze worker wages. While\nhospital spending increased by 97% from 2007 to 2020, average hourly\nwages only increased 15% in that same period.\n\nThese steadily increasing amounts New Yorkers are paying for healthcare\nare not yielding more care or better health outcomes in return.\nInstead, high prices are reflective of hospital market power and consol-\nidation.\n\nWith almost 60% of doctors' offices now owned by hospitals or corpo-\nrations, there has been an outsized growth in healthcare costs ass\nociated with outpatient services that were traditionally performed in a\ndoctor's office but are now being charged at higher hospital level pric-\nes. Essentially, the service and the quality of care are the same, but\npatients are paying more, in some cases just because a hospital owns the\nbuilding.\n\nSite neutral payment policy aims to reduce unnecessary and inflated\nhealthcare costs by equalizing the payment rate across \"sites\" of\nservice (hospital outpatient departments, doctors' offices, ambulatory\nsurgical centers, and other outpatient settings). Site neutral payment\npolicy was initiated as part of the Medicare program, which set site\nneutral payments for routine evaluation and management (E&M) services,\nsuch as a 15-minute wellness visit. Recent federal initiatives have\nsought to expand site neutral payment policy.\n\nThe Fair Pricing Act is based on applying site neutral payment policy to\na limited number of medical services that are appropriately delivered in\nthe lower-cost site, which is an outpatient setting, including a\ndoctor's office or ambulatory surgical center, depending on the service.\nHospital outpatient departments are generally higher-priced.  The\nservices covered under the Fair Pricing Act are the same that Medicare's\nPayment Advisory Commission (Med PAC) identified in its recommendation\nto Congress to enact site neutral payments for services safe and effec-\ntive to perform in a doctor's office or other outpatient setting, and\nwhich had primarily been performed in doctors' offices prior to recent\nconsolidation trends. Examples of such services include clinic visits,\ngynecological procedures like a pap-smear, certain skin procedures, such\nas laser treatments; drug administration procedures such as vaccines or\ninfusion drug administration; and imaging procedures, such as X-Rays,\nultrasounds, EKGs and MRIs.\n\nThe site-neutral payment policy applies to all patients and programs\nexcept those paid for by Medicare, which sets its own rates at the\nfederal level. The site-neutral payment policy will not apply to Feder-\nally Qualified Health Centers (FQHCs),PPS cancer hospitals, public\nhospitals, federally designated critical access hospitals, federally\ndesignated sole community hospitals, rural emergency hospitals, and\nsafety net hospitals, which are exempt. The Fair Pricing Act offers a\nunique and much needed remedy for New Yorkers' continuously rising\nhealthcare costs by capping prices for routine services at 150% of Medi-\ncare in order to lower health bene- fit expenses for payers and make\nhealthcare more affordable for patients. This price cap level is set\nabove the average prices charged by doctors' offices for the applicable\nservices but below high hospital price levels for the applicable\nservices, thus aiming to bring payment levels in other sites of service\ncloser in line with doctors' office rates.\n\nBy placing guardrails on healthcare pricing for routine services,\nregardless of where these medical services are provided, New York State\ncan interrupt consolidation and corporatization incentives in health-\ncare; protect patients - both insured and uninsured - from excessive and\narbitrary prices; and promote a fair and affordable economy for taxpay-\ners, employers, and workers alike.\n\nBy limiting site-based price differences for the applicable services,\nthis bill is estimated to reduce health care costs for individuals,\nemployers, and the state by $1.14 billion overall, including $213\nmillion in lower out of pocket costs for patients and $72 million in\nlower employee health benefit costs for the state.\n\n \nLEGISLATIVE HISTORY:\n\n2024 - S.9952 New Bill\n\n \nFISCAL IMPLICATIONS:\n\nCosts are to be determined\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S705A",
+    "publishDate": "2026-02-03",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ISC4242",
+        "ISC4715",
+        "PBH2834"
+       ],
+       "size": 3
+      },
+      "AMEND": {
+       "items": [
+        "ISC3217-B",
+        "ISC3221",
+        "ISC3231",
+        "ISC4308",
+        "ISC4325",
+        "ISC4413",
+        "PBH4406-C"
+       ],
+       "size": 7
+      },
+      "RENAME": {
+       "items": [
+        "PBH2830"
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2140",
+       "basePrintNoStr": "A2140-2025",
+       "printNo": "A2140A",
+       "session": 2025,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the public health law, in relation to fair pricing for\nlow-complexity, routine medical care; and to amend the insurance law, in\nrelation to billing and reimbursement",
+    "basePrintNo": "S705",
+    "basePrintNoStr": "S705-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2342,
+       "sessionYear": 2025,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2347,
+       "sessionYear": 2025,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 14,
+       "fullName": "Leroy Comrie",
+       "imgName": "888_leroy_comrie.jpg",
+       "incumbent": true,
+       "memberId": 888,
+       "sessionMemberId": 2331,
+       "sessionYear": 2025,
+       "shortName": "COMRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 56,
+       "fullName": "Jeremy Cooney",
+       "imgName": "1318_Jeremy_Cooney.jpg",
+       "incumbent": true,
+       "memberId": 1501,
+       "sessionMemberId": 2373,
+       "sessionYear": 2025,
+       "shortName": "COONEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 46,
+       "fullName": "Patricia Fahy",
+       "imgName": "657_patricia_fahy.jpg",
+       "incumbent": true,
+       "memberId": 1571,
+       "sessionMemberId": 2532,
+       "sessionYear": 2025,
+       "shortName": "FAHY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 2351,
+       "sessionYear": 2025,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 2376,
+       "sessionYear": 2025,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 26,
+       "fullName": "Andrew Gounardes",
+       "imgName": "1049_Andrew_Gounardes.jpg",
+       "incumbent": true,
+       "memberId": 1229,
+       "sessionMemberId": 2343,
+       "sessionYear": 2025,
+       "shortName": "GOUNARDES"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 40,
+       "fullName": "Pete Harckham",
+       "imgName": "1053_Pete_Harckham.jpg",
+       "incumbent": true,
+       "memberId": 1233,
+       "sessionMemberId": 2357,
+       "sessionYear": 2025,
+       "shortName": "HARCKHAM"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 41,
+       "fullName": "Michelle Hinchey",
+       "imgName": "1314_Michelle_Hinchey.jpg",
+       "incumbent": true,
+       "memberId": 1497,
+       "sessionMemberId": 2358,
+       "sessionYear": 2025,
+       "shortName": "HINCHEY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2364,
+       "sessionYear": 2025,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2348,
+       "sessionYear": 2025,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 16,
+       "fullName": "John Liu",
+       "imgName": "1045_John_Liu.jpg",
+       "incumbent": true,
+       "memberId": 1225,
+       "sessionMemberId": 2333,
+       "sessionYear": 2025,
+       "shortName": "LIU"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 48,
+       "fullName": "Rachel May",
+       "imgName": "1057_Rachel_May.jpg",
+       "incumbent": true,
+       "memberId": 1237,
+       "sessionMemberId": 2365,
+       "sessionYear": 2025,
+       "shortName": "MAY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 37,
+       "fullName": "Shelley Mayer",
+       "imgName": "623_shelley_mayer.jpg",
+       "incumbent": true,
+       "memberId": 1143,
+       "sessionMemberId": 2354,
+       "sessionYear": 2025,
+       "shortName": "MAYER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2337,
+       "sessionYear": 2025,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2338,
+       "sessionYear": 2025,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2330,
+       "sessionYear": 2025,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "Christopher Ryan",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1551,
+       "sessionMemberId": 2367,
+       "sessionYear": 2025,
+       "shortName": "RYAN C"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 18,
+       "fullName": "Julia Salazar",
+       "imgName": "1047_Julia_Salazar.jpg",
+       "incumbent": true,
+       "memberId": 1227,
+       "sessionMemberId": 2335,
+       "sessionYear": 2025,
+       "shortName": "SALAZAR"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2349,
+       "sessionYear": 2025,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 29,
+       "fullName": "José M. Serrano",
+       "imgName": "373_jose_m._serrano.jpg",
+       "incumbent": true,
+       "memberId": 373,
+       "sessionMemberId": 2346,
+       "sessionYear": 2025,
+       "shortName": "SERRANO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2359,
+       "sessionYear": 2025,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 11,
+       "fullName": "Toby Ann Stavisky",
+       "imgName": "400_toby_ann_stavisky.jpg",
+       "incumbent": true,
+       "memberId": 400,
+       "sessionMemberId": 2328,
+       "sessionYear": 2025,
+       "shortName": "STAVISKY"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 22,
+       "fullName": "Sam Sutton",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1572,
+       "sessionMemberId": 2533,
+       "sessionYear": 2025,
+       "shortName": "SUTTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 52,
+       "fullName": "Lea Webb",
+       "imgName": "1332_Lea_Webb.jpg",
+       "incumbent": true,
+       "memberId": 1515,
+       "sessionMemberId": 2369,
+       "sessionYear": 2025,
+       "shortName": "WEBB"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 61,
+       "fullName": "Jeremy Zellner",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1575,
+       "sessionMemberId": 2536,
+       "sessionYear": 2025,
+       "shortName": "ZELLNER"
+      }
+     ],
+     "size": 27
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Ren §2830 to be §2833, add §2834, amd §4406-c, Pub Health L; amd §§3217-b, 3221, 4325, 4413, 3231 & 4308, add §§4242 & 4715, Ins L",
+    "lawSection": "Public Health Law",
+    "memo": " \nBILL NUMBER: S705B\n\nSPONSOR: KRUEGER\n \nTITLE OF BILL:\n\nAn act to amend the public health law, in relation to fair pricing for\nlow-complexity, routine medical care; and to amend the insurance law, in\nrelation to billing and reimbursement\n\n \nPURPOSE:\n\nTo enact site neutral payment policy for certain ambulatory healthcare\nservices in New York State. To ensure that routine outpatient services\ndo not cost New Yorkers arbitrarily high prices as a result of hospital\nmarket power or consolidation in healthcare. To effect benchmark-based\nprice caps that bring the highest costs down to align with prices found\nin doctors' offices and other standalone facilities.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1: Amends the public health law by adding a new section 2834\n\nSubdivision 1: Establishes various definitions related to applicable\nservices, health benefit plans, plan sponsors, health care contracts,\nwhat shall and shall not be considered a health care provider, affil-\niated providers, health insurance carriers, health systems, participat-\ning providers, site-neutral payment policies, superintendent and third-\nparty administrators.\n\nSubdivision 2: Dictates the maximum rate for health care providers,\nincluding those that enter healthcare contracts for applicable services,\nto be the lessor of 150% of the Medicare rate or the negotiated rate.\nProhibits the billing of an additional institutional claim, otherwise\nknown as a facility fee, for the applicable services.\n\nSubdivision 3: Requires that the department publish an annual report on\nspending trends and cost drivers for ambulatory services, service-spe-\ncific rates for common services, a list of exempt hospitals, a list of\nhospitals in violation of the maximum rate provision and related\nenforcement actions, and recommendations.  Allows additional data\ncollection if existing data is insufficient.  Subdivision 4: Creates a\npenalty structure and enforcement and oversight powers for DFS and DOH;\nas well as the Attorney General through designation of violations as\nunlawful deceptive acts_or_practices.\n\nSection 2,3,4,5,6,7 and 8: Amends various sections of the insurance law\nto prevent insurance companies from entering into contracts to make\npayments or making payments to health care providers in excess of limits\ncreated in this legislation\n\nSection 9 and 10: Amends various sections of the insurance law to ensure\nthat savings achieved as a result of the fair pricing law will be\nreflected in the approved insurance rates to ensure that savings result-\ning from this law will result in lower health care costs for New Yorkers\n\nSection 11 provides the ability to the Commissioner of Health and Super-\nintendent of DFS to promulgate additional regulations as necessary.\n\nSection 12: Severability.\nSection 13: Effective on first of January next succeeding enactment.\n\n \nJUSTIFICATION:\n\nAcross the nation and in New York State, high hospital prices are driv-\ning unsustainable increases in healthcare costs. These cost increases\nthreaten affordability for New Yorkers and squeeze worker wages. While\nhospital spending increased by 97% from 2007 to 2020, average hourly\nwages only increased 15% in that same period.\n\nThese steadily increasing amounts New Yorkers are paying for healthcare\nare not yielding more care or better health outcomes in return.\nInstead, high prices are reflective of hospital market power and consol-\nidation.\n\nWith almost 60% of doctors' offices now owned by hospitals or corpo-\nrations, there has been an outsized growth in healthcare costs ass\nociated with outpatient services that were traditionally performed in a\ndoctor's office but are now being charged at higher hospital level pric-\nes. Essentially, the service and the quality of care are the same, but\npatients are paying more, in some cases just because a hospital owns the\nbuilding.\n\nSite neutral payment policy aims to reduce unnecessary and inflated\nhealthcare costs by equalizing the payment rate across \"sites\" of\nservice (hospital outpatient departments, doctors' offices, ambulatory\nsurgical centers, and other outpatient settings). Site neutral payment\npolicy was initiated as part of the Medicare program, which set site-\nneutral payments for routine evaluation and management (E&M) services,\nsuch as a 15-minute wellness visit. Recent federal initiatives have\nsought to expand site neutral payment policy.\n\nThe Fair Pricing Act is based on applying site neutral payment policy to\na limited number of medical services that are appropriately delivered in\nthe lower-cost site, which is an outpatient setting, including a\ndoctor's office or ambulatory surgical center, depending on the service.\nHospital outpatient departments are generally higher-priced.  The\nservices covered under the Fair Pricing Act are the same that Medicare's\nPayment Advisory Commission (Med PAC) identified in its recommendation\nto Congress to enact site neutral payments for services safe and effec-\ntive to perform in a doctor's office or other outpatient setting, and\nwhich had primarily been performed in doctors' offices prior to recent\nconsolidation trends. Examples of such services include clinic visits,\ngynecological procedures like a pap-smear, certain skin procedures, such\nas laser treatments; drug administration procedures such as vaccines or\ninfusion drug administration; and imaging procedures, such as X-Rays,\nultrasounds, EKGs and MRIs.\n\nThe site-neutral payment policy applies to all patients and programs\nexcept those paid for by Medicare, which sets its own rates at the\nfederal level. The site-neutral payment policy will not apply to Feder-\nally Qualified Health Centers (FQHCs),PPS cancer hospitals, public\nhospitals, federally designated critical access hospitals, federally\ndesignated sole community hospitals, rural emergency hospitals, and\nsafety net hospitals, which are exempt. The Fair Pricing Act offers a\nunique and much needed remedy for New Yorkers' continuously rising\nhealthcare costs by capping prices for routine services at 150% of Medi-\ncare in order to lower health bene- fit expenses for payers and make\nhealthcare more affordable for patients. This price cap level is set\nabove the average prices charged by doctors' offices for the applicable\nservices but below high hospital price levels for the applicable\nservices, thus aiming to bring payment levels in other sites of service\ncloser in line with doctors' office rates.\n\nBy placing guardrails on healthcare pricing for routine services,\nregardless of where these medical services are provided, New York State\ncan interrupt consolidation and corporatization incentives in health-\ncare; protect patients - both insured and uninsured - from excessive and\narbitrary prices; and promote a fair and affordable economy for taxpay-\ners, employers, and workers alike.\n\nBy limiting site-based price differences for the applicable services,\nthis bill is estimated to reduce health care costs for individuals,\nemployers, and the state by $1.14 billion overall, including $213\nmillion in lower out of pocket costs for patients and $72 million in\nlower employee health benefit costs for the state.\n\n \nLEGISLATIVE HISTORY:\n\n2024- S.9952 New Bill\n\n \nFISCAL IMPLICATIONS:\n\nCosts are to be determined\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S705B",
+    "publishDate": "2026-05-04",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "ISC4242",
+        "ISC4715",
+        "PBH2834"
+       ],
+       "size": 3
+      },
+      "AMEND": {
+       "items": [
+        "ISC3217-B",
+        "ISC3221",
+        "ISC3231",
+        "ISC4308",
+        "ISC4325",
+        "ISC4413",
+        "PBH4406-C"
+       ],
+       "size": 7
+      },
+      "RENAME": {
+       "items": [
+        "PBH2830"
+       ],
+       "size": 1
+      }
+     },
+     "size": 3
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A2140",
+       "basePrintNoStr": "A2140-2025",
+       "printNo": "A2140B",
+       "session": 2025,
+       "version": "B"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S705",
+ "basePrintNoStr": "S705-2025",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [
+   {
+    "agendaId": {
+     "number": 17,
+     "year": 2026
+    },
+    "committeeId": {
+     "chamber": "SENATE",
+     "name": "Health"
+    }
+   }
+  ],
+  "size": 1
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-05-12",
+    "billCalNo": null,
+    "committeeName": "Finance",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Finance",
+    "referenceDate": "2026-05-12T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2025-01-08T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-02-03T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Health",
+    "referenceDate": "2026-05-04T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S9952",
+    "basePrintNoStr": "S9952-2023",
+    "printNo": "S9952",
+    "session": 2023,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S705B",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-01-03T14:49:53.012426",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2026-02-03T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2026-05-04T00:00",
+    "published": true,
+    "version": "B"
+   }
+  },
+  "size": 3
+ },
+ "publishedDateTime": "2025-01-03T14:49:53.012426",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 28,
+   "fullName": "Liz Krueger",
+   "imgName": "401_liz_krueger.jpg",
+   "incumbent": true,
+   "memberId": 401,
+   "sessionMemberId": 2345,
+   "sessionYear": 2025,
+   "shortName": "KRUEGER"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-05-12",
+  "billCalNo": null,
+  "committeeName": "Finance",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to fair pricing for low-complexity, routine medical care to more closely align payment rates across ambulatory settings for selected services that are safe and appropriate to provide in all settings.",
+ "title": "Relates to fair pricing for low-complexity, routine medical care",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [
+   {
+    "attendance": {
+     "remote": {
+      "items": [],
+      "size": 0
+     }
+    },
+    "billId": {
+     "basePrintNo": "S705",
+     "basePrintNoStr": "S705-2025",
+     "printNo": "S705B",
+     "session": 2025,
+     "version": "B"
+    },
+    "committee": {
+     "chamber": "SENATE",
+     "name": "Health"
+    },
+    "memberVotes": {
+     "items": {
+      "AYE": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 55,
+         "fullName": "Samra Brouk",
+         "imgName": "1317_Samra_Brouk.jpg",
+         "incumbent": true,
+         "memberId": 1500,
+         "sessionMemberId": 2372,
+         "sessionYear": 2025,
+         "shortName": "BROUK"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 59,
+         "fullName": "Kristen Gonzalez",
+         "imgName": "1330_Kristen_Gonzalez.jpg",
+         "incumbent": true,
+         "memberId": 1513,
+         "sessionMemberId": 2376,
+         "sessionYear": 2025,
+         "shortName": "GONZALEZ"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 31,
+         "fullName": "Robert Jackson",
+         "imgName": "1050_Robert_Jackson.jpg",
+         "incumbent": true,
+         "memberId": 1230,
+         "sessionMemberId": 2348,
+         "sessionYear": 2025,
+         "shortName": "JACKSON"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 20,
+         "fullName": "Zellnor Myrie",
+         "imgName": "1048_Zellnor_Myrie.jpg",
+         "incumbent": true,
+         "memberId": 1228,
+         "sessionMemberId": 2337,
+         "sessionYear": 2025,
+         "shortName": "MYRIE"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 21,
+         "fullName": "Kevin S. Parker",
+         "imgName": "416_kevin_s._parker.jpg",
+         "incumbent": true,
+         "memberId": 416,
+         "sessionMemberId": 2338,
+         "sessionYear": 2025,
+         "shortName": "PARKER"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 33,
+         "fullName": "Gustavo Rivera",
+         "imgName": "377_gustavo_rivera.jpg",
+         "incumbent": true,
+         "memberId": 377,
+         "sessionMemberId": 2350,
+         "sessionYear": 2025,
+         "shortName": "RIVERA"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 52,
+         "fullName": "Lea Webb",
+         "imgName": "1332_Lea_Webb.jpg",
+         "incumbent": true,
+         "memberId": 1515,
+         "sessionMemberId": 2369,
+         "sessionYear": 2025,
+         "shortName": "WEBB"
+        }
+       ],
+       "size": 7
+      },
+      "AYEWR": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 48,
+         "fullName": "Rachel May",
+         "imgName": "1057_Rachel_May.jpg",
+         "incumbent": true,
+         "memberId": 1237,
+         "sessionMemberId": 2365,
+         "sessionYear": 2025,
+         "shortName": "MAY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 50,
+         "fullName": "Christopher Ryan",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1551,
+         "sessionMemberId": 2367,
+         "sessionYear": 2025,
+         "shortName": "RYAN C"
+        }
+       ],
+       "size": 2
+      },
+      "EXC": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 22,
+         "fullName": "Sam Sutton",
+         "imgName": "no_image.jpg",
+         "incumbent": true,
+         "memberId": 1572,
+         "sessionMemberId": 2533,
+         "sessionYear": 2025,
+         "shortName": "SUTTON"
+        }
+       ],
+       "size": 1
+      },
+      "NAY": {
+       "items": [
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 43,
+         "fullName": "Jake Ashby",
+         "imgName": "971_Jake_Ashby.jpg",
+         "incumbent": true,
+         "memberId": 1522,
+         "sessionMemberId": 2360,
+         "sessionYear": 2025,
+         "shortName": "ASHBY"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 60,
+         "fullName": "Patrick M. Gallivan",
+         "imgName": "427_patrick_m._gallivan.jpg",
+         "incumbent": true,
+         "memberId": 427,
+         "sessionMemberId": 2377,
+         "sessionYear": 2025,
+         "shortName": "GALLIVAN"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 7,
+         "fullName": "Jack M. Martins",
+         "imgName": "397_jack_m._martins.jpg",
+         "incumbent": true,
+         "memberId": 397,
+         "sessionMemberId": 2324,
+         "sessionYear": 2025,
+         "shortName": "MARTINS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 5,
+         "fullName": "Steve Rhoads",
+         "imgName": "1333_Steve_Rhoads.jpg",
+         "incumbent": true,
+         "memberId": 1516,
+         "sessionMemberId": 2322,
+         "sessionYear": 2025,
+         "shortName": "RHOADS"
+        },
+        {
+         "alternate": false,
+         "chamber": "SENATE",
+         "districtCode": 45,
+         "fullName": "Dan Stec",
+         "imgName": "674_dan_stec.jpg",
+         "incumbent": true,
+         "memberId": 1490,
+         "sessionMemberId": 2362,
+         "sessionYear": 2025,
+         "shortName": "STEC"
+        }
+       ],
+       "size": 5
+      }
+     },
+     "size": 4
+    },
+    "sequenceNo": 1,
+    "version": "B",
+    "voteDate": "2026-05-12",
+    "voteType": "COMMITTEE"
+   }
+  ],
+  "size": 1
+ },
+ "year": 2026
+}

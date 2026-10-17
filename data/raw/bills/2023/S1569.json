@@ -1,0 +1,524 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S1569",
+     "basePrintNoStr": "S1569-2023",
+     "printNo": "S1569",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-01-12",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CITIES 1"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1569",
+     "basePrintNoStr": "S1569-2023",
+     "printNo": "S1569",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CITIES 1"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1569",
+     "basePrintNoStr": "S1569-2023",
+     "printNo": "S1569",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-16",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO CITIES 1"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1569",
+     "basePrintNoStr": "S1569-2023",
+     "printNo": "S1569A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-16",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 1569A"
+   }
+  ],
+  "size": 4
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto the imposition of tax on the transfer of certain properties in the city of\nNew York",
+    "basePrintNo": "S1569",
+    "basePrintNoStr": "S1569-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §11-2120, NYC Ad Cd",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S1569\n\nSPONSOR: SALAZAR\n \nTITLE OF BILL:\n\nAn act to amend the administrative code of the city of New York, in\nrelation to the imposition of tax on the transfer of certain properties\nin the city of New York\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill seeks to stabilize communities and create more opportunity and\nequity in the New York City housing market and curtail predatory housing\nspeculation by taxing predatory home flipping.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 provides that the title of this Act is the \"Protect Our Homes\nand Communities, Stop predatory Housing Speculation Act of 2023\".\n\nSection 2 amends the administrative code of the city of New York by\nadding a new section 11-2120 establishing, in regard to residential\nproperty of one to three units sold within two years of purchase, an\naddition to the existing tax imposed by section 11-2102, of sixty-five\npercent of the difference between the current sale price and the sale\nprice of the prior conveyance if the time since the prior conveyance is\nless than one year, and fifty percent of the difference if the time\nsince the prior conveyance is greater than or equal to one year but less\nthan two years. No additional tax is imposed if the time since the prior\nconveyance is two years or more.\n\nThis section further provides that the following persons shall be exempt\nfrom the tax imposed by this section: (i) property owners conveying\nproperty to a family member and (ii) property owners who can demonstrate\na financial hardship which justifies a conveyance of property in less\nthan or equal to two years. This section further provides that the\nfollowing properties shall be exempt from the tax imposed by this\nsection: (i) property conveyed following the death of the property\nowner, (ii) property being sold as new housing, (iii) property for which\nthe consideration or value conveyed is less than or equal to ten percent\nmore than the value of the property conveyed at the time of the prior\nconveyance, (iv) property conveyed to a mortgagee by a mortgagor by deed\nin lieu of foreclosure or in satisfaction of the mortgage debt, (v)\nproperty conveyed to a mortgagee pursuant to a foreclosure sale, (vi)\nproperty otherwise exempt from payment of real property tax.\n\nSection 3 is a severability provision.\n\nSection 4 establishes the effective date of the act as 90 days after\nenactment.\n\n \nJUSTIFICATION:\n\nNew York City is facing an enormous housing crisis fueled primarily by\naggressive real estate speculation in working-class communities.and\ncommunities of color. This crisis pre-dated the COVID-19 pandemic, but\nthe pandemic made it especially difficult for working, low and moder-\nate-income New Yorkers to maintain housing stability as hundreds of\n\nthousands of workers lost income and struggled to pay their rent and\nmortgages.\n\nThis bill seeks to create more opportunity and equity in the housing\nmarket for first time homebuyers by creating a disincentive for predato-\nry real estate speculators to engage in the destabilizing conduct of\nhome flipping. This is accomplished by imposing additional taxes on\ncertain property sold within two years of purchase.\n\nProperty flipping, where an investor purchases a home and resells it for\na quick profit, drives prices up for would-be homeowners, increases\nproperty taxes, and provokes harassment of homeowners, who are over-\nwhelmingly Black and Latinx, in rapidly gentrifying neighborhoods.\n\nFlipping is lucrative for investors, who target financially vulnerable\nhomeowners (often seniors) and seek to dislodge them from their valuable\nhomes at low prices. These unwanted and sometimes deceptive solicita-\ntions of homeowners are an annoyance at best, but can also involve\noutright fraud, and result in the displacement of longtime homeowners.\nWhen low-income homeowners are bought out and leave the neighborhoods,\nthere is a ripple effect on renters as the often affordable rents in\nthese properties are increased by investors looking to maximize profit.\n\nUrgent action is necessary to ensure that low and moderate-income New\nYorkers have a fighting chance to remain in NYC. This bill seeks to\nlevel the playing field by taxing home flipping.\n\nThis bill is supported by numerous community-based organizations and\nadvocacy groups, including: the Association for Neighborhood and Housing\nDevelopment, Inc., Bedford Stuyvesant Restoration Corporation, Center\nfor NYC Neighborhoods, Cypress Hills Local Development Corporation,\nNeighborhood Housing Services of Jamaica, Legal Aid Society, MFY Legal\nServices, Chines-American Planning Council, the Coalition for Community\nAdvancement, and others.\n\n \nRACIAL AND SOCIAL JUSTICE IMPACT:\n\nThe detrimental impact of predatory speculation and home flipping is\nparticularly experienced by working-class communities and communities of\ncolor. In some communities in NYC one-third of all homes purchased in\nrecent years were purchased by real estate investors, mostly for the\npurpose of flipping. In addition, in the past decade, 40% of homes in\nNYC were purchased by cash buyers.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nThis bill contains the \"flip-tax\" provisions of 2021-2022 S 5376 (Sala-\nzar) / A 6574 (Cruz) which was referred to the Cities I Committee in the\nSenate and the Ways and Means Committee in the Assembly.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nThis act will create revenue for the state and local governments.\n\n \nEFFECTIVE DATE:\nNinetieth day after it becomes law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1569",
+    "publishDate": "2023-01-12",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1023",
+       "basePrintNoStr": "A1023-2023",
+       "printNo": "A1023",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto the imposition of tax on the transfer of certain properties in the city of\nNew York",
+    "basePrintNo": "S1569",
+    "basePrintNoStr": "S1569-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 25,
+       "fullName": "Jabari Brisport",
+       "imgName": "1311_Jabari_Brisport.jpg",
+       "incumbent": true,
+       "memberId": 1494,
+       "sessionMemberId": 2046,
+       "sessionYear": 2023,
+       "shortName": "BRISPORT"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 30,
+       "fullName": "Cordell Cleare",
+       "imgName": "Cordell Cleare.jpg",
+       "incumbent": true,
+       "memberId": 1504,
+       "sessionMemberId": 2056,
+       "sessionYear": 2023,
+       "shortName": "CLEARE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 12,
+       "fullName": "Michael Gianaris",
+       "imgName": "383_michael_gianaris.jpg",
+       "incumbent": false,
+       "memberId": 383,
+       "sessionMemberId": 2011,
+       "sessionYear": 2023,
+       "shortName": "GIANARIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 59,
+       "fullName": "Kristen Gonzalez",
+       "imgName": "1330_Kristen_Gonzalez.jpg",
+       "incumbent": true,
+       "memberId": 1513,
+       "sessionMemberId": 1876,
+       "sessionYear": 2023,
+       "shortName": "GONZALEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 47,
+       "fullName": "Brad Hoylman-Sigal",
+       "imgName": "438_brad_hoylman.jpg",
+       "incumbent": false,
+       "memberId": 438,
+       "sessionMemberId": 2313,
+       "sessionYear": 2023,
+       "shortName": "HOYLMAN-SIGAL"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 31,
+       "fullName": "Robert Jackson",
+       "imgName": "1050_Robert_Jackson.jpg",
+       "incumbent": true,
+       "memberId": 1230,
+       "sessionMemberId": 2017,
+       "sessionYear": 2023,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 20,
+       "fullName": "Zellnor Myrie",
+       "imgName": "1048_Zellnor_Myrie.jpg",
+       "incumbent": true,
+       "memberId": 1228,
+       "sessionMemberId": 2025,
+       "sessionYear": 2023,
+       "shortName": "MYRIE"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 13,
+       "fullName": "Jessica Ramos",
+       "imgName": "1046_Jessica_Ramos.jpg",
+       "incumbent": true,
+       "memberId": 1226,
+       "sessionMemberId": 2030,
+       "sessionYear": 2023,
+       "shortName": "RAMOS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 10,
+       "fullName": "James Sanders Jr.",
+       "imgName": "432_james_sanders_jr.jpg",
+       "incumbent": true,
+       "memberId": 432,
+       "sessionMemberId": 2033,
+       "sessionYear": 2023,
+       "shortName": "SANDERS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add §11-2120, NYC Ad Cd",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S1569A\n\nSPONSOR: SALAZAR\n \nTITLE OF BILL:\n\nAn act to amend the administrative code of the city of New York, in\nrelation to the imposition of tax on the transfer of certain properties\nin the city of New York\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nThis bill seeks to stabilize communities and create more opportunity and\nequity in the New York City housing market and curtail predatory housing\nspeculation by taxing predatory home flipping.\n\n \nSUMMARY OF PROVISIONS:\n\nSection 1 provides that the title of this Act is the \"end toxic home\nflipping act\".\n\nSection 2 amends the administrative code of the city of New York by\nadding a new section 11-2120 establishing, in regard to residential\nproperty of one to three units sold within two years of purchase, an\naddition to the existing tax imposed by section 11-2102, of sixty-five\npercent of the difference between the current sale price and the sale\nprice of the prior conveyance if the time since the prior conveyance is\nless than one year, and fifty percent of the difference if the time\nsince the prior conveyance is greater than or equal to one year but less\nthan two years. No additional tax is imposed if the time since the prior\nconveyance is two years or more.\n\nThis section further provides that the following persons shall be exempt\nfrom the tax imposed by this section: (i) property owners conveying\nproperty to a family member and (ii) property owners who can demonstrate\na financial hardship which justifies a conveyance of property in less\nthan or equal to two years. This section further provides that the\nfollowing properties shall be exempt from the tax imposed by this\nsection: (i) property conveyed following the death of the property\nowner, (ii) property being sold as new housing, (iii) property for which\nthe consideration or value conveyed is less than or equal to ten percent\nmore than the value of the property conveyed at the time of the prior\nconveyance, (iv) property conveyed to a mortgagee by a mortgagor by deed\nin lieu of foreclosure or in satisfaction of the mortgage debt, (v)\nproperty conveyed to a mortgagee pursuant to a foreclosure sale, (vi)\nproperty otherwise exempt from payment of real property tax.\n\nSection 3 is a severability provision.\n\nSection 4 establishes the effective date of the act as 90 days after\nenactment.\n\n \nJUSTIFICATION:\n\nNew York City is facing an enormous housing crisis fueled primarily by\naggressive real estate speculation in working-class communities. and\ncommunities of color. This crisis pre-dated the COVID-19 pandemic, but\nthe pandemic made it especially difficult for working, low and moder-\nate-income New Yorkers to maintain housing stability as hundreds of\n\nthousands of workers lost income and struggled to pay their rent and\nmortgages.\n\nThis bill seeks to create more opportunity and equity in the housing\nmarket for first time homebuyers by creating a disincentive for predato-\nry real estate speculators to engage in the destabilizing conduct of\nhome flipping. This is accomplished by imposing additional taxes on\ncertain property sold within two years of purchase.  Property flipping,\nwhere an investor purchases a home and resells it for a quick profit,\ndrives prices up for would-be homeowners, increases property taxes, and\nprovokes harassment of homeowners, who are overwhelmingly Black and\nLatinx, in rapidly gentrifying neighborhoods.\n\nFlipping is lucrative for investors, who target financially vulnerable\nhomeowners (often seniors) and seek to dislodge them from their valuable\nhomes at low prices. These unwanted and sometimes deceptive solicita-\ntions of homeowners are an annoyance at best, but can also involve\noutright fraud, and result in the displacement of longtime homeowners.\nWhen low-income homeowners are bought out and leave the neighborhoods,\nthere is a ripple effect on renters as the often affordable rents in\nthese properties are increased by investors looking to maximize profit.\n\nUrgent action is necessary to ensure that low and moderate-income New\nYorkers have a fighting chance to remain in NYC. This bill seeks to\nlevel the playing field by taxing home flipping.  This bill is supported\nby numerous community-based organizations and advocacy groups, includ-\ning: the Association for Neighborhood and Housing Development, Inc.,\nBedford Stuyvesant Restoration Corporation, Center for NYC Neighbor-\nhoods, Cypress Hills Local Development Corporation, Neighborhood Housing\nServices of Jamaica, Legal Aid Society, MFY Legal Services, Chinese-Am-\nerican Planning Council, the Coalition for Community Advancement, and\nothers.\n\n \nAMENDED BILL:\n\nThe \"A\" print of the bill simply changes the name to the \"end toxic home\nflipping act\".\n\n \nRACIAL AND SOCIAL JUSTICE IMPACT:\n\nThe detrimental impact of predatory speculation and home flipping is\nparticularly experienced by working-class communities and communities of\ncolor. In some communities in NYC one-third of all homes purchased in\nrecent years were purchased by real estate investors, mostly for the\npurpose of flipping. In addition, in the past decade, 40% of homes in\nNYC were purchased by cash buyers.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nThis bill contains the \"flip-tax\" provisions of 2021-2022 S 5376 (Sala-\nzar) / A 6574 (Cruz) which was referred to the Cities I Committee in the\nSenate and the Ways and Means Committee in the Assembly.\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nThis act will create revenue for the state and local governments.\n\n \nEFFECTIVE DATE:\nNinetieth day after it becomes law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S1569A",
+    "publishDate": "2024-01-16",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A1023",
+       "basePrintNoStr": "A1023-2023",
+       "printNo": "A1023A",
+       "session": 2023,
+       "version": "A"
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S1569",
+ "basePrintNoStr": "S1569-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-16",
+    "billCalNo": null,
+    "committeeName": "Cities 1",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Cities 1",
+    "referenceDate": "2023-01-12T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Cities 1",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Cities 1",
+    "referenceDate": "2024-01-16T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 3
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "S5376",
+    "basePrintNoStr": "S5376-2021",
+    "printNo": "S5376",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "S1569A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-01-12T14:34:07.262259",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2024-01-16T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2023-01-12T14:34:07.262259",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 18,
+   "fullName": "Julia Salazar",
+   "imgName": "1047_Julia_Salazar.jpg",
+   "incumbent": true,
+   "memberId": 1227,
+   "sessionMemberId": 2032,
+   "sessionYear": 2023,
+   "shortName": "SALAZAR"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-16",
+  "billCalNo": null,
+  "committeeName": "Cities 1",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes the end toxic home flipping act; imposes a tax on the transfer of certain residential properties which are sold within two years of the prior conveyance of such property; exempts certain purchases of residential properties from mortgage recording taxes; imposes a tax on the transfer of certain properties in the city of New York which are sold for one million dollars or more.",
+ "title": "Establishes the end toxic home flipping act",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

@@ -1,0 +1,918 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-04-17",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2023-06-06",
+    "sequenceNo": 2,
+    "text": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2023-06-06",
+    "sequenceNo": 3,
+    "text": "PRINT NUMBER 6352A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-01-03",
+    "sequenceNo": 4,
+    "text": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352A",
+     "session": 2023,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-05",
+    "sequenceNo": 5,
+    "text": "AMEND (T) AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-05",
+    "sequenceNo": 6,
+    "text": "PRINT NUMBER 6352B"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352B",
+     "session": 2023,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-09",
+    "sequenceNo": 7,
+    "text": "AMEND AND RECOMMIT TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6352",
+     "basePrintNoStr": "S6352-2023",
+     "printNo": "S6352C",
+     "session": 2023,
+     "version": "C"
+    },
+    "chamber": "SENATE",
+    "date": "2024-02-09",
+    "sequenceNo": 8,
+    "text": "PRINT NUMBER 6352C"
+   }
+  ],
+  "size": 8
+ },
+ "activeVersion": "C",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A",
+   "B",
+   "C"
+  ],
+  "size": 4
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto certain housing accommodations; and to amend chapter 576 of the laws of\n1974, constituting the emergency tenant protection act of nineteen\nseventy-four, in relation to certain hardship provisions",
+    "basePrintNo": "S6352",
+    "basePrintNoStr": "S6352-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 2048,
+       "sessionYear": 2023,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1874,
+       "sessionYear": 2023,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2029,
+       "sessionYear": 2023,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 1875,
+       "sessionYear": 2023,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §26-511, add §§26-511.2 & 26-513.1, NYC Ad Cd; amd §§6, 10 & 9, Emerg Ten Prot Act of 1974",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S6352\n\nSPONSOR: COMRIE\n \nTITLE OF BILL:\n\nAn act to amend the administrative code of the city of New York, in\nrelation to certain housing accommodations; and to amend chapter 576 of\nthe laws of 1974, constituting the emergency tenant protection act of\nnineteen seventy-four, in relation to certain hardship provisions\n\n \nPURPOSE:\n\nTo preserve, and restore to the rental market, rent-stabilized dwelling\nunits vacated after extended occupancies by setting forth a procedure in\nlaw that will require documentary submissions demonstrating subject\nunits to be lead-free under applicable local definitions and to have\nundergone code-compliant modernization with tenant protection plans in\nplace. Further, to set forth a process and requirements for setting\nlegal regulated rents for qualifying units commensurate with legal regu-\nlated rents of substantially similar units in the same geographic areas\n\n \nSUMMARY OF PROVISIONS:\n\nAdds a new paragraph 15 to subdivision c of Section 26-511 of the New\nYork City Administrative Code, and a new paragraph 6 to subdivision d of\nSection 6 of the Emergency Tenant Protection Act, both authorizing the\nadjustment of the legal regulated rents of housing accommodations having\nundergone documented restoration when vacated after continuous tenancies\nor occupancies of ten years or more.\n\nAdds a new section 26-511.2 of the New York City Administrative Code,\nand a new subdivision (a-1) to Section 10 of the Emergency Tenant\nProtection Act, which both set forth the documentation submission\nrequirements for restored units to qualify for legal regulated rent\nadjustment, certain limitations, and the requirements for an audit proc-\ness by the Division of Housing & Community Renewal.\n\nAdds a new section 26-513.1 of the New York City Administrative Code,\nand a new subdivision (d-1) to Section 9 of the Emergency Tenant\nProtection Act, which both set forth requirements for tenant applica-\ntions for adjustment of legal regulated rents established under this act\nand criteria for assessment of such applications and legal regulated\nrents established under this act.\n\n \nJUSTIFICATION:\n\nWith regulated housing options scarce for middle- and low-income fami-\nlies, this bill would create a process that would allow for restoration\nto the regulated rental market units vacated after long-term tenancies\nor occupancies that have been brought into compliance with applicable\nlocal definitions for lead-free housing accommodations and have other-\nwise undergone modernization in accordance with applicable code and\nconstruction requirements. This bill further requires that property\nowners submit to the Division of Housing and Community Renewal certain\ndocumentation establishing entitlement to adjust the legal regulated\nrent of qualifying restored units and to allow for confirmation that any\nlegal regulated rent established under this act does not exceed the\nlegal regulated rent of a substantially similar unit in the same\ngeographic area. This bill will provide incentives to improve rent-regu-\nlated housing stock while restoring units to the rental market and\npromoting the health, safety, and welfare of current and new tenants\n\n \nLEGISLATIVE HISTORY:\n\nThis is a new bill.\n\n \nFISCAL IMPLICATIONS:\n\nTBD.\n\n \nEFFECTIVE DATE:\nImmediately.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6352",
+    "publishDate": "2023-04-17",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ETP10",
+        "ETP6",
+        "ETP9"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "A6772",
+       "basePrintNoStr": "A6772-2023",
+       "printNo": "A6772",
+       "session": 2023,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto certain housing accommodations; and to amend chapter 576 of the laws of\n1974, constituting the emergency tenant protection act of nineteen\nseventy-four, in relation to certain hardship provisions",
+    "basePrintNo": "S6352",
+    "basePrintNoStr": "S6352-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 2048,
+       "sessionYear": 2023,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1874,
+       "sessionYear": 2023,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2029,
+       "sessionYear": 2023,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 1875,
+       "sessionYear": 2023,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §26-511, add §§26-511.2 & 26-513.1, NYC Ad Cd; amd §§6, 10 & 9, Emerg Ten Prot Act of 1974",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S6352A\n\nSPONSOR: COMRIE\n \nTITLE OF BILL:\n\nAn act to amend the administrative code of the city of New York, in\nrelation to certain housing accommodations; and to amend chapter 576 of\nthe laws of 1974, constituting the emergency tenant protection act of\nnineteen seventy-four, in relation to certain hardship provisions\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo preserve, and restore to the rental market, rent-stabilized dwelling\nunits vacated after extended occupancies by setting forth a procedure in\nlaw that will require documentary submissions demonstrating subject\nunits to be lead-free under applicable local definitions and to have\nundergone code-compliant modernization with tenant protection plans in\nplace. Further, to set forth a process and requirements for setting\nlegal regulated rents for qualifying units, commensurate with legal\nregulated rents of substantially similar units in the same geographic\nareas.\n\n \nSUMMARY OF PROVISIONS:\n\nAdds a new paragraph 15 to subdivision c of Section 26-511 of the New\nYork City Administrative Code, and a new paragraph 6 to subdivision d of\nSection 6 of the Emergency Tenant Protection Act, both authorizing the\nadjustment of the legal regulated rents of housing accommodations having\nundergone documented restoration when vacated after continuous tenancies\nor occupancies of ten years or more.\n\nAdds a new section 26-511.2 of the New York City Administrative Code,\nand a new subdivision (a-1) to Section 15 of the Emergency Tenant\nProtection Act, which both set forth the documentation submission\nrequirements for restored units to qualify for legal regulated rent\nadjustment, certain limitations such as the correction of all\nviolations, penalties for tenant harassment, prohibition for buildings\nin enforcement programs, and the requirements for an audit process by\nthe Division of Housing & Community Renewal.\n\nAdds a new section 26-513.1 of.the New York City Administrative Code,\nand a new subdivision (d-1) to Section 9 of the Emergency Tenant\nProtection Act, which both set forth requirements for tenant applica-\ntions for adjustment of legal regulated rents including provisions to\nincentivize the housing of voucher applicants established under this act\nand criteria for assessment of such applications and legal regulated\nrents established under this act.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\nAmended to add additional tenant protections including an affidavit or\nother evidence of no harassment, requirements for units to be recovered\nthrough legal court process, prohibition of buildings in the NYC Housing\nPreservation & Development Alternative Enforcement Program.\n\nAmended to add incentives for property owners to rent apartments to\nhousing subsidy voucher holders.\n\n \nJUSTIFICATION:\nWith regulated housing options scarce for middle- and low-income fami-\nlies, this bill would create a process that would allow for restoration\nto the regulated rental market units vacated after long-term tenancies.\nThese units must be brought into compliance with applicable local defi-\nnitions for lead-free housing accommodations and have otherwise under-\ngone modernization in accordance with applicable code and construction.\n\nThis bill further requires that property owners submit to the Division\nof Housing and Community Renewal certain documentation establishing\nentitlement to adjust the legal regulated rent of qualifying restored\nunits and to allow for confirmation that any legal regulated rent estab-\nlished under this act does not exceed the legal regulated rent of a\nsubstantially similar unit in the same geographic area. This bill\nincludes incentives for property owners to rent renovated apartments to\nhousing subsidy voucher holders.\n\nThis bill provides robust tenant protections to prevent harassment of\ncurrent long-term occupants of rent-regulated housing.  This bill will\nprovide incentives to improve rent-regulated housing stock while restor-\ning units to the rental market and promoting the health, safety, and\nwelfare of current and new tenants.\n\n \nPRIOR LEGISLATIVE HISTORY:\n\nNew Bill\n\n \nFISCAL IMPLICATIONS FOR STATE AND LOCAL GOVERNMENTS:\n\nTBD\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6352A",
+    "publishDate": "2023-06-06",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ETP10",
+        "ETP6",
+        "ETP9"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   },
+   "B": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto certain housing accommodations; and to amend the emergency tenant\nprotection act of nineteen seventy-four, in relation to certain hardship\nprovisions",
+    "basePrintNo": "S6352",
+    "basePrintNoStr": "S6352-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 2048,
+       "sessionYear": 2023,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1874,
+       "sessionYear": 2023,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2029,
+       "sessionYear": 2023,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 1875,
+       "sessionYear": 2023,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 42,
+       "fullName": "James Skoufis",
+       "imgName": "672_james_skoufis.jpg",
+       "incumbent": true,
+       "memberId": 1232,
+       "sessionMemberId": 2036,
+       "sessionYear": 2023,
+       "shortName": "SKOUFIS"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 10
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §26-511, add §§26-511.2 & 26-513.1, NYC Ad Cd; amd §§6, 10 & 9, Emerg Ten Prot Act of 1974",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S6352B\n\nSPONSOR: COMRIE\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo preserve, and restore to the rental market, rent-stabilized dwelling\nunits vacated after extended occupancies by setting forth a procedure in\nlaw that will require documentary submissions demonstrating subject\nunits to be lead-free under applicable local definitions and to have\nundergone code-compliant modernization with tenant protection plans in\nplace. Further, to set forth a process and requirements for setting\nlegal regulated rents for qualifying units, commensurate with Section 8\nHousing Choice Voucher rents in the same geographic areas.\n\n \nSUMMARY OF PROVISIONS:\n\nAdds a new paragraph 15 to subdivision c of Section 26-511 of the New\nYork City Administrative Code, and a new paragraph 6 to subdivision d of\nSection 6 of the Emergency Tenant Protection Act, both authorizing the\nadjustment of the legal regulated rents of housing accommodations having\nundergone documented restoration when vacated after continuous tenancies\nor occupancies of ten years or more.\n\nAdds a new section 26-511.2 of the New York City Administrative Code,\nand a new subdivision (a-1) to Section 15 of the Emergency Tenant\nProtection Act, which both set forth the documentation submission\nrequirements for restored units to qualify for legal regulated rent\nadjustment, certain limitations such as the correction of all\nviolations, penalties for tenant harassment, prohibition for buildings\nin enforcement programs, and the requirements for an audit process by\nthe Division of Housing & Community Renewal.\n\nAdds a new section 26-513.1 of the New York City Administrative Code,\nand a new subdivision (d-1) to Section 9 of the Emergency Tenant\nProtection Act, which both set forth requirements for applications for\nadjustment of legal regulated rents including provisions to incentivize\nthe housing of voucher applicants established under this act and crite-\nria for assessment of such applications and legal regulated rents estab-\nlished under this act.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND AMENDED VERSION (IF APPLICABLE):\n\nAmended to add additional tenant protections including an affidavit or\nother evidence of no harassment, requirements for units to be recovered\nthrough legal court process, prohibition of buildings in the NYC Housing\nPreservation & Development Alternative Enforcement Program, and\nprotections against unlawful evictions.\n\nAmended to add incentives for property owners to rent apartments to\nhousing subsidy voucher holders, and to ensure rent levels are not\ngreater than Section 8 payment standards so that voucher holders can\noccupy renovated units.\n\n \nJUSTIFICATION:\n\nCurrently, there are thousands of apartments across New York that are\nuninhabitable due to the failure of property owners to keep dwellings up\nto code. Such upgrades for owners are cost prohibitive and have left\napartments vacated for some time. New York is in a housing crisis. With\nunit scarcity and high demand for apartments, we need solutions to bring\nthose apartments back into a state of good repair and in conformity with\nhousing regulations.\n\nWith regulated housing options scarce for middle- and low-income fami-\nlies, this bill would create a process that would allow for restoration\nto the regulated rental market units vacated after long-term tenancies.\nThese units must be brought into compliance with applicable local defi-\nnitions for lead-free housing accommodations and have otherwise under-\ngone modernization in accordance with applicable code and construction.\n\nThis bill further requires that property owners submit to the Division\nof Housing and Community Renewal certain documentation establishing\nentitlement to adjust the legal regulated rent of qualifying restored\nunits and to allow for confirmation that any legal regulated rent estab-\nlished under this act does not exceed the Section 8 Voucher Payment\nStandard adopted by the local agency for the same geographic area. This\nbill includes incentives for property owners to rent renovated apart-\nments to housing subsidy voucher holders and ensures rent levels are\nwithin Section 8 voucher rent limits.\n\nThis bill provides robust tenant protections to prevent harassment and\nunlawful eviction of current long-term occupants of rent-regulated hous-\ning. This bill will provide incentives to improve rent-regulated housing\nstock while restoring units to the rental market and promoting the\nhealth, safety, and welfare of current and new tenants.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided that the amendments to\nchapter 4 of title 26 of the administrative code of the city of New York\nmade by sections one, two and three of this act shall expire on the same\ndate as such law expires and shall not affect the expiration of such law\nas provided under section 26-520 of such law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6352B",
+    "publishDate": "2024-02-05",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ETP10",
+        "ETP6",
+        "ETP9"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "B"
+   },
+   "C": {
+    "actClause": "AN ACT to amend the administrative code of the city of New York, in relation\nto certain housing accommodations; and to amend the emergency tenant\nprotection act of nineteen seventy-four, in relation to certain hardship\nprovisions",
+    "basePrintNo": "S6352",
+    "basePrintNoStr": "S6352-2023",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 34,
+       "fullName": "Nathalia Fernandez",
+       "imgName": "966_Nathalia_Fernandez.jpg",
+       "incumbent": true,
+       "memberId": 1520,
+       "sessionMemberId": 1883,
+       "sessionYear": 2023,
+       "shortName": "FERNANDEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 32,
+       "fullName": "Luis R. Sepúlveda",
+       "imgName": "493_Luis_Sepulveda.jpg",
+       "incumbent": true,
+       "memberId": 1142,
+       "sessionMemberId": 2034,
+       "sessionYear": 2023,
+       "shortName": "SEPULVEDA"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 15,
+       "fullName": "Joseph P. Addabbo Jr.",
+       "imgName": "384_joseph_p._addabbo_jr.jpg",
+       "incumbent": true,
+       "memberId": 384,
+       "sessionMemberId": 2004,
+       "sessionYear": 2023,
+       "shortName": "ADDABBO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 50,
+       "fullName": "John Mannion",
+       "imgName": "1315_John_Mannion.jpg",
+       "incumbent": false,
+       "memberId": 1498,
+       "sessionMemberId": 2048,
+       "sessionYear": 2023,
+       "shortName": "MANNION"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 4,
+       "fullName": "Monica Martinez",
+       "imgName": "1041_Monica_Martinez.jpg",
+       "incumbent": true,
+       "memberId": 1221,
+       "sessionMemberId": 1874,
+       "sessionYear": 2023,
+       "shortName": "MARTINEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 21,
+       "fullName": "Kevin S. Parker",
+       "imgName": "416_kevin_s._parker.jpg",
+       "incumbent": true,
+       "memberId": 416,
+       "sessionMemberId": 2028,
+       "sessionYear": 2023,
+       "shortName": "PARKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 19,
+       "fullName": "Roxanne J. Persaud",
+       "imgName": "736_Roxanne_Persaud.jpg",
+       "incumbent": true,
+       "memberId": 914,
+       "sessionMemberId": 2029,
+       "sessionYear": 2023,
+       "shortName": "PERSAUD"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 23,
+       "fullName": "Jessica Scarcella-Spanton",
+       "imgName": "1329_Jessica_Scarcella-Spanton.jpg",
+       "incumbent": true,
+       "memberId": 1512,
+       "sessionMemberId": 1875,
+       "sessionYear": 2023,
+       "shortName": "SCARCELLA-SPANTON"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 6,
+       "fullName": "Kevin Thomas",
+       "imgName": "1043_Kevin_Thomas.jpg",
+       "incumbent": false,
+       "memberId": 1223,
+       "sessionMemberId": 2040,
+       "sessionYear": 2023,
+       "shortName": "THOMAS"
+      }
+     ],
+     "size": 9
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §26-511, add §§26-511.2 & 26-513.1, NYC Ad Cd; amd §§6, 10 & 9, Emerg Ten Prot Act of 1974",
+    "lawSection": "New York City Administrative Code",
+    "memo": " \nBILL NUMBER: S6352C\n\nSPONSOR: COMRIE\n \nTITLE OF BILL:\n\nAn act to amend the administrative code of the city of New York, in\nrelation to certain housing accommodations; and to amend the emergency\ntenant protection act of nineteen seventy-four, in relation to certain\nhardship provisions\n\n \nPURPOSE OR GENERAL IDEA OF BILL:\n\nTo preserve, and restore to the rental market, rent-stabilized dwelling\nunits vacated after extended occupancies by setting forth a procedure in\nlaw that will require documentary submissions demonstrating subject\nunits to be lead-free under applicable local definitions and to have\nundergone code-compliant modernization with tenant protection plans in\nplace. Further, to set forth a process and requirements for setting\nlegal regulated rents for qualifying units, commensurate with Section 8\nHousing Choice Voucher rents in the same geographic areas.\n\n \nSUMMARY OF PROVISIONS:\n\nAdds a new paragraph 15 to subdivision c of Section 26-511 of the New\nYork City Administrative Code, and a new paragraph 6 to subdivision d of\nSection 6 of the Emergency Tenant Protection Act, both authorizing the\nadjustment of the legal regulated rents of housing accommodations having\nundergone documented restoration when vacated after continuous tenancies\nor occupancies of ten years or more.\n\nAdds a new section 26-511.2 of the New York City Administrative Code,\nand a new subdivision (a-1) to Section 15 of the Emergency Tenant\nProtection Act, which both set forth the documentation submission\nrequirements for restored units to qualify for legal regulated rent\nadjustment, certain limitations such as the correction of all\nviolations, penalties for tenant harassment, prohibition for buildings\nin enforcement programs, and the requirements for an audit process by\nthe Division of Housing & Community Renewal.\n\nAdds a new section 26-513.1 of the New York City Administrative Code,\nand a new subdivision (d-1) to Section 9 of the Emergency Tenant\nProtection Act, which both set forth requirements for applications for\nadjustment of legal regulated rents including provisions to incentivize\nthe housing of voucher applicants established under this act and crite-\nria for assessment of such applications and legal regulated rents estab-\nlished under this act.\n\n \nDIFFERENCE BETWEEN ORIGINAL AND ORIGINAL VERSION (IF APPLICABLE:\n\nAmended to add additional tenant protections including an affidavit or\nother evidence of no harassment, requirements for units to be recovered\nthrough legal court process, prohibition of buildings in the NYC Housing\nPreservation & Development Alternative Enforcement Program, and\nprotections against unlawful evictions.\n\nAmended to add incentives for property owners to rent apartments to\nhousing subsidy voucher holders, and to ensure rent levels are not\ngreater than Section 8 payment standards so that voucher holders can\noccupy renovated units.\n \nJUSTIFICATION:\n\nCurrently, there are thousands of apartments across New York that are\nuninhabitable due to the failure of property owners to keep dwellings up\nto code. Such upgrades for owners are cost prohibitive and have left\napartments vacated for some time. New York is in a housing crisis. With\nunit scarcity and high demand for apartments, we need solutions to bring\nthose apartments back into a state of good repair and in conformity with\nhousing regulations.\n\nWith regulated housing options scarce for middle- and low-income fami-\nlies, this bill would create a process that would allow for restoration\nto the regulated rental market units vacated after long-term tenancies.\nThese units must be brought into compliance with applicable local defi-\nnitions for lead-free housing accommodations and have otherwise under-\ngone modernization in accordance with applicable code and construction.\n\nThis bill further requires that property owners submit to the Division\nof Housing and Community Renewal certain documentation establishing\nentitlement to adjust the legal regulated rent of qualifying restored\nunits and to allow for confirmation that any legal regulated rent estab-\nlished under this act does not exceed the Section 8 Voucher Payment\nStandard adopted by the local agency for the same geographic area. This\nbill includes incentives for property owners to rent renovated apart-\nments to housing subsidy voucher holders and ensures rent levels are\nwithin Section 8 voucher rent limits.\n\nThis bill provides robust tenant protections to prevent harassment and\nunlawful eviction of current long-term occupants of rent-regulated hous-\ning. This bill will provide incentives to improve rent-regulated housing\nstock while restoring units to the rental market and promoting the\nhealth, safety, and welfare of current and new tenants.\n\n \nEFFECTIVE DATE:\nThis act shall take effect immediately; provided that the amendments to\nchapter 4 of title 26 of the administrative code of the city of New York\nmade by sections one, two and three of this act shall expire on the same\ndate as such law expires and shall not affect the expiration of such law\nas provided under section 26-520 of such law.\n",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S6352C",
+    "publishDate": "2024-02-09",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "ETP10",
+        "ETP6",
+        "ETP9"
+       ],
+       "size": 3
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "approvalMessage": null,
+ "basePrintNo": "S6352",
+ "basePrintNoStr": "S6352-2023",
+ "billType": {
+  "chamber": "SENATE",
+  "desc": "Senate",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-02-09",
+    "billCalNo": null,
+    "committeeName": "Housing, Construction And Community Development",
+    "statusDesc": "In Senate Committee",
+    "statusType": "IN_SENATE_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2023-04-17T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2023-06-06T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2024-02-05T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Housing, Construction And Community Development",
+    "referenceDate": "2024-02-09T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 5
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "S6352C",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-04-17T15:18:49.165534",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2023-06-06T00:00",
+    "published": true,
+    "version": "A"
+   },
+   "B": {
+    "effectDateTime": "2024-02-05T00:00",
+    "published": true,
+    "version": "B"
+   },
+   "C": {
+    "effectDateTime": "2024-02-09T00:00",
+    "published": true,
+    "version": "C"
+   }
+  },
+  "size": 4
+ },
+ "publishedDateTime": "2023-04-17T15:18:49.165534",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "SENATE",
+   "districtCode": 14,
+   "fullName": "Leroy Comrie",
+   "imgName": "888_leroy_comrie.jpg",
+   "incumbent": true,
+   "memberId": 888,
+   "sessionMemberId": 2008,
+   "sessionYear": 2023,
+   "shortName": "COMRIE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-02-09",
+  "billCalNo": null,
+  "committeeName": "Housing, Construction And Community Development",
+  "statusDesc": "In Senate Committee",
+  "statusType": "IN_SENATE_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Provides that when a housing accommodation has been vacated after continuous tenancy or occupancy of ten years or more prior to vacancy, and the owner can demonstrate restoration of the unit, the new legal regulated rent shall be the rent agreed to by the owner and first tenant after such restoration and reserved in a lease or other rental agreement; makes related provisions.",
+ "title": "Relates to certain housing accommodations",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

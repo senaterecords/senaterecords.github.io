@@ -1,0 +1,209 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A7460",
+     "basePrintNoStr": "A7460-2025",
+     "printNo": "A7460",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2025-03-28",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7460",
+     "basePrintNoStr": "A7460-2025",
+     "printNo": "A7460",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-01-07",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CODES"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law, in relation to the authority to\nremand a principal charged with certain felony offenses involving the\npossession of firearms or weapons",
+    "basePrintNo": "A7460",
+    "basePrintNoStr": "A7460-2025",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§510.10, 530.20 & 530.40, CP L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A7460",
+    "publishDate": "2025-03-28",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S7419",
+       "basePrintNoStr": "S7419-2025",
+       "printNo": "S7419",
+       "session": 2025,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A7460",
+ "basePrintNoStr": "A7460-2025",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2026-01-07",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2025-03-28T00:00",
+    "sessionYear": 2025
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2026-01-07T00:00",
+    "sessionYear": 2025
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A4729",
+    "basePrintNoStr": "A4729-2023",
+    "printNo": "A4729",
+    "session": 2023,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A6737",
+    "basePrintNoStr": "A6737-2021",
+    "printNo": "A6737",
+    "session": 2021,
+    "version": ""
+   }
+  ],
+  "size": 2
+ },
+ "printNo": "A7460",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2025-03-28T14:52:33.060665",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2025-03-28T13:56:00.340333",
+ "reprintOf": null,
+ "session": 2025,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 13,
+   "fullName": "Charles Lavine",
+   "imgName": "474_charles_lavine.jpg",
+   "incumbent": true,
+   "memberId": 474,
+   "sessionMemberId": 2393,
+   "sessionYear": 2025,
+   "shortName": "LAVINE"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2026-01-07",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Permits courts to remand a principal to the custody of the sheriff for felony offenses involving the possession of firearms and weapons.",
+ "title": "Relates to securing orders for certain firearms offenses",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2026
+}

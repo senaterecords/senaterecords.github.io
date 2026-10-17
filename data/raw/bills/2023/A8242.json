@@ -1,0 +1,199 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A8242",
+     "basePrintNoStr": "A8242-2023",
+     "printNo": "A8242",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2023-11-06",
+    "sequenceNo": 1,
+    "text": "REFERRED TO CODES"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8242",
+     "basePrintNoStr": "A8242-2023",
+     "printNo": "A8242",
+     "session": 2023,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2024-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO CODES"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the criminal procedure law and the executive law, in relation\nto establishing an office of pretrial services; provides for the establishment\nof a working group to prepare for the transition of pretrial services\nagencies; and provides for the repeal of such working group upon the\nexpiration thereof",
+    "basePrintNo": "A8242",
+    "basePrintNoStr": "A8242-2023",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §510.45, CP L; add §837-y, Exec L",
+    "lawSection": "Criminal Procedure Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A8242",
+    "publishDate": "2023-11-06",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "EXC837-Y"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "CPL510.45"
+       ],
+       "size": 1
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2023,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A8242",
+ "basePrintNoStr": "A8242-2023",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2024-01-03",
+    "billCalNo": null,
+    "committeeName": "Codes",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2023-11-06T00:00",
+    "sessionYear": 2023
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Codes",
+    "referenceDate": "2024-01-03T00:00",
+    "sessionYear": 2023
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A8242",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2023-11-06T14:41:16.776023",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2023-11-06T13:13:27.862888",
+ "reprintOf": null,
+ "session": 2023,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 125,
+   "fullName": "Anna Kelles",
+   "imgName": "no_image.jpg",
+   "incumbent": true,
+   "memberId": 1482,
+   "sessionMemberId": 2210,
+   "sessionYear": 2023,
+   "shortName": "KELLES"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2024-01-03",
+  "billCalNo": null,
+  "committeeName": "Codes",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Establishes the office of pretrial services to certify and establish guidelines for pretrial services agencies in the state; establishes a working group to prepare for the transition for pretrial services from public entities to private, non-profit entities; provides for the repeal of such working group upon the expiration thereof.",
+ "title": "Establishes the office of pretrial services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2024
+}

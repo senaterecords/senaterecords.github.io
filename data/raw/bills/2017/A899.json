@@ -1,0 +1,208 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A899",
+     "basePrintNoStr": "A899-2017",
+     "printNo": "A899",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2017-01-09",
+    "sequenceNo": 1,
+    "text": "REFERRED TO RACING AND WAGERING"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A899",
+     "basePrintNoStr": "A899-2017",
+     "printNo": "A899",
+     "session": 2017,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2018-01-03",
+    "sequenceNo": 2,
+    "text": "REFERRED TO RACING AND WAGERING"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the general municipal law, in relation to the conducting of games of chance and bingo by certain organizations",
+    "basePrintNo": "A899",
+    "basePrintNoStr": "A899-2017",
+    "coSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd Gen Muni L, generally",
+    "lawSection": "General Municipal Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A899",
+    "publishDate": "2017-01-09",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2017,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A899",
+ "basePrintNoStr": "A899-2017",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2018-01-03",
+    "billCalNo": null,
+    "committeeName": "Racing And Wagering",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Racing And Wagering",
+    "referenceDate": "2017-01-09T00:00",
+    "sessionYear": 2017
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Racing And Wagering",
+    "referenceDate": "2018-01-03T00:00",
+    "sessionYear": 2017
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A1505",
+    "basePrintNoStr": "A1505-2015",
+    "printNo": "A1505",
+    "session": 2015,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A4150",
+    "basePrintNoStr": "A4150-2013",
+    "printNo": "A4150",
+    "session": 2013,
+    "version": ""
+   },
+   {
+    "basePrintNo": "A10309",
+    "basePrintNoStr": "A10309-2011",
+    "printNo": "A10309",
+    "session": 2011,
+    "version": ""
+   }
+  ],
+  "size": 3
+ },
+ "printNo": "A899",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2017-01-09T16:10:23",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2017-01-09T16:10:23",
+ "reprintOf": null,
+ "session": 2017,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 89,
+   "fullName": "J. Gary Pretlow",
+   "imgName": "539_j._gary_pretlow.jpg",
+   "incumbent": true,
+   "memberId": 539,
+   "sessionMemberId": 1081,
+   "sessionYear": 2017,
+   "shortName": "PRETLOW"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2018-01-03",
+  "billCalNo": null,
+  "committeeName": "Racing And Wagering",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Eases certain restrictions on the conducting of games of chance for charitable purposes; authorizes auxiliary members of authorized organizations to operate games of chance; authorizes conducting of games of chance on Sundays; expands advertising of games of chance; eases certain restrictions on the conducting of bingo games for charitable purposes; expands the frequency upon which bingo games may be held; authorizes auxiliary members of authorized organizations to conduct bingo games; authorizes the conducting of bingo games on Sundays; expands advertising of bingo games.",
+ "title": "Eases certain restrictions on the conducting of games of chance and bingo for charitable purposes",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2018
+}

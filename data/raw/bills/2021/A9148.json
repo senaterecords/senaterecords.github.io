@@ -1,0 +1,259 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A9148",
+     "basePrintNoStr": "A9148-2021",
+     "printNo": "A9148",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-31",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9148",
+     "basePrintNoStr": "A9148-2021",
+     "printNo": "A9148",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-05-10",
+    "sequenceNo": 2,
+    "text": "REPORTED REFERRED TO WAYS AND MEANS"
+   }
+  ],
+  "size": 2
+ },
+ "activeVersion": "",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   ""
+  ],
+  "size": 1
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend the public health law and the social services law, in relation\nto enacting the New York home care first act",
+    "basePrintNo": "A9148",
+    "basePrintNoStr": "A9148-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 40,
+       "fullName": "Ron Kim",
+       "imgName": "659_ron_kim.jpg",
+       "incumbent": true,
+       "memberId": 659,
+       "sessionMemberId": 1702,
+       "sessionYear": 2021,
+       "shortName": "KIM"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 108,
+       "fullName": "John T. McDonald III",
+       "imgName": "662_john_t._mcdonald_iii.jpg",
+       "incumbent": true,
+       "memberId": 662,
+       "sessionMemberId": 1708,
+       "sessionYear": 2021,
+       "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1744,
+       "sessionYear": 2021,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1736,
+       "sessionYear": 2021,
+       "shortName": "ROSENTHAL L"
+      }
+     ],
+     "size": 4
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §§3600, 3614 & 4403-f, add §3603, Pub Health L; amd §365-a, Soc Serv L",
+    "lawSection": "Public Health Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A9148",
+    "publishDate": "2022-01-31",
+    "relatedLaws": {
+     "items": {
+      "ADD": {
+       "items": [
+        "PBH3603"
+       ],
+       "size": 1
+      },
+      "AMEND": {
+       "items": [
+        "PBH3600",
+        "PBH3614",
+        "PBH4403-F",
+        "SOS365-A"
+       ],
+       "size": 4
+      }
+     },
+     "size": 2
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S8295",
+       "basePrintNoStr": "S8295-2021",
+       "printNo": "S8295",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A9148",
+ "basePrintNoStr": "A9148-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-05-10",
+    "billCalNo": null,
+    "committeeName": "Ways And Means",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2022-01-31T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2022-05-10T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 2
+ },
+ "previousVersions": {
+  "items": [],
+  "size": 0
+ },
+ "printNo": "A9148",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2022-01-31T11:21:10.640598",
+    "published": true,
+    "version": ""
+   }
+  },
+  "size": 1
+ },
+ "publishedDateTime": "2022-01-31T10:17:40.561637",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 75,
+   "fullName": "Richard Gottfried",
+   "imgName": "527_richard_gottfried.jpg",
+   "incumbent": false,
+   "memberId": 527,
+   "sessionMemberId": 1690,
+   "sessionYear": 2021,
+   "shortName": "GOTTFRIED"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-05-10",
+  "billCalNo": null,
+  "committeeName": "Ways And Means",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Amends provisions to improve accessibility of home care services, develop and maintain a qualified workforce, develop a comprehensive public education program and approve rates of reimbursement under medicaid for home care services that support the provision of those services.",
+ "title": "Relates to home care services and to rates of reimbursement under medicaid for home care services",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}

@@ -1,0 +1,1136 @@
+{
+ "actions": {
+  "items": [
+   {
+    "billId": {
+     "basePrintNo": "A1671",
+     "basePrintNoStr": "A1671-2021",
+     "printNo": "A1671",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-01-11",
+    "sequenceNo": 1,
+    "text": "REFERRED TO HEALTH"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1671",
+     "basePrintNoStr": "A1671-2021",
+     "printNo": "A1671",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-01-26",
+    "sequenceNo": 2,
+    "text": "REPORTED REFERRED TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1671",
+     "basePrintNoStr": "A1671-2021",
+     "printNo": "A1671",
+     "session": 2021,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-02-03",
+    "sequenceNo": 3,
+    "text": "AMEND AND RECOMMIT TO WAYS AND MEANS"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1671",
+     "basePrintNoStr": "A1671-2021",
+     "printNo": "A1671A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2021-02-03",
+    "sequenceNo": 4,
+    "text": "PRINT NUMBER 1671A"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1671",
+     "basePrintNoStr": "A1671-2021",
+     "printNo": "A1671A",
+     "session": 2021,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2022-01-05",
+    "sequenceNo": 5,
+    "text": "REFERRED TO WAYS AND MEANS"
+   }
+  ],
+  "size": 5
+ },
+ "activeVersion": "A",
+ "additionalSponsors": {
+  "items": [],
+  "size": 0
+ },
+ "adopted": false,
+ "amendmentVersions": {
+  "items": [
+   "",
+   "A"
+  ],
+  "size": 2
+ },
+ "amendments": {
+  "items": {
+   "": {
+    "actClause": "AN ACT to amend part FFF of chapter 56 of the laws of 2020, amending the\npublic health law relating to extending and enhancing the Medicaid drug cap\nand to reduce unnecessary pharmacy benefit manager costs to the Medicaid\nprogram, in relation to temporarily exempting covered entities under the\nfederal 340B program and comprehensive HIV special needs plans",
+    "basePrintNo": "A1671",
+    "basePrintNoStr": "A1671-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 1732,
+       "sessionYear": 2021,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 28,
+       "fullName": "Andrew Hevesi",
+       "imgName": "488_andrew_hevesi.jpg",
+       "incumbent": true,
+       "memberId": 488,
+       "sessionMemberId": 1695,
+       "sessionYear": 2021,
+       "shortName": "HEVESI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1736,
+       "sessionYear": 2021,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 100,
+       "fullName": "Aileen Gunther",
+       "imgName": "549_aileen_gunther.jpg",
+       "incumbent": false,
+       "memberId": 549,
+       "sessionMemberId": 1692,
+       "sessionYear": 2021,
+       "shortName": "GUNTHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Inez E. Dickens",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1128,
+       "sessionMemberId": 1674,
+       "sessionYear": 2021,
+       "shortName": "DICKENS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Robert J. Rodriguez",
+       "imgName": "616_robert_j._rodriguez.jpg",
+       "incumbent": false,
+       "memberId": 616,
+       "sessionMemberId": 1735,
+       "sessionYear": 2021,
+       "shortName": "RODRIGUEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 71,
+       "fullName": "Al Taylor",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1141,
+       "sessionMemberId": 1752,
+       "sessionYear": 2021,
+       "shortName": "TAYLOR"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 128,
+       "fullName": "Pamela J. Hunter",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1105,
+       "sessionMemberId": 1696,
+       "sessionYear": 2021,
+       "shortName": "HUNTER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 60,
+       "fullName": "Charles Barron",
+       "imgName": "493_charles_barron.jpg",
+       "incumbent": false,
+       "memberId": 493,
+       "sessionMemberId": 1651,
+       "sessionYear": 2021,
+       "shortName": "BARRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 26,
+       "fullName": "Edward Braunstein",
+       "imgName": "610_edward_braunstein.jpg",
+       "incumbent": true,
+       "memberId": 610,
+       "sessionMemberId": 1656,
+       "sessionYear": 2021,
+       "shortName": "BRAUNSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 58,
+       "fullName": "N. Nick Perry",
+       "imgName": "511_n._nick_perry.jpg",
+       "incumbent": false,
+       "memberId": 511,
+       "sessionMemberId": 1724,
+       "sessionYear": 2021,
+       "shortName": "PERRY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 77,
+       "fullName": "Latoya Joyner",
+       "imgName": "902_latoya_joyner.jpg",
+       "incumbent": false,
+       "memberId": 902,
+       "sessionMemberId": 1701,
+       "sessionYear": 2021,
+       "shortName": "JOYNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Harvey Epstein",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1144,
+       "sessionMemberId": 1680,
+       "sessionYear": 2021,
+       "shortName": "EPSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1676,
+       "sessionYear": 2021,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1644,
+       "sessionYear": 2021,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 69,
+       "fullName": "Daniel O'Donnell",
+       "imgName": "522_daniel_o'donnell.jpg",
+       "incumbent": false,
+       "memberId": 522,
+       "sessionMemberId": 1719,
+       "sessionYear": 2021,
+       "shortName": "O'DONNELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 141,
+       "fullName": "Crystal Peoples-Stokes",
+       "imgName": "591_crystal_peoples-stokes.jpg",
+       "incumbent": true,
+       "memberId": 591,
+       "sessionMemberId": 1723,
+       "sessionYear": 2021,
+       "shortName": "PEOPLES-STOKES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1753,
+       "sessionYear": 2021,
+       "shortName": "THIELE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 4,
+       "fullName": "Steven Englebright",
+       "imgName": "466_steven_englebright.jpg",
+       "incumbent": false,
+       "memberId": 466,
+       "sessionMemberId": 1679,
+       "sessionYear": 2021,
+       "shortName": "ENGLEBRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 37,
+       "fullName": "Catherine Nolan",
+       "imgName": "491_catherine_nolan.jpg",
+       "incumbent": false,
+       "memberId": 491,
+       "sessionMemberId": 1717,
+       "sessionYear": 2021,
+       "shortName": "NOLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 1667,
+       "sessionYear": 2021,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1686,
+       "sessionYear": 2021,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1744,
+       "sessionYear": 2021,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 88,
+       "fullName": "Amy Paulin",
+       "imgName": "540_amy_paulin.jpg",
+       "incumbent": true,
+       "memberId": 540,
+       "sessionMemberId": 1722,
+       "sessionYear": 2021,
+       "shortName": "PAULIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 150,
+       "fullName": "Andrew Goodell",
+       "imgName": "642_andrew_goodell.jpg",
+       "incumbent": false,
+       "memberId": 642,
+       "sessionMemberId": 1689,
+       "sessionYear": 2021,
+       "shortName": "GOODELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1657,
+       "sessionYear": 2021,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 49,
+       "fullName": "Peter Abbate",
+       "imgName": "502_peter_abbate.jpg",
+       "incumbent": false,
+       "memberId": 502,
+       "sessionMemberId": 1643,
+       "sessionYear": 2021,
+       "shortName": "ABBATE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 45,
+       "fullName": "Steven Cymbrowitz",
+       "imgName": "498_steven_cymbrowitz.jpg",
+       "incumbent": false,
+       "memberId": 498,
+       "sessionMemberId": 1669,
+       "sessionYear": 2021,
+       "shortName": "CYMBROWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 50,
+       "fullName": "Emily Gallagher",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1471,
+       "sessionMemberId": 1777,
+       "sessionYear": 2021,
+       "shortName": "GALLAGHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1705,
+       "sessionYear": 2021,
+       "shortName": "LUPARDO"
+      }
+     ],
+     "size": 30
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Part FFF §1-b, Chap 56 of 2020",
+    "lawSection": "Public Health",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "A1671",
+    "publishDate": "2021-01-11",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend part FFF of chapter 56 of the laws of 2020, amending the\npublic health law relating to extending and enhancing the Medicaid drug cap\nand to reduce unnecessary pharmacy benefit manager costs to the Medicaid\nprogram, in relation to temporarily exempting covered entities under the\nfederal 340B program and comprehensive HIV special needs plans",
+    "basePrintNo": "A1671",
+    "basePrintNoStr": "A1671-2021",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 87,
+       "fullName": "Karines Reyes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1257,
+       "sessionMemberId": 1732,
+       "sessionYear": 2021,
+       "shortName": "REYES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 28,
+       "fullName": "Andrew Hevesi",
+       "imgName": "488_andrew_hevesi.jpg",
+       "incumbent": true,
+       "memberId": 488,
+       "sessionMemberId": 1695,
+       "sessionYear": 2021,
+       "shortName": "HEVESI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 67,
+       "fullName": "Linda Rosenthal",
+       "imgName": "520_linda_rosenthal.jpg",
+       "incumbent": true,
+       "memberId": 520,
+       "sessionMemberId": 1736,
+       "sessionYear": 2021,
+       "shortName": "ROSENTHAL L"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 100,
+       "fullName": "Aileen Gunther",
+       "imgName": "549_aileen_gunther.jpg",
+       "incumbent": false,
+       "memberId": 549,
+       "sessionMemberId": 1692,
+       "sessionYear": 2021,
+       "shortName": "GUNTHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 70,
+       "fullName": "Inez E. Dickens",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1128,
+       "sessionMemberId": 1674,
+       "sessionYear": 2021,
+       "shortName": "DICKENS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 68,
+       "fullName": "Robert J. Rodriguez",
+       "imgName": "616_robert_j._rodriguez.jpg",
+       "incumbent": false,
+       "memberId": 616,
+       "sessionMemberId": 1735,
+       "sessionYear": 2021,
+       "shortName": "RODRIGUEZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 71,
+       "fullName": "Al Taylor",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1141,
+       "sessionMemberId": 1752,
+       "sessionYear": 2021,
+       "shortName": "TAYLOR"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 128,
+       "fullName": "Pamela J. Hunter",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1105,
+       "sessionMemberId": 1696,
+       "sessionYear": 2021,
+       "shortName": "HUNTER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 60,
+       "fullName": "Charles Barron",
+       "imgName": "493_charles_barron.jpg",
+       "incumbent": false,
+       "memberId": 493,
+       "sessionMemberId": 1651,
+       "sessionYear": 2021,
+       "shortName": "BARRON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 26,
+       "fullName": "Edward Braunstein",
+       "imgName": "610_edward_braunstein.jpg",
+       "incumbent": true,
+       "memberId": 610,
+       "sessionMemberId": 1656,
+       "sessionYear": 2021,
+       "shortName": "BRAUNSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 58,
+       "fullName": "N. Nick Perry",
+       "imgName": "511_n._nick_perry.jpg",
+       "incumbent": false,
+       "memberId": 511,
+       "sessionMemberId": 1724,
+       "sessionYear": 2021,
+       "shortName": "PERRY"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 77,
+       "fullName": "Latoya Joyner",
+       "imgName": "902_latoya_joyner.jpg",
+       "incumbent": false,
+       "memberId": 902,
+       "sessionMemberId": 1701,
+       "sessionYear": 2021,
+       "shortName": "JOYNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 74,
+       "fullName": "Harvey Epstein",
+       "imgName": "no_image.jpg",
+       "incumbent": false,
+       "memberId": 1144,
+       "sessionMemberId": 1680,
+       "sessionYear": 2021,
+       "shortName": "EPSTEIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 81,
+       "fullName": "Jeffrey Dinowitz",
+       "imgName": "533_jeffrey_dinowitz.jpg",
+       "incumbent": true,
+       "memberId": 533,
+       "sessionMemberId": 1676,
+       "sessionYear": 2021,
+       "shortName": "DINOWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 92,
+       "fullName": "Thomas Abinanti",
+       "imgName": "622_thomas_abinanti.jpg",
+       "incumbent": false,
+       "memberId": 622,
+       "sessionMemberId": 1644,
+       "sessionYear": 2021,
+       "shortName": "ABINANTI"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 69,
+       "fullName": "Daniel O'Donnell",
+       "imgName": "522_daniel_o'donnell.jpg",
+       "incumbent": false,
+       "memberId": 522,
+       "sessionMemberId": 1719,
+       "sessionYear": 2021,
+       "shortName": "O'DONNELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 141,
+       "fullName": "Crystal Peoples-Stokes",
+       "imgName": "591_crystal_peoples-stokes.jpg",
+       "incumbent": true,
+       "memberId": 591,
+       "sessionMemberId": 1723,
+       "sessionYear": 2021,
+       "shortName": "PEOPLES-STOKES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 1,
+       "fullName": "Fred Thiele",
+       "imgName": "464_fred_thiele.jpg",
+       "incumbent": false,
+       "memberId": 464,
+       "sessionMemberId": 1753,
+       "sessionYear": 2021,
+       "shortName": "THIELE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 4,
+       "fullName": "Steven Englebright",
+       "imgName": "466_steven_englebright.jpg",
+       "incumbent": false,
+       "memberId": 466,
+       "sessionMemberId": 1679,
+       "sessionYear": 2021,
+       "shortName": "ENGLEBRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 37,
+       "fullName": "Catherine Nolan",
+       "imgName": "491_catherine_nolan.jpg",
+       "incumbent": false,
+       "memberId": 491,
+       "sessionMemberId": 1717,
+       "sessionYear": 2021,
+       "shortName": "NOLAN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 39,
+       "fullName": "Catalina Cruz",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1242,
+       "sessionMemberId": 1667,
+       "sessionYear": 2021,
+       "shortName": "CRUZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 95,
+       "fullName": "Sandy Galef",
+       "imgName": "621_sandy_galef.jpg",
+       "incumbent": false,
+       "memberId": 621,
+       "sessionMemberId": 1686,
+       "sessionYear": 2021,
+       "shortName": "GALEF"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 52,
+       "fullName": "Jo Anne Simon",
+       "imgName": "907_jo_anne_simon.jpg",
+       "incumbent": true,
+       "memberId": 907,
+       "sessionMemberId": 1744,
+       "sessionYear": 2021,
+       "shortName": "SIMON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 88,
+       "fullName": "Amy Paulin",
+       "imgName": "540_amy_paulin.jpg",
+       "incumbent": true,
+       "memberId": 540,
+       "sessionMemberId": 1722,
+       "sessionYear": 2021,
+       "shortName": "PAULIN"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 150,
+       "fullName": "Andrew Goodell",
+       "imgName": "642_andrew_goodell.jpg",
+       "incumbent": false,
+       "memberId": 642,
+       "sessionMemberId": 1689,
+       "sessionYear": 2021,
+       "shortName": "GOODELL"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 138,
+       "fullName": "Harry B. Bronson",
+       "imgName": "633_harry_b._bronson.jpg",
+       "incumbent": true,
+       "memberId": 633,
+       "sessionMemberId": 1657,
+       "sessionYear": 2021,
+       "shortName": "BRONSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 49,
+       "fullName": "Peter Abbate",
+       "imgName": "502_peter_abbate.jpg",
+       "incumbent": false,
+       "memberId": 502,
+       "sessionMemberId": 1643,
+       "sessionYear": 2021,
+       "shortName": "ABBATE"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 45,
+       "fullName": "Steven Cymbrowitz",
+       "imgName": "498_steven_cymbrowitz.jpg",
+       "incumbent": false,
+       "memberId": 498,
+       "sessionMemberId": 1669,
+       "sessionYear": 2021,
+       "shortName": "CYMBROWITZ"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 50,
+       "fullName": "Emily Gallagher",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1471,
+       "sessionMemberId": 1777,
+       "sessionYear": 2021,
+       "shortName": "GALLAGHER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 123,
+       "fullName": "Donna Lupardo",
+       "imgName": "576_donna_lupardo.jpg",
+       "incumbent": true,
+       "memberId": 576,
+       "sessionMemberId": 1705,
+       "sessionYear": 2021,
+       "shortName": "LUPARDO"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 113,
+       "fullName": "Carrie Woerner",
+       "imgName": "886_carrie_woerner.jpg",
+       "incumbent": true,
+       "memberId": 886,
+       "sessionMemberId": 1762,
+       "sessionYear": 2021,
+       "shortName": "WOERNER"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 34,
+       "fullName": "Jessica Gonzalez-Rojas",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1468,
+       "sessionMemberId": 1774,
+       "sessionYear": 2021,
+       "shortName": "GONZALEZ-ROJAS"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 73,
+       "fullName": "Dan Quart",
+       "imgName": "618_dan_quart.jpg",
+       "incumbent": false,
+       "memberId": 618,
+       "sessionMemberId": 1728,
+       "sessionYear": 2021,
+       "shortName": "QUART"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 114,
+       "fullName": "Matthew Simpson",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1480,
+       "sessionMemberId": 1786,
+       "sessionYear": 2021,
+       "shortName": "SIMPSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 51,
+       "fullName": "Marcela Mitaynes",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1472,
+       "sessionMemberId": 1778,
+       "sessionYear": 2021,
+       "shortName": "MITAYNES"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 79,
+       "fullName": "Chantel Jackson",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1476,
+       "sessionMemberId": 1782,
+       "sessionYear": 2021,
+       "shortName": "JACKSON"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 57,
+       "fullName": "Phara Souffrant Forrest",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1474,
+       "sessionMemberId": 1861,
+       "sessionYear": 2021,
+       "shortName": "FORREST"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 76,
+       "fullName": "Rebecca Seawright",
+       "imgName": "906_rebecca_seawright.jpg",
+       "incumbent": true,
+       "memberId": 906,
+       "sessionMemberId": 1743,
+       "sessionYear": 2021,
+       "shortName": "SEAWRIGHT"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 149,
+       "fullName": "Jonathan Rivera",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1488,
+       "sessionMemberId": 1794,
+       "sessionYear": 2021,
+       "shortName": "RIVERA JD"
+      }
+     ],
+     "size": 39
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Add Part FFF §1-b, Chap 56 of 2020",
+    "lawSection": "Public Health",
+    "memo": "",
+    "multiSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 98,
+       "fullName": "Karl Brabenec",
+       "imgName": "908_karl_brabenec.jpg",
+       "incumbent": true,
+       "memberId": 908,
+       "sessionMemberId": 1655,
+       "sessionYear": 2021,
+       "shortName": "BRABENEC"
+      }
+     ],
+     "size": 1
+    },
+    "printNo": "A1671A",
+    "publishDate": "2021-02-03",
+    "relatedLaws": {
+     "items": {},
+     "size": 0
+    },
+    "sameAs": {
+     "items": [
+      {
+       "basePrintNo": "S2520",
+       "basePrintNoStr": "S2520-2021",
+       "printNo": "S2520",
+       "session": 2021,
+       "version": ""
+      }
+     ],
+     "size": 1
+    },
+    "session": 2021,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "approvalMessage": null,
+ "basePrintNo": "A1671",
+ "basePrintNoStr": "A1671-2021",
+ "billType": {
+  "chamber": "ASSEMBLY",
+  "desc": "Assembly",
+  "resolution": false
+ },
+ "calendars": {
+  "items": [],
+  "size": 0
+ },
+ "committeeAgendas": {
+  "items": [],
+  "size": 0
+ },
+ "milestones": {
+  "items": [
+   {
+    "actionDate": "2022-01-05",
+    "billCalNo": null,
+    "committeeName": "Ways And Means",
+    "statusDesc": "In Assembly Committee",
+    "statusType": "IN_ASSEMBLY_COMM"
+   }
+  ],
+  "size": 1
+ },
+ "pastCommittees": {
+  "items": [
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Health",
+    "referenceDate": "2021-01-11T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2021-01-26T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2021-02-03T00:00",
+    "sessionYear": 2021
+   },
+   {
+    "chamber": "ASSEMBLY",
+    "name": "Ways And Means",
+    "referenceDate": "2022-01-05T00:00",
+    "sessionYear": 2021
+   }
+  ],
+  "size": 4
+ },
+ "previousVersions": {
+  "items": [
+   {
+    "basePrintNo": "A10960",
+    "basePrintNoStr": "A10960-2019",
+    "printNo": "A10960",
+    "session": 2019,
+    "version": ""
+   }
+  ],
+  "size": 1
+ },
+ "printNo": "A1671A",
+ "programInfo": null,
+ "publishStatusMap": {
+  "items": {
+   "": {
+    "effectDateTime": "2021-01-11T15:10:25.904859",
+    "published": true,
+    "version": ""
+   },
+   "A": {
+    "effectDateTime": "2021-02-03T00:00",
+    "published": true,
+    "version": "A"
+   }
+  },
+  "size": 2
+ },
+ "publishedDateTime": "2021-01-11T13:09:35.951463",
+ "reprintOf": null,
+ "session": 2021,
+ "signed": false,
+ "sponsor": {
+  "budget": false,
+  "member": {
+   "alternate": false,
+   "chamber": "ASSEMBLY",
+   "districtCode": 75,
+   "fullName": "Richard Gottfried",
+   "imgName": "527_richard_gottfried.jpg",
+   "incumbent": false,
+   "memberId": 527,
+   "sessionMemberId": 1690,
+   "sessionYear": 2021,
+   "shortName": "GOTTFRIED"
+  },
+  "redistricting": false,
+  "rules": false
+ },
+ "status": {
+  "actionDate": "2022-01-05",
+  "billCalNo": null,
+  "committeeName": "Ways And Means",
+  "statusDesc": "In Assembly Committee",
+  "statusType": "IN_ASSEMBLY_COMM"
+ },
+ "substitutedBy": null,
+ "summary": "Relates to temporarily exempting covered entities under the federal 340B program and comprehensive HIV special needs plans.",
+ "title": "Relates to temporarily exempting covered entities under the federal 340B program and comprehensive HIV special needs plans",
+ "vetoMessages": {
+  "items": [],
+  "size": 0
+ },
+ "vetoed": false,
+ "votes": {
+  "items": [],
+  "size": 0
+ },
+ "year": 2022
+}
