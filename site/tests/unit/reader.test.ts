@@ -81,4 +81,9 @@ describe("bill numbers in the text", () => {
     ]);
     expect(billRefs("a Class A1 felony, the S2 form, route NY-A100, an Airbus A320 and BS1234")).toEqual([]);
   });
+
+  it("finds bill and print written small", () => {
+    const text = "By Senator Levy, Senate bill Number 4887B, an act; Senate print 3928-A; Assembly bill Number 8836 A.";
+    expect(billRefs(text).map((r) => r.base)).toEqual(["S4887", "S3928", "A8836"]);
+  });
 });

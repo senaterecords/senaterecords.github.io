@@ -9,7 +9,7 @@ import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type Speak
 import { committeeNamed, fold, resolveSpeaker, type Person } from "../lib/names";
 import {
   billPlaces, excerpt, excerptPages, excerptText, fillMore, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
-  topShortcuts, whereMatters, yearShortcuts, type Branch, type TopShortcut, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
+  topShortcuts, whereMatters, yearShortcuts, type Branch, type TopShortcut, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SameAs, type SpeakerFilter, type Speakers, type Terms,
 } from "../lib/query";
 import { inOrder } from "../lib/order";
 import { passageParam } from "../lib/passage";
@@ -34,6 +34,10 @@ interface Row { key: string; remark: Remark; branch: Branch; pages: Pages; meta:
 type Status = "loading" | "failed" | "which" | "nomatch" | "toomany" | "ready";
 type Phase = "searching" | "reading" | null;
 type Facets = PagefindSearch["filters"];
+/** Each bill a query names with its same-as bills, once they are looked up (for the note and the Bill filter). */
+interface Twins { q: string; of: Record<string, SameAs[]>; }
+const prefixOf = (base: string) => base.slice(0, base.length > 2 ? 3 : 2);
+const sessionName = (session: number) => `${session}–${String(session + 1).slice(2)}`;
 /** A branch's speakers, looked up: the ones it asks for, and the ones each of its NOTs leaves out. */
 interface Who { speakers: Speakers | null; not: (Speakers | null)[]; }
 /** A search as run: the query worked out, its speakers looked up (by how each was typed), and the committee names. */
@@ -167,6 +171,7 @@ function SearchApp() {
   const plan = useRef<Plan | null>(null);
   const [printed, setPrinted] = useState<string[]>([]);
   const [asked, setAsked] = useState<SpeakerFilter | null>(null);
+  const [twins, setTwins] = useState<Twins | null>(null);
   const runId = useRef(0);
   const sheet = useRef<HTMLDivElement>(null);
 
@@ -281,6 +286,23 @@ function SearchApp() {
           }
         } catch { /* keep what was typed */ }
       }
+      // A bill: also its same-as bills, each in the session they share (A10379 is S9051 in the Senate in 2025-26):
+      // the Senate's record of an Assembly bill is often its own copy, and the same goes the other way.
+      const billsAsked = [...new Set(filterSets(parsed).flatMap((f) => f.bills ?? []))];
+      const of: Record<string, SameAs[]> = {};
+      if (billsAsked.length) {
+        const files = await Promise.all([...new Set(billsAsked.map(prefixOf))].map((prefix) =>
+          getJson<Record<string, [number, string][]>>(`/data/same-as/${prefix}.json`).catch(() => ({}))));
+        const pairs: Record<string, [number, string][]> = Object.assign({}, ...files);
+        for (const bill of billsAsked) of[bill] = (pairs[bill] ?? []).map(([session, twin]) => ({ bill: twin, session }));
+        for (const f of filterSets(parsed)) {
+          const oneSession = f.session && f.bills?.length === 1 ? f.session : null;
+          const sameAs = (f.bills ?? []).flatMap((b) => of[b]).filter((t) => !f.bills!.includes(t.bill) && (!oneSession || t.session === oneSession));
+          if (sameAs.length) f.sameAs = sameAs;
+        }
+        if (id !== runId.current) return;
+      }
+      setTwins({ q, of });
       let pf: Pagefind;
       try { pf = await loadPagefind(); } catch { if (id === runId.current) setStatus("failed"); return; }
       // A search with only filters (say, one senator's remarks) has nothing to rank by, so it reads newest first.
@@ -311,7 +333,7 @@ function SearchApp() {
       // choice weren't made, so ticking 2019 still lists 2020 and 2021 (with their counts) to add; the other groups'
       // choices still apply. Until those counts arrive, a group in use keeps the list it had, so nothing drops out or
       // moves under the pointer. All of this runs beside the reading below.
-      const chosen = [...new Set(units.flatMap((u) => Object.keys(u.filters)))].filter((key) => key !== "none");
+      const chosen = [...new Set(units.flatMap((u) => Object.keys(u.filters)))].filter((key) => key !== "none" && key !== "any");
       void facetCounts(pf, units, sortBy, matched, searches).then((counts) => {
         if (id !== runId.current) return;
         setFacets((previous) => {
@@ -464,9 +486,9 @@ function SearchApp() {
   // rest of them a click away.
   // Each group shows its top entries (10; 8 years), plus any already chosen, with "All N …" for the rest.
   const facetList = (title: string, key: string, render: (value: string) => string, shortcut: (value: string) => string,
-    { keep = (_value: string): boolean => true, byYear = false, noun = "" }: { keep?: (value: string) => boolean; byYear?: boolean; noun?: string } = {}) => {
+    { keep = (_value: string): boolean => true, byYear = false, noun = "", only }: { keep?: (value: string) => boolean; byYear?: boolean; noun?: string; only?: [string, number][] } = {}) => {
     // Most results first, ties by name, so the order never shuffles between searches; years newest first.
-    const all = Object.entries(facets[key] ?? {}).filter(([value, n]) => n > 0 && keep(value))
+    const all = (only ?? Object.entries(facets[key] ?? {})).filter(([value, n]) => n > 0 && keep(value))
       .sort(byYear ? (a, b) => Number(b[0]) - Number(a[0]) : (a, b) => b[1] - a[1] || render(a[0]).localeCompare(render(b[0])));
     if (!all.length) return null;
     const top = byYear ? 8 : 10;
@@ -502,12 +524,20 @@ function SearchApp() {
       e.words.length + e.phrases.length + e.near.length === 0 && Object.keys(e.filters).length === 1 ? p.who[k].not[j]?.slugs ?? [] : [])));
     return new Set([...(per[0] ?? [])].filter((slug) => per.every((s) => s.has(slug))));
   })();
+  // When the search names bills, the Bill filter lists just those, ticked: a list of every other bill, counted as if
+  // none were chosen, read as a fault. Each counts the transcripts found for it or its same-as bills.
+  const billsChosen = (() => {
+    const picked = [...chosenIn("bill")];
+    if (!picked.length) return undefined;
+    const counts = facets.bill ?? {};
+    return picked.map((v) => [v, Math.min(total, (counts[v] ?? 0) + (twins?.of[v] ?? []).reduce((n, t) => n + (counts[t.bill] ?? 0), 0))] as [string, number]);
+  })();
   const facetPanel = (
     <>
       {facetList("Record", "type", (v) => (v === "floor" ? "Floor sessions" : "Public hearings"), (v) => `type:${v}`)}
       {facetList("Year", "year", (v) => v, (v) => `year:${v}`, { byYear: true, noun: "years" })}
       {facetList("Speaker", "senator", (v) => personBySlug.get(v)?.name ?? v, (v) => `speaker:${v}`, { keep: (v) => !leftOut.has(v), noun: "speakers" })}
-      {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, { keep: (v) => /^[SA]\d+$/.test(v), noun: "bills" })}
+      {facetList("Bill", "bill", (v) => v, (v) => `bill:${v}`, { keep: (v) => /^[SA]\d+$/.test(v), noun: "bills", only: billsChosen })}
       {facetList("Committee", "committee", (v) => v, (v) => `committee:${quote(v)}`, { noun: "committees" })}
     </>
   );
@@ -535,17 +565,31 @@ function SearchApp() {
         </div>
       )}
 
-      {(status === "ready" || status === "loading") && q.trim() !== "" && (
+      {(status === "ready" || status === "loading") && q.trim() !== "" && (!parseQuery(q).filters.bills?.length || twins?.q === q) && (
         <>
           {printed.length > 0 && (
             <p className="sr-wide">Showing remarks by speakers named {printed.map((n) => `“${titleCase(n)}”`).join(" or ")} in the transcripts, such as hearing witnesses: no senator or Assembly member has that name.</p>
           )}
           {(() => {
-            // A bill: search keeps to the bill's own remarks; the note says which, and that amended prints count.
-            const bills = parseQuery(q).filters.bills ?? [];
+            // A bill: search keeps to the bill's own remarks, and its same-as bills'; the note says which, that amended
+            // prints count, and how to keep to one session (numbers start over each session).
+            const { bills = [], session, years } = parseQuery(q).filters;
             if (!bills.length) return null;
-            const named = bills.join(" or ");
-            return <p className="sr-wide">Remarks from the reading and debate of {named}, and remarks that mention {bills.length > 1 ? "them" : "it"}. Amended versions, such as {bills[0]}A, count as {bills[0]}.</p>;
+            const sameAs = bills.flatMap((b) => twins?.of[b] ?? []).filter((t) => !bills.includes(t.bill) && (!session || bills.length > 1 || t.session === session));
+            const typed = topShortcuts(q).find((t) => t.field === "bill" && !t.negated)?.value.split("/")[0].toUpperCase().replace(/[^A-Z0-9]/g, "");
+            const amended = typed && /^[SA]\d+[A-Z]$/.test(typed) && typed.startsWith(bills[0]) ? typed : `${bills[0]}A`;
+            // The example session: the same-as bill's, else the year asked for, else this one (sessions start in odd years).
+            const sessionOf = (year: number) => year - (year % 2 ? 0 : 1);
+            const newest = sameAs.length ? Math.max(...sameAs.map((t) => t.session)) : sessionOf(years?.length ? Math.max(...years) : new Date().getFullYear());
+            const list = (items: string[]) => items.length > 1 ? `${items.slice(0, -1).join(", ")} and ${items.at(-1)}` : items[0];
+            return (
+              <p className="sr-wide">
+                Remarks from the reading and debate of {bills.join(" or ")}
+                {sameAs.length > 0 && <>{" "}and {sameAs.length > 1 ? "its same-as bills" : "its same-as"} {list(sameAs.map((t) => `${t.bill} (${sessionName(t.session)})`))}</>}
+                , and remarks that mention {bills.length + sameAs.length > 1 ? "them" : "it"}. Amended versions like {amended} count too.
+                {!session && bills.length === 1 && <> Bill numbers repeat each session: <b>bill:{bills[0]}/{newest}</b> keeps to {sessionName(newest)}.</>}
+              </p>
+            );
           })()}
           {wide && (
             <p className="sr-wide">Your words don't have to be in the same remark here. Each remark below has at least one of them, and its transcript has all of them. <button type="button" className="link" onClick={() => go({ wide: false })}>Only remarks with all of them</button></p>

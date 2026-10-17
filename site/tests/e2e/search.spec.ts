@@ -767,3 +767,29 @@ test("a bill search keeps to the bill's reading, its debate and remarks that men
     for (const t of turns) expect(allowed.spans.some(([a, b]) => t >= a && t <= b) || allowed.linked.includes(t), `turn ${t}`).toBe(true);
   }
 });
+
+test("a bill search takes in its same-as: the Assembly's A9571A finds the Senate's S172, with the bill marked", async ({ page }, info) => {
+  // The fixture's transcripts never name A9571; S172B is its same-as in 2025-26 and was debated on March 4, 2025.
+  await page.goto(`search/?q=${encodeURIComponent("bill:A9571A")}`);
+  const first = page.locator("[data-result]").first();
+  await expect(first).toBeVisible();
+  await expect(page.locator(".sr-wide")).toContainText("Remarks from the reading and debate of A9571 and its same-as S172 (2025–26)");
+  await expect(page.locator(".sr-wide")).toContainText("Amended versions like A9571A count too.");
+  await expect(first.locator("mark").first()).toHaveText(/Senate Print 172/);
+  await expect(first.locator("a.ctx")).toHaveAttribute("href", /2025-03-04-regular-session/);
+  if (info.project.name === "phone") return;
+  // The Bill filter lists just the bill asked for, ticked, counted with its same-as.
+  const bills = page.getByRole("complementary", { name: "Narrow the results" }).locator(".fg").filter({ has: page.getByRole("heading", { name: "Bill" }) });
+  await expect(bills.locator(".fg-row")).toHaveCount(1);
+  await expect(bills.locator(".fg-row")).toHaveAttribute("aria-pressed", "true");
+  await expect(bills.locator(".fg-row .fg-name")).toHaveText("A9571");
+  await expect(bills.locator(".fg-all")).toHaveCount(0);
+});
+
+test("a bill search's excerpt opens where the remark names the bill, and says how to keep to one session", async ({ page }) => {
+  await page.goto(`search/?q=${encodeURIComponent("bill:S5101")}`);
+  // The motion substitutes the Assembly's copy, A5834 (its same-as), for S5101: both are marked.
+  const row = page.locator("[data-result]", { has: page.locator('a.ctx[href*="#r-143"]') });
+  await expect(row.locator("mark")).toHaveText(["Assembly Bill Number 5834", "Senate Bill 5101"]);
+  await expect(page.locator(".sr-wide")).toContainText("Bill numbers repeat each session: bill:S5101/2025 keeps to 2025–26.");
+});

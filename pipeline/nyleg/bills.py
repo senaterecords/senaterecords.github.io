@@ -15,11 +15,12 @@ from .speakers import ROLE_CHAIR, ROLE_PRESIDENT, ROLE_PRESIDING, ROLE_SECRETARY
 BILL_DATA_START = 2009  # first session with bill details in the API (to confirm with a live key)
 DEBATE_WORDS = 40
 # Raised whenever find_bills learns another way of naming a bill: the next sync then reads every stored record for
-# the bills it now finds (2: compact print numbers, "S9051B").
-MENTION_RULES = 2
+# the bills it now finds (2: compact print numbers, "S9051B"; 3: "Senate bill 909", written small).
+MENTION_RULES = 3
 
 _BILL = re.compile(
-    r"\b(?P<chamber>Senate|Assembly) (?:Print|Bill) (?:Number |No\. ?)?(?P<num>\d{1,5})(?:-?(?P<amd>[A-Z])\b)?"
+    # "bill", "print" and "number" are sometimes written small ("By Senator Levy, Senate bill Number 4887B, ...").
+    r"\b(?P<chamber>Senate|Assembly) (?:[Pp]rint|[Bb]ill) (?:[Nn]umber |[Nn]o\. ?)?(?P<num>\d{1,5})(?:-?(?P<amd>[A-Z])\b)?"
 )
 # A print number written compactly, as speakers and witnesses often name a bill ("my bill, S9051B", "S1507-C",
 # "S5040/A7046"). Three digits or more, standing alone, so codes like "Class A1", "NY-A100" or an Airbus A320 are

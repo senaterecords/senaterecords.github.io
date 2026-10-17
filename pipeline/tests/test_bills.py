@@ -232,3 +232,16 @@ def test_find_bills_reads_print_numbers_written_compactly():
 
 def test_find_bills_leaves_short_or_glued_codes_alone():
     assert find_bills("a Class A1 felony, the S2 form, route NY-A100, an Airbus A320 and BS1234") == []
+
+
+def test_find_bills_reads_bill_and_print_written_small():
+    text = ("Senate bill 909, by Senators Johnson; Senate print 3928-A, and ask said bill; "
+            "Senate Bill number 1552, an act; Assembly bill Number 8836 A.")
+    assert find_bills(text) == ["S909", "S3928A", "S1552", "A8836"]
+
+
+def test_a_reading_with_bill_written_small_is_still_a_reading():
+    from nyleg.bills import parse_reading
+
+    assert parse_reading("Calendar Number 130, by Senator Levy, Senate bill Number 4887B, an act to amend the law.") == (
+        130, "S4887B", "Levy")

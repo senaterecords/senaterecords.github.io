@@ -80,9 +80,9 @@ export const lastPage = (t: { page: number | null; breaks: [number, number][] })
   t.breaks.length ? Math.max(...t.breaks.map(([, page]) => page)) : t.page;
 
 // How the record names a bill: "Senate Print 4597-A", "Assembly Bill Number 7594C", "Senate Bill No. 12".
-// "Senate Print 4597-A" and the like, or a print number written compactly ("S9051B", "S1507-C"), as the pipeline
+// "Senate Print 4597-A" and the like ("bill", "print" and "number" sometimes written small), or a print number written compactly ("S9051B", "S1507-C"), as the pipeline
 // reads them (nyleg.bills): three digits or more standing alone, so "Class A1" or an Airbus A320 stay plain text.
-const BILL_REF = /\b(Senate|Assembly)\s+(?:Print|Bill)(?:\s+(?:Number|No\.?))?\s+(\d{1,5})(?!\d)(?:-?[A-Z]\b)?|(?<![\w-])(?<!Airbus )([SA])(\d{3,5})(?:-?[A-Z])?(?![\w-])/g;
+const BILL_REF = /\b(Senate|Assembly)\s+(?:[Pp]rint|[Bb]ill)(?:\s+(?:[Nn]umber|[Nn]o\.?))?\s+(\d{1,5})(?!\d)(?:-?[A-Z]\b)?|(?<![\w-])(?<!Airbus )([SA])(\d{3,5})(?:-?[A-Z])?(?![\w-])/g;
 
 /** The bill names in a text, each with its base print number (S4597), for linking to the bill's page. */
 export function billRefs(text: string): { start: number; end: number; base: string }[] {

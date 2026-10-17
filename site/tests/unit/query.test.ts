@@ -534,3 +534,40 @@ describe("a bill search keeps to the bill's own remarks", () => {
     expect(keepRemark(remark(1), b)).toBe(true);
   });
 });
+
+describe("a bill search takes in the bill's same-as, in the session they share", () => {
+  // A10379 is S9051 in the Senate in 2025-26; the Senate's transcripts name only S9051.
+  const withTwin = (q: string) => {
+    const parsed = parseQuery(q);
+    for (const f of [parsed.filters, ...parsed.branches.map((b) => b.filters)]) f.sameAs = [{ bill: "S9051", session: 2025 }];
+    return parsed.branches[0];
+  };
+  const remark = (turn: number, text = "Read the last section.") => ({ url: `/t/#r-${turn}`, turn, page: 3, speaker: null, label: "", text, breaks: [] as [number, number][] });
+  const places = billPlaces("S9051=215-230");
+  const page2026 = { bill: ["S9051"], session: ["2025"], year: ["2026"] };
+  const page2013 = { bill: ["S9051"], session: ["2013"], year: ["2013"] };
+
+  it("asks Pagefind for the bill in any session, or its same-as in their session", () => {
+    expect(pagefindFilters(withTwin("bill:A10379C").filters, null)).toEqual({ any: [{ bill: "A10379" }, { bill: "S9051", session: "2025" }] });
+    expect(pagefindFilters(withTwin("bill:A10379/2025").filters, null)).toEqual({ any: [{ bill: "A10379", session: "2025" }, { bill: "S9051", session: "2025" }] });
+    // Without a same-as, the filter is as before.
+    expect(pagefindFilters(parseQuery("bill:A10379").branches[0].filters, null)).toEqual({ bill: "A10379" });
+  });
+
+  it("keeps the same-as bill's remarks in its own session only", () => {
+    const b = withTwin("bill:A10379C");
+    expect(keepRemark(remark(220), b, null, [], page2026, places)).toBe(true);
+    expect(keepRemark(remark(5), b, null, [], page2026, places)).toBe(false);
+    expect(keepRemark(remark(220), b, null, [], page2013, places)).toBe(false); // another session's S9051
+  });
+
+  it("shows and marks where a remark names the bill, however it is written", () => {
+    const b = withTwin("bill:A10379C");
+    const long = `${"Thank you, Madam President. ".repeat(20)}I rise to explain my vote on my bill, S9051B, which protects minors.`;
+    const html = excerpt(remark(220, long), b);
+    expect(html).toContain("<mark>S9051B</mark>");
+    expect(html.startsWith("… ")).toBe(true); // the excerpt moved to the bill, past the opening
+    expect(excerpt(remark(1, "On page 37, Senator Marcellino moves to discharge Assembly Bill Number 10379 and substitute it."), parseQuery("bill:A10379").branches[0]))
+      .toContain("<mark>Assembly Bill Number 10379</mark>");
+  });
+});

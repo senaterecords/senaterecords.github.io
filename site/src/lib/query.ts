@@ -1,6 +1,7 @@
 // The search query layer (spec 9.1): parse what the reader typed, plan the Pagefind searches, and keep only the
 // remarks that really match. Pagefind finds pages; this decides which remarks on those pages count.
 import { fold } from "./names";
+import { billRefs } from "./reader";
 import { stem } from "./stem";
 
 /** Two terms (each a word or a phrase) within so many words of each other in one remark. */
@@ -12,7 +13,11 @@ export interface SpeakerFilter { text: string; senate: boolean; }
 /** The shortcuts in a query. Several values of one shortcut mean any of them; different shortcuts must all hold. */
 export interface Filters {
   speakers?: SpeakerFilter[]; bills?: string[]; session?: number; years?: number[]; types?: ("floor" | "hearing")[]; committees?: string[];
+  /** Each bill's same-as in that session (S9051 for A10379 in 2025), looked up once the query is parsed. */
+  sameAs?: SameAs[];
 }
+/** A bill identical to one asked for, in the session they share. */
+export interface SameAs { bill: string; session: number; }
 /** What a NOT leaves out: remarks that hold all of its terms, by one of its speakers, in one of its transcripts. */
 export interface Exclusion extends Terms { filters: Filters; }
 /** One way for a remark to match: all of its terms, its shortcuts, and none of its exclusions. */
@@ -335,8 +340,13 @@ export function pagefindFilters(f: Filters, speakers: string | string[] | null, 
   const oneOrAny = (values: string[]) => (values.length === 1 ? values[0] : { any: values });
   if (f.years?.length) out.year = f.years.length === 1 ? [String(f.years[0])] : { any: f.years.map(String) };
   if (f.types?.length === 1) out.type = f.types[0]; // both record types is no filter
-  if (f.bills?.length) out.bill = oneOrAny(f.bills);
-  if (f.session && f.bills?.length === 1) out.session = String(f.session);
+  if (f.bills?.length) {
+    // The bills asked for (in one session, when it is named), or any of their same-as bills in its own session.
+    const own: PagefindFilters = { bill: oneOrAny(f.bills), ...(f.session && f.bills.length === 1 ? { session: String(f.session) } : {}) };
+    const twins = (f.sameAs ?? []).map((s) => ({ bill: s.bill, session: String(s.session) }));
+    if (twins.length) out.any = [own, ...twins];
+    else Object.assign(out, own);
+  }
   if (f.committees?.length) out.committee = oneOrAny(f.committees);
   if (slugs.length) out.senator = oneOrAny(slugs);
   const none = not.filter((e) => !hasTerms(e) && !e.filters.speakers?.length && hasPlace(e.filters)).map((e) => pagefindFilters(e.filters, null));
@@ -370,10 +380,26 @@ export function billPlaces(meta: string | undefined): BillPlaces | undefined {
 
 /** Whether a remark is one a branch's bill: asks for: in the reading or debate of one of its bills, or mentioning one.
  * A transcript without recorded places keeps all its remarks, as before. */
-function atBill(r: Remark, f: Filters, places?: BillPlaces): boolean {
+function atBill(r: Remark, f: Filters, places?: BillPlaces, page?: PageFilters): boolean {
   if (!f.bills?.length || !places) return true;
-  return f.bills.some((bill) => (places.get(bill) ?? []).some(([from, to]) => r.turn >= from && r.turn <= to));
+  return billsOn(page, f).some((bill) => (places.get(bill) ?? []).some(([from, to]) => r.turn >= from && r.turn <= to));
 }
+
+/** The bills a branch asks for that a transcript holds: its own (in the session asked for, when one is), and the
+ * same-as bills of the transcript's session. A page whose filter values are unknown holds all of them. */
+function billsOn(page: PageFilters | undefined, f: Filters): string[] {
+  const bills = f.bills ?? [];
+  if (!page) return [...bills, ...(f.sameAs ?? []).map((s) => s.bill)];
+  const has = (key: string, value: string) => (page[key] ?? []).includes(value);
+  const inSession = !(f.session && bills.length === 1) || has("session", String(f.session));
+  return [
+    ...(inSession ? bills.filter((b) => has("bill", b)) : []),
+    ...(f.sameAs ?? []).filter((s) => has("session", String(s.session)) && has("bill", s.bill)).map((s) => s.bill),
+  ];
+}
+
+/** The bills a branch's excerpt marks: those it asks for and their same-as bills. */
+const billsMarked = (f: Filters): string[] => [...(f.bills ?? []), ...(f.sameAs ?? []).map((s) => s.bill)];
 
 interface PageData { url: string; content: string; anchors: { element: string; id: string; text: string; location: number }[]; }
 
@@ -495,8 +521,7 @@ function onPage(page: PageFilters | undefined, f: Filters): boolean {
   if (f.years?.length && !any("year", f.years.map(String))) return false;
   if (f.types?.length === 1 && !any("type", f.types)) return false;
   if (f.committees?.length && !any("committee", f.committees)) return false;
-  if (f.bills?.length && !any("bill", f.bills)) return false;
-  return !(f.session && f.bills?.length === 1 && !any("session", [String(f.session)]));
+  return !(f.bills?.length && !billsOn(page, f).length);
 }
 
 const holds = (words: string[], t: Terms) =>
@@ -516,23 +541,23 @@ function excluded(r: Remark, words: string[], e: Exclusion, who: SpeakerMatch, p
 /** Whether a remark matches a branch: by its speakers (looked up), in its transcripts, with all its terms, and taken out
  * by none of its NOTs (whose speakers, looked up, come one per NOT). */
 export function keepRemark(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters, places?: BillPlaces): boolean {
-  if (!bySpeaker(r, speakers) || !onPage(page, b.filters) || !atBill(r, b.filters, places)) return false;
+  if (!bySpeaker(r, speakers) || !onPage(page, b.filters) || !atBill(r, b.filters, places, page)) return false;
   const words = foldedWords(r.text);
   return holds(words, b) && !b.not.some((e, k) => excluded(r, words, e, notSpeakers[k] ?? null, page));
 }
 
-/** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
- * NOT and speaker:. With no terms it is the same as keepRemark. */
 /** Whether "anywhere in a transcript" can change what a search finds: some branch has two or more words or phrases
  * that must come together in one remark (a NEAR pair counts as two). For any other search the choice isn't offered. */
 export function whereMatters(p: ParsedQuery): boolean {
   return p.branches.some((b) => b.words.length + b.phrases.length + 2 * b.near.length > 1);
 }
 
+/** Across a whole transcript (which holds every term): a remark that holds any of the branch's terms, still honouring
+ * NOT and speaker:. With no terms it is the same as keepRemark. */
 export function mentionsAny(r: Remark, b: Branch, speakers: SpeakerMatch = null, notSpeakers: SpeakerMatch[] = [], page?: PageFilters, places?: BillPlaces): boolean {
   const terms = [...b.words, ...b.near.flatMap((n) => [n.a, n.b])];
   if (!b.phrases.length && !terms.length) return keepRemark(r, b, speakers, notSpeakers, page, places);
-  if (!bySpeaker(r, speakers) || !onPage(page, b.filters) || !atBill(r, b.filters, places)) return false;
+  if (!bySpeaker(r, speakers) || !onPage(page, b.filters) || !atBill(r, b.filters, places, page)) return false;
   const words = foldedWords(r.text);
   if (b.not.some((e, k) => excluded(r, words, e, notSpeakers[k] ?? null, page))) return false;
   return b.phrases.some((p) => hasPhrase(words, p)) || terms.some((t) => present(words, t));
@@ -546,11 +571,13 @@ const EXCERPT = 360;
 interface Hit { start: number; end: number; term: string; }
 
 /** Every hit of a branch's terms in a text, in order, each with the term it belongs to: marked by the same rules as
- * the remark was matched by (a word's forms, the start of a word with *, an exact word or phrase in quotes). */
+ * the remark was matched by (a word's forms, the start of a word with *, an exact word or phrase in quotes). The bills
+ * a bill: shortcut asks for are marked where the text names them, however it writes them. */
 function termHits(text: string, b: Branch): Hit[] {
   const nearTerms = b.near.flatMap((n) => [n.a, n.b]);
   const phrase = (p: string) => p.split(/\s+/).map(escapeRegex).join(`[^${L}]+`) + `(?![${L}])`;
-  const out: Hit[] = [];
+  const bills = billsMarked(b.filters);
+  const out: Hit[] = bills.length ? billRefs(text).filter((ref) => bills.includes(ref.base)).map((ref) => ({ ...ref, term: ref.base })) : [];
   const find = (term: string, pattern: string) => {
     for (const m of text.matchAll(new RegExp(`(?<![${L}])${pattern}`, "giu"))) out.push({ start: m.index!, end: m.index! + m[0].length, term });
   };
