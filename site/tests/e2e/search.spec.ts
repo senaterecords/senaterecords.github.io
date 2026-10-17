@@ -43,7 +43,7 @@ test("a word finds its forms, tax* any word starting so, and a quoted word only 
 });
 
 test("the choice beside Sort finds the words anywhere in a transcript, and on a phone it is under Filters", async ({ page }, info) => {
-  await page.goto("search/?q=budget");
+  await page.goto(`search/?q=${encodeURIComponent("budget children")}`);
   await expect(page.locator("[data-result]").first()).toBeVisible();
   if (info.project.name === "phone") {
     await expect(page.locator(".sr-where")).toBeHidden();
@@ -58,7 +58,7 @@ test("the choice beside Sort finds the words anywhere in a transcript, and on a 
     await expect(page).toHaveURL(/in=transcript/);
     await expect(where).toHaveValue("transcript");
   }
-  await expect(page.locator(".sr-wide")).toContainText("from transcripts that have all of them");
+  await expect(page.locator(".sr-wide")).toContainText("Each remark below has at least one of them");
 });
 
 test("committee: takes part of a committee's name", async ({ page }) => {
@@ -351,12 +351,12 @@ test("when no single remark has every phrase, the page says so and offers the tr
   await page.goto("search/?q=%22Campaign%20for%20Fiscal%20Equity%22%20and%20%22Head%20Start%22");
   await expect(page.getByText(/No single remark has all of these/)).toBeVisible();
   await expect(page.getByText(/Did you mean/)).toHaveCount(0);
-  await page.getByRole("button", { name: /Show matches across a whole transcript/ }).click();
+  await page.getByRole("button", { name: /Search anywhere in these transcripts/ }).click();
   await expect(page).toHaveURL(/in=transcript/);
   // The rows stream in after the address changes: wait for both speakers rather than read the first frame.
   const speakers = () => page.locator("[data-result] [data-speaker]").evaluateAll((els) => els.map((e) => e.getAttribute("data-speaker")));
   await expect.poll(speakers).toEqual(expect.arrayContaining(["robert-jackson", "andrea-stewart-cousins"]));
-  await expect(page.getByText(/in any remark of the same transcript/)).toBeVisible();
+  await expect(page.getByText(/Each remark below has at least one of them/)).toBeVisible();
 });
 
 test("speaker: twice finds either person's remarks", async ({ page }) => {
@@ -687,4 +687,34 @@ test("an OR search sorted by date lists its remarks in date order across both gr
       else expect(days[k], `${sort}: row ${k}`).toBeGreaterThanOrEqual(days[k - 1]);
     }
   }
+});
+
+test("anywhere in a transcript says so when it can't change a search of single words or phrases", async ({ page }) => {
+  await page.goto("search/?q=budget&in=transcript");
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  await expect(page.locator(".sr-wide")).toContainText("This search finds the same remarks either way");
+  // With words that must come together, the choice matters and the note explains what it shows.
+  await page.goto(`search/?q=${encodeURIComponent("budget children")}&in=transcript`);
+  await expect(page.locator("[data-result]").first()).toBeVisible();
+  await expect(page.locator(".sr-wide")).toContainText("Each remark below has at least one of them");
+});
+
+test("a year range ticks every year in it, and unticking one splits the range", async ({ page }, info) => {
+  test.skip(info.project.name === "phone"); // the same list, in a sheet
+  await page.goto(`search/?q=${encodeURIComponent("the year:2013-2025")}`);
+  const years = page.getByRole("complementary", { name: "Narrow the results" }).locator(".fg").filter({ has: page.getByRole("heading", { name: "Year" }) });
+  for (const y of ["2013", "2021", "2025"]) await expect(years.getByRole("button", { name: new RegExp(`^${y}`) }), y).toHaveAttribute("aria-pressed", "true");
+  await years.getByRole("button", { name: /^2021/ }).click();
+  await expect.poll(() => new URL(page.url()).searchParams.get("q")).toBe("the year:2013-2020 year:2022-2025");
+  await expect(years.getByRole("button", { name: /^2021/ })).toHaveAttribute("aria-pressed", "false");
+  await expect(years.getByRole("button", { name: /^2025/ })).toHaveAttribute("aria-pressed", "true");
+});
+
+test("a speaker typed by name ticks that person, and a click takes the name out", async ({ page }, info) => {
+  test.skip(info.project.name === "phone");
+  await page.goto(`search/?q=${encodeURIComponent("budget speaker:krueger")}`);
+  const krueger = page.getByRole("complementary", { name: "Narrow the results" }).getByRole("button", { name: /^Liz Krueger/ });
+  await expect(krueger).toHaveAttribute("aria-pressed", "true");
+  await krueger.click();
+  await expect(page).toHaveURL(/\?q=budget$/);
 });

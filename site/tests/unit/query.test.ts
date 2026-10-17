@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   EVERY_PAGE, excerpt, excerptPages, fillMore, hasShortcut, keepRemark, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
-  toggleShortcut, type Branch,
+  toggleShortcut, topShortcuts, yearShortcuts, type Branch,
 } from "../../src/lib/query";
 
 // A branch's terms alone, as most tests compare them.
@@ -492,5 +492,24 @@ describe("how a word matches", () => {
   it("asks Pagefind for the bare words", () => {
     expect(pagefindTerms(parseQuery("tax* fares").branches[0])).toEqual(["tax fares"]);
     expect(pagefindTerms(parseQuery('"tax" NEAR cap').branches[0])).toEqual(["tax cap"]);
+  });
+});
+
+describe("the shortcuts the filters beside the results show and change", () => {
+  it("finds the ones outside brackets, where they stand, and whether a NOT or minus turns them round", () => {
+    const q = '(tolls year:2020) speaker:Krueger committee:"Ways and Means" -year:2019 NOT type:floor year:2021-2023';
+    expect(topShortcuts(q).map((t) => [t.field, t.value, t.negated, q.slice(t.start, t.end)])).toEqual([
+      ["speaker", "Krueger", false, "speaker:Krueger"],
+      ["committee", "Ways and Means", false, 'committee:"Ways and Means"'],
+      ["year", "2019", true, "-year:2019"],
+      ["type", "floor", true, "type:floor"],
+      ["year", "2021-2023", false, "year:2021-2023"],
+    ]);
+  });
+
+  it("writes runs of years as ranges", () => {
+    expect(yearShortcuts([2024, 2019, 2020, 2022, 2023])).toBe("year:2019-2020 year:2022-2024");
+    expect(yearShortcuts([2015])).toBe("year:2015");
+    expect(yearShortcuts([])).toBe("");
   });
 });

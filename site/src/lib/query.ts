@@ -638,6 +638,39 @@ export function excerptPages(r: Remark, b: Branch): { hit: number | null; start:
 const TOKENS = /-?[A-Za-z]+:"[^"]*"?|"[^"]*"?|\S+/g;
 const sameToken = (a: string, b: string) => a.toLowerCase() === b.toLowerCase();
 
+/** A shortcut written outside brackets: where it stands in the query and what it says. Those are the ones the
+ * filters beside the results show and change (inside brackets, a shortcut belongs to its group). */
+export interface TopShortcut { start: number; end: number; field: string; value: string; negated: boolean; }
+
+export function topShortcuts(q: string): TopShortcut[] {
+  const out: TopShortcut[] = [];
+  let depth = 0;
+  let last = "";
+  for (const m of q.matchAll(/(-?)([A-Za-z]+):("[^"]*"?|\([^)]*\)?|[^\s)]*)|"[^"]*"?|[()]|[^\s()"]+/g)) {
+    const text = m[0];
+    if (text === "(") depth++;
+    else if (text === ")") depth = Math.max(0, depth - 1);
+    else if (m[2] && depth === 0 && FIELDS.has(m[2].toLowerCase())) {
+      const value = m[3].replace(/^"|"$/g, "").trim();
+      out.push({ start: m.index!, end: m.index! + text.length, field: m[2].toLowerCase(), value, negated: (m[1] === "-") !== (last === "NOT") });
+    }
+    last = text;
+  }
+  return out;
+}
+
+/** The years as shortcuts, runs of years as ranges: [2019, 2020, 2022, 2023, 2024] is "year:2019-2020 year:2022-2024". */
+export function yearShortcuts(years: number[]): string {
+  const sorted = [...new Set(years)].sort((a, b) => a - b);
+  const runs: [number, number][] = [];
+  for (const y of sorted) {
+    const run = runs[runs.length - 1];
+    if (run && y === run[1] + 1) run[1] = y;
+    else runs.push([y, y]);
+  }
+  return runs.map(([a, b]) => `year:${a === b ? a : `${a}-${b}`}`).join(" ");
+}
+
 /** Whether a shortcut such as type:hearing is already in the query. */
 export const hasShortcut = (q: string, shortcut: string) => (q.match(TOKENS) ?? []).some((t) => sameToken(t, shortcut));
 

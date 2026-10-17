@@ -8,8 +8,8 @@ import { jsonCache } from "../lib/fetch";
 import { legalCite, resultCounts, shortDate, speakerForms, titleCase, type SpeakerKind } from "../lib/format";
 import { committeeNamed, fold, resolveSpeaker, type Person } from "../lib/names";
 import {
-  excerpt, excerptPages, excerptText, fillMore, hasShortcut, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
-  toggleShortcut, type Branch, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
+  excerpt, excerptPages, excerptText, fillMore, keepRemark, MAX_BRANCHES, mentionsAny, pagefindFilters, pagefindTerms, parseQuery, remarksOf, spokenText,
+  topShortcuts, yearShortcuts, type Branch, type TopShortcut, type Filters, type PagefindFilters, type ParsedQuery, type Remark, type SpeakerFilter, type Speakers, type Terms,
 } from "../lib/query";
 import { inOrder } from "../lib/order";
 import { passageParam } from "../lib/passage";
@@ -36,7 +36,8 @@ type Phase = "searching" | "reading" | null;
 type Facets = PagefindSearch["filters"];
 /** A branch's speakers, looked up: the ones it asks for, and the ones each of its NOTs leaves out. */
 interface Who { speakers: Speakers | null; not: (Speakers | null)[]; }
-interface Plan { parsed: ParsedQuery; who: Who[]; wide: boolean; }
+/** A search as run: the query worked out, its speakers looked up (by how each was typed), and the committee names. */
+interface Plan { parsed: ParsedQuery; who: Who[]; wide: boolean; found: Map<string, { slug?: string; label?: string }>; committees: string[]; }
 /** One Pagefind search a query needs: a branch's terms and filters (a printed speaker name searched as words). */
 interface Unit { terms: Terms; filters: PagefindFilters; }
 
@@ -266,11 +267,12 @@ function SearchApp() {
       };
       const who: Who[] = parsed.branches.map((b) => ({ speakers: speakersOf(b.filters.speakers), not: b.not.map((e) => speakersOf(e.filters.speakers)) }));
       setPrinted([...new Set(who.flatMap((w) => w.speakers?.labels ?? []))]);
+      let committeeNames: string[] = [];
       if (filterSets(parsed).some((f) => f.committees?.length)) {
         try {
-          const committees = await getJson<{ name: string }[]>("/data/committees.json");
+          committeeNames = (await getJson<{ name: string }[]>("/data/committees.json")).map((c) => c.name);
           for (const f of filterSets(parsed)) {
-            if (f.committees) f.committees = f.committees.map((typed) => committeeNamed(typed, committees.map((c) => c.name)));
+            if (f.committees) f.committees = f.committees.map((typed) => committeeNamed(typed, committeeNames));
           }
         } catch { /* keep what was typed */ }
       }
@@ -297,7 +299,7 @@ function SearchApp() {
         if (id !== runId.current) return;
       }
       queue.current = inOrder(searches.map((s) => s.results), sort, dates);
-      plan.current = { parsed, who, wide };
+      plan.current = { parsed, who, wide, found, committees: committeeNames };
       const matched = queue.current.length;
       setTotal(matched);
       // The counts beside the filters cover every branch's transcripts. A filter group in use is counted as if its own
@@ -375,7 +377,40 @@ function SearchApp() {
   const transcriptCount = new Set(rows.map((r) => r.transcript)).size;
   // The phone's Filters button counts the filters in use, and the "anywhere in a transcript" choice it also holds.
   const activeFilters = Object.keys(parseQuery(q).filters).length + (wide ? 1 : 0);
-  const toggle = (shortcut: string) => go({ q: toggleShortcut(q, shortcut) });
+
+  // What each shortcut outside brackets picks in a filter group: every year of a range, the person a name was looked
+  // up as, a committee's full name. The boxes tick, and clicks change the query, by what the search means, not by how
+  // it was typed (year:2019-2024 ticks 2019 to 2024; speaker:Krueger ticks Liz Krueger).
+  const quote = (v: string) => (/\s/.test(v) ? `"${v}"` : v);
+  const FIELDS_OF: Record<string, string[]> = { type: ["type"], year: ["year"], senator: ["speaker", "senator"], bill: ["bill"], committee: ["committee"] };
+  const picks = (t: TopShortcut): string[] => {
+    const p = plan.current;
+    const value = /[\s"]/.test(t.value) && !t.value.startsWith("(") ? `"${t.value}"` : t.value;
+    const f = parseQuery(`${t.field}:${value}`).filters;
+    if (t.field === "year") return (f.years ?? []).map(String);
+    if (t.field === "type") return f.types ?? [];
+    if (t.field === "bill") return f.bills ?? [];
+    if (t.field === "committee") return (f.committees ?? []).map((c) => committeeNamed(c, p?.committees ?? []));
+    return (f.speakers ?? []).flatMap((s) => {
+      const slug = p?.found.get(`${s.senate}:${s.text.toLowerCase()}`)?.slug;
+      return slug ? [slug] : [];
+    });
+  };
+  const shortcutsFor = (key: string) => topShortcuts(q).filter((t) => !t.negated && FIELDS_OF[key].includes(t.field));
+  const chosenIn = (key: string) => new Set(shortcutsFor(key).flatMap(picks));
+  // A click on a box that is ticked takes its value out of whatever shortcut holds it (2021 out of year:2019-2024 leaves
+  // year:2019-2020 year:2022-2024); on one that isn't, it adds the shortcut.
+  const toggleFacet = (key: string, value: string, shortcut: string) => {
+    const holding = shortcutsFor(key).filter((t) => picks(t).includes(value)).sort((a, b) => b.start - a.start);
+    if (!holding.length) { go({ q: `${q.trim()} ${shortcut}`.trim() }); return; }
+    let next = q;
+    for (const t of holding) {
+      const rest = picks(t).filter((v) => v !== value);
+      const written = t.field === "year" ? yearShortcuts(rest.map(Number)) : rest.map((v) => `${t.field}:${quote(v)}`).join(" ");
+      next = next.slice(0, t.start) + written + next.slice(t.end);
+    }
+    go({ q: next.replace(/\s+/g, " ").trim() });
+  };
 
   const nameOf = (r: Remark) => {
     const person = r.speaker ? personBySlug.get(r.speaker) : undefined;
@@ -431,14 +466,15 @@ function SearchApp() {
     if (!all.length) return null;
     const top = byYear ? 8 : 10;
     const open = !!opened[key];
-    const entries = open ? all : all.filter(([value], i) => i < top || hasShortcut(q, shortcut(value)));
+    const chosen = chosenIn(key);
+    const entries = open ? all : all.filter(([value], i) => i < top || chosen.has(value));
     return (
       <div className="fg">
         <h3>{title}</h3>
         {entries.map(([value, n]) => {
-          const on = hasShortcut(q, shortcut(value));
+          const on = chosen.has(value);
           return (
-            <button key={value} type="button" className="fg-row" aria-pressed={on} onClick={() => toggle(shortcut(value))}>
+            <button key={value} type="button" className="fg-row" aria-pressed={on} onClick={() => toggleFacet(key, value, shortcut(value))}>
               <span className={on ? "box on" : "box"} aria-hidden="true">{on && <Icon name="check" size={10} />}</span>
               <span className="fg-name">{render(value)}</span><b className="num">{n}</b>
             </button>
@@ -452,7 +488,6 @@ function SearchApp() {
       </div>
     );
   };
-  const quote = (v: string) => (/\s/.test(v) ? `"${v}"` : v);
   // A speaker the whole search leaves out (-speaker:x) isn't offered as a filter: their transcripts are still counted,
   // but none of their remarks can show.
   const leftOut = (() => {
@@ -500,9 +535,10 @@ function SearchApp() {
           {printed.length > 0 && (
             <p className="sr-wide">Showing remarks by speakers named {printed.map((n) => `“${titleCase(n)}”`).join(" or ")} in the transcripts, such as hearing witnesses: no senator or Assembly member has that name.</p>
           )}
-          {wide && (
-            <p className="sr-wide">Showing remarks with any of these terms, from transcripts that have all of them in any remark of the same transcript · <button type="button" className="link" onClick={() => go({ wide: false })}>Match within one remark</button></p>
-          )}
+          {/* Anywhere in a transcript only changes a group of two or more terms that must come together. */}
+          {wide && (parseQuery(q).branches.some((b) => b.words.length + b.phrases.length + 2 * b.near.length > 1)
+            ? <p className="sr-wide">Your words don't have to be in the same remark here. Each remark below has at least one of them, and its transcript has all of them. <button type="button" className="link" onClick={() => go({ wide: false })}>Only remarks with all of them</button></p>
+            : <p className="sr-wide">This search finds the same remarks either way, because each part is a single word or phrase. The choice matters when several words must appear together, like <b>tolls fares</b>.</p>)}
           <div className="sr-head">
             {status === "loading" && !rows.length
               ? <p className="sr-status" role="status"><span className="sr-spin" aria-hidden="true" />{reading}</p>
@@ -572,7 +608,7 @@ function SearchApp() {
                 && parseQuery(q).branches.some((b) => b.phrases.length + b.words.length + b.near.length > 1) ? (
                 <div className="sr-none">
                   <p>No single remark has all of these. {total.toLocaleString("en-US")} {total === 1 ? "transcript has" : "transcripts have"} them in different remarks.</p>
-                  <p><button type="button" className="btn" onClick={() => go({ wide: true })}>Show matches across a whole transcript</button></p>
+                  <p><button type="button" className="btn" onClick={() => go({ wide: true })}>Search anywhere in these transcripts</button></p>
                 </div>
               ) : status === "ready" && !rows.length && !queue.current.length && (
                 <div className="sr-none">
