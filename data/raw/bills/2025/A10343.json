@@ -130,9 +130,22 @@
     "date": "2026-06-01",
     "sequenceNo": 10,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10343",
+     "basePrintNoStr": "A10343-2025",
+     "printNo": "A10343",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-16",
+    "sequenceNo": 11,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 10
+  "size": 11
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -265,9 +278,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -339,11 +359,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-01",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Extends provisions of law providing for certain fees and expenses in unemployment insurance proceedings to December 31, 2028.",

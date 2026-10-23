@@ -273,9 +273,22 @@
     "date": "2026-06-05",
     "sequenceNo": 21,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7204",
+     "basePrintNoStr": "S7204-2025",
+     "printNo": "S7204A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-16",
+    "sequenceNo": 22,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 21
+  "size": 22
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -510,9 +523,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -586,11 +606,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Exempts the Caughdenoy Volunteer Fire Department, Inc., within the town of Central Square, Oswego county from the forty-five percent limit on non-resident members.",

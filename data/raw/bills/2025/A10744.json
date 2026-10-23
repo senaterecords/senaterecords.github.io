@@ -221,9 +221,22 @@
     "date": "2026-06-02",
     "sequenceNo": 17,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10744",
+     "basePrintNoStr": "A10744-2025",
+     "printNo": "A10744A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-16",
+    "sequenceNo": 18,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 17
+  "size": 18
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -386,9 +399,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -468,11 +488,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-02",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Permanently authorizes the pilot residential parking permit system in the city of Buffalo.",

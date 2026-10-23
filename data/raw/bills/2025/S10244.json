@@ -143,9 +143,22 @@
     "date": "2026-06-05",
     "sequenceNo": 11,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10244",
+     "basePrintNoStr": "S10244-2025",
+     "printNo": "S10244",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-16",
+    "sequenceNo": 12,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 11
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -301,9 +314,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -360,11 +380,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the use of certain moneys received by the West Babylon Volunteer Firemen's Benevolent Association and modernization of certain gendered language.",

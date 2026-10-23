@@ -208,9 +208,35 @@
     "date": "2026-05-28",
     "sequenceNo": 16,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7236",
+     "basePrintNoStr": "S7236-2025",
+     "printNo": "S7236",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-21",
+    "sequenceNo": 17,
+    "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7236",
+     "basePrintNoStr": "S7236-2025",
+     "printNo": "S7236",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-21",
+    "sequenceNo": 18,
+    "text": "SIGNED CHAP.316"
    }
   ],
-  "size": 16
+  "size": 18
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -511,9 +537,23 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-21",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-21",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 6
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -571,7 +611,7 @@
  "publishedDateTime": "2025-04-04T15:50:40.512384",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -590,11 +630,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-28",
+  "actionDate": "2026-10-21",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Prohibits the purchase of ammunition if such purchaser failed a background check, is prohibited by federal law or is subject to a temporary or extreme risk protection order issued pursuant to article sixty-three-A of the civil practice law and rules.",

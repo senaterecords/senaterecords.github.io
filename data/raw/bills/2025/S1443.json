@@ -169,9 +169,22 @@
     "date": "2026-06-05",
     "sequenceNo": 13,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1443",
+     "basePrintNoStr": "S1443-2025",
+     "printNo": "S1443A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-16",
+    "sequenceNo": 14,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -358,9 +371,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -455,11 +475,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes the town justice of the town of Rushford, county of Allegany, to be a nonresident of such town.",

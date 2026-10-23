@@ -286,9 +286,48 @@
     "date": "2026-06-02",
     "sequenceNo": 22,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1962",
+     "basePrintNoStr": "A1962-2025",
+     "printNo": "A1962B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-21",
+    "sequenceNo": 23,
+    "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1962",
+     "basePrintNoStr": "A1962-2025",
+     "printNo": "A1962B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-21",
+    "sequenceNo": 24,
+    "text": "SIGNED CHAP.315"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1962",
+     "basePrintNoStr": "A1962-2025",
+     "printNo": "A1962B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-21",
+    "sequenceNo": 25,
+    "text": "APPROVAL MEMO.5"
    }
   ],
-  "size": 22
+  "size": 25
  },
  "activeVersion": "B",
  "additionalSponsors": {
@@ -1719,7 +1758,20 @@
   },
   "size": 3
  },
- "approvalMessage": null,
+ "approvalMessage": {
+  "approvalNumber": 5,
+  "billId": {
+   "basePrintNo": "A1962",
+   "basePrintNoStr": "A1962-2025",
+   "printNo": "A1962B",
+   "session": 2025,
+   "version": "B"
+  },
+  "chapter": 315,
+  "signer": "KATHY HOCHUL",
+  "text": " \n                 APPROVAL MEMORANDUM - No. 5 Chapter 315\n \n      MEMORANDUM filed with Assembly Bill Number 1962-B, entitled:\n \n    \"AN ACT to amend the penal law, in relation to enacting \"Francesco's\n        law\";  to amend the executive law, in relation to annual reports\n        by the New York state office of  gun  violence  prevention;  and\n        providing  for the repeal of certain provisions of the penal law\n        relating to safely storing rifles, shotguns, and firearms\"\n \n    APPROVED\n \n  This bill enacts safe  storage  requirements  for  those  who  possess\nfirearms,  with  increased  penalties  for  individuals  who leave their\nfirearm unsecured when they know or reasonably should know  the  firearm\ncould be accessible to a minor or legally-prohibited person.\n\n  Between  2016  and 2021, suicides accounted for 36% of firearm-related\ndeaths among children aged 10 to 19. One such child is Francesco, who --\nafter a campaign of bullying over his sexual orientation -- chose to end\nhis life with an unsecured firearm. Studies have shown that  individuals\nare  less  likely  to  attempt  suicide with a firearm if it is securely\nstored and inaccessible. Furthermore, 66% of unintentional fatal firearm\nshootings involving children occurred when the firearm was being handled\nor shown to someone else.\n \n  I have reached an agreement with the Legislature to  address  concerns\nregarding  the  safe  harbor  provisions  of the new offenses as well as\nreporting requirements in the upcoming legislative session. On the basis\nof this agreement, I am pleased to sign this bill into law.\n \n  This bill is approved.                         (signed) KATHY HOCHUL\n \n                                ______\n",
+  "year": 2026
+ },
  "basePrintNo": "A1962",
  "basePrintNoStr": "A1962-2025",
  "billType": {
@@ -1778,9 +1830,23 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-10-21",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-21",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 6
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -1860,7 +1926,7 @@
  "publishedDateTime": "2025-01-14T12:03:16.363555",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -1879,11 +1945,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-02",
+  "actionDate": "2026-10-21",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Enacts \"Francesco's law\" which establishes violations for the failure to safely store rifles, shotguns, and firearms in the presence of a minor or a prohibited person; requires the office of gun violence prevention to collect and analyze statistical and other information and data with respect to injuries or deaths of minors resulting from failure to safely store a firearm, rifle, or shotgun.",

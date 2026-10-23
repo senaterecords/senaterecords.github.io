@@ -156,9 +156,22 @@
     "date": "2026-06-04",
     "sequenceNo": 12,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A11392",
+     "basePrintNoStr": "A11392-2025",
+     "printNo": "A11392",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-16",
+    "sequenceNo": 13,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 12
+  "size": 13
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -278,9 +291,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -343,11 +363,11 @@
   "rules": true
  },
  "status": {
-  "actionDate": "2026-06-04",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Extends provisions relating to the establishment of the mercury thermostat collection act to January 1, 2028.",

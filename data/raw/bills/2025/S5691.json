@@ -208,9 +208,22 @@
     "date": "2026-05-20",
     "sequenceNo": 16,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5691",
+     "basePrintNoStr": "S5691-2025",
+     "printNo": "S5691B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-16",
+    "sequenceNo": 17,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 16
+  "size": 17
  },
  "activeVersion": "B",
  "additionalSponsors": {
@@ -459,9 +472,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -546,11 +566,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-20",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes the town justice of the town of West Almond, county of Allegany, to be a nonresident of such town, so long as such person resides in Allegany county.",

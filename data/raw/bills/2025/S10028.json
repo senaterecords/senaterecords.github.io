@@ -130,9 +130,22 @@
     "date": "2026-06-05",
     "sequenceNo": 10,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10028",
+     "basePrintNoStr": "S10028-2025",
+     "printNo": "S10028",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-16",
+    "sequenceNo": 11,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 10
+  "size": 11
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -275,9 +288,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -340,11 +360,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Exempts the East Herkimer Volunteer Fire Department No. 1, Inc. from the requirement that the percentage of non-resident fire department members not exceed forty-five percent of the membership.",

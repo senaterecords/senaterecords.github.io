@@ -351,9 +351,22 @@
     "date": "2026-06-01",
     "sequenceNo": 27,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7839",
+     "basePrintNoStr": "A7839-2025",
+     "printNo": "A7839A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-16",
+    "sequenceNo": 28,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 27
+  "size": 28
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -516,9 +529,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -622,11 +642,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-01",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the Nesconset Volunteer Exempt Firefighter's Benevolent Association; provides for the purpose of such association, and its use of foreign fire insurance premium taxes.",

@@ -143,9 +143,22 @@
     "date": "2026-05-28",
     "sequenceNo": 11,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10045",
+     "basePrintNoStr": "S10045-2025",
+     "printNo": "S10045",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-16",
+    "sequenceNo": 12,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 11
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -304,9 +317,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -374,11 +394,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-28",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Extends the authority of the department of environmental conservation to restrict the taking of fish, shellfish and crustacea in special management areas.",

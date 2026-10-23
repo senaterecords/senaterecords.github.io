@@ -195,9 +195,48 @@
     "date": "2026-06-01",
     "sequenceNo": 15,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6790",
+     "basePrintNoStr": "A6790-2025",
+     "printNo": "A6790A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-16",
+    "sequenceNo": 16,
+    "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6790",
+     "basePrintNoStr": "A6790-2025",
+     "printNo": "A6790A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-16",
+    "sequenceNo": 17,
+    "text": "SIGNED CHAP.313"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6790",
+     "basePrintNoStr": "A6790-2025",
+     "printNo": "A6790A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-16",
+    "sequenceNo": 18,
+    "text": "APPROVAL MEMO.4"
    }
   ],
-  "size": 15
+  "size": 18
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -1539,7 +1578,20 @@
   },
   "size": 2
  },
- "approvalMessage": null,
+ "approvalMessage": {
+  "approvalNumber": 4,
+  "billId": {
+   "basePrintNo": "A6790",
+   "basePrintNoStr": "A6790-2025",
+   "printNo": "A6790A",
+   "session": 2025,
+   "version": "A"
+  },
+  "chapter": 313,
+  "signer": "KATHY HOCHUL",
+  "text": " \n                APPROVAL MEMORANDUM - No. 4  Chapter 313\n \n      MEMORANDUM filed with Assembly Bill Number 6790-A, entitled:\n \n    \"AN  ACT  to  amend  the  tax  law and the real property tax law, in\n        relation to tax credits for volunteer firefighters and volunteer\n        ambulance workers\"\n \n    APPROVED\n \n  This bill amends the personal income tax credit available to volunteer\nfirefighters and ambulance workers  by  increasing  the  maximum  credit\namount  from  $200  to  $800 for eligible individual taxpayers, and from\n$400 to $1600 for eligible married taxpayers filing jointly.\n \n  The  volunteer  firefighter  and  ambulance  workforce  has   declined\nsubstantially  in  the  20  years  since this law was first enacted. The\nState thus needs to respond in a  manner  that  fosters  growth  in  the\nrecruitment  and retention of volunteer firefighters and ambulance work-\ners in order to maintain and enhance public safety, while minimizing the\nimpact on the State's financial  plan.  As  such,  the  Legislature  has\nagreed to a chapter amendment that: changes the year in which the credit\ncan  be  claimed  to Tax Year 2027; prohibits claiming both the personal\nincome tax credit and a real property tax  exemption  simultaneously  by\nrequiring taxpayers to choose one or the other, which is consistent with\nthe  original  law  as  enacted in 2007; and, corrects certain technical\nissues with the bill.\n \n  With these changes, I am pleased to sign this bill into law.\n \n  This bill is approved.                         (signed) KATHY HOCHUL\n \n                                ______\n",
+  "year": 2026
+ },
  "basePrintNo": "A6790",
  "basePrintNoStr": "A6790-2025",
  "billType": {
@@ -1598,9 +1650,23 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-16",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 6
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -1669,7 +1735,7 @@
  "publishedDateTime": "2025-03-14T10:01:33.111982",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -1688,11 +1754,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-01",
+  "actionDate": "2026-10-16",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that for taxable years beginning on and after January first, two thousand twenty-six, a resident taxpayer who serves as an active volunteer firefighter or as a volunteer ambulance worker shall be allowed a credit against the tax imposed equal to eight hundred dollars; provides for a real property tax exemption under certain circumstances to an enrolled member of an incorporated volunteer fire company, fire department or incorporated voluntary ambulance service residing in such city, village, town, school district, special district, fire district or county.",
