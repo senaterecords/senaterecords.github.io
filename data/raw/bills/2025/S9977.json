@@ -169,9 +169,22 @@
     "date": "2026-10-16",
     "sequenceNo": 13,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9977",
+     "basePrintNoStr": "S9977-2025",
+     "printNo": "S9977A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 14,
+    "text": "SIGNED CHAP.356"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -349,9 +362,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -406,7 +426,7 @@
  "publishedDateTime": "2026-04-20T16:06:10.31775",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -425,11 +445,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the Islip Terrace Volunteer Exempt Firefighter's Benevolent Association; makes technical amendments to the chapter incorporating such association.",

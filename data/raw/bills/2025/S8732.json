@@ -156,9 +156,22 @@
     "date": "2026-10-16",
     "sequenceNo": 12,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8732",
+     "basePrintNoStr": "S8732-2025",
+     "printNo": "S8732",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 13,
+    "text": "SIGNED CHAP.343"
    }
   ],
-  "size": 12
+  "size": 13
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -384,9 +397,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -424,7 +444,7 @@
  "publishedDateTime": "2026-01-07T14:48:54.306378",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -443,11 +463,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Expands the area outside Montgomery county in which a deputy sheriff in Montgomery county may reside.",

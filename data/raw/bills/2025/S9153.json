@@ -156,9 +156,22 @@
     "date": "2026-10-16",
     "sequenceNo": 12,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9153",
+     "basePrintNoStr": "S9153-2025",
+     "printNo": "S9153",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 13,
+    "text": "SIGNED CHAP.347"
    }
   ],
-  "size": 12
+  "size": 13
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -377,9 +390,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -417,7 +437,7 @@
  "publishedDateTime": "2026-02-06T16:31:26.846959",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -436,11 +456,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Adds parcels of land to the list of premises which are exempt from the provisions of law which generally restrict manufacturers/wholesalers and retailers from sharing an interest in a liquor license.",

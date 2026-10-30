@@ -260,9 +260,22 @@
     "date": "2026-10-16",
     "sequenceNo": 20,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8454",
+     "basePrintNoStr": "S8454-2025",
+     "printNo": "S8454A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 21,
+    "text": "SIGNED CHAP.341"
    }
   ],
-  "size": 20
+  "size": 21
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -486,9 +499,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -543,7 +563,7 @@
  "publishedDateTime": "2025-07-11T09:12:52.505867",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -562,11 +582,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Exempts persons holding the offices of public health director and director of community services of St. Lawrence county from the requirement that such person be a resident of the political subdivision or municipal corporation of the state for which such person shall be chosen or within which such person's official functions are required to be exercised.",

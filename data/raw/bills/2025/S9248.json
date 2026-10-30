@@ -143,9 +143,22 @@
     "date": "2026-10-16",
     "sequenceNo": 11,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9248",
+     "basePrintNoStr": "S9248-2025",
+     "printNo": "S9248",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 12,
+    "text": "SIGNED CHAP.349"
    }
   ],
-  "size": 11
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -296,9 +309,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -342,7 +362,7 @@
  "publishedDateTime": "2026-02-18T14:01:42.743533",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -361,11 +381,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Expands the residency requirement for the village clerk, deputy village clerk, village treasurer, and deputy village treasurer of the village of Washingtonville such that such person need not be a resident of such village, but must be a resident in the county in which such village is located or an adjoining county within the state of New York.",
