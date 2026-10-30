@@ -117,9 +117,48 @@
     "date": "2026-06-05",
     "sequenceNo": 9,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10643",
+     "basePrintNoStr": "S10643-2025",
+     "printNo": "S10643",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-28",
+    "sequenceNo": 10,
+    "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10643",
+     "basePrintNoStr": "S10643-2025",
+     "printNo": "S10643",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-28",
+    "sequenceNo": 11,
+    "text": "SIGNED CHAP.369"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10643",
+     "basePrintNoStr": "S10643-2025",
+     "printNo": "S10643",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-28",
+    "sequenceNo": 12,
+    "text": "APPROVAL MEMO.7"
    }
   ],
-  "size": 9
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -284,9 +323,23 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-10-28",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-28",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 6
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -324,7 +377,7 @@
  "publishedDateTime": "2026-06-02T00:31:21.82035",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -343,11 +396,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-10-28",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to labor peace agreements and the cannabis industry wage board.",

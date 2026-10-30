@@ -182,9 +182,35 @@
     "date": "2026-06-04",
     "sequenceNo": 14,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5175",
+     "basePrintNoStr": "A5175-2025",
+     "printNo": "A5175A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-28",
+    "sequenceNo": 15,
+    "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5175",
+     "basePrintNoStr": "A5175-2025",
+     "printNo": "A5175A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-28",
+    "sequenceNo": 16,
+    "text": "SIGNED CHAP.367"
    }
   ],
-  "size": 14
+  "size": 16
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -352,9 +378,23 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-10-28",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-28",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 6
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -423,7 +463,7 @@
  "publishedDateTime": "2025-02-12T11:50:40.662723",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -442,11 +482,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-04",
+  "actionDate": "2026-10-28",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Prohibits the manufacture, distribution, sale, or offering for sale of a baby monitor that broadcasts audio or video through an internet connection unless it includes certain security features to prevent unauthorized access; requires a written warning label; provides penalties.",

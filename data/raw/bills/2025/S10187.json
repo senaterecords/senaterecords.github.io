@@ -143,9 +143,22 @@
     "date": "2026-10-16",
     "sequenceNo": 11,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10187",
+     "basePrintNoStr": "S10187-2025",
+     "printNo": "S10187",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 12,
+    "text": "SIGNED CHAP.360"
    }
   ],
-  "size": 11
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -288,9 +301,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -334,7 +354,7 @@
  "publishedDateTime": "2026-05-05T09:48:49.816124",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -353,11 +373,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the Volunteer and Exempt Firefighter's Benevolent Association of Bethpage, Nassau county, New York, Inc.; changes \"firemen\" to \"firefighters\"; directs that certain taxes received shall be used by such benevolent association in furtherance of its purposes.",

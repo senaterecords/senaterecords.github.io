@@ -260,9 +260,22 @@
     "date": "2026-10-16",
     "sequenceNo": 20,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8276",
+     "basePrintNoStr": "S8276-2025",
+     "printNo": "S8276",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 21,
+    "text": "SIGNED CHAP.340"
    }
   ],
-  "size": 20
+  "size": 21
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -503,9 +516,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -561,7 +581,7 @@
  "publishedDateTime": "2025-05-29T11:02:42.28314",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -580,11 +600,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Allows a non-resident to hold the position of assistant county attorney in the county of Rockland.",

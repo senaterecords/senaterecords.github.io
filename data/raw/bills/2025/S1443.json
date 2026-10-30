@@ -182,9 +182,22 @@
     "date": "2026-10-16",
     "sequenceNo": 14,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1443",
+     "basePrintNoStr": "S1443-2025",
+     "printNo": "S1443A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-10-23",
+    "sequenceNo": 15,
+    "text": "SIGNED CHAP.337"
    }
   ],
-  "size": 14
+  "size": 15
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -378,9 +391,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -456,7 +476,7 @@
  "publishedDateTime": "2025-01-09T15:40:04.557136",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -475,11 +495,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes the town justice of the town of Rushford, county of Allegany, to be a nonresident of such town.",

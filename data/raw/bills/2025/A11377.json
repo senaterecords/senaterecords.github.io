@@ -169,9 +169,22 @@
     "date": "2026-10-16",
     "sequenceNo": 13,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A11377",
+     "basePrintNoStr": "A11377-2025",
+     "printNo": "A11377",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-23",
+    "sequenceNo": 14,
+    "text": "SIGNED CHAP.330"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -298,9 +311,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -344,7 +364,7 @@
  "publishedDateTime": "2026-05-14T18:08:37.561527",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -363,11 +383,11 @@
   "rules": true
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Extends provisions related to the regulation of the amount of Jonah crabs that may be taken for an additional two years.",

@@ -182,9 +182,22 @@
     "date": "2026-10-16",
     "sequenceNo": 14,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8796",
+     "basePrintNoStr": "A8796-2025",
+     "printNo": "A8796",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-23",
+    "sequenceNo": 15,
+    "text": "SIGNED CHAP.318"
    }
   ],
-  "size": 14
+  "size": 15
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -311,9 +324,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -363,7 +383,7 @@
  "publishedDateTime": "2025-06-05T16:00:35.509498",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -382,11 +402,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides an exemption for certain parcels of land from the licensing restrictions prohibiting manufacturers, wholesalers and retailers of alcoholic beverages from sharing an interest in a licensed premises or to sell at retail for consumption on the premises; provides for the repeal of certain provisions upon expiration thereof.",

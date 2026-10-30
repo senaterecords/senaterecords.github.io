@@ -364,9 +364,22 @@
     "date": "2026-10-16",
     "sequenceNo": 28,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A7839",
+     "basePrintNoStr": "A7839-2025",
+     "printNo": "A7839A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-10-23",
+    "sequenceNo": 29,
+    "text": "SIGNED CHAP.317"
    }
   ],
-  "size": 28
+  "size": 29
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -536,9 +549,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-10-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -623,7 +643,7 @@
  "publishedDateTime": "2025-04-11T14:58:36.33564",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -642,11 +662,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-10-16",
+  "actionDate": "2026-10-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the Nesconset Volunteer Exempt Firefighter's Benevolent Association; provides for the purpose of such association, and its use of foreign fire insurance premium taxes.",
