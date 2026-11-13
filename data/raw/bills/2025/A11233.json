@@ -182,9 +182,35 @@
     "date": "2026-06-04",
     "sequenceNo": 14,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A11233",
+     "basePrintNoStr": "A11233-2025",
+     "printNo": "A11233A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-10",
+    "sequenceNo": 15,
+    "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A11233",
+     "basePrintNoStr": "A11233-2025",
+     "printNo": "A11233A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-10",
+    "sequenceNo": 16,
+    "text": "SIGNED CHAP.375"
    }
   ],
-  "size": 14
+  "size": 16
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -374,9 +400,23 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-10",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-10",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 6
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -431,7 +471,7 @@
  "publishedDateTime": "2026-05-01T14:36:54.204199",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -450,11 +490,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-04",
+  "actionDate": "2026-11-10",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes early renewal of vehicle registration for members of the armed forces who will be engaged in the performance of their official military duties upon its expiration.",

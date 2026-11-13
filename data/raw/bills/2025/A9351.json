@@ -182,9 +182,35 @@
     "date": "2026-05-28",
     "sequenceNo": 14,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9351",
+     "basePrintNoStr": "A9351-2025",
+     "printNo": "A9351A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-10",
+    "sequenceNo": 15,
+    "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9351",
+     "basePrintNoStr": "A9351-2025",
+     "printNo": "A9351A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-10",
+    "sequenceNo": 16,
+    "text": "SIGNED CHAP.373"
    }
   ],
-  "size": 14
+  "size": 16
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -511,9 +537,23 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-10",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-10",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 6
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -574,7 +614,7 @@
  "publishedDateTime": "2025-12-19T15:59:38.931664",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -593,11 +633,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-28",
+  "actionDate": "2026-11-10",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the issuance of license plates for persons rated one hundred percent disabled by the United States department of veterans affairs.",
