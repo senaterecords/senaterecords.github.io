@@ -5110,5 +5110,57 @@
   },
   "sessionYear": 2025,
   "shortName": "ZELLNER"
+ },
+ {
+  "alternate": false,
+  "chamber": "SENATE",
+  "districtCode": 12,
+  "fullName": "Aber Kawas",
+  "imgName": "no_image.jpg",
+  "incumbent": true,
+  "memberId": 1578,
+  "person": {
+   "email": "kawas@nysenate.gov",
+   "firstName": "Aber",
+   "fullName": "Aber Kawas",
+   "imgName": "no_image.jpg",
+   "lastName": "Kawas",
+   "middleName": "",
+   "personId": 1390,
+   "prefix": "Senator",
+   "suffix": "",
+   "verified": true
+  },
+  "service": {
+   "sessionYearsServed": [
+    2025,
+    2027
+   ]
+  },
+  "sessionMemberId": 2539,
+  "sessionShortNameMap": {
+   "2025": [
+    {
+     "alternate": false,
+     "districtCode": 12,
+     "memberId": 1578,
+     "sessionMemberId": 2540,
+     "sessionYear": 2025,
+     "shortName": "KAWAS"
+    }
+   ],
+   "2027": [
+    {
+     "alternate": false,
+     "districtCode": 12,
+     "memberId": 1578,
+     "sessionMemberId": 2539,
+     "sessionYear": 2027,
+     "shortName": "KAWAS"
+    }
+   ]
+  },
+  "sessionYear": 2027,
+  "shortName": "KAWAS"
  }
 ]
