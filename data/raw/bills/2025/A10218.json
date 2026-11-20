@@ -195,9 +195,22 @@
     "date": "2026-06-02",
     "sequenceNo": 15,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10218",
+     "basePrintNoStr": "A10218-2025",
+     "printNo": "A10218A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 16,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 15
+  "size": 16
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -278,9 +291,21 @@
        "sessionMemberId": 2488,
        "sessionYear": 2025,
        "shortName": "MCDONALD"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 114,
+       "fullName": "Matthew Simpson",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1480,
+       "sessionMemberId": 2494,
+       "sessionYear": 2025,
+       "shortName": "SIMPSON"
       }
      ],
-     "size": 1
+     "size": 2
     },
     "fullText": "",
     "fullTextFormats": [],
@@ -378,9 +403,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -454,11 +486,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-02",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Makes permanent certain provisions of law relating to catastrophic or reinsurance coverage issued to certain small groups.",

@@ -156,9 +156,22 @@
     "date": "2026-06-03",
     "sequenceNo": 12,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8742",
+     "basePrintNoStr": "A8742-2025",
+     "printNo": "A8742",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 13,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 12
+  "size": 13
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -291,9 +304,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -362,11 +382,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-03",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the use of assumed and corporate names by companies in the business of household goods moving; provides that companies may not use the words \"mover\", \"moving\", or \"relocation service\" or any abbreviation or derivative thereof unless approved by the commissioner of transportation.",

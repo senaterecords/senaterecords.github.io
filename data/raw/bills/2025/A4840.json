@@ -182,9 +182,22 @@
     "date": "2026-05-13",
     "sequenceNo": 14,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4840",
+     "basePrintNoStr": "A4840-2025",
+     "printNo": "A4840A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 15,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 14
+  "size": 15
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -388,9 +401,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -478,11 +498,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-13",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the educational and examination requirements for certification as a certified interior designer.",

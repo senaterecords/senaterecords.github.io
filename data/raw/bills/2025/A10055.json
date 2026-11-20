@@ -169,9 +169,22 @@
     "date": "2026-06-02",
     "sequenceNo": 13,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10055",
+     "basePrintNoStr": "A10055-2025",
+     "printNo": "A10055",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 14,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -259,7 +272,7 @@
        "districtCode": 90,
        "fullName": "Nader Sayegh",
        "imgName": "no_image.jpg",
-       "incumbent": true,
+       "incumbent": false,
        "memberId": 1258,
        "sessionMemberId": 2470,
        "sessionYear": 2025,
@@ -491,9 +504,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -562,11 +582,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-02",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes the office for the aging to establish, operate and maintain programs for transportation services, or to contract with counties, cities, towns, villages, school districts or public or private nonprofit corporations, associations, institutions, or agencies concerned with the aging, for the operation and maintenance of such programs.",

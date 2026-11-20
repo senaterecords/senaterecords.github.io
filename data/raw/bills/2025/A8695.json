@@ -143,9 +143,22 @@
     "date": "2026-06-03",
     "sequenceNo": 11,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8695",
+     "basePrintNoStr": "A8695-2025",
+     "printNo": "A8695",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 12,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 11
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -272,9 +285,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -352,11 +372,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-03",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that after an alternate juror has been substituted, the jury shall deliberate anew on all issues submitted to the jury at the outset of deliberations; exempts issues for which a verdict was already rendered.",

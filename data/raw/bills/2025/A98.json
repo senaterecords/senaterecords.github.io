@@ -182,9 +182,22 @@
     "date": "2026-06-01",
     "sequenceNo": 14,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A98",
+     "basePrintNoStr": "A98-2025",
+     "printNo": "A98",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 15,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 14
+  "size": 15
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -212,7 +225,7 @@
        "districtCode": 90,
        "fullName": "Nader Sayegh",
        "imgName": "no_image.jpg",
-       "incumbent": true,
+       "incumbent": false,
        "memberId": 1258,
        "sessionMemberId": 2470,
        "sessionYear": 2025,
@@ -354,9 +367,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -466,11 +486,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-01",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that a dental hygienist shall not administer local block anesthesia without a certificate and except under the personal supervision of a dentist and in conjunction with the performance of dental hygiene procedures authorized by law and in accordance with regulations promulgated by the commissioner.",

@@ -299,9 +299,22 @@
     "date": "2026-05-28",
     "sequenceNo": 23,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6273",
+     "basePrintNoStr": "S6273-2025",
+     "printNo": "S6273A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 24,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 23
+  "size": 24
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -764,9 +777,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -869,11 +889,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-28",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes and directs the commissioner of education to conduct a study on the number of children who are caregivers and how being a caregiver impacts their education.",

@@ -260,9 +260,22 @@
     "date": "2026-06-01",
     "sequenceNo": 20,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S4467",
+     "basePrintNoStr": "S4467-2025",
+     "printNo": "S4467",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 21,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 20
+  "size": 21
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -489,9 +502,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -568,11 +588,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-01",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides for the enrollment of a surviving spouse, a surviving domestic partner, a dependent child or children, or any other person entitled to a death benefit in direct deposit for compensation payments.",

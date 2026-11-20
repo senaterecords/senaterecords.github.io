@@ -195,9 +195,22 @@
     "date": "2026-06-03",
     "sequenceNo": 15,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A6744",
+     "basePrintNoStr": "A6744-2025",
+     "printNo": "A6744",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 16,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 15
+  "size": 16
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -321,7 +334,7 @@
        "districtCode": 90,
        "fullName": "Nader Sayegh",
        "imgName": "no_image.jpg",
-       "incumbent": true,
+       "incumbent": false,
        "memberId": 1258,
        "sessionMemberId": 2470,
        "sessionYear": 2025,
@@ -858,9 +871,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -949,11 +969,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-03",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Adopts the psychology interjurisdictional compact to increase public access to psychological services by allowing telepsychological practice and temporary in-person services across state lines.",

@@ -247,9 +247,22 @@
     "date": "2026-06-03",
     "sequenceNo": 19,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1838",
+     "basePrintNoStr": "S1838-2025",
+     "printNo": "S1838",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 20,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 19
+  "size": 20
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -547,9 +560,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -646,11 +666,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-03",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes municipalities to establish an emergency repair pilot program; enables municipalities to repair immediately hazardous code violations in buildings where the owner has not undertaken such repairs in a reasonable time.",

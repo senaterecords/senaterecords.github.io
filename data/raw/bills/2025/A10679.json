@@ -221,9 +221,22 @@
     "date": "2026-06-01",
     "sequenceNo": 17,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10679",
+     "basePrintNoStr": "A10679-2025",
+     "printNo": "A10679B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 18,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 17
+  "size": 18
  },
  "activeVersion": "B",
  "additionalSponsors": {
@@ -623,9 +636,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -716,11 +736,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-01",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires timely public advertising or marketing of listed residential properties on platforms accessible to the general public; permits non-public marketing only where the seller gives informed, written direction after receiving a standardized state disclosure that clearly explains the risks and tradeoffs of withholding a listing from public marketing.",

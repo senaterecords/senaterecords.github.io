@@ -494,9 +494,22 @@
     "date": "2026-04-21",
     "sequenceNo": 38,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1239",
+     "basePrintNoStr": "S1239-2025",
+     "printNo": "S1239F",
+     "session": 2025,
+     "version": "F"
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 39,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 38
+  "size": 39
  },
  "activeVersion": "F",
  "additionalSponsors": {
@@ -2156,9 +2169,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -2295,11 +2315,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-04-21",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Enacts the \"food safety and chemical disclosure act\"; prohibits certain food additives and food color additives; provides that in an action to enforce compliance, the recognition by the federal food and drug administration of any of these substances as safe may not be alleged as a defense; establishes requirements for the reporting of GRAS (generally recognized as safe) substances.",

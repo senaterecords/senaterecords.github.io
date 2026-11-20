@@ -156,9 +156,22 @@
     "date": "2026-06-02",
     "sequenceNo": 12,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10079",
+     "basePrintNoStr": "A10079-2025",
+     "printNo": "A10079A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 13,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 12
+  "size": 13
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -328,9 +341,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -398,11 +418,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-02",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Allows parents of a child who has ever received services through an English as a second language program to serve as a member of the citywide council on English language learners and of the citywide council on high schools even if the child is no longer enrolled.",

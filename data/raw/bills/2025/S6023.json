@@ -260,9 +260,22 @@
     "date": "2026-05-28",
     "sequenceNo": 20,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6023",
+     "basePrintNoStr": "S6023-2025",
+     "printNo": "S6023",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 21,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 20
+  "size": 21
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -470,9 +483,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -570,11 +590,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-28",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires the division for small-business to publish a small business compliance guide and post such guide to the division for small-business's website.",

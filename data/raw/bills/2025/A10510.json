@@ -156,9 +156,22 @@
     "date": "2026-06-02",
     "sequenceNo": 12,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10510",
+     "basePrintNoStr": "A10510-2025",
+     "printNo": "A10510",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 13,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 12
+  "size": 13
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -459,9 +472,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -524,11 +544,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-02",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Prohibits gas and electric corporations from recovering labor-related legal costs or workers' compensation loss adjustment expenses from ratepayers through rates, charges, surcharges, adjustment mechanisms, riders, or reconciliation mechanisms; defines labor-related legal activity.",

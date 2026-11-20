@@ -169,9 +169,22 @@
     "date": "2026-06-04",
     "sequenceNo": 13,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10411",
+     "basePrintNoStr": "A10411-2025",
+     "printNo": "A10411A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 14,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -341,9 +354,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -432,11 +452,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-04",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Prohibits motor vehicle manufacturers and dealers from charging a subscription fee for certain functions of a motor vehicle after the vehicle is sold; provides that any manufacturer, dealer, or agent of a manufacturer or dealer that fails to comply with such requirements shall be assessed a civil penalty not to exceed two hundred fifty dollars per point of sale for each violation.",

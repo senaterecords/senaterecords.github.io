@@ -169,9 +169,22 @@
     "date": "2026-05-19",
     "sequenceNo": 13,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A368",
+     "basePrintNoStr": "A368-2025",
+     "printNo": "A368A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 14,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -371,9 +384,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -469,11 +489,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-19",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to requiring employers to obtain an acknowledgement of receipt from employees of their sexual harassment prevention policy and sexual harassment prevention training program in writing in English and in employees' primary languages; requires employers to obtain acknowledgements from employees and keep such acknowledgements for six years.",

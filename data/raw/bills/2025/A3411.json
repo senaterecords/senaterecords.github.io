@@ -234,9 +234,22 @@
     "date": "2026-03-09",
     "sequenceNo": 18,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3411",
+     "basePrintNoStr": "A3411-2025",
+     "printNo": "A3411B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 19,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 18
+  "size": 19
  },
  "activeVersion": "B",
  "additionalSponsors": {
@@ -518,9 +531,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -619,11 +639,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-03-09",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires the owner, licensee or operator of a generative artificial intelligence system to conspicuously display a notice on the system's user interface that is reasonably calculated to consistently apprise the user that the outputs of the generative artificial intelligence system may be inaccurate.",

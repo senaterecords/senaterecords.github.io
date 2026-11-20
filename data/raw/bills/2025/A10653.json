@@ -130,9 +130,22 @@
     "date": "2026-06-03",
     "sequenceNo": 10,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10653",
+     "basePrintNoStr": "A10653-2025",
+     "printNo": "A10653",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 11,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 10
+  "size": 11
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -284,9 +297,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -358,11 +378,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-03",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires the council on arts to make recommendations on the renaming of the agency buildings located at the empire state plaza; requires the governor to choose the new agency building names within 60 days after the council's recommendation.",

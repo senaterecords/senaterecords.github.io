@@ -169,9 +169,22 @@
     "date": "2026-03-10",
     "sequenceNo": 13,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4382",
+     "basePrintNoStr": "A4382-2025",
+     "printNo": "A4382A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 14,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -361,9 +374,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -445,11 +465,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-03-10",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that elections to fill an increased number of seats on a school board will be conducted at the first annual meeting after the meeting during which number of seats was increased.",

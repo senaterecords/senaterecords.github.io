@@ -234,9 +234,22 @@
     "date": "2026-04-01",
     "sequenceNo": 18,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8492",
+     "basePrintNoStr": "A8492-2025",
+     "printNo": "A8492C",
+     "session": 2025,
+     "version": "C"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 19,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 18
+  "size": 19
  },
  "activeVersion": "C",
  "additionalSponsors": {
@@ -412,9 +425,21 @@
        "sessionMemberId": 2490,
        "sessionYear": 2025,
        "shortName": "STECK"
+      },
+      {
+       "alternate": false,
+       "chamber": "ASSEMBLY",
+       "districtCode": 143,
+       "fullName": "Patrick Chludzinski",
+       "imgName": "no_image.jpg",
+       "incumbent": true,
+       "memberId": 1567,
+       "sessionMemberId": 2523,
+       "sessionYear": 2025,
+       "shortName": "CHLUDZINSKI"
       }
      ],
-     "size": 1
+     "size": 2
     },
     "fullText": "",
     "fullTextFormats": [],
@@ -512,9 +537,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -616,11 +648,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-04-01",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires the commissioner of the division of criminal justice services, the superintendent of the division of state police, and the commissioner of the department of corrections and community supervision and the person in charge of every state law enforcement agency to adopt and implement a tattoo policy for all members of such law enforcement agency who are designated as police officers, peace officers and applicants for employment in such positions.",

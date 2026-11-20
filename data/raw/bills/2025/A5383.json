@@ -169,9 +169,22 @@
     "date": "2026-05-19",
     "sequenceNo": 13,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A5383",
+     "basePrintNoStr": "A5383-2025",
+     "printNo": "A5383A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 14,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 13
+  "size": 14
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -234,7 +247,7 @@
        "districtCode": 90,
        "fullName": "Nader Sayegh",
        "imgName": "no_image.jpg",
-       "incumbent": true,
+       "incumbent": false,
        "memberId": 1258,
        "sessionMemberId": 2470,
        "sessionYear": 2025,
@@ -370,9 +383,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -446,11 +466,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-19",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires soccer programs, lacrosse programs, ice hockey programs, and field hockey programs to provide informational packets about concussions to parents and guardians of children participating in soccer programs; defines soccer programs, lacrosse programs, ice hockey programs, and field hockey programs.",

@@ -156,9 +156,22 @@
     "date": "2026-06-03",
     "sequenceNo": 12,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A9609",
+     "basePrintNoStr": "A9609-2025",
+     "printNo": "A9609",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 13,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 12
+  "size": 13
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -299,9 +312,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -364,11 +384,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-03",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Approves notice and proof of disability or proof of need for family leave, or proof of disability for a special cross-bow permit, from an attending nurse practitioner.",

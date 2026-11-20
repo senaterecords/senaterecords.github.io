@@ -130,9 +130,22 @@
     "date": "2026-06-05",
     "sequenceNo": 10,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S10134",
+     "basePrintNoStr": "S10134-2025",
+     "printNo": "S10134",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 11,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 10
+  "size": 11
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -280,9 +293,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -345,11 +365,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes the Congregation Divrei Chaim to receive retroactive real property tax exempt status for the 2023, 2024, 2025 assessment rolls and all of the 2023-2024, 2024-2025, and 2025-2026 school taxes for two parcels of land located at 67 and 71 College Road in Monsey.",

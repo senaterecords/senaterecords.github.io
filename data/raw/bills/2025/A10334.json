@@ -195,9 +195,22 @@
     "date": "2026-06-03",
     "sequenceNo": 15,
     "text": "RETURNED TO ASSEMBLY"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10334",
+     "basePrintNoStr": "A10334-2025",
+     "printNo": "A10334A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-13",
+    "sequenceNo": 16,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 15
+  "size": 16
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -358,7 +371,7 @@
        "districtCode": 90,
        "fullName": "Nader Sayegh",
        "imgName": "no_image.jpg",
-       "incumbent": true,
+       "incumbent": false,
        "memberId": 1258,
        "sessionMemberId": 2470,
        "sessionYear": 2025,
@@ -725,7 +738,7 @@
        "districtCode": 90,
        "fullName": "Nader Sayegh",
        "imgName": "no_image.jpg",
-       "incumbent": true,
+       "incumbent": false,
        "memberId": 1258,
        "sessionMemberId": 2470,
        "sessionYear": 2025,
@@ -1054,9 +1067,16 @@
     "committeeName": null,
     "statusDesc": "Passed Senate",
     "statusType": "PASSED_SENATE"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -1138,11 +1158,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-03",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Senate",
-  "statusType": "PASSED_SENATE"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that beginning in the 2026-2027 academic year, certain graduate students shall be required to pay 25% of all current and future mandatory university fees; provides that in the 2027-2028 academic year and thereafter, no mandatory university fees shall be charged to certain graduate students and adjunct staff, with the exclusion of the graduate student association student activity fee.",

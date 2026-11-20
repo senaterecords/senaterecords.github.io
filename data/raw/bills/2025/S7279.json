@@ -260,9 +260,22 @@
     "date": "2026-06-05",
     "sequenceNo": 20,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S7279",
+     "basePrintNoStr": "S7279-2025",
+     "printNo": "S7279",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 21,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 20
+  "size": 21
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -480,9 +493,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -551,11 +571,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes certified school psychologists to participate in the certification of certain persons as intellectually disabled or developmentally disabled; makes technical corrections to language.",
