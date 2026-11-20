@@ -143,9 +143,22 @@
     "date": "2026-06-04",
     "sequenceNo": 11,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8944",
+     "basePrintNoStr": "S8944-2025",
+     "printNo": "S8944",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 12,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 11
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -346,9 +359,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -405,11 +425,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-04",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to certain guilty pleas where the plea is in the interest of justice and which are entered into with both the permission of the court and the consent of the people.",

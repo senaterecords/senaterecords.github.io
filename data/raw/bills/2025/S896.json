@@ -286,9 +286,22 @@
     "date": "2026-05-06",
     "sequenceNo": 22,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S896",
+     "basePrintNoStr": "S896-2025",
+     "printNo": "S896A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 23,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 22
+  "size": 23
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -568,9 +581,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -658,11 +678,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-05-06",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires the inclusion of local and municipal animal shelters, any duly incorporated society for the prevention of cruelty to animals and veterinary services when establishing local comprehensive emergency management plans; requires that information to the public include the communication accommodation needs of persons with vision or hearing impairments and information on which temporary housing and other necessary facilities are designated as animal-friendly.",

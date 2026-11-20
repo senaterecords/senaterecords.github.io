@@ -130,9 +130,22 @@
     "date": "2026-06-05",
     "sequenceNo": 10,
     "text": "RETURNED TO SENATE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9989",
+     "basePrintNoStr": "S9989-2025",
+     "printNo": "S9989",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-13",
+    "sequenceNo": 11,
+    "text": "DELIVERED TO GOVERNOR"
    }
   ],
-  "size": 10
+  "size": 11
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -284,9 +297,16 @@
     "committeeName": null,
     "statusDesc": "Passed Assembly",
     "statusType": "PASSED_ASSEMBLY"
+   },
+   {
+    "actionDate": "2026-11-13",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Delivered to Governor",
+    "statusType": "DELIVERED_TO_GOV"
    }
   ],
-  "size": 6
+  "size": 7
  },
  "pastCommittees": {
   "items": [
@@ -349,11 +369,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-06-05",
+  "actionDate": "2026-11-13",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Passed Assembly",
-  "statusType": "PASSED_ASSEMBLY"
+  "statusDesc": "Delivered to Governor",
+  "statusType": "DELIVERED_TO_GOV"
  },
  "substitutedBy": null,
  "summary": "Authorizes the Tovas Dovid Community Kollel, Inc. to receive retroactive real property tax exempt status for the 2023, 2024 and 2025 assessment rolls and all of the 2023-2024, 2024-2025 and 2025-2026 school taxes.",
