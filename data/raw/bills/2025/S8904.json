@@ -182,9 +182,22 @@
     "date": "2026-11-13",
     "sequenceNo": 14,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S8904",
+     "basePrintNoStr": "S8904-2025",
+     "printNo": "S8904A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-20",
+    "sequenceNo": 15,
+    "text": "SIGNED CHAP.403"
    }
   ],
-  "size": 14
+  "size": 15
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -434,9 +447,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -485,7 +505,7 @@
  "publishedDateTime": "2026-01-14T09:43:19.765902",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -504,11 +524,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to certain lease terms for BOCES properties increasing the maximum rental period to 20 years.",

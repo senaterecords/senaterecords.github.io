@@ -130,9 +130,35 @@
     "date": "2026-11-13",
     "sequenceNo": 10,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9758",
+     "basePrintNoStr": "S9758-2025",
+     "printNo": "S9758",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-20",
+    "sequenceNo": 11,
+    "text": "SIGNED CHAP.406"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S9758",
+     "basePrintNoStr": "S9758-2025",
+     "printNo": "S9758",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-20",
+    "sequenceNo": 12,
+    "text": "APPROVAL MEMO.10"
    }
   ],
-  "size": 10
+  "size": 12
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -282,9 +308,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -322,7 +355,7 @@
  "publishedDateTime": "2026-04-03T12:54:13.14847",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -341,11 +374,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that any writing or record made as a memorandum or record of any act, transaction, occurrence or event, may be received in grand jury proceedings as evidence of proof that such act, transaction, occurrence or event, if it was made in the regular course of any business.",
