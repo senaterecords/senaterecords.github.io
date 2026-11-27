@@ -247,9 +247,35 @@
     "date": "2026-11-13",
     "sequenceNo": 19,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8492",
+     "basePrintNoStr": "A8492-2025",
+     "printNo": "A8492C",
+     "session": 2025,
+     "version": "C"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 20,
+    "text": "VETOED MEMO.11"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8492",
+     "basePrintNoStr": "A8492-2025",
+     "printNo": "A8492C",
+     "session": 2025,
+     "version": "C"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 21,
+    "text": "TABLED"
    }
   ],
-  "size": 19
+  "size": 21
  },
  "activeVersion": "C",
  "additionalSponsors": {
@@ -544,9 +570,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -648,11 +681,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Requires the commissioner of the division of criminal justice services, the superintendent of the division of state police, and the commissioner of the department of corrections and community supervision and the person in charge of every state law enforcement agency to adopt and implement a tattoo policy for all members of such law enforcement agency who are designated as police officers, peace officers and applicants for employment in such positions.",
@@ -661,7 +694,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

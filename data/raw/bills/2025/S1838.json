@@ -260,9 +260,22 @@
     "date": "2026-11-13",
     "sequenceNo": 20,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S1838",
+     "basePrintNoStr": "S1838-2025",
+     "printNo": "S1838",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-20",
+    "sequenceNo": 21,
+    "text": "VETOED MEMO.20"
    }
   ],
-  "size": 20
+  "size": 21
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -567,9 +580,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -666,11 +686,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Authorizes municipalities to establish an emergency repair pilot program; enables municipalities to repair immediately hazardous code violations in buildings where the owner has not undertaken such repairs in a reasonable time.",
@@ -679,7 +699,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

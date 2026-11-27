@@ -130,11 +130,37 @@
     "date": "2026-01-07",
     "sequenceNo": 10,
     "text": "REFERRED TO AGRICULTURE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5513",
+     "basePrintNoStr": "S5513-2025",
+     "printNo": "S5513",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-23",
+    "sequenceNo": 11,
+    "text": "AMEND AND RECOMMIT TO AGRICULTURE"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S5513",
+     "basePrintNoStr": "S5513-2025",
+     "printNo": "S5513A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-23",
+    "sequenceNo": 12,
+    "text": "PRINT NUMBER 5513A"
    }
   ],
-  "size": 10
+  "size": 12
  },
- "activeVersion": "",
+ "activeVersion": "A",
  "additionalSponsors": {
   "items": [],
   "size": 0
@@ -142,9 +168,10 @@
  "adopted": false,
  "amendmentVersions": {
   "items": [
-   ""
+   "",
+   "A"
   ],
-  "size": 1
+  "size": 2
  },
  "amendments": {
   "items": {
@@ -233,9 +260,87 @@
     "stricken": false,
     "uniBill": false,
     "version": ""
+   },
+   "A": {
+    "actClause": "AN ACT to amend the agriculture and markets law, in relation to expanding\nagricultural tourism",
+    "basePrintNo": "S5513",
+    "basePrintNoStr": "S5513-2025",
+    "coSponsors": {
+     "items": [
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 57,
+       "fullName": "George Borrello",
+       "imgName": "57_george_borrello.jpg",
+       "incumbent": true,
+       "memberId": 1370,
+       "sessionMemberId": 2374,
+       "sessionYear": 2025,
+       "shortName": "BORRELLO"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 51,
+       "fullName": "Peter Oberacker",
+       "imgName": "1316_Peter_Oberacker.jpg",
+       "incumbent": true,
+       "memberId": 1499,
+       "sessionMemberId": 2368,
+       "sessionYear": 2025,
+       "shortName": "OBERACKER"
+      },
+      {
+       "alternate": false,
+       "chamber": "SENATE",
+       "districtCode": 5,
+       "fullName": "Steve Rhoads",
+       "imgName": "1333_Steve_Rhoads.jpg",
+       "incumbent": true,
+       "memberId": 1516,
+       "sessionMemberId": 2322,
+       "sessionYear": 2025,
+       "shortName": "RHOADS"
+      }
+     ],
+     "size": 3
+    },
+    "fullText": "",
+    "fullTextFormats": [],
+    "fullTextHtml": "",
+    "fullTextTemplate": "",
+    "lawCode": "Amd §301, Ag & Mkts L",
+    "lawSection": "Agriculture and Markets Law",
+    "memo": "",
+    "multiSponsors": {
+     "items": [],
+     "size": 0
+    },
+    "printNo": "S5513A",
+    "publishDate": "2026-11-23",
+    "relatedLaws": {
+     "items": {
+      "AMEND": {
+       "items": [
+        "AGM301"
+       ],
+       "size": 1
+      }
+     },
+     "size": 1
+    },
+    "sameAs": {
+     "items": [],
+     "size": 0
+    },
+    "session": 2025,
+    "stricken": false,
+    "uniBill": false,
+    "version": "A"
    }
   },
-  "size": 1
+  "size": 2
  },
  "approvalMessage": null,
  "basePrintNo": "S5513",
@@ -380,7 +485,7 @@
  "milestones": {
   "items": [
    {
-    "actionDate": "2026-01-07",
+    "actionDate": "2026-11-23",
     "billCalNo": null,
     "committeeName": "Agriculture",
     "statusDesc": "In Senate Committee",
@@ -408,15 +513,21 @@
     "name": "Agriculture",
     "referenceDate": "2026-01-07T00:00",
     "sessionYear": 2025
+   },
+   {
+    "chamber": "SENATE",
+    "name": "Agriculture",
+    "referenceDate": "2026-11-23T00:00",
+    "sessionYear": 2025
    }
   ],
-  "size": 3
+  "size": 4
  },
  "previousVersions": {
   "items": [],
   "size": 0
  },
- "printNo": "S5513",
+ "printNo": "S5513A",
  "programInfo": null,
  "publishStatusMap": {
   "items": {
@@ -424,9 +535,14 @@
     "effectDateTime": "2025-02-24T10:18:51.667614",
     "published": true,
     "version": ""
+   },
+   "A": {
+    "effectDateTime": "2026-11-23T00:00",
+    "published": true,
+    "version": "A"
    }
   },
-  "size": 1
+  "size": 2
  },
  "publishedDateTime": "2025-02-24T10:18:51.667614",
  "reprintOf": null,
@@ -450,7 +566,7 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-01-07",
+  "actionDate": "2026-11-23",
   "billCalNo": null,
   "committeeName": "Agriculture",
   "statusDesc": "In Senate Committee",

@@ -208,9 +208,35 @@
     "date": "2026-11-13",
     "sequenceNo": 16,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10334",
+     "basePrintNoStr": "A10334-2025",
+     "printNo": "A10334A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 17,
+    "text": "VETOED MEMO.15"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10334",
+     "basePrintNoStr": "A10334-2025",
+     "printNo": "A10334A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 18,
+    "text": "TABLED"
    }
   ],
-  "size": 16
+  "size": 18
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -1074,9 +1100,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -1158,11 +1191,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Provides that beginning in the 2026-2027 academic year, certain graduate students shall be required to pay 25% of all current and future mandatory university fees; provides that in the 2027-2028 academic year and thereafter, no mandatory university fees shall be charged to certain graduate students and adjunct staff, with the exclusion of the graduate student association student activity fee.",
@@ -1171,7 +1204,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

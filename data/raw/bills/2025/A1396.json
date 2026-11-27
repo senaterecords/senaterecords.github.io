@@ -260,9 +260,35 @@
     "date": "2026-11-13",
     "sequenceNo": 20,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1396",
+     "basePrintNoStr": "A1396-2025",
+     "printNo": "A1396",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 21,
+    "text": "VETOED MEMO.7"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1396",
+     "basePrintNoStr": "A1396-2025",
+     "printNo": "A1396",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 22,
+    "text": "TABLED"
    }
   ],
-  "size": 20
+  "size": 22
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -582,9 +608,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -674,11 +707,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Prevents an agency, department, division, commission, bureau or any other entity under the authority of the executive department from contracting, subcontracting or hiring any third party during a hiring freeze.",
@@ -687,7 +720,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

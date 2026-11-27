@@ -156,9 +156,35 @@
     "date": "2026-11-13",
     "sequenceNo": 12,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10102",
+     "basePrintNoStr": "A10102-2025",
+     "printNo": "A10102",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 13,
+    "text": "VETOED MEMO.14"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10102",
+     "basePrintNoStr": "A10102-2025",
+     "printNo": "A10102",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 14,
+    "text": "TABLED"
    }
   ],
-  "size": 12
+  "size": 14
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -318,9 +344,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -398,11 +431,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Enacts the low impact landscaping rights act, preventing homeowners' associations from adopting or enforcing any rules or regulations that would effectively prohibit, or impose unreasonable limitations on, the installation or maintenance of low impact landscaping.",
@@ -411,7 +444,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

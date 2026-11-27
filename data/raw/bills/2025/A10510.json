@@ -169,9 +169,35 @@
     "date": "2026-11-13",
     "sequenceNo": 13,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10510",
+     "basePrintNoStr": "A10510-2025",
+     "printNo": "A10510",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 14,
+    "text": "VETOED MEMO.16"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10510",
+     "basePrintNoStr": "A10510-2025",
+     "printNo": "A10510",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 15,
+    "text": "TABLED"
    }
   ],
-  "size": 13
+  "size": 15
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -479,9 +505,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -544,11 +577,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Prohibits gas and electric corporations from recovering labor-related legal costs or workers' compensation loss adjustment expenses from ratepayers through rates, charges, surcharges, adjustment mechanisms, riders, or reconciliation mechanisms; defines labor-related legal activity.",
@@ -557,7 +590,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

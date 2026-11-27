@@ -182,9 +182,22 @@
     "date": "2026-11-13",
     "sequenceNo": 14,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10411",
+     "basePrintNoStr": "A10411-2025",
+     "printNo": "A10411A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-23",
+    "sequenceNo": 15,
+    "text": "SIGNED CHAP.414"
    }
   ],
-  "size": 14
+  "size": 15
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -361,9 +374,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-23",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -433,7 +453,7 @@
  "publishedDateTime": "2026-03-03T12:28:40.841939",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -452,11 +472,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-23",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Prohibits motor vehicle manufacturers and dealers from charging a subscription fee for certain functions of a motor vehicle after the vehicle is sold; provides that any manufacturer, dealer, or agent of a manufacturer or dealer that fails to comply with such requirements shall be assessed a civil penalty not to exceed two hundred fifty dollars per point of sale for each violation.",

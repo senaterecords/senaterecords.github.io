@@ -143,9 +143,35 @@
     "date": "2026-11-13",
     "sequenceNo": 11,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10653",
+     "basePrintNoStr": "A10653-2025",
+     "printNo": "A10653",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 12,
+    "text": "VETOED MEMO.17"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10653",
+     "basePrintNoStr": "A10653-2025",
+     "printNo": "A10653",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 13,
+    "text": "TABLED"
    }
   ],
-  "size": 11
+  "size": 13
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -304,9 +330,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -378,11 +411,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Requires the council on arts to make recommendations on the renaming of the agency buildings located at the empire state plaza; requires the governor to choose the new agency building names within 60 days after the council's recommendation.",
@@ -391,7 +424,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

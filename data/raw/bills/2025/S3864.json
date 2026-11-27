@@ -195,9 +195,22 @@
     "date": "2026-11-13",
     "sequenceNo": 15,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S3864",
+     "basePrintNoStr": "S3864-2025",
+     "printNo": "S3864A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-20",
+    "sequenceNo": 16,
+    "text": "VETOED MEMO.22"
    }
   ],
-  "size": 15
+  "size": 16
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -434,9 +447,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -530,11 +550,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Requires the chief administrator of the courts to submit a report to the legislature and the governor on: an evaluation of the feasibility and benefit of publishing suppression rulings rendered by trial-level criminal courts and/or collection of data regarding such rulings; whether the publication of additional decisions and/or collection of data would improve the practice of law; an evaluation of the means by which such publication and/or collection of data may be effectuated to improve transparency and the public understanding of these courts; an assessment of any further resources that would be necessary to support increased publication or data collection; and recommendations regarding legislation and administrative measures that could be taken.",
@@ -543,7 +563,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

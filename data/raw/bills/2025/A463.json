@@ -221,9 +221,22 @@
     "date": "2026-11-13",
     "sequenceNo": 17,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A463",
+     "basePrintNoStr": "A463-2025",
+     "printNo": "A463B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 18,
+    "text": "SIGNED CHAP.378"
    }
   ],
-  "size": 17
+  "size": 18
  },
  "activeVersion": "B",
  "additionalSponsors": {
@@ -531,9 +544,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -627,7 +647,7 @@
  "publishedDateTime": "2025-01-06T11:53:20.566421",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -646,11 +666,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Relates to the annual statement of financial disclosure and the posting of financial disclosure filings for candidates for statewide elected office or candidates for a member of the legislature.",

@@ -182,9 +182,22 @@
     "date": "2026-11-13",
     "sequenceNo": 14,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4382",
+     "basePrintNoStr": "A4382-2025",
+     "printNo": "A4382A",
+     "session": 2025,
+     "version": "A"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 15,
+    "text": "SIGNED CHAP.380"
    }
   ],
-  "size": 14
+  "size": 15
  },
  "activeVersion": "A",
  "additionalSponsors": {
@@ -381,9 +394,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -446,7 +466,7 @@
  "publishedDateTime": "2025-02-04T10:20:10.748422",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -465,11 +485,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that elections to fill an increased number of seats on a school board will be conducted at the first annual meeting after the meeting during which number of seats was increased.",

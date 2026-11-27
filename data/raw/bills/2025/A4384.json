@@ -208,9 +208,22 @@
     "date": "2026-11-13",
     "sequenceNo": 16,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A4384",
+     "basePrintNoStr": "A4384-2025",
+     "printNo": "A4384B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 17,
+    "text": "SIGNED CHAP.381"
    }
   ],
-  "size": 16
+  "size": 17
  },
  "activeVersion": "B",
  "additionalSponsors": {
@@ -456,9 +469,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -532,7 +552,7 @@
  "publishedDateTime": "2025-02-04T10:20:40.087565",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -551,11 +571,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Requires that nominating petitions for small city school district elections be submitted no later than thirty days prior to the election; makes technical corrections relating to such small city school board elections.",

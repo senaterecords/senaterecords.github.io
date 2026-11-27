@@ -247,9 +247,35 @@
     "date": "2026-11-13",
     "sequenceNo": 19,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3411",
+     "basePrintNoStr": "A3411-2025",
+     "printNo": "A3411B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 20,
+    "text": "VETOED MEMO.10"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A3411",
+     "basePrintNoStr": "A3411-2025",
+     "printNo": "A3411B",
+     "session": 2025,
+     "version": "B"
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 21,
+    "text": "TABLED"
    }
   ],
-  "size": 19
+  "size": 21
  },
  "activeVersion": "B",
  "additionalSponsors": {
@@ -538,9 +564,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -639,11 +672,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Requires the owner, licensee or operator of a generative artificial intelligence system to conspicuously display a notice on the system's user interface that is reasonably calculated to consistently apprise the user that the outputs of the generative artificial intelligence system may be inaccurate.",
@@ -652,7 +685,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

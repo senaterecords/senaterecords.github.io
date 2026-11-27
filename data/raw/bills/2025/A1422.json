@@ -182,9 +182,35 @@
     "date": "2026-11-13",
     "sequenceNo": 14,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1422",
+     "basePrintNoStr": "A1422-2025",
+     "printNo": "A1422",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 15,
+    "text": "VETOED MEMO.8"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A1422",
+     "basePrintNoStr": "A1422-2025",
+     "printNo": "A1422",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 16,
+    "text": "TABLED"
    }
   ],
-  "size": 14
+  "size": 16
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -552,9 +578,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -639,11 +672,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Provides that an accusatory instrument or supporting deposition consisting of factual allegations by a deponent with limited English proficiency is not sufficient unless accompanied by a sworn statement from an interpreter affirming the accuracy of the English interpretation.",
@@ -652,7 +685,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

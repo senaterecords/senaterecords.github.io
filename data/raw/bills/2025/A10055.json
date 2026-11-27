@@ -182,9 +182,35 @@
     "date": "2026-11-13",
     "sequenceNo": 14,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10055",
+     "basePrintNoStr": "A10055-2025",
+     "printNo": "A10055",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 15,
+    "text": "VETOED MEMO.13"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A10055",
+     "basePrintNoStr": "A10055-2025",
+     "printNo": "A10055",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 16,
+    "text": "TABLED"
    }
   ],
-  "size": 14
+  "size": 16
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -511,9 +537,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -582,11 +615,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Authorizes the office for the aging to establish, operate and maintain programs for transportation services, or to contract with counties, cities, towns, villages, school districts or public or private nonprofit corporations, associations, institutions, or agencies concerned with the aging, for the operation and maintenance of such programs.",
@@ -595,7 +628,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

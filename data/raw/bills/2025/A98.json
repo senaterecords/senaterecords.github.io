@@ -195,9 +195,22 @@
     "date": "2026-11-13",
     "sequenceNo": 15,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A98",
+     "basePrintNoStr": "A98-2025",
+     "printNo": "A98",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 16,
+    "text": "SIGNED CHAP.376"
    }
   ],
-  "size": 15
+  "size": 16
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -374,9 +387,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Signed by Governor",
+    "statusType": "SIGNED_BY_GOV"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -467,7 +487,7 @@
  "publishedDateTime": "2024-12-20T10:02:14.780552",
  "reprintOf": null,
  "session": 2025,
- "signed": false,
+ "signed": true,
  "sponsor": {
   "budget": false,
   "member": {
@@ -486,11 +506,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Signed by Governor",
+  "statusType": "SIGNED_BY_GOV"
  },
  "substitutedBy": null,
  "summary": "Provides that a dental hygienist shall not administer local block anesthesia without a certificate and except under the personal supervision of a dentist and in conjunction with the performance of dental hygiene procedures authorized by law and in accordance with regulations promulgated by the commissioner.",

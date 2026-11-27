@@ -169,9 +169,35 @@
     "date": "2026-11-13",
     "sequenceNo": 13,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8742",
+     "basePrintNoStr": "A8742-2025",
+     "printNo": "A8742",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 14,
+    "text": "VETOED MEMO.12"
+   },
+   {
+    "billId": {
+     "basePrintNo": "A8742",
+     "basePrintNoStr": "A8742-2025",
+     "printNo": "A8742",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "ASSEMBLY",
+    "date": "2026-11-20",
+    "sequenceNo": 15,
+    "text": "TABLED"
    }
   ],
-  "size": 13
+  "size": 15
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -311,9 +337,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -382,11 +415,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Relates to the use of assumed and corporate names by companies in the business of household goods moving; provides that companies may not use the words \"mover\", \"moving\", or \"relocation service\" or any abbreviation or derivative thereof unless approved by the commissioner of transportation.",
@@ -395,7 +428,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {

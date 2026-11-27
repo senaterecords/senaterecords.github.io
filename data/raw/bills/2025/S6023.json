@@ -273,9 +273,22 @@
     "date": "2026-11-13",
     "sequenceNo": 21,
     "text": "DELIVERED TO GOVERNOR"
+   },
+   {
+    "billId": {
+     "basePrintNo": "S6023",
+     "basePrintNoStr": "S6023-2025",
+     "printNo": "S6023",
+     "session": 2025,
+     "version": ""
+    },
+    "chamber": "SENATE",
+    "date": "2026-11-20",
+    "sequenceNo": 22,
+    "text": "VETOED MEMO.24"
    }
   ],
-  "size": 21
+  "size": 22
  },
  "activeVersion": "",
  "additionalSponsors": {
@@ -490,9 +503,16 @@
     "committeeName": null,
     "statusDesc": "Delivered to Governor",
     "statusType": "DELIVERED_TO_GOV"
+   },
+   {
+    "actionDate": "2026-11-20",
+    "billCalNo": null,
+    "committeeName": null,
+    "statusDesc": "Vetoed",
+    "statusType": "VETOED"
    }
   ],
-  "size": 7
+  "size": 8
  },
  "pastCommittees": {
   "items": [
@@ -590,11 +610,11 @@
   "rules": false
  },
  "status": {
-  "actionDate": "2026-11-13",
+  "actionDate": "2026-11-20",
   "billCalNo": null,
   "committeeName": null,
-  "statusDesc": "Delivered to Governor",
-  "statusType": "DELIVERED_TO_GOV"
+  "statusDesc": "Vetoed",
+  "statusType": "VETOED"
  },
  "substitutedBy": null,
  "summary": "Requires the division for small-business to publish a small business compliance guide and post such guide to the division for small-business's website.",
@@ -603,7 +623,7 @@
   "items": [],
   "size": 0
  },
- "vetoed": false,
+ "vetoed": true,
  "votes": {
   "items": [
    {
